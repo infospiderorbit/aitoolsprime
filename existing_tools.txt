@@ -18,6 +18,7 @@ AI Comic Factory
 AI Comic Generator
 AI Comic Generator
 AI Drum Generator
+AI Dubbing by ElevenLabs
 AI Ease
 AI Ease
 AI Emoji Generator
@@ -111,6 +112,7 @@ AISEO
 AISEO
 AIScreenwriter
 AISelfi.es
+AIVA
 AInvest
 AInvest
 APOB.AI
@@ -128,6 +130,9 @@ AdCopy
 AdCreative.ai
 AdCreative.ai
 Adobe
+Adobe Firefly 3
+Adobe Illustrator
+Adobe Podcast
 Adobe Podcast
 Adobe Podcast
 Adwisely
@@ -163,6 +168,7 @@ Alpha3D
 AltIndex
 AltPlot
 AltText.ai
+Amazon CodeWhisperer
 AmazonKDP.Click
 Amazy.uk
 Amped Studio
@@ -242,11 +248,13 @@ Bark
 Barrs
 BasedLabs.ai
 Batch Cropper
+Be My Eyes
 Be Your Best
 BeFunky
 Beacons
 Beacons
 BeatBuzz
+Beatoven
 Beatoven.ai
 Beautiful.ai
 BeautyPlus
@@ -269,6 +277,7 @@ Bitbucket
 Bitbucket
 Bitsjourney
 BizPlanner AI
+BlackBox AI
 BlackInk AI
 Blahget
 Blahget
@@ -340,6 +349,7 @@ Camtasia
 Candy AI
 CandyIcons
 Canopy
+Canva AI
 Canvanizer
 Canvid
 Canvs AI
@@ -376,6 +386,7 @@ Chaport
 CharacterHub
 Charmed AI
 ChatGPT
+ChatGPT
 ChatGPT Conversation Tree Extension
 ChatGPT News De-Sensationalizer
 ChatGPT-Soliloquy
@@ -385,6 +396,7 @@ ChatPDF
 ChatPRD
 ChatPaint
 ChatPulse
+ChatSonic
 ChatUp AI
 Chatfuel
 CheatEye
@@ -399,6 +411,7 @@ Chub AI
 Chunker AI
 Circleboom
 Civitai
+Civitai
 Cladwell
 Claid.ai
 Claude
@@ -409,9 +422,11 @@ Cleanvoice AI
 Cleanvoice AI
 Clearly Reader
 ClevopyAI
+ClickUp
 Clideo
 Clideo
 Clideo
+Cline
 Clip Studio AI
 ClipGen
 Clipto.AI
@@ -442,6 +457,7 @@ ConceptMap AI
 Confab
 Connected Papers
 Consensus
+Consensus
 Content Codex
 ContentStudio
 ContentStudio
@@ -463,6 +479,7 @@ Cortex Labs
 CostumePlayAI
 Course Hero
 Course Hero
+Coursera
 Covariant
 CoverArtist
 CoverDesignAI
@@ -492,6 +509,7 @@ Ctrly.co
 Cuqui Baby Names
 Curipod
 Cursor - The AI Code Editor
+Cursor AI
 Customuse
 Cute Cat Pictures AI Generator
 Cutout.Pro
@@ -506,6 +524,7 @@ Daily, Nightly-AI Affirmations
 DappRadar
 DataCamp
 DataGIF
+Databricks
 Datarails
 Datarails
 Day With God
@@ -532,8 +551,10 @@ Deepfake Maker
 Deepfake Maker
 Deepfakes Web
 Deepgram
+Deepl
 DefiPe
 Deloitte AI Institute
+Delphi AI
 Depositphotos AI Image Generator
 Describe Image & Picture - AI Image Description, Markdown, and Text Converter
 Describe Image & Picture - AI Image Description, Markdown, and Text Converter
@@ -544,6 +565,7 @@ Designrr
 Designs AI
 Designs AI
 Detail
+Devin AI by Cognition
 Dewatermark.AI
 Dia Browser
 Dia from The Browser Company
@@ -624,6 +646,7 @@ EbSynth
 EbSynth
 EbookMaker
 EbookMaker
+Echowin AI
 Eczemaless
 Edraw Software
 Edraw.AI
@@ -672,6 +695,7 @@ FaceSymAI
 Facebook Prospecting AI
 Facebook Prospecting AI
 Faceless.video
+Faceless.video
 Facetune
 Fadr
 Fadr
@@ -700,6 +724,7 @@ FineShare
 FineShare
 Fineshare FineVoice
 Fineshare FineVoice
+FireFlies
 FireTexts
 Firebase Studio
 Firecrawl
@@ -712,6 +737,7 @@ Fix Blur
 Fix Blur
 Fix My Life AI
 Flair AI
+Flair AI
 Flavorish
 FliFlik Voice Changer
 Flick
@@ -723,6 +749,7 @@ FlowGPT
 FlowSavvy
 Flowith 2.0
 Flux AI
+Flux.2
 FlyPix AI
 Focal
 FocuSee
@@ -757,12 +784,14 @@ Futurepedia
 Futureverse
 GAN or Real Person Detector
 GINIX
+GPT Image 1.5
 GPT Personal Companion
 GPT Splitter
 GPT Twitter Bot
 GPT-For-Facebook
 GPTExcel
 GPTExcel
+GPTZero
 GPTZero
 GPTZero
 GPTinf
@@ -772,6 +801,7 @@ Gainsty
 Gamma
 Gamma
 Gamma
+Gamma App
 Gamma.AI
 Gauth
 Gauth
@@ -795,6 +825,7 @@ GirlfriendGPT
 GirlfriendGPT
 GitBook
 GitHub
+GitHub Copilot AI
 GitaGPT
 GitaGPT
 Gitlights
@@ -843,6 +874,7 @@ HEROZ
 HIX.AI
 HIX.AI
 Hadana AI
+Hailuo AI (MiniMax)
 Haiper AI
 HaircutAI
 HaircutAI
@@ -864,6 +896,7 @@ Heidi Health
 Heidi Health
 Helio.AI
 Helpjuice
+HeyGen
 HeyGen
 HeyGen
 HeyGen
@@ -900,6 +933,7 @@ Humata AI
 Humbot
 Huntr
 Huntr
+Hunyuan Video
 Hybrid Poker
 HypeAuditor
 Hypefury
@@ -922,6 +956,7 @@ Icons8
 Icons8
 Icons8 Smart Upscaler
 IdeaBuddy
+Ideogram 3.0
 Ikigai Quest
 Illuminate
 Image Describer
@@ -940,6 +975,7 @@ ImagePrompt.org
 ImagePrompt.org
 ImageToText.info
 ImageToText.info
+Imagen 4
 Imaginario.ai
 ImgLarger
 ImgUpscaler
@@ -982,11 +1018,14 @@ Intercom
 Intercom
 Interior AI
 Islam & AI
+Jammable
 Janitor AI
 Janitor AI
+Jasper
 Jasper AI
 Jeda.ai
 Jenni AI
+Jenny AI
 Jobed
 Jobright
 Jobright
@@ -1031,6 +1070,8 @@ Kittl
 Klangio
 Klaviyo
 Klaviyo
+Klaviyo
+Kling 3.0
 Kling AI
 Knowt
 Knowt
@@ -1042,6 +1083,7 @@ Komodo
 Kopy
 KowboyKit
 Krea AI
+Krea.ai
 Kreo Software
 Krikey AI
 Krisp
@@ -1062,6 +1104,7 @@ LandscapingAI
 Language Reactor
 LanguageTool
 LanguageTool
+LanguageTool
 Lanta AI
 Lasso
 Law Insider
@@ -1077,6 +1120,7 @@ LegalForce
 LegalGraph AI
 LensGo
 Lenso AI
+Leonardo AI
 Leonardo.Ai
 LetsEnhance.io
 LetsEnhance.io
@@ -1126,6 +1170,7 @@ Ludo.ai
 Luma AI
 Luma AI Dream Machine
 Luma AI Dream Machine
+Luma Dream Machine
 Luminance
 Lunchbreak AI
 Luvvoice
@@ -1147,6 +1192,7 @@ Magic Hour
 Magic Hour
 Magic Hour
 Magic Patterns
+Magic by Shopify
 MagicForm.app
 MagicSchool
 MagicSchool
@@ -1156,6 +1202,8 @@ Mailbutler
 Mailchimp
 Mailchimp
 MailerLite
+MailerLite
+Make
 Make Headline
 Make a Sign
 MakeInfluencer AI
@@ -1206,6 +1254,7 @@ MetaMask
 MicVoice.Ai
 Microsoft Designer
 Microsoft Designer
+MidJourney V7
 MidReal
 MidReal
 Middleware
@@ -1245,6 +1294,7 @@ Movavi
 MovieAIPoster
 Mtalkz
 Muah.AI
+Mubert AI
 Mureka
 Mureka
 Murf AI
@@ -1291,6 +1341,7 @@ Namelix
 Namelix
 Naming Magic
 Namy.ai
+Nano Banana 2
 Napkin AI
 Napkin AI
 Napkin AI
@@ -1309,6 +1360,7 @@ Neural Frames
 Neurons AI
 NexLev
 Nifty
+Night Cafe
 NightCafe Creator
 Niji・Journey
 NoPlagio
@@ -1320,8 +1372,10 @@ Nomi.ai
 NoteGPT
 NotePerformer
 Notebook.ai
+NotebookLM
 Notion
 Notion
+Notion AI
 Notta
 Notta
 Novanym
@@ -1371,6 +1425,7 @@ OpenSea
 OpenVC
 Opinion Stage
 Opinionate
+Opus Clip
 Opus Clip
 Opus Clip
 Opus Clip
@@ -1438,6 +1493,7 @@ Perfectessaywriter.ai
 Periodic Table Chemistry 2024
 Perplexity AI
 Perplexity AI
+Perplexity AI
 Perplexity Comet
 Pestle: Recipe Manager
 PhantomBuster
@@ -1451,6 +1507,7 @@ PhotoGuruAI
 PhotoRestore.io
 PhotoRestore.io
 Photoroom
+Photoshop AI
 Phrasly.AI
 Phrasly.AI
 Pic Copilot
@@ -1469,9 +1526,11 @@ Pikzels
 Pikzels
 Pikzels
 Pillar
+PimEyes
 PinkCatgirls
 Pionex
 Pionex
+Pipedrive
 Pipiads
 Pipiads AI Image Text Remover
 Pippit AI
@@ -1578,8 +1637,10 @@ Quicko Pro
 QuillBot
 QuillBot
 QuillBot
+QuillBot
 QuizBot.ai
 QuizBot.ai
+QuizLet
 Quizgecko
 Quoai
 QuoteGenerator.io
@@ -1631,6 +1692,7 @@ Replaces suggested replies on Gmail messages with poetic verse
 Replicate
 Replika
 Replit
+Replit AI
 ReplyGuy
 ReportGPT
 Rerun
@@ -1647,6 +1709,7 @@ ResumeBuilder.com
 RetouchAI
 Rev
 Rev
+Reve Image
 Reviewly
 Revisely
 Revocalize AI
@@ -1678,6 +1741,8 @@ Rotageek
 Roxy - AI Voice companion
 Rubii: AI Character Community
 Runway
+Runway Gen-4.5
+Rytr
 SEO Writing AI
 SEO.AI
 SHIFT AI
@@ -1708,6 +1773,7 @@ SchoolAI
 SciPhi
 SciPub+
 SciSummary
+Scite.ai
 ScoreApp
 ScreenApp
 Scribble Diffusion
@@ -1721,11 +1787,13 @@ Seapik
 Search Atlas
 Secret Desires
 Secur3D
+Seedream 5.0
 Segment Anything Model (SAM)
 Segment Anything | Meta AI
 Seismic
 SelfLoveLetter
 Selfgazer
+Semantic Scholar
 Semantic Scholar
 SendFame
 SendShort
@@ -1789,6 +1857,7 @@ Songtell
 Soopra
 Sora
 Sora
+Sora 2
 SoraPix
 SoraPix
 SoundVerse AI
@@ -1817,6 +1886,7 @@ SpoiledChild
 Spokk
 Sports AI
 Sports AI
+Sprout Social
 SquadHelp
 Squibler
 Squibler
@@ -1877,6 +1947,7 @@ Sudowrite
 Sudowrite
 SuitUp
 Summarist.ai
+Suno AI V5
 Supa
 Supa
 Supawork AI
@@ -1925,6 +1996,7 @@ Talkpal
 Tangle
 Tanka
 Taplio
+Taplio
 Tarotap
 Tarotoo
 Tarteel AI
@@ -1936,6 +2008,7 @@ TaxTim SA
 Teachers Report Writer
 TeeAI
 TemPolor
+Tempus AI
 TeraBox
 Testportal
 Text To Speech OpenAI
@@ -2049,6 +2122,7 @@ UPDF
 UX Pilot
 Udio
 Udio
+Udio
 Uhmegle
 Uizard
 Uizard
@@ -2059,6 +2133,7 @@ Unblurimage AI
 Unbounce
 Unbounce
 Uncle A.I.
+Undetectable AI
 Undetectable AI
 Undetectable AI
 Undress AI
@@ -2113,6 +2188,7 @@ Veo
 Veo
 Veo
 Veo 3
+Veo 3.1
 Verbalate
 Verse.ai
 Vetted
@@ -2150,6 +2226,7 @@ Visily
 Visily
 Visily
 Visionati
+Visme
 Vizard.ai
 Vizard.ai
 Vizcom
@@ -2159,11 +2236,13 @@ Vmate AI
 VoCut
 VocabMate
 Vocal Image
+Vocal Remover
 Vocal Remover Oak
 Voice-Swap
 Voice.ai
 VoiceDub
 Voiceform
+Voicemod
 Voicemod
 Voicemod
 Vondy
@@ -2197,6 +2276,7 @@ Whomadethisartwork.com
 Why Try AI
 Windsurf
 Windsurf
+Windsurf Editor
 WindyBot
 Winggg
 WingmanX
@@ -2204,6 +2284,8 @@ WingmanX
 Winning Hunter
 Wishgram
 Wizardshot
+Woebot Health
+WolframAlpha
 Wolfram|Alpha
 Wondercraft
 Wonderful Valemtimes
@@ -2219,6 +2301,7 @@ Worlds Beyond
 Write Conch AI
 WriteHuman
 WriteHuman
+WriteSonic
 Writefull
 Writeless
 Writer
