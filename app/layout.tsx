@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
+import Script from "next/script";
 
 const geist = Geist({
   variable: "--font-geist-sans",
@@ -41,9 +42,27 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYD1XWW48Z"></script>
+        <script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-PYD1XWW48Z');
+        `}} />
+      </head>
       <body className={`${geist.variable} ${geistMono.variable} antialiased`}>
         {children}
         <Toaster />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PYD1XWW48Z" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-PYD1XWW48Z');
+          `}
+        </Script>
       </body>
     </html>
   );
