@@ -1,4 +1,4 @@
-import Link from "next/link";
+content = '''import Link from "next/link";
 import { ArrowLeft, Star, ArrowUp } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -99,3 +99,6 @@ export default async function CategoryPage({
     </div>
   );
 }
+'''
+open("app/category/[category]/page.tsx", "w").write(content)
+print("Done!")
