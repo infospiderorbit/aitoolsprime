@@ -1,4 +1,8 @@
-const fs = require("fs");
+// Better scrolling (more aggressive)
+for (let i = 0; i < 15; i++) {
+  await page.evaluate(() => window.scrollBy(0, window.innerHeight));
+  awaiconst 
+fs = require("fs");
 const puppeteer = require("puppeteer");
 
 const URL = "https://www.toolify.ai/category/ai-girlfriend";

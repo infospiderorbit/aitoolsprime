@@ -1,4 +1,40 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "mybabes-ai": {
+    whatIs: "MyBabes AI is an advanced AI companion platform combining realistic conversation with AI image and video generation. Users design fully customized virtual characters by choosing appearance, personality traits, and interaction style. The platform features a TikTok-style Reels feed of AI-generated videos, in-chat image generation, and deep roleplay capabilities. MyBabes AI operates entirely through the browser with no downloads required.",
+    features: [
+      "Full Character Customization: Choose hair color, body type, ethnicity, outfits and personality traits",
+      "AI Image Generation: Generate custom photos of your AI girlfriend in any setting on demand",
+      "AI Video Generation: Create short videos and reels featuring your AI character",
+      "Community Reels Feed: Scroll a TikTok-style feed of AI-generated videos",
+      "Deep Roleplay: Engage in immersive conversational roleplay with adaptive AI companions",
+      "Persistent Memory: AI remembers your preferences and past conversations",
+      "Privacy and Security: AES-256 encryption with no sharing of personal data",
+      "Browser-Based Access: No installation required from any device"
+    ],
+    howToUse: {
+      title: "How to Use MyBabes AI",
+      description: "Get started with MyBabes AI in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit mybabes.ai and sign up for a free account. The free tier gives basic features including limited daily messages and character creation." },
+        { title: "Design Your AI Companion", description: "Use the character creator to customize appearance, personality traits, name and backstory for a personalized experience." },
+        { title: "Start Chatting and Creating", description: "Chat with your companion, request AI-generated images, explore the community Reels feed and generate short video clips." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Character Creator", description: "Design every detail of your AI companion including physical appearance, personality traits and backstory" },
+      { title: "AI Image Generation", description: "Generate high-quality photorealistic images of your companion in any scenario directly within chat" },
+      { title: "Video and Reels Generation", description: "Transform your AI character into short animated video clips with smooth movements and expressions" },
+      { title: "Community Reels Feed", description: "Browse a continuously updated feed of AI-generated videos and images from the MyBabes community" },
+      { title: "Persistent Memory System", description: "The AI remembers key details from your conversations for more natural long-term interactions" },
+      { title: "Flexible Subscription Plans", description: "Free tier plus Premium at 14.99 per month or Ultimate at 29.99 per month with gem-based tokens" }
+    ],
+    useCases: [
+      { title: "AI Companion Experience", description: "Build a personalized AI girlfriend with unique personality and engage in meaningful daily conversations" },
+      { title: "Creative Character Design", description: "Design detailed AI characters and generate visual content for creative projects" },
+      { title: "Immersive Roleplay", description: "Deep scenario-based roleplay with AI companions that adapt to your context and tone" },
+      { title: "AI Video and Image Creation", description: "Generate unique AI images and short video reels featuring your custom characters" }
+    ]
+  },
   "joi-ai": {
     whatIs: "Joi AI is new generation's AI chatting platform where users can create their own girlfriend to simulate natural conversations. It supports multiple AI characters, custom personas, and flexible interaction modes, allowing users to engage in creative dialogue, role-play environments, idea exploration, and personalised chat experiences. The platform focuses on providing realistic character behaviour through advanced learning language modelling, enabling structured conversations that follow set traits, personality profiles, and scenario-based inputs. Joi AI can be used directly through the browser and does not require any application or software installation.",
     features: [

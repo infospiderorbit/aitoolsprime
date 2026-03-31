@@ -2961,6 +2961,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "wingmanx", name: "WingmanX", description: "AI wingman for dating conversations", url: "", upvotes: 2321, verified: true, rating: 4.3, icon: "🕊️", category: "chatbots-virtual-companions", subcategory: "ai-dating-assistant" }
     ],
     "ai-girlfriend": [
+      { id: "mybabes-ai", name: "MyBabes AI", description: "Advanced AI companion platform with video generation, image creation and deep roleplay", url: "https://mybabes.ai", upvotes: 3200, verified: true, rating: 4.5, icon: "💝", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
       { id: "candy-ai", name: "Candy AI", description: "AI companion for chat, video, voice, and character creation", url: "https://candy.ai", upvotes: 3980, verified: true, rating: 4.8, icon: "🍬", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend", addedDate: "2024-11-19" },
       { id: "pephop-ai", name: "Pephop AI", description: "AI Chat platform offers video, voice, and custom character creation", url: "https://pephop.ai/", upvotes: 3850, verified: true, rating: 4.7, icon: "🎭", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend", addedDate: "2025-11-20" },
       { id: "lovescape", name: "LOVESCAPE", description: "AI girlfriend with immersive experiences", url: "", upvotes: 3789, verified: true, rating: 4.8, icon: "💖", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
