@@ -24,9 +24,11 @@ export async function generateMetadata({ params }: { params: Promise<{ tool: str
   const { tool } = await params;
   const toolData = findTool(tool);
   if (!toolData) return { title: "Tool Not Found | AI Tools Prime" };
+  const info = toolsProductInfoData[tool];
+  const metaDesc = info?.whatIs ? info.whatIs.substring(0, 160) : toolData.description.substring(0, 160);
   return {
-    title: toolData.name + " - AI Tool | AI Tools Prime",
-    description: toolData.description.substring(0, 160),
+    title: toolData.name + ": " + toolData.description.substring(0, 60) + " | AI Tools Prime",
+    description: metaDesc,
   };
 }
 
@@ -179,7 +181,7 @@ if (!toolData) notFound();
           <h2 className="text-2xl font-bold mb-6">{toolData.name} Product Information</h2>
           <div className="space-y-8">
             <div>
-              <h3 className="text-xl font-semibold mb-3">What is {toolData.name}?</h3>
+              <h3 className="text-xl font-semibold mb-3">{toolData.name} Overview</h3>
               <p className="text-muted-foreground leading-relaxed">{info.whatIs}</p>
               {info.features && (
                 <div className="mt-4">
