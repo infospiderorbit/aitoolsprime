@@ -1774,7 +1774,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "image-to-3d-model": [
       { id: "planner-5d", name: "Planner 5D", description: "AI 2D to 3D model converter", url: "", upvotes: 1567, verified: true, rating: 4.8, icon: "🏠", category: "art-creative-design", subcategory: "image-to-3d-model" },
-      { id: "meshy-3d", name: "Meshy", description: "Image to 3D mesh AI", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🌟", category: "art-creative-design", subcategory: "image-to-3d-model" },
+      { id: "meshy-3d", name: "Meshy AI", description: "Meshy AI is the world leading AI-powered 3D model generator that transforms text prompts and images into fully textured game-ready 3D assets in under a minute, trusted by over 3 million creators worldwide.", url: "https://www.meshy.ai", upvotes: 1234, verified: true, rating: 4.7, icon: "🌟", category: "art-creative-design", subcategory: "image-to-3d-model" },
       { id: "tripo-ai-3d", name: "Tripo AI", description: "Triple AI 3D model creator", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🔺", category: "art-creative-design", subcategory: "image-to-3d-model" },
       { id: "3d-ai-studio", name: "3D AI Studio", description: "Professional 3D AI platform", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🎭", category: "art-creative-design", subcategory: "image-to-3d-model" },
       { id: "alpha3d", name: "Alpha3D", description: "Advanced 3D AI converter", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "🚀", category: "art-creative-design", subcategory: "image-to-3d-model" }
