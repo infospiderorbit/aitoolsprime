@@ -965,7 +965,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-waifu-generator": [
       { id: "waifu-labs", name: "Waifu Labs", description: "AI anime character generator", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🎭", category: "image-generation-editing", subcategory: "ai-waifu-generator" },
-      { id: "ai-hentai-generator", name: "AI Hentai Generator", description: "Adult anime art generator", url: "", upvotes: 789, verified: false, rating: 4.2, icon: "🔞", category: "image-generation-editing", subcategory: "ai-waifu-generator" },
+      { id: "ai-hentai-generator", name: "AI Hentai Generator", description: "AI Hentai Generator is an advanced adult anime art creation platform that uses artificial intelligence to generate high-quality anime and manga-style illustrations from text prompts with extensive customization options.", url: "", upvotes: 789, verified: false, rating: 4.2, icon: "🧚‍♀️", category: "image-generation-editing", subcategory: "ai-waifu-generator" },
       { id: "pinkcatgirls", name: "PinkCatgirls", description: "Anime catgirl character generator", url: "", upvotes: 456, verified: false, rating: 4.1, icon: "🐱", category: "image-generation-editing", subcategory: "ai-waifu-generator" },
       { id: "sorapix", name: "SoraPix", description: "AI anime art creation platform", url: "", upvotes: 567, verified: true, rating: 4.3, icon: "🌸", category: "image-generation-editing", subcategory: "ai-waifu-generator" },
       { id: "spicy-chat-ai", name: "Spicy Chat AI", description: "AI chat with anime characters", url: "", upvotes: 234, verified: false, rating: 3.9, icon: "🌶️", category: "image-generation-editing", subcategory: "ai-waifu-generator" }
