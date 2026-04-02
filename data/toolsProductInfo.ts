@@ -1,4 +1,256 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "manus-ai": {
+    whatIs: "Manus AI is a groundbreaking autonomous AI agent platform developed by Butterfly Effect and acquired by Meta in late 2025 for an estimated 2 billion dollars. Unlike traditional AI assistants that only answer questions, Manus independently executes complex multi-step tasks by browsing the web, writing and running code, analyzing data, creating documents and interacting with external services. The platform operates asynchronously in the cloud meaning users give a goal and Manus delivers completed results without requiring constant supervision. It integrates with Notion, Gmail, Slack and other platforms.",
+    features: [
+      "Autonomous Task Execution: Completes complex multi-step tasks without human intervention",
+      "Web Browsing: Independently searches and extracts information from websites",
+      "Code Writing and Execution: Writes and runs code in a sandbox environment",
+      "Document Creation: Produces polished reports, presentations and documents",
+      "Data Analysis: Analyzes datasets and creates charts and insights automatically",
+      "Multi-Agent System: Uses specialized agents for different task types simultaneously",
+      "Tool Integrations: Connects with Notion, Gmail, Slack and other platforms",
+      "Live Task Streaming: Watch the AI work in real time through the Manus Computer view"
+    ],
+    howToUse: {
+      title: "How to Use Manus Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Goal", description: "Visit manus.im and describe the complex task you want completed in plain language. Be specific about the desired output format." },
+        { title: "Let Manus Work", description: "Manus breaks your goal into subtasks and executes them autonomously using web browsing, code execution and document creation tools. Watch progress in real time." },
+        { title: "Receive Your Results", description: "Manus delivers completed results as files, reports or structured outputs ready for immediate use. Review and iterate if needed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Autonomous Execution", description: "The defining feature of Manus is true autonomous multi-step task completion without requiring human guidance at each step" },
+      { title: "Manus Computer View", description: "Live streaming dashboard showing exactly what the AI is doing including websites visited, code written and documents created in real time" },
+      { title: "Multi-Agent Architecture", description: "Multiple specialized AI agents work simultaneously on different aspects of a task selecting the best model for each subtask" },
+      { title: "Cross-Platform Integration", description: "Seamless integration with productivity tools including Notion, Gmail and Slack enabling AI to take actions across your existing workflow" }
+    ],
+    useCases: [
+      { title: "Research and Analysis", description: "Professionals automating complex research tasks that previously required hours of manual web searching, data collection and report writing" },
+      { title: "Code Development", description: "Developers using Manus to prototype applications, write scripts and automate coding tasks with minimal manual input" },
+      { title: "Business Workflows", description: "Teams using Manus to automate recurring business processes including data collection, report generation and email management" }
+    ]
+  },
+  "unlucid-ai": {
+    whatIs: "Unlucid AI is a creative AI image and video generation platform specializing in surreal, dreamlike and artistic visuals created from text prompts. The platform focuses on unique aesthetic outputs that go beyond standard image generation offering otherworldly and imaginative results. Unlucid is popular with artists and creators who want distinctive AI-generated visuals that stand out from typical AI art.",
+    features: [
+      "Surreal Image Generation: Create dreamlike and surreal AI artwork from text",
+      "Video Generation: Produce AI-generated videos with unique visual styles",
+      "Unique Aesthetics: Distinctive visual style unlike standard AI generators",
+      "Multiple Styles: Various surreal and artistic generation modes",
+      "High Quality Output: Professional resolution image and video output",
+      "Creative Freedom: Minimal restrictions for experimental artistic expression"
+    ],
+    howToUse: {
+      title: "How to Use Unlucid Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Vision", description: "Visit unlucid.ai and write a creative text prompt describing the surreal or dreamlike image or video you want to generate." },
+        { title: "Generate Your Art", description: "Submit your prompt and Unlucid AI generates a unique surreal visual with its distinctive aesthetic style." },
+        { title: "Download and Share", description: "Download your artwork or video for use in creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Surreal AI Engine", description: "Specialized AI generation model producing distinctive dreamlike and surreal visuals not available on standard generation platforms" },
+      { title: "Video Generation", description: "Creates AI-generated video content with unique surreal visual aesthetics for creative and artistic projects" },
+      { title: "Unique Aesthetic", description: "Platform-specific visual style creating outputs with a distinctive otherworldly quality" },
+      { title: "Creative Freedom", description: "Minimal content restrictions allowing experimental and boundary-pushing artistic image and video creation" }
+    ],
+    useCases: [
+      { title: "Surreal Art Creation", description: "Artists and creatives generating unique surreal and dreamlike imagery for art projects and personal expression" },
+      { title: "Video Content", description: "Content creators producing distinctive AI-generated video content with unique visual aesthetics" },
+      { title: "Artistic Exploration", description: "Users exploring the boundaries of AI generation through experimental surreal and abstract prompts" }
+    ]
+  },
+  "spicychat-ai": {
+    whatIs: "SpicyChat AI is an uncensored AI chatbot platform developed by NextDay AI Incorporated featuring over 850000 community-created characters for creative roleplay and adult conversations. The platform uses advanced language models including the SpicyXL model with up to 141 billion parameters for sophisticated responses. SpicyChat stands out for its generous free tier that includes NSFW chat access, Semantic Memory 2.0 for cross-session recall, and cross-platform availability on web, iOS and Android. With over 2 million registered members it is one of the largest AI companion communities.",
+    features: [
+      "Massive Character Library: Over 850000 AI characters across every genre and personality type",
+      "Uncensored Roleplay: Adult-oriented conversations without content restrictions",
+      "Semantic Memory 2.0: AI remembers preferences and story elements across multiple sessions",
+      "SpicyXL Model: Up to 141 billion parameter AI model for sophisticated responses",
+      "Voice Mode: Real-time voice interaction with AI characters",
+      "Cross-Platform: Available on web, iOS and Android",
+      "Community Creation: Users create and share their own AI characters",
+      "Free NSFW Access: Adult content available on the free tier"
+    ],
+    howToUse: {
+      title: "How to Use Spicychat Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Sign Up Free", description: "Visit spicychat.ai and create a free account. The free tier gives immediate access to the character library and uncensored chat without a credit card." },
+        { title: "Choose or Create a Character", description: "Browse 850000 plus community characters or build your own with custom name, personality, appearance and backstory." },
+        { title: "Start Chatting", description: "Begin your roleplay or conversation. Upgrade to unlock Semantic Memory 2.0 and larger context windows for longer sessions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "SpicyXL AI Model", description: "Powers conversations with up to 141 billion parameters delivering sophisticated contextually aware responses on premium plans" },
+      { title: "Semantic Memory 2.0", description: "Automatically generates and retains memories from conversations allowing characters to recall preferences and story details across sessions" },
+      { title: "Character Creator", description: "Extensive tools for building custom AI characters with detailed personality traits, appearance, backstory and behavioral instructions" },
+      { title: "Community Library", description: "850000 plus user-created characters continuously expanding through community contributions across every genre and theme" }
+    ],
+    useCases: [
+      { title: "Adult Roleplay", description: "Adults seeking uncensored creative roleplay with highly customizable AI characters in a platform built for mature content" },
+      { title: "Interactive Storytelling", description: "Writers and creatives using AI characters to develop narrative scenarios and explore story ideas through immersive dialogue" },
+      { title: "AI Companionship", description: "Users seeking ongoing companionship with AI characters that remember past conversations and build consistent relationships" }
+    ]
+  },
+  "vheer-ai": {
+    whatIs: "Vheer AI is an advanced AI image generation platform that creates high-quality realistic and artistic images from text prompts. The platform offers multiple generation styles ranging from photorealistic to artistic and stylized outputs. Vheer focuses on delivering professional quality results with fine-grained control over style, composition and character details making it suitable for creators, designers and digital artists.",
+    features: [
+      "Text to Image: Generate detailed images from text descriptions",
+      "Multiple Styles: Realistic, artistic, anime and fantasy generation options",
+      "High Resolution: Professional quality image output",
+      "Character Control: Detailed control over character appearance and scenes",
+      "Fast Generation: Quick image rendering with advanced AI",
+      "Commercial License: Generated images available for commercial use"
+    ],
+    howToUse: {
+      title: "How to Use Vheer Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Visit vheer.com and describe the image you want to create with detailed text. Include style, subject, colors and composition details." },
+        { title: "Select Your Style", description: "Choose from available generation styles including realistic, artistic or anime to match your creative vision." },
+        { title: "Generate and Download", description: "Generate your image and download the high-resolution result for personal or commercial use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Advanced Generation AI", description: "Powerful AI image generation model producing detailed high-quality results across multiple visual styles" },
+      { title: "Style Control", description: "Comprehensive style selection allowing users to target specific aesthetic outcomes from photorealistic to stylized" },
+      { title: "Character Detail", description: "Fine-grained control over character appearance, poses and scene composition for precise creative output" },
+      { title: "Commercial Availability", description: "Generated images available for commercial use making Vheer suitable for business and professional creative projects" }
+    ],
+    useCases: [
+      { title: "Digital Art Creation", description: "Artists and creatives generating original artwork and illustrations using AI image generation technology" },
+      { title: "Content Marketing", description: "Marketers creating custom visual content for campaigns, social media and digital advertising" },
+      { title: "Concept Visualization", description: "Designers and developers using Vheer to quickly visualize concepts and ideas before production" }
+    ]
+  },
+  "dreamina-ai": {
+    whatIs: "Dreamina AI is CapCut powerful AI image and video generation platform that creates stunning visuals from text descriptions. Backed by ByteDance the parent company of TikTok and CapCut, Dreamina combines professional-grade AI generation technology with an easy-to-use interface accessible to creators of all skill levels. The platform supports both image and video generation with multiple art styles and high resolution output making it one of the most capable AI creative tools available.",
+    features: [
+      "Text to Image: Generate high-quality images from detailed text descriptions",
+      "Video Generation: Create short AI-generated videos from text prompts",
+      "Multiple Art Styles: Realistic, anime, artistic and fantasy generation modes",
+      "High Resolution: Professional quality image output up to 4K resolution",
+      "CapCut Integration: Seamless workflow with CapCut video editing tools",
+      "Commercial Use: Generated content suitable for commercial creative projects"
+    ],
+    howToUse: {
+      title: "How to Use Dreamina Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Dreamina", description: "Visit dreamina.capcut.com and sign in with your CapCut or TikTok account for instant access." },
+        { title: "Describe Your Vision", description: "Write a detailed text prompt describing the image or video you want to create. Include style, subject, colors and mood for best results." },
+        { title: "Generate and Use", description: "Generate your content and download it directly or send it to CapCut for further editing and use in your creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Image Generation", description: "Professional quality text-to-image generation powered by ByteDance advanced AI technology" },
+      { title: "Video Creation", description: "Text-to-video generation producing short creative clips suitable for social media and content creation" },
+      { title: "Style Variety", description: "Multiple generation styles from photorealistic to anime and artistic allowing diverse creative output" },
+      { title: "Platform Integration", description: "Deep integration with CapCut ecosystem enabling seamless creative workflows from generation to editing to publishing" }
+    ],
+    useCases: [
+      { title: "Social Media Content", description: "Content creators generating custom images and videos for TikTok, Instagram and other social platforms" },
+      { title: "Creative Projects", description: "Artists and designers using Dreamina to generate visual assets and concept art for their projects" },
+      { title: "Marketing Materials", description: "Businesses creating custom visual content for advertising, social media and digital marketing campaigns" }
+    ]
+  },
+  "pica-ai": {
+    whatIs: "Pica AI is a comprehensive AI photo editing and enhancement platform specializing in face swapping, background removal, image restoration and creative photo effects. The platform uses advanced computer vision and AI models to deliver professional-quality photo editing results accessible to non-professionals. Pica AI is particularly popular for its realistic face swap technology and its ability to transform ordinary photos into professional-quality portraits.",
+    features: [
+      "AI Face Swap: Realistic face swapping in photos with natural results",
+      "Background Removal: Instant AI-powered background removal and replacement",
+      "Photo Enhancement: Improve image quality, sharpness and color automatically",
+      "Face Beautification: AI skin smoothing, feature enhancement and portrait retouching",
+      "Style Transfer: Apply artistic styles and filters to photos using AI",
+      "Object Removal: Remove unwanted objects from photos seamlessly"
+    ],
+    howToUse: {
+      title: "How to Use Pica Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Visit pica-ai.com and upload the photo you want to edit or enhance." },
+        { title: "Choose Your Edit", description: "Select from face swap, background removal, enhancement or style transfer based on your creative goal." },
+        { title: "Download Results", description: "Review your AI-edited photo and download the high-resolution result for personal or commercial use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Face Swap", description: "Industry-leading face swap technology producing realistic natural-looking results for photos and creative projects" },
+      { title: "Smart Background Removal", description: "One-click AI background removal with precise edge detection for clean professional cutouts" },
+      { title: "Portrait Enhancement", description: "Comprehensive portrait retouching including skin smoothing, color correction and feature enhancement" },
+      { title: "Batch Processing", description: "Process multiple images simultaneously saving significant time for photographers and content creators" }
+    ],
+    useCases: [
+      { title: "Content Creation", description: "Social media creators and influencers using AI photo effects for creative and entertaining content" },
+      { title: "Professional Photography", description: "Photographers using AI enhancement tools to quickly improve client photos and deliver professional results" },
+      { title: "Personal Use", description: "Casual users transforming personal photos with face swaps, enhancements and creative effects for fun" }
+    ]
+  },
+  "agnes-ai": {
+    whatIs: "Agnes AI is an intelligent AI assistant and agent platform helping users with research, writing, task automation and information retrieval through conversational AI. The platform provides a capable AI agent for productivity tasks including document analysis, content creation, web research and complex question answering. Agnes AI acts as a personal AI assistant that handles diverse tasks efficiently.",
+    features: [
+      "AI Research: Automated web research and information gathering",
+      "Writing Support: Assistance with content creation and editing",
+      "Task Automation: Automate repetitive productivity tasks",
+      "Document Analysis: Analyze and summarize uploaded documents",
+      "Question Answering: Accurate responses to complex questions",
+      "Conversation Memory: Remembers context across conversation sessions"
+    ],
+    howToUse: {
+      title: "How to Use Agnes Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start a Conversation", description: "Visit agnes-ai.com and begin a conversation with Agnes by describing what you need help with." },
+        { title: "Work Together", description: "Ask Agnes to help with research, writing, analysis or any productivity task. Provide context for better results." },
+        { title: "Get Results", description: "Receive detailed helpful responses and outputs. Continue the conversation to refine results or tackle new tasks." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversational AI Agent", description: "Natural language AI agent capable of understanding and executing diverse research and productivity requests autonomously" },
+      { title: "Document Intelligence", description: "Analyzes and extracts insights from uploaded documents providing summaries and answering specific questions" },
+      { title: "Writing Assistant", description: "Helps with all types of content creation from emails to reports with suggestions and complete drafts" },
+      { title: "Research Capability", description: "Assists with gathering, organizing and synthesizing information on any topic for research and analysis purposes" }
+    ],
+    useCases: [
+      { title: "Research Tasks", description: "Professionals and students needing AI assistance with gathering and organizing information for projects" },
+      { title: "Content Creation", description: "Writers and marketers using AI to assist with creating articles, emails and other written content" },
+      { title: "Productivity Enhancement", description: "Users automating routine information tasks and getting quick answers to questions during their workflow" }
+    ]
+  },
+  "pixnova-ai": {
+    whatIs: "Pixnova AI is a creative AI image and video generation platform producing high-quality artwork, illustrations and multimedia content from text descriptions. The platform offers multiple art styles and high-resolution output suitable for both personal and commercial creative projects. Pixnova focuses on delivering consistent quality across a wide range of artistic styles for images and video content.",
+    features: [
+      "Text to Image: Generate high-quality images from text descriptions",
+      "Video Generation: Create AI-generated videos from text prompts",
+      "Art Style Variety: Multiple artistic styles from realistic to illustrated",
+      "High Resolution: Professional quality image and video output",
+      "Character Creation: Generate detailed character illustrations",
+      "Commercial License: Images and videos available for commercial use"
+    ],
+    howToUse: {
+      title: "How to Use Pixnova Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Prompt", description: "Visit pixnova.ai and write a detailed text description of the image or video you want to create." },
+        { title: "Select Your Style", description: "Choose from available art styles to match the aesthetic you want for your content." },
+        { title: "Generate and Download", description: "Generate your content and download the high-resolution result for your creative project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative AI Engine", description: "Powerful text-to-image and text-to-video AI producing diverse high-quality artistic outputs" },
+      { title: "Style Control", description: "Comprehensive art style selection allowing users to achieve specific aesthetic outcomes consistently" },
+      { title: "Video Generation", description: "Creates AI-generated video content from text descriptions for diverse creative applications" },
+      { title: "Commercial Ready", description: "Generated content available for commercial use making Pixnova suitable for business applications" }
+    ],
+    useCases: [
+      { title: "Digital Art", description: "Artists using AI generation to create original artwork and illustrations for personal and commercial use" },
+      { title: "Video Content", description: "Creators producing AI-generated video content for social media, marketing and creative projects" },
+      { title: "Content Marketing", description: "Marketers creating unique custom visuals and videos for campaigns and digital marketing" }
+    ]
+  },
   "joyland-ai": {
     whatIs: "Joyland AI is an immersive AI character chat platform focused on creative roleplay and interactive storytelling with anime and fictional companions. The platform combines high-quality character design with advanced conversational AI to create deeply engaging narrative experiences. Users can interact with pre-built characters or create their own custom personas with detailed personality and backstory settings for truly personalized roleplay.",
     features: [
