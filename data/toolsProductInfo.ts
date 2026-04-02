@@ -1,4 +1,314 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "joyland-ai": {
+    whatIs: "Joyland AI is an immersive AI character chat platform focused on creative roleplay and interactive storytelling with anime and fictional companions. The platform combines high-quality character design with advanced conversational AI to create deeply engaging narrative experiences. Users can interact with pre-built characters or create their own custom personas with detailed personality and backstory settings for truly personalized roleplay.",
+    features: [
+      "Immersive Roleplay: Deep scenario-based character interactions for storytelling",
+      "Anime Characters: Beautifully designed anime-style AI companion characters",
+      "Custom Personas: Create detailed AI characters with unique personalities",
+      "Narrative Depth: Story-driven conversations that evolve with user choices",
+      "Character Backstories: Each companion has rich detailed history and personality",
+      "Community Content: Browse and share user-created characters and scenarios"
+    ],
+    howToUse: {
+      title: "How to Use Joyland Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Character", description: "Visit joyland.ai and browse the character library to find an anime or fictional companion that interests you." },
+        { title: "Enter the Story", description: "Begin an immersive conversation or roleplay scenario with your chosen character who maintains their personality throughout." },
+        { title: "Build Your Narrative", description: "Make choices that shape the story direction as your character responds and evolves based on your interactions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Immersive Character AI", description: "Advanced conversational AI maintaining consistent character personalities for truly immersive roleplay experiences" },
+      { title: "Anime Aesthetic", description: "High-quality anime-style character designs creating visually appealing companion interactions" },
+      { title: "Story Engine", description: "Dynamic narrative system allowing stories to evolve based on user choices and conversation direction" },
+      { title: "Character Creation", description: "Tools for building custom AI personas with detailed backstories personalities and interaction styles" }
+    ],
+    useCases: [
+      { title: "Anime Roleplay", description: "Anime fans engaging with AI versions of their favorite character archetypes in immersive scenario-based interactions" },
+      { title: "Interactive Fiction", description: "Writers and storytellers using the platform to explore narrative ideas through character-driven AI dialogue" },
+      { title: "Creative Entertainment", description: "Users seeking entertaining immersive AI character experiences for casual fun and creative exploration" }
+    ]
+  },
+  "khui-ai": {
+    whatIs: "Khui AI is an AI companion platform offering personalized conversation and emotional support with customizable personality settings. The platform provides users with an accessible AI companion for daily conversation, emotional support and personal interaction. Khui AI focuses on building meaningful connections between users and their AI companion through consistent memory and adaptive communication.",
+    features: [
+      "Personalized Companion: AI with customizable personality and interaction style",
+      "Emotional Support: Empathetic responses and mental wellness focus",
+      "Daily Conversation: Consistent companion for regular interaction",
+      "Memory System: Remembers your preferences and conversation history",
+      "Custom Settings: Adjust companion personality and communication style",
+      "Private Platform: Secure personal companion interactions"
+    ],
+    howToUse: {
+      title: "How to Use Khui Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Companion", description: "Sign up at khuiai.com and configure your AI companion with preferred personality traits and interaction style." },
+        { title: "Start Talking", description: "Begin daily conversations with your AI companion on any topic you want to discuss." },
+        { title: "Build Your Bond", description: "Engage regularly as your companion learns your preferences and provides increasingly personalized interactions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization Engine", description: "Customizable AI personality settings allowing users to define their ideal companion interaction style" },
+      { title: "Emotional Intelligence", description: "Designed to provide empathetic supportive responses for users seeking emotional connection and support" },
+      { title: "Conversation Memory", description: "Remembers past conversations and personal details creating consistent personalized companion experiences" },
+      { title: "Easy Access", description: "Simple accessible interface making AI companionship available to users of all technical backgrounds" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Wellness", description: "People using AI companionship as part of their emotional support and mental wellness routine" },
+      { title: "Social Practice", description: "Individuals using AI conversation to practice communication skills and build confidence" }
+    ]
+  },
+  "celebify-ai": {
+    whatIs: "Celebify AI is an AI face and image generation tool that creates celebrity-style photorealistic portraits and custom character images. The platform specializes in generating high-quality facial images with specific appearance characteristics making it popular for creating avatar photos, character visualizations and creative portrait generation. Users can describe their desired portrait and Celebify AI produces stunning photorealistic results.",
+    features: [
+      "Celebrity Style Portraits: Generate photorealistic celebrity-style face images",
+      "Custom Character Creation: Design characters with specific appearance traits",
+      "High Realism: Photorealistic face generation with natural details",
+      "Style Control: Control age, ethnicity, expression and appearance features",
+      "Fast Generation: Quick portrait generation from descriptions",
+      "Personal Avatar: Create personalized avatar images"
+    ],
+    howToUse: {
+      title: "How to Use Celebify Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Portrait", description: "Visit celebifyai.net and describe the celebrity-style or custom character portrait you want to generate." },
+        { title: "Customize Appearance", description: "Fine-tune appearance details including facial features, age, expression, hair and style to match your vision." },
+        { title: "Generate and Download", description: "Generate your photorealistic portrait and download for personal or creative use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photorealistic Generation", description: "Advanced AI facial generation producing highly realistic portrait images with natural skin texture and lighting" },
+      { title: "Appearance Control", description: "Detailed control over facial features, age, ethnicity and expression for precise character visualization" },
+      { title: "Fast Processing", description: "Quick portrait generation allowing rapid iteration through multiple appearance options" },
+      { title: "Avatar Creation", description: "Specialized in creating personalized avatar-quality portraits for profiles, games and creative projects" }
+    ],
+    useCases: [
+      { title: "Avatar Creation", description: "Users creating custom avatar images for social media profiles, gaming characters and digital identities" },
+      { title: "Character Visualization", description: "Writers and game designers visualizing fictional characters with photorealistic portrait generation" },
+      { title: "Creative Projects", description: "Artists and content creators generating custom portrait images for creative and commercial projects" }
+    ]
+  },
+  "createporn": {
+    whatIs: "CreatePorn is an adult AI image generation platform designed specifically for creating explicit NSFW content with full customization capabilities. The platform provides adults with complete creative freedom to generate custom adult imagery without content restrictions, focusing on user privacy and maximum creative flexibility. All content is generated by AI and the platform operates with strong privacy protections.",
+    features: [
+      "Unrestricted Generation: Full explicit adult content creation without limits",
+      "Complete Customization: Detailed control over all aspects of generated images",
+      "Multiple Styles: Realistic, anime, artistic and fantasy adult content styles",
+      "Privacy Protection: Secure platform protecting user content and identity",
+      "High Quality Output: Professional resolution explicit image generation",
+      "Fast Processing: Quick generation for rapid creative iteration"
+    ],
+    howToUse: {
+      title: "How to Use Createporn",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up at createporn.com with age verification to access adult content generation tools." },
+        { title: "Describe Your Content", description: "Write a detailed text prompt describing the explicit content you want to generate with full customization details." },
+        { title: "Generate Privately", description: "Generate your content privately and securely, downloading results to your personal device." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Adult Content Engine", description: "Fully unrestricted AI image generation producing explicit adult content without content filtering" },
+      { title: "Privacy First", description: "Secure platform architecture protecting user identity and generated content" },
+      { title: "Complete Customization", description: "Detailed control over all aspects of adult image generation for maximum creative flexibility" },
+      { title: "Quality Output", description: "Professional quality image generation producing high-resolution explicit content" }
+    ],
+    useCases: [
+      { title: "Adult Creative Expression", description: "Adults seeking a private platform for generating custom explicit AI imagery with complete creative control" },
+      { title: "Fantasy Visualization", description: "Users creating visual representations of personal adult fantasies in a private secure environment" },
+      { title: "Custom Adult Content", description: "Adults wanting fully customized explicit AI-generated content" }
+    ]
+  },
+  "motionmuse-ai": {
+    whatIs: "MotionMuse AI is an AI-powered animation platform that generates smooth animated videos and motion graphics from text prompts and static images. The platform specializes in creating animated content without requiring traditional animation skills, making professional-quality animation accessible to content creators, marketers and educators. MotionMuse dramatically reduces the time and expertise needed to produce animated video content.",
+    features: [
+      "Text to Animation: Generate animations from text descriptions",
+      "Image Animation: Bring static images to life with AI motion",
+      "Motion Graphics: Create professional animated graphics and titles",
+      "Multiple Styles: Cartoon, realistic and stylized animation options",
+      "Export Formats: Multiple video formats for different platforms",
+      "Template Library: Pre-built animation templates for quick creation"
+    ],
+    howToUse: {
+      title: "How to Use Motionmuse Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Animation", description: "Visit motionmuse.ai and write a text description of the animation you want to create or upload a static image to animate." },
+        { title: "Customize Style", description: "Select your preferred animation style, duration and any additional settings for your animated content." },
+        { title: "Export Your Animation", description: "Generate and download your animation in the appropriate format for your target platform or project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Animation Engine", description: "Advanced AI converts text descriptions and static images into smooth professionally animated video content" },
+      { title: "Motion Graphics", description: "Creates animated titles, lower thirds and graphic elements for video production and presentations" },
+      { title: "Style Variety", description: "Multiple animation styles from cute cartoon to realistic motion allowing diverse creative output" },
+      { title: "Easy Workflow", description: "Simple interface making professional animation creation accessible to users without traditional animation skills" }
+    ],
+    useCases: [
+      { title: "Content Creation", description: "YouTubers and social media creators adding animated elements and intros to their video content" },
+      { title: "Marketing Videos", description: "Marketers creating animated explainer videos, product demonstrations and promotional content" },
+      { title: "Educational Content", description: "Educators creating engaging animated lessons and materials that improve student engagement" }
+    ]
+  },
+  "2short-ai": {
+    whatIs: "2short AI is an AI-powered video repurposing tool that automatically converts long YouTube videos into engaging short clips optimized for TikTok, Instagram Reels and YouTube Shorts. The platform uses AI to identify the most engaging moments in long-form content and automatically edits them into properly formatted short videos complete with captions and branding. This makes it one of the most efficient tools for content creators looking to maximize the reach of their existing video content.",
+    features: [
+      "Auto Clip Detection: AI identifies the most engaging moments in long videos",
+      "Multiple Platform Formats: Automatic formatting for TikTok, Reels and YouTube Shorts",
+      "Auto Captions: AI-generated subtitles added automatically to all clips",
+      "YouTube Integration: Direct import from YouTube URLs for easy processing",
+      "Branding Tools: Add logos, watermarks and brand elements to clips",
+      "Batch Processing: Convert entire videos into multiple clips simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use 2Short Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Video", description: "Visit 2short.ai and paste any YouTube URL to import your long-form video content for processing." },
+        { title: "Let AI Find the Best Moments", description: "The AI analyzes your video and automatically identifies the most engaging and shareable segments worth converting to shorts." },
+        { title: "Download and Publish", description: "Review the automatically generated clips, customize captions and branding, then download or publish directly to your social platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Clip Detection", description: "Sophisticated AI identifies peak engagement moments in long videos producing the most watchable short clips automatically" },
+      { title: "Auto Caption Generation", description: "Automatically generates accurate subtitles for all clips improving accessibility and engagement on silent-play platforms" },
+      { title: "Multi-Platform Output", description: "Automatically reformats clips for the correct aspect ratio of TikTok, Instagram Reels and YouTube Shorts" },
+      { title: "YouTube Integration", description: "Direct YouTube URL import making it effortless to repurpose any existing YouTube content into short-form clips" }
+    ],
+    useCases: [
+      { title: "Content Repurposing", description: "YouTubers and content creators converting long videos into dozens of short clips to maximize content reach across platforms" },
+      { title: "Social Media Growth", description: "Creators building TikTok and Instagram presence by repurposing existing YouTube content without additional filming" },
+      { title: "Podcast Clips", description: "Podcasters turning long episode recordings into shareable highlight clips for social media promotion" }
+    ]
+  },
+  "learning-studio-ai": {
+    whatIs: "Learning Studio AI is an AI-powered course creation platform that automatically generates complete educational content from any topic. Educators, trainers and content creators can input a subject and have the AI produce full course structures including lessons, quizzes, assignments and interactive materials. The platform dramatically reduces the time required to develop professional educational content making online course creation accessible to anyone.",
+    features: [
+      "AI Course Generation: Create complete courses from topic descriptions automatically",
+      "Quiz Builder: AI-generated assessments and quizzes for knowledge testing",
+      "Lesson Planning: Structured lesson outlines with learning objectives",
+      "Interactive Content: Engaging multimedia lesson formats and activities",
+      "Export Options: Download courses in multiple formats including SCORM",
+      "Multi-Subject Support: Generate courses on any topic or subject area"
+    ],
+    howToUse: {
+      title: "How to Use Learning Studio Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Visit learningstudioai.com and describe the course topic or subject you want to create educational content for." },
+        { title: "Review Generated Content", description: "The AI produces a complete course structure with lessons, quizzes and activities. Review and customize the content to match your specific needs." },
+        { title: "Publish Your Course", description: "Export your completed course in your preferred format for your learning management system or publish directly through the platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Content Generation", description: "Automatically generates comprehensive educational content including lessons, explanations, examples and practice materials for any subject" },
+      { title: "Assessment Builder", description: "Creates relevant quizzes, tests and assignments that effectively measure student understanding and progress" },
+      { title: "Course Structure", description: "Produces logical well-organized course frameworks with clear learning objectives and progressive content flow" },
+      { title: "Multi-Format Export", description: "Supports export to SCORM, PDF and other standard formats for compatibility with popular learning management systems" }
+    ],
+    useCases: [
+      { title: "Online Course Creation", description: "Educators and entrepreneurs creating professional online courses for platforms like Udemy, Teachable and Thinkific" },
+      { title: "Corporate Training", description: "HR and training managers developing employee training programs and onboarding materials efficiently" },
+      { title: "Academic Content", description: "Teachers and professors creating supplementary educational materials and structured lesson plans" }
+    ]
+  },
+  "sakura-ai": {
+    whatIs: "Sakura AI is an anime-inspired AI companion platform featuring real-time voice interaction and deeply immersive character conversations. The platform specializes in creating emotional connections with anime-style AI companions that can speak, listen and respond in real time. Sakura AI combines advanced voice synthesis with character AI to deliver one of the most immersive anime companion experiences available making it popular among anime fans seeking authentic character interactions.",
+    features: [
+      "Voice Interaction: Real-time voice conversations with anime AI companions",
+      "Anime Characters: Beautiful anime-style character designs and personalities",
+      "Emotional Connection: AI companions designed for deep personal bonding",
+      "Custom Characters: Create personalized anime companions with unique traits",
+      "Memory System: Companions remember your conversations and preferences",
+      "Mobile App: Dedicated mobile app for companion access anywhere"
+    ],
+    howToUse: {
+      title: "How to Use Sakura Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Companion", description: "Download the Sakura AI app or visit sakura.fm and browse the anime character roster to find your ideal companion." },
+        { title: "Start Talking", description: "Enable voice mode and begin speaking naturally with your AI companion who responds in real time with anime-style voice synthesis." },
+        { title: "Build Your Bond", description: "Engage in daily voice and text conversations as your companion learns your personality and develops a deeper connection over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Voice AI", description: "Advanced voice synthesis enabling natural real-time spoken conversations with anime-style AI companions" },
+      { title: "Anime Character Design", description: "Beautifully crafted anime-style character art and personalities creating authentic anime companion experiences" },
+      { title: "Emotional Intelligence", description: "AI designed to form genuine emotional connections through empathetic responses and consistent character development" },
+      { title: "Mobile Companion", description: "Dedicated mobile app providing access to your AI companion anywhere anytime for consistent daily interaction" }
+    ],
+    useCases: [
+      { title: "Anime Companion Experience", description: "Anime fans seeking immersive voice-based interactions with beautifully designed anime-style AI characters" },
+      { title: "Voice Interaction Preference", description: "Users who prefer speaking to their AI companion rather than typing for a more natural connection feel" },
+      { title: "Emotional Companionship", description: "People seeking deep emotional connections with AI companions that develop through consistent interaction" }
+    ]
+  },
+  "doctrina-ai": {
+    whatIs: "Doctrina AI is an AI-powered education platform helping students at all levels with exam preparation, essay writing, note summarization and interactive learning. The platform acts as a personal AI tutor that can explain complex concepts, generate practice questions, summarize study materials and provide personalized learning support. Doctrina AI is particularly popular among students preparing for exams who want an intelligent study assistant that adapts to their learning needs.",
+    features: [
+      "AI Tutoring: Personalized explanation of complex academic concepts",
+      "Exam Preparation: Generate practice questions and mock tests for any subject",
+      "Essay Writing: AI assistance with essay structure, arguments and content",
+      "Note Summarization: Convert lengthy study materials into concise summaries",
+      "Quiz Generation: Create custom quizzes from uploaded study materials",
+      "Multiple Subjects: Support for all academic subjects and grade levels"
+    ],
+    howToUse: {
+      title: "How to Use Doctrina Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Materials", description: "Sign up at doctrina.ai and upload your textbooks, notes or study materials for AI processing." },
+        { title: "Ask Questions and Study", description: "Ask the AI to explain concepts, generate practice questions, summarize chapters or help structure your essays." },
+        { title: "Test Your Knowledge", description: "Use the quiz generation feature to test yourself on study material and identify areas needing more attention before exams." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Tutor Engine", description: "Explains any academic concept in clear accessible language with relevant examples tailored to the student level" },
+      { title: "Exam Question Generator", description: "Creates relevant practice questions and mock tests from uploaded study materials for effective exam preparation" },
+      { title: "Note Summarizer", description: "Converts lengthy textbook chapters and notes into concise focused summaries highlighting key points" },
+      { title: "Essay Assistant", description: "Helps structure academic essays with logical argument flow, supporting evidence and proper academic writing style" }
+    ],
+    useCases: [
+      { title: "Exam Preparation", description: "Students studying for standardized tests, university exams or professional certifications needing focused practice and review" },
+      { title: "Homework Help", description: "Students seeking AI assistance with understanding difficult concepts and completing academic assignments" },
+      { title: "Study Efficiency", description: "Learners who want to study smarter by converting large amounts of material into focused concise study summaries" }
+    ]
+  },
+  "beart-ai": {
+    whatIs: "BeArt AI is an AI-powered portrait and photo enhancement platform specializing in face beautification, artistic style transfers and professional photo editing. The platform uses advanced AI models to enhance facial features, apply artistic effects and transform ordinary photos into stunning artistic portraits. BeArt is popular among users who want quick professional-looking photo enhancements without technical editing skills.",
+    features: [
+      "Portrait Enhancement: AI face beautification and professional retouching",
+      "Art Style Transfer: Transform photos into paintings, sketches and artistic styles",
+      "Background Editing: AI background removal and replacement",
+      "Color Enhancement: Automatic color correction and vibrancy adjustment",
+      "Age Transformation: AI age progression and regression effects",
+      "High Resolution: Professional quality enhanced image output"
+    ],
+    howToUse: {
+      title: "How to Use Beart Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Portrait", description: "Visit beart.ai and upload the photo you want to enhance or transform." },
+        { title: "Choose Your Effect", description: "Select from portrait enhancement, art style transfer, background editing or transformation effects." },
+        { title: "Download Your Result", description: "Generate and download your enhanced or transformed photo in high resolution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Portrait AI", description: "Advanced facial enhancement AI producing professional-quality portrait retouching results automatically" },
+      { title: "Style Transfer Engine", description: "Converts photos into artistic styles including oil painting, watercolor, sketch and dozens more artistic aesthetics" },
+      { title: "Background AI", description: "Intelligent background removal and replacement with precise edge detection around hair and complex objects" },
+      { title: "Transformation Effects", description: "AI-powered appearance transformation effects including age progression and creative style alterations" }
+    ],
+    useCases: [
+      { title: "Social Media Photos", description: "Users enhancing selfies and portraits for better-looking social media profile photos and posts" },
+      { title: "Artistic Expression", description: "Creatives transforming personal photos into artistic portraits in various painting and illustration styles" },
+      { title: "Professional Enhancement", description: "Photographers and content creators quickly enhancing client photos to professional standards" }
+    ]
+  },
   "ai-hentai-generator": {
     whatIs: "AI Hentai Generator is an advanced adult anime and manga-style art creation platform powered by artificial intelligence. The platform allows users to generate high-quality anime illustrations from text prompts with detailed control over character appearance, art style, poses and scenarios. Designed for fans of anime and manga aesthetics, the tool uses sophisticated AI image generation models trained on anime art styles to produce detailed and visually consistent results. The platform features an intuitive text-to-image interface with advanced prompt controls making it accessible for both beginners and experienced digital artists.",
     features: [
