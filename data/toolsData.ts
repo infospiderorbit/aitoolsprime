@@ -883,7 +883,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-photo-editor": [
       { id: "beart-ai", name: "BeArt AI", description: "BeArt AI is an AI-powered portrait and photo enhancement platform specializing in face beautification art style transfers and professional photo editing", url: "https://beart.ai", upvotes: 2900, verified: false, rating: 4.3, icon: "🎭", category: "image-generation-editing", subcategory: "ai-photo-editor", addedDate: "2026-04-01" },
-      { id: "cutout-pro", name: "Cutout.Pro", description: "AI-powered photo editing suite", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "✂️", category: "image-generation-editing", subcategory: "ai-photo-editor" },
+      { id: "cutout-pro", name: "Cutout.Pro", description: "AI-powered photo editing suite", url: "https://www.cutout.pro/", upvotes: 1567, verified: true, rating: 4.7, icon: "✂️", category: "image-generation-editing", subcategory: "ai-photo-editor" },
       { id: "vsco", name: "VSCO", description: "Creative photo editing with AI features", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "📸", category: "image-generation-editing", subcategory: "ai-photo-editor" },
       { id: "pixelcut-editor", name: "Pixelcut", description: "AI background removal and photo editing", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "🎨", category: "image-generation-editing", subcategory: "ai-photo-editor" },
       { id: "fotor-pixlr", name: "FotorPixlr", description: "Online photo editor with AI tools", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "🖼️", category: "image-generation-editing", subcategory: "ai-photo-editor" },
