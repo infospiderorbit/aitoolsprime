@@ -1,4 +1,765 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "opinionate": {
+    whatIs: "Opinionate is an AI-powered debate and opinion dialogue platform that generates structured arguments, counterarguments and multi-perspective discussions on any topic. The platform is designed for writers, educators, debaters and critical thinkers who want to explore all sides of complex issues through AI-generated dialogue. Opinionate produces balanced arguments across different viewpoints helping users understand the full landscape of any controversial or complex topic before forming their own conclusions.",
+    features: [
+      "Debate Generation: Create structured arguments and counterarguments on any topic",
+      "Multi-Perspective Dialogue: Generate discussion from multiple distinct viewpoints",
+      "Opinion Exploration: Explore different angles on complex or controversial subjects",
+      "Argument Structuring: Organized argument presentation with supporting evidence",
+      "Steel Manning: Generate the strongest possible version of opposing arguments",
+      "Socratic Dialogue: Question-and-answer format for exploring topic depth",
+      "Educational Content: Create debate material for classrooms and educational use",
+      "Export Options: Save generated debates and dialogues for reference"
+    ],
+    howToUse: {
+      title: "How to Use Opinionate",
+      description: "Explore any topic through structured AI debate and dialogue",
+      steps: [
+        { title: "Enter Your Topic", description: "Visit the Opinionate platform and enter the topic or question you want to explore. Choose how many perspectives you want represented in the generated dialogue." },
+        { title: "Review the Debate", description: "Opinionate generates a structured multi-perspective dialogue with supporting arguments for each position. Review the full range of viewpoints presented." },
+        { title: "Deepen Your Understanding", description: "Use the generated debate as a starting point for your own research, writing or discussion. Save valuable dialogues for future reference." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Perspective Generation", description: "Generates genuinely distinct viewpoints on complex topics rather than presenting only one angle or producing false balance between straw man positions" },
+      { title: "Structured Argumentation", description: "Arguments are organized logically with supporting reasoning making the debate output immediately useful for writing, research and educational purposes" },
+      { title: "Steel Manning", description: "Generates the strongest possible version of each position rather than weak versions that are easy to dismiss" },
+      { title: "Topic Breadth", description: "Works across philosophy, politics, ethics, science policy and virtually any domain where reasonable people hold different positions" }
+    ],
+    useCases: [
+      { title: "Academic Research", description: "Students and researchers use Opinionate to quickly map the argument landscape of a topic before conducting deeper research" },
+      { title: "Debate Preparation", description: "Competitive debaters and class participants use generated arguments and counterarguments to prepare for formal debates" },
+      { title: "Critical Thinking Development", description: "Educators use Opinionate to generate discussion material that exposes students to multiple perspectives on complex issues" }
+    ]
+  },
+  "cvwizard": {
+    whatIs: "CVwizard is a professional CV and resume creation platform that guides users through building a polished job application document in minutes. The platform takes a wizard-style approach — hence the name — walking users step by step through each section with prompts, tips and template suggestions that reduce the overwhelm of starting from scratch. CVwizard is particularly useful for job seekers who want a clean professional result quickly without needing design skills or writing expertise. The platform includes ATS optimization features, multiple template styles and cover letter creation tools making it a complete job application toolkit.",
+    features: [
+      "Step-by-Step Wizard: Guided process through each CV section with prompts and tips",
+      "ATS Optimization: Ensures CV format and content passes applicant tracking systems",
+      "Professional Templates: Multiple industry-appropriate templates for different career levels",
+      "Cover Letter Builder: Create matching cover letters alongside your CV",
+      "Job Vacancy Alerts: Notifications for relevant job openings matching your profile",
+      "Customization Options: Adjust fonts, colors and layouts to match your style",
+      "Expert Guidance: Tips and suggestions for optimizing each CV section",
+      "Multilingual Support: Create CVs in multiple languages for international applications"
+    ],
+    howToUse: {
+      title: "How to Use Cvwizard",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Fill Your Details", description: "Sign up at cvwizard.com and follow the step-by-step wizard entering your contact details, work experience, education and skills. The guided prompts help you know exactly what to include in each section." },
+        { title: "Choose Your Template", description: "Select from professional templates designed for your industry and career level. Customize colors, fonts and layout to present your information in the most effective way." },
+        { title: "Download and Apply", description: "Download your finished CV as a PDF optimized for ATS systems. Use the matching cover letter builder to create a complete professional application package." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Wizard Interface", description: "Step-by-step guided interface reduces the intimidation of CV writing by breaking the process into manageable sections with expert prompts at each stage" },
+      { title: "ATS Compatibility", description: "Templates and formatting are designed to pass automated applicant tracking systems that filter CVs before human reviewers ever see them" },
+      { title: "Complete Application Kit", description: "CV builder and cover letter creator in one platform means you leave with a complete matching application package rather than just a resume" },
+      { title: "Template Variety", description: "Multiple template styles from classic to modern ensure your CV presentation matches the norms and expectations of your specific industry" }
+    ],
+    useCases: [
+      { title: "Job Seekers", description: "People actively applying for jobs use CVwizard to create professional CVs quickly without spending hours on formatting and design" },
+      { title: "Career Changers", description: "Professionals transitioning to new industries use the guided wizard to restructure their experience for a new target role" },
+      { title: "International Applicants", description: "Multilingual support helps candidates applying to jobs across different countries create appropriately formatted documents" }
+    ]
+  },
+  "careerflow": {
+    whatIs: "Careerflow is a comprehensive AI career management platform that goes well beyond a simple resume builder. The platform combines resume creation with a job tracker, LinkedIn profile optimizer, job application autofill extension and networking tracker in one connected system. Based on data from over 500000 job seekers served, Careerflow users report up to 60 percent faster time to interviews and twice as many job offers. The LinkedIn optimization tool is particularly praised as one of the best free features available for job seekers looking to improve their professional profile visibility.",
+    features: [
+      "AI Resume Builder: Keyword-optimized resume creation with job-specific tailoring",
+      "LinkedIn Optimizer: Comprehensive LinkedIn profile review and improvement suggestions",
+      "Job Tracker: Kanban-style board for tracking applications across all stages",
+      "Job Autofill Extension: Chrome extension that automatically fills job applications",
+      "Cover Letter Generator: AI-generated cover letters customized for each application",
+      "Keyword Analysis: Match your resume keywords to specific job descriptions",
+      "Networking Tracker: Track professional connections and follow-up activities",
+      "Interview Prep: Tools for preparing for specific companies and roles"
+    ],
+    howToUse: {
+      title: "How to Use Careerflow",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Optimize Your LinkedIn First", description: "Sign up at careerflow.ai and start with the free LinkedIn Review tool. Get specific improvement suggestions for your headline, summary and experience sections to increase profile visibility to recruiters." },
+        { title: "Build Your Resume", description: "Create a tailored resume with the AI builder. Paste a job description and Careerflow identifies the keywords you need to add to improve your match score for that specific role." },
+        { title: "Track Your Applications", description: "Use the job tracker board to manage all applications in one place. Install the Chrome extension to autofill applications quickly and track every opportunity from applied to offer." }
+      ]
+    },
+    coreFeatures: [
+      { title: "LinkedIn Optimization", description: "Comprehensive LinkedIn profile analysis and improvement recommendations help candidates get found by recruiters actively sourcing for open roles" },
+      { title: "Keyword Matching System", description: "Compares your resume content against specific job descriptions and shows exactly which keywords to add to improve ATS match scores" },
+      { title: "Integrated Job Management", description: "Combines resume building, application tracking and networking in one platform so job seekers manage their entire search from one dashboard" },
+      { title: "Autofill Extension", description: "Chrome extension reduces the repetitive work of filling out applications by automatically populating forms with your saved information" }
+    ],
+    useCases: [
+      { title: "Active Job Seekers", description: "People applying to multiple positions simultaneously use Careerflow to stay organized and ensure each application is properly tailored to that specific role" },
+      { title: "LinkedIn-Focused Candidates", description: "Professionals wanting to be found by recruiters rather than only applying outbound use the LinkedIn optimizer to dramatically improve profile visibility" },
+      { title: "Career Transitioners", description: "People changing careers use keyword analysis to identify and bridge skill gaps between their current resume and target role requirements" }
+    ]
+  },
+  "kickresume": {
+    whatIs: "Kickresume is an AI-powered resume and cover letter builder that combines GPT-4 writing assistance with over 40 professionally designed templates. The platform is particularly strong for students and creative professionals thanks to its design-forward template library and unique feature that turns your completed resume into a shareable personal portfolio website. Kickresume holds a 4.5 out of 5 rating on Trustpilot from over 3500 reviews — the most reviews of any comparable tool — and offers a 6-month free premium plan for students through ISIC and UNiDAYS.",
+    features: [
+      "GPT-4 AI Writer: Generates strong resume bullet points and summaries from your job title and experience",
+      "40 Plus Templates: Diverse professionally designed templates from classic to creative styles",
+      "Personal Website Builder: Turn your resume into a shareable portfolio website with one click",
+      "AI Resume Checker: Scores your resume on design, structure and content quality",
+      "Cover Letter Builder: Create matching AI-assisted cover letters for each application",
+      "LinkedIn Import: Automatically populate resume sections from your LinkedIn profile",
+      "Interview Question Generator: AI-powered interview prep based on your target role",
+      "Multiple Download Formats: Export as PDF, Word or share as a live link"
+    ],
+    howToUse: {
+      title: "How to Use Kickresume",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start with Your Job Title", description: "Sign up at kickresume.com and enter your job title and work history. The GPT-4 AI immediately generates strong bullet points and professional summary suggestions tailored to your field." },
+        { title: "Choose and Customize Your Template", description: "Browse 40 plus templates and select one that matches your industry and style. Customize colors, fonts and layout to create a resume that stands out visually while remaining professional." },
+        { title: "Build Your Portfolio Website", description: "Once your resume is complete, use one-click to generate a personal portfolio website with a shareable URL — a unique feature that gives creative professionals an additional way to showcase their work." }
+      ]
+    },
+    coreFeatures: [
+      { title: "GPT-4 Writing Assistance", description: "Generates professional bullet points and summaries based on your job title and experience giving you strong starting points that you refine rather than writing from scratch" },
+      { title: "Personal Portfolio Site", description: "The one-click portfolio website feature is unique to Kickresume and gives candidates a live shareable URL that goes beyond a static PDF resume" },
+      { title: "Student-Friendly", description: "Free 6-month premium access through ISIC and UNiDAYS makes Kickresume one of the best-value options for students who need professional resume tools" },
+      { title: "Comprehensive Resume Checking", description: "Built-in resume checker scores your document across design, content and structure giving actionable feedback before you submit to employers" }
+    ],
+    useCases: [
+      { title: "Students and Graduates", description: "Students access 6 months of free premium through academic discount programs making Kickresume one of the most accessible tools for entry-level job seekers" },
+      { title: "Creative Professionals", description: "Designers, marketers and creatives use the visual templates and portfolio website feature to showcase work alongside their resume" },
+      { title: "Career Upgraders", description: "Professionals updating resumes for new positions use AI writing assistance to refresh outdated bullet points with more impactful language" }
+    ]
+  },
+  "wonsulting-ai": {
+    whatIs: "Wonsulting AI is the technology arm of Wonsulting, a career coaching company that has helped thousands of candidates land jobs at top companies. The AI resume builder ResumAI by Wonsulting brings the company's expertise in professional positioning into a digital tool that guides users toward creating targeted impactful resumes. Beyond the resume tool, Wonsulting offers AI-powered LinkedIn optimization, mock interview practice and networking guidance making it a strong choice for candidates who want career strategy alongside practical tools.",
+    features: [
+      "AI Resume Builder: ResumAI generates targeted resume content based on role and industry",
+      "LinkedIn Optimization: AI-powered LinkedIn profile improvement and positioning guidance",
+      "Mock Interview Practice: AI-driven interview preparation and feedback system",
+      "Job Application Tracking: Organized system for managing multiple applications",
+      "Career Strategy Guidance: Strategic advice on positioning for target roles and companies",
+      "Networking Tools: Guidance and templates for professional networking outreach",
+      "Cover Letter Creation: AI-assisted cover letter generation for applications",
+      "Resume Review: Professional feedback on existing resume content and structure"
+    ],
+    howToUse: {
+      title: "How to Use Wonsulting Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Use ResumAI to Build Your Resume", description: "Sign up at wonsulting.com and access the ResumAI tool. Enter your target role and work experience and let the AI generate targeted bullet points that position you effectively for your specific career goal." },
+        { title: "Optimize Your LinkedIn", description: "Use the LinkedIn optimization tool to improve your profile positioning. Follow the AI suggestions for headline, summary and experience sections to increase recruiter visibility." },
+        { title: "Prepare for Interviews", description: "Use the mock interview feature to practice for your target companies and roles. Get AI feedback on your responses and refine your answers before the real thing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Career-Strategy-Led AI", description: "Backed by Wonsulting's real career coaching expertise the AI tools are informed by what actually works in competitive job markets rather than just formatting conventions" },
+      { title: "LinkedIn and Resume Together", description: "Optimizing both LinkedIn and resume through one platform ensures consistent messaging and positioning across all the touchpoints recruiters use" },
+      { title: "Mock Interview System", description: "AI-powered interview practice with feedback is a standout feature that most resume builders do not offer making Wonsulting more than just a document creation tool" },
+      { title: "Expert Foundation", description: "Built on proven career coaching methodology that has helped thousands land jobs at Google, McKinsey and other top employers" }
+    ],
+    useCases: [
+      { title: "Ambitious Job Seekers", description: "Candidates targeting competitive companies and roles use Wonsulting AI for its strategy-informed approach to positioning and preparation" },
+      { title: "Career Switchers", description: "People making significant career moves use the strategic guidance alongside practical tools to reframe their experience for new target industries" },
+      { title: "Interview Preparation", description: "Job seekers who have applications in progress use the mock interview feature to prepare specifically for the companies and roles they are pursuing" }
+    ]
+  },
+  "huntr": {
+    whatIs: "Huntr is a job search management platform that helps candidates stay organized and strategic throughout the entire job application process. The platform provides a visual Kanban-style board for tracking every application through each stage from wishlist to offer, alongside resume and cover letter tools, contact tracking and interview notes. Huntr is particularly valuable for candidates running multi-track job searches who need a structured system to avoid losing track of applications, follow-ups and deadlines.",
+    features: [
+      "Job Application Tracker: Kanban board for tracking every application through all stages",
+      "Resume Builder: Create and store multiple tailored resume versions",
+      "Cover Letter Builder: Generate and organize cover letters for different applications",
+      "Contact Manager: Track recruiters, hiring managers and professional contacts",
+      "Interview Notes: Document interview details, questions asked and your answers",
+      "Job Board Integration: Save jobs from multiple job boards directly to your board",
+      "Activity Reminders: Follow-up reminders so you never miss a critical touchpoint",
+      "Analytics: Track your application statistics and identify patterns in your search"
+    ],
+    howToUse: {
+      title: "How to Use Huntr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Board", description: "Sign up at huntr.co and create your job tracking board. Add your target companies and positions to your wishlist and move them through columns as they progress." },
+        { title: "Track Every Application", description: "Log applications as you submit them with company details, contacts and key dates. Set follow-up reminders to ensure you never let an important application go cold." },
+        { title: "Review and Optimize", description: "Use the analytics to identify patterns in your job search — which companies respond, which roles progress, and where you tend to drop out of processes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Application Board", description: "Kanban-style board gives an at-a-glance view of every application at every stage making it impossible to lose track of where you stand with each opportunity" },
+      { title: "Contact Management", description: "Track every recruiter and hiring manager contact with notes on conversations ensuring consistent and professional follow-through with each connection" },
+      { title: "Multi-Resume Storage", description: "Store multiple resume versions in one place making it easy to pull the right tailored version when applying to different roles" },
+      { title: "Analytics and Insights", description: "Application statistics reveal which sectors, companies and roles have the best response rates helping you focus your effort where it produces results" }
+    ],
+    useCases: [
+      { title: "Multi-Track Job Searches", description: "Candidates applying to many positions simultaneously use Huntr to stay organized and ensure no opportunity falls through the cracks due to poor tracking" },
+      { title: "Strategic Job Seekers", description: "People running structured job searches use Huntr to maintain a disciplined process rather than applying randomly and hoping for responses" },
+      { title: "Networking-Heavy Searches", description: "Candidates using networking as a primary strategy use the contact manager to maintain professional relationships throughout the process" }
+    ]
+  },
+  "sudowrite": {
+    whatIs: "Sudowrite is the most acclaimed AI writing tool built exclusively for fiction writers, developed by Amit Gupta and James Yu — both science fiction writers who built the tool they wished existed. Launched in 2020 and backed by founders of Medium, Twitter and WordPress, Sudowrite uses a proprietary AI model called Muse that was specifically fine-tuned for narrative prose rather than marketing copy or business writing. The Muse model excels at maintaining voice consistency and generating text that feels genuinely literary rather than robotic. Prolific authors using Sudowrite have reported writing over one million words in a single year — a scale that would be impossible without AI assistance.",
+    features: [
+      "Muse Model: Proprietary AI model fine-tuned specifically for fiction and narrative prose",
+      "Story Bible: Centralized knowledge base tracking characters, worldbuilding and plot across your entire manuscript",
+      "Style Matching: Train the AI on samples of your writing to match your voice and cadence",
+      "Draft Mode: Generate scene drafts with guided or auto-complete options up to 500 words at a time",
+      "Rewrite Tools: Multiple rewrite variations including show-don-tell, tone shifts and inner conflict",
+      "Describe Feature: Expand sensory details using the five senses for richer more immersive prose",
+      "Brainstorming Suite: Generate character names, plot twists, worldbuilding elements and dialogue ideas",
+      "Canvas: Visual corkboard for plotting and organizing story beats and outlines",
+      "Visualize: Generate AI images from manuscript descriptions for character and scene reference",
+      "Plugin Ecosystem: Community-built plugins for specific tasks like converting novels to screenplays"
+    ],
+    howToUse: {
+      title: "How to Use Sudowrite",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Story Bible", description: "Sign up at sudowrite.com and create your Story Bible first. Add characters with detailed descriptions and motivations, worldbuilding details and your synopsis. The more context you provide the better the AI understands and serves your story." },
+        { title: "Upload Your Writing Style", description: "Paste 1000 to 2000 words of your own writing into the Style Examples section. Sudowrite analyzes your sentence structure, pacing, vocabulary and tone then generates suggestions that match your natural voice." },
+        { title: "Write with AI Assistance", description: "Use Draft mode for generating new scene content and Describe to expand sensory details. Use Rewrite to generate multiple variations of existing passages. Let the AI handle execution while you maintain creative direction of the narrative." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Muse Fiction Model", description: "A proprietary AI model trained specifically on novels, short stories and scripts delivers narrative prose quality that generic AI tools simply cannot match for fiction writers" },
+      { title: "Story Bible System", description: "Tracks every character, location, world rule and plot detail across your entire manuscript ensuring character consistency that is nearly impossible to maintain manually in long works" },
+      { title: "Style Matching", description: "The ability to train the AI on your own writing samples is what separates Sudowrite from generic tools — the AI generates content that sounds like you wrote it" },
+      { title: "Brainstorming Depth", description: "The brainstorming suite covers every aspect of story development from character names to plot twists helping writers break through creative blocks at any stage" }
+    ],
+    useCases: [
+      { title: "Fiction Novelists", description: "Authors writing full-length novels use Sudowrite to accelerate drafting while maintaining narrative quality and character consistency across 80000 plus word manuscripts" },
+      { title: "Screenwriters", description: "Screenwriters use scene generation and dialogue tools built for narrative pacing making Sudowrite effective for script writing beyond just prose fiction" },
+      { title: "Indie and Self-Published Authors", description: "Prolific self-publishers use Sudowrite to dramatically increase their output allowing them to publish multiple books per year without sacrificing story quality" }
+    ]
+  },
+  "notebook-ai": {
+    whatIs: "Notebook AI is a creative world-building and storytelling platform designed for writers, game designers and storytellers who need a structured system for managing complex fictional universes. The platform acts as a living encyclopedia for your creative world — organizing characters, locations, timelines, factions, items and lore in an interconnected wiki-style format. Notebook AI uses artificial intelligence to help users develop their world-building elements by asking guided questions, generating descriptions and identifying connections between different story elements.",
+    features: [
+      "World-Building Database: Organized wiki for characters, locations, timelines and lore",
+      "AI Assisted Development: AI asks guiding questions to help develop incomplete world elements",
+      "Character Profiles: Detailed character creation with relationships, backstory and personality",
+      "Location Creator: Build detailed settings with history, culture and geographical context",
+      "Timeline Management: Track events and their impact across your story chronology",
+      "Relationship Mapping: Visualize connections between characters, factions and locations",
+      "Universe Organization: Manage multiple projects and fictional universes separately",
+      "Collaboration: Share universes with co-authors, game masters and creative partners"
+    ],
+    howToUse: {
+      title: "How to Use Notebook Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Universe", description: "Sign up at notebook.ai and create a new universe for your project. Set up the foundational elements — world name, genre, tone and basic premise — to give the AI context for assisting your development." },
+        { title: "Build Your World Elements", description: "Add characters, locations, factions and historical events using the structured templates. Let the AI ask guiding questions to help you develop aspects you have not thought through yet." },
+        { title: "Connect and Explore", description: "Use the relationship mapping tools to see how your world elements connect. Discover logical consequences and potential plot threads that emerge from the world you have built." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Structured World-Building", description: "Organized templates for every category of world element ensure consistent detailed world-building rather than scattered notes across multiple documents" },
+      { title: "AI Development Questions", description: "The AI's guided questions push world-builders to think through details they might skip — motivations, contradictions, cultural implications — creating richer more believable fictional worlds" },
+      { title: "Interconnected Encyclopedia", description: "Wiki-style linking between related elements creates a living reference that shows how characters, locations and events connect throughout the story world" },
+      { title: "Multi-Universe Management", description: "Separate universe containers allow writers working on multiple projects to keep complex fictional worlds organized and distinct" }
+    ],
+    useCases: [
+      { title: "Fantasy and Sci-Fi Writers", description: "Genre writers managing complex fictional universes with deep lore, multiple factions and intricate world rules use Notebook AI to maintain consistency across long series" },
+      { title: "Tabletop RPG Game Masters", description: "Dungeon masters and game masters use the platform to build and manage campaign worlds that players explore over multiple sessions" },
+      { title: "Series Authors", description: "Writers working on multi-book series use Notebook AI to track continuity details, character development and world changes across an entire series" }
+    ]
+  },
+  "lyricstudio": {
+    whatIs: "LyricStudio is an AI-powered lyric writing assistant designed for songwriters at every level from beginners to professional musicians. The platform uses AI to generate lyric suggestions that songwriters can use as starting points, expand upon or use as creative inspiration when stuck. Unlike general-purpose AI, LyricStudio is trained specifically on song lyrics and understands poetic structure, rhyme schemes, syllable patterns and the stylistic conventions of different musical genres. The tool is designed to be a creative partner rather than a replacement — helping writers find their best ideas faster.",
+    features: [
+      "AI Lyric Generation: Generate lyric lines and verses in your preferred style and genre",
+      "Rhyme Suggestions: Smart rhyme recommendations that maintain natural language flow",
+      "Syllable Counting: Automatic syllable tracking to match lyrics to melodic phrases",
+      "Genre Styles: Lyric suggestions calibrated to different musical genres from pop to country",
+      "Mood and Theme Setting: Configure the emotional tone and thematic direction of suggestions",
+      "Line Completion: Complete partially written lines maintaining your established rhyme scheme",
+      "Rhyme Dictionary: Comprehensive rhyme finder for any word in your lyrics",
+      "Export Options: Export finished lyrics in multiple formats for sharing and storage"
+    ],
+    howToUse: {
+      title: "How to Use Lyricstudio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Your Style and Theme", description: "Sign up at lyricstudio.net and configure your genre, mood and thematic keywords. The more context you give the AI about the song's emotional core the more relevant the suggestions will be." },
+        { title: "Generate and Explore", description: "Start writing your lyrics and use LyricStudio to generate alternative lines, complete rhyming phrases or explore different directions for verses and choruses." },
+        { title: "Refine and Finalize", description: "Pick the strongest AI suggestions and weave them with your own lines. Edit for natural flow, syllable matching and emotional authenticity before finalizing your lyrics." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Genre-Aware AI", description: "Trained specifically on song lyrics with understanding of different genre conventions ensuring suggestions feel appropriate for country, hip-hop, pop or any other style" },
+      { title: "Rhyme Intelligence", description: "Smart rhyme suggestions go beyond simple word matches to find rhymes that maintain natural speech patterns and fit melodically into the line" },
+      { title: "Syllable Awareness", description: "Automatic syllable counting helps writers match lyrics to existing melodic phrases ensuring words actually fit the music they are writing for" },
+      { title: "Collaborative Tool", description: "Designed as a creative partner that enhances and extends songwriter ideas rather than replacing the human creative voice at the center of the song" }
+    ],
+    useCases: [
+      { title: "Songwriter Assistance", description: "Songwriters experiencing writer's block use LyricStudio to generate fresh directions and lyric ideas that break them out of creative ruts" },
+      { title: "Beginners Learning Craft", description: "New songwriters use the AI suggestions to learn about rhyme schemes, syllable patterns and structural conventions of different musical genres" },
+      { title: "Professional Efficiency", description: "Working songwriters use LyricStudio to explore multiple lyric directions quickly identifying the most promising approach before investing deep writing time" }
+    ]
+  },
+  "bedtimestory-ai": {
+    whatIs: "Bedtimestory AI is a children's story generation platform that creates personalized bedtime stories featuring your child as the main character. Parents input their child's name, age, interests and preferred story themes and the AI generates an original illustrated story tailored specifically for that child. The platform removes the pressure of coming up with original stories nightly and ensures each story is age-appropriate, positive and engaging for the specific child who will hear it.",
+    features: [
+      "Personalized Stories: Generate stories featuring your child as the main character",
+      "Age-Appropriate Content: Stories calibrated to different developmental stages and ages",
+      "Interest Integration: Incorporate your child's favorite characters, animals or themes",
+      "Illustrated Stories: AI-generated illustrations accompanying each story",
+      "Multiple Themes: Adventure, fantasy, animals, friendship and many other story themes",
+      "Positive Messages: Stories designed with uplifting moral lessons built in",
+      "Story Library: Save and revisit favorite generated stories",
+      "Audio Narration: Text-to-speech narration option for hands-free story time"
+    ],
+    howToUse: {
+      title: "How to Use Bedtimestory Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Child's Details", description: "Sign up at bedtimestory.ai and enter your child's name, age and favorite things — animals, activities, colors, or characters they love. This information personalizes every story generated." },
+        { title: "Choose Your Story Theme", description: "Select a theme or adventure type for tonight's story. Pick from available categories or describe a custom scenario. The AI weaves your child's details into the chosen theme." },
+        { title: "Read Together", description: "The AI generates a complete illustrated story in seconds. Read it aloud together or use the narration feature to let the AI tell the story while you both follow along." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Deep Personalization", description: "Stories feature your specific child by name with their actual interests woven throughout creating a magical experience where they are the hero of their own adventure" },
+      { title: "Age-Appropriate Generation", description: "AI calibrates vocabulary, story complexity and themes to match different developmental stages from toddlers to older children" },
+      { title: "Illustrated Stories", description: "AI-generated illustrations accompany each story providing visual engagement that enhances the bedtime reading experience" },
+      { title: "Positive Content Guarantee", description: "All stories are designed with positive messaging and age-appropriate content giving parents confidence without pre-reading every story first" }
+    ],
+    useCases: [
+      { title: "Daily Bedtime Routine", description: "Parents who read to their children every night use Bedtimestory AI to maintain the tradition without running out of new story ideas" },
+      { title: "Special Interest Stories", description: "Parents whose children are obsessed with specific topics use the tool to generate endless themed adventures featuring their child's current passion" },
+      { title: "Long-Distance Reading", description: "Grandparents and relatives use personalized stories to share bedtime reading experiences with children they cannot be with in person" }
+    ]
+  },
+  "cowriter": {
+    whatIs: "Cowriter is an AI writing assistant platform designed for content creators, bloggers and business writers who need consistent high-quality writing output. The platform focuses on maintaining the user's unique voice throughout AI-assisted content rather than producing generic AI text. Cowriter learns from your existing writing samples to generate content that sounds authentically like you, making it particularly valuable for creators with established audiences who need to maintain consistent brand voice across all their content.",
+    features: [
+      "Voice Learning: AI learns your unique writing style from uploaded samples",
+      "Blog Post Generator: Create complete blog articles maintaining your established voice",
+      "Social Media Content: Generate platform-specific posts matching your tone",
+      "Email Writing: Draft newsletters and marketing emails in your personal style",
+      "Content Templates: Pre-built templates for common content types",
+      "Tone Adjustment: Fine-tune the formality and energy level of generated content",
+      "SEO Integration: Content suggestions with SEO best practices built in",
+      "Team Collaboration: Share voice profiles across team members for consistent output"
+    ],
+    howToUse: {
+      title: "How to Use Cowriter",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Train Your Voice", description: "Sign up at cowriter.com and upload samples of your best writing. The AI analyzes your vocabulary, sentence structure, tone and pacing to build a personalized voice profile." },
+        { title: "Generate Content", description: "Use your configured voice profile to generate blog posts, social media content or emails. The AI applies your learned style to new content rather than producing generic output." },
+        { title: "Review and Publish", description: "Review the generated content making light edits for accuracy and specific details. The voice should already sound like yours requiring significantly less editing than typical AI output." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Voice Learning System", description: "Unique AI training on your own writing samples produces output that genuinely sounds like you wrote it rather than generic AI text that requires heavy editing" },
+      { title: "Multi-Format Content", description: "Handles blog posts, social media, emails and other content types from the same voice profile maintaining consistency across all your channels" },
+      { title: "Team Voice Consistency", description: "Shared voice profiles ensure multiple team members produce content that sounds consistent even when written by different people" },
+      { title: "Brand Voice Preservation", description: "For established creators and brands with distinctive voices Cowriter preserves that voice during AI assistance rather than washing it out with generic language" }
+    ],
+    useCases: [
+      { title: "Content Creators with Audiences", description: "YouTubers, bloggers and podcasters with established audiences use Cowriter to scale content production without losing the distinctive voice their audience follows" },
+      { title: "Personal Brand Writers", description: "Professionals writing thought leadership content use Cowriter to maintain consistent personal brand voice across all written output" },
+      { title: "Marketing Teams", description: "Teams managing brand content use shared voice profiles to ensure all AI-assisted writing maintains consistent brand tone regardless of which team member produces it" }
+    ]
+  },
+  "vidiq": {
+    whatIs: "VidIQ is a comprehensive YouTube growth platform that has attracted nearly 6 million monthly website visitors and become a standard tool for serious content creators. The platform combines keyword research, competitor analysis, AI-powered content ideation, thumbnail testing and analytics in one integrated system that works directly within YouTube's interface. VidIQ's browser extension overlays real-time data on YouTube itself — showing views per hour, channel stats and keyword scores without requiring creators to switch between tabs. The AI Daily Ideas feature provides personalized video suggestions based on your specific channel's performance and niche.",
+    features: [
+      "Keyword Research: Find high-volume low-competition keywords before creating videos",
+      "Competitor Analysis: See the tags, keywords and strategies working for competing channels",
+      "AI Daily Ideas: Personalized daily video topic suggestions based on your channel and niche",
+      "Inline Analytics: Real-time stats overlaid directly on YouTube without switching tabs",
+      "Title and Description Generator: AI writes optimized metadata for each video upload",
+      "Thumbnail A/B Testing: Test multiple thumbnails to find which drives the highest click-through rate",
+      "Trending Alerts: Notifications when topics in your niche start trending for early coverage",
+      "AI Coach: Channel-connected AI chat for personalized strategy and video idea advice",
+      "Shorts Generator: Create YouTube Shorts from existing long-form content automatically",
+      "Channel Audit: Comprehensive analysis of your channel's strengths and improvement areas"
+    ],
+    howToUse: {
+      title: "How to Use Vidiq",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Browser Extension", description: "Sign up at vidiq.com and install the Chrome or Firefox browser extension. You will immediately see real-time stats overlaid on YouTube videos giving you instant competitive intelligence." },
+        { title: "Research Before You Create", description: "Before starting any video use the keyword research tool to find high-potential topics with medium to low competition. Use the AI Daily Ideas for personalized suggestions tailored to your channel." },
+        { title: "Optimize Every Upload", description: "When uploading use the title and description generator for SEO-optimized metadata. Set up thumbnail A/B testing to automatically identify which thumbnail drives the most clicks over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time YouTube Integration", description: "The browser extension overlays stats directly on YouTube eliminating the need to switch between tabs and making keyword and competitor research part of your natural YouTube browsing" },
+      { title: "AI Channel Coach", description: "Unlike generic AI tools the VidIQ AI Coach is connected to your specific channel analytics allowing it to give personalized advice based on your actual performance data" },
+      { title: "Personalized Idea Generation", description: "Daily video ideas are generated based on your channel's specific niche performance and audience behavior rather than generic trending topics" },
+      { title: "Thumbnail Testing", description: "Automatic A/B testing of multiple thumbnail variants removes the guesswork from one of the most important factors in YouTube click-through rates" }
+    ],
+    useCases: [
+      { title: "Growing YouTubers", description: "Creators trying to break through growth plateaus use VidIQ keyword research and competitor analysis to identify content opportunities they would otherwise miss" },
+      { title: "Content Strategy", description: "YouTube channels planning their editorial calendar use Daily Ideas and trend alerts to maintain a content pipeline aligned with search demand" },
+      { title: "Video Optimization", description: "Creators with existing video libraries use VidIQ to retroactively optimize older videos with better titles, descriptions and tags to improve their ongoing performance" }
+    ]
+  },
+  "songtell": {
+    whatIs: "Songtell is an AI-powered song meaning and lyrics analysis platform that helps music fans understand the deeper meaning, themes and references behind their favorite songs. Users enter a song title and artist and Songtell generates a detailed analysis covering the emotional themes, literary devices, cultural references and personal context behind the lyrics. The platform is popular among music enthusiasts, students and anyone who wants to go beyond surface-level listening to understand what artists are really communicating through their music.",
+    features: [
+      "Song Analysis: AI-generated deep analysis of lyrics meaning and themes",
+      "Emotional Themes: Identify the core emotions and psychological themes in any song",
+      "Literary Device Detection: Spot metaphors, similes, allusions and other literary techniques",
+      "Cultural Context: Understand historical and cultural references embedded in lyrics",
+      "Artist Background: Context about the artist's life and how it relates to the song",
+      "Multiple Languages: Analyze songs in various languages with translation context",
+      "Song Database: Large catalog of pre-analyzed popular songs",
+      "Discovery Features: Find songs with similar themes and meanings"
+    ],
+    howToUse: {
+      title: "How to Use Songtell",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Song", description: "Visit songtell.com and search for the song you want to understand. Enter the artist name and song title to access either existing analysis or generate a new one." },
+        { title: "Read the Analysis", description: "Explore the AI-generated breakdown covering emotional themes, literary devices, cultural references and what the song likely means in the context of the artist's life." },
+        { title: "Discover Related Music", description: "Use theme and meaning tags to discover other songs exploring similar emotional or conceptual territory expanding your music library around specific themes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Lyric Meaning Analysis", description: "AI-generated analysis goes beyond surface interpretation to identify literary devices, cultural references and psychological themes that enrich understanding of the song" },
+      { title: "Cultural and Historical Context", description: "Places songs within their cultural and historical moment helping listeners understand references that may not be immediately clear without background knowledge" },
+      { title: "Artist Context Integration", description: "Connects lyrical content to the artist's known biography and creative influences providing informed interpretation rather than isolated analysis" },
+      { title: "Discovery Through Meaning", description: "Theme and meaning tags enable music discovery based on emotional resonance rather than just genre or artist similarity" }
+    ],
+    useCases: [
+      { title: "Music Enthusiasts", description: "Dedicated music fans who want to understand their favorite songs more deeply use Songtell to go beyond listening to genuine comprehension" },
+      { title: "Students and Educators", description: "Music and literature students use song analysis as an accessible entry point for studying poetic techniques and literary devices in contemporary culture" },
+      { title: "Writers and Creatives", description: "Songwriters and creative writers use Songtell to study how professional artists use language, metaphor and theme to create emotional impact" }
+    ]
+  },
+  "cyanite-ai": {
+    whatIs: "Cyanite AI is a music intelligence and analysis platform that uses AI to analyze audio tracks and extract detailed musical metadata including mood, genre, instruments, energy and tempo. The platform serves music industry professionals including sync licensing companies, streaming platforms, music supervisors and content creators who need to categorize, search and match music with precision. Cyanite transforms the traditionally subjective and manual work of music tagging into an automated scalable process.",
+    features: [
+      "Audio Analysis: AI extracts mood, genre, instruments, energy and tempo from audio files",
+      "Mood Detection: Identify the emotional quality and mood profile of any track",
+      "Genre Classification: Automatic genre and subgenre identification across all music styles",
+      "Instrument Recognition: Detect which instruments are present in a recording",
+      "Similar Track Search: Find tracks with similar sonic and emotional characteristics",
+      "API Access: Integrate music analysis capabilities into your own platform",
+      "Batch Processing: Analyze large music libraries simultaneously",
+      "Sync Licensing Tools: Match tracks to video content based on mood and energy profiles"
+    ],
+    howToUse: {
+      title: "How to Use Cyanite Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Music", description: "Sign up at cyanite.io and upload audio files or connect your music library. Cyanite analyzes each track automatically extracting mood, genre, instruments and energy metadata." },
+        { title: "Search with Precision", description: "Use the analyzed metadata to search your library with filters like mood, energy level, instruments present and genre combination finding exactly the right track for any context." },
+        { title: "Integrate via API", description: "For platforms and services use the Cyanite API to embed music intelligence directly into your application enabling automated categorization and search at scale." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Audio Intelligence Engine", description: "Advanced AI analyzes audio and extracts detailed musical metadata automatically replacing hours of manual tagging with instant accurate classification" },
+      { title: "Mood and Emotion Mapping", description: "Sophisticated mood detection goes beyond simple genre labels to identify the specific emotional qualities that determine whether a track fits a particular creative context" },
+      { title: "Scalable Processing", description: "Batch processing capability handles entire music libraries simultaneously making it practical to apply AI analysis to catalogs of thousands of tracks" },
+      { title: "Sync Licensing Precision", description: "Music supervisors use detailed mood and energy profiles to match tracks to specific scenes and emotional moments in video content with greater accuracy than text search" }
+    ],
+    useCases: [
+      { title: "Sync Licensing", description: "Music supervisors and sync agents use Cyanite to find tracks matching specific emotional moments in film, TV and advertising with greater precision and speed" },
+      { title: "Music Platforms", description: "Streaming services and music platforms integrate the Cyanite API to power mood-based search and playlist curation features for their users" },
+      { title: "Music Libraries", description: "Rights holders and music libraries use Cyanite to automatically tag and categorize large collections making their catalogs more searchable and commercially useful" }
+    ]
+  },
+  "taja-ai": {
+    whatIs: "Taja AI is an AI-powered YouTube optimization and content repurposing platform that automates the workflow of turning long-form videos into multiple content formats. The platform connects to your YouTube channel and automatically generates optimized titles, descriptions, tags, chapters and timestamps for uploaded videos. Beyond metadata optimization, Taja transforms videos into blog posts, social media content, Shorts clips and email newsletters — helping creators maximize the value of each video without doubling their workload.",
+    features: [
+      "Automated Metadata: AI generates optimized titles, descriptions, tags and chapters for uploads",
+      "Content Repurposing: Transform videos into blog posts, social media posts and email content",
+      "Shorts Generation: Automatically create YouTube Shorts from long-form video content",
+      "Multilingual Support: Optimize and repurpose content in over 50 languages",
+      "Content Scheduling: Schedule all generated content directly from the Taja dashboard",
+      "SEO Optimization: Keyword-aware title and description generation for discoverability",
+      "Channel Integration: Direct connection to your YouTube channel for automatic processing",
+      "Thumbnail Generation: AI-assisted thumbnail creation for videos"
+    ],
+    howToUse: {
+      title: "How to Use Taja Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Channel", description: "Sign up at taja.ai and connect your YouTube channel. Taja automatically processes your uploaded videos generating optimized metadata within minutes of upload." },
+        { title: "Review Generated Content", description: "Check the AI-generated titles, descriptions, tags and chapters. Make any adjustments for accuracy or creative preference then approve for your video." },
+        { title: "Repurpose Across Platforms", description: "Use the generated blog posts, social media content and Shorts to distribute your video content across all your channels from one workflow saving hours of manual repurposing work." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated Metadata Generation", description: "Directly connected to your YouTube channel Taja automatically processes uploaded videos and generates SEO-optimized metadata reducing upload time significantly" },
+      { title: "Multi-Format Repurposing", description: "Transforms each video into blog posts, social posts, Shorts and emails from a single workflow dramatically increasing content output from existing video production" },
+      { title: "Multilingual Distribution", description: "50 plus language support enables international content distribution without requiring manual translation of all repurposed content formats" },
+      { title: "Workflow Automation", description: "The combination of metadata automation and content repurposing creates a systematic workflow replacing hours of manual work after each video upload" }
+    ],
+    useCases: [
+      { title: "Regular YouTube Creators", description: "Creators uploading weekly or more use Taja to automate the repetitive metadata and repurposing work that eats into time better spent on video production" },
+      { title: "Multi-Platform Distributors", description: "Creators managing presence across YouTube, Instagram, LinkedIn and email use Taja to systematically repurpose each video without spending hours on manual adaptation" },
+      { title: "International YouTubers", description: "Channels targeting multiple language markets use Taja's multilingual capabilities to distribute optimized content globally from one platform" }
+    ]
+  },
+  "styldod": {
+    whatIs: "Styldod is an AI-powered real estate photography enhancement and virtual staging platform used by real estate agents, property managers and photographers to transform ordinary property photos into professionally staged, visually compelling listing images. The platform uses AI to add virtual furniture, enhance lighting, remove clutter and create multiple design styles from a single photo — dramatically improving listing attractiveness without the cost of physical staging. Styldod serves real estate markets globally with a range of services from automated photo enhancement to custom virtual staging.",
+    features: [
+      "Virtual Staging: AI adds realistic virtual furniture to empty room photos",
+      "Photo Enhancement: Automatic lighting improvement, color correction and quality boost",
+      "Clutter Removal: AI removes unwanted objects from property photos",
+      "Multiple Design Styles: Generate the same room in different furniture and decor styles",
+      "Sky Replacement: Replace dull overcast skies with bright appealing ones",
+      "Day to Dusk: Transform daytime exterior shots to attractive twilight images",
+      "360 Degree Staging: Virtual staging for 360 degree virtual tour images",
+      "Batch Processing: Process multiple property photos simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Styldod",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Property Photos", description: "Sign up at styldod.com and upload your property photos. Select the services you need — virtual staging, enhancement or clutter removal." },
+        { title: "Choose Your Style", description: "For virtual staging select your preferred furniture style from modern to traditional. Styldod's AI places realistic furniture appropriate to the room type and dimensions." },
+        { title: "Download and List", description: "Receive your enhanced or staged photos typically within hours. Use the professionally presented images in your listing to attract more buyers and reduce days on market." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Virtual Staging AI", description: "Places photorealistic virtual furniture in empty rooms at a fraction of the cost of physical staging making professional listing presentation accessible for every property" },
+      { title: "Photo Enhancement", description: "Automatic correction of common real estate photography issues including poor lighting, flat colors and distracting elements without manual Photoshop work" },
+      { title: "Style Variety", description: "Multiple design style options for the same room allow agents to appeal to different buyer demographics without additional photography shoots" },
+      { title: "Batch Efficiency", description: "Process entire property photo libraries simultaneously reducing the turnaround time from photography to listing-ready images" }
+    ],
+    useCases: [
+      { title: "Real Estate Agents", description: "Agents listing vacant properties use virtual staging to show buyers how spaces can look furnished making properties more emotionally engaging and reducing time on market" },
+      { title: "Property Photographers", description: "Real estate photographers offer Styldod processing as an added service to clients providing enhanced deliverables without additional on-site work" },
+      { title: "Property Managers", description: "Rental property managers use photo enhancement to improve listing attractiveness on platforms like Airbnb and long-term rental sites" }
+    ]
+  },
+  "confab": {
+    whatIs: "Confab is an AI-powered knowledge management and content strategy platform designed for content teams who need to organize, audit and improve large volumes of existing content. The platform helps teams gain visibility into their content libraries, identify gaps and redundancies, and use AI to improve content quality systematically. Confab is particularly useful for enterprise content teams managing complex documentation, knowledge bases or content-heavy websites who need data-driven content strategy tools.",
+    features: [
+      "Content Audit: Comprehensive analysis of existing content libraries and performance",
+      "Gap Analysis: Identify missing content topics and coverage gaps in your library",
+      "AI Improvement: AI-powered suggestions for improving existing content quality",
+      "Content Inventory: Complete cataloging and organization of all content assets",
+      "Redundancy Detection: Find duplicate or overlapping content across your library",
+      "Performance Analysis: Connect content quality to actual performance metrics",
+      "Content Planning: Data-driven content planning based on audit findings",
+      "Team Collaboration: Coordinate content strategy work across team members"
+    ],
+    howToUse: {
+      title: "How to Use Confab",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Audit Your Content", description: "Connect your content sources to Confab and run a comprehensive content audit. Get a complete picture of everything you have, what is performing and where the gaps are." },
+        { title: "Identify Priorities", description: "Use the gap analysis and performance data to identify which content improvements and new content would have the highest impact on your goals." },
+        { title: "Execute Systematically", description: "Work through your content strategy priorities systematically using AI improvement suggestions to upgrade existing content and data to guide new content creation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content Intelligence", description: "Comprehensive audit tools give content teams genuine visibility into their library — what exists, how it performs and where strategic gaps need filling" },
+      { title: "Gap and Redundancy Detection", description: "Identifies both missing coverage and redundant content helping teams make informed decisions about what to create, consolidate or retire" },
+      { title: "Performance Connection", description: "Links content quality metrics to actual performance data helping teams understand which content characteristics correlate with business results" },
+      { title: "Systematic Improvement", description: "AI-powered improvement suggestions provide a practical path to upgrading existing content systematically rather than approaching it ad hoc" }
+    ],
+    useCases: [
+      { title: "Enterprise Content Teams", description: "Large organizations with hundreds or thousands of content pieces use Confab to gain oversight and systematic improvement capabilities across their entire library" },
+      { title: "Content Strategists", description: "Content strategists use audit and gap analysis tools to develop data-backed content strategies rather than relying on intuition and guesswork" },
+      { title: "Documentation Teams", description: "Technical writing teams use Confab to audit and maintain large documentation libraries ensuring accuracy, coverage and quality across complex knowledge bases" }
+    ]
+  },
+  "infinite-convo": {
+    whatIs: "Infinite Convo is an AI conversation platform designed to facilitate extended, in-depth dialogue on complex topics without the typical limitations of AI chat interfaces. The platform is built for users who want to explore ideas deeply through sustained conversation, whether for research, creative development, philosophical inquiry or simply thinking through complex problems with AI assistance. Infinite Convo removes artificial conversation length limits and maintains context across extremely long dialogue sessions.",
+    features: [
+      "Extended Conversations: No arbitrary length limits on dialogue sessions",
+      "Deep Topic Exploration: AI maintains context and depth across very long conversations",
+      "Research Support: Explore complex topics through sustained inquiry without losing thread",
+      "Idea Development: Develop creative and intellectual ideas through extended dialogue",
+      "Memory Persistence: Conversation context maintained throughout extended sessions",
+      "Multiple Topics: Branch into related topics without losing the main conversation thread",
+      "Export Options: Save and export lengthy conversations for reference",
+      "Collaborative Thinking: Use AI as a genuine thinking partner for complex problems"
+    ],
+    howToUse: {
+      title: "How to Use Infinite Convo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Conversation", description: "Begin a conversation on any topic you want to explore deeply. There is no pressure to keep things brief — the platform is designed specifically for extended in-depth dialogue." },
+        { title: "Explore Without Limits", description: "Follow every interesting thread and tangent. The AI maintains context across the entire conversation allowing genuine depth of exploration without restarting constantly." },
+        { title: "Save Your Thinking", description: "Export valuable conversations to capture the developed ideas, conclusions and insights that emerge from extended dialogue sessions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Unlimited Context", description: "Maintains conversation context across extremely long sessions enabling genuine intellectual depth rather than the shallow exchanges typical AI chat forces" },
+      { title: "Research Assistant", description: "Supports sustained research inquiry allowing users to explore complex topics methodically through dialogue rather than just asking isolated questions" },
+      { title: "Idea Laboratory", description: "Extended conversations become a genuine thinking environment where complex ideas can be developed, tested and refined through dialogue over time" },
+      { title: "No Conversation Walls", description: "Removes the frustrating limits that cut off productive AI conversations just as they reach genuine depth and insight" }
+    ],
+    useCases: [
+      { title: "Researchers and Academics", description: "Researchers exploring complex topics use extended conversation to think through problems, test hypotheses and develop understanding through sustained AI dialogue" },
+      { title: "Writers and Creatives", description: "Writers use Infinite Convo to develop stories, characters and creative concepts through extended exploratory conversation with AI" },
+      { title: "Deep Thinkers", description: "Intellectually curious users who find typical AI chat too shallow use the platform as a genuine thinking partner for philosophical and complex inquiry" }
+    ]
+  },
+  "chatgpt-soliloquy": {
+    whatIs: "ChatGPT Soliloquy is a creative writing and performance tool that transforms ChatGPT into a dramatic monologue and soliloquy generator for actors, writers and performers. The platform specializes in generating character-driven dramatic speeches in the style of theatrical soliloquies — helping actors practice, explore character psychology and develop original dramatic material. Soliloquy bridges the gap between AI writing capabilities and the specific craft requirements of theatrical and dramatic performance.",
+    features: [
+      "Dramatic Monologue Generation: Create character-driven soliloquies for any scenario",
+      "Character Psychology: AI develops the internal reasoning and emotional journey of characters",
+      "Multiple Theatrical Styles: Generate in various dramatic traditions and genres",
+      "Performance Practice: Generate practice material for actors in auditions and classes",
+      "Custom Characters: Define character background, situation and emotional state",
+      "Script Integration: Create soliloquies that work within specific dramatic contexts",
+      "Tone and Register: Control the dramatic intensity and formality of generated speeches",
+      "Export for Performance: Download formatted scripts for rehearsal use"
+    ],
+    howToUse: {
+      title: "How to Use Chatgpt Soliloquy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Character", description: "Create your character profile including their situation, emotional state, background and what they are grappling with. The more specific the context the more psychologically rich the soliloquy." },
+        { title: "Generate Your Soliloquy", description: "Let the AI generate a dramatic monologue from your character's perspective. Review the psychological journey and emotional arc of the speech." },
+        { title: "Adapt and Perform", description: "Edit the generated soliloquy to match your performance needs or character interpretation. Use it as practice material, audition preparation or original dramatic writing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Character Psychology Engine", description: "AI develops genuine internal reasoning and emotional journey for characters rather than just producing dramatic-sounding text without psychological grounding" },
+      { title: "Theatrical Form", description: "Generated speeches follow the conventions of dramatic soliloquy including internal conflict, revelation and the intimate quality of speaking one's inner truth" },
+      { title: "Versatile Application", description: "Useful for audition preparation, classroom exercises, dramatic writing practice and exploring character psychology from the inside out" },
+      { title: "Multiple Styles", description: "Generates in various theatrical traditions from Shakespearean register to contemporary naturalistic styles to fit different performance contexts" }
+    ],
+    useCases: [
+      { title: "Actors and Drama Students", description: "Theatre students and working actors use Soliloquy to generate practice material for auditions, class exercises and character development work" },
+      { title: "Playwrights", description: "Dramatic writers use the tool to explore how a character might speak and think helping develop authentic voice for characters before writing full scenes" },
+      { title: "Performance Educators", description: "Drama teachers use generated soliloquies as teaching material for acting classes and workshops" }
+    ]
+  },
+  "ae-studio-skunkworks": {
+    whatIs: "AE Studio Skunkworks is the experimental AI research and prototyping division of AE Studio, a software development firm focused on human-aligned AI systems. The Skunkworks projects explore novel AI applications and human-AI collaboration tools at the frontier of what is currently possible. AE Studio has a strong reputation in the AI safety and alignment community and the Skunkworks projects reflect that commitment to building AI that genuinely serves human interests.",
+    features: [
+      "Experimental AI Tools: Frontier AI experiments and novel human-AI collaboration systems",
+      "Human-Aligned AI: Projects developed with AI safety and human benefit as core principles",
+      "Rapid Prototyping: Fast iteration on novel AI application concepts",
+      "Research Integration: Tools informed by current AI safety and alignment research",
+      "Open Exploration: Wide-ranging experiments across different application domains",
+      "Community Engagement: Sharing of experimental tools with the broader AI research community"
+    ],
+    howToUse: {
+      title: "How to Use Ae Studio Skunkworks",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Explore the Projects", description: "Visit the AE Studio Skunkworks page to browse current experimental AI projects and tools being developed and shared by the research team." },
+        { title: "Engage with Experiments", description: "Try available experimental tools and provide feedback that informs the ongoing development of human-aligned AI applications." },
+        { title: "Follow the Research", description: "Stay connected with AE Studio research to be among the first to access new experimental AI tools as they are developed and released." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Experimental Innovation", description: "Frontier AI experiments that push beyond current mainstream applications exploring what is genuinely novel in human-AI collaboration" },
+      { title: "Safety-First Development", description: "All experiments are developed with human alignment and safety considerations embedded from the start reflecting AE Studio core values" },
+      { title: "Research Transparency", description: "Experimental tools are shared with the broader community enabling collective learning about frontier AI capabilities and their implications" },
+      { title: "Rapid Prototyping", description: "Fast iteration allows AE Studio to test and learn from many experimental directions quickly" }
+    ],
+    useCases: [
+      { title: "AI Researchers", description: "AI researchers and enthusiasts explore experimental tools to understand frontier capabilities and inform their own work" },
+      { title: "Developers", description: "Software developers use experimental prototypes as inspiration and reference for their own human-aligned AI application development" },
+      { title: "AI Safety Community", description: "The AI safety and alignment community engages with AE Studio experiments as practical explorations of aligned AI principles in application" }
+    ]
+  },
+  "designrr": {
+    whatIs: "Designrr is a content repurposing and ebook creation platform that transforms existing content — blog posts, podcasts, videos and documents — into professionally formatted ebooks, lead magnets and flipbooks. The platform is particularly popular with content marketers and course creators who want to repurpose their existing content into downloadable assets without spending hours on design and formatting. Designrr automates the layout and design work allowing content creators to produce professional-looking ebooks in minutes from content they have already created.",
+    features: [
+      "Content Import: Import blog posts, URLs, Word documents, PDFs and transcripts automatically",
+      "Ebook Formatting: Automatic professional formatting and layout of imported content",
+      "Template Library: 100 plus professionally designed ebook and lead magnet templates",
+      "Flipbook Creator: Create interactive digital flipbooks for online embedding",
+      "AI Writing Tools: AI assistance for improving and expanding imported content",
+      "Brand Customization: Add your logo, colors and fonts to match your brand",
+      "Lead Magnet Creation: Create opt-in incentives from existing content quickly",
+      "Multiple Export Formats: Export as PDF, ePub or interactive flipbook"
+    ],
+    howToUse: {
+      title: "How to Use Designrr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Content", description: "Sign up at designrr.io and paste a blog URL, upload a Word document or import from various content sources. Designrr automatically pulls in your content and begins formatting it." },
+        { title: "Choose a Template", description: "Select from 100 plus professionally designed templates. The imported content is automatically formatted into the chosen template with appropriate headings, spacing and layout." },
+        { title: "Customize and Export", description: "Add your branding, adjust colors and fonts, review the result and export as a PDF lead magnet, ebook or interactive flipbook for your website or email list." }
+      ]
+    },
+    coreFeatures: [
+      { title: "One-Click Content Import", description: "Import content directly from URLs, documents and transcripts saving hours of copy-paste formatting work before design even begins" },
+      { title: "Automatic Professional Formatting", description: "AI applies professional layout and typography to imported content producing results that previously required design software expertise" },
+      { title: "Flipbook Technology", description: "Interactive digital flipbook creation adds a premium presentation option that goes beyond static PDFs for online content delivery" },
+      { title: "Lead Magnet Speed", description: "Transform existing blog content into professional lead magnets in minutes enabling content marketers to build email list assets from content already created" }
+    ],
+    useCases: [
+      { title: "Content Marketers", description: "Marketers repurpose high-performing blog posts into lead magnet ebooks to grow email lists without creating entirely new content from scratch" },
+      { title: "Course Creators", description: "Online educators package course content, lesson summaries and resource guides into professional ebooks for students and promotional purposes" },
+      { title: "Podcasters", description: "Podcast producers transform transcripts and show notes into formatted ebooks and guides that provide additional value to their audience" }
+    ]
+  },
+  "ai-book-generator": {
+    whatIs: "AI Book Generator is an automated book creation tool that produces complete manuscripts from simple topic inputs and prompts. The platform is designed for users who want to create books at scale — whether for publishing on Amazon KDP, creating lead magnets or building content for educational purposes. The tool generates full book structures including chapters, sections and transitions from minimal input making book creation accessible without traditional writing skills.",
+    features: [
+      "Complete Book Generation: Create full manuscripts from topic descriptions automatically",
+      "Chapter Structure: AI generates logical chapter organization and content flow",
+      "Multiple Book Types: Non-fiction, how-to guides, educational content and more",
+      "KDP Ready: Formatted output suitable for Kindle Direct Publishing submission",
+      "Topic Research: AI incorporates relevant information on your chosen subject",
+      "Cover Suggestions: Basic cover design guidance for publishing",
+      "Export Options: Download in Word or PDF format for editing and publishing",
+      "Quick Generation: Produce complete first drafts in minutes rather than months"
+    ],
+    howToUse: {
+      title: "How to Use Ai Book Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Book Topic", description: "Sign up and provide your book topic, target audience and any specific angles or key points you want covered. The AI plans the chapter structure automatically." },
+        { title: "Generate Your Manuscript", description: "The AI writes complete chapter content based on the planned structure. Review the output for accuracy and areas needing expansion or correction." },
+        { title: "Edit and Publish", description: "Edit the generated content to add your unique insights, verify facts and refine the writing. Format for your target publishing platform and publish." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Full Manuscript Generation", description: "Produces complete book-length content from a topic description giving authors a substantial first draft to work from rather than a blank page" },
+      { title: "KDP Publishing Focus", description: "Output formatted and structured appropriately for Kindle Direct Publishing making the path from generation to published book as direct as possible" },
+      { title: "Topic Coverage", description: "AI incorporates relevant information from its training on the subject matter providing a foundation of content that authors can verify and expand" },
+      { title: "Speed to Draft", description: "Reduces the time from book idea to first draft from months of writing to minutes of generation and hours of editing" }
+    ],
+    useCases: [
+      { title: "Self-Publishers", description: "KDP self-publishers use AI Book Generator to produce initial drafts rapidly and build larger book catalogs than traditional writing speed allows" },
+      { title: "Non-Fiction Writers", description: "Authors writing informational non-fiction use the tool to produce structured first drafts covering their topic that they then refine with personal expertise" },
+      { title: "Lead Magnet Creators", description: "Marketers use the tool to create book-length lead magnets and content upgrades that provide substantial value to email subscribers" }
+    ]
+  },
+  "youbooks": {
+    whatIs: "YouBooks is an AI book creation platform that personalizes the book writing experience by learning about the author and incorporating their specific knowledge, experiences and perspective into the generated content. Unlike generic book generators, YouBooks aims to produce books that genuinely reflect the author as a person — their voice, their expertise and their unique insights rather than generic AI content on a topic. The platform is designed for professionals, entrepreneurs and thought leaders who want to publish a book that represents their authentic authority.",
+    features: [
+      "Personalized Writing: AI learns about you and incorporates your perspective throughout",
+      "Expertise Integration: Incorporate your professional knowledge and unique insights",
+      "Voice Development: AI adapts to your natural communication style",
+      "Professional Positioning: Books designed to establish thought leadership and authority",
+      "Chapter Development: Guided chapter development incorporating your specific examples",
+      "Interview Style Input: Gather content through conversation rather than traditional writing",
+      "Publishing Guidance: Support through the publishing process after creation",
+      "Multiple Formats: Create books for different purposes from lead magnets to full publications"
+    ],
+    howToUse: {
+      title: "How to Use Youbooks",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Tell YouBooks About You", description: "Sign up at youbooks.io and answer questions about your expertise, experiences, target audience and what makes your perspective unique. This shapes everything the AI creates." },
+        { title: "Develop Your Content Through Dialogue", description: "Work through chapters using conversation-style prompts that draw out your specific knowledge, examples and insights rather than requiring traditional writing." },
+        { title: "Review and Refine", description: "Review the personalized manuscript that incorporates your expertise and voice. Add specific examples, refine passages and ensure everything authentically represents your perspective." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization Engine", description: "Learns about the individual author and incorporates their specific expertise, examples and perspective rather than generating generic content on a topic" },
+      { title: "Conversation-Based Input", description: "Interview-style content gathering removes the need to sit and write allowing busy professionals to share their knowledge through natural dialogue" },
+      { title: "Thought Leadership Focus", description: "Books created with YouBooks are positioned to establish the author as an authority in their field rather than just adding another generic book to the market" },
+      { title: "Authentic Voice", description: "Emphasis on incorporating the author's actual voice and perspective produces books that feel genuinely authored rather than AI-generated" }
+    ],
+    useCases: [
+      { title: "Entrepreneurs and Business Leaders", description: "Business executives use YouBooks to create books that establish their authority and share their hard-won business knowledge with a wider audience" },
+      { title: "Professional Experts", description: "Consultants, coaches and specialists use the platform to package their expertise into book form for marketing, speaking and credibility purposes" },
+      { title: "First-Time Authors", description: "Professionals who have knowledge worth sharing but are not writers use YouBooks to make book publishing accessible without traditional writing skills" }
+    ]
+  },
   "ai-photocaption": {
     whatIs: "AI PhotoCaption is an AI-powered caption and text generation tool that helps content creators, social media managers and marketers write engaging captions for photos and social media posts. The platform uses advanced AI to analyze image context and generate relevant, creative captions that resonate with target audiences. AI PhotoCaption saves significant time in the content creation process by eliminating writer's block and producing multiple caption variations to choose from.",
     features: [

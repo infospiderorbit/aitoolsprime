@@ -1198,7 +1198,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "ifnovels", name: "IFNovels", description: "Interactive fiction plot generator", url: "", upvotes: 345, verified: true, rating: 4.4, icon: "🎮", category: "writing-editing", subcategory: "ai-plot-generator" },
       { id: "plotlime", name: "Plotlime", description: "AI story plot and outline generator", url: "", upvotes: 234, verified: true, rating: 4.3, icon: "🍋", category: "writing-editing", subcategory: "ai-plot-generator" },
       { id: "lore-sage", name: "Lore Sage", description: "Fantasy world and plot generator", url: "", upvotes: 189, verified: true, rating: 4.2, icon: "🧙", category: "writing-editing", subcategory: "ai-plot-generator" },
-      { id: "sudowrite-plot", name: "Sudowrite", description: "AI creative writing and plot assistant", url: "", upvotes: 156, verified: false, rating: 4.1, icon: "✨", category: "writing-editing", subcategory: "ai-plot-generator" }
     ],
     "ai-poem-generator": [
       { id: "acrostic-ai", name: "Acrostic AI", description: "AI acrostic poem generator", url: "", upvotes: 456, verified: true, rating: 4.4, icon: "📝", category: "writing-editing", subcategory: "ai-poem-generator" },
@@ -1295,7 +1294,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-story-generator": [
       { id: "perchance-story", name: "Perchance", description: "Random story and content generator", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🎲", category: "writing-editing", subcategory: "ai-story-generator" },
-      { id: "sudowrite-story", name: "Sudowrite", description: "AI creative writing and story generator", url: "", upvotes: 789, verified: true, rating: 4.7, icon: "✨", category: "writing-editing", subcategory: "ai-story-generator" },
       { id: "dreampress-ai", name: "DreamPress AI", description: "AI story generation platform", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "💭", category: "writing-editing", subcategory: "ai-story-generator" },
       { id: "dreamgen", name: "DreamGen", description: "AI story and content generator", url: "", upvotes: 345, verified: false, rating: 4.3, icon: "🌙", category: "writing-editing", subcategory: "ai-story-generator" }
     ],
@@ -1334,11 +1332,9 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "academicideas", name: "AcademicIdeas", description: "AI academic writing and thesis ideas", url: "", upvotes: 156, verified: false, rating: 4.0, icon: "💡", category: "writing-editing", subcategory: "ai-thesis-generator" }
     ],
     "ai-title-generator": [
-      { id: "vidiq-title", name: "VidIQ", description: "YouTube title optimization with AI", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "📺", category: "writing-editing", subcategory: "ai-title-generator" },
       { id: "pikzels", name: "Pikzels", description: "AI thumbnail and title generator", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "🖼️", category: "writing-editing", subcategory: "ai-title-generator" },
       { id: "picsee", name: "PicSee", description: "Link management with AI title generation", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "🔗", category: "writing-editing", subcategory: "ai-title-generator" },
       { id: "thumblytics", name: "Thumblytics", description: "YouTube thumbnail and title analytics", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "📊", category: "writing-editing", subcategory: "ai-title-generator" },
-      { id: "taja-ai-title", name: "Taja AI", description: "AI content optimization and titles", url: "", upvotes: 234, verified: false, rating: 4.2, icon: "🎯", category: "writing-editing", subcategory: "ai-title-generator" }
     ],
     "ai-writing": [
       { id: "scribbr-writing", name: "Scribbr", description: "Academic writing assistance and editing", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🎓", category: "writing-editing", subcategory: "ai-writing" },
@@ -1350,7 +1346,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "prowritingaid-assistant", name: "ProWritingAid", description: "Comprehensive AI writing analysis tool", url: "", upvotes: 1789, verified: true, rating: 4.8, icon: "📝", category: "writing-editing", subcategory: "ai-writing-assistants" },
       { id: "smodin", name: "Smodin", description: "AI writing assistant and homework helper", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🤖", category: "writing-editing", subcategory: "ai-writing-assistants" },
       { id: "toolsmart-humanize", name: "Toolsmart Free Humanize AI", description: "AI text humanization tool", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "👥", category: "writing-editing", subcategory: "ai-writing-assistants" },
-      { id: "sudowrite-assistant", name: "Sudowrite", description: "AI creative writing partner", url: "", upvotes: 789, verified: true, rating: 4.7, icon: "✨", category: "writing-editing", subcategory: "ai-writing-assistants" },
       { id: "heidi-health", name: "Heidi Health", description: "AI writing assistant for healthcare", url: "", upvotes: 567, verified: false, rating: 4.4, icon: "🏥", category: "writing-editing", subcategory: "ai-writing-assistants" }
     ],
     "headlines-ai": [
@@ -1370,7 +1365,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "resume-ai": [
       { id: "resume-worded", name: "Resume Worded", description: "AI resume optimization and feedback", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "📄", category: "writing-editing", subcategory: "resume-ai" },
       { id: "resumebuilder-com", name: "ResumeBuilder.com", description: "AI-powered resume builder", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "🔧", category: "writing-editing", subcategory: "resume-ai" },
-      { id: "careerflow-resume", name: "Careerflow", description: "AI career tools and resume optimization", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "💼", category: "writing-editing", subcategory: "resume-ai" },
       { id: "swooped", name: "Swooped", description: "AI job search and resume optimization", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "🚀", category: "writing-editing", subcategory: "resume-ai" }
     ]
   },
