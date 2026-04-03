@@ -1,4 +1,37 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "daily-affirmations-ai": {
+    whatIs: "Daily Affirmations AI is an AI-powered affirmation generator that creates personalized positive statements tailored to your specific goals, challenges and mindset needs. The platform delivers fresh affirmations daily helping users build a consistent positive self-talk practice that supports mental wellness, confidence and personal growth. Unlike generic affirmation apps with fixed content libraries, the AI generates new personalized affirmations ensuring the practice stays relevant and meaningful over time.",
+    features: [
+      "Daily AI Affirmations: Fresh personalized affirmations generated every day",
+      "Personalization: Affirmations tailored to your specific goals and challenges",
+      "Multiple Categories: Affirmations for confidence, health, career, relationships and more",
+      "Morning Delivery: Start your day with intentional positive mindset setting",
+      "Custom Goals: Input your specific aspirations to receive aligned affirmations",
+      "Shareable Format: Share daily affirmations with friends and on social media",
+      "Practice Tracking: Monitor your daily affirmation practice consistency",
+      "Gentle Tone: Warm encouraging language that feels authentic not performative"
+    ],
+    howToUse: {
+      title: "How to Use Daily Affirmations AI",
+      description: "Start your personalized daily affirmation practice",
+      steps: [
+        { title: "Set Your Focus", description: "Sign up and share your personal goals, challenges and the areas of life you want to strengthen. This context guides the AI to generate affirmations specifically relevant to your situation." },
+        { title: "Receive Your Daily Affirmation", description: "Get a fresh personalized affirmation each morning. Read it mindfully, let it sink in and carry the intention through your day." },
+        { title: "Build Your Practice", description: "Return daily and track your consistency. The most significant benefits of affirmation practice come from repetition over time rather than any single statement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI-Generated Personalization", description: "Every affirmation is generated fresh based on your profile and goals rather than pulled from a fixed library making each one personally relevant" },
+      { title: "Daily Fresh Content", description: "New affirmations generated each day prevent the repetition that causes engagement to drop with static affirmation apps over time" },
+      { title: "Goal Alignment", description: "Affirmations connect directly to your stated personal development goals reinforcing the mindset needed for your specific aspirations" },
+      { title: "Consistent Practice Support", description: "Daily delivery and tracking features support the habit formation that makes affirmation practice genuinely effective for mental wellness" }
+    ],
+    useCases: [
+      { title: "Daily Mental Wellness", description: "People building positive mental wellness habits use daily affirmations as a brief but meaningful morning practice alongside meditation and journaling" },
+      { title: "Confidence Building", description: "Individuals working on self-confidence use goal-specific affirmations that address the particular areas of self-doubt they are actively working to overcome" },
+      { title: "Personal Development", description: "People pursuing specific personal growth goals use aligned affirmations to reinforce the beliefs and mindset that support their development journey" }
+    ]
+  },
   "superhuman": {
     whatIs: "Superhuman is the fastest email client ever made, acquired by Grammarly in June 2025 and now serving over 40 million individuals and 50000 organizations. Built on a keyboard-first philosophy with over 100 shortcuts, Superhuman helps professionals process their inbox roughly twice as fast as Gmail or Outlook alone — with users reporting an average of 4 hours saved per week. The platform's AI features include Auto Drafts that write follow-up emails in your voice without prompting, Auto Labels that classify every incoming email automatically, and an AI writing assistant that adapts its tone per recipient based on your past email history with them.",
     features: [
