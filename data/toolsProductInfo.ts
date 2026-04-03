@@ -1,4 +1,686 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "ai-photocaption": {
+    whatIs: "AI PhotoCaption is an AI-powered caption and text generation tool that helps content creators, social media managers and marketers write engaging captions for photos and social media posts. The platform uses advanced AI to analyze image context and generate relevant, creative captions that resonate with target audiences. AI PhotoCaption saves significant time in the content creation process by eliminating writer's block and producing multiple caption variations to choose from.",
+    features: [
+      "Photo Caption Generation: Create engaging captions for any photo automatically",
+      "Multiple Variations: Generate several caption options to choose the best fit",
+      "Tone Control: Adjust caption tone from professional to casual to humorous",
+      "Hashtag Suggestions: Get relevant hashtag recommendations alongside captions",
+      "Platform Optimization: Captions optimized for Instagram, Facebook, Twitter and LinkedIn",
+      "Character Count Control: Generate captions within platform-specific character limits",
+      "Emoji Integration: Smart emoji suggestions to enhance caption engagement",
+      "Brand Voice: Maintain consistent brand tone across all generated captions"
+    ],
+    howToUse: {
+      title: "How to Use AI PhotoCaption",
+      description: "Generate engaging captions for your photos in seconds",
+      steps: [
+        { title: "Describe Your Photo", description: "Enter a description of your photo or upload the image directly. Include context about the subject, setting and mood to help the AI generate more relevant captions." },
+        { title: "Choose Your Style", description: "Select your preferred tone, platform and any specific keywords or themes you want included. The AI generates multiple caption variations matching your specifications." },
+        { title: "Select and Post", description: "Review the generated captions, pick your favorite or combine elements from multiple options, then copy and paste directly into your social media platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Caption Engine", description: "Advanced AI generates contextually relevant and engaging captions from photo descriptions or uploaded images" },
+      { title: "Multiple Variations", description: "Generates several caption options simultaneously giving creators choices rather than a single output to accept or reject" },
+      { title: "Platform Optimization", description: "Tailors caption length, style and format for each social media platform's specific conventions and best practices" },
+      { title: "Hashtag Integration", description: "Suggests relevant hashtags alongside captions to maximize content discoverability and reach on social platforms" }
+    ],
+    useCases: [
+      { title: "Social Media Content", description: "Influencers and brands use AI PhotoCaption to maintain consistent posting schedules without spending time crafting captions manually for every image" },
+      { title: "E-commerce Product Photos", description: "Online stores generate engaging product description captions for product images across social media and marketing channels" },
+      { title: "Content Agencies", description: "Social media agencies use the tool to efficiently produce captions for multiple client accounts without sacrificing quality or brand consistency" }
+    ]
+  },
+  "squibler": {
+    whatIs: "Squibler is an AI-powered writing platform built specifically for authors, screenwriters and long-form content creators. Founded in 2018, it has grown into one of the most complete book-writing environments available, combining a Smart Writer AI assistant, genre-specific templates, chapter and scene organization, character and worldbuilding management, real-time collaboration and even print-on-demand publishing in one platform. Users can generate a complete novel or screenplay in minutes from a prompt, or use the structured outline tools to develop their story chapter by chapter. The free plan includes 6000 AI words per month and 5 image generations, while the Pro plan at 192 dollars per year unlocks unlimited AI writing and advanced publishing features.",
+    features: [
+      "Smart Writer AI: Autocompletes and generates story content with context-aware responses",
+      "Full Book Generation: Generate a complete novel or screenplay from a single prompt in minutes",
+      "Genre Templates: Pre-built templates for fiction, thriller, romance, sci-fi, screenplay and more",
+      "Chapter and Scene Manager: Organize your manuscript with drag-and-drop chapter organization",
+      "Character and Worldbuilding Tools: Create detailed character profiles and story elements the AI uses throughout",
+      "Real-Time Collaboration: Co-write and comment on projects simultaneously with other authors",
+      "AI Image Generation: Create book covers and story visuals without leaving the platform",
+      "Export to Multiple Formats: Download as PDF, Word or Kindle-ready files",
+      "Progress Tracking: Set daily word goals and monitor writing milestones",
+      "Print on Demand: Turn your finished manuscript into a physical book with printing and shipping"
+    ],
+    howToUse: {
+      title: "How to Use Squibler",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Project", description: "Sign up at squibler.io and choose your project type from novel, screenplay or short story. Select a genre template or start from a blank project and enter a synopsis to generate your first draft or outline." },
+        { title: "Write with Smart Writer", description: "Use the AI sidebar during writing sessions. Set Smart Writer to Auto mode for continuous autocomplete or Guided mode to prompt specific scenes, add conflict or expand descriptions with full context awareness." },
+        { title: "Publish or Export", description: "When your manuscript is complete, export to PDF, Word or Kindle format. Use the print-on-demand feature to order physical copies of your finished book shipped directly to you." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Smart Writer AI", description: "Context-aware AI assistant that understands your story characters and plot and generates new content that maintains narrative consistency throughout the manuscript" },
+      { title: "Complete Book Generation", description: "Generate a full-length novel or screenplay from a detailed prompt in minutes — ideal for overcoming writer's block or producing a first draft to refine" },
+      { title: "Story Organization System", description: "Chapter, scene and element management system designed specifically for long-form projects keeping characters, settings and plot threads organized and accessible" },
+      { title: "Collaboration and Publishing", description: "Real-time co-authoring tools combined with export and print-on-demand features make Squibler a complete end-to-end book creation platform" }
+    ],
+    useCases: [
+      { title: "Fiction and Novel Writing", description: "Authors working on full-length novels use Squibler to manage the complexity of long manuscripts with consistent character and plot tracking throughout" },
+      { title: "Screenplay Development", description: "Screenwriters use genre-specific script templates and the AI scene generator to draft and refine screenplays faster than traditional methods" },
+      { title: "First Draft Generation", description: "Writers use the full book generation feature to produce a complete rough draft quickly then spend their creative energy on editing and refining the output" }
+    ]
+  },
+  "dabble": {
+    whatIs: "Dabble is a cloud-based novel writing software that combines a distraction-free writing environment with powerful story planning and organization tools. The platform is designed around the reality that writing a novel requires more than just a word processor — it needs chapter management, scene planning, a story notes system and progress tracking all working together. Dabble is available on any device with automatic syncing ensuring writers never lose progress and can pick up exactly where they left off. The Plot Grid feature is particularly praised for helping authors visualize their story structure across multiple plot lines simultaneously.",
+    features: [
+      "Distraction-Free Editor: Clean minimal writing interface designed for focus and flow",
+      "Plot Grid: Visual story planning tool mapping chapters and scenes across multiple plot lines",
+      "Chapter and Scene Organization: Flexible chapter and scene management with drag-and-drop reordering",
+      "Story Notes: Integrated notes system for characters, settings, research and world-building",
+      "Goal Tracking: Daily and project word count goals with visual progress indicators",
+      "Auto-Sync: Real-time syncing across all devices with offline writing capability",
+      "Manuscript Export: Export to Word, PDF and other formats for editing and submission",
+      "Collaboration: Share manuscripts with beta readers and editors with comment tools",
+      "Word Count Targets: Set project and chapter-level word targets with deadline tracking",
+      "Spelling and Grammar: Built-in spelling and grammar checking tools"
+    ],
+    howToUse: {
+      title: "How to Use Dabble",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Novel", description: "Sign up at dabblewriter.com and create a new project. Add your chapters and scenes in the manuscript view and set up your plot grid to plan your story structure visually before writing." },
+        { title: "Write and Track Progress", description: "Use the distraction-free editor to write your scenes. Set daily word count goals and track progress toward your overall manuscript target with visual indicators keeping you motivated." },
+        { title: "Plan with Plot Grid", description: "Use the Plot Grid to map your story arc across chapters and plot lines. Visualize how your subplots interact with the main narrative and identify pacing issues before they become problems in the draft." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Plot Grid", description: "Unique visual story planning feature that maps scenes and chapters across multiple plot lines simultaneously giving authors a bird's-eye view of their entire narrative structure" },
+      { title: "Cloud Sync", description: "Automatic real-time syncing across all devices means writers can switch between desktop, laptop and mobile without ever losing progress or dealing with version conflicts" },
+      { title: "Integrated Notes System", description: "Built-in story notes keep character profiles, setting descriptions, research and world-building details accessible within the writing environment without switching apps" },
+      { title: "Progress Tracking", description: "Comprehensive word count goals at project and chapter level with visual progress indicators and deadline tracking to keep authors motivated and on schedule" }
+    ],
+    useCases: [
+      { title: "Novel Writing", description: "Authors planning and drafting novels use Dabble to manage the complexity of multi-chapter manuscripts with the Plot Grid keeping their story structure clear throughout" },
+      { title: "Pantsers and Plotters", description: "Both discovery writers and detailed planners find Dabble works for their style — start writing immediately or build out a full plot grid before touching the manuscript" },
+      { title: "Remote and Multi-Device Writers", description: "Writers who work across multiple locations and devices rely on Dabble's automatic cloud syncing to maintain a consistent seamless writing experience" }
+    ]
+  },
+  "book-by-anyone": {
+    whatIs: "Book by Anyone is an AI book creation platform that makes writing and publishing a book accessible to people without traditional writing experience. The platform guides users through the entire process from initial idea to finished publishable book using AI assistance at every stage. Whether someone wants to write a memoir, a how-to guide, a children's book or a business book, Book by Anyone provides the structure, AI writing support and publishing pathway to make it happen without needing to be a professional author.",
+    features: [
+      "Full Book Creation: AI-guided process from concept to finished publishable book",
+      "Genre Support: Templates and guidance for memoir, business, children's books and more",
+      "AI Writing Assistance: Smart writing suggestions and content generation throughout",
+      "Structure Guidance: Step-by-step book structure templates for different book types",
+      "Editing Tools: Built-in tools for reviewing and refining AI-generated content",
+      "Publishing Pathway: Guidance on self-publishing your completed book",
+      "Cover Design: Tools for creating professional book cover designs",
+      "Export Options: Download your finished book in standard publishing formats"
+    ],
+    howToUse: {
+      title: "How to Use Book By Anyone",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Book Type", description: "Visit bookbyanyone.com and select the type of book you want to write. Answer questions about your topic, audience and goals to set up your project with the right structure." },
+        { title: "Write with AI Guidance", description: "Work through each chapter with AI assistance that suggests content, helps expand your ideas and maintains consistent tone throughout your manuscript." },
+        { title: "Polish and Publish", description: "Review and edit your AI-assisted draft, design your cover and use the publishing guidance to get your finished book into the hands of readers." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessible Book Creation", description: "Designed specifically for people without writing experience — the guided process removes the intimidation of starting a book from scratch" },
+      { title: "AI Writing Support", description: "Context-aware AI generates content suggestions and expansions that match your topic, voice and book structure throughout the writing process" },
+      { title: "Genre-Specific Templates", description: "Different book types have different structures — Book by Anyone provides appropriate templates for memoirs, business books, children's books and more" },
+      { title: "End-to-End Process", description: "Takes users from initial idea through writing, editing, cover design and publishing guidance in one connected workflow" }
+    ],
+    useCases: [
+      { title: "First-Time Authors", description: "People who have always wanted to write a book but feel intimidated by the writing process use Book by Anyone to make it finally happen" },
+      { title: "Business Professionals", description: "Entrepreneurs and experts use the platform to write books that establish their authority and share their knowledge without spending months writing" },
+      { title: "Memoir Writers", description: "Individuals wanting to document personal stories and life experiences use the guided memoir templates to structure and tell their story" }
+    ]
+  },
+  "ebookmaker": {
+    whatIs: "EbookMaker is an AI-powered ebook creation tool that converts existing content, documents and ideas into professionally formatted ebooks ready for distribution. The platform is built for content marketers, educators and authors who want to repurpose blog posts, courses and other content into downloadable ebook format quickly. EbookMaker handles the formatting, layout and design that typically makes ebook creation time-consuming, producing professional-looking results from raw content.",
+    features: [
+      "Content to Ebook: Convert blog posts, documents and notes into formatted ebooks",
+      "AI Writing: Generate ebook content from topic descriptions and outlines",
+      "Professional Formatting: Automatic layout, typography and design formatting",
+      "Cover Design: AI-generated or template-based ebook cover creation",
+      "Multiple Formats: Export as PDF, EPUB and other ebook formats",
+      "Template Library: Pre-designed ebook templates for different purposes",
+      "Chapter Organization: Organize and structure content into logical chapters",
+      "Download Ready: Generate distribution-ready ebook files quickly"
+    ],
+    howToUse: {
+      title: "How to Use Ebookmaker",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Add Your Content", description: "Visit the EbookMaker platform and paste existing content or describe the ebook topic you want to create. Upload documents or blog posts for conversion." },
+        { title: "Customize Formatting", description: "Choose your preferred template, cover design and formatting style. The AI organizes your content into logical chapters with professional typography and layout." },
+        { title: "Download and Distribute", description: "Generate your finished ebook in PDF or EPUB format and download it ready for distribution on your website, email list or publishing platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content Conversion", description: "Transforms existing blog posts, documents and raw notes into professionally formatted ebooks without manual design or formatting work" },
+      { title: "AI Content Generation", description: "Generates complete ebook content from topic descriptions and outlines for users starting from scratch" },
+      { title: "Professional Design", description: "Automatic layout, typography and cover design tools produce professional-looking ebooks without design skills" },
+      { title: "Format Flexibility", description: "Exports in multiple formats including PDF and EPUB ensuring compatibility with all major ebook platforms and reader devices" }
+    ],
+    useCases: [
+      { title: "Content Marketing", description: "Marketers create lead magnet ebooks from existing blog content to grow email lists without spending days on formatting and design" },
+      { title: "Online Educators", description: "Course creators package their educational content as downloadable ebooks for students and as additional products for their audience" },
+      { title: "Authors and Writers", description: "Writers quickly produce formatted ebook versions of their content for self-publishing on Amazon Kindle and other platforms" }
+    ]
+  },
+  "automateed": {
+    whatIs: "Automateed is an AI book creation platform focused on automated publishing workflows for authors who want to produce books at scale. The platform is particularly popular with self-publishers and KDP (Kindle Direct Publishing) authors who publish multiple books and need an efficient system for generating and formatting content. Automateed supports the full publishing pipeline from writing to formatted output ready for platform submission.",
+    features: [
+      "Automated Book Creation: Generate complete books with minimal manual input",
+      "KDP Ready Output: Format books specifically for Kindle Direct Publishing requirements",
+      "Bulk Production: Create multiple books efficiently for prolific publishers",
+      "AI Content Generation: Generate book content from keywords and outlines",
+      "Cover Creation: Generate book covers ready for publishing platforms",
+      "Category Research: Tools for finding profitable book niches and categories",
+      "Interior Formatting: Automatic book interior formatting to publishing standards",
+      "Publishing Guidance: Step-by-step guidance for platform submission"
+    ],
+    howToUse: {
+      title: "How to Use Automateed",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Book", description: "Sign up at automateed.com and enter your book topic, target audience and preferred length. The AI generates a complete outline and drafts the full content automatically." },
+        { title: "Review and Format", description: "Review the generated content and make any edits. Automateed formats the interior to KDP standards and generates a cover image ready for upload." },
+        { title: "Publish Your Book", description: "Download your formatted manuscript and cover then follow the built-in guidance to submit your book to Kindle Direct Publishing or other self-publishing platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated Publishing Pipeline", description: "End-to-end automation from content generation to KDP-ready formatted output reduces the time to publish a book from weeks to hours" },
+      { title: "KDP Optimization", description: "Output is formatted specifically to meet Kindle Direct Publishing technical requirements reducing submission errors and rejections" },
+      { title: "Scale Production", description: "Designed for prolific self-publishers who want to build large book catalogs efficiently without proportional increases in time investment" },
+      { title: "Niche Research Tools", description: "Built-in category and niche research tools help authors identify profitable publishing opportunities before investing time in a new book" }
+    ],
+    useCases: [
+      { title: "KDP Self-Publishers", description: "Prolific Kindle authors use Automateed to publish multiple books per month building large passive income catalogs efficiently" },
+      { title: "Low-Content Book Creators", description: "Publishers of journals, planners and activity books use the platform to generate and format content quickly for niche markets" },
+      { title: "First-Time Publishers", description: "Aspiring authors use Automateed to navigate the self-publishing process with automated formatting and guided submission workflows" }
+    ]
+  },
+  "submagic": {
+    whatIs: "Submagic is an AI-powered subtitle and caption generation tool built specifically for short-form video creators on TikTok, Instagram Reels and YouTube Shorts. The platform automatically generates accurate captions with trendy formatting, animations and emoji placement that match the aesthetic of viral short-form content. Submagic goes beyond basic transcription by adding visual flair that increases viewer retention and engagement, making it one of the most popular caption tools among content creators in 2026.",
+    features: [
+      "Auto Caption Generation: AI generates accurate captions from video audio automatically",
+      "Trendy Formatting: Caption styles designed to match viral short-form video aesthetics",
+      "Emoji Placement: Smart emoji insertion at contextually relevant moments",
+      "Word Highlighting: Animated word-by-word highlighting for viewer engagement",
+      "Multiple Languages: Caption generation in 48 plus languages",
+      "B-Roll Suggestions: AI suggests relevant b-roll footage for different moments",
+      "Magic Chapter: Automatic video chapter creation for longer content",
+      "One-Click Export: Download captioned videos ready for platform upload",
+      "Templates: Pre-designed caption template styles for different content types",
+      "Auto Zoom: Automatic zoom effects on key words for emphasis"
+    ],
+    howToUse: {
+      title: "How to Use Submagic",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Visit submagic.co and upload your short-form video. Submagic's AI transcribes the audio and generates accurate captions within minutes." },
+        { title: "Choose Your Style", description: "Select from trendy caption templates with different fonts, colors, animations and emoji styles that match your brand and the platform you're posting on." },
+        { title: "Export and Post", description: "Preview your captioned video, make any text corrections and export the finished video ready to upload directly to TikTok, Instagram or YouTube Shorts." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Caption Generation", description: "Automatically transcribes video audio and generates accurate captions with contextually appropriate emoji placement and trendy visual formatting" },
+      { title: "Viral Formatting", description: "Caption styles specifically designed around what performs well on short-form platforms — bold fonts, high contrast colors, animated highlights and strategic emoji use" },
+      { title: "Multi-Language Support", description: "Generates captions in 48 plus languages making content accessible to global audiences and expanding creator reach beyond their native market" },
+      { title: "One-Click Workflow", description: "Streamlined process from upload to export reduces caption creation from hours of manual work to a few minutes of review and adjustment" }
+    ],
+    useCases: [
+      { title: "TikTok Creators", description: "Content creators who post daily on TikTok use Submagic to add professional captions quickly without spending hours on manual subtitle editing" },
+      { title: "Instagram Reels Producers", description: "Brands and influencers on Instagram use Submagic to make Reels more accessible and engaging with captions that match platform visual trends" },
+      { title: "Multi-Language Content", description: "Creators expanding into international markets use Submagic to generate captions in multiple languages from a single video upload" }
+    ]
+  },
+  "zeemo": {
+    whatIs: "Zeemo is an AI subtitle and caption platform offering automatic transcription and caption generation for videos across multiple languages. The platform combines high transcription accuracy with customizable styling tools making it suitable for both content creators and professional video producers. Zeemo supports a wide range of video formats and languages with a particular strength in multilingual caption generation for international content distribution.",
+    features: [
+      "Auto Transcription: High-accuracy AI transcription of video audio in multiple languages",
+      "Caption Styling: Customizable fonts, colors, sizes and positioning",
+      "Multi-Language: Caption generation and translation in 100 plus languages",
+      "SRT Export: Download standard SRT subtitle files for any video platform",
+      "Batch Processing: Transcribe and caption multiple videos simultaneously",
+      "Speaker Identification: Distinguish between different speakers in multi-person videos",
+      "Video Translation: Translate captions from one language to multiple others",
+      "Embedding: Burn captions directly into video or export as separate files"
+    ],
+    howToUse: {
+      title: "How to Use Zeemo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Sign up at zeemo.ai and upload your video file or paste a YouTube URL. Zeemo's AI immediately begins transcribing the audio content." },
+        { title: "Review and Style Captions", description: "Review the generated transcript for accuracy, make any corrections and customize caption appearance with your preferred fonts, colors and positioning." },
+        { title: "Export Your Captions", description: "Download your captions as an SRT file for use with any video platform, or burn the captions directly into your video file for standalone distribution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "High-Accuracy Transcription", description: "Advanced AI speech recognition delivers accurate transcriptions across multiple accents, speaking speeds and audio quality levels" },
+      { title: "100 Plus Languages", description: "Supports caption generation and translation across over 100 languages making it one of the most comprehensive multilingual caption tools available" },
+      { title: "Professional Styling", description: "Comprehensive caption styling tools with font, color, size and positioning control for professional broadcast and content creation standards" },
+      { title: "Flexible Export Options", description: "Export as SRT subtitle files for compatibility with any platform or burn captions into the video file for direct distribution" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Video creators on YouTube, TikTok and Instagram use Zeemo to add professional captions that improve accessibility and viewer retention" },
+      { title: "International Distribution", description: "Companies distributing video content internationally use Zeemo to translate and caption content in multiple languages from a single source video" },
+      { title: "Podcast and Interview Videos", description: "Podcasters and interviewers with multi-speaker content use speaker identification to create accurate captions that correctly attribute each person's words" }
+    ]
+  },
+  "planable": {
+    whatIs: "Planable is a social media collaboration and scheduling platform designed for marketing teams and agencies who need to manage content approval workflows across multiple clients and platforms. The platform brings together content creation, visual previewing, team feedback, client approval and scheduling in one place — eliminating the chaotic back-and-forth of email approvals and disconnected scheduling tools. Planable supports all major social platforms and provides pixel-perfect previews of how content will actually look when published.",
+    features: [
+      "Visual Content Preview: See exactly how posts will look on each platform before publishing",
+      "Multi-Platform Scheduling: Schedule content across Facebook, Instagram, Twitter, LinkedIn, TikTok and more",
+      "Approval Workflows: Set up client and team approval flows with comment and feedback tools",
+      "Media Library: Centralized asset library for team-wide access to images and videos",
+      "AI Writing Assistant: AI-powered caption and copy suggestions within the composer",
+      "Multiple Views: Calendar, list, grid and feed views of scheduled content",
+      "Client Collaboration: Invite clients to review and approve content without platform access",
+      "Team Workspaces: Separate workspaces for different clients or brands",
+      "Analytics: Performance tracking for published content across platforms",
+      "Bulk Scheduling: Upload and schedule multiple posts simultaneously via CSV"
+    ],
+    howToUse: {
+      title: "How to Use Planable",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Workspace", description: "Sign up at planable.io and create a workspace for your brand or client. Connect your social media accounts and invite team members and clients to the workspace." },
+        { title: "Create and Preview Content", description: "Use the composer to create posts with the AI writing assistant. Preview exactly how each post will look on each platform before scheduling or submitting for approval." },
+        { title: "Approve and Schedule", description: "Send posts through your configured approval workflow — team review, then client approval. Once approved, schedule posts at optimal times or publish immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Approval Workflow", description: "Shows stakeholders exactly how content will look on each platform before approval eliminating guesswork and reducing revision cycles significantly" },
+      { title: "Client Collaboration System", description: "Clients can review, comment and approve content directly in Planable without needing access to social media accounts or learning complex tools" },
+      { title: "Multi-Platform Management", description: "Manage content across all major social platforms from one dashboard with platform-specific previews and scheduling for each channel" },
+      { title: "AI Content Assistant", description: "Built-in AI writing tools suggest captions, hashtags and copy variations within the content creation workflow reducing time spent on drafting" }
+    ],
+    useCases: [
+      { title: "Social Media Agencies", description: "Agencies managing multiple client accounts use Planable to streamline the content creation, approval and scheduling process across their entire client portfolio" },
+      { title: "Marketing Teams", description: "In-house marketing teams use Planable to coordinate content calendars, get stakeholder approvals and maintain consistent cross-platform publishing schedules" },
+      { title: "Brand Managers", description: "Brand managers overseeing multiple social channels use Planable to maintain visual consistency and ensure all content meets brand standards before publishing" }
+    ]
+  },
+  "chai": {
+    whatIs: "Chai AI is a conversational AI platform and app where users can chat with a diverse range of AI personalities and characters. Unlike task-focused chatbots, Chai is built purely for entertaining engaging conversation — users can talk with AI personas that range from friendly companions to creative storytellers to roleplay characters. The platform has a large community of user-created AI bots making it one of the most diverse conversation AI ecosystems available on mobile.",
+    features: [
+      "Diverse AI Characters: Thousands of AI personalities for different conversation styles",
+      "User-Created Bots: Community creates and shares custom AI conversation personalities",
+      "Mobile App: Native iOS and Android app for on-the-go conversation",
+      "Entertaining Conversations: AI focused on engaging fun dialogue rather than task completion",
+      "Character Variety: From friendly companions to creative storytellers to debate partners",
+      "No Task Focus: Pure conversation without productivity pressure",
+      "Free Access: Core features available without payment",
+      "Active Community: Large community of bot creators expanding the available personalities"
+    ],
+    howToUse: {
+      title: "How to Use Chai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Download the App", description: "Download the Chai app from the App Store or Google Play and create a free account to access thousands of AI personalities immediately." },
+        { title: "Find Your Companion", description: "Browse AI characters by category or search for specific personality types. Try different bots to find the conversation style and personality that appeals most to you." },
+        { title: "Start Chatting", description: "Select your preferred AI character and begin chatting. Chai conversations are designed to be engaging and entertaining with no task or productivity pressure." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversation AI", description: "Purpose-built for entertaining engaging conversation rather than task completion making interactions feel natural and genuinely enjoyable" },
+      { title: "Community Bot Library", description: "Thousands of user-created AI personalities continuously expand the available conversation options with diverse and creative character concepts" },
+      { title: "Mobile First", description: "Native mobile app experience optimized for casual conversation throughout the day without the overhead of a web-based interface" },
+      { title: "Accessible Platform", description: "Free core access means users can explore the full range of AI personalities without financial commitment" }
+    ],
+    useCases: [
+      { title: "Casual Conversation", description: "People who want entertaining AI conversation for fun, boredom relief or simply someone to talk to throughout the day" },
+      { title: "Character Exploration", description: "Users who enjoy trying different AI personalities and conversation styles to find the most engaging and entertaining companions" },
+      { title: "Creative Interaction", description: "Storytellers and creative users who enjoy narrative roleplay and character-driven conversations with AI personalities" }
+    ]
+  },
+  "sharesome-ai": {
+    whatIs: "Sharesome AI is an adult content platform and social network that integrates AI tools for content creation and discovery. The platform serves adult content creators and consumers with AI-assisted content generation, sharing tools and a community specifically built around adult content without the restrictions of mainstream social platforms.",
+    features: [
+      "Adult Content Platform: Social network designed specifically for adult content creators and consumers",
+      "AI Content Tools: AI-assisted image and content generation for adult creators",
+      "Creator Monetization: Tools for adult content creators to earn from their content",
+      "Community Features: Social networking features for the adult content community",
+      "Content Discovery: Algorithmic content discovery matching users with preferred content types",
+      "Privacy Controls: Content visibility and privacy settings for creator protection",
+      "Subscription Features: Fan subscription and exclusive content capabilities",
+      "Messaging: Direct messaging between creators and their audience"
+    ],
+    howToUse: {
+      title: "How to Use Sharesome",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Profile", description: "Sign up at sharesome.com and create your creator or consumer profile with appropriate privacy settings and content preferences." },
+        { title: "Create or Discover Content", description: "Use AI tools to create content or browse the platform to discover creators and content matching your preferences." },
+        { title: "Build Your Audience", description: "For creators, use the monetization tools to offer subscriptions and exclusive content to build a sustainable income from your audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Adult Creator Network", description: "Specialized social platform for adult content creators with the tools and community that mainstream platforms cannot provide" },
+      { title: "AI Content Generation", description: "Integrated AI tools help creators produce content more efficiently while maintaining their unique style and brand" },
+      { title: "Monetization System", description: "Built-in creator monetization tools including subscriptions and exclusive content capabilities for sustainable creator income" },
+      { title: "Privacy Protection", description: "Content visibility controls and privacy settings protect creator identity and control over content distribution" }
+    ],
+    useCases: [
+      { title: "Adult Content Creators", description: "Creators producing adult content use Sharesome as an alternative to mainstream platforms that restrict their content" },
+      { title: "Content Consumers", description: "Adults seeking specialized content discovery on a platform built specifically for adult content without content filtering restrictions" },
+      { title: "Community Building", description: "Creators use Sharesome to build dedicated fan communities with direct monetization without platform interference" }
+    ]
+  },
+  "chatfuel": {
+    whatIs: "Chatfuel is a leading no-code chatbot platform that enables businesses to build AI-powered chatbots for Facebook Messenger, Instagram, WhatsApp and websites without coding. The platform serves over 7 million businesses worldwide and is particularly strong for e-commerce brands using Meta platforms. Chatfuel chatbots can handle customer inquiries, qualify leads, send promotional messages, recover abandoned carts and automate sales conversations — all without human intervention.",
+    features: [
+      "No-Code Builder: Visual drag-and-drop chatbot builder requiring zero coding skills",
+      "Multi-Platform: Build bots for Facebook Messenger, Instagram, WhatsApp and websites",
+      "E-commerce Features: Abandoned cart recovery, product recommendations and order tracking",
+      "AI Responses: GPT-powered AI for handling complex unscripted customer questions",
+      "Lead Qualification: Automated lead scoring and qualification through conversation",
+      "Broadcast Messages: Send bulk promotional messages to subscribed users",
+      "Analytics Dashboard: Conversation metrics, engagement rates and conversion tracking",
+      "Integrations: Connect with Shopify, Zapier, Google Sheets and CRM platforms",
+      "Live Chat Handoff: Seamlessly transfer conversations to human agents when needed",
+      "Template Library: Pre-built chatbot templates for common business use cases"
+    ],
+    howToUse: {
+      title: "How to Use Chatfuel",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Platform", description: "Sign up at chatfuel.com and select the platform you want to build your chatbot for — Facebook Messenger, Instagram, WhatsApp or website widget." },
+        { title: "Build Your Bot Flow", description: "Use the visual drag-and-drop builder to create conversation flows. Add AI blocks for handling open-ended questions and set up automated responses for common inquiries." },
+        { title: "Launch and Optimize", description: "Connect your chatbot to your business accounts, run test conversations and launch. Monitor performance through the analytics dashboard and optimize conversation flows based on real user data." }
+      ]
+    },
+    coreFeatures: [
+      { title: "No-Code Visual Builder", description: "Drag-and-drop interface makes sophisticated chatbot creation accessible to marketing teams and business owners without any technical background" },
+      { title: "GPT-Powered AI", description: "Integrates GPT language models to handle complex unscripted customer questions that fall outside predefined conversation flows" },
+      { title: "E-commerce Automation", description: "Specialized features for online stores including abandoned cart recovery, product recommendations and order status updates that drive revenue automatically" },
+      { title: "Meta Platform Strength", description: "Deep integration with Facebook Messenger, Instagram and WhatsApp makes Chatfuel the strongest choice for businesses focused on Meta platform marketing" }
+    ],
+    useCases: [
+      { title: "E-commerce Customer Service", description: "Online stores use Chatfuel bots to handle order inquiries, product questions and abandoned cart recovery automatically on Facebook and Instagram" },
+      { title: "Lead Generation", description: "B2B companies qualify website visitors and capture lead information through conversational chatbots before routing to sales teams" },
+      { title: "Marketing Automation", description: "Brands use Chatfuel broadcast features to send targeted promotional messages to subscribed users on Messenger and WhatsApp" }
+    ]
+  },
+  "landbot": {
+    whatIs: "Landbot is a no-code conversational marketing platform that transforms static web forms and landing pages into interactive chat-style experiences. The platform allows marketers to create chatbots and conversational forms for websites, WhatsApp and Facebook Messenger without writing code. Landbot's visual builder makes it easy to design complex conversation flows that feel natural to users while capturing leads, qualifying prospects and guiding visitors toward conversion.",
+    features: [
+      "No-Code Visual Builder: Drag-and-drop conversation flow builder without coding",
+      "Website Chat Widget: Embed conversational chatbots directly on any website",
+      "WhatsApp Integration: Build and deploy chatbots on WhatsApp Business",
+      "Lead Generation: Capture and qualify leads through conversational forms",
+      "Conditional Logic: Advanced branching based on user responses",
+      "CRM Integration: Connect with HubSpot, Salesforce, Slack and other tools",
+      "Analytics: Track conversation completion rates, drop-off points and lead quality",
+      "AI Responses: Natural language processing for handling freeform user inputs",
+      "Custom Branding: Full design control over chatbot appearance and styling",
+      "A/B Testing: Test different conversation flows to optimize conversion rates"
+    ],
+    howToUse: {
+      title: "How to Use Landbot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Design Your Conversation", description: "Sign up at landbot.io and use the visual builder to design your conversation flow. Map out the questions, responses and logic branches that guide users toward your conversion goal." },
+        { title: "Configure Integrations", description: "Connect Landbot to your CRM, email marketing platform or Slack to automatically route captured leads and conversation data to your existing business tools." },
+        { title: "Embed and Launch", description: "Add the Landbot widget to your website with a simple code snippet or connect to WhatsApp Business. Monitor conversation analytics and optimize flows based on real user behavior." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversational Forms", description: "Replaces static web forms with engaging chat-style interactions that dramatically improve completion rates and lead quality" },
+      { title: "Visual Flow Builder", description: "Drag-and-drop conversation design with conditional logic and branching makes complex chatbot creation accessible to marketers without technical skills" },
+      { title: "WhatsApp Business", description: "Native WhatsApp integration for businesses wanting to engage leads and customers through the world's most popular messaging platform" },
+      { title: "Analytics and Optimization", description: "Detailed conversation analytics show drop-off points and completion rates enabling continuous improvement of chatbot performance" }
+    ],
+    useCases: [
+      { title: "Lead Generation", description: "Marketing teams replace traditional contact forms with Landbot conversational experiences to increase lead capture rates and improve lead qualification quality" },
+      { title: "Customer Onboarding", description: "SaaS companies use conversational flows to guide new users through onboarding steps in a friendly interactive way that improves activation rates" },
+      { title: "Website Engagement", description: "Businesses replace passive website experiences with interactive conversations that keep visitors engaged and guide them toward specific conversion goals" }
+    ]
+  },
+  "typebot": {
+    whatIs: "Typebot is an open-source conversational form and chatbot builder that lets developers and marketers create powerful interactive chatbots embeddable anywhere. Unlike closed platforms, Typebot can be self-hosted for complete data control making it popular with privacy-conscious teams and developers. The platform offers a visual builder for non-technical users alongside full customization capabilities for developers who want to extend its functionality.",
+    features: [
+      "Open Source: Fully open-source code available on GitHub for self-hosting and customization",
+      "Visual Builder: No-code visual conversation flow builder for non-technical users",
+      "Self-Hosting Option: Deploy on your own infrastructure for complete data privacy and control",
+      "Embed Anywhere: Embed chatbots as popups, inline widgets or full-page experiences",
+      "Native Integrations: Connect with Google Sheets, Webhooks, Zapier and more",
+      "Custom Variables: Pass dynamic data through conversations for personalized experiences",
+      "Logic Blocks: Conditional logic and branching for complex conversation flows",
+      "Analytics: Built-in analytics tracking conversation completion and engagement",
+      "Rich Media: Add images, videos, GIFs and audio to conversation flows",
+      "Payment Collection: Accept payments through Stripe directly in chatbot conversations"
+    ],
+    howToUse: {
+      title: "How to Use Typebot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Typebot", description: "Sign up at typebot.io or self-host your instance. Use the visual builder to create your conversation flow by adding blocks — questions, text, images, logic branches and integrations." },
+        { title: "Configure Integrations", description: "Connect your Typebot to Google Sheets to store responses, set up webhook integrations to send data to external systems or connect payment blocks for in-conversation purchases." },
+        { title: "Embed on Your Site", description: "Copy the generated embed code and add it to your website as an inline widget, a popup or a full-page experience. Share the standalone URL for use in emails or ads." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Open Source Foundation", description: "Fully open-source codebase allows developers to self-host, customize and extend the platform beyond what closed alternatives permit" },
+      { title: "Visual No-Code Builder", description: "Accessible drag-and-drop interface lets marketers and non-technical users build sophisticated conversation flows without developer assistance" },
+      { title: "Privacy and Data Control", description: "Self-hosting option gives organizations complete control over conversation data without relying on third-party cloud infrastructure" },
+      { title: "Flexible Embedding", description: "Multiple embedding options including popup, inline widget and standalone page make Typebot deployable in any context" }
+    ],
+    useCases: [
+      { title: "Developer Teams", description: "Development teams use Typebot's open-source foundation to build custom chatbot solutions with full control over hosting, data and functionality" },
+      { title: "Lead Capture", description: "Marketers embed Typebot conversational forms on landing pages to replace static forms with engaging interactive experiences that improve conversion rates" },
+      { title: "Privacy-Sensitive Organizations", description: "Companies in regulated industries self-host Typebot to maintain complete data sovereignty over customer conversation data" }
+    ]
+  },
+  "contentful": {
+    whatIs: "Contentful is a leading headless content management platform used by over 4000 enterprises worldwide including major brands like Spotify, Urban Outfitters and Volkswagen. Unlike traditional CMS platforms that are tied to a specific front-end, Contentful separates content from presentation through an API-first architecture — allowing teams to create content once and deliver it to any channel including websites, mobile apps, digital displays, voice interfaces and more. Contentful is the foundational infrastructure for enterprise-scale omnichannel content operations.",
+    features: [
+      "Headless CMS: API-first content management decoupled from front-end presentation",
+      "Content Modeling: Flexible content type system for structuring any kind of content",
+      "Multi-Channel Delivery: Deliver content to websites, apps, IoT devices and any digital channel",
+      "Developer APIs: REST and GraphQL APIs for content delivery to any front-end framework",
+      "Rich Text Editor: WYSIWYG content editor with embedded asset and entry references",
+      "Localization: Built-in translation workflow for global multi-language content operations",
+      "App Framework: Marketplace of integrations and custom app development capabilities",
+      "Webhooks: Trigger external workflows on content events for CI/CD pipelines",
+      "Roles and Permissions: Granular access control for large editorial and developer teams",
+      "AI Content Tools: Contentful AI for content generation and translation assistance"
+    ],
+    howToUse: {
+      title: "How to Use Contentful",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Model Your Content", description: "Sign up at contentful.com and design your content model — define the content types, fields and relationships that match your specific content structure and business needs." },
+        { title: "Create and Manage Content", description: "Editors use the intuitive content editor to create and manage entries. Content references other content entries and assets through structured relationships rather than hardcoded links." },
+        { title: "Deliver via API", description: "Developers query Contentful's REST or GraphQL APIs to fetch content and display it in any front-end framework, mobile app or digital experience without touching the CMS." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Headless API Architecture", description: "Content is completely decoupled from presentation and delivered via API allowing the same content to power websites, mobile apps, voice interfaces and any other digital channel simultaneously" },
+      { title: "Flexible Content Modeling", description: "Powerful content type system can model any content structure from simple blog posts to complex product catalogs and nested relationship trees" },
+      { title: "Enterprise Scale", description: "Built for large teams with granular role-based permissions, localization workflows, staging environments and the performance to handle global enterprise content operations" },
+      { title: "Developer Ecosystem", description: "Rich developer tooling including REST and GraphQL APIs, webhooks, CLI tools and a marketplace of integrations makes Contentful the foundation of modern digital stacks" }
+    ],
+    useCases: [
+      { title: "Enterprise Omnichannel", description: "Large brands use Contentful to create content once and distribute it across websites, mobile apps, in-store displays and emerging channels from a single source of truth" },
+      { title: "Headless E-commerce", description: "E-commerce companies integrate Contentful with commerce platforms to manage rich product content and marketing content separately from transaction systems" },
+      { title: "Digital Experience Platforms", description: "Agencies and digital teams use Contentful as the content layer in JAMstack architectures with React, Next.js or Gatsby front-ends" }
+    ]
+  },
+  "hotpot-ai": {
+    whatIs: "Hotpot AI is a creative tools platform offering a comprehensive suite of AI-powered design and image editing tools accessible directly in the browser without any software installation. The platform covers a wide range of creative needs including image generation, background removal, photo restoration, AI art creation, image upscaling and more — all with a no-skill-required approach that makes professional-looking results achievable by anyone. Hotpot is particularly popular for its game asset generation tools and its approachable pricing structure.",
+    features: [
+      "AI Image Generation: Create artwork and illustrations from text descriptions",
+      "Background Removal: Instant one-click background removal from photos",
+      "Photo Restoration: Restore and colorize old or damaged photographs",
+      "Image Upscaling: Enhance image resolution up to 4x without quality loss",
+      "AI Art: Generate artistic images in multiple styles from text prompts",
+      "Object Removal: Remove unwanted elements from photos seamlessly",
+      "Game Asset Generator: Create sprites, icons and game graphics with AI",
+      "Headshot Generator: Professional AI-generated headshots and portraits",
+      "NFT Generator: Create unique AI-generated artwork for NFT projects",
+      "No Install Required: All tools run directly in the browser"
+    ],
+    howToUse: {
+      title: "How to Use Hotpot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Visit hotpot.ai and browse the tool library. Select the specific tool you need — background removal, image generation, photo restoration or any other creative tool." },
+        { title: "Upload or Describe", description: "Either upload an existing image for editing tools or describe what you want to create for generation tools. Most tools require just a click or a simple text prompt." },
+        { title: "Download Your Result", description: "Review the output and download your finished image. Most tools deliver results in seconds and are free for basic use with premium options for higher resolution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser-Based Suite", description: "Comprehensive creative tools run entirely in the browser with no installation required making professional image editing and generation instantly accessible" },
+      { title: "Photo Restoration", description: "Advanced AI restores and colorizes old damaged or faded photographs recovering detail that would be impossible to recreate manually" },
+      { title: "AI Image Generation", description: "Text-to-image generation supporting multiple artistic styles for creating original artwork illustrations and design assets" },
+      { title: "Versatile Tool Library", description: "Wide range of specialized tools from background removal to game asset generation means Hotpot serves diverse creative needs from one platform" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Bloggers and social media creators use Hotpot for quick background removal, image enhancement and custom graphics without needing design software" },
+      { title: "Game Developers", description: "Indie game developers use the game asset generator to create sprites, icons and UI elements quickly without commissioning individual assets" },
+      { title: "Personal Projects", description: "Individuals use photo restoration to recover family memories, AI portrait generation for fun and background removal for personal creative projects" }
+    ]
+  },
+  "unbounce": {
+    whatIs: "Unbounce is a leading landing page platform that combines AI-powered optimization with an intuitive drag-and-drop builder to help marketers create high-converting pages without developers. The platform's Smart Traffic feature uses machine learning to automatically route visitors to the landing page variant most likely to convert based on their profile — a form of AI-powered A/B testing that continually improves results over time. Unbounce serves over 15000 customers including major brands and agencies focused on paid advertising performance.",
+    features: [
+      "Drag-and-Drop Builder: Create landing pages without coding using visual editor",
+      "Smart Traffic AI: Machine learning automatically sends visitors to their best-converting variant",
+      "A/B Testing: Test multiple page variants to identify the highest-performing versions",
+      "Popups and Sticky Bars: Create supplementary conversion elements beyond landing pages",
+      "Dynamic Text Replacement: Personalize page content to match ad keywords automatically",
+      "Integrations: Connect with HubSpot, Salesforce, Mailchimp, Zapier and 100 plus tools",
+      "AI Copy Writing: AI-generated headline and copy suggestions within the builder",
+      "Template Library: 100 plus conversion-optimized landing page templates",
+      "Analytics: Conversion tracking and visitor behavior analytics",
+      "AMP Pages: Create accelerated mobile pages for faster loading on mobile devices"
+    ],
+    howToUse: {
+      title: "How to Use Unbounce",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose a Template", description: "Sign up at unbounce.com and select a conversion-optimized template from the library matching your campaign goal — lead generation, product launch, event registration and more." },
+        { title: "Build Your Page", description: "Customize the template with the drag-and-drop builder. Use the AI copy tools for headline suggestions, add your images and configure your form or CTA to match your campaign." },
+        { title: "Enable Smart Traffic", description: "Activate Smart Traffic to let the AI automatically route visitors to the best-performing variant. Monitor conversion rates in the analytics dashboard and continuously refine your page." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Smart Traffic AI", description: "Machine learning system that analyzes visitor attributes and routes each person to the landing page variant statistically most likely to convert them — improving results automatically over time" },
+      { title: "Dynamic Text Replacement", description: "Personalizes landing page text to match the exact keywords visitors searched or the ad copy they clicked, creating highly relevant experiences that improve conversion rates" },
+      { title: "Conversion-Focused Templates", description: "100 plus templates designed specifically for conversion optimization with proven layouts, CTA placement and content hierarchy backed by conversion rate data" },
+      { title: "Integrated Testing", description: "Built-in A/B testing and AI traffic routing work together to continuously optimize page performance without requiring manual statistical analysis" }
+    ],
+    useCases: [
+      { title: "Paid Advertising Campaigns", description: "PPC marketers use Unbounce to create dedicated landing pages for each ad campaign that match ad copy and maximize conversion rates from paid traffic" },
+      { title: "Lead Generation", description: "B2B companies build high-converting lead capture pages with dynamic text replacement that personalizes content to each visitor's search intent" },
+      { title: "Agency Campaign Management", description: "Marketing agencies use Unbounce to build and optimize landing pages for multiple clients with separate workspaces and white-label reporting options" }
+    ]
+  },
+  "typli": {
+    whatIs: "Typli AI is an AI-powered writing assistant focused on helping content creators, bloggers and marketers produce SEO-optimized content faster. The platform combines an AI article writer with built-in SEO tools including keyword research and content scoring to help users create content that ranks in search engines. Typli is particularly popular for its simple straightforward interface that gets users from idea to draft quickly without the complexity of enterprise-level content platforms.",
+    features: [
+      "AI Article Writer: Generate long-form blog posts and articles from keywords or topics",
+      "SEO Tools: Built-in keyword research and content SEO scoring",
+      "Content Templates: Templates for blog posts, ads, social media and more",
+      "AI Rewriter: Paraphrase and improve existing content",
+      "Grammar Checker: Integrated grammar and spelling checking tools",
+      "Tone Control: Adjust content tone from professional to conversational",
+      "Multiple Languages: Content generation in multiple languages",
+      "Plagiarism Checker: Check generated content for uniqueness"
+    ],
+    howToUse: {
+      title: "How to Use Typli",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Sign up at typli.ai and enter your article topic or target keyword. Choose your preferred content type and tone settings before generating." },
+        { title: "Generate and Review", description: "The AI generates a structured article with relevant subheadings and content. Review the output and use the built-in editor to refine and expand sections as needed." },
+        { title: "Optimize for SEO", description: "Use the SEO scoring tools to check your content against target keywords and make AI-suggested improvements before publishing to maximize search visibility." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Article Generation", description: "Quickly generates structured long-form content from keywords or topics providing a solid first draft that requires editing rather than starting from scratch" },
+      { title: "Integrated SEO Tools", description: "Built-in keyword research and content scoring tools mean SEO optimization happens within the writing workflow without switching to separate platforms" },
+      { title: "Simple Interface", description: "Streamlined no-frills interface gets users generating content immediately without a steep learning curve or complex configuration requirements" },
+      { title: "Multiple Content Types", description: "Templates covering blog posts, ads, social media and more make Typli versatile across different content creation needs" }
+    ],
+    useCases: [
+      { title: "Bloggers and Content Creators", description: "Individual bloggers use Typli to produce SEO-optimized articles faster, overcoming writer's block and reducing the time from keyword research to published post" },
+      { title: "Small Business Owners", description: "Business owners who write their own content use Typli to maintain a consistent blog without spending hours on each article" },
+      { title: "Freelance Writers", description: "Freelance content writers use Typli to increase output and meet client deadlines more efficiently while maintaining content quality" }
+    ]
+  },
+  "nichesss": {
+    whatIs: "Nichesss is an AI copywriting and business idea generation tool that helps marketers, solopreneurs and content creators with short-form copy, product descriptions, ad copy and business ideas. The platform positions itself as a creative brainstorming partner combining copy generation with ideation tools that help users identify profitable niches and angles for their products and marketing campaigns. Nichesss has a reputation for being particularly good at generating creative angles and unique value propositions.",
+    features: [
+      "AI Copywriting: Generate marketing copy, product descriptions and ad content",
+      "Business Idea Generator: Brainstorm profitable business and niche ideas with AI",
+      "Product Description Writer: Create compelling e-commerce product descriptions",
+      "Ad Copy Generator: Facebook, Google and social media ad copy creation",
+      "Headline Generator: Generate attention-grabbing headlines for any purpose",
+      "Email Copy: Sales emails, newsletters and cold outreach copy generation",
+      "Social Media Copy: Platform-specific social media post and caption generation",
+      "Niche Research: AI-powered niche market research and opportunity identification"
+    ],
+    howToUse: {
+      title: "How to Use Nichesss",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Copy Type", description: "Sign up at nichesss.com and select the type of copy you need — product description, ad copy, email, social post or one of many other templates." },
+        { title: "Provide Your Details", description: "Enter your product or service details, target audience and any specific angles or benefits you want to highlight in the generated copy." },
+        { title: "Generate and Refine", description: "Generate multiple copy variations and select the best elements from each. Use the editor to combine and refine the output into final copy ready for use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Copy Generation", description: "AI generates multiple copy variations from a single brief giving marketers diverse options to test rather than a single output to accept or reject" },
+      { title: "Business Ideation Tools", description: "Unique niche and business idea generation features help entrepreneurs identify market opportunities and profitable angles before investing time and money" },
+      { title: "Short-Form Specialization", description: "Particularly strong at short punchy marketing copy — headlines, taglines, product descriptions and ad copy — where creative hooks matter most" },
+      { title: "Multiple Format Support", description: "Covers a wide range of copy types from social media captions to email subject lines to Google ad headlines in one accessible platform" }
+    ],
+    useCases: [
+      { title: "E-commerce Sellers", description: "Online store owners use Nichesss to generate compelling product descriptions and ad copy for their products at scale without hiring copywriters" },
+      { title: "Digital Marketers", description: "Paid advertising specialists use Nichesss to generate and test multiple ad copy variations quickly across Facebook and Google campaigns" },
+      { title: "Entrepreneurs and Solopreneurs", description: "Early-stage founders use the business idea and niche research tools to validate market opportunities and generate marketing angles for new ventures" }
+    ]
+  },
+  "flick": {
+    whatIs: "Flick is an AI-powered social media marketing tool that combines hashtag research, caption writing and social media scheduling in one platform. Originally known as the leading hashtag research tool for Instagram, Flick has evolved into a comprehensive AI social media assistant that helps creators and brands plan, write and optimize their content. The platform's AI Social Media Assistant can generate captions, content ideas and full social media strategies from simple prompts making it popular among influencers and marketing teams.",
+    features: [
+      "AI Caption Writer: Generate engaging platform-specific captions from content descriptions",
+      "Hashtag Research: Advanced hashtag analytics and performance data for Instagram and TikTok",
+      "Content Scheduler: Plan and schedule posts across Instagram, Facebook, TikTok and LinkedIn",
+      "Content Ideas: AI-generated content idea suggestions based on your niche and audience",
+      "Analytics: Hashtag performance tracking and account growth analytics",
+      "AI Social Assistant: Conversational AI for strategy advice and content planning",
+      "Saved Hashtag Groups: Organize and reuse effective hashtag combinations",
+      "Content Calendar: Visual calendar view of planned and scheduled content",
+      "Brand Voice: Train the AI on your brand tone for consistent caption generation",
+      "Competitor Analysis: Research competitor hashtag strategies and content performance"
+    ],
+    howToUse: {
+      title: "How to Use Flick",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Research Your Hashtags", description: "Sign up at flick.social and use the hashtag research tool to find the best performing hashtags for your niche. Analyze reach, difficulty and relevance before saving your favorites." },
+        { title: "Generate Captions with AI", description: "Describe your content to the AI Social Media Assistant and generate platform-optimized captions in your brand voice. The AI adapts tone and length for each platform." },
+        { title: "Schedule and Track", description: "Schedule your posts with optimized hashtags directly from Flick and monitor performance through the analytics dashboard to refine your strategy over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Hashtag Intelligence", description: "Advanced hashtag research with performance data, difficulty scoring and relevance analysis helps creators find the exact hashtags most likely to expand their reach" },
+      { title: "AI Caption Generation", description: "Generates platform-specific captions in your brand voice from content descriptions saving significant time on daily content creation" },
+      { title: "All-in-One Social Tool", description: "Combines hashtag research, AI writing, scheduling and analytics in one platform eliminating the need for multiple separate social media tools" },
+      { title: "Content Strategy AI", description: "Conversational AI assistant provides strategic content planning advice and idea generation beyond just copy creation" }
+    ],
+    useCases: [
+      { title: "Instagram Creators", description: "Instagram influencers and content creators use Flick for hashtag research and caption generation to grow their reach and maintain consistent posting schedules" },
+      { title: "Social Media Managers", description: "Marketing professionals managing multiple brand accounts use Flick to streamline content creation, hashtag optimization and cross-platform scheduling" },
+      { title: "Small Business Marketing", description: "Small businesses use Flick to maintain an active professional social media presence with AI assistance reducing the time investment required" }
+    ]
+  },
   "writesonic": {
     whatIs: "Writesonic is an AI-powered content creation and SEO platform headquartered in London, used by over 20000 professional teams worldwide. Originally launched as an AI copywriting tool, it has evolved into what the company calls a Generative Engine Optimization platform — helping brands not just create content but track how they appear in AI-powered search engines like ChatGPT, Gemini and Perplexity. Its flagship AI Article Writer generates SEO-optimized long-form content up to 5000 words by pulling from over 100 sources during research, while Chatsonic provides real-time web access alongside GPT-4o and Claude models. With a 4.7 out of 5 rating on Trustpilot from over 5000 users, Writesonic is particularly valued by marketing agencies, content teams and e-commerce brands focused on scaling content production.",
     features: [

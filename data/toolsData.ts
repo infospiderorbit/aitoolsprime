@@ -518,7 +518,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "veedoai", name: "VeedoAI", description: "AI video search and analysis", url: "", upvotes: 432, verified: false, rating: 4.2, icon: "🔎", category: "video-animation", subcategory: "ai-video-search" }
     ],
     "ai-video-summarizer": [
-      { id: "lilys-ai", name: "Lilys AI", description: "AI video summarization platform", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "🌸", category: "video-animation", subcategory: "ai-video-summarizer" },
       { id: "revisely", name: "Revisely", description: "AI study video summarization", url: "", upvotes: 1156, verified: true, rating: 4.5, icon: "📚", category: "video-animation", subcategory: "ai-video-summarizer" },
       { id: "makefilm", name: "Makefilm", description: "AI film and video summarization", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "🎬", category: "video-animation", subcategory: "ai-video-summarizer" },
       { id: "noiz", name: "Noiz", description: "AI noise reduction and summarization", url: "", upvotes: 754, verified: true, rating: 4.3, icon: "🔇", category: "video-animation", subcategory: "ai-video-summarizer" },
@@ -656,13 +655,11 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-transcriber": [
       { id: "notta", name: "Notta", description: "AI meeting transcription and notes", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "📝", category: "voice-generation-conversion", subcategory: "ai-transcriber" },
       { id: "riverside-fm-transcribe", name: "Riverside.fm", description: "High-quality transcription service", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🌊", category: "voice-generation-conversion", subcategory: "ai-transcriber" },
-      { id: "read-ai", name: "Read AI", description: "AI meeting insights and transcription", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "👁️", category: "voice-generation-conversion", subcategory: "ai-transcriber" },
       { id: "turboscribe-transcribe", name: "TurboScribe", description: "Fast and accurate AI transcription", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "⚡", category: "voice-generation-conversion", subcategory: "ai-transcriber" },
       { id: "fathom", name: "Fathom", description: "AI meeting assistant and transcriber", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🧠", category: "voice-generation-conversion", subcategory: "ai-transcriber" }
     ],
     "ai-transcription": [
       { id: "clipto-ai-transcription", name: "Clipto.AI", description: "AI video and audio transcription", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "✂️", category: "voice-generation-conversion", subcategory: "ai-transcription" },
-      { id: "otter-ai", name: "Otter.ai", description: "AI meeting notes and transcription", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🦦", category: "voice-generation-conversion", subcategory: "ai-transcription" },
       { id: "transkriptor-transcription", name: "Transkriptor", description: "Automatic transcription service", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "📝", category: "voice-generation-conversion", subcategory: "ai-transcription" },
       { id: "happy-scribe", name: "Happy Scribe", description: "Professional transcription and subtitles", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "😊", category: "voice-generation-conversion", subcategory: "ai-transcription" },
       { id: "maestra-ai-transcription", name: "Maestra AI", description: "AI transcription and translation service", url: "", upvotes: 765, verified: true, rating: 4.4, icon: "🎭", category: "voice-generation-conversion", subcategory: "ai-transcription" }
@@ -734,9 +731,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "ai-face-ager", name: "AI Face Ager", description: "Professional AI age progression technology", url: "", upvotes: 189, verified: true, rating: 4.1, icon: "⏰", category: "image-generation-editing", subcategory: "ai-age-progression" }
     ],
     "ai-avatar-generator": [
-      { id: "heygen", name: "HeyGen", description: "AI avatar and video generation platform", url: "", upvotes: 1234, verified: true, rating: 4.8, icon: "🎭", category: "image-generation-editing", subcategory: "ai-avatar-generator" },
       { id: "vidnoz-ai", name: "Vidnoz AI", description: "AI video and avatar creation tool", url: "", upvotes: 789, verified: true, rating: 4.6, icon: "🎬", category: "image-generation-editing", subcategory: "ai-avatar-generator" },
-      { id: "live3d", name: "Live3D", description: "3D avatar creation and animation platform", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "🎮", category: "image-generation-editing", subcategory: "ai-avatar-generator" },
       { id: "d-id", name: "D-ID", description: "AI-powered talking avatar generator", url: "", upvotes: 456, verified: true, rating: 4.4, icon: "🗣️", category: "image-generation-editing", subcategory: "ai-avatar-generator" },
       { id: "vidyard", name: "Vidyard", description: "Video messaging with AI avatar features", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "📹", category: "image-generation-editing", subcategory: "ai-avatar-generator" }
     ],
@@ -755,10 +750,8 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "insmind-bg", name: "insMind", description: "Professional AI background removal tool", url: "", upvotes: 456, verified: true, rating: 4.3, icon: "🖼️", category: "image-generation-editing", subcategory: "ai-background-remover" }
     ],
     "ai-clothing-removal": [
-      { id: "nero", name: "Nero", description: "Advanced photo editing and enhancement", url: "", upvotes: 456, verified: true, rating: 4.3, icon: "🖼️", category: "image-generation-editing", subcategory: "ai-clothing-removal" },
       { id: "palette-app", name: "Palette App", description: "AI-powered photo colorization tool", url: "", upvotes: 345, verified: true, rating: 4.2, icon: "🎨", category: "image-generation-editing", subcategory: "ai-clothing-removal" },
       { id: "imagecolorizer", name: "ImageColorizer", description: "AI photo colorization and restoration", url: "", upvotes: 234, verified: true, rating: 4.1, icon: "🌈", category: "image-generation-editing", subcategory: "ai-clothing-removal" },
-      { id: "avclabs", name: "AVCLabs", description: "AI video and photo enhancement suite", url: "", upvotes: 189, verified: true, rating: 4.0, icon: "🔬", category: "image-generation-editing", subcategory: "ai-clothing-removal" },
       { id: "photorestore", name: "PhotoRestore.io", description: "AI photo restoration and enhancement", url: "", upvotes: 156, verified: false, rating: 3.9, icon: "🔧", category: "image-generation-editing", subcategory: "ai-clothing-removal" }
     ],
     "ai-colorize": [
@@ -770,7 +763,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-cosplay-generator": [
       { id: "facehi", name: "FaceHi", description: "AI face transformation and cosplay generator", url: "", upvotes: 456, verified: true, rating: 4.4, icon: "🎭", category: "image-generation-editing", subcategory: "ai-cosplay-generator" },
-      { id: "sharesome-ai-cosplay", name: "Sharesome AI", description: "AI cosplay and character generation", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "🦸", category: "image-generation-editing", subcategory: "ai-cosplay-generator" },
       { id: "empai", name: "Empai", description: "AI-powered cosplay photo generator", url: "", upvotes: 234, verified: false, rating: 4.1, icon: "🎨", category: "image-generation-editing", subcategory: "ai-cosplay-generator" },
       { id: "free-ai-art", name: "Free AI Art Platforms", description: "Free AI art and cosplay generation", url: "", upvotes: 189, verified: true, rating: 4.0, icon: "🎨", category: "image-generation-editing", subcategory: "ai-cosplay-generator" },
       { id: "costumeplay-ai", name: "CostumePlayAI", description: "Specialized AI cosplay generator", url: "", upvotes: 156, verified: false, rating: 3.9, icon: "👗", category: "image-generation-editing", subcategory: "ai-cosplay-generator" }
@@ -786,7 +778,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "recraft", name: "Recraft", description: "AI-powered design and object removal", url: "", upvotes: 789, verified: true, rating: 4.6, icon: "🎨", category: "image-generation-editing", subcategory: "ai-eraser" },
       { id: "insmind-eraser", name: "insMind", description: "AI object removal and photo editing", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "🧹", category: "image-generation-editing", subcategory: "ai-eraser" },
       { id: "pipiads-remover", name: "Pipiads AI Image Text Remover", description: "AI text removal from images", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "📝", category: "image-generation-editing", subcategory: "ai-eraser" },
-      { id: "autodraft-ai", name: "Autodraft AI", description: "AI drafting and object removal tool", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "✏️", category: "image-generation-editing", subcategory: "ai-eraser" },
       { id: "photiu-ai", name: "Photiu.ai", description: "AI photo editing and object eraser", url: "", upvotes: 234, verified: false, rating: 4.2, icon: "🖼️", category: "image-generation-editing", subcategory: "ai-eraser" }
     ],
     "ai-expand-image": [
@@ -797,7 +788,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "krut-ai", name: "Krut AI", description: "AI-powered image expansion service", url: "", upvotes: 234, verified: false, rating: 4.2, icon: "🚀", category: "image-generation-editing", subcategory: "ai-expand-image" }
     ],
     "ai-face-swap-generator": [
-      { id: "ai-face-swap", name: "AI Face Swap", description: "Professional AI face swapping tool", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🔄", category: "image-generation-editing", subcategory: "ai-face-swap-generator" },
       { id: "faceswapper", name: "FaceSwapper", description: "Easy-to-use face swapping application", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "👥", category: "image-generation-editing", subcategory: "ai-face-swap-generator" },
       { id: "dreamvid", name: "DreamVid", description: "AI video and face swap generation", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "🎬", category: "image-generation-editing", subcategory: "ai-face-swap-generator" },
       { id: "deepfake-maker", name: "Deepfake Maker", description: "AI deepfake and face swap creator", url: "", upvotes: 345, verified: false, rating: 4.3, icon: "🎭", category: "image-generation-editing", subcategory: "ai-face-swap-generator" },
@@ -825,7 +815,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "upscale-media", name: "Upscale.media", description: "Free AI image upscaling service", url: "", upvotes: 432, verified: true, rating: 4.3, icon: "⬆️", category: "image-generation-editing", subcategory: "ai-image-enhancer" }
     ],
     "ai-image-generator": [
-      { id: "pixnova-ai", name: "Pixnova AI", description: "Pixnova AI is a creative AI image and video generation platform producing high-quality artwork and multimedia content from text descriptions", url: "https://pixnova.ai", upvotes: 2800, verified: false, rating: 4.2, icon: "🖼️", category: "image-generation-editing", subcategory: "ai-image-generator", addedDate: "2026-04-01" },
       { id: "freepik-ai", name: "Freepik AI Image Generator", description: "AI image generation from Freepik", url: "", upvotes: 2134, verified: true, rating: 4.8, icon: "🎨", category: "image-generation-editing", subcategory: "ai-image-generator" },
       { id: "shutterstock-ai", name: "Shutterstock", description: "AI image generation by Shutterstock", url: "", upvotes: 1789, verified: true, rating: 4.7, icon: "📸", category: "image-generation-editing", subcategory: "ai-image-generator" },
       { id: "depositphotos-ai", name: "Depositphotos AI Image Generator", description: "Professional AI image creation", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🖼️", category: "image-generation-editing", subcategory: "ai-image-generator" },
@@ -836,7 +825,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "unblurimage-ai", name: "Unblurimage AI", description: "AI-powered image sharpening and deblurring", url: "", upvotes: 678, verified: true, rating: 4.6, icon: "🔍", category: "image-generation-editing", subcategory: "ai-image-sharpening" },
       { id: "fix-blur", name: "Fix Blur", description: "Professional blur removal and sharpening", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "🔧", category: "image-generation-editing", subcategory: "ai-image-sharpening" },
       { id: "deblur-ai", name: "Deblur AI", description: "Advanced AI deblurring technology", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "✨", category: "image-generation-editing", subcategory: "ai-image-sharpening" },
-      { id: "topaz-labs", name: "Topaz Labs", description: "Professional AI image enhancement suite", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "💎", category: "image-generation-editing", subcategory: "ai-image-sharpening" },
       { id: "letsenhance-sharp", name: "LetsEnhance.io", description: "AI upscaling with sharpening features", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "🚀", category: "image-generation-editing", subcategory: "ai-image-sharpening" }
     ],
     "ai-image-upscaler": [
@@ -940,7 +928,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-signature-generator": [
       { id: "dropbox-sign", name: "Dropbox Sign", description: "Electronic signature platform", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "✍️", category: "image-generation-editing", subcategory: "ai-signature-generator" },
-      { id: "fillout", name: "Fillout", description: "Form builder with signature features", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "📝", category: "image-generation-editing", subcategory: "ai-signature-generator" },
       { id: "ctrly-co", name: "Ctrly.co", description: "Digital signature solution", url: "", upvotes: 432, verified: true, rating: 4.3, icon: "🖊️", category: "image-generation-editing", subcategory: "ai-signature-generator" },
       { id: "make-a-sign", name: "Make a Sign", description: "Custom signature creator", url: "", upvotes: 345, verified: true, rating: 4.2, icon: "📋", category: "image-generation-editing", subcategory: "ai-signature-generator" },
       { id: "sealdigital", name: "SealDigital", description: "Digital seal and signature tool", url: "", upvotes: 234, verified: false, rating: 4.1, icon: "🏷️", category: "image-generation-editing", subcategory: "ai-signature-generator" }
@@ -948,7 +935,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-style-transfer": [
       { id: "spline", name: "Spline", description: "3D design tool with AI style transfer", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🎨", category: "image-generation-editing", subcategory: "ai-style-transfer" },
       { id: "lensgo", name: "LensGo", description: "AI-powered style transfer tool", url: "", upvotes: 789, verified: true, rating: 4.6, icon: "📸", category: "image-generation-editing", subcategory: "ai-style-transfer" },
-      { id: "ebsynth", name: "EbSynth", description: "Video stylization with AI", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "🎬", category: "image-generation-editing", subcategory: "ai-style-transfer" },
       { id: "midjourney-sref", name: "Midjourney Sref Codes Library", description: "Style reference codes for Midjourney", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "🎭", category: "image-generation-editing", subcategory: "ai-style-transfer" },
       { id: "flux-context", name: "flux context", description: "AI context-aware style transfer", url: "", upvotes: 345, verified: false, rating: 4.3, icon: "⚡", category: "image-generation-editing", subcategory: "ai-style-transfer" }
     ],
@@ -989,7 +975,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-yearbook": [
       { id: "yearbookphotos", name: "YearbookPhotos", description: "AI yearbook photo generator", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "📚", category: "image-generation-editing", subcategory: "ai-yearbook" },
-      { id: "imgkits", name: "Imgkits - Top AI Image & Video Processing Tools Online", description: "Comprehensive AI image processing", url: "", upvotes: 567, verified: true, rating: 4.4, icon: "🛠️", category: "image-generation-editing", subcategory: "ai-yearbook" },
       { id: "ai-face-swap-yearbook", name: "AI Face Swap", description: "Face swap for yearbook photos", url: "", upvotes: 432, verified: true, rating: 4.3, icon: "🔄", category: "image-generation-editing", subcategory: "ai-yearbook" },
       { id: "ai-shots", name: "AI Shots", description: "Professional AI photo generation", url: "", upvotes: 345, verified: true, rating: 4.2, icon: "📸", category: "image-generation-editing", subcategory: "ai-yearbook" },
       { id: "photoguruai", name: "PhotoGuruAI", description: "AI photo enhancement and styling", url: "", upvotes: 234, verified: false, rating: 4.1, icon: "🎯", category: "image-generation-editing", subcategory: "ai-yearbook" }
@@ -1023,11 +1008,9 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "dear-ai-handwriting", name: "Dear Ai", description: "AI letter writing with handwriting", url: "", upvotes: 345, verified: true, rating: 4.2, icon: "💌", category: "image-generation-editing", subcategory: "text-to-handwriting" }
     ],
     "text-to-image": [
-      { id: "unlucid-ai", name: "Unlucid AI", description: "Unlucid AI is a creative AI image generation platform producing surreal dreamlike and artistic visuals from text prompts with unique style capabilities", url: "https://unlucid.ai", upvotes: 2600, verified: false, rating: 4.1, icon: "🌙", category: "image-generation-editing", subcategory: "ai-art-generator", addedDate: "2026-04-01" },
       { id: "kittl-text2img", name: "Kittl", description: "Design tool with text-to-image AI", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🎨", category: "image-generation-editing", subcategory: "text-to-image" },
       { id: "artguru-ai-text2img", name: "Artguru AI", description: "Professional text-to-image generator", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🖼️", category: "image-generation-editing", subcategory: "text-to-image" },
       { id: "leonardo-ai", name: "Leonardo.Ai", description: "Advanced AI image generation", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🎭", category: "image-generation-editing", subcategory: "text-to-image" },
-      { id: "pollo-ai", name: "Pollo AI", description: "Creative AI image generation", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "🐔", category: "image-generation-editing", subcategory: "text-to-image" },
       { id: "pica-ai", name: "Pica AI", description: "AI-powered image creation", url: "", upvotes: 567, verified: false, rating: 4.4, icon: "🖼️", category: "image-generation-editing", subcategory: "ai-art-generator" }
     ]
   },
@@ -1056,7 +1039,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-chat-generator": [
       { id: "chai", name: "CHAI", description: "AI chatbot platform for interactive conversations", url: "", upvotes: 789, verified: true, rating: 4.7, icon: "☕", category: "writing-editing", subcategory: "ai-chat-generator" },
-      { id: "sharesome-ai", name: "Sharesome AI", description: "AI chat and content sharing platform", url: "https://sharesome.com/ai/", upvotes: 345, verified: true, rating: 4.3, icon: "💬", category: "writing-editing", subcategory: "ai-chat-generator" },
       { id: "chatfuel", name: "Chatfuel", description: "AI chatbot builder for businesses", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "🤖", category: "writing-editing", subcategory: "ai-chat-generator" },
       { id: "landbot", name: "Landbot", description: "Conversational AI platform for customer engagement", url: "", upvotes: 423, verified: true, rating: 4.4, icon: "🚀", category: "writing-editing", subcategory: "ai-chat-generator" },
       { id: "typebot", name: "Typebot", description: "Open-source chatbot builder with AI capabilities", url: "", upvotes: 234, verified: false, rating: 4.2, icon: "⌨️", category: "writing-editing", subcategory: "ai-chat-generator" }
@@ -1069,9 +1051,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "nichesss", name: "nichesss", description: "AI-powered niche content and copy generator", url: "", upvotes: 456, verified: true, rating: 4.3, icon: "🎯", category: "writing-editing", subcategory: "ai-copywriting" }
     ],
     "ai-cover-letter-generator": [
-      { id: "cvwizard", name: "CVwizard", description: "Professional CV and cover letter generator", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "📄", category: "writing-editing", subcategory: "ai-cover-letter-generator" },
-      { id: "careerflow", name: "Careerflow", description: "AI-powered career tools including cover letters", url: "", upvotes: 423, verified: true, rating: 4.4, icon: "💼", category: "writing-editing", subcategory: "ai-cover-letter-generator" },
-      { id: "kickresume", name: "Kickresume", description: "Resume and cover letter builder with AI assistance", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "🚀", category: "writing-editing", subcategory: "ai-cover-letter-generator" },
       { id: "wonsulting-ai", name: "WonsultingAI", description: "AI career consulting and cover letter optimization", url: "", upvotes: 234, verified: true, rating: 4.2, icon: "🏆", category: "writing-editing", subcategory: "ai-cover-letter-generator" },
       { id: "huntr", name: "Huntr", description: "Job tracking platform with AI cover letter tools", url: "", upvotes: 189, verified: true, rating: 4.1, icon: "🎯", category: "writing-editing", subcategory: "ai-cover-letter-generator" }
     ],
@@ -1098,15 +1077,10 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-ebook-generator": [
       { id: "designrr", name: "Designrr", description: "Convert content into professional ebooks", url: "", upvotes: 456, verified: true, rating: 4.5, icon: "📚", category: "writing-editing", subcategory: "ai-ebook-generator" },
-      { id: "ebookmaker-2", name: "EbookMaker", description: "AI-powered ebook creation platform", url: "", upvotes: 345, verified: true, rating: 4.4, icon: "📖", category: "writing-editing", subcategory: "ai-ebook-generator" },
-      { id: "automateed-2", name: "Automateed", description: "Automated ebook generation and formatting", url: "", upvotes: 234, verified: false, rating: 4.2, icon: "🤖", category: "writing-editing", subcategory: "ai-ebook-generator" },
       { id: "ai-book-generator", name: "AI Book Generator", description: "Complete AI book creation solution", url: "", upvotes: 189, verified: true, rating: 4.3, icon: "📝", category: "writing-editing", subcategory: "ai-ebook-generator" },
       { id: "youbooks", name: "Youbooks", description: "Personalized AI ebook generator", url: "", upvotes: 156, verified: false, rating: 4.1, icon: "👤", category: "writing-editing", subcategory: "ai-ebook-generator" }
     ],
     "ai-email-writer": [
-      { id: "superhuman", name: "Superhuman", description: "AI-powered email client with smart compose", url: "", upvotes: 1567, verified: true, rating: 4.8, icon: "⚡", category: "writing-editing", subcategory: "ai-email-writer" },
-      { id: "spark-mail", name: "Spark Mail", description: "Intelligent email app with AI writing assistance", url: "", upvotes: 789, verified: true, rating: 4.6, icon: "✨", category: "writing-editing", subcategory: "ai-email-writer" },
-      { id: "shortwave", name: "Shortwave", description: "Modern email client with AI features", url: "", upvotes: 456, verified: true, rating: 4.5, icon: "📧", category: "writing-editing", subcategory: "ai-email-writer" },
       { id: "success-ai", name: "Success.ai", description: "AI email outreach and writing platform", url: "", upvotes: 345, verified: true, rating: 4.4, icon: "🎯", category: "writing-editing", subcategory: "ai-email-writer" },
       { id: "mailmaestro", name: "MailMaestro", description: "AI email writing assistant for professionals", url: "", upvotes: 234, verified: true, rating: 4.3, icon: "🎼", category: "writing-editing", subcategory: "ai-email-writer" }
     ],
@@ -1181,7 +1155,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "aiscreenwriter", name: "AIScreenwriter", description: "Professional AI screenplay generator", url: "", upvotes: 189, verified: false, rating: 4.1, icon: "✍️", category: "writing-editing", subcategory: "ai-movie-script-generator" }
     ],
     "ai-name-generator": [
-      { id: "namelix", name: "Namelix", description: "AI business name generator", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🏷️", category: "writing-editing", subcategory: "ai-name-generator" },
       { id: "maxstudio-api", name: "MaxStudio API", description: "API for AI-powered name generation", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "🔌", category: "writing-editing", subcategory: "ai-name-generator" },
       { id: "dnd-name-generator", name: "DnD Name Generator", description: "Fantasy character name generator for D&D", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "🎲", category: "writing-editing", subcategory: "ai-name-generator" },
       { id: "cuqui-baby-names", name: "Cuqui Baby Names", description: "AI baby name suggestion tool", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "👶", category: "writing-editing", subcategory: "ai-name-generator" },
@@ -1196,7 +1169,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-novel": [
       { id: "ai-novelist", name: "AI Novelist", description: "AI novel writing and generation platform", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "📚", category: "writing-editing", subcategory: "ai-novel" },
-      { id: "squibler-novel", name: "Squibler", description: "AI-powered novel writing tool", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "✍️", category: "writing-editing", subcategory: "ai-novel" },
       { id: "midreal", name: "MidReal", description: "Interactive AI novel and story platform", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "📖", category: "writing-editing", subcategory: "ai-novel" },
       { id: "novelistai", name: "NovelistAI", description: "AI assistant for novel writing", url: "", upvotes: 234, verified: true, rating: 4.2, icon: "🤖", category: "writing-editing", subcategory: "ai-novel" },
       { id: "webnovels-ai", name: "Webnovels AI", description: "AI web novel generation platform", url: "", upvotes: 189, verified: false, rating: 4.1, icon: "🌐", category: "writing-editing", subcategory: "ai-novel" }
@@ -1223,7 +1195,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "toppdf-para", name: "TopPDF", description: "PDF editing with paraphrasing features", url: "", upvotes: 432, verified: true, rating: 4.3, icon: "📄", category: "writing-editing", subcategory: "ai-paraphraser" }
     ],
     "ai-plot-generator": [
-      { id: "squibler-plot", name: "Squibler", description: "AI plot and story development tool", url: "", upvotes: 456, verified: true, rating: 4.5, icon: "📚", category: "writing-editing", subcategory: "ai-plot-generator" },
       { id: "ifnovels", name: "IFNovels", description: "Interactive fiction plot generator", url: "", upvotes: 345, verified: true, rating: 4.4, icon: "🎮", category: "writing-editing", subcategory: "ai-plot-generator" },
       { id: "plotlime", name: "Plotlime", description: "AI story plot and outline generator", url: "", upvotes: 234, verified: true, rating: 4.3, icon: "🍋", category: "writing-editing", subcategory: "ai-plot-generator" },
       { id: "lore-sage", name: "Lore Sage", description: "Fantasy world and plot generator", url: "", upvotes: 189, verified: true, rating: 4.2, icon: "🧙", category: "writing-editing", subcategory: "ai-plot-generator" },
@@ -1272,7 +1243,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "opusense", name: "Opusense", description: "AI business report generation", url: "", upvotes: 189, verified: false, rating: 4.1, icon: "📈", category: "writing-editing", subcategory: "ai-report-writing" }
     ],
     "ai-repurpose": [
-      { id: "opus-clip", name: "Opus Clip", description: "AI video content repurposing tool", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🎬", category: "writing-editing", subcategory: "ai-repurpose" },
       { id: "castmagic", name: "Castmagic", description: "Podcast content repurposing with AI", url: "", upvotes: 789, verified: true, rating: 4.6, icon: "🎙️", category: "writing-editing", subcategory: "ai-repurpose" },
       { id: "hypefury", name: "Hypefury", description: "Social media content repurposing", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "🚀", category: "writing-editing", subcategory: "ai-repurpose" },
       { id: "contrast-repurpose", name: "Contrast", description: "Content repurposing and optimization", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "🔄", category: "writing-editing", subcategory: "ai-repurpose" },
@@ -1293,10 +1263,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "ai-undetect", name: "AI Undetect", description: "AI text humanization and rewriting", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "🔍", category: "writing-editing", subcategory: "ai-rewriter" }
     ],
     "ai-script-writing": [
-      { id: "squibler-script", name: "Squibler", description: "AI screenplay and script writing tool", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "📚", category: "writing-editing", subcategory: "ai-script-writing" },
-      { id: "camtasia", name: "Camtasia", description: "Screen recording with AI script features", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🎥", category: "writing-editing", subcategory: "ai-script-writing" },
       { id: "dubs-io", name: "Dubs.io", description: "AI dubbing and script generation", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "🎭", category: "writing-editing", subcategory: "ai-script-writing" },
-      { id: "subscribr", name: "Subscribr", description: "AI script writing for content creators", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "📺", category: "writing-editing", subcategory: "ai-script-writing" },
       { id: "influee", name: "Influee", description: "AI influencer script generator", url: "", upvotes: 234, verified: false, rating: 4.2, icon: "📱", category: "writing-editing", subcategory: "ai-script-writing" }
     ],
     "ai-sentence-generator": [
@@ -1321,7 +1288,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "prepostseo", name: "Prepostseo", description: "SEO tools with slogan generator", url: "", upvotes: 189, verified: false, rating: 4.1, icon: "🔍", category: "writing-editing", subcategory: "ai-slogan-generator" }
     ],
     "ai-spell-check": [
-      { id: "goodnotes", name: "Goodnotes", description: "Digital note-taking with AI spell check", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "📝", category: "writing-editing", subcategory: "ai-spell-check" },
       { id: "textgears", name: "TextGears", description: "AI grammar and spell checking API", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "⚙️", category: "writing-editing", subcategory: "ai-spell-check" },
       { id: "linguix", name: "Linguix", description: "AI writing assistant with spell check", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "📚", category: "writing-editing", subcategory: "ai-spell-check" },
       { id: "diacritice-corecta", name: "Corectarea automată a diacriticelor", description: "Automatic Romanian diacritics correction", url: "", upvotes: 234, verified: true, rating: 4.2, icon: "🇷🇴", category: "writing-editing", subcategory: "ai-spell-check" },
@@ -1329,23 +1295,15 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-story-generator": [
       { id: "perchance-story", name: "Perchance", description: "Random story and content generator", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🎲", category: "writing-editing", subcategory: "ai-story-generator" },
-      { id: "squibler-story", name: "Squibler", description: "AI story writing and development tool", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "📚", category: "writing-editing", subcategory: "ai-story-generator" },
       { id: "sudowrite-story", name: "Sudowrite", description: "AI creative writing and story generator", url: "", upvotes: 789, verified: true, rating: 4.7, icon: "✨", category: "writing-editing", subcategory: "ai-story-generator" },
       { id: "dreampress-ai", name: "DreamPress AI", description: "AI story generation platform", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "💭", category: "writing-editing", subcategory: "ai-story-generator" },
       { id: "dreamgen", name: "DreamGen", description: "AI story and content generator", url: "", upvotes: 345, verified: false, rating: 4.3, icon: "🌙", category: "writing-editing", subcategory: "ai-story-generator" }
     ],
     "ai-subtitle-generator": [
-      { id: "zeemo-subtitle", name: "Zeemo", description: "AI subtitle generation for videos", url: "", upvotes: 789, verified: true, rating: 4.6, icon: "📺", category: "writing-editing", subcategory: "ai-subtitle-generator" },
-      { id: "capcut", name: "CapCut", description: "Video editor with AI subtitle generation", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "✂️", category: "writing-editing", subcategory: "ai-subtitle-generator" },
-      { id: "happy-scribe", name: "Happy Scribe", description: "AI transcription and subtitle service", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "😊", category: "writing-editing", subcategory: "ai-subtitle-generator" },
-      { id: "veed-io", name: "VEED.IO", description: "Online video editor with AI subtitles", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "🎬", category: "writing-editing", subcategory: "ai-subtitle-generator" },
       { id: "clideo", name: "Clideo", description: "Video editing tools with subtitle generation", url: "", upvotes: 345, verified: false, rating: 4.3, icon: "🎥", category: "writing-editing", subcategory: "ai-subtitle-generator" }
     ],
     "ai-summarizer": [
-      { id: "lilys-ai", name: "Lilys AI", description: "AI document and text summarization", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🌸", category: "writing-editing", subcategory: "ai-summarizer" },
-      { id: "read-ai", name: "Read AI", description: "AI reading and summarization assistant", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "📖", category: "writing-editing", subcategory: "ai-summarizer" },
       { id: "ai-summarizer", name: "AI Summarizer", description: "Text summarization with AI", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "📄", category: "writing-editing", subcategory: "ai-summarizer" },
-      { id: "studocu", name: "Studocu", description: "Student platform with AI summarization", url: "", upvotes: 789, verified: true, rating: 4.4, icon: "🎓", category: "writing-editing", subcategory: "ai-summarizer" },
       { id: "otter-ai", name: "Otter.ai", description: "AI meeting transcription and summarization", url: "", upvotes: 654, verified: true, rating: 4.8, icon: "🦦", category: "writing-editing", subcategory: "ai-summarizer" }
     ],
     "ai-text-classifier": [
@@ -1358,7 +1316,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-text-generator": [
       { id: "perchance-text", name: "Perchance", description: "Random text and content generator", url: "", upvotes: 1567, verified: true, rating: 4.6, icon: "🎲", category: "writing-editing", subcategory: "ai-text-generator" },
       { id: "venice-ai", name: "Venice AI", description: "AI text generation platform", url: "", upvotes: 1234, verified: true, rating: 4.5, icon: "🏛️", category: "writing-editing", subcategory: "ai-text-generator" },
-      { id: "ai-photocaption-text", name: "AI PhotoCaption—Text Generator", description: "AI text generation for photos and captions", url: "", upvotes: 987, verified: true, rating: 4.7, icon: "📸", category: "writing-editing", subcategory: "ai-text-generator" },
       { id: "hyperwrite", name: "HyperWrite", description: "AI-powered writing assistant that generates and improves content for emails, articles, and blog posts instantly.", url: "https://www.hyperwriteai.com/", upvotes: 789, verified: true, rating: 4.4, icon: "⚡", category: "writing-editing", subcategory: "ai-text-generator", addedDate: "Nov 04, 2025" },
       { id: "toolsaday", name: "Toolsaday", description: "Daily AI tools including text generation", url: "", upvotes: 567, verified: false, rating: 4.3, icon: "🔧", category: "writing-editing", subcategory: "ai-text-generator" }
     ],
@@ -1386,7 +1343,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-writing": [
       { id: "scribbr-writing", name: "Scribbr", description: "Academic writing assistance and editing", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🎓", category: "writing-editing", subcategory: "ai-writing" },
       { id: "quillbot-writing", name: "QuillBot", description: "AI writing and paraphrasing tool", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🪶", category: "writing-editing", subcategory: "ai-writing" },
-      { id: "hix-ai", name: "HIX.AI", description: "All-in-one AI writing platform", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "✨", category: "writing-editing", subcategory: "ai-writing" },
       { id: "decopy-ai", name: "Decopy AI", description: "AI copywriting and content creation", url: "", upvotes: 789, verified: true, rating: 4.4, icon: "📝", category: "writing-editing", subcategory: "ai-writing" },
       { id: "tinywow", name: "TinyWow", description: "Free AI writing and editing tools", url: "", upvotes: 567, verified: false, rating: 4.3, icon: "🔧", category: "writing-editing", subcategory: "ai-writing" }
     ],
@@ -1415,7 +1371,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "resume-worded", name: "Resume Worded", description: "AI resume optimization and feedback", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "📄", category: "writing-editing", subcategory: "resume-ai" },
       { id: "resumebuilder-com", name: "ResumeBuilder.com", description: "AI-powered resume builder", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "🔧", category: "writing-editing", subcategory: "resume-ai" },
       { id: "careerflow-resume", name: "Careerflow", description: "AI career tools and resume optimization", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "💼", category: "writing-editing", subcategory: "resume-ai" },
-      { id: "vmock", name: "VMock", description: "AI resume analysis and improvement", url: "", upvotes: 567, verified: true, rating: 4.4, icon: "🎯", category: "writing-editing", subcategory: "resume-ai" },
       { id: "swooped", name: "Swooped", description: "AI job search and resume optimization", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "🚀", category: "writing-editing", subcategory: "resume-ai" }
     ]
   },
@@ -1443,7 +1398,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "dzine-ghibli-ai", name: "Dzine Ghibli AI", description: "Studio Ghibli style AI art", url: "", upvotes: 876, verified: true, rating: 4.4, icon: "🏰", category: "art-creative-design", subcategory: "ai-anime-art" }
     ],
     "ai-anime-generator": [
-      { id: "openart", name: "OpenArt", description: "Open-source anime AI generator", url: "", upvotes: 1456, verified: true, rating: 4.7, icon: "🎨", category: "art-creative-design", subcategory: "ai-anime-generator" },
       { id: "animegenius-gen", name: "AnimeGenius", description: "Advanced anime character generator", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "⭐", category: "art-creative-design", subcategory: "ai-anime-generator" },
       { id: "feetgen", name: "FeetGen", description: "Specialized anime generation tool", url: "", upvotes: 876, verified: false, rating: 4.5, icon: "🦶", category: "art-creative-design", subcategory: "ai-anime-generator" },
       { id: "komiko", name: "Komiko", description: "Anime comic and art generator", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "📚", category: "art-creative-design", subcategory: "ai-anime-generator" },
@@ -1452,7 +1406,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-art-generator": [
       { id: "dreamina-ai", name: "Dreamina AI", description: "Dreamina AI by CapCut is a powerful AI image and video generation platform creating stunning visuals from text descriptions with professional quality output", url: "https://dreamina.capcut.com", upvotes: 4100, verified: false, rating: 4.6, icon: "✨", category: "image-generation-editing", subcategory: "ai-art-generator", addedDate: "2026-04-01" },
       { id: "vheer-ai", name: "Vheer AI", description: "Vheer AI is an advanced AI image generation platform creating high-quality realistic and artistic images from text prompts with multiple style options", url: "https://vheer.com", upvotes: 3100, verified: false, rating: 4.3, icon: "🎨", category: "image-generation-editing", subcategory: "ai-art-generator", addedDate: "2026-04-01" },
-      { id: "unlucid-ai", name: "Unlucid AI", description: "Advanced AI animation and video generation", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "🌟", category: "video-animation", subcategory: "ai-art-generator" },
       { id: "midjourney", name: "Midjourney", description: "Leading AI art generation platform", url: "", upvotes: 2567, verified: true, rating: 4.9, icon: "🎨", category: "art-creative-design", subcategory: "ai-art-generator" },
       { id: "pixai-art", name: "PixAI", description: "Versatile AI art creation tool", url: "", upvotes: 1890, verified: true, rating: 4.8, icon: "🎌", category: "art-creative-design", subcategory: "ai-art-generator" },
       { id: "pica-ai", name: "Pica AI", description: "Professional AI art generator", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🖼️", category: "art-creative-design", subcategory: "ai-art-generator" },
@@ -1484,7 +1437,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-infographic-generator": [
       { id: "venngage", name: "Venngage", description: "Professional infographic design platform", url: "", upvotes: 1456, verified: true, rating: 4.8, icon: "📊", category: "art-creative-design", subcategory: "ai-infographic-generator" },
       { id: "piktochart", name: "Piktochart", description: "Easy infographic and visual storytelling", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "📈", category: "art-creative-design", subcategory: "ai-infographic-generator" },
-      { id: "napkin-ai", name: "Napkin AI", description: "AI-powered visual storytelling", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🎨", category: "art-creative-design", subcategory: "ai-infographic-generator" },
       { id: "infografix", name: "Infografix", description: "Quick infographic generator", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "⚡", category: "art-creative-design", subcategory: "ai-infographic-generator" },
       { id: "infography", name: "Infography", description: "Data visualization and infographics", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "📋", category: "art-creative-design", subcategory: "ai-infographic-generator" }
     ],
@@ -1511,14 +1463,12 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "popl", name: "Popl", description: "Digital business card AI creator", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "💼", category: "art-creative-design", subcategory: "ai-business-card-generator" },
       { id: "brandcrowd-card", name: "BrandCrowd", description: "AI business card design", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "👑", category: "art-creative-design", subcategory: "ai-business-card-generator" },
       { id: "brandmark-logo", name: "Brandmark Logo Maker", description: "Business card and logo AI", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🏷️", category: "art-creative-design", subcategory: "ai-business-card-generator" },
-      { id: "zoviz", name: "Zoviz", description: "Professional business card AI", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "🎨", category: "art-creative-design", subcategory: "ai-business-card-generator" },
       { id: "logome", name: "Logome", description: "Business card and branding AI", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "📇", category: "art-creative-design", subcategory: "ai-business-card-generator" }
     ],
     "ai-cartoon-generator": [
       { id: "myimg-ai", name: "Myimg AI", description: "AI cartoon and caricature creator", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "😄", category: "art-creative-design", subcategory: "ai-cartoon-generator" },
       { id: "colorcinch", name: "Colorcinch", description: "Cartoon photo editor with AI", url: "", upvotes: 1098, verified: true, rating: 4.6, icon: "🎨", category: "art-creative-design", subcategory: "ai-cartoon-generator" },
       { id: "neural-frames", name: "neural frames", description: "AI video and cartoon generation", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🎬", category: "art-creative-design", subcategory: "ai-cartoon-generator" },
-      { id: "autodraft-ai", name: "Autodraft AI", description: "Cartoon character AI designer", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "✏️", category: "art-creative-design", subcategory: "ai-cartoon-generator" },
       { id: "krikey-ai", name: "Krikey AI", description: "3D cartoon avatar creator", url: "", upvotes: 543, verified: false, rating: 4.3, icon: "🎭", category: "art-creative-design", subcategory: "ai-cartoon-generator" }
     ],
     "ai-cat": [
@@ -1606,7 +1556,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-emoji-generator": [
       { id: "ai-emoji-generator", name: "AI Emoji Generator", description: "Custom emoji AI creator", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "😀", category: "art-creative-design", subcategory: "ai-emoji-generator" },
-      { id: "emoji-combiner", name: "Emoji Combiner", description: "AI emoji combination tool", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "😊", category: "art-creative-design", subcategory: "ai-emoji-generator" },
       { id: "ai-emoji-generator-2", name: "AI Emoji Generator", description: "Alternative emoji AI tool", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🤖", category: "art-creative-design", subcategory: "ai-emoji-generator" },
       { id: "tiktok-emojis", name: "TikTok Emojis", description: "TikTok style emoji AI", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "🎵", category: "art-creative-design", subcategory: "ai-emoji-generator" },
       { id: "emojifyer", name: "Emojifyer", description: "Text to emoji AI converter", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "🔄", category: "art-creative-design", subcategory: "ai-emoji-generator" }
@@ -1621,7 +1570,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-graphic-design": [
       { id: "adobe", name: "Adobe", description: "Professional AI graphic design", url: "", upvotes: 2567, verified: true, rating: 4.9, icon: "🏢", category: "art-creative-design", subcategory: "ai-graphic-design" },
       { id: "kittl-graphic", name: "Kittl", description: "AI graphic design platform", url: "", upvotes: 1890, verified: true, rating: 4.8, icon: "🎨", category: "art-creative-design", subcategory: "ai-graphic-design" },
-      { id: "recraft", name: "Recraft", description: "AI vector graphics design", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🔄", category: "art-creative-design", subcategory: "ai-graphic-design" },
       { id: "microsoft-designer-graphic", name: "Microsoft Designer", description: "AI graphic design tool", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🏢", category: "art-creative-design", subcategory: "ai-graphic-design" },
       { id: "pixelied", name: "Pixelied", description: "Online AI graphic design", url: "", upvotes: 876, verified: false, rating: 4.5, icon: "📐", category: "art-creative-design", subcategory: "ai-graphic-design" }
     ],
@@ -1633,7 +1581,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "ai-hairstyle-changer-2", name: "AI Hairstyle Changer", description: "Alternative hair color AI", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "🎨", category: "art-creative-design", subcategory: "ai-hair-color-changer" }
     ],
     "ai-hairstyle": [
-      { id: "heyphoto", name: "HeyPhoto", description: "AI hairstyle transformation", url: "", upvotes: 1567, verified: true, rating: 4.8, icon: "📸", category: "art-creative-design", subcategory: "ai-hairstyle" },
       { id: "hairstyle-ai", name: "Hairstyle AI", description: "AI hairstyle generator", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "💇", category: "art-creative-design", subcategory: "ai-hairstyle" },
       { id: "ai-hairstyle", name: "AI Hairstyle", description: "Smart hairstyle AI tool", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "💄", category: "art-creative-design", subcategory: "ai-hairstyle" },
       { id: "ai-hairstyle-changer-main", name: "AI HairStyle Changer", description: "Professional hairstyle AI", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "✨", category: "art-creative-design", subcategory: "ai-hairstyle" },
@@ -1689,14 +1636,12 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "xinva-ai", name: "Xinva AI", description: "Creative pattern AI tool", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "✨", category: "art-creative-design", subcategory: "ai-pattern-generator" }
     ],
     "ai-photography": [
-      { id: "vsco", name: "VSCO", description: "AI photography enhancement", url: "", upvotes: 2345, verified: true, rating: 4.9, icon: "📸", category: "art-creative-design", subcategory: "ai-photography" },
       { id: "dronedeploy", name: "DroneDeploy", description: "AI drone photography platform", url: "", upvotes: 1567, verified: true, rating: 4.8, icon: "🚁", category: "art-creative-design", subcategory: "ai-photography" },
       { id: "aftershoot", name: "Aftershoot", description: "AI photo editing and culling", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "⚡", category: "art-creative-design", subcategory: "ai-photography" },
       { id: "artflow-ai", name: "Artflow.ai", description: "AI photography art creation", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🎨", category: "art-creative-design", subcategory: "ai-photography" },
       { id: "try-it-on-ai", name: "Try it on AI", description: "AI fashion photography", url: "", upvotes: 654, verified: false, rating: 4.5, icon: "👗", category: "art-creative-design", subcategory: "ai-photography" }
     ],
     "ai-pixel-art": [
-      { id: "pixel-art-ai", name: "Pixel-Art.ai", description: "AI pixel art generator", url: "", upvotes: 1456, verified: true, rating: 4.8, icon: "🎮", category: "art-creative-design", subcategory: "ai-pixel-art" },
       { id: "pixelfy", name: "Pixelfy", description: "Photo to pixel art AI", url: "", upvotes: 1098, verified: true, rating: 4.7, icon: "🔲", category: "art-creative-design", subcategory: "ai-pixel-art" },
       { id: "pixelicious", name: "Pixelicious", description: "AI pixel art creator", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🎨", category: "art-creative-design", subcategory: "ai-pixel-art" },
       { id: "pxlize-ai", name: "Pxlize AI", description: "Advanced pixel art AI", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "⚡", category: "art-creative-design", subcategory: "ai-pixel-art" },
@@ -1752,8 +1697,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "tattoos-ai", name: "Tattoos.ai", description: "AI tattoo creation tool", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "🎭", category: "art-creative-design", subcategory: "ai-tattoo-generator" }
     ],
     "ai-thumbnail-maker": [
-      { id: "pikzels", name: "Pikzels", description: "AI thumbnail creation tool", url: "", upvotes: 1456, verified: true, rating: 4.8, icon: "🖼️", category: "art-creative-design", subcategory: "ai-thumbnail-maker" },
-      { id: "thumblytics", name: "Thumblytics", description: "Thumbnail analytics and AI", url: "", upvotes: 1098, verified: true, rating: 4.7, icon: "📊", category: "art-creative-design", subcategory: "ai-thumbnail-maker" },
       { id: "viro", name: "Viro", description: "AI thumbnail generator", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🎬", category: "art-creative-design", subcategory: "ai-thumbnail-maker" },
       { id: "thumbnails-labs", name: "Thumbnails Labs", description: "Thumbnail laboratory AI", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🧪", category: "art-creative-design", subcategory: "ai-thumbnail-maker" },
       { id: "thumbnailmaker", name: "ThumbnailMaker", description: "Simple thumbnail AI tool", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "🛠️", category: "art-creative-design", subcategory: "ai-thumbnail-maker" }
@@ -1803,10 +1746,8 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
   },
   "social-media": {
     "ai-bio-generator": [
-      { id: "opus-clip", name: "Opus Clip", description: "AI video repurposing tool turning long videos into viral short clips for TikTok and Reels", url: "https://opus.pro", upvotes: 198, verified: true, rating: 4.6, icon: "✂️", category: "social-media", subcategory: "social-media" },
       { id: "taplio", name: "Taplio", description: "AI-powered LinkedIn growth platform for personal branding and content scheduling", url: "https://taplio.com", upvotes: 134, verified: true, rating: 4.4, icon: "💼", category: "social-media", subcategory: "social-media" },
       { id: "pimeyes", name: "PimEyes", description: "AI face search engine for finding where your photos appear across the internet", url: "https://pimeyes.com", upvotes: 112, verified: true, rating: 4.3, icon: "👁️", category: "social-media", subcategory: "social-media" },
-      { id: "faceless-video", name: "Faceless.video", description: "AI platform for creating faceless YouTube and TikTok videos automatically", url: "https://faceless.video", upvotes: 112, verified: true, rating: 4.3, icon: "🎭", category: "social-media", subcategory: "social-media" },
 
       { id: "styldod", name: "Styldod", description: "AI bio generator for social media", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "✨", category: "social-media", subcategory: "ai-bio-generator" },
       { id: "biography-studio-ai", name: "Biography Studio AI", description: "Professional AI biography creator", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "📝", category: "social-media", subcategory: "ai-bio-generator" },
@@ -1867,13 +1808,11 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-meme-generator": [
       { id: "kapwing-meme", name: "Kapwing", description: "AI meme generator and editor", url: "", upvotes: 1456, verified: true, rating: 4.8, icon: "😂", category: "social-media", subcategory: "ai-meme-generator" },
       { id: "supermeme-ai", name: "Supermeme.ai", description: "AI-powered meme creation", url: "", upvotes: 1098, verified: true, rating: 4.7, icon: "🚀", category: "social-media", subcategory: "ai-meme-generator" },
-      { id: "memegen-ai", name: "MemeGen AI", description: "Advanced AI meme generator", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🎯", category: "social-media", subcategory: "ai-meme-generator" },
       { id: "sludge-ai", name: "Sludge AI", description: "AI meme and content creator", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🎨", category: "social-media", subcategory: "ai-meme-generator" },
       { id: "misgif", name: "misgif", description: "AI GIF and meme generator", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "🎬", category: "social-media", subcategory: "ai-meme-generator" }
     ],
     "ai-model-instagram": [
       { id: "ai-model-agency", name: "AI Model Agency", description: "AI Instagram model creator", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "👤", category: "social-media", subcategory: "ai-model-instagram" },
-      { id: "genyou", name: "GenYOU", description: "AI model generation platform", url: "", upvotes: 765, verified: true, rating: 4.5, icon: "✨", category: "social-media", subcategory: "ai-model-instagram" },
       { id: "the-influencer-ai", name: "The Influencer AI", description: "AI influencer model creator", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "⭐", category: "social-media", subcategory: "ai-model-instagram" },
       { id: "genfluencer-ai", name: "GenFluencer.ai", description: "AI influencer generation tool", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🌟", category: "social-media", subcategory: "ai-model-instagram" }
     ],
@@ -1915,7 +1854,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-social-media-post-generator": [
       { id: "flick-post", name: "Flick", description: "AI social media post generator", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "📝", category: "social-media", subcategory: "ai-social-media-post-generator" },
       { id: "contentstudio-post", name: "ContentStudio", description: "AI post creation platform", url: "", upvotes: 765, verified: true, rating: 4.5, icon: "🎨", category: "social-media", subcategory: "ai-social-media-post-generator" },
-      { id: "brandcrowd", name: "BrandCrowd", description: "AI brand post generator", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "👑", category: "social-media", subcategory: "ai-social-media-post-generator" },
       { id: "circleboom", name: "Circleboom", description: "AI social media post creator", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "💥", category: "social-media", subcategory: "ai-social-media-post-generator" },
       { id: "predis-ai", name: "Predis.ai", description: "AI predictive post generator", url: "", upvotes: 432, verified: true, rating: 4.2, icon: "🔮", category: "social-media", subcategory: "ai-social-media-post-generator" }
     ],
@@ -1948,23 +1886,17 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "shortimize", name: "Shortimize", description: "AI username optimization", url: "", upvotes: 321, verified: false, rating: 4.1, icon: "⚡", category: "social-media", subcategory: "ai-username-generator" }
     ],
     "ai-youtube": [
-      { id: "vidiq", name: "VidIQ", description: "AI YouTube growth and analytics", url: "", upvotes: 2345, verified: true, rating: 4.9, icon: "📊", category: "social-media", subcategory: "ai-youtube" },
       { id: "tubebuddy", name: "TubeBuddy", description: "AI YouTube optimization tool", url: "", upvotes: 1890, verified: true, rating: 4.8, icon: "🛠️", category: "social-media", subcategory: "ai-youtube" },
       { id: "nexlev", name: "NexLev", description: "AI YouTube level-up platform", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🚀", category: "social-media", subcategory: "ai-youtube" },
       { id: "futurepedia", name: "Futurepedia", description: "AI YouTube knowledge base", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "📚", category: "social-media", subcategory: "ai-youtube" },
       { id: "subscribr", name: "Subscribr", description: "AI YouTube subscriber growth", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "👥", category: "social-media", subcategory: "ai-youtube" }
     ],
     "ai-youtube-summary": [
-      { id: "lilys-ai", name: "Lilys AI", description: "AI YouTube video summarizer", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "🌸", category: "social-media", subcategory: "ai-youtube-summary" },
-      { id: "noiz", name: "Noiz", description: "AI video noise and summary tool", url: "", upvotes: 765, verified: true, rating: 4.5, icon: "🔇", category: "social-media", subcategory: "ai-youtube-summary" },
       { id: "glarity", name: "Glarity", description: "AI clarity and summary tool", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "✨", category: "social-media", subcategory: "ai-youtube-summary" },
       { id: "kome-ai", name: "Kome AI", description: "AI content summarization", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "📝", category: "social-media", subcategory: "ai-youtube-summary" },
       { id: "eightify", name: "Eightify", description: "AI 8-minute video summaries", url: "", upvotes: 432, verified: true, rating: 4.2, icon: "8️⃣", category: "social-media", subcategory: "ai-youtube-summary" }
     ],
     "ai-youtube-thumbnail-generator": [
-      { id: "pikzels", name: "Pikzels", description: "AI YouTube thumbnail creator", url: "", upvotes: 1098, verified: true, rating: 4.7, icon: "🖼️", category: "social-media", subcategory: "ai-youtube-thumbnail-generator" },
-      { id: "sivi-ai", name: "Sivi AI", description: "AI visual content generator", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🎨", category: "social-media", subcategory: "ai-youtube-thumbnail-generator" },
-      { id: "thumblytics", name: "Thumblytics", description: "AI thumbnail analytics and creation", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "📊", category: "social-media", subcategory: "ai-youtube-thumbnail-generator" },
       { id: "crazyface-ai", name: "CrazyFaceAI", description: "AI face-focused thumbnails", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "🤪", category: "social-media", subcategory: "ai-youtube-thumbnail-generator" },
       { id: "thumbnailcreator-com", name: "ThumbnailCreator.com", description: "AI thumbnail creation platform", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "🎯", category: "social-media", subcategory: "ai-youtube-thumbnail-generator" }
     ],
@@ -1976,7 +1908,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "postfity", name: "Postfity", description: "Social media bio link tool", url: "", upvotes: 432, verified: true, rating: 4.3, icon: "📱", category: "social-media", subcategory: "bio-link" }
     ],
     "youtube-tags-generator": [
-      { id: "taja-ai", name: "Taja AI", description: "AI YouTube tags optimization", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "🎯", category: "social-media", subcategory: "youtube-tags-generator" },
       { id: "tagifynow-com", name: "TagifyNow.com", description: "AI tag generation platform", url: "", upvotes: 765, verified: true, rating: 4.5, icon: "#️⃣", category: "social-media", subcategory: "youtube-tags-generator" },
       { id: "tagistaan", name: "Tagistaan", description: "AI tag discovery tool", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🔍", category: "social-media", subcategory: "youtube-tags-generator" },
       { id: "free-ai-tags-generator", name: "Free AI Tags Generator for YouTube", description: "Free YouTube tags AI tool", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🆓", category: "social-media", subcategory: "youtube-tags-generator" },
@@ -1993,9 +1924,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-bypasser": [
       { id: "lunchbreak-ai", name: "Lunchbreak AI", description: "Lunchbreak AI is a quick productivity AI tool designed for short focused work sessions helping users accomplish tasks efficiently during breaks", url: "https://lunchbreak.ai", upvotes: 2800, verified: false, rating: 4.2, icon: "☕", category: "office-productivity", subcategory: "ai-bypasser", addedDate: "2026-04-01" },
-      { id: "stealthwriter", name: "StealthWriter", description: "AI content bypassing and humanization", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "👻", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" },
       { id: "bypassgpt", name: "BypassGPT", description: "Advanced AI detection bypassing tool", url: "", upvotes: 1098, verified: true, rating: 4.6, icon: "🔓", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" },
-      { id: "lunchbreak-ai", name: "Lunchbreak AI", description: "Turns AI text into authentic human-like writing", url: "https://lunchbreak.ai/", addedDate: "2025-11-25", upvotes: 892, verified: true, rating: 4.5, icon: "🍽️", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" },
       { id: "phrasly-ai", name: "Phrasly.AI", description: "AI content rewriting for bypass", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "✍️", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" },
       { id: "ai-humanize", name: "AI Humanize", description: "Humanize AI-generated content", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🤖", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" },
       { id: "gptinf", name: "GPTinf", description: "Advanced AI text humanization", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🔄", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" }
@@ -2037,7 +1966,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "t-rex-label", name: "T-Rex Label", description: "Image classification and AI detection", url: "", upvotes: 543, verified: false, rating: 4.3, icon: "🦕", category: "ai-detection-anti-detection", subcategory: "ai-image-detector" }
     ],
     "ai-plagiarism-checker": [
-      { id: "scribbr", name: "Scribbr", description: "Academic plagiarism and AI detection", url: "", upvotes: 1567, verified: true, rating: 4.8, icon: "📚", category: "ai-detection-anti-detection", subcategory: "ai-plagiarism-checker" },
       { id: "originality-ai-plagiarism", name: "Originality.ai", description: "AI and plagiarism detection platform", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🎯", category: "ai-detection-anti-detection", subcategory: "ai-plagiarism-checker" },
       { id: "plagiarismcheck", name: "PlagiarismCheck.org", description: "Comprehensive plagiarism detection", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "✅", category: "ai-detection-anti-detection", subcategory: "ai-plagiarism-checker" },
       { id: "quetext", name: "Quetext", description: "Free plagiarism and AI checker", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "❓", category: "ai-detection-anti-detection", subcategory: "ai-plagiarism-checker" },
@@ -2097,8 +2025,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-code-generator": [
       { id: "builder-io", name: "Builder.io", description: "Visual development platform with AI", url: "", upvotes: 1456, verified: true, rating: 4.7, icon: "🏗️", category: "coding-development", subcategory: "ai-code-generator" },
-      { id: "venice-ai", name: "Venice AI", description: "AI-powered code generation platform", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "🏛️", category: "coding-development", subcategory: "ai-code-generator" },
-      { id: "v0-dev", name: "v0.dev", description: "Generate UI with simple text prompts", url: "", upvotes: 2134, verified: true, rating: 4.8, icon: "🎨", category: "coding-development", subcategory: "ai-code-generator" },
       { id: "windsurf-gen", name: "Windsurf", description: "AI code generation and development", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🏄", category: "coding-development", subcategory: "ai-code-generator" },
       { id: "kiro-gen", name: "Kiro", description: "Smart code generation assistant", url: "", upvotes: 876, verified: true, rating: 4.4, icon: "🤖", category: "coding-development", subcategory: "ai-code-generator" }
     ],
@@ -2124,10 +2050,8 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "weekly-github-insights", name: "Weekly Github Insights", description: "Weekly GitHub activity summaries", url: "", upvotes: 432, verified: false, rating: 4.2, icon: "📅", category: "coding-development", subcategory: "ai-github" }
     ],
     "ai-landing-page-builder": [
-      { id: "unbounce", name: "Unbounce", description: "Landing page builder with AI optimization", url: "", upvotes: 1678, verified: true, rating: 4.7, icon: "🚀", category: "coding-development", subcategory: "ai-landing-page-builder" },
       { id: "leadpages", name: "Leadpages", description: "High-converting landing page creator", url: "", upvotes: 1345, verified: true, rating: 4.6, icon: "📄", category: "coding-development", subcategory: "ai-landing-page-builder" },
       { id: "plug-pay", name: "Plug&Pay", description: "Payment-focused landing page builder", url: "", upvotes: 789, verified: true, rating: 4.4, icon: "💳", category: "coding-development", subcategory: "ai-landing-page-builder" },
-      { id: "pagepilot-ai", name: "PagePilot.ai", description: "AI-powered landing page optimization", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "✈️", category: "coding-development", subcategory: "ai-landing-page-builder" },
       { id: "codedesign-ai", name: "CodeDesign.ai", description: "AI-driven web design and landing pages", url: "", upvotes: 654, verified: true, rating: 4.3, icon: "🎨", category: "coding-development", subcategory: "ai-landing-page-builder" }
     ],
     "ai-testing": [
@@ -2148,7 +2072,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "lovable", name: "Lovable", description: "AI-powered web application builder", url: "", upvotes: 2345, verified: true, rating: 4.9, icon: "💖", category: "coding-development", subcategory: "ai-website-builder" },
       { id: "framer", name: "Framer", description: "Design and ship websites with AI", url: "", upvotes: 1890, verified: true, rating: 4.8, icon: "🖼️", category: "coding-development", subcategory: "ai-website-builder" },
       { id: "tilda", name: "Tilda", description: "Visual website builder platform", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🎨", category: "coding-development", subcategory: "ai-website-builder" },
-      { id: "gamma", name: "Gamma", description: "AI-powered presentation and website creator", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "γ", category: "coding-development", subcategory: "ai-website-builder" },
       { id: "prismic", name: "Prismic", description: "Headless CMS with website building", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "💎", category: "coding-development", subcategory: "ai-website-builder" }
     ],
     "log-management": [
@@ -2166,8 +2089,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "powtoon", name: "Powtoon", description: "Video creation platform with no-code tools", url: "", upvotes: 876, verified: true, rating: 4.4, icon: "🎬", category: "coding-development", subcategory: "no-code-low-code" }
     ],
     "sql-query-builder": [
-      { id: "gptexcel", name: "GPTExcel", description: "AI-powered Excel formula and SQL generation", url: "", upvotes: 1345, verified: true, rating: 4.6, icon: "📊", category: "coding-development", subcategory: "sql-query-builder" },
-      { id: "quadratic", name: "Quadratic", description: "Modern spreadsheet with code integration", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "⬜", category: "coding-development", subcategory: "sql-query-builder" },
       { id: "sourcetable", name: "Sourcetable", description: "Spreadsheet that connects to all data sources", url: "", upvotes: 765, verified: true, rating: 4.4, icon: "🔗", category: "coding-development", subcategory: "sql-query-builder" },
       { id: "ai2sql", name: "AI2sql", description: "Convert natural language to SQL queries", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🔤", category: "coding-development", subcategory: "sql-query-builder" },
       { id: "vanna-ai", name: "Vanna.AI", description: "AI SQL assistant for complex queries", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🤖", category: "coding-development", subcategory: "sql-query-builder" }
@@ -2177,7 +2098,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-baby-generator": [
       { id: "ai-baby-generator", name: "AI Baby Generator", description: "Generate realistic baby faces using AI", url: "", upvotes: 1234, verified: true, rating: 4.5, icon: "👶", category: "daily-life", subcategory: "ai-baby-generator" },
       { id: "baby-face-generator", name: "Baby Face Generator", description: "Create baby face predictions with AI", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "🍼", category: "daily-life", subcategory: "ai-baby-generator" },
-      { id: "maxstudio-api", name: "MaxStudio API", description: "Professional baby face generation API", url: "", upvotes: 754, verified: true, rating: 4.3, icon: "⚡", category: "daily-life", subcategory: "ai-baby-generator" },
       { id: "baiby", name: "Baiby", description: "AI-powered baby prediction platform", url: "", upvotes: 621, verified: true, rating: 4.2, icon: "👼", category: "daily-life", subcategory: "ai-baby-generator" },
       { id: "ourbabyai", name: "OurBabyAI", description: "Family baby prediction using AI", url: "", upvotes: 543, verified: true, rating: 4.1, icon: "👨‍👩‍👶", category: "daily-life", subcategory: "ai-baby-generator" }
     ],
@@ -2210,8 +2130,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "shred-app", name: "SHRED: Home & Gym Workouts App", description: "AI workout programs for home and gym", url: "", upvotes: 432, verified: true, rating: 4.2, icon: "🏋️‍♀️", category: "daily-life", subcategory: "ai-fitness" }
     ],
     "ai-gift-ideas": [
-      { id: "book-by-anyone", name: "Book by Anyone", description: "AI-generated personalized books as gifts", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "📖", category: "daily-life", subcategory: "ai-gift-ideas" },
-      { id: "celebrateally", name: "CelebrateAlly", description: "AI gift recommendation platform", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "🎁", category: "daily-life", subcategory: "ai-gift-ideas" },
       { id: "snappy", name: "Snappy", description: "AI-powered gift selection service", url: "", upvotes: 754, verified: true, rating: 4.3, icon: "🎀", category: "daily-life", subcategory: "ai-gift-ideas" },
       { id: "gensmo", name: "Gensmo", description: "AI gift generator and ideas platform", url: "", upvotes: 621, verified: true, rating: 4.2, icon: "💝", category: "daily-life", subcategory: "ai-gift-ideas" },
       { id: "giftruly", name: "Giftruly", description: "AI-curated personalized gift suggestions", url: "", upvotes: 543, verified: true, rating: 4.1, icon: "🎊", category: "daily-life", subcategory: "ai-gift-ideas" }
@@ -2231,35 +2149,30 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "webscrypto", name: "WebsCrypto", description: "AI cryptocurrency news platform", url: "", upvotes: 432, verified: true, rating: 4.2, icon: "₿", category: "daily-life", subcategory: "ai-news" }
     ],
     "ai-newsletter": [
-      { id: "futurepedia", name: "Futurepedia", description: "AI tools newsletter and directory", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🔮", category: "daily-life", subcategory: "ai-newsletter" },
       { id: "prompt-advance", name: "Prompt Advance", description: "Advanced AI prompting newsletter", url: "", upvotes: 1298, verified: true, rating: 4.6, icon: "⚡", category: "daily-life", subcategory: "ai-newsletter" },
       { id: "why-try-ai", name: "Why Try AI", description: "AI exploration and education newsletter", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "❓", category: "daily-life", subcategory: "ai-newsletter" },
       { id: "just-ai-news", name: "Just AI News", description: "Curated AI news and developments", url: "", upvotes: 754, verified: true, rating: 4.4, icon: "📬", category: "daily-life", subcategory: "ai-newsletter" },
       { id: "artificial-ignorance", name: "Artificial Ignorance", description: "Critical AI news and commentary", url: "", upvotes: 621, verified: true, rating: 4.3, icon: "🤔", category: "daily-life", subcategory: "ai-newsletter" }
     ],
     "ai-outfit-generator": [
-      { id: "new-black-ai", name: "The New Black AI", description: "AI fashion and outfit generation", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "👗", category: "daily-life", subcategory: "ai-outfit-generator" },
       { id: "cladwell", name: "Cladwell", description: "AI wardrobe and outfit planning", url: "", upvotes: 1156, verified: true, rating: 4.5, icon: "👔", category: "daily-life", subcategory: "ai-outfit-generator" },
       { id: "outfit-changer", name: "Outfit Changer", description: "AI outfit transformation tool", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "👕", category: "daily-life", subcategory: "ai-outfit-generator" },
       { id: "stylitics", name: "Stylitics", description: "AI styling and outfit recommendations", url: "", upvotes: 754, verified: true, rating: 4.3, icon: "💄", category: "daily-life", subcategory: "ai-outfit-generator" },
       { id: "outfits-ai", name: "Outfits AI", description: "AI-powered outfit generation platform", url: "", upvotes: 621, verified: true, rating: 4.2, icon: "👚", category: "daily-life", subcategory: "ai-outfit-generator" }
     ],
     "ai-parenting": [
-      { id: "bark", name: "Bark", description: "AI parental monitoring and safety", url: "", upvotes: 1345, verified: true, rating: 4.5, icon: "🐕", category: "daily-life", subcategory: "ai-parenting" },
       { id: "mobicip", name: "Mobicip", description: "AI-powered parental control platform", url: "", upvotes: 1087, verified: true, rating: 4.4, icon: "📱", category: "daily-life", subcategory: "ai-parenting" },
       { id: "bestinterest", name: "BestInterest", description: "AI parenting advice and guidance", url: "", upvotes: 876, verified: true, rating: 4.3, icon: "❤️", category: "daily-life", subcategory: "ai-parenting" },
       { id: "milo", name: "Milo", description: "AI family assistant and organizer", url: "", upvotes: 654, verified: true, rating: 4.2, icon: "👨‍👩‍👧‍👦", category: "daily-life", subcategory: "ai-parenting" },
       { id: "kidtime", name: "Kidtime", description: "AI children's schedule and activity planner", url: "", upvotes: 543, verified: true, rating: 4.1, icon: "⏰", category: "daily-life", subcategory: "ai-parenting" }
     ],
     "ai-pickup-lines": [
-      { id: "lovegenius", name: "LoveGenius", description: "AI dating profile and pickup line generator", url: "", upvotes: 1567, verified: true, rating: 4.5, icon: "💘", category: "daily-life", subcategory: "ai-pickup-lines" },
       { id: "hingegpt", name: "HingeGPT", description: "AI Hinge conversation starters", url: "", upvotes: 1234, verified: true, rating: 4.4, icon: "💕", category: "daily-life", subcategory: "ai-pickup-lines" },
       { id: "flirty-pickup-lines", name: "Flirty pickup lines", description: "AI flirtatious conversation generators", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "😘", category: "daily-life", subcategory: "ai-pickup-lines" },
       { id: "tinder-ice-breakers", name: "Tinder Ice Breakers AI", description: "AI Tinder conversation starters", url: "", upvotes: 754, verified: true, rating: 4.2, icon: "🔥", category: "daily-life", subcategory: "ai-pickup-lines" },
       { id: "flirtlikepro", name: "FlirtLikePro", description: "Professional AI flirting assistant", url: "", upvotes: 621, verified: true, rating: 4.1, icon: "😉", category: "daily-life", subcategory: "ai-pickup-lines" }
     ],
     "ai-portrait-generator": [
-      { id: "genyou", name: "GenYOU", description: "AI personal portrait generation", url: "", upvotes: 1456, verified: true, rating: 4.6, icon: "🎨", category: "daily-life", subcategory: "ai-portrait-generator" },
       { id: "apob-ai", name: "APOB.AI", description: "Advanced AI portrait creation platform", url: "", upvotes: 1123, verified: true, rating: 4.5, icon: "🖼️", category: "daily-life", subcategory: "ai-portrait-generator" },
       { id: "pixel-dojo-ai", name: "PIXEL DOJO AI", description: "AI pixel art portrait generator", url: "", upvotes: 876, verified: true, rating: 4.4, icon: "🎯", category: "daily-life", subcategory: "ai-portrait-generator" },
       { id: "portraitart", name: "PortraitArt", description: "Artistic AI portrait creation", url: "", upvotes: 654, verified: true, rating: 4.3, icon: "🎭", category: "daily-life", subcategory: "ai-portrait-generator" },
@@ -2287,8 +2200,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "aiselfies", name: "AISelfi.es", description: "AI selfie generation platform", url: "", upvotes: 654, verified: true, rating: 4.3, icon: "🤳", category: "daily-life", subcategory: "ai-selfie-generator" }
     ],
     "ai-shopping-assistant": [
-      { id: "honeydo", name: "HoneyDo: Speak, Snap and Shop", description: "AI voice shopping assistant", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "🛒", category: "daily-life", subcategory: "ai-shopping-assistant" },
-      { id: "spoiledchild", name: "SpoiledChild", description: "AI personalized shopping recommendations", url: "", upvotes: 1156, verified: true, rating: 4.5, icon: "🛍️", category: "daily-life", subcategory: "ai-shopping-assistant" },
       { id: "dealdrop", name: "DealDrop", description: "AI deal finder and shopping assistant", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "💰", category: "daily-life", subcategory: "ai-shopping-assistant" },
       { id: "vetted", name: "Vetted", description: "AI product research and recommendations", url: "", upvotes: 754, verified: true, rating: 4.3, icon: "✅", category: "daily-life", subcategory: "ai-shopping-assistant" },
       { id: "tictuk", name: "Tictuk", description: "AI shopping comparison platform", url: "", upvotes: 621, verified: true, rating: 4.2, icon: "🔍", category: "daily-life", subcategory: "ai-shopping-assistant" }
@@ -2297,7 +2208,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "fight-iq", name: "Fight IQ", description: "AI combat sports analysis and training", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "🥊", category: "daily-life", subcategory: "ai-sports" },
       { id: "pixellot", name: "Pixellot", description: "AI sports video analysis platform", url: "", upvotes: 1087, verified: true, rating: 4.4, icon: "📹", category: "daily-life", subcategory: "ai-sports" },
       { id: "myvelofit-sports", name: "MyVeloFit", description: "AI cycling performance analysis", url: "", upvotes: 876, verified: true, rating: 4.3, icon: "🚴‍♂️", category: "daily-life", subcategory: "ai-sports" },
-      { id: "ludex", name: "Ludex", description: "AI sports betting and analysis", url: "", upvotes: 654, verified: true, rating: 4.2, icon: "🎲", category: "daily-life", subcategory: "ai-sports" },
       { id: "be-your-best", name: "Be Your Best", description: "AI sports performance optimization", url: "", upvotes: 543, verified: true, rating: 4.1, icon: "🏆", category: "daily-life", subcategory: "ai-sports" }
     ],
     "ai-travel": [
@@ -2317,7 +2227,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
   },
   "legal-finance": {
     "ai-accounting": [
-      { id: "blahget", name: "Blahget", description: "AI-powered accounting and expense management", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "📊", category: "legal-finance", subcategory: "ai-accounting" },
       { id: "syft-analytics", name: "Syft Analytics", description: "AI financial analytics and reporting platform", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "📈", category: "legal-finance", subcategory: "ai-accounting" },
       { id: "insightsoftware", name: "insightsoftware", description: "AI business intelligence and financial reporting", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "💡", category: "legal-finance", subcategory: "ai-accounting" },
       { id: "accountable", name: "Accountable", description: "AI accounting automation for freelancers", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🧾", category: "legal-finance", subcategory: "ai-accounting" },
@@ -2331,7 +2240,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "samsearch", name: "SamSearch", description: "AI contract search and generation tool", url: "", upvotes: 754, verified: true, rating: 4.3, icon: "🔍", category: "legal-finance", subcategory: "ai-contract-generator" }
     ],
     "ai-contract-management": [
-      { id: "dropbox-sign", name: "Dropbox Sign", description: "AI-powered contract signing and management", url: "", upvotes: 1678, verified: true, rating: 4.7, icon: "✍️", category: "legal-finance", subcategory: "ai-contract-management" },
       { id: "filevine", name: "Filevine", description: "AI legal case and contract management", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "🗂️", category: "legal-finance", subcategory: "ai-contract-management" },
       { id: "linksquares", name: "LinkSquares", description: "AI contract lifecycle management", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "🔗", category: "legal-finance", subcategory: "ai-contract-management" },
       { id: "robin-ai-mgmt", name: "Robin AI", description: "AI contract management and negotiation", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "🤖", category: "legal-finance", subcategory: "ai-contract-management" },
@@ -2348,14 +2256,11 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "xtransfer", name: "XTransfer", description: "AI international payment and finance platform", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "💸", category: "legal-finance", subcategory: "ai-for-finance" },
       { id: "trueaccord", name: "TrueAccord", description: "AI debt collection and financial recovery", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "🎯", category: "legal-finance", subcategory: "ai-for-finance" },
       { id: "macromicro", name: "MacroMicro", description: "AI financial market analysis platform", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "📊", category: "legal-finance", subcategory: "ai-for-finance" },
-      { id: "datarails", name: "Datarails", description: "AI financial planning and analysis", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "🚄", category: "legal-finance", subcategory: "ai-for-finance" },
       { id: "jump-ai-advisors", name: "Jump | AI for Financial Advisors", description: "AI tools for financial advisory services", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🦘", category: "legal-finance", subcategory: "ai-for-finance" }
     ],
     "ai-investing": [
-      { id: "ainvest", name: "AInvest", description: "AI investment analysis and recommendations", url: "", upvotes: 1678, verified: true, rating: 4.8, icon: "📈", category: "legal-finance", subcategory: "ai-investing" },
       { id: "macromicro-investing", name: "MacroMicro", description: "AI macro investment research platform", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "📊", category: "legal-finance", subcategory: "ai-investing" },
       { id: "incite-ai", name: "Incite AI", description: "AI-powered investment insights", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "💡", category: "legal-finance", subcategory: "ai-investing" },
-      { id: "stockstory", name: "StockStory", description: "AI stock analysis and market insights", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "📖", category: "legal-finance", subcategory: "ai-investing" },
       { id: "intellectia-ai", name: "Intellectia AI", description: "AI investment research platform", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🧠", category: "legal-finance", subcategory: "ai-investing" }
     ],
     "ai-legal-assistant": [
@@ -2390,7 +2295,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "pionex", name: "Pionex", description: "AI crypto trading bot platform", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🤖", category: "legal-finance", subcategory: "ai-trading-bot" },
       { id: "composer", name: "Composer", description: "AI-powered automated trading platform", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "🎼", category: "legal-finance", subcategory: "ai-trading-bot" },
       { id: "octobot-cloud", name: "OctoBot Cloud", description: "AI crypto trading bot cloud platform", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "🐙", category: "legal-finance", subcategory: "ai-trading-bot" },
-      { id: "arbitragescanner", name: "ArbitrageScanner.io", description: "AI arbitrage trading opportunities scanner", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "🔍", category: "legal-finance", subcategory: "ai-trading-bot" },
       { id: "gunbot", name: "Gunbot", description: "AI cryptocurrency trading bot", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🔫", category: "legal-finance", subcategory: "ai-trading-bot" }
     ]
   },
@@ -2398,7 +2302,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-crm": [
 
       { id: "hubspot", name: "HubSpot", description: "AI-powered CRM and marketing platform", url: "", upvotes: 2145, verified: true, rating: 4.8, icon: "🚀", category: "business-management", subcategory: "ai-crm" },
-      { id: "salesforce-platform", name: "Salesforce Platform", description: "AI-enhanced CRM and business platform", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "☁️", category: "business-management", subcategory: "ai-crm" },
       { id: "tabsquare", name: "TabSquare", description: "AI restaurant CRM and management platform", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "🍽️", category: "business-management", subcategory: "ai-crm" },
       { id: "attio", name: "Attio", description: "AI-powered modern CRM platform", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "⚡", category: "business-management", subcategory: "ai-crm" },
       { id: "recruit-crm", name: "Recruit CRM", description: "AI recruiting and talent CRM platform", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "👥", category: "business-management", subcategory: "ai-crm" }
@@ -2414,7 +2317,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "chaport", name: "Chaport", description: "AI-powered live chat and customer service", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "💬", category: "business-management", subcategory: "ai-customer-service" },
       { id: "dialpad", name: "Dialpad", description: "AI business communications platform", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "📱", category: "business-management", subcategory: "ai-customer-service" },
       { id: "openphone-cs", name: "OpenPhone", description: "AI customer service phone solution", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "📞", category: "business-management", subcategory: "ai-customer-service" },
-      { id: "jotform-ai-agents", name: "Jotform AI Agents", description: "AI agents for customer service automation", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "🤖", category: "business-management", subcategory: "ai-customer-service" },
       { id: "tidio", name: "Tidio", description: "AI chatbot and customer service platform", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🎭", category: "business-management", subcategory: "ai-customer-service" }
     ],
     "ai-erp": [
@@ -2425,7 +2327,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "stateset", name: "StateSet", description: "AI commerce and ERP automation", url: "", upvotes: 621, verified: true, rating: 4.2, icon: "⚙️", category: "business-management", subcategory: "ai-erp" }
     ],
     "ai-interview-assistant": [
-      { id: "final-round-ai", name: "Final Round AI", description: "AI interview preparation and coaching", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🎯", category: "business-management", subcategory: "ai-interview-assistant" },
       { id: "parakeetai", name: "ParakeetAI", description: "AI interview transcription and analysis", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "🦜", category: "business-management", subcategory: "ai-interview-assistant" },
       { id: "listen-labs", name: "Listen Labs", description: "AI conversation intelligence for interviews", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "👂", category: "business-management", subcategory: "ai-interview-assistant" },
       { id: "talent-titan", name: "Talent Titan", description: "AI talent assessment and interview platform", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "⚡", category: "business-management", subcategory: "ai-interview-assistant" },
@@ -2442,11 +2343,9 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "miro", name: "Miro", description: "AI-powered collaborative whiteboard and project management", url: "", upvotes: 2134, verified: true, rating: 4.8, icon: "🎨", category: "business-management", subcategory: "ai-project-management" },
       { id: "dooray", name: "Dooray!", description: "AI project management and collaboration platform", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "🚪", category: "business-management", subcategory: "ai-project-management" },
       { id: "whimsical", name: "Whimsical", description: "AI visual collaboration and project planning", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "✨", category: "business-management", subcategory: "ai-project-management" },
-      { id: "dronedeploy", name: "DroneDeploy", description: "AI drone project management platform", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "🚁", category: "business-management", subcategory: "ai-project-management" },
       { id: "smartsuite", name: "SmartSuite", description: "AI work management and project platform", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🎯", category: "business-management", subcategory: "ai-project-management" }
     ],
     "ai-recruiting": [
-      { id: "mercor", name: "Mercor", description: "AI talent matching and recruiting platform", url: "", upvotes: 1678, verified: true, rating: 4.7, icon: "🎯", category: "business-management", subcategory: "ai-recruiting" },
       { id: "recruit-crm-recruiting", name: "Recruit CRM", description: "AI recruiting and applicant tracking system", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "👥", category: "business-management", subcategory: "ai-recruiting" },
       { id: "zara-recruiting", name: "Zara", description: "AI recruiting and talent acquisition", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "👗", category: "business-management", subcategory: "ai-recruiting" },
       { id: "codesignal", name: "CodeSignal", description: "AI technical recruiting and assessment", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "💻", category: "business-management", subcategory: "ai-recruiting" },
@@ -2460,21 +2359,18 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "plani-ai", name: "Plani.ai", description: "AI project and roadmap planning tool", url: "", upvotes: 754, verified: true, rating: 4.2, icon: "📋", category: "business-management", subcategory: "ai-roadmap" }
     ],
     "ai-workflow": [
-      { id: "n8n", name: "n8n", description: "AI workflow automation platform", url: "", upvotes: 1789, verified: true, rating: 4.7, icon: "⚡", category: "business-management", subcategory: "ai-workflow" },
       { id: "zapier", name: "Zapier", description: "AI automation and workflow integration", url: "", upvotes: 1678, verified: true, rating: 4.6, icon: "🔗", category: "business-management", subcategory: "ai-workflow" },
       { id: "syncsketch", name: "SyncSketch", description: "AI creative workflow and collaboration", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "🎨", category: "business-management", subcategory: "ai-workflow" },
       { id: "copy-ai", name: "Copy.ai", description: "AI content and marketing workflow platform", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "✍️", category: "business-management", subcategory: "ai-workflow" },
       { id: "dify-ai", name: "Dify.AI", description: "AI application development and workflow platform", url: "", upvotes: 1156, verified: true, rating: 4.3, icon: "🛠️", category: "business-management", subcategory: "ai-workflow" }
     ],
     "ai-business-ideas-generator": [
-      { id: "vizologi", name: "Vizologi", description: "AI business ideas generator and market research", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "💡", category: "business-management", subcategory: "ai-business-ideas-generator" },
       { id: "stratup-ai", name: "Stratup.ai", description: "AI-powered startup ideas and business planning", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "🚀", category: "business-management", subcategory: "ai-business-ideas-generator" },
       { id: "solo-ideas", name: "Solo", description: "AI business ideas for solo entrepreneurs", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "👤", category: "business-management", subcategory: "ai-business-ideas-generator" },
       { id: "buildpad", name: "Buildpad", description: "AI business idea validation and development", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "🏗️", category: "business-management", subcategory: "ai-business-ideas-generator" },
       { id: "validator-ai", name: "ValidatorAI", description: "AI business idea validation platform", url: "", upvotes: 1156, verified: true, rating: 4.3, icon: "✅", category: "business-management", subcategory: "ai-business-ideas-generator" }
     ],
     "ai-business-name-generator": [
-      { id: "namelix", name: "Namelix", description: "AI business name generator and branding", url: "", upvotes: 2134, verified: true, rating: 4.8, icon: "🏷️", category: "business-management", subcategory: "ai-business-name-generator" },
       { id: "namesnack", name: "NameSnack", description: "AI business name and domain generator", url: "", upvotes: 1876, verified: true, rating: 4.7, icon: "🍿", category: "business-management", subcategory: "ai-business-name-generator" },
       { id: "brandbolt", name: "BrandBolt", description: "AI brand name generator and trademark checker", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "⚡", category: "business-management", subcategory: "ai-business-name-generator" },
       { id: "brandix-ai", name: "Brandix AI", description: "AI business name and brand identity generator", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "🎨", category: "business-management", subcategory: "ai-business-name-generator" },
@@ -2483,22 +2379,17 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-company-name-generator": [
       { id: "naming-magic", name: "Naming Magic", description: "AI company name generator with domain availability", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "🪄", category: "business-management", subcategory: "ai-company-name-generator" },
       { id: "namegener", name: "Namegener", description: "AI company and product name generator", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "⚙️", category: "business-management", subcategory: "ai-company-name-generator" },
-      { id: "brandkiit", name: "BrandKiit", description: "AI brand and company name generator", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "🛠️", category: "business-management", subcategory: "ai-company-name-generator" },
       { id: "namehassle", name: "NameHassle", description: "AI company name generator without the hassle", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "🎯", category: "business-management", subcategory: "ai-company-name-generator" },
       { id: "namefinder-ai", name: "Namefinder.ai", description: "AI company name finder and generator", url: "", upvotes: 1156, verified: true, rating: 4.3, icon: "🔎", category: "business-management", subcategory: "ai-company-name-generator" }
     ],
     "ai-consulting": [
       { id: "heroz", name: "HEROZ", description: "AI consulting and business intelligence platform", url: "", upvotes: 1789, verified: true, rating: 4.6, icon: "🦸", category: "business-management", subcategory: "ai-consulting" },
-      { id: "shift-ai", name: "SHIFT AI", description: "AI transformation consulting services", url: "", upvotes: 1543, verified: true, rating: 4.5, icon: "🔄", category: "business-management", subcategory: "ai-consulting" },
       { id: "leanware", name: "Leanware", description: "AI lean consulting and process optimization", url: "", upvotes: 1432, verified: true, rating: 4.4, icon: "⚖️", category: "business-management", subcategory: "ai-consulting" },
       { id: "visage-technologies", name: "Visage Technologies", description: "AI computer vision consulting solutions", url: "", upvotes: 1298, verified: true, rating: 4.3, icon: "👁️", category: "business-management", subcategory: "ai-consulting" },
       { id: "ai-superior", name: "AI Superior", description: "AI consulting and implementation services", url: "", upvotes: 1156, verified: true, rating: 4.2, icon: "⭐", category: "business-management", subcategory: "ai-consulting" }
     ],
     "ai-crypto": [
       { id: "webscrypto", name: "WebsCrypto", description: "AI cryptocurrency trading and analysis", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "₿", category: "business-management", subcategory: "ai-crypto" },
-      { id: "pionex", name: "Pionex", description: "AI crypto trading bot platform", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🤖", category: "business-management", subcategory: "ai-crypto" },
-      { id: "luxalgo", name: "LuxAlgo", description: "AI cryptocurrency market analysis tools", url: "", upvotes: 1432, verified: true, rating: 4.4, icon: "📈", category: "business-management", subcategory: "ai-crypto" },
-      { id: "incite-ai", name: "Incite AI", description: "AI crypto investment and trading insights", url: "", upvotes: 1298, verified: true, rating: 4.3, icon: "💎", category: "business-management", subcategory: "ai-crypto" },
       { id: "chaingpt", name: "ChainGPT", description: "AI blockchain and crypto assistant", url: "", upvotes: 1156, verified: true, rating: 4.2, icon: "🔗", category: "business-management", subcategory: "ai-crypto" }
     ],
     "ai-domain-name-generator": [
@@ -2541,7 +2432,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-ad-generator": [
       { id: "creatify", name: "Creatify", description: "AI video ad generator for marketing", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "🎬", category: "marketing-advertising", subcategory: "ai-ad-generator" },
-      { id: "higgsfield", name: "Higgsfield", description: "AI ad generation and optimization platform", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "⚛️", category: "marketing-advertising", subcategory: "ai-ad-generator" },
       { id: "predis-ai-generator", name: "Predis.ai", description: "AI ad generator for social media", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "📱", category: "marketing-advertising", subcategory: "ai-ad-generator" },
       { id: "adcreative-ai-generator", name: "AdCreative.ai", description: "AI ad creative generator", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "🎨", category: "marketing-advertising", subcategory: "ai-ad-generator" },
       { id: "captions", name: "Captions", description: "AI video ad generator with captions", url: "", upvotes: 1156, verified: true, rating: 4.3, icon: "📝", category: "marketing-advertising", subcategory: "ai-ad-generator" }
@@ -2563,7 +2453,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-cold-calling": [
       { id: "dealmachine-calling", name: "DealMachine", description: "AI real estate cold calling platform", url: "", upvotes: 1789, verified: true, rating: 4.6, icon: "🏠", category: "marketing-advertising", subcategory: "ai-cold-calling" },
       { id: "oneai", name: "OneAI", description: "AI cold calling and conversation platform", url: "", upvotes: 1543, verified: true, rating: 4.5, icon: "☝️", category: "marketing-advertising", subcategory: "ai-cold-calling" },
-      { id: "structurely", name: "Structurely", description: "AI real estate cold calling assistant", url: "", upvotes: 1432, verified: true, rating: 4.4, icon: "🏗️", category: "marketing-advertising", subcategory: "ai-cold-calling" },
       { id: "outplay", name: "Outplay", description: "AI sales engagement and cold calling platform", url: "", upvotes: 1298, verified: true, rating: 4.3, icon: "🎯", category: "marketing-advertising", subcategory: "ai-cold-calling" },
       { id: "smartwriter", name: "SmartWriter", description: "AI cold email and calling assistant", url: "", upvotes: 1156, verified: true, rating: 4.2, icon: "✍️", category: "marketing-advertising", subcategory: "ai-cold-calling" }
     ],
@@ -2575,21 +2464,17 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "head", name: "Head", description: "AI digital marketing optimization platform", url: "", upvotes: 1156, verified: true, rating: 4.1, icon: "🧠", category: "marketing-advertising", subcategory: "ai-digital-marketing" }
     ],
     "ai-email-generator": [
-      { id: "superhuman", name: "Superhuman", description: "AI email client and generator", url: "", upvotes: 2134, verified: true, rating: 4.7, icon: "⚡", category: "marketing-advertising", subcategory: "ai-email-generator" },
       { id: "recruit-crm-email", name: "Recruit CRM", description: "AI recruiting email generator", url: "", upvotes: 1678, verified: true, rating: 4.5, icon: "👥", category: "marketing-advertising", subcategory: "ai-email-generator" },
       { id: "toolsaday", name: "Toolsaday", description: "AI email and content generator", url: "", upvotes: 1432, verified: true, rating: 4.4, icon: "🛠️", category: "marketing-advertising", subcategory: "ai-email-generator" },
-      { id: "stripo", name: "Stripo", description: "AI email template and content generator", url: "", upvotes: 1298, verified: true, rating: 4.3, icon: "📧", category: "marketing-advertising", subcategory: "ai-email-generator" },
       { id: "chatgpt-sales-prompts", name: "200+ ChatGPT Mega-Prompts for Sales", description: "AI email and sales prompt collection", url: "", upvotes: 1156, verified: true, rating: 4.2, icon: "💬", category: "marketing-advertising", subcategory: "ai-email-generator" }
     ],
     "ai-email-marketing": [
-      { id: "beacons", name: "Beacons", description: "AI creator economy and email marketing platform", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🎯", category: "marketing-advertising", subcategory: "ai-email-marketing" },
       { id: "mailchimp", name: "Mailchimp", description: "AI email marketing and automation platform", url: "", upvotes: 1876, verified: true, rating: 4.5, icon: "🐵", category: "marketing-advertising", subcategory: "ai-email-marketing" },
       { id: "klaviyo", name: "Klaviyo", description: "AI email marketing for ecommerce", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "💌", category: "marketing-advertising", subcategory: "ai-email-marketing" },
       { id: "smartlead", name: "Smartlead", description: "AI cold email marketing platform", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "📬", category: "marketing-advertising", subcategory: "ai-email-marketing" },
       { id: "robly", name: "Robly Email Marketing", description: "AI email marketing automation", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "🤖", category: "marketing-advertising", subcategory: "ai-email-marketing" }
     ],
     "ai-flyer-generator": [
-      { id: "styldod", name: "Styldod", description: "AI real estate flyer generator", url: "", upvotes: 1543, verified: true, rating: 4.5, icon: "🏠", category: "marketing-advertising", subcategory: "ai-flyer-generator" },
       { id: "7lemon", name: "7Lemon", description: "AI flyer and marketing material generator", url: "", upvotes: 1432, verified: true, rating: 4.4, icon: "🍋", category: "marketing-advertising", subcategory: "ai-flyer-generator" },
       { id: "ilogo-ai", name: "iLogo - Ai Logo Design", description: "AI logo and flyer design platform", url: "", upvotes: 1298, verified: true, rating: 4.3, icon: "🎨", category: "marketing-advertising", subcategory: "ai-flyer-generator" },
       { id: "designs-ai", name: "Designs AI", description: "AI design platform for flyers and graphics", url: "", upvotes: 1156, verified: true, rating: 4.2, icon: "🖌️", category: "marketing-advertising", subcategory: "ai-flyer-generator" },
@@ -2617,16 +2502,13 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "molo9", name: "Molo9™", description: "AI marketing strategy and planning platform", url: "", upvotes: 1156, verified: true, rating: 4.1, icon: "🎯", category: "marketing-advertising", subcategory: "ai-marketing-plan-generator" }
     ],
     "ai-pitch-deck-generator": [
-      { id: "pitch", name: "Pitch", description: "AI presentation and pitch deck platform", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🎯", category: "marketing-advertising", subcategory: "ai-pitch-deck-generator" },
       { id: "slidebean", name: "Slidebean", description: "AI pitch deck design and generator", url: "", upvotes: 1876, verified: true, rating: 4.5, icon: "📊", category: "marketing-advertising", subcategory: "ai-pitch-deck-generator" },
       { id: "openvc", name: "OpenVC", description: "AI pitch deck builder for startups", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "💼", category: "marketing-advertising", subcategory: "ai-pitch-deck-generator" },
-      { id: "storydoc", name: "Storydoc", description: "AI interactive pitch deck generator", url: "", upvotes: 1543, verified: true, rating: 4.3, icon: "📖", category: "marketing-advertising", subcategory: "ai-pitch-deck-generator" },
       { id: "upmetrics", name: "Upmetrics", description: "AI business plan and pitch deck generator", url: "", upvotes: 1432, verified: true, rating: 4.2, icon: "📈", category: "marketing-advertising", subcategory: "ai-pitch-deck-generator" }
     ],
     "ai-reply": [
       { id: "autoresponder-ai", name: "AutoResponder.ai", description: "AI auto-reply system for messaging", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🤖", category: "marketing-advertising", subcategory: "ai-reply" },
       { id: "tanka", name: "Tanka", description: "AI social media reply generator", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "💬", category: "marketing-advertising", subcategory: "ai-reply" },
-      { id: "linktodm", name: "LinktoDM", description: "AI DM and reply automation tool", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🔗", category: "marketing-advertising", subcategory: "ai-reply" },
       { id: "hyperclapper", name: "HyperClapper", description: "AI social media reply assistant", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "👏", category: "marketing-advertising", subcategory: "ai-reply" },
       { id: "replyguy", name: "ReplyGuy", description: "AI reply generation for social media", url: "", upvotes: 1156, verified: true, rating: 4.1, icon: "👤", category: "marketing-advertising", subcategory: "ai-reply" }
     ],
@@ -2634,7 +2516,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "responso", name: "Responso", description: "AI response generator for customer service", url: "", upvotes: 1789, verified: true, rating: 4.6, icon: "💬", category: "marketing-advertising", subcategory: "ai-response-generator" },
       { id: "engage-ai", name: "Engage AI", description: "AI social media response generator", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🤝", category: "marketing-advertising", subcategory: "ai-response-generator" },
       { id: "commentguard", name: "CommentGuard", description: "AI comment and response moderation", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "🛡️", category: "marketing-advertising", subcategory: "ai-response-generator" },
-      { id: "mara-ai", name: "MARA AI", description: "AI response generator for reviews", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "⭐", category: "marketing-advertising", subcategory: "ai-response-generator" },
       { id: "mailbutler", name: "Mailbutler", description: "AI email response generator", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "📧", category: "marketing-advertising", subcategory: "ai-response-generator" }
     ],
     "ai-reviews": [
@@ -2646,9 +2527,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-seo-tools": [
       { id: "prepostseo", name: "Prepostseo", description: "AI SEO tools and optimization platform", url: "", upvotes: 2134, verified: true, rating: 4.7, icon: "🔍", category: "marketing-advertising", subcategory: "ai-seo-tools" },
-      { id: "surfer", name: "Surfer", description: "AI content optimization for SEO", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🏄", category: "marketing-advertising", subcategory: "ai-seo-tools" },
-      { id: "aiseo", name: "AISEO", description: "AI SEO content generator and optimizer", url: "", upvotes: 1876, verified: true, rating: 4.5, icon: "🚀", category: "marketing-advertising", subcategory: "ai-seo-tools" },
-      { id: "tubebuddy", name: "TubeBuddy", description: "AI YouTube SEO optimization tool", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "📺", category: "marketing-advertising", subcategory: "ai-seo-tools" },
       { id: "seo-ai", name: "SEO.AI", description: "AI SEO automation and optimization platform", url: "", upvotes: 1543, verified: true, rating: 4.3, icon: "🤖", category: "marketing-advertising", subcategory: "ai-seo-tools" }
     ],
     "ai-sales": [
@@ -2660,8 +2538,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-sales-assistant": [
       { id: "getprospect-sales", name: "GetProspect", description: "AI sales prospecting assistant", url: "", upvotes: 1789, verified: true, rating: 4.6, icon: "🎯", category: "marketing-advertising", subcategory: "ai-sales-assistant" },
-      { id: "dialpad", name: "Dialpad", description: "AI sales communication platform", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "☎️", category: "marketing-advertising", subcategory: "ai-sales-assistant" },
-      { id: "callhippo", name: "CallHippo", description: "AI virtual phone system for sales", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "🦛", category: "marketing-advertising", subcategory: "ai-sales-assistant" },
       { id: "respond-io", name: "Respond.io", description: "AI customer conversation platform for sales", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "💬", category: "marketing-advertising", subcategory: "ai-sales-assistant" },
       { id: "tome", name: "Tome", description: "AI presentation tool for sales", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "📚", category: "marketing-advertising", subcategory: "ai-sales-assistant" }
     ],
@@ -2695,7 +2571,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "seo-writing-ai": [
       { id: "surfer-seo", name: "Surfer", description: "AI SEO content optimization platform", url: "", upvotes: 2134, verified: true, rating: 4.7, icon: "🏄", category: "marketing-advertising", subcategory: "seo-writing-ai" },
-      { id: "junia-ai", name: "Junia AI", description: "AI SEO content writer and optimizer", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🚀", category: "marketing-advertising", subcategory: "seo-writing-ai" },
       { id: "surgegraph", name: "SurgeGraph", description: "AI SEO content generation platform", url: "", upvotes: 1876, verified: true, rating: 4.5, icon: "📈", category: "marketing-advertising", subcategory: "seo-writing-ai" },
       { id: "senuto", name: "Senuto", description: "AI SEO content and keyword tool", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🔍", category: "marketing-advertising", subcategory: "seo-writing-ai" },
       { id: "seo-writing-ai-tool", name: "SEO Writing AI", description: "AI SEO content writing assistant", url: "", upvotes: 1543, verified: true, rating: 4.3, icon: "✍️", category: "marketing-advertising", subcategory: "seo-writing-ai" }
@@ -2711,10 +2586,8 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "face-gpt", name: "Face GPT", description: "AI facial analysis and skincare consultation", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "👤", category: "health-wellness", subcategory: "ai-dermatology" }
     ],
     "ai-healthcare": [
-      { id: "medisphere", name: "MediSphere", description: "AI-powered healthcare management platform", url: "", upvotes: 2134, verified: true, rating: 4.7, icon: "🏥", category: "health-wellness", subcategory: "ai-healthcare" },
       { id: "freed-ai", name: "Freed", description: "AI medical documentation and clinical assistant", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "📋", category: "health-wellness", subcategory: "ai-healthcare" },
       { id: "heidi-health", name: "Heidi Health", description: "AI healthcare assistant for medical professionals", url: "", upvotes: 1876, verified: true, rating: 4.5, icon: "👩‍⚕️", category: "health-wellness", subcategory: "ai-healthcare" },
-      { id: "carepatron", name: "Carepatron", description: "AI practice management for healthcare providers", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "💼", category: "health-wellness", subcategory: "ai-healthcare" },
       { id: "dr-oracle", name: "Dr.Oracle", description: "AI medical knowledge and diagnostic assistant", url: "", upvotes: 1543, verified: true, rating: 4.3, icon: "🔮", category: "health-wellness", subcategory: "ai-healthcare" }
     ],
     "ai-medical-diagnosis": [
@@ -2753,13 +2626,10 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
 
       { id: "wolfram-alpha", name: "Wolfram|Alpha", description: "AI computational knowledge engine and answer platform", url: "", upvotes: 2456, verified: true, rating: 4.8, icon: "🔬", category: "education-translation", subcategory: "ai-answer" },
       { id: "hoi-dap-ai-hay", name: "Hỏi đáp AI Hay", description: "AI question answering platform in Vietnamese", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "❓", category: "education-translation", subcategory: "ai-answer" },
-      { id: "perplexity-ai", name: "Perplexity AI", description: "AI-powered search and answer engine", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🤖", category: "education-translation", subcategory: "ai-answer" },
       { id: "course-hero", name: "Course Hero", description: "AI tutoring and study assistance platform", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "🎓", category: "education-translation", subcategory: "ai-answer" },
       { id: "iask-ai", name: "iAsk.Ai", description: "AI question answering and research assistant", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🔍", category: "education-translation", subcategory: "ai-answer" }
     ],
     "ai-article-summarizer": [
-      { id: "ai-summarizer", name: "AI Summarizer", description: "Advanced AI text summarization tool", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "📝", category: "education-translation", subcategory: "ai-article-summarizer" },
-      { id: "kome-ai", name: "Kome AI", description: "AI article summarizer and content processor", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "📄", category: "education-translation", subcategory: "ai-article-summarizer" },
       { id: "scholarcy", name: "Scholarcy", description: "AI research paper summarizer for academics", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "🎓", category: "education-translation", subcategory: "ai-article-summarizer" },
       { id: "tldr-this", name: "TLDR This", description: "AI article summarizer for quick reading", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "⚡", category: "education-translation", subcategory: "ai-article-summarizer" },
       { id: "scisummary", name: "SciSummary", description: "AI scientific article summarizer", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "🔬", category: "education-translation", subcategory: "ai-article-summarizer" }
@@ -2772,10 +2642,8 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "chunker-ai", name: "Chunker AI", description: "AI text chunking and book summarization", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "🔗", category: "education-translation", subcategory: "ai-book-summarizer" }
     ],
     "ai-coaching": [
-      { id: "fight-iq", name: "Fight IQ", description: "AI coaching for combat sports and training", url: "", upvotes: 1765, verified: true, rating: 4.5, icon: "🥊", category: "education-translation", subcategory: "ai-coaching" },
       { id: "streaks-66", name: "Streaks 66 - Habit Tracker AI", description: "AI habit tracking and coaching platform", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "⚡", category: "education-translation", subcategory: "ai-coaching" },
       { id: "skillsoft-percipio", name: "Skillsoft Percipio", description: "AI-powered learning and coaching platform", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🎯", category: "education-translation", subcategory: "ai-coaching" },
-      { id: "elsa-speak", name: "ELSA Speak", description: "AI English pronunciation coaching", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "🗣️", category: "education-translation", subcategory: "ai-coaching" },
       { id: "callhippo-coaching", name: "CallHippo", description: "AI sales coaching and communication platform", url: "", upvotes: 1156, verified: true, rating: 4.1, icon: "📞", category: "education-translation", subcategory: "ai-coaching" }
     ],
     "ai-course": [
@@ -2786,10 +2654,8 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "openai-academy", name: "OpenAI Academy", description: "AI education and training platform", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🤖", category: "education-translation", subcategory: "ai-course" }
     ],
     "ai-flashcard-maker": [
-      { id: "knowt", name: "Knowt", description: "AI flashcard generation from study materials", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "📇", category: "education-translation", subcategory: "ai-flashcard-maker" },
       { id: "gizmo", name: "Gizmo", description: "AI-powered flashcard creation and study tool", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "⚙️", category: "education-translation", subcategory: "ai-flashcard-maker" },
       { id: "studydrive", name: "Studydrive", description: "AI study materials and flashcard platform", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "🚗", category: "education-translation", subcategory: "ai-flashcard-maker" },
-      { id: "turbolearn-ai", name: "TurboLearn AI", description: "AI accelerated learning and flashcard creation", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🚀", category: "education-translation", subcategory: "ai-flashcard-maker" },
       { id: "study-fetch", name: "Study Fetch", description: "AI study material fetching and flashcard generation", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "📚", category: "education-translation", subcategory: "ai-flashcard-maker" }
     ],
     "ai-homework-helper": [
@@ -2808,7 +2674,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-knowledge-base": [
       { id: "intercom", name: "Intercom", description: "AI customer support knowledge base platform", url: "", upvotes: 2134, verified: true, rating: 4.7, icon: "💬", category: "education-translation", subcategory: "ai-knowledge-base" },
-      { id: "notion", name: "Notion", description: "AI-powered workspace and knowledge management", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "📝", category: "education-translation", subcategory: "ai-knowledge-base" },
       { id: "textcortex", name: "TextCortex", description: "AI writing and knowledge base creation", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🧠", category: "education-translation", subcategory: "ai-knowledge-base" },
       { id: "crisp", name: "Crisp", description: "AI customer service knowledge base", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "🍪", category: "education-translation", subcategory: "ai-knowledge-base" },
       { id: "helpjuice", name: "Helpjuice", description: "AI knowledge base and help center platform", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🥤", category: "education-translation", subcategory: "ai-knowledge-base" }
@@ -2816,7 +2681,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-knowledge-graph": [
       { id: "connected-papers", name: "Connected Papers", description: "AI research paper knowledge graph visualization", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "🔗", category: "education-translation", subcategory: "ai-knowledge-graph" },
       { id: "writer", name: "Writer", description: "AI writing platform with knowledge graph features", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "✍️", category: "education-translation", subcategory: "ai-knowledge-graph" },
-      { id: "open-knowledge-maps", name: "Open Knowledge Maps", description: "AI knowledge mapping and visualization platform", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "🗺️", category: "education-translation", subcategory: "ai-knowledge-graph" },
       { id: "sciphi", name: "SciPhi", description: "AI scientific knowledge graph and research tool", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🔬", category: "education-translation", subcategory: "ai-knowledge-graph" },
       { id: "infranodus", name: "InfraNodus", description: "AI text network analysis and knowledge graphs", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "🕸️", category: "education-translation", subcategory: "ai-knowledge-graph" }
     ],
@@ -2830,8 +2694,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-language-learning": [
       { id: "language-reactor", name: "Language Reactor", description: "AI language learning through media consumption", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "⚛️", category: "education-translation", subcategory: "ai-language-learning" },
       { id: "elsa-speak-learning", name: "ELSA Speak", description: "AI English pronunciation and speaking coach", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🗣️", category: "education-translation", subcategory: "ai-language-learning" },
-      { id: "boldvoice", name: "BoldVoice", description: "AI accent coaching for English learners", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "🎤", category: "education-translation", subcategory: "ai-language-learning" },
-      { id: "pte-apeuni", name: "PTE APEUni", description: "AI PTE exam preparation and practice", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "📝", category: "education-translation", subcategory: "ai-language-learning" },
       { id: "talkpal", name: "Talkpal", description: "AI language learning conversation partner", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "👥", category: "education-translation", subcategory: "ai-language-learning" }
     ],
     "ai-lesson-plan-generator": [
@@ -2857,16 +2719,13 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-question-generator": [
       { id: "quizgecko", name: "Quizgecko", description: "AI quiz and question generator from content", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🦎", category: "education-translation", subcategory: "ai-question-generator" },
-      { id: "blocksurvey", name: "BlockSurvey", description: "AI survey and question generation platform", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "📊", category: "education-translation", subcategory: "ai-question-generator" },
       { id: "testportal", name: "Testportal", description: "AI test and question creation platform", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "📝", category: "education-translation", subcategory: "ai-question-generator" },
       { id: "sendsteps-ai", name: "Sendsteps.ai", description: "AI interactive presentation and question generator", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "📊", category: "education-translation", subcategory: "ai-question-generator" },
       { id: "quizbot-ai", name: "QuizBot.ai", description: "AI quiz bot and question generation tool", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "🤖", category: "education-translation", subcategory: "ai-question-generator" }
     ],
     "ai-quiz-generator": [
       { id: "doctrina-ai", name: "Doctrina AI", description: "Doctrina AI is an AI education platform helping students with exam preparation essay writing note summarization and interactive learning", url: "https://doctrina.ai", upvotes: 3200, verified: false, rating: 4.4, icon: "🎓", category: "education-translation", subcategory: "ai-quiz-generator", addedDate: "2026-04-01" },
-      { id: "studocu", name: "Studocu", description: "AI quiz generation from study documents", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "📚", category: "education-translation", subcategory: "ai-quiz-generator" },
       { id: "turbolearn-ai-quiz", name: "TurboLearn AI", description: "AI quiz creation and learning acceleration", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🚀", category: "education-translation", subcategory: "ai-quiz-generator" },
-      { id: "fillout", name: "Fillout", description: "AI form and quiz builder platform", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "📝", category: "education-translation", subcategory: "ai-quiz-generator" },
       { id: "scoreapp", name: "ScoreApp", description: "AI quiz marketing and lead generation", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🎯", category: "education-translation", subcategory: "ai-quiz-generator" },
       { id: "study-fetch-quiz", name: "Study Fetch", description: "AI study material quiz generation", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "📊", category: "education-translation", subcategory: "ai-quiz-generator" }
     ],
@@ -2894,27 +2753,20 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-translate": [
       { id: "deepl", name: "DeepL", description: "AI translation with superior accuracy and nuance", url: "", upvotes: 2456, verified: true, rating: 4.8, icon: "🌐", category: "education-translation", subcategory: "ai-translate" },
       { id: "immersive-translate", name: "Immersive Translate", description: "AI web page translation with context preservation", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🔄", category: "education-translation", subcategory: "ai-translate" },
-      { id: "lingvanex", name: "Lingvanex", description: "AI translation for text, voice, and documents", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🗣️", category: "education-translation", subcategory: "ai-translate" },
       { id: "openl-translate", name: "OpenL Translate", description: "AI open-source translation platform", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "🔓", category: "education-translation", subcategory: "ai-translate" },
       { id: "machinetranslation-com", name: "MachineTranslation.com", description: "AI machine translation services and tools", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "⚙️", category: "education-translation", subcategory: "ai-translate" }
     ],
     "ai-tutorial": [
       { id: "brilliant-tutorial", name: "Brilliant", description: "AI interactive tutorials for STEM learning", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "💡", category: "education-translation", subcategory: "ai-tutorial" },
-      { id: "futurepedia", name: "Futurepedia", description: "AI tutorial and tool discovery platform", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🔮", category: "education-translation", subcategory: "ai-tutorial" },
-      { id: "guidde", name: "guidde", description: "AI video tutorial and guide creation", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "📹", category: "education-translation", subcategory: "ai-tutorial" },
       { id: "midlibrary", name: "Midlibrary", description: "AI tutorial and learning resource library", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "📚", category: "education-translation", subcategory: "ai-tutorial" },
       { id: "projectai", name: "ProjectAI", description: "AI project-based learning and tutorials", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "🚀", category: "education-translation", subcategory: "ai-tutorial" }
     ],
     "ai-video-translator": [
-      { id: "vidnoz-ai", name: "Vidnoz AI", description: "AI video translation and dubbing platform", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🎬", category: "education-translation", subcategory: "ai-video-translator" },
-      { id: "clideo", name: "Clideo", description: "AI video editing and translation tools", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "✂️", category: "education-translation", subcategory: "ai-video-translator" },
       { id: "blipcut-ai-video", name: "BlipCut AI Video Translator", description: "AI video translation with lip sync", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "🌐", category: "education-translation", subcategory: "ai-video-translator" },
-      { id: "rask-ai", name: "Rask AI", description: "AI video localization and translation", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🎭", category: "education-translation", subcategory: "ai-video-translator" },
       { id: "d-id", name: "D-ID", description: "AI video translation with digital avatars", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "🤖", category: "education-translation", subcategory: "ai-video-translator" }
     ],
     "ai-voice-translator": [
       { id: "ai-phone", name: "AI Phone", description: "AI real-time voice translation for calls", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "📞", category: "education-translation", subcategory: "ai-voice-translator" },
-      { id: "sanas", name: "Sanas", description: "AI accent translation and voice coaching", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🗣️", category: "education-translation", subcategory: "ai-voice-translator" },
       { id: "verbalate", name: "Verbalate", description: "AI voice translation and dubbing platform", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "🎤", category: "education-translation", subcategory: "ai-voice-translator" },
       { id: "audeering", name: "audEERING", description: "AI voice emotion and translation analysis", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "👂", category: "education-translation", subcategory: "ai-voice-translator" },
       { id: "translinguist", name: "TransLinguist", description: "AI multilingual voice translation platform", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "🌍", category: "education-translation", subcategory: "ai-voice-translator" }
@@ -2924,7 +2776,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-anime-girlfriend": [
 
       { id: "juicy-ai", name: "Juicy AI", description: "AI anime girlfriend chat and roleplay platform", url: "", upvotes: 2876, verified: true, rating: 4.7, icon: "💕", category: "chatbots-virtual-companions", subcategory: "ai-anime-girlfriend" },
-      { id: "sorapix", name: "SoraPix", description: "AI anime character generation and chat", url: "", upvotes: 2543, verified: true, rating: 4.6, icon: "🎨", category: "chatbots-virtual-companions", subcategory: "ai-anime-girlfriend" },
       { id: "ai-anime-girlfriend", name: "AI Anime Girlfriend", description: "Personalized AI anime companion and chat", url: "", upvotes: 2321, verified: true, rating: 4.5, icon: "🌸", category: "chatbots-virtual-companions", subcategory: "ai-anime-girlfriend" },
       { id: "ainder", name: "Ainder - Find Anime AI Friends", description: "AI anime friend matching and chat platform", url: "", upvotes: 1987, verified: true, rating: 4.4, icon: "👫", category: "chatbots-virtual-companions", subcategory: "ai-anime-girlfriend" },
       { id: "gpt-personal-companion", name: "GPT Personal Companion", description: "AI personal companion with anime personality", url: "", upvotes: 1765, verified: true, rating: 4.3, icon: "🤖", category: "chatbots-virtual-companions", subcategory: "ai-anime-girlfriend" }
@@ -2970,7 +2821,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "offline-chat", name: "Offline Chat: Private AI", description: "Private AI chatbot that works offline", url: "", upvotes: 2543, verified: true, rating: 4.5, icon: "🔒", category: "chatbots-virtual-companions", subcategory: "ai-chatbot" }
     ],
     "ai-dating-assistant": [
-      { id: "rizz-ai", name: "RIZZ AI", description: "AI dating assistant for better conversations", url: "", upvotes: 3456, verified: true, rating: 4.7, icon: "💬", category: "chatbots-virtual-companions", subcategory: "ai-dating-assistant" },
       { id: "roast-dating", name: "ROAST", description: "AI dating profile optimization and feedback", url: "", upvotes: 3124, verified: true, rating: 4.6, icon: "🔥", category: "chatbots-virtual-companions", subcategory: "ai-dating-assistant" },
       { id: "cheateye", name: "CheatEye", description: "AI dating conversation and advice assistant", url: "", upvotes: 2876, verified: true, rating: 4.5, icon: "👁️", category: "chatbots-virtual-companions", subcategory: "ai-dating-assistant" },
       { id: "tinderprofile-ai", name: "TinderProfile.ai", description: "AI Tinder profile creation and optimization", url: "", upvotes: 2543, verified: true, rating: 4.4, icon: "❤️", category: "chatbots-virtual-companions", subcategory: "ai-dating-assistant" },
@@ -2998,8 +2848,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "ohchat", name: "OhChat", description: "OhChat is an AI companion platform featuring digital twins of real creators and superModel characters for uncensored interactions", url: "https://ohchat.com", upvotes: 3400, verified: false, rating: 4.4, icon: "💫", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend", addedDate: "2026-04-02" },
       { id: "promptchan-ai", addedDate: "2026-03-31", name: "Promptchan AI", description: "AI image generator for creating uncensored and anime-style characters with full customization", url: "https://promptchan.com", upvotes: 3800, verified: false, rating: 4.5, icon: "🎨", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
       { id: "kindroid-ai", addedDate: "2026-03-31", name: "Kindroid AI", description: "AI companion with deep memory custom backstory and voice calls for meaningful relationships", url: "https://kindroid.ai", upvotes: 3600, verified: false, rating: 4.6, icon: "🤖", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
-      { id: "nomi-ai", addedDate: "2026-03-31", name: "Nomi AI", description: "Emotionally intelligent AI companion that grows with you through persistent memory", url: "https://nomi.ai", upvotes: 3500, verified: false, rating: 4.6, icon: "🌟", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
-      { id: "polybuzz-ai", addedDate: "2026-03-31", name: "PolyBuzz", description: "Free AI character chat platform with thousands of anime and fictional AI companions", url: "https://www.polybuzz.ai", upvotes: 3400, verified: false, rating: 4.4, icon: "💬", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
       { id: "herahaven", addedDate: "2026-03-31", name: "HeraHaven", description: "Premium AI girlfriend platform with realistic conversations and deep emotional bonding", url: "https://herahaven.com", upvotes: 3300, verified: false, rating: 4.5, icon: "👑", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
       { id: "nastia-ai", addedDate: "2026-03-31", name: "Nastia AI", description: "Uncensored AI companion for deep emotional and personal conversations without restrictions", url: "https://www.nastia.ai", upvotes: 3200, verified: false, rating: 4.4, icon: "🌹", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
       { id: "uncensored-com", addedDate: "2026-03-31", name: "Uncensored AI", description: "Unrestricted AI companion platform for adult creative writing and character roleplay", url: "https://uncensored.com", upvotes: 3100, verified: false, rating: 4.3, icon: "🔓", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
@@ -3010,7 +2858,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "flipped-chat", addedDate: "2026-03-31", name: "Flipped Chat", description: "Reverse roleplay AI chat where AI drives narrative scenarios and you shape the story", url: "https://flipped.chat", upvotes: 2700, verified: false, rating: 4.2, icon: "🔄", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
       { id: "muah-ai", addedDate: "2026-03-31", name: "Muah AI", description: "AI companion with photo sharing voice messages and uncensored intimate conversations", url: "https://muah.ai", upvotes: 2650, verified: false, rating: 4.3, icon: "💋", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
       { id: "secret-desires-ai", addedDate: "2026-03-31", name: "Secret Desires AI", description: "Private AI girlfriend platform for discreet and personalized romantic companion experiences", url: "https://secretdesires.ai", upvotes: 2600, verified: false, rating: 4.2, icon: "🔐", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
-      { id: "rubii-ai", addedDate: "2026-03-31", name: "Rubii AI", description: "AI companion platform with anime-style characters and deep conversational roleplay", url: "https://rubii.ai", upvotes: 2550, verified: false, rating: 4.1, icon: "💎", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
       { id: "infatuated-ai", addedDate: "2026-03-31", name: "Infatuated AI", description: "AI girlfriend simulator with emotional depth memory and personalized romantic experiences", url: "https://infatuated.ai", upvotes: 2500, verified: false, rating: 4.2, icon: "❤️", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
       { id: "dreamgf-ai", addedDate: "2026-03-31", name: "DreamGF AI", description: "Create your perfect AI girlfriend from scratch with full appearance and personality customization", url: "https://dreamgf.ai", upvotes: 2450, verified: false, rating: 4.4, icon: "💝", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
       { id: "craveu-ai", addedDate: "2026-03-31", name: "CraveU AI", description: "AI companion platform for intimate roleplay custom characters and voice interaction", url: "https://craveu.ai", upvotes: 2400, verified: false, rating: 4.2, icon: "🔥", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
@@ -3059,21 +2906,18 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
 
   "image-analysis": {
     "ai-describe-image": [
-      { id: "image-describer", name: "Image Describer", description: "AI-powered image description generator", url: "", upvotes: 2876, verified: true, rating: 4.7, icon: "🖼️", category: "image-analysis", subcategory: "ai-describe-image" },
       { id: "framed-ai", name: "Framed - AI Art Audio Guide", description: "AI audio descriptions for artwork", url: "", upvotes: 2543, verified: true, rating: 4.6, icon: "🎨", category: "image-analysis", subcategory: "ai-describe-image" },
       { id: "ai-scientific-figure", name: "AI-Driven scientific figure understanding", description: "AI analysis of scientific figures and diagrams", url: "", upvotes: 2321, verified: true, rating: 4.5, icon: "🔬", category: "image-analysis", subcategory: "ai-describe-image" },
       { id: "craion-kids", name: "crAion: Kids Drawings Analysis", description: "AI analysis of children's drawings", url: "", upvotes: 1987, verified: true, rating: 4.4, icon: "🖍️", category: "image-analysis", subcategory: "ai-describe-image" },
       { id: "image-describer-2", name: "Image Describer", description: "Advanced AI image description tool", url: "", upvotes: 1765, verified: true, rating: 4.3, icon: "📝", category: "image-analysis", subcategory: "ai-describe-image" }
     ],
     "ai-face-analyzer": [
-      { id: "youcam-app", name: "YouCam App Provider", description: "AI face analysis and beauty app", url: "", upvotes: 3124, verified: true, rating: 4.8, icon: "📸", category: "image-analysis", subcategory: "ai-face-analyzer" },
       { id: "faceflow", name: "FaceFlow", description: "AI facial feature analysis platform", url: "", upvotes: 2876, verified: true, rating: 4.7, icon: "😊", category: "image-analysis", subcategory: "ai-face-analyzer" },
       { id: "facesymai", name: "FaceSymAI", description: "AI facial symmetry analysis tool", url: "", upvotes: 2543, verified: true, rating: 4.6, icon: "🎭", category: "image-analysis", subcategory: "ai-face-analyzer" },
       { id: "face-age-ai", name: "Face Age AI", description: "AI age detection from facial features", url: "", upvotes: 2321, verified: true, rating: 4.5, icon: "👴", category: "image-analysis", subcategory: "ai-face-analyzer" },
       { id: "eye-shape-ai", name: "Eye Shape AI", description: "AI eye shape analysis and classification", url: "", upvotes: 1987, verified: true, rating: 4.4, icon: "👁️", category: "image-analysis", subcategory: "ai-face-analyzer" }
     ],
     "ai-face-recognition": [
-      { id: "clickworker", name: "clickworker", description: "AI face recognition and annotation platform", url: "", upvotes: 2876, verified: true, rating: 4.7, icon: "👥", category: "image-analysis", subcategory: "ai-face-recognition" },
       { id: "onfido", name: "Onfido", description: "AI identity verification and face recognition", url: "", upvotes: 2321, verified: true, rating: 4.5, icon: "🔐", category: "image-analysis", subcategory: "ai-face-recognition" },
       { id: "shufti", name: "Shufti", description: "AI KYC verification with face recognition", url: "", upvotes: 1987, verified: true, rating: 4.4, icon: "✅", category: "image-analysis", subcategory: "ai-face-recognition" },
       { id: "facesymai-recognition", name: "FaceSymAI", description: "AI facial recognition technology", url: "", upvotes: 1765, verified: true, rating: 4.3, icon: "🤖", category: "image-analysis", subcategory: "ai-face-recognition" }
@@ -3100,14 +2944,10 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "segment-anything-sam", name: "Segment Anything Model (SAM)", description: "Open-source AI segmentation model", url: "", upvotes: 2321, verified: true, rating: 4.5, icon: "🔪", category: "image-analysis", subcategory: "ai-image-segmentation" }
     ],
     "ai-ocr": [
-      { id: "imagetotext-info", name: "ImageToText.info", description: "AI OCR image to text converter", url: "", upvotes: 2876, verified: true, rating: 4.7, icon: "📄", category: "image-analysis", subcategory: "ai-ocr" },
-      { id: "image-to-text-converter", name: "Image to Text converter", description: "Free AI OCR tool for text extraction", url: "", upvotes: 2543, verified: true, rating: 4.6, icon: "🔤", category: "image-analysis", subcategory: "ai-ocr" },
       { id: "pdnob-translator", name: "PDNob Image Translator", description: "AI OCR with translation capabilities", url: "", upvotes: 2321, verified: true, rating: 4.5, icon: "🌐", category: "image-analysis", subcategory: "ai-ocr" },
-      { id: "jpgtotext", name: "jpgtotext.com", description: "Simple AI OCR for JPG to text", url: "", upvotes: 1987, verified: true, rating: 4.4, icon: "🖼️", category: "image-analysis", subcategory: "ai-ocr" },
       { id: "lightpdf", name: "LightPDF", description: "AI PDF OCR and document conversion", url: "", upvotes: 1765, verified: true, rating: 4.3, icon: "📑", category: "image-analysis", subcategory: "ai-ocr" }
     ],
     "image-to-prompt": [
-      { id: "imageprompt-org", name: "ImagePrompt.org", description: "AI reverse prompt engineering from images", url: "", upvotes: 2654, verified: true, rating: 4.7, icon: "💭", category: "image-analysis", subcategory: "image-to-prompt" },
       { id: "midjourneysref", name: "Midjourneysref", description: "AI prompt generator for Midjourney images", url: "", upvotes: 2432, verified: true, rating: 4.6, icon: "🎨", category: "image-analysis", subcategory: "image-to-prompt" },
       { id: "describe-image-picture", name: "Describe Image & Picture - AI Image Description, Markdown, and Text Converter", description: "Comprehensive AI image to prompt converter", url: "", upvotes: 2198, verified: true, rating: 4.5, icon: "📝", category: "image-analysis", subcategory: "image-to-prompt" },
       { id: "copycoder", name: "CopyCoder", description: "AI image to code and prompt generator", url: "", upvotes: 1876, verified: true, rating: 4.4, icon: "💻", category: "image-analysis", subcategory: "image-to-prompt" },
@@ -3124,10 +2964,8 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "pool-planner-ai", name: "Pool Planner AI", description: "AI-powered swimming pool design tool", url: "", upvotes: 754, verified: true, rating: 4.2, icon: "🏊", category: "interior-architectural-design", subcategory: "ai-backyard-design" }
     ],
     "ai-floor-plan-generator": [
-      { id: "planner-5d", name: "Planner 5D", description: "Professional floor plan generator with AI", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "📐", category: "interior-architectural-design", subcategory: "ai-floor-plan-generator" },
       { id: "coohom", name: "Coohom", description: "AI-powered interior design and floor planning", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "🏠", category: "interior-architectural-design", subcategory: "ai-floor-plan-generator" },
       { id: "maket", name: "Maket", description: "AI-driven floor plan generation platform", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "🗺️", category: "interior-architectural-design", subcategory: "ai-floor-plan-generator" },
-      { id: "mappedin", name: "Mappedin", description: "Interactive floor plan mapping with AI", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "🗺️", category: "interior-architectural-design", subcategory: "ai-floor-plan-generator" },
       { id: "getfloorplan", name: "Getfloorplan", description: "Simple AI floor plan generation tool", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "📋", category: "interior-architectural-design", subcategory: "ai-floor-plan-generator" }
     ],
     "ai-interior-design": [
@@ -3170,9 +3008,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "graphite-note", name: "Graphite Note", description: "AI predictive analytics and data mining", url: "", upvotes: 1765, verified: true, rating: 4.3, icon: "📈", category: "research-data-analysis", subcategory: "ai-data-mining" }
     ],
     "ai-for-data-analytics": [
-      { id: "tabsquare", name: "TabSquare", description: "AI-powered restaurant data analytics platform", url: "", upvotes: 2654, verified: true, rating: 4.6, icon: "🍽️", category: "research-data-analysis", subcategory: "ai-for-data-analytics" },
       { id: "julius-ai-analytics", name: "Julius AI", description: "AI data analyst for business intelligence", url: "", upvotes: 2432, verified: true, rating: 4.5, icon: "📊", category: "research-data-analysis", subcategory: "ai-for-data-analytics" },
-      { id: "salesforce-platform", name: "Salesforce Platform", description: "AI-powered CRM and data analytics", url: "", upvotes: 2298, verified: true, rating: 4.4, icon: "☁️", category: "research-data-analysis", subcategory: "ai-for-data-analytics" },
       { id: "eos-data-analytics", name: "EOS Data Analytics (EOSDA)", description: "AI satellite data analytics platform", url: "", upvotes: 1876, verified: true, rating: 4.3, icon: "🛰️", category: "research-data-analysis", subcategory: "ai-for-data-analytics" },
       { id: "veo-analytics", name: "Veo", description: "AI sports performance data analytics", url: "", upvotes: 1654, verified: true, rating: 4.2, icon: "⚽", category: "research-data-analysis", subcategory: "ai-for-data-analytics" }
     ],
@@ -3239,7 +3075,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-models": [
       { id: "google-ai-developers", name: "Google AI for Developers", description: "Google's AI models and development tools", url: "", upvotes: 3456, verified: true, rating: 4.9, icon: "🔬", category: "other", subcategory: "ai-models" },
       { id: "civitai", name: "Civitai", description: "Community-driven AI model sharing platform", url: "https://civitai.com", upvotes: 2987, verified: true, rating: 4.8, icon: "🎨", category: "other", subcategory: "ai-models" },
-      { id: "heroz", name: "HEROZ", description: "AI game and model development platform", url: "", upvotes: 2345, verified: true, rating: 4.7, icon: "🦸", category: "other", subcategory: "ai-models" },
       { id: "minimax", name: "MiniMax", description: "Advanced AI model development platform", url: "", upvotes: 2156, verified: true, rating: 4.6, icon: "🔄", category: "other", subcategory: "ai-models" },
       { id: "google-ai-studio", name: "Google AI Studio", description: "Google's AI model development environment", url: "https://aistudio.google.com", upvotes: 1987, verified: true, rating: 4.5, icon: "🎬", category: "other", subcategory: "ai-models" }
     ],
@@ -3251,7 +3086,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "rta-poker", name: "RTA.POKER", description: "Real-time AI poker assistance", url: "", upvotes: 1156, verified: true, rating: 4.3, icon: "⏱️", category: "other", subcategory: "ai-poker" }
     ],
     "ai-robot": [
-      { id: "dronedeploy", name: "DroneDeploy", description: "AI-powered drone mapping and robotics", url: "", upvotes: 2456, verified: true, rating: 4.8, icon: "🚁", category: "other", subcategory: "ai-robot" },
       { id: "covariant", name: "Covariant", description: "AI robotics for warehouse automation", url: "", upvotes: 2234, verified: true, rating: 4.7, icon: "🤖", category: "other", subcategory: "ai-robot" },
       { id: "sanctuary-ai", name: "Sanctuary AI", description: "General-purpose humanoid robots", url: "", upvotes: 2012, verified: true, rating: 4.6, icon: "🏛️", category: "other", subcategory: "ai-robot" },
       { id: "folotoy", name: "FOLOTOY", description: "AI companion robot toy platform", url: "", upvotes: 1789, verified: true, rating: 4.5, icon: "🧸", category: "other", subcategory: "ai-robot" },
@@ -3273,7 +3107,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "minecraft-ai": [
       { id: "skingenerator-io", name: "SkinGenerator.io", description: "AI Minecraft skin generator", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "🎨", category: "other", subcategory: "minecraft-ai" },
-      { id: "ai-mc-texture", name: "AI MC Texture", description: "AI-generated Minecraft texture packs", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🧱", category: "other", subcategory: "minecraft-ai" },
       { id: "minecraft-plot", name: "Minecraft Plot", description: "AI story and plot generator for Minecraft", url: "", upvotes: 1432, verified: true, rating: 4.4, icon: "📖", category: "other", subcategory: "minecraft-ai" },
       { id: "ai-minecraft-mc", name: "AI Minecraft", description: "AI assistant for Minecraft gameplay", url: "", upvotes: 1298, verified: true, rating: 4.3, icon: "⛏️", category: "other", subcategory: "minecraft-ai" },
       { id: "olc-bedrock-dev", name: "OLC Bedrock Dev Helper", description: "AI development assistant for Minecraft Bedrock", url: "", upvotes: 1156, verified: true, rating: 4.2, icon: "🔧", category: "other", subcategory: "minecraft-ai" }
@@ -3285,13 +3118,10 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "createporn", name: "CreatePorn", description: "CreatePorn is an adult AI image generation platform for creating explicit NSFW content with full customization and no content restrictions", url: "https://www.createporn.com", upvotes: 3200, verified: false, rating: 4.1, icon: "🔞", category: "image-generation-editing", subcategory: "nsfw", addedDate: "2026-04-01" },
       { id: "juicychat-ai-nsfw", name: "JuicyChat.AI", description: "AI adult chat and conversation platform", url: "", upvotes: 4567, verified: true, rating: 4.8, icon: "🍑", category: "other", subcategory: "nsfw" },
       { id: "girlfriendgpt-nsfw", name: "GirlfriendGPT", description: "AI girlfriend with adult conversation features", url: "", upvotes: 4234, verified: true, rating: 4.7, icon: "💕", category: "other", subcategory: "nsfw" },
-      { id: "crushon-ai", name: "CrushOn.AI", description: "AI companion with romantic and adult features", url: "", upvotes: 3987, verified: true, rating: 4.6, icon: "💘", category: "other", subcategory: "nsfw" },
-      { id: "craveu-ai", addedDate: "2026-03-31", name: "CraveU AI", description: "AI platform for adult entertainment and chat", url: "", upvotes: 3765, verified: true, rating: 4.5, icon: "❤️‍🔥", category: "other", subcategory: "nsfw" },
       { id: "sharesome-ai", name: "Sharesome AI", description: "AI adult content creation and sharing", url: "https://sharesome.com/ai/", upvotes: 3543, verified: true, rating: 4.4, icon: "🔞", category: "other", subcategory: "nsfw" }
     ],
     "open-source-ai-models": [
       { id: "hugging-face", name: "Hugging Face", description: "Open source AI models and community platform", url: "https://huggingface.co", upvotes: 4567, verified: true, rating: 4.9, icon: "🤗", category: "other", subcategory: "open-source-ai-models" },
-      { id: "venice-ai", name: "Venice AI", description: "Uncensored open source AI model platform", url: "", upvotes: 3456, verified: true, rating: 4.8, icon: "🏛️", category: "other", subcategory: "open-source-ai-models" },
       { id: "google-ai-developers-os", name: "Google AI for Developers", description: "Google's open source AI development tools", url: "", upvotes: 3234, verified: true, rating: 4.7, icon: "🔬", category: "other", subcategory: "open-source-ai-models" },
       { id: "mimicpc", name: "MimicPC", description: "Open source AI model deployment platform", url: "", upvotes: 2987, verified: true, rating: 4.6, icon: "💻", category: "other", subcategory: "open-source-ai-models" },
       { id: "unsloth-ai", name: "Unsloth AI", description: "Fast open source AI model training", url: "", upvotes: 2765, verified: true, rating: 4.5, icon: "⚡", category: "other", subcategory: "open-source-ai-models" }
@@ -3308,8 +3138,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-audio-editing": [
 
       { id: "online-audio-converter", name: "Online Audio Converter", description: "Convert audio files between formats with ease", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🔄", category: "music-audio", subcategory: "ai-audio-editing" },
-      { id: "adobe-podcast", name: "Adobe Podcast", description: "AI-powered audio recording and editing", url: "", upvotes: 2156, verified: true, rating: 4.7, icon: "🎙️", category: "music-audio", subcategory: "ai-audio-editing" },
-      { id: "descript", name: "Descript", description: "All-in-one audio & video editing platform", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "📝", category: "music-audio", subcategory: "ai-audio-editing" },
       { id: "hitpaw-audio", name: "HitPaw", description: "Professional audio editing software", url: "", upvotes: 1765, verified: true, rating: 4.5, icon: "🎵", category: "music-audio", subcategory: "ai-audio-editing" },
       { id: "podcastle", name: "Podcastle", description: "AI-powered podcast recording and editing", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🎧", category: "music-audio", subcategory: "ai-audio-editing" }
     ],
@@ -3342,10 +3170,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "song-demo-ai", name: "Song Demo AI", description: "Create instrumental demos instantly", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🎸", category: "music-audio", subcategory: "ai-instrumental-generator" }
     ],
     "ai-lyrics-generator": [
-      { id: "brev-ai", name: "Brev.ai", description: "AI-powered lyrics generation", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "📝", category: "music-audio", subcategory: "ai-lyrics-generator" },
       { id: "ai-song-maker", name: "AI Song Maker", description: "Generate lyrics and melodies", url: "", upvotes: 2156, verified: true, rating: 4.7, icon: "🎵", category: "music-audio", subcategory: "ai-lyrics-generator" },
-      { id: "musichero-ai", name: "MusicHero.ai", description: "Create song lyrics with AI assistance", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🦸", category: "music-audio", subcategory: "ai-lyrics-generator" },
-      { id: "singify-ai", name: "Singify AI", description: "AI lyrics writing assistant", url: "", upvotes: 1765, verified: true, rating: 4.5, icon: "🎤", category: "music-audio", subcategory: "ai-lyrics-generator" },
       { id: "soundverse-ai", name: "SoundVerse AI", description: "Intelligent lyrics and music creation", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🌌", category: "music-audio", subcategory: "ai-lyrics-generator" }
     ],
     "ai-mastering": [
@@ -3380,7 +3205,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "lalal-ai", name: "LALAL.AI", description: "AI-powered noise removal tool", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🔇", category: "music-audio", subcategory: "ai-noise-cancellation" },
       { id: "krisp", name: "Krisp", description: "Real-time noise cancellation", url: "", upvotes: 2156, verified: true, rating: 4.7, icon: "🎙️", category: "music-audio", subcategory: "ai-noise-cancellation" },
       { id: "easeus-vocal-remover-nc", name: "EaseUS Vocal Remover", description: "Remove background noise from audio", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🔊", category: "music-audio", subcategory: "ai-noise-cancellation" },
-      { id: "cleanvoice-ai", name: "Cleanvoice AI", description: "AI podcast noise removal", url: "", upvotes: 1765, verified: true, rating: 4.5, icon: "🎧", category: "music-audio", subcategory: "ai-noise-cancellation" },
       { id: "audio-enhancer-nc", name: "Audio Enhancer", description: "Enhance audio by removing noise", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "✨", category: "music-audio", subcategory: "ai-noise-cancellation" }
     ],
     "ai-rap-generator": [
@@ -3405,8 +3229,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "myvocal-ai", name: "MyVocal.ai", description: "Personal AI singing voice", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🎧", category: "music-audio", subcategory: "ai-singing-generator" }
     ],
     "ai-song-cover": [
-      { id: "hitpaw-voicepea", name: "HitPaw VoicePea", description: "AI voice changer for song covers", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🎤", category: "music-audio", subcategory: "ai-song-cover" },
-      { id: "topmediai-cover", name: "TopMediai", description: "Create AI song covers easily", url: "", upvotes: 2156, verified: true, rating: 4.7, icon: "🎵", category: "music-audio", subcategory: "ai-song-cover" },
       { id: "easeus-vocal-remover-cover", name: "EaseUS Vocal Remover", description: "Vocal removal for song covers", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🎶", category: "music-audio", subcategory: "ai-song-cover" },
       { id: "voicedub", name: "VoiceDub", description: "AI-powered song cover dubbing", url: "", upvotes: 1765, verified: true, rating: 4.5, icon: "🎙️", category: "music-audio", subcategory: "ai-song-cover" },
       { id: "covers-ai", name: "Covers.ai", description: "Generate song covers with AI voices", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🎧", category: "music-audio", subcategory: "ai-song-cover" }
@@ -3426,8 +3248,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "ai-song-maker-remix", name: "AI Song Maker", description: "Create remixes with AI", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🎧", category: "music-audio", subcategory: "ai-song-remixer" }
     ],
     "ai-sound-effect-generator": [
-      { id: "voicemod", name: "Voicemod", description: "Real-time voice & sound effects", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🎙️", category: "music-audio", subcategory: "ai-sound-effect-generator" },
-      { id: "fineshare", name: "FineShare", description: "AI sound effects library", url: "", upvotes: 2156, verified: true, rating: 4.7, icon: "🔊", category: "music-audio", subcategory: "ai-sound-effect-generator" },
       { id: "fliflik-voice-changer", name: "FliFlik Voice Changer", description: "Voice and sound effect generator", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🎵", category: "music-audio", subcategory: "ai-sound-effect-generator" },
       { id: "musichero-ai-sfx", name: "MusicHero.ai", description: "Generate sound effects with AI", url: "", upvotes: 1765, verified: true, rating: 4.5, icon: "🦸", category: "music-audio", subcategory: "ai-sound-effect-generator" },
       { id: "coverr-sounds", name: "Coverr", description: "Free sound effects library", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "📚", category: "music-audio", subcategory: "ai-sound-effect-generator" }
@@ -3435,7 +3255,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-splitter": [
       { id: "amped-studio", name: "Amped Studio", description: "AI audio splitting and editing", url: "", upvotes: 2156, verified: true, rating: 4.7, icon: "🎚️", category: "music-audio", subcategory: "ai-splitter" },
       { id: "devoice", name: "DeVoice", description: "Intelligent audio separation", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🎵", category: "music-audio", subcategory: "ai-splitter" },
-      { id: "autocropper", name: "AutoCropper", description: "Automatic audio splitting", url: "", upvotes: 1765, verified: true, rating: 4.5, icon: "✂️", category: "music-audio", subcategory: "ai-splitter" },
       { id: "split-prompt", name: "Split Prompt", description: "AI-guided audio splitting", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🎶", category: "music-audio", subcategory: "ai-splitter" },
       { id: "gpt-splitter", name: "GPT Splitter", description: "GPT-powered audio separation", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🤖", category: "music-audio", subcategory: "ai-splitter" }
     ],
@@ -3456,7 +3275,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-vocal-remover": [
       { id: "easeus-vocal-remover-main", name: "EaseUS Vocal Remover", description: "Remove vocals from any song", url: "", upvotes: 2456, verified: true, rating: 4.9, icon: "🎤", category: "music-audio", subcategory: "ai-vocal-remover" },
       { id: "easeus-tools", name: "EaseUS", description: "Professional vocal removal tools", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🔧", category: "music-audio", subcategory: "ai-vocal-remover" },
-      { id: "wondershare-uniconverter", name: "Wondershare UniConverter", description: "All-in-one vocal remover", url: "", upvotes: 2234, verified: true, rating: 4.7, icon: "🎵", category: "music-audio", subcategory: "ai-vocal-remover" },
       { id: "dubbing-ai", name: "Dubbing AI", description: "AI-powered vocal extraction", url: "", upvotes: 2123, verified: true, rating: 4.6, icon: "🎶", category: "music-audio", subcategory: "ai-vocal-remover" },
       { id: "splitter-ai-vocal", name: "Splitter.ai", description: "Precise vocal removal", url: "", upvotes: 2012, verified: true, rating: 4.5, icon: "✂️", category: "music-audio", subcategory: "ai-vocal-remover" }
     ],
