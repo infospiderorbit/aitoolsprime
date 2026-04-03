@@ -1,4 +1,735 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "writesonic": {
+    whatIs: "Writesonic is an AI-powered content creation and SEO platform headquartered in London, used by over 20000 professional teams worldwide. Originally launched as an AI copywriting tool, it has evolved into what the company calls a Generative Engine Optimization platform — helping brands not just create content but track how they appear in AI-powered search engines like ChatGPT, Gemini and Perplexity. Its flagship AI Article Writer generates SEO-optimized long-form content up to 5000 words by pulling from over 100 sources during research, while Chatsonic provides real-time web access alongside GPT-4o and Claude models. With a 4.7 out of 5 rating on Trustpilot from over 5000 users, Writesonic is particularly valued by marketing agencies, content teams and e-commerce brands focused on scaling content production.",
+    features: [
+      "AI Article Writer 7.0: Generates SEO-optimized articles up to 5000 words pulling from 100 plus live sources",
+      "Chatsonic: Conversational AI with real-time web search and access to GPT-4o and Claude models",
+      "GEO Tracking: Monitor how your brand appears in ChatGPT, Gemini, Perplexity and 10 plus AI platforms",
+      "Brand Voice Training: Upload existing content and Writesonic learns to write in your specific style",
+      "Botsonic: No-code AI chatbot builder that trains on your content for website customer support",
+      "SEO Tools: Keyword research, content gap analysis and Google Search Console integration",
+      "Photosonic: Built-in AI image generator for blog visuals and social media graphics",
+      "WordPress and Zapier Integration: Publish directly from Writesonic to your CMS with one click",
+      "AI Humanizer: Transform AI-generated text to sound natural and bypass AI detection tools",
+      "25 Plus Languages: Generate content in multiple languages for global audiences"
+    ],
+    howToUse: {
+      title: "How to Use Writesonic",
+      description: "Get started creating SEO-optimized content with Writesonic",
+      steps: [
+        { title: "Start with AI Article Writer", description: "Enter your target keyword and audience. Writesonic analyzes competitor content, generates an outline and writes a full SEO-optimized article with internal linking suggestions. Review the first draft and refine using the Sonic Editor." },
+        { title: "Configure Brand Voice", description: "Upload samples of your existing content so Writesonic learns your tone, style and vocabulary. This ensures all generated content stays consistent with your brand identity across every piece produced." },
+        { title: "Track AI Visibility with GEO", description: "Connect your brand to the GEO dashboard to monitor how often you appear in AI search results. Identify gaps where competitors rank in ChatGPT or Perplexity responses that you are missing and create targeted content to close those gaps." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Article Writer 7.0", description: "Generates structured SEO articles up to 5000 words with live research from 100 plus sources, keyword integration, internal linking and EEAT signals built in from the first draft" },
+      { title: "GEO and AI Search Tracking", description: "The standout feature in 2026 — tracks how your brand appears across ChatGPT, Gemini, Perplexity and other AI platforms with sentiment analysis and competitor gap identification" },
+      { title: "Chatsonic with Real-Time Search", description: "Conversational AI interface with live web access solving the knowledge cutoff problem, supporting file uploads and switching between GPT-4o and Claude models" },
+      { title: "Brand Voice System", description: "Train Writesonic on your existing content to maintain consistent tone and style across all AI-generated output, reducing editing time significantly" }
+    ],
+    useCases: [
+      { title: "Content Marketing at Scale", description: "Marketing agencies and in-house teams producing high volumes of SEO blog content use Writesonic to go from keyword to published draft without switching between tools" },
+      { title: "AI Search Visibility", description: "Brands monitoring how they appear in ChatGPT and Gemini responses use the GEO tracking feature to identify gaps and create content that earns AI citations" },
+      { title: "E-commerce Content", description: "Online stores generating product descriptions, landing page copy and category content at scale integrate Writesonic with WordPress and Shopify for direct publishing" }
+    ]
+  },
+  "aiktp": {
+    whatIs: "AIKTP is an AI SEO content generator built specifically for bloggers, marketers and website owners who need high-volume long-form content. The platform generates articles of 2000 to 2500 words from keywords, outlines or source URLs and is one of the few tools offering genuine bulk content generation — producing dozens of articles simultaneously from a keyword list. AIKTP also includes a built-in AI editor with WYSIWYG interface, an AI rewriter for paraphrasing existing content, real-time data access via AI search, and direct WordPress publishing to multiple sites. Its free trial requires no credit card and a lifetime subscription option makes it appealing for agencies managing large content operations.",
+    features: [
+      "Long-Form AI Writer: Generate articles of 2000 to 2500 words from keywords, outlines or source URLs",
+      "Bulk Content Generation: Create dozens of SEO articles simultaneously from a keyword list",
+      "AI Rewriter: Paraphrase and rewrite existing content while maintaining original meaning",
+      "AI Editor: WYSIWYG editor with integrated AI suggestions, image search and SEO optimization",
+      "WordPress Integration: Post directly to multiple WordPress sites with one click",
+      "Real-Time Data Access: Generate content using live Google search data for current accuracy",
+      "Outline Generator: Automatically create structured article outlines from keywords",
+      "FAQ Generator: Generate relevant questions and answers to enrich content and improve SEO",
+      "Text to Speech: Convert articles to natural-sounding audio in 200 plus voices and 50 languages",
+      "Lifetime Access Option: One-time payment option instead of monthly subscription"
+    ],
+    howToUse: {
+      title: "How to Use AIKTP",
+      description: "Start generating SEO content with AIKTP in minutes",
+      steps: [
+        { title: "Enter Your Keyword or Outline", description: "Input your target keyword, paste an existing outline, or provide a source URL. AIKTP analyzes the input and generates a structured long-form article optimized for SEO with relevant subheadings and content." },
+        { title: "Use Bulk Generation for Scale", description: "For high-volume content production, upload a keyword list and let AIKTP generate multiple articles simultaneously. This feature is particularly powerful for agencies managing dozens of client websites at once." },
+        { title: "Publish Directly to WordPress", description: "Connect your WordPress sites to AIKTP and publish finished articles directly from the dashboard without switching between platforms. Multiple site connections allow centralized content management." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Bulk Article Generation", description: "Generate multiple long-form SEO articles simultaneously from keyword lists — a rare capability that makes AIKTP particularly valuable for agencies and high-volume content operations" },
+      { title: "Long-Form AI Writer", description: "Produces comprehensive 2000 to 2500 word articles from minimal input, saving hours of research and drafting time for each piece of content" },
+      { title: "Real-Time Data Integration", description: "Connects to live Google search data to generate content based on current information rather than outdated training data, improving accuracy and relevance" },
+      { title: "Multi-Site WordPress Publishing", description: "Connects to multiple WordPress installations allowing centralized content creation and one-click publishing across an entire portfolio of websites" }
+    ],
+    useCases: [
+      { title: "High-Volume Content Agencies", description: "Digital marketing agencies managing multiple client websites use bulk generation to produce large quantities of SEO content efficiently without proportional increases in staff" },
+      { title: "SEO Content Scaling", description: "Website owners and SEO specialists building content-heavy sites use AIKTP to rapidly expand their article libraries around target keywords and topics" },
+      { title: "Content Marketing Teams", description: "Marketing teams use AIKTP to generate first drafts quickly, freeing writers to focus on editing, fact-checking and adding unique insights rather than starting from scratch" }
+    ]
+  },
+  "durable": {
+    whatIs: "Durable is the fastest AI website builder available in 2026, generating a complete professional business website in under 30 seconds. Founded in 2022 and now serving over 3 million businesses, Durable goes well beyond basic website creation — it replaces up to seven separate business tools with one subscription by bundling a website builder, CRM, invoicing with Stripe payments, AI marketing tools, blog builder, analytics and an AI business partner. The platform is built specifically for solopreneurs, freelancers and service-based small businesses who need to get online fast without technical skills. Every site runs on Cloudflare infrastructure with SSL, DDoS protection and a global CDN. Durable holds a 4.8-star rating on Trustpilot from over 265 reviews.",
+    features: [
+      "30 Second Website Generation: Complete professional website built by AI in under 30 seconds",
+      "All-in-One Platform: Replaces 7 separate tools with website, CRM, invoicing, marketing and analytics",
+      "Built-in CRM: Track all leads and customers in one place with automated contact creation",
+      "Stripe Invoicing: Send professional invoices and accept payments directly from the dashboard",
+      "AI Blog Builder: Generate SEO-optimized blog posts automatically matched to your business",
+      "Google Ad Writer: AI-generated ad copy for Google Ads campaigns based on your business details",
+      "AI Brand Builder: Generate logos, fonts, colors and brand kits tailored to your business",
+      "Discoverability Tools: Optimize presence for Google and ChatGPT AI search results",
+      "Cloudflare Hosting: Every site includes SSL, DDoS protection and global CDN automatically",
+      "Free Plan Available: Generate and preview a complete website without a credit card"
+    ],
+    howToUse: {
+      title: "How to Use Durable",
+      description: "Launch your business website in 30 seconds with Durable",
+      steps: [
+        { title: "Generate Your Website", description: "Visit durable.com and click Generate Your Website. Enter your business type, name and location. The AI selects the right template, fills it with relevant professional copy and relevant images — all done in under 30 seconds with no coding required." },
+        { title: "Customize and Edit", description: "Use the drag-and-drop editor to adjust text, colors, fonts and sections. If you dislike any section, click regenerate to get an AI-created alternative. Connect your Google Business Profile to optimize for local search and AI discovery." },
+        { title: "Run Your Business from the Dashboard", description: "Activate the CRM to manage leads, set up Stripe invoicing to get paid, use the AI blog builder to attract organic traffic and monitor performance through the built-in analytics — all from one dashboard without additional subscriptions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "30 Second AI Website Builder", description: "The fastest website generator available — produces a complete professional site with niche-specific content, relevant images and contact forms from three simple questions about your business" },
+      { title: "Integrated CRM and Invoicing", description: "Built-in customer management and Stripe-powered invoicing eliminates the need for separate CRM and payment tools, keeping all business operations in one subscription" },
+      { title: "AI Marketing Suite", description: "Generates blog posts, Google ad copy, social media content and email drafts matched to your business automatically, replacing standalone marketing tool subscriptions" },
+      { title: "AI Discoverability", description: "Optimizes your business presence for both Google search and AI-powered search engines like ChatGPT so customers find you when searching for services you offer" }
+    ],
+    useCases: [
+      { title: "Service Business Launch", description: "Consultants, coaches, cleaners, photographers and tradespeople use Durable to establish a professional online presence in minutes without hiring a web designer or developer" },
+      { title: "Solopreneur All-in-One", description: "Freelancers and solopreneurs replace multiple tool subscriptions by managing their website, client relationships and invoicing from a single Durable dashboard" },
+      { title: "Local Business Visibility", description: "Small local businesses use Durable to get found by customers searching on Google and in AI tools like ChatGPT through built-in SEO and discoverability optimization" }
+    ]
+  },
+  "gravitywrite": {
+    whatIs: "GravityWrite is an all-in-one AI content creation platform trusted by over 2 million users with a 4.7 out of 5 rating on Trustpilot. Unlike tools that focus on a single content type, GravityWrite brings blog writing, social media content, AI image generation, video creation, file summarization and social scheduling into one dashboard — eliminating the need to juggle multiple separate subscriptions. The platform offers 250 plus specialized templates covering everything from YouTube scripts and product descriptions to grant proposals and Kindle eBook outlines. GravityWrite integrates with Ahrefs, Google Analytics and WordPress for data-driven content decisions and supports 50 plus languages for global content creation. Its Starter plan at 19 dollars per month makes it one of the most affordable all-in-one content platforms available.",
+    features: [
+      "250 Plus Templates: Covers every content type from blog posts and ad copy to YouTube scripts and eBook outlines",
+      "AI Blog Writer: One-click long-form article generation with SEO optimization and relevant image insertion",
+      "AI Image Generator: Create banners, thumbnails and blog headers without switching to separate tools",
+      "AI Video Generator: Text-to-video and image-to-video generation for social media and marketing",
+      "Social Media Scheduling: Create and schedule posts across platforms from one dashboard",
+      "File Summarizer: Upload PDFs and documents and get clear concise summaries instantly",
+      "Brand Voice Module: Train GravityWrite on your content style for consistent tone across all output",
+      "Ahrefs and Google Analytics Integration: Make data-driven content decisions within the platform",
+      "WordPress Direct Publishing: Export content directly to WordPress with one click",
+      "50 Plus Languages: Generate content for global audiences in over 50 languages",
+      "AI Humanizer: Rewrite AI-generated text to sound more natural and improve readability",
+      "Mobile App: Access content creation tools on the go from iOS and Android devices"
+    ],
+    howToUse: {
+      title: "How to Use GravityWrite",
+      description: "Create all your content from one platform with GravityWrite",
+      steps: [
+        { title: "Choose Your Template", description: "Sign up at gravitywrite.com and browse 250 plus templates organized by content type. Select the blog writer for articles, the social media tools for platform-specific posts, or the image generator for visuals. Each template has a guided form requiring minimal input." },
+        { title: "Generate and Review", description: "Enter your topic, keywords and tone preferences. GravityWrite generates a structured draft with relevant subheadings. For blog posts the platform also generates matching images for each section. Review the output and use the built-in editor to refine tone and add your unique insights." },
+        { title: "Publish and Schedule", description: "Export your article directly to WordPress with one click. For social media content, use Gravity Social to schedule posts across platforms. Connect Ahrefs and Google Analytics to inform future content decisions based on real performance data." }
+      ]
+    },
+    coreFeatures: [
+      { title: "All-in-One Content Hub", description: "Combines blog writing, social media, image generation, video creation and scheduling in one platform eliminating the cost and friction of managing multiple separate content tools" },
+      { title: "250 Plus Content Templates", description: "Specialized templates for every content need from standard blog posts to niche formats like grant proposals, product reviews, podcast scripts and Kindle eBook chapters" },
+      { title: "Data-Driven Integrations", description: "Direct connections with Ahrefs, Google Analytics and WordPress let users make informed content decisions based on real keyword and performance data without leaving the platform" },
+      { title: "Brand Voice Training", description: "Upload your existing content to train GravityWrite on your specific writing style, ensuring all generated output maintains consistent tone and brand identity" }
+    ],
+    useCases: [
+      { title: "Content Creators and Bloggers", description: "Solo bloggers and content creators use GravityWrite to produce articles, social posts and visuals from one subscription instead of paying separately for writing, image and scheduling tools" },
+      { title: "Marketing Teams", description: "Small marketing teams use GravityWrite to maintain consistent content production across blogs, social media and email without hiring additional writers or designers" },
+      { title: "E-commerce and Product Businesses", description: "Online businesses generate product descriptions, ad copy, promotional social posts and blog content from integrated templates designed specifically for conversion-focused marketing" }
+    ]
+  },
+  "ohchat": {
+    whatIs: "OhChat is a leading AI companion platform featuring superModels which are original AI characters and digital twins of real-world creators including celebrities. The platform has attracted over 200000 subscribers and allows users to interact through text, voice and image exchanges. Creators earn 80 percent of revenue from their digital twins making it unique in the AI companion space. OhChat uses bank-grade encryption ensuring all interactions remain completely private and secure.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "ai-girlfriend-wtf": {
+    whatIs: "AI Girlfriend WTF is a free AI girlfriend creation platform where users design their ideal virtual companion with full control over personality and appearance. The platform stands out by offering genuine free access to companion creation without forcing immediate payment. Users define character traits, interests and communication style creating a personalized AI girlfriend that feels authentically designed for them.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "ai-girlfriend-com": {
+    whatIs: "AI Girlfriend offers a premium AI companion experience focused on natural conversation, genuine emotional support and meaningful virtual relationships. The platform uses advanced language models to create companions that feel emotionally present and personally engaged. It emphasizes connection quality making it ideal for users who prioritize the feeling of a real relationship with their AI companion.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "lovecore-ai": {
+    whatIs: "Lovecore AI is an intimate AI companion platform delivering emotionally rich romantic experiences through deeply personalized AI girlfriends. The platform focuses on creating the feeling of a genuine loving relationship with companions that express affection, care and interest in the user. Lovecore AI appeals to users who want a companion experience centered on emotional intimacy and romantic connection.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "aigirlfriends-ai": {
+    whatIs: "AIGirlfriends AI is a polished and reliable AI companion app that stands out for its clean intuitive interface and consistent character interactions. Users have praised it as the first AI girlfriend app that does not feel annoying to use. The platform offers voice calls, image generation, video features and character consistency making it one of the most complete companion experiences available.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "wife-app": {
+    whatIs: "Wife App is a unique AI virtual partner platform that simulates a caring and devoted wife companion. Rather than focusing on dating or romantic pursuit, Wife App creates the feeling of an established loving partnership with daily check-ins, emotional support and a companion who genuinely cares about your life. The platform appeals to users seeking stability and warmth in their AI companion experience.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "avatar-one": {
+    whatIs: "Avatar One is an AI avatar companion platform that creates lifelike interactive digital partners with realistic facial expressions, animated responses and customizable personalities. The platform goes beyond text chat by bringing AI companions to life visually with responsive animated avatars that react in real time. Avatar One appeals to users who want a more visually immersive companion experience.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "virtugf": {
+    whatIs: "VirtuGF is an AI virtual girlfriend platform offering a complete companion experience with photo generation, voice messages and deep roleplay capabilities. The platform combines visual content creation with intimate conversation features to deliver an immersive virtual relationship experience. VirtuGF focuses on making the companion experience feel real through multimedia interaction and personalized content.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "angel-ai": {
+    whatIs: "Angel AI is a warm and supportive AI companion platform focused on positive emotional connection and genuine care. The platform takes a wholesome approach to AI companionship offering an uplifting companion who provides encouragement, emotional support and positive conversation. Angel AI appeals to users who want a positive presence in their daily lives focused on wellbeing rather than adult content.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "hot-talks-ai": {
+    whatIs: "Hot Talks AI is an adult AI companion platform designed for intimate uncensored conversations and engaging roleplay scenarios. The platform provides adults with a private space to connect with customizable AI girlfriends for mature conversations and creative adult interaction. Hot Talks AI combines straightforward design with adult content capabilities for users seeking that specific experience.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "fantasygf-ai": {
+    whatIs: "FantasyGF AI is a specialized AI girlfriend generator platform that lets users create their ideal fantasy companion from scratch. The platform offers exceptional customization over both visual appearance and personality traits enabling users to design a companion that matches their exact preferences. FantasyGF combines image generation technology with companion AI to deliver both visual and conversational satisfaction.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "mygirl-ai": {
+    whatIs: "MyGirl AI is a dedicated AI girlfriend application focused on delivering a genuine virtual relationship experience through personalized daily conversations and emotional connection. The platform positions itself as more than a chatbot by emphasizing relationship depth, consistent companion personality and the feeling of having someone who genuinely cares about your life and wellbeing.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "talkiemate": {
+    whatIs: "TalkieMate is an AI companion chat platform offering personality-driven conversations with customizable virtual partners across diverse relationship styles. The platform emphasizes engaging character-based interactions where users can select companions with specific personalities and explore various conversation and roleplay scenarios for entertainment and connection.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "intimate-ai-gf": {
+    whatIs: "Intimate AI Girlfriend is a premium AI companion app that prioritizes realistic voice calls and deeply personal conversations for an authentic girlfriend experience. The app stands out for the quality of its voice interaction making audio conversations feel natural and emotionally genuine. Intimate AI focuses on the personal aspects of relationship including hearing her voice, sharing moments and feeling genuinely connected.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "aicupid-net": {
+    whatIs: "AICupid is an AI dating and companionship platform that connects users with customizable AI partners for romantic conversations and relationship simulation. The platform draws on the metaphor of Cupid to create a matchmaking-inspired companion experience where users find their ideal AI match and build a romantic connection over time through progressive interaction.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "solm8-ai": {
+    whatIs: "Solm8 AI is an AI companion platform focused on genuine friendship, emotional wellbeing and supportive daily companionship. The name plays on the idea of a soulmate who truly understands and supports you. The platform takes a friendship-first approach making it distinct from romance-focused AI companions and appealing to users who want a genuine AI friend rather than a virtual girlfriend.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "makegirl-ai": {
+    whatIs: "MakeGirl AI is an AI girlfriend creation platform that empowers users to design their ideal companion completely from scratch. The platform puts creative control at the center of the experience letting users craft every detail of their AI girlfriend from physical appearance to personality quirks. MakeGirl AI appeals to users who enjoy the creative design process as much as the companion interaction itself.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "texthub-me": {
+    whatIs: "TextHub is an AI text companion platform offering natural flowing conversations with personalized AI characters across a diverse range of personalities and relationship styles. The platform focuses on conversation quality and character depth making text-based interaction feel genuinely engaging and personal. TextHub appeals to users who prioritize the quality of written conversation with their AI companion.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
+  "funtalk-ai": {
+    whatIs: "FunTalk AI is a playful and entertaining AI companion chat platform that prioritizes fun, humor and lighthearted conversation above all else. Unlike more serious companion platforms, FunTalk keeps things enjoyable and upbeat making it perfect for users who want an AI companion that makes them smile. The platform offers customizable AI girlfriends with fun engaging personalities.",
+    features: [
+      "Personalized Companion: Custom AI girlfriend with unique personality and appearance",
+      "Natural Conversation: Advanced AI producing engaging natural dialogue",
+      "Memory System: Remembers your preferences and conversation history",
+      "Emotional Connection: Designed for meaningful emotional companion experiences",
+      "Privacy Protection: Secure platform protecting all user interactions",
+      "Mobile Friendly: Accessible on mobile devices for companionship anywhere"
+    ],
+    howToUse: {
+      title: "How to Use this Platform",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Visit the platform and sign up to access the AI companion creation and interaction tools." },
+        { title: "Customize Your Companion", description: "Design your AI girlfriend with preferred personality traits, appearance and relationship style settings." },
+        { title: "Start Your Relationship", description: "Begin conversations and build your connection as your AI companion learns and adapts to your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Companion", description: "Advanced AI creating a personalized companion experience tailored to your preferences" },
+      { title: "Personalization", description: "Extensive customization options for both personality and appearance of your AI girlfriend" },
+      { title: "Memory", description: "Persistent memory system remembering your conversations and personal details" },
+      { title: "Privacy", description: "Secure private platform protecting all your companion interactions and data" }
+    ],
+    useCases: [
+      { title: "Daily Companionship", description: "Users seeking a consistent daily AI companion for conversation and emotional connection" },
+      { title: "Emotional Support", description: "People looking for supportive caring AI companion interactions" },
+      { title: "Entertainment", description: "Those enjoying creative and engaging AI companion experiences for entertainment" }
+    ]
+  },
   "cutout-pro": {
     whatIs: "Cutout Pro is an AI-powered visual content generation platform founded in 2018 and serving over 25000 businesses worldwide. The platform specializes in automated background removal for both photos and videos — its standout differentiator being video background removal without a green screen, a feature rare among competitors. Beyond background removal, Cutout Pro offers a comprehensive suite of AI tools including photo enhancement, upscaling, AI art generation, passport photo creation, e-commerce product staging, cartoon effects, and a developer API. The platform integrates multiple AI models including Flux, Imagen 4.0, Seedream and GPT Image, and is accessible on web, iOS, Android, Mac and Windows.",
     features: [
