@@ -1016,6 +1016,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
   },
   "writing-editing": {
     "ai-blog-generator": [
+      { id: "supawrite", name: "Supawrite", description: "AI writing assistant for creating high-quality blog posts and marketing content with SEO optimization", url: "https://supawrite.ai", upvotes: 890, verified: false, rating: 4.2, icon: "✍️", category: "writing-editing", subcategory: "ai-blog-generator", addedDate: "2026-04-03" },
 
       { id: "junia-ai", name: "Junia AI", description: "AI-powered blog content generator with SEO optimization", url: "", upvotes: 245, verified: true, rating: 4.6, icon: "📝", category: "writing-editing", subcategory: "ai-blog-generator" },
       { id: "writesonic", name: "Writesonic", description: "Writesonic is an AI-powered content creation and SEO platform used by over 20000 teams for generating blog posts, ad copy and marketing content with built-in GEO tracking for AI search visibility", url: "https://writesonic.com/", upvotes: 623, verified: true, rating: 4.4, icon: "🚀", category: "writing-editing", subcategory: "ai-blog-generator" },
@@ -1189,10 +1190,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-paraphraser": [
       { id: "free-paraphrasing-tool", name: "Free Paraphrasing Tool", description: "Free AI text paraphrasing service", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🔄", category: "writing-editing", subcategory: "ai-paraphraser" },
-      { id: "quillbot-para", name: "QuillBot", description: "AI paraphrasing and rewriting tool", url: "", upvotes: 987, verified: true, rating: 4.7, icon: "🪶", category: "writing-editing", subcategory: "ai-paraphraser" },
       { id: "paraphraser-io", name: "Paraphraser.io", description: "Online AI paraphrasing tool", url: "", upvotes: 765, verified: true, rating: 4.5, icon: "💻", category: "writing-editing", subcategory: "ai-paraphraser" },
-      { id: "languagetool-para", name: "LanguageTool", description: "Grammar checker with paraphrasing", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🔍", category: "writing-editing", subcategory: "ai-paraphraser" },
-      { id: "toppdf-para", name: "TopPDF", description: "PDF editing with paraphrasing features", url: "", upvotes: 432, verified: true, rating: 4.3, icon: "📄", category: "writing-editing", subcategory: "ai-paraphraser" }
     ],
     "ai-plot-generator": [
       { id: "ifnovels", name: "IFNovels", description: "Interactive fiction plot generator", url: "", upvotes: 345, verified: true, rating: 4.4, icon: "🎮", category: "writing-editing", subcategory: "ai-plot-generator" },
@@ -1228,7 +1226,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "katteb-ai", name: "Katteb AI", description: "AI writing and proofreading assistant", url: "", upvotes: 234, verified: false, rating: 4.2, icon: "🤖", category: "writing-editing", subcategory: "ai-proofreading" }
     ],
     "ai-quotes-generator": [
-      { id: "inspirobot-quotes", name: "InspiroBot", description: "AI-generated inspirational quotes", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "🤖", category: "writing-editing", subcategory: "ai-quotes-generator" },
       { id: "quotesmaker", name: "QuotesMaker", description: "Custom quote generation tool", url: "", upvotes: 456, verified: true, rating: 4.4, icon: "💬", category: "writing-editing", subcategory: "ai-quotes-generator" },
       { id: "quotegenerator-io", name: "QuoteGenerator.io", description: "Online quote generation platform", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "📝", category: "writing-editing", subcategory: "ai-quotes-generator" },
       { id: "quoai", name: "Quoai", description: "AI quote creation and sharing", url: "", upvotes: 234, verified: true, rating: 4.2, icon: "💭", category: "writing-editing", subcategory: "ai-quotes-generator" },
@@ -1338,12 +1335,10 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-writing": [
       { id: "scribbr-writing", name: "Scribbr", description: "Academic writing assistance and editing", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🎓", category: "writing-editing", subcategory: "ai-writing" },
-      { id: "quillbot-writing", name: "QuillBot", description: "AI writing and paraphrasing tool", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🪶", category: "writing-editing", subcategory: "ai-writing" },
       { id: "decopy-ai", name: "Decopy AI", description: "AI copywriting and content creation", url: "", upvotes: 789, verified: true, rating: 4.4, icon: "📝", category: "writing-editing", subcategory: "ai-writing" },
       { id: "tinywow", name: "TinyWow", description: "Free AI writing and editing tools", url: "", upvotes: 567, verified: false, rating: 4.3, icon: "🔧", category: "writing-editing", subcategory: "ai-writing" }
     ],
     "ai-writing-assistants": [
-      { id: "prowritingaid-assistant", name: "ProWritingAid", description: "Comprehensive AI writing analysis tool", url: "", upvotes: 1789, verified: true, rating: 4.8, icon: "📝", category: "writing-editing", subcategory: "ai-writing-assistants" },
       { id: "smodin", name: "Smodin", description: "AI writing assistant and homework helper", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🤖", category: "writing-editing", subcategory: "ai-writing-assistants" },
       { id: "toolsmart-humanize", name: "Toolsmart Free Humanize AI", description: "AI text humanization tool", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "👥", category: "writing-editing", subcategory: "ai-writing-assistants" },
       { id: "heidi-health", name: "Heidi Health", description: "AI writing assistant for healthcare", url: "", upvotes: 567, verified: false, rating: 4.4, icon: "🏥", category: "writing-editing", subcategory: "ai-writing-assistants" }
@@ -2572,6 +2567,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
   },
   "health-wellness": {
     "ai-dermatology": [
+      { id: "daily-affirmations-ai", name: "Daily Affirmations AI", description: "AI-powered daily affirmation generator creating personalized positive statements for mental wellness and motivation", url: "https://dailyaffirmations.ai", upvotes: 723, verified: false, rating: 4.3, icon: "🌟", category: "health-wellness", subcategory: "ai-affirmations", addedDate: "2026-04-03" },
 
       { id: "skinive", name: "Skinive", description: "AI-powered skin analysis and dermatology assistant", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "🔬", category: "health-wellness", subcategory: "ai-dermatology" },
       { id: "eczemaless", name: "Eczemaless", description: "AI eczema management and treatment guidance", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🩹", category: "health-wellness", subcategory: "ai-dermatology" },
@@ -2903,7 +2899,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "framed-ai", name: "Framed - AI Art Audio Guide", description: "AI audio descriptions for artwork", url: "", upvotes: 2543, verified: true, rating: 4.6, icon: "🎨", category: "image-analysis", subcategory: "ai-describe-image" },
       { id: "ai-scientific-figure", name: "AI-Driven scientific figure understanding", description: "AI analysis of scientific figures and diagrams", url: "", upvotes: 2321, verified: true, rating: 4.5, icon: "🔬", category: "image-analysis", subcategory: "ai-describe-image" },
       { id: "craion-kids", name: "crAion: Kids Drawings Analysis", description: "AI analysis of children's drawings", url: "", upvotes: 1987, verified: true, rating: 4.4, icon: "🖍️", category: "image-analysis", subcategory: "ai-describe-image" },
-      { id: "image-describer-2", name: "Image Describer", description: "Advanced AI image description tool", url: "", upvotes: 1765, verified: true, rating: 4.3, icon: "📝", category: "image-analysis", subcategory: "ai-describe-image" }
     ],
     "ai-face-analyzer": [
       { id: "faceflow", name: "FaceFlow", description: "AI facial feature analysis platform", url: "", upvotes: 2876, verified: true, rating: 4.7, icon: "😊", category: "image-analysis", subcategory: "ai-face-analyzer" },
@@ -2943,7 +2938,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "image-to-prompt": [
       { id: "midjourneysref", name: "Midjourneysref", description: "AI prompt generator for Midjourney images", url: "", upvotes: 2432, verified: true, rating: 4.6, icon: "🎨", category: "image-analysis", subcategory: "image-to-prompt" },
-      { id: "describe-image-picture", name: "Describe Image & Picture - AI Image Description, Markdown, and Text Converter", description: "Comprehensive AI image to prompt converter", url: "", upvotes: 2198, verified: true, rating: 4.5, icon: "📝", category: "image-analysis", subcategory: "image-to-prompt" },
       { id: "copycoder", name: "CopyCoder", description: "AI image to code and prompt generator", url: "", upvotes: 1876, verified: true, rating: 4.4, icon: "💻", category: "image-analysis", subcategory: "image-to-prompt" },
       { id: "image-to-prompt-pro", name: "Image to Prompt Pro", description: "Professional AI image prompt extraction", url: "", upvotes: 1654, verified: true, rating: 4.3, icon: "⚡", category: "image-analysis", subcategory: "image-to-prompt" }
     ]
@@ -3053,6 +3047,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
 
   "other": {
     "ai-game-generator": [
+      { id: "stosh", name: "Stosh", description: "Stosh is an AI-powered TV show discovery and recommendation platform that helps users find their next favorite series based on their viewing history and preferences", url: "https://stosh.com", upvotes: 567, verified: false, rating: 4.1, icon: "📺", category: "other", subcategory: "ai-recommendation", addedDate: "2026-04-03" },
       { id: "rosebud-ai-game", name: "Rosebud AI", description: "AI-powered game generation and development platform", url: "", upvotes: 2134, verified: true, rating: 4.8, icon: "🌹", category: "other", subcategory: "ai-game-generator" },
       { id: "ludo-ai", name: "Ludo.ai", description: "AI game design and concept generator", url: "", upvotes: 1876, verified: true, rating: 4.7, icon: "🎮", category: "other", subcategory: "ai-game-generator" },
       { id: "websim", name: "Websim", description: "AI-powered web-based game simulator", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "🌐", category: "other", subcategory: "ai-game-generator" },

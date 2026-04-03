@@ -1,4 +1,936 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "superhuman": {
+    whatIs: "Superhuman is the fastest email client ever made, acquired by Grammarly in June 2025 and now serving over 40 million individuals and 50000 organizations. Built on a keyboard-first philosophy with over 100 shortcuts, Superhuman helps professionals process their inbox roughly twice as fast as Gmail or Outlook alone — with users reporting an average of 4 hours saved per week. The platform's AI features include Auto Drafts that write follow-up emails in your voice without prompting, Auto Labels that classify every incoming email automatically, and an AI writing assistant that adapts its tone per recipient based on your past email history with them.",
+    features: [
+      "Keyboard-First Design: 100 plus shortcuts for navigating and managing email without touching a mouse",
+      "Auto Drafts: AI automatically writes follow-up emails in your voice ready to review and send",
+      "Auto Labels: Every incoming email automatically classified into response needed, waiting on, meetings and more",
+      "Split Inbox: Divide your inbox into custom sections for different email types and priorities",
+      "AI Writing Assistant: Writes emails in your voice adapting tone per recipient based on email history",
+      "Read Receipts: Real-time notification when recipients open your emails with open history",
+      "Send Later: Schedule emails to arrive at optimal times for recipient engagement",
+      "CRM Integration: HubSpot, Salesforce and Pipedrive integrated directly into your inbox",
+      "Snooze: Delay emails and have them reappear exactly when you need them",
+      "Team Collaboration: Share live email views and add comments without forwarding or BCC"
+    ],
+    howToUse: {
+      title: "How to Use Superhuman",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Complete Onboarding", description: "Sign up at superhuman.com and complete the complimentary 1-on-1 onboarding session with a Superhuman expert who will help you configure Split Inbox, learn essential shortcuts and set up your AI features." },
+        { title: "Learn Core Shortcuts", description: "Master the essential shortcuts: Cmd K for Command Palette, E to archive, H to snooze, C to compose, R to reply. Most users feel comfortable within 2 to 3 days and fully proficient within 2 to 3 weeks." },
+        { title: "Enable AI Features", description: "Activate Auto Drafts, Auto Labels and Auto Archive to let the AI handle routine email tasks automatically. Configure your writing style samples so the AI drafts emails that sound authentically like you." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI-Native Email", description: "The most AI-integrated email client available with Auto Drafts that write follow-ups unprompted, Auto Labels that classify every message and an AI writer that matches your voice per recipient" },
+      { title: "Keyboard Speed System", description: "Over 100 keyboard shortcuts eliminate mouse dependence making routine email actions like archiving, snoozing and replying dramatically faster than any other client" },
+      { title: "Split Inbox Organization", description: "Custom inbox sections for different email types transform a chaotic inbox into organized manageable buckets that can be processed systematically" },
+      { title: "Team Collaboration", description: "Shared email views with inline commenting enable teams to collaborate on email responses without the friction of forwarding, BCC or screenshot sharing" }
+    ],
+    useCases: [
+      { title: "Executive Email Management", description: "Founders, CEOs and executives handling 50 plus important emails daily use Superhuman to maintain inbox zero and respond faster than conventional email clients allow" },
+      { title: "Sales and Customer Success", description: "Sales teams use Auto Drafts and read receipts to follow up effectively with prospects and customers tracking engagement and maintaining response velocity" },
+      { title: "High-Volume Professionals", description: "Any professional spending 2 or more hours daily in email sees meaningful time savings that justify the premium cost through hours reclaimed each week" }
+    ]
+  },
+  "spark-mail": {
+    whatIs: "Spark Mail is an AI-powered email client developed by Readdle that combines intelligent inbox organization with team collaboration features and powerful AI writing assistance. Originally launched as a consumer app, Spark has evolved into a team email platform popular with small businesses and remote teams who need to collaborate on email responses without the friction of traditional email forwarding. The app's AI features generate smart reply suggestions, summarize long email threads and help compose emails from brief prompts making it one of the most capable AI email clients available at a significantly lower price point than competitors.",
+    features: [
+      "Smart Inbox: AI prioritizes important emails and filters newsletters and notifications automatically",
+      "AI Email Writing: Generate full emails from brief prompts with tone and length control",
+      "Smart Reply Suggestions: AI suggests contextually relevant quick replies",
+      "Thread Summarization: Condense long email threads into key points instantly",
+      "Team Email: Collaborate on drafts, assign emails and discuss without forwarding",
+      "Email Templates: Save and reuse email templates for common responses",
+      "Send Later: Schedule emails to arrive at optimal times",
+      "Read Status: Know when recipients open your emails",
+      "Multi-Account Support: Manage multiple email accounts from one interface",
+      "Cross-Platform: Available on iOS, Android, Mac and Windows"
+    ],
+    howToUse: {
+      title: "How to Use Spark Mail",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Accounts", description: "Download Spark Mail and connect your Gmail, Outlook or other email accounts. The Smart Inbox automatically begins organizing your emails into priorities, newsletters and notifications." },
+        { title: "Use AI Writing Tools", description: "When composing, use the AI to write emails from a brief description of what you want to say. Choose tone from friendly to formal and adjust length before reviewing the generated email." },
+        { title: "Set Up Team Collaboration", description: "Invite team members to your Spark workspace to collaborate on email drafts, assign incoming emails to specific team members and discuss responses without external forwarding." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Smart Inbox AI", description: "Automatically identifies and prioritizes important emails while grouping newsletters and notifications separately reducing inbox overwhelm without manual filtering rules" },
+      { title: "AI Email Composer", description: "Generates full professional emails from brief prompts with control over tone, formality and length making email writing significantly faster" },
+      { title: "Team Inbox Features", description: "Shared drafts, email assignment and inline discussion enable genuine team email collaboration without the clutter of forwarded threads" },
+      { title: "Cross-Platform Consistency", description: "Full-featured experience across iOS, Android, Mac and Windows ensures consistent productivity regardless of which device you are working from" }
+    ],
+    useCases: [
+      { title: "Small Business Teams", description: "Small teams use Spark's collaboration features to coordinate on customer email responses ensuring consistent professional communication" },
+      { title: "Busy Professionals", description: "Professionals overwhelmed by email volume use Smart Inbox to focus on what matters and AI writing tools to respond faster" },
+      { title: "Multi-Account Users", description: "People managing multiple email accounts for different roles use Spark to consolidate everything in one organized and AI-assisted interface" }
+    ]
+  },
+  "shortwave": {
+    whatIs: "Shortwave is an AI-first email client built by ex-Google engineers as the spiritual successor to Google Inbox. The platform transforms Gmail into a productivity hub with AI-powered organization, writing assistance and automation features designed for teams and individuals who want to treat their inbox as a task management system. Shortwave bundles emails by sender and topic automatically, supports shared team inboxes and includes an AI assistant that can draft replies, summarize threads and automate routine email workflows. It currently supports Gmail only.",
+    features: [
+      "AI Email Bundling: Automatically groups related emails by sender and topic",
+      "Thread Summarization: AI condenses long threads into key points",
+      "AI Reply Drafting: Generate contextual email replies with AI assistance",
+      "Shared Inboxes: Team collaboration on shared email accounts",
+      "Email Scheduling: Schedule messages to send at optimal times",
+      "Snooze and Reminders: Defer emails and set follow-up reminders",
+      "Keyboard Shortcuts: Fast keyboard-centric navigation",
+      "Search: Powerful email search across all your Gmail history",
+      "Integrations: Connect with productivity tools and workflows",
+      "Free Tier: Available with a generous free plan for individual users"
+    ],
+    howToUse: {
+      title: "How to Use Shortwave",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Gmail", description: "Sign up at shortwave.com and connect your Gmail account. Shortwave immediately begins organizing your inbox by bundling emails from the same senders and topics together." },
+        { title: "Let AI Organize", description: "Review how Shortwave has bundled your emails. The AI groups newsletters, notifications and conversations making it easy to process entire categories at once." },
+        { title: "Use AI for Replies", description: "When responding to emails use the AI draft feature to generate contextual replies based on the conversation thread. Review, edit and send rather than writing from scratch." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Email Bundling Intelligence", description: "Automatically groups emails by sender and topic making it easy to process categories of messages at once rather than handling each individually" },
+      { title: "Former Google Inbox DNA", description: "Built by ex-Googlers with the philosophy that made Google Inbox beloved — treating email as tasks with snooze, bundles and smart organization" },
+      { title: "Team Inbox Collaboration", description: "Shared inbox features enable small teams to collaborate on email without the workarounds of forwarding, BCC and email aliases" },
+      { title: "AI Writing Integration", description: "Thread summarization and reply drafting reduce the cognitive load of email processing making it faster to understand and respond to complex conversations" }
+    ],
+    useCases: [
+      { title: "Gmail Power Users", description: "People who loved Google Inbox and want those organizational features back with modern AI writing assistance find Shortwave the closest modern equivalent" },
+      { title: "Remote Teams", description: "Distributed teams use Shortwave shared inboxes to collaborate on customer email responses maintaining consistent communication standards" },
+      { title: "Inbox Zero Practitioners", description: "Professionals committed to inbox zero use Shortwave's bundling and snooze features to systematically process and clear their inbox daily" }
+    ]
+  },
+  "success-ai": {
+    whatIs: "Success AI is an AI-powered cold email and outreach automation platform designed for sales teams and growth professionals who need to send personalized cold email campaigns at scale. The platform combines AI-generated email personalization with unlimited email sending infrastructure using warmed-up email accounts to maximize deliverability. Success AI helps businesses reach prospects with personalized messages that feel individually written rather than mass-produced, significantly improving response rates compared to generic bulk email campaigns.",
+    features: [
+      "AI Email Personalization: Generate personalized cold emails for each prospect automatically",
+      "Unlimited Email Accounts: Send from multiple warmed-up email accounts for maximum deliverability",
+      "Email Warm-Up: Automated inbox warming to improve sender reputation",
+      "Campaign Automation: Automated follow-up sequences with AI-generated variations",
+      "Lead Database: Access to prospect contact data for outreach campaigns",
+      "Analytics Dashboard: Track open rates, reply rates and meeting bookings",
+      "A/B Testing: Test different email variations to optimize performance",
+      "CRM Integration: Connect with popular CRM tools for seamless workflow"
+    ],
+    howToUse: {
+      title: "How to Use Success Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Campaign", description: "Sign up at success.ai and define your target audience and outreach goal. Import your prospect list or use the built-in lead database to find contacts." },
+        { title: "Let AI Write Your Emails", description: "Configure your value proposition and let the AI generate personalized email variations for each prospect. Review samples and approve the campaign parameters." },
+        { title: "Launch and Optimize", description: "Launch your campaign and monitor performance through the analytics dashboard. Use A/B test data to refine your messaging and improve response rates over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Personalization Engine", description: "Generates individually personalized cold emails for each prospect making outreach feel authentic rather than mass-produced which dramatically improves response rates" },
+      { title: "Deliverability Infrastructure", description: "Multiple warmed-up email accounts with automated reputation management keep emails landing in inboxes rather than spam folders" },
+      { title: "Automated Follow-Up", description: "Intelligent follow-up sequences continue engaging non-responders with varied messaging without requiring manual intervention" },
+      { title: "Scale Without Sacrifice", description: "Combines the personalization quality of manual outreach with the efficiency of automation enabling teams to reach hundreds of prospects with authentic messaging" }
+    ],
+    useCases: [
+      { title: "B2B Sales Teams", description: "Sales development representatives use Success AI to fill their pipeline with qualified meetings through personalized cold email campaigns at scale" },
+      { title: "Growth Agencies", description: "Marketing agencies use the platform to run outreach campaigns for multiple clients with individualized personalization for each target audience" },
+      { title: "Startup Founders", description: "Early-stage founders without dedicated sales teams use Success AI to generate initial customer conversations and validate their market before hiring salespeople" }
+    ]
+  },
+  "mailmaestro": {
+    whatIs: "MailMaestro is an AI email assistant that integrates directly with Outlook and Gmail to help professionals write better emails faster. The tool generates full email drafts from short bullet points, summarizes long threads and provides contextual reply suggestions without leaving your existing email client. MailMaestro is particularly popular with corporate professionals who spend significant portions of their workday on email and want AI assistance without switching to a different email application.",
+    features: [
+      "AI Email Drafting: Generate full emails from brief bullet points or prompts",
+      "Thread Summarization: Condense long email conversations into key takeaways",
+      "Smart Replies: Contextual reply suggestions based on email content",
+      "Outlook Integration: Works directly inside Microsoft Outlook",
+      "Gmail Integration: Native integration with Gmail interface",
+      "Tone Adjustment: Control the formality and tone of generated emails",
+      "Template Management: Save frequently used email structures",
+      "Multilingual: Compose and translate emails in multiple languages"
+    ],
+    howToUse: {
+      title: "How to Use Mailmaestro",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Install the MailMaestro extension from the Microsoft AppSource for Outlook or the Chrome Web Store for Gmail. It integrates directly into your existing email interface." },
+        { title: "Draft with AI", description: "When composing a new email, type a few bullet points about what you want to say. MailMaestro generates a complete professional email draft that you review and send." },
+        { title: "Summarize and Reply", description: "For long email threads, use the summarize feature to get key points instantly. Use Smart Reply to generate contextual responses without reading the entire thread." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Native Email Integration", description: "Works inside Outlook and Gmail rather than requiring you to switch email clients making adoption frictionless for professionals invested in existing email workflows" },
+      { title: "Bullet to Email Conversion", description: "Transforms rough bullet points into polished professional emails dramatically reducing the time spent crafting business correspondence" },
+      { title: "Thread Intelligence", description: "Summarizes long email conversations to quickly understand context before replying without reading through dozens of messages" },
+      { title: "Multilingual Capability", description: "Compose and translate emails across languages making it valuable for professionals working with international colleagues and clients" }
+    ],
+    useCases: [
+      { title: "Corporate Professionals", description: "Office workers spending significant time on email use MailMaestro to draft faster without switching email clients or changing established workflows" },
+      { title: "International Teams", description: "Professionals communicating across language barriers use multilingual features to compose and translate business emails accurately" },
+      { title: "Email-Heavy Roles", description: "Customer success, account management and operations professionals handling high email volumes use AI drafting to maintain responsiveness without sacrificing quality" }
+    ]
+  },
+  "terabox": {
+    whatIs: "TeraBox is a cloud storage service that offers one terabyte of free storage — more than any mainstream cloud storage competitor provides at no cost. The platform targets users who need to store large files including videos, photos and documents without paying for premium storage tiers. TeraBox provides basic file organization, sharing capabilities and cross-device sync making it a practical choice for individuals and small teams who prioritize generous free storage over advanced collaboration features.",
+    features: [
+      "1TB Free Storage: One terabyte of cloud storage completely free with no credit card required",
+      "File Sharing: Share files and folders with others via links",
+      "Cross-Device Sync: Access files from any device with the TeraBox app",
+      "Video Streaming: Stream stored videos directly without downloading",
+      "Photo Backup: Automatic photo backup from mobile devices",
+      "File Organization: Folders and file management tools",
+      "Offline Access: Download files for offline use on mobile",
+      "Secure Storage: Encrypted file storage and transmission"
+    ],
+    howToUse: {
+      title: "How to Use Terabox",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up at terabox.com with your email address and get immediate access to 1TB of free cloud storage with no payment information required." },
+        { title: "Upload Your Files", description: "Upload files directly through the web interface or install the desktop or mobile app for automatic syncing and photo backup from your devices." },
+        { title: "Share and Access Anywhere", description: "Create shareable links to files and folders for easy sharing with others. Access your stored files from any device using the TeraBox app." }
+      ]
+    },
+    coreFeatures: [
+      { title: "1TB Free Tier", description: "One terabyte of free storage is dramatically more than Google Drive, Dropbox or OneDrive offer for free making TeraBox the most generous free cloud storage available" },
+      { title: "Video Streaming", description: "Stored videos can be streamed directly within TeraBox without downloading them first making it practical for storing large video collections" },
+      { title: "Mobile Backup", description: "Automatic photo and video backup from smartphones protects mobile memories without counting against limited device storage" },
+      { title: "Cross-Platform Access", description: "Web, desktop and mobile apps ensure files are accessible from any device maintaining continuity across different working environments" }
+    ],
+    useCases: [
+      { title: "Large File Storage", description: "Users with extensive photo, video and document libraries use TeraBox's 1TB free tier to store everything without storage limits or costs" },
+      { title: "Video Creators", description: "Content creators store large video files and raw footage in TeraBox during production using streaming to review content without downloading" },
+      { title: "Budget-Conscious Users", description: "Individuals and small teams wanting generous cloud storage without subscription costs choose TeraBox for its unmatched free storage capacity" }
+    ]
+  },
+  "jenni-ai": {
+    whatIs: "Jenni AI is an AI writing assistant designed specifically for academic writing, research papers and long-form content. The platform integrates with academic research tools and databases to help students, researchers and academics write papers with properly cited sources. Jenni's in-text citation feature automatically generates citations in multiple formats as you write, while the AI writing assistance helps overcome writer's block and develop arguments without sacrificing the academic integrity of the final work.",
+    features: [
+      "In-Text Citations: Automatic citation generation in APA, MLA, Chicago and other formats",
+      "AI Autocomplete: Context-aware writing suggestions for academic prose",
+      "PDF Chat: Ask questions and extract information from uploaded research papers",
+      "Research Integration: Connect with academic databases for source discovery",
+      "Paraphrasing: Rewrite content while maintaining academic tone",
+      "Essay Outline: Generate structured outlines for academic papers",
+      "Plagiarism Awareness: Built-in awareness of citation requirements",
+      "Export Options: Export to Word and other formats with citations intact"
+    ],
+    howToUse: {
+      title: "How to Use Jenni Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Paper", description: "Sign up at jenni.ai and create a new document. Enter your paper topic and let Jenni generate an initial outline structure to begin from." },
+        { title: "Write with AI Assistance", description: "As you write Jenni provides autocomplete suggestions maintaining academic tone. Use the citation tool to add properly formatted references as you mention sources." },
+        { title: "Upload and Cite Research", description: "Upload PDF research papers and use the chat feature to extract specific information and quotes with automatic citation generation for your bibliography." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Academic Citation System", description: "Automatically generates properly formatted in-text citations and bibliographies as you write eliminating the time-consuming manual citation process" },
+      { title: "Research Paper Chat", description: "Upload PDF research papers and ask specific questions to extract relevant information without reading entire documents from cover to cover" },
+      { title: "Academic Tone Maintenance", description: "AI suggestions maintain the formal academic prose style appropriate for research papers rather than the casual tone of general writing tools" },
+      { title: "Multi-Format Citations", description: "Supports APA, MLA, Chicago and other citation formats with automatic switching based on your discipline's requirements" }
+    ],
+    useCases: [
+      { title: "University Students", description: "Students writing research papers use Jenni to overcome writer's block, structure arguments and generate proper citations without manual formatting" },
+      { title: "Academic Researchers", description: "Researchers use PDF chat to quickly extract relevant information from literature and maintain citation accuracy across long complex papers" },
+      { title: "Thesis and Dissertation Writers", description: "Graduate students working on extended academic projects use Jenni's outline and citation tools to manage the complexity of book-length academic work" }
+    ]
+  },
+  "supawrite": {
+    whatIs: "Supawrite is an AI writing assistant designed for content creators and bloggers who need to produce high-quality articles and marketing copy efficiently. The platform combines AI content generation with SEO optimization tools helping users create content that is both readable and search-engine friendly. Supawrite is particularly valued for producing content that requires less editing than typical AI tools making it a practical choice for content teams focused on production efficiency.",
+    features: [
+      "AI Article Writer: Generate complete blog posts and articles from topics or outlines",
+      "SEO Optimization: Built-in keyword and SEO guidance for content creation",
+      "Content Templates: Templates for different content types and industries",
+      "Tone Control: Adjust writing style from professional to conversational",
+      "Multilingual: Generate content in multiple languages",
+      "Plagiarism Checker: Verify content originality before publishing",
+      "Editing Tools: Built-in editor for refining AI-generated content",
+      "Export Options: Download finished content in multiple formats"
+    ],
+    howToUse: {
+      title: "How to Use Supawrite",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Sign up at supawrite.ai and enter your content topic, target keyword and preferred tone. Configure any specific requirements for your piece." },
+        { title: "Generate Your Content", description: "The AI generates a complete draft with introduction, body sections and conclusion. Review the output structure and content for accuracy." },
+        { title: "Refine and Optimize", description: "Use the built-in editor to refine the generated content, check SEO score and ensure the writing meets your quality standards before publishing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content Generation", description: "Produces complete article drafts from topic descriptions providing a solid starting point that requires editing rather than full writing from scratch" },
+      { title: "SEO Integration", description: "Built-in SEO tools guide keyword usage and content structure ensuring generated content is optimized for search visibility alongside readability" },
+      { title: "Production Efficiency", description: "Output quality reduces editing time compared to generic AI tools making it practical for content teams with high production volume requirements" },
+      { title: "Multilingual Output", description: "Generates content in multiple languages enabling businesses to produce content for international audiences from one platform" }
+    ],
+    useCases: [
+      { title: "Content Teams", description: "Content marketing teams use Supawrite to scale article production maintaining consistent quality across high-volume publishing schedules" },
+      { title: "Bloggers", description: "Individual bloggers use the platform to produce more articles in less time allowing them to grow their content library and audience faster" },
+      { title: "SEO Agencies", description: "Agencies managing SEO content for multiple clients use Supawrite to produce optimized first drafts at scale" }
+    ]
+  },
+  "perfectessaywriter": {
+    whatIs: "PerfectEssayWriter AI is an academic essay writing assistant designed to help students produce well-structured argumentative and analytical essays. The platform guides users through the essay writing process from thesis development through body paragraph construction to conclusion writing with AI assistance at each stage. PerfectEssayWriter focuses specifically on essay format conventions making it more targeted for academic writing needs than general-purpose AI writing tools.",
+    features: [
+      "Essay Structure Guidance: Step-by-step guidance through introduction, body and conclusion",
+      "Thesis Generator: AI generates strong thesis statements from topic inputs",
+      "Argument Development: Help constructing and supporting essay arguments",
+      "Citation Support: Generate citations in common academic formats",
+      "Grammar and Style: Academic grammar and writing style checking",
+      "Essay Outline: Automatic outline generation for any essay topic",
+      "Paraphrasing: Rewrite content while maintaining academic voice",
+      "Multiple Essay Types: Support for argumentative, analytical and expository essays"
+    ],
+    howToUse: {
+      title: "How to Use Perfectessaywriter",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Essay", description: "Sign up at perfectessaywriter.ai and enter your essay topic, essay type and any specific requirements from your assignment instructions." },
+        { title: "Generate Your Outline", description: "Let the AI generate a structured essay outline with thesis statement and main points. Review and adjust the structure before proceeding to full drafting." },
+        { title: "Write Section by Section", description: "Work through each essay section with AI assistance generating and refining introduction, body paragraphs and conclusion systematically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Essay-Specific AI", description: "Trained specifically on essay writing conventions producing output that follows academic essay structure rather than generic article or blog post format" },
+      { title: "Thesis Development", description: "Generates specific arguable thesis statements rather than general topic statements giving essays a clear analytical position to develop" },
+      { title: "Argument Construction", description: "Helps build logical supporting arguments with evidence and analysis for each body paragraph" },
+      { title: "Academic Voice", description: "Maintains formal academic writing style appropriate for college and university essay submissions" }
+    ],
+    useCases: [
+      { title: "College Students", description: "University students writing argumentative and analytical essays use PerfectEssayWriter to develop strong theses and structured arguments" },
+      { title: "ESL Students", description: "Non-native English speakers use the platform to produce academically appropriate essays while learning conventions of academic writing" },
+      { title: "Essay Practice", description: "Students preparing for standardized tests with essay components use the tool to practice structured argumentative writing" }
+    ]
+  },
+  "deep-realms": {
+    whatIs: "Deep Realms is an AI-powered interactive fiction and collaborative storytelling platform where users create and explore immersive narrative worlds with AI assistance. The platform enables writers and gamers to build detailed fictional settings and then experience them through text-based interactive adventure — combining world-building tools with an AI that responds intelligently to player choices and maintains narrative consistency throughout the story.",
+    features: [
+      "Interactive Fiction: Text-based adventures set in user-created worlds",
+      "World Building Tools: Create detailed settings, characters and lore",
+      "AI Narrative Engine: Responds intelligently to player choices maintaining story consistency",
+      "Character Creation: Build detailed characters with backstory and personality",
+      "Collaborative Stories: Create and share interactive stories with others",
+      "Multiple Genres: Fantasy, sci-fi, horror, mystery and more",
+      "Story Branching: Multiple narrative paths based on user decisions",
+      "Community Content: Explore worlds and stories created by other users"
+    ],
+    howToUse: {
+      title: "How to Use Deep Realms",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your World", description: "Sign up at deeprealms.io and use the world-building tools to create your setting. Define the rules, geography, characters and key lore of your fictional world." },
+        { title: "Create Your Story", description: "Set up narrative scenarios and story starting points within your world. Configure character relationships and plot hooks that drive the interactive experience." },
+        { title: "Play and Explore", description: "Enter your world as a player and make choices that drive the narrative. The AI responds to your decisions maintaining consistency with the established world rules." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Intelligent Narrative AI", description: "AI maintains consistency with established world rules and character personalities ensuring narrative responses feel grounded in the world you built" },
+      { title: "Integrated World Building", description: "World-building tools and interactive fiction engine are connected so the AI has full context about your world when generating narrative responses" },
+      { title: "Multiple Narrative Paths", description: "Story branching based on player choices creates genuinely different experiences across multiple playthroughs" },
+      { title: "Community Platform", description: "Shared world and story library allows creators to share their interactive fiction with a community of players and receive feedback" }
+    ],
+    useCases: [
+      { title: "Interactive Fiction Writers", description: "Writers create interactive novels and choose-your-own-adventure stories using the platform's world-building and narrative tools" },
+      { title: "Tabletop RPG Players", description: "Tabletop gaming enthusiasts use Deep Realms to explore solo adventures or prepare campaign settings between group sessions" },
+      { title: "Game Designers", description: "Game designers prototype narrative mechanics and test story structures using the AI narrative engine before building full games" }
+    ]
+  },
+  "stosh": {
+    whatIs: "Stosh is an AI-powered TV show discovery and recommendation platform that helps viewers find their next favorite series based on their specific tastes and viewing history. The platform goes beyond simple genre filtering by understanding the specific elements users love about shows they have already watched — the tone, pacing, character dynamics and themes — and finding series with similar qualities across different genres and streaming platforms.",
+    features: [
+      "Personalized Recommendations: AI-powered show suggestions based on your specific taste profile",
+      "Taste Profile: Deep preference analysis beyond simple genre matching",
+      "Cross-Platform Discovery: Find shows across Netflix, Hulu, HBO, Disney Plus and more",
+      "Show Analysis: Detailed breakdowns of tone, pacing, themes and character dynamics",
+      "Watchlist Management: Track shows you want to watch and have watched",
+      "Similar Show Finder: Find shows with specific qualities you love",
+      "New Release Alerts: Notifications for new seasons and relevant new releases",
+      "Community Reviews: Read and share show experiences with other viewers"
+    ],
+    howToUse: {
+      title: "How to Use Stosh",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Taste Profile", description: "Sign up at stosh.com and rate shows you have already watched. The AI analyzes your preferences to understand what specifically you love about your favorite series." },
+        { title: "Get Personalized Recommendations", description: "Browse AI-generated recommendations tailored to your taste profile. Each suggestion includes an explanation of why it matches your specific preferences." },
+        { title: "Track and Discover", description: "Add shows to your watchlist and mark episodes as watched. Receive notifications when new seasons of your tracked shows drop." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Deep Taste Analysis", description: "Goes beyond genre to understand the specific qualities you love in TV shows including tone, character dynamics, pacing and themes for more accurate matching" },
+      { title: "Cross-Platform Discovery", description: "Finds recommendations across all major streaming services so you discover the best matches regardless of which platform they are on" },
+      { title: "Recommendation Explanations", description: "Explains why each show is recommended based on your specific taste profile helping you make informed decisions about what to watch next" },
+      { title: "Viewing History Integration", description: "Uses your complete viewing history to build an increasingly accurate picture of your preferences over time" }
+    ],
+    useCases: [
+      { title: "TV Enthusiasts", description: "Dedicated viewers who have exhausted their usual genre options use Stosh to discover hidden gems they would never find through platform algorithms" },
+      { title: "Decision-Fatigued Viewers", description: "People spending more time deciding what to watch than actually watching use Stosh to get confident specific recommendations quickly" },
+      { title: "Diverse Taste Explorers", description: "Viewers open to shows outside their usual genres use taste-based matching to discover quality content they might otherwise overlook" }
+    ]
+  },
+  "headcanon-generator": {
+    whatIs: "Headcanon Generator XYZ is a creative AI tool for fans, writers and storytellers that generates fan theories, character interpretations and creative speculations about fictional universes. Headcanons are fan-created interpretations of characters, relationships and story elements that go beyond what is explicitly stated in canon source material. The platform helps fans articulate and explore their creative interpretations of beloved fictional worlds and characters.",
+    features: [
+      "Headcanon Generation: Create fan theories and character interpretations for any fandom",
+      "Character Exploration: Generate deeper backstory and personality interpretations",
+      "Relationship Dynamics: Explore the unspoken dynamics between fictional characters",
+      "AU Scenarios: Create alternate universe scenarios for favorite characters",
+      "Fandom Support: Works with characters from any book, film, TV show or game",
+      "Community Sharing: Share headcanons with other fans",
+      "Creative Prompts: Generate writing prompts based on headcanon scenarios",
+      "Story Seeds: Turn headcanons into full creative writing starting points"
+    ],
+    howToUse: {
+      title: "How to Use Headcanon Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Fandom", description: "Sign up and enter the fictional universe, characters or relationships you want to explore. The more specific your input the more targeted the headcanon output." },
+        { title: "Generate Your Headcanon", description: "Let the AI generate creative interpretations of your characters including personality depths, relationship dynamics and backstory elements not covered in canon." },
+        { title: "Share and Develop", description: "Share your generated headcanons with the fan community or use them as seeds for fan fiction, artwork or further creative development." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Fandom Creative Tool", description: "Generates creative fan interpretations across any fictional universe making it useful for fans of books, films, TV shows, games and anime" },
+      { title: "Character Depth Generation", description: "Creates psychologically grounded character interpretations that feel consistent with established personalities while exploring unaddressed depths" },
+      { title: "Relationship Exploration", description: "Examines the unspoken dynamics between fictional characters generating interpretations that feel true to the established relationship patterns" },
+      { title: "Creative Writing Seed", description: "Generated headcanons serve as starting points for fan fiction, role-play scenarios and other fan creative works" }
+    ],
+    useCases: [
+      { title: "Fan Fiction Writers", description: "Fanfic authors use generated headcanons as character development foundations and story premise ideas for their creative works" },
+      { title: "Fan Community Members", description: "Active fandom participants use the tool to articulate and share creative interpretations with other fans who share their interest" },
+      { title: "Creative Writers", description: "Writers use headcanon generation as a creative exercise for character development practice and exploring fictional relationship dynamics" }
+    ]
+  },
+  "altplot": {
+    whatIs: "AltPlot is an AI creative writing tool that generates alternative plot directions, story twists and narrative possibilities for fiction writers, screenwriters and storytellers. The platform helps writers who feel stuck in their narrative explore different directions their story could take, generating fresh plot ideas that maintain consistency with established characters and story elements. AltPlot is particularly useful for overcoming plot holes, finding unexpected twists and exploring the full possibility space of a story.",
+    features: [
+      "Alternative Plot Generation: Create different story directions from any narrative point",
+      "Twist Generator: Generate unexpected but logical story twists",
+      "Plot Hole Solver: Identify and resolve narrative inconsistencies",
+      "Character Arc Alternatives: Explore different character development paths",
+      "Scene Variations: Generate multiple versions of key scenes",
+      "Ending Generator: Create multiple possible endings for any story",
+      "Genre Flexibility: Works across fiction, screenplay, game narrative and more",
+      "Consistency Check: Maintains character and world consistency in suggestions"
+    ],
+    howToUse: {
+      title: "How to Use Altplot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Story Context", description: "Sign up at altplot.com and describe your story, characters and current plot situation. The more context you provide the more relevant and consistent the alternatives will be." },
+        { title: "Generate Plot Alternatives", description: "Request alternative directions, twists or scene variations. AltPlot generates multiple options maintaining consistency with your established characters and world." },
+        { title: "Explore and Select", description: "Review the generated alternatives and identify the most promising directions. Use the best ideas to break through creative blocks or discover unexpected story possibilities." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Alternative Direction Engine", description: "Generates multiple distinct plot paths from any story point helping writers see possibilities they had not considered while keeping suggestions consistent with existing story elements" },
+      { title: "Twist Intelligence", description: "Creates unexpected but logically supported story twists that feel earned rather than arbitrary maintaining narrative coherence" },
+      { title: "Plot Problem Solving", description: "Identifies and suggests solutions to plot holes and narrative inconsistencies that undermine story logic" },
+      { title: "Multi-Genre Application", description: "Works across fiction, screenplay, game narrative and other storytelling formats with suggestions appropriate to each medium's conventions" }
+    ],
+    useCases: [
+      { title: "Stuck Fiction Writers", description: "Novelists and short story writers use AltPlot to break through specific plot blocks and discover new directions when their narrative feels trapped" },
+      { title: "Screenwriters", description: "Film and TV writers use alternative plot generation to explore story possibilities in development before committing to a specific narrative direction" },
+      { title: "Game Narrative Designers", description: "Game writers use AltPlot to generate branching narrative possibilities and meaningful player choice outcomes for interactive storytelling" }
+    ]
+  },
+  "holo-ai": {
+    whatIs: "Holo AI is a creative writing and AI companion platform that offers uncensored interactive fiction and character roleplay experiences. The platform is designed for writers and creative users who want to explore narrative fiction without the content restrictions that limit mainstream AI platforms. Holo AI provides a sandbox environment for imaginative storytelling with AI characters that maintain consistent personalities throughout extended narrative sessions.",
+    features: [
+      "Uncensored Creative Writing: AI fiction without content restrictions for adult creative works",
+      "Character Roleplay: Engage with AI characters in immersive narrative scenarios",
+      "Story Continuation: AI continues your stories maintaining consistency and tone",
+      "Custom Characters: Create AI characters with detailed personality and backstory",
+      "Multiple Genres: Fiction across fantasy, sci-fi, romance, horror and more",
+      "Long Context: Maintains story context across extended writing sessions",
+      "Privacy Focused: Stories remain private without data sharing",
+      "Export Options: Download your created fiction for personal use"
+    ],
+    howToUse: {
+      title: "How to Use Holo Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Story", description: "Sign up at holo.ai and set up your creative fiction environment. Define your characters, setting and any world rules the AI should maintain." },
+        { title: "Write Together", description: "Begin your story and let the AI continue it from your established context. Direct the narrative through your inputs while the AI handles prose generation." },
+        { title: "Build Long Stories", description: "Use the long context window to develop extended narratives maintaining character consistency and plot coherence across multiple sessions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Uncensored Fiction Environment", description: "Provides a creative sandbox without content restrictions enabling adult fiction writers to explore mature themes not possible on mainstream AI platforms" },
+      { title: "Character Consistency", description: "AI maintains established character personalities and story context across extended fiction sessions producing consistent immersive narrative experiences" },
+      { title: "Long Context Window", description: "Extended context capability supports the development of novel-length fiction maintaining story coherence beyond what short context AI tools allow" },
+      { title: "Privacy Protection", description: "Stories remain private ensuring sensitive creative content is not shared or used without user consent" }
+    ],
+    useCases: [
+      { title: "Adult Fiction Writers", description: "Writers creating mature fiction use Holo AI for a creative environment without the content limitations that prevent mainstream AI from serving their work" },
+      { title: "Interactive Fiction Creators", description: "Creators building immersive narrative experiences use character roleplay and story continuation tools to develop complex interactive fiction" },
+      { title: "Creative Writing Practice", description: "Writers use uncensored AI collaboration to explore narrative possibilities and develop craft in a low-stakes creative sandbox environment" }
+    ]
+  },
+  "languagetool": {
+    whatIs: "LanguageTool is an open-source grammar, style and spell checker that supports over 30 languages making it one of the most comprehensive multilingual writing assistants available. The tool goes significantly beyond basic spell checking to identify stylistic issues, overused words, unclear phrasing and grammar mistakes that Microsoft Word and similar tools miss. LanguageTool is available as a browser extension, desktop application and API making it integrable across virtually any writing workflow.",
+    features: [
+      "30 Plus Languages: Grammar and style checking across over 30 languages",
+      "Advanced Grammar: Catches complex grammar errors beyond basic spell check",
+      "Style Improvement: Identifies overused words, unclear phrasing and weak writing",
+      "Browser Extension: Works in Gmail, Google Docs, Twitter and most web editors",
+      "Desktop App: Standalone application for document checking",
+      "API Access: Integrate grammar checking into custom applications",
+      "Personal Dictionary: Add custom words and technical terminology",
+      "Tone Detection: Identifies overly formal or informal language for context"
+    ],
+    howToUse: {
+      title: "How to Use Languagetool",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Install the LanguageTool browser extension for Chrome, Firefox or Edge. It immediately begins checking your writing in Gmail, Google Docs and other web-based editors." },
+        { title: "Review Suggestions", description: "As you write, LanguageTool highlights errors and style issues. Click any highlighted text to see the explanation and suggested correction." },
+        { title: "Configure Your Preferences", description: "Set your target language, regional dialect and writing register. Add technical terms to your personal dictionary to prevent false positives in specialized writing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multilingual Coverage", description: "Supports over 30 languages with high-quality grammar and style checking making it the best choice for multilingual writers and non-native English speakers" },
+      { title: "Advanced Style Detection", description: "Goes beyond grammar to identify stylistic weaknesses like overused words, redundant phrases and unnecessarily complex phrasing" },
+      { title: "Universal Integration", description: "Browser extension works across virtually all web-based writing tools and editors without requiring the writing to be copied to a separate checker" },
+      { title: "Open Source Foundation", description: "Open-source core ensures ongoing development by a community of contributors and provides transparency about how checking rules are applied" }
+    ],
+    useCases: [
+      { title: "Multilingual Writers", description: "Writers working in multiple languages use LanguageTool as the only tool that provides comprehensive checking across all their writing languages" },
+      { title: "Non-Native English Writers", description: "Non-native speakers use advanced grammar detection to catch subtle errors that basic spell checkers miss and that native speakers would notice" },
+      { title: "Professional Writers", description: "Journalists, academics and professional writers use style checking beyond grammar to elevate prose quality and clarity" }
+    ]
+  },
+  "quillbot": {
+    whatIs: "QuillBot is the world's most popular AI paraphrasing and writing tool with over 35 million monthly users. The platform's core paraphrasing technology offers seven distinct rewriting modes ranging from standard paraphrasing to formal, creative, fluency and custom modes — giving writers granular control over how their text is rewritten. Beyond paraphrasing, QuillBot includes a grammar checker, summarizer, citation generator, translator and plagiarism checker making it a comprehensive writing toolkit particularly popular with students and content creators.",
+    features: [
+      "7 Paraphrasing Modes: Standard, fluency, formal, simple, creative, expand and shorten modes",
+      "Grammar Checker: Advanced grammar and punctuation correction",
+      "Summarizer: Condense long texts into key points",
+      "Citation Generator: Create citations in APA, MLA and Chicago formats",
+      "Plagiarism Checker: Verify content originality",
+      "Translator: Translate text across multiple languages",
+      "Word Flipper: Control synonym replacement frequency",
+      "Chrome Extension: Paraphrase directly in any web editor"
+    ],
+    howToUse: {
+      title: "How to Use Quillbot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Text", description: "Visit quillbot.com or use the Chrome extension and paste the text you want to paraphrase. Select your preferred paraphrasing mode based on your goal." },
+        { title: "Choose Your Mode", description: "Select from seven modes: Standard for balanced rewording, Formal for professional contexts, Creative for more distinctive rephrasing or Fluency to improve readability." },
+        { title: "Refine the Output", description: "Review the paraphrased text and use the Word Flipper slider to increase or decrease synonym substitution. Accept individual word changes or regenerate entire sections." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Seven Distinct Modes", description: "Different paraphrasing modes produce genuinely different results making QuillBot useful for diverse goals from avoiding repetition to improving clarity to formal document preparation" },
+      { title: "Word Flipper Control", description: "Slider control over synonym replacement frequency lets writers balance originality with natural language preserving their meaning while varying expression" },
+      { title: "Comprehensive Toolkit", description: "Grammar checking, summarization, citation generation and plagiarism detection alongside paraphrasing make QuillBot a complete writing support platform" },
+      { title: "Chrome Extension", description: "Direct browser integration means QuillBot works in Google Docs, emails and any web editor without copying text to a separate tool" }
+    ],
+    useCases: [
+      { title: "Students", description: "University students use QuillBot to paraphrase research sources, improve essay clarity and check grammar before submission avoiding plagiarism while incorporating sources" },
+      { title: "Content Writers", description: "Content creators use paraphrasing to rewrite existing content, vary language in long pieces and produce fresh versions of similar topic coverage" },
+      { title: "Non-Native English Speakers", description: "Writers whose first language is not English use fluency mode to improve naturalness and grammar checker to catch errors that translation produces" }
+    ]
+  },
+  "grammarly": {
+    whatIs: "Grammarly is the world's leading AI writing assistant used by over 30 million people daily across businesses, educational institutions and individuals. The platform goes far beyond basic spell checking to provide real-time suggestions for grammar, punctuation, clarity, engagement and tone across all writing contexts. Following its 2025 acquisition of Superhuman and Coda, Grammarly has expanded into an AI productivity platform that combines writing assistance with email productivity and document collaboration in one integrated suite.",
+    features: [
+      "Real-Time Grammar: Instant grammar and punctuation correction across all platforms",
+      "Clarity Suggestions: Identifies and rewrites unclear and confusing sentences",
+      "Tone Detector: Analyzes and adjusts the emotional tone of your writing",
+      "Style Improvement: Identifies overworked words and passive voice overuse",
+      "AI Writing Assistant: Generate and rewrite content with AI assistance",
+      "Plagiarism Checker: Check originality against billions of web pages",
+      "Browser Extension: Works in Gmail, Google Docs, Slack and 500 plus apps",
+      "Goals Setting: Configure formality, tone and audience for tailored suggestions",
+      "Team Features: Shared style guides and brand voice consistency for teams",
+      "Mobile App: Writing assistance on iOS and Android devices"
+    ],
+    howToUse: {
+      title: "How to Use Grammarly",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Grammarly", description: "Install the Grammarly browser extension and download desktop and mobile apps. Connect your email and writing tools so Grammarly assists you everywhere you write." },
+        { title: "Write with Real-Time Feedback", description: "As you write, Grammarly highlights issues in real time. Hover over any highlighted text to see the explanation and suggested fix. Accept with one click." },
+        { title: "Configure Your Goals", description: "Set your document goals including audience, formality level, intent and domain. Grammarly tailors its suggestions to match the specific context and purpose of your writing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Universal Writing Coverage", description: "Browser extension and app integrations mean Grammarly works across virtually every platform where you write — email, documents, social media and messaging" },
+      { title: "Tone Intelligence", description: "Real-time tone detection helps writers understand how their message will land emotionally and adjust accordingly before sending" },
+      { title: "AI Writing Generation", description: "Beyond correction, Grammarly generates and rewrites content from prompts helping users create first drafts and overcome writer's block" },
+      { title: "Team Consistency", description: "Shared style guides and brand voice tools ensure every team member's writing adheres to organizational communication standards" }
+    ],
+    useCases: [
+      { title: "Business Professionals", description: "Professionals communicating via email and documents use Grammarly to maintain polished consistent written communication that reflects positively on their organization" },
+      { title: "Students", description: "University students use grammar checking and plagiarism detection to submit polished academically appropriate work" },
+      { title: "Content Creators", description: "Bloggers and content writers use Grammarly to improve clarity, eliminate errors and maintain consistent tone across all published content" }
+    ]
+  },
+  "prowritingaid": {
+    whatIs: "ProWritingAid is a comprehensive writing improvement platform that goes deeper than grammar checking to help writers improve their overall craft. The tool analyzes prose for over 20 different writing issues including pacing, dialogue balance, sentence length variation, repeated words and clichés — providing the kind of feedback that developmental editors traditionally provide. ProWritingAid is particularly valued by fiction writers and professional authors who want to improve their writing quality beyond surface-level error correction.",
+    features: [
+      "20 Plus Writing Reports: Deep analysis across pacing, dialogue, sentence variety and more",
+      "Grammar and Style: Comprehensive grammar, punctuation and style checking",
+      "Contextual Thesaurus: Word suggestions that consider the surrounding context",
+      "Readability Analysis: Detailed readability scores and improvement suggestions",
+      "Cliche Detection: Identifies overused phrases and common writing clichés",
+      "Pacing Report: Analyze and improve the rhythm and flow of your writing",
+      "Integration: Works with Scrivener, Google Docs, Word and web browsers",
+      "Fiction Specific: Specialized reports for novel and fiction writing needs"
+    ],
+    howToUse: {
+      title: "How to Use Prowritingaid",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Writing Tool", description: "Install the ProWritingAid extension for your preferred writing environment — Scrivener, Google Docs, Word or the web app. Start analyzing existing or new documents." },
+        { title: "Run Your Reports", description: "Select the reports most relevant to your writing goals. Run Grammar for basic errors, Style for prose improvement or the full suite for comprehensive analysis." },
+        { title: "Review and Learn", description: "Work through each report category systematically. ProWritingAid explains why each suggestion improves your writing helping you learn to avoid the issue in future work." }
+      ]
+    },
+    coreFeatures: [
+      { title: "20 Plus Analysis Reports", description: "Goes far beyond grammar to analyze pacing, dialogue, sentence variety, redundancy and dozens of other craft elements that professional editors traditionally review" },
+      { title: "Fiction-Specific Analysis", description: "Specialized reports for fiction writers examine narrative elements like dialogue balance, showing vs telling and pacing that general writing tools do not address" },
+      { title: "Craft Education", description: "Explanations of every suggestion teach writers why changes improve their prose rather than just telling them what to change" },
+      { title: "Deep Integration", description: "Native integration with Scrivener makes it the only comprehensive writing tool that works directly inside the most popular dedicated novel writing software" }
+    ],
+    useCases: [
+      { title: "Fiction Writers", description: "Novelists and short story writers use ProWritingAid's deep craft analysis to identify patterns and habits that undermine their prose quality" },
+      { title: "Professional Authors", description: "Published authors preparing manuscripts for submission use the comprehensive reports to self-edit to a professional standard before sending to editors" },
+      { title: "Writing Students", description: "Creative writing students use the detailed feedback to learn craft principles and understand how to improve their writing beyond surface corrections" }
+    ]
+  },
+  "toppdf": {
+    whatIs: "TopPDF is an AI-powered PDF management platform that enables users to interact with PDF documents through conversation, extract information, summarize content and perform document operations without specialized software. The platform makes dense PDF documents accessible by allowing users to ask questions about content, get summaries of specific sections and extract key information in seconds rather than reading through lengthy documents manually.",
+    features: [
+      "PDF Chat: Ask questions about PDF content and get instant answers",
+      "Document Summarization: Get concise summaries of lengthy PDF documents",
+      "Key Information Extraction: Extract specific data, tables and key facts",
+      "Multi-PDF Analysis: Analyze and compare multiple PDFs simultaneously",
+      "Text Extraction: Extract all text from PDFs for editing and reuse",
+      "Translation: Translate PDF content into other languages",
+      "PDF Editing: Basic editing and annotation capabilities",
+      "Secure Processing: Documents processed with privacy protection"
+    ],
+    howToUse: {
+      title: "How to Use Toppdf",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your PDF", description: "Visit toppdf.com and upload your PDF document. Large documents are processed quickly and made ready for interactive conversation within seconds." },
+        { title: "Ask Your Questions", description: "Type questions about the document content in natural language. TopPDF finds the relevant information and answers your questions with citations to the specific pages." },
+        { title: "Extract and Export", description: "Use extraction tools to pull specific information, tables or summaries from your document. Export extracted content in your preferred format for further use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversational PDF Access", description: "Natural language questioning transforms dense documents into interactive resources where you can find any specific information without manual searching" },
+      { title: "Multi-Document Analysis", description: "Compare and analyze multiple PDFs simultaneously enabling efficient research and document review across large document sets" },
+      { title: "Instant Summarization", description: "Produces accurate document summaries in seconds saving hours of reading time for reports, research papers and lengthy business documents" },
+      { title: "Information Extraction", description: "Precisely extracts specific data, tables and facts from PDFs enabling efficient data collection from structured documents" }
+    ],
+    useCases: [
+      { title: "Research and Academic Work", description: "Students and researchers use PDF chat to quickly extract relevant information from academic papers without reading entire documents" },
+      { title: "Business Document Review", description: "Professionals use summarization and extraction to efficiently review contracts, reports and lengthy business documents" },
+      { title: "Legal and Compliance", description: "Legal professionals use multi-document analysis to compare contracts and regulatory documents identifying relevant clauses and discrepancies quickly" }
+    ]
+  },
+  "image-describer": {
+    whatIs: "Image Describer is an AI-powered tool that generates detailed text descriptions of images for accessibility purposes, content creation and SEO optimization. The platform analyzes uploaded images and produces accurate descriptive text that can be used as alt text for websites, image captions for social media, accessibility descriptions for visually impaired users and detailed image documentation. Image Describer supports multiple output formats and description styles making it versatile across different use cases.",
+    features: [
+      "AI Image Analysis: Automatically analyze and describe image content",
+      "Alt Text Generation: Create SEO-optimized alt text for website images",
+      "Accessibility Descriptions: Generate detailed descriptions for visually impaired users",
+      "Caption Creation: Produce social media captions based on image content",
+      "Multiple Styles: Choose from brief, detailed or technical description styles",
+      "Batch Processing: Describe multiple images simultaneously",
+      "Markdown Output: Export descriptions in markdown format for easy integration",
+      "API Access: Integrate image description into custom workflows"
+    ],
+    howToUse: {
+      title: "How to Use Image Describer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Visit the Image Describer platform and upload your image file. The AI analyzes the visual content including objects, people, setting, colors and context." },
+        { title: "Choose Your Style", description: "Select your preferred description style — brief for alt text, detailed for accessibility or comprehensive for documentation purposes." },
+        { title: "Copy and Use", description: "Copy the generated description and use it as alt text in your website HTML, caption in social media or accessibility documentation for your visual content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accurate Visual Analysis", description: "Advanced computer vision accurately identifies objects, people, settings, actions and contextual elements in images producing comprehensive and relevant descriptions" },
+      { title: "Multiple Output Formats", description: "Generates descriptions in plain text, markdown and other formats suitable for different integration contexts from website HTML to content management systems" },
+      { title: "Accessibility Focus", description: "Creates detailed descriptions that give visually impaired users meaningful understanding of image content beyond what basic alt text typically provides" },
+      { title: "SEO Optimization", description: "Alt text descriptions include relevant keywords and descriptive language that improve image search visibility and overall page SEO" }
+    ],
+    useCases: [
+      { title: "Web Developers", description: "Developers adding accessibility features to websites use Image Describer to generate accurate alt text for all images without manually describing each one" },
+      { title: "Content Managers", description: "Content teams managing large image libraries use batch processing to add alt text and descriptions to existing content improving accessibility and SEO" },
+      { title: "Social Media Managers", description: "Social media professionals use image analysis to generate caption ideas and ensure images are properly described for accessibility compliance" }
+    ]
+  },
+  "describe-image-ai": {
+    whatIs: "Describe Image AI is a specialized tool for converting visual content into detailed text descriptions, supporting content accessibility, SEO improvement and image documentation workflows. The platform handles diverse image types from photographs to infographics to charts and generates contextually appropriate descriptions based on the image content and intended use case. The tool supports multiple output formats including plain text, markdown and structured data making it integrable into diverse content workflows.",
+    features: [
+      "Diverse Image Support: Handles photos, infographics, charts, diagrams and illustrations",
+      "Context-Aware Descriptions: Tailors description style to image type and intended use",
+      "Markdown Output: Generate descriptions in markdown format for web integration",
+      "Alt Text Optimization: SEO-optimized alt text generation for web images",
+      "Accessibility Compliance: Descriptions meeting WCAG accessibility guidelines",
+      "Batch Processing: Process multiple images in one workflow",
+      "API Integration: Connect to content management and development workflows",
+      "Multiple Languages: Generate descriptions in different languages"
+    ],
+    howToUse: {
+      title: "How to Use Describe Image Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Access the Describe Image AI platform and upload your image. Specify the intended use — alt text, accessibility description or content caption — to guide the output style." },
+        { title: "Review the Description", description: "The AI generates a contextually appropriate description analyzing visual elements, context and relevant details. Review for accuracy and completeness." },
+        { title: "Export and Integrate", description: "Copy the description in your preferred format — plain text, markdown or structured data — and integrate it into your website, content management system or documentation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Context-Sensitive Output", description: "Generates different description styles based on the image type and intended use producing alt text for web images and detailed descriptions for accessibility documentation" },
+      { title: "Markdown Integration", description: "Native markdown output makes descriptions immediately usable in static site generators, documentation platforms and markdown-based content workflows" },
+      { title: "WCAG Compliance Support", description: "Descriptions are formulated to meet Web Content Accessibility Guidelines ensuring compliance with accessibility standards" },
+      { title: "Infographic and Chart Support", description: "Goes beyond photograph description to handle complex visual information in charts, infographics and diagrams extracting the key information they contain" }
+    ],
+    useCases: [
+      { title: "Web Accessibility Teams", description: "Organizations improving website accessibility use the tool to generate compliant image descriptions across their entire visual content library" },
+      { title: "Technical Writers", description: "Documentation writers use image description to automatically generate text explanations for diagrams and screenshots in technical documentation" },
+      { title: "Content Editors", description: "Editorial teams use image analysis to generate alt text and captions for image-heavy content saving time on manual description writing" }
+    ]
+  },
+  "alttext-ai": {
+    whatIs: "AltText AI is a specialized accessibility tool that automatically generates optimized alt text for website images using artificial intelligence. The platform integrates directly with popular content management systems including WordPress, Shopify and others to automatically add alt text to images as they are uploaded — making accessibility compliance largely automatic for content teams. AltText AI produces descriptions that balance accessibility requirements with SEO optimization improving both user experience and search visibility.",
+    features: [
+      "Automatic Alt Text: AI generates alt text for images automatically on upload",
+      "CMS Integration: Direct integration with WordPress, Shopify and other platforms",
+      "SEO Optimization: Alt text is optimized for search visibility alongside accessibility",
+      "Bulk Processing: Add alt text to existing image libraries at scale",
+      "Multiple Languages: Generate alt text in different languages for international sites",
+      "Custom Rules: Configure description style and keyword preferences",
+      "API Access: Integrate into custom development workflows",
+      "Review Interface: Approve and edit generated alt text before publishing"
+    ],
+    howToUse: {
+      title: "How to Use Alttext Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your CMS", description: "Sign up at alttext.ai and connect your WordPress, Shopify or other CMS platform. The integration allows automatic alt text generation for all new image uploads." },
+        { title: "Process Existing Images", description: "Use bulk processing to add alt text to your existing image library. Review generated descriptions through the management interface before publishing." },
+        { title: "Configure and Customize", description: "Set your preferred description style, keyword preferences and language settings. Configure rules for different image types to ensure appropriate description formatting." }
+      ]
+    },
+    coreFeatures: [
+      { title: "CMS Native Integration", description: "Direct integration with WordPress, Shopify and other major platforms makes alt text generation automatic rather than requiring manual action for each image upload" },
+      { title: "Automatic on Upload", description: "New images receive alt text automatically without any manual intervention making accessibility compliance a default rather than an afterthought" },
+      { title: "SEO-Accessibility Balance", description: "Descriptions are crafted to serve both accessibility users and search engines simultaneously rather than choosing between the two goals" },
+      { title: "Bulk Historical Processing", description: "Retroactively adds alt text to existing image libraries making it practical to achieve accessibility compliance for sites with thousands of existing images" }
+    ],
+    useCases: [
+      { title: "E-commerce Sites", description: "Online stores with large product image catalogs use AltText AI to automatically maintain accessibility compliance and image SEO across thousands of product photos" },
+      { title: "Content-Heavy Websites", description: "Blogs and news sites with frequent image uploads use automatic alt text generation to maintain accessibility without adding to editorial workflow burden" },
+      { title: "Web Development Agencies", description: "Agencies building websites for clients integrate AltText AI to ensure accessibility compliance is built into the site from launch" }
+    ]
+  },
+  "continual-engine": {
+    whatIs: "Continual Engine is an AI-powered accessibility solutions provider specializing in making digital content accessible to people with disabilities. The company offers automated accessibility testing, remediation and monitoring tools that help organizations achieve and maintain compliance with accessibility standards including WCAG, ADA and Section 508. Continual Engine's tools are used by universities, financial institutions and enterprises that need systematic accessibility management across large content libraries.",
+    features: [
+      "Accessibility Testing: Automated testing against WCAG, ADA and Section 508 standards",
+      "PDF Remediation: Make PDF documents accessible to screen readers and assistive technology",
+      "Alt Text Generation: AI-powered alternative text for images and visual content",
+      "Document Accessibility: Make Word and PowerPoint files fully accessible",
+      "Monitoring: Continuous monitoring for accessibility regressions",
+      "Compliance Reporting: Detailed reports for accessibility audit requirements",
+      "Manual Review: Human expert review for complex accessibility decisions",
+      "API Integration: Embed accessibility checking into content workflows"
+    ],
+    howToUse: {
+      title: "How to Use Continual Engine",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Audit Your Content", description: "Sign up at continualengine.com and run an accessibility audit on your existing content. Get a detailed report of issues across your documents and web pages." },
+        { title: "Remediate Issues", description: "Use automated remediation tools to fix common accessibility issues at scale. More complex issues get flagged for human expert review." },
+        { title: "Monitor and Maintain", description: "Set up continuous monitoring to catch new accessibility issues before they accumulate. Receive alerts when content updates introduce regressions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated Remediation", description: "AI automatically fixes common accessibility issues at scale making it practical to achieve compliance across large content libraries without manual intervention for every file" },
+      { title: "PDF Accessibility", description: "Specialized PDF remediation tools make existing PDF documents compatible with screen readers and other assistive technology without manual document reconstruction" },
+      { title: "Compliance Management", description: "Continuous monitoring and detailed reporting provide the documentation needed for accessibility audits and legal compliance verification" },
+      { title: "Enterprise Scale", description: "Built for organizations managing thousands of documents and web pages where manual accessibility review would be cost-prohibitive" }
+    ],
+    useCases: [
+      { title: "Universities and Education", description: "Educational institutions required to provide accessible course materials use Continual Engine to systematically make learning content accessible to students with disabilities" },
+      { title: "Financial Services", description: "Banks and financial institutions use accessibility tools to ensure required communications and documents meet ADA compliance requirements" },
+      { title: "Government and Enterprise", description: "Organizations subject to Section 508 or ADA requirements use Continual Engine for systematic accessibility compliance across all digital content" }
+    ]
+  },
+  "visionati": {
+    whatIs: "Visionati is an AI-powered image analysis and tagging platform that uses computer vision to automatically extract metadata, generate tags, detect objects and create descriptions from image content. The platform is designed for businesses with large image libraries — stock photo agencies, e-commerce platforms and media companies — who need to automate the labor-intensive process of image cataloging and search optimization. Visionati's API allows deep integration into existing digital asset management workflows.",
+    features: [
+      "Image Tagging: Automatic keyword and tag generation from image content",
+      "Object Detection: Identify specific objects, people and elements in images",
+      "Scene Recognition: Classify image settings and contexts automatically",
+      "Color Analysis: Extract dominant colors and color palettes from images",
+      "Facial Recognition: Detect and analyze facial attributes in portrait images",
+      "Brand Detection: Identify logos and brand elements in images",
+      "Batch Processing: Process thousands of images simultaneously",
+      "API Integration: Connect to digital asset management and CMS platforms"
+    ],
+    howToUse: {
+      title: "How to Use Visionati",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Image Library", description: "Sign up at visionati.com and connect your image library or digital asset management system through the API or direct upload." },
+        { title: "Configure Analysis Settings", description: "Set which analysis features you need — tagging, object detection, scene recognition or all categories. Configure confidence thresholds for tag acceptance." },
+        { title: "Process and Integrate", description: "Run analysis on your image library and review the generated metadata. Integrate results directly into your DAM system, CMS or search index." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Computer Vision Intelligence", description: "Advanced AI accurately identifies objects, scenes, colors and contextual elements in diverse image types producing relevant and searchable metadata" },
+      { title: "Batch Scale Processing", description: "Process entire image libraries of thousands of files simultaneously making large-scale cataloging practical in timeframes that manual tagging cannot achieve" },
+      { title: "API-First Design", description: "Deep API integration enables automatic metadata generation as part of existing upload and processing workflows without manual intervention" },
+      { title: "Search Optimization", description: "Automatically generated tags and descriptions make image content discoverable through text search improving image findability in large libraries" }
+    ],
+    useCases: [
+      { title: "Stock Photo Libraries", description: "Stock photography agencies use Visionati to automatically tag and describe their extensive image catalogs making content more discoverable and searchable" },
+      { title: "E-commerce Platforms", description: "Online retailers use image analysis to automatically generate product image metadata improving product search and category organization" },
+      { title: "Media Companies", description: "Publishers and media organizations use automated tagging to make photo archives searchable and integrate images efficiently into editorial workflows" }
+    ]
+  },
+  "inspirobot": {
+    whatIs: "InspiroBot is a deliberately absurdist AI quote generator that creates unique motivational quotes paired with atmospheric images. Unlike conventional motivational tools, InspiroBot generates quotes that are intentionally strange, darkly humorous and often surreally philosophical — making it popular for entertainment, creative inspiration and as a counterpoint to overly earnest self-help content. The tool has developed a cult following for its commitment to generating quotes that are simultaneously meaningless and unexpectedly profound.",
+    features: [
+      "Endless Quote Generation: Generates unique AI quotes with every click",
+      "Atmospheric Imagery: Each quote paired with a matching contemplative background image",
+      "Absurdist Humor: Intentionally strange and surreal motivational content",
+      "Shareable Format: Quotes formatted for easy sharing on social media",
+      "Free to Use: Completely free with no account required",
+      "Unexpected Profundity: Occasional genuinely insightful quotes amid the absurdity",
+      "Creative Inspiration: Unexpected juxtapositions that spark creative thinking",
+      "No Repetition: Generates new unique content every time"
+    ],
+    howToUse: {
+      title: "How to Use Inspirobot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Just Click Generate", description: "Visit inspirobot.im and click the generate button. No account or setup required — each click produces a completely new unique quote with accompanying image." },
+        { title: "Keep Clicking", description: "Continue generating quotes until you find one that resonates, amuses or provides unexpected creative inspiration. The absurdity varies widely with each generation." },
+        { title: "Share Your Favorites", description: "Save or screenshot quotes that amuse you and share them with your network or use unexpected phrasings as creative inspiration for writing and projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Absurdist Quote Engine", description: "Intentionally generates strange and surreal content that subverts conventional motivational quote conventions with unexpected and often darkly humorous results" },
+      { title: "Unique Every Time", description: "Every generation produces completely new content with no repetition making repeated visits consistently entertaining" },
+      { title: "Paired Imagery", description: "Contemplative atmospheric background images create a visual context that makes even absurd quotes feel unexpectedly meaningful" },
+      { title: "Zero Friction Access", description: "No account, no setup, no payment — just immediate access to unlimited quote generation making it the most frictionless creative tool available" }
+    ],
+    useCases: [
+      { title: "Entertainment and Humor", description: "People use InspiroBot for entertainment, sharing absurd quotes with friends and as a humorous counterpoint to sincere motivational content" },
+      { title: "Creative Inspiration", description: "Writers and creatives use the unexpected juxtapositions and surreal phrasings as creative prompts and idea sparks for their own projects" },
+      { title: "Social Media Content", description: "Social media users share InspiroBot quotes as humor content mixing with genuine motivational posts for variety and entertainment" }
+    ]
+  },
+  "capybara-affirmations": {
+    whatIs: "Capybara Affirmations AI is a charming and calming affirmation generator that delivers personalized positive affirmations accompanied by capybara imagery. The platform combines the genuine therapeutic value of positive affirmations with the well-documented calming effect of capybara content — creating a uniquely warm and approachable affirmation experience. The tool generates customized affirmations based on specific areas of personal growth or challenges the user is facing.",
+    features: [
+      "Personalized Affirmations: Generate affirmations tailored to specific needs and challenges",
+      "Capybara Imagery: Calming capybara photos accompany each affirmation",
+      "Daily Delivery: Receive daily affirmations for consistent practice",
+      "Category Selection: Choose affirmations for confidence, anxiety, relationships and more",
+      "Custom Focus: Input specific areas of life you want to improve",
+      "Shareable Content: Share affirmations with friends and community",
+      "Gentle Tone: Warm approachable affirmation style without toxic positivity",
+      "Collection Building: Save favorite affirmations for regular review"
+    ],
+    howToUse: {
+      title: "How to Use Capybara Affirmations",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Focus", description: "Visit the Capybara Affirmations platform and select the area of your life you want to focus on — whether confidence, anxiety, relationships, self-worth or a specific challenge." },
+        { title: "Receive Your Affirmation", description: "The AI generates a personalized affirmation paired with a calming capybara image. Read it slowly and let both the words and the visual calm affect your mood." },
+        { title: "Practice Daily", description: "Return each day for a new affirmation. Consistent daily practice of affirmations has documented benefits for mindset and emotional wellbeing over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalized Generation", description: "Affirmations are tailored to specific situations and challenges rather than generic statements making them more personally relevant and emotionally resonant" },
+      { title: "Calming Visual Pairing", description: "Research supports capybaras unique calming effect on human stress response making the imagery more than decorative — it actively enhances the affirmation experience" },
+      { title: "Gentle Approach", description: "Affirmations are crafted to feel warm and achievable rather than performatively positive avoiding the toxic positivity that can undermine genuine self-compassion work" },
+      { title: "Daily Practice Support", description: "Regular delivery supports the consistent daily practice that makes affirmations genuinely effective for mindset improvement over time" }
+    ],
+    useCases: [
+      { title: "Mental Wellness Practice", description: "People incorporating positive affirmations into daily mental wellness routines use Capybara Affirmations for a gentle approachable affirmation experience" },
+      { title: "Anxiety and Stress Relief", description: "Individuals managing anxiety use the combined calming effect of affirmations and capybara imagery as a brief stress relief practice during difficult moments" },
+      { title: "Self-Compassion Work", description: "People working on self-compassion and positive self-talk use personalized affirmations focused on specific areas of inner criticism they are addressing" }
+    ]
+  },
+  "atfirst-affirmations": {
+    whatIs: "AtFirst is a daily affirmation app designed to make positive self-talk a consistent morning practice. The platform delivers personalized affirmations each morning calibrated to the user's specific goals and challenges encouraging users to start each day with intentional positive mindset-setting before the demands of the day take over. AtFirst's approach emphasizes consistency and habit formation over any single affirmation making it a tool for building lasting positive thinking patterns.",
+    features: [
+      "Morning Delivery: Daily affirmations delivered each morning for consistent practice",
+      "Personalization: Affirmations tailored to your specific goals and challenges",
+      "Goal Setting: Connect affirmations to your personal development objectives",
+      "Progress Tracking: Monitor your affirmation practice consistency",
+      "Reminder System: Notification reminders to maintain the morning habit",
+      "Category Coverage: Affirmations for confidence, health, relationships and career",
+      "Custom Affirmations: Create and save your own personalized affirmations",
+      "Community: Share and discover affirmations from other users"
+    ],
+    howToUse: {
+      title: "How to Use Atfirst Affirmations",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Sign up at atfirst.app and complete your profile sharing your personal goals, challenges and the areas of life you want to focus on with daily affirmations." },
+        { title: "Start Your Morning Practice", description: "Receive your first morning affirmation and take a moment to read it mindfully before starting your day. Even 60 seconds of intentional engagement makes a difference." },
+        { title: "Build the Habit", description: "Return each morning and use the progress tracking to maintain your streak. The app sends reminders at your preferred morning time to support consistent practice." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Morning Timing", description: "Delivering affirmations in the morning takes advantage of the first-thing-in-the-day window when mindset-setting has the most influence on the day ahead" },
+      { title: "Habit Formation Focus", description: "Progress tracking, streaks and reminders are all designed to support the consistent practice that turns affirmations from occasional reading into genuine daily habit" },
+      { title: "Goal Alignment", description: "Affirmations are connected to specific personal development goals making them relevant to the user's actual aspirations rather than generic positive statements" },
+      { title: "Personalization Depth", description: "Deep personalization based on goals and challenges produces affirmations that feel specifically written for the individual's situation and needs" }
+    ],
+    useCases: [
+      { title: "Morning Routine Builders", description: "People building intentional morning routines use AtFirst to add a mindfulness and positive thinking element alongside exercise, journaling and other habits" },
+      { title: "Personal Development", description: "Individuals working on specific personal growth goals use goal-aligned affirmations to reinforce the mindset needed for their particular development journey" },
+      { title: "Mental Health Support", description: "People managing anxiety, depression or low self-esteem use daily affirmation practice as part of a broader mental wellness strategy" }
+    ]
+  },
+  "harmonis": {
+    whatIs: "Harmonis is an AI music generation and composition platform that helps musicians, producers and content creators generate original music tracks from simple text descriptions or mood inputs. The platform covers a wide range of musical styles and genres producing royalty-free music suitable for content creation, background music needs and creative projects. Harmonis makes professional-quality original music accessible to creators without music production skills or expensive studio resources.",
+    features: [
+      "Text to Music: Generate original music tracks from text descriptions",
+      "Mood-Based Generation: Create music matching specific emotional atmospheres",
+      "Genre Variety: Generate across pop, classical, electronic, ambient and more",
+      "Royalty Free: All generated music available for commercial use",
+      "Custom Length: Generate tracks at specific durations for video content",
+      "Stem Downloads: Download individual instrument stems for remixing",
+      "Style Mixing: Combine elements from different musical genres",
+      "High Quality Audio: Professional quality audio output for commercial use"
+    ],
+    howToUse: {
+      title: "How to Use Harmonis",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Music", description: "Sign up at harmonis.ai and describe the music you need — the mood, genre, energy level, tempo and any specific instruments you want featured in the track." },
+        { title: "Generate and Preview", description: "The AI generates a complete original music track matching your description. Preview the result and regenerate if you want a different variation." },
+        { title: "Download and Use", description: "Download your generated track in high-quality audio format for use in videos, podcasts, games or any content project. All music is royalty-free for commercial use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Text to Music Generation", description: "Converts natural language descriptions of desired music into complete original tracks removing the technical barrier to music production" },
+      { title: "Mood Precision", description: "Mood-based generation parameters produce tracks that match the specific emotional atmosphere needed for content rather than approximate genre matches" },
+      { title: "Commercial Licensing", description: "Royalty-free licensing for all generated music makes it practical for commercial content creators without licensing complexity or ongoing fees" },
+      { title: "Stem Separation", description: "Individual instrument stem downloads enable content creators and producers to remix and customize generated tracks for specific needs" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "YouTubers, podcasters and video producers use Harmonis to generate original background music for their content avoiding copyright issues with licensed tracks" },
+      { title: "Game Developers", description: "Indie game developers use the platform to generate original soundtracks and atmospheric music for their games without music production expertise" },
+      { title: "Marketing and Advertising", description: "Brands and agencies create original music for advertisements, social media content and branded video without music licensing negotiations" }
+    ]
+  },
   "opinionate": {
     whatIs: "Opinionate is an AI-powered debate and opinion dialogue platform that generates structured arguments, counterarguments and multi-perspective discussions on any topic. The platform is designed for writers, educators, debaters and critical thinkers who want to explore all sides of complex issues through AI-generated dialogue. Opinionate produces balanced arguments across different viewpoints helping users understand the full landscape of any controversial or complex topic before forming their own conclusions.",
     features: [
