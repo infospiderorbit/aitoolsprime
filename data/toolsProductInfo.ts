@@ -1,4 +1,301 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "imagekit": {
+    whatIs: "ImageKit.io is a real-time image and video optimization and transformation API that helps developers deliver fast-loading media content without manual image processing. It sits as a layer between your media storage and your users, automatically optimizing images and videos for the best quality at the smallest file size, converting to modern formats like WebP and AVIF, and transforming images on the fly through URL parameters. For web applications where image performance directly affects page load speed and user experience, ImageKit removes the need to manually create multiple image variants.",
+    features: [
+      "Real-Time Optimization: Automatically optimize images and videos on delivery",
+      "Format Conversion: Convert to WebP, AVIF, and other modern formats automatically",
+      "URL-Based Transformations: Resize, crop, and transform images through URL parameters",
+      "Global CDN: Deliver optimized media through a fast global content delivery network",
+      "Storage Integration: Connect your existing S3, Google Cloud, or other storage",
+      "Video Optimization: Optimize and transform video content alongside images",
+      "Smart Cropping: AI-powered smart crop that keeps the important parts of images",
+      "Analytics: Track delivery performance and optimization savings"
+    ],
+    howToUse: {
+      title: "How to Use Imagekit",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Storage", description: "Sign up at imagekit.io and connect your existing media storage - S3, Google Cloud Storage, Azure, or other sources. ImageKit sits in front of your storage and transforms media on delivery." },
+        { title: "Update Your Image URLs", description: "Replace your direct storage URLs with ImageKit URLs. Add transformation parameters to the URL to resize, crop, or optimize - no manual image processing required." },
+        { title: "Monitor Performance", description: "Use the ImageKit dashboard to track delivery performance, see how much bandwidth optimization is saving, and identify opportunities to improve media loading times further." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Zero Manual Processing", description: "Creating multiple image variants for different screen sizes and formats manually is tedious and error-prone. ImageKit does this automatically through URL parameters eliminating the image processing pipeline" },
+      { title: "Real-Time Adaptability", description: "URL-based transformations mean you can change how an image is delivered without re-processing and re-uploading - just change the URL parameters and the transformation changes immediately" },
+      { title: "Modern Format Adoption", description: "WebP and AVIF can reduce image file sizes by 30-50 percent versus JPEG. ImageKit automatically serves these formats to browsers that support them without any code changes" },
+      { title: "CDN Performance", description: "Delivering optimized images through a global CDN means users get fast media regardless of their geographic location relative to your origin storage" }
+    ],
+    useCases: [
+      { title: "Web Developers Optimizing Performance", description: "Frontend developers building performance-sensitive web applications use ImageKit to automate image optimization without building a custom image processing pipeline" },
+      { title: "E-commerce Platforms", description: "Online stores with large product image catalogs use ImageKit to serve optimized images across device sizes without manually creating and storing multiple variants of every product photo" },
+      { title: "Content-Heavy Publishers", description: "News sites and blogs with many images use ImageKit to ensure their content loads quickly without manual optimization work for every published image" }
+    ]
+  },
+  "salesforce-platform": {
+    whatIs: "Salesforce Platform is a low-code and pro-code application development environment built on top of Salesforce's cloud infrastructure. It gives developers and business analysts the tools to build custom applications, automate workflows, and extend Salesforce's CRM capabilities without building from scratch. The platform combines declarative tools for non-technical users with full programmatic access for developers, making it practical for both quick business process automation and sophisticated custom application development.",
+    features: [
+      "Low-Code App Builder: Build applications visually without writing code for most use cases",
+      "Apex Development: Full programmatic access with Salesforce's proprietary language",
+      "Flow Automation: Automate business processes with visual workflow tools",
+      "Lightning Web Components: Build modern web UIs on the Salesforce platform",
+      "AppExchange: Marketplace of pre-built applications and components",
+      "Salesforce Data: Direct access to your Salesforce CRM data from custom apps",
+      "AI Integration: Einstein AI capabilities built into the platform",
+      "Enterprise Security: Salesforce's enterprise-grade security and compliance"
+    ],
+    howToUse: {
+      title: "How to Use Salesforce Platform",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Use Case", description: "Identify the business process or application you want to build on Salesforce Platform. Use the setup menu to access the declarative tools for simpler automation or the developer console for code-based development." },
+        { title: "Build with Declarative Tools", description: "Use Flow Builder for process automation, the App Builder for UI layout, and Object Manager for data structure - all without code. These tools handle the majority of common business application requirements." },
+        { title: "Extend with Code When Needed", description: "For requirements that declarative tools cannot handle, use Apex for server-side logic and Lightning Web Components for custom UI. The code integrates seamlessly with declarative configurations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Declarative to Programmatic Spectrum", description: "Salesforce Platform covers the full spectrum from no-code business process automation to sophisticated custom application development - which means both business analysts and developers can build on the same platform" },
+      { title: "CRM Data Foundation", description: "Building on Salesforce Platform means your custom applications have direct access to your CRM data without building integrations - customer records, opportunity history, and support cases are all immediately available" },
+      { title: "AppExchange Ecosystem", description: "The vast AppExchange marketplace means many common requirements have pre-built solutions that can be installed rather than built from scratch" },
+      { title: "Enterprise Scale Built-In", description: "Salesforce handles security, scaling, and compliance infrastructure so developers focus on application logic rather than infrastructure management" }
+    ],
+    useCases: [
+      { title: "Salesforce Admins and Developers", description: "Organizations using Salesforce for CRM extend it with custom applications and automation built on Salesforce Platform rather than maintaining separate systems for business processes" },
+      { title: "Business Analysts Automating Processes", description: "Non-technical business users use Flow Builder and other declarative tools to automate manual processes without waiting for IT development resources" },
+      { title: "Enterprise Development Teams", description: "Large organizations build internal business applications on Salesforce Platform to leverage existing Salesforce investment and data without separate infrastructure" }
+    ]
+  },
+  "vondy": {
+    whatIs: "Vondy is an AI-powered application building platform that provides access to hundreds of AI-powered tools and apps in one subscription. It combines a large library of pre-built AI applications for specific tasks with the ability to create custom AI apps using a no-code builder. Users can access tools for writing, image generation, code, marketing, and dozens of other categories - all powered by leading AI models - without subscribing to each service separately.",
+    features: [
+      "Hundreds of AI Apps: Large library of pre-built AI tools across many categories",
+      "Custom App Builder: Create custom AI applications without coding",
+      "Writing Tools: AI writing assistants for many content types",
+      "Image Generation: AI image creation tools across different styles",
+      "Code Generation: Programming assistance and code generation tools",
+      "Marketing Tools: AI tools for marketing copy, ads, and campaigns",
+      "Single Subscription: Access all tools under one subscription",
+      "No-Code Creation: Build custom AI workflows without programming"
+    ],
+    howToUse: {
+      title: "How to Use Vondy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Explore the App Library", description: "Sign up at vondy.com and browse the library of available AI applications. With hundreds of tools organized by category, find the ones most relevant to your work." },
+        { title: "Use Pre-Built Apps", description: "Select an AI app for your task and use it directly. Each app is configured for its specific purpose so you get better results than using a general AI tool for specialized tasks." },
+        { title: "Build Custom Apps", description: "Use the no-code builder to create custom AI applications for your specific workflow needs. Combine AI capabilities with your particular requirements without writing code." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Breadth of Coverage", description: "Having hundreds of specialized AI tools in one place means users can find purpose-built tools for specific tasks rather than trying to coax general-purpose AI into specialized workflows" },
+      { title: "Single Subscription Value", description: "Access to hundreds of AI capabilities under one subscription is more economical than subscribing to multiple specialized AI services separately" },
+      { title: "No-Code Customization", description: "The ability to create custom AI apps without coding means users can tailor AI capabilities to their specific workflow without developer involvement" },
+      { title: "Specialized vs General", description: "Purpose-built AI apps for specific tasks produce better results than prompting a general AI - Vondy's library provides that specialization at scale" }
+    ],
+    useCases: [
+      { title: "Content Creators Needing Diverse AI Tools", description: "Writers, marketers, and creators who need AI assistance across many different content types use Vondy to access specialized tools without managing multiple subscriptions" },
+      { title: "Small Businesses Using AI", description: "Small teams that want AI assistance across their operations use Vondy for broad coverage at a single subscription price" },
+      { title: "Non-Technical Users Building AI Workflows", description: "Business users who want to create custom AI-powered workflows without coding use Vondy's no-code builder to automate their specific processes" }
+    ]
+  },
+  "dify-ai": {
+    whatIs: "Dify is an open-source platform for building LLM-powered applications and AI agents. It provides a visual workflow builder for creating complex AI application pipelines, a prompt engineering interface for developing and testing prompts, and tools for building and deploying AI agents. Dify can be self-hosted for organizations that need to keep their AI application development on-premise, or used through Dify's cloud service. It supports integration with all major AI model providers and gives development teams a structured environment for building production-ready AI applications.",
+    features: [
+      "Visual Workflow Builder: Design complex AI application logic without code",
+      "Prompt Engineering Tools: Develop and test prompts with a structured interface",
+      "AI Agent Builder: Create autonomous AI agents with tool access",
+      "Self-Hostable: Run on your own infrastructure for data privacy and control",
+      "Multi-Model Support: Connect to OpenAI, Anthropic, Google, and other providers",
+      "RAG Pipeline: Build retrieval-augmented generation applications with knowledge bases",
+      "API Generation: Automatically generate APIs for your AI applications",
+      "Open Source: Full source code available for customization and contribution"
+    ],
+    howToUse: {
+      title: "How to Use Dify Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Instance", description: "Install Dify via Docker on your own server or sign up for Dify Cloud. Self-hosting gives full data control while cloud requires no infrastructure management." },
+        { title: "Build Your Application", description: "Use the visual workflow builder to design your AI application logic. Connect LLM nodes, retrieval nodes, condition logic, and output formatting to create your application pipeline." },
+        { title: "Deploy and Integrate", description: "Deploy your application and use the generated API to integrate it into your product or workflow. Dify handles the infrastructure and scaling while you focus on the application logic." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual AI Application Development", description: "Building LLM application pipelines in code is complex and hard to maintain. Dify's visual builder makes the logic transparent and modifiable without requiring developers to understand the implementation details" },
+      { title: "Self-Hosting for Compliance", description: "Organizations with data privacy requirements or regulatory constraints use Dify self-hosted to keep AI application development entirely within their own infrastructure" },
+      { title: "RAG Application Support", description: "Retrieval-augmented generation is one of the most common enterprise AI patterns. Dify provides dedicated tooling for building RAG applications with knowledge bases rather than requiring custom implementation" },
+      { title: "Open Source Flexibility", description: "The open source model means organizations can customize Dify for their specific requirements and contribute improvements back to the community" }
+    ],
+    useCases: [
+      { title: "Development Teams Building AI Products", description: "Engineering teams building AI-powered features into their products use Dify as the development and deployment platform for their LLM application logic" },
+      { title: "Enterprise AI Teams", description: "Organizations building internal AI tools use Dify self-hosted to maintain control over their AI application development and the data that flows through it" },
+      { title: "AI Researchers and Experimenters", description: "Researchers building and comparing AI application architectures use Dify's visual builder to iterate on designs quickly without rewriting code for each variation" }
+    ]
+  },
+  "refact-ai": {
+    whatIs: "Refact.ai is an open-source AI coding assistant that can be self-hosted, making it particularly attractive for development teams at organizations with strict data privacy requirements or those that cannot send source code to external AI services. It provides code completion, refactoring suggestions, and AI chat about your codebase - similar to GitHub Copilot - but with the option to run everything on your own infrastructure. The self-hosted model means the code never leaves your environment, which is a meaningful distinction for companies in regulated industries.",
+    features: [
+      "AI Code Completion: Intelligent code completion as you type",
+      "Self-Hostable: Run entirely on your own infrastructure with no external data transfer",
+      "Open Source: Full source code available for audit and customization",
+      "Code Chat: AI conversation about your codebase and programming questions",
+      "Refactoring Assistance: Suggestions for improving and refactoring existing code",
+      "Multiple IDE Support: Works with VS Code, JetBrains IDEs, and others",
+      "Custom Models: Use your own fine-tuned models or open-source alternatives",
+      "Privacy First: Code never leaves your environment when self-hosted"
+    ],
+    howToUse: {
+      title: "How to Use Refact Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Deploy Your Instance", description: "Set up Refact.ai on your own server using the Docker deployment instructions. Configure your chosen AI model - either a cloud API or a locally running open-source model." },
+        { title: "Install the IDE Plugin", description: "Install the Refact.ai plugin for VS Code, JetBrains, or your preferred IDE. Connect it to your self-hosted instance using your server URL and credentials." },
+        { title: "Code with AI Assistance", description: "Use Refact.ai like any AI coding assistant - get completions as you type, ask questions about your code in the chat, and request refactoring suggestions for existing code." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Self-Hosted Privacy", description: "For organizations that cannot send source code to external services - financial institutions, healthcare companies, defense contractors - self-hosted Refact.ai provides AI coding assistance within their own security perimeter" },
+      { title: "Open Source Auditability", description: "Security-conscious teams can audit the Refact.ai source code to understand exactly what it does with their code - which is not possible with closed-source AI coding tools" },
+      { title: "Custom Model Flexibility", description: "Running your own instance means you can use open-source models like Code Llama rather than being locked into a specific vendor's model" },
+      { title: "Cost Control", description: "Self-hosting with open-source models eliminates per-query API costs that can become significant for large development teams with heavy AI tool usage" }
+    ],
+    useCases: [
+      { title: "Security-Conscious Development Teams", description: "Teams at financial institutions, healthcare companies, and other regulated industries use Refact.ai for AI coding assistance without the compliance risk of sending code to external services" },
+      { title: "Open Source Advocates", description: "Development teams committed to open-source tooling use Refact.ai because the entire system - including the AI assistant - is open and auditable" },
+      { title: "Cost-Sensitive Teams", description: "Large development organizations that want AI coding assistance without significant ongoing API costs use Refact.ai self-hosted with open-source models" }
+    ]
+  },
+  "digma-ai": {
+    whatIs: "Digma is an AI-powered continuous feedback platform for developers that analyzes runtime data from your application and surfaces performance issues, errors, and code quality problems directly in your IDE as you work. Rather than waiting for problems to be reported by users or discovered in monitoring dashboards, Digma connects the gap between writing code and understanding how it actually performs in production. Developers see runtime insights about the code they are working on without leaving their editor.",
+    features: [
+      "IDE Integration: See runtime performance data directly in your development environment",
+      "Continuous Feedback: Ongoing analysis of how your code performs in production",
+      "Performance Issue Detection: Automatically identify slow code paths and bottlenecks",
+      "Error Tracking: Surface errors and exceptions linked to specific code locations",
+      "Code Quality Insights: Identify code that frequently causes production issues",
+      "Team Visibility: Share performance insights across the development team",
+      "Multiple Languages: Supports Java, Python, and other major languages",
+      "OpenTelemetry Integration: Works with standard observability data formats"
+    ],
+    howToUse: {
+      title: "How to Use Digma Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Application", description: "Install the Digma IDE plugin and connect it to your application's observability data using OpenTelemetry. Digma begins analyzing runtime behavior and linking it to your source code." },
+        { title: "See Runtime Insights in IDE", description: "As you open files and work on code, Digma displays performance metrics, error rates, and quality insights directly in your editor alongside the code they relate to." },
+        { title: "Act on Continuous Feedback", description: "Use the insights to identify and fix performance issues before they escalate. Digma surfaces problems proactively rather than waiting for production incidents or user complaints." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Runtime Context in the Editor", description: "The gap between writing code and understanding its production behavior is a significant source of technical debt. Digma brings runtime data into the editor so developers have performance context while they are writing and modifying code" },
+      { title: "Proactive vs Reactive", description: "Most teams discover performance problems after they have already impacted users. Digma's continuous feedback surfaces issues before they reach that stage" },
+      { title: "Code-to-Production Link", description: "Connecting specific lines of code to their production performance metrics gives developers a much clearer understanding of what their changes actually do to system behavior" },
+      { title: "Developer-First Observability", description: "Traditional observability tools are designed for operations teams. Digma surfaces the same data in a format and location designed specifically for developers" }
+    ],
+    useCases: [
+      { title: "Development Teams Caring About Performance", description: "Engineering teams that prioritize performance and want developers to understand the production impact of their code use Digma to make runtime data a standard part of the development workflow" },
+      { title: "Teams Reducing Technical Debt", description: "Organizations working to reduce accumulated technical debt use Digma to identify the specific code that causes the most production problems and prioritize improvement work" },
+      { title: "DevOps-Oriented Development Teams", description: "Teams practicing DevOps principles use Digma to bring operational feedback into the development process rather than keeping dev and ops concerns separated" }
+    ]
+  },
+  "qodo": {
+    whatIs: "Qodo (formerly Codium) is an AI code integrity platform focused on testing and code quality rather than just code generation. While most AI coding tools help you write more code faster, Qodo helps you write better code by automatically generating comprehensive tests, analyzing code behavior, and identifying edge cases that manual testing often misses. The shift from speed to quality reflects a different philosophy about where AI assistance is most valuable in the development process.",
+    features: [
+      "Automated Test Generation: Generate comprehensive tests for your code automatically",
+      "Edge Case Discovery: Identify edge cases and unusual inputs that could cause failures",
+      "Code Behavior Analysis: Understand what your code actually does through AI analysis",
+      "PR Review: AI-powered pull request review focused on code behavior and testing",
+      "Multiple Languages: Test generation across Python, JavaScript, TypeScript, Java, and more",
+      "IDE Integration: Works directly in VS Code and JetBrains IDEs",
+      "Git Integration: Analyze changes in pull requests and generate relevant tests",
+      "Coverage Improvement: Increase test coverage systematically with AI assistance"
+    ],
+    howToUse: {
+      title: "How to Use Qodo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Plugin", description: "Install the Qodo plugin from the VS Code marketplace or JetBrains plugin repository. Sign in and the plugin activates immediately in your editor." },
+        { title: "Generate Tests for Your Code", description: "Select a function or class and ask Qodo to generate tests. It analyzes the code behavior and creates comprehensive tests covering normal cases and edge cases you might not have thought of." },
+        { title: "Review and Integrate", description: "Review the generated tests for accuracy and relevance. Add them to your test suite and use them as a foundation for understanding and improving your code quality." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Quality Over Speed", description: "Most AI tools optimize for writing code faster. Qodo optimizes for writing code better - the focus on testing and behavior analysis addresses a different and arguably more important gap in AI coding assistance" },
+      { title: "Edge Case Discovery", description: "Human developers are good at testing the happy path and obvious failure cases. AI analysis of code behavior systematically identifies edge cases that humans consistently overlook" },
+      { title: "Test Coverage as Default", description: "Having AI generate tests removes the friction of writing them - which means test coverage becomes the default rather than something that gets skipped when deadlines are tight" },
+      { title: "Behavior Understanding", description: "The code behavior analysis that underlies test generation gives developers clearer insight into what their code actually does versus what they intended it to do" }
+    ],
+    useCases: [
+      { title: "Developers Who Prioritize Test Coverage", description: "Engineers who want comprehensive test coverage but find writing tests time-consuming use Qodo to generate quality tests quickly without the manual effort" },
+      { title: "Teams Improving Code Quality", description: "Development teams focused on reducing bugs and improving reliability use Qodo to systematically increase test coverage and discover edge cases before they cause production issues" },
+      { title: "Code Reviewers", description: "Senior developers doing code reviews use Qodo to analyze PR changes and ensure adequate testing accompanies new code" }
+    ]
+  },
+  "weights-biases": {
+    whatIs: "Weights and Biases (W&B) is the leading MLOps platform for machine learning experiment tracking, model visualization, and dataset management. It helps ML teams track every experiment they run - hyperparameters, metrics, model outputs, and system performance - so they can understand what works, reproduce results, and collaborate effectively. For teams doing serious ML development, W&B is often the difference between organized, reproducible research and a chaotic pile of experiments nobody can make sense of.",
+    features: [
+      "Experiment Tracking: Log every ML experiment with metrics, hyperparameters, and outputs",
+      "Visualization: Beautiful interactive charts for loss curves, metrics, and model outputs",
+      "Hyperparameter Sweeps: Automated hyperparameter optimization across many configurations",
+      "Model Registry: Version and manage trained models throughout their lifecycle",
+      "Dataset Versioning: Track dataset versions alongside model versions",
+      "Team Collaboration: Share experiments and results across the ML team",
+      "Reports: Create shareable documentation of ML research and findings",
+      "Integrations: Works with PyTorch, TensorFlow, Keras, Hugging Face, and more"
+    ],
+    howToUse: {
+      title: "How to Use Weights Biases",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Add W&B to Your Training Code", description: "Install the wandb Python package and add a few lines to your training script to initialize W&B and log your metrics. The integration takes minutes for most standard ML frameworks." },
+        { title: "Run Your Experiments", description: "Train your models as normal. W&B automatically captures your metrics, hyperparameters, system utilization, and any custom data you log. All experiments appear in your W&B dashboard in real time." },
+        { title: "Analyze and Compare", description: "Use the W&B dashboard to compare experiments, visualize training curves, identify the best configurations, and share findings with your team through reports." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Experiment Reproducibility", description: "ML experiments without proper tracking are nearly impossible to reproduce. W&B captures everything about each run so any experiment can be exactly reproduced when needed" },
+      { title: "Hyperparameter Sweep Automation", description: "Manually trying different hyperparameter combinations is tedious and inefficient. W&B Sweeps automate this search process and intelligently explore the parameter space" },
+      { title: "Team ML Collaboration", description: "ML research without shared experiment tracking creates knowledge silos. W&B gives the whole team visibility into what has been tried and what worked" },
+      { title: "Research to Production Path", description: "The model registry connects research experiments to production deployments - tracking which experiments produced which models and maintaining versioned model artifacts" }
+    ],
+    useCases: [
+      { title: "ML Research Teams", description: "Academic and industry research teams use W&B to organize their experiments, share results across the team, and maintain the reproducibility that serious ML research requires" },
+      { title: "ML Engineers Building Production Models", description: "Engineers training and deploying models use W&B to track the full lifecycle from experimentation to production deployment with complete visibility into model provenance" },
+      { title: "Data Scientists Optimizing Models", description: "Data scientists doing iterative model improvement use W&B to understand which changes actually improve performance and avoid re-running experiments that have already been tried" }
+    ]
+  },
+  "fal-ai": {
+    whatIs: "fal.ai is a fast AI inference platform focused specifically on generative AI models - image generation, video generation, audio, and other media generation tasks. It is built for low-latency inference at scale, making it practical for production applications that need to generate images or videos in response to user requests in real time. fal.ai hosts many popular open-source generative AI models and provides the infrastructure to run them with the speed and reliability that consumer applications require.",
+    features: [
+      "Fast Inference: Low-latency generative AI inference optimized for production use",
+      "Image Generation: Access to Flux, Stable Diffusion, and other leading image models",
+      "Video Generation: Run video generation models through a simple API",
+      "Real-Time APIs: Streaming and real-time inference for interactive applications",
+      "Popular Models: Access to the most popular open-source generative AI models",
+      "Simple API: Clean REST API and Python SDK for easy integration",
+      "Scalable Infrastructure: Handles traffic spikes without manual scaling",
+      "Webhook Support: Async processing with webhooks for longer generation tasks"
+    ],
+    howToUse: {
+      title: "How to Use Fal Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Get Your API Key", description: "Sign up at fal.ai and get your API key. Browse the model catalog to find the image or video generation model you want to use." },
+        { title: "Make Your First API Call", description: "Use the fal.ai Python SDK or REST API to run your first generation. Pass your prompt and parameters, and receive your generated image or video in seconds." },
+        { title: "Integrate and Scale", description: "Add fal.ai to your application's media generation workflow. Use real-time endpoints for interactive features and async processing with webhooks for batch generation tasks." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed for Production", description: "Many generative AI providers are optimized for quality benchmarks rather than production latency. fal.ai focuses on the speed that interactive consumer applications actually need" },
+      { title: "Broad Model Coverage", description: "Having access to Flux, Stable Diffusion, and other leading models through one platform means teams can switch models as the state of the art evolves without changing their integration" },
+      { title: "Scale Without Ops", description: "Managing GPU infrastructure for generative AI at scale is complex. fal.ai handles that complexity so development teams can focus on their application rather than infrastructure" },
+      { title: "Streaming Capabilities", description: "Real-time streaming inference enables progressive image generation experiences in web applications - users see results forming rather than waiting for complete generation" }
+    ],
+    useCases: [
+      { title: "App Developers Adding Image Generation", description: "Consumer and enterprise application developers who need to add AI image generation features use fal.ai for fast reliable inference without managing GPU infrastructure" },
+      { title: "Creative Tool Builders", description: "Teams building AI-powered creative tools for designers, marketers, and content creators use fal.ai for the generation speed that makes real-time creative workflows practical" },
+      { title: "AI Startup Product Teams", description: "Early-stage companies building generative AI products use fal.ai to get to market quickly without the capital expense of dedicated GPU infrastructure" }
+    ]
+  },
   "perplexity-comet": {
     whatIs: "Comet is an AI-powered web browser built by Perplexity that reimagines browsing as a conversational, agentic experience. Rather than searching and clicking through pages, you describe what you want to accomplish and Comet executes entire workflows on your behalf - booking meetings, sending emails, comparing products, summarizing articles, and more. Built on Chromium and deeply integrated with Perplexity's AI search engine, Comet maintains context across your entire browsing session so it understands what you are working on and can assist proactively rather than reactively.",
     features: [
