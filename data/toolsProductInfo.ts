@@ -1,4 +1,301 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "tilda": {
+    whatIs: "Tilda is a website builder focused on creating beautiful long-form landing pages, portfolios, and editorial content sites using a block-based editor. It offers hundreds of pre-designed content blocks that users combine and customize to build pages - no coding required. Tilda's design quality is notably high compared to most website builders, with blocks designed by professional designers that produce polished results even for non-designers. AI features help with text generation, SEO optimization, and content suggestions.",
+    features: [
+      "Block-Based Editor: Build pages by combining pre-designed content blocks",
+      "500 Plus Blocks: Extensive library of professionally designed content blocks",
+      "AI Text Generation: Generate website copy with AI assistance",
+      "E-commerce: Built-in online store capabilities",
+      "Forms and CRM: Collect leads and manage contacts",
+      "SEO Tools: Built-in SEO optimization features",
+      "Custom Domain: Connect your own domain name",
+      "Free Plan: Build and publish basic sites without paying"
+    ],
+    howToUse: {
+      title: "How to Use Tilda",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Blocks", description: "Sign up at tilda.cc and create a new project. Browse the block library and add the sections you need - hero, features, testimonials, contact form - dragging them into your page order." },
+        { title: "Customize Content", description: "Edit the text, images, and styling of each block to match your brand. Use the AI text generator to draft copy for sections when you need a starting point." },
+        { title: "Publish and Optimize", description: "Publish your site and use Tilda's SEO tools to optimize it for search. Connect your custom domain and set up any forms or e-commerce features you need." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Design Quality at Non-Designer Level", description: "Tilda's professionally designed blocks produce results that look polished even when assembled by someone without design training - which is its core differentiator from simpler website builders" },
+      { title: "Editorial and Long-Form Strength", description: "Tilda is particularly good at editorial-style pages with rich content layouts - the kind of scrolling landing pages and case studies that require thoughtful content block combinations" },
+      { title: "Block Efficiency", description: "Starting from professionally designed blocks rather than blank templates dramatically reduces the time needed to produce a good-looking page" },
+      { title: "Free Entry Point", description: "The free plan allows building and publishing real sites which makes Tilda accessible for evaluation before committing to a paid plan" }
+    ],
+    useCases: [
+      { title: "Small Business Owners Building Landing Pages", description: "Business owners who need professional-looking landing pages without design skills use Tilda's block library to produce quality results quickly" },
+      { title: "Marketers Building Campaign Pages", description: "Marketing teams creating dedicated landing pages for campaigns use Tilda for the speed and design quality that block-based building provides" },
+      { title: "Creative Professionals Building Portfolios", description: "Designers, photographers, and other creative professionals use Tilda for portfolio sites that showcase their work in a polished editorial format" }
+    ]
+  },
+  "gamma": {
+    whatIs: "Gamma is an AI-powered presentation and document creation tool that generates complete, visually polished presentations from a text prompt or outline. Instead of spending hours in PowerPoint arranging slides and choosing layouts, you describe what you want and Gamma produces a complete deck with appropriate layouts, visual hierarchy, and design consistency. It also works for documents and web pages - content that traditionally would be formatted in Word or published on a website can be created in Gamma with AI assistance.",
+    features: [
+      "AI Presentation Generation: Create complete presentations from text prompts",
+      "Document Creation: Generate formatted documents and reports with AI",
+      "Web Pages: Create shareable web pages alongside presentations",
+      "Template Library: Professional templates across industries and use cases",
+      "Real-Time Collaboration: Multiple people editing simultaneously",
+      "One-Click Sharing: Share presentations as live web links",
+      "Export Options: Download as PDF or PowerPoint",
+      "Analytics: See who viewed your presentation and for how long"
+    ],
+    howToUse: {
+      title: "How to Use Gamma",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Presentation", description: "Sign up at gamma.app and describe what you want to create - the topic, audience, and any specific points you want covered. Gamma generates a complete presentation in seconds." },
+        { title: "Refine and Customize", description: "Review the generated slides and customize the content, adjust layouts, change the visual theme, and add or remove sections until the presentation matches your needs." },
+        { title: "Share or Export", description: "Share your presentation as a live web link that anyone can view in a browser, or export to PDF or PowerPoint format for traditional presentation delivery." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed from Prompt to Presentation", description: "Generating a complete presentation from a description in seconds versus hours of manual slide building is the core value - particularly for presentations that need to look professional quickly" },
+      { title: "Web-Native Sharing", description: "Sharing presentations as live web links rather than file attachments means recipients always see the current version and the presenter gets analytics on views" },
+      { title: "Document and Presentation Unified", description: "Gamma works for both presentations and long-form documents in the same tool - which simplifies the workflow for people who create both types of content regularly" },
+      { title: "Collaboration Without Friction", description: "Real-time collaboration with live link sharing means teams can work on presentations together without the version control problems that come with emailing PowerPoint files" }
+    ],
+    useCases: [
+      { title: "Business Professionals Creating Decks", description: "Executives and managers who need to create presentations regularly use Gamma to reduce the time investment without sacrificing the visual quality their audience expects" },
+      { title: "Sales and Marketing Teams", description: "Teams creating pitch decks, proposals, and campaign presentations use Gamma to produce polished materials quickly for time-sensitive opportunities" },
+      { title: "Students and Academics", description: "Students creating presentation assignments and academics preparing conference talks use Gamma to produce professional-looking slides without design expertise" }
+    ]
+  },
+  "prismic": {
+    whatIs: "Prismic is a headless CMS that gives development teams a flexible content infrastructure while giving marketing and content teams a user-friendly editing interface. It decouples content management from the frontend presentation layer so developers can build with any framework while editors manage content through a clean visual interface. Prismic's Slice Machine feature lets developers define reusable content components that editors can combine to build pages - maintaining design consistency while giving content teams real editorial flexibility.",
+    features: [
+      "Headless CMS: Flexible content API for any frontend framework",
+      "Slice Machine: Define reusable page-building components for editors",
+      "Visual Editor: Non-technical content editing with live preview",
+      "Multi-Language: Manage content across multiple languages and locales",
+      "Versioning: Content versioning and scheduled publishing",
+      "API First: GraphQL and REST APIs for content delivery",
+      "Next.js Integration: Deep integration with Next.js for modern web development",
+      "Free Plan: Start building without payment for small projects"
+    ],
+    howToUse: {
+      title: "How to Use Prismic",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Repository", description: "Sign up at prismic.io and create a content repository. Define your content types and use Slice Machine to build the reusable components your editors will use to build pages." },
+        { title: "Build Your Frontend", description: "Connect Prismic to your frontend application using the Prismic client library. Query content through the API and render it in your chosen framework." },
+        { title: "Editors Manage Content", description: "Give your content team access to the Prismic editor. They can create and update content using the visual interface without touching code or needing developer involvement for content changes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Developer and Editor Separation", description: "Prismic cleanly separates developer concerns from editor concerns - developers control the component library and data structures while editors control the content within those structures" },
+      { title: "Slice Machine Flexibility", description: "Defining reusable content slices gives editors genuine page-building flexibility within the design system constraints developers have established" },
+      { title: "Framework Agnostic", description: "Unlike CMS platforms tied to specific frontend stacks, Prismic works with Next.js, Nuxt, SvelteKit, and any other modern framework through its API" },
+      { title: "Editorial Independence", description: "Content teams can update pages, create new content, and manage translations without waiting for developer involvement in every content change" }
+    ],
+    useCases: [
+      { title: "Development Teams Building Content Sites", description: "Engineering teams building marketing sites, documentation, and content-heavy applications use Prismic for flexible content infrastructure without building a custom CMS" },
+      { title: "Marketing Teams Wanting Editorial Control", description: "Marketing departments that want to update their website content without developer bottlenecks use Prismic for the editorial independence a headless CMS provides" },
+      { title: "Agencies Building Client Sites", description: "Web agencies use Prismic to build client sites where clients can manage their own content after launch without ongoing developer involvement" }
+    ]
+  },
+  "middleware": {
+    whatIs: "Middleware is a full-stack observability platform designed for developers who want a clear picture of their application's performance and health without the complexity of enterprise monitoring tools. It combines log management, distributed tracing, metrics, and error tracking in one unified platform so developers can understand what their application is doing without switching between multiple monitoring tools. The developer-focused interface makes it accessible to engineers who are not monitoring specialists.",
+    features: [
+      "Log Management: Centralized log collection and search across your application",
+      "Distributed Tracing: Track requests across microservices and dependencies",
+      "Metrics Dashboard: Monitor application performance metrics in real time",
+      "Error Tracking: Capture and alert on application errors and exceptions",
+      "APM: Application performance monitoring with detailed transaction views",
+      "Infrastructure Monitoring: Server and container health alongside application metrics",
+      "Alerting: Configurable alerts for anomalies and threshold breaches",
+      "Developer Friendly: Interface designed for developers not operations specialists"
+    ],
+    howToUse: {
+      title: "How to Use Middleware",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the SDK", description: "Sign up at middleware.io and install the Middleware SDK or agent for your application. The integration takes minutes for most common frameworks and languages." },
+        { title: "Explore Your Data", description: "Once data is flowing, explore your logs, traces, and metrics in the Middleware dashboard. Use the unified search to find specific events across all your observability data." },
+        { title: "Set Up Alerts", description: "Configure alerts for the conditions that matter to your application - error rate spikes, slow transactions, infrastructure problems. Receive notifications before issues impact users." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Unified Observability", description: "Having logs, traces, metrics, and errors in one platform eliminates the context switching between multiple tools that makes incident investigation slow and frustrating" },
+      { title: "Developer-Focused Design", description: "Middleware is built for developers rather than operations teams - the interface assumes programming knowledge rather than specialized monitoring expertise" },
+      { title: "Full Stack Coverage", description: "Covering application code, infrastructure, and dependencies in one view gives a complete picture of what is happening rather than isolated views of different system layers" },
+      { title: "Quick Time to Value", description: "Simple SDK integration means observability can be set up in minutes rather than the hours or days that complex enterprise monitoring tools require" }
+    ],
+    useCases: [
+      { title: "Development Teams Without Dedicated DevOps", description: "Small to medium engineering teams without dedicated operations staff use Middleware to get production observability without the complexity of enterprise monitoring platforms" },
+      { title: "Startups Scaling Their Applications", description: "Growing startups use Middleware to understand application performance as they scale without the cost and complexity of traditional enterprise observability tools" },
+      { title: "Developers Debugging Production Issues", description: "Engineers investigating production problems use Middleware's unified search across logs, traces, and metrics to find root causes faster than investigating each data source separately" }
+    ]
+  },
+  "instalog": {
+    whatIs: "Instalog is a developer-focused log management tool built for simplicity and speed. It collects logs from your applications and infrastructure, makes them searchable, and provides alerting when things go wrong. Instalog is designed for smaller teams and individual developers who need proper log management without the complexity and cost of enterprise logging platforms. The focus is on getting logs searchable and alerting working quickly rather than providing every possible enterprise feature.",
+    features: [
+      "Log Collection: Aggregate logs from applications and infrastructure",
+      "Fast Search: Quick full-text search across all your log data",
+      "Real-Time Streaming: See logs appearing in real time as they are generated",
+      "Alerting: Get notified when specific patterns appear in your logs",
+      "Retention: Configurable log retention periods",
+      "Simple Integration: Quick setup for common frameworks and platforms",
+      "Dashboard: Visual overview of log volume and patterns",
+      "Affordable Pricing: Cost-effective pricing for smaller teams and projects"
+    ],
+    howToUse: {
+      title: "How to Use Instalog",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Send Your Logs", description: "Sign up at instalog.dev and add the Instalog integration to your application. Send logs using the API, SDK, or one of the standard logging integrations." },
+        { title: "Search and Explore", description: "Use the search interface to find specific events, errors, and patterns in your logs. Filter by time range, level, service, and custom fields." },
+        { title: "Configure Alerts", description: "Set up alerts for error patterns, specific log messages, or unusual log volume. Receive notifications through email or your preferred communication channel." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Simplicity First", description: "Enterprise logging platforms are powerful but complex to set up and expensive to run. Instalog focuses on the core use case - searchable logs with alerting - without the overhead" },
+      { title: "Real-Time Visibility", description: "Streaming logs in real time means developers can watch what their application is doing as it happens - particularly useful during deployment and debugging sessions" },
+      { title: "Cost Accessibility", description: "Log management costs can escalate quickly with high-volume applications. Instalog's pricing is designed to be affordable for smaller teams and individual developers" },
+      { title: "Fast Setup", description: "Getting logs into a searchable system quickly is often the most urgent need. Instalog prioritizes quick integration over comprehensive feature sets" }
+    ],
+    useCases: [
+      { title: "Individual Developers and Small Teams", description: "Solo developers and small engineering teams use Instalog for proper log management without the enterprise tool overhead that their scale does not justify" },
+      { title: "Startups in Early Stages", description: "Early-stage companies use Instalog to establish log management quickly before they have the scale or budget to justify more expensive enterprise logging platforms" },
+      { title: "Side Projects and Small Applications", description: "Developers running personal projects and small production applications use Instalog to get visibility into application behavior without significant cost" }
+    ]
+  },
+  "logzen": {
+    whatIs: "Logzen is a log management and analysis platform that helps development and operations teams make sense of application log data. It provides centralized log collection, powerful search, and analytical tools for understanding patterns in log data over time. Logzen focuses on making log data actionable - not just storing and searching it but helping teams understand what their logs are telling them about application health and user behavior.",
+    features: [
+      "Centralized Log Collection: Aggregate logs from multiple sources and services",
+      "Powerful Search: Advanced search with filtering and field extraction",
+      "Log Analytics: Understand patterns and trends in log data over time",
+      "Visualization: Charts and dashboards for log data analysis",
+      "Alerting: Notifications for anomalies and specific log patterns",
+      "Parsing: Automatic and custom log parsing for structured analysis",
+      "Retention Management: Configurable data retention policies",
+      "Team Access: Multi-user access with role-based permissions"
+    ],
+    howToUse: {
+      title: "How to Use Logzen",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Configure Log Sources", description: "Sign up at logzen.io and configure your log sources - applications, servers, containers, and other infrastructure. Logzen collects and indexes logs as they are generated." },
+        { title: "Search and Filter", description: "Use the search interface to find specific events and patterns. Apply filters for time range, service, severity, and any fields in your structured logs." },
+        { title: "Build Dashboards", description: "Create dashboards that visualize the log patterns that matter most for your application - error rates, user activity, performance metrics derived from log data." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Analytical Focus", description: "Logzen goes beyond log storage and search to provide analytical tools for understanding trends and patterns - which helps teams be proactive about issues rather than purely reactive" },
+      { title: "Structured Log Support", description: "Good structured logging produces machine-parseable log data. Logzen's parsing capabilities extract that structure automatically so teams can filter and analyze on any field" },
+      { title: "Team Collaboration", description: "Multi-user access with role-based permissions means the whole team can access log data appropriately without giving everyone unrestricted access" },
+      { title: "Dashboard Visibility", description: "Visualizing log patterns in dashboards provides ongoing visibility into application health that raw log search alone does not provide" }
+    ],
+    useCases: [
+      { title: "DevOps and Platform Teams", description: "Teams responsible for application reliability use Logzen to maintain visibility into application health and quickly diagnose problems when they occur" },
+      { title: "Development Teams Debugging Issues", description: "Engineers investigating bugs and performance problems use Logzen to search log history and understand what sequence of events led to an issue" },
+      { title: "Product Teams Understanding User Behavior", description: "Teams who log user actions use Logzen's analytics to understand usage patterns and identify where users encounter problems" }
+    ]
+  },
+  "softr": {
+    whatIs: "Softr is a no-code platform that lets non-technical users build web applications and internal tools directly on top of their existing data sources - primarily Airtable and Google Sheets. You connect your data source, choose from Softr's pre-built blocks, and configure them to display and interact with your data. The result is a working web application - a client portal, an internal tool, a directory, or a marketplace - without writing any code. For teams that have already organized their data in Airtable or Sheets and want to build an interface on top of it, Softr is the fastest path.",
+    features: [
+      "Airtable Integration: Build apps directly on top of your Airtable data",
+      "Google Sheets Support: Connect Google Sheets as your application backend",
+      "Pre-Built Blocks: Library of UI blocks for common application patterns",
+      "User Authentication: Add login and user-specific data access to your apps",
+      "Client Portals: Build external-facing portals for clients and partners",
+      "Internal Tools: Create internal dashboards and tools for your team",
+      "No-Code Builder: Visual drag-and-drop interface with no coding required",
+      "Custom Domains: Publish apps on your own domain"
+    ],
+    howToUse: {
+      title: "How to Use Softr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Data", description: "Sign up at softr.io and connect your Airtable base or Google Sheet. Softr reads your data structure and makes it available for your application." },
+        { title: "Build Your Interface", description: "Use the visual builder to add blocks - tables, forms, charts, cards - and configure them to display your data. Set up filters, sorting, and user-specific views." },
+        { title: "Add Authentication and Publish", description: "Configure user authentication if your app needs login. Set permissions for which users can see which data, then publish your app on a Softr subdomain or your custom domain." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data Source Leverage", description: "Teams that have invested in organizing data in Airtable or Google Sheets can build real applications on top of that investment without rebuilding the data layer" },
+      { title: "Client Portal Speed", description: "Building a client portal that shows each client their own data is a common need that typically requires significant development. Softr makes it a configuration task rather than a coding project" },
+      { title: "No-Code for Real Applications", description: "Softr produces functional web applications rather than simple websites - applications with authentication, user-specific data, and real interactivity" },
+      { title: "Ops Team Empowerment", description: "Operations teams who own data in Airtable can build their own tools without waiting for engineering resources" }
+    ],
+    useCases: [
+      { title: "Operations Teams Building Internal Tools", description: "Business operations teams who manage data in Airtable use Softr to build internal dashboards and tools without developer involvement" },
+      { title: "Agencies Building Client Portals", description: "Service businesses use Softr to build client portals where each client can log in and see their own project status, invoices, and deliverables" },
+      { title: "Startups Building MVPs", description: "Early-stage teams use Softr to validate product ideas by building working applications on spreadsheet data before investing in custom development" }
+    ]
+  },
+  "powtoon": {
+    whatIs: "Powtoon is an animated presentation and video creation platform that lets users create professional-looking animated content without animation skills. It provides templates, character libraries, and animation tools that make it possible to produce explainer videos, training content, and presentations with engaging animated visuals. AI features assist with script generation, scene suggestions, and content creation to speed up the production process. For organizations that need to produce video content regularly without a video production team, Powtoon makes that practical.",
+    features: [
+      "Animated Presentations: Create animated slides and presentations",
+      "Explainer Video Templates: Professional templates for product and service explainers",
+      "Character Library: Animated characters for engaging visual storytelling",
+      "AI Script Generation: Generate video scripts with AI assistance",
+      "Screen Recording: Add screen capture alongside animations",
+      "Voiceover: Add narration to your animated content",
+      "Brand Kit: Maintain consistent branding across all your videos",
+      "Export Options: Export in various video formats for different platforms"
+    ],
+    howToUse: {
+      title: "How to Use Powtoon",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Sign up at powtoon.com and choose a template that matches your content type - explainer video, training module, presentation, or social media content." },
+        { title: "Customize Your Content", description: "Replace the template text, images, and characters with your own content. Use the AI script generator to draft narration if you need help with the words." },
+        { title: "Add Animation and Audio", description: "Configure the animation timing, add voiceover narration or music, and preview your video before exporting in your preferred format." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Animation Without Skills", description: "Powtoon's templates and character library produce animated videos that look professionally produced even when created by someone with no animation background" },
+      { title: "Training Content at Scale", description: "Organizations that need to produce regular training videos use Powtoon to create engaging content without the cost of professional video production for every module" },
+      { title: "Explainer Video Speed", description: "Creating a polished explainer video from scratch is expensive and slow. Powtoon's templates dramatically reduce both the time and cost" },
+      { title: "AI Script Assistance", description: "The AI script generator removes one of the biggest blockers in video production - knowing what to say - by providing a starting draft that creators refine" }
+    ],
+    useCases: [
+      { title: "HR and Training Teams", description: "Learning and development professionals use Powtoon to create engaging training videos and onboarding content without video production expertise" },
+      { title: "Marketing Teams Creating Explainer Content", description: "Marketing departments use Powtoon to produce product explainer videos and social media content without hiring a video production agency" },
+      { title: "Teachers and Educators", description: "Educators create animated lesson content and instructional videos using Powtoon to make learning more engaging for students" }
+    ]
+  },
+  "mailerlite": {
+    whatIs: "MailerLite is an email marketing platform designed for small businesses and creators who want powerful email marketing capabilities without the complexity and cost of enterprise tools. It provides email campaign creation, automation workflows, landing page building, and subscriber management in a clean interface that does not require marketing expertise to use effectively. The platform offers a generous free plan and affordable paid tiers that make professional email marketing accessible to businesses at every stage.",
+    features: [
+      "Email Campaigns: Create and send professional email newsletters",
+      "Automation: Build automated email sequences based on subscriber behavior",
+      "Landing Pages: Create dedicated landing pages for email opt-ins",
+      "Pop-Ups: Add subscriber opt-in forms to your website",
+      "Segmentation: Organize subscribers into targeted groups",
+      "A/B Testing: Test different email variations to improve performance",
+      "Analytics: Track opens, clicks, and conversions for every campaign",
+      "Free Plan: Send up to 12000 emails per month free with 1000 subscribers"
+    ],
+    howToUse: {
+      title: "How to Use Mailerlite",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Subscribers", description: "Sign up at mailerlite.com and import your existing subscriber list or set up a sign-up form to start collecting new subscribers." },
+        { title: "Create Your Campaign", description: "Use the drag-and-drop email editor to design your campaign. Choose a template as a starting point and customize the content, images, and layout." },
+        { title: "Set Up Automation", description: "Build automated sequences for new subscribers, abandoned carts, or other triggers. Define the conditions and email content for each step in your automation workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Generous Free Tier", description: "The free plan with 12000 monthly emails and 1000 subscribers is genuinely useful for small businesses getting started with email marketing - not a stripped-down trial" },
+      { title: "Simplicity Without Sacrifice", description: "MailerLite is simpler than enterprise email platforms but does not sacrifice the core capabilities - automation, segmentation, A/B testing - that make email marketing effective" },
+      { title: "Landing Page Integration", description: "Having landing pages built into the email platform means subscriber acquisition and email sending are managed in one place rather than requiring separate tools" },
+      { title: "Creator Focus", description: "MailerLite is particularly popular with independent creators, bloggers, and small businesses who need professional email marketing without the enterprise price tag" }
+    ],
+    useCases: [
+      { title: "Small Businesses Starting Email Marketing", description: "Small business owners who want to start building an email list and sending campaigns use MailerLite for its accessible pricing and straightforward interface" },
+      { title: "Creators and Bloggers", description: "Independent creators and newsletter writers use MailerLite to manage their subscriber relationships and send regular content to their audience" },
+      { title: "Nonprofits and Community Organizations", description: "Organizations with limited budgets use MailerLite's generous free tier to maintain email communication with their communities without marketing software costs" }
+    ]
+  },
   "oss-insight": {
     whatIs: "OSS Insight is an analytics platform for GitHub that transforms the massive volume of GitHub event data into meaningful insights about open source projects, developers, and trends. It lets you explore real-time statistics about repositories, compare projects side by side, understand contributor patterns, and discover what is happening in the open source ecosystem. For developers who want to understand the health and trajectory of open source projects they depend on or contribute to, OSS Insight provides data-driven answers.",
     features: [
