@@ -1,4 +1,301 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "perplexity-comet": {
+    whatIs: "Comet is an AI-powered web browser built by Perplexity that reimagines browsing as a conversational, agentic experience. Rather than searching and clicking through pages, you describe what you want to accomplish and Comet executes entire workflows on your behalf - booking meetings, sending emails, comparing products, summarizing articles, and more. Built on Chromium and deeply integrated with Perplexity's AI search engine, Comet maintains context across your entire browsing session so it understands what you are working on and can assist proactively rather than reactively.",
+    features: [
+      "Agentic Browsing: AI executes complete workflows not just answers questions",
+      "Task Automation: Book meetings, send emails, and take actions directly in the browser",
+      "Perplexity AI Integration: Built-in access to Perplexity search and AI answers",
+      "Context Memory: Remembers what you are working on across your entire session",
+      "Webpage Summarization: Instantly summarize any page without copy-pasting",
+      "Native Ad Blocking: Industry-leading ad blocker built directly into the browser",
+      "Cross-Platform: Available on Windows, macOS, iOS, and Android",
+      "Chromium Based: Compatible with Chrome extensions and familiar browser patterns"
+    ],
+    howToUse: {
+      title: "How to Use Perplexity Comet",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Download and Install", description: "Get Comet from perplexity.ai/comet for desktop or from the App Store and Google Play for mobile. Sign in with your Perplexity account to unlock the full AI capabilities." },
+        { title: "Browse and Ask", description: "Use Comet like a regular browser but with an AI assistant always available. Highlight any text for instant explanations or open the assistant to ask questions about what you are reading." },
+        { title: "Delegate Tasks", description: "Tell Comet what you want to accomplish in plain language. For complex multi-step tasks like researching options and booking something, Comet handles the entire workflow while you stay focused on the outcome." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browsing to Doing", description: "Traditional browsers require you to search, read, click, and act yourself. Comet shifts the paradigm - you describe what you want done and the browser does it, which is particularly powerful for research and administrative tasks" },
+      { title: "Always-On Context", description: "Because Comet remembers your session context, the AI assistance gets more useful as you work. It understands what you have already read and can connect information across pages automatically" },
+      { title: "Perplexity Search Foundation", description: "Perplexity's reputation for accurate, source-cited answers is built into every interaction. The AI assistance is grounded in reliable information rather than confident-sounding guesses" },
+      { title: "Native Ad Blocking", description: "The built-in ad blocker is noted as industry-leading by users who switched from other browsers - cleaner browsing is a practical everyday benefit alongside the AI features" }
+    ],
+    useCases: [
+      { title: "Knowledge Workers and Researchers", description: "Professionals who spend hours researching, summarizing, and acting on information use Comet to collapse multi-step workflows into single natural language requests" },
+      { title: "Busy Professionals Managing Administrative Tasks", description: "People who want to delegate routine browser tasks - booking, emailing, form-filling - use Comet's agentic capabilities to reclaim time spent on repetitive online actions" },
+      { title: "Perplexity Power Users", description: "Existing Perplexity users who already rely on its AI search upgrade to Comet to bring that same intelligence into their entire browsing experience" }
+    ]
+  },
+  "dia-browser": {
+    whatIs: "Dia Browser is an AI-first web browser developed by The Browser Company, the team behind Arc Browser. Dia is designed around the premise that the browser should be an active participant in your work rather than a passive window to the web. It integrates AI throughout the browsing experience - answering questions about pages you are on, helping you research topics across multiple sites simultaneously, and taking actions on your behalf. Dia represents The Browser Company's vision of what a browser looks like when it is built for an AI-native world rather than having AI added as an afterthought.",
+    features: [
+      "AI-Native Design: Browser built from scratch around AI assistance rather than having AI added later",
+      "Active AI Participant: AI helps with research, answers, and tasks throughout browsing",
+      "Multi-Site Research: Research topics across multiple websites simultaneously",
+      "Page Understanding: AI reads and understands pages you are visiting for instant answers",
+      "Task Assistance: Get help completing tasks and navigating complex workflows online",
+      "Privacy Controls: Thoughtful privacy design from The Browser Company team",
+      "Arc DNA: Built by the team behind the popular Arc Browser",
+      "Modern Interface: Clean contemporary browser design focused on reducing friction"
+    ],
+    howToUse: {
+      title: "How to Use Dia Browser",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Download Dia", description: "Get Dia Browser from the official site. The installation process is straightforward and the browser imports your bookmarks and settings from your current browser to ease the transition." },
+        { title: "Browse with AI Assistance", description: "As you browse, Dia's AI is available to answer questions about what you are reading, help you research topics across multiple sites, and assist with tasks you are trying to complete." },
+        { title: "Use AI for Complex Tasks", description: "For research tasks that span multiple websites, use Dia to have the AI synthesize information from different sources and help you reach conclusions faster than reading and cross-referencing manually." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Built for AI from the Start", description: "The Browser Company's philosophy with Dia is that adding AI to an existing browser architecture produces a fundamentally inferior experience. Building the browser around AI from the beginning produces more natural, capable integration" },
+      { title: "Arc Pedigree", description: "The Browser Company built Arc Browser which developed a devoted following for its thoughtful approach to browser design. Dia inherits that design sensibility with AI at the center" },
+      { title: "Research Acceleration", description: "The ability to research topics across multiple sites simultaneously with AI synthesizing the information addresses one of the most time-consuming aspects of knowledge work" },
+      { title: "Page-Aware Assistance", description: "AI that understands the specific page you are on gives more relevant and contextually appropriate assistance than a general AI assistant that does not know what you are looking at" }
+    ],
+    useCases: [
+      { title: "Researchers and Knowledge Workers", description: "Professionals whose work involves heavy research across multiple sources use Dia to synthesize information faster and reduce the time spent manually cross-referencing content" },
+      { title: "Arc Browser Users Ready for AI", description: "Existing Arc users who loved The Browser Company's design philosophy use Dia to get the same thoughtful approach applied to an AI-native browsing experience" },
+      { title: "Curious People Who Browse to Learn", description: "People who use the web primarily for learning and research find Dia's AI assistance makes the process of understanding complex topics significantly faster" }
+    ]
+  },
+  "browserbase": {
+    whatIs: "Browserbase is a cloud platform that provides headless browser infrastructure for AI agents and automation workflows. It gives developers and AI systems programmatic access to fully functional browsers running in the cloud - complete with JavaScript execution, session management, and the ability to interact with any website exactly as a human would. As AI agents increasingly need to browse the web, fill forms, extract data, and perform browser-based tasks autonomously, Browserbase provides the reliable infrastructure that makes those capabilities production-ready.",
+    features: [
+      "Headless Browser Infrastructure: Fully functional cloud browsers for AI agents and automation",
+      "AI Agent Support: Built specifically for the needs of autonomous AI systems",
+      "JavaScript Execution: Full browser capabilities including dynamic content rendering",
+      "Session Management: Maintain browser sessions across multi-step automated workflows",
+      "Stealth Capabilities: Browsers that can interact with sites without being detected as bots",
+      "Scaling: Run many browser sessions in parallel for high-volume automation",
+      "Developer API: Clean API for controlling browsers programmatically",
+      "Integrations: Works with Playwright, Puppeteer, and other browser automation frameworks"
+    ],
+    howToUse: {
+      title: "How to Use Browserbase",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Get Your API Key", description: "Sign up at browserbase.com and get your API key. Connect using your preferred browser automation framework - Playwright, Puppeteer, or the Browserbase SDK." },
+        { title: "Launch Browser Sessions", description: "Use the API to launch browser sessions in the cloud. The browsers have full capabilities including JavaScript execution, cookies, and the ability to interact with any website." },
+        { title: "Build Your Automation", description: "Control the browser programmatically to navigate pages, fill forms, extract data, and complete complex multi-step workflows. Sessions persist across multiple steps for complex agent tasks." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Agent Native", description: "Browserbase is built specifically for the era of AI agents that browse the web autonomously. The infrastructure handles the complexity of keeping agents running reliably at scale" },
+      { title: "Production-Grade Reliability", description: "Running browser automation in production requires handling failures, scaling sessions, and managing the infrastructure. Browserbase handles all of that so developers focus on the agent logic" },
+      { title: "Stealth for Real-World Websites", description: "Many websites detect and block simple bot traffic. Browserbase's browser sessions behave like real users, which makes it practical for AI agents that need to interact with sites that protect against automation" },
+      { title: "Framework Compatibility", description: "Working with Playwright and Puppeteer means developers can use their existing automation code with Browserbase without rewriting their tooling" }
+    ],
+    useCases: [
+      { title: "AI Agent Developers", description: "Teams building AI agents that need to browse the web, extract information, or complete browser-based tasks use Browserbase for reliable cloud browser infrastructure" },
+      { title: "Web Scraping and Data Extraction Teams", description: "Companies that need to collect data from websites at scale use Browserbase to run many parallel browser sessions without managing their own headless browser infrastructure" },
+      { title: "QA and Testing Teams", description: "Engineering teams that run browser-based testing use Browserbase for scalable parallel test execution without maintaining their own browser infrastructure" }
+    ]
+  },
+  "kiro": {
+    whatIs: "Kiro is an AI-powered development environment focused on specification-driven development - the idea that writing clear specifications before writing code produces better software. Rather than jumping straight to code generation, Kiro helps you define what your software should do through structured specs, then generates code that actually matches those specifications. This approach addresses one of the main complaints about AI-generated code - that it works in isolation but does not fit properly into the larger system being built.",
+    features: [
+      "Spec-Driven Development: Define specifications before generating code for better results",
+      "Hooks System: Automate repetitive development tasks with event-driven hooks",
+      "Agent Steering: Guide AI behavior with rules and constraints specific to your project",
+      "Context Awareness: Deep understanding of your project structure and requirements",
+      "Multi-File Generation: Generate coordinated changes across multiple files",
+      "Testing Integration: Generate tests alongside implementation code",
+      "Documentation Generation: Create documentation from specifications automatically",
+      "VS Code Compatible: Familiar development environment with AI enhancements"
+    ],
+    howToUse: {
+      title: "How to Use Kiro",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Specification", description: "Open Kiro and describe what you want to build as a structured specification - what the feature should do, what inputs it accepts, what outputs it produces, and any constraints or requirements." },
+        { title: "Review and Refine the Spec", description: "Kiro helps you refine the specification to make it complete and unambiguous. A well-defined spec leads to code that actually matches your intent rather than a plausible interpretation of an unclear request." },
+        { title: "Generate and Iterate", description: "Generate code from your specification and review how well it matches your intent. Iterate on both the spec and the implementation until the result is exactly what you needed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Specification First", description: "Jumping to code generation without clear specifications produces code that works in isolation but misses important requirements. Kiro's spec-first approach produces better-aligned output" },
+      { title: "Hook Automation", description: "Repetitive development tasks like updating tests when code changes or generating documentation when features are added can be automated with Kiro's hooks system - reducing the manual overhead of maintaining a codebase" },
+      { title: "Agent Steering Rules", description: "Being able to define rules that guide how the AI behaves in your specific project context produces more consistently appropriate suggestions than an AI that has no knowledge of your conventions" },
+      { title: "Reduced Rework", description: "Clear specifications before code generation means fewer surprises in the output - the AI is generating to a spec rather than guessing at intent, which reduces how often the output needs to be substantially revised" }
+    ],
+    useCases: [
+      { title: "Developers Who Write Specs Before Code", description: "Engineers who already practice specification-driven or test-driven development find Kiro's approach aligns with their workflow and improves the quality of AI-generated code" },
+      { title: "Teams Building Complex Systems", description: "Development teams working on large systems with many interconnected components use Kiro to ensure AI-generated code fits properly into the broader architecture" },
+      { title: "Developers Frustrated with AI Code Quality", description: "Engineers who have found AI code generation useful but frustrating when the output misses requirements use Kiro's spec-driven approach to get more reliably accurate results" }
+    ]
+  },
+  "warp": {
+    whatIs: "Warp is a modern terminal built for the AI era - it looks and feels like a standard terminal but with AI assistance, collaborative features, and a much more developer-friendly interface baked in. The AI can explain commands you do not understand, suggest the right command for what you want to do, debug errors in your output, and run multi-step terminal workflows autonomously. For developers who live in the terminal, Warp is a significant quality-of-life upgrade that does not require changing how you fundamentally work.",
+    features: [
+      "AI Command Suggestions: Describe what you want to do and get the right command",
+      "Error Explanation: AI explains what went wrong when commands fail",
+      "Command History: Searchable history with intelligent recall",
+      "Blocks Interface: Terminal output organized into discrete blocks for clarity",
+      "Team Sharing: Share terminal sessions and command workflows with teammates",
+      "Notebooks: Create reusable command documentation with runnable examples",
+      "SSH Integration: Connect to remote servers with enhanced AI assistance",
+      "Cross-Platform: Available on macOS, Linux, and Windows"
+    ],
+    howToUse: {
+      title: "How to Use Warp",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Warp", description: "Download Warp from warp.dev. It replaces your existing terminal completely - import your shell configuration and start using it immediately without any workflow changes." },
+        { title: "Use AI for Commands", description: "When you are not sure of the exact command syntax, describe what you want to do in plain language and Warp suggests the right command. Review the suggestion before running it." },
+        { title: "Debug with AI Help", description: "When a command fails, ask Warp's AI to explain the error and suggest how to fix it. The AI sees the full context of your terminal session so its suggestions are specific to your situation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Terminal Intelligence", description: "The terminal is where developers spend enormous amounts of time and where small friction points compound. AI that understands what you are trying to accomplish and helps you get there is genuinely valuable in this context" },
+      { title: "Error Context", description: "When a command fails, the AI sees the actual error output and your terminal history - not just a generic question. This context makes the debugging assistance far more specific and useful than asking a general AI" },
+      { title: "Blocks Organization", description: "Terminal output traditionally runs together in a continuous stream that is hard to scan. Warp's blocks interface separates commands and their output into discrete units that are much easier to navigate" },
+      { title: "Notebook Documentation", description: "Being able to create runnable documentation with real commands helps teams maintain institutional knowledge about how to perform specific operations" }
+    ],
+    useCases: [
+      { title: "Developers Who Live in the Terminal", description: "Engineers who spend most of their workday in terminal sessions use Warp for AI assistance, better organization, and the quality-of-life improvements that make terminal work more pleasant" },
+      { title: "DevOps and Platform Engineers", description: "Infrastructure engineers running complex command sequences use Warp's notebooks to document and share procedures with their teams" },
+      { title: "Developers Learning Command Line", description: "Less experienced developers use Warp's AI suggestions and explanations to build command line proficiency without constantly searching for the right syntax" }
+    ]
+  },
+  "v0-dev": {
+    whatIs: "v0 is an AI tool from Vercel that generates React UI components and full page interfaces from text descriptions or screenshots. You describe the interface you want or paste a screenshot of an existing design and v0 produces clean, copy-paste ready React code using Tailwind CSS and shadcn/ui components. It is designed specifically for frontend developers who want to move faster on UI work - getting from a rough concept to working code in seconds rather than writing component markup from scratch.",
+    features: [
+      "React Component Generation: Generate complete React components from text descriptions",
+      "Screenshot to Code: Convert design screenshots or mockups to working React code",
+      "Tailwind CSS Output: Clean Tailwind-styled components ready for production use",
+      "shadcn/ui Integration: Uses the popular shadcn component library for consistent results",
+      "Copy-Paste Ready: Output is immediately usable without modification for basic cases",
+      "Iterative Refinement: Describe changes to refine the generated component",
+      "Multiple Variants: Generate several design variations to choose from",
+      "Vercel Integration: Seamless deployment to Vercel from the v0 interface"
+    ],
+    howToUse: {
+      title: "How to Use V0 Dev",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Component", description: "Go to v0.dev and describe the UI component or page you want to build. Be specific about layout, colors, content, and functionality - the more detail you provide the more accurate the output." },
+        { title: "Review and Refine", description: "v0 generates React code with a live preview. Review the result and describe any changes - adjust the layout, change colors, add or remove elements - and v0 updates the code accordingly." },
+        { title: "Copy and Integrate", description: "Copy the generated code into your project. The output uses standard React, Tailwind CSS, and shadcn/ui patterns so it integrates cleanly into existing Next.js and React projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Frontend Speed", description: "Writing component markup is one of the most time-consuming parts of frontend development. v0 handles the initial structure so developers can focus on the logic and customization rather than the scaffolding" },
+      { title: "Screenshot to Code", description: "Being able to paste a screenshot of an existing design or a Figma frame and get working code removes one of the biggest friction points in the design-to-development handoff" },
+      { title: "Tailwind and shadcn Standard", description: "Using Tailwind CSS and shadcn/ui as the output format means the generated code follows patterns that are already standard in the React ecosystem - it drops into existing projects without style conflicts" },
+      { title: "Vercel Ecosystem Fit", description: "For teams already using Next.js and Vercel, v0 fits naturally into the workflow - generated components deploy seamlessly to the same infrastructure the rest of the application uses" }
+    ],
+    useCases: [
+      { title: "Frontend Developers Building UIs Quickly", description: "React developers use v0 to scaffold component code rapidly rather than writing every element from scratch, focusing their time on business logic and custom functionality" },
+      { title: "Designers Who Code", description: "Designers with React knowledge use v0 to convert their design ideas into working code quickly without getting bogged down in markup details" },
+      { title: "Full-Stack Developers Doing Frontend Work", description: "Backend developers who need to build frontend interfaces use v0 to generate quality UI code without deep frontend expertise" }
+    ]
+  },
+  "bitbucket": {
+    whatIs: "Bitbucket is Atlassian's Git repository hosting platform, tightly integrated with the rest of the Atlassian ecosystem including Jira, Confluence, and Trello. It is used by development teams who work primarily within Atlassian tools and want their code hosting, CI/CD pipelines, and project management to work seamlessly together. Bitbucket Pipelines provides built-in CI/CD without requiring a separate service, and the integration with Jira means code commits and pull requests can be automatically linked to the issues and sprints they relate to.",
+    features: [
+      "Git Repository Hosting: Full-featured Git hosting with unlimited private repositories",
+      "Bitbucket Pipelines: Built-in CI/CD without a separate service",
+      "Jira Integration: Automatic linking of commits and PRs to Jira issues",
+      "Code Review: Pull request workflow with inline comments and approvals",
+      "Branch Permissions: Fine-grained control over who can push to which branches",
+      "Merge Checks: Enforce code review and CI requirements before merging",
+      "Atlassian Ecosystem: Deep integration with Jira, Confluence, and Trello",
+      "Free for Small Teams: Free plan for teams up to 5 users with unlimited private repos"
+    ],
+    howToUse: {
+      title: "How to Use Bitbucket",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Repository", description: "Sign up at bitbucket.org and create your first repository. Import from an existing Git repo or start fresh. Connect your Jira project to enable automatic issue linking." },
+        { title: "Set Up Pipelines", description: "Add a bitbucket-pipelines.yml file to your repository to configure CI/CD. Bitbucket runs your tests and deployment steps automatically on every push without any external service setup." },
+        { title: "Review and Merge Code", description: "Use pull requests for code review. Reviewers leave inline comments, approve changes, and Bitbucket enforces any merge checks you have configured before allowing the merge." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Atlassian Ecosystem Fit", description: "Teams already using Jira for project management get uniquely deep integration with Bitbucket - commits and PRs link to Jira issues automatically, creating a connected view of development work and project status" },
+      { title: "Built-In CI/CD", description: "Not needing a separate CI/CD service reduces the number of tools to manage and keeps the build configuration in the same repository as the code" },
+      { title: "Free Private Repos", description: "The free plan with unlimited private repositories for small teams makes Bitbucket accessible for individuals and early-stage teams who need proper Git hosting without paying for it" },
+      { title: "Branch and Merge Governance", description: "Fine-grained branch permissions and configurable merge requirements give team leads control over code quality and review processes without relying on team discipline alone" }
+    ],
+    useCases: [
+      { title: "Atlassian Tool Users", description: "Development teams already using Jira for issue tracking use Bitbucket for the automatic linking between code and project work that no other Git host provides at the same depth" },
+      { title: "Small Teams Starting Out", description: "Small development teams use Bitbucket's free tier for unlimited private repositories without committing to paid plans before they need the additional features" },
+      { title: "Enterprise Atlassian Customers", description: "Large organizations with enterprise Atlassian licenses use Bitbucket as part of a fully integrated Atlassian development toolchain" }
+    ]
+  },
+  "coderabbit": {
+    whatIs: "CodeRabbit is an AI-powered code review platform that analyzes pull requests and provides detailed, contextually relevant feedback automatically. It goes beyond style and syntax checking to provide substantive feedback on logic, potential bugs, security issues, and architectural concerns - the kind of review that would normally require an experienced senior developer. For teams where review bottlenecks slow down development, or where junior developers need more thorough feedback than the team can consistently provide manually, CodeRabbit addresses the gap.",
+    features: [
+      "AI Pull Request Review: Automatic detailed code review on every pull request",
+      "Line-by-Line Feedback: Specific inline comments at the exact location of each issue",
+      "Security Analysis: Identifies potential security vulnerabilities in code changes",
+      "Logic Review: Catches logical errors and edge cases beyond syntax checking",
+      "GitHub and GitLab Integration: Works directly in your existing PR workflow",
+      "Configurable Rules: Customize review focus and ignore patterns for your codebase",
+      "Learning Mode: AI learns your codebase patterns over time for more relevant feedback",
+      "Review Summary: High-level summary of the pull request alongside detailed comments"
+    ],
+    howToUse: {
+      title: "How to Use Coderabbit",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Integration", description: "Install CodeRabbit from the GitHub Marketplace or GitLab integrations. Authorize it on your repositories and it begins reviewing new pull requests immediately." },
+        { title: "Open a Pull Request", description: "Create a pull request as normal. CodeRabbit automatically reviews the changes and posts inline comments and a summary within minutes of the PR being opened." },
+        { title: "Review and Act on Feedback", description: "Read CodeRabbit's feedback alongside your human reviewers. Respond to comments, make changes, and use the AI review as one input in your overall code quality process." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Review at Scale", description: "Human code review is a bottleneck in many development teams - there are only so many senior developers and only so many hours. CodeRabbit provides thorough review on every PR without that constraint" },
+      { title: "Consistent Quality", description: "Human reviewers have bad days, rush reviews, and miss things when distracted. CodeRabbit reviews every PR with the same level of attention regardless of volume or time of day" },
+      { title: "Security as Standard", description: "Security review is often skipped in time-pressured environments. Having automatic security analysis on every PR makes security checking a default rather than an exception" },
+      { title: "Junior Developer Support", description: "Less experienced developers get detailed feedback on every PR that helps them learn what constitutes good code - which accelerates their development much faster than occasional human feedback" }
+    ],
+    useCases: [
+      { title: "Development Teams with Review Bottlenecks", description: "Teams where code review is slowing down deployment velocity use CodeRabbit to increase review throughput without adding headcount" },
+      { title: "Teams with Junior Developers", description: "Organizations with junior engineers use CodeRabbit to provide thorough consistent feedback that accelerates learning and catches issues before they reach production" },
+      { title: "Security-Conscious Development Teams", description: "Teams building applications where security matters use CodeRabbit's automatic security analysis to ensure security review happens on every code change" }
+    ]
+  },
+  "google-ai-studio": {
+    whatIs: "Google AI Studio is a free web-based development environment for building and experimenting with Google's Gemini AI models. It provides a direct interface to Gemini's capabilities - text generation, multimodal understanding, code generation, and long-context reasoning - with tools for prompt engineering, model fine-tuning, and API key generation. For developers who want to explore Gemini's capabilities or build prototypes using Google's AI models, AI Studio is the most direct path to getting started without setting up any infrastructure.",
+    features: [
+      "Gemini Model Access: Direct access to Gemini Pro, Gemini Flash, and other Google AI models",
+      "Multimodal Support: Work with text, images, video, audio, and documents in one interface",
+      "Prompt Engineering: Tools for developing and testing prompts systematically",
+      "Long Context: Gemini's industry-leading context window for processing large documents",
+      "Code Generation: Generate and test code with Gemini's coding capabilities",
+      "API Key Generation: Get API keys for integrating Gemini into your own applications",
+      "Fine-Tuning: Create custom model versions tuned on your specific data",
+      "Free to Use: Generous free tier for development and experimentation"
+    ],
+    howToUse: {
+      title: "How to Use Google Ai Studio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open AI Studio", description: "Go to aistudio.google.com and sign in with your Google account. No setup required - you can start experimenting with Gemini models immediately." },
+        { title: "Explore and Experiment", description: "Try different Gemini models with your prompts. Use the system instruction field to define model behavior, experiment with different parameters, and test multimodal inputs with images and documents." },
+        { title: "Get Your API Key", description: "When you are ready to integrate Gemini into your application, generate an API key from AI Studio and use the generated code snippets to add Gemini capabilities to your project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Lowest Barrier to Gemini", description: "Google AI Studio is the fastest way to start working with Gemini - open a browser, sign in, and start prompting. No infrastructure, no setup, no cost to get started" },
+      { title: "Multimodal Experimentation", description: "Gemini's multimodal capabilities - understanding images, video, audio, and documents alongside text - are all accessible in AI Studio for hands-on exploration without any coding" },
+      { title: "Long Context Advantage", description: "Gemini's exceptionally long context window makes it possible to process entire books, codebases, or document collections in a single prompt. AI Studio is the easiest place to explore what this makes possible" },
+      { title: "Prototype to Production Path", description: "Starting in AI Studio for experimentation and getting API keys for production integration creates a smooth path from idea to deployed application entirely within Google's ecosystem" }
+    ],
+    useCases: [
+      { title: "Developers Exploring Gemini", description: "Developers who want to understand Gemini's capabilities and find the right prompts for their use case use AI Studio for free experimentation before committing to API integration" },
+      { title: "Researchers and Academics", description: "Researchers working with large documents, codebases, or multimodal data use AI Studio to explore what Gemini's long context and multimodal capabilities make possible for their specific domain" },
+      { title: "Students Learning AI Development", description: "Students learning to build AI applications use Google AI Studio as a free, accessible starting point for hands-on experience with state-of-the-art language models" }
+    ]
+  },
   "openrouter": {
     whatIs: "OpenRouter is a unified API gateway that gives developers access to hundreds of AI models from different providers through a single API endpoint. Instead of integrating with OpenAI, Anthropic, Google, Meta, and every other model provider separately, developers connect once to OpenRouter and get access to the full range of available models with automatic fallbacks, load balancing, and cost optimization built in. It handles the complexity of managing multiple AI provider relationships so developers can focus on building rather than infrastructure.",
     features: [
