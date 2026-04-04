@@ -1897,85 +1897,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "vidchapter", name: "VidChapter", description: "AI video tags and chapters", url: "", upvotes: 432, verified: false, rating: 4.2, icon: "📚", category: "social-media", subcategory: "youtube-tags-generator" }
     ]
   },
-  "ai-detection-anti-detection": {
-    "ai-art-detector": [
-      { id: "guessai", name: "GuessAI", description: "AI-powered art detection and classification", url: "", upvotes: 890, verified: true, rating: 4.6, icon: "🎨", category: "ai-detection-anti-detection", subcategory: "ai-art-detector" },
-      { id: "secur3d", name: "Secur3D", description: "3D AI art detection and security", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "🔐", category: "ai-detection-anti-detection", subcategory: "ai-art-detector" },
-      { id: "ai-or-human-art-game", name: "AI or Human Art Game", description: "Interactive game to test AI art detection skills", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "🎮", category: "ai-detection-anti-detection", subcategory: "ai-art-detector" },
-      { id: "whomadethisartwork", name: "Whomadethisartwork.com", description: "Platform to identify AI-generated artwork", url: "", upvotes: 321, verified: true, rating: 4.2, icon: "🔍", category: "ai-detection-anti-detection", subcategory: "ai-art-detector" },
-      { id: "gan-or-real-person-detector", name: "GAN or Real Person Detector", description: "Detects GAN-generated vs real person images", url: "", upvotes: 234, verified: true, rating: 4.1, icon: "👤", category: "ai-detection-anti-detection", subcategory: "ai-art-detector" }
-    ],
-    "ai-bypasser": [
-      { id: "lunchbreak-ai", name: "Lunchbreak AI", description: "Lunchbreak AI is a quick productivity AI tool designed for short focused work sessions helping users accomplish tasks efficiently during breaks", url: "https://lunchbreak.ai", upvotes: 2800, verified: false, rating: 4.2, icon: "☕", category: "office-productivity", subcategory: "ai-bypasser", addedDate: "2026-04-01" },
-      { id: "bypassgpt", name: "BypassGPT", description: "Advanced AI detection bypassing tool", url: "", upvotes: 1098, verified: true, rating: 4.6, icon: "🔓", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" },
-      { id: "phrasly-ai", name: "Phrasly.AI", description: "AI content rewriting for bypass", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "✍️", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" },
-      { id: "ai-humanize", name: "AI Humanize", description: "Humanize AI-generated content", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🤖", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" },
-      { id: "gptinf", name: "GPTinf", description: "Advanced AI text humanization", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🔄", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" }
-    ],
-    "ai-checker": [
-      { id: "gptzero", name: "GPTZero", description: "Advanced AI text detection platform", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🔍", category: "ai-detection-anti-detection", subcategory: "ai-checker" },
-      { id: "zerogpt", name: "ZeroGPT", description: "Comprehensive AI content detector", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "0️⃣", category: "ai-detection-anti-detection", subcategory: "ai-checker" },
-      { id: "undetectable-ai", name: "Undetectable AI", description: "AI detection and humanization tool", url: "", upvotes: 1567, verified: true, rating: 4.6, icon: "🕵️", category: "ai-detection-anti-detection", subcategory: "ai-checker" },
-      { id: "pronounce-ai", name: "Pronounce AI", description: "AI voice and text detection", url: "", upvotes: 890, verified: true, rating: 4.5, icon: "🗣️", category: "ai-detection-anti-detection", subcategory: "ai-checker" },
-      { id: "zerogpt-plus", name: "ZeroGPT Plus", description: "Enhanced AI detection with premium features", url: "", upvotes: 678, verified: true, rating: 4.4, icon: "➕", category: "ai-detection-anti-detection", subcategory: "ai-checker" }
-    ],
-    "ai-checker-essay": [
-      { id: "essay-grader-ai", name: "Essay Grader AI", description: "AI-powered essay grading and detection", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "📝", category: "ai-detection-anti-detection", subcategory: "ai-checker-essay" },
-      { id: "myperfectwords", name: "MyPerfectWords.com", description: "Essay analysis and AI detection", url: "", upvotes: 890, verified: true, rating: 4.6, icon: "✨", category: "ai-detection-anti-detection", subcategory: "ai-checker-essay" },
-      { id: "cograder", name: "CoGrader", description: "Collaborative essay grading with AI detection", url: "", upvotes: 678, verified: true, rating: 4.5, icon: "👥", category: "ai-detection-anti-detection", subcategory: "ai-checker-essay" },
-      { id: "markme", name: "MarkMe", description: "Automated essay marking and AI detection", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "✅", category: "ai-detection-anti-detection", subcategory: "ai-checker-essay" },
-      { id: "essay-grader-ai-2", name: "Essay Grader AI", description: "Advanced essay evaluation and AI detection", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "📊", category: "ai-detection-anti-detection", subcategory: "ai-checker-essay" }
-    ],
-    "ai-content-detector": [
-      { id: "zerogpt-content", name: "ZeroGPT", description: "Comprehensive AI content detection", url: "", upvotes: 2134, verified: true, rating: 4.8, icon: "🔍", category: "ai-detection-anti-detection", subcategory: "ai-content-detector" },
-      { id: "uhmegle", name: "Uhmegle", description: "AI content detection and analysis", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🤔", category: "ai-detection-anti-detection", subcategory: "ai-content-detector" },
-      { id: "originality-ai", name: "Originality.ai", description: "Advanced plagiarism and AI detection", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🎯", category: "ai-detection-anti-detection", subcategory: "ai-content-detector" },
-      { id: "copyleaks", name: "Copyleaks", description: "AI content and plagiarism detection", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "📋", category: "ai-detection-anti-detection", subcategory: "ai-content-detector" },
-      { id: "bark", name: "Bark", description: "Real-time AI content detection", url: "", upvotes: 765, verified: true, rating: 4.4, icon: "🐕", category: "ai-detection-anti-detection", subcategory: "ai-content-detector" }
-    ],
-    "ai-detector": [
-      { id: "gptzero-detector", name: "GPTZero", description: "Leading AI text detection platform", url: "", upvotes: 2456, verified: true, rating: 4.9, icon: "🔍", category: "ai-detection-anti-detection", subcategory: "ai-detector" },
-      { id: "undetectable-ai-detector", name: "Undetectable AI", description: "Comprehensive AI detection solution", url: "", upvotes: 1789, verified: true, rating: 4.7, icon: "🕵️", category: "ai-detection-anti-detection", subcategory: "ai-detector" },
-      { id: "hcaptcha", name: "hCaptcha", description: "Bot and AI detection security service", url: "", upvotes: 1456, verified: true, rating: 4.6, icon: "🛡️", category: "ai-detection-anti-detection", subcategory: "ai-detector" },
-      { id: "zerogpt-detector", name: "ZeroGPT", description: "Accurate AI content detection", url: "", upvotes: 1234, verified: true, rating: 4.5, icon: "0️⃣", category: "ai-detection-anti-detection", subcategory: "ai-detector" },
-      { id: "onfido", name: "Onfido", description: "Identity verification and AI detection", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "🆔", category: "ai-detection-anti-detection", subcategory: "ai-detector" }
-    ],
-    "ai-image-detector": [
-      { id: "ai-or-not", name: "AI or Not", description: "Image authenticity detection tool", url: "", upvotes: 1345, verified: true, rating: 4.7, icon: "🖼️", category: "ai-detection-anti-detection", subcategory: "ai-image-detector" },
-      { id: "realorai", name: "RealorAI", description: "Real vs AI image detection", url: "", upvotes: 1098, verified: true, rating: 4.6, icon: "👁️", category: "ai-detection-anti-detection", subcategory: "ai-image-detector" },
-      { id: "lenso-ai", name: "Lenso AI", description: "AI reverse image search and face recognition", url: "https://lenso.ai/en", addedDate: "2025-11-25", upvotes: 987, verified: true, rating: 4.6, icon: "🔍", category: "ai-detection-anti-detection", subcategory: "ai-image-detector" },
-      { id: "iris-roads", name: "iris roads", description: "Advanced image AI detection", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🛣️", category: "ai-detection-anti-detection", subcategory: "ai-image-detector" },
-      { id: "ai-badge", name: "AI Badge", description: "AI-generated image identification", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🏷️", category: "ai-detection-anti-detection", subcategory: "ai-image-detector" },
-      { id: "t-rex-label", name: "T-Rex Label", description: "Image classification and AI detection", url: "", upvotes: 543, verified: false, rating: 4.3, icon: "🦕", category: "ai-detection-anti-detection", subcategory: "ai-image-detector" }
-    ],
-    "ai-plagiarism-checker": [
-      { id: "originality-ai-plagiarism", name: "Originality.ai", description: "AI and plagiarism detection platform", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🎯", category: "ai-detection-anti-detection", subcategory: "ai-plagiarism-checker" },
-      { id: "plagiarismcheck", name: "PlagiarismCheck.org", description: "Comprehensive plagiarism detection", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "✅", category: "ai-detection-anti-detection", subcategory: "ai-plagiarism-checker" },
-      { id: "quetext", name: "Quetext", description: "Free plagiarism and AI checker", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "❓", category: "ai-detection-anti-detection", subcategory: "ai-plagiarism-checker" },
-      { id: "noplagio", name: "NoPlagio", description: "Multilingual plagiarism detection", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🚫", category: "ai-detection-anti-detection", subcategory: "ai-plagiarism-checker" }
-    ],
-    "bypass-ai": [
-      { id: "ai-humanize-bypass", name: "AI Humanize", description: "Advanced AI content humanization", url: "", upvotes: 1456, verified: true, rating: 4.7, icon: "🤖", category: "ai-detection-anti-detection", subcategory: "bypass-ai" },
-      { id: "aiseo", name: "AISEO", description: "AI content optimization and bypassing", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🔧", category: "ai-detection-anti-detection", subcategory: "bypass-ai" },
-      { id: "bypassgpt-bypass", name: "BypassGPT", description: "AI detection bypassing service", url: "", upvotes: 1098, verified: true, rating: 4.5, icon: "🔓", category: "ai-detection-anti-detection", subcategory: "bypass-ai" },
-      { id: "phrasly-ai-bypass", name: "Phrasly.AI", description: "AI content rewriting for detection bypass", url: "", upvotes: 876, verified: true, rating: 4.4, icon: "✍️", category: "ai-detection-anti-detection", subcategory: "bypass-ai" },
-      { id: "walter-writes-ai", name: "Walter Writes AI", description: "Human-like AI content generation", url: "", upvotes: 654, verified: true, rating: 4.3, icon: "✒️", category: "ai-detection-anti-detection", subcategory: "bypass-ai" }
-    ],
-    "humanizer-ai": [
-      { id: "stealthwriter-humanizer", name: "StealthWriter", description: "AI content humanization tool", url: "", upvotes: 1567, verified: true, rating: 4.8, icon: "👻", category: "ai-detection-anti-detection", subcategory: "humanizer-ai" },
-      { id: "ai-humanize-humanizer", name: "AI Humanize", description: "Convert AI text to human-like content", url: "", upvotes: 1345, verified: true, rating: 4.7, icon: "🤖", category: "ai-detection-anti-detection", subcategory: "humanizer-ai" },
-      { id: "humbot", name: "Humbot", description: "AI text humanization service", url: "", upvotes: 1098, verified: true, rating: 4.6, icon: "🤖", category: "ai-detection-anti-detection", subcategory: "humanizer-ai" },
-      { id: "writehuman", name: "WriteHuman", description: "Human-like AI content rewriting", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "✍️", category: "ai-detection-anti-detection", subcategory: "humanizer-ai" },
-      { id: "humanize-ai", name: "Humanize AI", description: "Advanced AI content humanization", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "👥", category: "ai-detection-anti-detection", subcategory: "humanizer-ai" }
-    ],
-    "undetectable-ai": [
-      { id: "writehuman-undetectable", name: "WriteHuman", description: "Undetectable AI content creation", url: "", upvotes: 1678, verified: true, rating: 4.8, icon: "✍️", category: "ai-detection-anti-detection", subcategory: "undetectable-ai" },
-      { id: "gptinf-undetectable", name: "GPTinf", description: "Undetectable AI text generation", url: "", upvotes: 1456, verified: true, rating: 4.7, icon: "🔄", category: "ai-detection-anti-detection", subcategory: "undetectable-ai" },
-      { id: "rewritify-ai", name: "Rewritify AI", description: "AI content rewriting for undetectability", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🔄", category: "ai-detection-anti-detection", subcategory: "undetectable-ai" },
-      { id: "humanizer-org", name: "Humanizer.org", description: "Professional AI content humanization", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "🌐", category: "ai-detection-anti-detection", subcategory: "undetectable-ai" },
-      { id: "ai-undetect", name: "AI Undetect", description: "Advanced undetectable AI content", url: "", upvotes: 765, verified: true, rating: 4.4, icon: "🔍", category: "ai-detection-anti-detection", subcategory: "undetectable-ai" }
-    ]
-  },
+
   "coding-development": {
     "ai-api": [
 
@@ -3268,7 +3190,73 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "lamucal", name: "Lamucal", description: "AI music chord analysis", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🎶", category: "music-audio", subcategory: "chord-ai" },
       { id: "bunder", name: "Bunder", description: "Chord detection and learning", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🎼", category: "music-audio", subcategory: "chord-ai" }
     ]
-  }
+  },
+"ai-detection-anti-detection": {
+    "ai-art-detector": [
+      { id: "guessai", name: "GuessAI", description: "AI-powered art detection and classification", url: "", upvotes: 890, verified: true, rating: 4.6, icon: "🎨", category: "ai-detection-anti-detection", subcategory: "ai-art-detector" },
+      { id: "secur3d", name: "Secur3D", description: "3D AI art detection and security", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "🔐", category: "ai-detection-anti-detection", subcategory: "ai-art-detector" },
+      { id: "ai-or-human-art-game", name: "AI or Human Art Game", description: "Interactive game to test AI art detection skills", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "🎮", category: "ai-detection-anti-detection", subcategory: "ai-art-detector" },
+      { id: "whomadethisartwork", name: "Whomadethisartwork.com", description: "Platform to identify AI-generated artwork", url: "", upvotes: 321, verified: true, rating: 4.2, icon: "🔍", category: "ai-detection-anti-detection", subcategory: "ai-art-detector" },
+      { id: "gan-or-real-person-detector", name: "GAN or Real Person Detector", description: "Detects GAN-generated vs real person images", url: "", upvotes: 234, verified: true, rating: 4.1, icon: "👤", category: "ai-detection-anti-detection", subcategory: "ai-art-detector" }
+    ],
+    "ai-bypasser": [
+      { id: "bypassgpt", name: "BypassGPT", description: "Advanced AI detection bypassing tool", url: "", upvotes: 1098, verified: true, rating: 4.6, icon: "🔓", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" },
+      { id: "phrasly-ai", name: "Phrasly.AI", description: "AI content rewriting for bypass", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "✍️", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" },
+      { id: "ai-humanize", name: "AI Humanize", description: "Humanize AI-generated content", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🤖", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" },
+      { id: "gptinf", name: "GPTinf", description: "Advanced AI text humanization", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🔄", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" }
+    ],
+    "ai-checker": [
+      { id: "gptzero", name: "GPTZero", description: "Advanced AI text detection platform", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🔍", category: "ai-detection-anti-detection", subcategory: "ai-checker" },
+      { id: "zerogpt", name: "ZeroGPT", description: "Comprehensive AI content detector", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "0️⃣", category: "ai-detection-anti-detection", subcategory: "ai-checker" },
+      { id: "undetectable-ai", name: "Undetectable AI", description: "AI detection and humanization tool", url: "", upvotes: 1567, verified: true, rating: 4.6, icon: "🕵️", category: "ai-detection-anti-detection", subcategory: "ai-checker" },
+      { id: "pronounce-ai", name: "Pronounce AI", description: "AI voice and text detection", url: "", upvotes: 890, verified: true, rating: 4.5, icon: "🗣️", category: "ai-detection-anti-detection", subcategory: "ai-checker" },
+      { id: "zerogpt-plus", name: "ZeroGPT Plus", description: "Enhanced AI detection with premium features", url: "", upvotes: 678, verified: true, rating: 4.4, icon: "➕", category: "ai-detection-anti-detection", subcategory: "ai-checker" }
+    ],
+    "ai-checker-essay": [
+      { id: "essay-grader-ai", name: "Essay Grader AI", description: "AI-powered essay grading and detection", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "📝", category: "ai-detection-anti-detection", subcategory: "ai-checker-essay" },
+      { id: "myperfectwords", name: "MyPerfectWords.com", description: "Essay analysis and AI detection", url: "", upvotes: 890, verified: true, rating: 4.6, icon: "✨", category: "ai-detection-anti-detection", subcategory: "ai-checker-essay" },
+      { id: "cograder", name: "CoGrader", description: "Collaborative essay grading with AI detection", url: "", upvotes: 678, verified: true, rating: 4.5, icon: "👥", category: "ai-detection-anti-detection", subcategory: "ai-checker-essay" },
+      { id: "markme", name: "MarkMe", description: "Automated essay marking and AI detection", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "✅", category: "ai-detection-anti-detection", subcategory: "ai-checker-essay" }
+    ],
+    "ai-content-detector": [
+      { id: "uhmegle", name: "Uhmegle", description: "AI content detection and analysis", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🤔", category: "ai-detection-anti-detection", subcategory: "ai-content-detector" },
+      { id: "originality-ai", name: "Originality.ai", description: "Advanced plagiarism and AI detection", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🎯", category: "ai-detection-anti-detection", subcategory: "ai-content-detector" },
+      { id: "copyleaks", name: "Copyleaks", description: "AI content and plagiarism detection", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "📋", category: "ai-detection-anti-detection", subcategory: "ai-content-detector" },
+      { id: "bark", name: "Bark", description: "Real-time AI content detection", url: "", upvotes: 765, verified: true, rating: 4.4, icon: "🐕", category: "ai-detection-anti-detection", subcategory: "ai-content-detector" }
+    ],
+    "ai-detector": [
+      { id: "hcaptcha", name: "hCaptcha", description: "Bot and AI detection security service", url: "", upvotes: 1456, verified: true, rating: 4.6, icon: "🛡️", category: "ai-detection-anti-detection", subcategory: "ai-detector" },
+      { id: "onfido", name: "Onfido", description: "Identity verification and AI detection", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "🆔", category: "ai-detection-anti-detection", subcategory: "ai-detector" }
+    ],
+    "ai-image-detector": [
+      { id: "ai-or-not", name: "AI or Not", description: "Image authenticity detection tool", url: "", upvotes: 1345, verified: true, rating: 4.7, icon: "🖼️", category: "ai-detection-anti-detection", subcategory: "ai-image-detector" },
+      { id: "realorai", name: "RealorAI", description: "Real vs AI image detection", url: "", upvotes: 1098, verified: true, rating: 4.6, icon: "👁️", category: "ai-detection-anti-detection", subcategory: "ai-image-detector" },
+      { id: "lenso-ai", name: "Lenso AI", description: "AI-powered image detection and analysis", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "🔭", category: "ai-detection-anti-detection", subcategory: "ai-image-detector" },
+      { id: "iris-roads", name: "Iris Roads", description: "Advanced image AI detection", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🛣️", category: "ai-detection-anti-detection", subcategory: "ai-image-detector" },
+      { id: "ai-badge", name: "AI Badge", description: "AI-generated image identification", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🏷️", category: "ai-detection-anti-detection", subcategory: "ai-image-detector" },
+      { id: "t-rex-label", name: "T-Rex Label", description: "AI image labeling and detection", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🦖", category: "ai-detection-anti-detection", subcategory: "ai-image-detector" }
+    ],
+    "ai-plagiarism-checker": [
+      { id: "plagiarismcheck", name: "PlagiarismCheck", description: "Online plagiarism detection tool", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "🔎", category: "ai-detection-anti-detection", subcategory: "ai-plagiarism-checker" },
+      { id: "quetext", name: "Quetext", description: "Free plagiarism and AI checker", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "❓", category: "ai-detection-anti-detection", subcategory: "ai-plagiarism-checker" },
+      { id: "noplagio", name: "NoPlagio", description: "Multilingual plagiarism detection", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🚫", category: "ai-detection-anti-detection", subcategory: "ai-plagiarism-checker" }
+    ],
+    "bypass-ai": [
+      { id: "aiseo", name: "AISEO", description: "AI content optimization and bypassing", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🔧", category: "ai-detection-anti-detection", subcategory: "bypass-ai" },
+      { id: "walter-writes-ai", name: "Walter Writes AI", description: "Human-like AI content generation", url: "", upvotes: 654, verified: true, rating: 4.3, icon: "✒️", category: "ai-detection-anti-detection", subcategory: "bypass-ai" }
+    ],
+    "humanizer-ai": [
+      { id: "stealthwriter-humanizer", name: "StealthWriter", description: "AI content humanization tool", url: "", upvotes: 1567, verified: true, rating: 4.8, icon: "👻", category: "ai-detection-anti-detection", subcategory: "humanizer-ai" },
+      { id: "humbot", name: "Humbot", description: "AI text humanization service", url: "", upvotes: 1098, verified: true, rating: 4.6, icon: "🤖", category: "ai-detection-anti-detection", subcategory: "humanizer-ai" },
+      { id: "writehuman", name: "WriteHuman", description: "Human-like AI writing tool", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "✍️", category: "ai-detection-anti-detection", subcategory: "humanizer-ai" },
+      { id: "humanize-ai", name: "Humanize AI", description: "Advanced AI content humanization", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "👥", category: "ai-detection-anti-detection", subcategory: "humanizer-ai" }
+    ],
+    "undetectable-ai": [
+      { id: "rewritify-ai", name: "Rewritify AI", description: "AI content rewriting for undetectability", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🔄", category: "ai-detection-anti-detection", subcategory: "undetectable-ai" },
+      { id: "humanizer-org", name: "Humanizer.org", description: "Professional AI content humanization", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "🌐", category: "ai-detection-anti-detection", subcategory: "undetectable-ai" },
+      { id: "ai-undetect", name: "AI Undetect", description: "Advanced undetectable AI content", url: "", upvotes: 765, verified: true, rating: 4.4, icon: "🔍", category: "ai-detection-anti-detection", subcategory: "undetectable-ai" }
+    ]
+  },
 };
 
 export const getToolsBySubcategory = (category: string, subcategory: string): Tool[] => {

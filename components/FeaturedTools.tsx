@@ -13,18 +13,59 @@ const FEATURED_CATEGORIES = [
   { key: "chatbots-virtual-companions", label: "Chatbots & Virtual Companions" },
 ];
 
+const CATEGORY_LABELS: { [key: string]: string } = {
+  "writing-editing": "Writing & Editing",
+  "image-generation-editing": "Image Generation & Editing",
+  "voice-generation-conversion": "Voice Generation & Conversion",
+  "office-productivity": "Office & Productivity",
+  "chatbots-virtual-companions": "Chatbots & Virtual Companions",
+  "ai-detection-anti-detection": "AI Detection & Anti-Detection",
+  "video-animation": "Video & Animation",
+  "art-creative-design": "Art & Creative Design",
+  "business-research": "Business & Research",
+  "education-translation": "Education & Translation",
+  "music-audio": "Music & Audio",
+  "social-media": "Social Media",
+  "coding-development": "Coding & Development",
+  "marketing-advertising": "Marketing & Advertising",
+};
+
 export default function FeaturedTools({ searchQuery = "" }: { searchQuery?: string }) {
   const categories = useMemo(() => {
+    if (searchQuery) {
+      // Search across ALL categories
+      const allResults: { [key: string]: any[] } = {};
+      Object.entries(toolsData as any).forEach(([catKey, catData]: [string, any]) => {
+        const tools: any[] = [];
+        if (typeof catData === "object" && !Array.isArray(catData)) {
+          Object.values(catData).forEach((subcategoryTools: any) => {
+            if (Array.isArray(subcategoryTools)) tools.push(...subcategoryTools);
+          });
+        } else if (Array.isArray(catData)) {
+          tools.push(...catData);
+        }
+        const filtered = tools.filter(t =>
+          t.name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          t.description?.toLowerCase().includes(searchQuery.toLowerCase())
+        );
+        if (filtered.length > 0) allResults[catKey] = filtered;
+      });
+      return Object.entries(allResults).map(([key, tools]) => ({
+        key,
+        label: CATEGORY_LABELS[key] || key,
+        tools: tools.slice(0, 8),
+        total: tools.length,
+      }));
+    }
+
+    // No search - show featured categories only
     return FEATURED_CATEGORIES.map(({ key, label }) => {
       const categoryData = (toolsData as any)[key] || {};
       const tools: any[] = [];
       Object.values(categoryData).forEach((subcategoryTools: any) => {
         if (Array.isArray(subcategoryTools)) tools.push(...subcategoryTools);
       });
-      const filtered = searchQuery
-        ? tools.filter(t => t.name?.toLowerCase().includes(searchQuery.toLowerCase()))
-        : tools;
-      return { key, label, tools: filtered.slice(0, 8), total: filtered.length };
+      return { key, label, tools: tools.slice(0, 8), total: tools.length };
     }).filter(c => c.total > 0);
   }, [searchQuery]);
 
