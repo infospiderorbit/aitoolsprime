@@ -1,4 +1,334 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "aiseo": {
+    whatIs: "AISEO is an AI content optimization and humanization platform that combines SEO writing tools with AI detection bypass capabilities. It is built for content marketers and SEO professionals who use AI to produce content at scale and need that content to both rank well in search and pass AI detection checks. The platform goes beyond simple humanization by optimizing content for search intent, readability, and keyword placement at the same time as making it less detectable - addressing the two main concerns of AI-assisted content marketing in one workflow.",
+    features: [
+      "AI Humanizer: Transform AI-generated content to bypass detection tools",
+      "SEO Optimization: Keyword-rich output optimized for search performance",
+      "Readability Improvement: Enhance content clarity and engagement alongside humanization",
+      "Content Rewriting: Rewrite existing content for freshness and originality",
+      "Paraphrasing Tool: Rephrase content while preserving meaning and SEO value",
+      "AI Detection Check: Verify content against major AI detectors",
+      "Multiple Modes: Different optimization modes for different content goals",
+      "Bulk Processing: Handle large volumes of content efficiently"
+    ],
+    howToUse: {
+      title: "How to Use Aiseo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your AI Content", description: "Sign up at aiseo.ai and paste the content you want to optimize and humanize. AISEO works with output from any AI writing platform." },
+        { title: "Choose Your Mode", description: "Select whether you want pure humanization, SEO-focused rewriting, or both. AISEO adjusts its approach based on whether your primary goal is detection bypass, search performance, or a combination." },
+        { title: "Review and Publish", description: "The optimized output maintains your keyword targets while reading naturally to both human visitors and AI detection systems. Review the output and publish with confidence." }
+      ]
+    },
+    coreFeatures: [
+      { title: "SEO Plus Humanization", description: "AISEO combines two workflows that content teams typically handle separately - SEO optimization and AI humanization - into one step. This saves time and avoids the situation where humanizing content undoes the SEO work done on the original draft" },
+      { title: "Search Intent Preservation", description: "Generic humanizers sometimes rewrite content in ways that shift its topical focus. AISEO maintains alignment with the original search intent through the optimization process" },
+      { title: "Content Marketing Scale", description: "The bulk processing capability makes AISEO practical for agencies and content teams that need to produce dozens of optimized, humanized articles per week rather than just occasional pieces" },
+      { title: "Detection and SEO Together", description: "The built-in detection check means content teams can verify their optimized output passes detection before publishing - closing the loop without needing a separate detection tool" }
+    ],
+    useCases: [
+      { title: "SEO Content Agencies", description: "Agencies producing AI-assisted content for client websites use AISEO to ensure every piece is both search-optimized and detection-safe before it goes live" },
+      { title: "Content Marketing Teams", description: "In-house marketing teams using AI for content production use AISEO to maintain content quality standards while accelerating production through AI assistance" },
+      { title: "Bloggers and Affiliate Marketers", description: "Website owners who rely on organic search traffic use AISEO to produce AI-assisted content that ranks well without triggering search engine content quality penalties" }
+    ]
+  },
+  "walter-writes-ai": {
+    whatIs: "Walter Writes AI is an AI humanization platform that positions itself specifically around producing content that Google and other search engines treat as genuinely human-written. The focus is on the SEO implications of AI detection - the concern that AI-identified content might be penalized or ranked lower in search results - and Walter Writes AI addresses this by transforming AI drafts into content that reads authentically enough to avoid those penalties. It is built for bloggers, content writers, and digital marketers who rely on search traffic and cannot afford to have their content flagged.",
+    features: [
+      "Human-Like Writing: Transform AI content into writing that reads authentically human",
+      "Google-Safe Output: Focus on producing content that avoids search engine AI penalties",
+      "SEO Content Focus: Built specifically for search-optimized content workflows",
+      "Detection Bypass: Pass GPTZero, Turnitin, Originality.ai, and other major detectors",
+      "Natural Tone: Output maintains engaging, readable tone alongside humanization",
+      "Fast Processing: Quick turnaround for content marketing workflows",
+      "Multiple Content Types: Works for blog posts, articles, product descriptions, and more",
+      "Affordable Access: Pricing aimed at individual bloggers and small teams"
+    ],
+    howToUse: {
+      title: "How to Use Walter Writes Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your AI Draft", description: "Go to walterwrites.ai and paste your AI-generated content. The platform accepts drafts from ChatGPT, Claude, Gemini, Jasper, and other AI writing tools." },
+        { title: "Run the Humanization", description: "Walter Writes AI processes your content with a focus on producing output that reads naturally to human readers and avoids the patterns that search engines and AI detectors flag as machine-generated." },
+        { title: "Publish with Confidence", description: "Review the humanized output and make any personal adjustments. The content is designed to perform well in search while reading authentically - giving you the speed benefits of AI without the detection risk." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Search Engine Safety Focus", description: "Walter Writes AI is specifically built around the concern that matters most to content marketers - whether AI content will be penalized in search. The optimization focuses on the patterns that search engines care about rather than just academic detection tools" },
+      { title: "Blogger and Marketer Alignment", description: "The platform is designed around the use cases of independent bloggers and content marketers rather than academic or enterprise contexts - which shows in the pricing, interface, and the types of content it handles best" },
+      { title: "Readable Output Priority", description: "Content that passes detection but reads like a robot still fails its actual purpose. Walter Writes AI prioritizes producing content that engages readers alongside its detection bypass capabilities" },
+      { title: "Speed Without Penalty", description: "The core value proposition is getting the production speed of AI without incurring the search ranking penalties that unprocessed AI content can attract" }
+    ],
+    useCases: [
+      { title: "Bloggers Building Organic Traffic", description: "Independent bloggers who use AI for content production use Walter Writes AI to ensure their posts rank well in search without being flagged as AI-generated by search quality systems" },
+      { title: "Digital Marketing Freelancers", description: "Freelance content writers who use AI to increase their output use Walter Writes AI to ensure delivered content reads naturally and meets client expectations for originality" },
+      { title: "Small Business Content Teams", description: "Small businesses without dedicated content staff use AI for content creation and Walter Writes AI to ensure that content performs as well as human-written articles would" }
+    ]
+  },
+  "rewritify-ai": {
+    whatIs: "Rewritify AI is an AI content rewriting and humanization tool that focuses on producing output that is both undetectable by AI detectors and genuinely readable by human audiences. It uses advanced language modeling to restructure AI-generated text at a deep level - changing not just surface vocabulary but the underlying sentence architecture, argument flow, and stylistic patterns that make AI writing identifiable. The platform is used by students, content creators, and professionals who want AI-assisted content that maintains quality and authenticity through the humanization process.",
+    features: [
+      "Deep Rewriting: Restructures content at sentence architecture level not just vocabulary",
+      "Undetectable Output: Consistently bypasses major AI detection tools",
+      "Quality Preservation: Maintains content quality through the rewriting process",
+      "Argument Flow: Preserves logical structure and argument coherence",
+      "Multiple Detection Bypass: Passes GPTZero, Turnitin, Originality.ai, Copyleaks",
+      "Readability Focus: Output is engaging and natural for human readers",
+      "Fast Turnaround: Quick processing for individual and bulk content",
+      "Free to Start: Access basic rewriting features without immediate payment"
+    ],
+    howToUse: {
+      title: "How to Use Rewritify Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your AI Text", description: "Go to rewritify.ai and paste the AI-generated content you want to transform. The tool accepts content from any AI writing platform without any special formatting requirements." },
+        { title: "Run Deep Rewriting", description: "Rewritify AI analyzes your content for AI patterns and applies deep restructuring - changing sentence architecture, varying argument flow, and adjusting stylistic patterns throughout the text." },
+        { title: "Review the Output", description: "Read through the rewritten content to verify it maintains your original message with the quality and coherence you need. Make any final personal touches before using it for your intended purpose." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Architecture-Level Rewriting", description: "Surface-level humanizers swap words and rearrange phrases but leave the underlying sentence architecture intact - which trained detectors still flag. Rewritify AI works at the structural level to address the root cause" },
+      { title: "Quality Through Process", description: "Many humanizers produce output that passes detection but reads poorly. Rewritify AI's focus on maintaining argument flow and logical structure means the output quality is worth reading, not just worth submitting" },
+      { title: "Comprehensive Detector Coverage", description: "Being effective against both GPTZero and Turnitin simultaneously is harder than it sounds - these tools look for different signals. Rewritify AI's deep rewriting approach tends to work across multiple detectors rather than being tuned for just one" },
+      { title: "Student and Professional Range", description: "The tool works equally well for academic writing where structure and argument matter and for professional content where tone and readability are the priority" }
+    ],
+    useCases: [
+      { title: "Students Submitting Academic Work", description: "Students who use AI for research assistance and need their final submissions to reflect their own voice and pass academic integrity tools use Rewritify AI for quality-preserving humanization" },
+      { title: "Content Professionals", description: "Writers and content creators producing AI-assisted work for publication use Rewritify AI to ensure their content reads naturally and passes the detection checks that publishers increasingly apply" },
+      { title: "Business Professionals", description: "Professionals using AI for document drafting, reports, and communications use Rewritify AI to ensure their final output reads with the natural authority of human-written professional writing" }
+    ]
+  },
+  "humanizer-org": {
+    whatIs: "Humanizer.org is a professional AI content humanization service focused on delivering high-quality, human-sounding output for content creators, students, and businesses. The platform uses a multi-step humanization process that analyzes text for AI patterns, applies structural and vocabulary transformations, and then verifies the output against detection tools before returning it to the user. This built-in verification step means users can be confident that the content they receive has been checked rather than just processed and returned unverified.",
+    features: [
+      "Multi-Step Humanization: Analysis, transformation, and verification in one workflow",
+      "Built-In Verification: Output checked against detectors before delivery",
+      "Professional Quality: Focus on high-quality readable output not just detection bypass",
+      "Structural Transformation: Deep content restructuring beyond simple paraphrasing",
+      "Multi-Detector Checking: Verified against multiple detection tools before return",
+      "Academic Mode: Specific settings for academic writing requiring formal register",
+      "Multiple Languages: Humanization across major world languages",
+      "Privacy Protection: Content processed securely without permanent storage"
+    ],
+    howToUse: {
+      title: "How to Use Humanizer Org",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Content", description: "Go to humanizer.org and paste your AI-generated text. The platform accepts content from any AI writing tool and any content type." },
+        { title: "Humanization and Verification", description: "The platform runs your content through its multi-step process - analyzing AI patterns, applying structural transformations, and then checking the output against major detection tools to verify it passes before returning it to you." },
+        { title: "Receive Verified Output", description: "You receive humanized content that has already been verified to pass detection - along with the detection scores so you can see exactly how it performed. Review for quality and use with confidence." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Built-In Verification", description: "Most humanizers process your text and return it - you then have to check it yourself. Humanizer.org verifies the output against detectors before delivery, saving you the extra step and ensuring what you receive actually works" },
+      { title: "Multi-Step Process Quality", description: "The analysis-transformation-verification pipeline produces more consistently good results than single-step processing because each stage catches issues that the previous stage might have introduced" },
+      { title: "Academic Mode Specificity", description: "Academic writing has strict requirements for register, formality, and structure. Having an academic-specific mode means the output is calibrated for submission contexts rather than producing generic humanized text" },
+      { title: "Transparency Through Scores", description: "Returning detection scores alongside the humanized content gives users visibility into how well their content performed - rather than just trusting that the process worked" }
+    ],
+    useCases: [
+      { title: "Students Needing Guaranteed Results", description: "Students who need to be confident their submission will pass detection before they submit it use Humanizer.org for the built-in verification that confirms the output actually works" },
+      { title: "Content Teams with Quality Standards", description: "Teams that cannot afford to publish content that subsequently gets flagged use Humanizer.org's verification step as a quality gate in their publishing workflow" },
+      { title: "Professional Writers and Consultants", description: "Professionals producing AI-assisted deliverables for clients use Humanizer.org to ensure the quality and detection performance of content before it leaves their hands" }
+    ]
+  },
+  "ai-undetect": {
+    whatIs: "AI Undetect is an advanced AI content transformation platform focused on producing content that is completely undetectable by the most sophisticated AI detection tools currently available. It targets the deep structural patterns that make AI text identifiable - going beyond vocabulary and sentence variation to address the statistical regularities in how AI models construct paragraphs, develop arguments, and manage transitions. The platform positions itself at the premium end of the AI humanization market, designed for users who have found simpler tools failing against stricter detectors.",
+    features: [
+      "Deep Statistical Analysis: Targets statistical regularities beyond surface-level patterns",
+      "Advanced Transformation: More thorough restructuring than standard humanizers",
+      "Premium Detector Performance: Designed for users who need to pass the strictest detectors",
+      "Argument Structure Rewriting: Restructures how arguments are built and developed",
+      "Paragraph-Level Changes: Works at paragraph architecture not just sentence level",
+      "Transition Naturalizing: Replaces characteristic AI transitions with human equivalents",
+      "Multi-Detector Testing: Verified against the full range of major detection tools",
+      "High Accuracy Output: Focus on quality and accuracy throughout transformation"
+    ],
+    howToUse: {
+      title: "How to Use Ai Undetect",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Content", description: "Access AI Undetect and paste your AI-generated content. The platform is designed for users who have already tried simpler humanizers and need more thorough transformation." },
+        { title: "Run Advanced Transformation", description: "AI Undetect applies its deep transformation process - working at the statistical, structural, and stylistic levels simultaneously to produce content that addresses all the signals that advanced detectors use." },
+        { title: "Verify and Use", description: "Review the transformed output for quality and check it against your target detection tools. AI Undetect is built for users who need high confidence in their results before submitting or publishing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Beyond Surface Humanization", description: "AI Undetect addresses the patterns that simpler humanizers miss - the statistical regularities in paragraph construction, argument development, and transition patterns that remain even after vocabulary and sentence changes" },
+      { title: "Premium Detector Targeting", description: "The platform is specifically designed for users who have found mainstream humanizers insufficient against tools like Originality.ai or Turnitin's AI detection - the detectors that simpler tools struggle most with" },
+      { title: "Paragraph-Level Architecture", description: "Working at the paragraph level rather than just the sentence level produces more fundamentally different output - which is what advanced detectors are increasingly looking for" },
+      { title: "Quality Alongside Transformation", description: "Deep transformation that produces unreadable output defeats the purpose. AI Undetect focuses on maintaining content quality and coherence through the transformation process" }
+    ],
+    useCases: [
+      { title: "Users Who Have Failed with Other Tools", description: "People who have tried mainstream humanizers and still had content flagged by strict detectors use AI Undetect specifically because it targets the deeper patterns that simpler tools leave intact" },
+      { title: "Academic Users Facing Strict Detection", description: "Students at institutions using Turnitin or other strict AI detection systems use AI Undetect for the more thorough transformation their situation requires" },
+      { title: "Professional Content Creators", description: "Content professionals who need absolute confidence that their AI-assisted work will pass detection use AI Undetect as a higher-assurance option when the stakes are high" }
+    ]
+  },
+  "secur3d": {
+    whatIs: "Secur3D is a specialized AI detection platform focused on 3D-generated and AI-synthesized visual content - a detection niche that most image detection tools do not cover. As AI tools for generating 3D assets, avatars, and synthetic environments become more prevalent, the need to identify AI-generated 3D content in contexts like gaming, virtual worlds, and digital identity verification becomes increasingly important. Secur3D addresses this gap with detection capabilities tuned specifically for three-dimensional AI-generated content.",
+    features: [
+      "3D Content Detection: Identify AI-generated 3D assets, models, and environments",
+      "Synthetic Avatar Detection: Detect AI-generated avatars and digital identity representations",
+      "Security Applications: Verify the authenticity of 3D content in security contexts",
+      "Visual Analysis: Deep analysis of 3D geometry, texture, and rendering patterns",
+      "API Integration: Embed 3D content detection into platform workflows",
+      "Gaming and Virtual World Support: Detection tuned for gaming and metaverse contexts",
+      "Digital Identity Verification: Verify that 3D identity representations are authentic",
+      "Research Applications: Support for researchers studying AI-generated 3D content"
+    ],
+    howToUse: {
+      title: "How to Use Secur3D",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your 3D Content", description: "Access the Secur3D platform and submit the 3D asset, avatar, or visual content you want to verify. The platform handles formats common in gaming and virtual environment contexts." },
+        { title: "Run 3D-Specific Analysis", description: "Secur3D analyzes the submitted content using detection methods tuned for 3D AI generation - examining geometry patterns, texture synthesis characteristics, and rendering artifacts that indicate AI creation." },
+        { title: "Review Verification Results", description: "The platform returns a detection result with confidence scoring specific to 3D content. Use the results as part of your content verification or security workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "3D-Specific Detection Gap", description: "Most AI image detectors are trained on 2D photography and AI art. Secur3D fills the specific gap of 3D content detection where standard tools lack the training data and model architecture to produce reliable results" },
+      { title: "Synthetic Avatar Context", description: "AI-generated avatars are increasingly used in virtual worlds, gaming, and digital identity contexts. Detecting synthetic avatars requires different methods than detecting AI-generated photographs" },
+      { title: "Security Application Value", description: "In contexts where 3D representations are used for identity or access verification, the ability to detect AI-generated synthetic representations is directly relevant to security" },
+      { title: "Emerging Use Case Coverage", description: "As AI 3D generation tools improve and become more widely used, detection tools for this content type will become increasingly important - Secur3D addresses this need ahead of the curve" }
+    ],
+    useCases: [
+      { title: "Gaming Platforms and Virtual Worlds", description: "Gaming companies and metaverse platforms use Secur3D to verify that user avatars and submitted 3D assets meet authenticity standards and were not generated entirely by AI tools" },
+      { title: "Digital Identity Verification Services", description: "Services that use 3D biometric data or visual identity representations use Secur3D to verify that submitted identity data is authentic and not AI-synthesized" },
+      { title: "Researchers Studying Synthetic 3D Media", description: "Academic researchers and security professionals studying the detection of AI-generated 3D content use Secur3D as both a practical tool and a research resource" }
+    ]
+  },
+  "ai-or-human-art-game": {
+    whatIs: "AI or Human Art Game is an interactive browser-based game that tests and trains your ability to distinguish AI-generated artwork from human-created art. The game presents players with a series of images and asks them to judge whether each was made by an AI or a human artist. It is both entertaining and genuinely educational - playing it builds the visual literacy and pattern recognition skills that help people evaluate AI art in real-world contexts. As AI-generated art becomes more prevalent across social media, stock photography, and commercial design, the ability to distinguish it from human work has practical value.",
+    features: [
+      "Interactive Detection Game: Test your ability to tell AI art from human art",
+      "Pattern Recognition Training: Build visual literacy for identifying AI image characteristics",
+      "Difficulty Progression: Increasingly challenging examples as your accuracy improves",
+      "Educational Value: Learn the visual tells that distinguish AI from human artwork",
+      "Browser-Based: No download or installation required",
+      "Score Tracking: Track your accuracy and improvement over time",
+      "Diverse Art Styles: Examples spanning photography, illustration, painting, and digital art",
+      "Free to Play: Completely free with no account required for basic play"
+    ],
+    howToUse: {
+      title: "How to Use Ai Or Human Art Game",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open the Game", description: "Go to the AI or Human Art Game in your browser. No download, sign-up, or payment required - the game loads immediately and you can start playing within seconds." },
+        { title: "Make Your Judgments", description: "Each round presents you with an image. Study it carefully and click either AI or Human based on your assessment. Look for the telltale signs - unusual textures, uncanny smoothness, or anatomical irregularities." },
+        { title: "Learn from Results", description: "After each guess the game reveals the answer and often explains what visual characteristics give the image away. Over multiple rounds you develop a more trained eye for the patterns that distinguish AI generation from human creation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Learning by Doing", description: "The game format makes AI detection literacy genuinely engaging rather than a dry technical exercise. Learning to spot AI art by actually trying to spot it and getting immediate feedback is more effective than reading about the patterns abstractly" },
+      { title: "Real Difficulty Progression", description: "Early rounds make the distinction relatively clear; later rounds present more challenging examples where the line between AI and human creation is genuinely blurry - which reflects the real-world challenge as generators improve" },
+      { title: "Pattern Recognition Transfer", description: "The visual patterns you learn to recognize in the game transfer to real-world contexts - helping you evaluate AI images in social media, news, and commercial contexts with more informed judgment" },
+      { title: "Accessible Education Format", description: "A game requires no prior knowledge or technical background to start playing and learning - making it one of the most accessible ways to develop practical AI image literacy" }
+    ],
+    useCases: [
+      { title: "Media Literacy Students and Educators", description: "Teachers and students exploring AI image detection use the game as an engaging introduction to the practical skills of visual AI literacy" },
+      { title: "General Public Building AI Awareness", description: "Anyone wanting to develop better judgment about AI-generated images in their daily digital consumption uses the game to build practical pattern recognition skills" },
+      { title: "Researchers and Content Professionals", description: "People who work with visual content professionally use the game to calibrate their intuitions about AI-generated imagery and stay sharp on the current capabilities of AI art generators" }
+    ]
+  },
+  "whomadethisartwork": {
+    whatIs: "Whomadethisartwork.com is a platform dedicated to the question of artistic attribution in the age of AI - helping users determine whether artworks they encounter were created by human artists or generated by AI tools. It combines detection technology with a community element, building a resource for verifying the provenance of digital art at a time when the distinction between human and AI creation carries significant ethical, commercial, and legal weight. The platform is useful both for people evaluating specific artworks and for those wanting to understand the broader landscape of AI art attribution.",
+    features: [
+      "AI Art Detection: Determine whether artwork was created by AI or a human artist",
+      "Attribution Research: Tools for investigating the provenance of digital artworks",
+      "Community Platform: Shared resource for AI art identification and discussion",
+      "Multiple AI Generator Recognition: Identifies artwork from Midjourney, DALL-E, Stable Diffusion, and others",
+      "Visual Analysis: Examines style, technique, and generation artifacts",
+      "Educational Content: Information about how to identify AI-generated artwork",
+      "Browser-Based Access: No installation required for basic detection features",
+      "Free to Use: Core detection accessible without payment"
+    ],
+    howToUse: {
+      title: "How to Use Whomadethisartwork",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit the Artwork", description: "Go to whomadethisartwork.com and upload or link the artwork you want to evaluate. The platform accepts standard image formats for analysis." },
+        { title: "Run Detection Analysis", description: "The platform analyzes the artwork for visual patterns associated with AI generation - examining texture, style, compositional patterns, and the specific artifacts left by different AI image generators." },
+        { title: "Review Attribution Results", description: "The platform returns its assessment of whether the artwork is likely AI-generated or human-created, with information about which AI generator it may have come from if applicable. Use this as part of your broader evaluation of the artwork's provenance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Attribution Focus", description: "Whomadethisartwork.com specifically addresses the attribution question rather than just the detection question - which generator made this matters for copyright, commercial licensing, and credit attribution" },
+      { title: "Community Knowledge Building", description: "The platform builds on community participation to improve its detection database and share knowledge about AI art patterns - creating a collective resource rather than a purely automated tool" },
+      { title: "Ethical Art Context", description: "As AI-generated art raises complex questions about attribution, compensation for training data, and the definition of authorship, tools that help identify AI art serve an important function in the broader ethical conversation" },
+      { title: "Commercial and Legal Relevance", description: "Whether an artwork was human-made or AI-generated has real commercial and legal implications for licensing, sale, and copyright. Whomadethisartwork.com addresses this practical need directly" }
+    ],
+    useCases: [
+      { title: "Artists and Buyers Verifying Art Provenance", description: "Artists wanting to protect their work from being misattributed and buyers wanting to verify they are purchasing genuine human-created art use the platform for attribution verification" },
+      { title: "Galleries and Art Marketplaces", description: "Online art platforms and galleries use attribution tools to verify that works listed as human-created art meet their authenticity requirements before listing" },
+      { title: "Researchers Studying AI Art", description: "Academic researchers and journalists studying the proliferation of AI-generated art use the platform to identify and catalog AI-created works in the broader visual art ecosystem" }
+    ]
+  },
+  "gan-or-real-person-detector": {
+    whatIs: "GAN or Real Person Detector is a specialized detection tool focused specifically on the challenge of distinguishing real photographs of people from synthetic images generated by GAN models. GAN-generated faces are the most prevalent form of AI-generated human imagery used in fake accounts, synthetic identities, and misinformation - and they have specific visual characteristics that a tuned detector can identify. This tool is focused on that specific detection problem rather than general AI image detection, which makes it more precise for the use case of verifying whether a portrait is of a real person.",
+    features: [
+      "GAN Detection: Specifically tuned for identifying GAN-generated human faces",
+      "Real vs Synthetic: Clear verdict on whether a portrait is of a real person or AI-generated",
+      "Face-Specific Analysis: Detection methods calibrated for human portrait analysis",
+      "Deepfake Context: Useful for identifying synthetic faces used in fake accounts",
+      "Fast Verification: Quick analysis for individual image verification needs",
+      "Confidence Scoring: Probability scores alongside verdicts",
+      "Privacy Context: Helps identify synthetic identities in online spaces",
+      "Simple Upload Interface: Straightforward image submission without complex setup"
+    ],
+    howToUse: {
+      title: "How to Use Gan Or Real Person Detector",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload the Portrait", description: "Access the GAN or Real Person Detector and upload the portrait image you want to verify. The tool is specifically optimized for human face images rather than general AI imagery." },
+        { title: "Run GAN-Specific Analysis", description: "The detector analyzes the portrait using methods specifically calibrated for GAN-generated face detection - examining facial geometry, skin texture statistics, and the specific artifacts that GAN models produce in human portraits." },
+        { title: "Review the Verdict", description: "The tool returns a real or GAN verdict with a confidence score. High confidence scores in either direction indicate strong evidence. Lower confidence scores indicate the image falls in an ambiguous range that warrants additional verification." }
+      ]
+    },
+    coreFeatures: [
+      { title: "GAN-Specific Calibration", description: "General AI image detectors are trained across all types of AI imagery. This tool is specifically calibrated for GAN-generated faces, which produces more accurate results for the specific use case of verifying human portrait authenticity" },
+      { title: "Synthetic Identity Context", description: "GAN-generated faces are the primary tool used to create convincing fake social media profiles, dating app catfish accounts, and synthetic identity fraud. A tuned detector for this specific problem is more useful than a general image detector" },
+      { title: "Transparency About Limitations", description: "The confidence scoring is honest about cases where the evidence is ambiguous rather than forcing a binary verdict - which reflects the genuine difficulty of the detection problem rather than overstating accuracy" },
+      { title: "Fast Personal Verification", description: "The simple upload interface makes it practical for quick individual checks - verifying a suspicious profile picture before engaging with someone online, for example" }
+    ],
+    useCases: [
+      { title: "People Verifying Online Identities", description: "Individuals who want to verify that a profile picture belongs to a real person before engaging with them on social media, dating apps, or professional networks use this tool for quick verification" },
+      { title: "Platform Trust and Safety Teams", description: "Social media and dating platform moderation teams use GAN detection as part of their fake account identification workflow" },
+      { title: "Journalists Investigating Fake Accounts", description: "Reporters investigating coordinated inauthentic behavior, influence operations, and fake account networks use GAN detection to identify synthetic profiles in the accounts they are analyzing" }
+    ]
+  },
+  "pronounce-ai": {
+    whatIs: "Pronounce AI is an AI-powered tool that helps language learners and professionals improve their pronunciation and spoken English skills through real-time feedback and analysis. It listens to your spoken input, analyzes pronunciation accuracy against native speaker standards, and provides specific, actionable feedback on where your pronunciation deviates from target patterns. In the AI detection context, it also includes tools for analyzing spoken content authenticity - helping identify AI-generated or synthetic speech in audio content.",
+    features: [
+      "Pronunciation Analysis: Real-time feedback on pronunciation accuracy",
+      "AI Speech Detection: Identify AI-generated or synthetic speech in audio content",
+      "Accent Feedback: Specific feedback on accent patterns and pronunciation deviations",
+      "Native Speaker Comparison: Compare your pronunciation against native speaker benchmarks",
+      "Progress Tracking: Monitor pronunciation improvement over time",
+      "Multiple Languages: Support for pronunciation coaching across different languages",
+      "Real-Time Feedback: Immediate response to spoken input without delay",
+      "Mobile Accessible: Works on mobile devices for practice anywhere"
+    ],
+    howToUse: {
+      title: "How to Use Pronounce Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record Your Speech", description: "Access Pronounce AI and record yourself speaking the target words, phrases, or passages. The tool works on desktop and mobile for flexible practice sessions." },
+        { title: "Receive Pronunciation Feedback", description: "Pronounce AI analyzes your pronunciation against native speaker benchmarks and returns specific feedback on which sounds, stress patterns, and intonation features need attention." },
+        { title: "Practice and Track Progress", description: "Work through the feedback systematically and re-record to see improvement. Use the progress tracking to monitor which aspects of your pronunciation have improved over multiple sessions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Analysis", description: "Getting immediate feedback on pronunciation rather than waiting for a teacher to review recordings makes the learning process faster and more iterative - you can correct and re-record in the same session" },
+      { title: "Specific Rather Than General Feedback", description: "Generic feedback like speak more clearly is not useful for pronunciation improvement. Pronounce AI identifies specific phoneme errors, stress pattern problems, and intonation issues that a learner can actually work on" },
+      { title: "AI Speech Detection Component", description: "The ability to detect AI-generated speech in audio content extends the platform beyond pure language learning into content authenticity verification - useful for identifying synthetic voice content in media and communications" },
+      { title: "Mobile Accessibility", description: "Being accessible on mobile devices means learners can practice pronunciation in short sessions throughout the day rather than only during dedicated study time at a desktop" }
+    ],
+    useCases: [
+      { title: "Language Learners Improving English Pronunciation", description: "Non-native English speakers working on pronunciation for professional or academic contexts use Pronounce AI for targeted feedback that helps them identify and correct specific pronunciation patterns" },
+      { title: "Professionals Preparing for Presentations", description: "Business professionals and academics who present in English use Pronounce AI to prepare by identifying pronunciation patterns that might distract audiences or undermine their credibility" },
+      { title: "Content Authenticity Researchers", description: "People working in media verification and content authenticity use Pronounce AI's speech detection capabilities to identify AI-generated voice content in audio and video materials" }
+    ]
+  },
   "quetext": {
     whatIs: "Quetext is a free plagiarism and AI detection tool that has built a reputation for being genuinely accessible without hiding useful features behind expensive paywalls. It checks submitted content against a broad database of web pages, academic publications, and other published material, returning color-coded similarity highlights alongside an overall score. The DeepSearch technology it uses goes beyond simple string matching to catch paraphrased content and indirect overlap that simpler tools miss. For students and individual writers who need regular plagiarism checking without institutional access, Quetext is one of the most practical options available.",
     features: [

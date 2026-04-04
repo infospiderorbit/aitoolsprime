@@ -1930,8 +1930,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-code-generator": [
       { id: "builder-io", name: "Builder.io", description: "Visual development platform with AI", url: "", upvotes: 1456, verified: true, rating: 4.7, icon: "🏗️", category: "coding-development", subcategory: "ai-code-generator" },
-      { id: "windsurf-gen", name: "Windsurf", description: "AI code generation and development", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🏄", category: "coding-development", subcategory: "ai-code-generator" },
-      { id: "kiro-gen", name: "Kiro", description: "Smart code generation assistant", url: "", upvotes: 876, verified: true, rating: 4.4, icon: "🤖", category: "coding-development", subcategory: "ai-code-generator" }
     ],
     "ai-code-review": [
       { id: "bitbucket", name: "Bitbucket", description: "Git repository management with AI code review", url: "", upvotes: 1567, verified: true, rating: 4.6, icon: "🪣", category: "coding-development", subcategory: "ai-code-review" },
@@ -1942,13 +1940,11 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-developer-tools": [
       { id: "google-ai-studio", name: "Google AI Studio", description: "AI development and experimentation platform", url: "", upvotes: 1890, verified: true, rating: 4.8, icon: "🎯", category: "coding-development", subcategory: "ai-developer-tools" },
-      { id: "bitbucket-dev", name: "Bitbucket", description: "Developer collaboration platform", url: "", upvotes: 1345, verified: true, rating: 4.6, icon: "🪣", category: "coding-development", subcategory: "ai-developer-tools" },
       { id: "clickworker", name: "clickworker", description: "Crowdsourcing platform for developers", url: "", upvotes: 567, verified: true, rating: 4.3, icon: "👥", category: "coding-development", subcategory: "ai-developer-tools" },
       { id: "weights-biases", name: "Weights & Biases", description: "ML experiment tracking and visualization", url: "", upvotes: 1456, verified: true, rating: 4.7, icon: "📈", category: "coding-development", subcategory: "ai-developer-tools" },
       { id: "fal-ai", name: "fal.ai", description: "Fast AI model serving platform", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "⚡", category: "coding-development", subcategory: "ai-developer-tools" }
     ],
     "ai-github": [
-      { id: "coderabbit-github", name: "CodeRabbit", description: "AI code review for GitHub repositories", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🐰", category: "coding-development", subcategory: "ai-github" },
       { id: "oss-insight", name: "OSS Insight", description: "GitHub repository analytics and insights", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "📊", category: "coding-development", subcategory: "ai-github" },
       { id: "packfiles", name: "Packfiles", description: "GitHub package and dependency management", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "📦", category: "coding-development", subcategory: "ai-github" },
       { id: "gitlights", name: "Gitlights", description: "GitHub activity visualization tool", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "💡", category: "coding-development", subcategory: "ai-github" },
@@ -1988,7 +1984,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "no-code-low-code": [
       { id: "mailerlite", name: "MailerLite", description: "Email marketing automation platform", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "📧", category: "coding-development", subcategory: "no-code-low-code" },
-      { id: "salesforce-platform-nocode", name: "Salesforce Platform", description: "Enterprise no-code development", url: "", upvotes: 1890, verified: true, rating: 4.8, icon: "☁️", category: "coding-development", subcategory: "no-code-low-code" },
       { id: "softr", name: "Softr", description: "No-code app builder from Airtable", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🛠️", category: "coding-development", subcategory: "no-code-low-code" },
       { id: "n8n", name: "n8n", description: "Workflow automation for technical people", url: "", upvotes: 1456, verified: true, rating: 4.7, icon: "🔗", category: "coding-development", subcategory: "no-code-low-code" },
       { id: "powtoon", name: "Powtoon", description: "Video creation platform with no-code tools", url: "", upvotes: 876, verified: true, rating: 4.4, icon: "🎬", category: "coding-development", subcategory: "no-code-low-code" }
