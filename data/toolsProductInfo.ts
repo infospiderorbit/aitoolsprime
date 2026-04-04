@@ -1,4 +1,334 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "openrouter": {
+    whatIs: "OpenRouter is a unified API gateway that gives developers access to hundreds of AI models from different providers through a single API endpoint. Instead of integrating with OpenAI, Anthropic, Google, Meta, and every other model provider separately, developers connect once to OpenRouter and get access to the full range of available models with automatic fallbacks, load balancing, and cost optimization built in. It handles the complexity of managing multiple AI provider relationships so developers can focus on building rather than infrastructure.",
+    features: [
+      "Unified API: Single endpoint for accessing 200 plus AI models from all major providers",
+      "Automatic Fallbacks: Switch to backup models automatically when primary models are unavailable",
+      "Cost Optimization: Route requests to the most cost-effective model for each task",
+      "Load Balancing: Distribute requests across providers for reliability and performance",
+      "Model Comparison: Test and compare outputs from different models side by side",
+      "Usage Analytics: Track spending and usage across all models in one dashboard",
+      "OpenAI Compatible: Drop-in replacement for OpenAI API with broader model access",
+      "Free Models: Access to several free-tier models for development and testing"
+    ],
+    howToUse: {
+      title: "How to Use Openrouter",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Get Your API Key", description: "Sign up at openrouter.ai and generate your API key. The API is OpenAI-compatible so you can often drop it in as a replacement in existing code with minimal changes." },
+        { title: "Choose Your Models", description: "Browse the model catalog and select the models you want to use. Configure fallback chains so your application stays available even when a specific model has issues." },
+        { title: "Monitor and Optimize", description: "Use the dashboard to track usage and costs across all models. Identify which models perform best for your specific use cases and optimize your routing accordingly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Single Integration for Everything", description: "Integrating with every AI provider separately creates maintenance overhead and vendor lock-in. OpenRouter handles all those relationships so a single integration gives access to the entire AI model ecosystem" },
+      { title: "Automatic Reliability", description: "Production applications need fallbacks when models go down or hit rate limits. OpenRouter's automatic failover keeps applications running without manual intervention" },
+      { title: "Cost Visibility", description: "Having all AI spending in one dashboard makes it much easier to understand and optimize costs across a multi-model application architecture" },
+      { title: "OpenAI Compatibility", description: "The OpenAI-compatible API format means existing code can often switch to OpenRouter with minimal changes - just swap the endpoint and get access to far more models" }
+    ],
+    useCases: [
+      { title: "Developers Building AI Applications", description: "Software developers who want access to multiple AI models without managing separate integrations for each provider use OpenRouter as a single point of access" },
+      { title: "AI Startups and Product Teams", description: "Product teams building AI-powered features use OpenRouter to experiment with different models quickly and find the best fit without committing to a single provider" },
+      { title: "Cost-Conscious AI Teams", description: "Teams with significant AI inference costs use OpenRouter's routing and optimization features to reduce spending while maintaining application quality" }
+    ]
+  },
+  "replicate": {
+    whatIs: "Replicate is a cloud platform that lets developers run machine learning models with a simple API call - no GPU infrastructure setup required. It hosts thousands of open-source models including image generation, video creation, audio processing, language models, and specialized ML models, and makes them accessible through a consistent API. Developers pay only for the compute time their model runs actually use, which makes it practical to experiment with many different models without committing to running infrastructure for each one.",
+    features: [
+      "Thousands of Models: Access to thousands of open-source ML models through one platform",
+      "Simple API: Run any model with a few lines of code regardless of its architecture",
+      "Pay Per Use: Pay only for actual compute time used with no idle infrastructure costs",
+      "GPU Access: Run models on powerful GPUs without managing hardware",
+      "Fine-Tuning: Train and deploy custom fine-tuned versions of popular models",
+      "Webhooks: Get async results for long-running model predictions",
+      "Model Versioning: Use specific versions of models for reproducible results",
+      "Custom Deployments: Deploy your own models to Replicate for others to use"
+    ],
+    howToUse: {
+      title: "How to Use Replicate",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Find Your Model", description: "Browse the Replicate model library at replicate.com and find the model you want to use. Each model has a dedicated page with documentation, examples, and pricing." },
+        { title: "Run the Model", description: "Use the Replicate API or client libraries to run the model with your input. A few lines of code is all it takes - Replicate handles the GPU provisioning and model loading automatically." },
+        { title: "Handle the Output", description: "Receive your model output directly or use webhooks for longer-running predictions. Integrate the results into your application workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Infrastructure Abstraction", description: "Running ML models requires expensive GPU hardware and complex infrastructure management. Replicate abstracts all of that away so developers can use any model with a simple API call" },
+      { title: "Open Source Model Access", description: "The open-source ML ecosystem has thousands of specialized models that would be impractical to run locally. Replicate makes them all accessible without setup" },
+      { title: "Experimental Flexibility", description: "Pay-per-use pricing makes it economical to try many different models for a task rather than committing to one. Developers can experiment freely and only pay for what they actually run" },
+      { title: "Custom Model Hosting", description: "Organizations that fine-tune or train custom models can host them on Replicate, making them accessible to their team through the same consistent API" }
+    ],
+    useCases: [
+      { title: "AI Application Developers", description: "Developers building applications that use image generation, audio processing, or specialized ML capabilities use Replicate to access the models they need without GPU infrastructure" },
+      { title: "ML Researchers and Experimenters", description: "Researchers who want to test many different models quickly use Replicate's broad model library and pay-per-use pricing to experiment without infrastructure commitment" },
+      { title: "Startups Building AI Features", description: "Early-stage startups add sophisticated AI capabilities to their products using Replicate without the capital expense of dedicated ML infrastructure" }
+    ]
+  },
+  "groq": {
+    whatIs: "Groq is an AI inference platform that has built a reputation for being significantly faster than other cloud AI providers - often by a factor of 10 or more for certain model types. It achieves this through purpose-built LPU (Language Processing Unit) hardware designed specifically for the sequential nature of language model inference rather than repurposing GPU hardware originally designed for graphics. The speed difference is real enough to matter for applications where latency is a user experience issue - voice assistants, real-time coding tools, and interactive applications where waiting two seconds for a response feels slow.",
+    features: [
+      "Extreme Speed: Inference speeds significantly faster than GPU-based competitors",
+      "LPU Hardware: Purpose-built Language Processing Units optimized for LLM inference",
+      "Popular Models: Access to Llama, Mixtral, Gemma, and other leading open models",
+      "Low Latency: Sub-second response times for many requests",
+      "OpenAI Compatible API: Drop-in replacement for existing OpenAI integrations",
+      "Free Tier: Generous free tier for development and low-volume production use",
+      "Simple Pricing: Straightforward per-token pricing with no hidden costs",
+      "Developer-Friendly: Clean API documentation and quick integration"
+    ],
+    howToUse: {
+      title: "How to Use Groq",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Get Your API Key", description: "Sign up at console.groq.com and generate your API key. The API is OpenAI-compatible so existing code that uses OpenAI can often switch to Groq with minimal changes." },
+        { title: "Select Your Model", description: "Choose from the available models including Llama, Mixtral, and others. For most use cases the fastest available model produces excellent results at very low latency." },
+        { title: "Integrate and Experience the Speed", description: "Make your first API call and experience the difference. The speed improvement over GPU-based inference is immediately noticeable in interactive applications where response latency matters." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Purpose-Built Hardware", description: "GPU hardware was designed for graphics workloads and repurposed for AI. Groq's LPUs are designed from scratch for the specific computational pattern of language model inference - which produces dramatically better performance for that specific task" },
+      { title: "Latency as User Experience", description: "For applications where users are waiting for AI responses interactively - voice, coding, chat - the difference between 2 seconds and 200 milliseconds is the difference between frustrating and seamless" },
+      { title: "Free Tier Generosity", description: "The free tier is generous enough to support real development work and low-volume production use - which makes Groq accessible for individual developers and small teams" },
+      { title: "OpenAI Compatibility", description: "Switching to Groq from OpenAI is often a one-line change for existing applications - just update the base URL and API key" }
+    ],
+    useCases: [
+      { title: "Latency-Sensitive Applications", description: "Developers building voice assistants, real-time coding tools, or interactive chat applications where response speed directly impacts user experience use Groq for its speed advantage" },
+      { title: "High-Volume Inference Workloads", description: "Teams running large volumes of inference requests use Groq's speed to reduce wall-clock time and cost for batch processing workloads" },
+      { title: "Developers Evaluating Models", description: "Developers who want to quickly try different models and see results use Groq's speed to iterate faster during the evaluation and prototyping phase" }
+    ]
+  },
+  "replit": {
+    whatIs: "Replit is a browser-based development environment that has evolved from a simple online code editor into a full AI-powered platform for building, deploying, and hosting applications. The Replit AI agent can build entire applications from natural language descriptions, while the collaborative editing features let multiple developers work on the same code simultaneously. For developers who want to go from idea to deployed application quickly, or for learners who want to code without setting up a local development environment, Replit removes most of the setup friction that slows down the early stages of a project.",
+    features: [
+      "AI App Builder: Build complete applications from natural language descriptions",
+      "Browser-Based IDE: Full development environment that runs in any browser",
+      "Real-Time Collaboration: Multiple developers editing the same code simultaneously",
+      "One-Click Deploy: Deploy applications to the web directly from the editor",
+      "100 Plus Languages: Support for virtually every major programming language",
+      "Built-In Hosting: Applications run on Replit's infrastructure without separate hosting setup",
+      "Community Templates: Start from thousands of community-created project templates",
+      "Mobile Coding: Develop on mobile devices through the Replit mobile app"
+    ],
+    howToUse: {
+      title: "How to Use Replit",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start a New Project", description: "Go to replit.com and create a new project. Choose a template or language, or describe what you want to build and let the AI agent generate the initial code." },
+        { title: "Build and Iterate", description: "Use the built-in editor to write and edit code. The AI assistant can help generate functions, fix bugs, explain code, and refactor - all without leaving the browser." },
+        { title: "Deploy Instantly", description: "When your application is ready, deploy it with one click. Replit handles hosting, domains, and keeping your application running without any infrastructure configuration." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Zero Setup Coding", description: "Local development environment setup is a significant barrier for beginners and a time cost for professionals. Replit eliminates that entirely - open a browser and start coding immediately" },
+      { title: "AI-Powered Building", description: "The AI agent can generate entire application scaffolds from a description, which dramatically accelerates the early stages of building something new" },
+      { title: "Collaboration Without Friction", description: "Real-time collaborative editing in the browser makes pair programming and code reviews as simple as sharing a link" },
+      { title: "Idea to Deployed", description: "The combination of quick start, AI assistance, and one-click deployment means a working deployed application can go from idea to live in an hour rather than a day" }
+    ],
+    useCases: [
+      { title: "Beginners Learning to Code", description: "New developers use Replit to learn programming without spending time on environment setup - they can focus entirely on learning to code rather than learning to configure tools" },
+      { title: "Rapid Prototypers", description: "Developers who want to quickly validate an idea build prototypes on Replit where speed from concept to working demo matters more than production-grade setup" },
+      { title: "Educators and Students", description: "Coding courses and classrooms use Replit for its collaborative features and zero-setup requirement that ensures every student has a consistent working environment" }
+    ]
+  },
+  "firebase-studio": {
+    whatIs: "Firebase Studio is Google's AI-powered application development platform that combines the power of Gemini AI with Firebase's backend services to help developers build full-stack applications faster. It provides an intelligent development environment where you can describe what you want to build, and the AI helps generate code, set up database structures, configure authentication, and connect backend services. It represents Google's vision for AI-assisted development that spans the full application stack rather than just code completion.",
+    features: [
+      "Gemini AI Integration: Google's Gemini AI assists with code generation and application design",
+      "Full-Stack Development: Build frontend, backend, and database layers together",
+      "Firebase Backend: Direct integration with Firebase authentication, Firestore, and hosting",
+      "Natural Language to App: Describe your application and AI generates the initial structure",
+      "Real-Time Preview: See your application running as you build it",
+      "Collaborative Development: Share projects and collaborate with team members",
+      "Google Cloud Integration: Connect to Google Cloud services and APIs",
+      "One-Click Deploy: Deploy to Firebase hosting directly from the studio"
+    ],
+    howToUse: {
+      title: "How to Use Firebase Studio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Application", description: "Open Firebase Studio and describe what you want to build. The Gemini AI generates an initial application structure including frontend components and backend configuration." },
+        { title: "Configure Your Backend", description: "Set up your Firebase services - authentication, database rules, storage - with AI assistance that suggests appropriate configurations based on your application's requirements." },
+        { title: "Build, Preview, Deploy", description: "Iterate on your application with real-time preview showing changes as you make them. When ready, deploy to Firebase hosting with one click." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Full-Stack AI Assistance", description: "Most AI coding tools assist with individual code snippets. Firebase Studio's Gemini integration covers the entire application stack - frontend, backend, database, and deployment - from a single environment" },
+      { title: "Google Ecosystem Integration", description: "For applications built on Google Cloud and Firebase, having the development environment deeply integrated with those services removes the configuration overhead of connecting everything together" },
+      { title: "Natural Language App Design", description: "Describing an application in plain language and getting a working starting point dramatically reduces the time from idea to first working version" },
+      { title: "Backend Without Backend Expertise", description: "Many frontend developers struggle with backend configuration. Firebase Studio's AI assistance makes it practical to build full-stack applications without deep backend expertise" }
+    ],
+    useCases: [
+      { title: "Frontend Developers Building Full-Stack Apps", description: "Frontend-focused developers who want to add backend capabilities to their applications use Firebase Studio's AI assistance to handle the backend complexity" },
+      { title: "Startups Prototyping Quickly", description: "Early-stage teams use Firebase Studio to get from concept to working prototype quickly before investing in more sophisticated infrastructure" },
+      { title: "Google Cloud Teams", description: "Organizations already using Google Cloud and Firebase use Firebase Studio as the development environment that integrates most naturally with their existing stack" }
+    ]
+  },
+  "cursor": {
+    whatIs: "Cursor is an AI-first code editor built on the foundation of VS Code that has become one of the most popular tools in the AI coding space. Unlike AI plugins that sit on top of existing editors, Cursor is designed from the ground up around AI assistance - the entire editing experience is built to make AI collaboration feel natural rather than bolted on. It can understand your entire codebase context, make multi-file edits, generate code from descriptions, fix bugs, and have extended conversations about your code architecture. For many developers it has replaced their previous editor entirely.",
+    features: [
+      "Codebase Understanding: AI understands your entire project context not just the current file",
+      "Multi-File Edits: Make coordinated changes across multiple files in a single operation",
+      "Tab Completion: Intelligent code completion that understands what you are trying to do",
+      "AI Chat: Conversation interface for discussing code architecture and getting explanations",
+      "Bug Detection and Fix: Identify and fix bugs with AI assistance",
+      "VS Code Compatible: Supports VS Code extensions and familiar keyboard shortcuts",
+      "Privacy Mode: Option to keep code private without sending to AI servers",
+      "Fast Model Access: Access to the latest Claude, GPT-4, and other models"
+    ],
+    howToUse: {
+      title: "How to Use Cursor",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Cursor", description: "Download Cursor from cursor.sh. It imports your VS Code settings, extensions, and keybindings automatically so the transition feels familiar from day one." },
+        { title: "Open Your Project", description: "Open your existing project or start a new one. Cursor indexes your codebase so the AI has full context about your project structure, dependencies, and patterns." },
+        { title: "Start Collaborating with AI", description: "Use Tab for intelligent completions as you type, Cmd-K to edit code in place with AI, or Cmd-L to open the chat for longer conversations about your code. The AI knows your whole codebase so suggestions are contextually relevant." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Codebase-Wide Context", description: "Most AI code tools only see the current file. Cursor indexes your entire project so when you ask it to add a feature or fix a bug it understands how everything connects - which produces dramatically more useful suggestions" },
+      { title: "Native AI Architecture", description: "Cursor is not a plugin - it is an editor designed around AI collaboration. Every interaction feels natural because the AI is a first-class part of the editing experience rather than something added on top" },
+      { title: "Multi-File Coordination", description: "Real code changes almost always touch multiple files. Cursor can make coordinated changes across your entire project in a single operation rather than requiring you to manually propagate changes" },
+      { title: "VS Code Familiarity", description: "Building on VS Code means developers can bring their existing extensions, settings, and muscle memory - the AI is additive rather than requiring a complete workflow change" }
+    ],
+    useCases: [
+      { title: "Professional Software Developers", description: "Full-time engineers use Cursor to accelerate their development workflow - faster code generation, better refactoring, and more productive debugging all add up to significantly more output" },
+      { title: "Developers Learning New Codebases", description: "Engineers who need to understand unfamiliar code quickly use Cursor's codebase chat to ask questions about architecture and get explanations of complex sections" },
+      { title: "Solo Developers Building Products", description: "Independent developers and solopreneurs use Cursor to move faster on their projects - accomplishing work that would otherwise require a larger team" }
+    ]
+  },
+  "windsurf": {
+    whatIs: "Windsurf is an AI-powered development environment from Codeium that takes a more agentic approach to AI coding assistance than most tools. Rather than just suggesting code, Windsurf's Cascade AI can plan and execute multi-step development tasks - understanding what needs to be done, writing the code, running tests, fixing errors, and iterating until the task is complete. It maintains context across your entire development session and can take action on your codebase rather than just making suggestions for you to act on.",
+    features: [
+      "Cascade AI Agent: Agentic AI that plans and executes multi-step development tasks",
+      "Deep Context Awareness: Understands your entire codebase and development session history",
+      "Autonomous Execution: AI can run code, fix errors, and iterate without manual intervention",
+      "Multi-Step Planning: Breaks complex tasks into steps and executes them systematically",
+      "Real-Time Collaboration: AI works alongside you rather than just responding to prompts",
+      "All Languages Supported: Works across any programming language or framework",
+      "Terminal Integration: AI can run terminal commands as part of task execution",
+      "Free Tier: Generous free access to core Cascade features"
+    ],
+    howToUse: {
+      title: "How to Use Windsurf",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open Your Project", description: "Download Windsurf from codeium.com and open your project. Windsurf indexes your codebase to give Cascade full context about your project structure and patterns." },
+        { title: "Describe Your Task", description: "Tell Cascade what you want to accomplish in plain language. For complex tasks, Cascade will plan out the steps needed and show you its approach before executing." },
+        { title: "Review and Iterate", description: "Watch Cascade work through the task - writing code, running tests, fixing issues. Review the changes and guide the AI if it needs course correction." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Agentic vs Assistive", description: "Most AI coding tools assist you in writing code. Windsurf's Cascade actually executes development tasks - the difference between having someone help you write and having someone write it while you review" },
+      { title: "Session Context", description: "Cascade remembers everything that happened in your development session - what you built, what broke, what you tried. This continuity makes the AI collaboration feel more like working with a colleague than querying a tool" },
+      { title: "Autonomous Error Resolution", description: "When code has errors, Cascade can identify them, fix them, and verify the fix worked - the entire debugging loop can happen without manual intervention" },
+      { title: "Free Competitive Feature Set", description: "Windsurf offers genuinely capable agentic features on its free tier which makes it accessible for developers evaluating AI coding tools without committing to a paid plan" }
+    ],
+    useCases: [
+      { title: "Developers Wanting Autonomous Assistance", description: "Developers who want the AI to handle the execution of tasks rather than just suggesting code use Windsurf for its agentic Cascade capabilities" },
+      { title: "Rapid Feature Development", description: "Teams that need to ship features quickly use Windsurf to have the AI handle implementation details while developers focus on architecture and product decisions" },
+      { title: "Developers Evaluating AI Coding Tools", description: "The generous free tier makes Windsurf a strong option for developers who want to experience agentic AI coding without paying for it first" }
+    ]
+  },
+  "lovable": {
+    whatIs: "Lovable is an AI-powered web application builder that lets you build full-stack web applications by describing what you want in plain English. You describe your app, Lovable generates the code, and you can see the result immediately in a preview. Iterate by describing what you want to change, and Lovable updates the code accordingly. When you are ready, deploy to the web with one click. It handles React, TypeScript, Tailwind CSS, Supabase backend integration, and deployment - the complete modern web application stack - all driven by natural language.",
+    features: [
+      "Natural Language to App: Describe your app and Lovable generates working code",
+      "Full-Stack Generation: Frontend React code plus Supabase backend integration",
+      "Real-Time Preview: See your application running immediately as you build",
+      "One-Click Deploy: Deploy to a live URL instantly when ready",
+      "Iterative Building: Refine your app by describing changes in plain language",
+      "GitHub Sync: Sync your project to GitHub for version control and customization",
+      "Custom Code: Edit the generated code directly when you need specific customization",
+      "No Coding Required: Build complete web applications without writing code manually"
+    ],
+    howToUse: {
+      title: "How to Use Lovable",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Application", description: "Go to lovable.dev and describe the web application you want to build. Be specific about features, layout, and functionality - the more detail you provide the more accurately the AI generates what you have in mind." },
+        { title: "Review and Iterate", description: "See your application running in the preview immediately. Describe any changes you want - add a feature, change the design, fix something that is not right - and Lovable updates the code accordingly." },
+        { title: "Deploy and Share", description: "When your application is ready, deploy it to a live URL with one click. Connect GitHub if you want to customize the code further or integrate with your existing development workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Full Stack From Description", description: "Lovable generates not just frontend UI but also backend database schemas and API connections - which means you get a complete working application rather than just a UI mockup" },
+      { title: "Immediate Preview", description: "Seeing your application running immediately after describing it shortens the feedback loop dramatically - you know right away whether the AI understood what you wanted" },
+      { title: "No Technical Barrier", description: "The ability to build real deployed web applications without writing code opens app development to a much wider audience - designers, product managers, and non-technical founders can all build working products" },
+      { title: "GitHub Integration", description: "Syncing to GitHub means the code Lovable generates is yours to keep, customize, and version control - there is no lock-in to the Lovable platform once the code is generated" }
+    ],
+    useCases: [
+      { title: "Non-Technical Founders and Entrepreneurs", description: "People with product ideas who cannot code use Lovable to build working prototypes and MVPs that can be shown to users and investors without hiring developers" },
+      { title: "Designers Building Their Own Products", description: "Designers who want to realize their ideas as working applications use Lovable to bridge the gap between design and code without learning to code themselves" },
+      { title: "Developers Prototyping Quickly", description: "Engineers use Lovable to rapidly prototype ideas before committing to building them properly - validating concepts in hours rather than days" }
+    ]
+  },
+  "framer": {
+    whatIs: "Framer is a web design and publishing platform that combines the visual design freedom of a modern design tool with the ability to ship real production websites. It has AI features that can generate entire website sections from text prompts, translate content automatically, and suggest design improvements. The output is real code that actually runs on the web rather than design mockups that need to be handed off to a developer. For designers who want to own the full process from design to published website, Framer closes the gap between designing something and shipping it.",
+    features: [
+      "AI Design Generation: Generate website sections and layouts from text prompts",
+      "Visual Editor: Drag-and-drop design with full creative control",
+      "Real Code Output: Designs compile to real production-ready websites",
+      "CMS Integration: Built-in content management for dynamic content",
+      "Auto Translation: Translate website content to multiple languages automatically",
+      "Custom Animations: Create complex animations without code",
+      "Component Library: Reusable design components for consistent sites",
+      "One-Click Publish: Publish to a Framer subdomain or custom domain instantly"
+    ],
+    howToUse: {
+      title: "How to Use Framer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Design", description: "Sign up at framer.com and start with a blank canvas or choose a template. Use the AI to generate initial sections by describing what you want, then customize visually." },
+        { title: "Design and Iterate", description: "Use the visual editor to refine your design - drag elements, adjust typography, add animations, and connect your CMS content. Preview the site on different screen sizes as you work." },
+        { title: "Publish Your Site", description: "When your design is ready, publish it with one click. Your site is live on a Framer domain immediately, or connect a custom domain for a professional URL." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Design to Published Without Handoff", description: "Traditional web design requires handing designs to developers for implementation. Framer eliminates that step entirely - the designer publishes the site directly from the design tool" },
+      { title: "AI Section Generation", description: "Describing a section and having it generated visually is faster than building it from scratch for common layouts. The AI starting point gives designers something to refine rather than something to create" },
+      { title: "Real Production Output", description: "Unlike design tools that produce mockups, Framer outputs real websites. There is no translation loss between what was designed and what goes live" },
+      { title: "CMS Without Backend Setup", description: "The built-in CMS handles dynamic content without requiring database setup or backend configuration - making content-driven sites practical for designers working independently" }
+    ],
+    useCases: [
+      { title: "Web Designers Building Client Sites", description: "Freelance and agency designers use Framer to design and ship client websites without needing a developer partner for the implementation step" },
+      { title: "Startups Building Marketing Sites", description: "Early-stage companies use Framer to build high-quality marketing sites quickly - the design quality is competitive with agencies at a fraction of the cost and time" },
+      { title: "Designers Building Personal Projects", description: "Designers who want to build and ship their own products and portfolios use Framer as the tool that lets them own the full process" }
+    ]
+  },
+  "n8n": {
+    whatIs: "n8n is a workflow automation platform built specifically for technical users who want the flexibility of code with the speed of visual workflow building. It is open-source and can be self-hosted, which makes it popular with developers and companies who need workflow automation without sending their data to third-party cloud services. The platform connects to hundreds of services and APIs, and its code nodes let you write JavaScript or Python directly within workflows when the visual connectors do not cover your specific needs. For technical teams that have outgrown simpler automation tools, n8n provides the control and flexibility they need.",
+    features: [
+      "Visual Workflow Builder: Connect services and logic visually without writing code for most tasks",
+      "Code Nodes: Write JavaScript or Python directly in workflows when needed",
+      "Self-Hostable: Run n8n on your own infrastructure for complete data control",
+      "400 Plus Integrations: Pre-built connectors for hundreds of services and APIs",
+      "AI Agent Workflows: Build AI-powered automation with LLM integration",
+      "Webhook Triggers: Start workflows from HTTP requests and external events",
+      "Open Source: Full source code available with active community development",
+      "Template Library: Start from pre-built workflow templates for common use cases"
+    ],
+    howToUse: {
+      title: "How to Use N8N",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Instance", description: "Install n8n via Docker, npm, or use n8n Cloud. Self-hosting gives you full data control while n8n Cloud requires no infrastructure management." },
+        { title: "Build Your Workflow", description: "Create a new workflow and add nodes for your trigger and actions. Connect them visually and configure each node with the specific settings for your use case." },
+        { title: "Add Logic and Code", description: "Use the IF, Switch, and loop nodes for conditional logic. Add code nodes when you need custom JavaScript or Python to handle specific data transformations or API calls." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Code When You Need It", description: "Most automation tools force you to choose between no-code simplicity and full-code flexibility. n8n gives you visual building for standard tasks and code nodes when you need custom logic - the right tool for each job" },
+      { title: "Self-Hosting for Privacy", description: "Teams handling sensitive data use n8n self-hosted to keep workflow data entirely within their own infrastructure - no third-party cloud service ever touches the data" },
+      { title: "Technical Team Alignment", description: "n8n is built for developers - the interface makes sense to technical users in a way that more consumer-focused automation tools often do not" },
+      { title: "AI Workflow Integration", description: "Built-in LLM integration lets teams build AI-powered automation workflows that process data with language models as part of larger automated processes" }
+    ],
+    useCases: [
+      { title: "Developer Teams Automating Internal Processes", description: "Engineering teams use n8n to automate repetitive technical tasks - syncing data between systems, triggering deployments, processing webhooks - with the code flexibility that technical work often requires" },
+      { title: "Companies with Data Privacy Requirements", description: "Organizations handling sensitive customer or business data use n8n self-hosted to automate workflows without routing data through external cloud services" },
+      { title: "Technical Founders and Solopreneurs", description: "Technically-minded individuals building their own businesses use n8n to automate operations that would otherwise require significant manual work or expensive custom development" }
+    ]
+  },
   "aiseo": {
     whatIs: "AISEO is an AI content optimization and humanization platform that combines SEO writing tools with AI detection bypass capabilities. It is built for content marketers and SEO professionals who use AI to produce content at scale and need that content to both rank well in search and pass AI detection checks. The platform goes beyond simple humanization by optimizing content for search intent, readability, and keyword placement at the same time as making it less detectable - addressing the two main concerns of AI-assisted content marketing in one workflow.",
     features: [
