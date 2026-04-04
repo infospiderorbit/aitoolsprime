@@ -1,4 +1,346 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "gptzero": {
+    whatIs: "GPTZero is the world's leading AI text detector, built by Princeton student Edward Tian in January 2023 and now trusted by over 10 million users across 3,500 colleges and hundreds of organizations. It uses two core signals to identify AI writing - perplexity, which measures how predictable the word choices are, and burstiness, which measures variation in sentence structure. Human writing tends to be unpredictable and varied; AI writing tends to be smooth, uniform, and statistically predictable. GPTZero flags the specific sentences that triggered detection rather than just returning a single score, which makes it genuinely useful for educators who need to understand exactly what happened rather than just knowing that something is off.",
+    features: [
+      "Sentence-Level Detection: Highlights the specific sentences flagged as AI-generated",
+      "Three Classifications: Human, AI, or mixed - not just a binary result",
+      "Multi-Model Detection: Detects ChatGPT, GPT-4, GPT-5, Claude, Gemini, Llama, Deepseek, and more",
+      "Document Upload: Scan full documents via PDF, Word, or text file upload",
+      "Chrome Extension: Scan text on any webpage or Google Doc directly",
+      "Plagiarism Checker: Cross-reference content against external sources on paid plans",
+      "API Access: Integrate GPTZero detection into your own platform or workflow",
+      "Classroom Integrations: Works with Google Classroom, Canvas, and Moodle",
+      "ESL De-Biasing: Actively reduces false positives for non-native English writers",
+      "Free Tier: 10,000 words per month free with no credit card required"
+    ],
+    howToUse: {
+      title: "How to Use Gptzero",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste or Upload Your Text", description: "Go to gptzero.me and paste your text directly or upload a document. The free tier handles up to 10,000 characters per scan - more than enough for most essays and articles." },
+        { title: "Run the Scan", description: "Click scan and results appear within seconds. GPTZero returns an overall AI probability score alongside sentence-by-sentence highlighting so you can see exactly which parts triggered the detection." },
+        { title: "Review and Act", description: "Use the highlighted output to understand the nature of the flagged content. For educators, this is the starting point for a conversation - not a verdict. For writers, it shows which sections need the most work to sound more natural." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sentence-Level Transparency", description: "Most AI detectors give you a number and leave you to figure out the rest. GPTZero shows you exactly which sentences are driving the result, which is far more useful for anyone who needs to understand what actually happened in a document" },
+      { title: "Mixed Content Detection", description: "GPTZero was the first detector to classify content as mixed rather than forcing a binary human or AI judgment. This matters because most real-world AI-assisted writing is a combination of both" },
+      { title: "Education-First Design", description: "The platform was built specifically for academic integrity use cases - the integrations with Google Classroom and Canvas, the ESL bias reduction work, and the classroom-focused features all reflect that original purpose" },
+      { title: "Continuous Model Updates", description: "The AI detection arms race is ongoing. GPTZero continuously updates its models to detect the latest versions of ChatGPT, Claude, and other AI systems rather than relying on a static model that becomes outdated" }
+    ],
+    useCases: [
+      { title: "Teachers and Professors", description: "Educators checking student submissions for AI use get sentence-level transparency that helps them have informed conversations with students rather than making accusations based on a single number" },
+      { title: "Academic Institutions", description: "Universities and schools using GPTZero at scale get the team and enterprise plans with classroom integrations, bulk scanning, and the reporting tools needed for institutional-level academic integrity programs" },
+      { title: "Publishers and Editors", description: "Content editors checking submitted articles and manuscripts use GPTZero as a first-pass filter to identify pieces that warrant closer review before publication" }
+    ]
+  },
+  "zerogpt": {
+    whatIs: "ZeroGPT is one of the most widely used free AI content detectors available, trusted by over 200,000 educators and professionals worldwide. It combines AI text detection with image detection, plagiarism checking, and an AI humanizer in one platform - making it more of a content integrity suite than a single-purpose tool. The detection engine achieves 98.5 percent accuracy on its benchmarks and provides detailed sentence-level analysis so users can see not just whether content is AI-generated but which specific parts triggered the detection. The free tier is genuinely generous - registered users get 20,000 free characters daily split between detection and humanization.",
+    features: [
+      "AI Text Detection: 98.5 percent accuracy detection of ChatGPT, Claude, Gemini, GPT-5, and others",
+      "Sentence-Level Analysis: Detailed breakdown showing which sentences are flagged as AI-written",
+      "AI Image Detection: Identify images generated by DALL-E, Midjourney, Stable Diffusion, and others",
+      "Plagiarism Checker: Verify content originality against external sources",
+      "AI Humanizer: Transform AI-generated text into natural human-sounding content",
+      "Daily Free Credits: 20,000 free characters daily for registered users with no credit card",
+      "Multiple Languages: Detection works across numerous languages beyond English",
+      "Export Reports: Download detailed detection reports for documentation purposes",
+      "API Access: Integrate ZeroGPT detection into custom workflows and applications",
+      "SEO Analysis: Identify AI content that could trigger search engine penalties"
+    ],
+    howToUse: {
+      title: "How to Use Zerogpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Content", description: "Visit zerogpt.com and paste your text into the detection interface. Registered users get 10,000 free characters per scan for AI detection as part of their daily allowance." },
+        { title: "Review Sentence Analysis", description: "The results show an overall AI probability percentage alongside color-coded sentence highlighting. Green indicates likely human writing; red or orange flags sections that read as AI-generated." },
+        { title: "Use Humanizer if Needed", description: "If you want to make flagged content less detectable, ZeroGPT's built-in humanizer can rewrite AI sections into more natural-sounding prose - all without leaving the platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "All-in-One Content Integrity", description: "Having detection, plagiarism checking, image verification, and humanization in one platform means users do not need separate tools for each part of the content authenticity workflow" },
+      { title: "Generous Free Tier", description: "20,000 free characters daily is more than most individual users need, making ZeroGPT accessible without a subscription - which is why it has become one of the most popular detection tools for educators" },
+      { title: "Image Detection Capability", description: "Extending detection to AI-generated images goes beyond what most text-focused detectors offer, making ZeroGPT useful for verifying visual content as well as written content" },
+      { title: "High Accuracy Benchmarks", description: "The 98.5 percent accuracy claim puts ZeroGPT among the more confident detectors in the market, though users should treat all AI detection results as probabilistic rather than definitive" }
+    ],
+    useCases: [
+      { title: "Educators and Students", description: "Teachers checking for AI-assisted work and students verifying their own content before submission both benefit from the generous free tier and clear sentence-level feedback" },
+      { title: "Content Marketers and SEO Teams", description: "Marketing teams use ZeroGPT to verify that AI-assisted content does not contain patterns that could trigger search engine penalties or appear inauthentic to audiences" },
+      { title: "Publishers and Fact-Checkers", description: "Publications that accept submissions from external contributors use ZeroGPT as a first screening step to identify content that warrants closer editorial review" }
+    ]
+  },
+  "undetectable-ai": {
+    whatIs: "Undetectable AI is a dual-purpose platform that both detects AI-written content and rewrites it to pass detection - which makes it uniquely positioned compared to tools that do only one or the other. The detection side checks your text against eight major AI detectors simultaneously, showing you how your content scores across GPTZero, Turnitin, Originality.ai, Copyleaks, and others in one scan. The humanization side then rewrites flagged content using advanced natural language processing that restructures sentences and varies patterns rather than just swapping synonyms. The result is text that reads naturally and passes the detectors it was checked against.",
+    features: [
+      "Multi-Detector Scanning: Check your content against 8 major AI detectors simultaneously",
+      "AI Humanizer: Rewrite AI content to pass detection while preserving meaning",
+      "Detector Coverage: Checks against GPTZero, Turnitin, Originality.ai, Copyleaks, and more",
+      "Advanced Restructuring: Sentence restructuring rather than simple synonym replacement",
+      "Readability Preservation: Humanized output maintains coherent, readable prose",
+      "50 Plus Languages: Humanization works across more than 50 languages",
+      "Purpose-Specific Modes: Academic, blog, marketing, and other content type settings",
+      "API Integration: Connect Undetectable AI to your own tools and workflows",
+      "Plagiarism-Free Output: Humanized content designed to pass plagiarism checkers too",
+      "Free to Try: Free tier available to test detection and basic humanization"
+    ],
+    howToUse: {
+      title: "How to Use Undetectable Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Check Your Content", description: "Paste your AI-generated text into Undetectable AI and run the multi-detector scan. You will see how your content scores across all eight major detectors in one view rather than checking each separately." },
+        { title: "Humanize Flagged Content", description: "Select your purpose - academic, blog, marketing - and run the humanizer on sections that scored poorly. The tool restructures sentences and varies language patterns to reduce AI detection signals." },
+        { title: "Verify the Output", description: "Run the humanized output through the detector again to confirm the scores have improved. Iterate until you reach the detection thresholds you need for your specific use case." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Both Sides of the Problem", description: "Undetectable AI is one of the few tools that handles detection and humanization together. Checking against 8 detectors before humanizing and then re-checking after gives users a complete view of where they started and where they ended up" },
+      { title: "Multi-Detector Coverage", description: "Checking against only one detector leaves blind spots. Scanning against eight simultaneously means content that passes Undetectable AI has been vetted against the full range of tools that editors, teachers, and publishers actually use" },
+      { title: "Sentence Restructuring Approach", description: "Simple synonym swapping makes text look edited but does not change the underlying sentence patterns that detectors actually look for. Undetectable AI's restructuring approach addresses the root cause rather than just the surface symptoms" },
+      { title: "Purpose-Specific Settings", description: "Academic writing and marketing copy require completely different tones and styles. Purpose-specific modes ensure the humanized output fits the context it is going into rather than producing one-size-fits-all rewritten text" }
+    ],
+    useCases: [
+      { title: "Content Creators and Bloggers", description: "Writers who use AI to draft content use Undetectable AI to ensure their posts pass detection checks before publishing, avoiding SEO penalties and content flags from platforms" },
+      { title: "Students Using AI for Research", description: "Students who use AI tools for research drafts use the platform to ensure their final submission reflects their own voice and passes the detection tools their institutions use" },
+      { title: "Marketing Professionals", description: "Marketers producing high-volume AI-assisted content use Undetectable AI to ensure their copy maintains authentic tone and passes spam filters that use similar detection patterns" }
+    ]
+  },
+  "bypassgpt": {
+    whatIs: "BypassGPT is an AI humanizer and detection bypasser built specifically to transform AI-generated text into writing that passes the toughest detection tools on the market. It was trained on over 200 million examples of both AI-generated and human-written content, which gives it a strong understanding of the patterns that distinguish machine writing from human writing. The platform works by analyzing those patterns in your input text and systematically rewriting them - changing vocabulary, sentence structure, and rhythm to match how humans actually write rather than how language models tend to generate text. The result is content that is original, plagiarism-free, and scores as human across major detectors.",
+    features: [
+      "Trained on 200M Samples: Model trained on massive dataset of AI and human text for accurate humanization",
+      "Multi-Detector Bypass: Passes GPTZero, ZeroGPT, Turnitin, Originality.ai, Copyleaks, and others",
+      "SEO-Friendly Output: Humanized content maintains keyword density and search-friendly structure",
+      "Grammar Error-Free: Fixes grammar, syntax, and punctuation while humanizing",
+      "50 Plus Languages: Humanize content in more than 50 languages",
+      "Plagiarism-Free: Output is original and passes plagiarism checkers",
+      "API Access: Integrate BypassGPT into your own applications",
+      "Email Spam Prevention: Makes AI-written emails sound natural to avoid spam filters",
+      "Free Plan Available: Try core features without paying",
+      "Fast Processing: Rewrites are returned within seconds"
+    ],
+    howToUse: {
+      title: "How to Use Bypassgpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your AI Text", description: "Copy your AI-generated content into BypassGPT's input field. The tool accepts content from ChatGPT, Claude, Gemini, Jasper, or any other AI writing platform." },
+        { title: "Run the Humanizer", description: "Click the bypass button and BypassGPT processes your content - restructuring sentences, varying vocabulary, and adjusting rhythm to match natural human writing patterns." },
+        { title: "Use Your Humanized Output", description: "Copy the rewritten text and use it wherever you need it - academic submissions, blog posts, marketing copy, or emails. Run it through a detector to verify the score if needed before submitting." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Massive Training Dataset", description: "Being trained on 200 million examples of human and AI text means BypassGPT has a more nuanced understanding of the differences between the two than tools trained on smaller datasets - which produces more convincingly human output" },
+      { title: "SEO Preservation", description: "Most humanizers focus entirely on making content undetectable and ignore the effect on search performance. BypassGPT maintains keyword density and structural signals that affect SEO alongside the humanization work" },
+      { title: "Grammar Improvement", description: "AI-generated text sometimes contains subtle errors that get amplified when run through basic paraphrasers. BypassGPT cleans up grammar and syntax as part of the humanization process rather than introducing new errors" },
+      { title: "Email Deliverability", description: "Spam filters increasingly use AI detection patterns to flag mass emails. BypassGPT's natural language output improves deliverability for AI-assisted email marketing campaigns" }
+    ],
+    useCases: [
+      { title: "Students and Academic Writers", description: "Students who use AI for research assistance use BypassGPT to ensure their final submission reads authentically and passes the detection tools their institution relies on" },
+      { title: "SEO Content Teams", description: "Agencies and in-house content teams producing high volumes of AI-assisted blog content use BypassGPT to ensure their articles pass detection without losing the keyword signals that affect search rankings" },
+      { title: "Email Marketers", description: "Marketing teams using AI to draft email campaigns use BypassGPT to improve deliverability by making AI-written emails sound natural enough to avoid spam classification" }
+    ]
+  },
+  "phrasly-ai": {
+    whatIs: "Phrasly AI is an AI humanizer built for students, content creators, and professionals who need their AI-generated content to read as naturally as possible. It positions itself as one of the more affordable options in the space, with plans starting below twelve dollars a month and support for up to three million words per month on higher tiers. The platform offers three humanization intensity modes - light, medium, and heavy - so users can choose how aggressively the text gets rewritten based on how much detection risk they are trying to address. It consistently appears in comparisons as a go-to option for budget-conscious users who need reliable results without paying enterprise prices.",
+    features: [
+      "Three Humanization Modes: Light, Medium, and Heavy intensity options for different bypass needs",
+      "High Volume Support: Plans supporting up to 3 million words per month",
+      "Affordable Pricing: Plans starting at under 12 dollars per month",
+      "Multi-Detector Compatibility: Designed to pass GPTZero, Turnitin, Copyleaks, and others",
+      "Student-Friendly: Affordable and accessible for academic use cases",
+      "Content Creator Focus: Handles blog posts, articles, and marketing copy efficiently",
+      "Fast Rewrites: Quick processing times suitable for high-volume workflows",
+      "Language Support: Works across multiple languages beyond English"
+    ],
+    howToUse: {
+      title: "How to Use Phrasly Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Content", description: "Sign up at phrasly.ai and paste the AI-generated text you want to humanize into the input field. Choose your content type to help the tool calibrate its approach." },
+        { title: "Select Your Mode", description: "Choose Light for minimal changes that preserve the original phrasing closely, Medium for balanced humanization, or Heavy when you need maximum detection bypass for strict detectors like Turnitin." },
+        { title: "Get Your Humanized Text", description: "The tool returns rewritten content within seconds. Review the output for tone and coherence and make any final personal adjustments before using it." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Three Intensity Modes", description: "Different detection scenarios require different levels of rewriting. Light mode preserves more of the original while Heavy mode makes more substantial structural changes - having all three in one tool means users are not locked into one approach" },
+      { title: "Budget Accessibility", description: "At under twelve dollars a month, Phrasly AI is one of the most affordable humanizers that consistently delivers usable results across major detectors - which is why it is particularly popular with students and freelancers" },
+      { title: "High Volume Capacity", description: "Supporting up to three million words per month on higher plans makes Phrasly AI practical for agencies and content teams with serious production volumes rather than just individual users with occasional needs" },
+      { title: "Consistent Comparisons Presence", description: "Phrasly AI appears regularly in tool comparison lists and roundups as a reliable mid-tier option, which reflects consistent user satisfaction rather than just marketing claims" }
+    ],
+    useCases: [
+      { title: "Budget-Conscious Students", description: "Students who need reliable AI humanization but cannot afford premium tools use Phrasly AI for its combination of affordability and consistent results across major academic detection systems" },
+      { title: "Freelance Content Writers", description: "Freelancers managing content for multiple clients use Phrasly AI's high word limits and fast processing to handle volume without individual per-word costs adding up" },
+      { title: "Small Businesses and Startups", description: "Small marketing teams with limited budgets use Phrasly AI to produce AI-assisted content that reads naturally without investing in enterprise-level humanization tools" }
+    ]
+  },
+  "ai-humanize": {
+    whatIs: "AI Humanize is a text transformation tool focused on making AI-generated content sound genuinely human by rewriting sentence structure, vocabulary, and tone rather than just swapping out words. The platform targets the specific linguistic patterns that AI detectors look for - the uniform sentence lengths, the predictable transitions, the statistically averaged word choices - and replaces them with the kind of variation and imperfection that characterizes real human writing. It is designed to work as a quick step in the content workflow rather than a major revision process, making it practical for users who produce AI content at volume.",
+    features: [
+      "AI Pattern Removal: Targets and rewrites the specific linguistic patterns that trigger detection",
+      "Sentence Structure Variation: Introduces natural variation in sentence length and complexity",
+      "Vocabulary Diversification: Replaces statistically predictable word choices with more human alternatives",
+      "Tone Preservation: Maintains the original meaning and core message through the rewriting process",
+      "Fast Processing: Quick turnaround suitable for content workflows",
+      "Multi-Detector Compatibility: Output designed to pass major AI detection tools",
+      "Plagiarism-Free: Rewrites produce original content that passes plagiarism checks",
+      "Simple Interface: Straightforward paste-and-humanize workflow with minimal setup"
+    ],
+    howToUse: {
+      title: "How to Use Ai Humanize",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your AI Content", description: "Open AI Humanize and paste the text you want to transform. The tool accepts content from any AI writing platform." },
+        { title: "Run the Humanization", description: "Click humanize and the tool analyzes your text for AI detection signals - predictable vocabulary, uniform sentence structure, robotic transitions - and systematically rewrites those elements." },
+        { title: "Review and Use", description: "Read through the output to verify it maintains the meaning and quality you need. Make any small personal adjustments and use the humanized text for your intended purpose." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Pattern-Targeted Rewriting", description: "Rather than making random changes to avoid detection, AI Humanize specifically targets the patterns that detectors actually look for - which produces more consistent bypass results than generic paraphrasing tools" },
+      { title: "Variation as Strategy", description: "AI writing is detectable partly because it lacks the natural variation humans bring - varying sentence lengths, unexpected word choices, informal transitions. AI Humanize reintroduces that variation systematically" },
+      { title: "Workflow Integration", description: "The fast processing and simple interface make AI Humanize practical as a step in a larger content workflow rather than a standalone tool that requires significant time investment per piece" },
+      { title: "Meaning Preservation", description: "Rewriting for humanization that changes the meaning defeats the purpose. AI Humanize is calibrated to transform surface-level linguistic patterns without touching the underlying message or facts" }
+    ],
+    useCases: [
+      { title: "Content Writers Using AI Tools", description: "Writers who use ChatGPT or similar tools for drafts use AI Humanize to transform the output into something that reads naturally before publishing or submitting" },
+      { title: "Students with AI-Assisted Research", description: "Students who use AI for research assistance and need to write in their own voice use AI Humanize as a step toward making sure their final work reflects their actual thinking" },
+      { title: "Marketing Teams", description: "Marketing departments producing AI-assisted copy for ads, emails, and landing pages use AI Humanize to ensure the content feels authentic to the humans reading it" }
+    ]
+  },
+  "gptinf": {
+    whatIs: "GPTinf is an AI humanizer and detector that takes a notably different technical approach from most tools in this space. Rather than feeding your text through another large language model to generate a rewrite, GPTinf uses a proprietary transformation system that restructures text based on linguistic patterns - changing flow and structure without generating new content from scratch. This matters because it means your original ideas stay completely intact. The platform also has a built-in AI detector that checks text against multiple detection tools simultaneously, so users can verify their results right there rather than going to a separate tool to confirm.",
+    features: [
+      "Proprietary Transformation System: Restructures text based on linguistic patterns rather than LLM rewriting",
+      "Original Ideas Preserved: Transformation changes structure not content - your meaning stays exactly intact",
+      "Built-In AI Detector: Check text against multiple detectors simultaneously within the same platform",
+      "Plagiarism Checker: Verify originality against 70 billion plus sources",
+      "Perplexity and Burstiness Targeting: Specifically addresses the two main signals AI detectors use",
+      "Repetition and Tone Fixes: Identifies and corrects repetitive phrasing and tone inconsistencies",
+      "Multi-Content Type Support: Works across emails, essays, research papers, blog posts, and more",
+      "Free Plan: 1,000 words per month free before upgrading"
+    ],
+    howToUse: {
+      title: "How to Use Gptinf",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste and Detect First", description: "Go to gptinf.com and paste your text into the detector to see how it currently scores across the major AI detection tools. This gives you a baseline before humanizing." },
+        { title: "Run the Transformation", description: "Switch to the humanizer and process your text. GPTinf's restructuring system improves sentence flow, removes repetitive phrasing, and adjusts linguistic patterns - without generating entirely new content." },
+        { title: "Verify the Results", description: "Run the transformed text through the built-in detector again to confirm the detection scores have improved. The side-by-side view makes it easy to see exactly what changed and how much the scores moved." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Non-LLM Transformation Approach", description: "Most humanizers just run your text through another AI model and hope the output is less detectable. GPTinf's rule-based restructuring preserves your original content and ideas while only changing the patterns that trigger detection" },
+      { title: "Integrated Detection and Humanization", description: "Having both tools in one platform means you can check, humanize, and re-check in one workflow rather than moving between multiple services - which also means you are checking against the same benchmarks you humanized for" },
+      { title: "Perplexity and Burstiness Focus", description: "GPTinf specifically targets the two metrics that most AI detectors rely on most heavily - word predictability and sentence variation - which produces more reliably effective results than general-purpose paraphrasers" },
+      { title: "Plagiarism Integration", description: "Combining humanization with a 70 billion source plagiarism check means users can verify both detection bypass and originality in the same place" }
+    ],
+    useCases: [
+      { title: "Academic Writers", description: "Students and researchers who need their AI-assisted writing to pass both detection and plagiarism checks use GPTinf for the combination of humanization and originality verification in one tool" },
+      { title: "Bloggers and Content Marketers", description: "Content producers who want to speed up publication workflows use GPTinf to quickly transform AI drafts into content that reads naturally and passes detection without extensive manual rewriting" },
+      { title: "Professionals Writing Business Documents", description: "People producing AI-assisted reports, emails, and proposals use GPTinf to make sure their documents read with the natural flow and voice that professional communication requires" }
+    ]
+  },
+  "zerogpt-plus": {
+    whatIs: "ZeroGPT Plus is the premium tier of the ZeroGPT platform, offering enhanced detection capabilities, higher usage limits, and access to the full suite of content integrity tools without the daily character restrictions of the free plan. It is designed for users who rely on AI detection as a regular part of their workflow rather than an occasional check - educators managing large numbers of student submissions, content teams running frequent detection checks, or publishers processing high volumes of submitted work. The upgrade primarily removes friction around usage limits while adding access to advanced features like the full plagiarism checker and priority processing.",
+    features: [
+      "Unlimited Detection: Remove the daily character limits of the free tier",
+      "Priority Processing: Faster scan results for high-volume users",
+      "Full Plagiarism Checker: Complete access to plagiarism detection across external sources",
+      "Advanced AI Humanizer: Full access to the AI humanization tools without credit restrictions",
+      "AI Image Detection: Unlimited image authenticity verification",
+      "Detailed Reports: Download comprehensive detection reports for documentation",
+      "API Access: Higher rate limits for API integration in professional workflows",
+      "Multi-Account Management: Team features for organizations running detection at scale",
+      "Source Verification: Cross-reference citations and sources against scholarly databases",
+      "Priority Support: Faster customer support response for paying users"
+    ],
+    howToUse: {
+      title: "How to Use Zerogpt Plus",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upgrade Your Account", description: "Sign up or log in to zerogpt.com and upgrade to ZeroGPT Plus from the pricing page. No credit card friction - plans are straightforward and upgrades take effect immediately." },
+        { title: "Run Unlimited Scans", description: "With the usage limits removed, you can process as many documents as your workflow requires without rationing your daily character allowance or waiting for limits to reset." },
+        { title: "Access Full Feature Suite", description: "Use the complete plagiarism checker, AI image detection, humanizer, and advanced reporting tools together as part of a comprehensive content integrity workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Usage Limit Removal", description: "The daily 20,000 character limit of the free tier is genuinely restrictive for professional use cases. ZeroGPT Plus removes that friction entirely, making it practical for high-volume scanning workflows" },
+      { title: "Full Plagiarism Integration", description: "The free tier's plagiarism checking is limited. ZeroGPT Plus unlocks comprehensive plagiarism detection alongside AI detection - which is the combination that most serious academic and publishing use cases require" },
+      { title: "Team and Organizational Use", description: "Individual accounts work fine for occasional checks but institutional use requires team features, bulk processing, and centralized reporting that ZeroGPT Plus provides" },
+      { title: "Complete Tool Access", description: "Paying for ZeroGPT Plus means access to the full range of tools - detection, humanization, image verification, and plagiarism - without navigating which features are gated behind the free tier" }
+    ],
+    useCases: [
+      { title: "Educators Managing Large Classes", description: "Teachers and professors checking dozens or hundreds of student submissions regularly use ZeroGPT Plus to avoid running into daily limit resets in the middle of grading sessions" },
+      { title: "Content Teams and Agencies", description: "Marketing and content agencies running regular detection checks across client work use the unlimited scanning and team features to incorporate detection into their standard review process" },
+      { title: "Publishers and Editorial Teams", description: "Publications that accept submissions from external contributors use ZeroGPT Plus to screen incoming content at scale as part of their editorial intake workflow" }
+    ]
+  },
+  "originality-ai": {
+    whatIs: "Originality.ai is a content integrity platform designed specifically for web publishers, content agencies, and SEO professionals who need to verify that content is both original and human-written before publishing. It combines AI detection with plagiarism checking in a single scan, which reflects how content verification actually works in practice - both problems matter and checking them separately is inefficient. The platform is widely regarded as one of the stricter and more accurate detection tools available, particularly for identifying content that has been lightly paraphrased after AI generation - the kind of content that simpler detectors often miss.",
+    features: [
+      "AI Detection Plus Plagiarism: Combined AI and plagiarism check in a single scan",
+      "High Accuracy Detection: Recognized as one of the stricter and more accurate detectors available",
+      "Website Scanning: Scan entire websites rather than just individual pieces of text",
+      "Team Management: Multi-user accounts for content agencies managing multiple writers",
+      "Readability Scoring: Assess content readability alongside originality verification",
+      "Fact-Checking Tools: Identify factual claims that may need verification",
+      "API Integration: Embed Originality.ai checks into publishing workflows programmatically",
+      "Content History: Track and store scan results for content audit documentation",
+      "Multiple Languages: Detection across English and other major languages",
+      "Bulk Scanning: Process multiple documents in one workflow for high-volume operations"
+    ],
+    howToUse: {
+      title: "How to Use Originality Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up at originality.ai and add credits to your account. The platform uses a credit-based system where each scan costs credits based on word count." },
+        { title: "Scan Your Content", description: "Paste your content or upload a document. Originality.ai runs both AI detection and plagiarism checking simultaneously, returning a combined report with scores for both." },
+        { title: "Review and Act on Results", description: "Review the AI probability score and plagiarism percentage together. For content teams, this output determines whether a piece goes to revision, gets published, or gets rejected from the queue." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Dual Scan Efficiency", description: "Running AI detection and plagiarism checking in one scan saves the time and cost of running two separate tools - and having both results in context makes the decision about whether content is publishable much clearer" },
+      { title: "Strict Detection Reputation", description: "Originality.ai is specifically mentioned in AI humanizer comparisons as one of the hardest detectors to bypass - which from a content publisher's perspective means it catches more of what slips through simpler tools" },
+      { title: "Website-Level Scanning", description: "Being able to scan entire websites for AI content is particularly useful for agencies auditing existing client content or publishers conducting periodic content quality reviews" },
+      { title: "Team and Agency Features", description: "Multi-user accounts with centralized scanning history make Originality.ai practical for agencies managing multiple writers, where tracking which content has been verified and when matters for quality control" }
+    ],
+    useCases: [
+      { title: "Web Publishers and Bloggers", description: "Site owners who publish AI-assisted content use Originality.ai to verify that their content meets originality standards before it goes live, protecting their site's search performance" },
+      { title: "Content Marketing Agencies", description: "Agencies managing content production for multiple clients use the team features and bulk scanning to incorporate originality verification into their standard content review process" },
+      { title: "SEO Professionals", description: "SEO specialists concerned about the impact of AI content on search rankings use Originality.ai to audit content before it is published or to review existing site content for compliance" }
+    ]
+  },
+  "copyleaks": {
+    whatIs: "Copyleaks is a comprehensive AI and plagiarism detection platform that operates at enterprise scale, serving over 100,000 organizations across education, business, and publishing. What makes Copyleaks distinctive is its breadth - it detects AI-generated content, traditional plagiarism, and paraphrased plagiarism across 100 plus languages, which makes it one of the most globally accessible detection platforms available. It also offers source code plagiarism detection for technical contexts and integrates directly with major learning management systems including Moodle, Blackboard, and Canvas.",
+    features: [
+      "AI and Plagiarism Combined: Detects AI-generated content alongside traditional and paraphrased plagiarism",
+      "100 Plus Languages: Detection coverage across more than 100 languages",
+      "LMS Integration: Direct integration with Moodle, Blackboard, Canvas, and other platforms",
+      "Source Code Detection: Identifies plagiarized code in technical and programming submissions",
+      "API for Scale: Enterprise API for embedding detection into existing platforms at volume",
+      "Paraphrase Detection: Catches content that has been manually or AI-paraphrased from sources",
+      "Detailed Reports: Comprehensive reports showing matched sources and similarity scores",
+      "Enterprise Plans: Scalable pricing for organizations processing thousands of documents"
+    ],
+    howToUse: {
+      title: "How to Use Copyleaks",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Platform", description: "Sign up at copyleaks.com and connect your LMS or upload documents directly. Organizations can integrate via API for automated detection as part of their submission workflow." },
+        { title: "Submit Content for Scanning", description: "Submit documents individually, in bulk, or automatically through the LMS integration. Copyleaks scans against its database of web content, academic papers, and its proprietary AI detection model." },
+        { title: "Review Detailed Reports", description: "Access comprehensive reports showing AI probability scores, plagiarism percentage, and matched sources. Share reports with relevant stakeholders or download for record-keeping." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Global Language Coverage", description: "Supporting detection across 100 plus languages is genuinely rare in this space and makes Copyleaks the practical choice for international institutions and multinational organizations that cannot limit detection to English-only content" },
+      { title: "Source Code Detection", description: "Most content detection tools focus entirely on written prose. Copyleaks extends detection to code submissions, which matters for computer science courses and technical organizations where code originality is equally important" },
+      { title: "LMS Native Integration", description: "Direct integrations with Moodle, Blackboard, and Canvas mean students submit through their existing platform and detection happens automatically - no separate submission step required" },
+      { title: "Enterprise Scale Architecture", description: "Built to process thousands of documents, Copyleaks handles the volume requirements of large universities and enterprise organizations without the per-document friction of smaller tools" }
+    ],
+    useCases: [
+      { title: "Universities and Educational Institutions", description: "Large academic institutions process thousands of student submissions through Copyleaks via LMS integration, maintaining academic integrity verification as a built-in part of the submission process" },
+      { title: "International Organizations", description: "Multinational businesses and global educational institutions use Copyleaks for its 100 plus language coverage, which allows consistent detection policy application across all their content regardless of language" },
+      { title: "Technical and STEM Programs", description: "Computer science departments and coding bootcamps use source code detection alongside prose detection to maintain academic integrity across all types of submitted work" }
+    ]
+  },
   "hoppy-copy": {
     whatIs: "Hoppy Copy is an all-in-one AI email marketing and newsletter platform built specifically for email - not a general writing tool that happens to handle email. It combines AI copywriting with design tools, automation, spam checking, competitor monitoring, and sending capabilities so the entire newsletter workflow lives in one place. The Brand Memory system learns your voice and strategy over time, which means generated content actually sounds like you rather than a generic AI output. You can also put newsletters on autopilot by connecting RSS feeds and live web search so the platform pulls and repurposes fresh content automatically.",
     features: [
