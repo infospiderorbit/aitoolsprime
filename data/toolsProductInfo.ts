@@ -1,4 +1,337 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "recruit-crm": {
+    whatIs: "Recruit CRM is a full-featured AI recruitment platform built for agencies and talent teams who want to automate the repetitive parts of hiring without losing control of the process. It combines a CRM and ATS in one system, with GPT-powered tools that handle job description writing, candidate summaries, call transcription, and outreach emails. The AI does not just suggest edits - it generates polished first drafts from basic inputs, so recruiters can spend less time writing and more time actually placing candidates.",
+    features: [
+      "AI Job Description Generator: Produce detailed role-specific JDs from basic inputs in seconds",
+      "AI Candidate Matching: Surface candidates similar to your best past placements using structured similarity scoring",
+      "Resume Parsing: Context-aware parsing that understands seniority, career gaps, and overlapping roles",
+      "GPT Email Templates: Generate professional outreach and follow-up emails with AI assistance",
+      "Call Transcription: Record, transcribe, and summarize candidate and client calls automatically",
+      "Candidate Summaries: One-click AI summaries of candidate profiles for client presentations",
+      "Pipeline Management: Visual kanban-style pipelines to track every candidate across stages",
+      "Job Board Posting: Push jobs to thousands of boards from one place",
+      "Boolean Search: Find candidates using filters, Boolean logic, and radius-based search",
+      "Multilingual Support: AI-Assist works in English plus French, Spanish, German, Italian, and Dutch"
+    ],
+    howToUse: {
+      title: "How to Use Recruit Crm",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Account", description: "Sign up at recruitcrm.io and connect your email. Import existing candidate data or start fresh. The onboarding is straightforward and the support team responds fast if you get stuck." },
+        { title: "Generate Your First Job Description", description: "Enter the job title and any key requirements. The AI generates a full job description including responsibilities, qualifications, and skills. Edit, regenerate, or refine with manual prompts until it matches your brief." },
+        { title: "Source and Match Candidates", description: "Use the AI candidate matching tool to surface profiles similar to your ideal placement. Run Boolean searches across your database and enrich new profiles with one click." },
+        { title: "Manage Pipeline and Communicate", description: "Move candidates through your visual pipeline, log call transcripts automatically, and use AI-generated email templates to keep every stakeholder updated without starting from scratch each time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "End-to-End Recruitment Automation", description: "Recruit CRM handles the writing, summarizing, and documenting that eats recruiter time - job descriptions, candidate summaries, call notes, and emails - so recruiters stay focused on relationships and placements" },
+      { title: "AI Candidate Matching", description: "Instead of keyword searching, the matching engine analyzes patterns across profiles to find candidates with similar experience and career progression to your best past placements" },
+      { title: "GPT Integration Throughout", description: "GPT is embedded into the actual workflow - not bolted on as a side tool. Every high-frequency writing task has an AI shortcut built right where you need it" },
+      { title: "Resume Parsing That Understands Context", description: "The parser distinguishes between surface exposure and hands-on experience, normalizes job titles, and feeds clean data directly into matching and search without manual cleanup" }
+    ],
+    useCases: [
+      { title: "Recruitment Agencies", description: "Agencies managing multiple client requisitions use Recruit CRM to handle the admin load of writing JDs, summarizing candidates, and tracking pipelines across dozens of open roles simultaneously" },
+      { title: "In-House Talent Teams", description: "Internal HR teams use the AI tools to standardize job descriptions and speed up screening without building a larger recruiting function" },
+      { title: "Solo Recruiters", description: "Individual recruiters running lean operations use the automation features to handle client volume that would normally require a team" }
+    ]
+  },
+  "jobed": {
+    whatIs: "Jobed is a focused AI job description generator that does one thing and does it well - you put in a job title and it hands you back a complete, ready-to-post description covering responsibilities, requirements, qualifications, key competencies, and even suggested interview questions. It is built for hiring managers and recruiters who do not want to stare at a blank page every time a new role opens up, and it is fast enough that writing a JD stops feeling like a task worth putting off.",
+    features: [
+      "Instant JD Generation: Enter a job title and get a full description in seconds",
+      "Responsibilities Section: Clear detailed role-specific duties generated automatically",
+      "Requirements and Qualifications: AI drafts must-have and nice-to-have candidate criteria",
+      "Interview Question Suggestions: Get targeted questions aligned to the specific role",
+      "Relevant Skills List: Receive a curated list of competencies to guide candidate screening",
+      "Editable Output: Full control to customize and refine the generated content",
+      "Multiple Formats: Output structured for easy copy-paste into any ATS or job board",
+      "Free to Start: Accessible without a paid subscription to try the core functionality"
+    ],
+    howToUse: {
+      title: "How to Use Jobed",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter the Job Title", description: "Head to jobed.ai and type in the role you are hiring for. You can add optional details like industry, seniority level, or specific skills to make the output more targeted." },
+        { title: "Review the Generated Description", description: "Jobed produces a complete JD covering duties, requirements, qualifications, and relevant skills. Read through it and adjust any sections that need to reflect your specific company context." },
+        { title: "Copy Interview Questions", description: "Use the suggested interview questions as a starting point for your hiring process. They are aligned to the specific role so they save prep time for whoever is running the interviews." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Single-Prompt JD Creation", description: "The whole point of Jobed is speed - one input, one complete output. No lengthy form-filling or prompt engineering required to get a usable job description" },
+      { title: "Interview Question Integration", description: "Most JD tools stop at the posting. Jobed goes a step further by suggesting interview questions that match the role, which makes it useful beyond just attracting candidates" },
+      { title: "Role-Specific Output", description: "The AI produces content specific to the actual role rather than generic placeholder text, which means less editing before the description is ready to post" },
+      { title: "No-Friction Access", description: "You can generate job descriptions without signing up for anything, which makes it genuinely useful for one-off hiring needs without commitment" }
+    ],
+    useCases: [
+      { title: "Hiring Managers Without HR Support", description: "Managers at small companies who handle their own hiring use Jobed to produce professional job descriptions without needing to write from scratch or copy-paste from old postings" },
+      { title: "Recruiters Managing High Volume", description: "Agencies and in-house recruiters with multiple open roles use Jobed to draft JDs faster, freeing time for screening and candidate engagement" },
+      { title: "Startups Building Their First Team", description: "Early-stage founders use Jobed to write their first few job descriptions without HR experience, getting professional output that attracts quality applicants" }
+    ]
+  },
+  "helio-ai": {
+    whatIs: "Helio AI is a recruitment platform that combines a modern applicant tracking system with gamified personality assessments - an unusual pairing that addresses two separate bottlenecks in hiring. The ATS handles the operational side of tracking applications and moving candidates through stages, while the gamified tests give hiring teams insight into soft skills and work style that resumes simply cannot show. It operates across multiple countries and claims to reduce recruiter daily workload by around 60 percent by automating resume screening and candidate profiling.",
+    features: [
+      "AI Resume Screening: Automatically parse, rank, and flag best-fit candidates based on role criteria",
+      "ATS Pipeline: Visual pipeline for tracking candidates from application to offer",
+      "Gamified Personality Tests: Engaging assessments that surface work style and soft skills",
+      "Multi-Country Support: Operates across 6 countries with localized hiring workflows",
+      "Job Posting Integration: Post roles and collect applications within the same platform",
+      "Candidate Profiling: AI builds structured profiles from resume data for faster evaluation",
+      "Collaboration Tools: Team-based review and feedback within the pipeline",
+      "Workload Reduction: Automation designed to cut recruiter daily admin by up to 60 percent"
+    ],
+    howToUse: {
+      title: "How to Use Helio Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Post Your Role", description: "Sign up at helio-ai.com and create your job posting. The platform collects applications and immediately begins screening resumes against your specified criteria." },
+        { title: "Review AI-Ranked Candidates", description: "The AI surfaces the strongest applicants based on skills, experience, and role fit. Review ranked profiles instead of reading every resume from scratch." },
+        { title: "Send Gamified Assessments", description: "Invite shortlisted candidates to complete a personality and work style assessment. Results give you structured insight into how each candidate thinks and works before the first interview." }
+      ]
+    },
+    coreFeatures: [
+      { title: "ATS Plus Assessment in One Place", description: "Combining applicant tracking with personality testing in one platform means hiring teams do not need to manage two separate tools or manually move data between systems" },
+      { title: "Gamified Testing Format", description: "Traditional personality tests feel like homework. Helio AI's gamified format is more engaging for candidates, which tends to produce more honest and useful results" },
+      { title: "AI-Powered Screening", description: "Automated resume ranking reduces the time spent on initial screening dramatically, letting recruiters focus attention on candidates who are already a strong match" },
+      { title: "Multi-Country Hiring", description: "For organizations hiring across borders, localized workflows and multi-country support remove some of the friction that makes international recruitment complicated" }
+    ],
+    useCases: [
+      { title: "Growing Companies Hiring at Scale", description: "Companies adding headcount quickly use Helio AI to screen large application volumes without proportionally increasing recruiter time" },
+      { title: "Teams That Value Culture Fit", description: "Organizations where personality and work style matter as much as technical skills use the gamified assessments to get a fuller picture of candidates before interviewing" },
+      { title: "International Hiring Teams", description: "Companies hiring across multiple countries use Helio AI's multi-country support to standardize their process regardless of location" }
+    ]
+  },
+  "loubby-ai": {
+    whatIs: "Loubby AI is an all-in-one HR operating system built specifically to help global employers access and manage African talent. It handles the full employment lifecycle - finding candidates, running the hiring process, onboarding new hires, managing them day-to-day, and handling cross-border payroll - in one platform. For companies that want to tap into Africa's growing professional workforce without setting up local entities or navigating complex multi-country HR administration manually, Loubby AI removes most of that friction.",
+    features: [
+      "AI Talent Sourcing: Surface qualified African candidates by skills, experience, and availability",
+      "Applicant Tracking: ATS-style pipeline management with collaborative review tools",
+      "Candidate Verification: Identity, credentials, and background checks built into the platform",
+      "Onboarding Workflows: Structured onboarding process for remote African hires",
+      "HR Management: Day-to-day people management tools for distributed teams",
+      "Cross-Border Payroll: Multi-currency payouts with localized documentation",
+      "Compliance Ready: Handles local employment regulations across African markets",
+      "Analytics Dashboard: Workforce data and hiring insights for informed decisions"
+    ],
+    howToUse: {
+      title: "How to Use Loubby Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Hiring Need", description: "Sign up at loubby.ai and describe the role you want to fill. Specify skills, experience level, and any location preferences within Africa." },
+        { title: "Review AI-Matched Candidates", description: "Loubby AI surfaces candidates that match your requirements from its African talent network. Each profile includes verification status so you can shortlist with confidence." },
+        { title: "Hire, Onboard, and Pay", description: "Move your chosen candidate through the hiring workflow, complete onboarding documentation, and use the built-in payroll system to pay in the right currency with the right local compliance handled automatically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Africa-Focused Talent Network", description: "Loubby AI is built specifically around African talent rather than treating it as an afterthought within a global platform, which means better candidate quality and more relevant matching for roles in that market" },
+      { title: "End-to-End Employment Platform", description: "From sourcing to payroll in one system means employers do not need separate tools for recruiting, HR management, and cross-border payments when building African remote teams" },
+      { title: "Compliance and Verification Built In", description: "Background checks and local employment compliance are handled within the platform, reducing the legal and administrative risk of hiring internationally" },
+      { title: "Cross-Border Payroll", description: "Multi-currency payouts with localized documentation remove one of the biggest practical obstacles to hiring across African borders" }
+    ],
+    useCases: [
+      { title: "Global Companies Building Remote Teams", description: "International businesses wanting to hire skilled African professionals without setting up local legal entities use Loubby AI to handle the complexity of cross-border employment" },
+      { title: "Startups Accessing Affordable Talent", description: "Early-stage companies use Loubby AI to find cost-effective skilled talent across Africa while maintaining compliant employment practices" },
+      { title: "HR Teams Managing Distributed Workforces", description: "HR managers overseeing remote teams across multiple African countries use Loubby AI to centralize people management and payroll in one system" }
+    ]
+  },
+  "recruitryte": {
+    whatIs: "recruitRyte is a focused AI job description generator designed to help hiring teams create clear, professional, and complete job postings in minutes rather than hours. The tool goes beyond simple text generation by incorporating analytics so you can actually track how your job descriptions perform - views, clicks, and applications - and refine them over time. It supports roles of all types including temporary and contract positions, and comes with 24/7 customer support for teams that cannot afford to wait when a hire is urgent.",
+    features: [
+      "AI Job Description Generation: Create role-specific JDs from a job title and optional details",
+      "Skills and Certification Fields: Specify education, certifications, experience, and salary requirements",
+      "Editable Templates: Review and customize AI-generated output before posting",
+      "Analytics Dashboard: Track views, clicks, and applications per job description",
+      "Contract and Temp Support: Generate JDs for temporary, contract, and project-based roles",
+      "ATS-Ready Format: Output structured for direct use in applicant tracking systems",
+      "Data Security: Strict data privacy policies with no third-party data sharing",
+      "24/7 Support: Round-the-clock customer support for any issues"
+    ],
+    howToUse: {
+      title: "How to Use Recruitryte",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Job Details", description: "Go to recruitryte.com and enter the job title. Add optional details like required skills, education level, industry, years of experience, or salary range to make the output more specific." },
+        { title: "Generate and Review", description: "recruitRyte produces a complete job description. Review the output, make any edits to reflect your company's voice, and copy it directly into your ATS or job board." },
+        { title: "Track Performance", description: "After posting, use the analytics dashboard to monitor how your job description is performing. Use the data to identify which versions attract more quality applicants and refine future postings." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Performance Analytics", description: "Unlike most JD generators that stop at text output, recruitRyte tracks how each posting actually performs - giving hiring teams data to improve their job descriptions over time rather than guessing" },
+      { title: "Role-Specific AI Output", description: "The AI accounts for industry standards, typical responsibilities, and required qualifications for each role rather than producing generic text that needs heavy editing" },
+      { title: "Contract and Temp Role Support", description: "Generating JDs for non-permanent roles is often overlooked by hiring tools. recruitRyte handles temporary, contract, and project-specific postings with duration and context included" },
+      { title: "Secure Data Handling", description: "No data is shared with third parties without explicit consent, which matters for HR teams handling sensitive compensation and role information" }
+    ],
+    useCases: [
+      { title: "Recruiters Handling Multiple Open Roles", description: "Teams with several positions open simultaneously use recruitRyte to draft JDs quickly without each one requiring significant writing time" },
+      { title: "HR Teams Improving Hiring Quality", description: "HR professionals use the analytics to understand which job descriptions convert browsers into applicants and iterate their approach based on real data" },
+      { title: "Small Businesses Without Dedicated HR", description: "Owners and managers at small companies use recruitRyte to produce professional job postings without HR writing experience" }
+    ]
+  },
+  "dispute-panda": {
+    whatIs: "Dispute Panda is an AI-powered credit repair platform built for credit repair professionals who need to generate highly effective dispute letters at scale. The key difference from template-based tools is that Dispute Panda creates a completely unique letter for every client and every account - analyzing the actual credit report data to craft factual, Metro 2 compliant arguments rather than recycling the same text that credit bureaus have learned to ignore. The platform also handles mailing directly, so the entire dispute process from importing a report to sending letters can happen in one place.",
+    features: [
+      "AI Letter Generation: Unique non-template dispute letters for every client and every account",
+      "Metro 2 Compliance: Letters built around Metro 2 and factual dispute frameworks",
+      "Credit Report Import: One-click import from connected credit monitoring services",
+      "Negative Item Identification: AI scans reports and flags disputable items automatically",
+      "Integrated Mailing: Send letters to all three bureaus via USPS directly from the platform",
+      "70 Percent Faster Processing: Complete client workflows significantly faster than manual methods",
+      "Client Management: Organize and track disputes across your entire client base",
+      "Pay-As-You-Go Pricing: No monthly fees - credits never expire"
+    ],
+    howToUse: {
+      title: "How to Use Dispute Panda",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import the Credit Report", description: "Sign up at disputepanda.com and connect your client's credit monitoring service. Import their full credit report with one click - no manual data entry required." },
+        { title: "Review AI-Identified Items", description: "The AI scans the report and surfaces negative and disputable items. Review what the system has flagged and select which accounts to dispute in this round." },
+        { title: "Generate and Send Letters", description: "Dispute Panda generates a unique letter for each selected item. Review the output and send letters to Equifax, Experian, and TransUnion directly from the platform via USPS for around $3.50 to cover all three bureaus." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Non-Template Letter Generation", description: "Template letters are easy for credit bureaus to recognize and dismiss. Dispute Panda generates fresh arguments each time based on the actual data in the credit report, which leads to better dispute outcomes" },
+      { title: "Metro 2 Framework", description: "Letters are built around Metro 2 compliance standards - the reporting format credit bureaus use - making disputes more technically precise and harder to reject on procedural grounds" },
+      { title: "Integrated End-to-End Workflow", description: "Importing reports, identifying items, generating letters, and mailing them all happen inside one platform rather than across multiple tools and manual steps" },
+      { title: "Pay-As-You-Go Model", description: "No monthly subscription means credit repair professionals only pay when they are actively working cases - credits never expire so there is no pressure to use them before a billing cycle resets" }
+    ],
+    useCases: [
+      { title: "Credit Repair Organizations", description: "CROs managing multiple client files use Dispute Panda to handle the letter generation and mailing workload that would otherwise require significant manual time per client" },
+      { title: "Financial Advisors Supporting Clients", description: "Advisors helping clients improve their credit scores use the platform to run professional-grade disputes without building out a full credit repair operation" },
+      { title: "Solo Credit Repair Practitioners", description: "Individual credit repair specialists use Dispute Panda to take on more clients than they could handle manually while maintaining quality and compliance across every letter" }
+    ]
+  },
+  "dear-ai": {
+    whatIs: "Dear AI is a personal letter writing assistant that helps people write heartfelt, thoughtful letters for moments that matter - the kinds of messages where finding the right words feels genuinely difficult. Whether you are writing to someone you love, reconnecting with a person you have lost touch with, or trying to express something complicated in a way that feels honest and warm, Dear AI helps bridge the gap between what you feel and what you actually write down. The tone stays personal rather than corporate, which is the whole point.",
+    features: [
+      "Personal Letter Writing: AI assistance for heartfelt personal correspondence",
+      "Handwriting Style: Letters crafted to feel personal and human rather than formally generated",
+      "Occasion-Based Writing: Support for letters across relationships, reconciliations, and meaningful moments",
+      "Tone Control: Warm, formal, or emotional tones based on what the letter needs",
+      "Custom Details: Incorporate specific memories, names, and context for genuine personalization",
+      "Multiple Letter Types: Love letters, apology letters, thank you notes, and more",
+      "Private and Secure: Your letter details are not stored or shared",
+      "Fast Drafts: Get a complete letter draft in seconds to refine from"
+    ],
+    howToUse: {
+      title: "How to Use Dear Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Situation", description: "Open Dear AI and describe who you are writing to, what the occasion is, and any personal details you want included. The more specific you are, the more personal the output feels." },
+        { title: "Choose Your Tone", description: "Select the emotional tone that fits - warm and affectionate, sincere and apologetic, heartfelt and nostalgic. The AI adjusts its language style accordingly." },
+        { title: "Review and Personalize", description: "Read through the generated letter and add anything that only you would know - a shared memory, an inside reference, a specific detail that makes it unmistakably yours before you send it." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Genuine Personalization", description: "Dear AI writes around the specific details you provide rather than producing a generic letter with blanks to fill in, which makes the output feel like something you actually wrote" },
+      { title: "Personal Not Corporate Tone", description: "The writing style stays warm and human - this is not a business letter tool that has been repurposed for personal use. It is built from the start for personal correspondence" },
+      { title: "Hard Moments Made Easier", description: "Some letters are hard to write not because you lack the words but because the emotion makes it difficult to organize thoughts. Dear AI helps turn jumbled feelings into something clear and genuine" },
+      { title: "Speed Without Sacrificing Heart", description: "Getting a full draft in seconds means you can focus your energy on refining and personalizing rather than staring at a blank page trying to find the opening line" }
+    ],
+    useCases: [
+      { title: "People Writing to Loved Ones", description: "Anyone who wants to express something meaningful to a parent, partner, friend, or family member but struggles to put feelings into words uses Dear AI to get a starting draft they can make their own" },
+      { title: "Reconnecting After Distance", description: "People reaching out after a long time apart use Dear AI to find language that acknowledges the gap without being awkward - warm enough to invite a response" },
+      { title: "Apology Letters", description: "Writing a genuine apology is one of the hardest letter-writing tasks. Dear AI helps structure the sentiment clearly without sounding defensive or rehearsed" }
+    ]
+  },
+  "ai-postcard-generator": {
+    whatIs: "AI Postcard Generator is a quick creative tool that turns a simple message or occasion into a personalized postcard-style note ready to send digitally or print. It handles the text side of postcard writing - crafting short, warm, occasion-appropriate messages that feel personal rather than generic. Whether you are on vacation and want to send something more thoughtful than a standard text, or you want to create a batch of seasonal greetings without writing each one from scratch, the tool makes it fast and painless.",
+    features: [
+      "Personalized Message Generation: Create postcard-style messages tailored to the occasion and recipient",
+      "Occasion Support: Birthdays, holidays, travel notes, thank you cards, and more",
+      "Tone Customization: Adjust warmth, humor, or formality to match your relationship with the recipient",
+      "Short-Form Writing: Optimized for the brief punchy format that works on postcards",
+      "Batch Generation: Create multiple messages for different recipients efficiently",
+      "Digital and Print Ready: Output formatted for digital sending or physical printing",
+      "Custom Details: Include recipient names, destinations, shared references, and context",
+      "Free to Use: Core functionality accessible without a paid account"
+    ],
+    howToUse: {
+      title: "How to Use Ai Postcard Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter the Occasion and Recipient", description: "Open the tool and describe who you are sending to and what the occasion is. Add any personal details - where you are writing from, something you want to reference, the tone you want." },
+        { title: "Generate Your Message", description: "The AI produces a short postcard-style message that fits the occasion and feels personal. Postcard length means the output is tight and readable rather than long and overwrought." },
+        { title: "Send or Print", description: "Copy the message to use digitally, paste it into a postcard design tool, or use it as-is in a message. For physical postcards, the output is short enough to handwrite comfortably." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Postcard-Optimized Format", description: "The AI writes in the short punchy style that actually works on a postcard rather than producing a paragraph that would not fit on a 4x6 card" },
+      { title: "Occasion Awareness", description: "Different occasions call for completely different tones - a birthday postcard from a trip abroad reads nothing like a holiday card. The AI adjusts based on what you tell it" },
+      { title: "Personal Details Integration", description: "Dropping in specific details - where you are, who you are with, something you saw - makes the output feel like something you wrote rather than something generated" },
+      { title: "Batch Efficiency", description: "Writing individual postcards for a long contact list is time-consuming. Generating personalized variations for each recipient quickly is where the tool saves the most time" }
+    ],
+    useCases: [
+      { title: "Travelers Sending Greetings", description: "People on vacation who want to send something more personal than a text use AI Postcard Generator to write a quick warm note without the effort of composing it from scratch" },
+      { title: "Holiday and Seasonal Greetings", description: "Anyone sending seasonal cards to a long list of people uses the tool to create personalized variations efficiently rather than writing each one individually" },
+      { title: "Thank You Notes", description: "People who want to send a physical or digital thank you note but struggle with the wording use the tool to get a warm draft they can refine and send" }
+    ]
+  },
+  "iquit-ai": {
+    whatIs: "iQuit.ai is a dedicated AI resignation letter generator that helps people write a professional, graceful resignation letter without the stress of figuring out what to say or how to say it. Resigning is rarely a simple moment - there are relationships to preserve, bridges not to burn, and details to get right like notice period and final day. iQuit.ai handles the structure and tone so you can leave your job on good terms regardless of why you are actually leaving.",
+    features: [
+      "Professional Letter Generation: Complete resignation letters in seconds from basic details",
+      "Notice Period Handling: Correctly frames your final working date and notice period",
+      "Tone Options: Professional, warm, brief, or grateful depending on your situation",
+      "Reason Flexibility: Works whether you are leaving for a new role, personal reasons, or would rather not say",
+      "Editable Output: Full draft you can read, adjust, and personalize before sending",
+      "Multiple Formats: Output suitable for email or printed formal letter",
+      "Relationship Preservation: Framing designed to leave on good terms by default",
+      "Free to Use: Generate your letter without paying or signing up"
+    ],
+    howToUse: {
+      title: "How to Use Iquit Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Details", description: "Go to iquit.ai and fill in the basics - your name, your manager's name, your role, your company, and your intended final working day." },
+        { title: "Choose Your Tone", description: "Select how you want the letter to read - professional and brief, warm and grateful, or somewhere in between. If you have a reason you want to mention you can add it; if not, the tool handles it graciously without one." },
+        { title: "Review and Send", description: "Read through the generated letter, make any personal adjustments, and send it by email or print it for a formal submission. The whole process takes a few minutes rather than a stressful hour." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Stress-Free Drafting", description: "The anxiety of writing a resignation letter often comes from not knowing how to phrase things rather than not knowing what you want to say. iQuit.ai removes that friction entirely" },
+      { title: "Bridge-Preserving Framing", description: "The default output is designed to leave things on good terms - which matters because professional relationships often outlast individual jobs" },
+      { title: "No-Reason-Required Option", description: "Not everyone wants to explain why they are leaving. iQuit.ai generates a gracious letter that handles the absence of a stated reason without it feeling abrupt or rude" },
+      { title: "Format Flexibility", description: "Output works for both email resignation and formal printed letters, covering the two situations where people actually need a resignation letter" }
+    ],
+    useCases: [
+      { title: "Employees Leaving for a New Role", description: "People who have accepted a new job and need to resign professionally use iQuit.ai to draft the letter quickly and confidently without overthinking every word" },
+      { title: "People Leaving for Personal Reasons", description: "When the reason for leaving is personal or complicated, iQuit.ai generates a letter that is gracious without requiring explanation" },
+      { title: "Anyone Anxious About the Process", description: "First-time resigners or people in difficult workplace situations use the tool to take the uncertainty out of what to write" }
+    ]
+  },
+  "happy-dads": {
+    whatIs: "1000 Happy Dads is an AI letter writing tool focused on helping fathers write meaningful, heartfelt letters to their children and families. The platform is built around the idea that fathers often feel things deeply but struggle to put those feelings into words - especially in writing. Whether it is a letter for a child's birthday, a milestone moment, a time capsule letter to be read years from now, or just something to say what has been left unsaid, 1000 Happy Dads helps dads find the words that matter most.",
+    features: [
+      "Family Letter Writing: AI-assisted letters from fathers to children and loved ones",
+      "Milestone Moments: Letters for birthdays, graduations, new chapters, and life milestones",
+      "Time Capsule Letters: Write letters intended to be read years in the future",
+      "Emotional Tone: Warm fatherly voice that feels genuine rather than overly formal",
+      "Personalization: Include child's name, specific memories, values, and hopes for the future",
+      "Multiple Occasions: Birthday letters, encouragement notes, proud parent messages, and more",
+      "Simple Interface: Designed to be accessible even for people who rarely write",
+      "Heartfelt Output: Letters that actually sound like something a loving dad would say"
+    ],
+    howToUse: {
+      title: "How to Use Happy Dads",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Occasion", description: "Open the tool and select the type of letter you want to write - a birthday message, a graduation note, a letter for a difficult time, or something your child can open one day when they are older." },
+        { title: "Add Personal Details", description: "Enter your child's name, age, and any specific things you want to include - a memory you share, something you are proud of, something you hope for them. The more real detail you add the more the letter sounds like you." },
+        { title: "Review and Share", description: "Read through the generated letter, add anything personal that only you would know, and share it however feels right - printed, emailed, tucked into a card, or saved for a future moment." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Father-Specific Voice", description: "The tool is calibrated for fatherly correspondence rather than generic personal letters - the tone is warm, grounded, and emotionally genuine without being overwrought" },
+      { title: "Milestone Focus", description: "Big moments in a child's life deserve something more than a text. The tool is built around those meaningful occasions where words on paper carry more weight than any gift" },
+      { title: "Time Capsule Capability", description: "The ability to write a letter intended for the future - to be opened at 18, or before a wedding, or after a parent is gone - is a genuinely rare and meaningful feature" },
+      { title: "Low Barrier for Dads Who Do Not Write", description: "The platform is designed for people who feel things but rarely write them down - it meets dads where they are and helps them say what they mean" }
+    ],
+    useCases: [
+      { title: "Fathers Writing to Young Children", description: "Dads who want to document their love, hopes, and pride while children are young use the platform to create letters that will matter for years to come" },
+      { title: "Dads Marking Major Milestones", description: "Fathers who want to write something meaningful for a graduation, a wedding, or a child leaving home use 1000 Happy Dads to find the right words for the moment" },
+      { title: "Fathers Healing Relationships", description: "Dads working on rebuilding connection with older children use heartfelt letters as a way to express things that are hard to say in person" }
+    ]
+  },
   "supa": {
     whatIs: "Supa - built by SuperAI - is an all-in-one AI platform that gives you access to multiple top-tier AI models under a single affordable subscription. Instead of paying separately for ChatGPT, Gemini, Llama, DeepSeek and Qwen, Supa bundles them all together so you can switch between models depending on what your task needs. It runs in two modes: Agent mode handles big tasks from a single prompt - like building a full presentation or writing a complete research paper - while Ask mode gives you an unlimited chat interface. Popular in Indonesia, it delivers genuinely powerful AI at a price point that works for students and small businesses alike.",
     features: [
