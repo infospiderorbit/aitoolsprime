@@ -1,4 +1,334 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "trae": {
+    whatIs: "Trae is an AI-powered IDE developed by ByteDance that provides AI coding assistance with a focus on deep context understanding and agentic capabilities. It offers code completion, multi-file editing, AI chat about your codebase, and autonomous task execution - competing directly with tools like Cursor and Windsurf. Trae is free to use which makes it particularly attractive for developers who want capable AI coding assistance without a subscription cost.",
+    features: [
+      "Free AI Coding: Full AI coding assistance with no subscription required",
+      "Agentic Mode: AI executes multi-step coding tasks autonomously",
+      "Codebase Chat: Discuss your entire codebase with AI assistance",
+      "Multi-File Editing: Make coordinated changes across multiple files",
+      "Code Completion: Intelligent completions as you type",
+      "VS Code Compatible: Familiar interface with VS Code extension support",
+      "Multiple Models: Access to different AI models for different tasks",
+      "Fast Performance: Optimized for responsive AI assistance"
+    ],
+    howToUse: {
+      title: "How to Use Trae",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Trae", description: "Download Trae from trae.ai. Import your VS Code settings and extensions so your development environment feels familiar from day one." },
+        { title: "Open Your Project", description: "Open your existing project. Trae indexes your codebase to give the AI full context about your project structure and patterns." },
+        { title: "Use AI Assistance", description: "Use tab completion for code suggestions, open the chat for codebase questions, or use agent mode for autonomous multi-step task execution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Access", description: "Trae offers capable AI coding assistance without a subscription - which makes it one of the most accessible options for developers evaluating AI coding tools" },
+      { title: "ByteDance Engineering", description: "Built by ByteDance's engineering team with significant resources behind the development and model access" },
+      { title: "Agentic Capabilities", description: "Agent mode that executes multi-step tasks autonomously puts Trae in the same capability category as Cursor and Windsurf" },
+      { title: "VS Code Familiarity", description: "Building on VS Code patterns means developers can adopt Trae without relearning their editor environment" }
+    ],
+    useCases: [
+      { title: "Developers Wanting Free AI Coding", description: "Engineers who want AI coding assistance without paying for a subscription use Trae for its capable free tier" },
+      { title: "Developers Evaluating AI Editors", description: "Developers comparing AI coding tools use Trae alongside paid alternatives to assess whether the paid features justify the cost" },
+      { title: "Students and Learners", description: "Students learning programming use Trae for AI assistance without the financial barrier of paid tools" }
+    ]
+  },
+  "venice-ai": {
+    whatIs: "Venice AI is a privacy-focused AI platform that runs AI models locally or with strong privacy guarantees so your conversations and data never train the AI or get stored on external servers. It provides access to leading open-source models including Llama and Mistral with a clean chat interface, image generation, and document analysis - all with a commitment that your data stays private. For users and organizations that want AI capabilities without the privacy trade-offs of mainstream AI services, Venice AI offers a meaningful alternative.",
+    features: [
+      "Privacy First: Conversations not used for training or stored long-term",
+      "Open Source Models: Access to Llama, Mistral, and other leading open models",
+      "Image Generation: AI image creation alongside text capabilities",
+      "Document Analysis: Upload and analyze documents privately",
+      "No Data Training: Your conversations never improve the model",
+      "Multiple Models: Switch between different AI models for different tasks",
+      "Clean Interface: Simple chat interface without unnecessary complexity",
+      "API Access: Programmatic access for developers"
+    ],
+    howToUse: {
+      title: "How to Use Venice Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up at venice.ai. The platform is accessible immediately without complex onboarding." },
+        { title: "Choose Your Model", description: "Select the AI model you want to use from the available open-source options. Different models have different strengths for different types of tasks." },
+        { title: "Chat Privately", description: "Use Venice AI like any AI chat platform but with the assurance that your conversations are not stored or used for training. Upload documents for private analysis when needed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Genuine Privacy Commitment", description: "Most AI platforms use conversations to improve their models. Venice AI's commitment not to train on user conversations is meaningful for users with sensitive information" },
+      { title: "Open Source Model Access", description: "Using open-source models rather than proprietary ones provides transparency about the underlying system and avoids lock-in to a single commercial AI provider" },
+      { title: "Document Privacy", description: "Analyzing sensitive documents through mainstream AI services raises legitimate privacy concerns. Venice AI's privacy architecture makes document analysis safer for confidential content" },
+      { title: "Privacy Without Sacrifice", description: "Venice AI provides capable AI assistance comparable to mainstream services without requiring users to trade their privacy for access" }
+    ],
+    useCases: [
+      { title: "Privacy-Conscious Individuals", description: "Users who want AI assistance but are uncomfortable with their conversations being used for training use Venice AI for capable private AI access" },
+      { title: "Professionals Handling Sensitive Information", description: "Lawyers, doctors, and other professionals who work with confidential information use Venice AI to analyze documents without privacy risk" },
+      { title: "Organizations with Data Policies", description: "Companies with strict data handling policies use Venice AI where mainstream AI services would violate their data governance requirements" }
+    ]
+  },
+  "builder-io": {
+    whatIs: "Builder.io is a visual development platform that lets marketing and development teams build and optimize web experiences without constant developer involvement. It provides a drag-and-drop visual editor that works with any existing tech stack - Next.js, React, Angular, or any other framework - and lets non-technical users create and update pages, run A/B tests, and personalize content without touching code. The AI features can generate UI components from text descriptions and convert design files to code automatically.",
+    features: [
+      "Visual Editor: Drag-and-drop page building that works with any framework",
+      "Headless CMS: Content management decoupled from your frontend code",
+      "AI Component Generation: Generate UI components from text descriptions",
+      "Figma to Code: Convert Figma designs to production code automatically",
+      "A/B Testing: Built-in experimentation for content and layout optimization",
+      "Personalization: Show different content to different user segments",
+      "Any Framework: Works with Next.js, React, Angular, Vue, and others",
+      "Edge Delivery: Fast content delivery through edge infrastructure"
+    ],
+    howToUse: {
+      title: "How to Use Builder Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Integrate with Your Stack", description: "Sign up at builder.io and integrate Builder with your existing application using the framework-specific SDK. The visual editor connects to your codebase without requiring a rewrite." },
+        { title: "Create Visual Components", description: "Use the drag-and-drop editor to build page sections and components. Non-technical team members can create and update content without developer involvement." },
+        { title: "Optimize and Personalize", description: "Set up A/B tests to compare content variations and configure personalization rules to show different experiences to different audience segments." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Framework Agnostic Integration", description: "Builder.io works with whatever framework your team already uses - which means adoption does not require rewriting existing applications or switching tech stacks" },
+      { title: "Non-Technical Empowerment", description: "Marketing teams that can build and update their own pages without waiting for developer sprints move faster and require fewer engineering resources for routine content work" },
+      { title: "AI Design to Code", description: "Converting Figma designs directly to production-ready code removes one of the most labor-intensive steps in the design-to-development handoff" },
+      { title: "Experimentation Built In", description: "Having A/B testing built into the content platform means running experiments does not require separate tool integration or developer involvement for each test" }
+    ],
+    useCases: [
+      { title: "Marketing Teams Wanting Independence", description: "Marketing departments that want to update web content without developer bottlenecks use Builder.io for visual editing that works with the engineering team's existing codebase" },
+      { title: "Development Teams Enabling Self-Service", description: "Engineering teams use Builder.io to give marketing and content teams the ability to manage pages independently without compromising the technical architecture" },
+      { title: "Growth Teams Running Experiments", description: "Product and growth teams use Builder.io's built-in A/B testing to run content experiments without engineering involvement for each test" }
+    ]
+  },
+  "clickworker": {
+    whatIs: "Clickworker is a crowdsourcing platform that connects businesses needing human-powered tasks with a global workforce of over 4.5 million workers. It is used for tasks that require human judgment - content moderation, data annotation and labeling for AI training, text creation, web research, and survey participation. For AI and machine learning teams that need large volumes of labeled training data or human evaluation of AI outputs, Clickworker provides access to a scalable human workforce that can be deployed quickly.",
+    features: [
+      "AI Training Data: Collect and label data for machine learning model training",
+      "Content Moderation: Human review of content for policy compliance",
+      "Data Annotation: Label images, text, audio, and video for AI training",
+      "Text Creation: Generate human-written content at scale",
+      "Web Research: Structured web research tasks completed by humans",
+      "Survey Platform: Access to a diverse global survey panel",
+      "Quality Assurance: Multi-step quality checking for task outputs",
+      "API Integration: Programmatic task submission and result retrieval"
+    ],
+    howToUse: {
+      title: "How to Use Clickworker",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Task", description: "Sign up at clickworker.com and define the task you need completed - data labeling specifications, content guidelines, research questions, or other task parameters." },
+        { title: "Launch Your Project", description: "Submit your task to the Clickworker platform. Tasks are distributed to qualified workers from the global workforce and completed according to your specifications." },
+        { title: "Review and Retrieve Results", description: "Access completed work through the dashboard or API. Quality assurance processes validate outputs before delivery to ensure results meet your specifications." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Human Judgment at Scale", description: "Many tasks that AI cannot yet do reliably - nuanced content moderation, subjective quality judgments, complex data labeling - require human workers. Clickworker provides those humans at scale" },
+      { title: "AI Training Data Pipeline", description: "Machine learning models need large volumes of labeled training data. Clickworker's workforce can label datasets far faster and more cost-effectively than building an internal labeling team" },
+      { title: "Global Workforce Diversity", description: "4.5 million workers across many countries provides demographic and linguistic diversity that matters for training AI models that need to work across different populations" },
+      { title: "Flexible Scaling", description: "Workforce capacity can be scaled up or down based on project needs without the hiring overhead of building a permanent team" }
+    ],
+    useCases: [
+      { title: "AI and ML Teams Needing Training Data", description: "Machine learning engineers use Clickworker to collect and label the training data that their models need without building a dedicated labeling operation" },
+      { title: "Trust and Safety Teams", description: "Platforms with user-generated content use Clickworker for human content moderation that handles the edge cases and nuance that automated systems miss" },
+      { title: "Market Research Organizations", description: "Research companies use Clickworker's survey panel for primary research data collection across diverse global populations" }
+    ]
+  },
+  "leadpages": {
+    whatIs: "Leadpages is a landing page builder and lead generation platform focused on helping small businesses and marketers create high-converting pages quickly. It provides templates optimized for conversion, a drag-and-drop editor, and built-in tools for A/B testing, pop-ups, and lead capture. AI features help generate page copy and suggest layout improvements based on conversion best practices. For businesses that need to get landing pages live quickly without a developer, Leadpages is one of the most accessible and conversion-focused options available.",
+    features: [
+      "Landing Page Builder: Create optimized landing pages with drag-and-drop editor",
+      "Conversion Templates: Professional templates designed for high conversion rates",
+      "AI Copy Generation: Generate landing page copy with AI assistance",
+      "A/B Testing: Test page variations to improve conversion performance",
+      "Pop-Ups: Add lead capture pop-ups to any website page",
+      "Alert Bars: Sticky notification bars for promotions and announcements",
+      "Lead Notifications: Real-time alerts when leads submit forms",
+      "Integrations: Connect with email marketing and CRM platforms"
+    ],
+    howToUse: {
+      title: "How to Use Leadpages",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Sign up at leadpages.com and select a template that matches your campaign goal. Templates are organized by conversion objective to help you start with a design optimized for your specific goal." },
+        { title: "Customize Your Page", description: "Edit the template content using the drag-and-drop editor. Use the AI copy generator to draft headline and body copy if you need help with the words." },
+        { title: "Publish and Test", description: "Publish your page on a Leadpages subdomain or your custom domain. Set up an A/B test if you want to compare variations, and configure your lead notification settings." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversion-Optimized Templates", description: "Leadpages templates are designed specifically for conversion rather than general aesthetics - which gives pages built on Leadpages a head start on performance compared to generic website builders" },
+      { title: "Speed to Live", description: "Getting a landing page live quickly matters for time-sensitive campaigns. Leadpages' template-first approach means campaigns can launch in hours rather than days" },
+      { title: "Integrated Lead Management", description: "Having lead capture, notification, and basic CRM integration built into the landing page tool eliminates the setup work of connecting separate systems" },
+      { title: "AI Copy Assistance", description: "Landing page copy is one of the most important conversion factors and one of the hardest things to write well. AI copy generation provides a starting point that reduces the blank page problem" }
+    ],
+    useCases: [
+      { title: "Small Business Owners Running Campaigns", description: "Small businesses launching marketing campaigns use Leadpages to create professional landing pages quickly without developer resources" },
+      { title: "Marketers Managing Multiple Campaigns", description: "Marketing professionals running multiple simultaneous campaigns use Leadpages to create and manage landing pages efficiently across different offers" },
+      { title: "Coaches and Course Creators", description: "Online educators and coaches use Leadpages for course enrollment and lead generation pages that convert visitors into students and clients" }
+    ]
+  },
+  "plug-pay": {
+    whatIs: "Plug and Pay is a landing page and checkout builder focused specifically on direct-to-consumer sales and digital product selling. It combines landing page creation with a built-in checkout system optimized for high conversion, making it a focused tool for entrepreneurs and creators who want to sell digital products, courses, or services online without connecting multiple tools. The checkout optimization features - upsells, order bumps, and abandoned cart recovery - are built in rather than requiring separate integrations.",
+    features: [
+      "Landing Page Builder: Create sales pages for products and services",
+      "Optimized Checkout: High-converting checkout pages built for direct sales",
+      "Order Bumps: Add additional offers at the point of purchase",
+      "Upsells: Present additional offers after the initial purchase",
+      "Abandoned Cart: Recover incomplete purchases automatically",
+      "Digital Products: Sell downloads, courses, and digital content",
+      "Payment Integration: Connect with major payment processors",
+      "Conversion Optimization: Built-in features for maximizing sales"
+    ],
+    howToUse: {
+      title: "How to Use Plug Pay",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Sales Page", description: "Sign up at plugandpay.nl and create your sales page using the builder. Add your product details, benefits, and pricing." },
+        { title: "Configure Your Checkout", description: "Set up your checkout page with your payment processor. Add order bumps and configure post-purchase upsell offers to increase average order value." },
+        { title: "Launch and Optimize", description: "Publish your pages and start driving traffic. Monitor conversion rates and use the built-in optimization features to improve performance over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sales-Focused Design", description: "Plug and Pay is built specifically for selling rather than general landing pages - which means the templates and features are optimized for purchase conversion rather than lead generation or brand building" },
+      { title: "Checkout and Page Together", description: "Having landing page and checkout in one tool eliminates the integration work of connecting a page builder to a separate checkout system" },
+      { title: "Revenue Optimization Built In", description: "Order bumps and upsells are standard e-commerce revenue optimization tactics that typically require separate tools or custom development. Plug and Pay includes them as standard features" },
+      { title: "Creator Economy Focus", description: "The platform is designed around the needs of digital product sellers, course creators, and service providers rather than physical product retailers" }
+    ],
+    useCases: [
+      { title: "Digital Product Creators", description: "Creators selling ebooks, templates, courses, and other digital products use Plug and Pay for a complete sell and deliver solution" },
+      { title: "Online Course Instructors", description: "Course creators use Plug and Pay for their enrollment pages and checkout rather than relying on course platform checkout systems with lower conversion rates" },
+      { title: "Service Businesses Selling Packages", description: "Coaches, consultants, and agencies use Plug and Pay to sell service packages with professional checkout experiences that inspire confidence" }
+    ]
+  },
+  "pagepilot-ai": {
+    whatIs: "PagePilot AI is an AI-powered landing page generator that creates complete, conversion-optimized landing pages from a product description or brief. You describe your product, target audience, and key selling points, and PagePilot generates a full landing page including copy, layout, and design - ready to publish or customize. It is designed for speed - getting from product description to published page in minutes rather than hours.",
+    features: [
+      "AI Page Generation: Generate complete landing pages from product descriptions",
+      "Conversion Copy: AI writes persuasive headlines and body copy",
+      "Template Variety: Different page structures for different offer types",
+      "Fast Generation: Complete pages ready in minutes",
+      "Customizable Output: Edit generated pages before publishing",
+      "Multiple Languages: Generate pages in different languages",
+      "Export Options: Download or publish generated pages",
+      "Free to Try: Test page generation without immediate payment"
+    ],
+    howToUse: {
+      title: "How to Use Pagepilot Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Product", description: "Sign up at pagepilot.ai and describe your product or service, your target audience, and the main benefits you want to highlight." },
+        { title: "Review Generated Page", description: "PagePilot generates a complete landing page with headline, subheadline, feature sections, social proof, and call to action. Review the output and note what needs adjustment." },
+        { title: "Customize and Publish", description: "Edit any sections that need personalizing - add specific testimonials, adjust pricing, refine copy - then publish your page or export the content to your preferred platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Page Generation", description: "PagePilot generates entire landing pages rather than just copy or just design - which means the output is immediately usable rather than requiring assembly from separate pieces" },
+      { title: "Conversion Structure", description: "The generated pages follow conversion-optimized structures rather than generic layouts - which gives AI-generated pages a better starting point than blank templates" },
+      { title: "Speed for Testing", description: "Generating a landing page in minutes rather than hours makes it practical to create multiple page variants for testing without significant time investment" },
+      { title: "Description to Page", description: "The input is a plain language product description rather than technical specifications - which makes the tool accessible to people who know their product but not landing page best practices" }
+    ],
+    useCases: [
+      { title: "Marketers Testing New Offers", description: "Marketing teams testing new product offers use PagePilot to create landing pages quickly for initial traffic tests before investing in custom design" },
+      { title: "Entrepreneurs Launching Products", description: "Founders launching new products use PagePilot to get a professional landing page live quickly for early customer validation" },
+      { title: "Agencies Creating Client Pages", description: "Marketing agencies use PagePilot to rapidly generate first drafts of landing pages for client review, reducing the time between brief and first deliverable" }
+    ]
+  },
+  "codedesign-ai": {
+    whatIs: "CodeDesign AI is a platform that uses AI to generate website designs and code from text descriptions or existing designs. It focuses on the design-to-code workflow, helping teams move from wireframes, mockups, or descriptions to production-ready frontend code faster. The platform supports popular frontend frameworks and generates clean, maintainable code rather than bloated output that requires significant cleanup before use.",
+    features: [
+      "Design to Code: Convert design files to production-ready code",
+      "Text to Website: Generate websites from text descriptions",
+      "Framework Support: Output in React, Vue, HTML/CSS, and other frameworks",
+      "Clean Code Output: Generates maintainable code not throwaway scaffolding",
+      "Responsive Design: Generated code is responsive across screen sizes",
+      "Component Generation: Create reusable UI components from designs",
+      "Export Options: Download code for integration into existing projects",
+      "Figma Integration: Import designs directly from Figma"
+    ],
+    howToUse: {
+      title: "How to Use Codedesign Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Design", description: "Sign up at codedesign.ai and upload your design file from Figma or describe the website you want to build in plain language." },
+        { title: "Select Your Framework", description: "Choose the frontend framework you want the code generated in. The platform adjusts its output to match the conventions of your chosen technology." },
+        { title: "Review and Export", description: "Review the generated code and design preview. Make any adjustments needed and export the code for integration into your project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Design Handoff Acceleration", description: "The design-to-code handoff is one of the biggest time sinks in frontend development. CodeDesign AI automates the mechanical translation of design to code" },
+      { title: "Clean Output Quality", description: "Generated code that needs significant cleanup before it is usable negates the time savings of generation. CodeDesign AI focuses on producing maintainable code that developers can actually use" },
+      { title: "Framework Flexibility", description: "Generating in the framework the team already uses means the output integrates naturally rather than requiring translation into the project's tech stack" },
+      { title: "Figma Native Input", description: "Direct Figma integration means designs can go from the design tool to code without any export or conversion step in between" }
+    ],
+    useCases: [
+      { title: "Frontend Developers Accelerating UI Work", description: "Frontend engineers use CodeDesign AI to convert designs to code starting points quickly, focusing their time on logic and interactivity rather than layout scaffolding" },
+      { title: "Design Teams Building Prototypes", description: "Designers who want to create functional prototypes use CodeDesign AI to go from their designs to working code without deep frontend expertise" },
+      { title: "Agencies Handling Design-to-Code Work", description: "Web agencies use CodeDesign AI to accelerate the design implementation phase of client projects" }
+    ]
+  },
+  "hoop-dev": {
+    whatIs: "Hoop is a developer tool that provides a secure, audited gateway for accessing databases and infrastructure without exposing credentials or requiring VPN access. It allows developers to run database queries, execute commands, and access production systems through a controlled interface that logs all activity for compliance and security purposes. For engineering teams that need to give developers production access while maintaining security and audit trails, Hoop provides a practical middle ground between no access and unrestricted access.",
+    features: [
+      "Secure Database Access: Query databases without exposing credentials",
+      "Audit Logging: Complete audit trail of all commands and queries executed",
+      "No VPN Required: Access production systems without VPN setup",
+      "Session Recording: Record developer sessions for security review",
+      "Access Controls: Fine-grained control over who can access what",
+      "Multiple Databases: Support for PostgreSQL, MySQL, and other databases",
+      "CLI Access: Execute commands on remote systems securely",
+      "Compliance Support: Audit trails that support compliance requirements"
+    ],
+    howToUse: {
+      title: "How to Use Hoop Dev",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Infrastructure", description: "Sign up at hoop.dev and connect your databases and infrastructure. Configure which team members have access to which systems and what actions they can perform." },
+        { title: "Access Systems Through Hoop", description: "Developers use the Hoop CLI or web interface to run queries and execute commands. All access goes through Hoop rather than direct database connections." },
+        { title: "Review Audit Logs", description: "Security and compliance teams review the audit logs to understand what actions developers have taken in production systems. Session recordings provide full context for any review." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Credential Security", description: "Developers never see the actual database credentials - they access systems through Hoop which authenticates on their behalf. This eliminates the risk of credential sharing and leakage" },
+      { title: "Audit Without Obstruction", description: "Complete audit logging means security teams have visibility into production access without preventing developers from doing their work" },
+      { title: "Compliance Made Practical", description: "Many compliance frameworks require audit trails for production system access. Hoop provides those trails without requiring complex enterprise security infrastructure" },
+      { title: "Access Without VPN", description: "VPN requirements add friction to developer workflows. Hoop's secure gateway provides controlled access without requiring developers to connect a VPN for every production interaction" }
+    ],
+    useCases: [
+      { title: "Security-Conscious Engineering Teams", description: "Teams at companies with security and compliance requirements use Hoop to give developers necessary production access while maintaining the audit trails that security requires" },
+      { title: "DevOps Teams Managing Production Access", description: "Platform and infrastructure teams use Hoop to centralize and control how developers access production databases and systems" },
+      { title: "Compliance-Driven Organizations", description: "Companies in regulated industries use Hoop to satisfy audit requirements for production system access without building custom access control infrastructure" }
+    ]
+  },
+  "rerun": {
+    whatIs: "Rerun is an open-source visualization and observability tool built specifically for multimodal data - the kind of data that comes from robotics, computer vision, and spatial AI applications. It lets developers visualize point clouds, images, 3D scenes, time series, and other complex data types together in one interface, with a timeline that lets you scrub through recorded data to understand what happened at any point. For teams building computer vision systems, robotic applications, or spatial AI, Rerun provides the observability layer that generic logging tools cannot.",
+    features: [
+      "Multimodal Visualization: Display images, point clouds, 3D scenes, and time series together",
+      "Timeline Scrubbing: Navigate through recorded data at any point in time",
+      "Computer Vision Support: Visualize image data with annotations and detections",
+      "3D Scene Visualization: View and navigate 3D spatial data interactively",
+      "Open Source: Full source code available for customization and contribution",
+      "Python and Rust SDKs: Log data from Python and Rust applications",
+      "Remote Viewing: View data from remote processes in real time",
+      "Recording and Playback: Record sessions for later analysis and debugging"
+    ],
+    howToUse: {
+      title: "How to Use Rerun",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Instrument Your Code", description: "Install the Rerun SDK for Python or Rust and add logging calls to your application. Log images, point clouds, poses, and other data types that you want to visualize." },
+        { title: "View Your Data", description: "Open the Rerun viewer and see your logged data visualized in real time or load a recorded session for post-hoc analysis. Use the timeline to navigate to specific moments." },
+        { title: "Debug and Iterate", description: "Use the visualization to understand what your system is seeing and doing at every point in time. Identify where perception or decision-making breaks down and iterate on your implementation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multimodal Data Together", description: "Generic observability tools handle logs and metrics but not 3D scenes, point clouds, and images. Rerun is designed specifically for the data types that spatial AI and robotics applications produce" },
+      { title: "Timeline Navigation", description: "Being able to scrub through recorded sessions to any point in time is essential for debugging intermittent issues in robotics and computer vision systems that may fail only in specific conditions" },
+      { title: "Open Source Trust", description: "Teams building research and production systems on open source foundations prefer open source tooling that they can audit, customize, and contribute to" },
+      { title: "Real-Time and Recorded", description: "Supporting both real-time visualization and recorded session playback means Rerun works for both development and production debugging workflows" }
+    ],
+    useCases: [
+      { title: "Robotics Engineers", description: "Teams building robots use Rerun to visualize sensor data, perception outputs, and robot state to understand and debug system behavior" },
+      { title: "Computer Vision Researchers", description: "Researchers developing object detection, segmentation, and other vision systems use Rerun to visualize model inputs and outputs across their test datasets" },
+      { title: "Spatial AI Developers", description: "Engineers building applications that understand 3D space - AR systems, autonomous vehicles, drone navigation - use Rerun for the spatial data visualization that generic tools cannot provide" }
+    ]
+  },
   "gptexcel": {
     whatIs: "GPTExcel is an AI tool that generates Excel and Google Sheets formulas from plain English descriptions. Instead of trying to remember the exact syntax of complex formulas or searching documentation for the right function, you describe what you want to calculate and GPTExcel writes the formula for you. It also works in reverse - paste a formula and it explains what it does in plain language. For anyone who uses spreadsheets regularly but finds formula syntax a barrier, GPTExcel removes that friction entirely.",
     features: [
