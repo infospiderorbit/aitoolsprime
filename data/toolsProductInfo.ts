@@ -1,4 +1,534 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "hoppy-copy": {
+    whatIs: "Hoppy Copy is an all-in-one AI email marketing and newsletter platform built specifically for email - not a general writing tool that happens to handle email. It combines AI copywriting with design tools, automation, spam checking, competitor monitoring, and sending capabilities so the entire newsletter workflow lives in one place. The Brand Memory system learns your voice and strategy over time, which means generated content actually sounds like you rather than a generic AI output. You can also put newsletters on autopilot by connecting RSS feeds and live web search so the platform pulls and repurposes fresh content automatically.",
+    features: [
+      "AI Newsletter Creator: Generate complete newsletter drafts from topic inputs in your brand voice",
+      "Brand Memory: AI learns your voice, strategy, and assets for consistent on-brand content",
+      "Newsletter Autopilot: Automatically generate and send newsletters from RSS feeds and blogs",
+      "Competitor Monitoring: Track and analyze competitor email campaigns to inform your strategy",
+      "Spam Checker: Identify and remove spam triggers before sending to protect deliverability",
+      "Visual Email Builder: Design mobile and dark mode optimized emails without coding",
+      "Email Sequences: Plan and automate welcome flows, sales sequences, and follow-up campaigns",
+      "Analytics: Track opens, clicks, and engagement then generate content based on what works",
+      "35 Plus Languages: Generate newsletter content across more than 35 languages",
+      "7 Day Free Trial: Full access trial with no credit card required"
+    ],
+    howToUse: {
+      title: "How to Use Hoppy Copy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Brand", description: "Sign up at hoppycopy.co and configure your brand settings. Feed Hoppy Copy your brand voice, strategy, and any existing content so the Brand Memory system can learn how you communicate." },
+        { title: "Generate Your Newsletter", description: "Enter your newsletter topic, tone, and any key points you want covered. Hoppy Copy produces a complete draft including sections, copy, and image suggestions. Edit until it sounds exactly right." },
+        { title: "Automate and Send", description: "Set up RSS feeds or web search sources to put content discovery on autopilot. Schedule sends directly from Hoppy Copy or export to your existing email platform with a simple copy-paste." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Purpose-Built for Email", description: "Hoppy Copy is not a general writing tool with an email template - it is built from the ground up for email marketing. That focus means features like spam checking, deliverability optimization, and proven copy formulas are built into the core workflow" },
+      { title: "Brand Memory System", description: "Most AI tools forget your brand the moment a session ends. Brand Memory means Hoppy Copy accumulates knowledge about your voice and strategy over time, producing increasingly accurate on-brand content with each use" },
+      { title: "Competitor Intelligence", description: "Access to thousands of competitor email campaigns gives marketers insight into what is working in their industry without having to manually subscribe to every competitor newsletter" },
+      { title: "Full Automation Capability", description: "Connecting RSS feeds and live web search means newsletters can be generated and sent on a schedule without manual content discovery - particularly valuable for weekly newsletters that require fresh relevant topics" }
+    ],
+    useCases: [
+      { title: "Email Marketers and Newsletter Creators", description: "Professionals running regular newsletters use Hoppy Copy to cut the time spent on each issue from hours to minutes while maintaining content quality and brand consistency" },
+      { title: "Marketing Agencies", description: "Agencies managing email campaigns for multiple clients use Brand Memory and team collaboration to produce on-brand content at scale without manually re-briefing the AI each time" },
+      { title: "Founders and Solopreneurs", description: "Business owners who want to run a newsletter but cannot justify the time investment use Hoppy Copy's automation features to stay consistent without it becoming a second job" }
+    ]
+  },
+  "letterpal": {
+    whatIs: "Letterpal is an AI newsletter generator focused on helping creators and publishers produce newsletters that readers actually want to read rather than newsletters that are technically competent but forgettable. The platform emphasizes topic discovery as much as writing - it helps identify fresh relevant content from across the web and formats it into ready-to-send newsletters. For niche newsletter creators and global publishers who need timely relevant coverage, Letterpal's content curation approach is particularly strong.",
+    features: [
+      "AI Newsletter Generation: Complete newsletter drafts from topic inputs and curated content",
+      "Topic Discovery: AI identifies fresh relevant topics and content from across the web",
+      "Content Curation: Pull and repurpose trending news and thought leadership in your niche",
+      "Ready-to-Send Format: Output formatted for direct distribution without heavy editing",
+      "Niche Audience Support: Works well for specialized topic newsletters requiring timely coverage",
+      "Global Coverage: Research topics across multiple countries and regions",
+      "Editor Integration: Built-in editor for refining and customizing generated newsletters",
+      "Consistent Publishing: Tools designed to support regular publishing schedules"
+    ],
+    howToUse: {
+      title: "How to Use Letterpal",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Newsletter Focus", description: "Sign up at letterpal.io and set up your newsletter's topic focus, target audience, and tone. The more specific your niche the more relevant the content discovery will be." },
+        { title: "Discover and Curate Topics", description: "Use Letterpal's topic discovery tools to surface fresh relevant content in your niche. Review what the AI has surfaced and select the angles and stories you want to cover in this issue." },
+        { title: "Generate and Send", description: "The AI generates your newsletter draft incorporating the curated content. Review, refine using the built-in editor, and distribute to your subscribers through your preferred sending platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Topic-First Approach", description: "Letterpal starts with finding what is worth writing about rather than just generating text on demand - which produces newsletters that feel current and relevant rather than generic and evergreen" },
+      { title: "Niche Newsletter Strength", description: "For newsletters covering specialized topics that require genuinely timely coverage, Letterpal's content discovery tools are particularly valuable compared to tools that rely entirely on user-provided prompts" },
+      { title: "Global Content Research", description: "The ability to research topics across countries and regions makes Letterpal useful for newsletters covering international subjects or serving global audiences" },
+      { title: "Reduced Research Time", description: "The biggest time sink in newsletter creation is often finding and evaluating what to write about. Letterpal handles that discovery work automatically which speeds up the overall production process" }
+    ],
+    useCases: [
+      { title: "Niche Newsletter Creators", description: "People running newsletters on specialized topics - technology, finance, health, specific industries - use Letterpal to stay on top of what is happening in their niche and turn it into subscriber-ready content efficiently" },
+      { title: "Content Marketers", description: "Marketing teams that use newsletters as a content channel use Letterpal to maintain publishing consistency without dedicating excessive team time to content research and drafting" },
+      { title: "Independent Publishers", description: "Solo newsletter operators building audience-based businesses use Letterpal to produce professional-quality newsletters without a research and writing team behind them" }
+    ]
+  },
+  "promo-ai": {
+    whatIs: "Promo.ai is an AI newsletter generator designed specifically for promotional and marketing-focused newsletters - the kind that drive product awareness, launches, and sales rather than editorial content. It automates the creation of promotional email content with AI that understands marketing copy conventions, making it practical for small businesses and startups that need to communicate with their audience regularly without a dedicated copywriter on hand.",
+    features: [
+      "Promotional Newsletter Generation: AI creates marketing-focused newsletter content automatically",
+      "Product Update Announcements: Communicate product changes and new offerings to subscribers",
+      "Launch Campaigns: Generate email sequences for product and feature launches",
+      "Marketing Copy Conventions: Output follows proven promotional email structures",
+      "Affordable Automation: Newsletter creation at a price point accessible to small businesses",
+      "Customizable Output: Edit and adjust generated content to match your brand and offer",
+      "Subscriber Communication: Keep audiences informed and engaged with regular AI-generated updates",
+      "Quick Setup: Get newsletters generated without complex configuration or onboarding"
+    ],
+    howToUse: {
+      title: "How to Use Promo Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Brand and Offer", description: "Sign up at promo.ai and enter details about your business, product, and what you want to communicate to your subscribers this issue." },
+        { title: "Generate Your Promotional Content", description: "The AI produces a complete promotional newsletter draft focused on your marketing goal - whether that is announcing a launch, driving a sale, or updating subscribers on new features." },
+        { title: "Edit and Send", description: "Review the generated newsletter, adjust any copy that needs to better match your voice or offer specifics, and distribute through your email platform of choice." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Marketing-Focused Output", description: "Promo.ai is calibrated for promotional email rather than editorial content - which means the copy follows marketing conventions designed to drive engagement and action rather than just inform" },
+      { title: "Small Business Accessibility", description: "Pricing and simplicity are positioned for small businesses and startups that need marketing email automation without enterprise-level costs or complexity" },
+      { title: "Launch and Update Support", description: "Generating email content for product launches and updates is one of the most time-consuming writing tasks for small teams. Promo.ai handles it automatically so product teams can focus on the launch itself" },
+      { title: "No Copywriter Required", description: "Small businesses without dedicated marketing staff use Promo.ai to produce professional promotional email content without hiring a copywriter for every campaign" }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Business owners who want to keep their subscriber list warm and informed about their products use Promo.ai to generate professional promotional newsletters without the time investment of writing from scratch" },
+      { title: "Product Teams at Startups", description: "Early-stage product teams use Promo.ai to communicate launches, updates, and new features to their user base with well-structured marketing emails" },
+      { title: "E-commerce Businesses", description: "Online retailers use promotional newsletter generation to maintain regular communication with their customer list around new products, sales, and seasonal promotions" }
+    ]
+  },
+  "auto-mailer": {
+    whatIs: "Auto Mailer is a newsletter creation tool designed for people who want to produce newsletters through a drag-and-drop interface rather than writing from scratch or wrestling with complex email marketing platforms. It focuses on accessibility and ease of use - particularly for non-technical users who need to create and send newsletters without learning complicated tools or writing significant amounts of copy from scratch.",
+    features: [
+      "Drag and Drop Interface: Build newsletters visually without coding or technical knowledge",
+      "Automated Newsletter Creation: Generate newsletter content with minimal manual input",
+      "Template Library: Pre-built newsletter layouts for different use cases and industries",
+      "Content Blocks: Modular content sections that can be combined and rearranged",
+      "Non-Technical Friendly: Built for users without email marketing or design experience",
+      "Scheduling: Plan and schedule newsletter sends in advance",
+      "Subscriber Management: Basic list management for newsletter distribution",
+      "Quick Setup: Create and send a newsletter quickly without extensive configuration"
+    ],
+    howToUse: {
+      title: "How to Use Auto Mailer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Sign up at Auto Mailer and select a newsletter template that fits your use case. Templates provide the structure and layout so you do not have to build from a blank canvas." },
+        { title: "Build with Drag and Drop", description: "Add and arrange content blocks - text sections, images, buttons, and other elements - using the drag and drop interface. No design or coding experience needed." },
+        { title: "Schedule and Send", description: "Review your finished newsletter, set up your subscriber list, and schedule your send. Auto Mailer handles the delivery and you can track basic performance metrics." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Drag and Drop Simplicity", description: "The visual builder removes the technical barrier that prevents many small businesses and individuals from creating newsletters - if you can drag things around a screen you can build a newsletter" },
+      { title: "Non-Technical Audience Focus", description: "Most email marketing platforms assume some level of technical or marketing sophistication. Auto Mailer is specifically built for people who have neither and just need to send a newsletter" },
+      { title: "Template-First Approach", description: "Starting from professionally designed templates rather than a blank canvas means even users with no design sense can produce newsletters that look polished and readable" },
+      { title: "Minimal Time Investment", description: "The whole point of Auto Mailer is reducing the time and effort required to produce a newsletter - setup, creation, and sending can all happen in a single focused session" }
+    ],
+    useCases: [
+      { title: "Small Business Owners New to Email Marketing", description: "Business owners who know they should be sending newsletters but have avoided it due to technical complexity use Auto Mailer to get started without a steep learning curve" },
+      { title: "Non-Profits and Community Organizations", description: "Organizations without dedicated marketing staff use Auto Mailer to communicate with their members and supporters through professional-looking newsletters produced without specialist knowledge" },
+      { title: "Freelancers and Consultants", description: "Independent professionals who want to maintain client and prospect communication through newsletters use Auto Mailer to create them quickly without it becoming a significant time investment" }
+    ]
+  },
+  "ai-novelist": {
+    whatIs: "AI Novelist is a dedicated AI platform for novel writing that helps authors develop, draft, and organize long-form fiction projects from initial concept through to finished manuscript. It is built around the specific needs of novel writing - long context management, character consistency, chapter organization, and the ability to develop a story over tens of thousands of words without the narrative losing coherence. For writers who have the story in their head but struggle with getting it onto the page consistently, AI Novelist provides the structure and generation assistance to keep the project moving.",
+    features: [
+      "Novel Generation: AI-assisted drafting for full-length novels across all genres",
+      "Long Context Management: Maintains story coherence across extended writing sessions",
+      "Chapter Organization: Structured chapter-by-chapter project management",
+      "Character Consistency: Tracks character details to maintain consistency across the manuscript",
+      "Genre Support: Fiction across fantasy, romance, mystery, thriller, sci-fi, and more",
+      "Outline to Draft: Expand outlines into fully drafted chapters with AI assistance",
+      "Writer's Block Tools: Generation prompts to keep the project moving when stuck",
+      "Export Options: Download finished manuscripts in standard formats"
+    ],
+    howToUse: {
+      title: "How to Use Ai Novelist",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Novel Project", description: "Sign up at ai-novelist.com and create a new novel project. Enter your story concept, genre, main characters, and any outline or plot points you have already developed." },
+        { title: "Build Your Structure", description: "Develop your chapter outline and character profiles. The more detail you provide upfront the more consistent and relevant the AI-generated content will be throughout the manuscript." },
+        { title: "Draft Chapter by Chapter", description: "Work through your novel chapter by chapter using AI assistance to draft scenes, develop dialogue, and expand plot points. Review and refine each chapter before moving to the next." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Long-Form Focus", description: "AI Novelist is built for novel-length projects rather than short content - the tools are designed around the specific challenge of maintaining coherence and consistency across 80,000 plus word manuscripts" },
+      { title: "Character Tracking", description: "Keeping character details consistent across a long novel is one of the most common places where manuscripts break down. Built-in character tracking reduces the errors that come from losing track of established details" },
+      { title: "Genre-Aware Output", description: "Different genres have different conventions for pacing, tone, and structure. AI Novelist generates content with awareness of genre expectations rather than producing identical output regardless of whether you are writing a cozy mystery or an epic fantasy" },
+      { title: "Outline Expansion", description: "Many writers find outlining easier than drafting. AI Novelist bridges that gap by expanding detailed outlines into drafted chapters - letting writers stay in planning mode while the AI handles initial prose generation" }
+    ],
+    useCases: [
+      { title: "Aspiring Novelists Who Never Finish", description: "Writers who start novels but struggle to sustain momentum through a full manuscript use AI Novelist to maintain output and keep the project moving through the difficult middle sections" },
+      { title: "Genre Fiction Authors", description: "Writers producing romance, fantasy, mystery, or thriller novels use genre-aware AI assistance to draft faster without sacrificing the conventions that their genre readers expect" },
+      { title: "NaNoWriMo Participants", description: "Writers participating in word-count focused writing challenges use AI Novelist to hit daily targets even on days when inspiration is limited" }
+    ]
+  },
+  "novelistai": {
+    whatIs: "NovelistAI is an all-in-one creative writing platform that goes beyond writing to cover the full book production process - including AI cover art generation, audiobook creation with custom AI voices, and interactive gamebook formats. For writers who want to take a story from concept to publishable product entirely within one platform, NovelistAI removes the need to cobble together separate tools for writing, design, and audio production. The community library feature lets users publish their completed books and read works by other NovelistAI users.",
+    features: [
+      "AI Novel Writing: Generate and develop fiction across all genres with AI assistance",
+      "AI Cover Art: Create book cover illustrations in multiple art styles using built-in image generation",
+      "Audiobook Creation: Convert manuscripts to audiobooks using natural AI voices",
+      "Custom AI Voice: Upload a voice sample to create a personalized AI narrator that sounds like you",
+      "Interactive Gamebook Format: Write branching choose-your-own-adventure style stories",
+      "Community Library: Publish completed books and read works by other users",
+      "Character and Scene Images: Generate character portraits and scene illustrations",
+      "Genre Fiction Support: Fantasy maps, character art, and genre-specific creative tools"
+    ],
+    howToUse: {
+      title: "How to Use Novelistai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Story", description: "Sign up at novelistai.com and create a new writing project. Enter your genre, story concept, and main characters. Use the AI writing tools to develop your narrative from outline to drafted chapters." },
+        { title: "Create Your Cover", description: "Use the built-in AI art generator to design your book cover. Choose an art style, describe what you want, and generate multiple options until you find a cover that fits your story." },
+        { title: "Produce and Publish", description: "Convert your finished manuscript to an audiobook using AI voices or upload your own voice sample for a custom narrator. Publish your completed book to the community library or export for external publication." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Full Production Pipeline", description: "Writing, cover design, and audiobook production in one platform removes the need to work with multiple tools and export formats - the entire journey from first word to publishable product stays in one place" },
+      { title: "Custom AI Narrator Voice", description: "The ability to upload a voice sample and create a custom AI narrator is a distinctive feature - it gives audiobooks a personal quality that generic text-to-speech voices cannot match" },
+      { title: "Interactive Story Format", description: "Support for branching gamebook narratives is rare among AI writing tools. Writers wanting to create choose-your-own-adventure or interactive fiction have very few platform options and NovelistAI is one of them" },
+      { title: "Community and Discovery", description: "The built-in library creates a reading and discovery community around the platform - which adds social motivation to the writing process and provides a native distribution channel for completed works" }
+    ],
+    useCases: [
+      { title: "Aspiring Authors Wanting a Complete Product", description: "Writers who want to produce not just a manuscript but a complete book with cover and audio use NovelistAI to handle the full production chain without hiring separate designers and audiobook producers" },
+      { title: "Interactive Fiction Creators", description: "Writers who want to create branching narrative stories rather than linear novels use NovelistAI's gamebook format to build choose-your-own-adventure style content within a structured platform" },
+      { title: "Writers Building a Reading Community", description: "Authors interested in sharing their work with a built-in audience use the community library to publish and discover AI-assisted creative writing within the platform" }
+    ]
+  },
+  "webnovels-ai": {
+    whatIs: "Webnovels AI is an AI writing platform built around the web novel format - serialized fiction published chapter by chapter directly to online reading communities. Web novels have their own conventions around pacing, chapter length, cliffhangers, and genre expectations that differ from traditionally published books. Webnovels AI is calibrated for this format, helping writers produce chapters consistently enough to maintain a publishing schedule and keep readers engaged across long-running serialized stories.",
+    features: [
+      "Web Novel Format: AI writing tools calibrated for serialized online fiction",
+      "Chapter-by-Chapter Production: Structured workflow for consistent chapter publishing",
+      "Cliffhanger and Pacing Tools: Generate chapter endings designed to keep readers returning",
+      "Genre Support: Popular web novel genres including cultivation, isekai, romance, and fantasy",
+      "Consistent Character Voices: Maintain character consistency across long serialized runs",
+      "Publishing Schedule Support: Tools designed around regular chapter production",
+      "Long-Running Story Management: Organize plot threads across extended serialized narratives",
+      "Free to Start: Core writing features accessible without a paid subscription"
+    ],
+    howToUse: {
+      title: "How to Use Webnovels Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Series", description: "Sign up at webnovels-ai.com and create your web novel project. Enter your series concept, main characters, and the genre conventions you want to follow." },
+        { title: "Generate Chapters Consistently", description: "Use the AI writing tools to draft chapters on your publishing schedule. The platform helps maintain character consistency and narrative thread management across many chapters." },
+        { title: "Keep Readers Hooked", description: "Use pacing and cliffhanger tools to craft chapter endings that give readers a reason to come back for the next installment. Consistent quality and regular publishing are what build web novel audiences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Web Novel Format Calibration", description: "Web novels have different conventions from traditionally published fiction - shorter chapters, faster pacing, genre-specific tropes, and chapter-ending hooks. Webnovels AI is built around these conventions rather than adapting a general novel writing tool" },
+      { title: "Serialized Production Focus", description: "The challenge of web novel writing is producing consistently at volume over months or years. Webnovels AI is designed around maintaining that output rather than just helping with a single book" },
+      { title: "Genre Convention Awareness", description: "Popular web novel genres like cultivation fantasy, isekai, and progression fiction have specific reader expectations. Genre-aware AI generation helps writers meet those expectations efficiently" },
+      { title: "Long Story Thread Management", description: "Managing plot threads, character arcs, and world-building details across hundreds of chapters is genuinely difficult. Webnovels AI provides organization tools specifically for this challenge" }
+    ],
+    useCases: [
+      { title: "Web Novel Authors on Serialized Platforms", description: "Writers publishing on Royal Road, Scribble Hub, or similar platforms use Webnovels AI to maintain the consistent chapter production that builds and retains an online reading audience" },
+      { title: "Aspiring Web Novel Writers", description: "Readers of web fiction who want to write their own series use Webnovels AI to understand and apply the format conventions that make serialized online fiction work" },
+      { title: "High-Volume Fiction Producers", description: "Writers who want to publish multiple series simultaneously use AI assistance to maintain quality and consistency across several ongoing projects at once" }
+    ]
+  },
+  "surfer": {
+    whatIs: "Surfer is an AI-powered SEO content platform that combines content optimization with outline and draft generation. The core idea is that ranking on Google requires more than just well-written content - it requires content structured around what actually performs in search results. Surfer analyzes top-ranking pages for your target keyword and uses those insights to inform the outline, headings, keyword distribution, and content depth it recommends. The result is content built to rank rather than content that happens to include the right keywords.",
+    features: [
+      "AI Outline Generator: Create SEO-optimized content outlines based on top-ranking competitor analysis",
+      "Content Editor: Real-time SEO scoring and keyword recommendations as you write",
+      "Keyword Research: Identify target keywords and related terms to include for ranking",
+      "Competitor Analysis: Analyze top-ranking pages to understand what your content needs to compete",
+      "AI Writing Assistant: Generate and optimize content with Surfy, the AI ranking assistant",
+      "Content Audit: Analyze existing content for SEO improvement opportunities",
+      "Plagiarism and AI Detection: Check content originality and AI detection status",
+      "Free Outline Tool: Generate structured content outlines without a paid subscription"
+    ],
+    howToUse: {
+      title: "How to Use Surfer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Generate Your Outline", description: "Enter your target keyword at surferseo.com and use the free AI outline generator to create a structured content framework with suggested headings, subheadings, and talking points based on what is ranking." },
+        { title: "Write in the Content Editor", description: "Open the Surfer Content Editor and write your article with real-time SEO feedback. The editor shows your content score, recommended keywords, and how your structure compares to top-ranking pages." },
+        { title: "Optimize and Publish", description: "Use Surfer's recommendations to close gaps between your content and the top performers for your keyword. Review your final score, run plagiarism and AI detection checks, and publish with confidence." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Search-Intent Driven Outlines", description: "Surfer does not generate outlines based on general knowledge - it analyzes what is actually ranking for your keyword and builds the outline around that real competitive data, which produces content structures that match what Google rewards" },
+      { title: "Real-Time SEO Scoring", description: "Writing with a live content score means you can see exactly how your content is performing against SEO benchmarks as you write rather than discovering gaps only after the content is published" },
+      { title: "Competitor Intelligence", description: "Understanding what the top-ranking pages cover, how long they are, and which terms they use gives writers a clear brief for what their content needs to do to compete - rather than guessing" },
+      { title: "Free Entry Point", description: "The free outline generator provides genuine value without requiring a subscription, making Surfer accessible for writers who want SEO-informed structure without committing to a paid plan" }
+    ],
+    useCases: [
+      { title: "SEO Content Writers", description: "Writers producing content intended to rank in organic search use Surfer to ensure their content is structured and optimized to compete with what is already ranking for their target keywords" },
+      { title: "Content Marketing Teams", description: "Marketing teams managing a content calendar use Surfer to brief writers with data-driven outlines that reduce editing cycles and improve content performance from the first draft" },
+      { title: "Bloggers and Affiliate Marketers", description: "Website owners generating income through organic search traffic use Surfer to optimize content for the keyword rankings that drive their audience and revenue" }
+    ]
+  },
+  "reflect-notes": {
+    whatIs: "Reflect Notes is an AI-powered note-taking app built around connected thinking - the idea that your best insights come from linking ideas across different notes and conversations rather than keeping information in isolated silos. It integrates with your calendar, automatically syncs meeting notes from Zoom, Google Meet, and other platforms, and uses AI to help you find connections between your notes that you might have missed. For knowledge workers who take a lot of notes across many contexts, Reflect helps turn a sprawling collection into a navigable thinking system.",
+    features: [
+      "AI Note-Taking: Intelligent note capture with AI-powered organization and retrieval",
+      "Meeting Sync: Automatic note capture from Zoom, Google Meet, and other meeting platforms",
+      "Calendar Integration: Sync with your calendar to connect notes to meetings and events",
+      "Backlinks: Connect related notes with bidirectional links to build a knowledge graph",
+      "AI Summarization: Summarize long notes and generate outlines from existing content",
+      "GPT Integration: Chat with your notes using AI to find information and generate insights",
+      "Offline Access: Notes accessible without an internet connection",
+      "End-to-End Encryption: Notes encrypted for privacy and security"
+    ],
+    howToUse: {
+      title: "How to Use Reflect Notes",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Taking Notes", description: "Sign up at reflect.app and begin capturing your thoughts, meeting notes, and ideas. Connect your calendar so Reflect can automatically associate notes with your meetings and events." },
+        { title: "Build Your Knowledge Graph", description: "As you add notes, use backlinks to connect related ideas across different notes. Over time these connections build a navigable web of knowledge rather than a flat list of isolated documents." },
+        { title: "Use AI to Find and Generate", description: "Chat with your notes using the AI integration to find information, surface connections between ideas, generate summaries of long notes, and create outlines from your existing captured content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Connected Note Architecture", description: "Reflect is built around the idea that knowledge compounds when ideas are connected. The backlink system and knowledge graph approach produces a thinking system rather than a filing cabinet" },
+      { title: "Meeting Note Automation", description: "Automatic capture from meeting platforms removes the friction of manual note-taking during calls, ensuring important information is captured even when attention is fully on the conversation" },
+      { title: "AI That Knows Your Notes", description: "Chatting with your own notes to find information and surface connections is meaningfully different from asking a general AI - the answers are grounded in your actual recorded thinking and experiences" },
+      { title: "Privacy-First Design", description: "End-to-end encryption means your notes - which often contain sensitive personal and professional information - are only readable by you" }
+    ],
+    useCases: [
+      { title: "Knowledge Workers and Researchers", description: "Professionals who accumulate large amounts of information across many contexts use Reflect to build a searchable, connected knowledge base rather than a disorganized collection of documents" },
+      { title: "Meeting-Heavy Professionals", description: "People in roles with many daily meetings use automatic meeting sync to capture notes without the divided attention that manual note-taking during calls requires" },
+      { title: "Writers and Thinkers Building in Public", description: "Writers who develop ideas across many notes over time use Reflect's knowledge graph to find connections between thoughts that eventually become articles, essays, or books" }
+    ]
+  },
+  "myessaywriter": {
+    whatIs: "MyEssayWriter.ai is an AI essay writing and outlining platform aimed at students and researchers who need to produce structured academic essays efficiently. It generates complete essay outlines from a topic input, produces full essay drafts with introductions, body paragraphs, and conclusions, and includes supporting tools like a citation generator, paraphrasing tool, and AI letter generator. The platform is built specifically for academic writing tasks rather than general content creation.",
+    features: [
+      "AI Essay Outline Generator: Create structured essay outlines from topic inputs instantly",
+      "Full Essay Generation: Produce complete essays with introduction, body, and conclusion",
+      "Citation Generator: Generate citations in APA, MLA, and other academic formats",
+      "Paraphrasing Tool: Rewrite content while maintaining academic tone and meaning",
+      "AI Letter Generator: Create formal and informal letters for various purposes",
+      "Multiple Essay Types: Argumentative, analytical, expository, and research essays",
+      "Academic Level Options: High school, undergraduate, graduate, and doctoral level output",
+      "Free Trial: Generate essays and outlines without a subscription to start"
+    ],
+    howToUse: {
+      title: "How to Use Myessaywriter",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Go to myessaywriter.ai and enter your essay topic, select your academic level, essay type, and desired length. The more specific your topic the more targeted and useful the outline and draft will be." },
+        { title: "Generate Your Outline", description: "The AI produces a structured essay outline with introduction hook, thesis, body paragraph topics, and conclusion approach. Review the structure and adjust any sections before moving to full draft generation." },
+        { title: "Generate and Refine", description: "Produce the full essay draft from your outline. Review each section for accuracy and relevance, use the paraphrasing tool on any sections that feel too generic, and add citations using the built-in generator." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Outline-First Workflow", description: "Generating the outline before the full draft gives students a chance to check that the structure makes sense before committing to a complete essay - catching organizational problems early rather than in revision" },
+      { title: "Academic Level Calibration", description: "The same topic written at high school level and doctoral level should read very differently. MyEssayWriter.ai calibrates its output to the specified academic level which reduces the editing required to match the writing to the assignment" },
+      { title: "Integrated Citation Tools", description: "Having citation generation within the same platform as essay writing removes the context switching of going to a separate citation tool and reduces formatting errors that come from manual citation entry" },
+      { title: "Multiple Essay Type Support", description: "Argumentative, analytical, and expository essays have different structural requirements. Supporting multiple types rather than producing one generic essay format makes the output more directly useful for specific assignments" }
+    ],
+    useCases: [
+      { title: "University Students on Assignment Deadlines", description: "Students with multiple assignments due simultaneously use MyEssayWriter.ai to generate solid first drafts and outlines that they then develop and personalize before submission" },
+      { title: "ESL Students Writing Academically", description: "Non-native English speakers who struggle with academic writing conventions use the platform to produce structurally correct essays that meet the formal requirements their institutions expect" },
+      { title: "Researchers Drafting Quickly", description: "Researchers who need to produce initial essay drafts for review use MyEssayWriter.ai to generate structured starting points that they then develop with their specialized knowledge" }
+    ]
+  },
+  "subtxt": {
+    whatIs: "Subtxt is a story structure and narrative development tool built around the Dramatica theory of story - a mathematically grounded framework for understanding why some stories feel complete and meaningful while others fall flat even when well-written. Rather than offering generic story templates, Subtxt provides an objective, structured approach to developing the thematic and narrative architecture of a story before writing begins. It is used by professional screenwriters, novelists, and narrative designers who want to ensure their story's structure is sound before investing months in a full draft.",
+    features: [
+      "Dramatica Story Theory: Built on an objective, mathematically-backed framework for narrative structure",
+      "Narrative Context Protocol: Open-source schema for maintaining author intent across AI systems",
+      "Story Structure Analysis: Identify why specific narrative elements are or are not working",
+      "Thematic Development: Tools for developing the underlying meaning and argument of your story",
+      "Character Relationship Mapping: Track how character dynamics relate to thematic structure",
+      "Conflict Evaluation: AI evaluates narrative choices for causality and thematic weight",
+      "Muse AI Integration: AI writing assistant calibrated for narrative-first storytelling",
+      "Professional Storyteller Focus: Tools designed for writers working at a professional level"
+    ],
+    howToUse: {
+      title: "How to Use Subtxt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Story's Meaning", description: "Sign up at subtxt.app and begin by identifying what your story is actually about at a thematic level - not just what happens but what argument or meaning the events are making." },
+        { title: "Build Your Narrative Structure", description: "Use Subtxt's Dramatica-based framework to develop the structural elements of your story - the four throughlines, character relationships, and thematic conflicts that give the story its shape." },
+        { title: "Write with Structural Confidence", description: "Once your narrative structure is established, use Muse AI to generate content that is grounded in your established story architecture - so the AI output actually serves the story you intend to tell rather than drifting toward generic narrative patterns." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Dramatica Theory Foundation", description: "Dramatica is one of the most rigorous story structure frameworks available - built on the idea that complete stories have an objective underlying structure that can be analyzed and constructed. Subtxt makes this framework practical and accessible" },
+      { title: "Author Intent Preservation", description: "The Narrative Context Protocol is designed to carry a writer's specific creative intent across AI-generated content - solving the problem where AI writing assistance produces technically competent but thematically misaligned material" },
+      { title: "Conflict-Centered AI", description: "Unlike AI writing tools that predict the next word, Subtxt's AI evaluates narrative choices for causality and thematic weight - which produces content that actually advances the story rather than filling space" },
+      { title: "Professional-Grade Analysis", description: "The ability to objectively analyze why a narrative is not working and identify specific structural issues is valuable for professional writers who cannot afford to discover story problems in late development" }
+    ],
+    useCases: [
+      { title: "Professional Screenwriters", description: "Film and TV writers developing feature scripts and pilots use Subtxt to ensure their narrative structure is sound before writing full drafts - catching story problems that would be expensive to fix in production" },
+      { title: "Literary Fiction Authors", description: "Writers working on novels with complex thematic ambitions use Subtxt's structural analysis to ensure the story's meaning is architecturally supported rather than just asserted" },
+      { title: "Narrative Designers for Games", description: "Game narrative designers use Subtxt to develop story structures for interactive experiences where player choice must still feel thematically coherent regardless of which path is taken" }
+    ]
+  },
+  "superblog": {
+    whatIs: "Superblog is an AI blog content generator focused on producing outlines and full blog posts that are optimized for both readability and search performance. It handles the research, structure, and drafting so that content teams and bloggers can publish more frequently without proportionally increasing the time they invest in content creation. For teams managing high-volume publishing schedules, Superblog's generation speed is what makes the tool practically valuable.",
+    features: [
+      "AI Blog Outline Generator: Create structured blog post outlines with headings and talking points",
+      "Full Blog Post Generation: Produce complete blog articles from topic inputs",
+      "SEO Optimization: Content structured with search performance in mind",
+      "Content Ideation: Generate blog topic ideas and angles for your niche",
+      "Tone Customization: Adjust writing style from professional to conversational",
+      "Multiple Content Types: Blog posts, listicles, how-to guides, and opinion pieces",
+      "Fast Generation: Complete blog outlines and drafts produced quickly",
+      "Free to Start: Core blog generation features accessible without immediate payment"
+    ],
+    howToUse: {
+      title: "How to Use Superblog",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Sign up at superblog.ai and enter your blog topic, target audience, and any specific keywords or points you want the content to cover." },
+        { title: "Generate Your Outline", description: "Superblog produces a complete blog post outline with suggested H2 and H3 headings, key talking points for each section, and a content structure ready to build from." },
+        { title: "Generate and Publish", description: "Produce the full blog post from your outline. Review for accuracy, adjust the tone where needed, add any specific examples or data only you would have, and publish to your blog." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Outline-to-Draft Pipeline", description: "The outline generation step before full drafting gives writers a chance to review structure and catch any missing angles before committing to a complete article - saving editing time downstream" },
+      { title: "Publishing Volume Support", description: "Content teams that need to publish multiple blog posts per week use Superblog to handle initial drafting so writers can focus their time on editing, research verification, and adding unique insights" },
+      { title: "SEO-Aware Structure", description: "Blog posts structured with SEO in mind from the outline stage - with appropriate heading hierarchy and topic coverage - perform better in search than posts where SEO is added as an afterthought after drafting" },
+      { title: "Ideation Assistance", description: "Coming up with what to write about can be as time-consuming as the writing itself. Superblog's topic ideation tools help content teams maintain a full publishing calendar without constant brainstorming sessions" }
+    ],
+    useCases: [
+      { title: "Bloggers Publishing Frequently", description: "Individual bloggers who want to publish multiple times per week use Superblog to generate first drafts quickly, freeing their time for the parts of the process that benefit most from human attention" },
+      { title: "Content Marketing Teams", description: "Marketing teams managing SEO content strategies use Superblog to scale article production without proportionally scaling their team size or hours" },
+      { title: "Freelance Content Writers", description: "Freelancers managing multiple client content calendars use Superblog to increase their production capacity and take on more work without burning out on drafting" }
+    ]
+  },
+  "ai-paragraph-generator": {
+    whatIs: "AI Paragraph Generator is a focused writing tool that does exactly what the name says - you give it a topic, a point you want to make, or a context you are writing in, and it generates a coherent, well-structured paragraph ready to use or build on. It is useful for anyone who knows what they want to say but needs help turning a rough idea into polished written prose - whether that is a student filling in a section of an essay, a professional adding to a report, or a content writer who needs a specific paragraph to complete an article.",
+    features: [
+      "Instant Paragraph Generation: Produce complete paragraphs from topic inputs immediately",
+      "Topic and Context Input: Guide output with your topic, main point, and writing context",
+      "Tone Options: Academic, professional, conversational, or creative paragraph styles",
+      "Multiple Paragraph Types: Introductory, body, concluding, and transitional paragraphs",
+      "Length Control: Adjust paragraph length from brief to detailed",
+      "Editable Output: Complete paragraphs to refine and incorporate into your writing",
+      "No Login Required: Generate paragraphs without creating an account",
+      "Free to Use: Core paragraph generation accessible at no cost"
+    ],
+    howToUse: {
+      title: "How to Use Ai Paragraph Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe What You Need", description: "Open the AI Paragraph Generator and enter your topic, the main point the paragraph should make, and any context about where it fits in your larger piece of writing." },
+        { title: "Generate Your Paragraph", description: "The tool produces a complete, coherent paragraph based on your input. Review it for accuracy and relevance to your specific content." },
+        { title: "Edit and Use", description: "Incorporate the generated paragraph into your document. Adjust any phrasing that does not quite match your voice or the surrounding content, and use it as-is or as a starting point for further development." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Single-Purpose Precision", description: "Generating one good paragraph is different from generating a full article. AI Paragraph Generator focuses on this specific task which produces more consistently useful output than asking a general writing tool to produce a single paragraph" },
+      { title: "Writer's Block for Specific Sections", description: "The blank page problem often applies to specific sections rather than the whole piece. When you know everything else but one paragraph is not coming together, a focused paragraph generator is the right tool" },
+      { title: "Tone Calibration", description: "Different writing contexts require completely different paragraph styles. Academic paragraphs follow different conventions from conversational blog content. The tool adjusts based on the context you specify" },
+      { title: "No Friction Access", description: "No account, no setup, no subscription required for basic use - open the tool, describe what you need, and get a paragraph. That frictionless access is what makes it practical for one-off needs" }
+    ],
+    useCases: [
+      { title: "Students Completing Essay Sections", description: "Students who have most of an essay written but are stuck on a specific paragraph use the tool to generate a starting point they can refine rather than remaining stuck indefinitely" },
+      { title: "Content Writers Filling Specific Sections", description: "Writers who have most of an article drafted but need to complete a specific section use AI Paragraph Generator to produce the missing piece without breaking their writing flow" },
+      { title: "Professionals Adding to Reports and Documents", description: "Business professionals who need to add a well-written paragraph to a report, proposal, or email use the tool to produce polished prose quickly without spending significant time on a single paragraph" }
+    ]
+  },
+  "qozex-paragraph": {
+    whatIs: "Qozex AI Paragraph Generator is an advanced paragraph creation tool that goes beyond simple text generation to offer more control over the quality, structure, and specificity of the paragraphs it produces. It is built for users who need paragraphs that require more precision than a basic generator can provide - more specific topic handling, better structural logic, and output that integrates more smoothly into existing professional or academic writing.",
+    features: [
+      "Advanced Paragraph Generation: Higher-quality paragraph output with more structural precision",
+      "Topic Specificity: Handles nuanced and complex topics with more relevant output",
+      "Structural Logic: Paragraphs with clear topic sentences, supporting evidence, and conclusions",
+      "Academic Writing Support: Paragraphs calibrated for formal academic writing standards",
+      "Professional Writing: Business and professional paragraph generation with appropriate tone",
+      "Context Awareness: Better integration with the surrounding content context you provide",
+      "Multiple Formats: Introductory, argumentative, descriptive, and analytical paragraph types",
+      "Refinement Options: Tools to adjust and improve the generated output"
+    ],
+    howToUse: {
+      title: "How to Use Qozex Paragraph",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Provide Detailed Context", description: "Open Qozex and enter not just your topic but the full context - what comes before this paragraph, what argument it needs to make, what evidence it should reference, and how it should connect to what follows." },
+        { title: "Generate with Precision", description: "The advanced AI produces a paragraph with clear topic sentence, logical supporting content, and a conclusion that connects to your broader argument. More context produces more precisely relevant output." },
+        { title: "Refine and Integrate", description: "Use the refinement tools to adjust any aspects of the paragraph that need work, then integrate it into your document. The structural logic of the output means it typically requires less editing than basic paragraph generators." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Structural Precision", description: "Qozex emphasizes proper paragraph structure - topic sentence, supporting points, concluding link - which produces paragraphs that are not just readable but logically coherent within a larger argument" },
+      { title: "Complex Topic Handling", description: "Basic paragraph generators struggle with nuanced or technical topics. Qozex handles more complex subject matter with greater relevance and accuracy than general-purpose generators" },
+      { title: "Professional and Academic Grade", description: "The output quality is calibrated for contexts where paragraph quality actually matters - academic submissions, professional reports, and business documents where poorly structured prose reflects badly" },
+      { title: "Integration Smoothness", description: "By asking for surrounding context, Qozex can generate paragraphs that actually fit into the piece rather than paragraphs that need heavy rewriting to match the tone and flow of adjacent content" }
+    ],
+    useCases: [
+      { title: "Graduate Students and Researchers", description: "Advanced academic writers who need high-quality paragraphs for theses, dissertations, and research papers use Qozex for output that meets the rigorous standards their work requires" },
+      { title: "Professional Report Writers", description: "Business analysts, consultants, and professionals producing formal reports use Qozex to generate precise, well-structured paragraphs that maintain the quality expected in professional documentation" },
+      { title: "Content Writers Handling Technical Topics", description: "Writers covering specialized or technical subjects use Qozex's better handling of complex topics to generate paragraphs that are accurate and relevant rather than generically plausible" }
+    ]
+  },
+  "paragraph-generator-xyz": {
+    whatIs: "Paragraph Generator AI by XYZ is a free, no-signup paragraph generation tool that makes writing assistance accessible with absolute minimum friction. You describe what you need, the AI generates a paragraph, and you use it. No account, no payment, no configuration. For anyone who needs a quick paragraph and wants to spend zero time setting up a tool to get it, this is the most direct path from need to output.",
+    features: [
+      "Completely Free: No cost ever for paragraph generation",
+      "No Signup Required: Use immediately without creating an account",
+      "Instant Generation: Paragraphs produced in seconds with no wait",
+      "Simple Input: Just describe your topic or what the paragraph should say",
+      "Multiple Topics: Works across any subject, industry, or writing context",
+      "Editable Output: Copy and customize the generated paragraph freely",
+      "Unlimited Use: No daily limits or usage caps",
+      "Any Device: Works in any browser on any device"
+    ],
+    howToUse: {
+      title: "How to Use Paragraph Generator Xyz",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open the Tool", description: "Go to the Paragraph Generator AI site. No login, no signup, no setup required. The tool is ready to use immediately." },
+        { title: "Describe Your Paragraph", description: "Enter your topic, the point you want the paragraph to make, and any context about the writing it is going into. Keep it simple - even a single sentence of description produces a usable paragraph." },
+        { title: "Copy and Use", description: "The paragraph is generated in seconds. Copy it, paste it into your document, and edit as needed. Generate again if the first result does not quite fit." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Absolute Zero Friction", description: "The entire value proposition of Paragraph Generator XYZ is that there is no barrier between you and a paragraph. No account, no payment, no learning curve - just open and use" },
+      { title: "Free Forever Model", description: "Unlike tools that offer a free trial that runs out, this tool is genuinely free with no expiring credits or feature walls. That permanence matters for users who only occasionally need paragraph generation" },
+      { title: "Any Topic Versatility", description: "The tool handles any topic without requiring users to select categories or configure anything - which makes it practical for one-off needs across completely different subject areas" },
+      { title: "Speed Priority", description: "When you need a paragraph quickly and do not want to spend time on setup, this tool's speed and immediacy is its core advantage over more feature-rich but more complex alternatives" }
+    ],
+    useCases: [
+      { title: "Anyone Who Occasionally Needs a Paragraph", description: "Writers, students, and professionals who rarely need AI paragraph generation and do not want to commit to a tool or subscription use this free no-signup option for one-off needs" },
+      { title: "Students in a Hurry", description: "Students who need to complete a specific section of an assignment and do not have time to evaluate multiple tools use the immediate accessibility of Paragraph Generator XYZ to get something written quickly" },
+      { title: "Professionals Drafting Quickly", description: "Business professionals who need to add a paragraph to a document and just want it done use this tool for fast frictionless output without any overhead" }
+    ]
+  },
+  "linkboss": {
+    whatIs: "LinkBoss is an AI-powered SEO content tool focused on internal linking and paragraph generation for SEO purposes. It helps website owners and content teams build internal link structures that improve site authority and search rankings by generating contextually relevant paragraphs designed to naturally incorporate internal links. For SEO professionals managing content-heavy websites, LinkBoss addresses the often-neglected internal linking layer of content strategy.",
+    features: [
+      "SEO Paragraph Generation: Create paragraphs optimized for search performance",
+      "Internal Linking: AI-assisted internal link building and anchor text optimization",
+      "Content SEO: Paragraphs structured with keyword and SEO best practices built in",
+      "Link Context Generation: Create contextually relevant surrounding content for internal links",
+      "Anchor Text Optimization: Suggest and optimize anchor text for internal linking strategy",
+      "Site Architecture Support: Help build logical internal link structures across your content",
+      "Bulk Content Generation: Generate SEO paragraphs at scale for content-heavy sites",
+      "WordPress Integration: Direct integration with WordPress for streamlined publishing"
+    ],
+    howToUse: {
+      title: "How to Use Linkboss",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Site Context", description: "Sign up at linkboss.io and connect your website. Provide context about your content structure, target keywords, and the pages you want to build internal linking around." },
+        { title: "Generate SEO Paragraphs", description: "Specify the topic, target keyword, and internal links you want to incorporate. LinkBoss generates paragraphs that naturally include your target keywords and contextually integrate your internal links." },
+        { title: "Deploy and Build Authority", description: "Publish the generated paragraphs to your site, either directly through WordPress integration or by copying to your CMS. Over time, the improved internal linking structure helps build topical authority and improve rankings." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Internal Linking Focus", description: "Most AI writing tools ignore internal linking entirely. LinkBoss is specifically built around it - which matters because internal linking is one of the most impactful and most neglected on-page SEO factors for established sites" },
+      { title: "Contextual Link Integration", description: "Forcing an internal link into existing content often produces awkward anchor text and unnatural context. LinkBoss generates paragraphs built around the link from the start, which produces more natural and SEO-friendly integration" },
+      { title: "Scale for Content-Heavy Sites", description: "Websites with hundreds or thousands of pages have internal linking challenges that cannot be addressed manually. Bulk generation makes it practical to build comprehensive internal linking across large sites" },
+      { title: "WordPress Native", description: "Direct WordPress integration removes the copy-paste step for sites on the world's most popular CMS, which meaningfully reduces the friction of deploying generated content at scale" }
+    ],
+    useCases: [
+      { title: "SEO Professionals Managing Large Sites", description: "SEO specialists working on content-heavy websites use LinkBoss to build internal linking strategies at a scale that would be impractical to implement manually" },
+      { title: "Content Teams Improving Site Authority", description: "Teams responsible for improving organic search performance use LinkBoss to strengthen the internal linking layer of their content strategy, which supports keyword rankings through improved site architecture" },
+      { title: "WordPress Site Owners", description: "Website owners managing WordPress sites use the direct integration to generate and publish SEO-optimized content with internal linking built in without leaving their workflow" }
+    ]
+  },
   "nolan-ai": {
     whatIs: "NolanAI is an AI-powered screenwriting platform that handles the technical side of script writing so you can stay focused on the creative side. It automatically formats your screenplay to industry standards as you write, which means you never have to think about margins, slug lines, or spacing - it is all done for you. Beyond formatting, NolanAI offers AI scene suggestions, character and story development tools, real-time collaboration for writing teams, and script coverage analysis. It works offline too, so a lost internet connection does not mean a lost writing session.",
     features: [
