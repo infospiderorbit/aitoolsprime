@@ -1,4 +1,301 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "gptexcel": {
+    whatIs: "GPTExcel is an AI tool that generates Excel and Google Sheets formulas from plain English descriptions. Instead of trying to remember the exact syntax of complex formulas or searching documentation for the right function, you describe what you want to calculate and GPTExcel writes the formula for you. It also works in reverse - paste a formula and it explains what it does in plain language. For anyone who uses spreadsheets regularly but finds formula syntax a barrier, GPTExcel removes that friction entirely.",
+    features: [
+      "Formula Generation: Create Excel and Google Sheets formulas from plain English",
+      "Formula Explanation: Paste any formula and get a plain English explanation",
+      "Complex Formulas: Handles nested formulas, VLOOKUP, INDEX MATCH, and more",
+      "VBA Scripts: Generate Excel VBA macros for automation",
+      "Google Apps Script: Create Google Sheets automation scripts",
+      "SQL Queries: Generate SQL queries from natural language descriptions",
+      "Free to Use: Core formula generation available without payment",
+      "Multiple Languages: Works in several languages beyond English"
+    ],
+    howToUse: {
+      title: "How to Use Gptexcel",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Formula", description: "Go to gptexcel.uk and describe what you want your formula to do in plain English. Be specific about what data you are working with and what result you need." },
+        { title: "Copy the Generated Formula", description: "GPTExcel returns the exact formula syntax ready to paste into your spreadsheet. Copy it and paste it into the formula bar in Excel or Google Sheets." },
+        { title: "Verify and Explain", description: "If you want to understand what the formula does or check an existing formula you did not write, paste it into the explanation feature to get a plain English breakdown." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Formula Syntax Barrier Removal", description: "Excel formula syntax is unintuitive and hard to remember even for regular users. GPTExcel makes the logic accessible - you describe the goal and it handles the syntax" },
+      { title: "Bidirectional Understanding", description: "Being able to both generate formulas from descriptions and explain formulas from syntax covers the two most common spreadsheet help scenarios in one tool" },
+      { title: "VBA and Script Generation", description: "Extending beyond formulas to VBA macros and Google Apps Script means GPTExcel helps with automation tasks that go beyond what formulas alone can accomplish" },
+      { title: "Free Core Access", description: "The core formula generation being free makes GPTExcel accessible as a daily tool rather than something to use only when the need justifies a subscription" }
+    ],
+    useCases: [
+      { title: "Regular Spreadsheet Users", description: "Office workers and analysts who use Excel or Sheets regularly but find complex formula syntax a barrier use GPTExcel to get the formulas they need quickly" },
+      { title: "Data Analysts Learning Excel", description: "People building their spreadsheet skills use GPTExcel's explanation feature to understand existing formulas and learn how different functions work" },
+      { title: "Finance and Accounting Professionals", description: "Finance teams dealing with complex financial models use GPTExcel to build and understand sophisticated formulas faster than reference documentation allows" }
+    ]
+  },
+  "quadratic": {
+    whatIs: "Quadratic is an AI-powered spreadsheet that combines the familiar grid interface of a spreadsheet with the power of Python, SQL, and AI directly in cells. Instead of being limited to spreadsheet formulas, users can write Python code, run SQL queries, and use AI to analyze and transform data - all within the spreadsheet interface. For data analysts and technical users who find Excel too limiting but want to stay in a familiar grid-based environment, Quadratic bridges the gap between spreadsheets and programming.",
+    features: [
+      "Python in Cells: Write Python code directly in spreadsheet cells",
+      "SQL Queries: Run SQL queries against your data within the spreadsheet",
+      "AI Analysis: Use AI to analyze and transform data in natural language",
+      "Familiar Interface: Spreadsheet grid interface that non-programmers recognize",
+      "Data Visualization: Create charts and visualizations from your data",
+      "Collaboration: Share and collaborate on spreadsheets with your team",
+      "Import Data: Connect to databases and import data from various sources",
+      "Version History: Track changes with full version history"
+    ],
+    howToUse: {
+      title: "How to Use Quadratic",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open Your Spreadsheet", description: "Sign up at quadratichq.com and create a new spreadsheet or import existing data. The interface looks familiar if you have used Excel or Google Sheets before." },
+        { title: "Add Code or AI Analysis", description: "Click on a cell and switch to Python or SQL mode to write code that produces results in the spreadsheet. Or use the AI feature to describe what analysis you want and let it generate the code." },
+        { title: "Build Your Analysis", description: "Combine regular spreadsheet formulas with Python and SQL cells to create powerful data analysis workflows that go beyond what traditional spreadsheet functions allow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Spreadsheet Plus Code", description: "The combination of familiar spreadsheet UI with Python and SQL eliminates the choice between spreadsheet simplicity and programming power - you get both in one interface" },
+      { title: "AI Code Generation", description: "Users who want Python or SQL capabilities but are not confident coders use the AI to generate the code they need and learn from the examples" },
+      { title: "No Environment Setup", description: "Running Python and SQL in a spreadsheet means no environment configuration, no package installation, and no Jupyter notebook setup - just open and code" },
+      { title: "Team Accessibility", description: "The spreadsheet interface means non-technical team members can view and interact with data while technical members add sophisticated analysis in the same document" }
+    ],
+    useCases: [
+      { title: "Data Analysts Outgrowing Excel", description: "Analysts who find spreadsheet formulas too limiting for their analysis needs use Quadratic to add Python and SQL capabilities without leaving the spreadsheet paradigm" },
+      { title: "Technical Users Wanting Spreadsheet Collaboration", description: "Developers and data scientists who want to share analysis with non-technical colleagues use Quadratic for the shared understanding that a spreadsheet interface provides" },
+      { title: "Teams Doing Mixed Technical Analysis", description: "Teams where some members are technical and others are not use Quadratic as a shared environment that works for everyone" }
+    ]
+  },
+  "sourcetable": {
+    whatIs: "Sourcetable is an AI-powered spreadsheet that connects to your databases, SaaS tools, and data sources and lets you analyze all that data using natural language questions. Instead of writing SQL queries or building complex spreadsheet formulas, you ask questions in plain English and Sourcetable queries your connected data sources and returns the results in a spreadsheet interface. For business teams that need data from multiple sources but do not have SQL skills, Sourcetable provides data access without the technical barrier.",
+    features: [
+      "Natural Language Queries: Ask questions about your data in plain English",
+      "Data Source Connections: Connect databases, CRMs, and SaaS tools",
+      "SQL Generation: AI generates SQL from your natural language questions",
+      "Spreadsheet Interface: Results appear in a familiar spreadsheet format",
+      "Multiple Sources: Query across different data sources simultaneously",
+      "Automated Reports: Schedule regular data pulls and reports",
+      "Collaboration: Share data and analysis with your team",
+      "No SQL Required: Access database data without SQL knowledge"
+    ],
+    howToUse: {
+      title: "How to Use Sourcetable",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Data Sources", description: "Sign up at sourcetable.com and connect your databases, CRM, analytics tools, or other data sources. Sourcetable securely connects to your existing data without moving it." },
+        { title: "Ask Your Questions", description: "Type your question in plain English - what you want to know about your data. Sourcetable generates the appropriate SQL query, runs it against your data sources, and returns the results." },
+        { title: "Build and Share Reports", description: "Organize your query results into reports and dashboards. Schedule automated data pulls to keep reports current and share them with teammates who need access to the data." }
+      ]
+    },
+    coreFeatures: [
+      { title: "SQL Without SQL", description: "Database data has been locked behind SQL knowledge for most business users. Sourcetable's natural language interface makes that data accessible to anyone who can ask a question in plain English" },
+      { title: "Multi-Source Queries", description: "Business data lives across many different systems. Being able to query across connected sources in one interface eliminates the manual data gathering that precedes most business analysis" },
+      { title: "Automated Reporting", description: "Scheduling regular data pulls means reports stay current without manual work - which is the difference between a useful ongoing dashboard and a one-time analysis" },
+      { title: "Familiar Output Format", description: "Returning results in a spreadsheet format means recipients can work with the data in ways they already know rather than learning a new interface" }
+    ],
+    useCases: [
+      { title: "Business Analysts Without SQL Skills", description: "Analysts who need database data for their work but lack SQL knowledge use Sourcetable to access and query that data through natural language" },
+      { title: "Marketing and Sales Teams", description: "Go-to-market teams that need data from their CRM and marketing tools use Sourcetable to answer business questions without waiting for data team support" },
+      { title: "Operations and Finance Teams", description: "Teams that need regular reports from operational databases use Sourcetable to automate data collection and build self-serve reporting" }
+    ]
+  },
+  "ai2sql": {
+    whatIs: "AI2SQL is a natural language to SQL converter that lets users generate SQL queries by describing what data they want in plain English. It supports multiple database dialects including MySQL, PostgreSQL, Microsoft SQL Server, BigQuery, and others, making it useful regardless of which database system you are working with. For developers who know SQL but want to move faster, or for analysts who need SQL but struggle with syntax, AI2SQL bridges the gap between data questions and database queries.",
+    features: [
+      "Natural Language to SQL: Convert plain English descriptions to SQL queries",
+      "Multiple Dialects: Supports MySQL, PostgreSQL, SQL Server, BigQuery, Snowflake, and more",
+      "Query Explanation: Explains what existing SQL queries do in plain English",
+      "Query Optimization: Suggests improvements to existing SQL queries",
+      "Schema Awareness: Generate queries aware of your database schema",
+      "Complex Queries: Handles JOINs, subqueries, aggregations, and window functions",
+      "Error Detection: Identifies issues in existing SQL queries",
+      "Free Tier: Basic query generation available without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai2Sql",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Query", description: "Go to ai2sql.io and describe the data you want to retrieve in plain English. Include details about the tables, filters, groupings, and any calculations you need." },
+        { title: "Select Your Database", description: "Choose the database dialect you are targeting. AI2SQL adjusts the syntax and functions to match your specific database system." },
+        { title: "Use and Refine", description: "Copy the generated SQL into your database client. If the query needs adjustment, refine your description and regenerate or modify the SQL directly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Dialect-Specific Output", description: "Different databases have different SQL syntax and functions. AI2SQL generates queries appropriate for your specific database rather than generic SQL that may not run correctly" },
+      { title: "Query Explanation", description: "Understanding what existing SQL queries do is as valuable as generating new ones - the explanation feature helps developers understand inherited code and helps analysts verify queries do what they expect" },
+      { title: "Complex Query Support", description: "Handling JOINs, subqueries, and window functions through natural language means the tool is useful for real analytical queries not just simple SELECT statements" },
+      { title: "Bidirectional Value", description: "Both generating SQL from English and explaining SQL in English serve common needs - AI2SQL covers both directions in one tool" }
+    ],
+    useCases: [
+      { title: "Business Analysts Needing SQL", description: "Analysts who need to query databases for their work but are not confident SQL writers use AI2SQL to generate queries from their data questions" },
+      { title: "Developers Moving Faster", description: "SQL developers use AI2SQL to generate query starting points quickly rather than writing complex queries from scratch, then refine as needed" },
+      { title: "Data Teams Supporting Non-Technical Colleagues", description: "Data teams use AI2SQL to help business colleagues access data independently rather than fielding every data request manually" }
+    ]
+  },
+  "vanna-ai": {
+    whatIs: "Vanna AI is an open-source framework for generating SQL from natural language questions, designed specifically for building AI-powered data assistants that understand your specific database schema and business context. Unlike generic SQL generators, Vanna can be trained on your database schema, sample queries, and business terminology so it produces queries that are accurate for your specific data model. It is used by developers and data teams who want to build self-serve data access tools for their organizations.",
+    features: [
+      "Natural Language to SQL: Convert business questions to accurate SQL queries",
+      "Schema Training: Train Vanna on your specific database schema and context",
+      "Business Context: Teach Vanna your organization's specific terminology and metrics",
+      "Open Source: Full source code available for customization and self-hosting",
+      "Multiple Database Support: Works with PostgreSQL, MySQL, BigQuery, Snowflake, and others",
+      "RAG Architecture: Uses retrieval-augmented generation for accurate query generation",
+      "API Integration: Embed Vanna's SQL generation in your own applications",
+      "Self-Hostable: Run entirely within your own infrastructure for data privacy"
+    ],
+    howToUse: {
+      title: "How to Use Vanna Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Train on Your Schema", description: "Install Vanna and connect it to your database. Train it on your schema by providing table definitions, sample queries, and documentation about your data model and business terminology." },
+        { title: "Ask Questions", description: "Once trained, ask questions in natural language. Vanna uses its knowledge of your specific schema to generate SQL queries that are accurate for your data model rather than generic guesses." },
+        { title: "Build Your Data Assistant", description: "Integrate Vanna's SQL generation into your own application - a Slack bot, a web interface, or an internal tool - to give your team self-serve access to database data through natural language." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Schema-Specific Accuracy", description: "Generic SQL generators produce queries that might work on sample data but fail on real schemas. Vanna's training process produces queries calibrated to your specific database structure" },
+      { title: "Business Context Learning", description: "Training Vanna on your organization's terminology means it understands what business questions actually mean in terms of your specific data model" },
+      { title: "Open Source Flexibility", description: "The open source codebase means developers can customize Vanna for their specific requirements and self-host it for complete data privacy" },
+      { title: "Embeddable Architecture", description: "Vanna is designed to be embedded in other applications rather than used as a standalone tool - which makes it the right choice for teams building data assistant products" }
+    ],
+    useCases: [
+      { title: "Data Teams Building Internal Tools", description: "Data engineers and analysts use Vanna to build self-serve SQL generation tools that let business colleagues query data independently without creating work for the data team" },
+      { title: "Developers Building Data Products", description: "Engineers building analytics products and business intelligence tools use Vanna as the natural language SQL layer that makes their data accessible through conversation" },
+      { title: "Organizations Wanting Data Self-Service", description: "Companies that want to reduce the bottleneck of routing every data question through a data analyst use Vanna to build self-serve data access for their business teams" }
+    ]
+  },
+  "pte-apeuni": {
+    whatIs: "PTE APEUni is a free AI-powered platform for preparing for the Pearson Test of English Academic and Core exams. It provides AI-scored practice tests that mirror the official PTE scoring algorithms, comprehensive practice materials for all four test sections - speaking, writing, reading, and listening - and personalized study guidance. For non-native English speakers targeting PTE scores for study, work, or immigration purposes, APEUni offers professional-grade preparation at no cost.",
+    features: [
+      "AI Scoring: Practice test scoring that closely mirrors official PTE algorithms",
+      "All Four Sections: Practice for speaking, writing, reading, and listening",
+      "Real Exam Questions: Practice with questions similar to the actual PTE format",
+      "Free Access: Core features available without any payment",
+      "Vocab Books: Essential vocabulary resources for PTE preparation",
+      "Shadowing Exercises: Speaking practice technique for fluency improvement",
+      "Performance Tracking: Monitor your progress across practice sessions",
+      "Mobile App: Practice on iOS and Android devices"
+    ],
+    howToUse: {
+      title: "How to Use Pte Apeuni",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up at apeuni.com for free. No payment required to access the core practice materials and AI scoring features." },
+        { title: "Practice by Section", description: "Work through practice questions for each PTE section. Submit your speaking and writing responses to receive AI-scored feedback that shows how you would perform on the real exam." },
+        { title: "Track and Improve", description: "Review your scores across sessions to identify which question types and skills need the most work. Focus your remaining preparation time on your weakest areas." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Professional Quality", description: "APEUni provides AI scoring and comprehensive practice materials at no cost - which is genuinely unusual for a test preparation platform of this quality level" },
+      { title: "Algorithm-Mirroring Scores", description: "Practice scores that mirror the official PTE scoring algorithm give test takers realistic expectations of their actual performance rather than encouraging false confidence" },
+      { title: "All Section Coverage", description: "Comprehensive coverage of speaking, writing, reading, and listening means preparation for the entire exam rather than just the sections that are easiest to practice digitally" },
+      { title: "Accessible Platform", description: "The free model and mobile app availability make APEUni accessible to test takers across income levels and geographic locations" }
+    ],
+    useCases: [
+      { title: "International Students Targeting Study Abroad", description: "Students applying to universities in English-speaking countries who need a specific PTE score use APEUni to prepare efficiently for their target score" },
+      { title: "Skilled Workers Pursuing Immigration", description: "Professionals applying for work visas and immigration pathways that require PTE scores use APEUni for the AI-scored practice that helps them understand their readiness" },
+      { title: "English Learners Building Proficiency", description: "Language learners who want to benchmark their English proficiency and improve specific skills use APEUni's structured practice even if they are not immediately taking the PTE exam" }
+    ]
+  },
+  "alfapte": {
+    whatIs: "AlfaPTE is a comprehensive PTE Academic preparation platform used by over one million test takers worldwide. It combines AI-powered scoring with an extensive question bank, full mock tests, and detailed performance analytics to give candidates a complete picture of their exam readiness. The platform's AI scoring system achieves 95 percent accuracy compared to official PTE scoring, which makes the practice scores reliable enough to make real decisions about exam readiness and target score achievement.",
+    features: [
+      "AI Scoring: 95 percent accurate scoring compared to official PTE algorithms",
+      "Full Mock Tests: Complete simulated PTE exam experience with timing",
+      "Sectional Tests: Practice specific sections independently",
+      "Extensive Question Bank: Large collection of practice questions across all types",
+      "Performance Analytics: Detailed insights into strengths and weaknesses",
+      "Study Plans: Structured preparation plans based on your target score",
+      "Mobile App: Available on iOS and Android for flexible practice",
+      "Multiple Languages: Interface available in 25 languages for global accessibility"
+    ],
+    howToUse: {
+      title: "How to Use Alfapte",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Your Target Score", description: "Sign up at alfapte.com and set your target PTE score. AlfaPTE creates a study plan calibrated to your current level and the score you need to achieve." },
+        { title: "Practice by Question Type", description: "Work through the question bank for each question type in the PTE exam. The AI scores your responses immediately with specific feedback on what to improve." },
+        { title: "Take Mock Tests", description: "When you feel ready, take a full mock test under exam conditions. Review your section scores and the detailed analytics to understand exactly where your performance stands." }
+      ]
+    },
+    coreFeatures: [
+      { title: "High Scoring Accuracy", description: "A 95 percent accuracy rate compared to official scoring means AlfaPTE practice scores are reliable enough to base real decisions on - whether to take the exam now or continue preparing" },
+      { title: "Structured Study Planning", description: "Setting a target score and receiving a study plan tailored to that goal provides the structure that self-directed preparation often lacks" },
+      { title: "Granular Analytics", description: "Understanding performance at the question type level rather than just the section level helps candidates focus preparation time where it will have the most impact on their final score" },
+      { title: "Global Accessibility", description: "Supporting 25 interface languages makes AlfaPTE accessible to the global population of PTE test takers who may not be comfortable navigating an English-only platform" }
+    ],
+    useCases: [
+      { title: "Serious PTE Candidates Targeting High Scores", description: "Test takers who need specific high scores for competitive university programs or skilled migration points use AlfaPTE for the accuracy and depth of preparation that high-stakes situations require" },
+      { title: "Working Professionals with Limited Study Time", description: "Busy professionals preparing for PTE alongside work use AlfaPTE's targeted analytics and study plans to focus limited preparation time on the areas with the highest return" },
+      { title: "Repeat Test Takers", description: "Candidates who have taken the PTE and want to improve their score use AlfaPTE's detailed analytics to understand exactly what went wrong and what to focus on" }
+    ]
+  },
+  "vwo": {
+    whatIs: "VWO is an experimentation and conversion optimization platform that helps product and marketing teams run A/B tests, multivariate tests, and personalization experiments to improve website and application performance. It provides the full experimentation workflow - creating test variations, splitting traffic between them, measuring statistical significance, and implementing winners - without requiring developer involvement for every experiment. For teams committed to data-driven decision making, VWO provides the infrastructure to run experiments continuously rather than occasionally.",
+    features: [
+      "A/B Testing: Compare two versions of a page or element to find the better performer",
+      "Multivariate Testing: Test multiple element combinations simultaneously",
+      "Split URL Testing: Test entirely different page designs against each other",
+      "Personalization: Show different experiences to different audience segments",
+      "Heatmaps: Visualize where users click, scroll, and pay attention",
+      "Session Recordings: Watch real user sessions to understand behavior",
+      "Funnel Analysis: Identify where users drop off in conversion funnels",
+      "Statistical Significance: Reliable analysis that prevents false positive results"
+    ],
+    howToUse: {
+      title: "How to Use Vwo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Experiment", description: "Sign up at vwo.com and install the VWO tracking code on your site. Use the visual editor to create test variations by changing elements on your page without writing code." },
+        { title: "Configure Your Test", description: "Set your traffic split between control and variations, define your primary metric - conversions, clicks, revenue - and any secondary metrics you want to track." },
+        { title: "Analyze and Implement", description: "Monitor your test results until statistical significance is reached. VWO tells you which variation wins and by how much. Implement the winner as your permanent page version." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Editor Accessibility", description: "Creating test variations through a visual editor without coding means marketing and product teams can run experiments without developer involvement for every test" },
+      { title: "Statistical Rigor", description: "VWO's statistical analysis prevents the common mistake of calling test winners too early before sufficient data has been collected - which leads to implementing changes that are not actually improvements" },
+      { title: "Full Behavioral Suite", description: "Heatmaps and session recordings alongside A/B testing give teams both quantitative results and qualitative understanding of why variations perform differently" },
+      { title: "Personalization Extension", description: "Extending from testing to personalization means teams can implement learnings from experiments by serving winning experiences to specific audience segments permanently" }
+    ],
+    useCases: [
+      { title: "E-commerce Teams Optimizing Conversion", description: "Online stores use VWO to systematically test and improve checkout flows, product pages, and landing pages to increase purchase conversion rates" },
+      { title: "SaaS Product Teams", description: "Product teams use VWO to experiment with onboarding flows, feature presentations, and UX changes to improve activation and retention metrics" },
+      { title: "Marketing Teams Optimizing Landing Pages", description: "Marketing teams running paid campaigns use VWO to optimize landing page performance through continuous experimentation" }
+    ]
+  },
+  "thordata": {
+    whatIs: "Thordata is a web scraping and data collection platform that provides residential and datacenter proxy infrastructure alongside scraping tools for collecting data from websites at scale. It specializes in the infrastructure layer of web data collection - providing the IP rotation, geo-targeting, and request management that makes large-scale web scraping reliable. For data teams and businesses that need to collect data from websites without being blocked, Thordata provides the proxy infrastructure that makes sustained data collection possible.",
+    features: [
+      "Residential Proxies: Real residential IP addresses for undetectable scraping",
+      "Datacenter Proxies: Fast datacenter IPs for high-speed data collection",
+      "Geo-Targeting: Route requests through IPs from specific countries and cities",
+      "IP Rotation: Automatic rotation to avoid rate limiting and blocking",
+      "Scraping API: Managed scraping service that handles anti-bot challenges",
+      "High Availability: Reliable infrastructure for production data collection",
+      "Multiple Protocols: Support for HTTP, HTTPS, and SOCKS5 proxies",
+      "Usage Dashboard: Monitor proxy usage and performance"
+    ],
+    howToUse: {
+      title: "How to Use Thordata",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Get Your Credentials", description: "Sign up at thordata.com and select the proxy type you need - residential for maximum reliability or datacenter for high speed. Receive your proxy credentials and endpoint." },
+        { title: "Configure Your Scraper", description: "Add Thordata's proxy settings to your scraping tool or code. Route your requests through Thordata's infrastructure to benefit from IP rotation and anti-detection measures." },
+        { title: "Monitor and Scale", description: "Use the dashboard to monitor your proxy usage, check success rates, and scale up your data collection as your needs grow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Residential IP Authenticity", description: "Residential proxies use real home IP addresses which are dramatically harder for websites to detect and block compared to datacenter IPs - which is essential for sustained scraping of bot-aware sites" },
+      { title: "Geo-Targeting Capability", description: "Accessing geo-restricted content or collecting location-specific data requires routing requests through IPs in specific locations - Thordata's geo-targeting makes this straightforward" },
+      { title: "Infrastructure Reliability", description: "Production data collection that breaks when IPs get blocked is not useful. Thordata's automatic rotation and large IP pool maintains collection reliability over time" },
+      { title: "Separation of Concerns", description: "Using a dedicated proxy provider separates the infrastructure concern from the scraping logic - developers focus on data extraction while Thordata handles the IP management" }
+    ],
+    useCases: [
+      { title: "Data Companies and Agencies", description: "Professional data collection companies use Thordata for the reliable proxy infrastructure that keeps their collection pipelines running continuously" },
+      { title: "E-commerce Intelligence Teams", description: "Teams collecting competitor pricing and product data at scale use Thordata's residential proxies to maintain access to e-commerce sites that aggressively block scrapers" },
+      { title: "Market Research Firms", description: "Research organizations collecting public web data for market analysis use Thordata's infrastructure to run sustained data collection campaigns" }
+    ]
+  },
   "tilda": {
     whatIs: "Tilda is a website builder focused on creating beautiful long-form landing pages, portfolios, and editorial content sites using a block-based editor. It offers hundreds of pre-designed content blocks that users combine and customize to build pages - no coding required. Tilda's design quality is notably high compared to most website builders, with blocks designed by professional designers that produce polished results even for non-designers. AI features help with text generation, SEO optimization, and content suggestions.",
     features: [
