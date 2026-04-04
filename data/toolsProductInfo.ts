@@ -1,4 +1,303 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "wonderful-valentimes": {
+    whatIs: "Wonderful Valemtimes is a free AI love letter generator built specifically for Valentine's Day. Created by Wonderful, the tool keeps things simple - you add the names involved and a keyword or two about your relationship and it generates a warm, emotional letter ready to send. It is designed for people who want to give someone something more personal than a store-bought card message but do not want to spend an hour staring at a blank page trying to find the right words.",
+    features: [
+      "Free to Use: No account or payment required to generate a letter",
+      "Name Personalization: Enter both names for a letter that feels written for the two of you",
+      "Keyword Input: Add a word or feeling to guide the emotional tone of the output",
+      "Valentine's Day Focus: Built specifically for romantic Valentine's Day correspondence",
+      "Instant Generation: Complete letter ready in seconds with no lengthy setup",
+      "Shareable Output: Copy and send digitally or use as inspiration for a handwritten note",
+      "Emotional Tone: Warm and genuine language rather than generic greeting card copy",
+      "No Login Required: Use immediately without creating an account"
+    ],
+    howToUse: {
+      title: "How to Use Wonderful Valentimes",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter the Names", description: "Open Valemtimes and type in your name and your Valentine's name. This simple step makes the letter feel personal from the first line." },
+        { title: "Add a Keyword", description: "Enter a word that captures something about your relationship or how you feel - it could be an emotion, a quality you love about them, or something you share together." },
+        { title: "Generate and Send", description: "The AI produces a complete emotional love letter in seconds. Read it through, copy what resonates, and send it digitally or use it as the foundation for something handwritten." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Valentine's Day Specific", description: "Most love letter tools are general purpose. Valemtimes is built around Valentine's Day which means the tone, phrasing, and emotional weight are calibrated for that specific moment" },
+      { title: "Zero Friction Access", description: "No account, no subscription, no setup. You open the page, put in two names and a keyword, and you have a letter. That simplicity is genuinely rare" },
+      { title: "Keyword-Guided Output", description: "The keyword input is a small but meaningful touch - it steers the AI toward what is actually true about your relationship rather than producing a completely generic romantic letter" },
+      { title: "From Wonderful's Creative Studio", description: "Built by Wonderful, a creative studio known for thoughtful digital experiences, the tool has a considered quality that shows in the output" }
+    ],
+    useCases: [
+      { title: "People Who Struggle to Write Romantic Messages", description: "Anyone who knows how they feel but cannot translate those feelings into written words uses Valemtimes to get a starting point they can make their own" },
+      { title: "Last Minute Valentine's Day Givers", description: "When February 14th arrives and you still have not written anything, Valemtimes produces something heartfelt in seconds rather than minutes" },
+      { title: "Couples in Long Distance Relationships", description: "Partners separated by distance use digital love letters to bridge the physical gap, and Valemtimes makes creating one quick enough that it actually happens" }
+    ]
+  },
+  "selfloveletter": {
+    whatIs: "SelfLoveLetter is an AI tool that does something most writing tools completely overlook - it helps you write a kind, compassionate letter to yourself. The concept is rooted in self-compassion practice, where writing to yourself as you would write to a close friend has documented benefits for mental health and self-esteem. SelfLoveLetter generates these letters based on what you are going through, what you need to hear, and the areas where you tend to be hardest on yourself.",
+    features: [
+      "Self-Compassion Letters: AI-generated letters from you to yourself",
+      "Personalized to Your Situation: Input what you are going through to get a relevant letter",
+      "Encouraging Tone: Warm supportive language that avoids toxic positivity",
+      "Inner Critic Work: Addresses the specific ways you tend to be hard on yourself",
+      "Multiple Focus Areas: Letters for self-doubt, grief, failure, body image, and more",
+      "Therapeutic Framing: Inspired by self-compassion therapy techniques",
+      "Private and Personal: Your inputs stay private and are not shared",
+      "Printable Output: Save or print your letter to revisit when you need it"
+    ],
+    howToUse: {
+      title: "How to Use Selfloveletter",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe What You Are Going Through", description: "Open SelfLoveLetter and share a little about what is happening for you right now - a difficult situation, something you are struggling with, or an area where you tend to be unkind to yourself." },
+        { title: "Generate Your Letter", description: "The AI produces a warm, compassionate letter written from a caring perspective - the kind of thing a best friend would write if they knew exactly what you needed to hear right now." },
+        { title: "Read and Keep It", description: "Read the letter slowly. Save it somewhere you can return to on harder days. Some people print it; others keep it in their notes app. The point is to have it available when the inner critic gets loud." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Self-Compassion Therapeutic Foundation", description: "The tool is built around an evidence-based therapeutic technique where writing to yourself with the kindness you would extend to others helps rewire self-critical thought patterns" },
+      { title: "Situation-Specific Output", description: "Because you describe what you are actually going through, the letter addresses your real situation rather than producing generic encouragement that could apply to anyone" },
+      { title: "Non-Toxic Positivity", description: "There is a difference between genuine compassion and performative positivity. SelfLoveLetter aims for the former - honest, warm, and grounded rather than relentlessly cheerful" },
+      { title: "Something to Return To", description: "Unlike an affirmation you read once, a well-crafted self-compassion letter is something you can return to repeatedly - especially on days when the voice in your head is not being kind" }
+    ],
+    useCases: [
+      { title: "People Working on Self-Compassion", description: "Individuals in therapy or personal development work who have been encouraged to practice self-compassion but find writing to themselves awkward use SelfLoveLetter to get started" },
+      { title: "Anyone Going Through Something Hard", description: "Grief, failure, rejection, burnout - difficult moments are when we are often least kind to ourselves. SelfLoveLetter helps counter that with something gentle and true" },
+      { title: "People with a Strong Inner Critic", description: "Those who are hard on themselves by default use the tool to experience what it feels like to be spoken to with genuine kindness, which over time can shift the internal default" }
+    ]
+  },
+  "true-love-letter": {
+    whatIs: "True Love Letter is an AI romantic letter generator focused on producing authentic, emotionally genuine love letters rather than flowery generic ones. The emphasis is on authenticity - letters that sound like something a real person who really loves someone would write, not a template with names swapped in. You provide details about your relationship and the person you are writing to, and the AI uses that context to produce something that actually reflects your specific connection.",
+    features: [
+      "Authentic Letter Generation: Focus on genuine emotional tone over generic romance",
+      "Relationship Context Input: Share details about your relationship to personalize the output",
+      "Recipient Personalization: Include qualities you love about the specific person",
+      "Multiple Occasions: Anniversaries, Valentine's Day, apologies, spontaneous expressions",
+      "Tone Flexibility: Tender, passionate, nostalgic, or hopeful depending on the moment",
+      "Editable Output: Full draft to refine and make completely your own",
+      "Free Access: Generate letters without a subscription",
+      "Shareable Format: Copy for digital sending or print for a physical letter"
+    ],
+    howToUse: {
+      title: "How to Use True Love Letter",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Share Your Relationship Details", description: "Enter information about your relationship - how long you have been together, what you love most about this person, a memory that matters, what you want them to know right now." },
+        { title: "Generate the Letter", description: "True Love Letter produces a complete romantic letter using the details you provided. The personal context makes the output feel grounded in your actual relationship rather than a generic situation." },
+        { title: "Read, Refine, and Send", description: "Go through the letter and add anything that only you would know - a specific word you use for each other, a place that matters, something from your shared history. Then send it in whatever way feels right." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Authenticity Over Decoration", description: "The tool prioritizes emotional honesty over elaborate language. The goal is a letter that sounds like you wrote it because you meant every word, not a letter that sounds impressive but hollow" },
+      { title: "Relationship-Specific Context", description: "The more you share about your relationship, the more the output reflects it. This is the key difference from generic love letter tools that produce the same letter for everyone" },
+      { title: "Occasion Flexibility", description: "Love letters are not just for Valentine's Day. True Love Letter works for anniversaries, reconciliations, long-distance moments, and ordinary days when you want someone to know they are loved" },
+      { title: "Writer's Block Solver", description: "The blank page problem is real even when feelings are strong. The tool gives you a complete draft so you can focus on refining rather than starting from nothing" }
+    ],
+    useCases: [
+      { title: "Partners Wanting to Express Deep Feelings", description: "People in long-term relationships who want to put into words something they feel but rarely say use True Love Letter to find the right expression" },
+      { title: "Long Distance Couples", description: "Partners separated by distance use written letters as a way to maintain emotional intimacy, and True Love Letter makes creating something meaningful quick enough that it actually gets done" },
+      { title: "People in Complicated Moments", description: "Reconciliation, apology, or expressing something that has been left unsaid for too long - moments where the right words really matter are where this tool earns its place" }
+    ]
+  },
+  "loveleetr": {
+    whatIs: "LoveLeetr is a personalized love letter creation tool that focuses on the details that make a letter genuinely feel like it was written for one specific person. Rather than producing a generic romantic letter with a name dropped in, LoveLeetr builds the content around the personal information you share about the recipient and your relationship together. The result is a letter that reads like something you spent real time writing - because the AI spent it for you.",
+    features: [
+      "Personalized Letter Creation: Letters built around specific relationship details you provide",
+      "Recipient Focus: Center the letter on what makes this specific person unique to you",
+      "Shared Memory Integration: Include meaningful moments from your relationship",
+      "Multiple Letter Styles: Romantic, nostalgic, playful, or deeply sincere",
+      "Occasion Support: Anniversaries, Valentine's Day, birthdays, or just because",
+      "Editable Draft: Complete letter you can adjust before sending",
+      "Poetic Options: More lyrical language style for those who want something elevated",
+      "Free to Try: Core generation accessible without a paid plan"
+    ],
+    howToUse: {
+      title: "How to Use Loveleetr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Recipient Details", description: "Open LoveLeetr and share details about the person you are writing to - their name, what you love about them, something meaningful you have shared, and the occasion if there is one." },
+        { title: "Choose Your Style", description: "Select the tone that fits - romantic and sincere, light and playful, nostalgic and reflective, or poetic and elevated. The AI adjusts its language to match." },
+        { title: "Generate and Personalize", description: "Review the generated letter and add any final personal touches - a nickname, a specific memory, a phrase that only makes sense between you two. Then send it or print it." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Detail-Driven Personalization", description: "LoveLeetr uses the specific information you provide to build a letter that references your actual relationship rather than describing a generic romantic situation that could apply to anyone" },
+      { title: "Style Options", description: "Different relationships and different moments call for different tones. Having genuine style options - not just formal versus casual - makes the output feel intentional" },
+      { title: "Shared Memory Integration", description: "Including a specific memory in a love letter transforms it from a declaration into a story. LoveLeetr encourages this and builds it into the letter naturally" },
+      { title: "Poetic Language Option", description: "For those who want something more elevated than straightforward prose, the poetic style produces language with more imagery and rhythm - closer to what people imagine when they think of a classic love letter" }
+    ],
+    useCases: [
+      { title: "Romantic Partners Marking Special Occasions", description: "People celebrating anniversaries, Valentine's Day, or other relationship milestones use LoveLeetr to create something more personal than a card and more polished than an unedited first draft" },
+      { title: "People Who Want to Write but Do Not Know How", description: "The feeling is there but the words are not - LoveLeetr bridges that gap for people who know what they want to say but cannot find the form to say it in" },
+      { title: "Anyone Who Wants a Letter Worth Keeping", description: "A well-crafted love letter is the kind of thing people keep for years. LoveLeetr aims to produce something worth holding onto" }
+    ]
+  },
+  "love-letter-generator": {
+    whatIs: "Love Letter Generator is a straightforward free AI tool that turns your feelings into a complete romantic letter without requiring any writing skill or creative effort on your part. You describe who you are writing to and how you feel, the AI does the writing, and you walk away with something heartfelt to send. It is built for simplicity and accessibility - anyone who has ever wanted to write a love letter but felt they could not write is who this tool exists for.",
+    features: [
+      "Free and Instant: Generate a complete love letter with no cost or signup",
+      "Simple Input: Just describe your feelings and who the letter is for",
+      "Any Occasion: Valentine's Day, anniversaries, spontaneous expressions, and more",
+      "Tone Options: Romantic, sweet, passionate, or gentle depending on what you need",
+      "Editable Output: Full draft ready for your personal adjustments",
+      "Multiple Relationship Types: Works for partners, spouses, crushes, and long-term loves",
+      "Shareable Format: Copy for texting, email, or print for a handwritten note",
+      "No Writing Skill Required: Designed for people who feel but struggle to express in writing"
+    ],
+    howToUse: {
+      title: "How to Use Love Letter Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Feelings", description: "Open the tool and write a few lines about who you are writing to and what you want to express. Do not overthink it - a rough description of your feelings gives the AI what it needs." },
+        { title: "Generate Your Letter", description: "The AI produces a complete romantic letter based on your input. It handles the structure, the language, and the emotional arc so you do not have to." },
+        { title: "Send It", description: "Read through the output, adjust anything that does not quite fit your voice, and send it however feels right - text, email, a printed note, or tucked into a card." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Zero Barrier Access", description: "No account, no subscription, no complicated input form. The tool gets out of the way and lets you focus on the feeling rather than the process" },
+      { title: "Writer's Block Elimination", description: "The blank page is the hardest part of any letter. Once there is something on the page - even an AI draft - editing and personalizing becomes much easier than starting cold" },
+      { title: "Any Relationship Stage", description: "Early in a relationship or decades deep, the tool works for wherever you are - adjusting its output based on the emotional context you describe" },
+      { title: "Occasion Versatility", description: "Love letters do not need an occasion but the tool works equally well with or without one - a random Tuesday letter can mean as much as a Valentine's Day one" }
+    ],
+    useCases: [
+      { title: "People Who Feel More Than They Can Write", description: "The gap between having strong feelings and being able to put them on paper is real. This tool exists to close that gap with minimal effort required from the user" },
+      { title: "Anyone Who Avoids Writing", description: "People who genuinely dislike writing but want to give someone something more personal than a text use Love Letter Generator to produce something they would not otherwise create" },
+      { title: "Couples Who Want More Intentional Connection", description: "Partners who want to bring more deliberate expression into their relationship use the tool to make the practice of writing to each other easier and more regular" }
+    ]
+  },
+  "celebrateally": {
+    whatIs: "CelebrateAlly is an AI platform with over 30 tools built around a single purpose - helping people celebrate life's moments in a way that actually feels meaningful. It covers everything from writing personalized birthday speeches and sympathy messages to planning party themes and finding the right gift. The platform is used both by individuals trying to find the right words for someone they care about and by HR teams and organizations that want to recognize employee milestones without the messages feeling automated and impersonal.",
+    features: [
+      "30 Plus AI Tools: Comprehensive suite covering speeches, messages, gifts, and party planning",
+      "Occasion Coverage: Birthdays, anniversaries, farewells, sympathy, appreciation, and more",
+      "Speech Generator: Write heartfelt birthday, retirement, and celebration speeches",
+      "Message Generator: Personalized congratulations, thank you, and appreciation messages",
+      "Gift Ideas: AI-powered gift suggestions based on the person and occasion",
+      "Party Planning: Theme ideas and planning help for celebrations of all sizes",
+      "Sympathy Messages: Thoughtful condolence and support messages for difficult moments",
+      "Employee Recognition: Tools for HR teams to recognize milestones with personalized messages",
+      "Free to Use: Core tools accessible without a subscription",
+      "Tone Customization: Adjust warmth, formality, and personal detail level"
+    ],
+    howToUse: {
+      title: "How to Use Celebrateally",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Occasion", description: "Visit celebrateally.com and select the type of celebration or message you need help with from the 30 plus available tools - birthday speech, farewell message, sympathy note, gift ideas, and many more." },
+        { title: "Enter Your Details", description: "Provide details about the person and the occasion. The more specific you are - their name, your relationship, something meaningful about them - the more personal the output will feel." },
+        { title: "Generate and Use", description: "CelebrateAlly produces a complete message, speech, or suggestion ready to use. Edit anything that needs adjusting to add your personal touch, then deliver it in whatever format works for the occasion." }
+      ]
+    },
+    coreFeatures: [
+      { title: "30 Plus Specialized Tools", description: "Rather than one generic message generator, CelebrateAlly has dedicated tools for each occasion type - which means the output is calibrated for that specific moment rather than being a one-size-fits-all draft" },
+      { title: "Sympathy and Difficult Messages", description: "Writing condolences or support messages is one of the hardest writing tasks. Having a thoughtful AI tool for these moments is genuinely useful when the stakes are high and words feel impossible" },
+      { title: "Employee Recognition at Scale", description: "HR teams use CelebrateAlly to send personalized milestone messages without the messages feeling copy-pasted or impersonal - which is the main thing that undermines employee recognition programs" },
+      { title: "Gift and Party Integration", description: "Going beyond message writing to cover gift suggestions and party themes makes CelebrateAlly a genuine celebration companion rather than just another text generator" }
+    ],
+    useCases: [
+      { title: "Individuals Marking Special Occasions", description: "People who want to say something meaningful at a birthday, wedding, retirement, or farewell use CelebrateAlly to find words that are personal and genuine rather than generic" },
+      { title: "HR and People Teams", description: "Organizations that want to maintain consistent, personalized employee recognition across birthdays, work anniversaries, and achievements use CelebrateAlly to scale that effort without losing the human feel" },
+      { title: "Anyone Who Struggles with Sympathy Messages", description: "Writing to someone who is grieving or going through something difficult is hard. CelebrateAlly's sympathy tools help people say something caring and appropriate when they are not sure how to start" }
+    ]
+  },
+  "vibly": {
+    whatIs: "Vibly is an AI social message generator designed to help people write better messages for social media interactions - replies, comments, connection requests, and direct messages across platforms. It focuses on making online social communication feel genuine rather than generic, helping users engage more authentically with their network without spending significant time crafting each message individually.",
+    features: [
+      "Social Message Generation: AI-crafted messages for social media platforms",
+      "Reply Assistance: Generate thoughtful replies to posts and comments",
+      "DM Templates: Personalized direct message drafts for connection and outreach",
+      "Tone Options: Professional, friendly, casual, or enthusiastic depending on context",
+      "Platform Awareness: Messages calibrated for different social media contexts",
+      "Comment Generator: Engaging comments that go beyond generic responses",
+      "Personalization: Incorporate details about the recipient or post content",
+      "Time Saving: Generate quality social messages in seconds rather than minutes"
+    ],
+    howToUse: {
+      title: "How to Use Vibly",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Message Type", description: "Open Vibly and select the type of social message you need - a reply to a post, a direct message, a comment, or a connection request message." },
+        { title: "Add Context", description: "Paste the post you are responding to or describe the person and what you want to say. The more context you give the more relevant and personalized the output will be." },
+        { title: "Generate and Post", description: "Review the generated message, adjust the tone or any specific details, and post it directly to your platform of choice. The whole process takes seconds rather than the minutes it would take to write from scratch." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Social Context Awareness", description: "Messages that work on LinkedIn read differently from messages that work on Instagram or Twitter. Vibly generates content calibrated for the specific platform and interaction type" },
+      { title: "Authentic Over Generic", description: "Generic social media responses damage rather than build relationships. Vibly aims for messages that read like something a real person wrote rather than something automated" },
+      { title: "Outreach Without the Awkwardness", description: "Starting a conversation with someone online can feel uncomfortable. Having a well-crafted opening message removes the awkwardness of the blank compose box" },
+      { title: "Volume Without Quality Loss", description: "Active social media users who engage with many people daily use Vibly to maintain response quality even when volume is high" }
+    ],
+    useCases: [
+      { title: "Social Media Professionals", description: "Community managers and social media marketers use Vibly to maintain active, genuine engagement across multiple accounts and platforms without burning out on message writing" },
+      { title: "Professionals Building Their Network", description: "People actively growing their LinkedIn or professional social presence use Vibly to send personalized connection requests and replies that stand out from generic outreach" },
+      { title: "Content Creators", description: "Creators who want to respond meaningfully to their community comments use Vibly to keep engagement high without spending hours composing individual replies" }
+    ]
+  },
+  "sayhi": {
+    whatIs: "SayHi is an AI-powered Chrome extension that generates personalized conversation starters and LinkedIn messages by analyzing the recipient's profile. Instead of sending the same generic outreach message to everyone, SayHi reads the person's background, experience, and activity on LinkedIn and crafts a message that references something specific and relevant to them. It is built for recruiters, sales professionals, and anyone who needs to send high volumes of personalized outreach without writing each message from scratch.",
+    features: [
+      "LinkedIn Profile Analysis: Reads recipient profiles to personalize message content",
+      "Personalized Openers: Conversation starters that reference specific profile details",
+      "Chrome Extension: Works directly inside LinkedIn without switching tools",
+      "Tone Selection: Choose your preferred voice from professional to conversational",
+      "Reusable Templates: Save effective message structures for future use",
+      "Recruiter Focus: Designed for sourcing and talent outreach workflows",
+      "Team Features: Analytics and A/B testing on paid plans",
+      "Free Starter Messages: Try with 10 complimentary messages before upgrading"
+    ],
+    howToUse: {
+      title: "How to Use Sayhi",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Add SayHi from the Chrome Web Store. Once installed, the extension icon appears in your Chrome toolbar and activates when you are on LinkedIn." },
+        { title: "Open a LinkedIn Profile", description: "Navigate to the profile of the person you want to message. SayHi reads their background, experience, and headline to build a personalized message foundation." },
+        { title: "Generate and Send", description: "Click the SayHi extension, choose your tone, and generate your message. Review it, make any adjustments, and send it directly from LinkedIn. The whole process takes seconds per message." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Profile-Driven Personalization", description: "Instead of merge fields with a name dropped in, SayHi reads the actual profile content and builds messages around real details - which is the difference between a message that gets a reply and one that gets ignored" },
+      { title: "Recruiter Workflow Integration", description: "The Chrome extension sits inside LinkedIn where recruiters already work, which means zero context switching and a much smoother outreach workflow" },
+      { title: "Tone Control", description: "Different outreach scenarios call for different tones. Reaching out to a senior executive reads differently from connecting with a recent graduate, and SayHi lets you calibrate accordingly" },
+      { title: "Volume Without Sacrifice", description: "Sending personalized messages to dozens of candidates or prospects daily would be impossible to do manually at quality. SayHi makes it achievable" }
+    ],
+    useCases: [
+      { title: "Recruiters Sourcing Candidates", description: "Talent acquisition professionals use SayHi to send personalized outreach to passive candidates on LinkedIn at a volume that manual writing could never sustain" },
+      { title: "Sales Professionals", description: "B2B sales reps use SayHi to send personalized first messages to prospects that reference something specific from their profile, which meaningfully improves response rates" },
+      { title: "Professionals Growing Their Network", description: "Anyone actively expanding their LinkedIn network uses SayHi to send connection requests that feel personal rather than copy-pasted" }
+    ]
+  },
+  "heartstring-ai": {
+    whatIs: "Heartstring AI is an emotional message generation tool focused on helping people express deep, sincere feelings in written form - particularly in situations where getting the tone exactly right really matters. Whether you are writing to someone who is grieving, someone you have hurt, someone you love deeply, or someone going through something difficult, Heartstring AI helps you find language that is emotionally honest and genuinely caring rather than formulaic.",
+    features: [
+      "Emotional Message Generation: AI-crafted messages for emotionally significant moments",
+      "Sincere Tone Focus: Output calibrated for genuine emotional expression over performance",
+      "Multiple Emotional Contexts: Sympathy, love, apology, encouragement, and gratitude",
+      "Recipient Awareness: Personalize based on who you are writing to and your relationship",
+      "Situation Input: Describe what is happening to get contextually appropriate output",
+      "Gentle Language: Warm, careful phrasing appropriate for sensitive moments",
+      "Editable Draft: Complete message to refine and make your own before sending",
+      "Free to Use: Core message generation accessible without a subscription"
+    ],
+    howToUse: {
+      title: "How to Use Heartstring Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe the Situation", description: "Open Heartstring AI and share who you are writing to, what they are going through or what you want to express, and your relationship with them. The emotional context guides the output." },
+        { title: "Generate Your Message", description: "The AI produces a complete emotionally calibrated message - warm where it needs to be warm, honest where it needs to be honest, and carefully phrased for the specific situation." },
+        { title: "Refine and Send", description: "Read the message and add anything personal - a specific memory, a detail only you would know, or a phrase that captures something the AI could not have known. Then send it when the moment is right." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Situation-Calibrated Output", description: "Different emotional situations require completely different language. A message for someone grieving reads nothing like a message of apology or love. Heartstring AI adjusts its output to the specific emotional context you describe" },
+      { title: "Sincere Over Scripted", description: "The goal is language that sounds like something a caring person would actually say, not something copied from a condolence card. The output avoids the hollow phrasing that makes emotional messages feel impersonal" },
+      { title: "High Stakes Moment Support", description: "When a message really matters - when someone is hurting, when a relationship is at a turning point - getting the words right is genuinely important. Heartstring AI treats these moments with the care they deserve" },
+      { title: "Emotional Range", description: "From grief to gratitude, from apology to declaration of love, the tool covers the full range of emotionally significant communication rather than focusing on just one type" }
+    ],
+    useCases: [
+      { title: "People Supporting Loved Ones Through Difficulty", description: "When someone you care about is grieving, sick, or struggling, knowing what to say is hard. Heartstring AI helps you find words that are genuinely comforting rather than awkwardly generic" },
+      { title: "Anyone Writing an Apology", description: "Sincere apologies are hard to write because the stakes feel high and getting the tone wrong can make things worse. The tool helps structure genuine remorse in language that feels honest" },
+      { title: "People Expressing Deep Feelings", description: "Sometimes feelings have been building for a long time and finding words that match their weight feels impossible. Heartstring AI helps translate deep emotion into something you can actually send" }
+    ]
+  },
   "recruit-crm": {
     whatIs: "Recruit CRM is a full-featured AI recruitment platform built for agencies and talent teams who want to automate the repetitive parts of hiring without losing control of the process. It combines a CRM and ATS in one system, with GPT-powered tools that handle job description writing, candidate summaries, call transcription, and outreach emails. The AI does not just suggest edits - it generates polished first drafts from basic inputs, so recruiters can spend less time writing and more time actually placing candidates.",
     features: [
