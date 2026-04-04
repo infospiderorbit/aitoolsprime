@@ -1,4 +1,76 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "writeless": {
+    whatIs: "Writeless is an academic writing tool built specifically for students and researchers who need well-structured essays, research papers, and reports — fast. Unlike general-purpose AI chatbots, Writeless is wired for the academic world. It generates full-length essays complete with real, verifiable in-text citations in APA, MLA, Harvard, Chicago, or Vancouver format. You can write papers up to 20,000 words, upload your own source materials, set your preferred citation style, and even tune the writing tone to sound more like you.",
+    features: [
+      "Full Essay Generation: Produce essays and research papers up to 20,000 words in one session",
+      "Real Citations: Automatic in-text citations in APA, MLA, Harvard, Chicago and Vancouver formats",
+      "Source Upload: Upload your own PDFs or images as reference materials for the AI to draw from",
+      "Tone Matching: Adapts writing style to sound more like you based on sample text you provide",
+      "Paraphrasing Tool: Rewrite flagged sections to improve originality and avoid repetition",
+      "AI Detection Check: Built-in checker flags robotic-sounding text before you submit",
+      "Plagiarism Detection: Integrated plagiarism check during the drafting process",
+      "Citation Year Filter: Set minimum publication year to keep your sources current and relevant",
+      "Multiple Essay Types: Supports argumentative, analytical, research and expository formats",
+      "Multilingual Support: Write academic papers across multiple languages"
+    ],
+    howToUse: {
+      title: "How to Use Writeless",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Head to Writeless and sign up with just your email. No lengthy onboarding — you can start your first essay within minutes of registering." },
+        { title: "Enter Your Topic and Settings", description: "Type in your essay topic or paste your assignment prompt. Choose your word count, writing style, citation format and minimum source year. You can also upload a PDF or reading list for the AI to reference." },
+        { title: "Generate and Review", description: "Hit generate and Writeless produces a fully structured essay with in-text citations and a reference list. Read through it and use the built-in editing and paraphrasing tools to refine any sections." },
+        { title: "Run Final Checks", description: "Use the AI detection and plagiarism checkers before exporting. Adjust any flagged sections, then download your finished document ready for submission." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Academic Essay Generator", description: "Produces properly structured essays with introduction, thesis, body paragraphs and conclusion — mirroring the format academic institutions actually expect rather than generic article output" },
+      { title: "Real Citation Engine", description: "Every claim is backed by a clickable verifiable source. Citations auto-format in your chosen style and a complete reference list is included at the end of every essay" },
+      { title: "Tone and Voice Matching", description: "By analyzing sample writing you provide, Writeless adapts its output to better reflect your natural voice so the final draft does not read like it came from a machine" },
+      { title: "Originality Tools", description: "Built-in paraphrasing and plagiarism detection work together to ensure your submitted work clears both academic integrity checks and AI detection tools" }
+    ],
+    useCases: [
+      { title: "Undergraduates on Tight Deadlines", description: "When multiple assignments land in the same week, Writeless helps produce a solid properly cited first draft quickly so you can spend time refining rather than starting from a blank page" },
+      { title: "Graduate Researchers", description: "Switching citation formats between journals is exhausting. Writeless handles formatting automatically letting researchers stay focused on the substance of their arguments" },
+      { title: "ESL and International Students", description: "For students writing in their second language, Writeless bridges the gap between strong ideas and the fluent academic English their institutions require" },
+      { title: "Faculty and Teaching Assistants", description: "Educators use Writeless to quickly generate assignment exemplars and model well-structured academic writing with correct citation practices for their students" }
+    ]
+  },
+  "daily-nightly-affirmations": {
+    whatIs: "Daily, Nightly AI Affirmations is a mindset tool that bookends your day with personalized positive statements — one set to start your morning with intention, and another in the evening to help you reflect and wind down. Unlike generic quote apps recycling the same lines, the AI generates affirmations shaped around your actual goals, mood, and current challenges. The science behind it is simple: what you tell yourself first thing in the morning and last thing at night genuinely influences how you think and feel over time. This tool makes that practice easy, personal, and consistent.",
+    features: [
+      "Morning Affirmations: AI-generated positive statements to start each day with intention and focus",
+      "Evening Affirmations: Calming reflective affirmations designed to help you decompress before sleep",
+      "Personalization: Affirmations tailored to your specific goals, challenges and current life situation",
+      "Scheduled Reminders: Morning and night notification reminders to keep the practice consistent",
+      "Multiple Categories: Affirmations covering confidence, relationships, career, health, anxiety and more",
+      "Custom Focus: Input your specific situation to get affirmations that actually feel relevant",
+      "Habit Tracking: Monitor your daily practice consistency over time",
+      "Distraction-Free Interface: Clean calm design appropriate for first-thing-in-the-morning use"
+    ],
+    howToUse: {
+      title: "How to Use Daily Nightly Affirmations",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Sign up and share a little about what you are currently working on — building confidence, managing stress, improving focus, or working toward a specific personal goal. This context guides the AI to generate affirmations that feel personally relevant." },
+        { title: "Start Your Morning Practice", description: "Each morning open the tool and read your generated affirmations before the day gets busy. Even two minutes of intentional engagement sets a noticeably different tone for the hours ahead." },
+        { title: "Wind Down with Evening Affirmations", description: "Before bed, open the tool for your nightly set. These are gentler reflective statements designed to help you let go of the day and settle into a calmer headspace before sleep." },
+        { title: "Build the Habit", description: "Turn on reminders and use the habit tracker to stay consistent. Affirmations work through repetition over time — the tool handles the content, you just need to show up daily." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalized AI Generation", description: "Every affirmation is generated around your specific goals and challenges rather than pulled from a generic library making each one feel written for your actual situation rather than anyone who might open the app" },
+      { title: "Morning and Evening Structure", description: "Separate morning and evening sets serve genuinely different emotional needs. Morning affirmations prime you for action and confidence while evening ones help you decompress — the tool is designed around how humans actually move through a day" },
+      { title: "Scheduled Reminders", description: "Consistency is what makes affirmations work — they rewire thought patterns through repetition. Built-in reminders ensure you do not skip days which is usually how these habits quietly die" },
+      { title: "Distraction-Free Experience", description: "No social feed, no ads, no noise. The interface stays calm and focused which is exactly right for something you are doing first thing in the morning and right before bed" }
+    ],
+    useCases: [
+      { title: "People Building a Daily Mindset Practice", description: "If you have been meaning to start meditating or journaling but never quite stick with it, affirmations are a gentler entry point. Two minutes morning and night is genuinely doable and the AI handles all the content" },
+      { title: "Anyone Dealing with Anxiety or Self-Doubt", description: "Used consistently affirmations help interrupt negative thought loops and gradually shift the default tone of your inner voice — a bigger deal than it sounds for people who live with persistent self-criticism" },
+      { title: "Professionals Under Pressure", description: "High-pressure work creates a lot of mental noise. Starting the day with grounding confident affirmations and ending it with calming ones can make a real difference in how you show up and how well you sleep" },
+      { title: "Students During Exam Season", description: "Exam stress is as much about self-doubt as about the actual material. Affirmations focused on capability, calm and focus help students walk into tests with a clearer more confident headspace" }
+    ]
+  },
   "daily-affirmations-ai": {
     whatIs: "Daily Affirmations AI is an AI-powered affirmation generator that creates personalized positive statements tailored to your specific goals, challenges and mindset needs. The platform delivers fresh affirmations daily helping users build a consistent positive self-talk practice that supports mental wellness, confidence and personal growth. Unlike generic affirmation apps with fixed content libraries, the AI generates new personalized affirmations ensuring the practice stays relevant and meaningful over time.",
     features: [
