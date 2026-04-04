@@ -1,4 +1,334 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "quetext": {
+    whatIs: "Quetext is a free plagiarism and AI detection tool that has built a reputation for being genuinely accessible without hiding useful features behind expensive paywalls. It checks submitted content against a broad database of web pages, academic publications, and other published material, returning color-coded similarity highlights alongside an overall score. The DeepSearch technology it uses goes beyond simple string matching to catch paraphrased content and indirect overlap that simpler tools miss. For students and individual writers who need regular plagiarism checking without institutional access, Quetext is one of the most practical options available.",
+    features: [
+      "Free Plagiarism Detection: Meaningful detection without requiring a paid subscription",
+      "DeepSearch Technology: Goes beyond exact match to catch paraphrased and indirect plagiarism",
+      "Color-Coded Results: Visual highlighting shows exactly which passages are flagged",
+      "Citation Assistant: Helps generate proper citations for flagged source material",
+      "AI Content Detection: Identifies AI-generated writing alongside traditional plagiarism",
+      "Similarity Score: Overall percentage score with source-level breakdown",
+      "Document Upload: Accepts Word, PDF, and text file submissions",
+      "Student-Friendly Pricing: Affordable paid tiers for users who need higher volume access"
+    ],
+    howToUse: {
+      title: "How to Use Quetext",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste or Upload Your Text", description: "Go to quetext.com and paste your content into the checker or upload your document. Free accounts can check a set number of words per month before needing to upgrade." },
+        { title: "Run the DeepSearch Scan", description: "Quetext analyzes your content using its DeepSearch technology, looking for exact matches, close paraphrases, and indirect overlap with its database of web content and academic sources." },
+        { title: "Review Highlighted Results", description: "Color-coded highlights show you exactly which sections triggered matches and which sources they matched against. Use the citation assistant to generate proper references for any sources you want to legitimately cite." }
+      ]
+    },
+    coreFeatures: [
+      { title: "DeepSearch Paraphrase Detection", description: "Standard plagiarism checkers catch copy-paste but miss paraphrasing. Quetext's DeepSearch goes further to identify content that has been reworded from sources - which is the kind of plagiarism that actually matters in academic contexts" },
+      { title: "Citation Integration", description: "When a match is found, Quetext can generate a proper citation for that source - turning a potential plagiarism flag into a properly attributed reference. This is more useful than just knowing a match exists" },
+      { title: "Genuine Free Tier", description: "Many plagiarism checkers offer a free tier that is too limited to be useful. Quetext's free option provides enough functionality for individual students doing occasional checks" },
+      { title: "AI Detection Addition", description: "Adding AI content detection alongside traditional plagiarism checking reflects how content integrity verification has evolved - both problems now need to be addressed in the same workflow" }
+    ],
+    useCases: [
+      { title: "Students Checking Essays", description: "University and high school students use Quetext to self-check essays and research papers for unintentional plagiarism before submitting, using the citation assistant to fix any issues found" },
+      { title: "Individual Writers Without Institutional Access", description: "Writers and content creators who do not have access to institutional plagiarism checkers use Quetext as an accessible alternative for verifying the originality of their work" },
+      { title: "Teachers Doing Spot Checks", description: "Educators who want to check specific submissions without going through a full institutional submission process use Quetext for quick informal verification" }
+    ]
+  },
+  "noplagio": {
+    whatIs: "NoPlagio is a multilingual plagiarism detection tool built for users who work in languages other than English - which covers a substantial portion of the global student and content creator population that most plagiarism tools underserve. It checks content against web sources and academic publications across multiple languages, making it practical for Spanish, Portuguese, Italian, French, and other language writers who need plagiarism verification with the same reliability that English-language users take for granted. The platform is used heavily in Latin American and European academic contexts where multilingual plagiarism checking is a genuine operational need.",
+    features: [
+      "Multilingual Detection: Plagiarism checking across Spanish, Portuguese, French, Italian, and more",
+      "Cross-Language Checking: Detect plagiarism across language boundaries",
+      "Academic Database Coverage: Checks against academic publications in multiple languages",
+      "Web Content Scanning: Verifies against published web content across supported languages",
+      "Similarity Reports: Detailed reports with source attribution in the target language",
+      "Fast Processing: Quick results for individual documents and batch submissions",
+      "Educator Tools: Features designed for academic integrity use in multilingual institutions",
+      "Simple Upload: Straightforward document submission without complex setup"
+    ],
+    howToUse: {
+      title: "How to Use Noplagio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Document", description: "Go to noplagio.com and upload your document in your working language. NoPlagio accepts common document formats and processes content in the original language without requiring translation." },
+        { title: "Run the Multilingual Check", description: "NoPlagio searches its database of web content and academic publications in your document's language for matching passages. The analysis covers both exact matches and paraphrased content." },
+        { title: "Review Your Report", description: "The similarity report shows your overall score and flags specific passages with source attribution. All reporting is in the document's original language for clarity." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multilingual Coverage", description: "This is NoPlagio's core differentiator. While most plagiarism tools are built primarily for English, NoPlagio provides comparable detection quality for Spanish, Portuguese, and other major languages - which is genuinely rare" },
+      { title: "Academic Context Focus", description: "The platform is built specifically for academic use cases in multilingual educational environments, which shapes everything from the database coverage to the report format" },
+      { title: "Cross-Language Detection", description: "The ability to detect plagiarism across language boundaries - identifying content translated from one language and submitted in another - addresses a specific type of academic dishonesty that monolingual tools miss entirely" },
+      { title: "Regional Market Strength", description: "NoPlagio is particularly well established in Latin American academic markets where Spanish and Portuguese language plagiarism checking is a practical daily requirement" }
+    ],
+    useCases: [
+      { title: "Students Writing in Non-English Languages", description: "Students submitting academic work in Spanish, Portuguese, French, or other supported languages use NoPlagio for the kind of accurate plagiarism checking that English-only tools cannot provide" },
+      { title: "Latin American and European Institutions", description: "Universities and schools in Spanish and Portuguese-speaking countries use NoPlagio as their primary plagiarism checking platform for student submissions" },
+      { title: "Multilingual Content Creators", description: "Writers producing content in multiple languages use NoPlagio to verify originality across their full content output rather than only their English-language work" }
+    ]
+  },
+  "uhmegle": {
+    whatIs: "Uhmegle is an AI content detection and analysis platform that helps users identify AI-generated text with a focus on providing detailed analytical insight alongside the detection verdict. Rather than just returning a percentage score, Uhmegle breaks down the specific characteristics of the analyzed text that contribute to its AI detection result - helping users understand not just whether content is AI-generated but why the detector reached that conclusion. This explanatory approach makes it more useful for educators and content professionals who need to understand the evidence behind a detection result.",
+    features: [
+      "AI Content Detection: Identify AI-generated text with detailed analytical breakdown",
+      "Explanatory Results: Understand why content was flagged not just that it was flagged",
+      "Pattern Analysis: Examines specific linguistic patterns contributing to AI detection signals",
+      "Multiple Language Support: Detection across content in multiple languages",
+      "Detailed Reports: Comprehensive analysis reports suitable for documentation",
+      "Sentence-Level Analysis: Pinpoint which specific parts of the text triggered detection",
+      "Confidence Scoring: Probability scores indicating detection confidence levels",
+      "Fast Processing: Quick analysis turnaround for practical workflow use"
+    ],
+    howToUse: {
+      title: "How to Use Uhmegle",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Content", description: "Open Uhmegle and paste the text you want to analyze into the detection interface. The platform works with any length of text from short paragraphs to full documents." },
+        { title: "Run the Analysis", description: "Uhmegle processes your content and examines it for the statistical and linguistic patterns associated with AI-generated writing - predictable vocabulary, uniform sentence structure, characteristic transitions." },
+        { title: "Review the Detailed Breakdown", description: "Unlike simple percentage scores, Uhmegle explains which specific patterns in the text contributed to its detection result. Review the breakdown to understand the evidence behind the verdict." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Explanatory Detection", description: "The most valuable thing about Uhmegle is that it explains its reasoning. A number tells you what happened - an explanation tells you why, which is far more useful for educators having conversations with students about their work" },
+      { title: "Pattern-Level Transparency", description: "Seeing which specific linguistic patterns triggered detection helps users understand what AI writing actually looks like in practice - which has educational value beyond just the immediate detection result" },
+      { title: "Documentation Quality", description: "The detailed reports Uhmegle produces are suitable for formal documentation - useful for educators who need to record the basis for an academic integrity decision" },
+      { title: "Multi-Language Reach", description: "Supporting detection across multiple languages makes Uhmegle accessible to international users who need content integrity verification in languages other than English" }
+    ],
+    useCases: [
+      { title: "Educators Needing Explainable Results", description: "Teachers who need to present evidence of AI use to students or administrators use Uhmegle for its detailed breakdown that explains the detection result rather than just asserting it" },
+      { title: "Content Quality Reviewers", description: "Editors and content managers who review large volumes of submitted content use Uhmegle to quickly identify and document AI-generated submissions with verifiable evidence" },
+      { title: "Researchers Studying AI Detection", description: "Academics researching how AI detection works use Uhmegle to understand the specific patterns that current detection models identify as AI-characteristic" }
+    ]
+  },
+  "bark": {
+    whatIs: "Bark is an AI-powered monitoring and safety platform originally built for parental controls and online safety, with content detection capabilities that extend to identifying AI-generated and potentially harmful content. On the AI detection side, Bark analyzes content for patterns associated with AI generation as part of its broader content monitoring function. The platform is primarily known for helping parents monitor their children's online communications for safety concerns - cyberbullying, self-harm indicators, inappropriate content - but its AI content detection capabilities make it relevant in the broader detection space.",
+    features: [
+      "Content Monitoring: Real-time monitoring of online communications and content",
+      "AI Content Detection: Identify AI-generated content as part of content analysis",
+      "Safety Alerts: Notifications when concerning content is detected",
+      "Multi-Platform Coverage: Monitors across social media, messaging apps, and email",
+      "Parental Controls: Tools for parents monitoring children's online activity",
+      "Text Analysis: Analyzes written communications for patterns of concern",
+      "Privacy-Conscious Design: Monitoring without reading every message in full",
+      "Real-Time Detection: Continuous monitoring rather than on-demand spot checks"
+    ],
+    howToUse: {
+      title: "How to Use Bark",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Account", description: "Sign up at bark.us and connect the devices and platforms you want to monitor. Bark integrates with major social platforms, messaging apps, and email providers." },
+        { title: "Configure Monitoring", description: "Set your monitoring preferences and alert thresholds. Bark operates in the background analyzing content for concerning patterns without requiring you to review every message manually." },
+        { title: "Review Alerts", description: "When Bark detects concerning content - including AI-generated communications that may indicate certain risk patterns - it sends an alert so you can review the specific flagged content and respond appropriately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Background Monitoring Approach", description: "Bark does not read every message - it analyzes content for patterns and only surfaces alerts when something concerning is detected. This privacy-conscious approach is what makes it sustainable as an ongoing monitoring tool" },
+      { title: "Multi-Platform Coverage", description: "Children communicate across many platforms simultaneously. Bark's ability to monitor across social media, messaging, and email in one system gives a more complete picture than platform-specific tools" },
+      { title: "AI Content Detection in Context", description: "Bark's AI detection capability is part of its broader content safety analysis rather than a standalone detection tool - identifying AI-generated communications that may be relevant to safety contexts" },
+      { title: "Real-Time Alert System", description: "Rather than periodic manual checks, Bark provides continuous monitoring with real-time alerts - which means concerning content is flagged as it happens rather than discovered after the fact" }
+    ],
+    useCases: [
+      { title: "Parents Monitoring Children's Online Activity", description: "Parents concerned about their children's digital safety use Bark to monitor communications for cyberbullying, predatory contact, and other safety concerns without reading every single message" },
+      { title: "Schools and Educational Institutions", description: "Schools that provide devices to students use Bark to monitor those devices for policy violations and safety concerns across the school network" },
+      { title: "Content Safety Researchers", description: "Researchers studying online safety patterns use Bark's content analysis capabilities to understand how AI-generated content appears in real communication contexts" }
+    ]
+  },
+  "hcaptcha": {
+    whatIs: "hCaptcha is a privacy-focused CAPTCHA and bot detection service used by over 99,000 websites to distinguish human users from automated bots and AI-driven traffic. Unlike traditional CAPTCHA services, hCaptcha was built with privacy as a core design principle - it does not rely on tracking cookies or extensive user profiling to make its determinations. The platform protects websites from credential stuffing, spam submissions, scraping, and other forms of automated abuse while paying website owners for the human-verified data their users generate through CAPTCHA challenges.",
+    features: [
+      "Bot Detection: Distinguish human users from automated bots and AI-driven traffic",
+      "Privacy-First Design: No tracking cookies or extensive user profiling required",
+      "Website Protection: Defends against credential stuffing, spam, and automated scraping",
+      "Revenue for Publishers: Website owners earn for human-verified challenges on their site",
+      "Accessibility Options: Alternative challenge types for users with disabilities",
+      "99000 Plus Sites: Trusted by a large network of websites worldwide",
+      "API Integration: Simple integration with existing web forms and login flows",
+      "Risk Scoring: Advanced risk analysis for flagging suspicious traffic patterns"
+    ],
+    howToUse: {
+      title: "How to Use Hcaptcha",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Add hCaptcha to Your Site", description: "Sign up at hcaptcha.com and get your site key. Add the hCaptcha widget to your web forms, login pages, or any other points where you want to block automated access." },
+        { title: "Configure Your Protection Level", description: "Set your security level based on your site's needs - from low friction for high-volume legitimate traffic to high security for sensitive operations. hCaptcha adjusts the challenge difficulty based on risk signals." },
+        { title: "Monitor and Manage", description: "Review your dashboard for traffic patterns, blocked bot attempts, and challenge completion rates. Adjust your security settings based on the traffic patterns you observe." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Privacy-First Architecture", description: "hCaptcha's design avoids the extensive tracking and profiling that other CAPTCHA services rely on, which makes it the preferred choice for privacy-conscious websites and those operating under strict data protection regulations" },
+      { title: "Publisher Revenue Model", description: "The model where website owners earn revenue for hosting hCaptcha challenges is unique in the CAPTCHA space - it aligns the incentives of the protection provider and the protected website in an unusual way" },
+      { title: "Accessibility Consideration", description: "Alternative challenge types for users with disabilities address a genuine criticism of traditional CAPTCHAs, which can be effectively impossible for users with visual or cognitive impairments" },
+      { title: "AI Traffic Defense", description: "As AI-powered automation becomes more sophisticated, hCaptcha continuously updates its challenge designs to stay ahead of automated solvers - making it a moving target for bot operators" }
+    ],
+    useCases: [
+      { title: "Website Owners Protecting Forms", description: "Site operators with contact forms, registration pages, or comment systems use hCaptcha to prevent spam submissions and bot registrations without compromising user experience" },
+      { title: "E-commerce Platforms", description: "Online stores use hCaptcha to protect against credential stuffing attacks that use automated login attempts with stolen username and password combinations" },
+      { title: "Privacy-Conscious Organizations", description: "Companies and institutions with strict data protection requirements use hCaptcha specifically because its privacy-first design meets regulatory requirements that other CAPTCHA services may not" }
+    ]
+  },
+  "onfido": {
+    whatIs: "Onfido is an AI-powered identity verification platform that uses machine learning to verify that users are who they claim to be - checking government-issued documents alongside biometric verification to confirm identity in real time. It is used by banks, fintech companies, sharing economy platforms, and other organizations that need to verify user identities online as part of their onboarding or compliance processes. The AI component not only speeds up verification but also detects fraudulent documents, deepfake images, and other forms of identity manipulation that human reviewers would miss.",
+    features: [
+      "Document Verification: AI verification of government-issued ID documents in real time",
+      "Biometric Matching: Match user selfies against document photos using facial recognition",
+      "Deepfake Detection: Identify AI-generated or manipulated images submitted for verification",
+      "Liveness Detection: Confirm the selfie is from a live person not a photo or video replay",
+      "Fraud Detection: Identify forged, tampered, and fraudulent identity documents",
+      "Global Coverage: Support for identity documents from 195 plus countries",
+      "API Integration: Embed Onfido into your onboarding flow programmatically",
+      "Compliance Support: Helps meet KYC and AML regulatory requirements"
+    ],
+    howToUse: {
+      title: "How to Use Onfido",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Integrate the SDK", description: "Sign up at onfido.com and integrate the Onfido SDK into your onboarding flow. The SDK handles the document capture and selfie process on the user's device." },
+        { title: "Users Complete Verification", description: "Your users photograph their government ID and take a selfie through the Onfido interface. The process is designed to be quick and mobile-friendly to minimize drop-off during onboarding." },
+        { title: "Review Results", description: "Onfido returns a verification result with a recommendation - clear, consider, or reject - based on its AI analysis of the document and biometric match. Your team reviews flagged cases and makes final decisions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Deepfake Defense", description: "As AI-generated faces become more convincing, identity verification services need to specifically detect synthetic images submitted as identity photos. Onfido's deepfake detection addresses this directly as part of its verification pipeline" },
+      { title: "Liveness Confirmation", description: "Biometric verification is only meaningful if the selfie comes from a live person rather than a photo of a photo or a video replay. Onfido's liveness detection closes this gap" },
+      { title: "Global Document Coverage", description: "Supporting identity documents from 195 plus countries makes Onfido practical for global businesses that onboard users from diverse geographic backgrounds" },
+      { title: "Compliance Integration", description: "Onfido is designed to meet KYC and AML regulatory requirements, which means organizations using it can point to Onfido's verification as evidence of due diligence in their compliance documentation" }
+    ],
+    useCases: [
+      { title: "Fintech and Banking", description: "Financial services companies use Onfido to verify customer identities during account opening as part of their KYC compliance obligations" },
+      { title: "Sharing Economy Platforms", description: "Platforms connecting service providers with consumers - ride sharing, home rentals, freelance marketplaces - use Onfido to verify identities before allowing users to participate" },
+      { title: "Age Verification Services", description: "Platforms that need to verify user age for legal compliance use Onfido to confirm that users are who they say they are and meet age requirements" }
+    ]
+  },
+  "stealthwriter-humanizer": {
+    whatIs: "StealthWriter is an AI humanizer tool designed to transform AI-generated content into writing that is virtually indistinguishable from human-written text. It goes beyond basic paraphrasing by analyzing and restructuring content at the sentence and paragraph level, introducing the kind of natural variation, imperfect phrasing, and stylistic personality that characterize genuine human writing. The platform offers a slider that lets users control how aggressively the text gets rewritten - from light editing that preserves most of the original to heavy restructuring that produces significantly different output. It supports more than 50 languages and is particularly popular with content marketers and SEO professionals.",
+    features: [
+      "Adjustable Rewriting Slider: Control humanization intensity from light to heavy rewriting",
+      "Human Pattern Injection: Adds natural variation and stylistic personality to AI text",
+      "50 Plus Languages: Humanization across more than 50 languages",
+      "SEO-Friendly Output: Preserves keyword signals while humanizing content",
+      "Multi-Detector Bypass: Designed to pass GPTZero, Turnitin, Copyleaks, and others",
+      "Grammar and Flow Improvement: Fixes mechanical phrasing and improves readability",
+      "Fast Processing: Quick turnaround suitable for content workflows",
+      "Free Plan: 5000 words per day free before upgrading"
+    ],
+    howToUse: {
+      title: "How to Use Stealthwriter Humanizer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your AI Content", description: "Go to stealthwriter.ai and paste the AI-generated text you want to humanize into the input field. The tool works with content from ChatGPT, Claude, Gemini, and any other AI platform." },
+        { title: "Set Your Intensity Level", description: "Use the slider to choose how aggressively you want the content rewritten. Light mode preserves more of the original structure while heavy mode makes more substantial changes for tougher detection scenarios." },
+        { title: "Get Your Humanized Output", description: "StealthWriter returns your rewritten content within seconds. Review it for quality and coherence, make any personal adjustments, and use it for your intended purpose." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Intensity Control", description: "The adjustable slider is one of the more user-friendly features in the humanizer space - being able to choose between light editing and heavy restructuring in the same tool means users are not stuck with one approach for all scenarios" },
+      { title: "Genuine Variation Injection", description: "StealthWriter aims to add actual stylistic personality rather than just shuffling synonyms - which produces output that reads more naturally than tools that take a purely mechanical approach to humanization" },
+      { title: "SEO Preservation", description: "Humanizing content for detection bypass sometimes degrades its SEO value. StealthWriter's focus on maintaining keyword signals alongside humanization makes it more practical for content marketing use cases" },
+      { title: "Generous Free Tier", description: "5000 words per day free is meaningfully more than most humanizer tools offer on their free plans, making StealthWriter accessible for individual writers and students before committing to a subscription" }
+    ],
+    useCases: [
+      { title: "Content Marketers and Bloggers", description: "Writers producing AI-assisted blog content use StealthWriter to ensure their posts read naturally and avoid detection flags from search engine content quality systems" },
+      { title: "SEO Agencies", description: "Agencies producing high volumes of AI-assisted content for client websites use StealthWriter to humanize content at scale while maintaining the keyword structure that affects search performance" },
+      { title: "Students", description: "Students who use AI for research assistance use StealthWriter to ensure their final submissions read in their own voice rather than in the recognizable style of their AI writing tool" }
+    ]
+  },
+  "humbot": {
+    whatIs: "Humbot is a focused AI text humanization tool built around simplicity and effectiveness. You paste your AI-generated content, set your formality level and writing style preferences, and Humbot rewrites it using language patterns drawn from human writing. What distinguishes Humbot from simpler paraphrasers is the level of control it gives users over the output - adjusting formality, inserting bias and perspective to make content feel more personal, and choosing writing style parameters that align the output with a specific voice. It is consistently effective against major detection tools including GPTZero, ZeroGPT, Copyleaks, and Turnitin.",
+    features: [
+      "Advanced Style Controls: Adjust formality, writing style, and bias parameters for personalized output",
+      "Formality Settings: Control the register from casual to highly academic",
+      "Bias Injection: Add perspective and personality to make content feel more human",
+      "Multi-Detector Effectiveness: Consistently bypasses GPTZero, ZeroGPT, Turnitin, Copyleaks",
+      "Natural Language Output: Rewrites produce genuinely readable human-sounding prose",
+      "Meaning Preservation: Core message and facts remain intact through humanization",
+      "Fast Rewriting: Quick processing times for individual documents",
+      "Accessible Pricing: Reasonable pricing for students and individual users"
+    ],
+    howToUse: {
+      title: "How to Use Humbot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Text", description: "Go to humbot.ai and paste your AI-generated content into the input field. Humbot accepts text from any AI writing platform." },
+        { title: "Configure Your Settings", description: "Set your formality level, choose your writing style, and adjust any other parameters. The more specific your settings the more the output will align with your intended voice and context." },
+        { title: "Review Your Output", description: "Humbot returns the humanized version of your content. Read through it to verify the style settings produced the tone you needed and make any small personal adjustments before using it." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Style and Formality Controls", description: "The ability to adjust formality and inject stylistic bias is what separates Humbot from basic paraphrasers. These controls produce output that fits a specific context rather than generic rewritten text" },
+      { title: "Bias and Perspective Injection", description: "Making content feel genuinely human often comes down to whether it has a point of view. Humbot's bias parameter lets users add the kind of personal perspective that makes writing feel like it came from someone who actually thought about the topic" },
+      { title: "Consistent Detector Performance", description: "Humbot is specifically mentioned in comparison reviews as reliably effective against both GPTZero and Turnitin - including the more challenging Turnitin detection that many humanizers fail to pass" },
+      { title: "Academic and Professional Range", description: "The formality settings make Humbot practical for both academic submissions that require formal register and casual content that needs to feel conversational - the same tool covers both contexts" }
+    ],
+    useCases: [
+      { title: "Students Needing Academic Tone", description: "Students who need humanized content to maintain formal academic register use Humbot's formality controls to ensure the output meets the stylistic standards their institution expects" },
+      { title: "Content Creators Wanting Personal Voice", description: "Writers who want humanized content to feel like it reflects their own perspective rather than generic AI output use the bias and style settings to inject personality into the rewriting" },
+      { title: "Professionals Writing Business Communications", description: "Professionals producing AI-assisted reports, emails, and presentations use Humbot to ensure their communications read with the natural authority and personal voice that professional writing requires" }
+    ]
+  },
+  "writehuman": {
+    whatIs: "WriteHuman is an AI text humanizer that focuses on producing output that sounds genuinely personal - the kind of writing that feels like it came from a specific person with a specific perspective rather than a generic rewriting of the original. It offers tone controls including formal, casual, and creative options, making it practical for everything from professional emails and reports to personal essays and creative pieces. WriteHuman is consistently noted for producing output that feels more authentically human than many competitors, even if it occasionally requires a few attempts to fully pass the most stringent detection tools.",
+    features: [
+      "Personal Voice Focus: Produces output that feels personally written rather than generically rewritten",
+      "Tone Controls: Formal, casual, and creative tone options for different content types",
+      "Multi-Context Support: Works for essays, emails, stories, professional documents, and more",
+      "Human Feel Priority: Prioritizes natural authenticity over mechanical pattern disruption",
+      "Detection Bypass: Designed to pass major AI detection tools",
+      "Meaning Preservation: Maintains the original message through tonal and stylistic transformation",
+      "Simple Interface: Straightforward paste and humanize workflow",
+      "Accessible Pricing: Reasonably priced for individual and student use"
+    ],
+    howToUse: {
+      title: "How to Use Writehuman",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Content", description: "Go to writehuman.ai and paste the AI-generated text you want to transform. WriteHuman accepts text from any AI writing tool." },
+        { title: "Choose Your Tone", description: "Select the tone that fits your purpose - formal for academic and professional work, casual for conversational content, or creative for pieces where personality and voice are especially important." },
+        { title: "Review and Personalize", description: "Read through the WriteHuman output with attention to whether it sounds like something you would actually write. Add any personal touches - specific details, your own phrasing preferences - before using the final version." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personal Voice Emphasis", description: "WriteHuman is built around the idea that humanized text should feel like it came from a real person with a real perspective - not just text with the AI fingerprints removed. This philosophical difference shows in the output quality" },
+      { title: "Tone Flexibility", description: "Formal, casual, and creative are meaningfully different writing registers that require different approaches. Having genuine tone control means the same tool works for a business report and a personal essay" },
+      { title: "Human Feel Over Detection Gaming", description: "Some humanizers optimize entirely for passing detection at the expense of readability. WriteHuman prioritizes producing text that reads naturally to humans - which tends to also help with detection as a byproduct" },
+      { title: "Creative Writing Support", description: "The creative tone option and personal voice focus make WriteHuman more useful for creative writing contexts than most humanizers, which are primarily built for academic and professional content" }
+    ],
+    useCases: [
+      { title: "Students Writing Personal Essays", description: "Students working on college application essays, personal statements, and reflective writing use WriteHuman to ensure their AI-assisted content maintains the personal voice these assignments require" },
+      { title: "Professionals Writing Personal Communications", description: "People writing personal emails, cover letters, and communications where individual personality matters use WriteHuman to maintain authentic personal voice in AI-assisted writing" },
+      { title: "Content Creators Wanting Distinctive Voice", description: "Writers who have developed a recognizable style use WriteHuman's tone controls to ensure humanized content aligns with their established voice rather than feeling generic" }
+    ]
+  },
+  "humanize-ai": {
+    whatIs: "Humanize AI is a direct AI text transformation tool that takes AI-generated content and rewrites it to pass detection tools while maintaining readability and meaning. It uses natural language processing to identify and rewrite the specific patterns that make AI text detectable - predictable transitions, uniform sentence structures, statistically averaged vocabulary - replacing them with the kind of variation and unpredictability that characterizes human writing. The platform supports over 50 languages and is designed for fast, frictionless use in content workflows.",
+    features: [
+      "AI Pattern Removal: Identifies and rewrites the specific patterns that trigger AI detection",
+      "Natural Language Processing: Advanced NLP for genuinely human-sounding output",
+      "50 Plus Languages: Humanization across more than 50 languages",
+      "Meaning Preservation: Original message and facts maintained through transformation",
+      "Multi-Detector Bypass: Output designed to pass GPTZero, Turnitin, Originality.ai, and others",
+      "Fast Processing: Quick transformation suitable for high-volume content workflows",
+      "Enterprise Encryption: Content processed with enterprise-grade encryption",
+      "No Storage Policy: Content is not permanently stored after processing"
+    ],
+    howToUse: {
+      title: "How to Use Humanize Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your AI Text", description: "Open Humanize AI and paste the content you want to transform. The tool accepts input from ChatGPT, Claude, Gemini, Jasper, and any other AI writing platform." },
+        { title: "Run the Transformation", description: "The NLP engine analyzes your content for AI detection patterns and rewrites the problematic elements - adjusting sentence structure, varying vocabulary, and changing transitions to match human writing patterns." },
+        { title: "Use Your Humanized Content", description: "Copy the transformed output and use it for your intended purpose. The content maintains your original meaning while reading naturally to both human readers and AI detection systems." }
+      ]
+    },
+    coreFeatures: [
+      { title: "NLP-Driven Transformation", description: "Humanize AI uses natural language processing to understand what makes text feel AI-generated rather than just making random surface changes - which produces more consistently effective humanization results" },
+      { title: "Privacy Protection", description: "The no-storage policy and enterprise-grade encryption mean users can process sensitive content without worrying about it being retained, shared, or used for training purposes" },
+      { title: "Language Breadth", description: "Supporting humanization across 50 plus languages makes Humanize AI accessible to a genuinely global user base - not just English-language writers who dominate most humanizer tool audiences" },
+      { title: "Speed for Volume", description: "Fast processing times make Humanize AI practical as a step in a high-volume content workflow rather than a tool that creates bottlenecks when processing large amounts of content" }
+    ],
+    useCases: [
+      { title: "Content Agencies with Global Clients", description: "Agencies producing content in multiple languages for international clients use Humanize AI's broad language support to humanize AI-assisted content across all their markets from one platform" },
+      { title: "Writers Concerned About Privacy", description: "Users processing sensitive content - legal documents, business communications, personal writing - choose Humanize AI specifically for its no-storage and encryption policies" },
+      { title: "High-Volume Content Teams", description: "Teams producing large volumes of AI-assisted content daily use Humanize AI's fast processing and unlimited plans to incorporate humanization into their standard content workflow without creating production bottlenecks" }
+    ]
+  },
   "essay-grader-ai": {
     whatIs: "Essay Grader AI is an AI-powered grading and feedback platform designed to help educators assess student essays faster without sacrificing the quality of feedback students receive. It analyzes submissions for structure, argumentation, grammar, coherence, and academic writing conventions, then generates detailed rubric-based feedback that mirrors what a human teacher would write. The AI detection component identifies essays that may have been AI-generated, giving instructors both a quality assessment and an authenticity check in one workflow. For teachers managing large class sizes, it is the difference between spending a weekend grading and spending a few focused hours reviewing AI-assisted assessments.",
     features: [
