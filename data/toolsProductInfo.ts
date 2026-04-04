@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "oss-insight": {
+    whatIs: "OSS Insight is an analytics platform for GitHub that transforms the massive volume of GitHub event data into meaningful insights about open source projects, developers, and trends. It lets you explore real-time statistics about repositories, compare projects side by side, understand contributor patterns, and discover what is happening in the open source ecosystem. For developers who want to understand the health and trajectory of open source projects they depend on or contribute to, OSS Insight provides data-driven answers.",
+    features: [
+      "Repository Analytics: Deep statistics about any GitHub repository",
+      "Developer Insights: Analyze contributor patterns and developer activity",
+      "Project Comparison: Compare multiple repositories side by side",
+      "Trend Discovery: Identify trending projects and technologies",
+      "Real-Time Data: Up-to-date GitHub event data and statistics",
+      "Star History: Track repository star growth over time",
+      "Geographic Data: See where contributors and users are located",
+      "Free Access: All analytics available without payment"
+    ],
+    howToUse: {
+      title: "How to Use Oss Insight",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search a Repository", description: "Go to ossinsight.io and search for any GitHub repository. Enter the full repository name to access detailed analytics about its activity, contributors, and growth." },
+        { title: "Explore the Analytics", description: "Browse through the available analytics - star history, contributor analysis, issue and PR patterns, commit activity, and geographic distribution of contributors." },
+        { title: "Compare Projects", description: "Use the comparison feature to put two or more repositories side by side. This is particularly useful for evaluating similar projects or understanding how a project compares to its alternatives." }
+      ]
+    },
+    coreFeatures: [
+      { title: "GitHub Data at Scale", description: "GitHub generates enormous volumes of event data. OSS Insight processes all of it to provide analytics that would be impossible to compile manually from the GitHub interface" },
+      { title: "Repository Health Assessment", description: "Understanding a project's contributor diversity, issue resolution patterns, and growth trajectory helps developers make informed decisions about which open source dependencies to adopt" },
+      { title: "Trend Intelligence", description: "Discovering which technologies and projects are gaining momentum in the open source ecosystem is valuable for developers who want to stay current with the direction the industry is moving" },
+      { title: "Free and Accessible", description: "All analytics are freely accessible without requiring a paid account - making OSS Insight a practical tool for any developer who wants GitHub intelligence" }
+    ],
+    useCases: [
+      { title: "Developers Evaluating Open Source Dependencies", description: "Engineers deciding which open source libraries to adopt use OSS Insight to assess project health, contributor diversity, and maintenance activity before committing to a dependency" },
+      { title: "Open Source Maintainers", description: "Project maintainers use OSS Insight to understand their own project's growth and contributor patterns and benchmark against similar projects" },
+      { title: "Technology Researchers and Analysts", description: "Researchers studying open source ecosystems and technology trends use OSS Insight's data to understand adoption patterns and community dynamics" }
+    ]
+  },
+  "packfiles": {
+    whatIs: "Packfiles is a developer tool that helps teams understand and manage their codebase by providing AI-powered analysis of code structure, dependencies, and technical debt. It gives development leads and engineering managers visibility into the health of their codebase - which parts are frequently changed, which have the most bugs, where dependencies create risk, and where technical debt is accumulating. This kind of structural insight helps teams make better decisions about where to invest refactoring effort and how to reduce risk.",
+    features: [
+      "Codebase Analysis: Deep analysis of code structure and organization",
+      "Dependency Mapping: Visualize dependencies between modules and services",
+      "Technical Debt Detection: Identify areas of accumulated technical debt",
+      "Change Frequency Analysis: See which parts of the codebase change most often",
+      "Bug Correlation: Connect code characteristics to bug frequency",
+      "Risk Assessment: Identify high-risk areas of the codebase",
+      "Team Insights: Understand how different team members interact with the code",
+      "Integration: Works with GitHub, GitLab, and other repository platforms"
+    ],
+    howToUse: {
+      title: "How to Use Packfiles",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Repository", description: "Sign up at packfiles.io and connect your code repository. Packfiles analyzes your codebase and begins building a picture of its structure and health." },
+        { title: "Review Codebase Health", description: "Explore the analysis to understand which parts of your codebase have the most complexity, technical debt, and change frequency. These are often the areas that would most benefit from refactoring investment." },
+        { title: "Make Data-Driven Decisions", description: "Use the insights to inform sprint planning, refactoring priorities, and risk assessment. Base engineering decisions on codebase data rather than gut feel and anecdote." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Codebase Visibility for Leaders", description: "Engineering managers and tech leads often lack quantitative visibility into codebase health. Packfiles provides the data needed to make informed decisions about technical investment" },
+      { title: "Debt Identification", description: "Technical debt accumulates gradually and is often invisible until it causes serious problems. Packfiles surfaces it proactively so teams can address it systematically" },
+      { title: "Risk Reduction", description: "Knowing which parts of the codebase are most fragile and most frequently changed helps teams identify where to invest in testing and refactoring to reduce production risk" },
+      { title: "Change Impact Understanding", description: "The correlation between code characteristics and bug frequency helps teams understand which structural patterns actually create problems in practice" }
+    ],
+    useCases: [
+      { title: "Engineering Managers and Tech Leads", description: "Development leaders use Packfiles to get objective visibility into codebase health for planning refactoring work and communicating technical debt to stakeholders" },
+      { title: "Teams Planning Refactoring Work", description: "Development teams prioritizing technical debt reduction use Packfiles to identify the highest-impact areas to address rather than working from subjective assessments" },
+      { title: "CTOs and VPs of Engineering", description: "Technical executives use Packfiles for board-level reporting on engineering health and to make informed decisions about technical investment" }
+    ]
+  },
+  "gitlights": {
+    whatIs: "Gitlights is a GitHub analytics tool that helps developers and teams understand their GitHub activity and productivity patterns. It provides personal and team dashboards showing commit activity, pull request patterns, code review participation, and contribution trends over time. For individuals who want to understand their own development patterns and for managers who need visibility into team productivity, Gitlights transforms GitHub activity data into readable insights.",
+    features: [
+      "GitHub Activity Analytics: Track commits, PRs, and reviews over time",
+      "Personal Dashboard: Understand your own development patterns and productivity",
+      "Team Analytics: Aggregate team activity for management visibility",
+      "Contribution Trends: See how activity patterns change over time",
+      "Code Review Metrics: Track review participation and response times",
+      "Repository Breakdown: Understand activity distribution across repositories",
+      "Export Data: Download analytics data for reporting purposes",
+      "Integration: Connects directly to your GitHub account"
+    ],
+    howToUse: {
+      title: "How to Use Gitlights",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect GitHub", description: "Sign up at gitlights.com and connect your GitHub account. Gitlights accesses your public and private repository activity to build your analytics dashboard." },
+        { title: "Explore Your Dashboard", description: "Browse your personal activity dashboard to understand your commit patterns, PR velocity, and code review participation. See how your activity distributes across different repositories and time periods." },
+        { title: "Share Team Insights", description: "For team use, invite teammates and view aggregate team analytics. Use the data to understand team capacity, identify bottlenecks, and have data-driven conversations about productivity." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Self-Awareness for Developers", description: "Understanding your own development patterns - when you are most productive, which projects consume most of your time, how your review participation compares to your coding - helps developers work more intentionally" },
+      { title: "Team Visibility Without Micromanagement", description: "Aggregate team metrics give managers visibility into team health and productivity without monitoring individual developer activity at a granular level" },
+      { title: "Contribution Portfolio", description: "For developers building their career or freelancing, Gitlights provides a clear picture of their GitHub contributions that can be shared with potential employers or clients" },
+      { title: "Trend Identification", description: "Seeing how activity patterns change over time helps teams identify when workload is increasing unsustainably or when productivity has dropped due to process or technical issues" }
+    ],
+    useCases: [
+      { title: "Individual Developers Tracking Their Work", description: "Developers who want to understand their own productivity patterns and contribution history use Gitlights for self-awareness and career documentation" },
+      { title: "Engineering Managers", description: "Managers who need visibility into team activity and productivity use Gitlights for aggregate metrics without resorting to micromanagement of individual developers" },
+      { title: "Freelance Developers", description: "Independent contractors use Gitlights to document their GitHub contributions for client reporting and portfolio building" }
+    ]
+  },
+  "lambdatest": {
+    whatIs: "LambdaTest is a cloud-based cross-browser and cross-device testing platform that lets development teams run automated and manual tests across thousands of browser and device combinations without maintaining their own device lab. It integrates with popular testing frameworks including Selenium, Cypress, Playwright, and Appium, and provides AI-powered test capabilities that can automatically generate test cases, analyze failures, and suggest fixes. For teams that need to ensure their applications work consistently across the full range of browsers and devices their users actually use, LambdaTest provides comprehensive coverage.",
+    features: [
+      "Cross-Browser Testing: Test across 3000 plus browser and device combinations",
+      "Automated Test Execution: Run Selenium, Cypress, Playwright, and Appium tests at scale",
+      "AI Test Generation: Automatically generate test cases with AI assistance",
+      "Visual Testing: Catch visual regressions across browsers and screen sizes",
+      "Real Device Testing: Test on actual physical devices not just emulators",
+      "Parallel Execution: Run many tests simultaneously to reduce test suite runtime",
+      "CI/CD Integration: Connect with Jenkins, GitHub Actions, CircleCI, and others",
+      "Test Analytics: Understand test performance and failure patterns over time"
+    ],
+    howToUse: {
+      title: "How to Use Lambdatest",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Tests", description: "Sign up at lambdatest.com and configure your existing test suite to run on LambdaTest's cloud infrastructure. Most testing framework integrations require only a configuration change." },
+        { title: "Configure Browser Matrix", description: "Select the browsers, versions, and devices you want to test against. LambdaTest maintains and updates the full range of browser and device environments so you do not have to." },
+        { title: "Analyze Results", description: "Review test results across your entire browser matrix in the LambdaTest dashboard. Use the analytics to identify patterns in failures and understand which browser or device combinations cause the most issues." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Device Coverage Without Hardware", description: "Maintaining a physical device lab with the full range of browsers and devices is expensive and operationally complex. LambdaTest provides that coverage as a service without hardware investment" },
+      { title: "Parallel Execution Speed", description: "Running tests serially across many browser combinations takes hours. LambdaTest's parallel execution means the same tests complete in minutes" },
+      { title: "AI-Powered Testing", description: "Automatically generating test cases and analyzing failures with AI reduces the manual effort in building and maintaining test suites" },
+      { title: "CI/CD Native", description: "Integrating cross-browser testing directly into CI/CD pipelines makes it a standard part of every deployment rather than an occasional manual check" }
+    ],
+    useCases: [
+      { title: "QA Teams Ensuring Cross-Browser Compatibility", description: "Quality assurance teams responsible for browser compatibility use LambdaTest to systematically verify applications work across the full range of browsers and devices their users have" },
+      { title: "Development Teams with CI/CD Pipelines", description: "Engineering teams running automated test suites in their deployment pipelines use LambdaTest for cloud execution that scales with their test volume" },
+      { title: "Frontend Developers Catching Regressions", description: "Frontend engineers use LambdaTest to catch visual and functional regressions before they reach production users" }
+    ]
+  },
+  "katalon": {
+    whatIs: "Katalon is a comprehensive test automation platform that covers web, mobile, API, and desktop application testing in one tool. It is designed to be accessible to both technical QA engineers and non-technical team members through its codeless test creation features, while still providing the depth that experienced automation engineers need. Katalon's AI features help with test case generation, self-healing tests that automatically fix broken test steps, and root cause analysis for test failures.",
+    features: [
+      "Web Testing: Automated testing for web applications across browsers",
+      "Mobile Testing: Native and hybrid mobile app testing on iOS and Android",
+      "API Testing: REST and SOAP API test creation and execution",
+      "Codeless Testing: Create tests without writing code using record and playback",
+      "AI Self-Healing: Tests automatically fix themselves when the UI changes",
+      "Test Analytics: Understand test health and failure patterns",
+      "CI/CD Integration: Connect with popular DevOps pipelines",
+      "Reporting: Detailed test execution reports for stakeholders"
+    ],
+    howToUse: {
+      title: "How to Use Katalon",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record Your First Test", description: "Sign up at katalon.com and use the record and playback feature to create your first test without writing code. Navigate your application while Katalon records the steps." },
+        { title: "Enhance with AI", description: "Use Katalon's AI features to generate additional test cases, add assertions, and configure self-healing so tests automatically adapt when your application's UI changes." },
+        { title: "Run and Report", description: "Execute your tests locally or in the cloud and review the detailed reports. Share results with stakeholders through Katalon's reporting features." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Codeless Plus Code", description: "Katalon's combination of codeless test creation for simple scenarios and full scripting for complex ones means both technical and non-technical team members can contribute to test automation" },
+      { title: "AI Self-Healing", description: "Tests that break every time the UI changes are a major maintenance burden. Self-healing tests that automatically adapt to minor changes dramatically reduce test maintenance overhead" },
+      { title: "Multi-Platform Coverage", description: "Having web, mobile, and API testing in one platform means teams do not need separate tools for each test type - reducing the learning curve and tool management overhead" },
+      { title: "Accessibility for Non-Engineers", description: "Record-and-playback test creation makes test automation accessible to business analysts and manual testers who understand the application but lack coding skills" }
+    ],
+    useCases: [
+      { title: "QA Teams Moving to Automation", description: "Manual testing teams transitioning to automated testing use Katalon's codeless features to get started with automation without requiring everyone to learn programming" },
+      { title: "Agile Development Teams", description: "Teams running fast release cycles use Katalon's AI self-healing and CI/CD integration to maintain reliable test suites that keep pace with rapid development" },
+      { title: "Enterprise QA Organizations", description: "Large QA teams with diverse skill levels use Katalon as a standard platform that accommodates both junior testers using codeless features and senior engineers writing scripts" }
+    ]
+  },
+  "apify": {
+    whatIs: "Apify is a web scraping and automation platform that provides the infrastructure and tools for extracting data from websites at scale. It offers a marketplace of pre-built scrapers called Actors for popular websites, and tools for building custom scrapers when existing ones do not cover your needs. Apify handles the infrastructure complexity of web scraping - browser rendering, proxy rotation, rate limiting, and scaling - so developers can focus on the data extraction logic rather than the infrastructure.",
+    features: [
+      "Actor Marketplace: Pre-built scrapers for popular websites ready to run",
+      "Custom Actor Building: Build your own scrapers with the Apify SDK",
+      "Proxy Management: Residential and datacenter proxies to avoid blocking",
+      "Browser Automation: Run headless browsers for JavaScript-heavy sites",
+      "Scheduling: Run scrapers on schedules for regular data collection",
+      "Storage: Store scraped data in datasets and key-value stores",
+      "API: Trigger and manage scrapers programmatically",
+      "Monitoring: Track scraper performance and data quality over time"
+    ],
+    howToUse: {
+      title: "How to Use Apify",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Find or Build an Actor", description: "Go to apify.com and search the Actor marketplace for a pre-built scraper for the website you need. If one exists, you can often start collecting data immediately without any coding." },
+        { title: "Configure and Run", description: "Configure the Actor with your target URLs, extraction settings, and output format. Run it manually or set up a schedule for regular automated data collection." },
+        { title: "Access Your Data", description: "Download your scraped data in JSON, CSV, or Excel format, or access it through the Apify API for direct integration with your application or data pipeline." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Actor Marketplace Speed", description: "The marketplace of pre-built scrapers means common data collection tasks - products, reviews, social media, real estate - can often be done without writing any code" },
+      { title: "Infrastructure Abstraction", description: "Web scraping at scale requires proxy rotation, rate limiting, and browser management that are complex to implement correctly. Apify handles all of that so developers focus on data logic" },
+      { title: "Scheduling and Reliability", description: "Automated scheduled scraping with monitoring and alerting means data collection runs reliably without manual intervention" },
+      { title: "SDK for Custom Needs", description: "When pre-built Actors do not cover a specific website or use case, the Apify SDK provides the tools to build custom scrapers that run on the same reliable infrastructure" }
+    ],
+    useCases: [
+      { title: "Data Teams and Analysts", description: "Analysts who need external data for research, competitive intelligence, or business insights use Apify to collect it without building and maintaining custom scraping infrastructure" },
+      { title: "E-commerce and Market Intelligence Teams", description: "Companies monitoring competitor pricing, product availability, and market trends use Apify for automated regular data collection from relevant websites" },
+      { title: "Developers Building Data Products", description: "Engineers building data-driven products and services use Apify for the data extraction infrastructure rather than building their own scraping systems from scratch" }
+    ]
+  },
+  "browse-ai": {
+    whatIs: "Browse AI is a no-code web scraping tool that lets non-technical users extract and monitor data from websites by training a robot through demonstration - you show it what data to extract by clicking on it, and Browse AI learns to repeat that extraction automatically. It handles JavaScript-rendered sites, handles pagination, and can monitor pages for changes. For business users who need data from websites but do not have technical skills to write scrapers or work with APIs, Browse AI provides access to web data without any coding.",
+    features: [
+      "No-Code Scraping: Extract data by demonstration without writing code",
+      "Robot Training: Show Browse AI what to extract by clicking on examples",
+      "Change Monitoring: Get alerts when monitored pages change",
+      "JavaScript Support: Works on dynamic JS-rendered websites",
+      "Pagination Handling: Automatically navigate through multiple pages",
+      "Scheduled Runs: Automate regular data collection on a schedule",
+      "Export Options: Download data in spreadsheet-friendly formats",
+      "Pre-Built Robots: Ready-made robots for common websites"
+    ],
+    howToUse: {
+      title: "How to Use Browse Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record Your Robot", description: "Go to browse.ai and install the Chrome extension. Navigate to the website you want to scrape and use the extension to train your robot by clicking on the data you want to extract." },
+        { title: "Refine and Test", description: "Review what your robot captured and refine the selection if needed. Test the robot on additional pages to confirm it extracts the right data consistently." },
+        { title: "Schedule and Monitor", description: "Set up a schedule for regular automated extraction or use the monitoring feature to get alerts when the page content changes. Data appears in your Browse AI dashboard ready to export." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Demonstration-Based Learning", description: "Training a scraper by clicking on examples is genuinely accessible to non-technical users - it requires understanding what data you want rather than how to write code to get it" },
+      { title: "Change Monitoring", description: "The ability to monitor pages for changes adds a use case beyond data extraction - tracking when prices change, when content updates, or when availability shifts" },
+      { title: "JavaScript Compatibility", description: "Many simple scraping tools fail on modern websites that render content with JavaScript. Browse AI handles these sites without requiring users to understand the technical difference" },
+      { title: "Business User Accessibility", description: "Browse AI's target audience is business users who need data - marketers, researchers, analysts - rather than developers. The interface reflects that focus" }
+    ],
+    useCases: [
+      { title: "Business Analysts and Researchers", description: "Non-technical analysts who need data from websites for research, competitive analysis, or reporting use Browse AI to collect it without developer involvement" },
+      { title: "Marketing and Sales Teams", description: "Teams monitoring competitor websites, tracking lead sources, or collecting market data use Browse AI for automated data collection without technical dependencies" },
+      { title: "Small Business Owners", description: "Entrepreneurs monitoring competitor prices, tracking market trends, or collecting business intelligence use Browse AI for web data access without hiring developers" }
+    ]
+  },
+  "octoparse": {
+    whatIs: "Octoparse is a visual web scraping tool that provides a point-and-click interface for extracting data from websites at scale. It handles complex scraping scenarios including login-required pages, infinite scroll, AJAX-loaded content, and anti-scraping measures through its built-in proxy rotation and browser simulation. Octoparse offers both a desktop application for building scrapers visually and a cloud service for running scrapers at scale without local hardware requirements.",
+    features: [
+      "Visual Point-and-Click: Build scrapers by clicking on page elements without coding",
+      "Cloud Execution: Run scrapers in the cloud without local hardware requirements",
+      "Anti-Scraping Bypass: Built-in proxy rotation and browser simulation",
+      "Login Support: Scrape pages that require authentication",
+      "Infinite Scroll: Handle lazy-loaded and infinitely scrolling content",
+      "Scheduled Cloud Runs: Automate scraping on schedules in the cloud",
+      "Template Library: Pre-built templates for popular websites",
+      "Multiple Export Formats: Export to Excel, CSV, JSON, and databases"
+    ],
+    howToUse: {
+      title: "How to Use Octoparse",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Task", description: "Download Octoparse and open the website you want to scrape. Use the point-and-click interface to select the data elements you want to extract and configure your scraping workflow." },
+        { title: "Handle Complex Scenarios", description: "Configure any special handling needed - login credentials, pagination, infinite scroll, or AJAX loading. Octoparse's workflow editor handles these scenarios through visual configuration." },
+        { title: "Run in Cloud", description: "Upload your task to Octoparse's cloud service and run it at scale. Schedule regular runs and access the extracted data through the Octoparse dashboard or export it in your preferred format." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Complexity Handling", description: "Octoparse's visual builder handles genuinely complex scraping scenarios - dynamic content, authentication, pagination - that would require significant coding expertise to implement from scratch" },
+      { title: "Cloud Scale Without Infrastructure", description: "Running scrapers on local hardware is limited by machine resources. Octoparse's cloud service handles large-scale extraction without local hardware constraints" },
+      { title: "Anti-Block Capabilities", description: "Proxy rotation and browser simulation help scrapers continue working against websites that implement anti-scraping measures - a practical necessity for production data collection" },
+      { title: "Template Starting Points", description: "Pre-built templates for popular websites accelerate common scraping tasks by providing a starting structure that users customize rather than building from scratch" }
+    ],
+    useCases: [
+      { title: "Business Intelligence Teams", description: "Teams collecting competitive intelligence, market data, and external information use Octoparse for structured data extraction without developer resources" },
+      { title: "E-commerce Analysts", description: "Analysts monitoring competitor prices, product listings, and inventory use Octoparse for regular automated data collection from e-commerce sites" },
+      { title: "Research and Academic Users", description: "Researchers collecting data from websites for analysis use Octoparse for data collection that would otherwise require custom scraping development" }
+    ]
+  },
   "imagekit": {
     whatIs: "ImageKit.io is a real-time image and video optimization and transformation API that helps developers deliver fast-loading media content without manual image processing. It sits as a layer between your media storage and your users, automatically optimizing images and videos for the best quality at the smallest file size, converting to modern formats like WebP and AVIF, and transforming images on the fly through URL parameters. For web applications where image performance directly affects page load speed and user experience, ImageKit removes the need to manually create multiple image variants.",
     features: [
