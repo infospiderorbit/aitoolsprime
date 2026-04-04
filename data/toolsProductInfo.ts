@@ -1,4 +1,334 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "essay-grader-ai": {
+    whatIs: "Essay Grader AI is an AI-powered grading and feedback platform designed to help educators assess student essays faster without sacrificing the quality of feedback students receive. It analyzes submissions for structure, argumentation, grammar, coherence, and academic writing conventions, then generates detailed rubric-based feedback that mirrors what a human teacher would write. The AI detection component identifies essays that may have been AI-generated, giving instructors both a quality assessment and an authenticity check in one workflow. For teachers managing large class sizes, it is the difference between spending a weekend grading and spending a few focused hours reviewing AI-assisted assessments.",
+    features: [
+      "AI Essay Grading: Automated grading based on customizable rubrics and academic standards",
+      "Detailed Feedback Generation: Produces specific, actionable feedback on each submission",
+      "AI Detection Built-In: Flags essays that show signs of AI generation alongside grading",
+      "Rubric Customization: Set your own grading criteria to match your assignment requirements",
+      "Structure Analysis: Evaluates introduction, body paragraphs, transitions, and conclusion quality",
+      "Argument Assessment: Reviews the strength and coherence of the essay's central argument",
+      "Grammar and Style: Checks writing mechanics alongside higher-order thinking skills",
+      "Bulk Processing: Grade multiple submissions simultaneously rather than one at a time"
+    ],
+    howToUse: {
+      title: "How to Use Essay Grader Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Submissions", description: "Sign up and upload your student essays in bulk. Essay Grader AI accepts common document formats and can process multiple submissions in a single batch." },
+        { title: "Configure Your Rubric", description: "Set up your grading criteria - the aspects of writing that matter most for your specific assignment. The AI uses these parameters to calibrate its assessment and feedback for each submission." },
+        { title: "Review AI-Generated Assessments", description: "The platform returns grades and detailed feedback for each essay alongside an AI detection flag where relevant. Review the assessments, make any adjustments that reflect nuance the AI may have missed, and return feedback to students." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Rubric-Based Assessment", description: "Generic feedback is not useful feedback. Essay Grader AI aligns its assessment to the specific rubric you define, which means the feedback reflects your assignment's actual requirements rather than generic writing advice" },
+      { title: "Combined Grading and Detection", description: "Having AI detection and grading in one workflow saves the step of checking submissions in a separate detection tool - teachers get a complete picture of each submission in one place" },
+      { title: "Time Savings at Scale", description: "The biggest practical benefit is time. For a teacher with 30 students submitting 500-word essays, manual grading takes hours. Essay Grader AI reduces that to reviewing and approving AI-generated assessments" },
+      { title: "Consistent Evaluation", description: "Human graders naturally vary in how they apply rubrics, especially across a long grading session. AI grading applies criteria consistently across every submission regardless of how many there are" }
+    ],
+    useCases: [
+      { title: "High School and College Teachers", description: "Instructors managing large classes use Essay Grader AI to provide detailed feedback to every student without the time investment that individual manual grading requires" },
+      { title: "Writing Program Directors", description: "Directors overseeing writing courses use the platform to ensure consistent rubric application across multiple sections and instructors" },
+      { title: "Tutoring Centers", description: "Academic support centers use Essay Grader AI to provide quick feedback to students working on essays outside of classroom hours" }
+    ]
+  },
+  "myperfectwords": {
+    whatIs: "MyPerfectWords is an academic writing service and AI tool platform that combines human writing assistance with AI-powered analysis tools for students and researchers. The platform offers essay analysis, AI detection checking, and writing improvement tools alongside its broader academic writing support services. Students use it to check whether their AI-assisted work will pass detection, to analyze the quality of their writing before submission, and to get feedback on how to improve specific aspects of their academic prose. It occupies the space between a pure detection tool and a full writing service.",
+    features: [
+      "Essay Analysis: Comprehensive analysis of essay structure, argument, and writing quality",
+      "AI Detection Check: Verify whether your essay will pass AI detection tools",
+      "Writing Improvement Suggestions: Specific recommendations for improving academic writing quality",
+      "Academic Format Support: Guidance on APA, MLA, Chicago, and other citation formats",
+      "Grammar and Style Review: Detailed grammar and style feedback for academic writing",
+      "Plagiarism Check: Verify originality before submission",
+      "Multiple Essay Types: Analysis for argumentative, analytical, and research essays",
+      "Student-Focused Interface: Designed specifically for student academic writing needs"
+    ],
+    howToUse: {
+      title: "How to Use Myperfectwords",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Essay", description: "Sign up at myperfectwords.com and submit your essay for analysis. The platform accepts text paste or document upload for most common formats." },
+        { title: "Run Detection and Analysis", description: "The platform checks your essay for AI detection signals and provides a quality analysis covering structure, argument strength, grammar, and academic conventions simultaneously." },
+        { title: "Review Recommendations", description: "Read through the specific improvement suggestions returned for your essay. Unlike a simple detection score, MyPerfectWords provides actionable feedback on what to change and why before you submit." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Combined Detection and Quality Analysis", description: "Getting both an AI detection check and a writing quality assessment in one place gives students a complete picture of where their essay stands before submission - not just whether it will be flagged but whether it is actually good" },
+      { title: "Academic Writing Focus", description: "The analysis is calibrated for academic writing specifically - evaluating the things that matter in essay submissions like argument construction and source integration rather than general content quality" },
+      { title: "Pre-Submission Confidence", description: "Students who are unsure whether their essay will pass detection or meet quality standards use MyPerfectWords to get specific feedback before submitting rather than hoping for the best" },
+      { title: "Actionable Improvement Path", description: "Detection tools that only tell you a score are useful but limited. MyPerfectWords pairs that detection with specific recommendations so students know what to change rather than just knowing something is wrong" }
+    ],
+    useCases: [
+      { title: "Students Before Submission", description: "Students who want to verify their essays will pass academic integrity checks and get quality feedback before submitting to their instructor use MyPerfectWords as a final pre-submission check" },
+      { title: "ESL Students Writing in English", description: "Non-native English speakers writing academic essays use the platform to check both detection signals and language quality before submitting work to English-language institutions" },
+      { title: "Students Working on Tight Deadlines", description: "Students who need quick feedback on whether their essay is ready to submit use MyPerfectWords for a rapid assessment rather than waiting for instructor feedback after submission" }
+    ]
+  },
+  "cograder": {
+    whatIs: "CoGrader is a collaborative essay grading platform that brings AI-assisted assessment into the classroom with a focus on educator control and transparency. Unlike tools that try to replace the grading process, CoGrader is designed around augmenting it - the AI generates initial feedback and grading suggestions that teachers then review, adjust, and approve before returning to students. The collaborative design means the teacher stays in the loop and maintains authority over the final grade, while still benefiting significantly from the time savings of AI-generated initial assessments.",
+    features: [
+      "AI-Assisted Initial Grading: AI generates first-pass grades and feedback for teacher review",
+      "Teacher Review Workflow: Educators review and approve AI assessments before returning to students",
+      "Rubric Integration: Align AI grading to your specific rubric and assignment requirements",
+      "Collaborative Features: Multiple teachers can work on grading a shared set of submissions",
+      "AI Detection: Identify submissions that may have been AI-generated",
+      "Student Feedback Delivery: Return approved feedback to students directly through the platform",
+      "Grade Analytics: View class-wide performance data and trends across submissions",
+      "Customizable Standards: Adjust AI assessment criteria to match your teaching approach"
+    ],
+    howToUse: {
+      title: "How to Use Cograder",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Assignment", description: "Create your assignment in CoGrader and define your rubric. The more specific your criteria the more relevant the AI-generated feedback will be for your students." },
+        { title: "Upload Student Submissions", description: "Upload student essays in bulk. CoGrader processes all submissions and generates initial grades and feedback for each one based on your rubric." },
+        { title: "Review and Approve", description: "Go through the AI-generated assessments one by one. Adjust any grades or feedback that needs a human touch, add personal comments where appropriate, and approve the finalized assessments to return to students." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Teacher-in-the-Loop Design", description: "CoGrader is built around the principle that teachers should remain in control of the final grade. The AI accelerates the process without removing educator judgment from the assessment - which is the approach most educators are actually comfortable with" },
+      { title: "Collaborative Grading Support", description: "Multiple teachers grading the same set of submissions is common in larger programs. CoGrader's collaborative features keep everyone aligned on criteria and make it easy to split grading workload" },
+      { title: "AI Detection Integration", description: "Having detection built into the grading workflow means teachers do not need a separate step to check for AI-generated submissions - the flag appears alongside the grade assessment for each submission" },
+      { title: "Transparency for Students", description: "Because teachers review and approve all feedback before it reaches students, the feedback quality is higher and more contextually appropriate than fully automated assessment would produce" }
+    ],
+    useCases: [
+      { title: "Teachers in Large Courses", description: "Instructors with 50 or more students use CoGrader to handle the initial assessment workload while maintaining personal control over the final grades and feedback students receive" },
+      { title: "Department-Wide Grading Programs", description: "Academic departments that want consistent grading standards across multiple instructors use CoGrader's collaborative features to align assessment approaches" },
+      { title: "Educators New to AI Tools", description: "Teachers who are skeptical of fully automated grading find CoGrader's teacher-review model a more comfortable entry point into AI-assisted assessment" }
+    ]
+  },
+  "markme": {
+    whatIs: "MarkMe is an automated essay marking tool built to help teachers give consistent, rubric-aligned feedback to students at scale. It handles the time-consuming first pass of marking by generating scores and comments for each submission, which teachers then review before returning to students. The platform includes AI detection so educators know not just how good an essay is but whether it was likely written by a student. MarkMe is particularly focused on the K-12 and university markets where essay marking workloads are heaviest and teacher time is most constrained.",
+    features: [
+      "Automated Marking: AI generates marks and comments for each submission based on your criteria",
+      "AI Detection: Flags submissions that show signs of being AI-generated",
+      "Rubric Alignment: Marking calibrated to your specific rubric and grade level expectations",
+      "Teacher Review: Educators review AI marks before they reach students",
+      "Fast Turnaround: Process class sets of essays quickly rather than over days",
+      "Grade Level Calibration: Adjusts expectations for different year levels and course levels",
+      "Feedback Quality: Generates specific, actionable comments rather than generic responses",
+      "Simple Upload: Accepts common document formats for easy submission upload"
+    ],
+    howToUse: {
+      title: "How to Use Markme",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Class Set", description: "Sign up at markme.ai and upload your student essays. The platform accepts bulk uploads so you can submit an entire class set at once." },
+        { title: "Review AI Marks", description: "MarkMe returns marks and feedback comments for each submission. Review each assessment, check the AI detection flags, and make adjustments where the AI has missed context or nuance you would catch." },
+        { title: "Return to Students", description: "Approve the finalized marks and return feedback to students. The whole process from upload to returned feedback takes a fraction of the time manual marking requires." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Time Efficiency for Teachers", description: "A class set of 30 essays typically takes several hours to mark manually. MarkMe handles the initial assessment in minutes, leaving teachers to spend their time reviewing rather than generating feedback from scratch" },
+      { title: "Rubric Consistency", description: "Teachers naturally apply rubrics slightly differently across a long marking session, especially when tired. MarkMe applies criteria consistently to every submission regardless of position in the pile" },
+      { title: "AI Detection in Context", description: "Knowing whether an essay was likely AI-generated changes how a teacher approaches the rest of the assessment. Having that flag visible alongside the quality marks helps teachers make more informed decisions" },
+      { title: "Grade Level Calibration", description: "What counts as strong writing differs significantly between year 8 and year 12 or between first-year university and final year. MarkMe adjusts its expectations to the level you specify for more contextually appropriate assessment" }
+    ],
+    useCases: [
+      { title: "Secondary School Teachers", description: "High school teachers managing multiple classes with regular essay assignments use MarkMe to handle marking workloads that would otherwise consume evenings and weekends" },
+      { title: "University Tutors and Lecturers", description: "Academic staff at universities use MarkMe to mark large undergraduate cohorts efficiently while maintaining feedback quality for each student" },
+      { title: "Tutoring and Test Prep Centers", description: "Academic support centers that provide essay feedback to students use MarkMe to deliver quick turnaround assessments outside of regular school hours" }
+    ]
+  },
+  "ai-or-not": {
+    whatIs: "AI or Not is a fast, focused image authenticity detection tool that tells you whether an image was generated by AI or captured by a real camera. It works by analyzing the visual patterns that AI image generators leave behind - the statistical regularities in pixel distribution, the telltale smoothness of AI-generated skin and backgrounds, the specific artifacts produced by diffusion models and GANs. You upload an image, the tool analyzes it, and within seconds you get a verdict with a confidence score. It is built for speed and simplicity rather than detailed forensic analysis.",
+    features: [
+      "AI Image Detection: Determine whether an image was AI-generated or photographically real",
+      "Fast Analysis: Results returned within seconds of upload",
+      "Confidence Scoring: Probability score indicating how likely the image is AI-generated",
+      "Multiple AI Model Detection: Identifies images from DALL-E, Midjourney, Stable Diffusion, and others",
+      "Simple Interface: Upload and get results without any complex configuration",
+      "Batch Processing: Analyze multiple images efficiently",
+      "API Access: Integrate AI or Not detection into your own applications",
+      "Free to Try: Basic image detection accessible without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Or Not",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to aiornot.com and upload the image you want to analyze. The tool accepts common image formats including JPG, PNG, and WebP." },
+        { title: "Wait for Analysis", description: "AI or Not analyzes the image for the statistical patterns and visual artifacts that AI image generators produce. The analysis typically completes within seconds." },
+        { title: "Review the Verdict", description: "The tool returns a human or AI verdict alongside a confidence percentage. Higher confidence scores indicate stronger evidence in either direction. Use the result as one input in your overall assessment of the image." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed and Simplicity", description: "AI or Not is built for quick checks rather than deep forensic analysis. If you need a fast verdict on whether an image looks AI-generated without a lot of setup or interpretation, this is the right tool" },
+      { title: "Confidence Scoring", description: "A binary yes or no verdict is less useful than knowing how confident the model is. The confidence percentage helps users understand how strongly the evidence points in one direction" },
+      { title: "Multiple Generator Detection", description: "Different AI image generators leave different signatures. AI or Not is trained to recognize patterns from major generators rather than being tuned for only one type of AI image" },
+      { title: "API Accessibility", description: "Developers building platforms that need to verify image authenticity at scale can integrate AI or Not through its API rather than checking images manually one at a time" }
+    ],
+    useCases: [
+      { title: "Social Media Moderators", description: "Content moderators on social platforms use AI or Not to quickly identify AI-generated images that may violate platform policies about undisclosed synthetic media" },
+      { title: "Journalists and Fact-Checkers", description: "Reporters verifying the authenticity of images submitted with news tips or shared on social media use AI or Not as a first-pass check before deeper investigation" },
+      { title: "Marketplaces and Stock Photo Platforms", description: "Platforms that sell or license photography use AI or Not to screen submissions for AI-generated images that may be submitted as real photographs" }
+    ]
+  },
+  "realorai": {
+    whatIs: "RealorAI is an image verification tool focused on the binary question that matters most when evaluating visual content online - is this image of a real person or an AI-generated face. It specifically targets the kind of deepfake and GAN-generated portrait images that have become prevalent in social media impersonation, fake news, and synthetic identity fraud. The tool analyzes facial structure, skin texture patterns, background consistency, and the specific artifacts that GAN models and diffusion models leave in portrait images to make its determination.",
+    features: [
+      "Real vs AI Face Detection: Specifically optimized for detecting AI-generated human portraits",
+      "GAN Detection: Identifies images produced by GAN models specifically",
+      "Diffusion Model Detection: Recognizes images from Stable Diffusion, Midjourney, and similar tools",
+      "Facial Analysis: Deep analysis of facial features, skin texture, and structural patterns",
+      "Confidence Score: Probability percentage indicating detection confidence",
+      "Fast Processing: Quick results suitable for high-volume content review",
+      "Simple Upload Interface: Straightforward image upload without complex setup",
+      "API Integration: Programmatic access for integration into verification workflows"
+    ],
+    howToUse: {
+      title: "How to Use Realorai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload the Portrait Image", description: "Go to the RealorAI platform and upload the image you want to verify. The tool is optimized for portrait and face images rather than general AI image detection." },
+        { title: "Run the Analysis", description: "RealorAI analyzes facial features, skin patterns, background elements, and technical artifacts specific to AI image generation. The analysis runs automatically after upload." },
+        { title: "Review the Result", description: "The platform returns a real or AI verdict with a confidence percentage. For high-stakes verification scenarios, treat the result as one signal in a broader verification process rather than a definitive conclusion." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Portrait-Specific Optimization", description: "Many image detectors are trained on general AI imagery. RealorAI's focus on portrait and face images means its model is tuned specifically for the artifacts that appear in AI-generated human faces - which produces more accurate results for this specific use case" },
+      { title: "GAN and Diffusion Coverage", description: "Different AI portrait generation methods leave different signatures. RealorAI covers both older GAN-based approaches and newer diffusion model outputs from tools like Midjourney and Stable Diffusion" },
+      { title: "Synthetic Identity Context", description: "The rise of AI-generated profile pictures used in fake accounts, romance scams, and synthetic identity fraud makes face-specific detection genuinely important - RealorAI addresses this specific problem rather than general image authenticity" },
+      { title: "Integration Capability", description: "Platforms that need to verify profile photos or submitted identity images at scale can integrate RealorAI through its API to automate the detection step" }
+    ],
+    useCases: [
+      { title: "Social Media Platforms", description: "Online communities and social networks use RealorAI to identify fake accounts using AI-generated profile pictures as part of their account authenticity verification processes" },
+      { title: "Dating and Networking Apps", description: "Dating platforms use face verification to identify profiles using AI-generated photos, reducing the prevalence of catfishing and fake account creation" },
+      { title: "Identity Verification Services", description: "Companies that verify user identities online use RealorAI as part of their know-your-customer checks to identify synthetic identity documents or profile images" }
+    ]
+  },
+  "iris-roads": {
+    whatIs: "Iris Roads is an AI image detection tool focused on identifying AI-generated images through advanced visual analysis. It examines images for the characteristic patterns left by generative AI systems - the subtle inconsistencies in lighting, the statistical regularities in texture, the telltale artifacts around edges and hair that current AI generators still struggle to render perfectly. The tool is named for the visual inspection process at its core and is used by content professionals, researchers, and platforms that need reliable image authenticity verification.",
+    features: [
+      "Advanced Image Analysis: Deep visual examination for AI generation artifacts and patterns",
+      "Multi-Generator Detection: Identifies images from multiple AI generation systems",
+      "Artifact Detection: Finds the specific visual inconsistencies that AI generators produce",
+      "Edge and Detail Analysis: Examines challenging areas like hair, edges, and backgrounds",
+      "Confidence Scoring: Returns probability scores alongside verdicts",
+      "Research Grade: Used by researchers studying AI image generation and detection",
+      "API Access: Programmatic integration for automated image verification workflows",
+      "Fast Processing: Analysis completed quickly for practical workflow integration"
+    ],
+    howToUse: {
+      title: "How to Use Iris Roads",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Access the Iris Roads platform and upload the image you want to verify. The tool processes standard image formats without requiring any specialized preparation." },
+        { title: "Run the Detection Analysis", description: "Iris Roads performs a multi-dimensional analysis of the uploaded image, examining visual patterns, texture statistics, and generation artifacts across different regions of the image." },
+        { title: "Review the Results", description: "The platform returns a detection verdict with confidence score and analysis breakdown. Review the results in context of your specific verification need and use them as part of your broader authenticity assessment." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Dimensional Analysis", description: "Iris Roads examines multiple visual characteristics simultaneously rather than relying on a single detection signal, which produces more robust results across the variety of AI image generators currently available" },
+      { title: "Edge Case Performance", description: "Areas like hair, fingers, and complex backgrounds have historically been where AI image generators struggle most. Iris Roads specifically examines these challenging regions where detection evidence tends to be strongest" },
+      { title: "Research Application", description: "The tool's depth of analysis makes it useful not just for practical content verification but for researchers studying AI image generation patterns and detection methods" },
+      { title: "Workflow Integration", description: "API access means content platforms and verification services can incorporate Iris Roads detection into their existing image processing workflows without manual intervention for each image" }
+    ],
+    useCases: [
+      { title: "Content Moderation Teams", description: "Platform trust and safety teams use Iris Roads to identify AI-generated images submitted as real content, supporting their synthetic media policies" },
+      { title: "Research Institutions", description: "Academic researchers studying AI image generation and detection use Iris Roads as a tool for analyzing image datasets and testing detection methods" },
+      { title: "Media Verification Services", description: "Fact-checking organizations and news verification services use Iris Roads as part of their image authenticity verification process for visual claims" }
+    ]
+  },
+  "ai-badge": {
+    whatIs: "AI Badge is an image identification and labeling tool that helps users identify AI-generated images and understand which generation system produced them. Beyond simple yes-or-no detection, AI Badge attempts to identify the likely source of an AI image - whether it came from Midjourney, DALL-E, Stable Diffusion, or another generation platform. This additional context is useful for content policy enforcement, media literacy education, and understanding the provenance of visual content. The tool supports the growing movement toward mandatory AI image labeling and disclosure.",
+    features: [
+      "AI Image Identification: Detect whether images are AI-generated",
+      "Source Attribution: Attempt to identify which AI generation system produced the image",
+      "Multi-Platform Recognition: Distinguishes between Midjourney, DALL-E, Stable Diffusion, and others",
+      "Labeling Support: Generate labels for AI-generated images to support disclosure requirements",
+      "Confidence Scoring: Returns confidence levels with each identification",
+      "Educational Use: Helps users develop media literacy around AI-generated visual content",
+      "Content Policy Support: Useful for platforms enforcing AI image disclosure policies",
+      "Simple Interface: Quick upload and results without complex configuration"
+    ],
+    howToUse: {
+      title: "How to Use Ai Badge",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload the Image", description: "Go to AI Badge and upload the image you want to identify. The tool accepts standard image formats and processes them quickly." },
+        { title: "Review the Identification", description: "AI Badge returns a detection result indicating whether the image is AI-generated and, where possible, which generation system it appears to have come from based on the visual signatures present." },
+        { title: "Apply Labels Where Needed", description: "Use the identification results to apply appropriate labels to AI-generated content for disclosure purposes, or use the information to enforce platform content policies about synthetic media." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Source Attribution", description: "Knowing that an image is AI-generated is useful but knowing which system generated it is often even more useful for content policy enforcement and provenance research - AI Badge goes one step further than basic detection" },
+      { title: "Disclosure Support", description: "As regulations around AI content disclosure develop, tools that help label and identify AI images serve an important compliance function for platforms and publishers who need to meet disclosure requirements" },
+      { title: "Media Literacy Application", description: "AI Badge is useful in educational contexts to help people learn to recognize the signatures that different AI generation systems leave - building the kind of visual literacy that becomes increasingly important as AI images proliferate" },
+      { title: "Multi-Platform Coverage", description: "The ability to distinguish between Midjourney, DALL-E, and Stable Diffusion images reflects the reality that these generators have different visual fingerprints - treating them as one category produces less accurate results" }
+    ],
+    useCases: [
+      { title: "Social Media Platforms", description: "Platforms enforcing AI image disclosure policies use AI Badge to automatically identify and label AI-generated content before it is published or as part of content review" },
+      { title: "Media Literacy Educators", description: "Teachers and educators helping students develop critical evaluation skills for visual content use AI Badge to demonstrate how AI-generated images can be identified" },
+      { title: "Journalists and Researchers", description: "Reporters and academic researchers verifying the provenance of visual content use AI Badge to understand whether images they are analyzing were AI-generated and potentially which system produced them" }
+    ]
+  },
+  "t-rex-label": {
+    whatIs: "T-Rex Label is an AI image labeling and detection tool that helps users identify and annotate AI-generated visual content. It combines detection capabilities with labeling tools, making it useful for both identifying synthetic images and systematically cataloging them. The platform is particularly useful for organizations that need to process and categorize large volumes of images - building labeled datasets, auditing image libraries, or managing content pipelines where AI-generated and real images need to be clearly distinguished and documented.",
+    features: [
+      "AI Image Detection: Identify AI-generated images with automated analysis",
+      "Image Labeling Tools: Annotate and categorize detected AI images for documentation",
+      "Batch Processing: Process and label large volumes of images simultaneously",
+      "Dataset Building: Create labeled datasets of AI vs real images for research and training",
+      "Content Auditing: Systematically review and categorize image libraries",
+      "Annotation Export: Export labeled image data in formats suitable for downstream use",
+      "Custom Categories: Define custom label categories for your specific use case",
+      "API Integration: Connect T-Rex Label to image processing pipelines programmatically"
+    ],
+    howToUse: {
+      title: "How to Use T Rex Label",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image Set", description: "Access the T-Rex Label platform and upload the images you want to process. The tool handles individual images or bulk uploads for large image sets." },
+        { title: "Run Detection and Auto-Label", description: "T-Rex Label analyzes each image and automatically applies labels based on its AI detection results. Review the auto-labeled output and adjust any misclassified images manually." },
+        { title: "Export Your Labeled Data", description: "Export the labeled image dataset in your preferred format for use in downstream applications - whether that is feeding a training pipeline, populating a content management system, or documenting a content audit." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Detection Plus Labeling", description: "Most detection tools stop at identifying whether an image is AI-generated. T-Rex Label adds the labeling and annotation layer that makes detected images useful as organized, documented data rather than just flagged files" },
+      { title: "Batch Processing Scale", description: "Processing image libraries one by one is impractical at scale. T-Rex Label handles bulk processing with batch labeling, making large-scale image audits and dataset construction feasible" },
+      { title: "Dataset Construction Support", description: "Organizations building training datasets for AI detection models need labeled examples of both AI-generated and real images. T-Rex Label directly supports this workflow with its labeling and export capabilities" },
+      { title: "Audit Documentation", description: "Content libraries that need to document which images are AI-generated for compliance or policy purposes use T-Rex Label to create systematic records that can be exported and archived" }
+    ],
+    useCases: [
+      { title: "AI Researchers Building Datasets", description: "Researchers constructing labeled image datasets for AI detection model training use T-Rex Label to efficiently label large volumes of images with AI and human classifications" },
+      { title: "Content Platforms Auditing Libraries", description: "Platforms that need to audit existing image libraries for AI-generated content use T-Rex Label to systematically review and label their visual assets" },
+      { title: "Enterprise Content Teams", description: "Organizations managing large content pipelines where AI-generated and real images must be clearly differentiated use T-Rex Label as the labeling step in their content workflow" }
+    ]
+  },
+  "plagiarismcheck": {
+    whatIs: "PlagiarismCheck is an online plagiarism detection tool focused on helping students, educators, and content creators verify the originality of written content before submission or publication. It checks submitted text against a broad database of web content, academic papers, and published material, returning similarity scores and matched source citations so users know exactly where potential overlap exists. The platform is positioned as an accessible, straightforward plagiarism checker that does not require institutional access or expensive subscriptions for individual users to get meaningful results.",
+    features: [
+      "Plagiarism Detection: Check content against web sources, academic papers, and published material",
+      "Similarity Scoring: Percentage-based similarity scores with source attribution",
+      "Source Citations: Identifies specific sources where matched content was found",
+      "Student-Friendly: Accessible pricing and interface for individual student use",
+      "Document Upload: Accepts Word, PDF, and plain text files for analysis",
+      "Detailed Reports: Download comprehensive plagiarism reports for documentation",
+      "Fast Turnaround: Results returned quickly without long processing queues",
+      "Multiple Languages: Detection across content in multiple languages"
+    ],
+    howToUse: {
+      title: "How to Use Plagiarismcheck",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload or Paste Your Content", description: "Go to plagiarismcheck.org and either paste your text directly or upload your document. The tool accepts common formats including Word documents, PDFs, and plain text files." },
+        { title: "Run the Check", description: "Submit your content for analysis. PlagiarismCheck searches its database of web content, academic sources, and published material for matching passages." },
+        { title: "Review the Report", description: "The results show an overall similarity percentage broken down by matched sources. Review each flagged match to determine whether it represents a genuine plagiarism concern or properly cited source material." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Source-Specific Attribution", description: "Knowing that 12 percent of your content is similar to existing sources is much less useful than knowing exactly which sources and which passages match. PlagiarismCheck provides source-level attribution for every flagged match" },
+      { title: "Individual Accessibility", description: "Many comprehensive plagiarism checkers are primarily designed for institutional access. PlagiarismCheck is accessible to individual students and writers who need verification without going through their institution" },
+      { title: "Pre-Submission Verification", description: "The most practical use case is checking your own work before submission - identifying any unintentional overlap with sources you cited or quoted so you can address it before an instructor or editor finds it" },
+      { title: "Broad Database Coverage", description: "Coverage across web content, academic papers, and published material means checks are not limited to academic databases - content published on websites and blogs is included in the comparison" }
+    ],
+    useCases: [
+      { title: "Students Verifying Assignments", description: "Students who want to check their essays and research papers for unintentional plagiarism before submitting to their instructor use PlagiarismCheck as a self-verification step" },
+      { title: "Content Writers and Bloggers", description: "Writers producing online content use PlagiarismCheck to verify their articles do not inadvertently duplicate content that exists elsewhere on the web" },
+      { title: "Educators Checking Submissions", description: "Teachers who want to spot-check student work for plagiarism without institutional access to more expensive tools use PlagiarismCheck as an accessible alternative" }
+    ]
+  },
   "gptzero": {
     whatIs: "GPTZero is the world's leading AI text detector, built by Princeton student Edward Tian in January 2023 and now trusted by over 10 million users across 3,500 colleges and hundreds of organizations. It uses two core signals to identify AI writing - perplexity, which measures how predictable the word choices are, and burstiness, which measures variation in sentence structure. Human writing tends to be unpredictable and varied; AI writing tends to be smooth, uniform, and statistically predictable. GPTZero flags the specific sentences that triggered detection rather than just returning a single score, which makes it genuinely useful for educators who need to understand exactly what happened rather than just knowing that something is off.",
     features: [
