@@ -1005,7 +1005,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "imgkits-handwriting", name: "Imgkits - Top AI Image & Video Processing Tools Online", description: "Text to handwriting conversion", url: "", upvotes: 567, verified: true, rating: 4.4, icon: "🛠️", category: "image-generation-editing", subcategory: "text-to-handwriting" },
       { id: "wishgram", name: "Wishgram", description: "Handwritten message generator", url: "", upvotes: 432, verified: true, rating: 4.3, icon: "💌", category: "image-generation-editing", subcategory: "text-to-handwriting" },
       { id: "xx-video-downloader", name: "XX Video Downloader All Social - indownio, instafinsta", description: "Multi-purpose tool with handwriting", url: "", upvotes: 234, verified: false, rating: 4.1, icon: "⬇️", category: "image-generation-editing", subcategory: "text-to-handwriting" },
-      { id: "dear-ai-handwriting", name: "Dear Ai", description: "AI letter writing with handwriting", url: "", upvotes: 345, verified: true, rating: 4.2, icon: "💌", category: "image-generation-editing", subcategory: "text-to-handwriting" }
     ],
     "text-to-image": [
       { id: "kittl-text2img", name: "Kittl", description: "Design tool with text-to-image AI", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🎨", category: "image-generation-editing", subcategory: "text-to-image" },
@@ -1162,7 +1161,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "randomx-ai", name: "RandomX.ai", description: "Random name and content generator", url: "", upvotes: 234, verified: false, rating: 4.2, icon: "🎰", category: "writing-editing", subcategory: "ai-name-generator" }
     ],
     "ai-newsletter-generator": [
-      { id: "contrast", name: "Contrast", description: "AI newsletter creation and design tool", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "📰", category: "writing-editing", subcategory: "ai-newsletter-generator" },
       { id: "hoppy-copy", name: "Hoppy Copy", description: "AI email and newsletter copywriting", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "📧", category: "writing-editing", subcategory: "ai-newsletter-generator" },
       { id: "letterpal", name: "Letterpal", description: "AI newsletter writing assistant", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "✉️", category: "writing-editing", subcategory: "ai-newsletter-generator" },
       { id: "promo-ai", name: "Promo.ai", description: "AI promotional newsletter generator", url: "", upvotes: 234, verified: true, rating: 4.2, icon: "📢", category: "writing-editing", subcategory: "ai-newsletter-generator" },
@@ -1170,7 +1168,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-novel": [
       { id: "ai-novelist", name: "AI Novelist", description: "AI novel writing and generation platform", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "📚", category: "writing-editing", subcategory: "ai-novel" },
-      { id: "midreal", name: "MidReal", description: "Interactive AI novel and story platform", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "📖", category: "writing-editing", subcategory: "ai-novel" },
       { id: "novelistai", name: "NovelistAI", description: "AI assistant for novel writing", url: "", upvotes: 234, verified: true, rating: 4.2, icon: "🤖", category: "writing-editing", subcategory: "ai-novel" },
       { id: "webnovels-ai", name: "Webnovels AI", description: "AI web novel generation platform", url: "", upvotes: 189, verified: false, rating: 4.1, icon: "🌐", category: "writing-editing", subcategory: "ai-novel" }
     ],
@@ -1184,7 +1181,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-paragraph-generator": [
       { id: "ai-paragraph-generator", name: "AI Paragraph Generator", description: "Generate coherent paragraphs with AI", url: "", upvotes: 567, verified: true, rating: 4.4, icon: "📄", category: "writing-editing", subcategory: "ai-paragraph-generator" },
       { id: "qozex-paragraph", name: "Qozex AI Paragraph Generator", description: "Advanced AI paragraph creation tool", url: "", upvotes: 432, verified: true, rating: 4.3, icon: "✍️", category: "writing-editing", subcategory: "ai-paragraph-generator" },
-      { id: "ai-paragraph-gen", name: "Ai Paragraph Generator", description: "Simple AI paragraph generation", url: "", upvotes: 345, verified: true, rating: 4.2, icon: "📝", category: "writing-editing", subcategory: "ai-paragraph-generator" },
       { id: "paragraph-generator-xyz", name: "Paragraph Generator AI - Free | XYZ", description: "Free AI paragraph generator tool", url: "", upvotes: 234, verified: true, rating: 4.1, icon: "🆓", category: "writing-editing", subcategory: "ai-paragraph-generator" },
       { id: "linkboss", name: "LinkBoss", description: "SEO paragraph and content generator", url: "", upvotes: 189, verified: false, rating: 4.0, icon: "🔗", category: "writing-editing", subcategory: "ai-paragraph-generator" }
     ],
@@ -1241,7 +1237,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-repurpose": [
       { id: "castmagic", name: "Castmagic", description: "Podcast content repurposing with AI", url: "", upvotes: 789, verified: true, rating: 4.6, icon: "🎙️", category: "writing-editing", subcategory: "ai-repurpose" },
       { id: "hypefury", name: "Hypefury", description: "Social media content repurposing", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "🚀", category: "writing-editing", subcategory: "ai-repurpose" },
-      { id: "contrast-repurpose", name: "Contrast", description: "Content repurposing and optimization", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "🔄", category: "writing-editing", subcategory: "ai-repurpose" },
       { id: "exemplary-ai", name: "Exemplary AI", description: "AI content transformation and repurposing", url: "", upvotes: 345, verified: false, rating: 4.3, icon: "✨", category: "writing-editing", subcategory: "ai-repurpose" }
     ],
     "ai-review-generator": [
@@ -1270,7 +1265,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "typegenie", name: "TypeGenie", description: "AI typing and sentence completion", url: "", upvotes: 156, verified: false, rating: 4.0, icon: "⌨️", category: "writing-editing", subcategory: "ai-sentence-generator" }
     ],
     "ai-short-story-generator": [
-      { id: "midreal-stories", name: "MidReal", description: "Interactive AI story generation platform", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "📖", category: "writing-editing", subcategory: "ai-short-story-generator" },
       { id: "storybooks", name: "Storybooks", description: "AI children's storybook generator", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "📚", category: "writing-editing", subcategory: "ai-short-story-generator" },
       { id: "mytales", name: "MyTales", description: "Personalized AI story creation", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "✨", category: "writing-editing", subcategory: "ai-short-story-generator" },
       { id: "storywizard-ai", name: "Storywizard.ai", description: "AI story writing and generation tool", url: "", upvotes: 234, verified: true, rating: 4.2, icon: "🧙", category: "writing-editing", subcategory: "ai-short-story-generator" },
