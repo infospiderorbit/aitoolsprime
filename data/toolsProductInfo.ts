@@ -1,4 +1,41 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "supa": {
+    whatIs: "Supa - built by SuperAI - is an all-in-one AI platform that gives you access to multiple top-tier AI models under a single affordable subscription. Instead of paying separately for ChatGPT, Gemini, Llama, DeepSeek and Qwen, Supa bundles them all together so you can switch between models depending on what your task needs. It runs in two modes: Agent mode handles big tasks from a single prompt - like building a full presentation or writing a complete research paper - while Ask mode gives you an unlimited chat interface. Popular in Indonesia, it delivers genuinely powerful AI at a price point that works for students and small businesses alike.",
+    features: [
+      "Multi-Model Access: Use ChatGPT, Gemini, Llama, DeepSeek and Qwen all from one subscription",
+      "Agent Mode: Hand Supa a single prompt and get a complete finished output - essay, deck or report",
+      "Ask Mode: Unlimited chat interface powered by whichever AI model suits your current task",
+      "Presentation Builder: Turn a rough idea into a complete slide deck with one prompt",
+      "Essay and Paper Writing: Generate structured academic papers with proper flow and citations",
+      "Deep Research: Multi-source research and report generation from a single request",
+      "Image Generation: Create AI illustrations from text descriptions without a separate design tool",
+      "Audio Transcription: Convert audio files to text and text to voice built into the platform",
+      "Document Editing: Upload and edit existing documents directly within the platform",
+      "Affordable Pricing: Full multi-model AI access starting at a fraction of individual subscription costs"
+    ],
+    howToUse: {
+      title: "How to Use Supa",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Sign Up", description: "Go to superai.id and register with your Google account or email. No complicated setup - you are ready to use the platform within minutes of signing up." },
+        { title: "Choose Your Mode", description: "Pick Agent mode if you want to hand Supa a complete task and receive a finished output. Choose Ask mode for ongoing conversations and more interactive back-and-forth tasks." },
+        { title: "Select Your AI Model", description: "Switch between ChatGPT, Gemini, Llama, DeepSeek or other available models based on what your task needs. Different models have different strengths for writing, research and creative work." },
+        { title: "Give Your Prompt and Download", description: "Type what you need - a presentation, essay, research summary or image. Review the output and either download it directly or ask Supa to refine until it is exactly right." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Model AI Hub", description: "Instead of juggling separate subscriptions, Supa gives you access to the worlds leading AI models in one place. Switch between them based on the task - one for writing, another for research, another for code" },
+      { title: "Agent Mode", description: "Drop in a single prompt and Agent mode handles the entire workflow - structuring, writing, formatting - delivering a ready-to-use document, presentation or report without back-and-forth prompting" },
+      { title: "Presentation Builder", description: "Turn a rough idea into a complete slide deck with headlines, bullet points and layout suggestions in one go - useful for anyone who dreads building presentations from a blank canvas" },
+      { title: "Image and Audio Tools", description: "Built-in image generation and audio transcription mean you do not need separate tools for visual content creation or converting spoken content to text" }
+    ],
+    useCases: [
+      { title: "Students Writing Papers and Presentations", description: "From structuring a research essay to generating a full presentation deck, Supa handles the most time-consuming parts of academic work so students can focus on understanding rather than formatting" },
+      { title: "Content Creators and Bloggers", description: "Writers use Supa to draft articles, brainstorm ideas, generate supporting images and repurpose content across formats without juggling multiple subscriptions" },
+      { title: "HR Teams Processing CVs", description: "Supa can scan and sort through large batches of resumes quickly, summarizing key qualifications and flagging standout candidates - turning a multi-hour task into minutes" },
+      { title: "Small Businesses and Freelancers", description: "From writing proposals and business reports to generating marketing copy, Supa helps lean teams get professional-quality output without the cost of specialized help for every task" }
+    ]
+  },
   "writeless": {
     whatIs: "Writeless is an academic writing tool built specifically for students and researchers who need well-structured essays, research papers, and reports — fast. Unlike general-purpose AI chatbots, Writeless is wired for the academic world. It generates full-length essays complete with real, verifiable in-text citations in APA, MLA, Harvard, Chicago, or Vancouver format. You can write papers up to 20,000 words, upload your own source materials, set your preferred citation style, and even tune the writing tone to sound more like you.",
     features: [

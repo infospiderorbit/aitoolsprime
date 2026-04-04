@@ -1088,7 +1088,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-essay-writer": [
       { id: "terabox", name: "TeraBox", description: "Cloud storage with AI writing features", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "📦", category: "writing-editing", subcategory: "ai-essay-writer" },
       { id: "jenni-ai", name: "Jenni AI", description: "AI writing assistant for academic papers", url: "", upvotes: 654, verified: true, rating: 4.6, icon: "🎓", category: "writing-editing", subcategory: "ai-essay-writer" },
-      { id: "supa", name: "Supa", description: "AI-powered essay writing and research tool", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "📚", category: "writing-editing", subcategory: "ai-essay-writer" },
+      { id: "supa", name: "Supa", description: "AI-powered essay writing and research tool", url: "https://www.superai.id/", upvotes: 432, verified: true, rating: 4.4, icon: "📚", category: "writing-editing", subcategory: "ai-essay-writer" },
       { id: "writeless", name: "Writeless", description: "Academic writing assistant with AI support", url: "", upvotes: 321, verified: true, rating: 4.3, icon: "✍️", category: "writing-editing", subcategory: "ai-essay-writer" },
       { id: "perfectessaywriter", name: "Perfectessaywriter.ai", description: "AI essay writing and editing platform", url: "", upvotes: 234, verified: true, rating: 4.2, icon: "🏆", category: "writing-editing", subcategory: "ai-essay-writer" }
     ],
