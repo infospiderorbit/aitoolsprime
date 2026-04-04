@@ -1,4 +1,303 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "nolan-ai": {
+    whatIs: "NolanAI is an AI-powered screenwriting platform that handles the technical side of script writing so you can stay focused on the creative side. It automatically formats your screenplay to industry standards as you write, which means you never have to think about margins, slug lines, or spacing - it is all done for you. Beyond formatting, NolanAI offers AI scene suggestions, character and story development tools, real-time collaboration for writing teams, and script coverage analysis. It works offline too, so a lost internet connection does not mean a lost writing session.",
+    features: [
+      "Automatic Formatting: Scripts formatted to industry standards as you type",
+      "AI Scene Suggestions: Ideas for scenes, dialogue, and character development when you are stuck",
+      "Offline Capability: Write without an internet connection anywhere you work",
+      "Real-Time Collaboration: Multiple writers can work on the same script simultaneously",
+      "Character Breakdowns: Organize and manage character details across your script",
+      "Per-Row Script History: Track every edit on a row-by-row basis for easy revision comparison",
+      "Script Coverage: AI-driven analysis of your screenplay's strengths and weaknesses",
+      "Pre-Production Tools: Scheduling and budgeting tools built into the platform",
+      "Revision Tracking: See exactly what changed between script versions",
+      "Ethical AI Approach: Designed to enhance human creativity not replace it"
+    ],
+    howToUse: {
+      title: "How to Use Nolan Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up at nolanai.app for free. You can access the script editor immediately and experiment with core features before deciding on a paid plan." },
+        { title: "Start Your Script", description: "Begin a new project or upload an existing script. NolanAI automatically applies correct screenplay formatting as you write so you can focus entirely on the story." },
+        { title: "Use AI Tools as Needed", description: "When you hit a wall, use AI scene suggestions or character development prompts to get unstuck. Invite collaborators to review or co-write in real time, then export your finished script in standard formats." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Zero-Friction Formatting", description: "Industry-standard screenplay formatting is notoriously specific and time-consuming to manage manually. NolanAI handles all of it automatically so writers never have to think about the technical rules again" },
+      { title: "Offline First Design", description: "Most cloud writing tools die without internet. NolanAI's offline capability means you can write on a plane, in a cabin, or anywhere inspiration strikes without losing your session" },
+      { title: "Full Production Suite", description: "Going beyond just script writing to cover scheduling, budgeting, and script coverage makes NolanAI useful across the entire pre-production process rather than just the writing phase" },
+      { title: "Ethical AI Positioning", description: "NolanAI is built around the idea that AI should support human storytelling not generate it wholesale - which matters to professional writers who want assistance without surrendering creative ownership" }
+    ],
+    useCases: [
+      { title: "Screenwriters at All Levels", description: "From first-time script writers who need formatting help to professionals who want AI suggestions and collaboration tools, NolanAI serves the full range of screenwriting experience" },
+      { title: "Writing Teams and Production Companies", description: "Teams working on a script together use real-time collaboration to coordinate changes and feedback without emailing draft versions back and forth" },
+      { title: "Independent Filmmakers", description: "Indie filmmakers who write and produce their own work use NolanAI's pre-production tools to move from finished script to scheduled shoot without switching platforms" }
+    ]
+  },
+  "scenecraftr": {
+    whatIs: "SceneCraftr is an AI scene generation tool built specifically for actors rather than writers - which makes it genuinely different from general screenwriting tools. The platform creates original, customized acting scenes for demo reels, auditions, and practice. Actors describe what they need - the genre, emotional range, character type, situation - and SceneCraftr generates a complete, ready-to-perform scene in minutes. The scenes are not copyrighted, so actors own what is created and can use them freely for any purpose including commercial work.",
+    features: [
+      "Custom Scene Generation: Create original acting scenes based on your specific requirements",
+      "Demo Reel Scenes: Scenes designed to showcase specific acting abilities and range",
+      "Audition Material: Fresh original scenes for self-tape auditions",
+      "Genre Variety: Drama, comedy, thriller, romance, and more across different styles",
+      "Character Type Flexibility: Generate scenes for any character age, background, or dynamic",
+      "Royalty Free: All generated scenes are uncopyrighted and owned by the actor",
+      "Fast Turnaround: Complete scenes ready in minutes rather than hours",
+      "Affordable Access: Free tier available with an unlimited plan for active actors"
+    ],
+    howToUse: {
+      title: "How to Use Scenecraftr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Scene", description: "Sign up at scenecraftr.com and describe what you need - the genre, the emotional beats you want to play, the character dynamic, and any specific situation or relationship the scene should explore." },
+        { title: "Generate and Review", description: "SceneCraftr produces a complete original scene based on your description. Review it for fit and tone, then customize any lines or directions that need adjusting for your specific goals." },
+        { title: "Use It Your Way", description: "The scene is yours to use however you need - self-tape it for an audition, film it for your demo reel, or use it for practice and workshop sessions. No rights issues, no restrictions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Actor-Specific Purpose", description: "Most scene generation tools are built for writers. SceneCraftr is built specifically for actors - the output is calibrated for performance rather than production, which produces material that actually works for demo reels and auditions" },
+      { title: "Royalty-Free Ownership", description: "Actors own the scenes they create outright with no copyright complications. This matters practically for demo reel content that gets uploaded publicly and shared with casting directors" },
+      { title: "Range Showcase", description: "Demo reels need to show range, not just one emotional register. SceneCraftr lets actors generate multiple scenes across different genres and emotional territories to build a reel that demonstrates versatility" },
+      { title: "Speed for Audition Prep", description: "Last-minute self-tape requests happen constantly in the industry. Generating fresh relevant material in minutes rather than searching for existing scenes is a genuine competitive advantage" }
+    ],
+    useCases: [
+      { title: "Working Actors Building Demo Reels", description: "Actors who need fresh, relevant demo reel content that showcases their specific range and strengths use SceneCraftr to create material built around their abilities rather than adapting existing scenes" },
+      { title: "Actors Preparing Self-Tapes", description: "When casting directors request self-tapes on short notice, SceneCraftr provides original material that fits the role type without the scramble of finding appropriate existing scripts" },
+      { title: "Acting Students and Workshop Participants", description: "Students and workshop participants use SceneCraftr to generate practice material for class work, scene study, and skill development exercises" }
+    ]
+  },
+  "filmflow": {
+    whatIs: "FilmFlow is an AI-assisted screenwriting tool that addresses both sides of the writing problem - the blank page problem and the structural problem. It helps writers generate screenplay drafts and individual scenes when they are stuck, but it also analyzes the emotional essence of existing material to provide feedback on whether the story is actually doing what the writer intends. For filmmakers who want to understand not just what their script says but what it feels, FilmFlow adds a layer of analysis that most screenwriting tools skip entirely.",
+    features: [
+      "Screenplay Draft Generation: AI-assisted drafting to overcome blank page paralysis",
+      "Scene Builder: Generate individual scenes with specific emotional and narrative requirements",
+      "Emotional Analysis: AI visualization of the emotional arc and beats in your screenplay",
+      "Story Insight Tools: Feedback on story structure and narrative effectiveness",
+      "Writer's Block Combat: Prompts and generation tools specifically designed to get stuck writers moving",
+      "Character Development: Build and maintain consistent character voices across scenes",
+      "Film Analysis Mode: Upload or describe existing films to analyze their emotional structure",
+      "Export Options: Save and export scripts in standard formats"
+    ],
+    howToUse: {
+      title: "How to Use Filmflow",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start or Upload Your Project", description: "Sign up at filmflow.io and either start a new screenplay from scratch or upload an existing script you want to develop or analyze." },
+        { title: "Write and Generate", description: "Use AI drafting tools to generate scenes, develop characters, or continue from where you are stuck. Describe what needs to happen in a scene and let FilmFlow draft it while you focus on shaping it." },
+        { title: "Analyze and Refine", description: "Use the emotional analysis tools to visualize how your story's emotional beats are landing. Review the feedback and make adjustments to scenes that are not hitting the way you intended." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Emotional Arc Analysis", description: "Most script feedback tools focus on structure and format. FilmFlow's emotional visualization gives writers insight into whether their story actually creates the feelings it is designed to create - which is a different and more useful kind of feedback" },
+      { title: "Dual Mode Usefulness", description: "FilmFlow works both for writing new material and for analyzing existing films or scripts, making it useful for students studying craft as well as working writers developing their own projects" },
+      { title: "Writer's Block Targeting", description: "The generation tools are specifically designed to address the moments where writers freeze - getting from one scene to the next, finding a character's voice in a scene, or figuring out how a sequence needs to feel" },
+      { title: "Scene-Level Control", description: "Rather than only generating full scripts, FilmFlow lets writers work scene by scene - which is how professional screenwriters actually develop material" }
+    ],
+    useCases: [
+      { title: "Screenwriters Developing Original Work", description: "Writers developing feature films or TV pilots use FilmFlow to draft scenes, overcome blocks, and analyze whether their emotional storytelling is landing the way they intend" },
+      { title: "Film Students Studying Craft", description: "Students use the film analysis mode to break down how established films build emotional arcs, learning craft from examples rather than theory alone" },
+      { title: "Directors Who Write", description: "Filmmaker-writers use FilmFlow to develop material while simultaneously thinking about how it will feel on screen, using the emotional analysis tools to bridge the gap between page and screen" }
+    ]
+  },
+  "filmassistant": {
+    whatIs: "FilmAssistant.io is an AI screenwriting tool focused on story structure and outlining - particularly useful for writers who know roughly what they want to say but need help organizing it into a coherent screenplay shape. The platform provides guidance on story structure frameworks, helps writers generate outlines and summaries, and supports collaboration so writing partners can work together on the same project. It is designed to work for both beginners who need structural scaffolding and experienced writers who want AI assistance with specific parts of their process.",
+    features: [
+      "Story Outlining: AI-assisted outline generation for screenplays and stories",
+      "Structure Guidance: Advice and frameworks for effective story structure",
+      "Scene Summaries: Generate and refine scene-by-scene summaries",
+      "Collaboration Support: Multiple writers can work together on the same project",
+      "Beginner Friendly: Accessible interface that works for first-time screenwriters",
+      "Regular Updates: Platform updated regularly with new features and improvements",
+      "Story Development: Tools for developing premise, plot, and narrative arc",
+      "Export Options: Save outlines and drafts in usable formats"
+    ],
+    howToUse: {
+      title: "How to Use Filmassistant",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Project", description: "Sign up at filmassistant.io and create a new screenplay project. Enter your story concept, genre, and any initial ideas about your characters and plot." },
+        { title: "Build Your Outline", description: "Use the AI tools to generate a story outline based on your concept. Work through the structure section by section, refining each part until the shape of your story feels right." },
+        { title: "Develop and Collaborate", description: "Flesh out your outline into scene summaries and early draft material. Invite a writing partner to collaborate if you are co-writing, and iterate on the structure until the screenplay is ready to draft fully." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Structure-First Approach", description: "FilmAssistant.io starts with story architecture rather than jumping straight to dialogue and scenes - which produces better screenplays because structure problems caught early are much easier to fix than structure problems found in a finished draft" },
+      { title: "Beginner Accessibility", description: "The guidance on story structure makes FilmAssistant.io particularly valuable for writers who are new to screenplay format and do not yet have an internalized sense of how film stories are shaped" },
+      { title: "Collaboration Integration", description: "Co-writing is common in professional screenwriting but most tools are built for solo writers. FilmAssistant.io's collaboration support makes it practical for writing partners to develop outlines together" },
+      { title: "Summary Generation", description: "Generating clean scene summaries is useful both for development and for pitch materials. FilmAssistant.io produces summaries that work as a foundation for loglines, treatments, and pitches" }
+    ],
+    useCases: [
+      { title: "New Screenwriters Learning Structure", description: "Beginning writers use FilmAssistant.io to understand how screenplays are structured while simultaneously developing their own story, learning and creating in the same process" },
+      { title: "Professional Writers in Development", description: "Experienced screenwriters use the outlining tools to quickly structure new ideas before committing to a full draft, saving the significant time it takes to outline manually" },
+      { title: "Writing Teams", description: "Co-writing partnerships use the collaboration features to develop shared outlines and keep both writers aligned on the story's structure during development" }
+    ]
+  },
+  "aiscreenwriter": {
+    whatIs: "AIScreenwriter is a professional screenplay writing tool built by veterans of the film industry - people who have worked on major productions and understand what actually makes a screenplay work at a professional level. That industry insider perspective shapes how the tool approaches brainstorming, structure, and story development. Rather than generic writing assistance, AIScreenwriter provides suggestions calibrated to how screenplays actually function in production, which makes the output more practically useful for writers working toward professional standards.",
+    features: [
+      "Professional Script Generation: AI-powered screenplay writing built on industry expertise",
+      "Story Brainstorming: Structured brainstorming tools for developing screenplay concepts",
+      "Script Structuring: Guidance on story architecture from industry-experienced perspective",
+      "Character Sheet Generation: Create detailed character profiles and backgrounds",
+      "Scene Writing: Generate and develop individual scenes with AI assistance",
+      "Industry Insights: Suggestions informed by professional film production experience",
+      "Editable Output: All generated content fully editable after generation",
+      "Built by Industry Insiders: Developed by filmmakers with major production credits"
+    ],
+    howToUse: {
+      title: "How to Use Aiscreenwriter",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Concept", description: "Sign up at aiscreenwriter.com and describe your screenplay idea - the genre, the core conflict, the main characters, and any specific elements you want the story to include." },
+        { title: "Develop Structure and Characters", description: "Use the brainstorming and structuring tools to shape your concept into a workable story. Generate character sheets for your main players to establish consistent voices and backgrounds." },
+        { title: "Write and Refine", description: "Generate scenes and script sections with AI assistance. The output is fully editable so you can shape everything to match your vision while using the AI-generated material as a strong starting point." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Industry Insider Development", description: "The tool was built by people who have worked on major films - Avatar, District 9, Mad Max, The Lego Movie - which means the structural and storytelling guidance comes from real production experience rather than generic writing theory" },
+      { title: "Brainstorm to Script Pipeline", description: "AIScreenwriter covers the full development process from initial concept through to scripted scenes, which means writers can stay in one tool rather than moving between brainstorming apps and writing software" },
+      { title: "Character Sheet Integration", description: "Generating detailed character sheets before writing scenes keeps character voices consistent across a screenplay - something many writers do manually but which AIScreenwriter handles within the same workflow" },
+      { title: "Professional Standards Focus", description: "The suggestions and output are calibrated to professional screenplay standards rather than general creative writing norms, which matters for writers working toward industry submission" }
+    ],
+    useCases: [
+      { title: "Aspiring Screenwriters", description: "Writers developing their first professional screenplays use AIScreenwriter to get industry-informed guidance that helps them understand what professional-level scripts actually require" },
+      { title: "Working Writers on Tight Deadlines", description: "Professional screenwriters under deadline use AI scene generation and brainstorming tools to maintain output velocity without sacrificing quality" },
+      { title: "Filmmakers Writing Their Own Material", description: "Directors and producers who write their own screenplays use AIScreenwriter to access industry-standard guidance even when they do not have a writing partner with screenwriting expertise" }
+    ]
+  },
+  "maxstudio-api": {
+    whatIs: "MaxStudio API is a developer-focused name generation platform that provides API access to AI-powered name generation across a wide range of use cases. Rather than being a consumer tool with a button to click, MaxStudio API is built for developers and product teams who want to integrate name generation capabilities directly into their own applications, games, platforms, or workflows. If you are building a character creator, a naming tool, a worldbuilding app, or any product that needs to generate names at scale, MaxStudio API gives you the underlying engine to do it.",
+    features: [
+      "API Access: Programmatic name generation for integration into any application",
+      "Wide Name Categories: Characters, businesses, places, fantasy entities, and more",
+      "Scale Generation: Generate names in bulk for applications that need volume",
+      "Custom Parameters: Configure name style, origin, length, and other attributes via API",
+      "Developer Documentation: Full API documentation for straightforward integration",
+      "Multiple Genres: Fantasy, sci-fi, historical, modern, and other naming contexts",
+      "Fast Response: Low-latency API suitable for real-time application use",
+      "Flexible Pricing: Usage-based pricing that scales with your application's needs"
+    ],
+    howToUse: {
+      title: "How to Use Maxstudio Api",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Get Your API Key", description: "Sign up at the MaxStudio developer portal and generate your API key. Review the documentation to understand the available endpoints and parameters for name generation." },
+        { title: "Configure Your Request", description: "Build your API call with the parameters you need - name category, style, origin preferences, length constraints, and any other attributes relevant to your use case." },
+        { title: "Integrate and Deploy", description: "Integrate the API response into your application's name generation feature. Test across your expected use cases and deploy with confidence that the output will scale with your user volume." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Developer-First Design", description: "MaxStudio API is built for programmatic integration rather than manual use - the documentation, endpoint design, and response format are all structured for developers building products rather than individuals naming things" },
+      { title: "Breadth of Categories", description: "Covering everything from fantasy character names to business names to place names means MaxStudio API can serve a wide range of application types without requiring different providers for different naming contexts" },
+      { title: "Bulk Generation Capability", description: "Applications that need to generate dozens or hundreds of names at once - like game world generators or naming tools - need an API that handles volume efficiently. MaxStudio is designed for this" },
+      { title: "Low Latency", description: "For real-time applications where users expect instant name suggestions, API response speed matters. MaxStudio API is built for the low-latency responses that interactive applications require" }
+    ],
+    useCases: [
+      { title: "Game Developers", description: "Indie and studio game developers integrate MaxStudio API to power character naming, location generation, and faction name creation within their games without building the underlying AI from scratch" },
+      { title: "SaaS Product Builders", description: "Developers building tools that include naming features - business name generators, domain finders, character creators - use MaxStudio API as the name generation engine behind their product" },
+      { title: "Worldbuilding Platform Creators", description: "Teams building worldbuilding tools for writers and game masters use MaxStudio API to generate consistent, genre-appropriate names across all the entities in a fictional world" }
+    ]
+  },
+  "dnd-name-generator": {
+    whatIs: "DnD Name Generator is a fantasy name generation tool built specifically for Dungeons and Dragons players, dungeon masters, and tabletop RPG enthusiasts who need character names that feel authentically rooted in fantasy world traditions. The tool generates names across all the major D and D races and classes - elves, dwarves, halflings, tieflings, dragonborn, and more - with names that actually sound like they belong in those cultures rather than generic fantasy gibberish. Whether you are creating a new character, populating an NPC roster, or building a town full of named inhabitants, it handles the naming so you can focus on the story.",
+    features: [
+      "Race-Specific Names: Generate names appropriate for all major D and D races",
+      "Class Considerations: Names calibrated to fit different character archetypes and backgrounds",
+      "Multiple Races: Elf, dwarf, halfling, tiefling, dragonborn, human, gnome, and more",
+      "NPC Generation: Create names for non-player characters and world inhabitants",
+      "Backstory Hints: Some generated names come with cultural context and meaning",
+      "Bulk Generation: Generate multiple names at once for populating entire rosters",
+      "Gender Options: Male, female, and neutral name generation across all races",
+      "Free to Use: Generate names without creating an account or paying"
+    ],
+    howToUse: {
+      title: "How to Use Dnd Name Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Race", description: "Select the D and D race you are creating a name for - elf, dwarf, human, tiefling, dragonborn, or any of the other major races. Each race has its own naming conventions and cultural patterns." },
+        { title: "Set Your Preferences", description: "Choose gender preferences and any other attributes like character class or background that should influence the naming style. These parameters guide the AI toward names that fit the character concept." },
+        { title: "Generate and Pick", description: "The tool generates multiple name options at once. Browse through them and select the one that feels right for your character. Generate again if none of the first batch quite fits." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Race-Authentic Naming", description: "D and D races have established naming conventions that feel specific to their cultures. Names that do not fit those conventions break immersion. The generator produces names that actually sound like they belong in each race's tradition" },
+      { title: "NPC Roster Population", description: "Dungeon masters who need to name entire villages, guilds, or factions can generate batches of names quickly rather than inventing each one individually during session prep" },
+      { title: "Character Creation Speed", description: "The character creation process has many decisions to make. Having a tool that handles naming quickly removes one cognitive load from an already complex process" },
+      { title: "Immersion-First Design", description: "The tool is built for tabletop RPG context specifically, which means the output feels right at the table rather than feeling like it came from a generic fantasy name generator" }
+    ],
+    useCases: [
+      { title: "Tabletop RPG Players", description: "D and D players creating new characters use the generator to find a name that fits their race and backstory without spending time on a task that is not the fun part of character creation" },
+      { title: "Dungeon Masters Building Worlds", description: "DMs populating their campaign world with named NPCs, locations, and organizations use bulk generation to quickly create a roster of names that feel authentic to the setting" },
+      { title: "Writers of Fantasy Fiction", description: "Authors writing D and D inspired fantasy fiction use the generator to find character names that fit established race naming conventions rather than inventing them from scratch" }
+    ]
+  },
+  "cuqui-baby-names": {
+    whatIs: "Cuqui Baby Names is a mobile app that turns finding a baby name into a collaborative, swipe-based experience for expecting parents. Instead of scrolling through endless lists alone, both partners link accounts and independently swipe right on names they like and left on names they do not - and the app surfaces the matches, showing which names you both responded to positively. The AI learns your preferences as you swipe and refines its suggestions over time, drawing from a database of over 30,000 names across diverse origins, languages, and cultural backgrounds.",
+    features: [
+      "Swipe-Based Discovery: Tinder-style swiping interface for browsing baby names",
+      "Partner Matching: Link accounts so both partners swipe independently and see shared matches",
+      "AI Learning: The AI refines suggestions based on your swipe history and preferences",
+      "30000 Plus Names: Extensive database spanning diverse origins, languages, and cultures",
+      "Name Details: Meanings, origins, pronunciations, and nickname options for every name",
+      "Language and Origin Filters: Filter by language, cultural origin, country, and name length",
+      "Favorites Management: Save and organize top picks with a Top 5 comparison list",
+      "AI Baby Bot: Chat with an AI assistant to ask questions about names and get personalized advice"
+    ],
+    howToUse: {
+      title: "How to Use Cuqui Baby Names",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Profile", description: "Download Cuqui from the App Store and create your account. Set up your preferences - gender, cultural origins you want to explore, any style preferences - to help the AI start with relevant suggestions." },
+        { title: "Link with Your Partner", description: "Connect your account with your partner's so you can swipe independently and privately. Neither of you sees the other's choices until there is a match, which keeps the process honest." },
+        { title: "Swipe and Match", description: "Start swiping through name suggestions. The AI learns from your choices and refines what it shows you. When both you and your partner swipe right on the same name, it surfaces as a match for you to discuss." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Partner Matching System", description: "The swipe-and-match mechanic is clever because both partners make independent choices before seeing any overlap. This removes the social pressure of one partner influencing the other and makes shared favorites feel genuinely agreed upon" },
+      { title: "AI Preference Learning", description: "The AI gets smarter as you swipe - it notices patterns in what you like and adjusts suggestions accordingly, which means the longer you use it the more relevant the names it shows you" },
+      { title: "30000 Name Database", description: "A database of over 30,000 names spanning genuinely diverse origins means parents looking for names from specific cultural backgrounds will actually find them, not just the same top 100 Western names recycled" },
+      { title: "Name Detail Depth", description: "Knowing a name's meaning, origin, and pronunciation matters to most parents. Cuqui surfaces all this detail for every name so parents can make informed choices rather than just aesthetic ones" }
+    ],
+    useCases: [
+      { title: "Expecting Couples Who Disagree on Names", description: "Partners who have very different name tastes use Cuqui to find common ground without the arguments - the matching system reveals overlap that might not have surfaced through direct conversation" },
+      { title: "Parents Honoring Cultural Heritage", description: "Families who want a name that reflects a specific cultural background use the origin and language filters to find names from their heritage rather than defaulting to generic popular choices" },
+      { title: "Parents Overwhelmed by Options", description: "The sheer number of possible baby names is paralyzing for many parents. Cuqui's swipe format makes the process manageable and actually fun rather than an exhausting research project" }
+    ]
+  },
+  "randomx-ai": {
+    whatIs: "RandomX.ai is an AI-powered random name and content generator built for people who need creative starting points fast. Whether you need a character name for a story, a business name for a new venture, a username, a random word prompt, or any other kind of generated creative content, RandomX.ai produces options instantly without requiring an account or any setup. The randomness is the feature - sometimes you need something unexpected to break out of a creative rut, and RandomX delivers variety and surprise on demand.",
+    features: [
+      "Random Name Generation: Generate names across categories including characters, businesses, and usernames",
+      "Multiple Content Types: Names, words, prompts, and other random creative content",
+      "Category Selection: Choose the type of random content you need generated",
+      "Instant Results: Content generated immediately with no wait time",
+      "No Account Required: Use the tool without signing up or logging in",
+      "Bulk Generation: Generate multiple options at once to find the right fit",
+      "Creative Prompts: Random prompts to spark ideas for writing and creative projects",
+      "Free Access: Core generation features available at no cost"
+    ],
+    howToUse: {
+      title: "How to Use Randomx Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Category", description: "Open RandomX.ai and select what type of random content you need - character names, business names, usernames, creative prompts, or another category from the available options." },
+        { title: "Generate Your Options", description: "Hit generate and RandomX.ai produces multiple random options instantly. Browse through the results and grab whatever works, or generate again if none of the first batch fits." },
+        { title: "Use and Iterate", description: "Take the generated content and use it as-is or as a starting point. Generate more options if you want more variety. The tool is designed for fast iteration rather than careful configuration." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Randomness as a Feature", description: "Sometimes the most useful creative tool is one that gives you something completely unexpected. RandomX.ai leans into randomness rather than trying to be too precise, which makes it valuable for breaking creative blocks" },
+      { title: "Zero Friction Access", description: "No account, no setup, no configuration. Open the page, pick a category, and generate. The simplicity is what makes it useful for quick creative needs that do not warrant a complex tool" },
+      { title: "Breadth of Categories", description: "Covering names, words, prompts, and other creative content in one place means RandomX.ai serves multiple different use cases without needing to visit several different generator sites" },
+      { title: "Creative Block Breaker", description: "When you are stuck on naming something or need a starting point for a creative project, random generation often works better than deliberate searching because it surfaces options you would never have thought to look for" }
+    ],
+    useCases: [
+      { title: "Writers Naming Characters and Places", description: "Fiction writers who need a character name or location name quickly use RandomX.ai to get options without breaking their creative flow to search or deliberate" },
+      { title: "Entrepreneurs Brainstorming Business Names", description: "People starting businesses use random name generation as a brainstorming input - not to use the name directly but to spark ideas that lead to the right name through iteration" },
+      { title: "Gamers and Game Masters", description: "Tabletop and video game players who need quick names for characters, guilds, or in-game entities use RandomX.ai to get options instantly during sessions" }
+    ]
+  },
   "wonderful-valentimes": {
     whatIs: "Wonderful Valemtimes is a free AI love letter generator built specifically for Valentine's Day. Created by Wonderful, the tool keeps things simple - you add the names involved and a keyword or two about your relationship and it generates a warm, emotional letter ready to send. It is designed for people who want to give someone something more personal than a store-bought card message but do not want to spend an hour staring at a blank page trying to find the right words.",
     features: [
