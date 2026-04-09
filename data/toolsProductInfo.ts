@@ -1,4 +1,274 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "riffusion-song": {
+    whatIs: "Riffusion is an AI music generation tool that creates original music from text prompts using a unique approach - it generates spectrograms as images and converts them to audio, rather than generating audio directly. This means you can describe a musical style, mood, or genre in plain language and Riffusion produces a short musical clip that matches your description. It is particularly good at genre blending and unusual style combinations that traditional music tools struggle with.",
+    features: [
+      "Text to Music: Generate original music clips from text descriptions",
+      "Genre Blending: Combine multiple styles in one generation",
+      "Spectrogram Approach: Unique image-based audio generation method",
+      "Style Variety: Covers rock, jazz, electronic, classical, and more",
+      "Mood Generation: Create music based on emotional descriptions",
+      "Instrument Specification: Request specific instruments in your prompt",
+      "Free to Use: Core music generation accessible without payment",
+      "Short Clips: Quick music snippets for content and experimentation"
+    ],
+    howToUse: {
+      title: "How to Use Riffusion Song",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Go to riffusion.com and describe the music you want to hear. Be specific about genre, mood, instruments, and tempo - the more detail you provide the more targeted the output." },
+        { title: "Generate and Listen", description: "Riffusion generates a short audio clip matching your description. Listen to the result and refine your prompt if you want a different direction." },
+        { title: "Iterate and Explore", description: "Try different prompt variations to explore the range of what Riffusion can produce. Genre combinations and unusual style blends often produce the most interesting results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Spectrogram Innovation", description: "Generating music via spectrograms treated as images is a genuinely different technical approach that produces different characteristics from direct audio generation tools" },
+      { title: "Genre Blending Strength", description: "Describing a combination like jazz fusion with electronic elements produces coherent results that reflect both influences - which is harder to achieve with rule-based music tools" },
+      { title: "Accessibility", description: "Free access to AI music generation without account requirements makes Riffusion a low-barrier entry point for exploring AI-generated music" },
+      { title: "Experimental Use", description: "The unique generation method produces results with a distinctive character that works well for experimental music and sound design contexts" }
+    ],
+    useCases: [
+      { title: "Content Creators Needing Background Music", description: "Video creators and podcasters use Riffusion to generate background music for their content that is original and not subject to copyright claims" },
+      { title: "Musicians Exploring AI Composition", description: "Composers and producers use Riffusion to explore AI-generated musical ideas as starting points for their own compositions" },
+      { title: "Researchers and AI Enthusiasts", description: "People interested in AI music generation use Riffusion to explore the spectrogram-based approach and compare it to other generation methods" }
+    ]
+  },
+  "chordchord": {
+    whatIs: "ChordChord is an AI-powered chord progression generator and music composition tool that helps musicians, producers, and songwriters create harmonically interesting chord progressions quickly. It generates progressions based on key, scale, and mood parameters, plays them back in real time, and lets users export the MIDI for use in their DAW. For musicians who struggle with harmony or want inspiration beyond their usual chord patterns, ChordChord provides a generative playground that speeds up the composition process.",
+    features: [
+      "Chord Progression Generator: Create harmonically interesting progressions instantly",
+      "Key and Scale Selection: Generate progressions in any key and scale",
+      "Mood Parameters: Set emotional tone for generated progressions",
+      "Real-Time Playback: Hear progressions immediately with virtual instruments",
+      "MIDI Export: Export progressions to use in your DAW",
+      "Rhythm Patterns: Apply different rhythmic patterns to your progressions",
+      "Melody Generator: Generate melodies that work over your chords",
+      "Free to Use: Basic chord generation accessible without payment"
+    ],
+    howToUse: {
+      title: "How to Use Chordchord",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Your Parameters", description: "Go to chordchord.com and select your key, scale, and mood. These parameters guide the generation toward progressions that fit your musical context." },
+        { title: "Generate and Audition", description: "Generate progressions and listen to them in real time with ChordChord's built-in playback. Regenerate quickly to explore multiple options until you find a direction you want to develop." },
+        { title: "Export to Your DAW", description: "Export your chosen progression as MIDI and import it into your DAW. From there you can assign your own instruments, adjust voicings, and build your full arrangement around the progression." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Harmony Without Theory", description: "Musicians who have not studied music theory can generate harmonically coherent progressions without knowing why they work - which removes a barrier that stops many producers from moving beyond basic chords" },
+      { title: "MIDI Export Practicality", description: "Generating ideas is only useful if you can actually use them. MIDI export means the progressions go straight into your production workflow rather than staying locked in the browser" },
+      { title: "Regeneration Speed", description: "Being able to generate dozens of progression options in seconds is qualitatively different from working out each one manually - it shifts the creative process from construction to selection" },
+      { title: "Melody Integration", description: "The melody generator that works over generated chords extends the tool from a chord helper to a more complete composition assistant" }
+    ],
+    useCases: [
+      { title: "Music Producers Looking for Inspiration", description: "Producers who feel stuck on chord progressions use ChordChord to quickly generate options and break out of their habitual harmonic patterns" },
+      { title: "Songwriters Developing Ideas", description: "Songwriters use ChordChord to find chord progressions for new songs quickly, especially in keys or modes they are less familiar with" },
+      { title: "Music Students Learning Harmony", description: "Students learning music theory use ChordChord to hear how different chord choices affect the emotional quality of a progression" }
+    ]
+  },
+  "amped-studio": {
+    whatIs: "Amped Studio is a browser-based Digital Audio Workstation that brings professional music production capabilities to a web interface without requiring software installation. It includes a full suite of virtual instruments, effects, a MIDI editor, and AI features that help with beat creation, melody generation, and mixing. For producers who work across multiple computers or want to collaborate online, the browser-based approach means their projects are always accessible without complex DAW installation and configuration.",
+    features: [
+      "Browser DAW: Full digital audio workstation that runs in your browser",
+      "Virtual Instruments: Synthesizers, samplers, and drum machines built in",
+      "AI Beat Generation: Create drum patterns and beats with AI assistance",
+      "MIDI Editor: Full piano roll for editing MIDI sequences",
+      "Audio Recording: Record audio directly into your browser project",
+      "Effects Chain: Professional effects including reverb, compression, and EQ",
+      "Cloud Storage: Projects saved and accessible from any device",
+      "Collaboration: Share projects and work with other producers online",
+      "Sample Library: Built-in library of sounds and loops",
+      "Free Plan: Basic music production accessible without payment"
+    ],
+    howToUse: {
+      title: "How to Use Amped Studio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start a New Project", description: "Go to ampedstudio.com and create a new project. Add tracks for your instruments and set your tempo and key signature before you start building your arrangement." },
+        { title: "Build Your Arrangement", description: "Add virtual instruments, program your drum patterns, and record or draw in your MIDI sequences using the piano roll editor. Layer sounds and build your arrangement track by track." },
+        { title: "Mix and Export", description: "Apply effects to your tracks, balance levels in the mixer, and export your finished track as an audio file. Share the project link for collaboration or export the stems for further processing elsewhere." }
+      ]
+    },
+    coreFeatures: [
+      { title: "No Installation Barrier", description: "Setting up a traditional DAW requires downloading large software, managing licenses, and configuring audio drivers. Amped Studio runs immediately in any browser - the barrier to starting is essentially zero" },
+      { title: "Cross-Device Accessibility", description: "Cloud-saved projects are accessible from any computer with a browser - which solves the problem of being locked to one machine for your music production" },
+      { title: "Collaboration Without File Sharing", description: "Sharing a project link rather than sending DAW files eliminates the compatibility issues and version control problems that come with traditional DAW collaboration" },
+      { title: "AI Generation for Non-Producers", description: "The AI beat generation helps people who are not experienced drum programmers create rhythmic foundations quickly so they can focus on the musical elements they are more confident with" }
+    ],
+    useCases: [
+      { title: "Producers Without Fixed Workstations", description: "Musicians who work across different computers or locations use Amped Studio for the cloud accessibility that desktop DAWs cannot provide" },
+      { title: "Beginning Music Producers", description: "New producers use Amped Studio to learn music production without the cost and complexity of professional DAW software" },
+      { title: "Collaborative Music Projects", description: "Musicians working on projects with remote collaborators use Amped Studio's sharing features to work together without file compatibility issues" }
+    ]
+  },
+  "summarist-ai": {
+    whatIs: "Summarist AI is a book and long-form content summarization platform that provides AI-generated summaries of non-fiction books, allowing users to get the key ideas from books in minutes rather than hours. It focuses on business, self-development, and productivity books - the categories where people most often want the substance without the full reading investment. The platform presents summaries in a clean reading format with audio versions for listening on the go.",
+    features: [
+      "Book Summaries: AI-generated summaries of non-fiction books",
+      "Audio Summaries: Listen to book summaries hands-free",
+      "Key Insights: Structured presentation of main ideas and takeaways",
+      "Business and Self-Help Focus: Strong coverage of professional development titles",
+      "Daily Reads: Curated daily reading recommendations",
+      "Offline Access: Download summaries for reading without internet",
+      "Reading Tracker: Track books and summaries you have consumed",
+      "Multiple Languages: Summaries available in several languages"
+    ],
+    howToUse: {
+      title: "How to Use Summarist Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Library", description: "Sign up at summarist.app and browse the library of available book summaries. Search for specific titles or browse by category to find books relevant to your interests." },
+        { title: "Read or Listen", description: "Open a summary and read it in the clean interface or switch to audio mode for hands-free listening during commutes or exercise. Each summary distills the key ideas into a digestible format." },
+        { title: "Save and Track", description: "Save summaries you want to revisit and track your reading progress. Use the daily recommendation feature to discover books you might not have found on your own." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Time-Efficient Learning", description: "Reading a full business book takes 6 to 8 hours. A well-crafted summary delivers the core ideas in 15 minutes - which changes the economics of how many books a busy person can meaningfully engage with" },
+      { title: "Audio Flexibility", description: "Audio summaries turn commute time, exercise, and household tasks into learning opportunities that would otherwise be unproductive" },
+      { title: "Discovery Value", description: "Many readers use summaries to decide which books are worth reading in full rather than replacing reading entirely - the summary acts as an informed preview rather than a substitute" },
+      { title: "Business Book Depth", description: "The focus on business and self-development titles reflects where summary content adds the most value - these books often have a core idea that the author stretches across 300 pages" }
+    ],
+    useCases: [
+      { title: "Busy Professionals Continuous Learning", description: "Executives and professionals who want to stay current with business thinking use Summarist to consume more ideas in the time available to them" },
+      { title: "Students Exploring Ideas", description: "Students researching topics across multiple books use Summarist to quickly understand the key arguments from many titles before deciding which to read deeply" },
+      { title: "Lifelong Learners", description: "People who love ideas but have limited reading time use Summarist to engage with a wider range of books than they could manage through full reads alone" }
+    ]
+  },
+  "autodraw-sketch": {
+    whatIs: "AutoDraw is a Google experiment that uses machine learning to turn rough sketches into clean, professional-looking drawings. You draw a rough shape and AutoDraw's AI suggests what you might be trying to draw from a library of illustrations by professional artists. Select the matching suggestion and your rough sketch is replaced with a polished version. It is a simple, fun, and genuinely useful tool for people who want to add illustrations to presentations, documents, or messages without drawing skills.",
+    features: [
+      "Sketch Recognition: AI identifies what you are drawing from rough sketches",
+      "Professional Illustrations: Suggestions from drawings by professional artists",
+      "Instant Replacement: Replace rough sketches with clean illustrations in one click",
+      "Color Tools: Add color to your selected illustrations",
+      "Text Addition: Add text alongside your drawings",
+      "Multiple Shapes: Draw multiple elements in one canvas",
+      "Free to Use: Completely free with no account required",
+      "Web Based: Works in any browser without installation"
+    ],
+    howToUse: {
+      title: "How to Use Autodraw Sketch",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Drawing", description: "Go to autodraw.com and start sketching roughly what you want to draw. AutoDraw watches as you draw and suggests matching professional illustrations at the top of the screen." },
+        { title: "Select Your Match", description: "When you see a suggestion that matches your intent, click it. AutoDraw replaces your rough sketch with the clean professional illustration instantly." },
+        { title: "Add Color and Text", description: "Use the color tools to fill your illustration and add text if needed. Combine multiple elements on the canvas to create a complete simple graphic." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Democratizing Drawing", description: "AutoDraw makes it possible for anyone to create clean, recognizable illustrations regardless of drawing skill - which is valuable for quick visual communication in presentations and messages" },
+      { title: "Speed for Simple Graphics", description: "For simple informational graphics that just need recognizable icons and shapes, AutoDraw is dramatically faster than searching stock icon libraries" },
+      { title: "Google Artist Collaboration", description: "The suggestions come from drawings by professional artists rather than generic clipart, which gives the output a quality that feels hand-crafted rather than corporate" },
+      { title: "No Account Required", description: "Being completely free and requiring no sign-up means anyone can use it immediately for quick illustration needs without any friction" }
+    ],
+    useCases: [
+      { title: "Teachers and Educators", description: "Teachers use AutoDraw to quickly create simple visual aids and diagrams for classroom materials without design skills" },
+      { title: "Presenters and Communicators", description: "People adding quick illustrations to presentations, documents, and messages use AutoDraw for clean visuals without searching stock libraries" },
+      { title: "Parents and Children", description: "Families use AutoDraw as a fun creative tool that turns children's rough sketches into recognizable illustrations" }
+    ]
+  },
+  "imglarger": {
+    whatIs: "IMGLarger is an AI image upscaling and enhancement platform that increases image resolution and improves quality using deep learning. It offers upscaling up to 8x alongside enhancement tools for sharpening, denoising, and face restoration. The platform is particularly notable for its face enhancement capability which uses AI specifically trained on facial features to restore and improve portrait quality - a common need for old photos and low-resolution images of people.",
+    features: [
+      "8x Upscaling: Enlarge images up to 8 times their original size",
+      "AI Enhancement: Improve overall image quality automatically",
+      "Face Restoration: AI restoration specifically for human faces in photos",
+      "Noise Removal: Clean up grain and noise from photos",
+      "Image Sharpening: Fix blurry and soft images",
+      "Batch Processing: Enhance multiple images simultaneously",
+      "Multiple Formats: Support for JPG, PNG, and WebP",
+      "Free Credits: Try enhancement before purchasing credits",
+      "API Access: Integrate enhancement into your own workflows",
+      "Fast Processing: Results in seconds without long wait times"
+    ],
+    howToUse: {
+      title: "How to Use Imglarger",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to imglarger.com and upload the image you want to enhance. The tool accepts JPG, PNG, and WebP files of various sizes." },
+        { title: "Choose Enhancement Type", description: "Select whether you want upscaling, general enhancement, face restoration, or a combination. For portrait photos, enabling face restoration produces significantly better results than general enhancement alone." },
+        { title: "Download Results", description: "IMGLarger processes your image and returns the enhanced version within seconds. Download it and compare with the original to see the improvement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Face Restoration Specialization", description: "Generic image upscaling does not handle faces well because facial features need specific treatment. IMGLarger's face restoration model produces more natural portrait enhancement than tools that treat faces like any other image content" },
+      { title: "Combined Enhancement", description: "Running upscaling and enhancement together rather than as separate steps produces better results because the AI can optimize both simultaneously rather than compounding separate processing decisions" },
+      { title: "Free Trial Access", description: "Free credits allow genuine testing on your own images before purchasing which means you can verify the quality on your specific content rather than relying on sample images" },
+      { title: "Speed for Workflow", description: "Processing images in seconds rather than minutes makes IMGLarger fast enough to use as a standard step in photo editing workflows rather than a tool you only use occasionally" }
+    ],
+    useCases: [
+      { title: "Family Photo Restoration", description: "People with old family photos that are low resolution or damaged use IMGLarger to restore and enhance them, particularly with the face restoration feature for portraits" },
+      { title: "Social Media Users", description: "Individuals who want to share better quality photos use IMGLarger to quickly enhance images before posting" },
+      { title: "Small Businesses and Bloggers", description: "Content creators use IMGLarger to improve the quality of photos for their websites and social media without professional photo editing software" }
+    ]
+  },
+  "topaz-labs": {
+    whatIs: "Topaz Labs makes AI-powered photo and video enhancement software that has become the professional standard for upscaling, noise reduction, and sharpening. Their products - Gigapixel AI for upscaling, DeNoise AI for noise reduction, and Sharpen AI for sharpening - use deep learning models trained specifically for each task, producing results that significantly exceed what Photoshop's built-in tools achieve. Topaz Video AI extends these capabilities to video footage. For photographers and filmmakers who need the highest quality enhancement results, Topaz Labs products are consistently rated as the best available.",
+    features: [
+      "Gigapixel AI: Industry-leading image upscaling up to 600 percent",
+      "DeNoise AI: AI noise reduction that preserves detail while removing grain",
+      "Sharpen AI: Fix motion blur and out-of-focus images with AI",
+      "Topaz Video AI: Upscale and enhance video footage with AI",
+      "Face Recovery: Specific AI enhancement for faces in photos",
+      "Batch Processing: Process entire photo libraries automatically",
+      "Plugin Integration: Works as plugins in Lightroom and Photoshop",
+      "Local Processing: Runs on your GPU for fast local processing",
+      "Presets: Save and apply enhancement settings across batches",
+      "Free Trial: Try each product before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Topaz Labs",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Your Product", description: "Download your chosen Topaz Labs product from topazlabs.com. Install it as a standalone application or as a plugin for Lightroom or Photoshop, depending on your workflow preference." },
+        { title: "Process Your Images", description: "Open your images in the Topaz application. The AI analyzes each image and applies the appropriate enhancement. Preview the result at 100 percent zoom to assess the improvement before processing." },
+        { title: "Batch and Export", description: "For large batches, set up your enhancement settings and run batch processing on your entire folder. Topaz processes images using your GPU for speed and exports the results to your specified output location." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Task-Specific Training", description: "Topaz trains separate AI models for upscaling, noise reduction, and sharpening rather than using one general enhancement model. Task-specific training produces better results for each use case" },
+      { title: "Professional Standard", description: "Topaz Labs products are the tools professional photographers and filmmakers actually reach for when quality matters most - which reflects genuine performance rather than marketing" },
+      { title: "Local GPU Processing", description: "Running on your local GPU rather than cloud processing means fast results for large batches without upload time and without sending your client files to external servers" },
+      { title: "Video Capability", description: "Topaz Video AI extends the same enhancement quality to video footage - upscaling archival footage, reducing noise in high ISO video, and restoring older recordings to modern quality standards" }
+    ],
+    useCases: [
+      { title: "Professional Photographers", description: "Working photographers use Topaz Labs tools to deliver the highest quality prints and digital files to clients, particularly for challenging images with noise or resolution limitations" },
+      { title: "Filmmakers and Video Editors", description: "Video professionals use Topaz Video AI to upscale archival footage, restore old recordings, and improve the quality of footage shot in difficult conditions" },
+      { title: "Photography Enthusiasts", description: "Serious amateur photographers use Topaz Labs products to get professional-level enhancement results on their personal photography work" }
+    ]
+  },
+  "zerogpt-detector": {
+    whatIs: "ZeroGPT is one of the most widely used AI text detection tools, used by educators, publishers, and content teams to identify whether text was written by humans or generated by AI models like ChatGPT, Claude, or Gemini. It analyzes text for the statistical and linguistic patterns that characterize AI-generated writing and returns a percentage score indicating the likelihood of AI generation along with highlighting which specific sections appear most AI-generated. The tool is free for basic use which has contributed to its widespread adoption.",
+    features: [
+      "AI Text Detection: Identify whether content was written by AI or humans",
+      "Percentage Score: Returns probability of AI generation as a percentage",
+      "Sentence Highlighting: Shows which specific sentences appear AI-generated",
+      "Multiple AI Models: Detects content from ChatGPT, Claude, Gemini, and others",
+      "Batch Detection: Check multiple documents simultaneously",
+      "API Access: Integrate detection into your own applications",
+      "Free to Use: Basic detection without payment required",
+      "Detailed Report: Downloadable reports for documentation purposes"
+    ],
+    howToUse: {
+      title: "How to Use Zerogpt Detector",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Text", description: "Go to zerogpt.com and paste the text you want to analyze into the detection field. ZeroGPT works with text of any length from short paragraphs to full documents." },
+        { title: "Run the Analysis", description: "Click detect and ZeroGPT analyzes the text for AI generation patterns. The analysis takes seconds and returns a percentage score along with sentence-level highlighting." },
+        { title: "Review the Results", description: "Read the percentage score and examine the highlighted sentences to understand which parts of the text triggered AI detection signals. Use this information for your specific context - academic review, content audit, or publication verification." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Accessibility", description: "ZeroGPT's free basic tier is what drove its widespread adoption among educators and individual users who need detection capability without a budget for paid tools" },
+      { title: "Sentence-Level Transparency", description: "Knowing overall AI probability is less useful than knowing which specific sections look AI-generated. The sentence highlighting gives users actionable information about where the AI signals are strongest" },
+      { title: "Multi-Model Coverage", description: "AI writing detection needs to work across the major generators - GPT-4, Claude, Gemini - rather than being tuned to just one. ZeroGPT covers the range of tools students and writers actually use" },
+      { title: "Report Generation", description: "Downloadable detection reports provide documentation that educators and publishers can attach to their records when acting on detection findings" }
+    ],
+    useCases: [
+      { title: "Educators Checking Student Work", description: "Teachers and professors use ZeroGPT to check whether student submissions were written by AI, particularly for assessments where original writing is required" },
+      { title: "Publishers and Content Editors", description: "Editorial teams use ZeroGPT to verify that submitted content meets their originality requirements before publication" },
+      { title: "Businesses Verifying Content Quality", description: "Companies that commission written content use ZeroGPT to verify that delivered work is human-written as required by their content standards" }
+    ]
+  },
   "pixai": {
     whatIs: "PixAI is an AI art generation platform focused on anime and illustrated art styles. It provides high-quality anime-style image generation with fine-tuned models specifically trained on illustrated content, making it a go-to platform for artists and creators who want anime aesthetics rather than photorealistic outputs. The platform hosts a community of creators who share models, prompts, and generated artwork, which gives users access to a constantly expanding library of style-specific models beyond the base offerings.",
     features: [
