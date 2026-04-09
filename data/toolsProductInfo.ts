@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "ebookmaker-2": {
+    whatIs: "EbookMaker is an AI-powered ebook creation platform that helps authors, educators, and content creators produce professional ebooks quickly from their existing content or new ideas. It handles formatting, layout, and design automatically so creators can focus on the content rather than the production work. The platform supports multiple ebook formats for different distribution channels including Amazon Kindle, Apple Books, and PDF for direct distribution.",
+    features: [
+      "AI Content Generation: Generate ebook content from outlines and ideas",
+      "Auto Formatting: Professional ebook formatting applied automatically",
+      "Multiple Formats: Export as EPUB, MOBI, PDF, and other formats",
+      "Cover Design: AI-assisted ebook cover creation",
+      "Chapter Organization: Structure and organize chapters with AI help",
+      "Table of Contents: Automatic table of contents generation",
+      "Direct Publishing: Export ready for Kindle and other platforms",
+      "Free to Start: Basic ebook creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ebookmaker 2",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Plan Your Ebook", description: "Sign up and enter your ebook topic, outline, and key points you want to cover. The more detail you provide about your target audience and content goals the better the output." },
+        { title: "Generate and Edit", description: "The AI generates your ebook content chapter by chapter. Review and edit each section to add your personal expertise, examples, and specific insights that only you can provide." },
+        { title: "Format and Export", description: "Apply your chosen formatting and cover design, then export in the format you need - EPUB for most platforms, MOBI for Kindle, or PDF for direct distribution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Production Without Design Skills", description: "Producing a professionally formatted ebook traditionally requires design software skills. EbookMaker handles all formatting automatically so creators focus on content" },
+      { title: "Multi-Format Export", description: "Different distribution channels require different formats. Producing all required formats from one creation workflow saves significant time compared to converting between formats manually" },
+      { title: "Speed to Market", description: "Getting an ebook from idea to publishable format in hours rather than weeks changes the economics of information product creation" },
+      { title: "Content Starting Point", description: "AI-generated content gives authors a structured starting draft to refine rather than facing a blank page - which is where many ebook projects stall" }
+    ],
+    useCases: [
+      { title: "Authors and Information Product Creators", description: "Content creators who sell ebooks and digital guides use EbookMaker to produce professional publications quickly" },
+      { title: "Educators and Course Creators", description: "Teachers and online educators use EbookMaker to create companion ebooks and study guides for their courses" },
+      { title: "Businesses Creating Lead Magnets", description: "Marketing teams use EbookMaker to produce lead magnet ebooks that attract and capture email subscribers" }
+    ]
+  },
+  "rithmm": {
+    whatIs: "Rithmm is an AI sports betting analytics platform that uses machine learning to analyze sports data and generate betting insights and predictions. It processes historical performance data, injury reports, weather conditions, and other relevant factors to produce probability assessments for sporting events. For sports bettors who want data-driven analysis rather than gut feel or tipster services, Rithmm provides analytical tools to make more informed betting decisions.",
+    features: [
+      "AI Predictions: Machine learning predictions for sports outcomes",
+      "Data Analytics: Deep statistical analysis of teams and players",
+      "Injury Tracking: Factor in injury reports and availability data",
+      "Historical Analysis: Performance patterns across seasons and matchups",
+      "Multiple Sports: Coverage across major professional sports leagues",
+      "Betting Insights: Specific betting angle analysis and value identification",
+      "Trend Detection: Identify performance patterns and streaks",
+      "Mobile Access: Analytics available on mobile devices"
+    ],
+    howToUse: {
+      title: "How to Use Rithmm",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Account", description: "Sign up at rithmm.com and select the sports and leagues you want to follow. Connect your betting preferences and the markets you typically bet on." },
+        { title: "Review Predictions", description: "Before games, review Rithmm's AI predictions and the underlying data driving them. Understand what factors are influencing the probability assessments." },
+        { title: "Apply to Your Bets", description: "Use the analytical insights alongside your own knowledge to make more informed betting decisions. Track your results over time to understand how the predictions are performing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data Over Intuition", description: "Sports betting decisions based on feelings and team loyalty consistently underperform decisions based on data. Rithmm provides the analytical foundation for more disciplined betting" },
+      { title: "Factor Integration", description: "No individual bettor can manually process injury data, weather conditions, historical matchup patterns, and current form simultaneously. AI analysis integrates all these factors automatically" },
+      { title: "Value Identification", description: "Finding bets where the bookmaker's odds underestimate the true probability requires analytical depth that casual research cannot provide" },
+      { title: "Performance Tracking", description: "Tracking prediction accuracy over time gives bettors an honest picture of whether AI-assisted betting is actually improving their results" }
+    ],
+    useCases: [
+      { title: "Sports Bettors Seeking an Edge", description: "Serious sports bettors use Rithmm to add data-driven analysis to their betting process and move beyond intuition-based decisions" },
+      { title: "Fantasy Sports Players", description: "Fantasy sports participants use Rithmm's player analytics to make better roster and transfer decisions based on performance data" },
+      { title: "Sports Analytics Enthusiasts", description: "People interested in sports analytics use Rithmm to explore the data behind sporting outcomes regardless of betting interest" }
+    ]
+  },
+  "unlucid-ai-image": {
+    whatIs: "Unlucid AI Image is an AI image generation tool focused on producing high-quality, artistic images with a particular strength in cinematic and stylized aesthetics. It gives users control over visual style, lighting, and composition to produce images that reflect a specific creative vision rather than generic AI art. The platform is positioned for creators who want more artistic control and output quality than mass-market image generators provide.",
+    features: [
+      "High Quality Generation: Produce detailed, high-resolution AI images",
+      "Style Control: Fine-grained control over visual aesthetic and art direction",
+      "Cinematic Aesthetics: Strong performance on cinematic and dramatic visuals",
+      "Lighting Control: Specify lighting conditions and mood",
+      "Composition Guidance: Direct the framing and composition of generated images",
+      "Multiple Styles: Range from photorealistic to painterly and abstract",
+      "Fast Generation: Quick processing for iterative creative work",
+      "Commercial License: Images cleared for commercial use"
+    ],
+    howToUse: {
+      title: "How to Use Unlucid Ai Image",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Vision", description: "Sign up at unlucid.ai and write a detailed image description including subject, style, lighting, mood, and any specific visual elements you want included." },
+        { title: "Set Style Parameters", description: "Configure the style settings beyond the text prompt - art direction, color palette preferences, and aesthetic approach for more control over the output." },
+        { title: "Generate and Refine", description: "Generate your image and assess the result. Adjust your description and parameters based on what needs to change and regenerate until you achieve the look you want." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Artistic Control Depth", description: "Unlucid provides more nuanced control over visual aesthetics than tools optimized for accessibility - which matters when you have a specific creative vision rather than a general idea" },
+      { title: "Cinematic Strength", description: "The platform particularly excels at cinematic, dramatic imagery - movie poster aesthetics, dramatic lighting, and scenes with emotional impact" },
+      { title: "Commercial Viability", description: "Clear commercial licensing means generated images can be used in actual creative and commercial projects without legal uncertainty" },
+      { title: "Quality Over Volume", description: "Unlucid prioritizes generation quality over generation speed - suitable for creators who care about the final image quality more than producing many images quickly" }
+    ],
+    useCases: [
+      { title: "Visual Artists and Designers", description: "Creative professionals use Unlucid for high-quality image generation that matches their specific artistic vision" },
+      { title: "Marketing and Brand Teams", description: "Marketing professionals use Unlucid to generate high-quality visuals for campaigns and brand materials" },
+      { title: "Filmmakers and Concept Artists", description: "Film and media professionals use Unlucid for concept visualization and reference image generation" }
+    ]
+  },
+  "toppdf-para": {
+    whatIs: "TopPDF is an AI-powered PDF processing and paraphrasing tool that helps users extract, summarize, and rewrite content from PDF documents. It can process academic papers, business reports, and other PDF documents to produce summaries, paraphrased versions, and key point extractions. For researchers, students, and professionals who work with large volumes of PDF documents, it reduces the time needed to process and understand document content.",
+    features: [
+      "PDF Processing: Extract and analyze content from PDF documents",
+      "AI Paraphrasing: Rewrite PDF content in different styles and voices",
+      "Document Summarization: Generate concise summaries of long PDFs",
+      "Key Point Extraction: Identify and list the most important points",
+      "Academic Papers: Specialized handling of research paper structure",
+      "Multiple Languages: Process and output in different languages",
+      "Batch Processing: Handle multiple PDFs simultaneously",
+      "Free to Try: Basic PDF processing without payment"
+    ],
+    howToUse: {
+      title: "How to Use Toppdf Para",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your PDF", description: "Sign up at toppdf.io and upload the PDF document you want to process. The tool accepts standard PDF formats of any length." },
+        { title: "Choose Your Output", description: "Select what you need - a summary, paraphrased version, key point extraction, or full rewrite. Configure the length and style of the output." },
+        { title: "Review and Use", description: "Review the generated output and make any necessary edits. Download or copy the processed content for use in your work." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Document Processing Scale", description: "Researchers who work with dozens of papers simultaneously use PDF AI tools to process document content faster than manual reading allows" },
+      { title: "Paraphrasing for Understanding", description: "Paraphrasing complex academic or technical content into clearer language helps readers understand difficult material more quickly" },
+      { title: "Summary for Decision Making", description: "Business professionals who receive long reports use PDF summarization to quickly understand the key points without reading every page" },
+      { title: "Multilingual Accessibility", description: "Processing PDFs and outputting summaries in different languages makes content accessible to international users and teams" }
+    ],
+    useCases: [
+      { title: "Academic Researchers", description: "Researchers processing large volumes of academic papers use TopPDF to quickly extract relevant information from documents in their field" },
+      { title: "Students Writing Literature Reviews", description: "Students reviewing many sources for essays and dissertations use the summarization features to efficiently process their source material" },
+      { title: "Business Professionals", description: "Executives and analysts use TopPDF to quickly extract key information from lengthy business reports and documents" }
+    ]
+  },
+  "colorify-ai": {
+    whatIs: "Colorify AI is an AI image colorization tool that adds realistic color to black and white photographs. It uses deep learning trained on millions of colorized images to predict and apply historically and contextually appropriate colors to monochrome photos. For families with old black and white photographs, historians, and photographers working with archival material, Colorify transforms historical images into vivid color versions that make them feel immediate and personal.",
+    features: [
+      "AI Colorization: Add realistic color to black and white photos automatically",
+      "Historical Accuracy: Colors appropriate to the era and context of the photo",
+      "Portrait Enhancement: Specialized handling of skin tones and facial features",
+      "Old Photo Restoration: Combine colorization with damage repair",
+      "High Resolution Output: Full quality colorized images for printing",
+      "Fast Processing: Results in seconds not minutes",
+      "Multiple Photo Support: Process several photos in one session",
+      "Free to Try: Test colorization on sample photos before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Colorify Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to colorify.ai and upload your black and white photograph. The tool works best with clear, well-scanned photos where the subjects and scene are clearly visible." },
+        { title: "Review the Colorization", description: "The AI analyzes the photo content and applies contextually appropriate colors. Review the result - skin tones, clothing, backgrounds - and assess how realistic the colorization looks." },
+        { title: "Download Your Color Photo", description: "Download the colorized version in full resolution. For printing or sharing, the output maintains the quality of the original scan with added color." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Historical Authenticity", description: "Colorify is trained to apply colors that are appropriate to the historical context of the image rather than random colors - which produces more believable results for period photographs" },
+      { title: "Emotional Impact", description: "Color photographs feel more immediate and personal than black and white - colorizing old family photos changes how people relate to historical images of their relatives" },
+      { title: "Portrait Skin Tone Quality", description: "Realistic skin tones are the hardest part of photo colorization to get right. Colorify's specific training on portrait colorization produces more natural-looking results for photos of people" },
+      { title: "Accessibility of History", description: "Making historical photographs feel more vivid and present helps people connect with history in a more immediate way than sepia-toned archival images" }
+    ],
+    useCases: [
+      { title: "Families Restoring Old Photos", description: "People with collections of old black and white family photographs use Colorify to create color versions that bring their family history to life" },
+      { title: "Historians and Archivists", description: "History educators and archivists use colorization to make historical photographs more engaging and accessible for modern audiences" },
+      { title: "Photographers and Retouchers", description: "Photography professionals use Colorify as part of photo restoration workflows for clients who want color versions of old portraits" }
+    ]
+  },
+  "sora-image": {
+    whatIs: "Sora Image refers to the image generation capabilities within OpenAI's Sora platform, which produces high-quality still images alongside its video generation. Using the same underlying model that powers Sora's video generation, the image outputs benefit from the model's understanding of photorealistic rendering, lighting, and scene composition. Access is available through ChatGPT Plus and Pro subscriptions alongside the video generation capabilities.",
+    features: [
+      "High Quality Images: Photorealistic and artistic image generation",
+      "Scene Composition: Strong understanding of spatial relationships and composition",
+      "Lighting Realism: Sophisticated lighting and shadow rendering",
+      "Style Range: From photorealistic to painterly and illustrated",
+      "Detailed Subjects: Complex scenes with multiple elements rendered coherently",
+      "ChatGPT Integration: Access through existing ChatGPT subscription",
+      "Commercial Use: Images available for commercial purposes",
+      "Prompt Flexibility: Wide range of subject matter and styles"
+    ],
+    howToUse: {
+      title: "How to Use Sora Image",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Through ChatGPT", description: "Access Sora's image generation through your ChatGPT Plus or Pro subscription. Navigate to the image generation option and write your prompt." },
+        { title: "Write a Detailed Prompt", description: "Describe your image with as much specificity as possible - subject, setting, lighting, style, mood, and any specific visual details you want included in the output." },
+        { title: "Generate and Download", description: "Generate your image and review the result. Download images you want to use and refine your prompt for variations or improvements." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Video Model Strength", description: "Sora's image generation benefits from training on video data which gives the model strong understanding of how scenes look across time - producing more coherent and realistic spatial relationships" },
+      { title: "OpenAI Integration", description: "Existing ChatGPT subscribers can access image generation without additional subscriptions - it is part of the same platform they already use for text tasks" },
+      { title: "Composition Understanding", description: "The model's video training gives it sophisticated understanding of scene composition and how elements relate to each other spatially" },
+      { title: "Quality Consistency", description: "Sora's image outputs tend to be consistently high quality across different subject types rather than excelling in some areas and failing in others" }
+    ],
+    useCases: [
+      { title: "ChatGPT Power Users", description: "People who already use ChatGPT Plus for text tasks use Sora's image generation as an additional capability without switching to a separate image tool" },
+      { title: "Creative Professionals", description: "Designers and artists use Sora for high-quality image generation that benefits from the model's sophisticated understanding of visual composition" },
+      { title: "Content Creators", description: "Video and social media creators use Sora to generate still images alongside their video content within the same platform" }
+    ]
+  },
+  "handtext-ai": {
+    whatIs: "Handtext AI is a tool that converts typed text into realistic handwritten text images. It simulates different handwriting styles - from neat cursive to casual printing - producing output that looks like it was actually written by hand rather than generated digitally. For creating personalized cards, notes, educational materials, and content that benefits from a human handwritten feel, Handtext produces convincing handwriting at scale.",
+    features: [
+      "Handwriting Simulation: Convert typed text to realistic handwritten appearance",
+      "Multiple Styles: Different handwriting styles from neat to casual",
+      "Cursive Options: Flowing cursive handwriting styles",
+      "Print Styles: Casual and neat print handwriting variations",
+      "Customization: Adjust size, slant, and spacing",
+      "Image Export: Download as image files for use in documents",
+      "Background Options: Different paper textures and backgrounds",
+      "Free to Use: Basic handwriting generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Handtext Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Type Your Text", description: "Go to the Handtext AI tool and type the text you want to convert to handwriting. You can enter anything from a short note to a longer letter." },
+        { title: "Choose Your Style", description: "Select the handwriting style that fits your purpose - neat cursive for a formal letter feel, casual print for a friendly note, or other available styles." },
+        { title: "Download Your Image", description: "Download the handwritten text as an image file. Import it into your document, card design, or content where you need the handwritten appearance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization at Scale", description: "Creating genuinely handwritten content at scale is impossible - Handtext provides the aesthetic of handwriting without the physical constraint of actually writing everything by hand" },
+      { title: "Authenticity Feel", description: "Handwritten text conveys warmth and personal attention that typed text does not - which is why handwriting simulation has practical value for marketing, cards, and personal communications" },
+      { title: "Style Consistency", description: "AI-generated handwriting maintains consistent style across long documents in a way that actual handwriting varies - useful when you need the handwritten look with typographic consistency" },
+      { title: "Educational Use", description: "Teachers use handwriting simulation for creating worksheets and materials that present content in a less formal, more approachable format" }
+    ],
+    useCases: [
+      { title: "Card and Invitation Designers", description: "People creating greeting cards, wedding invitations, and personal notes use Handtext to add a handwritten element without actually writing everything by hand" },
+      { title: "Marketing Professionals", description: "Marketers use handwritten text styles in campaigns and direct mail to create a personal, attention-getting aesthetic" },
+      { title: "Educators Creating Materials", description: "Teachers use Handtext to create educational materials with a friendly, approachable handwritten appearance" }
+    ]
+  },
+  "supermeme-ai": {
+    whatIs: "Supermeme AI is an AI meme generator that creates relevant, funny memes from text prompts or topics. You describe what you want the meme to be about and the AI selects an appropriate meme template, writes the caption text, and produces a shareable meme image. For social media managers, content creators, and anyone who wants to participate in meme culture without spending time hunting for templates and crafting captions, Supermeme makes meme creation fast and accessible.",
+    features: [
+      "AI Meme Generation: Create memes from text descriptions automatically",
+      "Template Selection: AI chooses appropriate meme formats for your topic",
+      "Caption Writing: AI writes the caption text that makes the meme work",
+      "Large Template Library: Hundreds of popular meme templates available",
+      "Custom Text: Edit generated captions before downloading",
+      "Multiple Languages: Generate memes in different languages",
+      "Bulk Generation: Create multiple meme variations at once",
+      "Free to Try: Basic meme generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Supermeme Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Meme", description: "Sign up at supermeme.ai and describe what you want your meme to be about - the topic, the humor angle, or the specific sentiment you want to express." },
+        { title: "Review the Generated Meme", description: "Supermeme selects a template and writes caption text that fits your description. Review whether the template choice and caption work for your intended humor." },
+        { title: "Edit and Download", description: "Adjust the caption text if needed to fine-tune the joke, then download the finished meme for sharing on social media or messaging." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Template and Caption Together", description: "Good memes require matching the right template to the right caption - a caption that works perfectly on one template falls flat on another. Supermeme's AI makes this matching decision automatically" },
+      { title: "Meme Literacy", description: "Understanding which meme formats convey which types of humor requires familiarity with meme culture that not everyone has. Supermeme's template selection applies this knowledge automatically" },
+      { title: "Speed for Social Media", description: "Social media relevance is time-sensitive. Being able to generate a meme about a trending topic in seconds rather than minutes matters for timely participation" },
+      { title: "Multilingual Memes", description: "Generating memes in different languages makes meme culture accessible to non-English audiences and international brand social media accounts" }
+    ],
+    useCases: [
+      { title: "Social Media Managers", description: "Community managers and social media professionals use Supermeme to create relevant meme content quickly for brand accounts" },
+      { title: "Content Creators", description: "YouTube creators and influencers use Supermeme to generate meme content for their communities and social media channels" },
+      { title: "Anyone Who Wants to Be Funny Online", description: "Individuals use Supermeme to participate in meme culture and create shareable content without needing deep meme knowledge or design skills" }
+    ]
+  },
   "dreampress-ai": {
     whatIs: "DreamPress AI is an AI-powered WordPress content generation platform that helps bloggers and website owners create SEO-optimized articles, product descriptions, and web copy directly within their WordPress dashboard. It integrates as a WordPress plugin, meaning content is generated and published without leaving the CMS. For WordPress site owners who want AI writing assistance without switching between tools, DreamPress brings the generation workflow into the platform they already use.",
     features: [
