@@ -1,4 +1,208 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "smartlead": {
+    whatIs: "Smartlead is a cold email outreach platform built for sales teams and agencies that need to send high volumes of personalized cold emails without landing in spam. It handles email warm-up automatically, rotates sending across multiple mailboxes, and uses AI to personalize emails at scale. The infrastructure focus - deliverability, warm-up, and rotation - is what separates Smartlead from simpler email tools that work fine at low volume but fail when you need to send thousands of emails per week reliably.",
+    features: [
+      "Email Warm-Up: Automatic mailbox warm-up to build sender reputation",
+      "Multi-Mailbox Rotation: Rotate sending across multiple accounts for better deliverability",
+      "AI Personalization: Generate personalized email content at scale",
+      "Unlimited Mailboxes: Connect as many sending accounts as you need",
+      "Campaign Analytics: Track opens, replies, and conversion metrics",
+      "Lead Management: Organize and manage prospects within the platform",
+      "A/B Testing: Test subject lines and email variants for optimization",
+      "API Integration: Connect with your CRM and other sales tools"
+    ],
+    howToUse: {
+      title: "How to Use Smartlead",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Mailboxes", description: "Sign up at smartlead.ai and connect your sending email accounts. Enable automatic warm-up for new accounts to build sender reputation before launching full campaigns." },
+        { title: "Build Your Campaign", description: "Import your lead list and write your email sequence. Use the AI personalization to customize opening lines and references for each prospect based on their profile data." },
+        { title: "Launch and Monitor", description: "Start your campaign and monitor deliverability, open rates, and reply rates in the analytics dashboard. Adjust your messaging and sequences based on what the data shows is working." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Deliverability Infrastructure", description: "Cold email volume that lands in spam is worthless. Smartlead's warm-up and rotation infrastructure addresses deliverability as the primary concern rather than treating it as an afterthought" },
+      { title: "Unlimited Mailbox Scale", description: "Serious cold email operations use multiple sending accounts to distribute volume and protect deliverability. Smartlead's unlimited mailbox model supports this approach without per-mailbox pricing penalties" },
+      { title: "AI Personalization at Volume", description: "Personalizing emails manually at scale is impossible. AI personalization that generates relevant first lines and references makes high-volume outreach feel individual without manual effort for each prospect" },
+      { title: "Agency Multi-Client Support", description: "Agencies managing outreach for multiple clients use Smartlead to keep campaigns separated and track performance across their entire client portfolio from one platform" }
+    ],
+    useCases: [
+      { title: "B2B Sales Teams", description: "Sales development representatives and account executives use Smartlead to run systematic cold outreach campaigns that generate a consistent pipeline of interested prospects" },
+      { title: "Lead Generation Agencies", description: "Agencies that run outbound campaigns for clients use Smartlead for the deliverability infrastructure and multi-client management that their business model requires" },
+      { title: "Founders Doing Outbound Sales", description: "Early-stage founders running their own sales use Smartlead to execute professional outbound campaigns without a dedicated sales operations team" }
+    ]
+  },
+  "structurely": {
+    whatIs: "Structurely is an AI-powered lead qualification and follow-up platform built specifically for real estate. Its AI assistant named Aisa Holmes conducts text message conversations with real estate leads, qualifies them by asking about timeline, budget, and preferences, and nurtures them over months until they are ready to talk to a human agent. For real estate teams that generate leads but struggle to follow up with all of them fast enough or consistently enough, Structurely provides automated qualification that works around the clock.",
+    features: [
+      "AI Lead Qualification: Automated text conversations that qualify real estate leads",
+      "Instant Response: Responds to new leads within seconds of inquiry",
+      "Long-Term Nurturing: Follows up with leads for months without human involvement",
+      "Budget and Timeline Qualification: Asks the right questions to assess lead readiness",
+      "CRM Integration: Connects with major real estate CRM platforms",
+      "Hot Lead Alerts: Notifies agents immediately when leads are ready to talk",
+      "Conversation Handoff: Transfers qualified leads to human agents with full context",
+      "Multi-Channel: Works via text, email, and chat",
+      "Real Estate Specific: Trained specifically on real estate conversations",
+      "Reporting: Track qualification rates and lead pipeline health"
+    ],
+    howToUse: {
+      title: "How to Use Structurely",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Lead Sources", description: "Sign up at structurely.com and connect your lead sources - website forms, Zillow, Realtor.com, or your CRM. New leads automatically enter the Structurely qualification flow." },
+        { title: "Customize Your Questions", description: "Configure the qualification criteria that matter for your market - timeline, budget range, pre-approval status, and location preferences. Structurely uses these to guide its conversations." },
+        { title: "Receive Qualified Leads", description: "When Aisa qualifies a lead as ready to talk, you receive an immediate alert with the full conversation history. Pick up the conversation with a warm lead who has already expressed clear intent." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed to Lead", description: "The first responder to a real estate inquiry wins a disproportionate share of the business. Structurely's second-level response time is faster than any human team can achieve consistently" },
+      { title: "Long-Term Nurturing Reality", description: "Most real estate leads are not ready to transact for months. Structurely follows up consistently for up to a year without human effort - which captures business that teams without automation simply lose" },
+      { title: "Real Estate Training", description: "Being trained specifically on real estate conversations means Structurely asks the right questions and handles objections appropriately for the industry rather than using generic sales scripts" },
+      { title: "Agent Time Protection", description: "Agents spend their most valuable time with qualified, ready leads rather than manually qualifying every inquiry - which changes the economics of lead generation significantly" }
+    ],
+    useCases: [
+      { title: "Real Estate Teams and Brokerages", description: "Real estate offices with high lead volume use Structurely to ensure every lead gets followed up immediately and consistently regardless of agent availability" },
+      { title: "Individual Real Estate Agents", description: "Agents who generate leads through digital marketing use Structurely to qualify and nurture leads while they are focused on active clients" },
+      { title: "Real Estate Investors", description: "Property investors who need to qualify large volumes of seller leads use Structurely to identify motivated sellers efficiently" }
+    ]
+  },
+  "brandroot": {
+    whatIs: "Brandroot is a marketplace of premium pre-made business names and matching domain names for entrepreneurs and startups who need a professional brand name quickly. Each listing includes a unique business name, the matching .com domain, and a logo concept. Rather than spending weeks brainstorming names, testing availability, and negotiating for domains, entrepreneurs can browse Brandroot's inventory and acquire a complete brand identity in minutes. The names are developed by professional naming specialists rather than generated randomly.",
+    features: [
+      "Premium Name Inventory: Curated marketplace of professional business names",
+      "Matching Domains: Every name comes with the exact-match .com domain",
+      "Logo Included: Basic logo concept provided with each name purchase",
+      "Category Browse: Filter names by industry and business type",
+      "Instant Transfer: Domain transferred immediately after purchase",
+      "Professional Naming: Names developed by naming specialists not generators",
+      "Search Function: Find names matching specific keywords or sounds",
+      "One-Time Purchase: Own the name and domain outright with no ongoing fees"
+    ],
+    howToUse: {
+      title: "How to Use Brandroot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse by Category", description: "Go to brandroot.com and browse names by your industry category - technology, health, finance, or others. Or use the search to find names matching specific keywords that relate to your business." },
+        { title: "Evaluate Your Options", description: "Review names that appeal to you. Consider how the name sounds when spoken, how it looks as a logo, and whether it communicates something relevant about your business." },
+        { title: "Purchase and Transfer", description: "When you find the right name, purchase it. Brandroot transfers the domain to your registrar account immediately and provides the logo files. Your brand identity is ready to use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed to Brand", description: "Startups that need to move quickly use Brandroot to skip the weeks of naming process and have a professional brand identity ready immediately" },
+      { title: "Domain Availability Solved", description: "Finding a good .com domain is one of the hardest parts of naming a business today. Brandroot curates names where the .com is available and transfers it as part of the purchase" },
+      { title: "Professional Quality", description: "Names developed by naming specialists have the linguistic quality - memorability, pronounceability, and distinctiveness - that distinguishes professional naming from random generation" },
+      { title: "Complete Package", description: "Getting the name, domain, and logo concept together eliminates the separate steps of domain purchase and initial logo creation that normally follow the naming process" }
+    ],
+    useCases: [
+      { title: "Startup Founders", description: "Entrepreneurs launching new ventures use Brandroot to find a professional brand name quickly without the time and cost of a custom naming project" },
+      { title: "Small Business Owners Rebranding", description: "Existing businesses that need a new name use Brandroot to find available professional names without starting from scratch" },
+      { title: "Entrepreneurs Launching Multiple Ventures", description: "Serial entrepreneurs who launch multiple businesses use Brandroot to name each one efficiently without spending significant time on each naming process" }
+    ]
+  },
+  "inspirobot-quotes": {
+    whatIs: "InspiroBot is an AI that generates unique, often surreal and darkly humorous inspirational quotes paired with stock photo backgrounds. It was created as a commentary on the genre of generic motivational content that floods social media, and its quotes are deliberately strange, contradictory, or unsettling in ways that satirize the format. Despite its satirical intent, it has developed a genuine following of users who enjoy its unpredictable outputs for entertainment, creative inspiration, and social media content.",
+    features: [
+      "Infinite Quotes: Generates unlimited unique quotes on demand",
+      "Auto Pairing: Matches generated quotes with relevant background images",
+      "Surreal Humor: Deliberately strange and satirical motivational content",
+      "Shareable Format: Output formatted for social media sharing",
+      "Free to Use: Completely free with no account required",
+      "One Click Generation: New quote with every button press",
+      "Download Option: Save generated quote images",
+      "No Repetition: Each generation produces a unique output"
+    ],
+    howToUse: {
+      title: "How to Use Inspirobot Quotes",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Press Generate", description: "Go to inspirobot.me and click the generate button. InspiroBot produces a unique quote paired with an image instantly." },
+        { title: "Keep Generating", description: "If the first result does not resonate or amuse, press generate again. The variation between outputs is part of the experience - some will be mundane, some will be strange, and some will be unexpectedly profound." },
+        { title: "Save and Share", description: "When you get a quote that fits your purpose - whether for genuine sharing, satirical use, or creative inspiration - download the image or share it directly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Satirical Commentary", description: "InspiroBot works as genuine commentary on the motivational quote genre by demonstrating how arbitrary and meaningless the format becomes when applied algorithmically - which is both funny and intellectually interesting" },
+      { title: "Unpredictability as Feature", description: "The range from banal to bizarre to accidentally profound in each generation is what makes InspiroBot engaging. You never know what you will get which keeps users pressing generate" },
+      { title: "Social Media Entertainment", description: "The shareable format and surreal content make InspiroBot outputs genuinely entertaining social media content in a way that sincere motivational quotes often are not" },
+      { title: "Creative Inspiration", description: "Writers, artists, and creative professionals use InspiroBot outputs as unexpected creative prompts - the strange juxtapositions of text and image sometimes trigger genuinely useful creative ideas" }
+    ],
+    useCases: [
+      { title: "Social Media Users and Creators", description: "People who enjoy sharing unusual and satirical content use InspiroBot to generate conversation-starting posts that subvert the motivational quote format" },
+      { title: "Creative Professionals", description: "Writers and artists use InspiroBot as a source of unexpected creative prompts, using the surreal outputs as starting points for their own creative work" },
+      { title: "Anyone Who Needs a Laugh", description: "People who find the genre of motivational quotes over-earnest use InspiroBot for entertainment that acknowledges the absurdity of the format" }
+    ]
+  },
+  "slite": {
+    whatIs: "Slite is a team knowledge base and documentation platform designed for async-first teams that need to build and maintain internal documentation without the chaos of documents scattered across Google Docs, Notion, and email threads. It combines AI-powered search that actually understands what you are looking for with a clean writing interface and structured channels for organizing documentation by team and topic. The AI assistant can answer questions directly from your company documentation rather than requiring you to find and read documents manually.",
+    features: [
+      "AI Search: Find answers from your documentation through natural language questions",
+      "AI Doc Assistant: Ask questions and get answers synthesized from your knowledge base",
+      "Channels: Organize documentation by team and topic",
+      "Clean Editor: Distraction-free writing interface for documentation",
+      "Templates: Pre-built templates for common documentation types",
+      "Version History: Track changes and restore previous versions",
+      "Collaborative Editing: Multiple team members editing simultaneously",
+      "Slack Integration: Access Slite documentation from Slack",
+      "Verification: Mark documents as verified and up-to-date",
+      "Guest Access: Share specific documents with external collaborators"
+    ],
+    howToUse: {
+      title: "How to Use Slite",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Channels", description: "Sign up at slite.com and create channels for your main documentation areas - engineering, product, HR, processes. The channel structure keeps documentation organized by context." },
+        { title: "Import or Write Your Docs", description: "Import existing documentation from Notion, Confluence, or Google Docs, or start writing directly. Use templates for common document types to maintain consistency." },
+        { title: "Use AI to Find Answers", description: "When team members need information, they ask the AI assistant rather than searching manually. The AI reads your documentation and synthesizes accurate answers rather than just returning search results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI That Reads Your Docs", description: "Generic search returns documents that might contain what you need. Slite's AI reads the documents and answers your specific question directly - which is the difference between finding a resource and getting an answer" },
+      { title: "Verification System", description: "Documentation goes out of date constantly. Slite's verification feature lets teams mark documents as current and flag outdated content - which addresses the fundamental trust problem with internal wikis" },
+      { title: "Async-First Design", description: "Slite is built for teams that communicate asynchronously across time zones - the documentation-first approach means information is captured in writing rather than locked in meetings and Slack threads" },
+      { title: "Slack Integration Practicality", description: "Making documentation accessible from Slack means team members can find answers without leaving the tool they are already working in" }
+    ],
+    useCases: [
+      { title: "Remote and Distributed Teams", description: "Teams working across time zones use Slite to maintain accessible documentation that answers common questions without synchronous communication" },
+      { title: "Growing Startups Building Processes", description: "Startups that are scaling use Slite to capture institutional knowledge and processes before that knowledge becomes too distributed to document" },
+      { title: "Engineering and Product Teams", description: "Technical teams use Slite for internal wikis, runbooks, and product documentation that the AI assistant makes genuinely searchable and useful" }
+    ]
+  },
+  "airbrush": {
+    whatIs: "Airbrush is an AI image generation platform focused on making high-quality AI art accessible to non-technical users. It provides a simple interface for generating images from text prompts with a selection of art styles and models, plus tools for editing and enhancing generated images. The platform targets marketers, content creators, and small business owners who want to use AI image generation for practical content needs rather than for artistic experimentation.",
+    features: [
+      "Text to Image: Generate images from text descriptions",
+      "Multiple Art Styles: Choose from various visual styles for generation",
+      "Image Editing: Edit and enhance generated images",
+      "Background Removal: Remove backgrounds from generated images",
+      "Image Upscaling: Increase resolution of generated images",
+      "Stock Image Alternative: Generate custom images for content needs",
+      "Commercial License: Generated images cleared for commercial use",
+      "Fast Generation: Quick image creation for content workflows",
+      "Free Credits: Try generation before purchasing",
+      "Simple Interface: Designed for non-technical content creators"
+    ],
+    howToUse: {
+      title: "How to Use Airbrush",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Image", description: "Sign up at airbrush.ai and describe the image you want to create. Include details about the subject, style, mood, and composition for the most accurate results." },
+        { title: "Choose Your Style", description: "Select an art style that fits your content need - photorealistic for product imagery, illustrated for blog graphics, or abstract for decorative content." },
+        { title: "Download and Use", description: "Download your generated image for use in your content. Images come with commercial licensing so you can use them in marketing materials, websites, and social media without rights concerns." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Commercial Licensing Clarity", description: "Generated images with clear commercial licensing remove the legal uncertainty that comes with using AI art for business purposes - which is a genuine practical concern for marketers and businesses" },
+      { title: "Non-Technical Focus", description: "Airbrush's interface is designed for content creators and marketers rather than AI art enthusiasts - which means less complexity and more focus on getting usable content quickly" },
+      { title: "Stock Image Replacement", description: "Custom AI-generated images that match your specific content need are often more relevant than stock photos from libraries - and Airbrush makes generating them accessible without prompt engineering expertise" },
+      { title: "Editing Integration", description: "Being able to edit and upscale generated images in the same platform reduces the round-trips between different tools in the content creation workflow" }
+    ],
+    useCases: [
+      { title: "Content Marketers and Bloggers", description: "Content creators use Airbrush to generate custom images for blog posts, social media, and marketing materials that match their specific content rather than using generic stock photos" },
+      { title: "Small Business Owners", description: "Business owners use Airbrush to create marketing visuals, product mockups, and website images without hiring a designer or purchasing stock photo subscriptions" },
+      { title: "Social Media Managers", description: "Social media professionals use Airbrush to maintain a consistent flow of custom visual content across their channels" }
+    ]
+  },
   "riffusion-song": {
     whatIs: "Riffusion is an AI music generation tool that creates original music from text prompts using a unique approach - it generates spectrograms as images and converts them to audio, rather than generating audio directly. This means you can describe a musical style, mood, or genre in plain language and Riffusion produces a short musical clip that matches your description. It is particularly good at genre blending and unusual style combinations that traditional music tools struggle with.",
     features: [
