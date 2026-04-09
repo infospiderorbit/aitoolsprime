@@ -1,4 +1,278 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "editgpt": {
+    whatIs: "EditGPT is a browser extension that brings ChatGPT-powered proofreading and editing directly into your browser. It tracks changes like Microsoft Word's track changes feature, showing you exactly what was added, removed, or modified when you ask AI to edit your text. For writers and professionals who want AI editing assistance but need to see and approve each change rather than accepting a wholesale rewrite, EditGPT provides the transparency and control that makes AI editing actually useful.",
+    features: [
+      "Track Changes: See exactly what AI changed with additions and deletions highlighted",
+      "Browser Extension: Works directly in your browser without switching tools",
+      "ChatGPT Integration: Uses ChatGPT for editing and proofreading",
+      "Selective Acceptance: Accept or reject individual changes",
+      "Multiple Edit Types: Proofreading, style improvement, and rewriting modes",
+      "Google Docs Support: Works within Google Docs interface",
+      "Gmail Integration: Edit emails with AI assistance before sending",
+      "Free to Use: Core editing features accessible without payment"
+    ],
+    howToUse: {
+      title: "How to Use Editgpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Install the EditGPT browser extension from the Chrome Web Store. It activates automatically when you are using ChatGPT or supported platforms like Google Docs." },
+        { title: "Submit Your Text for Editing", description: "Paste or write your text and ask EditGPT to proofread or improve it. Instead of returning a rewritten version, EditGPT shows you tracked changes highlighting every modification." },
+        { title: "Review and Accept Changes", description: "Go through the tracked changes one by one. Accept the improvements you agree with and reject any changes that do not fit your intended meaning or style." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Tracked Changes Transparency", description: "Accepting a wholesale AI rewrite means losing control of your own writing. EditGPT's tracked changes approach lets you see every modification and maintain authorship over the final output" },
+      { title: "Word-Familiar Workflow", description: "The tracked changes interface is familiar to anyone who has used Microsoft Word's review features - which makes EditGPT immediately intuitive without a learning curve" },
+      { title: "Selective Editing Control", description: "Being able to accept individual changes rather than all or nothing gives writers precise control over how much AI editing influences their final text" },
+      { title: "Browser Native", description: "Working as a browser extension means EditGPT is available wherever you write online rather than requiring you to use a specific platform" }
+    ],
+    useCases: [
+      { title: "Writers and Bloggers", description: "Content writers use EditGPT to get AI proofreading assistance while maintaining visibility into every change the AI suggests" },
+      { title: "Professionals Editing Business Documents", description: "Business professionals use EditGPT to improve the quality of reports, emails, and documents with AI assistance without losing control of the content" },
+      { title: "Students Proofreading Academic Work", description: "Students use EditGPT to identify and fix errors in their academic writing with the transparency to understand what changed and why" }
+    ]
+  },
+  "fadr-remix": {
+    whatIs: "Fadr is an AI music remixing and stem separation platform that lets producers and DJs create remixes, mashups, and new arrangements from existing songs. It separates tracks into stems - vocals, drums, bass, and melody - and provides tools for remixing those components into new compositions. The platform also generates AI-powered beat suggestions and chord progressions that complement the original material. For producers who want to work with existing music as raw material for new creations, Fadr provides the tools to do it efficiently.",
+    features: [
+      "Stem Separation: Split songs into vocals, drums, bass, and melody tracks",
+      "Remix Tools: Rearrange and combine stems into new compositions",
+      "Beat Generation: AI-generated beats that complement your stems",
+      "Chord Detection: Identify and display chords from any song",
+      "Key and BPM Detection: Automatically identifies musical key and tempo",
+      "Mashup Creation: Combine elements from multiple songs",
+      "MIDI Export: Export musical elements as MIDI for DAW use",
+      "Mobile App: Create remixes on iOS and Android devices"
+    ],
+    howToUse: {
+      title: "How to Use Fadr Remix",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Track", description: "Sign up at fadr.com and upload the song you want to remix. Fadr separates it into stems automatically and displays the key and BPM." },
+        { title: "Work with Your Stems", description: "Use the stem separation to isolate the elements you want - keep the vocals from one song, the beat from another. Adjust levels and arrangements in Fadr's mixing interface." },
+        { title: "Export Your Remix", description: "Export your finished remix as an audio file or export specific stems and MIDI for continued work in your DAW." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessible Remixing", description: "Creating remixes traditionally requires professional audio software and significant technical skill. Fadr makes remixing accessible to producers at any skill level through its simplified interface" },
+      { title: "Mobile Production", description: "The mobile app means producers can work with stems and create remixes anywhere rather than being tied to a desktop studio setup" },
+      { title: "Chord and Key Intelligence", description: "Automatic key and BPM detection removes the manual work of identifying musical parameters before you can start working with a track" },
+      { title: "Mashup Workflow", description: "Tools specifically designed for combining elements from multiple songs make mashup creation much faster than working in a general-purpose DAW" }
+    ],
+    useCases: [
+      { title: "DJs Creating Custom Remixes", description: "DJs use Fadr to create custom remix versions of songs for their sets, isolating and rearranging elements to create unique versions" },
+      { title: "Music Producers Sampling Existing Material", description: "Producers use Fadr's stem separation to extract clean samples from existing recordings for use in new productions" },
+      { title: "Music Students and Hobbyists", description: "People learning music production use Fadr to experiment with existing songs and understand how they are constructed by working with their separated components" }
+    ]
+  },
+  "messari": {
+    whatIs: "Messari is a crypto intelligence and research platform that provides professional-grade data, analytics, and research on cryptocurrency assets and blockchain projects. It aggregates on-chain data, market metrics, protocol analytics, and qualitative research into a platform used by institutional investors, fund managers, and serious crypto analysts. For anyone making significant investment or business decisions in the crypto space, Messari provides the depth of data and research that consumer crypto apps do not offer.",
+    features: [
+      "Asset Profiles: Comprehensive data on thousands of crypto assets",
+      "On-Chain Analytics: Blockchain data and protocol metrics",
+      "Research Reports: Professional analyst research on crypto projects",
+      "Market Data: Real-time and historical price and volume data",
+      "Screener: Filter assets by dozens of metrics and parameters",
+      "Governance Tracking: Track governance proposals across protocols",
+      "Fundraising Data: Track crypto investment and fundraising rounds",
+      "API Access: Programmatic access to Messari data",
+      "Pro Research: In-depth analyst reports for subscribers",
+      "Portfolio Tracking: Monitor your crypto holdings with analytics"
+    ],
+    howToUse: {
+      title: "How to Use Messari",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Asset", description: "Go to messari.io and search for the cryptocurrency or protocol you want to research. Each asset has a comprehensive profile with market data, on-chain metrics, and background information." },
+        { title: "Explore the Analytics", description: "Dive into the on-chain data, revenue metrics, and protocol analytics for DeFi and blockchain projects. Use the screener to compare assets across multiple metrics simultaneously." },
+        { title: "Read the Research", description: "Access analyst research reports for deeper qualitative analysis of projects, sectors, and market trends. Pro subscribers get access to the full research library." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Institutional Grade Data", description: "Messari provides the depth and reliability of data that institutional investors require for serious capital allocation decisions - which is different from the surface-level data consumer crypto apps provide" },
+      { title: "On-Chain Intelligence", description: "Blockchain data provides insights into actual protocol usage, revenue, and activity that market price data alone cannot reveal - Messari makes this data accessible without requiring technical blockchain expertise" },
+      { title: "Research Depth", description: "Professional analyst research that covers the qualitative aspects of crypto projects - team, technology, competitive position, risks - complements the quantitative data for comprehensive due diligence" },
+      { title: "Governance Coverage", description: "Tracking governance proposals across major protocols gives participants and observers visibility into how these decentralized organizations are evolving" }
+    ],
+    useCases: [
+      { title: "Crypto Investors and Fund Managers", description: "Professional investors in digital assets use Messari for the research depth and data quality their investment process requires" },
+      { title: "Blockchain Researchers and Analysts", description: "Researchers studying crypto markets and protocols use Messari's data infrastructure to support their analysis" },
+      { title: "Crypto Industry Professionals", description: "People working in the crypto industry use Messari to stay informed about competitive dynamics, funding trends, and protocol developments" }
+    ]
+  },
+  "affpilot": {
+    whatIs: "AffPilot is an AI content writing platform designed specifically for affiliate marketing content. It generates SEO-optimized product reviews, comparison articles, and buyer's guides - the specific content types that drive affiliate revenue. The platform understands affiliate content conventions like pros and cons sections, product specifications, and call-to-action placement, producing content that is structured for conversion rather than just information.",
+    features: [
+      "Affiliate Content Focus: Specialized for product reviews and buyer's guides",
+      "SEO Optimization: Content structured for search ranking",
+      "Product Reviews: Complete AI-generated product review articles",
+      "Comparison Articles: Side-by-side product comparison content",
+      "Buyer's Guides: Comprehensive category buying guide generation",
+      "Pros and Cons: Automatic pros and cons section generation",
+      "Bulk Generation: Create multiple articles simultaneously",
+      "WordPress Integration: Publish directly to WordPress sites"
+    ],
+    howToUse: {
+      title: "How to Use Affpilot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Product", description: "Sign up at affpilot.com and enter the product or category you want to write about. Specify the content type - review, comparison, or buyer's guide." },
+        { title: "Generate Your Article", description: "AffPilot generates a complete article with the structure and sections that affiliate content requires - introduction, features, pros and cons, verdict, and call to action." },
+        { title: "Optimize and Publish", description: "Review the generated content, add any specific product data or personal experience, and publish directly to your WordPress site or export for your CMS." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Affiliate Structure Understanding", description: "Generic AI writers produce information articles. AffPilot understands the specific structure that makes affiliate content convert - the review format, the comparison tables, the buying decision framework" },
+      { title: "SEO for Commercial Intent", description: "Affiliate content targets keywords with commercial intent where search volume and conversion potential intersect. AffPilot generates content structured for these specific keyword types" },
+      { title: "Bulk Production Capacity", description: "Affiliate sites need large volumes of product content to cover their target categories. Bulk generation makes it practical to cover an entire product category rather than writing individual reviews one at a time" },
+      { title: "WordPress Native", description: "Direct WordPress publishing removes the copy-paste step that adds friction to high-volume content production workflows" }
+    ],
+    useCases: [
+      { title: "Affiliate Marketers and Bloggers", description: "Affiliate website owners use AffPilot to produce the product review and comparison content that drives their commission revenue" },
+      { title: "Niche Site Builders", description: "People building niche content sites for passive income use AffPilot to populate their sites with affiliate content across their target product categories" },
+      { title: "Content Agencies Serving Affiliate Clients", description: "Agencies producing affiliate content for clients use AffPilot to scale production across multiple client sites and product categories" }
+    ]
+  },
+  "hypeauditor": {
+    whatIs: "HypeAuditor is an influencer analytics and fraud detection platform that helps brands and agencies identify genuine influencers, analyze audience quality, and manage influencer marketing campaigns. It analyzes follower authenticity, audience demographics, engagement rates, and growth patterns to distinguish real influence from inflated metrics. For brands investing significant budgets in influencer marketing, HypeAuditor provides the intelligence needed to avoid wasting money on influencers with fake or low-quality audiences.",
+    features: [
+      "Influencer Discovery: Search millions of influencers across platforms",
+      "Fraud Detection: Identify fake followers and engagement manipulation",
+      "Audience Quality Score: Quantitative assessment of audience authenticity",
+      "Demographic Analysis: Understand influencer audience age, location, and interests",
+      "Engagement Analysis: Assess real engagement rates versus industry benchmarks",
+      "Campaign Management: Track influencer campaign performance",
+      "Competitor Analysis: See which influencers competitors are working with",
+      "Multi-Platform: Analysis across Instagram, YouTube, TikTok, and others",
+      "Reporting: Generate reports for client and stakeholder presentations",
+      "API Access: Integrate HypeAuditor data into your own workflows"
+    ],
+    howToUse: {
+      title: "How to Use Hypeauditor",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search for Influencers", description: "Sign up at hypeauditor.com and use the discovery tool to search for influencers by niche, platform, follower count, and location. Filter by audience quality score to surface genuine influencers." },
+        { title: "Analyze Audience Quality", description: "Review the detailed audience analysis for influencers you are considering. Check the authenticity score, demographic breakdown, and engagement quality before making outreach decisions." },
+        { title: "Track Your Campaigns", description: "After launching campaigns, use HypeAuditor's tracking tools to monitor performance metrics and measure the actual reach and engagement your investment is generating." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Fraud Detection Value", description: "Influencer fraud - purchased followers, engagement pods, fake growth - is widespread enough to be a significant risk for brands without detection tools. HypeAuditor's fraud analysis protects marketing budgets" },
+      { title: "Audience Quality Over Quantity", description: "Follower count is a poor proxy for actual influence. HypeAuditor's audience quality metrics reveal whether an influencer's following is genuine and engaged versus inflated and passive" },
+      { title: "Demographic Verification", description: "Confirming that an influencer's audience matches your target demographic before committing budget prevents the common problem of reaching the wrong people despite high engagement" },
+      { title: "Competitive Intelligence", description: "Understanding which influencers competitors are partnering with provides strategic intelligence for influencer strategy and budget allocation" }
+    ],
+    useCases: [
+      { title: "Brand Marketing Teams", description: "Marketing departments allocating influencer budgets use HypeAuditor to make data-driven influencer selection decisions and verify campaign performance" },
+      { title: "Influencer Marketing Agencies", description: "Agencies managing influencer programs for clients use HypeAuditor as their intelligence infrastructure for influencer vetting and campaign reporting" },
+      { title: "PR and Communications Teams", description: "PR professionals use HypeAuditor to identify relevant media influencers and journalists and assess their actual reach and audience quality" }
+    ]
+  },
+  "creatopy": {
+    whatIs: "Creatopy is an AI-powered design and ad creation platform built for marketing teams that need to produce large volumes of visual content efficiently. It focuses on advertising creative - display ads, social media graphics, and video ads - with AI tools that automate resizing, generate variations, and animate static designs. The brand kit and team collaboration features ensure consistency across everything the team produces. For marketing teams running multi-channel campaigns that require many ad sizes and formats, Creatopy's automation capabilities significantly reduce design production time.",
+    features: [
+      "AI Design Generation: Create ad designs from text descriptions",
+      "Automated Resizing: Resize designs to all required formats simultaneously",
+      "Animation Tools: Animate static designs into video ads automatically",
+      "Brand Kit: Centralized brand colors, fonts, and logo management",
+      "Ad Platform Export: Export directly to Google, Meta, and other ad platforms",
+      "Template Library: Thousands of templates for different ad formats",
+      "Team Collaboration: Multiple designers working on shared brand assets",
+      "Bulk Creation: Generate multiple design variations simultaneously",
+      "Dynamic Ads: Create personalized ads with variable content",
+      "White Label: Agency features for client work"
+    ],
+    howToUse: {
+      title: "How to Use Creatopy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Brand Kit", description: "Sign up at creatopy.com and upload your brand assets - logo, colors, and fonts. The brand kit ensures all designs automatically use your correct brand identity." },
+        { title: "Create Your Design", description: "Choose a template or start from scratch. Use the AI tools to generate design concepts or resize an existing design to all required ad formats simultaneously." },
+        { title: "Export and Launch", description: "Export your ads directly to your ad platform accounts or download in the required formats. Use the animation tools to create video versions of static designs for platforms that prefer video creative." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated Resizing Value", description: "Creating ads for a multi-channel campaign requires dozens of size variations. Automated resizing that maintains design quality across all formats eliminates hours of manual resizing work" },
+      { title: "Animation Without Skills", description: "Video ads outperform static ads on most platforms but animation traditionally requires specialized skills. Creatopy's automatic animation tools make video versions accessible without animation expertise" },
+      { title: "Brand Consistency at Scale", description: "Centralized brand kit management ensures that high-volume ad production maintains consistent brand identity rather than drifting as different team members make different design choices" },
+      { title: "Direct Platform Export", description: "Exporting directly to Google and Meta ad platforms removes manual upload steps and format conversion that slow down campaign launch timelines" }
+    ],
+    useCases: [
+      { title: "Performance Marketing Teams", description: "Digital marketing teams running paid campaigns use Creatopy to produce the volume and variety of ad creative that multi-channel campaigns require" },
+      { title: "Creative and Design Agencies", description: "Design agencies use Creatopy's white label features to produce ad creative efficiently for multiple clients while maintaining brand consistency for each" },
+      { title: "E-commerce Marketing Teams", description: "Online retailers use Creatopy's dynamic ad features to create personalized ads that show different products to different audience segments" }
+    ]
+  },
+  "outplay": {
+    whatIs: "Outplay is a multi-channel sales engagement platform that helps sales teams execute personalized outreach across email, phone, SMS, LinkedIn, and chat from one interface. It automates follow-up sequences, tracks engagement, and uses AI to optimize outreach timing and messaging. For sales teams that need to manage high volumes of prospects across multiple channels without losing the personalization that makes outreach effective, Outplay provides the workflow infrastructure to scale systematically.",
+    features: [
+      "Multi-Channel Outreach: Email, phone, SMS, LinkedIn, and chat from one platform",
+      "Automated Sequences: Set up multi-step follow-up sequences",
+      "AI Optimization: AI suggests optimal send times and messaging improvements",
+      "CRM Integration: Syncs with Salesforce, HubSpot, and other CRMs",
+      "Call Recording: Record and review sales calls for coaching",
+      "Email Tracking: See when prospects open emails and click links",
+      "A/B Testing: Test different messages and sequences for optimization",
+      "Team Analytics: Track performance across the sales team",
+      "Meeting Booking: Built-in calendar booking for prospect meetings",
+      "Mobile App: Manage outreach from your phone"
+    ],
+    howToUse: {
+      title: "How to Use Outplay",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Prospects", description: "Sign up at outplayhq.com and import your prospect list from your CRM or CSV. Segment prospects into appropriate sequences based on their profile and stage." },
+        { title: "Build Your Sequences", description: "Create multi-step outreach sequences combining email, LinkedIn, and calls at appropriate intervals. Personalize templates with prospect-specific variables for each step." },
+        { title: "Execute and Optimize", description: "Run your sequences and monitor engagement data. Use the analytics to identify which steps and messages produce the best response rates and refine your approach accordingly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Channel Coordination", description: "Managing outreach across email, LinkedIn, phone, and SMS separately creates operational complexity that causes follow-ups to fall through. Outplay coordinates all channels from one place" },
+      { title: "Sequence Automation", description: "Manual follow-up discipline breaks down at scale. Automated sequences ensure every prospect receives the right touchpoints at the right intervals without relying on individual rep discipline" },
+      { title: "Engagement Visibility", description: "Knowing when a prospect opened your email or clicked a link provides the signal reps need to time their follow-up calls for maximum relevance" },
+      { title: "CRM Synchronization", description: "Keeping outreach activity synced with the CRM ensures pipeline data is accurate and activity history is complete without manual data entry" }
+    ],
+    useCases: [
+      { title: "SDRs and BDRs", description: "Sales development representatives use Outplay to manage high volumes of outbound prospecting across multiple channels with systematic follow-up sequences" },
+      { title: "Account Executives Running Outbound", description: "AEs use Outplay to execute personalized outreach to target accounts with coordinated multi-channel campaigns" },
+      { title: "Sales Managers Coaching Teams", description: "Sales managers use Outplay's analytics and call recording to understand team performance and provide targeted coaching" }
+    ]
+  },
+  "storydoc": {
+    whatIs: "Storydoc is an AI-powered presentation and proposal creation platform that builds interactive, web-based presentations rather than static slide decks. It generates complete presentations from a brief description, with AI that writes the content, selects visuals, and arranges layouts. The output is a web-based presentation that works on any device, includes interactive elements, and provides analytics showing who viewed it and for how long. For sales and marketing teams that send proposals and presentations to prospects, Storydoc's engagement tracking provides valuable intelligence on prospect interest.",
+    features: [
+      "AI Presentation Generation: Create complete presentations from brief descriptions",
+      "Interactive Web Format: Presentations that work in browsers not just slide viewers",
+      "Engagement Analytics: Track who viewed your presentation and for how long",
+      "Sales Proposals: Specialized templates for business proposals and pitches",
+      "CRM Integration: Connect with HubSpot and Salesforce for prospect tracking",
+      "Brand Customization: Apply your brand identity consistently",
+      "Collaboration: Team editing and approval workflows",
+      "Embed Media: Add videos, forms, and interactive elements",
+      "Mobile Optimized: Presentations that work perfectly on phones and tablets",
+      "No Design Skills: Professional results without design expertise"
+    ],
+    howToUse: {
+      title: "How to Use Storydoc",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Presentation", description: "Sign up at storydoc.com and describe what you want to present - your product, the audience, and the key points you need to cover. The AI generates a complete presentation draft." },
+        { title: "Customize the Content", description: "Review the AI-generated content and customize it with your specific information, data, and messaging. Adjust the layout and design to match your brand standards." },
+        { title: "Send and Track", description: "Share your presentation via link rather than file attachment. Monitor the analytics to see when prospects view it, which sections they spend time on, and how many times they return." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Engagement Analytics Value", description: "Knowing that a prospect spent 8 minutes on your pricing slide but only 30 seconds on the features slide tells you something valuable about their priorities that a static PDF never reveals" },
+      { title: "Interactive Over Static", description: "Web-based presentations can include video, forms, calculators, and other interactive elements that static slides cannot - which creates a more engaging experience for the viewer" },
+      { title: "AI Content Generation Speed", description: "Generating a complete first draft of a presentation from a description takes minutes rather than hours - which makes Storydoc particularly valuable when you need to produce many customized proposals" },
+      { title: "CRM Intelligence Integration", description: "Connecting presentation views to CRM records means prospect engagement data flows into your sales process automatically rather than being tracked in a separate system" }
+    ],
+    useCases: [
+      { title: "Sales Teams Sending Proposals", description: "Sales professionals use Storydoc to create and send interactive proposals that provide engagement data to inform their follow-up strategy" },
+      { title: "Marketing Teams Creating Presentations", description: "Marketing departments use Storydoc to produce brand-consistent presentations for campaigns, events, and partner communications" },
+      { title: "Consultants Delivering Client Reports", description: "Consultants use Storydoc to deliver client reports and recommendations in a format that is more engaging than static PDFs and provides visibility into client engagement" }
+    ]
+  },
   "vizard-ai-short": {
     whatIs: "Vizard AI is a video repurposing platform that automatically converts long-form videos into short clips optimized for social media. It uses AI to identify the most engaging moments in a video, crops them to vertical format for TikTok, Instagram Reels, and YouTube Shorts, and adds captions automatically. For content creators and marketers who produce long videos and want to maximize their reach by repurposing them into short-form content, Vizard eliminates the manual work of scrubbing through footage and editing clips by hand.",
     features: [
