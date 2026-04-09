@@ -1,4 +1,241 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "planable-social": {
+    whatIs: "Planable is a social media collaboration and scheduling platform built for marketing teams and agencies that need a streamlined workflow for creating, approving, and publishing social media content. It provides a visual content calendar where teams can draft posts, leave feedback, get approvals from clients or managers, and schedule publishing - all in one place without email chains and spreadsheet trackers. For agencies managing multiple client accounts, Planable's workspace structure keeps each client's content separate while giving the team a unified workflow.",
+    features: [
+      "Visual Content Calendar: Plan and visualize social media content across platforms",
+      "Team Collaboration: Comment, suggest edits, and discuss posts before publishing",
+      "Client Approval: Share content with clients for approval before it goes live",
+      "Multi-Platform Scheduling: Schedule to Instagram, Facebook, LinkedIn, Twitter, and others",
+      "Post Preview: See exactly how posts will look before publishing",
+      "Approval Workflows: Customizable multi-step approval processes",
+      "Media Library: Centralized storage for images and videos",
+      "Analytics: Track post performance after publishing",
+      "Multiple Workspaces: Separate workspaces for different clients or brands",
+      "Free Trial: Test the platform before committing"
+    ],
+    howToUse: {
+      title: "How to Use Planable Social",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Workspace", description: "Sign up at planable.io and create a workspace for your brand or client. Connect your social media accounts and invite your team members and any clients who need approval access." },
+        { title: "Draft Your Content", description: "Create posts in the visual editor. See exactly how they will appear on each platform, add media from your library, and tag collaborators for feedback." },
+        { title: "Approve and Schedule", description: "Send posts through your approval workflow. Once approved, schedule them to publish at optimal times or let Planable's auto-scheduling choose the best times based on your audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Approval Workflow Clarity", description: "Email chains for content approval are chaotic - feedback gets lost, versions multiply, and nobody is sure what the final approved version is. Planable's structured approval workflow eliminates this chaos" },
+      { title: "Client Visibility", description: "Giving clients their own view of upcoming content and an approval mechanism builds trust and prevents surprises - clients know what is going out before it publishes rather than after" },
+      { title: "Visual Preview Accuracy", description: "Seeing exactly how a post will render on each platform before it goes live prevents the formatting surprises that come from drafting in a generic editor" },
+      { title: "Agency Multi-Client Scale", description: "Separate workspaces for each client with a unified team workflow is the specific structure that agencies need - Planable is designed around this use case" }
+    ],
+    useCases: [
+      { title: "Social Media Agencies", description: "Marketing agencies use Planable to manage content production and approval for multiple client accounts with a structured workflow that replaces email and spreadsheet coordination" },
+      { title: "Brand Marketing Teams", description: "In-house marketing teams use Planable to coordinate social media content production across team members and get management approval before publishing" },
+      { title: "Freelance Social Media Managers", description: "Independent social media managers use Planable to provide their clients with a professional content review and approval experience" }
+    ]
+  },
+  "squadhelp": {
+    whatIs: "Squadhelp is a crowdsourced naming and branding platform that connects businesses with a community of over 100,000 naming experts, brand strategists, and creative professionals to develop brand names, slogans, and brand identities. Companies submit a naming brief, the Squadhelp community submits hundreds of name suggestions, and the business selects the winner and purchases the name with the matching domain. For companies that want a professionally developed brand name with real human creativity rather than algorithm-generated options, Squadhelp provides scale and quality through its expert community.",
+    features: [
+      "Crowdsourced Naming: Hundreds of name suggestions from 100,000 plus naming experts",
+      "Domain Included: Every winning name comes with the matching domain",
+      "Logo Design: Professional logo creation alongside naming contests",
+      "Slogan Development: Tagline and slogan creation contests",
+      "Brand Identity: Complete brand identity package development",
+      "AI Name Search: AI-powered instant name suggestions for quick exploration",
+      "Trademark Screening: Basic trademark availability screening",
+      "Money-Back Guarantee: Refund if you are not satisfied with entries",
+      "Managed Contests: Expert guidance for complex naming projects",
+      "Premium Marketplace: Browse pre-developed names with available domains"
+    ],
+    howToUse: {
+      title: "How to Use Squadhelp",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Brief", description: "Sign up at squadhelp.com and submit a naming brief describing your business, target market, naming preferences, and what you want the name to convey. A clear brief produces better entries." },
+        { title: "Review Entries", description: "Over the contest period, naming experts submit hundreds of suggestions. Browse entries, provide feedback on what you like and dislike, and rate entries to guide the community toward better options." },
+        { title: "Select and Purchase", description: "Choose your winning name and purchase it. Squadhelp transfers the domain to your account and provides files for the associated logo if you ran a design contest alongside the naming contest." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Human Creativity at Scale", description: "100,000 creative professionals generating names produces a range and quality of options that no algorithm can match - human naming experts understand cultural nuance, linguistic appeal, and brand strategy" },
+      { title: "Domain Availability Solved", description: "Every winning name comes with the matching domain already secured - which eliminates the most frustrating part of the naming process where great names turn out to have unavailable domains" },
+      { title: "Feedback Loop Quality", description: "Providing feedback on entries and rating them guides the community to better understand what you want - which means the suggestions improve throughout the contest period" },
+      { title: "Money-Back Protection", description: "The satisfaction guarantee reduces the risk of running a naming contest - if the entries do not meet your expectations you can get a refund rather than settling for a name you do not love" }
+    ],
+    useCases: [
+      { title: "Startups Naming Their Company", description: "Founders launching new companies use Squadhelp to get hundreds of professional name suggestions and find a name that is distinctive, available, and strategically sound" },
+      { title: "Established Companies Launching New Products", description: "Large companies launching new product lines use Squadhelp for the creative diversity that its community provides alongside the speed of a contest format" },
+      { title: "Entrepreneurs Rebranding", description: "Business owners who need to rebrand use Squadhelp to find a new name that better reflects their evolved business without the cost of a traditional naming agency" }
+    ]
+  },
+  "instantdomainsearch": {
+    whatIs: "Instant Domain Search is a fast, real-time domain name availability checker that shows results as you type rather than requiring you to submit a search and wait. It checks .com, .net, .org, and hundreds of other TLDs simultaneously and suggests alternatives when your first choice is taken. For entrepreneurs and developers who need to quickly find available domain names, the real-time response makes the search process significantly faster than traditional domain registrars.",
+    features: [
+      "Real-Time Search: Domain availability results appear as you type",
+      "Multiple TLDs: Check availability across hundreds of domain extensions simultaneously",
+      "AI Suggestions: Alternative name suggestions when your first choice is unavailable",
+      "Instant Results: No search button or waiting required",
+      "Domain Auctions: Find and bid on domains currently for sale",
+      "Expired Domains: Discover recently expired domains that are available",
+      "Register Direct: Purchase available domains from the search results",
+      "Free to Use: Search without any account or payment required"
+    ],
+    howToUse: {
+      title: "How to Use Instantdomainsearch",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Type Your Name", description: "Go to instantdomainsearch.com and start typing your desired domain name. Results appear in real time as you type showing availability across different extensions." },
+        { title: "Explore Alternatives", description: "If your preferred name is taken, review the suggested alternatives and related names. The AI suggestions often surface options you would not have thought of that are both available and relevant." },
+        { title: "Register Your Domain", description: "When you find an available name you want, click through to register it directly from the search results through a connected registrar." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Feedback Loop", description: "Seeing availability as you type rather than submitting searches changes the dynamic of domain brainstorming - you can quickly iterate through variations and find what is available without repeated search cycles" },
+      { title: "TLD Breadth", description: "Checking hundreds of extensions simultaneously reveals options beyond .com - while .com is ideal, alternatives like .io, .co, or industry-specific TLDs are often available when .com is not" },
+      { title: "No Friction Search", description: "No account required and no search submission means anyone can check domain availability instantly without any barrier to entry" },
+      { title: "Auction and Expired Discovery", description: "The ability to find domains in auction or recently expired opens up options that would not appear in a standard availability search" }
+    ],
+    useCases: [
+      { title: "Entrepreneurs and Startup Founders", description: "Founders brainstorming business names use Instant Domain Search to check availability in real time as they think of options rather than searching separately for each idea" },
+      { title: "Developers and Technical Users", description: "Developers who frequently need to acquire domains for projects use it for the speed and simplicity compared to registrar search interfaces" },
+      { title: "Anyone Checking Domain Availability", description: "Anyone who needs to quickly verify whether a specific domain name is available uses Instant Domain Search for its immediacy and breadth of results" }
+    ]
+  },
+  "unifab": {
+    whatIs: "UniFab is an AI video enhancement and processing platform that uses deep learning to upscale video resolution, improve video quality, remove noise, and convert standard dynamic range content to HDR. It is designed for video enthusiasts and professionals who want to improve the quality of older or lower-quality video footage without access to professional post-production facilities. The platform processes video locally using your GPU for fast results without uploading footage to cloud servers.",
+    features: [
+      "Video Upscaling: Increase video resolution up to 4K with AI",
+      "HDR Conversion: Convert SDR video to HDR10 and Dolby Vision",
+      "Noise Reduction: Remove grain and noise from video footage",
+      "Frame Interpolation: Increase frame rate for smoother motion",
+      "Subtitle Generation: Automatic subtitle creation for videos",
+      "Local Processing: Runs on your GPU without cloud upload",
+      "Multiple Formats: Supports common video input and output formats",
+      "Batch Processing: Process multiple video files simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Unifab",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Video", description: "Download UniFab from unifab.ai and import the video you want to enhance. The software analyzes your content and recommends appropriate enhancement settings." },
+        { title: "Choose Your Enhancement", description: "Select the enhancements you want to apply - upscaling to 4K, HDR conversion, noise reduction, or frame interpolation. You can combine multiple enhancements in one processing pass." },
+        { title: "Process and Export", description: "UniFab processes your video using your local GPU. Processing time depends on video length and your hardware. Export the finished video in your preferred format when complete." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Local Processing Privacy", description: "Processing video locally means your footage never leaves your computer - which matters for personal content, client work, and any video with privacy considerations" },
+      { title: "HDR Democratization", description: "HDR conversion that previously required professional post-production tools is accessible through UniFab's AI processing - which brings broadcast-quality enhancement within reach of individual creators" },
+      { title: "Combined Enhancement Efficiency", description: "Applying multiple enhancement passes in sequence degrades quality. UniFab combines enhancements in a single processing pass which produces better results than sequential tools" },
+      { title: "GPU Acceleration Speed", description: "Local GPU processing is faster than cloud processing for long video files because it eliminates upload and download time - particularly significant for 4K source material" }
+    ],
+    useCases: [
+      { title: "Home Theater Enthusiasts", description: "Video enthusiasts use UniFab to upscale their DVD and Blu-ray collections to 4K and convert to HDR for better quality on modern displays" },
+      { title: "Content Creators Improving Older Footage", description: "YouTubers and video creators use UniFab to enhance older footage they want to repurpose, bringing it up to modern quality standards" },
+      { title: "Filmmakers Working with Archival Material", description: "Independent filmmakers use UniFab to improve the quality of archival footage they incorporate into documentary and narrative projects" }
+    ]
+  },
+  "thetawise": {
+    whatIs: "Thetawise is an AI tutoring and homework help platform that provides step-by-step explanations for math, science, and other subjects. It is designed to help students understand how to solve problems rather than just providing answers - the explanations walk through each step of the solution process with clear reasoning. For students who are stuck on homework or want to understand concepts more deeply, Thetawise provides the kind of patient, detailed explanation that tutors provide but available instantly and at any hour.",
+    features: [
+      "Step-by-Step Solutions: Complete problem walkthrough with each step explained",
+      "Math Help: Algebra, calculus, statistics, and other mathematics subjects",
+      "Science Subjects: Physics, chemistry, and biology problem solving",
+      "Photo Input: Take a photo of your problem for instant analysis",
+      "Multiple Explanation Styles: Get the same concept explained different ways",
+      "Practice Problems: Generate similar problems to reinforce understanding",
+      "24/7 Availability: Get help at any time without scheduling",
+      "Free to Start: Basic problem solving accessible without payment"
+    ],
+    howToUse: {
+      title: "How to Use Thetawise",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Problem", description: "Sign up at thetawise.ai and type your problem or take a photo of it. Thetawise analyzes the problem and identifies the concepts and methods needed to solve it." },
+        { title: "Follow the Steps", description: "Read through the step-by-step solution. Each step explains what is being done and why - not just the calculation but the reasoning behind each decision in the solution process." },
+        { title: "Deepen Your Understanding", description: "If a step is unclear, ask for further explanation. Use the practice problem generator to work through similar problems and confirm you have understood the method, not just the answer." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Understanding Over Answers", description: "Giving students just the answer to a homework problem does not help them learn. Thetawise's step-by-step explanations teach the method so students can solve similar problems independently" },
+      { title: "Photo Input Convenience", description: "Taking a photo of a textbook problem or handwritten question is faster than typing it out - particularly for math problems with complex notation" },
+      { title: "24/7 Availability", description: "Students do homework at night and on weekends when tutors are not available. Always-on availability means students can get unstuck immediately rather than waiting for help" },
+      { title: "Multiple Explanation Approaches", description: "Some concepts click for students when explained one way and not another. The ability to request alternative explanations accommodates different learning styles" }
+    ],
+    useCases: [
+      { title: "High School Students", description: "Secondary school students use Thetawise for homework help and exam preparation across math and science subjects" },
+      { title: "College Students in STEM", description: "University students in mathematics, physics, and engineering programs use Thetawise for help with challenging problem sets" },
+      { title: "Self-Directed Adult Learners", description: "Adults learning or relearning math and science concepts for professional development or personal interest use Thetawise for clear conceptual explanations" }
+    ]
+  },
+  "parakeetai": {
+    whatIs: "Parakeet AI is an AI meeting assistant that joins your video calls, records the audio, transcribes the conversation in real time, and generates meeting summaries and action items automatically. It integrates with Zoom, Google Meet, and Microsoft Teams and delivers a structured summary with key decisions and tasks to all participants after the meeting ends. For professionals who attend many meetings and need accurate records of what was discussed and decided, Parakeet eliminates the manual note-taking that distracts from active participation.",
+    features: [
+      "Auto Recording: Join and record meetings automatically",
+      "Real-Time Transcription: Live transcription during the meeting",
+      "Meeting Summary: AI-generated summary of key points and decisions",
+      "Action Item Extraction: Automatically identifies and lists action items",
+      "Speaker Identification: Labels who said what in the transcript",
+      "Zoom Integration: Works with Zoom meetings natively",
+      "Google Meet Support: Integrates with Google Meet",
+      "Microsoft Teams: Works within Teams meetings",
+      "Search Transcripts: Search past meeting transcripts for specific content",
+      "Share Summaries: Distribute meeting summaries to participants automatically"
+    ],
+    howToUse: {
+      title: "How to Use Parakeetai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Calendar", description: "Sign up at parakeet.ai and connect your calendar. Parakeet automatically joins your scheduled video meetings without manual intervention for each call." },
+        { title: "Attend Your Meeting", description: "Participate in your meeting normally. Parakeet joins as a bot participant, records the audio, and transcribes in real time. You can focus on the conversation rather than taking notes." },
+        { title: "Review Your Summary", description: "After the meeting, Parakeet delivers a structured summary with key points, decisions, and action items. Share it with participants or save it to your project management tool." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Active Participation Over Note-Taking", description: "Taking notes during a meeting divides your attention between listening and writing. Parakeet lets you be fully present in the conversation while ensuring nothing is missed" },
+      { title: "Action Item Accountability", description: "Automatically extracted action items with owner attribution create clarity about who is responsible for what - which prevents the common problem of tasks being forgotten or disputed after meetings" },
+      { title: "Search Across Meetings", description: "Searchable transcripts mean you can find specific discussions from past meetings without rewatching recordings or relying on memory" },
+      { title: "Automatic Distribution", description: "Sending summaries to all participants automatically means everyone has the same record of what was discussed without the organizer manually writing and distributing notes" }
+    ],
+    useCases: [
+      { title: "Professionals in High Meeting Volume Roles", description: "Managers, consultants, and other professionals who attend many meetings use Parakeet to maintain accurate records without the overhead of manual note-taking" },
+      { title: "Remote and Distributed Teams", description: "Teams working across time zones use Parakeet summaries to keep everyone informed about meetings they could not attend in real time" },
+      { title: "Project Managers Tracking Decisions", description: "Project managers use Parakeet to maintain a searchable record of project decisions and action items across all project meetings" }
+    ]
+  },
+  "autoae": {
+    whatIs: "AutoAE is an AI automation platform for Adobe After Effects that generates expressions, scripts, and automation code from natural language descriptions. Rather than learning the complex expression syntax that After Effects uses for animation automation, users describe what they want in plain English and AutoAE generates the code. For motion designers and video editors who use After Effects professionally, it removes one of the steepest technical barriers in the application.",
+    features: [
+      "Expression Generation: Create After Effects expressions from plain English descriptions",
+      "Script Generation: Generate JSX scripts for After Effects automation",
+      "Natural Language Input: Describe what you want in plain English",
+      "Expression Explanation: Understand what existing expressions do",
+      "Common Presets: Library of pre-built expressions for common tasks",
+      "Time-Based Expressions: Generate time and keyframe-based animation code",
+      "Layer Linking: Create expressions that link properties between layers",
+      "Free to Try: Test expression generation before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Autoae",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Expression", description: "Go to autoae.com and describe the animation behavior you want to create in plain English. For example, describe a wiggle effect, a loop, or a value that changes based on time." },
+        { title: "Copy the Generated Code", description: "AutoAE generates the After Effects expression code. Copy it and paste it into the expression field in After Effects for the property you want to animate." },
+        { title: "Test and Refine", description: "Apply the expression and see how it behaves in your composition. If it needs adjustment, refine your description and regenerate or modify the code directly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Expression Barrier Removal", description: "After Effects expressions use JavaScript-based syntax that many motion designers never fully learn. AutoAE removes this barrier completely by handling the syntax from plain language descriptions" },
+      { title: "Explanation for Learning", description: "The ability to explain existing expressions helps designers understand what inherited or downloaded expressions do - which builds expression literacy over time" },
+      { title: "Speed for Known Tasks", description: "Even designers who know expressions well use AutoAE to generate common expressions faster than writing them from memory - it is a speed tool as much as an accessibility tool" },
+      { title: "Script Automation", description: "Generating full JSX scripts extends beyond expressions to automating repetitive After Effects tasks that would otherwise require manual work for each project" }
+    ],
+    useCases: [
+      { title: "Motion Designers and Animators", description: "Motion graphics professionals use AutoAE to create complex expression-driven animations without getting stuck on syntax details" },
+      { title: "Video Editors Using After Effects", description: "Video editors who use After Effects for titles and graphics but are not deep expression users use AutoAE to access expression capabilities they would otherwise skip" },
+      { title: "After Effects Students", description: "Students learning After Effects use AutoAE to understand expressions and experiment with animation automation without being blocked by the learning curve" }
+    ]
+  },
   "editgpt": {
     whatIs: "EditGPT is a browser extension that brings ChatGPT-powered proofreading and editing directly into your browser. It tracks changes like Microsoft Word's track changes feature, showing you exactly what was added, removed, or modified when you ask AI to edit your text. For writers and professionals who want AI editing assistance but need to see and approve each change rather than accepting a wholesale rewrite, EditGPT provides the transparency and control that makes AI editing actually useful.",
     features: [
