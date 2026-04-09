@@ -1,4 +1,519 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "coze": {
+    whatIs: "Coze is an AI application development platform from ByteDance that lets developers and non-technical users build AI-powered bots, assistants, and workflows without extensive coding. It provides a visual interface for creating AI agents with memory, tool access, knowledge bases, and multi-step workflows. Bots built on Coze can be deployed across multiple platforms including Discord, Telegram, Slack, and web interfaces from a single build. For teams that want to build custom AI assistants tailored to their specific use cases without building from scratch, Coze provides a fast and flexible foundation.",
+    features: [
+      "Bot Builder: Create AI bots and assistants with a visual no-code interface",
+      "Plugin System: Extend bots with tools for web search, image generation, and more",
+      "Knowledge Base: Upload documents and data for your bot to reference",
+      "Memory System: Bots remember context across conversations",
+      "Multi-Platform Deploy: Publish to Discord, Telegram, Slack, and web in one step",
+      "Workflow Builder: Create multi-step automated AI workflows visually",
+      "Scheduling: Run bots on schedules for automated tasks",
+      "Free to Start: Generous free tier for building and deploying bots"
+    ],
+    howToUse: {
+      title: "How to Use Coze",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Bot", description: "Sign up at coze.com and create a new bot. Define its persona, set its instructions, and connect any plugins it needs - web search, image generation, code execution, or others." },
+        { title: "Add Your Knowledge", description: "Upload documents, FAQs, or other reference material to your bot's knowledge base. The bot draws on this content when answering questions, making it specific to your use case rather than generic." },
+        { title: "Deploy Everywhere", description: "Connect your bot to the platforms where your users are - Discord, Telegram, Slack, or embed it on your website. One build deploys across all connected platforms simultaneously." }
+      ]
+    },
+    coreFeatures: [
+      { title: "One Build Multi-Platform", description: "Building separate bots for Discord, Telegram, and your website would normally require separate development work. Coze deploys one bot across all platforms simultaneously which is a genuine time saver" },
+      { title: "Knowledge Base Specificity", description: "A bot with access to your specific documentation, product information, and FAQs gives much more relevant answers than a generic AI assistant - Coze makes that specificity straightforward to set up" },
+      { title: "Plugin Extensibility", description: "The plugin system turns a simple chat bot into something that can take actions - searching the web, generating images, running code - which dramatically expands what bots can actually do" },
+      { title: "No-Code Accessibility", description: "Building AI bots that actually work well typically requires engineering expertise. Coze's visual builder makes capable bot creation accessible to product managers, marketers, and other non-technical creators" }
+    ],
+    useCases: [
+      { title: "Community Managers Building Bots", description: "Community managers for Discord and Telegram servers use Coze to build custom bots that answer questions, moderate discussions, and engage members without coding skills" },
+      { title: "Businesses Automating Customer Support", description: "Companies use Coze to build customer-facing bots with knowledge bases containing their product documentation, FAQs, and support information" },
+      { title: "Developers Prototyping AI Agents", description: "Engineers use Coze to quickly prototype AI agent ideas and test them across platforms before deciding whether to build a custom implementation" }
+    ]
+  },
+  "chatgpt": {
+    whatIs: "ChatGPT is OpenAI's conversational AI platform and the tool that brought large language models into mainstream public awareness. It lets users have extended conversations with GPT-4 and other OpenAI models, generate text, write and debug code, analyze documents and images, browse the web, generate images with DALL-E, and run custom GPTs built by the community. With over 100 million users, it is the most widely used AI assistant in the world and has become a default first stop for a huge range of tasks - from drafting emails to solving complex technical problems.",
+    features: [
+      "GPT-4o Access: Conversations with OpenAI's most capable multimodal model",
+      "Image Understanding: Analyze and discuss images, charts, and documents",
+      "Web Browsing: Search the web for current information during conversations",
+      "DALL-E Image Generation: Create images from text descriptions",
+      "Code Interpreter: Write, run, and debug code directly in the conversation",
+      "Custom GPTs: Access thousands of specialized GPTs built for specific tasks",
+      "Voice Mode: Speak with ChatGPT using natural voice conversation",
+      "Memory: ChatGPT remembers things about you across conversations",
+      "File Analysis: Upload and analyze PDFs, spreadsheets, and other documents",
+      "API Access: Integrate GPT models into your own applications"
+    ],
+    howToUse: {
+      title: "How to Use Chatgpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start a Conversation", description: "Go to chat.openai.com or open the ChatGPT app. Type your question, request, or task in plain language. ChatGPT responds immediately and you can continue the conversation to refine the output." },
+        { title: "Upload Files or Images", description: "For tasks involving documents, images, or data, attach your files directly to the conversation. ChatGPT analyzes the content and responds to questions about it or performs tasks based on what it contains." },
+        { title: "Explore Custom GPTs", description: "Browse the GPT Store to find specialized GPTs built for specific tasks - coding, writing, research, design, and more. Custom GPTs have specific instructions and knowledge that make them more useful for particular workflows." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multimodal Capability", description: "ChatGPT handles text, images, files, voice, and code in one conversation - which means you rarely need to switch to a different tool for different types of tasks" },
+      { title: "Custom GPT Ecosystem", description: "The thousands of community-built custom GPTs mean there is often a specialized version of ChatGPT optimized for your specific use case already available" },
+      { title: "Iterative Conversation", description: "The ability to follow up, ask for changes, and refine outputs through conversation is what makes ChatGPT genuinely useful rather than just impressive - you can get to the exact result you need through dialogue" },
+      { title: "Memory Personalization", description: "ChatGPT's memory feature learns your preferences, context, and recurring needs over time, making conversations progressively more useful as it accumulates relevant information about you" }
+    ],
+    useCases: [
+      { title: "Knowledge Workers and Professionals", description: "Executives, analysts, lawyers, and professionals across industries use ChatGPT to draft documents, summarize information, analyze data, and handle writing tasks that would otherwise take much longer" },
+      { title: "Developers and Engineers", description: "Software engineers use ChatGPT's code generation, debugging, and explanation capabilities to solve programming problems, learn new technologies, and accelerate development work" },
+      { title: "Students and Learners", description: "Students use ChatGPT to understand difficult concepts, get feedback on their writing, explore topics in depth, and get explanations tailored to their level of knowledge" }
+    ]
+  },
+  "mailchimp": {
+    whatIs: "Mailchimp is the email marketing platform that most people think of first - it started in 2001 and has grown from a simple newsletter tool into a full marketing platform covering email, SMS, social media ads, landing pages, and automation. The AI features help with subject line optimization, send time prediction, content generation, and audience segmentation. For small businesses and growing companies that want professional email marketing without a marketing team, Mailchimp provides the tools and templates to look professional from the start.",
+    features: [
+      "Email Campaigns: Design and send professional email newsletters",
+      "Marketing Automation: Automated email sequences triggered by subscriber behavior",
+      "AI Content Tools: AI assistance for subject lines, copy, and content suggestions",
+      "Audience Segmentation: Divide subscribers into targeted groups for personalized sending",
+      "Landing Pages: Create dedicated pages for campaigns and sign-up forms",
+      "SMS Marketing: Send text message campaigns alongside email",
+      "Social Ads: Create and manage Facebook and Instagram ads",
+      "A/B Testing: Test subject lines, content, and send times",
+      "Analytics: Detailed reporting on opens, clicks, and revenue attribution",
+      "Free Plan: Send up to 1000 emails per month free with basic features"
+    ],
+    howToUse: {
+      title: "How to Use Mailchimp",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Audience", description: "Sign up at mailchimp.com and import your existing contact list or set up a sign-up form to grow your audience from scratch. Mailchimp organizes your contacts and lets you tag and segment them." },
+        { title: "Create Your Campaign", description: "Use the drag-and-drop email builder to design your campaign. Start from one of Mailchimp's templates and customize it with your branding, content, and images." },
+        { title: "Automate and Optimize", description: "Set up welcome sequences for new subscribers, abandoned cart emails for e-commerce, and other automated journeys. Use A/B testing to continuously improve your subject lines and content performance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brand Recognition and Trust", description: "Mailchimp is the most recognized email marketing brand in the world - which means integrations, tutorials, and support resources are abundant in ways that newer platforms cannot match" },
+      { title: "Free Tier Accessibility", description: "The free plan is genuinely useful for small lists and occasional sending - which means businesses can start professional email marketing before they have the budget for a paid tool" },
+      { title: "All-in-One Marketing", description: "Having email, SMS, social ads, and landing pages in one platform with shared audience data gives a more connected view of marketing performance than using separate tools for each channel" },
+      { title: "AI Optimization", description: "Send time optimization and subject line suggestions backed by data from billions of emails give Mailchimp users access to optimization intelligence that would take years of individual testing to accumulate" }
+    ],
+    useCases: [
+      { title: "Small Businesses Starting Email Marketing", description: "Small business owners who want to build and engage an email list use Mailchimp for its accessibility, templates, and free starting point" },
+      { title: "E-commerce Brands", description: "Online stores use Mailchimp's e-commerce integrations for abandoned cart recovery, purchase follow-ups, and product recommendation emails tied to customer behavior" },
+      { title: "Nonprofits and Community Organizations", description: "Organizations that communicate regularly with supporters and members use Mailchimp for professional email communication at affordable or free pricing" }
+    ]
+  },
+  "eraser": {
+    whatIs: "Eraser is a technical diagramming and documentation tool built specifically for software engineering teams. It combines a Markdown-based text editor with diagram generation so engineers can create architecture diagrams, flowcharts, entity-relationship diagrams, and sequence diagrams alongside written documentation in the same document. The AI features can generate diagrams from natural language descriptions, making it faster to create technical visuals. For engineering teams that find general-purpose tools like Confluence too slow for technical documentation and Lucidchart too disconnected from written content, Eraser fills the gap.",
+    features: [
+      "AI Diagram Generation: Create diagrams from natural language descriptions",
+      "Code-Based Diagrams: Write diagrams as code for version control compatibility",
+      "Architecture Diagrams: Cloud architecture and system design visualization",
+      "Sequence Diagrams: Document API flows and system interactions",
+      "ER Diagrams: Entity-relationship diagrams for database design",
+      "Flowcharts: Process and logic flow visualization",
+      "Markdown Editor: Write technical documentation alongside diagrams",
+      "Team Collaboration: Real-time collaborative editing for engineering teams",
+      "Version Control Friendly: Text-based diagram code works with Git workflows",
+      "Templates: Pre-built templates for common engineering diagram types"
+    ],
+    howToUse: {
+      title: "How to Use Eraser",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Diagram", description: "Sign up at eraser.io and open a new document. Describe the system or flow you want to diagram in plain language and let the AI generate the initial diagram structure." },
+        { title: "Refine with Code or UI", description: "Edit the generated diagram using either the visual interface or the underlying diagram code. The code-based approach means diagrams can be version-controlled alongside your actual codebase." },
+        { title: "Combine with Documentation", description: "Write your technical documentation in the same document alongside your diagrams. Eraser keeps both in sync so your written explanation and visual representation live together rather than in separate tools." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Docs and Diagrams Together", description: "The constant switching between a documentation tool and a separate diagramming tool breaks flow and leads to diagrams that go out of sync with the documentation. Eraser keeps them in the same place" },
+      { title: "Code-Based Diagram Philosophy", description: "Diagrams as code rather than GUI drawings can be version controlled, diffed, and reviewed in pull requests like any other code change - which fits engineering workflows much better than binary diagram files" },
+      { title: "AI Speed for Common Diagrams", description: "Generating a first draft of an architecture or sequence diagram from a description is much faster than drawing it from scratch - and for standard patterns the AI output needs minimal editing" },
+      { title: "Engineering Team Alignment", description: "Eraser is built around the way software engineers actually think and work rather than trying to adapt a general-purpose tool for engineering documentation needs" }
+    ],
+    useCases: [
+      { title: "Software Engineers Documenting Systems", description: "Backend and platform engineers use Eraser to document system architecture, API flows, and database schemas alongside written technical specifications" },
+      { title: "Engineering Managers and Tech Leads", description: "Technical leaders use Eraser to create architecture decision records and system documentation that communicates clearly with both technical and non-technical stakeholders" },
+      { title: "Engineering Teams During Design Phase", description: "Teams designing new systems use Eraser collaboratively during the design phase to iterate on architecture diagrams and document decisions before implementation begins" }
+    ]
+  },
+  "tidio": {
+    whatIs: "Tidio is a customer communication platform that combines live chat, AI chatbot automation, and email marketing in one tool designed for e-commerce and small businesses. Its Lyro AI chatbot can handle up to 70 percent of customer inquiries automatically by learning from your website content and support documentation, which means your team handles the complex cases while routine questions get answered instantly around the clock. For online stores and service businesses that want to respond to every customer quickly without expanding their support team, Tidio makes 24/7 customer service practical.",
+    features: [
+      "Lyro AI Chatbot: AI handles up to 70 percent of customer questions automatically",
+      "Live Chat: Real-time human chat when customers need personal assistance",
+      "Email Marketing: Automated email campaigns and follow-ups",
+      "E-commerce Integration: Deep integration with Shopify, WooCommerce, and others",
+      "Visitor Tracking: See who is on your website and what they are looking at",
+      "Automated Flows: Trigger messages based on visitor behavior",
+      "Multi-Channel: Manage chat, email, and messenger from one inbox",
+      "Mobile App: Respond to customers from your phone",
+      "Free Plan: Start with basic live chat without paying",
+      "Analytics: Track chat performance and customer satisfaction"
+    ],
+    howToUse: {
+      title: "How to Use Tidio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Add Tidio to Your Site", description: "Sign up at tidio.com and install the chat widget on your website. For Shopify and WooCommerce stores there is a one-click integration. The chat widget appears on your site immediately." },
+        { title: "Train Lyro AI", description: "Connect your FAQ pages, help documentation, and common question-answer pairs to Lyro. The AI learns from this content and begins answering customer questions automatically based on what you have taught it." },
+        { title: "Handle What AI Cannot", description: "When Lyro cannot handle a question or a customer requests human help, the conversation routes to your live team. You see full context of what the AI already discussed so you do not need to start over." }
+      ]
+    },
+    coreFeatures: [
+      { title: "70 Percent Automation Rate", description: "Handling 70 percent of inquiries without human involvement means a small support team can effectively serve a much larger customer base - particularly valuable for growing e-commerce stores without large support budgets" },
+      { title: "24/7 Without Staff", description: "Customers shop at all hours. Lyro answers common questions at 3am the same way it does at 3pm - which eliminates the lost sales and frustrated customers that come from unanswered questions outside business hours" },
+      { title: "E-commerce Specificity", description: "The deep Shopify and WooCommerce integration means Lyro can access order information, shipping status, and product details to answer customer questions with actual data rather than generic responses" },
+      { title: "Single Inbox Simplicity", description: "Managing customer communications across chat, email, and social from one inbox reduces the operational complexity that comes with juggling multiple separate customer communication tools" }
+    ],
+    useCases: [
+      { title: "E-commerce Stores Scaling Support", description: "Online stores that are growing faster than they can hire support staff use Tidio to handle increasing customer inquiry volume without proportionally increasing headcount" },
+      { title: "Small Businesses Wanting 24/7 Support", description: "Small teams that cannot staff 24-hour support use Tidio's Lyro AI to provide round-the-clock answers to common questions while the human team focuses on complex cases" },
+      { title: "Service Businesses Converting Website Visitors", description: "Businesses that get significant website traffic use Tidio's proactive chat triggers to engage visitors at the right moment and convert more of them into customers" }
+    ]
+  },
+  "predis-ai-creative": {
+    whatIs: "Predis.ai is an AI social media content creation platform that generates complete social media posts - image, video, caption, and hashtags together - from a simple text prompt or product description. Where most AI tools handle either text or visuals, Predis generates the full post package so content creators and marketers can go from idea to publishable content in minutes. The competitive analysis feature also lets you analyze what competitors are posting and performing best, turning their public content into intelligence for your own strategy.",
+    features: [
+      "Complete Post Generation: Generate image, caption, and hashtags together from a prompt",
+      "Video Creation: Create short social media videos with AI-generated visuals",
+      "Competitor Analysis: Analyze competitor social media content and performance",
+      "Brand Kit: Apply your colors, fonts, and logo to all generated content",
+      "Multi-Platform: Generate content optimized for Instagram, Facebook, LinkedIn, and TikTok",
+      "Content Calendar: Plan and schedule posts from the same platform",
+      "Bulk Creation: Generate multiple posts simultaneously for content batching",
+      "Free Trial: Test content generation before committing to a plan"
+    ],
+    howToUse: {
+      title: "How to Use Predis Ai Creative",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Content", description: "Sign up at predis.ai and describe the post you want to create - your product, the message, and the platform. Predis generates a complete post with visual and caption ready to review." },
+        { title: "Apply Your Brand", description: "Set up your brand kit with your colors, fonts, and logo. All generated content automatically incorporates your brand elements so posts look consistent across your feed." },
+        { title: "Schedule and Analyze", description: "Schedule generated posts directly from Predis to your social media accounts. Use the competitor analysis feature to understand what is working in your niche and inform your next content batch." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Package Generation", description: "Getting image, caption, and hashtags all generated together from one prompt is faster than using separate tools for each element and produces more cohesive posts" },
+      { title: "Competitor Intelligence", description: "Being able to see what your competitors are posting and which of their posts perform best turns public social media data into actionable strategy input" },
+      { title: "Brand Consistency at Scale", description: "The brand kit ensures that high-volume AI-generated content maintains visual consistency rather than looking like it came from multiple different sources" },
+      { title: "Content Batching Efficiency", description: "Generating a week or month of content in one session rather than creating posts one at a time is how serious social media managers actually work - Predis is built around that workflow" }
+    ],
+    useCases: [
+      { title: "Social Media Managers", description: "Professionals managing social media for businesses use Predis to maintain posting frequency across multiple platforms without spending hours on content creation each week" },
+      { title: "Small Business Owners", description: "Business owners who handle their own social media use Predis to produce professional-looking content quickly without design skills or a large time investment" },
+      { title: "Marketing Agencies", description: "Agencies managing social media for multiple clients use Predis to scale content production across accounts while maintaining brand-specific visual styles for each client" }
+    ]
+  },
+  "maestra-ai": {
+    whatIs: "Maestra is an AI-powered transcription, captioning, and translation platform built for media teams, content creators, and enterprises that need accurate speech-to-text at scale. It handles video and audio transcription in over 80 languages, generates captions and subtitles automatically, and translates content into multiple languages for global distribution. The accuracy is notably higher than basic transcription tools thanks to AI models trained specifically on broadcast and media content. For video teams that produce content regularly, Maestra eliminates the manual transcription and captioning work that would otherwise consume hours per video.",
+    features: [
+      "Transcription: AI transcription for video and audio in 80 plus languages",
+      "Auto Captions: Generate accurate captions and subtitles automatically",
+      "Translation: Translate transcripts and captions into multiple languages",
+      "Voice Over: AI-generated voice over in different languages for localization",
+      "Dubbing: Replace original audio with translated voice over",
+      "Live Captioning: Real-time captions for live events and meetings",
+      "Subtitle Editor: Edit captions in a visual timeline interface",
+      "Export Formats: Download in SRT, VTT, TXT, and other standard formats",
+      "Speaker Detection: Identifies different speakers in transcriptions",
+      "Batch Processing: Transcribe multiple files simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Maestra Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Media", description: "Sign up at maestra.ai and upload your video or audio file. Maestra supports all major formats and begins transcription automatically without any configuration." },
+        { title: "Review and Edit", description: "The AI returns a transcript with timestamps that you can edit in the visual editor. Correct any errors, adjust timing, and add speaker labels if needed for multi-speaker content." },
+        { title: "Export or Distribute", description: "Download your transcript, captions, or subtitles in your required format. For multilingual content, use the translation feature to generate captions in additional languages from the same source transcript." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Media-Trained Accuracy", description: "Maestra's AI models are trained specifically on broadcast and media content which produces higher accuracy on the kind of speech that appears in videos - including technical terms, accents, and fast speech patterns" },
+      { title: "All-in-One Localization", description: "Having transcription, translation, voice over, and dubbing in one platform means the full content localization workflow stays in one place rather than requiring handoffs between multiple services" },
+      { title: "Live Captioning Capability", description: "Real-time captioning for live events is a genuinely different technical challenge from post-production transcription - Maestra handles both, which is unusual in the transcription space" },
+      { title: "Scale for Media Teams", description: "Batch processing and fast turnaround means video teams producing regular content can maintain caption and transcript workflows without creating bottlenecks in their publishing pipeline" }
+    ],
+    useCases: [
+      { title: "Video Content Creators and YouTubers", description: "Content creators who publish videos regularly use Maestra to add accurate captions quickly, improving accessibility and reaching viewers who watch without sound" },
+      { title: "Media and Broadcasting Companies", description: "Professional media organizations use Maestra to transcribe, caption, and localize content for international distribution across multiple language markets" },
+      { title: "Corporate Learning and Development Teams", description: "Companies producing training videos use Maestra to caption and translate content for global employee audiences" }
+    ]
+  },
+  "blackbox-ai": {
+    whatIs: "BLACKBOX.AI is an AI coding assistant and development platform trusted by over 4.2 million developers on VS Code alone. It goes well beyond simple code completion - the platform includes an agentic coding system that can plan and execute multi-step development tasks, a web-based IDE with compute resources, and an App Builder that takes you from natural language description to working application. Whether you are debugging a tricky bug at midnight or building out a new feature from scratch, BLACKBOX.AI stays in your flow rather than pulling you out of it.",
+    features: [
+      "Real-Time Code Completion: AI suggestions as you type across all major programming languages",
+      "Agentic Coding: Multi-step autonomous coding agent that plans, writes, and tests code",
+      "App Builder: Build working applications from natural language descriptions",
+      "VS Code Extension: Native integration with 4.2 million plus installs on the marketplace",
+      "Screenshot to Code: Upload designs or wireframes and convert them to frontend code",
+      "Code Search: Search millions of public code snippets for relevant examples",
+      "Bug Detection: Automatically identifies and suggests fixes for errors in real time",
+      "Multi-Model Access: Access to multiple leading AI models depending on your plan",
+      "JetBrains Support: Plugin available for IntelliJ, PyCharm, and other JetBrains IDEs",
+      "Web IDE: Browser-based development environment with compute for remote execution"
+    ],
+    howToUse: {
+      title: "How to Use Blackbox Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Go to the VS Code marketplace and search BLACKBOX AI. Install it and sign in. The extension activates immediately and starts providing completions as you write code." },
+        { title: "Use the AI Assistant", description: "Press the keyboard shortcut to open the BLACKBOX chat panel. Ask it to write a function, explain a piece of code, find a bug, or generate tests. The agent has full context of your open files." },
+        { title: "Try the App Builder", description: "For bigger tasks, use the App Builder to describe the application you want to create in plain language. BLACKBOX plans the structure, generates the files, and gives you a starting codebase to build from." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Massive Developer Adoption", description: "4.2 million VS Code installs is not marketing - that is genuine usage at a scale that reflects real developer trust. The sheer volume of daily users means the model has been fine-tuned on feedback from a huge and diverse range of development contexts" },
+      { title: "Screenshot to Code Shortcut", description: "Turning a design mockup or wireframe screenshot directly into frontend code is one of the most time-saving features for frontend developers who work with designers" },
+      { title: "Agentic vs Assistive", description: "BLACKBOX is not just answering questions - the agent mode can actually execute a development workflow from planning through to implementation, which puts it in the same tier as Cursor and Windsurf" },
+      { title: "Multi-Language from Day One", description: "Supporting virtually every major programming language without any setup or configuration means developers working across different stacks can use one tool consistently" }
+    ],
+    useCases: [
+      { title: "Professional Software Developers", description: "Full-time engineers use BLACKBOX to accelerate their daily development work - generating boilerplate, refactoring code, debugging faster, and writing tests they would otherwise skip" },
+      { title: "Students Learning to Code", description: "Programming students use BLACKBOX to understand error messages, get explanations of unfamiliar concepts, and get unstuck when they are not sure why their code is not working" },
+      { title: "Developers Building Prototypes", description: "Anyone who needs to quickly build a working prototype of an idea uses the App Builder to get a functional starting point in far less time than building from scratch" }
+    ]
+  },
+  "kome-ai": {
+    whatIs: "Kome AI is a browser extension that acts as a personal reading and research assistant - it sits quietly in your browser and activates whenever you need it. The core idea is simple: the internet generates far more content than any person can read thoroughly, and Kome helps you process that content faster without losing what matters. Paste in an article, load a YouTube video, or open a PDF, and Kome summarizes it in seconds. It also handles bookmarking, content organization, and even turns your saved material into drafts for emails, tweets, and blog posts.",
+    features: [
+      "Article Summarization: One-click summaries of any web article or news piece",
+      "YouTube Video Summary: Get the key points from any YouTube video without watching it all",
+      "PDF Summarization: Upload and summarize PDF documents directly in the browser",
+      "Smart Bookmarking: Save and organize content from any website with context",
+      "AI Writing from Bookmarks: Generate emails, tweets, and blog drafts from saved content",
+      "YouTube Script Generator: Create engaging YouTube scripts with AI assistance",
+      "Email Extraction: Copy all email addresses from any webpage in one click",
+      "Color Palette Extractor: Pull color palettes from any website for design reference",
+      "Cross-Browser: Works on Chrome, Edge, Opera, Brave, and Arc",
+      "Free Plan Available: Core summarization features accessible without paying"
+    ],
+    howToUse: {
+      title: "How to Use Kome Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Go to your browser's extension store and install Kome AI. It takes under a minute and adds a small icon to your toolbar that activates on any webpage." },
+        { title: "Summarize Anything", description: "Navigate to an article, YouTube video, or open a PDF. Click the Kome icon or use the keyboard shortcut to get an instant summary of the key points without reading or watching everything." },
+        { title: "Build Your Knowledge Base", description: "Bookmark content you want to keep with Kome's smart bookmarking. Later, select your saved material and ask Kome to help you draft a blog post, email, or social media content based on what you have collected." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Reading Speed Multiplier", description: "Kome claims users improve their reading speed by 3x - which is realistic when you consider that skimming a 5-minute AI summary is fundamentally faster than reading a 1500-word article in full without missing the main points" },
+      { title: "Video Without Watching", description: "YouTube summaries are genuinely useful for long videos where you need the key information but do not have 40 minutes to watch. It is particularly valuable for conference talks, tutorials, and informational content" },
+      { title: "Bookmarks That Do Something", description: "Most bookmark managers are just lists you never look at again. Kome turns saved content into a generative resource by using it as material for writing - which gives bookmarking actual ongoing value" },
+      { title: "Cross-Browser Consistency", description: "Working across Chrome, Edge, Opera, Brave, and Arc means users do not have to change browsers or find alternatives based on their browser preference" }
+    ],
+    useCases: [
+      { title: "Researchers and Students", description: "People consuming large volumes of academic and informational content use Kome to process it faster without losing the substance - particularly useful during research phases where breadth matters as much as depth" },
+      { title: "Content Creators", description: "Writers, bloggers, and social media managers use Kome to quickly absorb source material and turn their curated bookmarks into content drafts without starting from a blank page" },
+      { title: "Busy Professionals Staying Informed", description: "Executives and professionals who need to stay current on industry news and reports use Kome to get the substance of long reads in the time it takes to drink a coffee" }
+    ]
+  },
+  "letsenhance-io": {
+    whatIs: "LetsEnhance.io is an AI image enhancement and upscaling platform that has been doing this since 2017 - well before AI image tools became mainstream. It uses deep learning models to increase image resolution up to 16x without the blurry, smeared results that basic upscaling produces. The difference is that where old upscaling methods just stretched existing pixels, LetsEnhance intelligently adds new detail based on what the image content actually is - recovering texture, sharpening edges, and fixing the artifacts that compression creates. For photographers, e-commerce sellers, and anyone who has ever needed a small image to print at large size, it solves a genuinely frustrating problem.",
+    features: [
+      "16x Upscaling: Increase image resolution up to 16x without blurry artifacts",
+      "AI Enhancement: Fix blur, noise, exposure, and compression damage automatically",
+      "Old Photo Restoration: Dedicated mode for repairing damaged and aged photographs",
+      "Digital Art Mode: Specific enhancement for AI-generated art from Midjourney and Stable Diffusion",
+      "Text Enhancement Mode: Preserves small text during upscaling without distortion",
+      "300 DPI Print Ready: Upscale images to print-ready resolution for posters and merchandise",
+      "Batch Processing: Process multiple images simultaneously for e-commerce catalogs",
+      "API Access: Integrate upscaling into your own workflows programmatically",
+      "Background Removal: Remove image backgrounds as part of the enhancement workflow",
+      "Free Credits: Start with free credits to test on your own images before paying"
+    ],
+    howToUse: {
+      title: "How to Use Letsenhance Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Drag and drop your JPG, PNG, or WebP image onto the LetsEnhance interface. The tool supports images up to very large sizes and processes them in the cloud so your hardware does not matter." },
+        { title: "Choose Your Enhancement", description: "Select your goal - upscale for larger dimensions, enhance for quality improvement, or sharpen for blur correction. Choose the enhancement mode that fits your image type: Prime for most photos, Gentle for images with small text, or Old Photo for restoration work." },
+        { title: "Download Your Result", description: "LetsEnhance processes your image and returns the enhanced version. Download it in full resolution - watermark-free on paid plans - ready to use for printing, publishing, or commercial purposes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Intelligent Detail Recovery", description: "Basic upscaling stretches existing pixels and produces blurry results. LetsEnhance uses deep learning trained on millions of images to add plausible new detail that fits the image content - the result looks like higher resolution was always there" },
+      { title: "Mode Specialization", description: "Having dedicated modes for portraits, digital art, old photos, and text documents produces better results than one-size-fits-all enhancement because each image type has different characteristics the AI needs to handle differently" },
+      { title: "Print Ready Output", description: "The 300 DPI output capability specifically addresses the common problem of having a low-resolution image that needs to be printed large. This use case - posters, canvas prints, merchandise - is where LetsEnhance delivers the most immediate practical value" },
+      { title: "API for Scale", description: "E-commerce businesses with thousands of product images use the API to automate enhancement across their entire catalog rather than processing images one by one" }
+    ],
+    useCases: [
+      { title: "Photographers Printing Large Format", description: "Photographers who need to print images at large scale use LetsEnhance to get print-ready resolution from files that would otherwise fall apart at poster or canvas size" },
+      { title: "E-commerce Sellers Improving Product Photos", description: "Online sellers use LetsEnhance to enhance low-quality product photos to the professional standard that marketplaces expect without reshooting everything" },
+      { title: "AI Artists Finishing Generated Images", description: "Artists working with Midjourney and Stable Diffusion use LetsEnhance to upscale and refine their AI-generated artwork for commercial use, printing, or submission to art platforms" }
+    ]
+  },
+  "winning-hunter": {
+    whatIs: "Winning Hunter is an all-in-one e-commerce intelligence platform built for dropshippers, brand owners, and agencies who want to find products that are actually selling rather than guessing. It gives you direct visibility into the ads that competitors are running on Facebook and TikTok - how much they are spending, how long the ads have been running, and which products are driving their revenue. The Sales Tracker feature monitors competitor Shopify stores and shows you daily revenue and ad spend per product, which takes a lot of the guesswork out of deciding what to test next.",
+    features: [
+      "Facebook Ad Library: Access and filter millions of Facebook ads by spend, age, and performance",
+      "TikTok Ad Spy: Discover trending TikTok ads with engagement and performance data",
+      "Sales Tracker: Monitor competitor Shopify stores with daily revenue and ad spend estimates",
+      "Magic AI Search: Use AI to find competitors and products by keyword or image upload",
+      "TikTok Creative Center: Download high-quality TikTok videos without watermarks",
+      "Competitor Analysis: Identify how many sellers are competing on the same product",
+      "Product Importer: Import products directly to your store with no credit limits",
+      "Pinterest Publishing: Create and publish Pinterest posts directly from the platform",
+      "Trend Filters: Filter for exploding trends and low-competition opportunities",
+      "No Credit Card to Start: Try core features before committing to a paid plan"
+    ],
+    howToUse: {
+      title: "How to Use Winning Hunter",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Ad Filtering", description: "Sign up at winninghunter.com and start with the Facebook Ad Library. Use the ad spend filter to surface ads with significant spend behind them - if someone is spending real money on an ad for weeks, the product is likely converting." },
+        { title: "Validate with Sales Tracker", description: "When you find a product that looks promising from the ad data, use the Sales Tracker to check how it is actually performing on competitor stores. Look at daily revenue trends to confirm the product has real sales momentum." },
+        { title: "Research Competition", description: "Run the product through Magic AI Search to understand how many other sellers are competing on it and in which countries. Use this to decide whether the market is worth entering or already too saturated." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data Over Guesswork", description: "The biggest waste of time and money in dropshipping is testing products that were never going to work. WinningHunter replaces that guesswork with actual ad spend data and sales figures from real stores" },
+      { title: "Live Ad Intelligence", description: "Seeing which ads have been running for weeks or months with consistent spend tells you something that no product research tool can tell you - that someone has found a profitable combination and is scaling it" },
+      { title: "TikTok and Facebook Together", description: "Most ad spy tools focus on one platform. WinningHunter covers both Facebook and TikTok simultaneously, which matters as TikTok has become a primary discovery channel for many product categories" },
+      { title: "Watermark-Free Downloads", description: "The TikTok creative download feature lets you see competitor ad creatives without watermarks for research and inspiration - a practical feature that saves time during the creative research process" }
+    ],
+    useCases: [
+      { title: "Dropshippers Finding Winning Products", description: "New and experienced dropshippers use WinningHunter to shortcut the product research phase by finding what is already working in the market rather than testing blindly" },
+      { title: "E-commerce Brand Owners", description: "Brand owners use the competitor intelligence to understand what products and ad approaches are gaining traction in their category and how to position against the competition" },
+      { title: "Marketing Agencies Running E-commerce Clients", description: "Agencies managing dropshipping and e-commerce clients use WinningHunter to deliver better product recommendations backed by real market data" }
+    ]
+  },
+  "watermarkremover-io": {
+    whatIs: "WatermarkRemover.io is a focused AI tool that does one specific thing extremely well - it removes watermarks from images automatically without requiring manual selection or editing. You upload an image, the AI detects the watermark, removes it cleanly, and returns the image. The whole process takes seconds and works on text watermarks, logo watermarks, and semi-transparent overlays. For designers, marketers, and content creators who work with licensed images they own but received with watermarks, it removes the manual editing step that Photoshop would otherwise require.",
+    features: [
+      "Automatic Watermark Detection: AI identifies and locates watermarks without manual selection",
+      "Clean Removal: Removes watermarks without leaving obvious artifacts or patches",
+      "Text and Logo Watermarks: Works on both text-based and image-based watermarks",
+      "Semi-Transparent Overlays: Handles translucent watermarks that are harder to remove manually",
+      "Fast Processing: Results returned in seconds not minutes",
+      "Batch Processing: Remove watermarks from multiple images simultaneously",
+      "High Resolution Output: Returns full-resolution images after watermark removal",
+      "Free to Try: Test on sample images before committing to a plan"
+    ],
+    howToUse: {
+      title: "How to Use Watermarkremover Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to watermarkremover.io and drag your watermarked image onto the upload area. The tool accepts JPG and PNG formats and processes images without requiring you to create an account first." },
+        { title: "Let AI Detect and Remove", description: "The AI automatically identifies the watermark location and type - whether it is a text overlay, a semi-transparent logo, or a tiled pattern - and removes it by reconstructing the image content beneath it." },
+        { title: "Download Your Clean Image", description: "Within seconds your watermark-free image is ready. Download it in full resolution and use it in your project. For multiple images, use the batch processing feature to handle a set at once." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Zero Manual Selection", description: "Removing a watermark in Photoshop requires carefully selecting the watermark area, using content-aware fill, and touching up the result. WatermarkRemover.io does all of that automatically in seconds" },
+      { title: "Reconstruction Quality", description: "The AI does not just delete the watermark pixels - it reconstructs what the image would look like underneath, which produces cleaner results than simple masking or cropping approaches" },
+      { title: "Works on Varied Watermark Types", description: "Text watermarks, logo watermarks, and semi-transparent overlays all require different approaches. The AI handles all of them without requiring users to specify the type or adjust settings" },
+      { title: "Speed for Volume", description: "When you have a set of images to process rather than a single one, batch processing turns a tedious manual task into a workflow step that takes seconds per image" }
+    ],
+    useCases: [
+      { title: "Designers Working with Licensed Images", description: "Designers who have licensed images that came with watermarks use WatermarkRemover.io to clean them up quickly without manual Photoshop work" },
+      { title: "Content Creators and Bloggers", description: "Content producers who download preview images from stock sites for their own content (after licensing) use the tool to remove the preview watermarks from their legitimately acquired assets" },
+      { title: "Marketing Teams Processing Image Assets", description: "Marketing teams that receive watermarked image assets from vendors or agencies use WatermarkRemover.io to process batches quickly rather than editing each image manually" }
+    ]
+  },
+  "trinka-ai": {
+    whatIs: "Trinka AI is a grammar and language correction tool built specifically for academic and scientific writing - which makes it meaningfully different from general-purpose tools like Grammarly. It understands the conventions of academic prose and corrects not just grammar but also technical phrasing, tone formality, and the specific stylistic choices that academic writing requires. It handles subject-specific vocabulary correctly rather than flagging legitimate technical terms as errors, and it provides suggestions calibrated to the rigorous standards that journals and academic institutions expect.",
+    features: [
+      "Academic Grammar: Grammar correction calibrated for academic writing standards",
+      "Technical Vocabulary: Understands subject-specific terminology without flagging it as errors",
+      "Tone and Formality: Ensures appropriate formal academic tone throughout",
+      "Consistency Checks: Flags inconsistent terminology and formatting across a document",
+      "Publication Readiness: Suggestions aligned with what journals and academic publishers expect",
+      "Journal Submission Check: Checks against journal-specific requirements",
+      "Plagiarism Detection: Integrated originality checking for academic submissions",
+      "Word Choice: Suggests more precise and academically appropriate word alternatives",
+      "MS Word Add-In: Works directly inside Microsoft Word",
+      "Browser Extension: Grammar checking across online editors and platforms"
+    ],
+    howToUse: {
+      title: "How to Use Trinka Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install and Connect", description: "Sign up at trinka.ai and install the browser extension or MS Word add-in. Connect your writing environment and Trinka begins analyzing your text as you write or after you paste content." },
+        { title: "Review Suggestions", description: "Trinka highlights grammar issues, word choice improvements, and tone adjustments throughout your document. Each suggestion includes an explanation so you understand why the change is recommended." },
+        { title: "Check Before Submission", description: "Before submitting to a journal, run the full publication-readiness check. Trinka identifies issues specific to academic submission - inconsistencies, formality gaps, and structural suggestions that a standard grammar checker would miss." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Academic Calibration", description: "Academic writing has specific conventions that general grammar tools handle poorly - they suggest casual alternatives to formal constructions, flag technical terms as errors, and miss the nuances of hedging language and citation conventions that academic writing requires" },
+      { title: "Technical Vocabulary Awareness", description: "In specialized fields, the difference between a grammar error and a correct technical term is something only domain-aware tools get right. Trinka is trained on scientific literature so it knows what legitimate technical vocabulary looks like" },
+      { title: "Journal-Level Standards", description: "The publication-readiness check targets the specific quality bar that peer-reviewed journals apply rather than just general correctness - which is the difference that matters when you are trying to get published" },
+      { title: "MS Word Native Integration", description: "Most academic writing happens in Microsoft Word. Working as a native add-in rather than requiring copy-paste to a separate tool makes Trinka a practical part of the actual writing workflow" }
+    ],
+    useCases: [
+      { title: "Graduate Students and PhD Candidates", description: "Researchers writing theses, dissertations, and papers for journal submission use Trinka to ensure their writing meets the academic standards that reviewers and examiners expect" },
+      { title: "Non-Native English Academic Writers", description: "International researchers writing in English as a second language use Trinka to catch the subtle formality and phrasing issues that are hard to identify without native academic English instinct" },
+      { title: "Academic Editors and Proofreaders", description: "Editors and language editors working on academic manuscripts use Trinka as a first-pass tool that handles systematic corrections before human review" }
+    ]
+  },
+  "canvs-ai": {
+    whatIs: "Canvs AI is an AI text analysis and emotional intelligence platform that specializes in understanding the emotional meaning behind consumer feedback, survey responses, and open-ended text data. Rather than just categorizing sentiment as positive, negative, or neutral, Canvs goes deeper to identify the specific emotions, topics, and themes that drive how people feel about a product, brand, or experience. It is used by market researchers, product teams, and media companies to make sense of large volumes of qualitative data that would take weeks to analyze manually.",
+    features: [
+      "Emotional Analysis: Identifies specific emotions beyond basic positive and negative sentiment",
+      "Open-Ended Response Analysis: Processes survey and feedback text at scale",
+      "Theme Discovery: Surfaces recurring themes and topics across large text datasets",
+      "Audience Intelligence: Understands what specific audience segments care about",
+      "Media and Entertainment Focus: Built-in expertise for analyzing audience reactions to content",
+      "Real-Time Analysis: Process feedback data as it arrives rather than in periodic batches",
+      "Dashboard Visualization: Visual reports that make emotional data accessible to stakeholders",
+      "API Integration: Connect Canvs to your existing data pipelines and research tools"
+    ],
+    howToUse: {
+      title: "How to Use Canvs Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Data", description: "Sign up at canvs.ai and connect your feedback data source - survey responses, social media comments, customer reviews, or any text data you want to analyze." },
+        { title: "Run Emotional Analysis", description: "Canvs processes your text data and returns emotional classifications, topic clusters, and theme summaries. The analysis goes beyond sentiment to surface the specific feelings and subjects driving your audience response." },
+        { title: "Explore and Present Insights", description: "Use the dashboard to explore the emotional patterns in your data, drill into specific themes, and build reports for stakeholders that translate qualitative feedback into clear, actionable insights." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Emotional Depth Beyond Sentiment", description: "Positive and negative sentiment is a blunt instrument for understanding why people feel the way they do. Canvs identifies specific emotions - excitement, frustration, confusion, loyalty - which tells you much more about what to actually do with the feedback" },
+      { title: "Scale for Open-Ended Data", description: "Open-ended survey responses are the most informative data companies collect and the hardest to analyze at scale. Canvs makes it practical to actually use that data rather than letting it sit in a spreadsheet" },
+      { title: "Media Industry Expertise", description: "Canvs has specific expertise in media and entertainment audience research - understanding how audiences respond to shows, characters, and content - which makes it particularly valuable in that industry" },
+      { title: "Real-Time Processing", description: "Processing feedback as it arrives rather than in batch jobs means emotional insights are available when they are most useful - during live events, product launches, and campaigns rather than weeks afterward" }
+    ],
+    useCases: [
+      { title: "Market Research Teams", description: "Research teams conducting consumer surveys use Canvs to analyze open-ended responses at a scale that human coding could never match, getting emotional insight from data that would otherwise go under-analyzed" },
+      { title: "Media and Entertainment Companies", description: "TV networks, streaming platforms, and entertainment brands use Canvs to understand audience emotional response to their content in real time, informing creative and programming decisions" },
+      { title: "Product and CX Teams", description: "Product teams and customer experience professionals use Canvs to understand the emotional drivers behind customer satisfaction and dissatisfaction scores, connecting feelings to specific product experiences" }
+    ]
+  },
+  "topmediai-cover": {
+    whatIs: "TopMediai Cover is an AI-powered cover song generation platform that lets you turn any song into a cover version performed by a different AI voice or artist style. You upload the original audio, select the voice model you want to cover it with, and the AI transforms the song while preserving the melody and lyrics. It is used by music creators who want to experiment with how different vocal styles change a song, by content creators who need music in a specific style, and by fans who want to hear their favorite songs reimagined in a different voice.",
+    features: [
+      "AI Cover Generation: Transform any song into a cover with a different AI voice",
+      "Voice Model Library: Large selection of AI voice models in different styles and genres",
+      "Melody Preservation: Maintains the original song structure while changing the voice",
+      "Custom Voice Upload: Create covers using your own voice model",
+      "High Quality Audio: Professional-grade audio output suitable for sharing",
+      "Multiple Genres: Voice models spanning pop, rock, hip-hop, and other genres",
+      "Fast Processing: Cover generation completed quickly without long wait times",
+      "Easy Export: Download your cover in standard audio formats for sharing or upload"
+    ],
+    howToUse: {
+      title: "How to Use Topmediai Cover",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Song", description: "Sign up at topmediai.com and navigate to the Cover feature. Upload the audio file of the song you want to cover - the platform accepts standard audio formats." },
+        { title: "Choose Your Voice Model", description: "Browse the voice model library and select the voice or artist style you want for your cover. The library includes a range of styles across different musical genres." },
+        { title: "Generate and Download", description: "Submit your cover request and TopMediai generates the cover version with the selected voice. Preview the result and download the audio file when you are happy with the output." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Voice Without Singing Skills", description: "Creating a cover of a song traditionally requires the ability to sing it. AI cover generation separates the creative act of reimagining a song from the technical requirement of being able to perform it" },
+      { title: "Rapid Style Experimentation", description: "Hearing how a song sounds in a completely different vocal style - from a soft ballad voice to a hip-hop delivery - gives songwriters and producers creative insight that is hard to get any other way" },
+      { title: "Content Creator Utility", description: "Content creators who need music in a specific style or want to reference well-known songs without copyright complications use AI covers to create derivative content that fits their needs" },
+      { title: "Fan and Creative Community", description: "Music fans enjoy imagining how songs they love would sound if performed by different artists - AI cover generation makes that imaginative exercise audible rather than just hypothetical" }
+    ],
+    useCases: [
+      { title: "Music Creators and Producers", description: "Songwriters and music producers use TopMediai Cover to explore how their compositions or existing songs would sound in different vocal styles as part of their creative process" },
+      { title: "Content Creators and YouTubers", description: "Video creators use AI covers to add music to their content in ways that reference known songs without the licensing complications of using the original recordings" },
+      { title: "Music Enthusiasts and Fan Communities", description: "Music fans use the platform to create and share reimagined versions of their favorite songs as a form of fan creativity and community engagement" }
+    ]
+  },
   "trae": {
     whatIs: "Trae is an AI-powered IDE developed by ByteDance that provides AI coding assistance with a focus on deep context understanding and agentic capabilities. It offers code completion, multi-file editing, AI chat about your codebase, and autonomous task execution - competing directly with tools like Cursor and Windsurf. Trae is free to use which makes it particularly attractive for developers who want capable AI coding assistance without a subscription cost.",
     features: [
