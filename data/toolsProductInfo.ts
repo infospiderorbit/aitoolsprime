@@ -1,4 +1,278 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "vizard-ai-short": {
+    whatIs: "Vizard AI is a video repurposing platform that automatically converts long-form videos into short clips optimized for social media. It uses AI to identify the most engaging moments in a video, crops them to vertical format for TikTok, Instagram Reels, and YouTube Shorts, and adds captions automatically. For content creators and marketers who produce long videos and want to maximize their reach by repurposing them into short-form content, Vizard eliminates the manual work of scrubbing through footage and editing clips by hand.",
+    features: [
+      "Auto Clip Detection: AI identifies the most engaging moments in long videos",
+      "Vertical Crop: Automatically reframes horizontal video to vertical format",
+      "Auto Captions: Adds accurate captions to every generated clip",
+      "Batch Export: Export multiple clips simultaneously",
+      "Speaker Detection: Keeps the speaker in frame during cropping",
+      "Social Media Optimization: Clips optimized for TikTok, Reels, and Shorts",
+      "Custom Branding: Add logos and brand colors to clips",
+      "Fast Processing: Clips ready in minutes from upload",
+      "Free Plan: Try clip generation without payment",
+      "Multiple Upload Formats: Accepts MP4, MOV, and other common formats"
+    ],
+    howToUse: {
+      title: "How to Use Vizard Ai Short",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Sign up at vizard.ai and upload your long-form video. Vizard accepts recordings from Zoom, YouTube, podcasts, webinars, and other common sources." },
+        { title: "Review AI-Selected Clips", description: "Vizard presents the clips it identified as most engaging. Preview each one, approve the ones you want, and discard any that do not fit your content strategy." },
+        { title: "Export and Publish", description: "Export your approved clips with captions and branding applied. Download them for manual posting or connect your social accounts for direct publishing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Manual Work Elimination", description: "Identifying good clips in a one-hour video and editing them for vertical format manually takes hours. Vizard reduces this to minutes by handling both the selection and the reformatting automatically" },
+      { title: "Captions as Default", description: "Short-form video performs significantly better with captions because most viewers watch without sound. Vizard adds captions automatically rather than making it a separate step" },
+      { title: "Repurposing Economics", description: "Creating short-form content from existing long-form video multiplies the distribution value of content that already required significant production effort" },
+      { title: "Speaker Tracking", description: "Automatic speaker tracking during vertical crop ensures the person talking stays visible in frame - which solves the main quality issue with automated video cropping" }
+    ],
+    useCases: [
+      { title: "Podcasters Distributing on Social Media", description: "Podcasters use Vizard to turn their audio and video episodes into short clips for TikTok, Instagram, and YouTube Shorts without manual editing" },
+      { title: "Webinar and Event Producers", description: "Companies that run webinars use Vizard to extract the best moments as shareable clips that extend the reach of their recorded content" },
+      { title: "Content Creators Maximizing Output", description: "Video creators use Vizard to multiply their content output by turning one long video into many short clips across multiple platforms" }
+    ]
+  },
+  "sendshort": {
+    whatIs: "Sendshort is an AI video creation platform that turns written content - blog posts, articles, scripts, and text - into short videos automatically. You paste your text, and Sendshort generates a video with relevant visuals, captions, and voice over that matches the content. For content teams that produce written content and want to extend it into video format without video production skills, Sendshort automates the conversion workflow.",
+    features: [
+      "Text to Video: Convert written content into short videos automatically",
+      "AI Voice Over: Generate natural voice narration from text",
+      "Auto Visuals: AI selects relevant stock footage and images",
+      "Captions: Automatic caption generation for all videos",
+      "Multiple Languages: Create videos in different languages",
+      "Brand Customization: Apply your colors and logo",
+      "Fast Creation: Videos ready in minutes from text input",
+      "Export Options: Download in formats optimized for different platforms"
+    ],
+    howToUse: {
+      title: "How to Use Sendshort",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Content", description: "Sign up at sendshort.ai and paste the text you want to convert - a blog post excerpt, a script, or any written content you want to turn into video." },
+        { title: "Review and Adjust", description: "Preview the generated video with its AI-selected visuals and voice over. Adjust any sections where the visuals do not match well or the pacing needs improvement." },
+        { title: "Export and Share", description: "Download your finished video optimized for your target platform or share directly to your connected social accounts." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content Repurposing at Scale", description: "Written content teams that publish regularly can extend every piece into video format without hiring video producers or learning video editing" },
+      { title: "Voice Over Without Recording", description: "AI-generated voice over removes the need for microphone setup, recording sessions, and audio editing - the narration is generated from the text automatically" },
+      { title: "Visual Sourcing Automation", description: "Finding relevant stock footage for every sentence of a video script is time-consuming. Sendshort automates this selection so the visual content matches the spoken content without manual curation" },
+      { title: "Multilingual Video Production", description: "Creating the same video in multiple languages would normally require multiple recording sessions. Sendshort generates multilingual versions from the same text input" }
+    ],
+    useCases: [
+      { title: "Content Marketing Teams", description: "Marketing teams that publish blog content use Sendshort to automatically create video versions for YouTube and social media distribution" },
+      { title: "Social Media Managers", description: "Social media professionals use Sendshort to maintain a consistent video presence without dedicated video production resources" },
+      { title: "Educators and Coaches", description: "Online educators use Sendshort to convert their written course material into video lessons quickly" }
+    ]
+  },
+  "animaker": {
+    whatIs: "Animaker is an online animation and video creation platform that lets users create professional-quality animated videos, explainers, presentations, and social media content without animation skills. It provides thousands of character animations, backgrounds, and props alongside a drag-and-drop timeline interface. The AI features help with script writing, voice over generation, and automatic lip-syncing of animated characters to generated speech. For businesses and educators that need animated video content regularly, Animaker makes production accessible without specialized skills or expensive software.",
+    features: [
+      "Animated Characters: Thousands of pre-animated character actions and expressions",
+      "Drag and Drop Timeline: Build animated videos with a visual timeline interface",
+      "AI Voice Over: Generate voice narration for your animations",
+      "Auto Lip Sync: Automatically sync character mouth movements to speech",
+      "Background Library: Thousands of pre-built scene backgrounds",
+      "Text Animations: Animated text effects for titles and captions",
+      "Screen Recording: Combine animation with screen capture",
+      "Multiple Formats: Export for YouTube, social media, and presentations",
+      "Team Collaboration: Multiple team members working on the same project",
+      "Free Plan: Create basic animations without payment"
+    ],
+    howToUse: {
+      title: "How to Use Animaker",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Scene", description: "Sign up at animaker.com and create a new project. Select your background, add your animated characters, and arrange the initial scene composition." },
+        { title: "Build Your Animation", description: "Use the timeline to sequence your animations. Move characters, add speech bubbles, trigger character actions, and add text elements to build your animated story." },
+        { title: "Add Voice and Export", description: "Generate AI voice over for your script and let Animaker auto-sync the character lip movements to match. Export your finished animation in your preferred format." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Animation Without Expertise", description: "Traditional animation requires specialized skills that take years to develop. Animaker's pre-animated characters and drag-and-drop interface make animation accessible to anyone who can use a presentation tool" },
+      { title: "Auto Lip Sync Value", description: "Manually syncing character lip movements to speech is one of the most tedious parts of animation. Auto lip sync removes this entirely, which dramatically speeds up production" },
+      { title: "Business Explainer Focus", description: "Animaker is particularly well suited for explainer videos, training content, and business presentations - the use cases where animation is most effective for communicating complex ideas simply" },
+      { title: "Team Production", description: "Collaborative editing means animation projects can be divided across team members rather than requiring one person to do everything" }
+    ],
+    useCases: [
+      { title: "Corporate Training and L&D Teams", description: "Learning and development teams use Animaker to create engaging animated training modules that explain processes and concepts more clearly than text alone" },
+      { title: "Marketing Teams Creating Explainers", description: "Marketing professionals use Animaker to produce product explainer videos and promotional animations for social media and presentations" },
+      { title: "Educators and Teachers", description: "Teachers use Animaker to create animated lesson content that engages students more effectively than static slides" }
+    ]
+  },
+  "sora": {
+    whatIs: "Sora is OpenAI's text-to-video AI model that generates realistic and creative video content from text descriptions. It can create videos up to a minute long with complex scene compositions, realistic physics, and detailed visual elements that reflect the described prompt. Sora represents a significant leap in AI video generation quality - producing output that holds up to scrutiny much better than earlier video generation systems. Access has been rolled out gradually through ChatGPT Plus and Pro subscriptions.",
+    features: [
+      "Text to Video: Generate realistic videos from detailed text descriptions",
+      "Up to 60 Seconds: Create videos up to one minute in length",
+      "Realistic Physics: AI understands and simulates physical interactions",
+      "Complex Scenes: Multiple characters and detailed environments in one video",
+      "Style Variety: Generate across different visual styles and aesthetics",
+      "Image to Video: Animate still images into video sequences",
+      "Video Extension: Extend existing videos with AI-generated content",
+      "ChatGPT Integration: Access through ChatGPT Plus and Pro subscriptions",
+      "High Resolution: Generate videos in high visual quality",
+      "Creative Flexibility: Wide range of styles from realistic to fantastical"
+    ],
+    howToUse: {
+      title: "How to Use Sora",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Through ChatGPT", description: "Access Sora through your ChatGPT Plus or Pro subscription. Navigate to the Sora section and describe the video you want to generate in as much detail as possible." },
+        { title: "Write Your Prompt", description: "Write a detailed description of your video including the scene, characters, actions, style, lighting, and camera movement. More specific prompts produce more accurate results." },
+        { title: "Generate and Review", description: "Submit your prompt and wait for Sora to generate your video. Review the result and refine your prompt if the output needs adjustment in specific aspects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Generation Quality Leap", description: "Sora's video quality significantly exceeds earlier AI video generation systems in terms of visual coherence, physics accuracy, and how well the output matches complex prompts" },
+      { title: "Physics Understanding", description: "The ability to simulate realistic physical interactions - objects falling, liquids moving, fabric responding to motion - is what separates Sora from systems that produce visually plausible but physically wrong video" },
+      { title: "Length Advantage", description: "One minute of coherent AI-generated video is substantially more useful than the few-second clips that earlier systems produced - it is long enough for actual content use cases" },
+      { title: "OpenAI Integration", description: "Being integrated into ChatGPT means Sora is accessible to the existing ChatGPT subscriber base without separate account creation or subscription management" }
+    ],
+    useCases: [
+      { title: "Creative Professionals and Filmmakers", description: "Directors, producers, and creative professionals use Sora for concept visualization, storyboarding, and generating reference footage for productions" },
+      { title: "Content Creators and Marketers", description: "Digital creators use Sora to generate video content for social media, advertising, and creative projects without video production equipment or teams" },
+      { title: "Researchers and AI Enthusiasts", description: "People exploring the frontier of AI capabilities use Sora to understand and document what AI video generation can currently achieve" }
+    ]
+  },
+  "ltx-studio": {
+    whatIs: "LTX Studio is an AI video generation and production platform from Lightricks that enables users to create complete cinematic video content from text prompts and story descriptions. It goes beyond simple clip generation to support full video production workflows - creating multiple scenes, maintaining character consistency across shots, and producing coherent narrative video content. The platform is aimed at content creators and small production teams who want to produce high-quality video content without traditional production resources.",
+    features: [
+      "Story to Video: Generate complete multi-scene video from narrative descriptions",
+      "Character Consistency: Maintain the same characters across multiple shots",
+      "Cinematic Quality: High-quality video output with professional aesthetics",
+      "Scene Control: Direct individual scenes with specific descriptions",
+      "Style Settings: Control visual style and cinematography approach",
+      "AI Director: AI makes shot composition and editing decisions",
+      "Fast Generation: Complete video sequences generated quickly",
+      "Export Options: Download in formats suitable for publishing"
+    ],
+    howToUse: {
+      title: "How to Use Ltx Studio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Story", description: "Sign up at ltxstudio.com and describe your video story or concept. Include characters, settings, actions, and the narrative arc you want the video to follow." },
+        { title: "Review and Direct Scenes", description: "LTX Studio generates your video scene by scene. Review each scene and provide direction for adjustments - changing the shot composition, character actions, or visual style for specific segments." },
+        { title: "Export Your Video", description: "Once your scenes are approved, export the complete video. The platform maintains visual consistency across scenes so the output feels like a cohesive production rather than disconnected clips." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Scene Coherence", description: "Generating a single clip is relatively straightforward - generating multiple clips with consistent characters and visual style that tell a coherent story is dramatically harder and what LTX Studio specifically addresses" },
+      { title: "Character Consistency Technology", description: "Maintaining the same character appearance across different shots and scenes is one of the hardest problems in AI video generation. LTX Studio's approach to this problem is central to its value" },
+      { title: "Production Workflow", description: "The scene-by-scene direction model mirrors how actual video production works - which makes LTX Studio more intuitive for people with any production experience" },
+      { title: "Lightricks Pedigree", description: "Built by Lightricks, the team behind Facetune and other successful creative tools, LTX Studio benefits from significant expertise in consumer-grade AI creative tools" }
+    ],
+    useCases: [
+      { title: "Content Creators Producing Video Series", description: "YouTubers and video creators use LTX Studio to produce video content for their channels without the cost and logistics of traditional video shoots" },
+      { title: "Marketing Teams Creating Video Ads", description: "Marketing professionals use LTX Studio to generate video advertisement content quickly for testing different creative concepts" },
+      { title: "Indie Filmmakers and Storytellers", description: "Independent filmmakers use LTX Studio to visualize stories and produce short-form narrative content without production budgets" }
+    ]
+  },
+  "magic-hour-faceswap": {
+    whatIs: "Magic Hour is an AI creative video platform that includes face swap, lip sync, video generation, and other AI video transformation tools. The face swap feature replaces faces in videos with a target face while maintaining natural movement and expression. The platform combines multiple AI video capabilities in one subscription, making it useful for content creators who need various video transformation and generation tools rather than subscribing to separate specialized services.",
+    features: [
+      "Face Swap: Replace faces in videos with AI while preserving natural movement",
+      "Lip Sync: Sync video lip movements to different audio",
+      "AI Video Generation: Create videos from text prompts",
+      "Image Animation: Animate still photos into video",
+      "Video Transformation: Apply style and visual transformations to existing video",
+      "Multiple Tools: Access various AI video capabilities in one platform",
+      "High Quality: Professional-grade output suitable for publishing",
+      "Fast Processing: Quick turnaround for video transformations",
+      "Commercial Use: Generated content cleared for commercial purposes",
+      "Credit System: Flexible credit-based pricing for different usage levels"
+    ],
+    howToUse: {
+      title: "How to Use Magic Hour Faceswap",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Content", description: "Sign up at magichour.ai and select the tool you want to use. Upload your source video and the face or audio you want to apply." },
+        { title: "Configure Your Transformation", description: "Set the parameters for your specific transformation - for face swap, upload the target face; for lip sync, upload the replacement audio. Adjust any quality settings available." },
+        { title: "Generate and Download", description: "Process your transformation and preview the result. Download the finished video for use in your project or content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multiple Tools One Subscription", description: "Access to face swap, lip sync, video generation, and animation tools under one subscription is more economical than subscribing to separate specialized tools for each capability" },
+      { title: "Content Creator Versatility", description: "Having a range of video transformation tools available means creators can experiment with different AI video formats without switching between platforms" },
+      { title: "Quality for Publishing", description: "Magic Hour's output quality is high enough for actual content publishing rather than just experimentation - which is what makes it useful as a production tool" },
+      { title: "Commercial Licensing", description: "Clear commercial use rights for generated content removes the legal uncertainty that affects some AI video platforms" }
+    ],
+    useCases: [
+      { title: "Content Creators and Entertainers", description: "Video creators use Magic Hour's face swap and transformation tools to create entertaining content for social media and YouTube" },
+      { title: "Marketing and Advertising Teams", description: "Marketing professionals use Magic Hour to create engaging video content for campaigns without traditional video production" },
+      { title: "Filmmakers and Video Producers", description: "Production teams use Magic Hour's AI video tools to prototype and create visual effects that would otherwise require specialized software" }
+    ]
+  },
+  "unlucid-ai-video": {
+    whatIs: "Unlucid AI is a video generation platform focused on creating high-quality AI videos from text prompts with a particular strength in cinematic and artistic visual styles. It provides fine-grained control over the visual aesthetics, camera movements, and scene composition of generated videos. For creators who want more artistic control over AI-generated video than mass-market tools provide, Unlucid offers a more sophisticated generation experience.",
+    features: [
+      "Cinematic Video Generation: Create high-quality videos with cinematic visual quality",
+      "Style Control: Fine-grained control over visual aesthetics and art direction",
+      "Camera Movement: Specify camera movements and cinematography",
+      "Text to Video: Generate videos from detailed text descriptions",
+      "Multiple Styles: Wide range of visual styles from realistic to artistic",
+      "High Resolution: Generate videos in high visual quality",
+      "Fast Generation: Quick processing for iterative creative work",
+      "Commercial License: Videos cleared for commercial use"
+    ],
+    howToUse: {
+      title: "How to Use Unlucid Ai Video",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Vision", description: "Sign up at unlucid.ai and write a detailed description of the video you want to create. Include visual style, camera movement, lighting, and subject matter for the most accurate results." },
+        { title: "Set Your Style Parameters", description: "Configure the visual style settings - cinematography approach, color grading, and aesthetic direction. These parameters give you more control over the final look than prompt text alone." },
+        { title: "Generate and Refine", description: "Generate your video and assess the result. Adjust your prompt and style parameters based on what needs to change and regenerate until the output matches your creative vision." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Artistic Control Depth", description: "Unlucid provides more granular control over the visual aesthetics and cinematography of generated videos than tools that optimize for simplicity over creative control" },
+      { title: "Cinematic Quality Focus", description: "The emphasis on cinematic visual quality produces output that fits creative and artistic use cases better than tools optimized for speed or accessibility" },
+      { title: "Iterative Creative Process", description: "Fast generation times support the iterative process that creative work requires - generating, assessing, adjusting, and regenerating until the output is right" },
+      { title: "Commercial Viability", description: "Commercial licensing means generated videos can be used in actual projects without legal complications" }
+    ],
+    useCases: [
+      { title: "Filmmakers and Visual Artists", description: "Creative professionals use Unlucid for the artistic control and cinematic quality that their work requires" },
+      { title: "Advertising and Creative Agencies", description: "Creative teams use Unlucid to generate high-quality video content for advertising and brand campaigns" },
+      { title: "Music Video Creators", description: "Musicians and directors use Unlucid to create visually distinctive music video content with specific aesthetic direction" }
+    ]
+  },
+  "talkpal-teacher": {
+    whatIs: "Talkpal is an AI language learning platform that uses conversational AI to help users practice speaking and writing in a new language through realistic dialogue. Unlike traditional language apps that focus on vocabulary and grammar exercises, Talkpal emphasizes actual conversation practice with an AI that responds naturally, corrects mistakes in context, and adapts to your proficiency level. It supports dozens of languages and provides the kind of conversational practice that is otherwise only available with a human tutor.",
+    features: [
+      "Conversational Practice: Practice speaking and writing through realistic AI dialogue",
+      "Real-Time Correction: Get grammar and vocabulary corrections in context",
+      "Multiple Languages: Practice in dozens of languages",
+      "Adaptive Difficulty: AI adjusts to your proficiency level automatically",
+      "Topic Variety: Practice conversations across different topics and scenarios",
+      "Pronunciation Feedback: Feedback on speaking accuracy",
+      "Progress Tracking: Monitor improvement across sessions",
+      "Unlimited Practice: Practice as much as you want without scheduling constraints",
+      "Free to Start: Basic conversation practice accessible without payment",
+      "Mobile App: Practice on iOS and Android devices"
+    ],
+    howToUse: {
+      title: "How to Use Talkpal Teacher",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Language", description: "Sign up at talkpal.ai and select the language you want to practice. Set your current proficiency level so the AI calibrates its responses appropriately for where you are." },
+        { title: "Start a Conversation", description: "Begin a conversation on any topic - Talkpal provides suggested scenarios or you can choose your own subject. Respond naturally and the AI continues the conversation while noting any errors." },
+        { title: "Review Corrections", description: "After each exchange, review the corrections and explanations Talkpal provides. Over time, the patterns in your corrections show you where to focus your learning effort." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversation Over Exercises", description: "Traditional language apps teach vocabulary and grammar in isolation but struggle to provide actual conversation practice. Talkpal fills this gap with realistic dialogue that develops actual communication ability" },
+      { title: "Unlimited Patient Practice Partner", description: "Human conversation partners have limited availability and patience for repetitive practice. An AI that is always available and never frustrated by mistakes removes the social anxiety that slows language learning" },
+      { title: "Contextual Correction", description: "Correcting mistakes in the context of a real conversation is more effective than grammar drills because the learner understands why the correction matters in communication" },
+      { title: "Proficiency Adaptation", description: "Automatically adjusting difficulty means Talkpal remains appropriately challenging as your language skills improve rather than staying at the same level or requiring manual difficulty changes" }
+    ],
+    useCases: [
+      { title: "Language Learners Between Lessons", description: "People taking language classes use Talkpal to practice conversation between formal lessons, applying what they learn in structured practice to actual dialogue" },
+      { title: "Self-Taught Language Learners", description: "Independent learners who do not have access to tutors or conversation partners use Talkpal as their primary source of conversational practice" },
+      { title: "Professionals Preparing for Work in Another Language", description: "Business professionals preparing to work in a new language use Talkpal to build practical communication confidence before their first day" }
+    ]
+  },
   "smartlead": {
     whatIs: "Smartlead is a cold email outreach platform built for sales teams and agencies that need to send high volumes of personalized cold emails without landing in spam. It handles email warm-up automatically, rotates sending across multiple mailboxes, and uses AI to personalize emails at scale. The infrastructure focus - deliverability, warm-up, and rotation - is what separates Smartlead from simpler email tools that work fine at low volume but fail when you need to send thousands of emails per week reliably.",
     features: [
