@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "makefilm": {
+    whatIs: "MakeFilm is an AI video creation platform that helps users produce short films, video stories, and cinematic content from scripts and text descriptions. It combines scene generation, character animation, and narrative sequencing to produce coherent short-form video content. For creators who want to tell visual stories without traditional filmmaking resources, MakeFilm provides a path from script to screen using AI generation.",
+    features: [
+      "Script to Film: Convert written scripts into visual video content",
+      "Scene Generation: AI creates visual scenes matching script descriptions",
+      "Character Animation: Animated characters for your story",
+      "Narrative Sequencing: Maintains story coherence across scenes",
+      "Cinematic Styles: Different visual styles for different story types",
+      "Voice Over: AI narration for your film content",
+      "Background Music: Automatically matched music for scenes",
+      "Export Options: Download in formats suitable for sharing"
+    ],
+    howToUse: {
+      title: "How to Use Makefilm",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Script", description: "Sign up at makefilm.ai and write or paste your film script or story description. Break it into scenes with descriptions of what should happen visually in each one." },
+        { title: "Generate Your Scenes", description: "MakeFilm generates visual content for each scene based on your descriptions. Review each generated scene and provide feedback for any that need adjustment." },
+        { title: "Assemble and Export", description: "The platform assembles your scenes into a complete film with narration and music. Export the finished video for sharing on your preferred platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Story to Screen Accessibility", description: "Traditional filmmaking requires cameras, locations, actors, and editing skills. MakeFilm makes visual storytelling accessible to anyone who can write a script" },
+      { title: "Narrative Coherence", description: "Maintaining visual consistency and story coherence across multiple AI-generated scenes is the key technical challenge that MakeFilm specifically addresses" },
+      { title: "Complete Production Package", description: "Combining scene generation with narration and music produces something closer to a complete film than just a collection of unrelated clips" },
+      { title: "Creative Experimentation", description: "Writers and storytellers use MakeFilm to visualize their stories quickly without the cost and logistics of traditional production" }
+    ],
+    useCases: [
+      { title: "Writers Visualizing Their Stories", description: "Authors and screenwriters use MakeFilm to create visual representations of their stories for pitching or personal creative exploration" },
+      { title: "Content Creators Making Short Films", description: "Social media creators use MakeFilm to produce short cinematic content for YouTube and other video platforms" },
+      { title: "Educators Creating Story Content", description: "Teachers use MakeFilm to create animated story content for educational purposes" }
+    ]
+  },
+  "listen-labs": {
+    whatIs: "Listen Labs is an AI voice and audio research platform that provides tools for generating, analyzing, and working with synthetic speech. It focuses on the research and development side of voice AI - providing high quality voice synthesis, voice cloning capabilities, and audio analysis tools for teams building voice-powered products and experiences. For product teams and researchers working on voice interfaces and audio AI applications, Listen Labs provides the infrastructure for sophisticated voice work.",
+    features: [
+      "Voice Synthesis: High quality AI voice generation",
+      "Voice Cloning: Create synthetic versions of specific voices",
+      "Audio Analysis: Analyze and process audio content with AI",
+      "Research Tools: Infrastructure for voice AI research and development",
+      "API Access: Programmatic voice generation for product integration",
+      "Multiple Languages: Voice synthesis across different languages",
+      "Emotion and Tone: Control emotional quality of synthesized speech",
+      "Fast Processing: Quick audio generation for iterative development"
+    ],
+    howToUse: {
+      title: "How to Use Listen Labs",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access the API", description: "Sign up at listenlabs.io and get your API credentials. The platform is primarily developer-focused with API access as the primary integration method." },
+        { title: "Generate Your Audio", description: "Use the API to generate voice audio from text. Specify voice characteristics, language, and emotional tone for your specific use case." },
+        { title: "Integrate and Iterate", description: "Integrate the generated audio into your application or research workflow. Test different voice parameters and iterate on the output quality for your specific requirements." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Research Grade Quality", description: "Listen Labs targets the research and development use case where voice quality and control precision matter more than ease of use - producing output suitable for serious product development" },
+      { title: "Voice Cloning Capability", description: "Creating synthetic versions of specific voices enables product personalization and consistent branded voice experiences across applications" },
+      { title: "Developer Infrastructure", description: "API-first access designed for developers building voice products rather than end users creating occasional audio content" },
+      { title: "Multilingual Support", description: "Supporting multiple languages makes Listen Labs applicable to voice product development for international markets" }
+    ],
+    useCases: [
+      { title: "Product Teams Building Voice Interfaces", description: "Development teams building voice-powered applications use Listen Labs for the voice synthesis infrastructure their products require" },
+      { title: "Audio AI Researchers", description: "Researchers studying voice synthesis and audio AI use Listen Labs as a research platform for their work" },
+      { title: "Podcast and Audio Product Developers", description: "Teams building audio content products use Listen Labs for programmatic voice generation capabilities" }
+    ]
+  },
+  "toolsaday": {
+    whatIs: "ToolsADay is an AI tools aggregator and collection platform that curates and provides access to a wide variety of AI-powered tools for different tasks. Rather than being a single specialized tool, it is a collection of AI utilities covering writing, image generation, SEO, marketing, and other categories - all accessible from one platform. For users who need occasional access to many different AI capabilities without subscribing to multiple specialized services, ToolsADay provides broad coverage under one roof.",
+    features: [
+      "Tool Collection: Access to many different AI tools in one place",
+      "Writing Tools: AI writing assistants for various content types",
+      "Image Tools: AI image generation and editing capabilities",
+      "SEO Tools: Search engine optimization analysis and content tools",
+      "Marketing Tools: AI-powered marketing content creation",
+      "Free Access: Many tools accessible without payment",
+      "No Multiple Subscriptions: Access various capabilities under one platform",
+      "Regular Updates: New tools added to the collection regularly"
+    ],
+    howToUse: {
+      title: "How to Use Toolsaday",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Collection", description: "Go to toolsaday.com and browse the available tools by category. Find the specific AI capability you need from the collection." },
+        { title: "Use Your Tool", description: "Select the tool you need and use it directly. Each tool is configured for its specific purpose with appropriate inputs and outputs." },
+        { title: "Explore Other Tools", description: "After using one tool, explore others in the collection for different tasks. The value of the platform grows as you discover tools for different needs." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Breadth Over Depth", description: "ToolsADay trades specialization for coverage - it is not the best tool for any single task but provides good-enough capability across many tasks in one place" },
+      { title: "Subscription Consolidation", description: "Access to many AI capabilities without multiple subscriptions is the core value for users with diverse but occasional AI tool needs" },
+      { title: "Discovery Value", description: "Browsing a curated collection helps users discover AI tools for problems they did not know had AI solutions" },
+      { title: "Free Access Breadth", description: "Making many tools freely accessible lowers the barrier to trying AI for different tasks" }
+    ],
+    useCases: [
+      { title: "Freelancers and Independent Workers", description: "Independent professionals who need various AI capabilities occasionally use ToolsADay to access what they need without managing multiple subscriptions" },
+      { title: "Small Business Owners", description: "Small businesses that need occasional AI assistance across marketing, writing, and operations use ToolsADay for broad coverage at low cost" },
+      { title: "AI Curious Explorers", description: "People exploring what AI can do use ToolsADay to experiment with many different capabilities quickly" }
+    ]
+  },
+  "artguru-ai-text2img": {
+    whatIs: "ArtGuru AI is an AI image generation platform focused on creating artistic and stylized images from text prompts. It offers a range of artistic styles from oil painting and watercolor to anime and digital art, producing images that look like works of art rather than photorealistic renders. For creative users who want AI images with distinctive artistic character rather than generic outputs, ArtGuru provides style-focused generation with quality results.",
+    features: [
+      "Text to Image: Generate artistic images from text descriptions",
+      "Art Style Selection: Choose from many artistic styles and movements",
+      "Oil Painting Style: Generate images in oil painting aesthetic",
+      "Watercolor Generation: Create watercolor-style artwork",
+      "Anime Style: Anime and manga aesthetic image generation",
+      "Digital Art: Modern digital art style generation",
+      "Portrait Art: Artistic portrait generation in various styles",
+      "Free Credits: Try generation before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Artguru Ai Text2Img",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Sign up at artguru.ai and describe the image you want to create. Include the subject and any specific details about composition or mood." },
+        { title: "Choose Your Art Style", description: "Select the artistic style you want applied to your image - oil painting, watercolor, anime, or other available styles. The style selection significantly shapes the final output." },
+        { title: "Generate and Download", description: "Generate your artistic image and download it for use in your project. Try different style combinations to explore the range of outputs." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Style Diversity", description: "The range of artistic styles from traditional painting to anime gives ArtGuru flexibility across very different creative contexts and aesthetic preferences" },
+      { title: "Artistic Rather Than Photographic", description: "For use cases where an artistic look is specifically desired - prints, book covers, decorative use - ArtGuru's style-focused generation is more appropriate than photorealistic generators" },
+      { title: "Accessibility for Non-Artists", description: "Creating artwork in specific styles traditionally requires years of skill development. ArtGuru makes distinctive artistic outputs accessible to anyone" },
+      { title: "Portrait Specialization", description: "Artistic portrait generation in painting styles is a specific use case with high demand for personalized artwork gifts and creative projects" }
+    ],
+    useCases: [
+      { title: "Creative Individuals Making Personalized Art", description: "People who want custom artwork in specific artistic styles use ArtGuru to create personalized pieces for home decor, gifts, and personal projects" },
+      { title: "Content Creators Needing Artistic Visuals", description: "Bloggers and content creators use ArtGuru to generate distinctive artistic images for their content rather than generic stock photos" },
+      { title: "Book Authors and Publishers", description: "Authors use ArtGuru to generate artistic cover concepts and illustrations for their books" }
+    ]
+  },
+  "singify-ai": {
+    whatIs: "Singify is an AI music platform that generates songs complete with vocals, lyrics, and instrumentation from text descriptions. You describe the song you want - genre, mood, lyrical themes, and style - and Singify produces a complete original song with AI-generated vocals and music. For content creators who need original songs, musicians seeking inspiration, and anyone who wants to experience having a custom song created for a specific occasion, Singify makes complete AI music generation accessible.",
+    features: [
+      "Complete Song Generation: Full songs with vocals, lyrics, and music",
+      "Genre Selection: Generate across pop, rock, hip-hop, and other genres",
+      "Lyric Generation: AI writes lyrics matching your described themes",
+      "Vocal Generation: AI vocals perform the generated lyrics",
+      "Style Customization: Adjust tempo, mood, and musical characteristics",
+      "Original Music: Completely original compositions not existing songs",
+      "Fast Generation: Complete songs ready in minutes",
+      "Download Options: Save generated songs as audio files"
+    ],
+    howToUse: {
+      title: "How to Use Singify Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Song", description: "Sign up at singify.ai and describe the song you want created. Include the genre, mood, lyrical themes, and any specific musical characteristics you want." },
+        { title: "Generate and Listen", description: "Singify generates a complete song based on your description. Listen to the full output including vocals and instrumentation to assess how well it matches your vision." },
+        { title: "Download and Use", description: "Download your generated song for use in your project or personal enjoyment. The songs are original AI compositions available for your use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Package Generation", description: "Generating lyrics, vocals, and music separately and combining them produces worse results than end-to-end song generation that optimizes all elements together" },
+      { title: "Occasion Specificity", description: "Creating a song specifically about someone or for a specific occasion - a birthday, a wedding, a graduation - is something AI song generation makes accessible that was previously only possible by commissioning a musician" },
+      { title: "Genre Versatility", description: "Covering multiple musical genres from one platform means users can generate songs that fit their specific taste rather than being limited to one style" },
+      { title: "Creative Inspiration", description: "Musicians use AI song generation to explore ideas and get inspiration rather than as a replacement for their own creative work" }
+    ],
+    useCases: [
+      { title: "Content Creators Needing Original Music", description: "Video and podcast creators use Singify to generate original songs for their content without licensing concerns" },
+      { title: "People Wanting Custom Songs for Occasions", description: "Individuals use Singify to create personalized songs for birthdays, anniversaries, and other special occasions" },
+      { title: "Musicians Exploring Ideas", description: "Songwriters use Singify to quickly explore different genre and style directions before committing to writing a song in a particular direction" }
+    ]
+  },
+  "ai-mastering-enhance": {
+    whatIs: "AI Mastering is an automated audio mastering platform that applies professional-level mastering processing to music tracks using AI. Mastering is the final step in music production that makes tracks louder, more balanced, and ready for distribution - traditionally done by specialist mastering engineers. AI Mastering makes this process accessible to independent musicians who cannot afford professional mastering but want their releases to sound competitive with professionally released music.",
+    features: [
+      "Automated Mastering: Professional mastering processing applied automatically",
+      "Loudness Optimization: Bring tracks to streaming platform loudness standards",
+      "EQ Balancing: Frequency balance optimization across the mix",
+      "Stereo Enhancement: Stereo image improvement for wider sound",
+      "Limiting: Transparent peak limiting for maximum loudness",
+      "Format Export: Export in formats ready for Spotify, Apple Music, and others",
+      "Reference Matching: Match the sound profile of reference tracks",
+      "Fast Turnaround: Mastered tracks ready in minutes"
+    ],
+    howToUse: {
+      title: "How to Use Ai Mastering Enhance",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Mix", description: "Sign up at aimastering.com and upload your finished mix. The platform accepts WAV and other high quality audio formats for best results." },
+        { title: "Configure Your Settings", description: "Set your target loudness level for your distribution platform and optionally upload a reference track you want your master to sound similar to." },
+        { title: "Download Your Master", description: "AI Mastering processes your track and returns the mastered version. Compare it against your original mix and the reference track to assess the improvement before distributing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Mastering Accessibility", description: "Professional mastering costs hundreds of dollars per track and requires booking specialist engineers. AI Mastering makes the process accessible to independent artists with any budget" },
+      { title: "Streaming Standard Compliance", description: "Each streaming platform has specific loudness standards that tracks should meet. AI Mastering knows these standards and targets them automatically" },
+      { title: "Speed for Release", description: "Waiting for mastering engineer availability can delay releases by days or weeks. AI mastering delivers results in minutes which lets artists release on their own timeline" },
+      { title: "Reference Matching", description: "Being able to target the sonic characteristics of a specific reference track gives artists a concrete quality benchmark rather than abstract mastering settings" }
+    ],
+    useCases: [
+      { title: "Independent Musicians Self-Releasing", description: "Independent artists releasing music on Spotify and other streaming platforms use AI Mastering to get professional-sounding releases without mastering engineer budgets" },
+      { title: "Home Studio Producers", description: "Producers working from home studios use AI Mastering to give their productions the final polish that distinguishes them from unmastered demos" },
+      { title: "Podcast and Audio Producers", description: "Audio content creators use AI mastering principles to optimize their audio levels for podcast distribution platforms" }
+    ]
+  },
+  "snapedit-remover": {
+    whatIs: "SnapEdit is an AI photo editing platform with a strong focus on object and background removal. Its AI can remove unwanted objects, people, watermarks, and backgrounds from photos with clean, intelligent fill of the removed areas. The tool is web-based and requires no Photoshop skills - you paint over what you want removed and the AI fills in the space realistically. For product photography, social media content, and general photo cleanup, SnapEdit handles the most common photo editing tasks that previously required significant editing expertise.",
+    features: [
+      "Object Removal: Remove unwanted objects from photos with AI fill",
+      "Background Removal: Remove photo backgrounds automatically",
+      "People Removal: Remove people from scenes cleanly",
+      "Watermark Removal: Remove watermarks and text overlays",
+      "Smart Fill: AI reconstructs the image realistically where content is removed",
+      "One-Click Background: Automatic background removal in one click",
+      "Photo Enhancement: General image quality improvement",
+      "Free to Use: Basic editing features without payment"
+    ],
+    howToUse: {
+      title: "How to Use Snapedit Remover",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to snapedit.app and upload the photo you want to edit. The tool works with standard image formats including JPG and PNG." },
+        { title: "Select What to Remove", description: "Use the brush tool to paint over the object, person, or area you want removed. For backgrounds, use the automatic background removal for one-click removal." },
+        { title: "Download Your Edited Photo", description: "SnapEdit processes your selection and fills the removed area intelligently. Download the edited photo and check the result - for complex removals you may need to refine the selection." }
+      ]
+    },
+    coreFeatures: [
+      { title: "No Photoshop Required", description: "Object removal in Photoshop requires content-aware fill skills and significant practice. SnapEdit handles the same task through simple brush painting without any technical knowledge" },
+      { title: "Smart Fill Quality", description: "The quality of AI fill determines whether object removal looks natural or obvious. SnapEdit's fill reconstruction produces results that blend with the surrounding image rather than creating visible patches" },
+      { title: "Product Photography", description: "Removing distracting background elements and unwanted objects from product photos is one of the most common commercial photography editing tasks - SnapEdit makes this accessible without professional retouching skills" },
+      { title: "Social Media Cleanup", description: "Removing photobombers, distracting signs, and unwanted elements from personal photos for social media is a practical everyday use case that SnapEdit handles quickly" }
+    ],
+    useCases: [
+      { title: "E-commerce Sellers", description: "Online sellers use SnapEdit to clean up product photos by removing unwanted background elements and distractions before listing" },
+      { title: "Social Media Users", description: "People editing personal photos for social media use SnapEdit to remove unwanted elements from their pictures quickly" },
+      { title: "Marketing Teams", description: "Marketing professionals use SnapEdit to quickly clean up photos for campaigns without sending everything to a professional retoucher" }
+    ]
+  },
+  "sendfame": {
+    whatIs: "Sendfame is a platform that connects fans with celebrities and public figures for personalized video messages, shoutouts, and interactions. Fans request personalized video messages from their favorite creators, athletes, musicians, and personalities, and the talent records and delivers them through the platform. For fans who want a unique personal connection with someone they admire and for creators who want to monetize their time with fan engagement, Sendfame facilitates these personalized interactions.",
+    features: [
+      "Celebrity Shoutouts: Request personalized video messages from public figures",
+      "Fan Connections: Direct personalized interaction with favorite personalities",
+      "Quick Delivery: Messages typically delivered within days",
+      "Multiple Talent: Wide range of celebrities and creators available",
+      "Occasion Messages: Birthday, anniversary, and special occasion videos",
+      "Business Requests: Corporate shoutouts for team events",
+      "Gift Option: Send celebrity messages as gifts to others",
+      "Secure Platform: Safe payment and delivery of requests"
+    ],
+    howToUse: {
+      title: "How to Use Sendfame",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse Available Talent", description: "Go to sendfame.com and browse the available celebrities, creators, and personalities. Filter by category to find talent relevant to your interests or the recipient's." },
+        { title: "Submit Your Request", description: "Select your chosen talent and submit your personalized request. Include details about the occasion, the recipient, and any specific things you want mentioned in the message." },
+        { title: "Receive Your Video", description: "The talent records and delivers your personalized video within the specified timeframe. Download and share it with the recipient or keep it as a personal keepsake." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization Value", description: "A personalized video message from someone a fan admires has emotional value that generic merchandise or signed photos cannot match - it is a unique interaction rather than a mass-produced product" },
+      { title: "Creator Monetization", description: "For creators and public figures, Sendfame provides a way to monetize fan engagement directly without brand deals or sponsorships" },
+      { title: "Gift Uniqueness", description: "A celebrity video message as a gift is genuinely unique in a way that physical gifts often are not - particularly for hard-to-buy-for people who already have everything they need" },
+      { title: "Occasion Specificity", description: "Personalized messages for specific occasions - mentioning the recipient's name and the specific event - create a personal connection that generic celebrity content cannot provide" }
+    ],
+    useCases: [
+      { title: "Fans Wanting Personal Celebrity Connections", description: "Dedicated fans use Sendfame to get personalized video messages from the celebrities and creators they follow" },
+      { title: "Gift Givers for Fans", description: "People buying gifts for fans in their life use Sendfame to give an experience that is impossible to find in a store" },
+      { title: "Businesses for Team Celebrations", description: "Companies use celebrity shoutouts from Sendfame for employee recognition, team events, and corporate celebrations" }
+    ]
+  },
   "ebookmaker-2": {
     whatIs: "EbookMaker is an AI-powered ebook creation platform that helps authors, educators, and content creators produce professional ebooks quickly from their existing content or new ideas. It handles formatting, layout, and design automatically so creators can focus on the content rather than the production work. The platform supports multiple ebook formats for different distribution channels including Amazon Kindle, Apple Books, and PDF for direct distribution.",
     features: [
