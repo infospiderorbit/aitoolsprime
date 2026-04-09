@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "dreampress-ai": {
+    whatIs: "DreamPress AI is an AI-powered WordPress content generation platform that helps bloggers and website owners create SEO-optimized articles, product descriptions, and web copy directly within their WordPress dashboard. It integrates as a WordPress plugin, meaning content is generated and published without leaving the CMS. For WordPress site owners who want AI writing assistance without switching between tools, DreamPress brings the generation workflow into the platform they already use.",
+    features: [
+      "WordPress Plugin: AI writing directly inside your WordPress dashboard",
+      "SEO Optimization: Content structured for search engine ranking",
+      "Article Generation: Complete blog posts and articles from brief prompts",
+      "Product Descriptions: E-commerce product copy generation",
+      "Meta Tags: AI-generated SEO meta titles and descriptions",
+      "Bulk Generation: Create multiple pieces of content simultaneously",
+      "One-Click Publish: Generate and publish without leaving WordPress",
+      "Multiple Languages: Content generation in different languages"
+    ],
+    howToUse: {
+      title: "How to Use Dreampress Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Plugin", description: "Install the DreamPress AI plugin from the WordPress plugin directory. Activate it and connect your API key to enable content generation." },
+        { title: "Generate Your Content", description: "Open a new post or page in WordPress and use the DreamPress panel to describe the content you want. Generate a complete article draft without leaving your editor." },
+        { title: "Review and Publish", description: "Edit the generated content to add your personal insights and specific details. Optimize the SEO fields and publish directly from WordPress when satisfied." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Workflow Integration", description: "Generating content without leaving WordPress eliminates the copy-paste workflow between AI tools and your CMS - which saves time and reduces formatting errors from the transfer" },
+      { title: "SEO Structure", description: "Content generated with SEO structure built in produces better ranking outcomes than generic AI writing that needs separate SEO optimization" },
+      { title: "Publisher Productivity", description: "WordPress site owners who publish regularly use DreamPress to maintain their publishing schedule without the time investment of writing every piece from scratch" },
+      { title: "Plugin Ecosystem Fit", description: "Fitting into the WordPress plugin ecosystem means DreamPress works alongside the other plugins site owners already use" }
+    ],
+    useCases: [
+      { title: "WordPress Bloggers", description: "Bloggers who publish regularly on WordPress use DreamPress to generate content drafts quickly without leaving their publishing environment" },
+      { title: "WordPress E-commerce Sites", description: "WooCommerce store owners use DreamPress to generate product descriptions for their catalogs without manual writing for each item" },
+      { title: "Digital Marketing Agencies", description: "Agencies managing WordPress sites for clients use DreamPress to produce content at the pace their clients require" }
+    ]
+  },
+  "ai-roastbot": {
+    whatIs: "AI Roast Bot is an entertainment tool that generates humorous, exaggerated roast-style jokes about a person based on information you provide. Inspired by the comedy roast format where friends affectionately mock each other, it produces playful burns and witty observations for birthdays, farewell parties, and friendly ribbing. The roasts are designed to be funny rather than cruel - the kind of good-natured teasing that brings people together rather than genuinely insulting anyone.",
+    features: [
+      "Personalized Roasts: Generate roasts based on specific details about a person",
+      "Multiple Styles: Adjust the intensity from gentle to savage",
+      "Birthday Roasts: Themed roasts for birthday celebrations",
+      "Workplace Safe Options: Filter for office-appropriate content",
+      "Instant Generation: Roasts ready immediately",
+      "Free to Use: Basic roast generation without payment",
+      "Share Feature: Copy and share generated roasts easily",
+      "Variety: Multiple roast angles for each person"
+    ],
+    howToUse: {
+      title: "How to Use Ai Roastbot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Their Details", description: "Go to the AI Roast Bot and enter details about the person you want to roast - their job, hobbies, personality quirks, and any other specifics that make good material." },
+        { title: "Choose Your Style", description: "Select how intense you want the roast to be. Gentle for sensitive friends, medium for good sports, or savage for people with thick skin who enjoy brutal honesty in comedy format." },
+        { title: "Generate and Deliver", description: "Generate your roast and pick the best lines. Use them in your speech, card, or message for maximum comedic effect." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization Quality", description: "The more specific the details you provide the funnier the roast - generic roasts land flat while specific ones get laughs because they show you actually know the person" },
+      { title: "Comedy Format Understanding", description: "The roast format has specific comedic conventions - the setup, the burn, the callback - that AI Roast Bot incorporates to produce jokes that land rather than just offensive statements" },
+      { title: "Safe Entertainment", description: "Good-natured roasting is a form of affection that brings groups together. The tool is designed for entertainment rather than genuine mockery" },
+      { title: "Occasion Appropriateness", description: "Adjustable intensity means the same tool works for a gentle birthday card message and a full roast speech at a retirement party" }
+    ],
+    useCases: [
+      { title: "Friends Planning Birthday Roasts", description: "Friend groups use AI Roast Bot to prepare material for birthday roast speeches that celebrate the birthday person through affectionate mockery" },
+      { title: "Office Party Organizers", description: "Workplace event organizers use the office-safe settings to prepare lighthearted roast content for farewell parties and celebrations" },
+      { title: "Best Man and Maid of Honor Speeches", description: "Wedding party members use AI Roast Bot to add humor to their speeches with personalized jokes about the couple" }
+    ]
+  },
+  "algor-education": {
+    whatIs: "Algor Education is an AI-powered learning platform that transforms educational content into interactive mind maps, visual summaries, and study materials. Students paste in lecture notes, textbook chapters, or any educational text and Algor converts it into organized visual learning materials that are easier to review and remember than dense text. The visual mapping approach reflects how many students actually process and retain information better than linear note-taking.",
+    features: [
+      "Mind Map Generation: Convert text into visual mind maps automatically",
+      "Visual Summaries: Transform dense content into clear visual layouts",
+      "Note Transformation: Convert lecture notes into organized study materials",
+      "Concept Linking: Show relationships between ideas visually",
+      "PDF Import: Upload PDF documents for conversion",
+      "Export Options: Download mind maps in various formats",
+      "Collaborative Study: Share mind maps with classmates",
+      "Free Plan: Basic mind map generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Algor Education",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Content", description: "Sign up at algor.io and paste your lecture notes, textbook excerpt, or any study material into the input field." },
+        { title: "Generate Your Mind Map", description: "Algor analyzes the content and generates a visual mind map showing the main concepts and their relationships. Review the structure and expand any branches that need more detail." },
+        { title: "Study and Share", description: "Use the mind map for revision and studying. Share it with classmates for collaborative study sessions or export it for inclusion in your notes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Learning Effectiveness", description: "Many students retain information better when it is presented visually rather than as dense text. Converting notes to mind maps changes the format to one that suits visual learners" },
+      { title: "Relationship Clarity", description: "Mind maps show how concepts connect to each other which text notes do not - understanding relationships between ideas is often more important than memorizing isolated facts" },
+      { title: "Review Efficiency", description: "A well-structured mind map lets students review an entire topic quickly before an exam rather than rereading pages of notes" },
+      { title: "Note Taking Speed", description: "Generating a visual summary from raw notes takes seconds compared to manually creating mind maps which can take as long as the original note-taking" }
+    ],
+    useCases: [
+      { title: "University Students", description: "College students use Algor to transform lecture notes and textbook content into visual study materials for more effective exam preparation" },
+      { title: "High School Students", description: "Secondary school students use Algor to organize complex subjects like history, biology, and literature into manageable visual summaries" },
+      { title: "Self-Directed Learners", description: "Adults learning new subjects use Algor to process and organize information from multiple sources into coherent visual knowledge maps" }
+    ]
+  },
+  "splitter-ai-vocal": {
+    whatIs: "Splitter AI Vocal is a focused audio stem separation tool that specifically targets vocal isolation - extracting clean vocal tracks from mixed songs. While the broader Splitter AI platform handles multiple stems, the vocal-focused version is optimized specifically for the most common use case: getting a clean vocal track or a clean instrumental backing track. The AI is specifically tuned to maximize vocal separation quality for karaoke creation, vocal sampling, and practice track generation.",
+    features: [
+      "Vocal Isolation: Extract clean vocal tracks from any song",
+      "Instrumental Track: Remove vocals to create clean karaoke backing tracks",
+      "AI Optimized: Specifically tuned for vocal separation quality",
+      "Minimal Bleed: Reduces instrumental sound bleeding into vocal track",
+      "Fast Processing: Results in minutes from upload",
+      "Multiple Formats: Download in WAV or MP3",
+      "High Quality Output: Professional quality separation",
+      "Free to Try: Test on sample tracks before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Splitter Ai Vocal",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Song", description: "Go to splitter.ai and upload the audio file you want to separate. Select the vocal separation option specifically for the best vocal isolation results." },
+        { title: "Process and Preview", description: "The AI processes your track and separates the vocal and instrumental components. Preview both outputs to check the separation quality before downloading." },
+        { title: "Download Your Tracks", description: "Download the clean vocal track or the instrumental backing track in your preferred format. Use them for karaoke, sampling, or practice purposes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Vocal-Specific Optimization", description: "A model specifically optimized for vocal separation produces cleaner vocal tracks than a general stem separator - the specialized training focuses on the specific frequency and timing characteristics of human vocals" },
+      { title: "Karaoke Quality", description: "The instrumental track quality determines whether a karaoke backing track is actually usable for singing. Vocal-optimized separation produces cleaner instrumentals than general separation" },
+      { title: "Practice Track Creation", description: "Musicians who want to practice singing or playing along with songs use vocal separation to create practice tracks with just the instruments" },
+      { title: "Sample Quality", description: "Producers sampling vocal performances from existing recordings need the cleanest possible vocal isolation - specialized vocal separation produces better sample material" }
+    ],
+    useCases: [
+      { title: "Karaoke Enthusiasts and Creators", description: "People creating karaoke tracks use Splitter AI Vocal to produce clean instrumental versions of songs for singing along" },
+      { title: "Singers Practicing", description: "Vocalists use the vocal isolation feature to study the original vocal performance and the instrumental separation to practice singing along" },
+      { title: "Music Producers Sampling Vocals", description: "Producers who want to incorporate vocal samples from existing recordings use the vocal isolation tool to extract clean samples" }
+    ]
+  },
+  "ai-song-maker-remix": {
+    whatIs: "AI Song Maker Remix is a browser-based music creation tool that lets users compose original songs and create remixes without any musical training. It provides a simple interface for building musical arrangements by selecting instruments, patterns, and styles, with AI filling in harmonious arrangements based on your choices. The remix functionality lets users take existing musical elements and rearrange them into new compositions. It is designed for casual music creation and experimentation rather than professional production.",
+    features: [
+      "Song Creation: Build original songs from scratch with AI assistance",
+      "Remix Tools: Rearrange and modify existing musical elements",
+      "Multiple Instruments: Choose from various virtual instruments",
+      "Style Selection: Pick musical genres and styles",
+      "Pattern Building: Create and combine musical patterns",
+      "Real-Time Playback: Hear your composition as you build it",
+      "Export Audio: Download your finished compositions",
+      "Free to Use: Basic music creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Song Maker Remix",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Style", description: "Open the AI Song Maker and select the musical style and tempo you want to work with. These parameters guide the AI's arrangement suggestions." },
+        { title: "Build Your Arrangement", description: "Add instruments and patterns to your composition. The AI suggests harmonious combinations that fit your chosen style and key." },
+        { title: "Remix and Export", description: "Adjust your arrangement, remix elements to create variations, and export your finished composition as an audio file." }
+      ]
+    },
+    coreFeatures: [
+      { title: "No Training Required", description: "AI Song Maker Remix is specifically designed for people with no musical background - the AI handles the harmony and arrangement decisions so users focus on creative choices" },
+      { title: "Immediate Feedback", description: "Real-time playback means you hear every change immediately rather than having to render audio before evaluating your decisions" },
+      { title: "Experimentation Encouragement", description: "The simple interface and instant results encourage experimentation - trying different combinations costs nothing and produces immediate results" },
+      { title: "Creative Starting Points", description: "Even musicians use tools like this to generate quick musical ideas and starting points that they develop further in their professional tools" }
+    ],
+    useCases: [
+      { title: "Music Beginners and Hobbyists", description: "People who want to make music but have no training use AI Song Maker Remix to create compositions without needing to learn an instrument or music theory" },
+      { title: "Content Creators Needing Original Music", description: "Video creators and podcasters use the tool to generate original background music for their content without royalty concerns" },
+      { title: "Students Exploring Music", description: "Students learning about music use the tool to experiment with how different instruments and patterns interact" }
+    ]
+  },
+  "usernamegenerator-io": {
+    whatIs: "Username Generator IO is a tool that creates unique, creative usernames for social media platforms, gaming, and online accounts based on your interests, name, or keywords. It generates hundreds of available username options in seconds, checking for common patterns and creativity to produce names that are both memorable and likely to be available. For anyone setting up a new online presence who wants a distinctive username rather than defaulting to their real name with random numbers appended, it provides quality options quickly.",
+    features: [
+      "Username Generation: Create unique usernames from keywords and interests",
+      "Availability Suggestions: Options designed to be available on major platforms",
+      "Style Variety: Different styles from professional to gaming to creative",
+      "Keyword Based: Generate from your name, interests, or any keywords",
+      "Bulk Options: Hundreds of suggestions per generation",
+      "Platform Specific: Options optimized for different platforms",
+      "Free to Use: Username generation without payment",
+      "Instant Results: Suggestions appear immediately"
+    ],
+    howToUse: {
+      title: "How to Use Usernamegenerator Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Keywords", description: "Go to usernamegenerator.io and enter keywords related to your name, interests, or the theme you want for your username." },
+        { title: "Browse Suggestions", description: "Review the generated username options. The tool produces many variations across different styles so you can find one that fits your personality and intended platform." },
+        { title: "Check and Use", description: "When you find a username you like, check its availability on your target platform and claim it before someone else does." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Over Generic", description: "Random number combinations appended to your name are forgettable and unoriginal. A generated username with actual creative construction is more memorable and better for brand building" },
+      { title: "Bulk Options Value", description: "Generating hundreds of options at once means you find something you actually like rather than settling for an available option that is not quite right" },
+      { title: "Style Matching", description: "Different online contexts call for different username styles - professional for LinkedIn, playful for gaming, distinctive for creative platforms. Style-specific generation produces more appropriate options" },
+      { title: "Availability Orientation", description: "Suggestions designed with availability in mind save the frustration of generating great names that are already taken on every platform" }
+    ],
+    useCases: [
+      { title: "New Social Media Users", description: "People setting up social media accounts for the first time use Username Generator to find a distinctive handle that represents them well" },
+      { title: "Gamers Creating New Characters", description: "Online gamers use the tool to find creative usernames for new game accounts and characters" },
+      { title: "Content Creators Building Personal Brands", description: "Creators establishing an online presence use Username Generator to find a consistent handle they can use across multiple platforms" }
+    ]
+  },
+  "disney-ai-pixar": {
+    whatIs: "Disney Pixar AI refers to AI-powered tools and filters that transform photos into the distinctive Pixar animation style - the warm, expressive, slightly exaggerated aesthetic that characterizes films like Toy Story, Up, and Inside Out. These tools use style transfer and generative AI to apply the Pixar visual language to real photographs, turning portraits into characters that look like they belong in a Pixar feature film. They became extremely popular as a social media trend for transforming family photos and pet pictures.",
+    features: [
+      "Pixar Style Transfer: Transform photos into Pixar animation aesthetic",
+      "Portrait Transformation: Convert real faces into Pixar-style characters",
+      "Pet Photos: Transform animal photos into Pixar-style creatures",
+      "Family Photos: Turn family portraits into animated characters",
+      "High Quality Output: Detailed style transfer with characteristic Pixar features",
+      "Fast Processing: Transformations ready in seconds",
+      "Social Media Ready: Output formatted for sharing on Instagram and TikTok",
+      "Free to Try: Basic transformations accessible without payment"
+    ],
+    howToUse: {
+      title: "How to Use Disney Ai Pixar",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Access the Disney Pixar AI tool and upload the photo you want to transform. Portrait photos with clear faces produce the best results." },
+        { title: "Apply the Transformation", description: "The AI applies the Pixar style transfer to your photo, exaggerating features in the characteristic Pixar way - larger eyes, smoother skin, warm color grading." },
+        { title: "Download and Share", description: "Download your transformed image and share it on social media. The distinctive Pixar aesthetic makes these images highly shareable and recognizable." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Style Transfer Quality", description: "The Pixar aesthetic is highly specific - the particular way eyes are rendered, the skin texture, the color palette. Good Pixar AI tools capture these specifics rather than producing generic cartoon effects" },
+      { title: "Emotional Appeal", description: "Pixar's visual style is deliberately designed to be emotionally appealing and likeable - which is why photos transformed into this style are so popular for sharing" },
+      { title: "Social Media Virality", description: "The Pixar transformation trend spread rapidly on social media because the results are consistently charming and immediately recognizable to a global audience familiar with Pixar films" },
+      { title: "Pet and Family Focus", description: "Pets and children are natural subjects for the Pixar style because the exaggerated features of Pixar characters align with what makes these subjects appealing" }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "People use Disney Pixar AI to create fun, shareable content from their personal photos for Instagram, TikTok, and other platforms" },
+      { title: "Parents with Young Children", description: "Parents transform family photos into Pixar-style images as creative keepsakes and social media content their children will love" },
+      { title: "Pet Owners", description: "Animal lovers use the tool to transform their pet photos into adorable Pixar-style characters" }
+    ]
+  },
+  "live3d": {
+    whatIs: "Live3D is a VTuber and virtual avatar platform that lets content creators create and animate 3D virtual avatars for live streaming and video content. It uses face tracking technology to animate the avatar in real time based on your facial expressions and movements, allowing creators to stream as a virtual character rather than showing their real face. The platform is part of the growing VTuber phenomenon where creators use virtual avatars to build audiences on YouTube, Twitch, and other streaming platforms.",
+    features: [
+      "3D Avatar Creation: Create and customize detailed 3D virtual avatars",
+      "Face Tracking: Real-time facial expression capture and animation",
+      "Live Streaming: Stream as your virtual avatar on Twitch and YouTube",
+      "Expression Sync: Avatar mirrors your facial movements and expressions",
+      "Background Removal: Stream without revealing your physical background",
+      "Outfit and Accessory: Customize avatar appearance with different options",
+      "OBS Integration: Works with OBS and other streaming software",
+      "Free Plan: Basic avatar creation and streaming without payment"
+    ],
+    howToUse: {
+      title: "How to Use Live3D",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Avatar", description: "Sign up at live3d.io and use the avatar creator to design your virtual character. Customize the face, hair, clothing, and other visual elements to create your desired look." },
+        { title: "Set Up Face Tracking", description: "Configure the face tracking using your webcam. Calibrate the tracking so your avatar's expressions accurately mirror your own facial movements." },
+        { title: "Go Live", description: "Connect Live3D to your streaming software such as OBS. Your avatar appears in your stream with real-time expression animation based on your face.  Interact with your audience as your virtual character." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creator Anonymity", description: "Many talented creators prefer not to show their face on camera for personal, professional, or safety reasons. VTuber avatars let these creators build audiences without the vulnerability of being on camera" },
+      { title: "Character Building", description: "A distinctive virtual avatar becomes a character that audiences connect with - which can create stronger parasocial connections than a facecam because the character has a consistent visual identity" },
+      { title: "Entertainment Value", description: "Virtual avatars add an entertainment dimension to streaming - the character design, expressions, and movements are part of the content rather than just a window to the creator" },
+      { title: "Technical Accessibility", description: "Live3D makes professional-quality face-tracked avatar streaming accessible without expensive motion capture equipment or advanced technical setup" }
+    ],
+    useCases: [
+      { title: "VTubers and Virtual Streamers", description: "Content creators who want to stream as virtual characters use Live3D for the face tracking and avatar customization that makes their VTuber identity possible" },
+      { title: "Privacy-Conscious Content Creators", description: "Creators who want to build an online audience without revealing their identity use Live3D to maintain privacy while still connecting with viewers" },
+      { title: "Anime and Gaming Content Creators", description: "Creators in the anime and gaming communities use Live3D to align their on-screen presence with the visual aesthetic of the content they create" }
+    ]
+  },
   "planable-social": {
     whatIs: "Planable is a social media collaboration and scheduling platform built for marketing teams and agencies that need a streamlined workflow for creating, approving, and publishing social media content. It provides a visual content calendar where teams can draft posts, leave feedback, get approvals from clients or managers, and schedule publishing - all in one place without email chains and spreadsheet trackers. For agencies managing multiple client accounts, Planable's workspace structure keeps each client's content separate while giving the team a unified workflow.",
     features: [
