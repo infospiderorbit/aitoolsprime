@@ -1,4 +1,247 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "pixai": {
+    whatIs: "PixAI is an AI art generation platform focused on anime and illustrated art styles. It provides high-quality anime-style image generation with fine-tuned models specifically trained on illustrated content, making it a go-to platform for artists and creators who want anime aesthetics rather than photorealistic outputs. The platform hosts a community of creators who share models, prompts, and generated artwork, which gives users access to a constantly expanding library of style-specific models beyond the base offerings.",
+    features: [
+      "Anime Art Generation: High-quality anime and illustrated style image creation",
+      "Style-Specific Models: Fine-tuned models for different anime and illustration styles",
+      "Community Models: Access models shared by other creators in the community",
+      "ControlNet: Control poses, composition, and structure of generated images",
+      "Img2Img: Transform existing images into anime style",
+      "Prompt Templates: Pre-built prompt templates for consistent results",
+      "Free Credits: Daily free credits for generating images",
+      "Gallery: Browse community-generated artwork for inspiration"
+    ],
+    howToUse: {
+      title: "How to Use Pixai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Prompt", description: "Sign up at pixai.art and write your image prompt. PixAI's models are tuned for anime aesthetics so prompts that reference art styles, character features, and illustrated qualities produce the best results." },
+        { title: "Choose Your Model", description: "Select from the available models based on the art style you want. Different models produce different anime aesthetics - some are closer to studio animation while others lean toward manga or game art styles." },
+        { title: "Generate and Refine", description: "Generate your image and use img2img or ControlNet to refine specific aspects like pose or composition. Adjust your prompt based on the results and iterate until you get the image you want." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Anime-Specific Training", description: "General image generators produce anime style as one of many outputs but are not optimized for it. PixAI's models are specifically trained on illustrated content which produces higher quality and more consistent anime aesthetics" },
+      { title: "Community Model Library", description: "The community-contributed models expand the available styles far beyond what any single team could produce - giving access to highly specific aesthetics that match particular games, shows, or illustration styles" },
+      { title: "Daily Free Credits", description: "Free daily credits make PixAI accessible for regular use without a paid subscription for users with moderate generation needs" },
+      { title: "ControlNet Precision", description: "The ability to control poses and composition through ControlNet gives artists precise control over their generated images rather than relying entirely on text prompts" }
+    ],
+    useCases: [
+      { title: "Anime Artists and Illustrators", description: "Digital artists working in anime and illustrated styles use PixAI for reference generation, character concept exploration, and creating assets that fit their aesthetic" },
+      { title: "Game Developers and Indie Studios", description: "Game creators needing anime-style character and environment art use PixAI to generate concept art and asset references quickly" },
+      { title: "Fan Artists and Content Creators", description: "Fans who create content around anime and game franchises use PixAI to generate artwork in styles consistent with the properties they love" }
+    ]
+  },
+  "vanceai": {
+    whatIs: "VanceAI is an AI image enhancement platform that bundles multiple image processing tools - upscaling, denoising, sharpening, background removal, and portrait retouching - into one subscription. Rather than subscribing to separate specialized tools for each task, VanceAI provides a comprehensive image improvement toolkit accessible through a web interface or API. The platform is particularly strong on portrait enhancement, with AI tools trained specifically on human faces for retouching, restoration, and quality improvement.",
+    features: [
+      "AI Image Upscaling: Enlarge images up to 8x without quality loss",
+      "Image Denoising: Remove grain and noise from photos automatically",
+      "Image Sharpener: Fix blurry and out-of-focus images with AI",
+      "Background Remover: Remove backgrounds automatically in one click",
+      "Portrait Retoucher: AI skin retouching and facial enhancement",
+      "Photo Restorer: Repair old and damaged photographs",
+      "Photo Colorizer: Add color to black and white photographs",
+      "Sketch to Image: Convert sketches and line art to finished illustrations",
+      "Batch Processing: Process multiple images simultaneously",
+      "API Access: Integrate VanceAI tools into your own workflows"
+    ],
+    howToUse: {
+      title: "How to Use Vanceai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to vanceai.com and select the tool you need. Upload your image - VanceAI accepts JPG, PNG, and WebP - and the AI processes it automatically without any manual adjustments required." },
+        { title: "Choose Your Enhancement", description: "Select the type of enhancement that matches your need - upscaling for size, denoising for grain, sharpening for blur, or portrait retouching for faces. Each tool is optimized for its specific task." },
+        { title: "Download and Use", description: "The enhanced image is ready within seconds. Download it in full resolution for your project. Use batch processing when you have multiple images to handle at once." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Tool Value", description: "Subscribing to VanceAI gives access to the full suite of tools rather than paying separately for upscaling, background removal, and portrait retouching - which adds up to significant cost savings for users who need multiple capabilities" },
+      { title: "Portrait Specialization", description: "VanceAI's portrait-specific tools are trained on human faces which produces more natural retouching results than general image enhancement tools that treat faces like any other image content" },
+      { title: "API for Integration", description: "The API makes VanceAI tools embeddable in custom workflows and applications - useful for photography studios and e-commerce platforms that need image enhancement as part of an automated pipeline" },
+      { title: "Old Photo Restoration", description: "The photo restorer and colorizer tools address a specific emotional use case - restoring and colorizing old family photographs - that has strong demand and where AI produces results that would take hours of manual work" }
+    ],
+    useCases: [
+      { title: "Photographers and Photo Editors", description: "Photography professionals use VanceAI to handle routine enhancement tasks like denoising, sharpening, and background removal at speed without manual editing for each image" },
+      { title: "E-commerce Sellers", description: "Online sellers use VanceAI's background remover and upscaling tools to prepare product photos for marketplace listings quickly" },
+      { title: "Portrait and Wedding Photographers", description: "Photographers delivering large batches of portrait images use VanceAI's retouching tools to process images efficiently while maintaining consistent quality" }
+    ]
+  },
+  "vectorizer-ai": {
+    whatIs: "Vectorizer.AI is a specialized tool that converts raster images - JPGs, PNGs, and other pixel-based formats - into clean vector graphics using AI. Where traditional vectorization tools like Illustrator's Image Trace produce output that often requires significant cleanup, Vectorizer.AI's neural network approach understands image content and produces clean, well-structured vector paths that are close to what a human designer would create manually. For designers and businesses that need high-quality vector versions of logos, icons, and illustrations, it eliminates hours of manual tracing work.",
+    features: [
+      "AI Vectorization: Convert raster images to clean vector SVG files",
+      "Neural Network Approach: AI understands image content for better path decisions",
+      "Logo Conversion: Convert existing logos to scalable vector format",
+      "Icon Vectorization: Turn pixel icons into clean vector graphics",
+      "Illustration Tracing: Convert hand-drawn and illustrated content to vector",
+      "Clean Path Output: Produces well-structured paths with minimal anchor points",
+      "Multiple Output Formats: Export as SVG, PDF, EPS, and DXF",
+      "Batch Processing: Convert multiple images simultaneously",
+      "High Accuracy: Preserves colors, shapes, and design intent through conversion",
+      "Free to Try: Test vectorization on sample images before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Vectorizer Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to vectorizer.ai and upload the raster image you want to convert. The tool accepts JPG, PNG, BMP, and other common raster formats." },
+        { title: "Preview the Result", description: "Vectorizer.AI processes your image and shows you a preview of the vectorized output. Zoom in to check the path quality and how well it has captured fine details." },
+        { title: "Download Your Vector", description: "Download the vector file in your preferred format - SVG for web use, PDF or EPS for print, or DXF for CAD applications. The file is ready to open in Illustrator, Inkscape, or any other vector editor." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Neural Network Quality Difference", description: "Traditional auto-tracing produces noisy paths with excessive anchor points that require manual cleanup. Vectorizer.AI's neural approach produces cleaner paths that need much less post-processing because it understands what the shapes are" },
+      { title: "Logo and Icon Focus", description: "The most common vectorization need is converting existing logos and icons from raster to vector for scaling and reproduction. Vectorizer.AI is specifically optimized for this use case" },
+      { title: "Format Flexibility", description: "Supporting SVG, PDF, EPS, and DXF means the output works across web, print, and CAD contexts without format conversion steps" },
+      { title: "Time Savings on Manual Work", description: "Manual vectorization of a complex logo in Illustrator can take hours. Vectorizer.AI produces a comparable result in seconds, which changes the economics of vectorization for designers" }
+    ],
+    useCases: [
+      { title: "Graphic Designers Vectorizing Client Assets", description: "Designers who receive raster logo files from clients use Vectorizer.AI to convert them to scalable vectors quickly rather than manually tracing each one" },
+      { title: "Print and Merchandise Companies", description: "Businesses that print on t-shirts, merchandise, and large format materials need vector files - Vectorizer.AI converts customer-provided rasters to print-ready vectors" },
+      { title: "Web Developers Optimizing Icons", description: "Developers converting icon sets and UI assets from PNG to SVG for better web performance use Vectorizer.AI for clean vector output that renders crisply at any size" }
+    ]
+  },
+  "careerflow-resume": {
+    whatIs: "Careerflow is an AI-powered job search and career management platform that helps job seekers organize their search, optimize their resume for ATS systems, and track their applications in one place. The LinkedIn optimization tool analyzes your profile and gives specific recommendations for improving visibility and recruiter appeal. The resume builder ensures your resume is formatted correctly for Applicant Tracking Systems and includes the right keywords for the roles you are targeting. For anyone running an active job search, Careerflow provides the structure and optimization tools that most job seekers handle manually in spreadsheets.",
+    features: [
+      "ATS Resume Optimization: Ensure your resume passes Applicant Tracking Systems",
+      "LinkedIn Optimizer: Specific recommendations for improving your LinkedIn profile",
+      "Job Tracker: Organize and track all your job applications in one place",
+      "Resume Builder: Build an ATS-friendly resume with AI assistance",
+      "Keyword Matching: Match your resume keywords to specific job descriptions",
+      "Chrome Extension: Track jobs and optimize directly from job posting pages",
+      "Application Status: Track where each application stands in the process",
+      "Interview Prep: Tools for preparing for interviews at specific companies",
+      "Cover Letter Generator: AI-generated cover letters for specific roles",
+      "Free Plan: Core job tracking and basic optimization without payment"
+    ],
+    howToUse: {
+      title: "How to Use Careerflow Resume",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Job Tracker", description: "Sign up at careerflow.ai and install the Chrome extension. As you browse job postings on LinkedIn, Indeed, and other sites, save them to your tracker with one click." },
+        { title: "Optimize Your Resume", description: "Upload your resume and the job description you are targeting. Careerflow analyzes keyword alignment and gives specific recommendations for tailoring your resume to pass ATS screening for that role." },
+        { title: "Optimize Your LinkedIn", description: "Run the LinkedIn optimizer on your profile. Careerflow gives specific section-by-section recommendations for improving your profile's visibility to recruiters searching for your skills and experience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "ATS Reality", description: "Most resumes are screened by software before a human sees them. Optimizing for ATS is not gaming the system - it is making sure qualified candidates actually get seen. Careerflow makes that optimization systematic" },
+      { title: "Job Search Organization", description: "An active job search involves dozens of applications across weeks or months. Without a tracking system it becomes impossible to remember where you applied, what stage each application is at, and what follow-ups are needed" },
+      { title: "LinkedIn ROI", description: "Many job seekers underinvest in LinkedIn optimization even though recruiters actively search the platform. Specific, actionable recommendations produce measurably better profile visibility" },
+      { title: "Tailoring at Scale", description: "Tailoring your resume to each job description is best practice but takes time. Careerflow's keyword matching makes it fast enough to actually do for each application rather than submitting the same resume everywhere" }
+    ],
+    useCases: [
+      { title: "Active Job Seekers", description: "People currently searching for a new role use Careerflow to stay organized, optimize their materials, and move through their search more systematically than a spreadsheet allows" },
+      { title: "Recent Graduates Entering the Workforce", description: "New graduates who are new to job searching use Careerflow to understand ATS optimization and LinkedIn best practices they would not know to apply otherwise" },
+      { title: "Career Changers", description: "People transitioning to a new field use Careerflow to identify and fill the keyword gaps between their existing resume and the requirements of roles in their target field" }
+    ]
+  },
+  "murf-ai": {
+    whatIs: "Murf AI is a professional text-to-speech platform that generates natural-sounding voice overs from text using AI voices. It is built specifically for professional content creation - presentations, explainer videos, e-learning, podcasts, and advertisements - where voice quality needs to be indistinguishable from a professional human recording. With over 120 AI voices across 20 plus languages, Murf provides the voice variety that professional content requires. The studio interface lets you sync voice overs with video timelines, add background music, and produce complete audio-visual content without audio engineering expertise.",
+    features: [
+      "120 Plus Voices: Professional AI voices across accents, ages, and styles",
+      "20 Plus Languages: Voice generation in major world languages",
+      "Voice Cloning: Create a custom AI voice from your own recordings",
+      "Studio Interface: Sync voice over with video timelines and add music",
+      "Pitch and Speed Control: Fine-tune voice delivery for each segment",
+      "Emphasis and Pauses: Add natural emphasis and timing to the script",
+      "Background Music: Add licensed music tracks to your projects",
+      "Collaboration: Share projects and collaborate with team members",
+      "API Access: Integrate Murf voices into your own applications",
+      "Free Trial: Sample voices and generate short clips before paying"
+    ],
+    howToUse: {
+      title: "How to Use Murf Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Script", description: "Sign up at murf.ai and create a new project. Type or paste your script into the editor. Murf supports scripts of any length for everything from short ads to full course modules." },
+        { title: "Choose Your Voice", description: "Browse the voice library and audition voices by playing samples. Filter by language, accent, age, and style to find the voice that fits your content. Assign different voices to different speakers if your script has multiple characters." },
+        { title: "Sync and Export", description: "If you are creating a video voice over, import your video and sync the generated audio to your timeline. Add background music if needed and export the complete audio or audio-visual project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Production Quality Without Studios", description: "Professional voice over traditionally requires booking studio time, directing talent, and editing recordings. Murf produces comparable quality from a browser interface in a fraction of the time" },
+      { title: "Voice Variety at Scale", description: "Content that needs multiple speakers, multiple languages, or consistent voice across dozens of videos would be extremely expensive with human talent. Murf's AI voices make variety and scale economically practical" },
+      { title: "Timeline Sync", description: "The ability to sync voice over with video timelines in the same interface removes the back-and-forth between audio and video tools that makes voice over production slow" },
+      { title: "Voice Cloning Option", description: "Creating a custom AI voice means all your content can sound like the same consistent voice - your own or a branded character - across everything you produce" }
+    ],
+    useCases: [
+      { title: "E-learning and Course Creators", description: "Educators and training professionals use Murf to produce narrated course content and instructional videos without recording studios or on-camera presence" },
+      { title: "Video Producers and Marketers", description: "Video teams use Murf to add professional voice over to explainer videos, ads, and product demos quickly without hiring and scheduling voice talent" },
+      { title: "Podcast and Audio Content Creators", description: "Podcasters and audio content producers use Murf to generate narration for scripted content or supplement their own voice with AI-generated segments" }
+    ]
+  },
+  "splitter-ai": {
+    whatIs: "Splitter AI is an audio stem separation tool that uses AI to split mixed audio tracks into individual components - vocals, drums, bass, and other instruments - as separate files. This process, known as source separation, was previously only possible with professional audio software and imperfect results. AI-powered separation has made it dramatically better and more accessible. Musicians use it to isolate vocal tracks for remixing, producers use it to extract samples from songs, and DJs use it to create stems for live mixing.",
+    features: [
+      "Vocal Isolation: Separate vocals from any song as a clean isolated track",
+      "Instrumental Track: Remove vocals to create karaoke-style instrumentals",
+      "Drum Separation: Isolate drum tracks from mixed recordings",
+      "Bass Separation: Extract bass lines as standalone audio files",
+      "Multi-Stem Output: Get all stems simultaneously in one processing run",
+      "High Quality: AI separation with minimal audio artifacts",
+      "Multiple Formats: Output in WAV and MP3 formats",
+      "Fast Processing: Stems ready in minutes from upload",
+      "Free to Try: Test separation on sample tracks before purchasing",
+      "Browser Based: No software installation required"
+    ],
+    howToUse: {
+      title: "How to Use Splitter Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Track", description: "Go to splitter.ai and upload the audio file you want to separate. The tool accepts MP3, WAV, FLAC, and other common audio formats." },
+        { title: "Select Your Output", description: "Choose whether you want all stems or specific ones - vocals only, instrumentals, or the full multi-stem package with drums, bass, and other instruments separated." },
+        { title: "Download Your Stems", description: "Splitter AI processes your track and returns the separated stems as individual files. Download each stem and use them in your DAW, DJ software, or video project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Quality Improvement", description: "Early AI source separation produced separation with significant bleed between stems. Current AI models produce much cleaner separation that is actually usable in professional contexts" },
+      { title: "Accessibility for Musicians", description: "Stem separation used to require expensive professional software with complex workflows. Splitter AI makes it accessible through a browser without any audio engineering background" },
+      { title: "Remix and Sample Use Cases", description: "Isolating a vocal performance or drum pattern from an existing recording is one of the most common needs in music production. Splitter AI makes this straightforward" },
+      { title: "Karaoke and Practice", description: "Removing vocals to create practice tracks or karaoke versions is a specific use case that Splitter AI handles cleanly - the instrumental output is good enough for actual performance use" }
+    ],
+    useCases: [
+      { title: "Music Producers and Beatmakers", description: "Producers use Splitter AI to extract samples from existing recordings - isolating drum patterns, bass lines, and instrumental sections for use in new productions" },
+      { title: "DJs and Remixers", description: "DJs use stem separation to create remix versions of songs and have flexibility in how they mix different elements during live sets" },
+      { title: "Singers and Instrumentalists Practicing", description: "Musicians use the vocal removal feature to create practice tracks from songs they want to learn, performing along with the isolated instrumental" }
+    ]
+  },
+  "vidnoz-ai": {
+    whatIs: "Vidnoz AI is a free AI video generation platform that creates talking avatar videos from text scripts, similar to HeyGen but with a strong emphasis on accessibility and free usage. It offers a large library of AI avatars, voice cloning, and multilingual video generation without requiring a credit card for basic use. For individuals and small businesses who want AI video capabilities but are not ready to commit to a paid platform, Vidnoz provides genuine functionality at no cost for entry-level use.",
+    features: [
+      "Free AI Video Generation: Create avatar videos without paying for basic use",
+      "300 Plus Avatars: Large library of diverse AI avatar presenters",
+      "Voice Cloning: Clone any voice from a short audio sample",
+      "Text to Video: Type your script and generate professional-looking videos",
+      "50 Plus Languages: Multilingual video generation for global content",
+      "Custom Avatar: Create an AI version of yourself",
+      "Video Templates: Pre-built templates for different content types",
+      "Lip Sync: Accurate lip synchronization with generated speech",
+      "Fast Generation: Videos produced quickly without long wait times",
+      "No Watermark: Clean output without watermarks on generated videos"
+    ],
+    howToUse: {
+      title: "How to Use Vidnoz Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Avatar", description: "Sign up at vidnoz.com - no credit card required. Browse the avatar library and select a presenter that fits your content. The library includes diverse avatars across different demographics and styles." },
+        { title: "Enter Your Script", description: "Type your script directly or paste it in. Choose your voice from the available options or clone a specific voice by uploading a sample recording." },
+        { title: "Generate Your Video", description: "Click generate and Vidnoz produces your video. Review it and make any script adjustments if needed. Download the finished video without watermarks." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Genuinely Free Entry Point", description: "Vidnoz's free tier provides actual video generation capability rather than just a preview - which makes it a meaningful starting point for individuals and small businesses evaluating AI video" },
+      { title: "Avatar Diversity", description: "300 plus avatars with genuine demographic diversity means content creators can choose presenters that match their audience rather than defaulting to whatever generic avatars a tool happens to offer" },
+      { title: "No Credit Card Barrier", description: "Removing the credit card requirement for basic use lowers the barrier to trying the platform significantly - users can experience the actual product before making any payment commitment" },
+      { title: "Multilingual Scope", description: "50 plus languages for video generation means Vidnoz serves the actual global diversity of content creation rather than treating English as the only relevant market" }
+    ],
+    useCases: [
+      { title: "Individual Creators Testing AI Video", description: "Content creators who want to try AI avatar video without committing to a paid platform use Vidnoz to experience the technology and understand its capabilities" },
+      { title: "Small Businesses with Limited Budgets", description: "Small teams that need occasional video content but cannot justify a paid video generation subscription use Vidnoz's free tier for their specific needs" },
+      { title: "Educators Creating Multilingual Content", description: "Teachers and trainers producing content for international audiences use Vidnoz's multilingual capabilities to create localized versions of their educational videos" }
+    ]
+  },
   "coze": {
     whatIs: "Coze is an AI application development platform from ByteDance that lets developers and non-technical users build AI-powered bots, assistants, and workflows without extensive coding. It provides a visual interface for creating AI agents with memory, tool access, knowledge bases, and multi-step workflows. Bots built on Coze can be deployed across multiple platforms including Discord, Telegram, Slack, and web interfaces from a single build. For teams that want to build custom AI assistants tailored to their specific use cases without building from scratch, Coze provides a fast and flexible foundation.",
     features: [
