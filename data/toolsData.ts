@@ -545,7 +545,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "image-to-video": [
       { id: "pixverse", name: "PixVerse", description: "AI image-to-video generation", url: "", upvotes: 1789, verified: true, rating: 4.7, icon: "🎨", category: "video-animation", subcategory: "image-to-video" },
-      { id: "sora-image", name: "Sora", description: "OpenAI's image-to-video model", url: "", upvotes: 1567, verified: true, rating: 4.6, icon: "🌟", category: "video-animation", subcategory: "image-to-video" },
       { id: "magic-hour-image", name: "Magic Hour", description: "AI image animation platform", url: "", upvotes: 1234, verified: true, rating: 4.5, icon: "🌅", category: "video-animation", subcategory: "image-to-video" },
       { id: "higgsfield-image", name: "Higgsfield", description: "Scientific image-to-video AI", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "🔬", category: "video-animation", subcategory: "image-to-video" },
     ],
