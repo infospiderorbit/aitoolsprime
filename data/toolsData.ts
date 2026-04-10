@@ -501,7 +501,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "kling-ai", name: "Kling AI", description: "Advanced AI video generation system", url: "", upvotes: 1567, verified: true, rating: 4.6, icon: "⚡", category: "video-animation", subcategory: "ai-video-generator" },
       { id: "haiper-ai", name: "Haiper AI", description: "AI-powered video-making platform that transforms images and text into high-quality video.", url: "https://haiper.ai/", upvotes: 2400, verified: true, rating: 4.5, icon: "🎬", category: "video-animation", subcategory: "ai-video-generator", addedDate: "Nov 06, 2025" },
       { id: "higgsfield", name: "Higgsfield", description: "Scientific AI video generation", url: "", upvotes: 1234, verified: true, rating: 4.5, icon: "🔬", category: "video-animation", subcategory: "ai-video-generator" },
-      { id: "unlucid-ai-video", name: "Unlucid AI", description: "Creative AI video generation platform", url: "", upvotes: 1089, verified: true, rating: 4.4, icon: "🌟", category: "video-animation", subcategory: "ai-video-generator" }
     ],
     "ai-video-recording": [
       { id: "veo-recording", name: "Veo", description: "AI-powered video recording system", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "📹", category: "video-animation", subcategory: "ai-video-recording" },
@@ -549,7 +548,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "sora-image", name: "Sora", description: "OpenAI's image-to-video model", url: "", upvotes: 1567, verified: true, rating: 4.6, icon: "🌟", category: "video-animation", subcategory: "image-to-video" },
       { id: "magic-hour-image", name: "Magic Hour", description: "AI image animation platform", url: "", upvotes: 1234, verified: true, rating: 4.5, icon: "🌅", category: "video-animation", subcategory: "image-to-video" },
       { id: "higgsfield-image", name: "Higgsfield", description: "Scientific image-to-video AI", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "🔬", category: "video-animation", subcategory: "image-to-video" },
-      { id: "unlucid-ai-image", name: "Unlucid AI", description: "Creative image-to-video generation", url: "", upvotes: 754, verified: true, rating: 4.3, icon: "🌟", category: "video-animation", subcategory: "image-to-video" }
     ],
     "long-video-to-short-video-ai": [
       { id: "vizard-ai-short", name: "Vizard.ai", description: "AI long-to-short video conversion", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🧙‍♂️", category: "video-animation", subcategory: "long-video-to-short-video-ai" },
