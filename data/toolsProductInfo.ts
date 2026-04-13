@@ -1,4 +1,274 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "camtasia": {
+    whatIs: "Camtasia is a professional screen recording and video editing software from TechSmith that has been the industry standard for tutorial, training, and instructional video production for decades. It combines a powerful screen recorder with a full video editor in one application, making it the complete solution for anyone who needs to create software demonstrations, online courses, or how-to videos. The recent AI features assist with script generation, automatic captions, and removing filler words from recordings.",
+    features: [
+      "Screen Recording: Record your screen, webcam, and audio simultaneously",
+      "Video Editor: Full timeline-based video editing after recording",
+      "AI Captions: Automatic caption generation for recorded videos",
+      "Filler Word Removal: AI removes ums, ahs, and pauses automatically",
+      "Annotations: Callouts, arrows, and highlights to direct viewer attention",
+      "Zoom and Pan: Smooth zoom effects to focus on specific screen areas",
+      "Quiz and Interaction: Add interactive quizzes to training videos",
+      "Templates: Pre-built templates for professional video production",
+      "Multi-Track Editing: Separate tracks for video, audio, and effects",
+      "Export Options: Export for YouTube, LMS platforms, and local storage"
+    ],
+    howToUse: {
+      title: "How to Use Camtasia",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record Your Screen", description: "Open Camtasia and start a new recording. Select your recording area - full screen, specific window, or custom region - and begin your screen capture with narration." },
+        { title: "Edit Your Recording", description: "Import your recording into the Camtasia timeline. Trim mistakes, add callouts and annotations, apply zoom effects to focus on important areas, and clean up audio using the AI filler word removal." },
+        { title: "Add Captions and Export", description: "Generate automatic captions for your video, review and correct them, then export in your preferred format for your target platform - YouTube, a learning management system, or direct download." }
+      ]
+    },
+    coreFeatures: [
+      { title: "All-in-One Workflow", description: "Having screen recording and video editing in the same application eliminates the need to record in one tool and edit in another - the workflow stays in one place from capture to finished video" },
+      { title: "AI Productivity Features", description: "Automatic captions and filler word removal address the two most time-consuming post-production tasks for screen recordings - Camtasia handles them automatically rather than requiring manual work" },
+      { title: "Instructional Design Features", description: "Callouts, zoom effects, and interactive quizzes are specifically designed for tutorial and training content - features that general video editors lack because they are not built for instructional use cases" },
+      { title: "Industry Standard Trust", description: "Camtasia has been the reference tool for screen recording and tutorial production for many years - which means abundant tutorials, templates, and community resources" }
+    ],
+    useCases: [
+      { title: "Online Course Creators", description: "Educators and course creators use Camtasia to produce professional instructional videos with the polished quality that online learners expect" },
+      { title: "Corporate Training Teams", description: "L and D professionals use Camtasia to create software training videos, compliance courses, and onboarding materials for employee education" },
+      { title: "Software Demonstrators and Tech Educators", description: "YouTubers and content creators making software tutorials use Camtasia for the professional screen recording quality and editing tools their content requires" }
+    ]
+  },
+  "english-chrome-extension": {
+    whatIs: "English Chrome Extension refers to browser-based AI tools that help users improve their English writing directly within the browser. These extensions integrate with Gmail, Google Docs, LinkedIn, and other web applications to provide real-time grammar checking, style suggestions, and writing improvement as users type. They bring professional-grade writing assistance to any web-based writing context without requiring users to switch between applications.",
+    features: [
+      "Real-Time Grammar Check: Catches errors as you type across web applications",
+      "Style Suggestions: Recommendations for clearer and more professional writing",
+      "Tone Detection: Identifies and adjusts the tone of your writing",
+      "Browser Integration: Works in Gmail, Google Docs, LinkedIn, and other sites",
+      "One-Click Fixes: Apply suggestions with a single click",
+      "Vocabulary Enhancement: Suggests stronger word choices",
+      "Sentence Clarity: Simplifies complex or confusing sentence structures",
+      "Free to Install: Basic grammar assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use English Chrome Extension",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Find and install the English writing extension from the Chrome Web Store. It activates automatically on supported websites and begins checking your writing immediately." },
+        { title: "Write Normally", description: "Write your emails, documents, and messages as normal. The extension highlights potential issues in real time without interrupting your workflow." },
+        { title: "Apply Suggestions", description: "Review highlighted suggestions and click to apply the ones you agree with. Each suggestion comes with an explanation so you understand what was improved." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Everywhere You Write", description: "Writing assistance that follows you across every web application you use is more practically useful than a standalone app you have to switch to for checking" },
+      { title: "Non-Disruptive Assistance", description: "Real-time inline suggestions that do not interrupt the writing flow are more practical than tools that require you to submit text for analysis in a separate interface" },
+      { title: "Professional Impression", description: "Error-free, well-phrased writing creates a better professional impression in emails and communications. Browser-level assistance ensures this quality standard wherever you write online" },
+      { title: "Learning Through Use", description: "Seeing corrections and explanations inline as you write teaches better habits over time rather than just fixing errors without explanation" }
+    ],
+    useCases: [
+      { title: "Professionals Writing Business Emails", description: "Office workers and executives use English Chrome Extensions to ensure their daily communications are grammatically correct and professionally phrased" },
+      { title: "Non-Native English Speakers", description: "People who learned English as a second language use browser extensions to catch the subtle errors that are hard to self-identify without native intuition" },
+      { title: "Students Writing Assignments Online", description: "Students who write essays and assignments in Google Docs use English extensions for real-time grammar assistance during their writing process" }
+    ]
+  },
+  "storybooks": {
+    whatIs: "Storybooks is an AI-powered platform for creating personalized children's books and stories. It generates illustrated narratives featuring children by name, incorporating their interests and personality traits into engaging adventures. Parents and educators use it to create unique reading experiences that make children the heroes of their own stories, building reading engagement through personal connection to the narrative.",
+    features: [
+      "Personalized Stories: Create stories featuring your child by name",
+      "Custom Details: Include favorite animals, hobbies, and friends in the story",
+      "AI Illustrations: Generated images matching each story scene",
+      "Multiple Themes: Adventure, educational, bedtime, and fantasy stories",
+      "Print Quality: High-resolution output suitable for professional printing",
+      "Digital Sharing: Share stories digitally with family members",
+      "Age Targeting: Content calibrated for different childhood age ranges",
+      "Free to Try: Basic story creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Storybooks",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Child Details", description: "Sign up at storybooks.ai and enter your child name, age, interests, and any other personal details you want woven into the story." },
+        { title: "Choose Your Story Type", description: "Select the type of story you want - a bedtime adventure, an educational journey, or a fantasy tale. Set the length and any specific themes you want included." },
+        { title: "Generate and Download", description: "Storybooks creates your personalized illustrated story. Review each page, make any adjustments, and download your finished book as a PDF ready for printing or digital reading." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Engagement Through Personalization", description: "Children who see their own name and recognize their interests in a story engage more deeply with reading than they do with generic books - personalization creates emotional investment in the narrative" },
+      { title: "Unique Gift Value", description: "A professionally illustrated book starring a specific child is a memorable gift that no store can provide - it requires the AI personalization that makes each book one of a kind" },
+      { title: "Reading Habit Building", description: "Children who love their personalized books often want to read them repeatedly - which builds the reading habit and positive associations with books that matter for literacy development" },
+      { title: "Family Connection", description: "Stories that include family members, pets, and friends create shared reading experiences that bring families together around a narrative that is genuinely theirs" }
+    ],
+    useCases: [
+      { title: "Parents Creating Special Gifts", description: "Parents use Storybooks to create personalized birthday gifts and keepsakes for their children that are more meaningful than anything from a shop" },
+      { title: "Grandparents Connecting with Grandchildren", description: "Grandparents create personalized stories featuring their grandchildren as a way to connect and share imaginative experiences across distances" },
+      { title: "Early Childhood Educators", description: "Teachers use Storybooks to create personalized reading materials that engage individual students and celebrate their unique identities" }
+    ]
+  },
+  "mybrandgen": {
+    whatIs: "myBrandgen is an AI brand name and identity generator that helps entrepreneurs and businesses find unique, available brand names with matching domain suggestions. It generates creative name options based on industry, brand personality, and target audience inputs, then checks domain availability for promising options. For founders who need a memorable, available business name without the cost of a professional naming agency, myBrandgen provides AI-powered creative naming at speed.",
+    features: [
+      "Brand Name Generation: Create unique business names from industry and personality inputs",
+      "Domain Checking: Automatic availability check for generated names",
+      "Industry Specific: Names calibrated to different business sectors",
+      "Personality Matching: Names that reflect your brand values and tone",
+      "Multiple Variations: Dozens of name options per generation",
+      "Tagline Suggestions: Brand taglines alongside name options",
+      "Logo Concepts: Basic logo ideas paired with promising names",
+      "Free to Use: Core name generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Mybrandgen",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Brand", description: "Go to mybrandgen.com and describe your business - what you do, your target audience, and the personality you want your brand to convey." },
+        { title: "Browse Generated Names", description: "Review the generated name options across different creative directions. Look for names that are memorable, easy to spell, and feel right for your brand positioning." },
+        { title: "Check Availability", description: "For names you like, check domain availability directly from the platform. Shortlist options that are both appealing and available before making your final decision." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Range", description: "AI name generation explores creative directions that human brainstorming often misses - unusual word combinations, invented words, and cross-language options that produce distinctive names" },
+      { title: "Domain Reality Check", description: "A great brand name with no available domain is a frustrating dead end. Integrated domain checking makes availability part of the name selection process from the start" },
+      { title: "Speed for Founders", description: "Naming a business can consume weeks of brainstorming and domain checking. myBrandgen compresses this to minutes by generating and checking availability simultaneously" },
+      { title: "Cost Accessibility", description: "Professional naming agencies charge thousands for brand naming projects. AI-powered naming provides creative options at a fraction of the cost for founders who need a strong name quickly" }
+    ],
+    useCases: [
+      { title: "Startup Founders Naming Their Business", description: "Entrepreneurs launching new ventures use myBrandgen to find creative available names quickly without the cost of agency naming services" },
+      { title: "Product Managers Naming New Products", description: "Product teams naming new features or product lines use myBrandgen to explore creative options and check availability efficiently" },
+      { title: "Marketers Creating Campaign Names", description: "Marketing professionals use myBrandgen to generate creative names for campaigns, initiatives, and branded programs" }
+    ]
+  },
+  "capcut": {
+    whatIs: "CapCut is a free video editing app from ByteDance that has become one of the most popular tools for social media video creation, particularly for TikTok and Instagram Reels. It combines a surprisingly capable mobile video editor with AI features including auto-captions, background removal, AI effects, and text-to-video generation. The template library makes it easy to create trending video formats quickly, and the desktop version brings the same capabilities to a larger screen for more detailed editing work.",
+    features: [
+      "AI Auto-Captions: Automatic subtitle generation for any video",
+      "Template Library: Trending video templates for TikTok and Reels formats",
+      "Background Removal: Remove video backgrounds with one tap",
+      "AI Effects: Trendy AI visual effects and filters",
+      "Text to Video: Generate video content from text descriptions",
+      "Music Library: Licensed music tracks for content use",
+      "Speed Control: Variable speed adjustments for creative effects",
+      "Multi-Layer Editing: Overlay text, stickers, and effects on video",
+      "Desktop and Mobile: Available on iOS, Android, and desktop",
+      "Free to Use: Full editing capabilities without payment"
+    ],
+    howToUse: {
+      title: "How to Use Capcut",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Footage", description: "Open CapCut and import your video clips, or start with a template from the library. The template option is fastest for creating content in trending formats." },
+        { title: "Edit and Enhance", description: "Trim your clips, add music from the library, apply transitions, and use AI features like auto-captions and background removal to enhance your video." },
+        { title: "Export and Share", description: "Export your finished video in the resolution and format you need. CapCut optimizes exports for different platforms and makes sharing directly to TikTok and Instagram seamless." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Professional Quality", description: "CapCut provides editing features that would cost money in dedicated video editing apps - all completely free. This democratizes professional-quality video production for creators at any budget" },
+      { title: "Template Speed", description: "Trending video formats change weekly on TikTok and Reels. CapCut templates let creators participate in trends quickly without building each format from scratch" },
+      { title: "AI Feature Breadth", description: "Auto-captions, background removal, and AI effects in a free mobile app is a genuinely impressive feature set that keeps creators from needing multiple separate tools" },
+      { title: "TikTok Ecosystem Integration", description: "CapCut was built alongside TikTok and integrates naturally with it - which gives TikTok creators workflow advantages that tools from outside the ecosystem cannot match" }
+    ],
+    useCases: [
+      { title: "TikTok and Reels Content Creators", description: "Social media creators making short-form content for TikTok and Instagram use CapCut for its templates, AI features, and seamless platform integration" },
+      { title: "Casual Video Editors", description: "People who want to create polished personal videos for sharing use CapCut for professional results without the learning curve of complex editing software" },
+      { title: "Small Business Social Media Teams", description: "Small businesses creating social media video content use CapCut for the speed and quality it provides at zero cost" }
+    ]
+  },
+  "read-ai": {
+    whatIs: "Read AI is an AI meeting assistant that automatically joins your video calls, transcribes the conversation in real time, generates meeting summaries, extracts action items, and provides engagement analytics showing how participants interacted during the meeting. It integrates with Zoom, Google Meet, and Microsoft Teams and delivers structured summaries to all participants after each meeting. For professionals who attend many meetings and want to stay fully present without taking notes, Read AI handles the documentation automatically.",
+    features: [
+      "Auto Meeting Join: Automatically joins scheduled video meetings",
+      "Real-Time Transcription: Live transcription throughout the meeting",
+      "AI Summary: Structured summary delivered after every meeting",
+      "Action Item Extraction: Automatically identifies tasks and owners",
+      "Engagement Analytics: Shows speaking time and participation metrics",
+      "Speaker Identification: Labels each participant in the transcript",
+      "Zoom and Meet Integration: Works with major video conferencing platforms",
+      "Search Past Meetings: Find specific content across meeting history",
+      "Share Summaries: Distribute meeting notes to all participants",
+      "Free Plan: Basic meeting transcription without payment"
+    ],
+    howToUse: {
+      title: "How to Use Read Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Calendar", description: "Sign up at read.ai and connect your calendar. Read AI automatically joins your scheduled video meetings without requiring manual activation for each call." },
+        { title: "Attend Your Meeting", description: "Participate normally while Read AI handles transcription and note-taking in the background. Focus entirely on the conversation rather than dividing attention between listening and writing." },
+        { title: "Review Your Summary", description: "After the meeting Read AI delivers a structured summary with key points, decisions, and action items. Share it with participants or save it to your project management system." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Full Presence During Meetings", description: "Note-taking during meetings divides your attention and reduces how present you are in the conversation. Read AI lets you engage fully while ensuring nothing is missed" },
+      { title: "Action Item Clarity", description: "Automatically extracted action items with owner attribution eliminate the ambiguity about who is doing what after a meeting - which is one of the most common reasons tasks fall through the cracks" },
+      { title: "Meeting Analytics Value", description: "Engagement data showing who spoke for how long and how participation distributed helps facilitators understand meeting dynamics and improve future sessions" },
+      { title: "Searchable Meeting History", description: "A searchable archive of all your meeting transcripts means you can find specific discussions and decisions from months ago without rewatching recordings" }
+    ],
+    useCases: [
+      { title: "Professionals in High Meeting Volume Roles", description: "Managers, consultants, and executives who attend many meetings daily use Read AI to maintain accurate records without the overhead of manual note-taking" },
+      { title: "Remote Teams", description: "Distributed teams use Read AI summaries to keep everyone informed about meetings across time zones and ensure decisions are documented consistently" },
+      { title: "Project Managers", description: "PMs use Read AI to track decisions and action items across all project meetings in a searchable, organized format" }
+    ]
+  },
+  "yay-forms": {
+    whatIs: "Yay! Forms is an AI-powered form and survey builder that creates beautiful, conversational forms from simple descriptions. Unlike traditional form builders that require manual field configuration, Yay! Forms generates complete forms from a brief description of what information you need to collect. The conversational interface presents questions one at a time which consistently produces higher completion rates than traditional multi-field forms.",
+    features: [
+      "AI Form Generation: Create complete forms from text descriptions",
+      "Conversational Interface: One question at a time for higher completion rates",
+      "Logic Branching: Show different questions based on previous answers",
+      "Beautiful Design: Visually polished forms without design skills",
+      "Analytics: Track completion rates and response data",
+      "Integrations: Connect with popular tools to receive form data",
+      "Multiple Form Types: Surveys, quizzes, lead capture, and feedback forms",
+      "Free Plan: Basic form creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Yay Forms",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Form", description: "Sign up at yayforms.com and describe what information you want to collect in plain language. Yay! Forms generates a complete form with appropriate questions and logic." },
+        { title: "Customize and Refine", description: "Review the generated form and adjust any questions, add your branding, and configure the logic branches for conditional questions." },
+        { title: "Share and Collect", description: "Share your form via link, embed it on your website, or send it directly to respondents. Monitor responses in real time in your dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Generation Speed", description: "Describing a form in plain language and having it generated instantly is dramatically faster than manually adding and configuring each field in a traditional form builder" },
+      { title: "Completion Rate Design", description: "Conversational one-question-at-a-time presentation consistently produces higher completion rates than multi-field forms - the design philosophy is built around this insight" },
+      { title: "No Design Skills Required", description: "Beautiful form design typically requires either design skills or significant time with templates. Yay! Forms produces visually polished results automatically" },
+      { title: "Logic Without Complexity", description: "Conditional logic that shows different questions based on answers is powerful but complex to set up in traditional builders. Yay! Forms handles this more simply" }
+    ],
+    useCases: [
+      { title: "Marketers Building Lead Capture Forms", description: "Marketing teams use Yay! Forms to create high-converting lead generation forms quickly without form builder expertise" },
+      { title: "Researchers Conducting Surveys", description: "Researchers use Yay! Forms to create survey instruments quickly with the completion rate benefits of conversational presentation" },
+      { title: "Small Businesses Collecting Customer Information", description: "Business owners use Yay! Forms to collect customer feedback, intake information, and survey responses without investing time in complex form configuration" }
+    ]
+  },
+  "mtalkz": {
+    whatIs: "Mtalkz is a business communication platform that provides bulk SMS, WhatsApp Business API, voice, and email messaging services for enterprises and growing businesses. It helps companies communicate with their customers at scale through automated messaging workflows, marketing campaigns, and transactional notifications. For businesses that need to reach large customer bases through multiple communication channels from one platform, Mtalkz provides the infrastructure and tools to manage multi-channel customer communication efficiently.",
+    features: [
+      "Bulk SMS: Send SMS campaigns to large contact lists",
+      "WhatsApp Business API: Automated WhatsApp messaging for businesses",
+      "Voice Messaging: Automated voice call campaigns",
+      "Email Marketing: Email campaign management alongside other channels",
+      "Marketing Automation: Trigger-based messaging workflows",
+      "Transactional Messages: Order confirmations, OTPs, and notifications",
+      "Analytics: Track delivery and engagement across all channels",
+      "API Integration: Connect Mtalkz to your existing business systems"
+    ],
+    howToUse: {
+      title: "How to Use Mtalkz",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Account", description: "Sign up at mtalkz.com and configure your sender IDs and channel accounts. Connect your customer database or CRM for campaign targeting." },
+        { title: "Create Your Campaign", description: "Build your messaging campaign for SMS, WhatsApp, or email. Set your audience, write your message, and configure any personalization or automation triggers." },
+        { title: "Send and Monitor", description: "Launch your campaign and monitor delivery rates, open rates, and responses in real time. Use the analytics to optimize future campaigns." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Channel from One Platform", description: "Managing customer communication across SMS, WhatsApp, voice, and email separately creates operational complexity. A single platform for all channels simplifies management and provides unified analytics" },
+      { title: "WhatsApp Scale", description: "WhatsApp Business API access enables automated customer communication through the messaging app that a large portion of global mobile users prefer for business interaction" },
+      { title: "Transactional Reliability", description: "OTPs, order confirmations, and critical notifications need reliable delivery. Mtalkz infrastructure prioritizes the deliverability that transactional messages require" },
+      { title: "Indian Market Strength", description: "Mtalkz is particularly strong for businesses operating in India where SMS and WhatsApp are primary customer communication channels" }
+    ],
+    useCases: [
+      { title: "E-commerce Businesses", description: "Online retailers use Mtalkz for order confirmations, shipping updates, and promotional campaigns across SMS and WhatsApp" },
+      { title: "Financial Services", description: "Banks and fintech companies use Mtalkz for OTP delivery, transaction alerts, and customer communication that requires high delivery reliability" },
+      { title: "Marketing Teams Running Campaigns", description: "Marketing departments use Mtalkz to reach customers through the communication channels they actually use and respond to" }
+    ]
+  },
   "storywizard-ai": {
     whatIs: "Storywizard AI is an AI-powered children's story creation platform that helps parents, teachers, and young writers create illustrated stories quickly. It generates age-appropriate narratives with matching AI illustrations, making it possible to produce complete picture book-style stories in minutes. The platform is designed to be simple enough for children to use themselves while providing enough quality for adults creating reading material for kids.",
     features: [

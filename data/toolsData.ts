@@ -223,7 +223,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "goodnotes", name: "Goodnotes", description: "Digital note-taking with AI features", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "📝", category: "office-productivity", subcategory: "ai-note-taker" },
       { id: "tldv", name: "tl;dv", description: "AI meeting recorder for remote teams", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "📹", category: "office-productivity", subcategory: "ai-note-taker" },
       { id: "fireflies-notes", name: "Fireflies.ai", description: "Automatic meeting notes and summaries", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "🔥", category: "office-productivity", subcategory: "ai-note-taker" },
-      { id: "read-ai-notes", name: "Read AI", description: "Smart meeting notes with AI insights", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "👁️", category: "office-productivity", subcategory: "ai-note-taker" }
     ],
     "ai-notes-generator": [
       { id: "studocu", name: "Studocu", description: "AI-powered study notes and summaries", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "📚", category: "office-productivity", subcategory: "ai-notes-generator" },
