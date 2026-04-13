@@ -1,4 +1,37 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "ifnovels": {
+    whatIs: "IFNovels is an AI-powered interactive fiction and plot generation platform that helps writers create branching narratives, choose-your-own-adventure stories, and interactive fiction experiences. It generates plot structures with multiple decision points, character paths, and narrative branches that give readers meaningful choices affecting how the story unfolds. For game designers, interactive fiction writers, and storytellers who want to create experiences where the audience participates in the narrative, IFNovels provides the structural scaffolding that makes branching storytelling manageable.",
+    features: [
+      "Interactive Plot Generation: Create branching story structures with multiple paths",
+      "Choice Architecture: Design meaningful decision points that affect story outcomes",
+      "Character Path Tracking: Maintain character consistency across different story branches",
+      "Multiple Endings: Generate stories with varied conclusions based on reader choices",
+      "Genre Variety: Interactive fiction across fantasy, mystery, romance, and other genres",
+      "Scene Generation: AI-generated scenes for each branch of your story",
+      "Export Options: Export your interactive fiction for different platforms",
+      "Free to Try: Basic interactive plot generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ifnovels",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Story Premise", description: "Sign up at ifnovels and describe your story premise - the setting, the main character, and the central conflict. Interactive fiction works best when the initial situation presents clear decision opportunities for the reader." },
+        { title: "Define Your Choice Points", description: "Identify the key moments where your story branches. IFNovels helps you develop what happens down each path, ensuring each branch is substantial enough to feel like a real story rather than a dead end." },
+        { title: "Generate and Connect Your Branches", description: "Use IFNovels to generate the content for each story branch and connect them into a coherent interactive narrative. Review the full decision tree to ensure the choices feel meaningful and the different paths each deliver satisfying story experiences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Branching Structure Management", description: "The biggest challenge in interactive fiction is managing the complexity of multiple story branches without losing track of what has happened in each path. IFNovels provides the organizational structure that makes this complexity manageable" },
+      { title: "Meaningful Choice Design", description: "Good interactive fiction gives readers choices that actually feel significant. IFNovels is designed around generating story branches where each choice leads somewhere genuinely different rather than cosmetic variations" },
+      { title: "Scene Generation Speed", description: "Writing out every scene across multiple branches is the most time-consuming part of interactive fiction creation. AI scene generation for each branch dramatically reduces the writing workload" },
+      { title: "Platform Export", description: "Interactive fiction needs to be experienced in formats that support reader navigation. Export options that work with established interactive fiction platforms make IFNovels output immediately usable" }
+    ],
+    useCases: [
+      { title: "Interactive Fiction Writers", description: "Authors writing choose-your-own-adventure stories and interactive fiction use IFNovels to structure and generate their branching narratives" },
+      { title: "Game Designers and Narrative Designers", description: "Game developers creating story-driven games use IFNovels to prototype narrative structures and generate content for multiple story paths" },
+      { title: "Educators Using Interactive Storytelling", description: "Teachers use interactive fiction as an educational tool for creative writing and reading engagement, using IFNovels to create classroom story experiences" }
+    ]
+  },
   "poem-generator-io": {
     whatIs: "PoemGenerator.io is a free online AI poetry tool that creates original poems across dozens of styles and forms from simple text inputs. Whether you need a heartfelt sonnet, a playful limerick, a structured haiku, or free verse on any topic, PoemGenerator.io handles the form and craft so you can focus on the occasion and the sentiment. It supports multiple languages and covers a wide range of themes from love and nature to loss and celebration, making it a practical tool for anyone who needs a poem for a specific purpose.",
     features: [
