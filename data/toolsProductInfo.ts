@@ -1,4 +1,237 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "storywizard-ai": {
+    whatIs: "Storywizard AI is an AI-powered children's story creation platform that helps parents, teachers, and young writers create illustrated stories quickly. It generates age-appropriate narratives with matching AI illustrations, making it possible to produce complete picture book-style stories in minutes. The platform is designed to be simple enough for children to use themselves while providing enough quality for adults creating reading material for kids.",
+    features: [
+      "Story Generation: Create complete children's stories from simple prompts",
+      "AI Illustrations: Matching illustrations generated alongside the story text",
+      "Age-Appropriate Content: Stories calibrated for different childhood age groups",
+      "Custom Characters: Add specific characters and settings to your story",
+      "Print-Ready Output: Download stories formatted for printing as booklets",
+      "Multiple Genres: Adventure, fairy tale, educational, and bedtime story formats",
+      "Child-Safe Content: All generated content filtered for family appropriateness",
+      "Free to Try: Basic story creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Storywizard Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Story Idea", description: "Sign up at storywizard.ai and describe the story you want to create. Include the main character, setting, and what kind of adventure or lesson you want the story to have." },
+        { title: "Generate Your Story", description: "Storywizard creates your story with matching illustrations for each section. Review the pages and regenerate any that need adjustment." },
+        { title: "Download and Share", description: "Download your finished illustrated story as a PDF ready for printing or digital sharing. Print it as a booklet for a physical keepsake or share digitally with family." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Illustrations Included", description: "A story without pictures is not quite a children's book. Storywizard generates matching illustrations alongside the text which produces a complete reading experience rather than just words on a page" },
+      { title: "Speed for Busy Parents", description: "Creating a personalized story for a child traditionally takes significant time and artistic skill. Storywizard reduces this to minutes making personalized storytime practical for busy families" },
+      { title: "Child Empowerment", description: "Children who are old enough can create their own stories using Storywizard which builds confidence, creativity, and early writing skills through a fun creation process" },
+      { title: "Print Keepsake Value", description: "A printed illustrated story featuring a child as the main character is a meaningful keepsake that generic books cannot match" }
+    ],
+    useCases: [
+      { title: "Parents Creating Bedtime Stories", description: "Parents who want to create personalized stories featuring their children use Storywizard for a special bedtime experience" },
+      { title: "Teachers Creating Classroom Materials", description: "Educators use Storywizard to create custom illustrated reading materials for their students" },
+      { title: "Children Creating Their Own Stories", description: "Older children use Storywizard independently to create and illustrate their own story ideas" }
+    ]
+  },
+  "zoviz": {
+    whatIs: "Zoviz is an AI-powered logo and brand identity generator that creates professional logo designs and complete brand identity packages from a business name and description. It generates multiple logo concepts across different styles, provides color palette suggestions, and delivers brand assets ready for use across digital and print applications. For startups and small businesses that need professional branding quickly without hiring a designer, Zoviz provides a fast and affordable path to a complete visual identity.",
+    features: [
+      "AI Logo Generation: Create professional logos from business name and description",
+      "Multiple Concepts: Generate several different logo styles to choose from",
+      "Brand Identity: Complete brand package including colors and typography",
+      "Vector Output: Logos delivered in scalable vector formats",
+      "Color Palettes: AI-suggested color schemes that fit your brand personality",
+      "Typography Selection: Font pairings that work with your logo",
+      "Social Media Assets: Sized assets for different social platforms",
+      "Instant Download: Access your brand assets immediately after generation"
+    ],
+    howToUse: {
+      title: "How to Use Zoviz",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Brand", description: "Sign up at zoviz.com and enter your business name, industry, and a brief description of your brand personality. Include any colors or styles you like or want to avoid." },
+        { title: "Review Your Concepts", description: "Zoviz generates multiple logo concepts across different styles. Browse the options and select the direction that best represents your brand." },
+        { title: "Customize and Download", description: "Refine your chosen concept by adjusting colors, fonts, and layout. Download your complete brand package including vector files, social media assets, and brand guidelines." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed to Brand", description: "Professional logo design traditionally takes weeks of back-and-forth with a designer. Zoviz delivers complete brand identity assets in minutes which matters for businesses that need to launch quickly" },
+      { title: "Vector Quality", description: "Vector format logos scale to any size without quality loss - essential for professional use across business cards, signage, websites, and merchandise. Zoviz delivers proper vector files not just raster images" },
+      { title: "Complete Package", description: "Getting a logo, color palette, typography, and social media assets together eliminates the separate steps of building out a brand identity piece by piece" },
+      { title: "Affordable Professional Quality", description: "Small businesses that cannot afford a professional branding agency use Zoviz for quality that would otherwise require significant budget" }
+    ],
+    useCases: [
+      { title: "Startup Founders Launching Quickly", description: "Entrepreneurs launching new businesses use Zoviz to establish a professional visual identity quickly before they have revenue to spend on a branding agency" },
+      { title: "Small Business Owners Rebranding", description: "Existing businesses that need a fresh look use Zoviz for an affordable rebrand without a lengthy design process" },
+      { title: "Freelancers and Side Projects", description: "Independent professionals and side project creators use Zoviz to give their work a professional visual identity without designer costs" }
+    ]
+  },
+  "veed-io": {
+    whatIs: "VEED.IO is an online video editing platform that combines a full-featured browser-based video editor with AI tools for subtitles, transcription, translation, avatars, and voice over. It is designed for content creators who need professional video production capabilities without desktop software or technical expertise. The AI features automate the most time-consuming parts of video production - adding captions, removing backgrounds, cleaning up audio, and generating voice overs - while the editing interface handles the assembly and visual polish.",
+    features: [
+      "Auto Subtitles: Automatically generate accurate subtitles for any video",
+      "Video Editor: Full browser-based video editing with timeline interface",
+      "AI Avatar: Create talking avatar videos without being on camera",
+      "Voice Over: AI-generated narration for your videos",
+      "Background Removal: Remove video backgrounds automatically",
+      "Audio Cleanup: AI noise reduction for cleaner audio",
+      "Translation: Translate subtitles into multiple languages",
+      "Screen Recording: Record screen and camera simultaneously",
+      "Templates: Pre-built video templates for different content types",
+      "Collaboration: Team editing and review features"
+    ],
+    howToUse: {
+      title: "How to Use Veed Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Sign up at veed.io and upload your video file or record directly in the browser. VEED accepts all common video formats and processes them in the cloud." },
+        { title: "Add AI Enhancements", description: "Use the AI tools to automatically generate subtitles, clean up your audio, remove the background, or add other enhancements. Most AI features work with one click." },
+        { title: "Edit and Export", description: "Use the timeline editor to trim, arrange, add text and graphics, and finalize your video. Export in your preferred format and resolution for your target platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser-Based Accessibility", description: "Professional video editing software requires expensive downloads and powerful hardware. VEED works in any browser which makes professional video production accessible without technical setup" },
+      { title: "Auto Subtitle Value", description: "Subtitles improve accessibility and increase watch time on social platforms where many viewers watch without sound. Auto subtitle generation removes the most tedious manual task in video post-production" },
+      { title: "AI Avatar Alternative", description: "Creating video content without being on camera opens video production to people who are not comfortable on screen or who want a more polished presenter look" },
+      { title: "All-in-One Production", description: "Having editing, subtitles, translation, voice over, and AI tools in one platform eliminates the need to move between multiple specialized tools for a complete video production workflow" }
+    ],
+    useCases: [
+      { title: "Content Creators and YouTubers", description: "Video creators use VEED for the combination of easy editing and powerful AI tools that automate subtitle and audio work" },
+      { title: "Social Media Managers", description: "Marketing professionals use VEED to produce and caption social media videos quickly for multiple platforms" },
+      { title: "Educators and Course Creators", description: "Teachers producing video content use VEED for its accessibility and auto-subtitle features that make educational videos more accessible to all students" }
+    ]
+  },
+  "studocu": {
+    whatIs: "Studocu is a global study resource platform where students share and access study materials including lecture notes, summaries, practice exams, and study guides. With content from universities worldwide, it gives students access to study materials for their specific courses created by fellow students who passed the same exams. The AI features help students generate summaries and study guides from their own materials. For students who want to study more effectively with high-quality peer-created resources, Studocu provides a community-driven academic support network.",
+    features: [
+      "Course Materials: Access study notes and summaries for specific university courses",
+      "Practice Exams: Past papers and practice questions for exam preparation",
+      "AI Summary: Generate AI summaries from uploaded study materials",
+      "Global Coverage: Materials from universities in many countries",
+      "Subject Variety: Resources across all major academic subjects",
+      "Community Uploads: Students share materials for courses they have completed",
+      "Search by Course: Find materials specific to your exact course and university",
+      "Free Access: Browse and access many materials without payment"
+    ],
+    howToUse: {
+      title: "How to Use Studocu",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Course", description: "Sign up at studocu.com and search for your specific university, course, and subject. Materials are organized by institution and course so you find resources made for your exact curriculum." },
+        { title: "Access Study Materials", description: "Browse the available notes, summaries, and past papers for your course. Download materials that cover topics you need to study or that explain concepts differently from your textbooks." },
+        { title: "Upload Your Own Materials", description: "After completing a course, upload your own study materials to help future students. Contributing earns you access to premium materials and builds the community resource for your university." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Course-Specific Resources", description: "Generic study materials cover topics broadly. Studocu materials are created for specific courses at specific universities which makes them directly relevant to what will be on your actual exams" },
+      { title: "Peer Learning Value", description: "Materials created by students who recently passed the same course reflect what actually matters for the assessment - which is often more practically useful than textbook coverage" },
+      { title: "Exam Preparation", description: "Access to past papers and practice questions for your specific course is one of the most effective ways to prepare for exams. Studocu aggregates these resources across thousands of courses" },
+      { title: "Community Knowledge Exchange", description: "The upload-and-access model creates a genuine knowledge exchange where students help each other succeed - which benefits both contributors and those accessing materials" }
+    ],
+    useCases: [
+      { title: "University Students Preparing for Exams", description: "Students preparing for upcoming exams use Studocu to access course-specific summaries and practice materials that help them study more efficiently" },
+      { title: "Students Who Missed Lectures", description: "Students who missed classes or need additional explanation of difficult topics use Studocu to access notes and summaries from the same course" },
+      { title: "Students Sharing Their Knowledge", description: "High-achieving students upload their notes and summaries to help others and earn access to premium content in return" }
+    ]
+  },
+  "firetexts": {
+    whatIs: "FireTexts is an AI-powered SMS and text message marketing platform that helps businesses create and send personalized text message campaigns to their customers. It combines AI copywriting for message creation with the deliverability infrastructure for bulk SMS sending, contact management, and campaign analytics. For businesses that want to reach customers through text messaging - which consistently achieves higher open rates than email - FireTexts provides the tools to run effective SMS marketing without technical complexity.",
+    features: [
+      "AI Message Writing: Generate effective SMS copy with AI assistance",
+      "Bulk SMS Sending: Send text campaigns to large contact lists",
+      "Contact Management: Organize and segment your SMS subscriber list",
+      "Campaign Analytics: Track delivery rates, clicks, and responses",
+      "Personalization: Include customer names and personal details in messages",
+      "Automated Sequences: Set up triggered SMS flows based on customer actions",
+      "Two-Way Messaging: Receive and respond to customer replies",
+      "Compliance Tools: Opt-in management and compliance features"
+    ],
+    howToUse: {
+      title: "How to Use Firetexts",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Contact List", description: "Sign up at firetexts.com and import your customer contacts. Set up proper opt-in collection to ensure your list is compliant with SMS marketing regulations." },
+        { title: "Create Your Campaign", description: "Use the AI writing assistant to craft your SMS message. Keep it concise and include a clear call to action - effective SMS marketing is brief and direct." },
+        { title: "Send and Analyze", description: "Send your campaign or schedule it for optimal timing. Review the analytics to understand delivery rates, link clicks, and responses to improve future campaigns." }
+      ]
+    },
+    coreFeatures: [
+      { title: "SMS Open Rate Advantage", description: "Text messages are opened at rates far higher than email - most texts are read within minutes of receipt. This makes SMS a highly effective channel for time-sensitive offers and important communications" },
+      { title: "AI for SMS Constraints", description: "Writing effective marketing copy within SMS character limits requires specific skill. AI assistance that understands these constraints produces more effective messages than general copywriting tools" },
+      { title: "Personalization at Scale", description: "Personalized messages that include the recipient name and relevant details perform better than generic broadcasts. FireTexts enables this personalization across large contact lists without manual effort" },
+      { title: "Compliance Management", description: "SMS marketing has specific legal requirements around consent and opt-outs. Built-in compliance tools reduce the legal risk of running SMS campaigns" }
+    ],
+    useCases: [
+      { title: "Retail and E-commerce Businesses", description: "Online and physical retailers use FireTexts for flash sale announcements, order updates, and promotional campaigns that benefit from the immediacy of SMS" },
+      { title: "Restaurants and Local Businesses", description: "Local businesses use SMS marketing for daily specials, reservation reminders, and customer loyalty programs where timely communication matters" },
+      { title: "Service Businesses", description: "Service providers use FireTexts for appointment reminders, follow-ups, and customer communication that benefits from the high open rates of text messaging" }
+    ]
+  },
+  "thumblytics": {
+    whatIs: "Thumblytics is an AI tool for YouTube thumbnail analysis and optimization. It analyzes your thumbnail images against proven performance criteria - contrast, text readability, emotional appeal, face prominence, and click-through rate predictors - and provides specific recommendations for improvement. For YouTube creators who understand that thumbnails are one of the most important factors determining whether viewers click on their videos, Thumblytics provides data-driven feedback that replaces guesswork with specific actionable guidance.",
+    features: [
+      "Thumbnail Analysis: AI analysis of your YouTube thumbnails against performance criteria",
+      "Click-Through Prediction: Assess how likely your thumbnail is to get clicks",
+      "Contrast Analysis: Check if your thumbnail stands out in the YouTube feed",
+      "Text Readability: Verify that any text in your thumbnail is legible at small sizes",
+      "Face Detection: Assess the emotional impact of faces in your thumbnail",
+      "Competitor Comparison: See how your thumbnails compare to top performers in your niche",
+      "Improvement Suggestions: Specific recommendations for making thumbnails more clickable",
+      "Before and After: Compare performance scores before and after improvements"
+    ],
+    howToUse: {
+      title: "How to Use Thumblytics",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Thumbnail", description: "Go to Thumblytics and upload the thumbnail image you want to analyze. The tool accepts standard image formats." },
+        { title: "Review the Analysis", description: "Thumblytics evaluates your thumbnail across multiple performance dimensions and returns scores with explanations. Understand which specific elements are working and which are reducing your likely click-through rate." },
+        { title: "Implement Improvements", description: "Act on the specific recommendations provided. Re-upload your improved thumbnail to verify the score improved before publishing it to your video." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data Over Intuition", description: "Thumbnail decisions are often made on aesthetic intuition rather than performance criteria. Thumblytics applies what actually drives click-through rates rather than what looks nice to the creator" },
+      { title: "Small Size Reality Check", description: "Thumbnails are viewed at very small sizes in the YouTube feed. Elements that look great at full size often fail at thumbnail scale. Thumblytics evaluates how thumbnails actually appear to viewers" },
+      { title: "Competitor Context", description: "Knowing how your thumbnails compare to top performers in your specific niche gives context that absolute scores alone cannot provide - you need to stand out relative to what viewers are already seeing" },
+      { title: "Iteration Efficiency", description: "Testing thumbnail performance through actual publishing requires waiting for view data. Thumblytics provides immediate feedback that makes the improvement process much faster" }
+    ],
+    useCases: [
+      { title: "YouTube Creators Improving CTR", description: "Content creators who want to improve their video click-through rates use Thumblytics to identify and fix the specific thumbnail issues reducing their performance" },
+      { title: "Video Marketing Teams", description: "Marketing teams producing YouTube content for brands use Thumblytics to ensure thumbnails meet performance standards before publishing" },
+      { title: "YouTubers Analyzing Past Performance", description: "Creators reviewing why certain videos underperformed use Thumblytics to identify thumbnail issues that may have contributed to lower click-through rates" }
+    ]
+  },
+  "decopy-ai": {
+    whatIs: "Decopy AI is an AI content detection tool that identifies AI-generated text in documents and content. It analyzes writing for the statistical patterns, predictable structures, and linguistic characteristics that AI language models produce, returning a probability score indicating how likely the content is to be AI-generated. For educators, publishers, and content managers who need to verify the originality and authenticity of submitted writing, Decopy provides fast, accessible detection.",
+    features: [
+      "AI Content Detection: Identify AI-generated text with probability scoring",
+      "Sentence-Level Analysis: Highlights which specific sentences appear AI-generated",
+      "Multiple Model Detection: Detects content from ChatGPT, Claude, and other AI tools",
+      "Batch Processing: Check multiple documents simultaneously",
+      "Detailed Reports: Comprehensive detection reports for documentation",
+      "Fast Analysis: Results returned quickly for large documents",
+      "Free to Use: Basic detection without payment required",
+      "API Access: Integrate detection into your own workflows"
+    ],
+    howToUse: {
+      title: "How to Use Decopy Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Text", description: "Go to Decopy AI and paste the text you want to analyze. The tool accepts any length of content from short paragraphs to full documents." },
+        { title: "Run the Detection", description: "Decopy analyzes the text for AI generation patterns and returns an overall probability score with sentence-level highlighting showing which parts are most likely AI-generated." },
+        { title: "Review and Document", description: "Use the results to inform your assessment of the content. Download the detection report for documentation if needed for academic integrity or publication verification purposes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Probability Transparency", description: "A percentage score with sentence-level highlighting is more useful than a binary yes or no verdict because it shows the strength of evidence and which specific parts triggered detection" },
+      { title: "Multiple Model Coverage", description: "Different AI writing tools leave different patterns. Decopy covers the major models rather than being tuned for just one which produces more reliable detection across real-world AI content" },
+      { title: "Free Access", description: "Free basic detection makes Decopy accessible to educators and individuals who need occasional checking without a budget for paid tools" },
+      { title: "Speed for Volume", description: "Teachers reviewing class submissions and editors reviewing submitted content need fast processing. Quick turnaround makes Decopy practical for real workflow integration" }
+    ],
+    useCases: [
+      { title: "Educators Checking Student Submissions", description: "Teachers and professors use Decopy AI to check whether student work was written by AI when evaluating academic assignments" },
+      { title: "Publishers and Content Editors", description: "Editorial teams use Decopy to verify that submitted articles and content meet their originality standards before publication" },
+      { title: "HR Teams Reviewing Applications", description: "Hiring managers use Decopy to check whether cover letters and writing samples were AI-generated rather than written by the applicant" }
+    ]
+  },
   "scipub-plus": {
     whatIs: "SciPub+ is an AI-powered scientific and academic writing tool designed specifically for researchers, PhD students, and academics who need to produce high-quality scientific publications. It understands the conventions of academic writing - proper citation formatting, hedging language, passive voice conventions, and the structural requirements of different paper sections like abstracts, methods, results, and discussions. For researchers who struggle with the writing aspect of their work despite having strong science, SciPub+ bridges the gap between good research and well-written publications.",
     features: [
