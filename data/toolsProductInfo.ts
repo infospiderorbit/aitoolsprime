@@ -1,4 +1,136 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "som-ai": {
+    whatIs: "SOM AI is an AI-powered social media management and content creation platform that helps businesses and creators plan, generate, and schedule social media content across multiple platforms. It uses AI to suggest content ideas, generate post copy, recommend optimal posting times, and analyze performance data to improve future content strategy. For small businesses and solo creators who manage their own social media without a dedicated team, SOM AI provides the planning and automation tools that make consistent social media presence manageable.",
+    features: [
+      "AI Content Ideas: Generate social media content ideas based on your niche",
+      "Post Copy Generation: AI-written captions and post text for all platforms",
+      "Multi-Platform Scheduling: Schedule posts to Instagram, Facebook, LinkedIn, and others",
+      "Content Calendar: Visual planning calendar for your social media schedule",
+      "Performance Analytics: Track engagement and reach across platforms",
+      "Hashtag Suggestions: AI-recommended hashtags for better reach",
+      "Brand Voice: Maintain consistent tone across all generated content",
+      "Free Plan: Basic content generation and scheduling without payment"
+    ],
+    howToUse: {
+      title: "How to Use Som Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Brand", description: "Sign up at som.ai and configure your brand profile including your industry, target audience, and brand voice. This guides the AI in generating content that fits your specific business." },
+        { title: "Generate Your Content", description: "Use the AI to generate content ideas and post copy for your upcoming schedule. Review the suggestions and select or edit the ones that best fit your content strategy." },
+        { title: "Schedule and Monitor", description: "Schedule your approved posts across platforms and monitor performance through the analytics dashboard. Use engagement data to refine your content approach over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Strategy Plus Execution", description: "Many social media tools handle either planning or scheduling but not both. SOM AI covers content ideation, copy generation, and scheduling in one workflow" },
+      { title: "Consistency Without Daily Effort", description: "Consistent posting is what drives social media growth but daily content creation is unsustainable for most small teams. SOM AI makes batch creation and scheduling practical" },
+      { title: "AI Relevance", description: "Content suggestions based on your specific industry and audience are more useful than generic post ideas - SOM AI generates content that is relevant to your particular business context" },
+      { title: "Performance Learning", description: "Analytics that show what content performs best inform future generation - creating a feedback loop where content quality improves over time based on actual audience response" }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Business owners who manage their own social media use SOM AI to maintain consistent posting without it consuming significant daily time" },
+      { title: "Freelance Social Media Managers", description: "Independent social media managers use SOM AI to efficiently manage content creation and scheduling across multiple client accounts" },
+      { title: "Content Creators Building Audiences", description: "Creators building their personal brand on social media use SOM AI to maintain posting frequency while focusing their time on higher-value content" }
+    ]
+  },
+  "pikzels": {
+    whatIs: "Pikzels is an AI-powered image generation and editing platform focused on creating marketing visuals, product images, and social media graphics. It provides a simplified interface for generating and customizing AI images specifically for business and marketing use cases rather than artistic creation. For marketers and small business owners who need professional-looking visuals without a designer or stock photo subscription, Pikzels generates custom images that fit specific marketing needs.",
+    features: [
+      "AI Image Generation: Create marketing visuals from text descriptions",
+      "Product Image Creation: Generate product mockups and lifestyle images",
+      "Social Media Graphics: Platform-specific image creation for all networks",
+      "Background Replacement: Swap product image backgrounds automatically",
+      "Brand Customization: Apply brand colors and style to generated images",
+      "Template Library: Starting templates for common marketing image types",
+      "Batch Generation: Create multiple image variations simultaneously",
+      "Commercial License: All generated images cleared for business use"
+    ],
+    howToUse: {
+      title: "How to Use Pikzels",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Image", description: "Sign up at pikzels.com and describe the marketing image you want to create. Include the product or subject, the setting, the mood, and any brand-specific requirements." },
+        { title: "Generate and Customize", description: "Pikzels generates your image with options to customize colors, backgrounds, and style elements to align with your brand identity." },
+        { title: "Download and Use", description: "Download your generated image in the appropriate resolution for your intended use. All images include commercial licensing for business marketing use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Marketing-Specific Generation", description: "General AI image generators are optimized for artistic output. Pikzels is specifically focused on marketing visuals - product images, social graphics, and promotional content - which produces more relevant results for business use cases" },
+      { title: "Commercial Clarity", description: "Using AI-generated images for business marketing requires clear commercial licensing. Pikzels provides this clarity explicitly rather than leaving users uncertain about usage rights" },
+      { title: "Background Replacement Value", description: "Clean product images on white or lifestyle backgrounds are standard e-commerce requirements. Automated background replacement makes this professional standard achievable without a photography studio" },
+      { title: "No Designer Required", description: "Small businesses that cannot afford a designer use Pikzels to produce marketing-quality images for their campaigns and social media" }
+    ],
+    useCases: [
+      { title: "E-commerce Sellers", description: "Online retailers use Pikzels to create product lifestyle images and marketing visuals that make their listings and ads more compelling" },
+      { title: "Small Business Marketing Teams", description: "Small teams use Pikzels to produce a consistent stream of social media and marketing images without a dedicated designer" },
+      { title: "Digital Marketers Running Campaigns", description: "Performance marketers use Pikzels to quickly generate multiple ad creative variations for testing across different audiences" }
+    ]
+  },
+  "smodin": {
+    whatIs: "Smodin is an AI writing and research platform that provides a suite of tools for students, academics, and content creators including an AI essay writer, paraphraser, plagiarism checker, summarizer, and research assistant. It is particularly popular with students for its essay writing and rewriting capabilities. The platform supports multiple languages making it accessible to non-English writers who need writing assistance in their native language.",
+    features: [
+      "AI Essay Writer: Generate complete essays from topic and prompt inputs",
+      "Paraphraser: Rewrite content in different styles and voices",
+      "Plagiarism Checker: Verify content originality before submission",
+      "Summarizer: Condense long content into concise summaries",
+      "Research Assistant: AI-powered research help for academic topics",
+      "Citation Generator: Create properly formatted academic citations",
+      "Multiple Languages: Writing tools in many languages beyond English",
+      "Free Plan: Basic writing tools accessible without payment"
+    ],
+    howToUse: {
+      title: "How to Use Smodin",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Sign up at smodin.io and enter your essay topic or writing prompt. Specify the length, style, and any key points you want the essay to address." },
+        { title: "Generate and Review", description: "Smodin generates your essay draft. Review it critically - add your own analysis, specific examples, and personal insights that reflect your actual understanding of the topic." },
+        { title: "Check and Refine", description: "Run the plagiarism checker on your content before submitting. Use the paraphraser to rework any sections that need a different voice or approach." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Tool Value", description: "Having essay writing, paraphrasing, plagiarism checking, and summarizing in one platform covers the full range of student writing assistance needs without multiple subscriptions" },
+      { title: "Multilingual Access", description: "Writing assistance in many languages makes Smodin genuinely useful for international students who work in languages other than English - a practical advantage over English-only tools" },
+      { title: "Research Integration", description: "AI research assistance alongside writing tools keeps the workflow in one place rather than requiring students to switch between research and writing applications" },
+      { title: "Citation Support", description: "Properly formatted citations are a specific academic requirement that Smodin handles automatically - saving the time and reducing the errors that come with manual citation formatting" }
+    ],
+    useCases: [
+      { title: "International Students", description: "Students from non-English speaking countries use Smodin for writing assistance in their native language or to help bridge language gaps in English academic writing" },
+      { title: "Students Across Academic Levels", description: "High school and university students use Smodin for essay assistance, research help, and writing improvement across their coursework" },
+      { title: "Content Writers Needing Multiple Tools", description: "Writers who need paraphrasing, summarizing, and plagiarism checking regularly use Smodin for the convenience of having all these tools under one subscription" }
+    ]
+  },
+  "soopra": {
+    whatIs: "Soopra is an AI platform that lets creators and experts build personalized AI versions of themselves - digital twins that can interact with their audience, answer questions in their voice, and provide their expertise at scale. A creator trains their Soopra AI on their content, knowledge, and communication style, then shares it with their audience who can have conversations with the AI that feels like talking to the creator directly. For content creators, educators, and experts who want to scale their personal interactions beyond what their time allows, Soopra creates an AI presence that represents them authentically.",
+    features: [
+      "AI Digital Twin: Create an AI version of yourself trained on your content",
+      "Audience Interaction: Let fans and followers interact with your AI",
+      "Knowledge Training: Train your AI on your specific expertise and content",
+      "Voice Matching: AI communicates in your personal style and tone",
+      "Q&A Automation: Answer common audience questions automatically at scale",
+      "Creator Monetization: Monetize your AI twin through audience interactions",
+      "Multi-Platform: Deploy your AI across different platforms",
+      "Analytics: Understand what your audience is asking and engaging with"
+    ],
+    howToUse: {
+      title: "How to Use Soopra",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Profile", description: "Sign up at soopra.ai and set up your creator profile. Provide information about your expertise, your communication style, and the topics you want your AI to cover." },
+        { title: "Train Your AI", description: "Upload your content - videos, articles, podcasts, and written material - to train your Soopra AI on your knowledge and voice. The more content you provide the more accurately it represents you." },
+        { title: "Share with Your Audience", description: "Share your Soopra AI link with your audience. They can have conversations with your AI twin, ask questions about your area of expertise, and get responses that feel genuinely like you." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Scale Personal Interaction", description: "Creators with large audiences cannot personally respond to every question and comment. Soopra creates an AI that provides personalized interaction at a scale that would be impossible for any individual" },
+      { title: "Knowledge Preservation", description: "Training an AI on your expertise creates a persistent knowledge resource that represents your thinking even when you are not available to respond directly" },
+      { title: "Audience Engagement Depth", description: "Audiences who can have real conversations with a creator AI engage more deeply than those who only consume one-way content - the interactive element creates stronger connection" },
+      { title: "Monetization Innovation", description: "The ability to monetize audience interactions with your AI twin creates a new revenue model for creators beyond traditional content and sponsorship income" }
+    ],
+    useCases: [
+      { title: "Content Creators with Large Audiences", description: "YouTubers, podcasters, and social media creators use Soopra to provide personalized AI interaction to audiences that have grown beyond what they can personally engage with" },
+      { title: "Experts and Educators", description: "Subject matter experts use Soopra to scale access to their knowledge, allowing more people to benefit from their expertise than one-on-one interaction would allow" },
+      { title: "Coaches and Consultants", description: "Professionals who offer coaching and consulting use Soopra to provide a first layer of AI-powered guidance to more clients than their direct time allows" }
+    ]
+  },
   "camtasia": {
     whatIs: "Camtasia is a professional screen recording and video editing software from TechSmith that has been the industry standard for tutorial, training, and instructional video production for decades. It combines a powerful screen recorder with a full video editor in one application, making it the complete solution for anyone who needs to create software demonstrations, online courses, or how-to videos. The recent AI features assist with script generation, automatic captions, and removing filler words from recordings.",
     features: [
