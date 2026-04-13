@@ -1258,7 +1258,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "ai-sentence-generator", name: "AI Sentence Generator", description: "Generate coherent sentences with AI", url: "", upvotes: 456, verified: true, rating: 4.4, icon: "📝", category: "writing-editing", subcategory: "ai-sentence-generator" },
       { id: "english-chrome-extension", name: "English Chrome Extension", description: "Chrome extension for English sentence help", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "🌐", category: "writing-editing", subcategory: "ai-sentence-generator" },
       { id: "vocabmate", name: "VocabMate", description: "Vocabulary and sentence building tool", url: "", upvotes: 234, verified: true, rating: 4.2, icon: "📚", category: "writing-editing", subcategory: "ai-sentence-generator" },
-      { id: "simple-english-plugin", name: "Simple English Learning Plugin", description: "Browser plugin for English sentence help", url: "", upvotes: 189, verified: true, rating: 4.1, icon: "🔌", category: "writing-editing", subcategory: "ai-sentence-generator" },
       { id: "typegenie", name: "TypeGenie", description: "AI typing and sentence completion", url: "", upvotes: 156, verified: false, rating: 4.0, icon: "⌨️", category: "writing-editing", subcategory: "ai-sentence-generator" }
     ],
     "ai-short-story-generator": [
@@ -1277,7 +1276,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-spell-check": [
       { id: "textgears", name: "TextGears", description: "AI grammar and spell checking API", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "⚙️", category: "writing-editing", subcategory: "ai-spell-check" },
       { id: "linguix", name: "Linguix", description: "AI writing assistant with spell check", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "📚", category: "writing-editing", subcategory: "ai-spell-check" },
-      { id: "diacritice-corecta", name: "Corectarea automată a diacriticelor", description: "Automatic Romanian diacritics correction", url: "", upvotes: 234, verified: true, rating: 4.2, icon: "🇷🇴", category: "writing-editing", subcategory: "ai-spell-check" },
       { id: "safespelling", name: "SafeSpelling", description: "AI-powered spell checking tool", url: "", upvotes: 189, verified: false, rating: 4.1, icon: "🛡️", category: "writing-editing", subcategory: "ai-spell-check" }
     ],
     "ai-story-generator": [
@@ -1296,7 +1294,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "canvs-ai", name: "Canvs AI", description: "AI text analysis and classification", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "🎨", category: "writing-editing", subcategory: "ai-text-classifier" },
       { id: "yay-forms", name: "Yay! Forms", description: "Form builder with AI text classification", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "📝", category: "writing-editing", subcategory: "ai-text-classifier" },
       { id: "iamip", name: "IamIP", description: "AI-powered text analysis platform", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "🔍", category: "writing-editing", subcategory: "ai-text-classifier" },
-      { id: "hs-code", name: "The HS Code", description: "Trade classification with AI text analysis", url: "", upvotes: 234, verified: true, rating: 4.2, icon: "📊", category: "writing-editing", subcategory: "ai-text-classifier" },
       { id: "chatpulse", name: "ChatPulse", description: "AI chat and text sentiment analysis", url: "", upvotes: 189, verified: false, rating: 4.1, icon: "💬", category: "writing-editing", subcategory: "ai-text-classifier" }
     ],
     "ai-text-generator": [
@@ -1338,7 +1335,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "topicfinder", name: "Topicfinder", description: "AI topic and headline discovery tool", url: "", upvotes: 456, verified: true, rating: 4.4, icon: "🔍", category: "writing-editing", subcategory: "headlines-ai" },
       { id: "soopra", name: "Soopra", description: "AI content and headline generator", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "🎯", category: "writing-editing", subcategory: "headlines-ai" },
       { id: "make-headline", name: "Make Headline", description: "AI headline creation tool", url: "", upvotes: 234, verified: true, rating: 4.2, icon: "📰", category: "writing-editing", subcategory: "headlines-ai" },
-      { id: "chatgpt-news-desensationalizer", name: "ChatGPT News De-Sensationalizer", description: "AI tool to create balanced headlines", url: "", upvotes: 189, verified: true, rating: 4.1, icon: "📊", category: "writing-editing", subcategory: "headlines-ai" },
       { id: "great-headlines-ai", name: "Great Headlines AI", description: "AI headline optimization tool", url: "", upvotes: 156, verified: false, rating: 4.0, icon: "⭐", category: "writing-editing", subcategory: "headlines-ai" }
     ],
     "prompt-engineering": [
