@@ -1,4 +1,336 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "poem-generator-io": {
+    whatIs: "PoemGenerator.io is a free online AI poetry tool that creates original poems across dozens of styles and forms from simple text inputs. Whether you need a heartfelt sonnet, a playful limerick, a structured haiku, or free verse on any topic, PoemGenerator.io handles the form and craft so you can focus on the occasion and the sentiment. It supports multiple languages and covers a wide range of themes from love and nature to loss and celebration, making it a practical tool for anyone who needs a poem for a specific purpose.",
+    features: [
+      "Multiple Poem Forms: Sonnets, haikus, limericks, free verse, and dozens more",
+      "Theme Selection: Choose from love, nature, celebration, grief, and other themes",
+      "Multilingual: Generate poems in many different languages",
+      "Occasion Poems: Birthday, anniversary, wedding, and other occasion-specific poems",
+      "Instant Generation: Poems ready in seconds without waiting",
+      "Multiple Versions: Regenerate to get different interpretations of the same prompt",
+      "Copy and Share: Easy copy and sharing tools for finished poems",
+      "Free to Use: Core poem generation completely free without an account"
+    ],
+    howToUse: {
+      title: "How to Use Poem Generator Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Go to poemgenerator.io and enter the subject or theme you want your poem to be about. The more specific your input the more targeted and personal the output will feel." },
+        { title: "Select Your Form", description: "Choose the poem form that fits your purpose - a sonnet for something formal and romantic, a haiku for something brief and contemplative, or free verse for maximum creative flexibility." },
+        { title: "Generate and Refine", description: "Generate your poem and read through it. If you want a different interpretation or tone, regenerate to get a new version. Copy your favorite result and use it for your intended occasion." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Form Variety", description: "Different occasions and moods call for different poetic forms. Having dozens of form options in one tool means you always find the right structure for your specific need rather than getting a generic poem in one default format" },
+      { title: "Theme Calibration", description: "Selecting a theme before generating produces more emotionally appropriate output - a poem about loss needs different language and imagery than one about celebration, and the theme selection guides the AI accordingly" },
+      { title: "Multilingual Reach", description: "Poetry in your own language has more personal resonance than translated poetry. Supporting many languages makes PoemGenerator.io useful globally rather than only to English speakers" },
+      { title: "Occasion Practicality", description: "Most people need poems for specific occasions - weddings, birthdays, memorials. The occasion-specific categories help users find the right emotional register quickly without describing it from scratch" }
+    ],
+    useCases: [
+      { title: "People Writing Cards and Messages", description: "Anyone who wants to include a meaningful poem in a birthday card, wedding speech, or personal message uses PoemGenerator.io to create something that fits the occasion and the recipient" },
+      { title: "Students Learning Poetry", description: "Students studying different poetic forms use PoemGenerator.io to see examples of each form and understand how structure shapes poetic expression" },
+      { title: "Teachers Creating Classroom Examples", description: "Educators use PoemGenerator.io to quickly generate example poems in different forms for classroom discussion and teaching" }
+    ]
+  },
+  "aiepics": {
+    whatIs: "AIEpics is an AI poetry generator with a particular focus on epic and narrative poetry - longer, more ambitious poetic forms that tell stories, celebrate heroism, and engage with grand themes. Where most AI poetry tools focus on short lyric forms, AIEpics is built for users who want poems with narrative structure, dramatic arc, and the kind of elevated language that distinguishes epic poetry as a form. It also handles other poetry types but the epic and narrative strength sets it apart from simpler poem generators.",
+    features: [
+      "Epic Poetry: Generate narrative poems with story structure and dramatic arc",
+      "Multiple Poetry Forms: Sonnets, odes, ballads, and other classical forms",
+      "Elevated Language: Poetic language appropriate for serious and grand subjects",
+      "Narrative Structure: Poems that tell stories with beginning, middle, and end",
+      "Theme Depth: Handles complex themes like heroism, loss, and transformation",
+      "Customizable Length: Control how long your generated poems are",
+      "Instant Generation: Results delivered quickly without long processing times",
+      "Free Access: Basic epic poem generation without payment required"
+    ],
+    howToUse: {
+      title: "How to Use Aiepics",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Subject", description: "Go to aiepics.com and enter the subject or story you want your epic poem to address. Epic poetry works best with subjects that have weight and drama - battles, journeys, transformations, or tributes." },
+        { title: "Select Your Form and Length", description: "Choose between epic narrative form or other available styles. Set your preferred poem length - longer forms give the AI more space to develop the narrative properly." },
+        { title: "Generate Your Epic", description: "Generate your poem and review the output for language quality and narrative flow. Epic poetry should feel elevated and serious - regenerate if the tone does not quite match the grandeur your subject deserves." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Epic Form Specialization", description: "Most poetry generators produce short lyric poems adequately but struggle with the longer, narrative forms that epic poetry requires. AIEpics is specifically built for these more ambitious forms" },
+      { title: "Narrative Architecture", description: "Good epic poetry needs more than beautiful lines - it needs a narrative arc that builds and resolves. AIEpics generates poems with this structural awareness rather than stringing unconnected poetic lines together" },
+      { title: "Elevated Register", description: "Epic poetry traditionally uses elevated, formal language that distinguishes it from conversational verse. AIEpics calibrates its language to fit the grand register that epic forms call for" },
+      { title: "Tribute and Celebration Use", description: "Epic forms are particularly suited for tributes, eulogies, and celebrations of achievement - occasions where the gravity and ambition of the form matches the importance of the subject" }
+    ],
+    useCases: [
+      { title: "Writers Exploring Epic Forms", description: "Poets and writers interested in epic and narrative poetry use AIEpics to explore these forms and get inspiration for their own work" },
+      { title: "People Writing Tributes and Eulogies", description: "People honoring someone through poetry use AIEpics for the elevated language and serious tone that tribute occasions require" },
+      { title: "Students Studying Classical Poetry", description: "Students learning about epic poetry and classical forms use AIEpics to see how these forms work in practice" }
+    ]
+  },
+  "free-poem-generator": {
+    whatIs: "Free AI Poem Generator is an accessible, no-cost poetry creation tool that helps anyone produce original poems without paying for access or creating an account. It covers the most common poetry needs - rhyming poems, free verse, haikus, and occasion poems - with a simple interface that gets you from blank page to finished poem in under a minute. The genuinely free model with no hidden premium features or credit limits makes it one of the most accessible options for casual poetry needs.",
+    features: [
+      "Completely Free: Full poem generation with no payment or credits required",
+      "No Account Needed: Generate poems without creating an account",
+      "Rhyming Poems: AI generates poems with natural rhyme schemes",
+      "Multiple Forms: Haiku, sonnet, free verse, and other common forms",
+      "Topic Flexibility: Poems on any subject you describe",
+      "Occasion Poems: Birthday, love, friendship, and seasonal poems",
+      "Instant Results: Poems generated in seconds",
+      "Copy Feature: Easy one-click copying of finished poems"
+    ],
+    howToUse: {
+      title: "How to Use Free Poem Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Poem", description: "Go to the Free AI Poem Generator and describe what you want your poem to be about. Include any specific details about the recipient, occasion, or emotional tone you want to convey." },
+        { title: "Choose Your Style", description: "Select whether you want a rhyming poem, a haiku, free verse, or another form. For most casual needs a rhyming poem or free verse will work well." },
+        { title: "Copy and Use", description: "Your poem is generated instantly. Read it through and copy it if it fits your need. If you want something different, simply describe your requirements again and generate a new version." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Genuine Free Access", description: "Many poetry tools offer a free tier that is too limited to be useful. Free AI Poem Generator provides real functionality without paywalls - which makes it the right choice for occasional casual poetry needs" },
+      { title: "No Friction Entry", description: "Not requiring an account means there is zero barrier between wanting a poem and having one - useful for the moment you suddenly need something for a card or message and have no time to set up accounts" },
+      { title: "Rhyming Strength", description: "Rhyming poetry is what most people picture when they think of a poem for a card or occasion. Free AI Poem Generator handles rhyme naturally rather than forcing awkward constructions to satisfy the pattern" },
+      { title: "Occasion Coverage", description: "The most common reason people need AI poem help is a specific occasion - a birthday, a thank-you, a sympathy card. Occasion-focused generation produces emotionally appropriate output for these practical needs" }
+    ],
+    useCases: [
+      { title: "Anyone Who Needs a Quick Poem", description: "People who suddenly need a poem for a card, message, or speech use Free AI Poem Generator for immediate, no-barrier access to decent quality poetry" },
+      { title: "People Without Poetry Skills", description: "Those who want to express something poetically but do not know how to write poetry themselves use the tool to create something meaningful without the skill requirement" },
+      { title: "Budget-Conscious Users", description: "People who need occasional poetry help but cannot justify paying for a subscription use Free AI Poem Generator for what they need without any cost" }
+    ]
+  },
+  "poky": {
+    whatIs: "POKY is an AI-powered product importer and description generator designed for e-commerce sellers who need to import products from suppliers and generate compelling product descriptions quickly. It automates the product import workflow - pulling product data from supplier sources and generating AI-written descriptions that are optimized for the platform the seller is listing on. For dropshippers and online store owners who add new products regularly, POKY reduces the manual work of importing and describing products to a fraction of what it would take to do manually.",
+    features: [
+      "Product Import: Automated product importing from supplier sources",
+      "AI Descriptions: Generate compelling product descriptions automatically",
+      "Platform Optimization: Descriptions optimized for different e-commerce platforms",
+      "Bulk Import: Process multiple products simultaneously",
+      "SEO-Friendly Copy: Product descriptions structured for search visibility",
+      "Image Handling: Import and manage product images alongside descriptions",
+      "Store Integration: Connect with major e-commerce platforms",
+      "Time Saving: Reduce product listing time significantly"
+    ],
+    howToUse: {
+      title: "How to Use Poky",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Sources", description: "Sign up at POKY and connect your supplier sources or product data. The tool pulls product information automatically from connected sources." },
+        { title: "Generate Descriptions", description: "POKY uses the imported product data to generate AI-written descriptions. Review the generated copy and adjust anything that needs to better match your store voice or specific requirements." },
+        { title: "Publish to Your Store", description: "Push the imported products with their generated descriptions directly to your connected e-commerce store. The entire workflow from import to live listing happens without manual copy-paste work." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Import Automation", description: "Manually importing product data, writing descriptions, and uploading images for every new product is the biggest time sink in running an e-commerce store. POKY automates this entire workflow" },
+      { title: "Description Quality", description: "Generic product copy that just lists features does not convert well. AI-generated descriptions that emphasize benefits and use persuasive language perform better than basic specification lists" },
+      { title: "Scale for Dropshippers", description: "Dropshippers who list hundreds of products need import automation to be viable at all - manually processing that volume is practically impossible. POKY makes high-volume product listing feasible" },
+      { title: "Platform-Specific Optimization", description: "Different e-commerce platforms have different character limits, formatting requirements, and ranking factors. Platform-specific description optimization improves listing performance across the board" }
+    ],
+    useCases: [
+      { title: "Dropshippers Adding New Products", description: "Dropshipping store owners who regularly add new products from suppliers use POKY to import and list them efficiently without manual description writing" },
+      { title: "E-commerce Store Owners", description: "Online retailers building or expanding their product catalog use POKY to accelerate the listing process without sacrificing description quality" },
+      { title: "Virtual Assistants Managing Stores", description: "VAs who manage e-commerce stores for clients use POKY to handle product listing workflows efficiently across multiple client stores" }
+    ]
+  },
+  "plotlime": {
+    whatIs: "Plotlime is an AI-assisted novel planning and writing platform that helps fiction writers organize their stories, develop characters, and maintain consistency across long-form writing projects. It provides structured tools for outlining, character sheets, world-building notes, and scene planning alongside AI assistance that helps writers develop their ideas further. For novelists who struggle with the organizational demands of writing a full-length book, Plotlime provides a structured environment that keeps all story elements in one place.",
+    features: [
+      "Story Outlining: Structure your novel with scene-by-scene planning tools",
+      "Character Development: Build detailed character profiles and track arcs",
+      "World Building: Organize setting details and world elements",
+      "AI Writing Assistance: Get AI help expanding scenes and developing ideas",
+      "Consistency Tracking: Keep character details and plot points consistent",
+      "Scene Management: Organize and reorder scenes with ease",
+      "Notes and Research: Keep research and reference material alongside your manuscript",
+      "Progress Tracking: Monitor word count and writing goals"
+    ],
+    howToUse: {
+      title: "How to Use Plotlime",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Project", description: "Create a new project in Plotlime and set up your story structure. Add your main characters, key locations, and outline the major plot beats before you start drafting." },
+        { title: "Develop Your Story Elements", description: "Fill in your character sheets, build out your world details, and expand your outline. The more detail you put into planning the more consistent your writing will be when you start drafting." },
+        { title: "Write and Stay Consistent", description: "Use Plotlime to draft your scenes with all planning notes accessible alongside your manuscript. Use the AI assistance when you need help pushing through a difficult section." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Organization for Long Projects", description: "Novels have hundreds of moving parts - characters with specific traits, plot threads that need resolution, world details that must stay consistent. Plotlime keeps all of this organized so writers can focus on writing" },
+      { title: "Pre-Writing Value", description: "The best investment a novelist can make is time spent planning before drafting. Plotlime structured planning tools encourage the kind of preparation that makes the drafting process smoother" },
+      { title: "Consistency Prevention", description: "Continuity errors - a character eye color changing, a plot point being forgotten - are common in first drafts without tracking tools. Plotlime surfaces these inconsistencies before they compound" },
+      { title: "AI as Collaborator", description: "AI assistance that works within the context of your specific story is more useful because it understands your characters and plot when making suggestions" }
+    ],
+    useCases: [
+      { title: "First-Time Novelists", description: "Writers tackling their first novel use Plotlime for the organizational structure that makes a project of that scale manageable" },
+      { title: "Pantsers Trying to Plot", description: "Writers who normally write without planning use Plotlime to add just enough structure to avoid getting lost mid-story" },
+      { title: "Writers of Complex Narratives", description: "Authors writing multiple POVs, intricate plots, or detailed fantasy worlds use Plotlime to track the complexity that a single document cannot handle" }
+    ]
+  },
+  "lore-sage": {
+    whatIs: "Lore Sage is an AI worldbuilding platform designed for fiction writers, game masters, and game developers who need to build and manage rich, consistent fictional worlds. It helps creators generate and organize lore - the histories, cultures, magic systems, geography, and mythology that make fictional worlds feel real and lived-in. The AI can generate content that fits within the established rules and tone of your world, maintaining consistency as your world grows more complex.",
+    features: [
+      "World Generation: Create detailed fictional worlds from descriptions",
+      "Lore Management: Organize histories, cultures, and world details systematically",
+      "Magic System Builder: Design and document magic systems with consistent rules",
+      "Character and Faction Tracking: Keep track of people, groups, and their relationships",
+      "Geography and Maps: Build out locations and geographic relationships",
+      "Timeline Creation: Maintain historical timelines for your world",
+      "AI Consistency: AI generates new lore that fits your established world rules",
+      "Export Tools: Export world documentation for use in your projects"
+    ],
+    howToUse: {
+      title: "How to Use Lore Sage",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your World Foundation", description: "Start by establishing the fundamental rules and tone of your world - its physics, magic, major conflicts, and overall feel. The foundation you set here guides all AI-generated content that follows." },
+        { title: "Build Out Your Lore", description: "Use Lore Sage to expand your world section by section - histories, cultures, locations, and characters. The AI helps generate content that fits within what you have already established." },
+        { title: "Maintain and Reference", description: "As your project develops, use Lore Sage as your world bible. Check character details, historical events, and world rules to ensure your creative work stays consistent with the established lore." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Consistency at Scale", description: "A fictional world with years of lore development becomes impossible to keep consistent in your head alone. Lore Sage acts as an organized external memory for everything your world contains" },
+      { title: "AI Within Your Rules", description: "Generic AI will generate content that contradicts your established world. Lore Sage AI works within the rules and tone you have set - producing lore that feels native to your world rather than imported from somewhere else" },
+      { title: "Game Master Support", description: "Tabletop RPG game masters who need to improvise lore during sessions use Lore Sage to have deep world details accessible and quickly generate plausible on-the-spot content that fits their world" },
+      { title: "Cross-Media Utility", description: "Whether you are writing a novel series, running a campaign, or building a game world, the same world documentation serves all creative uses from one organized platform" }
+    ],
+    useCases: [
+      { title: "Fantasy and Sci-Fi Writers", description: "Authors building detailed fictional worlds for novels and series use Lore Sage to manage the complexity of world documentation" },
+      { title: "Tabletop RPG Game Masters", description: "GMs building campaign worlds use Lore Sage to create deep lore for their players to discover and to have details ready when players ask unexpected questions" },
+      { title: "Game Developers", description: "Video game developers building story-rich worlds use Lore Sage to develop and document the lore that makes their game world feel real and deep" }
+    ]
+  },
+  "acrostic-ai": {
+    whatIs: "Acrostic AI is a specialized poetry tool that generates acrostic poems - poems where the first letter of each line spells out a word or name when read vertically. Creating a genuinely good acrostic poem that works both as a hidden message and as readable poetry is harder than it sounds. Acrostic AI handles the technical constraint of matching letters while generating lines that flow as natural, expressive poetry rather than forced constructions that happen to start with the right letters.",
+    features: [
+      "Acrostic Generation: Create acrostic poems from any word or name",
+      "Poetry Quality: Lines that read as genuine poetry not just letter matches",
+      "Multiple Styles: Acrostics in different poetic tones and styles",
+      "Name Poems: Personalized acrostic poems for people and occasions",
+      "Word and Phrase Acrostics: Acrostics spelling out words or short phrases",
+      "Instant Generation: Poems ready in seconds",
+      "Multiple Versions: Generate several versions to find the best one",
+      "Free to Use: Basic acrostic generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Acrostic Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Word or Name", description: "Go to the Acrostic AI tool and enter the word or name you want to spell out. This could be a person name for a birthday poem, a word that represents your theme, or a short phrase." },
+        { title: "Choose Your Style", description: "Select the tone or style you want - romantic, inspirational, funny, or sincere. The style guides the AI in choosing language and imagery that fits your intended use." },
+        { title: "Generate and Select", description: "Generate your acrostic poem and read through the result. If the first version does not quite land right, generate again - getting a few versions to compare usually helps you find the one that feels perfect." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Technical and Creative Balance", description: "The challenge of acrostic poetry is satisfying both the letter constraint and the poetic quality simultaneously. Acrostic AI specifically optimizes for both rather than sacrificing one for the other" },
+      { title: "Personalization Value", description: "An acrostic poem spelling out someone name is a genuinely personal gift - it requires thought and shows effort in a way that a generic poem does not" },
+      { title: "Occasion Versatility", description: "Acrostic poems work for birthdays, anniversaries, dedications, and any occasion where a personalized piece of writing is meaningful" },
+      { title: "Instant Accessibility", description: "Creating a good acrostic manually can take significant time working through letter options. Acrostic AI produces quality results in seconds making personalized poetry accessible for everyone" }
+    ],
+    useCases: [
+      { title: "People Creating Personalized Gifts", description: "Anyone who wants to give someone a poem with their name spelled out uses Acrostic AI to create a thoughtful personalized piece quickly" },
+      { title: "Teachers and Educators", description: "Teachers use acrostic poems for vocabulary exercises and creative writing assignments that engage students with wordplay and structure" },
+      { title: "Writers and Poets Exploring Form", description: "Writers who want to experiment with constrained poetry forms use Acrostic AI to explore how acrostic structure shapes creative expression" }
+    ]
+  },
+  "hypotenuse-ai": {
+    whatIs: "Hypotenuse AI is an AI content generation platform built specifically for e-commerce brands and content teams that need to produce large volumes of high-quality written content efficiently. It excels at product descriptions, blog articles, and marketing copy, with a brand voice feature that learns and applies your specific tone across everything it generates. The platform is particularly strong for e-commerce use cases - it can process product catalogs and generate descriptions at scale using product data as input, which makes it genuinely practical for online stores with hundreds or thousands of SKUs.",
+    features: [
+      "Product Descriptions: AI-generated product copy at scale from product data",
+      "Blog Articles: Full-length SEO-optimized articles from keywords and briefs",
+      "Brand Voice: Train the AI on your specific tone and style",
+      "Bulk Generation: Process entire product catalogs simultaneously",
+      "Image Generation: AI images alongside written content",
+      "Content Workflows: Team collaboration on content production",
+      "SEO Integration: Keyword optimization built into content generation",
+      "Multiple Languages: Content generation across major languages",
+      "API Access: Integrate content generation into your own workflows",
+      "Plagiarism Free: Original content not copied from existing sources"
+    ],
+    howToUse: {
+      title: "How to Use Hypotenuse Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Brand Voice", description: "Sign up at hypotenuse.ai and set up your brand voice by providing examples of your content. Hypotenuse analyzes the style, tone, and language patterns and applies them to everything generated for your brand." },
+        { title: "Generate Your Content", description: "Choose your content type and provide your inputs - product data for descriptions, keywords for articles, or briefs for marketing copy. Hypotenuse generates complete on-brand drafts ready to review." },
+        { title: "Review and Publish", description: "Review generated content in the built-in editor, make any adjustments needed, and publish or export to your CMS. Use bulk generation for product catalogs to process many items simultaneously." }
+      ]
+    },
+    coreFeatures: [
+      { title: "E-commerce Scale Capability", description: "Generating product descriptions for thousands of SKUs manually is practically impossible at any meaningful pace. Hypotenuse bulk generation processes entire catalogs efficiently while maintaining quality and brand consistency" },
+      { title: "Brand Voice Differentiation", description: "Generic AI writing sounds identical regardless of the brand. Hypotenuse brand voice training produces content that sounds like your specific company wrote it" },
+      { title: "SEO Built In", description: "Producing content that is both readable and optimized for search requires balancing keyword integration with natural writing. Hypotenuse handles this balance automatically" },
+      { title: "E-commerce Specialization", description: "Being built specifically for e-commerce means Hypotenuse understands product data formats, conversion-oriented copy, and the specific content types that online retailers need most" }
+    ],
+    useCases: [
+      { title: "E-commerce Brands with Large Catalogs", description: "Online retailers with hundreds or thousands of products use Hypotenuse to generate and maintain product descriptions at a scale that manual writing cannot match" },
+      { title: "Content Marketing Teams", description: "Marketing teams needing consistent volumes of blog content and marketing copy use Hypotenuse to scale production while maintaining brand voice" },
+      { title: "Agencies Managing E-commerce Clients", description: "Digital agencies managing content for e-commerce clients use Hypotenuse to deliver high-quality product content efficiently across multiple client accounts" }
+    ]
+  },
+  "mydesigns-io": {
+    whatIs: "MyDesigns.io is a design management and automation platform built specifically for print-on-demand sellers. It helps sellers organize their designs, automate the process of uploading and listing products across multiple POD platforms, and scale their print-on-demand business without the manual work that normally limits growth. For Etsy sellers, Merch by Amazon sellers, and others in the print-on-demand space, MyDesigns handles the repetitive upload and listing workflow that consumes hours of time each week.",
+    features: [
+      "Design Organization: Centralized storage and management for all your designs",
+      "Automated Uploads: Push designs to multiple POD platforms automatically",
+      "Bulk Listing: Create product listings across platforms in bulk",
+      "Multi-Platform Support: Works with Merch by Amazon, Redbubble, Teepublic, and others",
+      "Design Templates: Reuse listing templates across similar products",
+      "Research Tools: Identify trending niches and designs",
+      "Keyword Tools: Optimize listings with relevant keywords",
+      "Analytics: Track performance across your POD portfolio"
+    ],
+    howToUse: {
+      title: "How to Use Mydesigns Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Organize Your Designs", description: "Sign up at mydesigns.io and upload your design files. Organize them into collections and categories that make sense for your product lineup." },
+        { title: "Set Up Your Platforms", description: "Connect your print-on-demand platform accounts - Merch by Amazon, Redbubble, Etsy, and others. MyDesigns will push your designs and listings to these platforms automatically." },
+        { title: "Upload and Scale", description: "Use bulk upload tools to list your designs across platforms simultaneously. Create listing templates for consistent titles and descriptions and use the keyword tools to optimize for search visibility." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Upload Automation Value", description: "Manually uploading designs to multiple POD platforms is extremely time-consuming. MyDesigns automates this workflow so sellers can focus on creating designs rather than managing uploads" },
+      { title: "Multi-Platform Reach", description: "Selling on multiple POD platforms multiplies your potential sales without multiplying your work - MyDesigns makes it practical to maintain a presence across all major platforms simultaneously" },
+      { title: "Scale Without Overhead", description: "The bottleneck for most POD sellers is the upload and listing work rather than design creation. Removing that bottleneck allows sellers to scale their catalog size significantly" },
+      { title: "Research Integration", description: "Having trend research and keyword tools alongside the listing workflow means sellers can act on research immediately rather than switching between multiple separate tools" }
+    ],
+    useCases: [
+      { title: "Print-on-Demand Sellers", description: "Etsy and Amazon Merch sellers use MyDesigns to manage their design libraries and automate the upload process across platforms" },
+      { title: "POD Business Builders", description: "Entrepreneurs building print-on-demand businesses use MyDesigns to scale their catalog and platform presence efficiently" },
+      { title: "Designers Selling Their Work", description: "Graphic designers who sell their designs on POD platforms use MyDesigns to manage the business side of their work without it consuming their creative time" }
+    ]
+  },
+  "insightfactor": {
+    whatIs: "InsightFactor is an AI-powered market research and consumer insights platform that helps brands and researchers gather, analyze, and interpret consumer feedback at scale. It uses AI to process open-ended survey responses, social listening data, and qualitative research inputs to surface patterns and themes that would take human analysts weeks to identify manually. For marketing and product teams that need to understand consumer sentiment and behavior to inform their decisions, InsightFactor provides the analytical depth that traditional survey tools lack.",
+    features: [
+      "AI Survey Analysis: Process open-ended survey responses at scale",
+      "Consumer Sentiment: Understand emotional drivers behind consumer attitudes",
+      "Theme Extraction: Surface recurring themes across large response datasets",
+      "Competitive Intelligence: Monitor and analyze competitor perception",
+      "Social Listening Integration: Incorporate social media data into analysis",
+      "Custom Research: Conduct and analyze custom consumer research studies",
+      "Dashboard Reporting: Visual reports for stakeholder presentations",
+      "API Integration: Connect InsightFactor to your existing research workflows"
+    ],
+    howToUse: {
+      title: "How to Use Insightfactor",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Research Data", description: "Sign up at insightfactor.com and upload your consumer research data - survey responses, interview transcripts, social media data, or other qualitative inputs." },
+        { title: "Run AI Analysis", description: "InsightFactor processes your data and identifies themes, sentiment patterns, and key insights. The AI surfaces what consumers actually care about rather than just counting response frequencies." },
+        { title: "Explore and Present Insights", description: "Navigate the insight dashboard to explore the themes and patterns in your data. Export reports for stakeholder presentations that translate complex qualitative data into clear actionable findings." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Scale for Qualitative Data", description: "Open-ended consumer feedback contains the most valuable insights but is the hardest to analyze at scale. InsightFactor makes it practical to actually use this data rather than ignoring it because manual analysis is too slow" },
+      { title: "Emotional Intelligence", description: "Understanding why consumers feel the way they do requires emotional and thematic analysis that goes beyond counting responses. InsightFactor AI provides this depth automatically" },
+      { title: "Research Speed", description: "Traditional qualitative analysis takes weeks per study. AI-powered analysis produces insights in hours which means research can inform decisions while those decisions are still being made" },
+      { title: "Consistent Analysis", description: "Human analysts interpret responses subjectively and inconsistently. AI applies consistent analytical criteria to every response regardless of volume" }
+    ],
+    useCases: [
+      { title: "Market Research Teams", description: "Brand and market research teams use InsightFactor to process consumer research studies faster and at greater scale than manual analysis allows" },
+      { title: "Product Teams", description: "Product managers use InsightFactor to understand consumer needs and pain points from feedback data to inform roadmap decisions" },
+      { title: "Marketing Strategy Teams", description: "Marketing teams use InsightFactor to understand consumer perception, competitive positioning, and campaign response through AI-powered analysis of consumer feedback" }
+    ]
+  },
   "makefilm": {
     whatIs: "MakeFilm is an AI video creation platform that helps users produce short films, video stories, and cinematic content from scripts and text descriptions. It combines scene generation, character animation, and narrative sequencing to produce coherent short-form video content. For creators who want to tell visual stories without traditional filmmaking resources, MakeFilm provides a path from script to screen using AI generation.",
     features: [

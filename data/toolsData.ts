@@ -3194,6 +3194,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-bypasser": [
       { id: "bypassgpt", name: "BypassGPT", description: "Advanced AI detection bypassing tool", url: "", upvotes: 1098, verified: true, rating: 4.6, icon: "🔓", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" },
       { id: "phrasly-ai", name: "Phrasly.AI", description: "AI content rewriting for bypass", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "✍️", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" },
+            { id: "lunchbreak-ai", name: "Lunchbreak AI", description: "AI humanizer and detection bypass tool for undetectable writing", url: "https://lunchbreak.ai", upvotes: 1243, verified: true, rating: 4.6, icon: "☕", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" },
       { id: "ai-humanize", name: "AI Humanize", description: "Humanize AI-generated content", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🤖", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" },
       { id: "gptinf", name: "GPTinf", description: "Advanced AI text humanization", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🔄", category: "ai-detection-anti-detection", subcategory: "ai-bypasser" }
     ],
