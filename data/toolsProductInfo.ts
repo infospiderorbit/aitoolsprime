@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "imageprompt-org": {
+    whatIs: "ImagePrompt.org is a resource and tool platform for AI image generation prompt engineering. It helps users craft better prompts for image generators like Midjourney, DALL-E, and Stable Diffusion by providing prompt templates, style guides, and an AI-assisted prompt builder that enhances basic descriptions into detailed prompts that produce higher quality outputs. For users who know what they want to generate but struggle to describe it in a way that AI image tools understand, ImagePrompt bridges the gap between creative vision and effective prompt writing.",
+    features: [
+      "Prompt Builder: AI-assisted tool that enhances basic descriptions into detailed prompts",
+      "Style Templates: Pre-built prompt templates for different visual styles",
+      "Midjourney Support: Prompts optimized for Midjourney parameters and syntax",
+      "DALL-E Prompts: Prompt formats tuned for DALL-E image generation",
+      "Stable Diffusion: Prompts with appropriate weights and negative prompts",
+      "Prompt Library: Browse community prompts for inspiration",
+      "Style Combinations: Mix and match visual styles for unique outputs",
+      "Free to Use: Core prompt building without payment"
+    ],
+    howToUse: {
+      title: "How to Use Imageprompt Org",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Vision", description: "Go to imageprompt.org and describe what you want to generate in plain language. Do not worry about prompt syntax at this stage - just describe what you see in your head." },
+        { title: "Enhance Your Prompt", description: "Use the prompt builder to enhance your basic description. The tool adds stylistic details, technical parameters, and compositional elements that guide the AI image generator toward better results." },
+        { title: "Copy and Generate", description: "Copy your enhanced prompt and paste it into your chosen image generator. Compare results with and without the enhanced prompt to see how much difference prompt quality makes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Prompt Quality Gap", description: "The difference between a basic prompt and a well-crafted one in AI image generation is enormous. ImagePrompt helps users cross the gap between knowing what they want and knowing how to ask for it" },
+      { title: "Generator-Specific Optimization", description: "Midjourney, DALL-E, and Stable Diffusion each respond differently to prompt structures. Platform-specific optimization produces better results than using the same prompt format everywhere" },
+      { title: "Style Discovery", description: "Browsing the prompt library and template styles helps users discover visual aesthetics they might not have known to ask for - which expands their creative range" },
+      { title: "Learning Tool", description: "Using ImagePrompt regularly teaches users what effective prompts look like, which improves their independent prompt writing over time" }
+    ],
+    useCases: [
+      { title: "AI Art Beginners", description: "People new to AI image generation use ImagePrompt to get good results quickly without spending weeks learning prompt engineering" },
+      { title: "Digital Artists and Designers", description: "Creative professionals use ImagePrompt to get closer to their specific vision faster by using well-structured prompts rather than trial and error" },
+      { title: "Content Creators Needing Visuals", description: "Bloggers and social media creators use ImagePrompt to generate specific images for their content without extensive prompt experimentation" }
+    ]
+  },
+  "quotegenerator-io": {
+    whatIs: "QuoteGenerator.io is an AI tool that creates original quotes on any topic, in any style, for any purpose. Whether you need an inspirational quote for a presentation, a witty saying for social media, a philosophical observation for a blog post, or a motivational line for a product, QuoteGenerator produces original, attribution-free quotes on demand. The style controls let users specify tone - serious, humorous, poetic, or direct - and the topic input keeps quotes relevant to specific subjects rather than producing generic wisdom.",
+    features: [
+      "Original Quotes: AI-generated quotes that are original and not copied from existing sources",
+      "Topic Specific: Quotes on any topic or subject you specify",
+      "Style Control: Adjust tone from inspirational to witty to philosophical",
+      "Social Media Ready: Short quotes formatted for sharing on social platforms",
+      "Presentation Quotes: Longer, more substantial quotes for professional use",
+      "Multiple Variations: Generate several quotes on the same topic to find the best one",
+      "Attribution Free: Quotes you can use without citing a source",
+      "Free to Use: Basic quote generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Quotegenerator Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Go to quotegenerator.io and enter the topic or theme you want your quote to address. Be as specific or as broad as suits your need." },
+        { title: "Set Your Style", description: "Choose the tone and style you want - inspirational, humorous, philosophical, motivational, or another style that fits your intended use." },
+        { title: "Generate and Select", description: "Generate a set of quotes and pick the one that best fits your context. Generate again if you want more options or a different direction." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Original Content", description: "Using existing famous quotes can create attribution complications and feel unoriginal. AI-generated quotes are fresh and original with no attribution needed" },
+      { title: "Topic Precision", description: "Generic quote databases rarely have exactly what you need for a specific subject. QuoteGenerator produces quotes specifically about your topic rather than requiring you to adapt something tangentially related" },
+      { title: "Tone Flexibility", description: "The same topic needs different treatment for different contexts - an inspirational quote for a fundraiser sounds different from a witty one for a casual social post. Style controls produce the right register for each use" },
+      { title: "Volume for Selection", description: "Generating multiple quotes on the same topic gives you options to select the best one rather than settling for the first adequate result" }
+    ],
+    useCases: [
+      { title: "Content Creators and Bloggers", description: "Writers and content creators use QuoteGenerator to add original quotable lines to their articles, social media posts, and presentations" },
+      { title: "Marketing and Brand Teams", description: "Marketing professionals use QuoteGenerator to create original branded quotes and taglines that feel fresh without the risk of misattribution" },
+      { title: "Presenters and Public Speakers", description: "People building presentations use QuoteGenerator to find original quotes that reinforce their key points with appropriate style and tone" }
+    ]
+  },
+  "reportgpt": {
+    whatIs: "ReportGPT is an AI-powered report writing platform that generates structured, professional reports from data inputs, research notes, and brief descriptions. It handles the formatting, organization, and professional language that make reports readable and credible - transforming raw information into polished documents ready for business, academic, or technical audiences. For professionals who need to produce reports regularly but find the writing and formatting process time-consuming, ReportGPT handles the production work so they can focus on the underlying analysis.",
+    features: [
+      "Report Generation: Create complete structured reports from notes and data",
+      "Professional Formatting: Proper headings, sections, and document structure",
+      "Executive Summaries: AI-generated executive summaries for long reports",
+      "Data Integration: Incorporate data points and statistics into report narrative",
+      "Multiple Report Types: Business, technical, academic, and research reports",
+      "Customizable Templates: Different templates for different report purposes",
+      "Export Options: Download in Word, PDF, and other formats",
+      "Editing Interface: Review and edit generated reports before finalizing"
+    ],
+    howToUse: {
+      title: "How to Use Reportgpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Information", description: "Sign up at reportgpt.io and enter the information your report needs to cover - your data, findings, key points, and any specific sections required." },
+        { title: "Select Your Report Type", description: "Choose the type of report you need - business analysis, technical documentation, research summary, or another format. The template guides the structure and language style." },
+        { title: "Review and Export", description: "Review the generated report, make any adjustments to ensure accuracy and tone, and export in your required format for submission or distribution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Structure Without Effort", description: "Knowing what to say in a report is much easier than organizing it properly and writing it in professional language. ReportGPT handles the structure and language while you provide the substance" },
+      { title: "Executive Summary Value", description: "Executive summaries are often the only part of a report senior stakeholders read. Having AI generate a clear, accurate summary from the full report content ensures the most important readers actually get the message" },
+      { title: "Consistent Professional Quality", description: "Report writing quality varies significantly depending on the writer and their current capacity. ReportGPT produces consistently professional output regardless of how much time the writer has available" },
+      { title: "Format Flexibility", description: "Different audiences and purposes require different report formats. Having multiple templates means the right structure is available for each specific reporting need" }
+    ],
+    useCases: [
+      { title: "Business Analysts and Consultants", description: "Analysts who produce regular business reports use ReportGPT to reduce the time spent on writing and formatting while maintaining professional output quality" },
+      { title: "Researchers and Academics", description: "Researchers writing up findings use ReportGPT to transform their raw results and notes into properly structured academic reports" },
+      { title: "Managers and Team Leads", description: "Managers who need to produce regular status and performance reports use ReportGPT to meet reporting requirements without it consuming significant time" }
+    ]
+  },
+  "hypefury": {
+    whatIs: "Hypefury is a social media scheduling and content creation platform built specifically for Twitter and LinkedIn power users who want to grow their audience consistently. It helps creators write better posts with AI assistance, schedule content for optimal times, automatically retweet their best performing posts, and turn popular tweets into threads. The inspiration features help users who struggle with content ideas, while the automation tools maintain a consistent posting schedule even when creators are too busy to post manually.",
+    features: [
+      "AI Writing Assistant: Get AI help writing better posts and threads",
+      "Smart Scheduling: Schedule posts at optimal times for maximum reach",
+      "Auto-Retweet: Automatically retweet your best performing content",
+      "Thread Creation: Expand single tweets into full thread format",
+      "Content Inspiration: AI-powered content ideas based on your niche",
+      "Cross-Platform: Manage both Twitter and LinkedIn from one place",
+      "Analytics: Track which content performs best over time",
+      "Evergreen Recycling: Automatically reshare your best evergreen content"
+    ],
+    howToUse: {
+      title: "How to Use Hypefury",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Accounts", description: "Sign up at hypefury.com and connect your Twitter and LinkedIn accounts. Set up your posting schedule and configure your preferred posting times for each platform." },
+        { title: "Create Your Content", description: "Use the writing interface to draft your posts with AI assistance. The AI suggests improvements, helps with thread expansion, and provides inspiration when you are stuck on what to write." },
+        { title: "Automate and Grow", description: "Set up your automation rules - auto-retweet, evergreen recycling, and scheduled posting. Hypefury maintains your posting consistency automatically while you focus on creating new content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Consistency as Growth Driver", description: "Audience growth on Twitter and LinkedIn requires consistent posting over months. Hypefury makes that consistency automatic rather than dependent on daily willpower and availability" },
+      { title: "Auto-Retweet Value", description: "Most followers miss posts when they first go out due to time zone differences and algorithmic timing. Auto-retweeting your best content gives it a second chance to reach people who missed it the first time" },
+      { title: "Thread Expansion", description: "Threads consistently outperform single tweets in reach and engagement. The ability to expand a good tweet into a full thread quickly increases the value of every strong idea" },
+      { title: "Evergreen Recycling", description: "Most good content is relevant for months or years after it was posted. Automatically recycling evergreen posts generates ongoing value from content that would otherwise be forgotten" }
+    ],
+    useCases: [
+      { title: "Twitter and LinkedIn Content Creators", description: "Creators who build their personal brand on Twitter and LinkedIn use Hypefury to maintain consistent posting and grow their audience systematically" },
+      { title: "Entrepreneurs and Founders", description: "Business founders use Hypefury to build a public profile and audience without social media management consuming significant time" },
+      { title: "Marketers Growing Brand Accounts", description: "Social media marketers use Hypefury to manage brand accounts on Twitter and LinkedIn with automation that maintains activity between manual posting sessions" }
+    ]
+  },
+  "autoblogging-ai": {
+    whatIs: "Autoblogging.ai is an AI content generation platform specifically designed for bloggers and website owners who want to publish large volumes of SEO-optimized articles automatically. It generates complete long-form articles from keywords, titles, or topics with a focus on producing content that ranks well in search engines rather than just content that reads well. The auto-posting feature connects directly to WordPress sites and publishes generated content on a schedule without manual intervention.",
+    features: [
+      "Auto Article Generation: Generate complete long-form articles automatically",
+      "SEO Optimization: Content structured for search engine ranking",
+      "WordPress Integration: Auto-post directly to WordPress sites",
+      "Bulk Generation: Create many articles simultaneously",
+      "Keyword Targeting: Generate articles around specific target keywords",
+      "Internal Linking: Automatic internal link suggestions",
+      "Featured Images: AI-generated images for articles",
+      "Scheduling: Set content to publish on automated schedules"
+    ],
+    howToUse: {
+      title: "How to Use Autoblogging Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Your Keywords", description: "Sign up at autoblogging.ai and enter your target keywords or article topics. The platform uses these to generate articles optimized for your specific search targets." },
+        { title: "Configure Your Settings", description: "Set your article length, tone, and any specific requirements for your content. Connect your WordPress site if you want auto-publishing enabled." },
+        { title: "Generate and Publish", description: "Run your content generation and review the articles before they publish, or set up fully automated publishing for hands-off content production at scale." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Scale Without Writers", description: "Publishing enough content to compete in SEO requires volume that most teams cannot produce manually. Autoblogging.ai generates content at a scale that would require a large writing team to match" },
+      { title: "SEO Structure Built In", description: "Articles need specific structural elements to rank - proper heading hierarchy, keyword density, internal linking. Autoblogging.ai builds these in automatically rather than requiring separate optimization" },
+      { title: "WordPress Native", description: "Auto-posting directly to WordPress without manual copy-paste saves significant time per article - multiplied across hundreds of articles the time saving is substantial" },
+      { title: "Keyword Targeting Precision", description: "Generating articles specifically around target keywords rather than general topics produces content that is much more likely to rank for the intended search queries" }
+    ],
+    useCases: [
+      { title: "Niche Site Builders", description: "People building content sites for SEO traffic and affiliate income use Autoblogging.ai to publish at the volume that SEO success requires" },
+      { title: "Digital Marketing Agencies", description: "Agencies managing content for multiple client websites use Autoblogging.ai to produce keyword-targeted content at scale across their client portfolio" },
+      { title: "Bloggers Scaling Their Sites", description: "Established bloggers who want to expand into new topic areas use Autoblogging.ai to publish content in adjacent niches without proportionally increasing their writing workload" }
+    ]
+  },
+  "wordtune": {
+    whatIs: "Wordtune is an AI writing assistant that rewrites and improves individual sentences and paragraphs rather than generating full documents from scratch. It gives you multiple rewrite options for any selected text - making it more formal, more casual, shorter, longer, or simply better expressed. The Spices feature goes a step further by suggesting ways to add depth to your writing such as statistics, examples, counterarguments, and analogies that strengthen your points. For writers who have something to say but want help saying it better, Wordtune is a sentence-level improvement tool.",
+    features: [
+      "Sentence Rewriting: Get multiple rewrite options for any selected text",
+      "Tone Adjustment: Make writing more formal, casual, or professional",
+      "Length Control: Make sentences shorter or expand them with more detail",
+      "Spices Feature: Add statistics, examples, and analogies to strengthen points",
+      "Browser Extension: Works directly in Gmail, Google Docs, and other web apps",
+      "Microsoft Word Add-in: Available as a Word plugin",
+      "AI Suggestions: Contextually appropriate rewrites not just synonyms",
+      "Free Plan: Basic rewriting accessible without payment"
+    ],
+    howToUse: {
+      title: "How to Use Wordtune",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Text", description: "Highlight the sentence or paragraph you want to improve in your document or the Wordtune editor. The rewrite options appear immediately alongside your selected text." },
+        { title: "Review Your Options", description: "Wordtune presents several rewrite alternatives for your selected text. Read through the options and select the one that best captures what you meant with better phrasing and flow." },
+        { title: "Use Spices for Depth", description: "When you want to add more substance to a point, use the Spices feature to get suggestions for statistics, examples, or analogies that support your argument and make your writing more persuasive." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Rewrite Rather Than Replace", description: "Wordtune works on your existing writing rather than replacing it - which preserves your ideas and voice while improving the expression. This is fundamentally different from tools that generate content from scratch" },
+      { title: "Multiple Options Philosophy", description: "Presenting several rewrites rather than one lets you choose the version that best fits your voice and context rather than accepting a single AI suggestion that may not match your intent" },
+      { title: "Spices Depth Addition", description: "Adding supporting evidence, examples, and analogies is what separates adequate writing from compelling writing. Spices make it easy to add this substance without requiring research or brainstorming" },
+      { title: "Context Awareness", description: "Wordtune rewrites in context of the surrounding text - it knows the paragraph is about a specific topic and produces rewrites that fit rather than generic improvements disconnected from your content" }
+    ],
+    useCases: [
+      { title: "Professionals Writing Business Communications", description: "Executives and professionals use Wordtune to improve the clarity and impact of emails, reports, and presentations without completely rewriting their own words" },
+      { title: "Non-Native English Writers", description: "People writing in English as a second language use Wordtune to ensure their ideas come across as naturally and professionally as they would from a native speaker" },
+      { title: "Students Improving Academic Writing", description: "Students use Wordtune to improve the expression of their ideas in essays and assignments while retaining their own analysis and arguments" }
+    ]
+  },
+  "dubs-io": {
+    whatIs: "Dubs.io is an AI video dubbing and translation platform that replaces the original audio in videos with AI-generated voice in a different language while maintaining lip sync with the original speaker. It makes video localization significantly faster and more affordable than traditional dubbing which requires hiring voice actors, booking studio time, and managing complex post-production. For content creators and businesses that want to reach audiences in multiple languages without producing separate videos for each market, Dubs.io provides automated dubbing that handles the whole process.",
+    features: [
+      "AI Dubbing: Replace video audio with AI-generated voice in target language",
+      "Lip Sync: Synchronize dubbed audio with original speaker mouth movements",
+      "Multiple Languages: Dub into many different target languages",
+      "Voice Cloning: Match the original speaker voice characteristics in the dubbed version",
+      "Fast Turnaround: Dubbed videos ready in minutes not days",
+      "Batch Processing: Dub multiple videos simultaneously",
+      "Quality Output: Professional-grade audio suitable for publishing",
+      "API Access: Integrate dubbing into your own content workflows"
+    ],
+    howToUse: {
+      title: "How to Use Dubs Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Sign up at dubs.io and upload the video you want to dub into another language. The platform accepts common video formats and processes them in the cloud." },
+        { title: "Select Your Target Language", description: "Choose the language you want to dub into. Dubs.io translates the transcript and generates new audio in the target language with voice characteristics matched to the original speaker." },
+        { title: "Review and Download", description: "Review the dubbed video to check audio quality and lip sync accuracy. Download the finished video ready for publishing to your target language audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cost vs Traditional Dubbing", description: "Professional video dubbing with human voice actors costs hundreds of dollars per minute of video. AI dubbing produces comparable quality at a fraction of the cost making multilingual video production economically viable" },
+      { title: "Speed Advantage", description: "Traditional dubbing takes days or weeks depending on studio availability. AI dubbing produces results in minutes which matters when content needs to be published quickly" },
+      { title: "Lip Sync Quality", description: "The technical challenge of matching dubbed audio to original lip movements is handled automatically - which is one of the main reasons professional dubbing is expensive when done manually" },
+      { title: "Voice Matching", description: "Matching the dubbed voice to the original speaker characteristics rather than using a generic AI voice produces a more authentic result that feels like the same person speaking a different language" }
+    ],
+    useCases: [
+      { title: "YouTube Creators Going Global", description: "Content creators who want to reach audiences in multiple languages use Dubs.io to produce dubbed versions of their videos without the cost of traditional dubbing services" },
+      { title: "Online Course Creators", description: "Educators who want to sell their courses in international markets use Dubs.io to create dubbed versions that feel native to each language audience" },
+      { title: "Businesses Localizing Video Content", description: "Companies with video marketing content use Dubs.io to adapt their videos for different language markets efficiently" }
+    ]
+  },
+  "vocabmate": {
+    whatIs: "VocabMate is an AI-powered vocabulary learning tool that helps users build their vocabulary in a target language through personalized, context-based learning. It creates custom flashcards, example sentences, and memory aids based on words you encounter in your actual reading and learning rather than generic word lists. The AI explains word meanings in context, provides usage examples, and creates mnemonics to help words stick in memory. For language learners who want to build vocabulary from real content they care about rather than textbook word lists, VocabMate personalizes the learning experience.",
+    features: [
+      "Context Learning: Learn vocabulary from words you encounter in real content",
+      "AI Flashcards: Automatically generated flashcards for new words",
+      "Memory Aids: AI-created mnemonics to help words stick",
+      "Example Sentences: Natural usage examples for every vocabulary word",
+      "Spaced Repetition: Review words at optimal intervals for retention",
+      "Multiple Languages: Vocabulary learning across many target languages",
+      "Progress Tracking: Monitor vocabulary growth over time",
+      "Free to Start: Basic vocabulary learning without payment"
+    ],
+    howToUse: {
+      title: "How to Use Vocabmate",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Add Words You Encounter", description: "When you come across an unfamiliar word in your reading or listening, add it to VocabMate. The AI retrieves the definition, usage examples, and creates memory aids specific to that word." },
+        { title: "Study with AI Flashcards", description: "Review your word list using the AI-generated flashcards. The spaced repetition system schedules reviews at optimal intervals - more frequent for new words, less frequent as they become familiar." },
+        { title: "Track Your Growth", description: "Monitor your vocabulary size and learning progress over time. Focus your study sessions on words that the system identifies as needing more review based on your performance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Context-Based Learning Superiority", description: "Learning vocabulary from words encountered in real content you care about is more effective and more motivating than memorizing arbitrary word lists - VocabMate supports this more natural learning approach" },
+      { title: "AI Memory Aid Creation", description: "Creating mnemonics manually for hundreds of words is tedious. AI-generated memory aids make the memorization process more effective without requiring the learner to invent their own tricks for every word" },
+      { title: "Spaced Repetition Science", description: "The spacing effect is one of the most well-established findings in memory research. VocabMate applies this principle automatically so users benefit from optimized review timing without managing it themselves" },
+      { title: "Personal Word Bank", description: "Everyone encounters different words based on what they read and watch. A personal word bank based on your actual vocabulary gaps is more efficient than a generic course that covers words you may already know" }
+    ],
+    useCases: [
+      { title: "Language Learners at Intermediate Level", description: "Learners who have passed the beginner stage and need to expand their vocabulary beyond basics use VocabMate for systematic vocabulary building from authentic content" },
+      { title: "Students Reading Academic Texts", description: "Students encountering specialized academic vocabulary in their studies use VocabMate to build subject-specific vocabulary efficiently" },
+      { title: "Professionals Learning Business Vocabulary", description: "People learning a language for professional use build their business vocabulary using VocabMate to focus specifically on the words relevant to their work context" }
+    ]
+  },
   "ifnovels": {
     whatIs: "IFNovels is an AI-powered interactive fiction and plot generation platform that helps writers create branching narratives, choose-your-own-adventure stories, and interactive fiction experiences. It generates plot structures with multiple decision points, character paths, and narrative branches that give readers meaningful choices affecting how the story unfolds. For game designers, interactive fiction writers, and storytellers who want to create experiences where the audience participates in the narrative, IFNovels provides the structural scaffolding that makes branching storytelling manageable.",
     features: [
