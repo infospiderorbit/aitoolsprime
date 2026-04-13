@@ -1,4 +1,400 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "mytales": {
+    whatIs: "MyTales is an AI storytelling platform that helps users create personalized stories for children, featuring customizable characters, settings, and themes. Parents and educators use it to generate unique bedtime stories and reading material that feature the child as the main character or include their favorite things. The AI produces age-appropriate narratives with engaging plots that can be printed, saved, or read aloud directly from the platform.",
+    features: [
+      "Personalized Stories: Create stories featuring your child as the main character",
+      "Custom Characters: Add real names, pets, and friends to the narrative",
+      "Age-Appropriate Content: Stories calibrated for different age groups",
+      "Multiple Genres: Adventure, fantasy, educational, and bedtime story formats",
+      "Illustrations: AI-generated images to accompany the story",
+      "Print and Save: Download stories as PDFs for printing or keeping",
+      "Audio Narration: Text-to-speech reading of generated stories",
+      "Free to Start: Basic story creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Mytales",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Details", description: "Sign up at mytales.io and enter the details you want included - the child name, favorite characters, pets, friends, and any specific themes or settings they love." },
+        { title: "Choose Your Story Type", description: "Select the type of story you want - a bedtime story, an adventure, an educational tale, or another genre. Set the approximate length and any specific plot elements you want included." },
+        { title: "Generate and Enjoy", description: "MyTales generates your personalized story with illustrations. Read it together, save it as a PDF to print, or use the audio narration for bedtime listening." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization Impact", description: "Children engage more deeply with stories that feature themselves and things they love. A story where the main character shares their name and likes their favorite things creates a reading experience that generic books cannot replicate" },
+      { title: "Unique Every Time", description: "Unlike books that are read the same way every time, AI-generated stories can be different each reading - new adventures for the same characters keeps the experience fresh" },
+      { title: "Gift and Keepsake Value", description: "A personalized story featuring a specific child is a meaningful gift that parents, grandparents, and relatives can give - more personal than any book from a store" },
+      { title: "Bedtime Routine Support", description: "Having a consistent source of new personalized bedtime stories makes the bedtime reading routine easier to maintain and more enjoyable for both parent and child" }
+    ],
+    useCases: [
+      { title: "Parents Creating Bedtime Stories", description: "Parents use MyTales to create personalized bedtime stories that feature their children as heroes of their own adventures" },
+      { title: "Grandparents and Relatives", description: "Family members who want to give meaningful personalized gifts use MyTales to create story books featuring the children in their lives" },
+      { title: "Early Childhood Educators", description: "Teachers use MyTales to create personalized reading materials that engage individual students and encourage a love of reading" }
+    ]
+  },
+  "10web": {
+    whatIs: "10Web is an AI website builder and WordPress hosting platform that combines automated website creation with managed WordPress infrastructure. The AI builder generates complete websites from a business description in minutes - including pages, content, and design - and hosts them on Google Cloud infrastructure. For small businesses and entrepreneurs who need a professional website quickly without design or development skills, 10Web provides a path from business description to live website in under an hour.",
+    features: [
+      "AI Website Builder: Generate complete websites from business descriptions",
+      "WordPress Based: Full WordPress functionality with AI-powered creation",
+      "Google Cloud Hosting: Fast, reliable hosting on Google Cloud infrastructure",
+      "Page Speed Optimization: Automatic performance optimization",
+      "Ecommerce Ready: WooCommerce integration for online stores",
+      "SEO Tools: Built-in SEO optimization for generated content",
+      "Template Library: Professional templates for different business types",
+      "Free Trial: Try website creation before committing to paid hosting"
+    ],
+    howToUse: {
+      title: "How to Use 10Web",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Business", description: "Sign up at 10web.io and describe your business - what you do, who you serve, and what your website needs to accomplish. The AI uses this to generate appropriate content and design." },
+        { title: "Review and Customize", description: "10Web generates your complete website with pages, content, and images. Review each section and customize anything that needs adjustment - the AI gives you a strong starting point to refine." },
+        { title: "Launch and Optimize", description: "Publish your website on 10Web hosting and use the built-in tools to optimize for page speed and search engines. Your site is live on fast, reliable infrastructure from day one." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed from Description to Live", description: "Going from no website to a live professional website in under an hour is genuinely possible with 10Web - which changes the economics of web presence for small businesses that cannot afford web development projects" },
+      { title: "WordPress Foundation", description: "Building on WordPress means the generated site has the full plugin ecosystem, content management capabilities, and flexibility that WordPress provides - not a locked proprietary system" },
+      { title: "Hosting Integration", description: "Having website creation and hosting in one platform eliminates the separate step of setting up hosting and connecting your site - everything works together from the start" },
+      { title: "Google Cloud Performance", description: "Hosting on Google Cloud infrastructure provides enterprise-grade performance and reliability for small business websites at accessible pricing" }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Entrepreneurs who need a professional website quickly without technical skills use 10Web to get online with a quality site in minimal time" },
+      { title: "Freelancers Building Client Sites", description: "Web professionals use 10Web to build client websites faster by starting from AI-generated foundations rather than blank WordPress installations" },
+      { title: "Startups Launching Quickly", description: "Early-stage companies that need a web presence immediately use 10Web to launch a professional site while their product and brand are still being developed" }
+    ]
+  },
+  "linguix": {
+    whatIs: "Linguix is an AI writing assistant and grammar checker that helps users write more clearly, correctly, and professionally in English. It goes beyond basic spell-check to catch complex grammar errors, suggest better phrasing, improve readability, and adapt suggestions to different writing contexts - professional emails, academic writing, or casual communication. The browser extension works across web applications so users get writing assistance wherever they write online.",
+    features: [
+      "Grammar Checking: Advanced grammar error detection beyond basic spell-check",
+      "Style Improvement: Suggestions for clearer, more professional phrasing",
+      "Readability Enhancement: Improve how easy your writing is to understand",
+      "Context Awareness: Different suggestions for professional vs casual writing",
+      "Browser Extension: Works across Gmail, Google Docs, LinkedIn, and other web apps",
+      "Team Features: Shared style guides and templates for consistent team writing",
+      "Writing Templates: Pre-built templates for common business communications",
+      "Free Plan: Basic grammar checking without payment"
+    ],
+    howToUse: {
+      title: "How to Use Linguix",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Install the Linguix browser extension from the Chrome Web Store. It activates automatically on supported websites and begins checking your writing as you type." },
+        { title: "Write and Review Suggestions", description: "Write your email, document, or message as normal. Linguix highlights issues and suggests improvements in real time. Hover over highlights to see the suggestion and explanation." },
+        { title: "Apply and Learn", description: "Accept suggestions you agree with and dismiss ones that do not fit. Over time the explanations help you understand the patterns behind the suggestions and improve your writing independently." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Beyond Spell Check", description: "Basic spell checkers catch typos but miss complex grammar errors, awkward phrasing, and clarity issues. Linguix addresses the full range of writing quality issues that spell check ignores" },
+      { title: "Context-Sensitive Suggestions", description: "A suggestion appropriate for a formal business proposal is different from one appropriate for a casual team message. Context awareness produces more relevant suggestions than one-size-fits-all grammar tools" },
+      { title: "Team Consistency", description: "Organizations use shared style guides to ensure all team communications follow the same standards - particularly useful for customer-facing writing where brand voice consistency matters" },
+      { title: "Learning Through Use", description: "Unlike tools that just fix errors silently, Linguix explains its suggestions which helps writers understand the underlying rules and make fewer of the same errors over time" }
+    ],
+    useCases: [
+      { title: "Professionals Writing Business Communications", description: "Executives and professionals use Linguix to ensure their emails, reports, and communications are grammatically correct and professionally phrased" },
+      { title: "Non-Native English Writers", description: "People who learned English as a second language use Linguix to catch the subtle errors that non-native speakers often make and that native speakers would notice" },
+      { title: "Teams Maintaining Brand Voice", description: "Marketing and communications teams use Linguix shared features to ensure all team members write in a consistent style aligned with brand standards" }
+    ]
+  },
+  "happy-scribe": {
+    whatIs: "Happy Scribe is a transcription and subtitling platform that converts audio and video content into text using AI, with human review options for projects requiring higher accuracy. It supports over 120 languages and accents, handles both automatic transcription and human-reviewed transcription, and provides a professional subtitle editor for adding captions to videos. For media companies, journalists, researchers, and content creators who work with audio and video content regularly, Happy Scribe handles the transcription workflow from upload to final formatted output.",
+    features: [
+      "Automatic Transcription: AI transcription for audio and video in 120 plus languages",
+      "Human Review Option: Human transcribers available for accuracy-critical projects",
+      "Subtitle Editor: Professional timeline-based subtitle editing interface",
+      "Speaker Identification: Labels different speakers in transcriptions",
+      "Multiple Export Formats: SRT, VTT, TXT, Word, and other formats",
+      "Team Collaboration: Multiple team members working on shared transcription projects",
+      "API Integration: Automate transcription workflows programmatically",
+      "Batch Processing: Process multiple files simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Happy Scribe",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Media", description: "Sign up at happyscribe.com and upload your audio or video file. Happy Scribe accepts all common formats and begins transcription automatically after upload." },
+        { title: "Review and Edit", description: "The AI returns a transcript with timestamps and speaker labels. Use the editor to correct any errors and adjust timing for subtitle accuracy." },
+        { title: "Export Your Output", description: "Download your transcript or subtitle file in the format you need. For video projects, the SRT or VTT formats drop directly into your video editor or publishing platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Language Coverage Breadth", description: "Supporting 120 plus languages and accents makes Happy Scribe genuinely useful for international content rather than being limited to English or major Western languages" },
+      { title: "Hybrid AI and Human Option", description: "For content where accuracy is critical - legal, medical, journalism - the human review option provides a quality level that AI transcription alone cannot guarantee. Having both options in one platform is practical" },
+      { title: "Professional Subtitle Editor", description: "A dedicated subtitle editor with timeline view produces better subtitle timing than basic text editors - which matters for viewer experience on video content" },
+      { title: "Team Workflow Support", description: "Transcription projects often involve multiple people reviewing and editing. Team collaboration features keep the workflow organized rather than requiring files to be passed back and forth" }
+    ],
+    useCases: [
+      { title: "Journalists and Researchers", description: "Journalists transcribing interviews and researchers converting recorded data use Happy Scribe to process audio content into searchable, quotable text efficiently" },
+      { title: "Video Content Creators", description: "YouTube creators and video producers use Happy Scribe to add accurate captions to their videos for accessibility and SEO" },
+      { title: "Media and Production Companies", description: "Professional media organizations use Happy Scribe for large-volume transcription and subtitling across their content library" }
+    ]
+  },
+  "ai-summarizer": {
+    whatIs: "AI Summarizer is a straightforward text and document summarization tool that condenses long content into concise summaries. It works on pasted text, uploaded documents, and web URLs, extracting the key points and main ideas from any source material. For students, researchers, and professionals who need to quickly understand the substance of lengthy documents without reading every word, AI Summarizer provides fast, accurate summaries that preserve the important information.",
+    features: [
+      "Text Summarization: Condense any pasted text into a shorter summary",
+      "Document Upload: Summarize PDFs and Word documents directly",
+      "URL Summarization: Summarize web articles from their URL",
+      "Adjustable Length: Control how short or detailed the summary is",
+      "Key Point Extraction: Pull out the most important points as a list",
+      "Multiple Languages: Summarize content in different languages",
+      "Free to Use: Basic summarization without payment required",
+      "Instant Results: Summaries generated in seconds"
+    ],
+    howToUse: {
+      title: "How to Use Ai Summarizer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste or Upload Your Content", description: "Go to the AI Summarizer and paste your text, upload your document, or enter the URL of the article you want to summarize." },
+        { title: "Set Your Summary Length", description: "Choose how long you want the summary to be - a brief overview of a few sentences or a more detailed summary that captures more nuance from the original." },
+        { title: "Review Your Summary", description: "Read the generated summary to confirm it captures the key points accurately. Use it for your notes, research, or to quickly brief others on the content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Reading Time Reduction", description: "A 10-minute read summarized to 2 minutes is genuinely useful for anyone who needs to process more content than available time allows" },
+      { title: "Research Efficiency", description: "Researchers evaluating many sources use AI Summarizer to quickly determine which sources are worth reading fully and which can be understood at summary level" },
+      { title: "Document Accessibility", description: "Long reports and documents are often not read because the time investment feels too high. Summaries make the content accessible to busy readers who would otherwise skip it entirely" },
+      { title: "URL Convenience", description: "Summarizing from a URL rather than requiring copy-paste makes the workflow faster for web content - particularly for researchers working through many web sources" }
+    ],
+    useCases: [
+      { title: "Students Doing Research", description: "Students reviewing many sources for papers and projects use AI Summarizer to quickly understand each source before deciding which to read fully" },
+      { title: "Busy Professionals", description: "Executives and professionals who receive long reports and documents use AI Summarizer to get the key points quickly" },
+      { title: "Researchers and Analysts", description: "Knowledge workers who need to stay current across large volumes of content use AI Summarizer to process more material than manual reading would allow" }
+    ]
+  },
+  "iamip": {
+    whatIs: "IAMIP is an AI-powered patent intelligence and intellectual property analytics platform that helps companies, researchers, and IP professionals search, analyze, and monitor patents more efficiently. It uses AI to make patent searching faster and more accurate, identify relevant prior art, monitor competitor patent activity, and extract insights from patent data that would take weeks to gather manually. For organizations that actively manage intellectual property portfolios or need to understand the patent landscape in their field, IAMIP provides the analytical intelligence that traditional patent databases lack.",
+    features: [
+      "AI Patent Search: Find relevant patents with natural language queries",
+      "Prior Art Discovery: Identify existing patents relevant to your invention",
+      "Competitor Monitoring: Track patent filings from specific companies",
+      "Portfolio Analysis: Analyze the strength and gaps in your patent portfolio",
+      "Technology Landscape: Map the patent landscape in specific technology areas",
+      "Alert System: Get notified of new relevant patent filings",
+      "Collaboration Tools: Share patent research with your team",
+      "Global Coverage: Search patents from major patent offices worldwide"
+    ],
+    howToUse: {
+      title: "How to Use Iamip",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Technology Area", description: "Sign up at iamip.com and search the patent landscape in your technology area using natural language queries. AI finds relevant patents more accurately than keyword-only search." },
+        { title: "Analyze the Landscape", description: "Review the patent landscape maps and competitor analysis to understand who holds IP in your space, where the white spaces are, and what technology directions competitors are pursuing." },
+        { title: "Set Up Monitoring", description: "Configure alerts for new patents in your areas of interest and from specific competitors. Stay informed about IP developments without manually checking patent databases regularly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Natural Language Search", description: "Traditional patent search requires complex Boolean queries and technical knowledge. AI natural language search lets inventors and researchers find relevant patents by describing concepts rather than constructing precise queries" },
+      { title: "Competitive Intelligence Value", description: "Understanding what your competitors are patenting reveals their R and D directions before products reach market - which is strategically valuable intelligence that patent databases provide but are hard to extract from manually" },
+      { title: "Prior Art Efficiency", description: "Finding relevant prior art before filing a patent application reduces the risk of rejection and wasted filing costs. AI search finds relevant art faster and more comprehensively than manual review" },
+      { title: "Portfolio Gap Analysis", description: "Identifying the gaps in your own patent portfolio reveals areas where your innovations are unprotected and where strategic filing would strengthen your IP position" }
+    ],
+    useCases: [
+      { title: "Corporate IP and Legal Teams", description: "In-house IP counsel and technology teams use IAMIP to manage patent portfolios, monitor competitors, and support R and D strategy with patent intelligence" },
+      { title: "Patent Attorneys and Agents", description: "IP professionals use IAMIP to conduct prior art searches, landscape analyses, and client portfolio reviews more efficiently than manual database research allows" },
+      { title: "Research and Development Teams", description: "R and D departments use IAMIP to understand the patent landscape before investing in new technology directions and to ensure their innovations are protectable" }
+    ]
+  },
+  "verse-ai": {
+    whatIs: "Verse AI is an AI poetry and creative writing platform focused on helping users create high-quality poems with genuine literary merit. It goes beyond simply generating text that rhymes - the platform understands poetic craft including meter, imagery, metaphor, and emotional resonance, producing poetry that reads as thoughtful and intentional rather than mechanically generated. For poets who want AI collaboration that respects the art form and for people who want genuinely good poems for personal or professional purposes, Verse AI aims for quality over quantity.",
+    features: [
+      "Poetry Generation: Create poems with genuine literary craft and quality",
+      "Meter and Form: Proper handling of poetic meter and formal structures",
+      "Imagery and Metaphor: Rich figurative language in generated poems",
+      "Multiple Styles: Classic, contemporary, and experimental poetic styles",
+      "Emotional Depth: Poems that convey genuine feeling rather than surface sentiment",
+      "Revision Tools: Improve and refine generated poems collaboratively",
+      "Occasion Poems: High-quality poems for weddings, memorials, and celebrations",
+      "Free to Try: Sample poetry generation before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Verse Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Poem", description: "Sign up at verse.ai and describe the poem you want to create - the subject, the emotional tone, the intended audience, and any specific images or ideas you want included." },
+        { title: "Review the Draft", description: "Verse AI generates a poem that incorporates your requirements with attention to craft elements like meter, imagery, and emotional arc. Read it as you would any poem - for how it feels as well as what it says." },
+        { title: "Refine and Perfect", description: "Use the revision tools to work with the AI collaboratively on improving specific lines or sections. The goal is a poem that genuinely satisfies rather than just technically fulfills the brief." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Craft Over Output", description: "Most AI poem generators produce text that looks like poetry but lacks the craft qualities - rhythm, imagery, emotional precision - that make poetry actually work. Verse AI specifically prioritizes these qualities" },
+      { title: "Revision Collaboration", description: "Good poems rarely emerge perfectly from a first draft. The revision tools enable an iterative process that improves the poem toward genuine quality rather than accepting the first output" },
+      { title: "Occasion Quality", description: "Poems for weddings, eulogies, and significant occasions need to be genuinely moving rather than just adequate. Verse AI targets the quality level that makes a poem memorable for a significant moment" },
+      { title: "Literary Understanding", description: "Verse AI is built with understanding of what makes poetry good as poetry - not just what makes it grammatically correct or thematically appropriate" }
+    ],
+    useCases: [
+      { title: "People Wanting Quality Poems for Occasions", description: "Those who need genuinely good poems for weddings, memorials, and significant events use Verse AI for quality that simpler generators cannot match" },
+      { title: "Poets Exploring AI Collaboration", description: "Published and serious poets use Verse AI to explore what AI collaboration looks like when the tool respects the craft of poetry" },
+      { title: "Writers Adding Poetry to Their Work", description: "Novelists, screenwriters, and other writers who need poetry embedded in their work use Verse AI to generate verses that read as if written by characters with genuine poetic ability" }
+    ]
+  },
+  "picsee": {
+    whatIs: "PicSee is a link preview and visual URL shortener platform that transforms plain URLs into visually rich, branded preview cards for sharing on social media and messaging platforms. When you share a link through PicSee, the recipient sees a custom preview card with a specific image, title, and description rather than whatever the destination page generates automatically. For marketers and content creators who want to control how their links appear when shared and track link performance, PicSee provides the visual customization and analytics that standard URL shorteners lack.",
+    features: [
+      "Custom Link Previews: Control the image and text shown when links are shared",
+      "URL Shortening: Clean branded short links for any destination URL",
+      "Preview Customization: Custom titles, descriptions, and images for every link",
+      "Click Analytics: Track who clicks your links and when",
+      "QR Code Generation: Generate QR codes for your shortened links",
+      "Brand Domains: Use your own domain for shortened links",
+      "Social Media Optimization: Previews optimized for different platforms",
+      "Free Plan: Basic link shortening and preview customization without payment"
+    ],
+    howToUse: {
+      title: "How to Use Picsee",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your URL", description: "Sign up at picsee.io and paste the URL you want to customize. PicSee fetches the destination page and shows you the current preview as social platforms would display it." },
+        { title: "Customize Your Preview", description: "Upload a custom image, write a compelling title, and craft a description that makes people want to click. Your customized preview overrides whatever the destination page generates automatically." },
+        { title: "Share and Track", description: "Copy your PicSee link and share it. Track click data in your dashboard to understand which links perform best and when your audience is most active." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Preview Control", description: "Social media platforms generate link previews automatically from destination page metadata which is often poor quality or irrelevant. PicSee overrides this with exactly the preview you want people to see" },
+      { title: "Click Rate Impact", description: "A compelling custom image and description significantly increases the likelihood that people click a shared link. Controlling the preview is one of the highest-leverage improvements to link sharing performance" },
+      { title: "Brand Consistency", description: "Using a custom domain for shortened links keeps your brand visible even in the shortened URL itself - which is more professional than generic shortener domains" },
+      { title: "Performance Intelligence", description: "Click analytics reveal which content resonates with your audience and when they are most active - information that improves future sharing strategy" }
+    ],
+    useCases: [
+      { title: "Social Media Marketers", description: "Marketing professionals who share links as part of their social media strategy use PicSee to ensure their links display compelling previews that maximize click-through rates" },
+      { title: "Content Creators and Bloggers", description: "Creators who share their content across platforms use PicSee to present their links attractively and track which sharing channels drive the most traffic" },
+      { title: "Businesses Running Campaigns", description: "Companies sharing promotional links use PicSee to control the visual presentation and measure the performance of their campaign links" }
+    ]
+  },
+  "hix-ai": {
+    whatIs: "HIX.AI is a comprehensive AI writing platform that combines a large collection of specialized writing tools with a general AI assistant. It provides over 120 AI writing tools covering everything from blog posts and marketing copy to email drafts and social media content, alongside HIX Chat which offers GPT-4 powered conversation with web browsing. The browser extension brings AI writing assistance to any website. For writers and content teams who need both a versatile AI assistant and specialized tools for specific writing tasks, HIX.AI consolidates multiple AI writing needs into one platform.",
+    features: [
+      "120 Plus Writing Tools: Specialized AI tools for every writing use case",
+      "HIX Chat: GPT-4 powered AI chat with web browsing capability",
+      "Article Writer: Complete long-form article generation with SEO optimization",
+      "Email Writer: Professional email drafting for any context",
+      "Social Media Tools: Content creation for all major social platforms",
+      "Browser Extension: AI writing assistance on any website",
+      "Brand Voice: Maintain consistent tone across all generated content",
+      "Multilingual: Write in over 50 languages"
+    ],
+    howToUse: {
+      title: "How to Use Hix Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Explore the Tool Library", description: "Sign up at hix.ai and browse the 120 plus writing tools organized by category. Find the specific tool that matches your writing task for the most relevant output." },
+        { title: "Use HIX Chat for Conversation", description: "For tasks that need back-and-forth conversation - research, brainstorming, complex drafting - use HIX Chat with its GPT-4 foundation and web browsing capability." },
+        { title: "Install the Browser Extension", description: "Add the HIX.AI browser extension to get AI writing assistance anywhere you write online - Gmail, Google Docs, social media platforms, and any other web application." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Tool Specialization Advantage", description: "A specialized email writing tool produces better emails than asking a general AI to write an email. Having 120 plus specialized tools means the output is calibrated to each specific writing context" },
+      { title: "Web Browsing Chat", description: "AI chat with web browsing access can research current information and incorporate it into responses - which general AI chat without web access cannot do for recent topics" },
+      { title: "Browser Extension Ubiquity", description: "Writing assistance available everywhere you write online rather than only in a dedicated app is more practical for how people actually work across multiple web tools" },
+      { title: "All-in-One Value", description: "Having AI chat, specialized writing tools, article generation, and a browser extension under one subscription replaces what would otherwise require multiple separate tool subscriptions" }
+    ],
+    useCases: [
+      { title: "Content Writers and Bloggers", description: "Writers who produce diverse content types use HIX.AI to access specialized tools for each content format rather than using a single general-purpose AI for everything" },
+      { title: "Marketing Teams", description: "Marketing professionals use HIX.AI for the range of content they produce - ads, emails, social posts, blog articles - all with specialized tools from one platform" },
+      { title: "Business Professionals", description: "Executives and professionals use HIX.AI for the AI chat capability alongside specialized tools for business communications, reports, and presentations" }
+    ]
+  },
+  "toolsmart-humanize": {
+    whatIs: "Toolsmart Free Humanize AI is a free AI text humanization tool that transforms AI-generated content into writing that reads naturally and avoids the patterns that AI detection tools look for. It is positioned specifically as a free alternative in the humanizer market - providing the core functionality of paid humanization tools without requiring a subscription. For students and writers who need occasional humanization without a recurring cost, Toolsmart provides accessible free access to this capability.",
+    features: [
+      "Free Humanization: Transform AI text to human-sounding writing at no cost",
+      "Detection Bypass: Output designed to pass major AI detection tools",
+      "Natural Language: Produces readable natural prose not robotic output",
+      "Meaning Preservation: Original message kept intact through transformation",
+      "Simple Interface: Paste and humanize without complex configuration",
+      "Fast Results: Humanized text returned quickly",
+      "No Account Required: Use without creating an account",
+      "Unlimited Basic Use: No strict word limits on free tier"
+    ],
+    howToUse: {
+      title: "How to Use Toolsmart Humanize",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Content", description: "Go to the Toolsmart humanizer and paste your AI-generated text into the input field. No account creation required for basic use." },
+        { title: "Run Humanization", description: "Click to humanize and the tool rewrites your content to reduce AI detection signals. The process takes seconds for most text lengths." },
+        { title: "Review and Use", description: "Read through the humanized output to verify it maintains your original meaning and reads naturally. Copy it for your intended use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Genuinely Free Access", description: "The humanizer market is dominated by paid tools with limited free tiers. Toolsmart provides real humanization capability for free which serves users who need occasional help without subscription costs" },
+      { title: "No Friction Entry", description: "Not requiring an account means there is zero barrier to use - you can humanize text in under a minute from first visit without any registration process" },
+      { title: "Core Functionality Focus", description: "Rather than offering many features at a cost, Toolsmart focuses on doing the core humanization task well for free - which is exactly what most casual users actually need" },
+      { title: "Student Accessibility", description: "Students who need humanization help occasionally but cannot afford paid subscriptions find Toolsmart a practical free option for their needs" }
+    ],
+    useCases: [
+      { title: "Students Needing Occasional Humanization", description: "Students who occasionally need to humanize AI-assisted drafts use Toolsmart as a free alternative to paid tools they do not use frequently enough to justify" },
+      { title: "Writers Evaluating Humanization Tools", description: "People who want to try AI humanization before committing to a paid tool use Toolsmart to experience the capability without financial commitment" },
+      { title: "Budget-Conscious Content Creators", description: "Creators who need humanization occasionally but produce content at a volume that does not justify a paid subscription use Toolsmart for free access to the capability" }
+    ]
+  },
+  "make-headline": {
+    whatIs: "Make Headline is an AI headline and title generator that creates compelling, click-worthy headlines for blog posts, articles, videos, and social media content. It generates multiple headline variations from a topic or brief description, applying proven headline formulas and psychological triggers that increase click-through rates. For content creators and marketers who know that the headline is often the most important element of any piece of content, Make Headline provides optimized title options quickly.",
+    features: [
+      "Headline Generation: Create multiple compelling headline options from a brief",
+      "Click-Through Optimization: Headlines using proven formulas that drive clicks",
+      "Multiple Variations: Get many different angle options for the same content",
+      "SEO Headlines: Titles optimized for search engine click-through rates",
+      "Social Media Titles: Headlines formatted for social media sharing",
+      "Email Subject Lines: Apply headline techniques to email subject lines",
+      "A/B Testing Support: Multiple variants to test against each other",
+      "Free to Use: Basic headline generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Make Headline",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Content", description: "Go to Make Headline and describe the topic or main point of your content in a sentence or two. The more specific your description the more targeted the headline options." },
+        { title: "Review Your Options", description: "Make Headline generates multiple headline variations using different angles and formulas. Read through the options looking for the one that best captures the value of your content compellingly." },
+        { title: "Test and Publish", description: "Choose your headline or set up an A/B test between your top options. Strong headlines can double or triple click-through rates so testing is worth the effort for important content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Headline Importance", description: "Research consistently shows that headlines determine whether content gets read at all. A weak headline on strong content means most potential readers never engage - Make Headline addresses the most leveraged element of content performance" },
+      { title: "Formula Application", description: "Effective headlines follow patterns that have been tested across millions of pieces of content. Make Headline applies these formulas automatically rather than requiring writers to know and apply them manually" },
+      { title: "Volume for Selection", description: "Having 10 or 20 headline options to choose from produces better results than writing one headline and going with it. The best option is rarely the first one you think of" },
+      { title: "Multi-Format Application", description: "The same headline optimization principles that work for blog posts also apply to email subject lines, YouTube titles, and social posts - Make Headline applies them across all these formats" }
+    ],
+    useCases: [
+      { title: "Bloggers and Content Writers", description: "Writers who publish blog content regularly use Make Headline to ensure their posts have titles that attract clicks rather than titles that just describe the content" },
+      { title: "Email Marketers", description: "Email marketers use headline techniques applied to subject lines to improve open rates on their campaigns" },
+      { title: "YouTube Creators and Video Marketers", description: "Video creators use Make Headline to generate compelling titles that improve click-through from search and recommended video feeds" }
+    ]
+  },
+  "learn-prompting": {
+    whatIs: "Learn Prompting is an educational platform and open-source guide that teaches people how to communicate effectively with AI systems. It covers prompt engineering techniques from beginner basics to advanced methods like chain-of-thought prompting, few-shot learning, and AI agent design. The platform is structured as a comprehensive curriculum for anyone who wants to get dramatically better results from AI tools by understanding how to frame requests, provide context, and structure interactions with language models.",
+    features: [
+      "Comprehensive Curriculum: Structured learning path from beginner to advanced prompting",
+      "Free and Open Source: All educational content freely accessible",
+      "Practical Techniques: Real prompting methods with examples and explanations",
+      "Chain of Thought: Learn to guide AI reasoning step by step",
+      "Few-Shot Learning: Teach AI tasks by providing examples in your prompt",
+      "AI Agent Design: Advanced techniques for building AI-powered workflows",
+      "Multiple AI Systems: Techniques applicable across ChatGPT, Claude, and other models",
+      "Community Contributions: Regularly updated by AI practitioners and researchers"
+    ],
+    howToUse: {
+      title: "How to Use Learn Prompting",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start with the Basics", description: "Go to learnprompting.org and begin with the introductory modules that cover fundamental prompting concepts - how AI models work, why prompt structure matters, and basic techniques for getting better responses." },
+        { title: "Work Through the Curriculum", description: "Progress through the structured modules covering increasingly advanced techniques. Each section builds on the previous one and includes practical examples you can try yourself." },
+        { title: "Apply and Experiment", description: "Apply the techniques you learn to your actual AI tool use. The real learning happens through practice - try the techniques with your specific use cases and observe how different approaches affect the output quality." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free and Open Source", description: "The entire Learn Prompting curriculum is free and open source - there is no premium tier gatekeeping advanced techniques. This makes professional-level prompt engineering education accessible to everyone" },
+      { title: "Structured Progression", description: "Prompt engineering resources are often scattered and inconsistent in depth. Learn Prompting provides a structured curriculum that builds knowledge systematically rather than offering disconnected tips" },
+      { title: "Practical Application Focus", description: "Every technique is illustrated with real examples and explanation of why it works - not just what to do but why it produces better results. This understanding enables adaptation to new situations" },
+      { title: "Model Agnostic", description: "Techniques that work across ChatGPT, Claude, Gemini, and other models have broader value than tips specific to one platform - Learn Prompting teaches transferable skills rather than platform-specific tricks" }
+    ],
+    useCases: [
+      { title: "AI Beginners Wanting Better Results", description: "People who are not getting the results they want from AI tools use Learn Prompting to understand what they are doing wrong and how to communicate with AI more effectively" },
+      { title: "Professionals Integrating AI into Work", description: "Workers who use AI tools in their jobs use Learn Prompting to develop the skills that distinguish power users who get excellent results from casual users who get mediocre ones" },
+      { title: "Developers Building AI Applications", description: "Software developers building AI-powered applications use Learn Prompting to understand advanced techniques like chain-of-thought and agent design that improve their application outputs" }
+    ]
+  },
   "imageprompt-org": {
     whatIs: "ImagePrompt.org is a resource and tool platform for AI image generation prompt engineering. It helps users craft better prompts for image generators like Midjourney, DALL-E, and Stable Diffusion by providing prompt templates, style guides, and an AI-assisted prompt builder that enhances basic descriptions into detailed prompts that produce higher quality outputs. For users who know what they want to generate but struggle to describe it in a way that AI image tools understand, ImagePrompt bridges the gap between creative vision and effective prompt writing.",
     features: [
