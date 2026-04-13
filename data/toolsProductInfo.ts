@@ -1,4 +1,37 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "scipub-plus": {
+    whatIs: "SciPub+ is an AI-powered scientific and academic writing tool designed specifically for researchers, PhD students, and academics who need to produce high-quality scientific publications. It understands the conventions of academic writing - proper citation formatting, hedging language, passive voice conventions, and the structural requirements of different paper sections like abstracts, methods, results, and discussions. For researchers who struggle with the writing aspect of their work despite having strong science, SciPub+ bridges the gap between good research and well-written publications.",
+    features: [
+      "Scientific Writing: AI assistance calibrated for academic and scientific prose",
+      "Paper Structure: Guidance on abstract, introduction, methods, results, and discussion",
+      "Citation Support: Proper academic citation formatting and integration",
+      "Abstract Generation: AI-generated abstracts from paper content",
+      "Grammar for Science: Scientific grammar conventions including passive voice and hedging",
+      "Journal Formatting: Format papers according to journal requirements",
+      "Literature Review: Help organizing and writing literature review sections",
+      "Free to Try: Basic scientific writing assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Scipub Plus",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Paper", description: "Sign up at scipub.ai and start a new paper project. Enter your research topic, target journal, and the key findings you need to communicate." },
+        { title: "Write Section by Section", description: "Work through each section of your paper with SciPub+ assistance. The AI understands what each section needs to accomplish and helps you meet those requirements with appropriate scientific language." },
+        { title: "Review and Refine", description: "Review the generated content for scientific accuracy - you are the expert on your research, SciPub+ handles the writing conventions. Refine until the paper communicates your work clearly and professionally." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Scientific Convention Awareness", description: "Academic writing has specific conventions that differ from other writing - hedging language, passive constructions, citation practices. SciPub+ is trained on scientific literature and applies these conventions correctly" },
+      { title: "Section-Specific Guidance", description: "Each section of a scientific paper has different requirements and objectives. Section-specific assistance that knows what an abstract needs versus what a discussion needs produces more appropriate content than general writing AI" },
+      { title: "Non-Native English Researchers", description: "Many excellent researchers write in English as a second language. SciPub+ helps ensure their scientific writing meets the language standards that peer reviewers and editors expect" },
+      { title: "Time Efficiency for Research Teams", description: "Writing is often the bottleneck between completing research and publishing it. AI writing assistance that understands scientific conventions reduces this bottleneck significantly" }
+    ],
+    useCases: [
+      { title: "PhD Students and Graduate Researchers", description: "Graduate students writing their first papers and thesis chapters use SciPub+ to understand and apply academic writing conventions they are still developing" },
+      { title: "Non-Native English Scientists", description: "Researchers whose first language is not English use SciPub+ to produce publications that meet the language standards of international journals" },
+      { title: "Productive Research Teams", description: "Active research groups that need to publish frequently use SciPub+ to accelerate the writing phase without sacrificing the quality that peer review requires" }
+    ]
+  },
   "mytales": {
     whatIs: "MyTales is an AI storytelling platform that helps users create personalized stories for children, featuring customizable characters, settings, and themes. Parents and educators use it to generate unique bedtime stories and reading material that feature the child as the main character or include their favorite things. The AI produces age-appropriate narratives with engaging plots that can be printed, saved, or read aloud directly from the platform.",
     features: [
