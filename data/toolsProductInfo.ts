@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "myvelofit": {
+    whatIs: "MyVeloFit is an AI-powered cycling training platform that analyzes your riding data and creates personalized training plans for cyclists. It connects to your cycling data from Garmin, Wahoo, and other devices, analyzes your fitness level and performance patterns, and generates structured training plans designed to help you reach your specific cycling goals. For cyclists who want the benefits of a personal coach without the cost of hiring one, MyVeloFit provides data-driven training guidance.",
+    features: [
+      "AI Training Plans: Personalized cycling training plans based on your data",
+      "Device Integration: Connects with Garmin, Wahoo, and other cycling devices",
+      "Performance Analysis: Analyzes your riding data to assess fitness level",
+      "Goal-Based Planning: Plans designed around your specific cycling goals",
+      "Workout Structure: Interval sessions and endurance rides with precise targets",
+      "Progress Tracking: Monitor fitness improvement over time",
+      "Plan Adaptation: Adjusts your plan based on how you respond to training",
+      "Free Trial: Try personalized training planning before paying"
+    ],
+    howToUse: {
+      title: "How to Use Myvelofit",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Devices", description: "Sign up at myvelofit.com and connect your cycling computer or fitness tracker. MyVeloFit analyzes your historical ride data to establish your current fitness baseline." },
+        { title: "Set Your Goals", description: "Tell MyVeloFit what you are training for - a sportive, a race, general fitness improvement, or another cycling goal. Set your available training time per week." },
+        { title: "Follow Your Plan", description: "MyVeloFit generates a structured training plan with specific workouts. Follow the plan and let the AI adapt it based on your actual performance and recovery." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Coach-Level Analysis Without Coach Cost", description: "Professional cycling coaches charge significant fees. MyVeloFit provides data-driven training intelligence at a fraction of the cost by applying AI to the same performance data a coach would use" },
+      { title: "Device Data Utilization", description: "Most cyclists collect enormous amounts of training data but do not know how to use it. MyVeloFit turns that data into actionable training structure" },
+      { title: "Adaptation Intelligence", description: "Static training plans do not account for how individuals actually respond to training load. Plans that adapt based on your performance produce better results than fixed schedules" },
+      { title: "Goal Specificity", description: "Training for a century ride requires different preparation than training for a criterium race. Goal-specific planning produces more appropriate and effective training" }
+    ],
+    useCases: [
+      { title: "Amateur Cyclists Wanting Structured Training", description: "Recreational cyclists who want to improve performance use MyVeloFit for structured training that goes beyond just riding whenever they feel like it" },
+      { title: "Cycling Enthusiasts Preparing for Events", description: "Cyclists training for specific events use MyVeloFit to build fitness systematically toward their target date" },
+      { title: "Data-Driven Athletes", description: "Cyclists who already collect training data use MyVeloFit to finally make that data work for them through AI-powered analysis and planning" }
+    ]
+  },
+  "planfit": {
+    whatIs: "Planfit is an AI personal training app that creates customized workout plans based on your fitness goals, available equipment, and current fitness level. It generates exercise routines with proper progression, tracks your workouts, and adapts your plan as you get stronger. For people who want structured, personalized workout guidance without paying for a personal trainer, Planfit provides professional-level programming through an accessible app.",
+    features: [
+      "Personalized Workout Plans: Custom exercise programs based on your goals and level",
+      "Equipment Adaptation: Plans that work with whatever equipment you have available",
+      "Progressive Overload: Systematic progression to keep you improving",
+      "Exercise Library: Detailed instructions and videos for all exercises",
+      "Workout Tracking: Log your sessions and track performance over time",
+      "Plan Adaptation: Adjusts as your fitness improves",
+      "Multiple Goals: Plans for strength, muscle building, weight loss, and fitness",
+      "Free Plan: Basic workout planning without payment"
+    ],
+    howToUse: {
+      title: "How to Use Planfit",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Download Planfit and complete your profile - your fitness goals, current level, available equipment, and how many days per week you want to train." },
+        { title: "Follow Your Workouts", description: "Planfit generates your first workout plan. Follow the daily workouts with guidance on exercises, sets, reps, and rest periods. Use the exercise library for form guidance." },
+        { title: "Track and Progress", description: "Log your workouts and track your performance. Planfit adjusts your plan as you get stronger to ensure continued progression toward your goals." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization Over Generic Plans", description: "Generic workout programs online are not designed for your specific fitness level, equipment, or goals. Planfit generates plans that actually fit your situation" },
+      { title: "Progressive Programming", description: "Knowing when and how to increase training difficulty is what separates effective training from just going through the motions. Planfit applies progression principles automatically" },
+      { title: "Equipment Flexibility", description: "Whether you have a full gym, home dumbbells, or just bodyweight, Planfit generates appropriate workouts rather than requiring specific equipment" },
+      { title: "Trainer Value Without Trainer Cost", description: "Personal trainers provide personalized programming at significant cost. Planfit delivers comparable programming intelligence through AI at a fraction of the price" }
+    ],
+    useCases: [
+      { title: "Home Workout Enthusiasts", description: "People who work out at home with limited equipment use Planfit for structured programs that work within their equipment constraints" },
+      { title: "Gym-Goers Without Personal Trainers", description: "Regular gym members who want professional-level programming without trainer costs use Planfit for structured, progressive workout plans" },
+      { title: "Fitness Beginners", description: "People starting their fitness journey use Planfit for guided programming that teaches them how to train effectively from the beginning" }
+    ]
+  },
+  "shred-app": {
+    whatIs: "SHRED is a home and gym workout app that provides structured fitness programs combining strength training and cardio for fat loss and muscle building. It features follow-along workout videos, customizable programs, nutrition guidance, and progress tracking. The app is particularly focused on the combination of resistance training and cardio that produces the body composition results most people are looking for.",
+    features: [
+      "Follow-Along Videos: Guided workout videos with real trainers",
+      "Home and Gym Programs: Workouts for both home and gym environments",
+      "Strength and Cardio Combination: Programs that build muscle while burning fat",
+      "Customizable Programs: Adjust programs to your schedule and goals",
+      "Nutrition Guidance: Meal plans and nutrition advice alongside workouts",
+      "Progress Tracking: Monitor your body composition changes over time",
+      "Community Features: Connect with other SHRED users for motivation",
+      "Free Trial: Try the app before committing to subscription"
+    ],
+    howToUse: {
+      title: "How to Use Shred App",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Program", description: "Download SHRED and browse the available programs. Select one that matches your goals, available equipment, and how many days per week you can train." },
+        { title: "Follow Your Workouts", description: "Open your daily workout and follow along with the trainer in the video. The guidance covers exercise form, intensity, and pacing throughout the session." },
+        { title: "Track Your Progress", description: "Log your workouts and take regular progress photos to track your body composition changes. Use the nutrition guidance to support your training with appropriate eating." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Video Guidance Quality", description: "Following along with a trainer in video is more engaging and instructionally clear than reading workout descriptions. SHRED produces the motivation and instruction quality of a class experience at home" },
+      { title: "Body Composition Focus", description: "The combination of resistance training and cardio that SHRED programs use is specifically effective for changing body composition - building muscle while reducing fat" },
+      { title: "Home and Gym Flexibility", description: "Having programs for both home and gym environments means users can maintain their training when they cannot access a gym" },
+      { title: "Nutrition Integration", description: "Combining workout programming with nutrition guidance addresses both sides of body composition change in one app rather than requiring separate tools" }
+    ],
+    useCases: [
+      { title: "People Training for Fat Loss", description: "Individuals focused on losing body fat while maintaining or building muscle use SHRED for its body composition-focused programming" },
+      { title: "Home Workout Users", description: "People who primarily work out at home use SHRED for the follow-along video experience that makes home workouts more engaging" },
+      { title: "Gym Members Wanting Structure", description: "Regular gym-goers who want structured programs rather than figuring out their own routine use SHRED for proven programming" }
+    ]
+  },
+  "hingegpt": {
+    whatIs: "HingeGPT is an AI tool that helps Hinge users write better profile answers and opening messages that get more responses. It generates creative, personalized responses to Hinge prompts and crafts opening messages tailored to specific profiles, helping users make a stronger first impression. For people who struggle with what to write on dating apps or feel their profile does not represent them well, HingeGPT provides writing assistance that improves their dating app experience.",
+    features: [
+      "Profile Answer Writing: Generate compelling answers to Hinge prompt questions",
+      "Opening Message Crafting: Write personalized first messages for specific profiles",
+      "Conversation Starters: Creative openers that get responses",
+      "Tone Adjustment: Messages that match your personality and communication style",
+      "Multiple Options: Get several variations to choose from",
+      "Profile Review: Feedback on your existing profile answers",
+      "Fast Generation: Get message ideas quickly",
+      "Free to Try: Basic message assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Hingegpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Share Your Profile Details", description: "Go to HingeGPT and describe yourself - your personality, interests, and what you are looking for. This helps the AI write messages that sound authentically like you." },
+        { title: "Get Your Messages", description: "Generate profile answers or opening messages. Review the options and select or adapt the ones that feel most like your natural voice." },
+        { title: "Personalize Before Sending", description: "Add personal details and adjustments to make generated messages feel genuinely personal rather than AI-written. The best approach is using AI as a starting point you then make your own." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Profile First Impression", description: "Your Hinge profile answers are often the first thing potential matches read carefully. Well-written answers that are interesting and specific get significantly more matches than generic ones" },
+      { title: "Opening Message Quality", description: "Most opening messages on dating apps are generic and unmemorable. Personalized openers that reference something specific in a profile stand out and get more responses" },
+      { title: "Writer Block Relief", description: "Many people know they have good qualities to share but struggle to articulate them in a dating context. AI assistance helps them express themselves more effectively" },
+      { title: "Time Efficiency", description: "Crafting personalized messages for multiple profiles takes significant time. AI assistance makes this faster without sacrificing the personal quality that gets responses" }
+    ],
+    useCases: [
+      { title: "Hinge Users Wanting More Matches", description: "People using Hinge who feel their profile could perform better use HingeGPT to improve their answers and get more matches" },
+      { title: "People Struggling with Opening Messages", description: "Users who get matches but struggle to start conversations use HingeGPT for opening message ideas that get the conversation going" },
+      { title: "Recently Single People New to Dating Apps", description: "People returning to dating after a long relationship use HingeGPT to navigate the new landscape of dating app communication" }
+    ]
+  },
+  "flirty-pickup-lines": {
+    whatIs: "Flirty Pickup Lines AI generates creative, fun pickup lines and conversation starters for social and dating contexts. It produces lines ranging from clever and witty to sweet and romantic, customizable by tone and context. For people who want to break the ice with humor and creativity rather than generic approaches, the tool provides fresh ideas that go beyond the tired classics.",
+    features: [
+      "Pickup Line Generation: Create original flirty and witty opening lines",
+      "Tone Variety: From sweet and romantic to funny and clever",
+      "Context Specific: Lines for different social situations",
+      "Multiple Options: Generate many variations to find the right one",
+      "Customizable: Adjust for specific people or situations",
+      "Instant Generation: Lines ready immediately",
+      "Safe for Use: Appropriate and non-offensive content",
+      "Free to Use: Basic line generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Flirty Pickup Lines",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Your Tone", description: "Go to the Flirty Pickup Lines tool and select the tone you want - funny, romantic, clever, or sweet. Consider the context and the person you want to approach." },
+        { title: "Generate Your Lines", description: "Generate a set of pickup lines and read through the options. Look for ones that feel natural to your personality rather than forced." },
+        { title: "Adapt and Deliver", description: "Choose your favorite line and adapt it slightly to feel more personal and spontaneous. The best pickup lines feel natural rather than rehearsed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Originality Over Cliché", description: "Classic pickup lines are overused and often eye-roll inducing. AI-generated fresh lines offer originality that classic ones lack" },
+      { title: "Tone Matching", description: "Different social contexts and different people call for different approaches. Having tone options means finding the right style for each specific situation" },
+      { title: "Confidence Boost", description: "Having a good opening line ready reduces the anxiety of approaching someone by giving you something specific and creative to say" },
+      { title: "Entertainment Value", description: "Even when not used seriously, pickup lines are inherently entertaining and generate laughs and conversation" }
+    ],
+    useCases: [
+      { title: "People Looking to Break the Ice", description: "Individuals wanting to approach someone they find attractive use the tool for creative openers that stand out" },
+      { title: "Social Media and Content Creators", description: "Content creators use generated pickup lines for humorous social media content and videos" },
+      { title: "Party and Social Event Attendees", description: "People at social events use pickup line generators for lighthearted fun and conversation starters" }
+    ]
+  },
+  "facetune": {
+    whatIs: "Facetune is a photo editing app specialized in portrait retouching. It provides tools for smoothing skin, whitening teeth, reshaping facial features, removing blemishes, and enhancing portraits with a level of control and natural-looking results that general photo editors cannot match. It is one of the most popular portrait editing apps globally, used by individuals for personal photos and by professionals for portrait photography. The AI features automate common retouching tasks that previously required significant manual editing skill.",
+    features: [
+      "Skin Smoothing: Natural-looking skin retouching without over-processing",
+      "Teeth Whitening: Brighten and whiten smiles naturally",
+      "Blemish Removal: Remove spots, marks, and skin imperfections",
+      "Feature Reshaping: Subtle adjustments to facial features and proportions",
+      "Background Tools: Blur and replace photo backgrounds",
+      "AI Auto-Retouch: One-tap AI enhancement for quick results",
+      "Hair Color: Change and enhance hair color in photos",
+      "Professional Results: Quality suitable for professional portrait work"
+    ],
+    howToUse: {
+      title: "How to Use Facetune",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open Your Portrait", description: "Download Facetune and open the portrait photo you want to retouch. The app works best with clear, well-lit photos where the face is the main subject." },
+        { title: "Apply Your Edits", description: "Use the specific tools for each type of edit - skin smoothing, teeth whitening, blemish removal - with slider controls that let you adjust the intensity for natural results." },
+        { title: "Compare and Export", description: "Use the before/after comparison to ensure your edits look natural rather than over-processed. Export the finished photo in full resolution for sharing or printing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Portrait Specialization", description: "General photo editors have basic retouching tools but Facetune is built specifically for portrait editing which produces more natural and detailed results for the specific challenges of face editing" },
+      { title: "AI Automation", description: "One-tap AI retouching handles the most common portrait enhancement tasks automatically which makes professional-looking results accessible without manual editing skill" },
+      { title: "Natural Results Focus", description: "Facetune is designed to produce enhancements that look natural rather than obviously edited - which is the most important quality in portrait retouching" },
+      { title: "Professional Quality Accessible", description: "Portrait retouching that previously required Photoshop expertise is accessible to anyone through Facetune dedicated tools and AI assistance" }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "Individuals who share portraits on Instagram and other platforms use Facetune to present their best appearance in personal photos" },
+      { title: "Photographers", description: "Portrait photographers use Facetune for quick retouching on mobile when full desktop editing is not practical or necessary" },
+      { title: "Content Creators", description: "Influencers and content creators use Facetune to maintain consistent, polished appearance across their visual content" }
+    ]
+  },
+  "wanderboat": {
+    whatIs: "Wanderboat is an AI travel planning platform that helps travelers research destinations, build itineraries, and organize their travel plans in one place. It uses AI to suggest activities, estimate travel times, find points of interest, and create day-by-day itineraries based on your destination, travel dates, interests, and budget. For travelers who want to plan a memorable trip without spending hours researching across multiple travel sites, Wanderboat consolidates the planning process through intelligent AI assistance.",
+    features: [
+      "AI Itinerary Building: Create complete day-by-day travel itineraries",
+      "Destination Research: AI-powered information about destinations and attractions",
+      "Activity Suggestions: Personalized recommendations based on your interests",
+      "Budget Planning: Estimate costs and plan within your travel budget",
+      "Time Optimization: Logical routing to minimize travel time between attractions",
+      "Accommodation Suggestions: Hotel and stay recommendations for your destination",
+      "Trip Organization: Keep all your travel plans organized in one place",
+      "Free to Start: Basic travel planning without payment"
+    ],
+    howToUse: {
+      title: "How to Use Wanderboat",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Destination", description: "Sign up at wanderboat.ai and enter your destination, travel dates, group size, and interests. The more specific your interests the more personalized the recommendations." },
+        { title: "Review Your Itinerary", description: "Wanderboat generates a day-by-day itinerary with activities, timing, and routing. Review each day and adjust any activities that do not match your preferences." },
+        { title: "Refine and Save", description: "Customize your itinerary by adding or removing activities, adjusting timing, and adding notes. Save your final plan for easy reference during your trip." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Research Consolidation", description: "Travel planning normally requires hours across TripAdvisor, Google Maps, travel blogs, and booking sites. Wanderboat consolidates the research phase through AI that synthesizes information from multiple sources" },
+      { title: "Logical Routing", description: "Amateur itineraries often have tourists zigzagging across a city inefficiently. AI routing groups nearby attractions together to minimize travel time and maximize sightseeing" },
+      { title: "Interest Personalization", description: "Generic top-ten lists recommend the same attractions to everyone. Wanderboat tailors suggestions to your specific interests producing recommendations that actually match what you enjoy" },
+      { title: "Planning Accessibility", description: "Detailed travel planning requires time and research skills that not everyone has. AI assistance makes thorough trip planning accessible to travelers who want a great trip without extensive research" }
+    ],
+    useCases: [
+      { title: "Independent Travelers Planning Their Own Trips", description: "People who prefer planning their own trips rather than using tour operators use Wanderboat for the research assistance that makes self-planned trips as good as guided ones" },
+      { title: "First-Time Visitors to a Destination", description: "Travelers visiting a new destination for the first time use Wanderboat to understand what is worth seeing and how to organize their time effectively" },
+      { title: "Busy Professionals with Limited Planning Time", description: "People who want a great trip but cannot spend hours planning use Wanderboat to produce quality itineraries quickly" }
+    ]
+  },
+  "layla-ai": {
+    whatIs: "Layla AI is an AI travel planning assistant that helps travelers find destinations, plan itineraries, and get personalized travel recommendations through conversation. Users chat with Layla about their travel preferences, budget, and interests and the AI suggests destinations, activities, and practical travel advice. It is designed to feel like talking to a well-traveled friend who knows everywhere and can give genuine recommendations rather than generic tourist information.",
+    features: [
+      "Conversational Planning: Plan your trip through natural conversation with AI",
+      "Destination Suggestions: AI recommends destinations based on your preferences",
+      "Personalized Recommendations: Suggestions tailored to your travel style",
+      "Itinerary Building: Create trip plans through conversational back-and-forth",
+      "Practical Travel Advice: Tips on logistics, timing, and travel practicalities",
+      "Budget Guidance: Recommendations that fit your travel budget",
+      "Activity Ideas: Things to do and see at your destination",
+      "Free to Use: Basic travel planning conversation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Layla Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start the Conversation", description: "Go to layla.travel and start chatting with Layla. Tell her where you are thinking of going or what kind of trip you want and let the conversation develop naturally." },
+        { title: "Explore Your Options", description: "Layla asks questions about your preferences and suggests destinations and activities that match. Respond naturally and the recommendations become more tailored as the conversation continues." },
+        { title: "Build Your Plan", description: "Use the conversation to develop a concrete travel plan. Ask about specific logistics, timing, and practical details to turn inspiration into an actionable itinerary." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversational Versus Form-Based", description: "Traditional travel planning tools require filling out forms and clicking through options. Layla works through natural conversation which is more enjoyable and produces more nuanced recommendations" },
+      { title: "Friend-Like Recommendations", description: "Layla is designed to give the kind of genuine recommendations a well-traveled friend would give rather than the sanitized generic suggestions of tourist guidebooks" },
+      { title: "Discovery Focus", description: "Layla helps travelers find destinations they had not considered rather than just providing information on places they already knew they wanted to visit" },
+      { title: "Practical Intelligence", description: "Beyond inspiration, Layla provides practical travel intelligence about timing, logistics, and what to actually expect at destinations" }
+    ],
+    useCases: [
+      { title: "Travelers Looking for Destination Inspiration", description: "People who want to travel but are not sure where to go use Layla to discover destinations that match their interests and travel style" },
+      { title: "Trip Planners Who Prefer Conversation", description: "Travelers who find form-based planning tools frustrating use Layla for the more natural conversational planning experience" },
+      { title: "Adventure Seekers Wanting Off-the-Beaten-Path Ideas", description: "Travelers who want recommendations beyond the standard tourist circuit use Layla for suggestions that go deeper than mainstream travel guides" }
+    ]
+  },
   "ai-baby-generator": {
     whatIs: "AI Baby Generator is a fun image generation tool that creates realistic visualizations of what a baby might look like based on photos of two parents. Users upload photos of themselves and a partner and the AI generates images of their potential future child combining facial features from both parents. It is used for entertainment, curiosity, and as a lighthearted way for couples to imagine what their children might look like.",
     features: [
