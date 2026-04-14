@@ -32,7 +32,7 @@ export const toolsProductInfoData: { [key: string]: any } = {
       { title: "Social Media Managers", description: "Social media professionals use the tool to create engaging post titles and link descriptions that drive higher click-through from their feeds" }
     ]
   },
-  "ai-prompt-generator": {
+  "god-of-prompt": {
     whatIs: "AI Prompt Generator by God of Prompt is a tool that creates optimized prompts for ChatGPT and other AI tools from simple descriptions of what you want to accomplish. Rather than spending time crafting the perfect prompt yourself, you describe your goal and the generator produces a detailed, structured prompt that gets better results from AI tools. It applies prompt engineering principles automatically - adding context, specifying output format, setting tone, and including constraints that guide the AI toward more useful responses.",
     features: [
       "Prompt Generation: Create optimized AI prompts from plain descriptions",
