@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "flirtlikepro": {
+    whatIs: "FlirtLikePro is an AI dating coach and conversation assistant that helps people improve their flirting skills and dating conversations. It provides personalized coaching on how to be more engaging, witty, and charming in romantic interactions, with specific message suggestions and conversation strategies. For people who want to improve their dating life but feel uncertain about how to flirt effectively, FlirtLikePro provides practical, personalized coaching.",
+    features: [
+      "Conversation Coaching: Learn how to have more engaging romantic conversations",
+      "Message Suggestions: Get specific message ideas for dating situations",
+      "Flirting Techniques: Learn proven approaches to flirting naturally",
+      "Confidence Building: Develop comfort and confidence in romantic situations",
+      "Personalized Advice: Coaching tailored to your specific situation",
+      "Response Help: Suggestions for how to respond to specific messages",
+      "Style Matching: Advice that fits your natural personality",
+      "Free to Try: Basic flirting coaching without payment"
+    ],
+    howToUse: {
+      title: "How to Use Flirtlikepro",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Situation", description: "Go to FlirtLikePro and describe your dating situation - who you are talking to, the context, and what you want to accomplish in the conversation." },
+        { title: "Receive Coaching", description: "FlirtLikePro provides specific suggestions and techniques for your situation. Review the advice and adapt it to feel natural coming from you." },
+        { title: "Practice and Improve", description: "Apply the techniques and observe what works. Use FlirtLikePro consistently to develop genuine flirting skills rather than just getting one-off suggestions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Skill Development Over Scripts", description: "The best use of FlirtLikePro is developing genuine flirting skills rather than following scripts - the coaching builds capability that becomes natural over time" },
+      { title: "Confidence Foundation", description: "Much of what makes flirting effective is confidence. Coaching that helps you understand why certain approaches work builds the confidence that makes them effective" },
+      { title: "Natural Style Preservation", description: "Good flirting feels authentic rather than performed. FlirtLikePro helps you develop your own style rather than imitating someone else" },
+      { title: "Practical Application", description: "Dating advice that is too abstract is hard to apply. Specific, situation-based suggestions are immediately actionable" }
+    ],
+    useCases: [
+      { title: "People New to Dating", description: "Those returning to dating after a long absence or entering dating for the first time use FlirtLikePro to develop confidence and skills" },
+      { title: "People Who Feel Socially Awkward", description: "Individuals who feel uncertain in romantic social situations use FlirtLikePro for coaching that builds natural confidence" },
+      { title: "Anyone Wanting to Improve Their Dating Life", description: "People who date actively but want better results use FlirtLikePro for techniques that make their interactions more engaging and effective" }
+    ]
+  },
+  "genyou": {
+    whatIs: "GenYOU is an AI personalized content and avatar creation platform that generates content and visual representations tailored to your individual identity, style, and preferences. It creates personalized AI avatars, content in your voice, and customized visual content that reflects your specific aesthetic. For creators and individuals who want AI-generated content that feels genuinely personal rather than generic, GenYOU provides personalization depth that standard AI tools lack.",
+    features: [
+      "Personalized Avatars: AI avatars that reflect your individual style",
+      "Voice Matching: Content generated in your specific voice and tone",
+      "Style Personalization: Visual content that matches your aesthetic preferences",
+      "Profile Content: Personalized content for social media and online profiles",
+      "Custom Portraits: AI portraits in your preferred artistic styles",
+      "Brand Consistency: Consistent personal brand across generated content",
+      "Multiple Formats: Images, text, and other content types personalized to you",
+      "Free to Try: Basic personalization without payment"
+    ],
+    howToUse: {
+      title: "How to Use Genyou",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Profile", description: "Sign up at genyou.ai and build your personalization profile - your style preferences, aesthetic sensibilities, and the type of content you want to create." },
+        { title: "Generate Your Content", description: "Use GenYOU to create avatars, portraits, and content that reflects your personal profile. Review and refine to ensure it genuinely captures your identity." },
+        { title: "Use Across Platforms", description: "Deploy your personalized content across your social media profiles, dating apps, professional platforms, and anywhere else you want to present yourself online." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Genuine Personalization", description: "Generic AI-generated content looks the same for everyone. GenYOU produces content that genuinely reflects individual identity and aesthetic rather than applying one-size-fits-all generation" },
+      { title: "Consistent Personal Brand", description: "Maintaining a consistent visual and content identity across multiple platforms requires a coherent personal brand. GenYOU helps create and maintain this consistency" },
+      { title: "Time Efficiency", description: "Creating high-quality personal content manually requires significant time and skill. AI personalization produces quality results more efficiently" },
+      { title: "Identity Expression", description: "For many people, their online presence is an important expression of their identity. AI that helps with this expression serves a genuine personal need" }
+    ],
+    useCases: [
+      { title: "Social Media Creators", description: "Content creators use GenYOU to produce personalized content that maintains their distinctive voice and aesthetic across platforms" },
+      { title: "Professionals Building Personal Brand", description: "Career-focused individuals use GenYOU to create consistent, professional personal brand content across LinkedIn and other platforms" },
+      { title: "Individuals Wanting Better Online Presence", description: "People who want to present themselves better online use GenYOU for personalized content that reflects their actual identity" }
+    ]
+  },
+  "apob-ai": {
+    whatIs: "APOB AI is an AI-powered personalized content creation platform that generates images, videos, and other content featuring your own likeness. Users train an AI model on photos of themselves and then use it to generate themselves in different scenarios, styles, and contexts. It is used for creating unique social media content, profile pictures, and creative self-expression through AI-generated imagery featuring the user's actual appearance.",
+    features: [
+      "Personal AI Model: Train AI on your photos for personalized generation",
+      "Scenario Generation: Place yourself in different settings and contexts",
+      "Style Variety: Generate your likeness in different artistic styles",
+      "Profile Picture Creation: Create unique AI-generated profile photos",
+      "Social Media Content: Personalized content featuring your appearance",
+      "High Quality Output: Detailed, realistic personalized imagery",
+      "Privacy Controls: Control how your likeness data is used",
+      "Free Credits: Try personalized generation before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Apob Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Training Photos", description: "Sign up at apob.ai and upload a set of photos of yourself following the guidelines for variety and quality. The AI trains a personalized model on your specific appearance." },
+        { title: "Generate Your Scenarios", description: "Once your model is trained, create images of yourself in different settings, styles, and scenarios. Describe what you want and your AI model generates it featuring your likeness." },
+        { title: "Use and Share", description: "Download your generated images for use as profile pictures, social media content, or personal creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "True Personalization", description: "Generic AI art generation cannot put you specifically into a scene. APOB AI trains on your actual appearance to produce generation that features you recognizably" },
+      { title: "Creative Self-Expression", description: "Being able to place yourself in fantastical, historical, or artistic contexts that would be impossible to photograph creates unique creative expression" },
+      { title: "Profile Picture Quality", description: "AI-generated profile pictures featuring your actual likeness in different styles produce more distinctive and creative options than standard photos" },
+      { title: "Consistent Appearance", description: "A trained personal model maintains consistent recognition of your features across different generated scenarios" }
+    ],
+    useCases: [
+      { title: "Social Media Users Wanting Unique Content", description: "People who share content on Instagram and TikTok use APOB AI to create distinctive personalized content that stands out" },
+      { title: "Professionals Wanting Better Profile Photos", description: "People who want high-quality profile pictures across professional and social platforms use APOB AI for creative alternatives to standard headshots" },
+      { title: "Creative Individuals", description: "People who enjoy creative self-expression use APOB AI to generate themselves in imaginative scenarios and artistic styles" }
+    ]
+  },
+  "foxy-ai": {
+    whatIs: "Foxy AI is an AI image generation and creative platform focused on producing high-quality artistic images with a range of stylistic options. It provides accessible image generation with controls for different visual aesthetics, art styles, and creative directions. The platform is designed for casual creative users who want quality AI-generated images without the complexity of professional tools.",
+    features: [
+      "Image Generation: Create AI images from text descriptions",
+      "Style Controls: Choose from different artistic styles and aesthetics",
+      "Quality Output: High-resolution images suitable for sharing",
+      "Multiple Genres: Portraits, landscapes, abstract, and other image types",
+      "Fast Generation: Images ready quickly without long processing times",
+      "Commercial Use: Generated images available for personal and commercial use",
+      "Simple Interface: Easy-to-use generation without technical complexity",
+      "Free Credits: Try image generation before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Foxy Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Image", description: "Sign up at foxy.ai and describe the image you want to create. Include the subject, style, mood, and any specific visual elements you want in the output." },
+        { title: "Choose Your Style", description: "Select an artistic style or aesthetic direction that fits your creative vision. Different styles produce very different results from the same description." },
+        { title: "Generate and Download", description: "Generate your image and download the result. Try variations with different descriptions or styles to explore the creative possibilities." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessibility Focus", description: "Foxy AI is designed for users who want quality AI images without the technical learning curve of more complex tools" },
+      { title: "Style Variety", description: "Supporting multiple artistic styles makes Foxy AI flexible enough to serve different creative needs and aesthetic preferences" },
+      { title: "Commercial Clarity", description: "Clear commercial use rights make generated images usable for actual projects without legal uncertainty" },
+      { title: "Creative Exploration", description: "The combination of fast generation and multiple styles makes Foxy AI well-suited for creative exploration and experimentation" }
+    ],
+    useCases: [
+      { title: "Casual Creative Users", description: "People who want AI-generated images for personal projects and social media use Foxy AI for accessible quality generation" },
+      { title: "Small Business Owners", description: "Business owners who need custom imagery for their marketing use Foxy AI for cost-effective image creation" },
+      { title: "Content Creators", description: "Bloggers and social media creators use Foxy AI to generate unique visual content for their platforms" }
+    ]
+  },
+  "bargpt": {
+    whatIs: "BarGPT is an AI cocktail recipe generator and bartending assistant that creates custom cocktail recipes based on available spirits, flavor preferences, and occasion. Users describe what they have in their bar, what flavors they enjoy, or what kind of cocktail they want, and BarGPT generates original recipes with ingredients, proportions, and preparation instructions. For home bartenders who want to create interesting cocktails beyond their standard recipes, BarGPT provides AI-powered bartending creativity.",
+    features: [
+      "Custom Recipes: Generate cocktail recipes from your available spirits",
+      "Flavor-Based Suggestions: Cocktails matched to your taste preferences",
+      "Occasion Appropriate: Drinks suited to different settings and occasions",
+      "Ingredient Substitution: Suggest alternatives for missing ingredients",
+      "Classic Variations: Creative takes on classic cocktail formulas",
+      "Non-Alcoholic Options: Mocktail recipes for non-drinkers",
+      "Batch Recipes: Scale cocktails for parties and groups",
+      "Free to Use: Basic cocktail generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Bargpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Tell BarGPT What You Have", description: "Go to bargpt.app and enter the spirits and mixers you have available. Include any flavor preferences or the style of drink you are in the mood for." },
+        { title: "Get Your Recipe", description: "BarGPT generates a custom cocktail recipe using your available ingredients with precise measurements and preparation instructions." },
+        { title: "Mix and Enjoy", description: "Follow the recipe to mix your cocktail. Ask BarGPT for variations or adjustments if you want to experiment further with the flavor profile." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Ingredient-First Creation", description: "Creating interesting cocktails from what you already have is more creative and economical than shopping for specific recipe ingredients" },
+      { title: "Beyond the Basics", description: "Most home bartenders make the same few drinks repeatedly. BarGPT introduces creative combinations and techniques that expand the home bartending repertoire" },
+      { title: "Occasion Matching", description: "The right cocktail depends on the occasion - a casual weeknight drink is different from a special occasion cocktail. BarGPT generates appropriate suggestions for different contexts" },
+      { title: "Non-Alcoholic Inclusion", description: "Mocktail recipes for non-drinkers ensures everyone at a gathering can have a thoughtfully crafted beverage rather than just juice" }
+    ],
+    useCases: [
+      { title: "Home Bartenders", description: "People who enjoy making cocktails at home use BarGPT to expand their repertoire and make better use of their home bar" },
+      { title: "Party Hosts", description: "People hosting gatherings use BarGPT to create signature cocktails for their events using spirits they already own" },
+      { title: "Cocktail Curious Beginners", description: "People getting into home cocktail making use BarGPT to learn what combinations work and develop their palate and technique" }
+    ]
+  },
+  "mealpractice": {
+    whatIs: "MealPractice is an AI nutrition and meal planning platform that creates personalized meal plans based on your dietary goals, health conditions, food preferences, and lifestyle. It generates weekly meal plans with recipes, shopping lists, and nutritional information tailored to your specific requirements. For people who want to eat better but struggle with the planning and decision-making that healthy eating requires, MealPractice removes the friction through personalized AI-generated meal planning.",
+    features: [
+      "Personalized Meal Plans: Weekly plans based on your specific dietary needs",
+      "Recipe Generation: Complete recipes for every meal in your plan",
+      "Shopping Lists: Automated grocery lists from your weekly plan",
+      "Nutritional Tracking: Calorie and macro information for all meals",
+      "Dietary Accommodation: Plans that meet any dietary restriction",
+      "Health Goal Alignment: Nutrition aligned to your specific health goals",
+      "Variety Assurance: Plans that avoid repetitive meal rotation",
+      "Free to Try: Basic meal planning without payment"
+    ],
+    howToUse: {
+      title: "How to Use Mealpractice",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Sign up at mealpractice.com and complete your dietary profile - your health goals, food preferences, allergies, cooking skill level, and available time for meal preparation." },
+        { title: "Receive Your Meal Plan", description: "MealPractice generates a weekly meal plan with complete recipes and a consolidated shopping list. Review the plan and adjust any meals that do not appeal to you." },
+        { title: "Cook and Track", description: "Follow your meal plan and track your nutritional intake. MealPractice shows how your eating aligns with your health goals and generates fresh plans each week." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Decision Fatigue Elimination", description: "Deciding what to eat for every meal is exhausting. A complete weekly plan eliminates these daily decisions and makes healthy eating require less willpower" },
+      { title: "Shopping Efficiency", description: "A consolidated shopping list from a complete meal plan eliminates the multiple shopping trips and forgotten ingredients that derail meal planning attempts" },
+      { title: "Nutritional Alignment", description: "Eating in a way that genuinely supports your health goals requires nutritional awareness that most people lack. AI meal planning builds this alignment automatically" },
+      { title: "Variety Maintenance", description: "Healthy eating is undermined by boredom with repetitive meals. AI-generated variety keeps the diet interesting enough to sustain" }
+    ],
+    useCases: [
+      { title: "People with Specific Dietary Goals", description: "Individuals working toward weight loss, muscle building, or other nutrition-dependent health goals use MealPractice for plans aligned to their specific objectives" },
+      { title: "People with Dietary Restrictions", description: "Those with food allergies, intolerances, or dietary preferences use MealPractice for plans that automatically accommodate their requirements" },
+      { title: "Busy Professionals", description: "People with limited time for meal planning use MealPractice to maintain healthy eating without the time investment of planning from scratch each week" }
+    ]
+  },
+  "crazyfaceai": {
+    whatIs: "CrazyFace AI is a fun photo transformation app that applies humorous and exaggerated facial transformations to photos. It uses AI to create entertaining distortions, funny face swaps, and comedic alterations to portrait photos for entertainment and social sharing. The app is designed purely for fun - creating the kind of amusing photo content that people enjoy sharing with friends and family.",
+    features: [
+      "Face Distortion: Apply funny exaggerated distortions to photos",
+      "Comedic Transformations: Humorous alterations to facial features",
+      "Multiple Effects: Different types of funny face modifications",
+      "Fast Processing: Funny results ready quickly",
+      "Share Ready: Output formatted for social sharing",
+      "Safe Content: Family-friendly funny transformations",
+      "Easy to Use: Simple photo upload and effect application",
+      "Free to Try: Basic funny transformations without payment"
+    ],
+    howToUse: {
+      title: "How to Use Crazyfaceai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to CrazyFace AI and upload a photo you want to transform. Clear photos with visible faces work best for the most entertaining results." },
+        { title: "Choose Your Effect", description: "Browse the available funny transformation effects and select the ones you want to apply to your photo." },
+        { title: "Share the Fun", description: "Download your transformed photo and share it with friends and family for a laugh. Try different effects on the same photo for varied results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Pure Entertainment Value", description: "CrazyFace AI delivers entertainment without pretension - its value is making people laugh and providing fun content for social sharing" },
+      { title: "Social Connection", description: "Funny photos that friends share with each other are a form of social connection and playfulness that strengthens relationships" },
+      { title: "Content Variety", description: "Humorous transformed photos provide different content from the standard photography that fills social media feeds" },
+      { title: "Accessible Fun", description: "Creating entertaining photo content typically requires editing skills. CrazyFace AI makes funny photo creation accessible to everyone" }
+    ],
+    useCases: [
+      { title: "Friends Sending Funny Messages", description: "People who enjoy sending funny content to friends and family use CrazyFace AI for entertainment that generates laughs" },
+      { title: "Social Media Users Creating Fun Content", description: "Those who share humorous content on social platforms use CrazyFace AI for a steady supply of funny photo material" },
+      { title: "Party and Event Fun", description: "People at gatherings use CrazyFace AI as a fun group activity where everyone can see their funny transformed versions" }
+    ]
+  },
+  "barbie-selfie": {
+    whatIs: "Barbie Selfie Generator is an AI image transformation tool that converts personal photos into the distinctive Barbie aesthetic - the bright pink, glamorous, doll-like visual style popularized by the Barbie brand and the 2023 Barbie film. Users upload their photos and receive versions styled in the characteristic Barbie visual language. The tool became extremely popular during the Barbie film's release as a social media trend and remains used for fun, nostalgic, and creative social media content.",
+    features: [
+      "Barbie Style Transformation: Convert photos to Barbie aesthetic",
+      "Iconic Visual Style: The distinctive bright pink glamorous Barbie look",
+      "Portrait Focus: Optimized for face and portrait photos",
+      "Fast Generation: Barbie-style results quickly",
+      "Social Media Ready: Output perfect for Instagram and TikTok sharing",
+      "Multiple Variations: Different Barbie style interpretations",
+      "Download Options: Save your Barbie selfie in standard formats",
+      "Free to Try: Basic Barbie transformation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Barbie Selfie",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to the Barbie Selfie Generator and upload a clear photo of yourself. The tool works best with front-facing portrait photos." },
+        { title: "Generate Your Barbie Look", description: "The AI applies the Barbie visual aesthetic to your photo - the bright colors, glamorous styling, and characteristic doll-like quality of the Barbie aesthetic." },
+        { title: "Download and Share", description: "Download your Barbie selfie and share it on social media. The distinctive visual style is immediately recognizable and generates strong engagement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Trend Participation", description: "The Barbie film created a massive social media trend around the Barbie aesthetic. The generator allowed widespread participation in this cultural moment" },
+      { title: "Nostalgic Appeal", description: "Barbie is a culturally iconic figure with strong nostalgic associations for many people. The aesthetic taps into this emotional connection" },
+      { title: "Distinctive Visual Content", description: "The bold, distinctive Barbie aesthetic creates immediately recognizable social media content that stands out from standard photography" },
+      { title: "Fun and Playfulness", description: "Transforming your photo into a Barbie version is inherently playful and fun - the kind of lighthearted content that brings joy to social media" }
+    ],
+    useCases: [
+      { title: "Barbie Film Fans", description: "Fans of the Barbie cultural moment use the generator to participate in the associated social media trend" },
+      { title: "Social Media Users Wanting Fun Content", description: "People who enjoy sharing entertaining transformed content use the Barbie generator for distinctive social media posts" },
+      { title: "Nostalgia Enthusiasts", description: "People with fond memories of Barbie use the generator for a fun way to engage with that nostalgic connection" }
+    ]
+  },
   "baiby": {
     whatIs: "Baiby is an AI baby development tracking and parenting support platform that helps new parents monitor their infant's development milestones, get personalized parenting advice, and understand what to expect at each stage of their baby's growth. It provides developmental guidance, sleep training support, and feeding advice tailored to your baby's specific age and developmental stage. For new parents navigating the overwhelming first months and years of parenthood, Baiby provides expert-backed guidance available any time.",
     features: [
