@@ -1,4 +1,103 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "great-headlines-ai": {
+    whatIs: "Great Headlines AI is a tool that generates compelling, click-worthy headlines for blog posts, articles, and marketing content using AI. It applies proven headline formulas and psychological principles to produce titles that attract attention and drive clicks. Users enter their topic or content summary and receive multiple headline options across different angles - curiosity, benefit-focused, list format, and question-based headlines among others.",
+    features: [
+      "Multiple Headline Styles: Generate headlines using different proven formats",
+      "Click-Through Optimization: Headlines designed to maximize reader interest",
+      "Topic Input: Generate from a brief topic or content description",
+      "Multiple Variations: Get many options to choose from",
+      "SEO Friendly: Headlines that work for both readers and search engines",
+      "Instant Generation: Results in seconds",
+      "Free to Use: Basic headline generation without payment",
+      "Copy Friendly: One-click copying of generated headlines"
+    ],
+    howToUse: {
+      title: "How to Use Great Headlines Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Content", description: "Go to Great Headlines AI and enter a brief description of your article topic or the main point you want to communicate." },
+        { title: "Review Your Options", description: "The tool generates multiple headline variations using different angles and formulas. Read through the options and identify which ones best capture the value of your content." },
+        { title: "Test and Publish", description: "Choose your headline or test multiple versions to see which performs best. A strong headline is often the difference between content that gets read and content that gets ignored." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Formula Application", description: "Effective headlines follow patterns proven to drive clicks. Great Headlines AI applies these formulas automatically so writers benefit from headline best practices without needing to know them explicitly" },
+      { title: "Angle Variety", description: "The same content can be headlined many different ways - curiosity, benefit, urgency, or social proof. Multiple angles give writers genuine options rather than variations on one approach" },
+      { title: "SEO and Human Balance", description: "Headlines need to work for both search algorithms and human readers. Great Headlines AI produces titles that satisfy both without sacrificing one for the other" },
+      { title: "Writer Time Savings", description: "Good headline writing takes disproportionate time relative to its length. AI headline generation produces quality options in seconds rather than requiring significant creative effort" }
+    ],
+    useCases: [
+      { title: "Bloggers and Content Writers", description: "Writers who publish regularly use Great Headlines AI to ensure their posts have titles that attract readers rather than titles that merely describe the content" },
+      { title: "Email Marketers", description: "Email marketers apply headline techniques to subject lines to improve open rates on their campaigns" },
+      { title: "Social Media Managers", description: "Social media professionals use the tool to create engaging post titles and link descriptions that drive higher click-through from their feeds" }
+    ]
+  },
+  "ai-prompt-generator": {
+    whatIs: "AI Prompt Generator by God of Prompt is a tool that creates optimized prompts for ChatGPT and other AI tools from simple descriptions of what you want to accomplish. Rather than spending time crafting the perfect prompt yourself, you describe your goal and the generator produces a detailed, structured prompt that gets better results from AI tools. It applies prompt engineering principles automatically - adding context, specifying output format, setting tone, and including constraints that guide the AI toward more useful responses.",
+    features: [
+      "Prompt Generation: Create optimized AI prompts from plain descriptions",
+      "ChatGPT Optimization: Prompts specifically crafted for ChatGPT best practices",
+      "Context Addition: Automatically adds relevant context to improve outputs",
+      "Format Specification: Includes output format instructions in generated prompts",
+      "Tone Setting: Configures appropriate tone for different use cases",
+      "Constraint Inclusion: Adds limiting instructions that focus AI responses",
+      "Multiple Use Cases: Prompts for writing, coding, analysis, and more",
+      "Free to Use: Basic prompt generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Prompt Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Goal", description: "Go to the AI Prompt Generator and describe what you want the AI to help you with in plain language. Focus on the outcome you want rather than how to ask for it." },
+        { title: "Get Your Optimized Prompt", description: "The generator creates a detailed, structured prompt that applies prompt engineering best practices to your goal. Review the generated prompt to understand how it is constructed." },
+        { title: "Use and Learn", description: "Paste the generated prompt into ChatGPT or your preferred AI tool and compare the results with what you get from simpler prompts. Over time you will learn what makes prompts effective by seeing the patterns." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Prompt Engineering Access", description: "Effective prompt engineering requires understanding how AI models respond to different instruction structures. The generator applies this expertise automatically so users get better results without learning prompt engineering themselves" },
+      { title: "Result Quality Improvement", description: "The difference between a basic prompt and a well-engineered one in terms of output quality is substantial. Better prompts save time by getting usable results faster" },
+      { title: "Learning Tool", description: "Seeing how your simple descriptions are transformed into structured prompts teaches prompt engineering principles through practical examples" },
+      { title: "Use Case Coverage", description: "Prompts for different use cases - writing, analysis, coding, brainstorming - require different structures. The generator adapts its approach to the specific type of task" }
+    ],
+    useCases: [
+      { title: "AI Beginners Wanting Better Results", description: "People who are not getting the results they want from AI tools use the prompt generator to bridge the gap between their intent and effective AI communication" },
+      { title: "Professionals Integrating AI into Workflows", description: "Business users who want to get more from their AI tools use generated prompts as starting points that they refine for their specific recurring tasks" },
+      { title: "Content Creators Using AI Assistance", description: "Writers and creators use the prompt generator to get more specific and useful AI outputs for their content production work" }
+    ]
+  },
+  "swooped": {
+    whatIs: "Swooped is an AI-powered job search platform that helps job seekers find relevant positions and apply more effectively using AI assistance. It aggregates job listings from multiple sources, uses AI to match candidates with suitable roles based on their skills and experience, and provides AI-powered tools for optimizing resumes and writing cover letters for specific positions. For job seekers who want a more intelligent and efficient job search experience than scrolling through generic job boards, Swooped provides personalized matching and application assistance.",
+    features: [
+      "Job Matching: AI matches you with relevant positions based on your profile",
+      "Resume Optimization: AI suggestions for improving your resume for specific roles",
+      "Cover Letter Generation: AI-written cover letters tailored to each position",
+      "Job Aggregation: Listings pulled from multiple job sources in one place",
+      "Application Tracking: Monitor the status of your job applications",
+      "Skill Gap Analysis: Understand what skills you need for target roles",
+      "Company Research: Information about companies you are applying to",
+      "Free to Start: Basic job searching and matching without payment"
+    ],
+    howToUse: {
+      title: "How to Use Swooped",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Profile", description: "Sign up at swooped.co and build your candidate profile including your work history, skills, and the types of roles you are looking for. The more complete your profile the better the job matching." },
+        { title: "Browse Matched Jobs", description: "Review the jobs Swooped matches to your profile. The AI surfaces roles that align with your background rather than requiring you to search through everything manually." },
+        { title: "Apply with AI Assistance", description: "For roles you want to apply to, use the AI tools to optimize your resume for that specific position and generate a tailored cover letter that addresses the role requirements directly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalized Matching", description: "Generic job boards show everyone the same listings. AI matching surfaces roles that actually fit your specific background and preferences which makes the search more efficient" },
+      { title: "Application Tailoring", description: "Generic applications that do not address specific role requirements perform worse than tailored ones. AI assistance makes tailoring each application practical even when applying to many roles" },
+      { title: "Cover Letter Quality", description: "Cover letters are time-consuming to write well for each position. AI generation of role-specific cover letters removes this bottleneck from the application process" },
+      { title: "Aggregated Search", description: "Checking multiple job boards separately is inefficient. Aggregated listings in one place ensure you do not miss relevant opportunities across different sources" }
+    ],
+    useCases: [
+      { title: "Active Job Seekers", description: "People currently searching for a new role use Swooped for more efficient job discovery and better application materials than a manual search process provides" },
+      { title: "Career Changers", description: "People transitioning to a new field use Swooped to find roles that match their transferable skills and get help positioning their background for different types of positions" },
+      { title: "Recent Graduates", description: "New graduates entering the job market use Swooped to navigate their first job search with AI assistance that helps them compete against more experienced candidates" }
+    ]
+  },
   "safespelling": {
     whatIs: "SafeSpelling is an AI-powered spelling and grammar correction tool that helps users write error-free content quickly. It checks text for spelling mistakes, grammar errors, punctuation issues, and style improvements, providing corrections with explanations. The tool is designed for simplicity and speed - paste your text, get corrections, and move on without a complicated interface or subscription requirement.",
     features: [
