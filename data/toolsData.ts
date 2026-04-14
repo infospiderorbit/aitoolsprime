@@ -2056,10 +2056,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "foxy-ai", name: "Foxy AI", description: "AI portrait and avatar generator", url: "", upvotes: 432, verified: true, rating: 4.2, icon: "🦊", category: "daily-life", subcategory: "ai-portrait-generator" }
     ],
     "ai-recipe": [
-      { id: "chefgpt-recipe", name: "ChefGPT", description: "AI recipe generation and cooking assistant", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "👨‍🍳", category: "daily-life", subcategory: "ai-recipe" },
-      { id: "dishgen-recipe", name: "DishGen", description: "AI recipe creator from available ingredients", url: "", upvotes: 1298, verified: true, rating: 4.6, icon: "🍽️", category: "daily-life", subcategory: "ai-recipe" },
       { id: "bargpt", name: "BarGPT", description: "AI cocktail and drink recipe generator", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "🍹", category: "daily-life", subcategory: "ai-recipe" },
-      { id: "cookaifood-recipe", name: "cookAIfood", description: "AI culinary recipe assistant", url: "", upvotes: 754, verified: true, rating: 4.4, icon: "🍳", category: "daily-life", subcategory: "ai-recipe" },
       { id: "mealpractice", name: "MealPractice", description: "AI meal planning and recipe practice", url: "", upvotes: 621, verified: true, rating: 4.3, icon: "🥘", category: "daily-life", subcategory: "ai-recipe" }
     ],
     "ai-religion": [
@@ -2067,7 +2064,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "islam-ai", name: "Islam & AI", description: "AI Islamic knowledge and guidance", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "☪️", category: "daily-life", subcategory: "ai-religion" },
       { id: "gloo", name: "Gloo", description: "AI interfaith dialogue platform", url: "", upvotes: 754, verified: true, rating: 4.3, icon: "🤝", category: "daily-life", subcategory: "ai-religion" },
       { id: "pastors-ai", name: "Pastors.ai", description: "AI pastoral care and guidance", url: "", upvotes: 621, verified: true, rating: 4.2, icon: "👨‍💼", category: "daily-life", subcategory: "ai-religion" },
-      { id: "gitagpt-religion", name: "GitaGPT", description: "AI Bhagavad Gita wisdom and guidance", url: "", upvotes: 543, verified: true, rating: 4.1, icon: "🕉️", category: "daily-life", subcategory: "ai-religion" }
     ],
     "ai-selfie-generator": [
       { id: "facetune", name: "Facetune", description: "AI photo editing and selfie enhancement", url: "", upvotes: 1678, verified: true, rating: 4.7, icon: "📸", category: "daily-life", subcategory: "ai-selfie-generator" },
@@ -2084,7 +2080,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-sports": [
       { id: "fight-iq", name: "Fight IQ", description: "AI combat sports analysis and training", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "🥊", category: "daily-life", subcategory: "ai-sports" },
       { id: "pixellot", name: "Pixellot", description: "AI sports video analysis platform", url: "", upvotes: 1087, verified: true, rating: 4.4, icon: "📹", category: "daily-life", subcategory: "ai-sports" },
-      { id: "myvelofit-sports", name: "MyVeloFit", description: "AI cycling performance analysis", url: "", upvotes: 876, verified: true, rating: 4.3, icon: "🚴‍♂️", category: "daily-life", subcategory: "ai-sports" },
       { id: "be-your-best", name: "Be Your Best", description: "AI sports performance optimization", url: "", upvotes: 543, verified: true, rating: 4.1, icon: "🏆", category: "daily-life", subcategory: "ai-sports" }
     ],
     "ai-travel": [
@@ -2400,7 +2395,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "ai-otaku-labo", name: "AI オタクLABO (AI Otaku LABO)", description: "AI review and analysis platform", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🤖", category: "marketing-advertising", subcategory: "ai-reviews" },
       { id: "aijourney", name: "AIJourney", description: "AI tool review and comparison platform", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "🚀", category: "marketing-advertising", subcategory: "ai-reviews" },
       { id: "tracefuse", name: "TraceFuse", description: "AI review analysis and insights", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🔍", category: "marketing-advertising", subcategory: "ai-reviews" },
-      { id: "vetted-reviews", name: "Vetted", description: "AI product review and recommendation platform", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "✅", category: "marketing-advertising", subcategory: "ai-reviews" }
     ],
     "ai-seo-tools": [
       { id: "prepostseo", name: "Prepostseo", description: "AI SEO tools and optimization platform", url: "", upvotes: 2134, verified: true, rating: 4.7, icon: "🔍", category: "marketing-advertising", subcategory: "ai-seo-tools" },
