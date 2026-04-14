@@ -1,4 +1,235 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "askjesus": {
+    whatIs: "Ask Jesus AI is a conversational AI tool that responds to questions from the perspective of Jesus Christ, drawing on the Gospels, the teachings of Jesus recorded in scripture, and Christian theological understanding. Users ask questions about faith, life, relationships, and spiritual struggles and receive responses framed through the words and teachings of Jesus. For Christians who want to engage more personally with the teachings of Jesus, Ask Jesus AI provides an imaginative and scripture-grounded conversational experience.",
+    features: [
+      "Gospel-Based Responses: All answers drawn from Jesus teachings in scripture",
+      "Life Guidance: Responses to modern life challenges through Jesus wisdom",
+      "Faith Questions: Answers to theological and spiritual questions",
+      "Compassionate Tone: Responses reflecting the character of Jesus",
+      "Scripture References: Relevant Gospel passages cited in responses",
+      "Prayer Guidance: Help with prayer through Jesus teachings on prayer",
+      "Parable Insights: Explanations of Jesus parables and their meaning",
+      "Free to Use: Basic conversation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Askjesus",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Question", description: "Go to the Ask Jesus AI tool and ask your question - about faith, a life challenge, a relationship struggle, or a theological question you want to explore." },
+        { title: "Receive Jesus Response", description: "The AI responds drawing on the recorded teachings of Jesus in the Gospels, reflecting his characteristic compassion, wisdom, and directness." },
+        { title: "Reflect and Explore", description: "Use the response for personal reflection and follow up with more questions to explore the teaching further in the context of your specific situation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personal Gospel Engagement", description: "Reading the Gospels provides Jesus teachings but not the experience of personal dialogue with them. Ask Jesus AI creates an imaginative conversational engagement with those teachings" },
+      { title: "Accessible Theology", description: "Understanding how Jesus teachings apply to specific modern situations requires theological reflection that many people find difficult to do independently. Ask Jesus AI makes this accessible" },
+      { title: "Compassionate Safe Space", description: "The character of Jesus as recorded in the Gospels is marked by compassion and acceptance. An AI that reflects this character provides a safe space for honest questions" },
+      { title: "Scripture Grounding", description: "Responses grounded in actual Gospel content rather than invented responses ensure the interaction remains connected to authentic Christian teaching" }
+    ],
+    useCases: [
+      { title: "Christians Seeking Personal Faith Engagement", description: "Believers who want a more personal and interactive engagement with the teachings of Jesus use Ask Jesus AI as a devotional and reflection tool" },
+      { title: "People Exploring Christianity", description: "Spiritual seekers curious about Jesus and his teachings use Ask Jesus AI as an accessible entry point to Gospel content" },
+      { title: "Sunday School and Youth Ministry", description: "Teachers and youth workers use Ask Jesus AI as an engaging tool for helping young people interact with the teachings of Jesus" }
+    ]
+  },
+  "ai-godfathers": {
+    whatIs: "AI Godfathers is an educational platform that focuses on the history, pioneers, and foundational concepts of artificial intelligence. It covers the work of the researchers and scientists who built the foundations of modern AI - Geoffrey Hinton, Yann LeCun, Yoshua Bengio, and others - alongside the historical development of AI from its earliest theoretical foundations to current breakthroughs. For students, professionals, and curious learners who want to understand not just what AI does but where it came from and who built it, AI Godfathers provides educational depth.",
+    features: [
+      "AI History: Comprehensive coverage of artificial intelligence development history",
+      "Pioneer Profiles: Detailed information about key AI researchers and their contributions",
+      "Concept Explanation: Clear explanations of foundational AI concepts",
+      "Research Context: Historical context for major AI breakthroughs",
+      "Timeline Coverage: AI development from early theory to modern systems",
+      "Educational Resources: Learning materials for AI history and foundations",
+      "Accessible Language: Complex AI history explained clearly",
+      "Free Access: Educational content without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Godfathers",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Explore the Pioneers", description: "Go to the AI Godfathers platform and browse profiles of the key researchers who built the foundations of modern AI. Understand what each person contributed and why it mattered." },
+        { title: "Follow the History", description: "Use the timeline to follow the development of AI from its theoretical foundations through major breakthroughs. Connect individual developments into a coherent historical narrative." },
+        { title: "Deepen Your Understanding", description: "Use the educational resources to go deeper on specific concepts, people, or periods in AI history that are most relevant to your learning goals." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Historical Context for AI Understanding", description: "Understanding AI is deeper when you know the history of how it developed. The breakthroughs that created modern AI make more sense with the historical context of what came before them" },
+      { title: "Pioneer Recognition", description: "The people who built the foundations of modern AI are not widely known outside specialist communities. AI Godfathers makes their contributions visible and accessible" },
+      { title: "Educational Depth", description: "Technical AI education often starts from current systems without historical grounding. Understanding where ideas came from provides conceptual depth that improves overall AI literacy" },
+      { title: "Accessible History", description: "AI history involves complex technical concepts but can be explained accessibly. AI Godfathers makes this history available to learners who are not technical specialists" }
+    ],
+    useCases: [
+      { title: "AI Students and Learners", description: "People studying AI formally or informally use AI Godfathers to understand the historical and intellectual foundations of what they are learning" },
+      { title: "Technology Professionals", description: "Tech workers who use AI tools use AI Godfathers to understand the history behind the technologies they work with" },
+      { title: "Curious General Audience", description: "People who want to understand AI more deeply use AI Godfathers to go beyond surface-level AI coverage to genuine historical understanding" }
+    ]
+  },
+  "day-with-god": {
+    whatIs: "Day with God is a daily devotional AI platform that provides personalized spiritual content to support a daily practice of faith. It generates scripture readings, reflections, prayers, and spiritual insights tailored to where the user is in their faith journey. For Christians who want to maintain a consistent daily devotional practice but struggle to find structured materials that feel personally relevant, Day with God provides AI-personalized spiritual content for each day.",
+    features: [
+      "Daily Devotionals: Personalized daily spiritual content",
+      "Scripture Reading: Curated Bible passages for daily reflection",
+      "Guided Reflection: Questions and prompts for deeper engagement with scripture",
+      "Daily Prayer: Personalized prayers for different life situations",
+      "Spiritual Insights: Thoughtful reflection on faith and Christian living",
+      "Journey Tracking: Follow your spiritual development over time",
+      "Seasonal Content: Devotionals aligned with the Christian calendar",
+      "Free to Start: Basic devotional content without payment"
+    ],
+    howToUse: {
+      title: "How to Use Day With God",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Sign up at day-with-god.com and share where you are in your faith journey, what you are currently experiencing, and what aspects of your spiritual life you want to develop." },
+        { title: "Receive Your Daily Content", description: "Each day Day with God provides a personalized devotional including scripture, reflection, and prayer. Engage with the content during your designated quiet time." },
+        { title: "Build Your Practice", description: "Maintain your daily devotional habit by returning each day. The content evolves with your journey and responds to what you are experiencing in your life." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization for Relevance", description: "Generic devotional books provide the same content to everyone. Personalized devotionals that respond to your specific situation and season of life are more engaging and spiritually relevant" },
+      { title: "Daily Habit Support", description: "Maintaining a consistent devotional practice requires content that remains fresh and relevant. AI personalization prevents the staleness that causes people to abandon fixed devotional books" },
+      { title: "Accessible Quiet Time", description: "People who want to develop a devotional practice but do not know how to structure their time use Day with God for guided spiritual engagement" },
+      { title: "Journey Responsiveness", description: "Spiritual content that responds to where you actually are - struggling, growing, grieving, celebrating - is more pastorally appropriate than content disconnected from your current reality" }
+    ],
+    useCases: [
+      { title: "Christians Building Daily Devotional Habits", description: "Believers who want to establish or maintain a consistent daily prayer and scripture practice use Day with God for structure and personalized content" },
+      { title: "People in Specific Life Seasons", description: "Christians navigating particular challenges - grief, transitions, health struggles - use Day with God for spiritually relevant content for their specific situation" },
+      { title: "New Believers", description: "People new to Christianity use Day with God to learn how to engage with scripture and prayer through guided daily practice" }
+    ]
+  },
+  "ask-religion": {
+    whatIs: "Ask Religion is an AI platform that answers questions about world religions from an educational and comparative perspective. It covers Christianity, Islam, Judaism, Hinduism, Buddhism, and other major religious traditions, providing accurate information about beliefs, practices, history, and sacred texts. For students, researchers, and curious individuals who want to understand different religious traditions, Ask Religion provides accessible and respectful educational content.",
+    features: [
+      "Multi-Religion Coverage: Information across all major world religions",
+      "Comparative Religion: How different traditions approach similar questions",
+      "Belief Explanation: Clear explanations of religious doctrines and beliefs",
+      "Practice Information: How religious observances and rituals work",
+      "Sacred Text Guidance: Information about religious scriptures and texts",
+      "Historical Context: Religious history and development over time",
+      "Respectful Approach: Content that treats all traditions with respect",
+      "Free to Use: Basic religious information without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ask Religion",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Question", description: "Go to Ask Religion and ask any question about a religious tradition - its beliefs, practices, history, sacred texts, or how it compares to other traditions." },
+        { title: "Explore the Response", description: "Receive a clear, respectful, and accurate explanation of the religious topic you asked about. Follow up with more specific questions to go deeper." },
+        { title: "Compare and Learn", description: "Use Ask Religion to compare how different religious traditions approach the same questions - about God, salvation, ethics, or the afterlife." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Educational Accuracy", description: "Religious information online is often inaccurate or biased. Ask Religion provides educationally accurate information about religious traditions" },
+      { title: "Respectful Treatment", description: "All religious traditions deserve respectful, accurate representation. Ask Religion treats each tradition on its own terms rather than through the lens of another tradition" },
+      { title: "Comparative Value", description: "Understanding how different religions approach the same fundamental questions reveals both the diversity and the common ground in human religious experience" },
+      { title: "Accessible Depth", description: "Religious traditions are complex and have extensive literature. Ask Religion makes this complexity accessible through simple questions without requiring extensive prior study" }
+    ],
+    useCases: [
+      { title: "Students of Religious Studies", description: "Academics studying religion use Ask Religion for quick, accurate information across multiple traditions during their research" },
+      { title: "Interfaith Dialogue Participants", description: "People engaged in interfaith conversations use Ask Religion to understand traditions different from their own" },
+      { title: "Curious Individuals", description: "People who want to understand world religions for personal enrichment and cultural literacy use Ask Religion for accessible educational content" }
+    ]
+  },
+  "mycoach-ai": {
+    whatIs: "MyCoach AI is a personalized fitness and wellness coaching platform that uses AI to provide customized workout plans, nutrition guidance, and wellness support. It combines fitness planning with broader wellness coaching - sleep, stress management, and healthy habits - to support overall wellbeing rather than just physical training. For people who want comprehensive wellness support without the cost of multiple specialized coaches, MyCoach AI provides integrated guidance across all dimensions of health.",
+    features: [
+      "Personalized Workouts: Custom exercise plans based on your goals and level",
+      "Nutrition Coaching: Personalized dietary guidance and meal planning",
+      "Wellness Integration: Sleep, stress, and lifestyle coaching alongside fitness",
+      "Progress Tracking: Monitor improvements across all wellness dimensions",
+      "Goal Setting: Set and track meaningful wellness goals",
+      "Check-In Support: Regular AI check-ins to maintain momentum",
+      "Habit Building: Support for developing consistent healthy habits",
+      "Free Trial: Try personalized coaching before paying"
+    ],
+    howToUse: {
+      title: "How to Use Mycoach Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Complete Your Wellness Assessment", description: "Sign up at mycoach.ai and complete a comprehensive assessment covering your fitness level, health goals, lifestyle, sleep patterns, and stress levels." },
+        { title: "Receive Your Personalized Plan", description: "MyCoach AI generates a comprehensive wellness plan covering workouts, nutrition, and lifestyle habits tailored to your specific situation and goals." },
+        { title: "Follow and Adapt", description: "Implement your plan and check in regularly with MyCoach AI. The plan adapts based on your progress, feedback, and any changes in your circumstances." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Holistic Wellness Approach", description: "Physical fitness is just one dimension of wellness. A coaching platform that addresses exercise, nutrition, sleep, and stress together produces better health outcomes than siloed fitness-only solutions" },
+      { title: "Personalization Depth", description: "Comprehensive assessment of multiple wellness dimensions enables more relevant guidance than generic plans that do not account for how lifestyle factors affect each other" },
+      { title: "Coach Cost Alternative", description: "Hiring separate coaches for fitness, nutrition, and wellness would cost significantly more than an AI platform that covers all dimensions. MyCoach AI makes comprehensive wellness coaching economically accessible" },
+      { title: "Accountability Structure", description: "Regular AI check-ins provide accountability that helps people maintain wellness habits better than self-directed programs without any external support" }
+    ],
+    useCases: [
+      { title: "People Wanting Comprehensive Wellness", description: "Individuals committed to improving their overall health rather than just fitness use MyCoach AI for guidance across all wellness dimensions" },
+      { title: "Busy Professionals Managing Health", description: "Working professionals who want to improve their health efficiently use MyCoach AI for personalized guidance that fits their time constraints" },
+      { title: "People New to Health and Fitness", description: "Beginners who feel overwhelmed by the amount of conflicting health advice use MyCoach AI for personalized, coherent guidance on where to start" }
+    ]
+  },
+  "flavorish": {
+    whatIs: "Flavorish is an AI-powered recipe discovery and meal planning platform that learns your taste preferences and suggests recipes you will genuinely enjoy. It goes beyond ingredient-based recipe search to understand your flavor profiles, cooking style, dietary preferences, and past recipe ratings to surface suggestions that match your palate. For food lovers who want to discover new recipes that actually fit their taste rather than searching through generic recipe databases, Flavorish provides genuinely personalized culinary discovery.",
+    features: [
+      "Taste Profiling: Learns your flavor preferences over time",
+      "Personalized Discovery: Recipe suggestions matched to your palate",
+      "Meal Planning: Weekly meal plans based on your preferences",
+      "Dietary Filtering: Accommodates restrictions and preferences automatically",
+      "Recipe Rating: Rate recipes to improve future suggestions",
+      "Ingredient Search: Find recipes using ingredients you have available",
+      "Cuisine Exploration: Discover new cuisines matched to your flavor profile",
+      "Free to Start: Basic recipe discovery without payment"
+    ],
+    howToUse: {
+      title: "How to Use Flavorish",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Taste Profile", description: "Sign up at flavorish.ai and complete a taste preference assessment. Rate example dishes and indicate your flavor preferences to give the AI a starting point for recommendations." },
+        { title: "Explore Suggestions", description: "Browse the personalized recipe suggestions Flavorish generates for you. Try recipes that appeal to you and rate them after cooking to improve future recommendations." },
+        { title: "Plan Your Meals", description: "Use the meal planning feature to generate a weekly meal plan from recipes matched to your preferences. The plan considers variety, nutritional balance, and your cooking time constraints." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Taste-Based Discovery", description: "Generic recipe sites recommend the same popular recipes to everyone. Flavorish recommends recipes based on your actual taste preferences which produces suggestions you are more likely to genuinely enjoy" },
+      { title: "Learning System", description: "A recommendation system that improves as you rate more recipes produces better suggestions over time - making Flavorish more useful the longer you use it" },
+      { title: "Palate Expansion", description: "Suggesting new recipes within your established flavor profile helps you discover new dishes without the risk of cooking something you end up not enjoying" },
+      { title: "Reduced Decision Fatigue", description: "Deciding what to cook is a daily challenge. Personalized suggestions that you trust make meal planning faster and less mentally taxing" }
+    ],
+    useCases: [
+      { title: "Food Enthusiasts Wanting New Recipes", description: "People who love cooking and want to expand their recipe repertoire use Flavorish to discover new dishes that genuinely fit their taste" },
+      { title: "Meal Planners", description: "People who plan their weekly meals use Flavorish to generate meal plans they are actually excited to cook rather than defaulting to the same rotation" },
+      { title: "Adventurous Eaters", description: "Food lovers who enjoy exploring new cuisines use Flavorish to discover recipes from unfamiliar culinary traditions that match their established flavor preferences" }
+    ]
+  },
+  "cookaifood": {
+    whatIs: "CookAI Food is an AI-powered cooking assistant that generates recipes, provides step-by-step cooking guidance, and helps home cooks improve their culinary skills. It creates recipes based on available ingredients, dietary preferences, and skill level, and provides real-time cooking assistance as you work through a recipe. For home cooks who want both recipe ideas and in-kitchen support, CookAI Food provides end-to-end cooking assistance from idea to finished dish.",
+    features: [
+      "Recipe Generation: Create recipes from ingredients you have available",
+      "Step-by-Step Guidance: Detailed cooking instructions with tips at each step",
+      "Skill Level Adaptation: Recipes appropriate for your cooking experience",
+      "Dietary Accommodation: Recipes that meet your dietary requirements",
+      "Ingredient Substitution: Suggest alternatives for missing ingredients",
+      "Technique Explanation: Clear explanation of cooking methods and techniques",
+      "Cooking Timer: Built-in timers for each cooking step",
+      "Free to Use: Basic recipe generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Cookaifood",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Tell CookAI What You Have", description: "Open CookAI Food and enter the ingredients you have available. Include any dietary restrictions and indicate your cooking skill level for appropriately complex recipes." },
+        { title: "Get Your Recipe", description: "CookAI generates a complete recipe with ingredients, quantities, and step-by-step instructions. Review the full recipe before you start cooking." },
+        { title: "Cook with AI Support", description: "Follow the step-by-step guidance as you cook. Ask CookAI any questions about techniques, substitutions, or adjustments you need to make based on what is actually happening in your kitchen." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Ingredient-First Approach", description: "Building a recipe around what you have rather than shopping for specific ingredients reduces food waste and makes cooking more flexible and economical" },
+      { title: "In-Kitchen Support", description: "Having AI assistance available while you are actually cooking addresses the most common home cook need - getting help at the moment a problem arises rather than having to stop and search" },
+      { title: "Skill-Appropriate Recipes", description: "Recipes that match your skill level produce better outcomes and more confidence than recipes that are too advanced or too simple for your cooking stage" },
+      { title: "Technique Education", description: "Explaining the why behind cooking techniques builds culinary knowledge that makes cooks more capable and confident over time" }
+    ],
+    useCases: [
+      { title: "Home Cooks Using What They Have", description: "People who want to cook with ingredients already in their kitchen use CookAI Food for creative recipe ideas that minimize shopping" },
+      { title: "Beginner Cooks Building Skills", description: "People learning to cook use CookAI Food for skill-appropriate recipes and in-kitchen guidance that builds their culinary confidence" },
+      { title: "Busy Cooks Wanting Efficiency", description: "People with limited cooking time use CookAI Food for quick recipes that use available ingredients and minimize decision-making" }
+    ]
+  },
   "biblepics": {
     whatIs: "BiblePics is an AI image generation platform that creates visual illustrations of Bible stories, scripture passages, and religious scenes. It uses AI to generate artwork depicting biblical narratives, helping churches, educators, and individuals create visual content for sermons, Bible study materials, social media, and personal devotion. For Christian content creators who need biblically-themed imagery without the cost of commissioning custom artwork, BiblePics provides accessible AI-generated religious visuals.",
     features: [
