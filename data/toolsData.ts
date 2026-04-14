@@ -1269,6 +1269,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "safespelling", name: "SafeSpelling", description: "AI-powered spell checking tool", url: "", upvotes: 189, verified: false, rating: 4.1, icon: "🛡️", category: "writing-editing", subcategory: "ai-spell-check" }
     ],
     "ai-story-generator": [
+      { id: "perchance-ai", name: "Perchance AI", description: "AI chat and creative story generation platform", url: "https://perchance.org/ai-chat", upvotes: 876, verified: true, rating: 4.4, icon: "🎲", category: "writing-editing", subcategory: "ai-story-generator" },
       { id: "dreampress-ai", name: "DreamPress AI", description: "AI story generation platform", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "💭", category: "writing-editing", subcategory: "ai-story-generator" },
       { id: "dreamgen", name: "DreamGen", description: "AI story and content generator", url: "", upvotes: 345, verified: false, rating: 4.3, icon: "🌙", category: "writing-editing", subcategory: "ai-story-generator" }
     ],
