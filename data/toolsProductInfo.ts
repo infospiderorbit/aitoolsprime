@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "flowgpt": {
+    whatIs: "FlowGPT is a community platform for discovering, sharing, and using ChatGPT prompts. It hosts thousands of prompts created by the community across categories like productivity, coding, creative writing, roleplay, and education. Users can browse prompts, use them directly in ChatGPT, rate and comment on them, and share their own creations. For people who want to get more from ChatGPT without writing complex prompts themselves, FlowGPT provides a library of community-tested prompts that work.",
+    features: [
+      "Prompt Library: Thousands of community-created prompts across all categories",
+      "Prompt Discovery: Browse and search prompts by category and use case",
+      "Direct Use: Apply prompts directly to AI tools without copy-paste",
+      "Community Ratings: See which prompts other users find most valuable",
+      "Prompt Sharing: Publish your own prompts for others to use",
+      "Character AI: Roleplay and character-based prompt collections",
+      "Productivity Prompts: Work and business focused prompt collections",
+      "Free Access: Browse and use prompts without payment"
+    ],
+    howToUse: {
+      title: "How to Use Flowgpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Library", description: "Go to flowgpt.com and browse prompts by category - productivity, coding, creative writing, or others. Use the search to find prompts for a specific task." },
+        { title: "Try a Prompt", description: "Select a prompt that fits your need and use it with ChatGPT or your preferred AI tool. Community ratings help identify which prompts consistently deliver good results." },
+        { title: "Share Your Own", description: "When you create a prompt that works well, share it on FlowGPT for others to benefit from and build your reputation in the community." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Community Curation", description: "Thousands of users testing and rating prompts surfaces the ones that actually work well - which is more reliable than trying random prompts yourself" },
+      { title: "Discovery Value", description: "Finding prompts for use cases you had not thought of expands how you use AI tools. Browsing FlowGPT categories often surfaces capabilities you did not know to look for" },
+      { title: "Learning Resource", description: "Seeing how effective prompts are structured teaches prompt writing skills through examples rather than abstract instruction" },
+      { title: "Time Saving", description: "Starting from a community-tested prompt is faster than writing one from scratch - especially for complex or specialized prompts that require significant engineering" }
+    ],
+    useCases: [
+      { title: "ChatGPT Users Wanting Better Results", description: "People who use ChatGPT regularly use FlowGPT to find prompts that produce better outputs for their specific needs" },
+      { title: "Professionals Integrating AI into Work", description: "Business users find work-specific prompts for tasks like email writing, analysis, and presentation preparation" },
+      { title: "Developers and Technical Users", description: "Programmers use FlowGPT for coding prompts that help with specific languages, debugging approaches, and technical documentation" }
+    ]
+  },
+  "scribbr": {
+    whatIs: "Scribbr is an academic writing platform that provides AI-powered and human-powered services for students and researchers. Its core offerings include a plagiarism checker, citation generator, grammar checker, and paraphrasing tool - all designed specifically for academic writing standards. Scribbr is also known for its extensive library of free guides covering citation styles, academic writing conventions, and research methodology. For students who want to submit polished, properly cited academic work, Scribbr covers the full range of writing quality and integrity needs.",
+    features: [
+      "Plagiarism Checker: Academic plagiarism detection against published sources",
+      "Citation Generator: APA, MLA, Chicago, and other citation format generation",
+      "Grammar Checker: Academic grammar and style checking",
+      "Paraphrasing Tool: Rewrite content while maintaining academic tone",
+      "Free Guides: Extensive library of academic writing guides",
+      "AI Proofreader: AI-powered proofreading for academic documents",
+      "Human Proofreading: Professional human editing service for important submissions",
+      "Multiple Citation Styles: Support for all major academic citation formats"
+    ],
+    howToUse: {
+      title: "How to Use Scribbr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Check Your Citations", description: "Sign up at scribbr.com and use the citation generator to create properly formatted references for your sources. Select your required citation style and enter source details." },
+        { title: "Run Plagiarism Check", description: "Upload your paper to the plagiarism checker before submission. Review the similarity report and address any flagged sections with proper citation or paraphrasing." },
+        { title: "Polish Your Writing", description: "Use the grammar checker and AI proofreader to identify writing issues. For high-stakes submissions like dissertations, consider the human proofreading service for professional-level editing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Academic Specialization", description: "General grammar checkers do not understand academic writing conventions. Scribbr is calibrated specifically for academic prose - understanding hedging language, passive voice conventions, and formal register" },
+      { title: "Citation Accuracy", description: "Incorrect citations are a common academic mistake that affects credibility. Scribbr citation generator produces properly formatted references that meet journal and institution requirements" },
+      { title: "Pre-Submission Confidence", description: "Running plagiarism and grammar checks before submission identifies issues while there is still time to fix them rather than discovering them in feedback after grading" },
+      { title: "Free Guide Library", description: "The extensive free guides on citation styles and academic writing conventions provide the knowledge context that helps students understand why specific formatting and style choices matter" }
+    ],
+    useCases: [
+      { title: "University Students Writing Papers", description: "Students at all levels use Scribbr to ensure their papers meet academic integrity and quality standards before submission" },
+      { title: "Thesis and Dissertation Writers", description: "Graduate students writing major papers use Scribbr for thorough plagiarism checking and professional proofreading on their most important academic work" },
+      { title: "International Students", description: "Non-native English speakers use Scribbr to bring their writing up to the language standards that English-language academic institutions expect" }
+    ]
+  },
+  "teachers-report-writer": {
+    whatIs: "Teachers Report Writer is an AI tool that helps educators write student report comments quickly. Writing individualized comments for every student in a class is one of the most time-consuming administrative tasks teachers face. This tool generates personalized report card comments based on student name, subject, performance level, and specific observations the teacher provides. The output sounds natural and teacher-written rather than generic, saving hours of repetitive writing while maintaining the personal quality that parents expect from report comments.",
+    features: [
+      "Report Comment Generation: AI-written student report comments from teacher inputs",
+      "Personalization: Comments customized with student name and specific observations",
+      "Subject Specific: Comments calibrated for different subjects and age groups",
+      "Tone Control: Adjust from encouraging to constructive depending on student performance",
+      "Bulk Generation: Process multiple students efficiently",
+      "Natural Language: Output that reads as teacher-written not AI-generated",
+      "Edit Friendly: Easy to customize generated comments before finalizing",
+      "Free to Try: Basic comment generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Teachers Report Writer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Student Details", description: "Sign up and enter the student name, subject, grade level, and performance descriptors. Include any specific achievements or areas for improvement you want highlighted." },
+        { title: "Generate Comments", description: "The AI produces a personalized report comment that incorporates your inputs in natural, teacher-appropriate language. Review the output for accuracy and tone." },
+        { title: "Customize and Export", description: "Make any final adjustments to reflect your specific knowledge of the student and export the comments for your report system." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Time Recovery for Teachers", description: "Writing thirty individualized report comments per class takes hours. AI generation reduces this to minutes while maintaining the personalized quality that generic templates cannot provide" },
+      { title: "Writer Block Relief", description: "Starting with a well-written AI draft is easier than facing a blank comment field for each student. The draft gives teachers something to refine rather than create from scratch" },
+      { title: "Consistency of Quality", description: "Comments written late in a long report-writing session are often weaker than early ones. AI assistance maintains consistent quality across all students regardless of fatigue" },
+      { title: "Natural Output", description: "Report comments that sound natural and teacher-written rather than robotic maintain the personal communication value that parents look for in school reports" }
+    ],
+    useCases: [
+      { title: "Primary and Secondary School Teachers", description: "Classroom teachers use the tool to write report comments for all their students efficiently without sacrificing the personalized quality parents expect" },
+      { title: "Subject Teachers with Large Classes", description: "Secondary school teachers who teach many students across multiple classes use the tool to manage the volume of report writing required each term" },
+      { title: "Special Education Teachers", description: "SPED teachers use the tool for the additional documentation and reporting requirements that come with individualized education programs" }
+    ]
+  },
+  "opus-clip": {
+    whatIs: "Opus Clip is an AI video repurposing tool that automatically extracts the most engaging short clips from long-form videos for social media distribution. It analyzes your video content for the most compelling moments, reformats them to vertical aspect ratio for TikTok and Reels, adds captions, and arranges multiple clips from a single video. For podcasters, YouTubers, and content creators who produce long videos and want to extend their reach to short-form platforms without manual editing work, Opus Clip automates the repurposing workflow.",
+    features: [
+      "AI Clip Selection: Automatically identifies the most engaging moments in long videos",
+      "Vertical Reformatting: Converts horizontal video to vertical for TikTok and Reels",
+      "Auto Captions: Adds accurate subtitles to every generated clip",
+      "Highlight Compilation: Creates multiple clips from one long video",
+      "Speaker Tracking: Keeps speakers in frame during vertical cropping",
+      "Virality Score: Rates each clip on its likely social media performance",
+      "Direct Publishing: Post clips directly to social platforms",
+      "Free Plan: Try clip generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Opus Clip",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Sign up at opus.pro and upload your long-form video. Opus Clip accepts recordings from YouTube, Zoom, podcasts, and other common video sources." },
+        { title: "Review AI-Selected Clips", description: "Opus Clip analyzes your video and presents the clips it identified as most engaging with virality scores. Preview each clip and select the ones that fit your content strategy." },
+        { title: "Export and Publish", description: "Download your approved clips with captions applied or publish directly to your connected social media accounts." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated Selection Intelligence", description: "Identifying the best moments in an hour-long video manually takes significant time. AI analysis surfaces the high-engagement moments much faster than human review" },
+      { title: "Virality Scoring", description: "The virality score gives creators a data-informed ranking of their clips rather than relying entirely on intuition about which moments will perform best on social media" },
+      { title: "Captions as Standard", description: "Short-form video performs significantly better with captions since most viewers watch without sound. Auto captions make this best practice the default rather than an extra step" },
+      { title: "One Video Many Clips", description: "A single long recording can become five to ten short clips - multiplying the distribution value of content that already required significant production time to create" }
+    ],
+    useCases: [
+      { title: "Podcasters Building Social Presence", description: "Podcast creators use Opus Clip to turn their audio and video episodes into short clips for TikTok, Instagram, and YouTube Shorts without manual editing" },
+      { title: "YouTubers Expanding to Short-Form", description: "Long-form YouTube creators use Opus Clip to repurpose their existing content for Shorts and Reels without producing separate short-form content from scratch" },
+      { title: "Webinar and Event Producers", description: "Companies that run webinars use Opus Clip to extract the best moments as shareable clips that extend the reach of their recorded content" }
+    ]
+  },
+  "mara-ai": {
+    whatIs: "MARA AI is an AI-powered review management platform that helps businesses respond to customer reviews across Google, TripAdvisor, Booking.com, and other review platforms efficiently. It generates personalized, on-brand review responses automatically - addressing specific points raised in each review rather than using generic templates. For hospitality businesses, restaurants, and service companies that receive high volumes of reviews and need to respond consistently to maintain their online reputation, MARA dramatically reduces the time spent on review management.",
+    features: [
+      "AI Review Responses: Generate personalized responses to customer reviews automatically",
+      "Multi-Platform: Manage reviews from Google, TripAdvisor, Booking.com, and others",
+      "Brand Voice: Responses match your established tone and style",
+      "Personalization: Each response addresses the specific content of that review",
+      "Bulk Response: Process many reviews efficiently in one session",
+      "Sentiment Handling: Appropriate tone for positive, neutral, and negative reviews",
+      "Analytics: Track review performance and response rates",
+      "Free Trial: Test review response generation before committing"
+    ],
+    howToUse: {
+      title: "How to Use Mara Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Review Platforms", description: "Sign up at mara-solutions.com and connect your review profiles from Google, TripAdvisor, and other platforms. MARA pulls in your pending reviews for response." },
+        { title: "Review and Customize Responses", description: "MARA generates a personalized response for each review. Review the generated responses and make any adjustments that better reflect your specific situation before publishing." },
+        { title: "Publish and Monitor", description: "Publish your responses directly from MARA and monitor your review response rate and overall rating trends in the analytics dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization at Scale", description: "Generic review responses that ignore the specific content of a review perform worse than personalized ones. MARA generates responses that address what each reviewer actually said" },
+      { title: "Response Rate Impact", description: "Responding to reviews improves overall rating performance and shows potential customers that the business engages with feedback. MARA makes a high response rate achievable without significant time investment" },
+      { title: "Hospitality Volume", description: "Hotels and restaurants receive hundreds of reviews monthly. Manual response at that volume is impractical. MARA makes systematic review management feasible" },
+      { title: "Negative Review Handling", description: "Responding appropriately to negative reviews is important for reputation management but requires careful tone. MARA generates balanced responses to criticism that address concerns professionally" }
+    ],
+    useCases: [
+      { title: "Hotels and Hospitality Businesses", description: "Hotels with high review volumes use MARA to maintain responsive engagement with guest feedback across multiple booking platforms" },
+      { title: "Restaurants and Food Businesses", description: "Restaurants use MARA to manage their Google and TripAdvisor reviews without dedicating significant staff time to writing individual responses" },
+      { title: "Multi-Location Businesses", description: "Companies with multiple locations use MARA to maintain consistent review response quality across all sites from one centralized platform" }
+    ]
+  },
+  "ai-sentence-generator": {
+    whatIs: "AI Sentence Generator is a free tool that creates original sentences from keywords or topics. It is useful for overcoming writer block, generating example sentences for language learning, creating variation in repetitive writing, or getting a starting point for a paragraph. Users enter a word, phrase, or topic and the tool generates grammatically correct, contextually appropriate sentences that can be used directly or adapted for their specific needs.",
+    features: [
+      "Sentence Generation: Create original sentences from keywords or topics",
+      "Multiple Variations: Generate several different sentences on the same topic",
+      "Grammar Correct: All generated sentences are grammatically well-formed",
+      "Context Appropriate: Sentences fit the topic and intended use",
+      "Writer Block Relief: Quick starting points when you are stuck",
+      "Language Learning: Example sentences for vocabulary and grammar study",
+      "Free to Use: Sentence generation without payment or account",
+      "Instant Results: Sentences generated immediately"
+    ],
+    howToUse: {
+      title: "How to Use Ai Sentence Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Keyword", description: "Go to the AI Sentence Generator and enter your keyword, topic, or the word you want to use in a sentence. Be specific about the context if you have a particular use in mind." },
+        { title: "Generate and Review", description: "The tool generates multiple sentence options using your input. Read through them and select the one that best fits your writing context or adapt one to your specific needs." },
+        { title: "Use or Continue", description: "Copy your chosen sentence and use it in your writing, or use it as a starting point to build a full paragraph." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Writer Block Solution", description: "Staring at a blank page is paralyzing. A generated sentence gives you something to react to and build from which is often all that is needed to get writing flowing again" },
+      { title: "Language Learning Value", description: "Seeing a vocabulary word used correctly in multiple sentence contexts accelerates understanding of how the word actually works in real usage" },
+      { title: "Variation Generation", description: "Repetitive sentence structures make writing monotonous. Generating alternative sentence constructions helps writers vary their style" },
+      { title: "Speed for Simple Needs", description: "For the straightforward need of getting a sentence on a page, a free instant tool with no account requirement is the most practical option" }
+    ],
+    useCases: [
+      { title: "Students Learning English", description: "Language learners use sentence generators to see how vocabulary words are used in context and practice forming sentences in English" },
+      { title: "Writers Overcoming Block", description: "Content writers and bloggers use the tool to generate starting sentences when they know what they want to write but cannot find the opening words" },
+      { title: "Teachers Creating Examples", description: "Educators use the tool to quickly generate example sentences for vocabulary and grammar instruction" }
+    ]
+  },
+  "goodnotes": {
+    whatIs: "GoodNotes is a digital note-taking app for iPad that combines handwriting recognition with AI features to make handwritten notes searchable, organized, and smart. It is the most popular note-taking app for iPad users who prefer writing by hand with an Apple Pencil but want the organizational and search benefits of digital notes. AI features include handwriting recognition that converts written text to searchable digital text, AI-powered study tools that create flashcards and quizzes from your notes, and smart organization that keeps notes accessible.",
+    features: [
+      "Handwriting Recognition: Convert handwritten notes to searchable digital text",
+      "AI Study Tools: Generate flashcards and quizzes from your handwritten notes",
+      "PDF Annotation: Write directly on PDFs and documents",
+      "Template Library: Hundreds of notebook and planner templates",
+      "Cross-Device Sync: Access notes across iPad, iPhone, and Mac",
+      "Search Handwriting: Find content across all your handwritten notes",
+      "Organization: Notebooks, folders, and tagging system",
+      "Collaboration: Share notebooks with classmates and colleagues"
+    ],
+    howToUse: {
+      title: "How to Use Goodnotes",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Notebooks", description: "Download GoodNotes on your iPad and create notebooks for your different subjects or projects. Choose from the template library for ruled paper, blank pages, or specialized formats." },
+        { title: "Take Handwritten Notes", description: "Write naturally with your Apple Pencil. GoodNotes captures your handwriting and makes it searchable without requiring you to change how you write." },
+        { title: "Use AI Study Features", description: "After taking notes in class or from a textbook, use the AI study tools to automatically generate flashcards from your content for efficient review and exam preparation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Handwriting Preference with Digital Benefits", description: "Many people retain information better when writing by hand but need the organization and searchability of digital notes. GoodNotes provides both without compromise" },
+      { title: "Search Across Handwriting", description: "Being able to search your own handwriting across all your notebooks eliminates the problem of knowing you wrote something but not being able to find it" },
+      { title: "AI Study Generation", description: "Converting handwritten notes to flashcards automatically removes the manual work of creating study materials from your notes - making review more likely to actually happen" },
+      { title: "PDF Workflow Integration", description: "Annotating PDFs directly in GoodNotes keeps lecture slides, readings, and documents alongside related handwritten notes in one organized system" }
+    ],
+    useCases: [
+      { title: "University Students with iPads", description: "College students use GoodNotes for handwritten lecture notes that are searchable and can be converted to study materials automatically" },
+      { title: "Professionals Taking Meeting Notes", description: "Business professionals who prefer handwriting use GoodNotes for meeting notes that remain organized and searchable" },
+      { title: "Creative Professionals and Planners", description: "Designers, planners, and creative workers use GoodNotes for the combination of freeform handwriting and digital organization it provides" }
+    ]
+  },
+  "lilys-ai": {
+    whatIs: "Lilys AI is an AI study tool that helps students learn faster by generating summaries, notes, and study materials from YouTube videos, PDFs, and web content. It is particularly strong on video content - students can get structured notes from lecture videos and educational YouTube content without watching every minute. The platform creates mind maps, flashcards, and practice questions from uploaded materials, turning passive content consumption into active study resources.",
+    features: [
+      "Video Summarization: Get structured notes from YouTube videos automatically",
+      "PDF Processing: Extract and summarize content from uploaded PDFs",
+      "Mind Map Generation: Create visual mind maps from study materials",
+      "Flashcard Creation: Auto-generate flashcards for review",
+      "Practice Questions: AI-generated quiz questions from your content",
+      "Web Content: Summarize articles and web pages for study",
+      "Multiple Languages: Process content in different languages",
+      "Free Plan: Basic summarization without payment"
+    ],
+    howToUse: {
+      title: "How to Use Lilys Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Content", description: "Sign up at lilys.ai and upload your study material - paste a YouTube URL, upload a PDF, or enter a web article link." },
+        { title: "Get Your Study Materials", description: "Lilys AI processes your content and generates structured notes, a summary, and optionally a mind map. Review the materials to ensure they capture the key concepts accurately." },
+        { title: "Study Actively", description: "Use the generated flashcards and practice questions for active recall study. Active testing is more effective for retention than re-reading notes or rewatching videos." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Video Learning Efficiency", description: "Educational videos are valuable but time-consuming to review. Getting structured notes from a video in seconds rather than watching it again saves significant study time" },
+      { title: "Active Study Conversion", description: "Passive content becomes active study material through flashcard and question generation - which is more effective for retention than re-reading or rewatching" },
+      { title: "Multi-Format Flexibility", description: "Students consume study content across videos, PDFs, and web articles. Processing all these formats through one tool keeps study materials organized in one place" },
+      { title: "Language Learning Support", description: "Processing content in multiple languages makes Lilys AI useful for international students studying in a second language or language learners using native content" }
+    ],
+    useCases: [
+      { title: "University Students Studying from Video", description: "Students taking online courses or watching lecture recordings use Lilys AI to extract structured notes without watching every minute of every video" },
+      { title: "Self-Directed Learners", description: "People learning skills and knowledge independently use Lilys AI to process educational content more efficiently" },
+      { title: "Students Managing Heavy Course Loads", description: "Students with many simultaneous courses use Lilys AI to process content faster and stay on top of study requirements across all subjects" }
+    ]
+  },
   "great-headlines-ai": {
     whatIs: "Great Headlines AI is a tool that generates compelling, click-worthy headlines for blog posts, articles, and marketing content using AI. It applies proven headline formulas and psychological principles to produce titles that attract attention and drive clicks. Users enter their topic or content summary and receive multiple headline options across different angles - curiosity, benefit-focused, list format, and question-based headlines among others.",
     features: [
