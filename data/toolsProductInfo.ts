@@ -1,4 +1,202 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "bestinterest": {
+    whatIs: "BestInterest is an AI personal finance education platform that helps people understand financial concepts, make better money decisions, and improve their overall financial health. It provides clear, jargon-free explanations of financial topics, personalized guidance on common financial decisions, and educational content that builds financial literacy over time. For people who feel confused or overwhelmed by personal finance, BestInterest makes financial understanding accessible and actionable.",
+    features: [
+      "Financial Education: Clear explanations of personal finance concepts",
+      "Decision Guidance: Help with common financial decisions",
+      "Investment Basics: Accessible introduction to investing concepts",
+      "Debt Management: Strategies for handling different types of debt",
+      "Budgeting Support: Help creating and maintaining a personal budget",
+      "Retirement Planning: Basic guidance on retirement saving",
+      "Tax Concepts: Plain-language explanations of tax topics",
+      "Free Access: Core financial education without payment"
+    ],
+    howToUse: {
+      title: "How to Use Bestinterest",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Financial Question", description: "Go to bestinterest.blog and ask any financial question about budgeting, investing, debt, insurance, or any other money topic you want to understand better." },
+        { title: "Understand the Answer", description: "BestInterest provides clear jargon-free explanations that make financial concepts genuinely understandable rather than more confusing." },
+        { title: "Apply to Your Situation", description: "Use the understanding you develop to make better financial decisions in your own life. Return whenever you encounter new financial questions or decisions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Jargon-Free Communication", description: "Financial information is often presented in language that excludes rather than educates. BestInterest prioritizes clear communication that actually helps people understand" },
+      { title: "Decision Support", description: "Financial decisions made without understanding tend to be poor decisions. Education that improves understanding directly improves financial outcomes" },
+      { title: "Progressive Learning", description: "Financial literacy builds over time through accumulated understanding. Regular engagement with BestInterest gradually improves overall financial decision-making" },
+      { title: "Accessible Entry Point", description: "Many people are too embarrassed to ask basic financial questions in person. An accessible AI platform removes this barrier to financial education" }
+    ],
+    useCases: [
+      { title: "People New to Personal Finance", description: "Young adults and others beginning to manage their finances independently use BestInterest to build fundamental financial literacy" },
+      { title: "People Facing Financial Decisions", description: "Individuals facing specific financial decisions use BestInterest to understand their options" },
+      { title: "People Wanting to Improve Financial Health", description: "Those committed to improving their financial situation use BestInterest for ongoing education that supports better money management" }
+    ]
+  },
+  "aicotravel": {
+    whatIs: "AicoTravel is an AI travel planning and booking assistant that helps travelers plan trips, discover destinations, and manage their travel arrangements through an intelligent conversational interface. It combines destination recommendations with practical booking guidance, helping travelers move from inspiration to confirmed plans efficiently. For people who want a smarter travel planning experience that understands their preferences and helps them navigate the complexity of trip planning, AicoTravel provides AI-powered travel intelligence.",
+    features: [
+      "AI Travel Planning: Complete trip planning through conversational AI",
+      "Destination Recommendations: Personalized destination suggestions",
+      "Itinerary Building: Day-by-day travel plans for any destination",
+      "Booking Guidance: Help with finding and booking flights and hotels",
+      "Budget Planning: Travel plans that respect your budget constraints",
+      "Local Insights: Tips and recommendations for each destination",
+      "Multi-Destination: Planning for complex multi-city itineraries",
+      "Free to Use: Basic travel planning without payment"
+    ],
+    howToUse: {
+      title: "How to Use Aicotravel",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Share Your Travel Goals", description: "Go to aicotravel.com and describe the type of trip you want - the destination or region, travel dates, travel style, and budget range." },
+        { title: "Develop Your Itinerary", description: "AicoTravel generates destination recommendations and itinerary suggestions. Refine through conversation until you have a plan that genuinely excites you." },
+        { title: "Book and Confirm", description: "Use AicoTravel guidance to find and book your flights, accommodation, and key activities. The AI helps you navigate booking options for your specific itinerary." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversational Planning", description: "Natural conversation allows travelers to express nuanced preferences that form-based tools cannot capture - leading to plans that better match what travelers actually want" },
+      { title: "Inspiration to Action", description: "Many people have travel aspirations but struggle to translate them into concrete plans. AicoTravel bridges this gap through guided planning" },
+      { title: "Complex Itinerary Support", description: "Multi-city and multi-country trips are particularly challenging to plan. AI assistance helps manage the complexity of connecting flights, varying time zones, and diverse booking requirements" },
+      { title: "Local Knowledge Access", description: "Good travel planning requires local knowledge that most travelers lack. AI-synthesized local insights improve itinerary quality significantly" }
+    ],
+    useCases: [
+      { title: "Independent Travelers", description: "Self-organized travelers who plan their own trips use AicoTravel for smarter planning that produces better trips in less time" },
+      { title: "First-Time International Travelers", description: "People planning their first international trip use AicoTravel to navigate the complexity of international travel planning with confidence" },
+      { title: "Complex Trip Planners", description: "Travelers planning multi-destination or extended trips use AicoTravel for help managing the organizational complexity of ambitious itineraries" }
+    ]
+  },
+  "tripper-guide": {
+    whatIs: "Tripper Guide is an AI travel guide platform that provides personalized destination guides, local recommendations, and travel tips for cities and regions around the world. It generates custom travel guides based on your interests, travel style, and the specific aspects of a destination you want to explore. For travelers who want more personalized guidance than generic tourist guidebooks provide, Tripper Guide creates travel content tailored to what you specifically want to experience.",
+    features: [
+      "Personalized Guides: Custom travel guides based on your interests",
+      "Local Recommendations: Dining, activities, and hidden gems at each destination",
+      "Neighborhood Guides: Exploration guides for specific city areas",
+      "Interest Matching: Content matched to your specific travel priorities",
+      "Practical Information: Transportation, timing, and logistics guidance",
+      "Offline Access: Download guides for use without internet connection",
+      "Multi-Language: Guides available in different languages",
+      "Free to Start: Basic guide generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Tripper Guide",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Destination", description: "Go to tripperguide.com and enter your destination and travel dates. Describe your travel interests - food, history, nature, nightlife, or whatever drives your travel." },
+        { title: "Receive Your Guide", description: "Tripper Guide generates a personalized guide with recommendations matched to your specific interests. Review the content and ask for additions or changes." },
+        { title: "Explore with Confidence", description: "Use your personalized guide during your trip. The offline access means your recommendations are available even without data connection." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Interest-Based Personalization", description: "Generic guidebooks recommend the same attractions to everyone. Tripper Guide generates content based on what you specifically care about" },
+      { title: "Local Beyond Tourist", description: "Good local recommendations require knowledge that most guidebooks bury under popular tourist sites. Tripper Guide surfaces local gems appropriate to your interests" },
+      { title: "Offline Practicality", description: "Internet access is not always reliable while traveling. Offline guide access ensures your recommendations are always available when you need them" },
+      { title: "Language Accessibility", description: "Travel guides in your native language reduce the cognitive load of navigating an unfamiliar place in a foreign language" }
+    ],
+    useCases: [
+      { title: "Experience-Focused Travelers", description: "Travelers who care more about specific experiences than checking off sights use Tripper Guide for recommendations that match their travel priorities" },
+      { title: "Repeat Visitors", description: "People returning to a destination they have visited before use Tripper Guide to discover aspects they missed on their previous tourist-focused trip" },
+      { title: "Independent Explorers", description: "Travelers who prefer self-guided exploration over organized tours use Tripper Guide for the local knowledge that makes independent exploration more rewarding" }
+    ]
+  },
+  "stockstory": {
+    whatIs: "StockStory is an AI financial research platform that helps investors understand the stories behind stock performance - why specific companies are growing or declining, what competitive dynamics are affecting their business, and how management decisions are playing out in financial results. It translates complex financial data and earnings reports into clear narratives that explain what is actually happening in a business. For investors who want to understand companies more deeply than raw numbers allow, StockStory provides narrative financial intelligence.",
+    features: [
+      "Earnings Analysis: Clear explanations of earnings reports and their implications",
+      "Business Narrative: Story behind the numbers for individual companies",
+      "Competitive Analysis: How industry dynamics affect company performance",
+      "Management Assessment: Evaluation of management decisions and strategy",
+      "Growth Driver Identification: What is actually driving company performance",
+      "Risk Analysis: Key risks facing specific companies and sectors",
+      "Sector Coverage: Research across major market sectors",
+      "Free Plan: Basic stock research without payment"
+    ],
+    howToUse: {
+      title: "How to Use Stockstory",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Company", description: "Go to stockstory.com and search for the company you want to research. StockStory pulls together financial data and analyst information into a coherent business narrative." },
+        { title: "Read the Story", description: "Review the narrative analysis that explains what is happening in the business behind the financial numbers. Understand the growth drivers, risks, and competitive position clearly." },
+        { title: "Inform Your Investment", description: "Use the business narrative alongside financial metrics to form a more complete view of whether a company represents a good investment opportunity." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Narrative Over Numbers", description: "Raw financial data tells you what happened but not why. Business narratives that explain the story behind the numbers enable more informed investment judgment" },
+      { title: "Earnings Accessibility", description: "Earnings reports are dense and difficult for non-specialists to interpret. Clear plain-language analysis makes this critical information accessible to individual investors" },
+      { title: "Competitive Context", description: "A company performance only makes sense in competitive context. Analysis that explains industry dynamics produces better investment understanding than isolated company data" },
+      { title: "Management Intelligence", description: "Management quality is a crucial investment factor that financial statements alone cannot capture. Narrative analysis that assesses management decisions and strategy provides this missing dimension" }
+    ],
+    useCases: [
+      { title: "Individual Investors Doing Research", description: "Self-directed investors who manage their own portfolios use StockStory for research depth that goes beyond price charts and basic metrics" },
+      { title: "Investors New to Stock Analysis", description: "People learning to invest use StockStory to understand how to think about businesses rather than just looking at numbers" },
+      { title: "Portfolio Managers", description: "Professional investors use StockStory for efficient research that quickly surfaces the key narrative factors affecting specific investments" }
+    ]
+  },
+  "snappygen": {
+    whatIs: "SnapyGen is an AI content generation platform that creates social media posts, captions, and visual content quickly for businesses and creators. It generates platform-specific content optimized for different social media channels with appropriate tone, length, and formatting for each platform. For social media managers and content creators who need to maintain active presence across multiple platforms, SnapyGen provides fast, platform-appropriate content generation.",
+    features: [
+      "Social Media Posts: Generate posts for Instagram, Twitter, LinkedIn, and others",
+      "Caption Generation: Create engaging captions for photos and videos",
+      "Platform Optimization: Content formatted appropriately for each platform",
+      "Brand Voice: Maintain consistent tone across generated content",
+      "Hashtag Suggestions: Relevant hashtags for better content reach",
+      "Content Calendar: Plan and schedule generated content",
+      "Multiple Formats: Posts, stories, and short-form video scripts",
+      "Free to Try: Basic content generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Snappygen",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Content Need", description: "Sign up at snappygen.com and describe the social media content you need - the platform, topic, tone, and any specific points you want to include." },
+        { title: "Review Generated Content", description: "SnapyGen generates platform-appropriate content with captions and hashtags. Review the output and adjust anything that needs to better fit your brand voice." },
+        { title: "Schedule and Publish", description: "Use the content calendar to schedule your generated posts at optimal times. Maintain consistent social media presence without daily manual content creation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Platform Specificity", description: "Content that works on LinkedIn reads very differently from what works on TikTok or Instagram. Platform-specific generation produces more appropriate and effective content than one-size-fits-all writing" },
+      { title: "Volume for Consistency", description: "Consistent social media presence requires more content than most creators can produce manually. SnapyGen enables the volume that consistency demands" },
+      { title: "Brand Voice Maintenance", description: "High-volume AI content risks becoming generic. Brand voice training ensures generated content maintains the distinctive tone that makes a brand recognizable" },
+      { title: "Time Efficiency", description: "Daily social media content creation consumes significant time. Batch generation through SnapyGen compresses this time investment dramatically" }
+    ],
+    useCases: [
+      { title: "Social Media Managers", description: "Professionals managing social media for businesses use SnapyGen to maintain posting frequency across multiple platforms efficiently" },
+      { title: "Small Business Owners", description: "Business owners who handle their own social media use SnapyGen to stay consistently active without daily content creation effort" },
+      { title: "Content Creators and Influencers", description: "Individual creators use SnapyGen to supplement their original content with additional posts that keep their channels active between major content releases" }
+    ]
+  },
+  "lovegeniusai": {
+    whatIs: "LoveGenius AI is an AI dating profile optimizer and coach that helps people create more effective dating profiles and improve their online dating results. It analyzes your current profile, suggests improvements to your bio and photo selection, and provides coaching on how to present yourself more attractively to potential matches. For people who feel their dating app profiles are not performing as well as they should, LoveGenius provides data-informed optimization that improves match rates.",
+    features: [
+      "Profile Analysis: AI review of your dating profile strengths and weaknesses",
+      "Bio Optimization: Rewrite suggestions for a more compelling profile bio",
+      "Photo Guidance: Advice on photo selection and ordering",
+      "Match Rate Improvement: Changes that measurably improve your results",
+      "Conversation Tips: Guidance on how to start and maintain conversations",
+      "Platform Specific: Advice tailored to Tinder, Hinge, Bumble, and others",
+      "Authentic Presentation: Improvements that still sound genuinely like you",
+      "Free Analysis: Basic profile review without payment"
+    ],
+    howToUse: {
+      title: "How to Use Lovegeniusai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Profile", description: "Sign up at lovegeniusai.com and submit your current dating profile for analysis. Include your bio, photos, and the platform you are using." },
+        { title: "Review the Analysis", description: "LoveGenius identifies specific weaknesses in your profile and provides concrete suggestions for improvement - not generic advice but specific changes to your actual content." },
+        { title: "Implement and Test", description: "Apply the suggested improvements and observe the difference in your match rate. The data-driven approach produces measurable improvements rather than subjective changes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Specific Over Generic", description: "Generic dating advice like be yourself is not useful. LoveGenius analyzes your actual profile and provides specific, actionable improvements to your particular content" },
+      { title: "Photo Psychology", description: "Photo selection and ordering significantly affects match rates in ways most people do not understand. Data-informed photo guidance produces measurable improvements" },
+      { title: "Authentic Optimization", description: "The best profile improvements make you more appealing while still being authentically you - LoveGenius optimizes presentation without creating a false impression" },
+      { title: "Platform Specificity", description: "Each dating platform has different dynamics and user expectations. Platform-specific advice produces better results than generic dating profile tips" }
+    ],
+    useCases: [
+      { title: "People with Low Match Rates", description: "Dating app users who are not getting the matches they want use LoveGenius to identify and fix the specific profile issues reducing their results" },
+      { title: "People New to Dating Apps", description: "Those setting up their first dating profiles use LoveGenius for expert guidance on creating an effective profile from the start" },
+      { title: "People Returning to Dating", description: "Those re-entering the dating scene after a relationship use LoveGenius to create a fresh, effective profile that reflects who they are now" }
+    ]
+  },
   "flirtlikepro": {
     whatIs: "FlirtLikePro is an AI dating coach and conversation assistant that helps people improve their flirting skills and dating conversations. It provides personalized coaching on how to be more engaging, witty, and charming in romantic interactions, with specific message suggestions and conversation strategies. For people who want to improve their dating life but feel uncertain about how to flirt effectively, FlirtLikePro provides practical, personalized coaching.",
     features: [
