@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "safespelling": {
+    whatIs: "SafeSpelling is an AI-powered spelling and grammar correction tool that helps users write error-free content quickly. It checks text for spelling mistakes, grammar errors, punctuation issues, and style improvements, providing corrections with explanations. The tool is designed for simplicity and speed - paste your text, get corrections, and move on without a complicated interface or subscription requirement.",
+    features: [
+      "Spelling Check: Identify and fix spelling mistakes automatically",
+      "Grammar Correction: Catch grammar errors and suggest fixes",
+      "Punctuation Check: Correct punctuation issues throughout your text",
+      "Style Suggestions: Improve sentence clarity and flow",
+      "Instant Results: Corrections returned immediately",
+      "Explanation Included: Understand why each correction was made",
+      "Multiple Languages: Spell checking across different languages",
+      "Free to Use: Basic spell checking without payment"
+    ],
+    howToUse: {
+      title: "How to Use Safespelling",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Text", description: "Go to SafeSpelling and paste the text you want to check. The tool accepts any length of content from a single sentence to a full document." },
+        { title: "Review Corrections", description: "SafeSpelling highlights errors and suggests corrections with brief explanations of each issue. Review the suggestions and apply the ones that improve your text." },
+        { title: "Copy and Use", description: "Copy the corrected text and use it in your document, email, or wherever you need error-free writing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Explanation Value", description: "Knowing why something is wrong is more useful than just seeing it corrected. SafeSpelling includes explanations that help writers understand the rules behind the corrections" },
+      { title: "Speed for Quick Checks", description: "A fast tool with no friction is more likely to be used consistently than a complex one. SafeSpelling prioritizes quick results for the common use case of checking text before sending" },
+      { title: "Free Accessibility", description: "Spell checking is a basic writing need. Free access without account creation makes SafeSpelling practical for anyone who needs a quick check without tool overhead" },
+      { title: "Multi-Language Support", description: "Supporting multiple languages makes SafeSpelling useful for writers who work in languages other than English" }
+    ],
+    useCases: [
+      { title: "Professionals Checking Communications", description: "Business professionals use SafeSpelling to quickly check emails and documents before sending to ensure error-free professional communication" },
+      { title: "Students Proofreading Work", description: "Students use SafeSpelling as a final check before submitting assignments to catch any remaining spelling and grammar errors" },
+      { title: "Non-Native English Writers", description: "People writing in English as a second language use SafeSpelling to catch the errors that are harder to self-identify without native language intuition" }
+    ]
+  },
+  "clideo": {
+    whatIs: "Clideo is an online video editing platform that provides a collection of browser-based video tools for common editing tasks - cutting, merging, compressing, adding subtitles, changing aspect ratios, and converting between formats. It is designed for people who need to perform specific video editing tasks without learning a full video editor. Each tool is focused on one task and works immediately in the browser without downloading software, making it practical for quick edits when you do not need the full capabilities of a dedicated video editor.",
+    features: [
+      "Video Cutter: Trim and cut video clips to specific lengths",
+      "Video Merger: Combine multiple video clips into one",
+      "Video Compressor: Reduce file size without significant quality loss",
+      "Subtitle Adder: Add text subtitles to any video",
+      "Aspect Ratio Changer: Resize video for different platform requirements",
+      "Format Converter: Convert between video formats",
+      "Speed Changer: Speed up or slow down video playback",
+      "Free Plan: Basic video editing without payment"
+    ],
+    howToUse: {
+      title: "How to Use Clideo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Go to clideo.com and select the specific tool you need for your editing task. Each tool is clearly labeled for its function." },
+        { title: "Upload Your Video", description: "Upload your video file to the selected tool. Clideo processes videos in the cloud so there are no hardware limitations on what you can edit." },
+        { title: "Edit and Download", description: "Apply your edit - cut, merge, compress, or convert - and download the result. The whole process typically takes minutes for most common editing tasks." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Task-Focused Simplicity", description: "Full video editors are powerful but complex. When you just need to cut a clip or change an aspect ratio, a simple task-focused tool is faster and less frustrating than opening a full editor" },
+      { title: "No Installation Required", description: "Browser-based editing means no downloads, no software management, and no hardware compatibility issues - you edit from any computer with a browser" },
+      { title: "Format Flexibility", description: "Video format compatibility is a constant practical problem. Clideo format conversion handles the technical details of making videos work across different platforms and devices" },
+      { title: "Compression Value", description: "Large video files are a practical problem for sharing and storage. Clideo compression reduces file sizes to manageable levels for email, web upload, and storage" }
+    ],
+    useCases: [
+      { title: "Social Media Managers", description: "Marketing professionals use Clideo to quickly resize and reformat videos for different social media platform requirements" },
+      { title: "Content Creators Doing Quick Edits", description: "Video creators use Clideo for quick specific edits - a trim here, a merge there - without opening their full video editing software" },
+      { title: "Business Professionals Sharing Videos", description: "Office workers use Clideo to compress large video files before emailing or uploading to shared platforms" }
+    ]
+  },
+  "otter-ai": {
+    whatIs: "Otter.ai is one of the most widely used AI meeting transcription and note-taking tools, trusted by millions of users for converting spoken meetings into searchable text transcripts. It joins your Zoom, Google Meet, and Teams calls automatically, transcribes in real time, identifies different speakers, generates meeting summaries, and extracts action items. The collaborative features let meeting participants highlight, comment on, and share specific parts of the transcript. For anyone who attends regular meetings and wants accurate records without manual note-taking, Otter.ai is one of the most established and reliable options.",
+    features: [
+      "Real-Time Transcription: Live transcription during meetings as they happen",
+      "Meeting Summary: AI-generated summary of key points after each meeting",
+      "Action Item Detection: Automatically identifies tasks and next steps",
+      "Speaker Identification: Labels each participant in the transcript",
+      "Zoom and Meet Integration: Automatic bot joins your scheduled meetings",
+      "Collaborative Highlights: Team members can highlight and comment on transcripts",
+      "Search Transcripts: Find specific content across all your meeting history",
+      "Free Plan: 300 transcription minutes per month free"
+    ],
+    howToUse: {
+      title: "How to Use Otter Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Calendar", description: "Sign up at otter.ai and connect your Google or Microsoft calendar. Otter automatically joins your scheduled video meetings without requiring manual activation for each call." },
+        { title: "Attend Your Meeting", description: "Your Otter bot joins the meeting and transcribes in real time. You can watch the live transcript appear during the meeting or focus entirely on the conversation." },
+        { title: "Review and Share", description: "After the meeting Otter delivers a summary with action items. Review the transcript, highlight important sections, and share with participants or your team." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Established Reliability", description: "Otter.ai has been the reference tool for AI meeting transcription for years and its accuracy and reliability reflect that maturity" },
+      { title: "Collaborative Transcript", description: "The ability for multiple meeting participants to highlight and comment on the same transcript creates a shared record that the whole team can work with rather than one person notes" },
+      { title: "Search Value", description: "A searchable archive of all meeting transcripts lets you find specific discussions from months ago instantly - which changes how useful meeting records actually are" },
+      { title: "Free Tier Substance", description: "300 minutes per month free is enough for moderate meeting users to get genuine value before needing to upgrade to a paid plan" }
+    ],
+    useCases: [
+      { title: "Professionals Attending Regular Meetings", description: "Managers, consultants, and business professionals use Otter.ai to maintain accurate meeting records without the distraction of manual note-taking" },
+      { title: "Remote Teams", description: "Distributed teams use Otter.ai to keep everyone informed about meetings across time zones and ensure all participants have access to the same record" },
+      { title: "Students and Researchers", description: "Students recording lectures and researchers documenting interviews use Otter.ai for accurate transcription of important spoken content" }
+    ]
+  },
+  "chatpulse": {
+    whatIs: "ChatPulse is an AI analytics platform for WhatsApp that analyzes conversation data to provide insights about communication patterns, response times, sentiment, and relationship dynamics. It helps individuals and businesses understand how they communicate on WhatsApp - identifying peak communication times, analyzing message sentiment, tracking response patterns, and providing insights that improve communication effectiveness. For businesses using WhatsApp for customer communication and individuals wanting to understand their own messaging patterns, ChatPulse provides data-driven communication intelligence.",
+    features: [
+      "Conversation Analytics: Analyze WhatsApp communication patterns and metrics",
+      "Response Time Tracking: Understand how quickly conversations are being responded to",
+      "Sentiment Analysis: Identify the emotional tone of WhatsApp conversations",
+      "Communication Patterns: Discover peak messaging times and frequency",
+      "Relationship Insights: Understand dynamics across different conversations",
+      "Business Analytics: Track customer communication metrics for WhatsApp Business",
+      "Export Reports: Download analytics for documentation and review",
+      "Privacy Conscious: Analysis designed with data privacy in mind"
+    ],
+    howToUse: {
+      title: "How to Use Chatpulse",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your WhatsApp", description: "Sign up at chatpulse.ai and connect your WhatsApp account following the setup instructions. ChatPulse accesses your conversation data to begin analysis." },
+        { title: "Explore Your Analytics", description: "Browse the analytics dashboard to understand your communication patterns - response times, message frequency, sentiment trends, and other metrics across your conversations." },
+        { title: "Apply the Insights", description: "Use the insights to improve your communication - respond more quickly to important contacts, understand how your communication style affects relationships, or track business communication metrics." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Communication Self-Awareness", description: "Most people have no data about how they actually communicate - how quickly they respond, what time of day they are most active, or how the tone of their messages varies. ChatPulse makes this visible" },
+      { title: "Business Communication Tracking", description: "For businesses using WhatsApp Business, understanding response times and conversation patterns is operationally useful for improving customer service quality" },
+      { title: "Sentiment Intelligence", description: "Understanding the emotional tone of ongoing conversations helps people and businesses respond more appropriately and identify when communication is becoming strained" },
+      { title: "Pattern Recognition", description: "Seeing communication patterns over time reveals habits that are invisible in day-to-day messaging but significant in aggregate" }
+    ],
+    useCases: [
+      { title: "Individuals Reviewing Their Communication", description: "People who want to understand and improve their personal communication habits use ChatPulse for data-driven self-awareness" },
+      { title: "Businesses Using WhatsApp Customer Service", description: "Companies that handle customer communication through WhatsApp use ChatPulse to monitor team response times and communication quality" },
+      { title: "Relationship-Focused Users", description: "People who want to understand the dynamics of their important relationships use ChatPulse insights to communicate more intentionally" }
+    ]
+  },
+  "textgpt": {
+    whatIs: "TextGPT is a service that brings ChatGPT capabilities to SMS text messaging, allowing users to interact with AI through standard text messages without needing a smartphone app or internet access beyond basic SMS. Users text their questions and requests to a phone number and receive AI responses back as text messages. For people who want AI assistance accessible through the simplest possible interface - a text message - TextGPT removes the app and internet barriers.",
+    features: [
+      "SMS AI Access: Use ChatGPT capabilities through standard text messages",
+      "No App Required: Interact with AI without downloading any application",
+      "Phone Number Access: Simple phone number to text for AI responses",
+      "Question Answering: Get answers to questions via SMS",
+      "Content Generation: Request written content through text message",
+      "Translation: Translate text through SMS interface",
+      "Reminders: Set reminders and get assistance via text",
+      "Wide Device Compatibility: Works on any phone that can send SMS"
+    ],
+    howToUse: {
+      title: "How to Use Textgpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Save the Number", description: "Save the TextGPT phone number to your contacts. No app download or account setup required - just having the number is enough to get started." },
+        { title: "Send Your Message", description: "Text your question, request, or task to the TextGPT number just as you would text a person. Write naturally and the AI responds with helpful answers." },
+        { title: "Continue the Conversation", description: "Reply to continue the conversation with follow-up questions or new requests. TextGPT maintains context within a conversation session." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessibility Through Simplicity", description: "SMS is the most universally accessible communication method - it works on every phone without apps or internet beyond basic mobile service. TextGPT makes AI accessible through this universal interface" },
+      { title: "No-App Convenience", description: "Many people prefer not to download another app for occasional use. SMS access means AI is available without adding to your app collection" },
+      { title: "Low-Data Environments", description: "In areas with limited data connectivity, SMS remains reliable when internet-dependent apps fail. TextGPT works where app-based AI cannot" },
+      { title: "Familiar Interface", description: "Texting is the most familiar communication interface for many people. Interacting with AI through texting removes the learning curve of new app interfaces" }
+    ],
+    useCases: [
+      { title: "People Without Smartphone Data Plans", description: "Users with limited data plans or basic phone plans use TextGPT to access AI capabilities through SMS without consuming data" },
+      { title: "Users Preferring Simple Interfaces", description: "People who want AI help without app complexity use TextGPT for straightforward text-based AI access" },
+      { title: "Travelers and International Users", description: "People traveling with limited data access use TextGPT when SMS is available but internet connectivity is unreliable" }
+    ]
+  },
+  "academicideas": {
+    whatIs: "AcademicIdeas is an AI tool that helps students, researchers, and academics generate research topics, thesis ideas, and academic paper concepts. It takes a broad subject area and generates specific, researchable ideas with enough focus to form viable academic projects. For students staring at a blank page trying to narrow a subject into a viable research question, AcademicIdeas provides the starting point that gets the research process moving.",
+    features: [
+      "Research Topic Generation: Create specific research topics from broad subject areas",
+      "Thesis Ideas: Generate viable thesis statements and research questions",
+      "Literature Gap Identification: Suggest areas where research is lacking",
+      "Interdisciplinary Ideas: Topics that bridge multiple academic fields",
+      "Methodology Suggestions: Research approach recommendations for each topic",
+      "Academic Level Calibration: Topics appropriate for undergraduate or graduate work",
+      "Subject Variety: Ideas across humanities, sciences, social sciences, and more",
+      "Free to Use: Basic idea generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Academicideas",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Subject Area", description: "Go to AcademicIdeas and enter the broad subject area you are working in. Include your academic level and any constraints like word count or methodology preferences." },
+        { title: "Review Generated Ideas", description: "Browse the generated research topics and thesis ideas. Look for topics that are specific enough to be researchable, interesting enough to sustain your motivation, and feasible within your constraints." },
+        { title: "Develop Your Chosen Topic", description: "Select the idea that best fits your situation and use it as a starting point. Discuss it with your supervisor or instructor to refine it further before committing to your research direction." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Specificity from Breadth", description: "Moving from a broad subject to a specific researchable question is the hardest part of starting academic research. AcademicIdeas bridges this gap by generating focused questions from general areas" },
+      { title: "Research Gap Awareness", description: "Suggesting areas where existing research is lacking helps students find topics that make genuine contributions rather than replicating work that has already been done" },
+      { title: "Methodology Alignment", description: "Pairing topic suggestions with appropriate methodologies helps students understand how their chosen topic would actually be researched before committing to it" },
+      { title: "Motivation Consideration", description: "Multiple topic options give students the chance to find a question they are genuinely curious about rather than settling for the first adequate option" }
+    ],
+    useCases: [
+      { title: "Undergraduate Students Starting Research Projects", description: "Students beginning their first research papers and dissertations use AcademicIdeas to find focused topics when they know their general area but not their specific question" },
+      { title: "Graduate Students Defining Research Agendas", description: "Masters and PhD students use AcademicIdeas to explore the research landscape in their field and identify viable dissertation topics" },
+      { title: "Academics Exploring New Research Directions", description: "Researchers looking to expand into adjacent areas use AcademicIdeas to identify interesting questions in fields adjacent to their expertise" }
+    ]
+  },
+  "tinywow": {
+    whatIs: "TinyWow is a free online tools platform that provides a large collection of file conversion, editing, and utility tools entirely for free without requiring account creation. It covers PDF tools, image editing, video conversion, writing utilities, and many other common file tasks. The completely free model with no account requirement and no watermarks on outputs makes it a practical go-to resource for people who need to perform specific file tasks occasionally without paying for specialized software.",
+    features: [
+      "PDF Tools: Convert, merge, split, and edit PDF files for free",
+      "Image Tools: Resize, convert, compress, and edit images",
+      "Video Tools: Convert and edit video files without software",
+      "Writing Tools: AI writing utilities including summarization and rewriting",
+      "File Conversion: Convert between dozens of file formats",
+      "No Account Required: Use all tools without creating an account",
+      "No Watermarks: Download clean files without watermark overlays",
+      "Completely Free: All tools accessible without payment"
+    ],
+    howToUse: {
+      title: "How to Use Tinywow",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Find Your Tool", description: "Go to tinywow.com and search or browse for the specific tool you need. TinyWow organizes hundreds of tools by category for easy navigation." },
+        { title: "Upload Your File", description: "Upload the file you want to process. TinyWow accepts files directly from your device or from Google Drive and Dropbox." },
+        { title: "Process and Download", description: "Apply the tool operation and download your processed file. No account creation, no payment, and no watermarks on the output." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Truly Free Model", description: "Many free tools add watermarks, require accounts, or limit functionality to push upgrades. TinyWow provides genuinely useful outputs for free with no strings attached" },
+      { title: "No Account Friction", description: "Requiring account creation to use a tool creates friction for one-time tasks. TinyWow works immediately without registration which makes it practical for occasional use" },
+      { title: "Tool Breadth", description: "Covering PDF, image, video, and writing tools in one place means TinyWow handles many different one-off file tasks without needing to find a different specialized tool for each" },
+      { title: "Watermark-Free Output", description: "Clean outputs that do not need watermarks removed before professional use make TinyWow outputs actually usable rather than just previews of paid features" }
+    ],
+    useCases: [
+      { title: "Professionals Doing Occasional File Tasks", description: "Office workers who occasionally need to convert a PDF or resize an image use TinyWow for quick one-off tasks without software installation" },
+      { title: "Students Working with Multiple File Formats", description: "Students who receive and submit files in various formats use TinyWow for the conversions that make files compatible with their tools and submission requirements" },
+      { title: "Freelancers and Independent Workers", description: "Independent professionals use TinyWow for the variety of file utility tasks that come up in client work without subscribing to specialized tools they use infrequently" }
+    ]
+  },
+  "heidi-health": {
+    whatIs: "Heidi Health is an AI medical documentation platform that helps healthcare professionals generate clinical notes, patient summaries, and medical documentation from recorded consultations. It listens to the doctor-patient conversation and automatically produces structured clinical notes in the appropriate medical format, dramatically reducing the time clinicians spend on documentation. For doctors and other healthcare providers who spend a significant portion of their working day on administrative documentation rather than patient care, Heidi Health returns that time to clinical work.",
+    features: [
+      "Clinical Note Generation: Automatic medical notes from consultation recordings",
+      "SOAP Notes: Structured clinical documentation in standard formats",
+      "Consultation Recording: Record patient consultations for AI processing",
+      "Multiple Specialties: Adapted for different medical specialties and contexts",
+      "EHR Integration: Connect with electronic health record systems",
+      "Customizable Templates: Adjust note format to your practice preferences",
+      "Privacy Compliant: Medical data handling meeting healthcare privacy standards",
+      "Time Saving: Significant reduction in documentation time per consultation"
+    ],
+    howToUse: {
+      title: "How to Use Heidi Health",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record Your Consultation", description: "Sign up at heidihealth.com and use the app to record your patient consultation. The AI listens and processes the conversation to understand the clinical encounter." },
+        { title: "Review Generated Notes", description: "Heidi Health produces structured clinical notes from the consultation. Review the notes for accuracy, add any additional clinical observations, and make any necessary corrections." },
+        { title: "Finalize and Integrate", description: "Approve the finalized notes and transfer them to your EHR system. The documentation is complete without the manual typing that usually follows consultations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Documentation Time Recovery", description: "Clinicians commonly spend several hours per day on documentation. Heidi Health significantly reduces this time which can be redirected to seeing more patients or achieving better work-life balance" },
+      { title: "Note Accuracy", description: "AI that listens to the full consultation captures clinical details that might be missed or forgotten when notes are written from memory after the fact" },
+      { title: "Burnout Reduction", description: "Administrative documentation burden is one of the leading causes of clinician burnout. Reducing documentation time addresses this directly" },
+      { title: "Patient Focus", description: "When doctors are not simultaneously trying to type notes during consultations they can be more present with patients which improves the quality of the clinical interaction" }
+    ],
+    useCases: [
+      { title: "General Practitioners and Family Doctors", description: "GPs who see many patients per day use Heidi Health to process the documentation burden of high-volume consultations" },
+      { title: "Specialist Physicians", description: "Specialists use Heidi Health for the structured documentation requirements of their specific clinical specialty" },
+      { title: "Allied Health Professionals", description: "Physiotherapists, psychologists, and other allied health providers use Heidi Health for the session notes that are required after each patient contact" }
+    ]
+  },
   "chatgpt-mega-prompts": {
     whatIs: "200 Plus ChatGPT Mega-Prompts for Solopreneurs is a curated collection of advanced, detailed prompts specifically designed for solo business owners who use ChatGPT to run and grow their businesses. Unlike generic prompt lists, these mega-prompts are long, structured, and context-rich - they provide ChatGPT with enough background and specificity to produce genuinely useful business outputs rather than generic responses. The collection covers marketing, sales, operations, content creation, customer service, and business strategy from the perspective of someone running a business alone.",
     features: [
