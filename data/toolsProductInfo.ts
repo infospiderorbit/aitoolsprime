@@ -1,4 +1,235 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "biblepics": {
+    whatIs: "BiblePics is an AI image generation platform that creates visual illustrations of Bible stories, scripture passages, and religious scenes. It uses AI to generate artwork depicting biblical narratives, helping churches, educators, and individuals create visual content for sermons, Bible study materials, social media, and personal devotion. For Christian content creators who need biblically-themed imagery without the cost of commissioning custom artwork, BiblePics provides accessible AI-generated religious visuals.",
+    features: [
+      "Bible Story Illustrations: AI images depicting biblical narratives",
+      "Scripture Visualization: Visual representations of Bible passages",
+      "Church Content: Images for sermons, bulletins, and presentations",
+      "Social Media Graphics: Scripture-based social media content",
+      "Multiple Art Styles: Different visual styles for different contexts",
+      "Fast Generation: Images ready in seconds",
+      "Commercial Use: Images available for church and ministry use",
+      "Free to Try: Basic image generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Biblepics",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Scene", description: "Go to BiblePics and describe the biblical scene or scripture you want illustrated. Include specific details about the story, characters, and setting for the most accurate results." },
+        { title: "Generate Your Image", description: "The AI generates a visual interpretation of your description. Review the image and regenerate if you want a different composition or style." },
+        { title: "Download and Use", description: "Download your generated image for use in your sermon presentation, church bulletin, social media post, or personal devotional materials." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Communication of Scripture", description: "Visual representations of Bible stories make scripture more accessible and memorable - particularly for children and visual learners who engage more deeply with illustrated content" },
+      { title: "Content Creation Accessibility", description: "Churches and ministries that need visual content regularly cannot always afford custom artwork. AI generation makes quality religious imagery accessible at any budget" },
+      { title: "Sermon Enhancement", description: "Relevant imagery that illustrates sermon points increases engagement and comprehension in worship services" },
+      { title: "Social Media Ministry", description: "Churches and individuals who share scripture and biblical content on social media use BiblePics for visually compelling posts" }
+    ],
+    useCases: [
+      { title: "Pastors and Church Staff", description: "Ministry leaders use BiblePics to create visual content for sermons, Bible studies, and church communications" },
+      { title: "Sunday School and Children Ministry Teachers", description: "Educators teaching children about the Bible use illustrated imagery to make stories vivid and memorable for young learners" },
+      { title: "Christian Social Media Creators", description: "Individuals and ministries who share faith content online use BiblePics for engaging visual content to accompany scripture posts" }
+    ]
+  },
+  "bible-ai": {
+    whatIs: "Bible AI is an AI-powered Bible study and exploration tool that helps users engage more deeply with scripture through intelligent question answering, cross-referencing, and contextual explanation. It answers questions about Bible passages, provides historical and cultural context, explains theological concepts, and helps users understand how different parts of the Bible connect to each other. For serious Bible students who want to go beyond surface reading, Bible AI provides the kind of deep engagement that would otherwise require extensive commentaries and study resources.",
+    features: [
+      "Deep Bible Q&A: Detailed answers to specific Bible questions",
+      "Historical Context: Cultural and historical background for passages",
+      "Cross-References: Connections between related Bible passages",
+      "Theological Explanation: Clear explanations of theological concepts",
+      "Multiple Translations: Engagement with different Bible translations",
+      "Original Language: Insights from Hebrew and Greek original texts",
+      "Study Plans: Guided Bible study paths through scripture",
+      "Free to Use: Basic Bible study without payment"
+    ],
+    howToUse: {
+      title: "How to Use Bible Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Question", description: "Go to the Bible AI tool and ask any question about scripture - a specific passage, a theological concept, a historical context question, or how different parts of the Bible connect." },
+        { title: "Explore the Response", description: "Bible AI provides a detailed response with relevant scripture references and contextual information. Follow up with more specific questions to go deeper." },
+        { title: "Build Your Understanding", description: "Use Bible AI as a regular study companion to gradually build comprehensive biblical knowledge through curious, question-driven exploration." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Depth Beyond Surface Reading", description: "Reading the Bible provides the text but not always the understanding. Bible AI provides the contextual depth that transforms reading into genuine comprehension" },
+      { title: "Commentary Accessibility", description: "Biblical commentaries contain enormous depth but are expensive and require time to navigate. Bible AI provides similar depth through simple conversational questions" },
+      { title: "Original Language Access", description: "Hebrew and Greek insights have traditionally required language study to access. Bible AI makes original language perspectives available to anyone asking questions" },
+      { title: "Personal Study Pace", description: "Self-directed study through questions at your own pace and following your specific curiosity produces more meaningful learning than following a prescribed curriculum" }
+    ],
+    useCases: [
+      { title: "Serious Bible Students", description: "People committed to deep biblical understanding use Bible AI to supplement their personal reading with contextual and theological depth" },
+      { title: "Seminary Students", description: "Theology students use Bible AI for quick research assistance and to explore questions that arise during their formal studies" },
+      { title: "Adult Bible Study Leaders", description: "People leading Bible study groups use Bible AI to prepare thorough, contextually rich discussions of the passages their group is studying" }
+    ]
+  },
+  "ai-pastor": {
+    whatIs: "AI Pastor is a conversational AI tool that provides spiritual guidance, answers faith questions, and offers pastoral support through an AI interface. It draws on Christian theology, scripture, and pastoral wisdom to respond to questions about faith, doubt, prayer, relationships, and spiritual struggles. For people who want spiritual guidance but lack access to a pastor or feel uncomfortable asking certain questions in person, AI Pastor provides an accessible, non-judgmental spiritual conversation partner.",
+    features: [
+      "Spiritual Guidance: Thoughtful responses to faith and life questions",
+      "Scripture-Based Advice: Guidance grounded in biblical teaching",
+      "Faith Questions: Answers to doubts and theological questions",
+      "Prayer Support: Help with prayer and spiritual practice",
+      "Relationship Guidance: Faith-based perspective on relationship challenges",
+      "Grief and Loss: Compassionate support during difficult times",
+      "Non-Judgmental: Safe space for honest spiritual questions",
+      "Free to Use: Basic spiritual conversation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Pastor",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Share Your Question or Concern", description: "Go to the AI Pastor tool and share what is on your heart - a faith question, a life challenge, a spiritual struggle, or a request for prayer guidance." },
+        { title: "Receive Pastoral Response", description: "AI Pastor responds with thoughtful, scripture-grounded guidance that addresses your specific situation with compassion and theological care." },
+        { title: "Continue the Conversation", description: "Follow up with more questions or additional context. Spiritual guidance often develops through ongoing conversation rather than a single answer." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessibility for the Unchurched", description: "Many people have spiritual questions but no church connection or pastoral relationship to turn to. AI Pastor provides accessible spiritual engagement for those outside church communities" },
+      { title: "Anonymous Safety", description: "Some spiritual questions feel too vulnerable or embarrassing to ask a real pastor. AI interaction provides the safety to ask difficult questions honestly without social risk" },
+      { title: "Always Available", description: "Spiritual crises and questions do not follow office hours. AI pastoral support available any time provides comfort and guidance when it is most needed" },
+      { title: "Supplement Not Replace", description: "AI Pastor serves as a supplement to human pastoral care rather than a replacement - providing support between pastoral encounters and for questions that do not require human intervention" }
+    ],
+    useCases: [
+      { title: "Spiritual Seekers Without Church Connections", description: "People exploring faith outside of organized religion use AI Pastor to engage with Christian spirituality and get answers to their spiritual questions" },
+      { title: "Church Members Between Pastoral Conversations", description: "Christians who have pastoral relationships but need support between meetings use AI Pastor for immediate spiritual engagement" },
+      { title: "People in Spiritual Crisis", description: "Individuals experiencing sudden doubt, grief, or spiritual struggle use AI Pastor for immediate compassionate support when human pastoral care is not immediately available" }
+    ]
+  },
+  "magisterium-ai": {
+    whatIs: "Magisterium AI is an AI tool specifically designed for Catholic theology and teaching. It draws on the Catechism of the Catholic Church, papal documents, Church councils, and the full tradition of Catholic theological writing to answer questions about Catholic faith, morals, and practice. For Catholics who want to understand their faith more deeply and for anyone studying Catholic theology, Magisterium AI provides accurate, authoritative answers grounded in the full breadth of Catholic teaching.",
+    features: [
+      "Catholic Catechism: Answers grounded in the official Catholic Catechism",
+      "Papal Documents: References to encyclicals and papal teaching",
+      "Council Documents: Vatican II and other council teaching",
+      "Moral Theology: Catholic moral and ethical guidance",
+      "Sacramental Teaching: Explanation of Catholic sacraments and liturgy",
+      "Saints and Tradition: References to saints and Catholic tradition",
+      "Apologetics: Catholic responses to theological challenges",
+      "Free to Use: Basic Catholic theology questions without payment"
+    ],
+    howToUse: {
+      title: "How to Use Magisterium Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Question", description: "Go to magisterium.ai and ask any question about Catholic faith, morals, or practice. The more specific your question the more precise the response." },
+        { title: "Review the Catholic Response", description: "Magisterium AI responds with teaching grounded in official Catholic sources with specific references to the Catechism, papal documents, or council teaching." },
+        { title: "Study and Explore", description: "Use the references provided to read the original sources for deeper study. Ask follow-up questions to explore the implications of the teaching for your specific situation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Official Source Grounding", description: "Catholic teaching comes from an extensive and authoritative body of documents. Magisterium AI grounds every response in official Church teaching rather than personal interpretation" },
+      { title: "Theological Depth", description: "Catholic theology is rich and complex. Magisterium AI provides access to that depth through simple questions rather than requiring users to navigate hundreds of theological texts" },
+      { title: "Accuracy for Catholics", description: "Catholics who want to understand their faith accurately need answers that reflect genuine Church teaching. Magisterium AI provides this reliability" },
+      { title: "Apologetics Support", description: "Catholics who want to explain their faith to non-Catholics use Magisterium AI to find clear, well-sourced explanations of Catholic positions" }
+    ],
+    useCases: [
+      { title: "Catholics Deepening Their Faith", description: "Practicing Catholics who want to understand their faith more deeply use Magisterium AI for accessible theological education" },
+      { title: "RCIA Participants", description: "Adults entering the Catholic Church through RCIA use Magisterium AI to explore Catholic teaching during their formation period" },
+      { title: "Catholic Educators and Catechists", description: "Teachers of Catholic faith use Magisterium AI to prepare lessons and find accurate answers to student questions" }
+    ]
+  },
+  "islam-ai": {
+    whatIs: "Islam AI is an AI-powered platform for exploring Islamic knowledge, Quran interpretation, Hadith, and Islamic jurisprudence. It helps Muslims and those curious about Islam understand the Quran, Islamic teachings, prayer practices, halal guidelines, and other aspects of Islamic faith and practice. The AI draws on classical Islamic scholarship to provide responses that are grounded in authentic Islamic sources.",
+    features: [
+      "Quran Exploration: Questions about Quran verses and their meanings",
+      "Hadith Reference: Access to authenticated Hadith literature",
+      "Islamic Jurisprudence: Fiqh questions about Islamic practice",
+      "Prayer Guidance: Help with prayer times, method, and practice",
+      "Halal Guidelines: Information about halal and haram practices",
+      "Islamic History: Historical context and Islamic civilization",
+      "Arabic Terms: Explanations of Islamic terminology",
+      "Free to Use: Basic Islamic knowledge questions without payment"
+    ],
+    howToUse: {
+      title: "How to Use Islam Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Question", description: "Go to the Islam AI platform and ask your question about the Quran, Islamic practice, theology, or any aspect of Islamic knowledge." },
+        { title: "Receive Scholarly Response", description: "The AI responds with answers grounded in Quran, authenticated Hadith, and classical Islamic scholarship with appropriate source references." },
+        { title: "Continue Learning", description: "Follow up with more specific questions to develop deeper understanding of Islamic teaching and practice." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Classical Scholarship Access", description: "Islamic knowledge has a rich tradition of scholarship that requires years of study to navigate independently. Islam AI makes this scholarship accessible through simple questions" },
+      { title: "Authentic Sources", description: "Grounding responses in Quran and authenticated Hadith ensures answers reflect genuine Islamic teaching rather than personal interpretation" },
+      { title: "Practice Guidance", description: "Daily Islamic practice involves specific requirements for prayer, fasting, and behavior. Clear guidance on these practices helps Muslims fulfill their religious obligations correctly" },
+      { title: "Non-Muslim Understanding", description: "People who want to understand Islam accurately use Islam AI for respectful, authentic information about Islamic beliefs and practices" }
+    ],
+    useCases: [
+      { title: "Muslims Deepening Islamic Knowledge", description: "Practicing Muslims who want to understand their faith more deeply use Islam AI for accessible scholarship on Islamic teaching" },
+      { title: "New Muslims", description: "People who have recently embraced Islam use Islam AI to learn the practices and beliefs of their new faith" },
+      { title: "Non-Muslims Seeking Understanding", description: "People curious about Islam use Islam AI to learn about the faith from an authentic Islamic perspective" }
+    ]
+  },
+  "gloo": {
+    whatIs: "Gloo is a platform that connects churches and faith communities with digital tools, resources, and data insights to help them grow and better serve their communities. It provides church engagement tools, community insights, and a marketplace of ministry resources. For churches looking to modernize their outreach and engagement strategies, Gloo provides the data and tools to understand their community and connect more effectively with people seeking faith.",
+    features: [
+      "Church Engagement: Tools for connecting churches with their communities",
+      "Community Insights: Data about the spiritual needs in your local area",
+      "Ministry Marketplace: Curated digital tools and resources for churches",
+      "Outreach Tools: Help churches reach people in their communities",
+      "Member Engagement: Tools for keeping church members connected",
+      "Data Intelligence: Insights that help churches serve their community better",
+      "Partnership Network: Connect churches with ministry organizations",
+      "Free to Start: Basic platform access without payment"
+    ],
+    howToUse: {
+      title: "How to Use Gloo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Church Profile", description: "Sign up at gloo.com and create your church profile. The platform uses your location and community data to surface relevant insights about your local area." },
+        { title: "Explore Community Insights", description: "Review the community data that shows spiritual needs, life challenges, and demographics in your local area. Use these insights to inform your ministry priorities." },
+        { title: "Access Ministry Resources", description: "Browse the marketplace for digital tools and ministry resources that address the needs you have identified. Connect with organizations that can support your specific ministry goals." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data-Driven Ministry", description: "Churches that understand their community through data can serve more effectively than those relying solely on anecdotal knowledge of local needs" },
+      { title: "Digital Ministry Modernization", description: "Many churches lack the technical expertise to build digital engagement strategies from scratch. Gloo provides the tools without requiring technical development" },
+      { title: "Community Connection", description: "Understanding who is in your community and what they are experiencing enables more relevant and effective outreach than generic ministry approaches" },
+      { title: "Resource Access", description: "The marketplace of ministry tools and organizations gives churches access to specialized resources that individual churches could not develop independently" }
+    ],
+    useCases: [
+      { title: "Church Leaders and Pastors", description: "Senior pastors and church leadership use Gloo for community insights that inform strategic ministry decisions" },
+      { title: "Outreach and Evangelism Teams", description: "Church outreach teams use Gloo for tools and data that help them connect with people in their community more effectively" },
+      { title: "Church Technology Administrators", description: "Staff responsible for church digital tools use Gloo as a platform that consolidates multiple ministry technology needs" }
+    ]
+  },
+  "pastors-ai": {
+    whatIs: "Pastors.ai is an AI platform designed specifically for church leaders and pastors to assist with sermon preparation, church communication, ministry planning, and pastoral care responsibilities. It provides AI tools tailored to the specific needs of pastoral ministry - from generating sermon outlines to drafting church communications and helping with counseling preparation. For pastors who manage enormous workloads, Pastors.ai provides AI assistance that understands the ministry context.",
+    features: [
+      "Sermon Preparation: AI assistance for sermon research and outline development",
+      "Church Communication: Draft newsletters, emails, and announcements",
+      "Ministry Planning: Help with program and event planning",
+      "Pastoral Care: Support for counseling preparation and crisis response",
+      "Bible Study Materials: Create small group and Bible study resources",
+      "Social Media Content: Faith-based content for church social media",
+      "Prayer Resources: Help writing prayers and liturgical content",
+      "Free to Try: Basic pastoral AI assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Pastors Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Your Ministry Tools", description: "Sign up at pastors.ai and explore the tools available for your specific ministry needs - sermon preparation, communications, or pastoral care support." },
+        { title: "Use for Sermon Preparation", description: "Enter your scripture passage and sermon context. Pastors.ai generates research insights, outline suggestions, and illustration ideas that you develop with your own pastoral voice." },
+        { title: "Streamline Communications", description: "Use the communication tools to draft church newsletters, event announcements, and pastoral letters more efficiently while maintaining your authentic voice." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Ministry-Specific Training", description: "Generic AI does not understand pastoral ministry context. Pastors.ai is trained specifically for ministry needs which produces more appropriate and useful assistance for church leaders" },
+      { title: "Time Reclamation", description: "Pastors carry enormous administrative and creative workloads alongside direct ministry responsibilities. AI assistance with routine tasks reclaims time for high-value pastoral work" },
+      { title: "Communication Quality", description: "Church communications that are well-written and professionally presented reflect well on the ministry and engage congregation members more effectively" },
+      { title: "Pastoral Care Support", description: "Counseling and pastoral care situations benefit from thoughtful preparation. AI assistance with care planning helps pastors approach difficult conversations more effectively" }
+    ],
+    useCases: [
+      { title: "Senior Pastors", description: "Lead pastors use Pastors.ai for sermon preparation assistance and church communication support that reduces their administrative burden" },
+      { title: "Associate Pastors and Ministry Leaders", description: "Ministry staff use Pastors.ai for program development, content creation, and communication drafting in their specific ministry areas" },
+      { title: "Bivocational Pastors", description: "Pastors who hold secular jobs alongside their ministry use Pastors.ai to maintain ministry quality despite limited preparation time" }
+    ]
+  },
   "cladwell": {
     whatIs: "Cladwell is an AI-powered personal styling and wardrobe management app that helps users get more out of the clothes they already own. It catalogs your wardrobe, suggests outfits from your existing pieces, and helps you identify gaps in your wardrobe that would maximize the number of outfits you can create. For people who feel they have nothing to wear despite a full closet, Cladwell provides the styling intelligence to make their existing wardrobe work harder.",
     features: [
