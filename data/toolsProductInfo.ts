@@ -1,4 +1,136 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "topicfinder": {
+    whatIs: "Topicfinder is an AI content research tool that helps bloggers, content marketers, and SEO professionals discover high-potential content topics. It analyzes search trends, competitive gaps, and audience interest to surface topic ideas that have genuine search demand and reasonable competition levels. For content teams that need a steady pipeline of topic ideas that are both interesting to write and likely to rank, Topicfinder provides data-backed ideation rather than guesswork.",
+    features: [
+      "Topic Discovery: Find content topics with real search demand",
+      "Search Trend Analysis: Understand which topics are growing in interest",
+      "Competition Analysis: Assess how competitive each topic is",
+      "Keyword Data: Search volume and difficulty metrics for each topic",
+      "Content Gap Identification: Find topics competitors are missing",
+      "Niche Exploration: Discover subtopics within your content area",
+      "Audience Insights: Understand what your target audience is searching for",
+      "Export Lists: Download topic lists for content planning"
+    ],
+    howToUse: {
+      title: "How to Use Topicfinder",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Niche", description: "Sign up at topicfinder.io and enter your content niche or website topic. The tool uses this to generate relevant topic ideas within your specific area." },
+        { title: "Explore Topic Ideas", description: "Browse the generated topic ideas with their associated search volume and competition data. Filter for topics that match your content goals and competitive position." },
+        { title: "Build Your Content Plan", description: "Select the most promising topics and export them for your content calendar. Prioritize based on search volume, competition level, and relevance to your audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data Over Intuition", description: "Content topic selection based on gut feeling often misses what audiences are actually searching for. Data-backed topic discovery surfaces opportunities that intuition alone would miss" },
+      { title: "Gap Identification", description: "Finding topics that have search demand but limited quality content creates the best ranking opportunities. Topicfinder specifically surfaces these gaps in the content landscape" },
+      { title: "Niche Depth", description: "Going beyond obvious main topics to discover subtopics and long-tail opportunities is where sustainable SEO content strategies find their best results" },
+      { title: "Pipeline Maintenance", description: "A consistent content pipeline requires a steady supply of good topic ideas. Topicfinder automates the research phase so teams always have validated topics to work from" }
+    ],
+    useCases: [
+      { title: "Content Marketing Teams", description: "Marketing teams responsible for blog and content strategy use Topicfinder to maintain a validated topic pipeline that supports their SEO goals" },
+      { title: "SEO Professionals", description: "Search engine optimization specialists use Topicfinder for content gap analysis and topic opportunity research for their clients and projects" },
+      { title: "Bloggers Building Organic Traffic", description: "Independent bloggers use Topicfinder to identify topics worth writing about - ones that will actually bring search traffic rather than disappearing into the void" }
+    ]
+  },
+  "prompthero": {
+    whatIs: "PromptHero is a community platform for discovering and sharing AI image generation prompts. It hosts hundreds of thousands of prompts used with Midjourney, Stable Diffusion, DALL-E, and other image generators, with the actual generated images displayed alongside each prompt. Users can search for prompts by visual style, subject, or model, see exactly what each prompt produces, and use or adapt promising prompts for their own image generation. For AI artists who want to learn from successful prompts and discover new visual styles, PromptHero is the largest reference library available.",
+    features: [
+      "Prompt Library: Hundreds of thousands of image generation prompts with results",
+      "Visual Search: Find prompts by browsing the generated images",
+      "Model Specific: Prompts organized by Midjourney, Stable Diffusion, DALL-E",
+      "Style Discovery: Find prompts for specific visual aesthetics and styles",
+      "Community Sharing: Share your own prompts and generated images",
+      "Prompt Details: See the exact prompt that produced each image",
+      "Artist Profiles: Follow artists whose prompt style you admire",
+      "Free to Browse: Access the prompt library without payment"
+    ],
+    howToUse: {
+      title: "How to Use Prompthero",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search for Your Style", description: "Go to prompthero.com and search for the visual style or subject you want to generate. Browse the images to find results that match your creative vision." },
+        { title: "Study the Prompts", description: "Click on images that match what you want to create and examine the full prompt. Note which elements - style descriptors, artist references, technical parameters - contribute to the look." },
+        { title: "Adapt and Generate", description: "Use the prompt as a starting point and adapt it for your specific subject or slight style variations. Generate in your preferred AI image tool and refine based on the results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Results Before Commitment", description: "Seeing the actual image a prompt produces before using it eliminates the uncertainty of prompt writing. You know what you are getting before you spend generation credits" },
+      { title: "Style Education", description: "Studying what prompts produce specific styles teaches the vocabulary of AI image generation - which artist references, style descriptors, and technical terms produce which visual qualities" },
+      { title: "Community Knowledge", description: "The collective prompt engineering of hundreds of thousands of community members represents far more experimentation than any individual could conduct alone" },
+      { title: "Cross-Model Coverage", description: "Different image models respond differently to prompts. PromptHero covers all major models so artists can find prompts optimized for their preferred generation tool" }
+    ],
+    useCases: [
+      { title: "AI Artists and Illustrators", description: "Digital artists using Midjourney, Stable Diffusion, and other tools use PromptHero to find prompts that produce the visual styles they want to create" },
+      { title: "Designers Creating Marketing Visuals", description: "Marketing and design professionals use PromptHero to find prompts for specific commercial visual styles and aesthetics" },
+      { title: "AI Art Learners", description: "People learning AI image generation use PromptHero to understand how prompts work by studying the relationship between prompt text and generated images" }
+    ]
+  },
+  "resume-worded": {
+    whatIs: "Resume Worded is an AI-powered resume and LinkedIn profile optimization platform that gives job seekers specific, actionable feedback on their resumes. It scores your resume against job descriptions, identifies weak bullet points, suggests stronger action verbs and quantified achievements, and checks for ATS compatibility. Unlike generic resume advice, Resume Worded analyzes your specific resume and provides tailored suggestions that address your actual weaknesses.",
+    features: [
+      "Resume Scoring: Overall score with breakdown by section",
+      "ATS Check: Verify your resume will pass Applicant Tracking Systems",
+      "Bullet Point Improvement: Specific suggestions for strengthening each bullet",
+      "Action Verb Enhancement: Replace weak verbs with stronger alternatives",
+      "Achievement Quantification: Suggestions for adding metrics and results",
+      "Job Match Analysis: See how well your resume matches specific job descriptions",
+      "LinkedIn Optimization: Profile strength and improvement suggestions",
+      "Free Plan: Basic resume feedback without payment"
+    ],
+    howToUse: {
+      title: "How to Use Resume Worded",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Resume", description: "Sign up at resumeworded.com and upload your resume. The tool accepts PDF and Word formats and analyzes the full document." },
+        { title: "Review Your Score and Feedback", description: "Resume Worded provides an overall score and detailed feedback on each section. Read through the specific suggestions for your bullet points, action verbs, and formatting." },
+        { title: "Implement and Rescore", description: "Make the suggested improvements to your resume and re-upload to see your new score. Iterate until your resume scores strongly across all dimensions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Specific Over Generic", description: "Generic resume advice like use action verbs is not useful. Resume Worded analyzes your specific bullet points and tells you which ones are weak and exactly how to improve them" },
+      { title: "ATS Reality", description: "Most resumes are filtered by software before a human reads them. ATS optimization is not optional for job seekers - Resume Worded makes it systematic" },
+      { title: "Achievement Focus", description: "Quantified achievements outperform responsibility descriptions in hiring decisions. Resume Worded specifically prompts you to add the metrics that make bullets more compelling" },
+      { title: "Iterative Improvement", description: "Being able to rescore after making changes creates a feedback loop that drives continuous improvement rather than a single round of generic edits" }
+    ],
+    useCases: [
+      { title: "Active Job Seekers", description: "People currently searching for jobs use Resume Worded to ensure their resume is competitive before submitting applications" },
+      { title: "Career Changers Repositioning Their Experience", description: "People changing industries use Resume Worded to identify how to reframe their experience for new target roles" },
+      { title: "New Graduates Building First Resumes", description: "Recent graduates use Resume Worded to understand what makes a strong resume before they have developed the experience to know intuitively" }
+    ]
+  },
+  "brandkiit": {
+    whatIs: "BrandKiit is a brand kit management and asset organization platform that helps businesses and creators maintain their visual brand identity in one accessible location. It stores brand colors, fonts, logos, and brand guidelines in a shared space that team members and collaborators can access from anywhere. For businesses that struggle with brand consistency across different team members and projects, BrandKiit provides the central source of truth that keeps everything on-brand.",
+    features: [
+      "Brand Kit Storage: Centralized storage for all your brand assets",
+      "Color Management: Store and share your exact brand color codes",
+      "Font Library: Keep brand fonts accessible to all team members",
+      "Logo Organization: All logo variations organized and readily accessible",
+      "Brand Guidelines: Document and share your brand usage rules",
+      "Team Access: Share brand assets with team members and collaborators",
+      "Easy Sharing: Quick access links for sharing assets with designers",
+      "Free Plan: Basic brand kit storage without payment"
+    ],
+    howToUse: {
+      title: "How to Use Brandkiit",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Brand Kit", description: "Sign up at brandkiit.com and upload your brand assets - logos in all variations, your color codes, fonts, and any other visual identity elements." },
+        { title: "Document Your Guidelines", description: "Add your brand usage guidelines - when to use which logo version, color combinations that work, font pairing rules, and any other brand standards your team needs to follow." },
+        { title: "Share with Your Team", description: "Share your BrandKiit with team members, designers, and collaborators. Everyone works from the same source of truth rather than asking for assets or using outdated versions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Single Source of Truth", description: "Brand inconsistency often comes from team members working from different versions of assets or not knowing the exact color codes. BrandKiit eliminates this by providing one authoritative source" },
+      { title: "Designer Collaboration", description: "When working with external designers or agencies, sharing a BrandKiit link gives them everything they need instantly rather than emailing files back and forth" },
+      { title: "New Team Member Onboarding", description: "New employees can access the full brand kit immediately rather than piecing together brand assets from various colleagues and old files" },
+      { title: "Version Control", description: "Keeping the current approved version of all assets in one place prevents the common problem of outdated logos and old color codes being used in new materials" }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Business owners use BrandKiit to keep their brand assets organized and accessible as they work with various designers and contractors" },
+      { title: "Marketing Teams", description: "Marketing departments use BrandKiit to ensure consistent brand application across all team members and campaigns" },
+      { title: "Freelancers Managing Multiple Brands", description: "Designers and marketing freelancers use BrandKiit to keep client brand assets organized and separated" }
+    ]
+  },
   "flowgpt": {
     whatIs: "FlowGPT is a community platform for discovering, sharing, and using ChatGPT prompts. It hosts thousands of prompts created by the community across categories like productivity, coding, creative writing, roleplay, and education. Users can browse prompts, use them directly in ChatGPT, rate and comment on them, and share their own creations. For people who want to get more from ChatGPT without writing complex prompts themselves, FlowGPT provides a library of community-tested prompts that work.",
     features: [
