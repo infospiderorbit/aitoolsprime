@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "chatgpt-mega-prompts": {
+    whatIs: "200 Plus ChatGPT Mega-Prompts for Solopreneurs is a curated collection of advanced, detailed prompts specifically designed for solo business owners who use ChatGPT to run and grow their businesses. Unlike generic prompt lists, these mega-prompts are long, structured, and context-rich - they provide ChatGPT with enough background and specificity to produce genuinely useful business outputs rather than generic responses. The collection covers marketing, sales, operations, content creation, customer service, and business strategy from the perspective of someone running a business alone.",
+    features: [
+      "200 Plus Prompts: Large collection covering all aspects of solopreneur business operations",
+      "Marketing Prompts: Prompts for content strategy, social media, and email marketing",
+      "Sales Prompts: Scripts, objection handling, and sales strategy prompts",
+      "Operations Prompts: Business processes, systems, and productivity prompts",
+      "Content Creation: Blog posts, social media, and email writing prompts",
+      "Customer Service: Templates and response prompts for client communication",
+      "Business Strategy: Planning, positioning, and growth strategy prompts",
+      "Ready to Use: Copy, paste, and customize for immediate results"
+    ],
+    howToUse: {
+      title: "How to Use Chatgpt Mega Prompts",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Categories", description: "Access the mega-prompts collection and browse by business function - marketing, sales, content, or operations. Find the category most relevant to your current business challenge." },
+        { title: "Customize for Your Business", description: "Copy your chosen mega-prompt and customize the bracketed placeholder sections with your specific business details - your niche, audience, product, and context. The more specific your customization the better the output." },
+        { title: "Use and Iterate", description: "Paste your customized prompt into ChatGPT and review the output. Use the response as a starting point and continue the conversation to refine and expand on what was generated." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Mega-Prompt Advantage", description: "Short generic prompts produce generic outputs. Mega-prompts that provide rich context, specific constraints, and clear output requirements produce outputs that are actually useful for real business decisions" },
+      { title: "Solopreneur Specificity", description: "Running a business alone has specific challenges and constraints. Prompts written specifically for solopreneurs reflect the reality of doing everything yourself rather than assuming you have a team" },
+      { title: "Time Savings", description: "Writing effective prompts from scratch takes time and expertise. A library of tested mega-prompts gives solopreneurs immediate access to high-quality prompt engineering without having to develop it themselves" },
+      { title: "Cross-Function Coverage", description: "Solopreneurs need to handle every business function. A collection that covers marketing, sales, operations, and strategy in one place serves the breadth of what solo business owners actually do" }
+    ],
+    useCases: [
+      { title: "Solopreneurs and Freelancers", description: "Independent business owners use mega-prompt collections to get more from ChatGPT across all the business functions they handle without a team" },
+      { title: "Consultants and Coaches", description: "Independent consultants use the collection to accelerate client work, proposal writing, and content creation" },
+      { title: "New Entrepreneurs", description: "People starting their first business use mega-prompts to access business strategy and marketing thinking they would otherwise need to hire for" }
+    ]
+  },
+  "katteb-ai": {
+    whatIs: "Katteb AI is a content writing platform that generates factual, cited articles with real sources and references. Unlike most AI writing tools that generate plausible-sounding content without verification, Katteb specifically focuses on accuracy and attribution - it cites the sources behind the claims in generated articles. This makes it particularly useful for research-based content, news articles, and any writing where factual accuracy matters. The built-in fact-checking and source citation addresses the most common criticism of AI-generated content.",
+    features: [
+      "Factual Content Generation: AI writing with real citations and source references",
+      "Source Attribution: Every factual claim backed by linked sources",
+      "Research Articles: Long-form research and informational content",
+      "News Writing: Current events content with accurate sourcing",
+      "SEO Articles: Optimized articles with factual foundation",
+      "Plagiarism Check: Built-in originality verification",
+      "Multiple Languages: Content generation across different languages",
+      "Brand Voice: Maintain consistent tone while ensuring factual accuracy"
+    ],
+    howToUse: {
+      title: "How to Use Katteb Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Sign up at katteb.com and enter your article topic. Specify whether you want a research article, news piece, or SEO content and provide any specific angle or focus." },
+        { title: "Review Citations", description: "Katteb generates your article with inline citations and a reference list. Review the sources to verify they support the claims being made - the transparency of sourcing lets you assess accuracy directly." },
+        { title: "Edit and Publish", description: "Refine the generated content and verify the citations meet your standards. Publish knowing your article has a factual foundation that readers and search engines can trust." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Citation Transparency", description: "Most AI content looks confident but has no factual grounding. Katteb shows its sources which lets editors verify accuracy rather than having to fact-check every claim independently" },
+      { title: "Trust and Credibility", description: "Articles with cited sources build more reader trust than uncited content - particularly important for informational content where readers need to know claims are backed by evidence" },
+      { title: "Research Efficiency", description: "Finding and citing sources manually is the most time-consuming part of research writing. Katteb handles this automatically while maintaining the accuracy standards that citations represent" },
+      { title: "SEO with Substance", description: "Search engines increasingly reward content that demonstrates expertise and trustworthiness. Cited, factual content signals the quality that improves long-term search performance" }
+    ],
+    useCases: [
+      { title: "Content Publishers and Bloggers", description: "Publishers who need high volumes of factual content use Katteb to produce articles with the source citations that establish credibility with readers" },
+      { title: "Researchers and Academics", description: "Research writers use Katteb for its source-based generation that aligns with academic standards for referenced content" },
+      { title: "Marketing Teams Creating Authority Content", description: "Brands building thought leadership use Katteb to create well-sourced expert content that demonstrates genuine knowledge rather than generic claims" }
+    ]
+  },
+  "opusense": {
+    whatIs: "Opusense is an AI-powered customer feedback and sentiment analysis platform that helps businesses understand what their customers think and feel about their products and services. It processes feedback from multiple sources - surveys, reviews, support tickets, and social media - and uses AI to categorize themes, identify sentiment patterns, and surface actionable insights. For product and customer experience teams who collect feedback but struggle to make sense of large volumes of qualitative data, Opusense transforms raw feedback into clear, prioritized insights.",
+    features: [
+      "Multi-Source Feedback: Analyze feedback from surveys, reviews, and support tickets",
+      "Sentiment Analysis: Understand emotional tone across all customer feedback",
+      "Theme Detection: Automatically categorize feedback by topic and issue",
+      "Trend Tracking: Monitor how customer sentiment changes over time",
+      "Priority Insights: Surface the issues that matter most to customers",
+      "Dashboard Reporting: Visual reports for team and stakeholder review",
+      "Alert System: Get notified when negative sentiment spikes",
+      "Integration: Connect with existing feedback collection tools"
+    ],
+    howToUse: {
+      title: "How to Use Opusense",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Feedback Sources", description: "Sign up at opusense.com and connect your feedback channels - survey tools, review platforms, support systems, or any other sources where customers share their opinions." },
+        { title: "Let AI Analyze the Data", description: "Opusense processes all incoming feedback and automatically categorizes it by theme and sentiment. The AI identifies what customers are saying most frequently and how they feel about it." },
+        { title: "Act on Insights", description: "Review the prioritized insights dashboard to understand which issues need attention most urgently. Use trend data to track whether changes you make are improving customer sentiment over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Volume Processing", description: "Reading and manually categorizing hundreds of customer feedback responses is impractical at any scale. AI processing makes it possible to actually use all the feedback that customers provide" },
+      { title: "Theme Discovery", description: "Customers rarely describe their issues using the same words. AI theme detection groups semantically similar feedback together so teams see patterns rather than individual complaints" },
+      { title: "Proactive Problem Detection", description: "Sentiment alerts that flag when negative feedback is increasing allow teams to identify and address problems before they become widespread customer satisfaction issues" },
+      { title: "Quantifying Qualitative Data", description: "Turning open-ended qualitative feedback into quantified themes and sentiment scores makes the data usable for reporting and decision making in ways that raw text responses are not" }
+    ],
+    useCases: [
+      { title: "Product Teams", description: "Product managers use Opusense to understand which features customers love, which frustrate them, and what they want built next based on actual feedback data" },
+      { title: "Customer Experience Teams", description: "CX professionals use Opusense to monitor customer satisfaction trends and identify service issues before they escalate" },
+      { title: "Marketing and Brand Teams", description: "Marketing teams use Opusense to understand how customers perceive their brand and messaging" }
+    ]
+  },
+  "exemplary-ai": {
+    whatIs: "Exemplary AI is a multimedia content repurposing platform that transforms audio and video content into text, summaries, social media clips, and other derivative formats automatically. It transcribes recordings, generates summaries, creates social media posts from key moments, and extracts highlights - turning one piece of content into many with minimal manual work. For podcasters, video creators, and content teams who want to maximize the value of their recorded content across multiple channels, Exemplary AI handles the repurposing workflow.",
+    features: [
+      "Audio Transcription: Convert audio recordings to text automatically",
+      "Video Transcription: Transcribe video content with speaker identification",
+      "Content Summarization: Generate concise summaries of long recordings",
+      "Social Media Clips: Extract shareable clips from longer recordings",
+      "Blog Post Generation: Create written articles from audio and video content",
+      "Key Quote Extraction: Pull the most quotable moments from recordings",
+      "Multi-Format Export: Output in formats for different platforms",
+      "Batch Processing: Process multiple recordings simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Exemplary Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Recording", description: "Sign up at exemplary.ai and upload your audio or video recording. The platform accepts all common formats and begins transcription automatically." },
+        { title: "Generate Your Derivatives", description: "Select what you want to create from your recording - a summary, social media clips, a blog post, or key quotes. Exemplary AI generates each format from your transcribed content." },
+        { title: "Review and Distribute", description: "Review the generated content and make any adjustments. Distribute across your channels - the blog post to your website, clips to social media, the summary to your email list." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content Multiplication", description: "One hour of podcast or video content can become a blog post, five social media clips, twenty quote graphics, and an email newsletter. Exemplary AI makes this multiplication practical rather than theoretical" },
+      { title: "Transcription Foundation", description: "Accurate transcription is the foundation for all other repurposing - every other format derives from the text. High-quality transcription from Exemplary AI ensures the derivative content is accurate" },
+      { title: "Creator Time Economics", description: "Recording content takes significant time. Repurposing it manually takes even more. AI automation of the repurposing step makes the economics of content creation significantly better" },
+      { title: "Platform Reach Extension", description: "Different audiences prefer different content formats and platforms. Repurposing the same content into multiple formats extends its reach without producing additional original content" }
+    ],
+    useCases: [
+      { title: "Podcasters Extending Content Reach", description: "Podcast creators use Exemplary AI to turn their episodes into blog posts, social clips, and quote graphics that reach audiences who do not listen to podcasts" },
+      { title: "Video Content Creators", description: "YouTubers and video marketers use Exemplary AI to repurpose their videos into written and social formats for broader distribution" },
+      { title: "Content Marketing Teams", description: "Marketing teams use Exemplary AI to maximize the value of webinars, interviews, and recorded presentations by repurposing them across all channels" }
+    ]
+  },
+  "influee": {
+    whatIs: "Influee is a creator marketplace and UGC platform that connects brands with content creators for user-generated content production. Brands post their content briefs and budget, creators apply and produce video testimonials, product reviews, and social media content, and brands receive authentic-looking creator content for their marketing. For e-commerce brands that need a steady supply of authentic-feeling video content for ads and social media without the cost of traditional influencer partnerships, Influee provides access to a creator network at scale.",
+    features: [
+      "Creator Marketplace: Access to thousands of content creators for UGC production",
+      "Video Testimonials: Authentic creator reviews and testimonials for your product",
+      "Ad Creative: Creator-made video content optimized for paid advertising",
+      "Brief System: Structured briefs that guide creators to produce what you need",
+      "Content Rights: Full commercial rights to all produced content",
+      "Fast Turnaround: Content delivered within days not weeks",
+      "Affordable Pricing: UGC at a fraction of traditional influencer partnership costs",
+      "Content Variety: Different creators for different audiences and aesthetics"
+    ],
+    howToUse: {
+      title: "How to Use Influee",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Post Your Brief", description: "Sign up at influee.co and create a content brief describing your product, the type of content you need, and your target audience. Set your budget and timeline requirements." },
+        { title: "Review Creator Applications", description: "Creators who want to work with your brief apply with their portfolio and rates. Review applicants and select the creators whose style and audience match your needs." },
+        { title: "Receive and Use Your Content", description: "Creators produce your content according to the brief and you receive the files with full commercial rights. Use the content in your ads, social media, and marketing campaigns." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Authentic Over Polished", description: "User-generated content from real creators converts better in ads than polished studio production because it looks authentic and relatable rather than corporate. Influee provides this authentic aesthetic at scale" },
+      { title: "Cost vs Traditional Influencer", description: "Traditional influencer partnerships require significant budget for posts that go to the influencer audience. Influee UGC gives you the authentic content without paying for audience reach you may not need" },
+      { title: "Speed and Volume", description: "Building a content library requires volume. Influee enables brands to produce many pieces of creator content simultaneously rather than one at a time through direct creator relationships" },
+      { title: "Full Commercial Rights", description: "Clear commercial rights for all produced content eliminate the legal uncertainty that can arise when using creator content without explicit licensing" }
+    ],
+    useCases: [
+      { title: "E-commerce Brands Running Paid Ads", description: "Online retailers use Influee to build libraries of authentic creator content for their Facebook, Instagram, and TikTok advertising campaigns" },
+      { title: "DTC Brands Building Social Proof", description: "Direct-to-consumer brands use Influee for video testimonials and reviews that build credibility with potential customers who need social proof before purchasing" },
+      { title: "Marketing Agencies Serving E-commerce Clients", description: "Agencies managing paid media for e-commerce clients use Influee to supply the creator content volume that effective social advertising requires" }
+    ]
+  },
+  "typegenie": {
+    whatIs: "TypeGenie is an AI text prediction and autocomplete tool that learns from your writing patterns to predict what you are going to type next. It integrates with web applications including Gmail, Google Docs, LinkedIn, and other browser-based tools, offering personalized suggestions that match your individual writing style rather than generic completions. For professionals who type extensively and want to reduce keystrokes without compromising their personal voice, TypeGenie provides contextually intelligent completions.",
+    features: [
+      "Personalized Predictions: Learns your writing style for better suggestions",
+      "Browser Integration: Works in Gmail, Google Docs, LinkedIn, and more",
+      "Context Awareness: Suggestions based on the full context of your writing",
+      "Tab to Complete: Simple keyboard shortcut to accept suggestions",
+      "Privacy Focused: Writing data processed with privacy protection",
+      "Multi-Language: Text prediction in multiple languages",
+      "Learning Improvement: Gets better the more you use it",
+      "Free Plan: Basic text prediction without payment"
+    ],
+    howToUse: {
+      title: "How to Use Typegenie",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Install TypeGenie from the Chrome Web Store. It activates automatically on supported web applications and begins learning your writing patterns from day one." },
+        { title: "Write and Accept Suggestions", description: "Write normally and TypeGenie will suggest completions as gray text following your cursor. Press Tab to accept a suggestion or keep typing to ignore it and continue with your own words." },
+        { title: "Let It Learn", description: "TypeGenie improves as it learns your specific writing patterns. The more you use it the more accurate and personalized the predictions become for your individual style." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization Advantage", description: "Generic autocomplete suggests what anyone might write. TypeGenie learns your specific patterns and vocabulary which produces suggestions that sound like you rather than a generic writer" },
+      { title: "Efficiency Without Compromise", description: "Text prediction reduces keystrokes without changing what you actually write - you still express your own ideas in your own words but get there with less physical typing effort" },
+      { title: "Learning Improvement", description: "A tool that gets better the more you use it is different from static autocomplete. TypeGenie becomes genuinely more useful over time as its model of your writing improves" },
+      { title: "Context Intelligence", description: "Suggestions based on the full context of what you are writing produce more relevant completions than predictions based only on the last few words" }
+    ],
+    useCases: [
+      { title: "Professionals Who Write Extensively", description: "People who spend large portions of their workday writing emails, documents, and messages use TypeGenie to reduce the physical effort and time of typing" },
+      { title: "Customer Support Agents", description: "Support team members who write many similar responses use TypeGenie for faster response writing without losing the personal touch of non-templated communication" },
+      { title: "Writers and Content Creators", description: "Content creators use TypeGenie to maintain their writing flow with intelligent completions that respect their individual style and vocabulary" }
+    ]
+  },
+  "makemytale": {
+    whatIs: "MakeMytale is an AI interactive storytelling platform where users create and experience personalized story adventures. It generates branching narratives based on user choices, creating a choose-your-own-adventure experience powered by AI that can take stories in countless directions. Users can set the genre, characters, and initial situation, then navigate through the story by making decisions at key moments. For people who love interactive fiction and personalized storytelling experiences, MakeMytale provides endlessly varied narrative entertainment.",
+    features: [
+      "Interactive Stories: Choose-your-own-adventure narratives powered by AI",
+      "Custom Setup: Set your genre, characters, and starting situation",
+      "Branching Choices: Make decisions that genuinely affect the story direction",
+      "Multiple Genres: Fantasy, mystery, romance, sci-fi, and horror",
+      "AI Narrative: Dynamic story generation that responds to your choices",
+      "Shareable Stories: Share your story adventures with others",
+      "Story Saving: Save your progress and return to your story",
+      "Free to Play: Basic interactive story creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Makemytale",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Story", description: "Sign up at makemytale.com and choose your story genre and initial setup. Describe your character, the starting situation, and any specific elements you want in your adventure." },
+        { title: "Make Your Choices", description: "As the story unfolds, the AI presents decision points where you choose what happens next. Each choice takes the story in a different direction creating a unique narrative experience." },
+        { title: "Explore and Share", description: "Continue your story through as many choices as you want. Save your progress to return later or share your unique story path with friends who can experience their own version." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Endless Variation", description: "AI-generated branching stories can go in more directions than any fixed text allows - each playthrough can be genuinely different based on the choices made" },
+      { title: "Personal Agency", description: "The appeal of interactive fiction is the feeling that your choices matter. MakeMytale AI generates consequences that reflect your decisions rather than funneling everyone toward predetermined endings" },
+      { title: "Genre Flexibility", description: "Having multiple genres available means users can experience different types of stories without switching to different platforms" },
+      { title: "Casual Entertainment", description: "Interactive AI storytelling provides casual entertainment that is more engaging than passive reading while being more relaxed than video games" }
+    ],
+    useCases: [
+      { title: "Interactive Fiction Enthusiasts", description: "Fans of choose-your-own-adventure stories use MakeMytale for AI-powered interactive narratives that offer more variation than traditional published interactive fiction" },
+      { title: "Casual Readers Wanting Engagement", description: "People who enjoy reading but want more interactive engagement use MakeMytale for story experiences where their choices shape what happens" },
+      { title: "Writers Exploring Story Branches", description: "Fiction writers use MakeMytale to explore how different narrative choices play out as a creative exercise for their own storytelling work" }
+    ]
+  },
+  "prepostseo": {
+    whatIs: "Prepostseo is a comprehensive online SEO and writing tools platform that provides a large collection of free utilities for content creators, SEO professionals, and website owners. It includes tools for plagiarism checking, paraphrasing, grammar checking, word counting, keyword research, backlink analysis, and many other SEO and writing tasks. The breadth of tools available for free makes it a practical daily resource for digital marketers and content teams who need various utilities without subscribing to multiple specialized services.",
+    features: [
+      "Plagiarism Checker: Verify content originality against web sources",
+      "Paraphrasing Tool: Rewrite content in different styles",
+      "Grammar Checker: Identify and fix grammar errors",
+      "SEO Tools: Keyword research, backlink checker, and site analysis",
+      "Word Counter: Count words, characters, and reading time",
+      "Article Rewriter: Rewrite articles for fresh versions of existing content",
+      "Domain Authority Checker: Check website authority metrics",
+      "Free Access: Most tools available without payment or account creation"
+    ],
+    howToUse: {
+      title: "How to Use Prepostseo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Find Your Tool", description: "Go to prepostseo.com and browse or search for the specific tool you need. The platform organizes its many tools by category making it straightforward to find the right utility." },
+        { title: "Use Without Account", description: "Most Prepostseo tools work immediately without creating an account. Paste your content or enter your URL and get results instantly." },
+        { title: "Combine Multiple Tools", description: "Use multiple tools in sequence for comprehensive content work - check plagiarism, then paraphrase flagged sections, then verify grammar before publishing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Tool Breadth", description: "Having plagiarism checking, paraphrasing, grammar checking, and SEO tools in one place reduces the number of separate services needed for a complete content and SEO workflow" },
+      { title: "Free Accessibility", description: "Most tools work without payment or account creation which makes Prepostseo accessible for occasional use without subscription commitment" },
+      { title: "Workflow Integration", description: "Using multiple complementary tools from one platform is more efficient than switching between separate specialized services for each task" },
+      { title: "SEO and Content Together", description: "Combining writing quality tools with SEO analysis tools reflects how content and SEO are actually related in practice - good content that ranks requires both" }
+    ],
+    useCases: [
+      { title: "Bloggers and Content Writers", description: "Content creators use Prepostseo for plagiarism checking, grammar review, and article rewriting as part of their regular content production workflow" },
+      { title: "SEO Professionals", description: "SEO specialists use the keyword research, backlink checking, and site analysis tools for their regular optimization work" },
+      { title: "Students and Academics", description: "Students use Prepostseo for plagiarism checking and grammar assistance before submitting their academic work" }
+    ]
+  },
   "som-ai": {
     whatIs: "SOM AI is an AI-powered social media management and content creation platform that helps businesses and creators plan, generate, and schedule social media content across multiple platforms. It uses AI to suggest content ideas, generate post copy, recommend optimal posting times, and analyze performance data to improve future content strategy. For small businesses and solo creators who manage their own social media without a dedicated team, SOM AI provides the planning and automation tools that make consistent social media presence manageable.",
     features: [
