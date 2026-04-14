@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "baiby": {
+    whatIs: "Baiby is an AI baby development tracking and parenting support platform that helps new parents monitor their infant's development milestones, get personalized parenting advice, and understand what to expect at each stage of their baby's growth. It provides developmental guidance, sleep training support, and feeding advice tailored to your baby's specific age and developmental stage. For new parents navigating the overwhelming first months and years of parenthood, Baiby provides expert-backed guidance available any time.",
+    features: [
+      "Milestone Tracking: Monitor your baby's developmental milestones",
+      "Age-Appropriate Guidance: Advice tailored to your baby's current stage",
+      "Sleep Support: Sleep training guidance and troubleshooting",
+      "Feeding Advice: Breastfeeding, formula, and solid food guidance",
+      "Growth Tracking: Record and monitor height, weight, and head circumference",
+      "Activity Suggestions: Age-appropriate activities to support development",
+      "Health Information: When to call the doctor and what to watch for",
+      "Free to Start: Basic baby tracking without payment"
+    ],
+    howToUse: {
+      title: "How to Use Baiby",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Baby Profile", description: "Sign up at baiby.app and create your baby profile with their birth date and any relevant health information. The app uses this to calibrate all guidance to their specific developmental stage." },
+        { title: "Track Milestones and Growth", description: "Log your baby's milestones as they achieve them and track growth measurements over time. Compare against developmental expectations and get guidance when you have questions." },
+        { title: "Get Your Questions Answered", description: "Ask Baiby any question about your baby's behavior, development, or care. Receive evidence-based guidance appropriate for your baby's specific age and situation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Age-Specific Accuracy", description: "Generic parenting advice is often not appropriate for a baby's specific developmental stage. Baiby provides guidance calibrated to exactly where your baby is developmentally" },
+      { title: "3am Support", description: "Parenting questions and crises do not follow business hours. AI support available at any time provides reassurance and guidance when pediatricians are not reachable" },
+      { title: "Evidence-Based Guidance", description: "Parenting advice online is often contradictory and of uncertain quality. Baiby provides guidance grounded in established pediatric and developmental science" },
+      { title: "Progress Visualization", description: "Seeing your baby's growth and milestone data visualized over time provides reassurance about normal development and early visibility into anything that might need attention" }
+    ],
+    useCases: [
+      { title: "New Parents in the First Year", description: "First-time parents navigating the enormous learning curve of a new baby use Baiby for reliable guidance and milestone tracking" },
+      { title: "Parents with Developmental Questions", description: "Parents who are concerned about their child's development use Baiby to understand what is typical at their child's age before deciding whether to consult a specialist" },
+      { title: "Multiples and Busy Parents", description: "Parents managing multiple children or very busy schedules use Baiby for efficient access to reliable parenting guidance without extensive research" }
+    ]
+  },
+  "webscrypto": {
+    whatIs: "WebsCrypto is a cryptocurrency information and analysis platform that provides market data, price tracking, news, and educational content about cryptocurrencies and blockchain technology. It helps investors and enthusiasts stay informed about crypto markets, understand different digital assets, and access the research they need to make informed decisions. For people navigating the complex and rapidly changing cryptocurrency landscape, WebsCrypto provides organized, accessible crypto intelligence.",
+    features: [
+      "Crypto Price Tracking: Real-time prices for major and minor cryptocurrencies",
+      "Market Data: Market cap, volume, and trading data across crypto markets",
+      "News Aggregation: Latest cryptocurrency and blockchain news",
+      "Educational Content: Explanations of crypto concepts for all levels",
+      "Portfolio Tracking: Monitor your crypto holdings and performance",
+      "Coin Information: Detailed information about individual cryptocurrencies",
+      "Market Analysis: AI-assisted market trend analysis",
+      "Free Access: Core crypto data without payment"
+    ],
+    howToUse: {
+      title: "How to Use Webscrypto",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Track Your Assets", description: "Go to webscrypto.com and search for the cryptocurrencies you want to follow. Add them to your watchlist for easy monitoring of prices and market data." },
+        { title: "Stay Informed", description: "Use the news aggregation to stay current on cryptocurrency developments. Filter news by specific coins or topics most relevant to your interests." },
+        { title: "Research Before Investing", description: "Use the educational content and coin information pages to research cryptocurrencies before investing. Understanding what you are investing in reduces risk significantly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Information Consolidation", description: "Cryptocurrency information is scattered across dozens of sites. Having prices, news, and educational content in one place makes staying informed more efficient" },
+      { title: "Educational Accessibility", description: "Crypto is technically complex and jargon-heavy. Educational content that explains concepts clearly makes the space accessible to people at all knowledge levels" },
+      { title: "Research Support", description: "The diversity of cryptocurrencies makes research overwhelming. Organized coin information and market data supports more informed investment decisions" },
+      { title: "Market Context", description: "Understanding your portfolio performance in context of broader market movements requires market data that puts individual coin performance in perspective" }
+    ],
+    useCases: [
+      { title: "Crypto Investors and Traders", description: "People investing in or trading cryptocurrencies use WebsCrypto for market data and news that inform their decisions" },
+      { title: "Crypto Beginners", description: "People new to cryptocurrency use WebsCrypto for educational content that helps them understand the space before investing" },
+      { title: "Blockchain Enthusiasts", description: "People following blockchain technology development use WebsCrypto to stay current on industry developments and project news" }
+    ]
+  },
+  "prompt-advance": {
+    whatIs: "Prompt Advance is an AI prompt engineering resource and tool that helps users write better prompts for AI systems. It provides prompt templates, techniques, and a prompt builder that helps users structure their requests for maximum effectiveness. The platform covers prompting for ChatGPT, Claude, Midjourney, and other AI tools, with specific guidance for different use cases and output types. For people who want consistently better results from AI tools, Prompt Advance provides the prompt engineering knowledge that makes the difference.",
+    features: [
+      "Prompt Templates: Pre-built templates for common AI use cases",
+      "Prompt Builder: Guided tool for constructing effective prompts",
+      "Technique Library: Collection of proven prompting techniques",
+      "Multi-Model: Guidance for ChatGPT, Claude, Midjourney, and others",
+      "Use Case Coverage: Templates across writing, coding, analysis, and creativity",
+      "Examples Library: Before and after examples showing prompt improvement",
+      "Free Resources: Core prompt engineering content without payment",
+      "Community: Connect with other prompt engineering practitioners"
+    ],
+    howToUse: {
+      title: "How to Use Prompt Advance",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse Templates", description: "Go to promptadvance.club and browse prompt templates for your specific use case. Find templates that match what you are trying to accomplish." },
+        { title: "Apply Techniques", description: "Learn the prompting techniques that produce better results - role assignment, chain of thought, few-shot examples - and apply them to your own prompts." },
+        { title: "Build Better Prompts", description: "Use the prompt builder to construct your own prompts with guidance that helps you include all the elements that make prompts effective." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Technique Knowledge Gap", description: "Most people use AI tools without any knowledge of prompt engineering. Learning even basic techniques produces dramatically better results" },
+      { title: "Template Starting Points", description: "Starting from a proven template is faster than building prompts from scratch and produces more reliably good results" },
+      { title: "Multi-Model Relevance", description: "Different AI systems respond differently to prompt structures. Model-specific guidance produces better results than applying the same approach everywhere" },
+      { title: "Example Learning", description: "Seeing concrete before and after examples of prompt improvement demonstrates the techniques more effectively than abstract descriptions alone" }
+    ],
+    useCases: [
+      { title: "Regular AI Tool Users", description: "People who use ChatGPT, Claude, and other AI tools regularly use Prompt Advance to get consistently better results from their interactions" },
+      { title: "Content Creators Using AI", description: "Writers and creators who rely on AI assistance use Prompt Advance to improve the quality and relevance of AI-generated content" },
+      { title: "Professionals Integrating AI", description: "Business professionals who use AI for work tasks use Prompt Advance to develop more effective prompts for their specific professional use cases" }
+    ]
+  },
+  "why-try-ai": {
+    whatIs: "Why Try AI is an AI tools discovery and education platform that helps people understand why they should adopt AI tools and how to get started. It covers the practical benefits of specific AI tools for different professional and personal contexts, making the case for AI adoption through concrete examples and use case demonstrations. For people who are curious about AI but have not yet integrated it into their workflows, Why Try AI provides the motivation and guidance to start.",
+    features: [
+      "AI Tool Discovery: Find AI tools relevant to your specific situation",
+      "Use Case Examples: Concrete examples of how AI helps in different contexts",
+      "Adoption Guidance: Step-by-step help for getting started with AI tools",
+      "Benefit Explanation: Clear articulation of why specific tools are worth using",
+      "Beginner Friendly: Content designed for people new to AI tools",
+      "Category Coverage: AI tools across productivity, creativity, and professional use",
+      "Comparison Help: Understanding which tools are best for which purposes",
+      "Free Access: All discovery and educational content without payment"
+    ],
+    howToUse: {
+      title: "How to Use Why Try Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Identify Your Use Case", description: "Go to whytryai.com and describe what you want to accomplish or what problems you are trying to solve. The platform surfaces relevant AI tools for your specific situation." },
+        { title: "Understand the Benefits", description: "Read the use case examples and benefit explanations for tools that match your needs. Understand concretely how the tool would help before investing time in trying it." },
+        { title: "Get Started", description: "Follow the adoption guidance for your chosen tool. Why Try AI provides beginner-friendly getting started resources that reduce the barrier to actually using new AI tools." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Motivation Before Adoption", description: "Many people know AI tools exist but have not adopted them because they are not convinced the benefit is worth the learning investment. Why Try AI makes the case for specific tools concretely" },
+      { title: "Use Case Matching", description: "The value of an AI tool depends on how well it matches your specific situation. Use case-specific examples help people identify which tools will actually help them" },
+      { title: "Beginner Accessibility", description: "The AI tools landscape is overwhelming for newcomers. Curated, explained guidance reduces the paralysis that too many options creates" },
+      { title: "Practical Focus", description: "Focusing on why tools are worth using rather than just listing features produces more actionable guidance for people deciding whether to adopt new tools" }
+    ],
+    useCases: [
+      { title: "AI Skeptics and Hesitant Adopters", description: "People who are interested in AI but have not started using tools use Why Try AI for the motivation and guidance to begin" },
+      { title: "Professionals Evaluating AI Tools", description: "Workers deciding whether to integrate AI into their workflows use Why Try AI for use case examples specific to their professional context" },
+      { title: "AI Beginners", description: "People at the very beginning of their AI journey use Why Try AI as an accessible starting point for understanding the landscape" }
+    ]
+  },
+  "just-ai-news": {
+    whatIs: "Just AI News is a curated AI news aggregation platform that collects and organizes the most important artificial intelligence news from across the web. It saves readers from monitoring dozens of AI news sources by bringing relevant headlines and stories into one organized feed. For professionals and enthusiasts who want to stay current with AI without spending excessive time on news consumption, Just AI News provides efficient, focused coverage of the AI landscape.",
+    features: [
+      "News Aggregation: AI news from multiple sources in one place",
+      "Curation Quality: Most important AI stories selected and organized",
+      "Category Organization: News organized by topic - research, products, business",
+      "Daily Updates: Fresh content updated regularly throughout the day",
+      "Source Diversity: Coverage from technical publications to mainstream media",
+      "Search Function: Find specific topics within the news archive",
+      "Email Digest: Daily or weekly AI news summaries via email",
+      "Free Access: Browse all aggregated news without payment"
+    ],
+    howToUse: {
+      title: "How to Use Just Ai News",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse Your Feed", description: "Go to Just AI News and browse the aggregated news feed. Scan headlines to identify the stories most relevant to your interests and read summaries for context." },
+        { title: "Filter by Category", description: "Use the category filters to focus on the type of AI news most relevant to you - research breakthroughs, product launches, business news, or policy developments." },
+        { title: "Subscribe for Daily Updates", description: "Sign up for the email digest to receive curated AI news summaries without having to visit the site daily. Choose your preferred frequency based on how closely you follow the space." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Source Consolidation", description: "Staying current on AI requires monitoring many sources. Aggregation in one place saves the time of checking each source individually" },
+      { title: "Curation Value", description: "Not all AI news is equally important. Curation that prioritizes significant developments over noise makes consumption more efficient" },
+      { title: "Passive Consumption Option", description: "Email digests allow passive AI news consumption - the relevant stories come to you rather than requiring active news monitoring" },
+      { title: "Archive Search", description: "Searchable news archives let readers find coverage of specific topics and developments when they need context on current news" }
+    ],
+    useCases: [
+      { title: "AI Industry Professionals", description: "People working in the AI industry use Just AI News to stay current with competitive developments, research breakthroughs, and industry trends" },
+      { title: "Technology Leaders and Decision Makers", description: "Executives and managers making decisions about AI adoption use Just AI News to maintain awareness of developments relevant to their strategic planning" },
+      { title: "AI Enthusiasts and Learners", description: "People who follow AI out of genuine interest use Just AI News as an efficient way to stay informed without excessive time investment" }
+    ]
+  },
+  "artificial-ignorance": {
+    whatIs: "Artificial Ignorance is an AI education and awareness platform that humorously and critically examines the limitations, failures, and misconceptions around artificial intelligence. It provides accessible content about where AI goes wrong, what AI cannot do, and the common misunderstandings about AI capabilities. For people who want a more balanced and realistic understanding of AI beyond the hype, Artificial Ignorance offers educational content about the genuine limitations of current AI systems.",
+    features: [
+      "AI Limitations Education: Content about where AI systems fail and struggle",
+      "Misconception Correction: Addressing common misunderstandings about AI",
+      "Critical Analysis: Balanced examination of AI capabilities and hype",
+      "Failure Examples: Real examples of AI going wrong in interesting ways",
+      "Accessible Explanation: Complex AI concepts explained clearly",
+      "Humor and Satire: Lighthearted approach to serious AI literacy topics",
+      "Regular Updates: New content as AI failures and misconceptions emerge",
+      "Free Access: All educational content without payment"
+    ],
+    howToUse: {
+      title: "How to Use Artificial Ignorance",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Content", description: "Go to Artificial Ignorance and explore the articles, examples, and educational content about AI limitations and misconceptions." },
+        { title: "Learn About Specific Limitations", description: "Search for content about specific AI capabilities you want to understand more critically - language understanding, image generation, reasoning, or others." },
+        { title: "Share and Discuss", description: "Use the content as a starting point for conversations about realistic AI expectations in your professional and personal contexts." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Balance to Hype", description: "AI coverage is overwhelmingly positive and forward-looking. Content that examines limitations provides the balance needed for a realistic understanding" },
+      { title: "Critical AI Literacy", description: "Understanding what AI cannot do is as important as understanding what it can do. This knowledge prevents over-reliance and inappropriate deployment of AI systems" },
+      { title: "Accessible Critical Analysis", description: "Technical AI criticism is often inaccessible to non-specialists. Artificial Ignorance makes critical AI analysis available to general audiences" },
+      { title: "Humor as Education", description: "Engaging with AI failures through humor makes the educational content more memorable and shareable than dry technical analysis" }
+    ],
+    useCases: [
+      { title: "AI Skeptics Wanting Validation", description: "People skeptical of AI hype use Artificial Ignorance for evidence-backed content supporting a more critical view of AI claims" },
+      { title: "AI Enthusiasts Wanting Balance", description: "People who follow AI positively use Artificial Ignorance to develop a more complete and realistic picture of the technology they follow" },
+      { title: "Educators Teaching AI Literacy", description: "Teachers and trainers developing AI literacy curricula use Artificial Ignorance for accessible critical content about AI limitations" }
+    ]
+  },
+  "milo": {
+    whatIs: "Milo is an AI family assistant that helps parents manage the overwhelming volume of family logistics - school communications, activity schedules, appointments, and household tasks. It processes the constant flow of information that families receive and helps parents stay organized, remember important dates, and coordinate family activities. For parents who feel overwhelmed by the administrative demands of family life, Milo provides an intelligent assistant that handles the organizational complexity.",
+    features: [
+      "Family Communication Management: Process school and activity communications",
+      "Schedule Organization: Manage family appointments and activities",
+      "Reminder System: Never miss important family dates and deadlines",
+      "Task Management: Household and family task tracking",
+      "Information Extraction: Pull key details from long emails and documents",
+      "Shared Family Calendar: Coordinate schedules across family members",
+      "Action Item Tracking: Follow up on commitments and tasks",
+      "Free Trial: Try family organization assistance before paying"
+    ],
+    howToUse: {
+      title: "How to Use Milo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Communications", description: "Sign up at joinmilo.com and connect your email and other communication channels. Milo processes incoming family communications and extracts the important information." },
+        { title: "Review Your Organized Information", description: "See your family's schedule, tasks, and important information organized clearly rather than buried in email threads. Milo surfaces what requires action." },
+        { title: "Stay on Top of Family Life", description: "Use Milo's reminders and task tracking to ensure nothing falls through the cracks. The assistant handles the organizational overhead so you can focus on being present with your family." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Information Overload Solution", description: "Modern family life generates enormous volumes of administrative information - school newsletters, sports schedules, medical appointments. Milo processes this load intelligently" },
+      { title: "Nothing Falls Through", description: "The most common family administrative failure is things being forgotten or missed. Milo's tracking and reminders prevent this systematically" },
+      { title: "Parent Time Reclamation", description: "Administrative family management consumes significant parental time and mental energy. Reducing this burden gives parents more presence for the parts of family life that matter" },
+      { title: "Communication Processing", description: "Extracting key dates and action items from long school and activity communications is tedious. AI processing handles this automatically" }
+    ],
+    useCases: [
+      { title: "Parents of School-Age Children", description: "Families with children in school use Milo to manage the constant flow of school communications, event dates, and parent obligations" },
+      { title: "Dual-Income Families", description: "Families where both parents work full-time use Milo to stay organized without one parent carrying the entire mental load of family administration" },
+      { title: "Parents Managing Multiple Children", description: "Families with several children in different schools and activities use Milo to coordinate complex overlapping schedules" }
+    ]
+  },
+  "kidtime": {
+    whatIs: "KidTime is an AI-powered screen time management and parental controls platform that helps families create healthy digital habits for children. It provides tools for setting screen time limits, filtering content, scheduling device-free periods, and monitoring what children are doing online. The platform focuses on helping families have productive conversations about technology use rather than just restricting it, providing insights that inform family discussions about healthy digital boundaries.",
+    features: [
+      "Screen Time Limits: Set daily limits for device and app usage",
+      "Content Filtering: Block inappropriate content across devices",
+      "Schedule Management: Set device-free times for meals, bedtime, and school",
+      "Activity Monitoring: See what apps and websites children are using",
+      "Usage Reports: Detailed reports on children digital habits",
+      "Conversation Starters: Insights that help parents discuss tech use with children",
+      "Reward Systems: Earn additional screen time through positive behavior",
+      "Free Plan: Basic screen time management without payment"
+    ],
+    howToUse: {
+      title: "How to Use Kidtime",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Family Profiles", description: "Sign up at kidtime.app and create profiles for each child. Install the app on their devices and configure age-appropriate settings for each child." },
+        { title: "Configure Your Rules", description: "Set screen time limits for each day, block inappropriate content categories, and schedule device-free periods that align with your family routines." },
+        { title: "Review and Discuss", description: "Use the weekly usage reports to understand your children's digital habits. Use the insights as conversation starters for family discussions about healthy technology use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversation Over Control", description: "KidTime is designed to support family conversations about technology rather than just imposing restrictions - which produces more sustainable healthy digital habits" },
+      { title: "Age-Appropriate Flexibility", description: "What is appropriate changes significantly as children grow. KidTime settings that can be adjusted by age ensure boundaries remain appropriate throughout childhood" },
+      { title: "Transparency for Children", description: "Children who understand why boundaries exist and can see their own usage data are more likely to internalize healthy digital habits than those who just experience unexplained restrictions" },
+      { title: "Holistic Family Approach", description: "Healthy digital habits develop best when the whole family is involved in setting and reviewing boundaries rather than having rules imposed unilaterally" }
+    ],
+    useCases: [
+      { title: "Parents Establishing Digital Boundaries", description: "Families working to create healthy technology habits for their children use KidTime for the tools that make boundaries practical to implement and maintain" },
+      { title: "Parents of Teenagers", description: "Parents navigating the particular challenge of teen screen time use KidTime for tools that support conversations about appropriate usage rather than just blocking" },
+      { title: "Schools Supporting Home Digital Wellness", description: "Schools that provide devices to students use KidTime in partnership with families to maintain consistent boundaries between school and home environments" }
+    ]
+  },
   "honeydo": {
     whatIs: "HoneyDo is an AI-powered shopping and task assistant that helps users find deals, compare products, and manage their shopping lists through voice and photo input. Users can speak their shopping needs or snap photos of products they want to find, and HoneyDo handles the search and comparison. It combines shopping assistance with household task management making it a practical everyday companion for managing home needs.",
     features: [
