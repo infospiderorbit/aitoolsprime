@@ -1,4 +1,235 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "honeydo": {
+    whatIs: "HoneyDo is an AI-powered shopping and task assistant that helps users find deals, compare products, and manage their shopping lists through voice and photo input. Users can speak their shopping needs or snap photos of products they want to find, and HoneyDo handles the search and comparison. It combines shopping assistance with household task management making it a practical everyday companion for managing home needs.",
+    features: [
+      "Voice Shopping: Add items to your list by speaking",
+      "Photo Search: Snap a photo to find and compare products",
+      "Deal Finding: Automatically surfaces available deals and discounts",
+      "Price Comparison: Compare prices across retailers",
+      "Shopping List Management: Organize and manage household shopping lists",
+      "Task Management: Track household tasks alongside shopping",
+      "Retailer Integration: Connects with major online retailers",
+      "Free to Use: Basic shopping assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Honeydo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Add Items by Voice or Photo", description: "Open HoneyDo and either speak your shopping needs or take a photo of a product you want to find. The app processes your input and adds items to your list." },
+        { title: "Review Deals and Prices", description: "HoneyDo surfaces available deals and price comparisons for items on your list. Review the options to find the best available price." },
+        { title: "Shop and Track", description: "Use HoneyDo to shop directly or as a reference for in-store shopping. Track your tasks and purchases in one organized place." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Input Flexibility", description: "Voice and photo input for shopping is faster than typing product names - particularly useful when you spot something in a magazine or see an item you want to reorder" },
+      { title: "Deal Surfacing", description: "Automatically finding available deals removes the manual step of checking for coupons and discounts before every purchase" },
+      { title: "Household Integration", description: "Combining shopping lists with household task management keeps all domestic organization in one place rather than across multiple apps" },
+      { title: "Price Intelligence", description: "Comparing prices across retailers before purchasing ensures you are not overpaying for items available more cheaply elsewhere" }
+    ],
+    useCases: [
+      { title: "Household Managers", description: "People responsible for household shopping and organization use HoneyDo to manage their domestic responsibilities more efficiently" },
+      { title: "Deal-Conscious Shoppers", description: "Value-focused consumers use HoneyDo to automatically find the best prices without manual deal hunting" },
+      { title: "Busy Families", description: "Families managing complex household needs use HoneyDo for organized shopping and task management that multiple family members can contribute to" }
+    ]
+  },
+  "spoiled-child": {
+    whatIs: "Spoiled Child is an AI-powered personalized nutrition and supplement recommendation platform that creates customized supplement routines based on your specific health goals, lifestyle, and individual needs. It uses an AI assessment to understand your health profile and generates personalized product recommendations rather than generic supplement suggestions. For health-conscious consumers who want personalized nutrition guidance rather than one-size-fits-all supplements, Spoiled Child provides individualized recommendations.",
+    features: [
+      "Personalized Assessment: AI evaluation of your specific health needs",
+      "Custom Supplement Recommendations: Products matched to your individual profile",
+      "Health Goal Alignment: Recommendations based on your specific wellness goals",
+      "Lifestyle Consideration: Accounts for diet, exercise, and daily habits",
+      "Product Explanation: Clear explanation of why each recommendation suits you",
+      "Routine Building: Complete supplement routine rather than individual products",
+      "Progress Tracking: Monitor how your routine supports your health goals",
+      "Free Assessment: Complete the health assessment without payment"
+    ],
+    howToUse: {
+      title: "How to Use Spoiled Child",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Complete Your Assessment", description: "Go to spoiledchild.com and complete the AI health assessment. Answer questions about your health goals, current diet, lifestyle, and any specific concerns." },
+        { title: "Review Your Recommendations", description: "Spoiled Child generates personalized supplement recommendations with explanations of why each product addresses your specific needs." },
+        { title: "Start Your Routine", description: "Begin your personalized supplement routine and track how it supports your health goals over time. Reassess periodically as your health needs evolve." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization Over Generic", description: "Generic supplement recommendations apply the same products to everyone. AI-personalized recommendations that account for your specific health profile, goals, and lifestyle produce more relevant suggestions" },
+      { title: "Explanation Transparency", description: "Understanding why each supplement is recommended helps users make informed decisions rather than blindly following suggestions" },
+      { title: "Complete Routine Value", description: "Individual supplement decisions made in isolation often produce redundant or conflicting combinations. A complete routine designed together avoids these problems" },
+      { title: "Assessment Quality", description: "The quality of personalization depends on the depth of the assessment. A thorough AI assessment produces more accurate recommendations than simple questionnaires" }
+    ],
+    useCases: [
+      { title: "Health-Conscious Consumers", description: "People committed to optimizing their health use Spoiled Child for personalized supplement guidance that goes beyond generic recommendations" },
+      { title: "Wellness Goal Seekers", description: "Individuals working toward specific health goals use the platform for targeted supplement support aligned to their particular objectives" },
+      { title: "People New to Supplements", description: "Those starting supplement routines for the first time use Spoiled Child for expert-like guidance on where to start based on their individual needs" }
+    ]
+  },
+  "tictuk": {
+    whatIs: "Tictuk is an AI-powered conversational commerce platform that enables businesses to sell products and take orders through messaging channels like WhatsApp, Facebook Messenger, and SMS. It creates interactive shopping experiences within chat interfaces where customers can browse products, add to cart, and complete purchases without leaving their messaging app. For restaurants, retailers, and service businesses that want to reach customers on the messaging platforms they already use, Tictuk provides conversational commerce infrastructure.",
+    features: [
+      "Conversational Commerce: Sell through WhatsApp, Messenger, and SMS",
+      "Interactive Ordering: Complete purchase flows within messaging apps",
+      "Restaurant Ordering: Food ordering through chat interfaces",
+      "Product Catalog: Browsable product catalogs in conversational format",
+      "Order Management: Track and manage orders from the platform",
+      "Payment Integration: Secure payment processing within chat",
+      "Customer Engagement: Personalized messaging and promotions",
+      "Multi-Channel: Single platform managing multiple messaging channels"
+    ],
+    howToUse: {
+      title: "How to Use Tictuk",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Catalog", description: "Sign up at tictuk.com and upload your product or menu catalog. Configure your ordering flow for the messaging channels you want to activate." },
+        { title: "Connect Your Channels", description: "Connect your WhatsApp Business, Facebook Messenger, and SMS accounts. Tictuk handles the conversational ordering experience across all connected channels." },
+        { title: "Manage and Fulfill", description: "Orders from all channels arrive in your Tictuk dashboard. Manage fulfillment, communicate with customers, and track performance across all your conversational commerce channels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Where Customers Already Are", description: "Requiring customers to download an app or visit a website creates friction. Tictuk enables purchasing in messaging apps customers already use daily" },
+      { title: "WhatsApp Commerce", description: "WhatsApp has become a primary communication channel in many markets. Tictuk enables full commerce functionality in WhatsApp without requiring custom development" },
+      { title: "Restaurant Industry Fit", description: "Restaurants that receive orders by phone find Tictuk a natural digital upgrade - customers order by messaging rather than calling, with the same conversational experience" },
+      { title: "Conversion Through Familiarity", description: "Shopping in a familiar messaging interface removes the unfamiliarity barrier that reduces conversion on new websites and apps" }
+    ],
+    useCases: [
+      { title: "Restaurants and Food Service", description: "Food businesses use Tictuk for digital ordering through the messaging apps their customers already use for communication" },
+      { title: "Retailers in WhatsApp-First Markets", description: "Businesses in markets where WhatsApp dominates use Tictuk to enable commerce in the channel their customers prefer" },
+      { title: "Service Businesses Taking Appointments", description: "Service providers use Tictuk for appointment booking and service ordering through conversational interfaces" }
+    ]
+  },
+  "fight-iq": {
+    whatIs: "Fight IQ is an AI-powered combat sports analytics and training platform that provides intelligent analysis of fighting techniques, match statistics, and training insights for MMA, boxing, and other combat sports. It analyzes fighter performance data, identifies patterns in fighting styles, and provides coaching insights that help fighters and coaches understand strengths, weaknesses, and strategic opportunities. For combat sports athletes and coaches who want data-driven insights to improve performance, Fight IQ brings analytical intelligence to a sport that has traditionally relied on experience and intuition.",
+    features: [
+      "Fighter Analysis: AI analysis of individual fighter performance and style",
+      "Match Statistics: Detailed statistics from fights and sparring sessions",
+      "Technique Identification: Recognition and categorization of fighting techniques",
+      "Style Pattern Analysis: Understand patterns in how fighters compete",
+      "Strategic Insights: Data-driven recommendations for fight preparation",
+      "Training Metrics: Track training performance over time",
+      "Opponent Analysis: Understand the tendencies of specific opponents",
+      "Free Trial: Try Fight IQ analytics before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Fight Iq",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Sign up at fightiq.ai and create your fighter or coach profile. Input your combat sports background and what aspects of performance you want to analyze." },
+        { title: "Analyze Your Fights", description: "Upload fight footage or connect your training data. Fight IQ analyzes the content and generates performance insights and statistical breakdowns." },
+        { title: "Apply Strategic Insights", description: "Use the analysis to inform your training focus and fight preparation. Identify the specific areas where data shows the most room for improvement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data-Driven Combat Sports", description: "Combat sports coaching has historically relied on experienced intuition. AI analytics brings objective data to performance analysis that complements coaching expertise" },
+      { title: "Pattern Recognition", description: "Identifying patterns in fighting styles - the tendencies fighters have that can be exploited - requires analysis of large amounts of footage that AI processes much faster than human review" },
+      { title: "Opponent Preparation", description: "Understanding a specific opponent tendencies before a fight is standard preparation. AI analysis makes this preparation more thorough and systematic than watching footage alone" },
+      { title: "Training Efficiency", description: "Knowing specifically which aspects of performance data shows need most improvement makes training time more targeted and efficient than general conditioning work" }
+    ],
+    useCases: [
+      { title: "Professional and Competitive Fighters", description: "Combat sports athletes competing at amateur and professional levels use Fight IQ for performance analysis that gives them competitive advantages" },
+      { title: "Combat Sports Coaches", description: "Coaches use Fight IQ to analyze their fighters performance objectively and prepare detailed game plans for upcoming competitions" },
+      { title: "Gyms and Training Facilities", description: "Combat sports gyms use Fight IQ as part of their coaching infrastructure to provide data-driven development for their athletes" }
+    ]
+  },
+  "pixellot": {
+    whatIs: "Pixellot is an AI-powered automated sports filming and broadcasting platform that captures, produces, and streams sports events without camera operators. Its AI cameras automatically track the action, make production decisions, and deliver broadcast-quality video of games and matches at a fraction of traditional production costs. For amateur sports leagues, schools, and smaller clubs that want to film and broadcast their events professionally without hiring production crews, Pixellot makes sports broadcasting accessible.",
+    features: [
+      "Automated Filming: AI cameras that track sports action without operators",
+      "Auto Production: Intelligent production decisions without human directors",
+      "Live Streaming: Broadcast games live to online audiences",
+      "Highlight Generation: Automatic creation of game highlights",
+      "Multiple Sports: Coverage for soccer, basketball, volleyball, and others",
+      "Broadcast Quality: Professional-grade video output",
+      "Cloud Storage: Store and access game footage online",
+      "Scalable Deployment: Deploy across multiple venues affordably"
+    ],
+    howToUse: {
+      title: "How to Use Pixellot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the System", description: "Work with Pixellot to install the automated camera system in your venue. The AI cameras are calibrated for your specific field or court dimensions." },
+        { title: "Activate for Games", description: "Turn on the Pixellot system before your event. The AI automatically activates, tracks the action throughout the game, and produces broadcast-quality coverage without any operator." },
+        { title: "Access and Share", description: "Access your game footage in the cloud immediately after the event. Share highlights, stream live to your audience, and build a video library of your team seasons." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Production Without Crew", description: "Traditional sports broadcasting requires camera operators, directors, and production crew. Pixellot replaces this entire production requirement with an automated AI system" },
+      { title: "Amateur Sports Access", description: "Professional-quality video coverage has previously been available only to well-funded sports programs. Pixellot makes it economically viable for amateur leagues and school sports" },
+      { title: "Live Streaming Demand", description: "Parents, alumni, and fans want to watch games they cannot attend in person. Pixellot enables live streaming that satisfies this demand without production overhead" },
+      { title: "Highlight Automation", description: "Generating highlights from hours of footage manually takes significant editing time. Automatic highlight creation makes this content available immediately after games" }
+    ],
+    useCases: [
+      { title: "Amateur and Youth Sports Leagues", description: "Community sports leagues use Pixellot to film their games professionally and share content with players, parents, and fans" },
+      { title: "Schools and Universities", description: "Educational institutions use Pixellot to cover their athletic programs affordably and build video archives of student athletic achievements" },
+      { title: "Sports Clubs and Academies", description: "Development academies use Pixellot for coaching video of their players and to broadcast games to wider audiences" }
+    ]
+  },
+  "ludex": {
+    whatIs: "Ludex is an AI-powered sports card and collectibles price guide and grading assistant. It uses computer vision and market data to identify sports cards from photos, provide current market valuations, and help collectors understand the grade and condition of their cards. For sports card collectors and investors who want accurate, current pricing without manual research, Ludex provides instant AI-powered card identification and valuation.",
+    features: [
+      "Card Identification: Identify sports cards from photos using AI",
+      "Market Valuation: Current market prices for identified cards",
+      "Condition Assessment: AI evaluation of card condition and grade",
+      "Collection Management: Organize and track your card collection",
+      "Price Trends: Historical price data and market trends",
+      "Grading Guidance: Help understanding what grading affects value",
+      "Portfolio Tracking: Monitor the total value of your collection",
+      "Free to Use: Basic card scanning without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ludex",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Scan Your Cards", description: "Download Ludex and scan your sports cards with your phone camera. The AI identifies each card from the image and retrieves relevant market data." },
+        { title: "Review Valuations", description: "Ludex returns current market values and condition assessments for your identified cards. Use the valuation to understand what your cards are worth." },
+        { title: "Manage Your Collection", description: "Add scanned cards to your digital collection. Track the total value of your portfolio and monitor price changes over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Instant Identification", description: "Identifying a card manually requires knowing the player, year, set, and variation. AI photo identification handles this instantly without requiring collector expertise" },
+      { title: "Current Market Pricing", description: "Card values change rapidly based on player performance and market trends. Current market data rather than outdated price guides ensures accurate valuations" },
+      { title: "Condition Objectivity", description: "Card condition assessment is subjective when done manually. AI evaluation provides a more objective starting point for understanding how condition affects value" },
+      { title: "Collection Visibility", description: "Most collectors do not have a clear picture of their total collection value. Digital organization with current pricing makes this visible and trackable" }
+    ],
+    useCases: [
+      { title: "Sports Card Collectors", description: "Card collectors use Ludex to identify, value, and organize their collections with current market data" },
+      { title: "Card Investors", description: "People who invest in sports cards use Ludex to track portfolio values and identify buying and selling opportunities based on market trends" },
+      { title: "Casual Collectors Discovering Old Cards", description: "People who find old cards in attics or inheritances use Ludex to quickly understand what they have and what it might be worth" }
+    ]
+  },
+  "be-your-best": {
+    whatIs: "Be Your Best is an AI personal development and self-improvement platform that helps users set meaningful goals, build positive habits, and track their personal growth journey. It provides personalized coaching, accountability support, and structured development plans across areas like career, relationships, health, and mindset. For people committed to continuous self-improvement, Be Your Best provides the structure, guidance, and accountability that make personal development goals achievable.",
+    features: [
+      "Goal Setting: Define and structure meaningful personal development goals",
+      "Habit Building: Support for developing consistent positive habits",
+      "Personalized Coaching: AI guidance tailored to your specific development areas",
+      "Accountability Check-ins: Regular prompts to maintain momentum",
+      "Progress Tracking: Visualize your growth across different life areas",
+      "Mindset Development: Support for developing a growth mindset",
+      "Life Area Balance: Development across career, health, relationships, and purpose",
+      "Free to Start: Basic personal development support without payment"
+    ],
+    howToUse: {
+      title: "How to Use Be Your Best",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Goals", description: "Sign up at beyourbest.ai and reflect on the areas of your life you most want to develop. Set specific, meaningful goals in the areas that matter most to you right now." },
+        { title: "Build Your Plan", description: "Be Your Best creates a personalized development plan with specific habits and actions that will move you toward your goals. Start with small, consistent steps rather than overwhelming changes." },
+        { title: "Check In and Grow", description: "Engage with regular AI check-ins that keep you accountable and help you reflect on your progress. Adjust your approach based on what is working and what needs refinement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Structure for Self-Improvement", description: "Personal development intentions without structure rarely lead to lasting change. Be Your Best provides the framework that turns intentions into sustainable habits and growth" },
+      { title: "Accountability Without Judgment", description: "Human accountability partners have limited availability and may feel judgmental. AI check-ins provide consistent, non-judgmental accountability that supports rather than pressures" },
+      { title: "Holistic Development", description: "Personal growth across multiple life areas simultaneously is more fulfilling than isolated improvement in one dimension. Be Your Best supports integrated development" },
+      { title: "Progress Visibility", description: "Seeing progress visualized across different life areas provides motivation that subjective feelings of improvement often cannot sustain through difficult periods" }
+    ],
+    useCases: [
+      { title: "People Committed to Personal Growth", description: "Individuals who prioritize continuous self-improvement use Be Your Best for structured support that makes their development intentions concrete and achievable" },
+      { title: "People Starting New Life Chapters", description: "Those beginning new phases - new jobs, relationship changes, health journeys - use Be Your Best to approach these transitions with intention and support" },
+      { title: "Goal-Setters Who Struggle with Follow-Through", description: "People who are good at setting goals but struggle to maintain momentum use Be Your Best for the accountability structure that makes follow-through more likely" }
+    ]
+  },
   "dream-interpretation-ai": {
     whatIs: "Dream Interpretation AI is a tool that analyzes dream descriptions and provides thoughtful interpretations drawing on psychological symbolism and common dream meanings. Users describe their dreams and receive analysis of what the imagery, emotions, and events might represent. It helps people reflect on their subconscious experiences and gain insight from their dream life.",
     features: [
