@@ -1,4 +1,37 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "perchance-ai": {
+    whatIs: "Perchance AI is an AI chat and creative content generation platform built within the Perchance ecosystem. It lets users have open-ended AI conversations for creative writing, character roleplay, storytelling, and imaginative exploration. The platform connects the power of AI language generation with the creative community that Perchance has built around random generators and interactive tools. For writers, storytellers, and creative hobbyists who want an AI conversation partner for their creative projects, Perchance AI provides a flexible and accessible option.",
+    features: [
+      "AI Chat: Open-ended conversation with AI for creative purposes",
+      "Character Roleplay: Engage in character-based creative conversations",
+      "Story Development: Use AI conversation to develop stories and narratives",
+      "Creative Writing: Get AI assistance for fiction and imaginative writing",
+      "Community Integration: Part of the broader Perchance creative ecosystem",
+      "Custom Scenarios: Create personalized conversation contexts",
+      "No Account Required: Use basic AI chat without registration",
+      "Free to Use: Core AI chat features accessible without payment"
+    ],
+    howToUse: {
+      title: "How to Use Perchance Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access the Platform", description: "Go to perchance.org and navigate to the AI chat section. No account creation is required to start using the basic AI chat features." },
+        { title: "Start Your Conversation", description: "Begin your creative conversation by setting the context - whether you want to develop a story, chat with a character, or get creative writing assistance. The more context you provide the better the AI response." },
+        { title: "Explore and Create", description: "Use the AI conversation to develop your creative project - build characters, explore plot directions, draft scenes, or simply enjoy the creative interaction. Save or copy any content you want to keep." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Focus", description: "Perchance AI is oriented toward creative and imaginative use rather than productivity tasks - making it particularly suited for storytelling, character development, and creative writing assistance" },
+      { title: "Ecosystem Integration", description: "Being part of the Perchance platform connects AI chat to a large library of community-created random generators and creative tools that complement the AI conversation" },
+      { title: "Accessibility", description: "Free access without account requirements lowers the barrier for casual creative use - users can try the AI chat immediately without any signup process" },
+      { title: "Flexibility", description: "Open-ended AI conversation without strict topic limitations gives creative users the freedom to explore whatever direction their imagination takes them" }
+    ],
+    useCases: [
+      { title: "Writers Developing Stories", description: "Fiction writers use Perchance AI as a creative conversation partner for developing plot ideas, testing character voices, and exploring narrative possibilities" },
+      { title: "Roleplay and Creative Gaming", description: "People who enjoy character-based roleplay use Perchance AI for interactive creative experiences and collaborative storytelling" },
+      { title: "Creative Hobbyists", description: "People who enjoy creative world-building and imaginative play use Perchance AI as part of their broader creative toolkit alongside other Perchance generators" }
+    ]
+  },
   "topicfinder": {
     whatIs: "Topicfinder is an AI content research tool that helps bloggers, content marketers, and SEO professionals discover high-potential content topics. It analyzes search trends, competitive gaps, and audience interest to surface topic ideas that have genuine search demand and reasonable competition levels. For content teams that need a steady pipeline of topic ideas that are both interesting to write and likely to rank, Topicfinder provides data-backed ideation rather than guesswork.",
     features: [
