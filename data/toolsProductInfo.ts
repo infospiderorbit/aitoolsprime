@@ -1,4 +1,235 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "dream-interpretation-ai": {
+    whatIs: "Dream Interpretation AI is a tool that analyzes dream descriptions and provides thoughtful interpretations drawing on psychological symbolism and common dream meanings. Users describe their dreams and receive analysis of what the imagery, emotions, and events might represent. It helps people reflect on their subconscious experiences and gain insight from their dream life.",
+    features: [
+      "Dream Analysis: Interpret the symbolism and meaning of your dreams",
+      "Psychological Framework: Interpretations grounded in dream psychology",
+      "Symbol Explanation: What common dream symbols typically represent",
+      "Emotional Context: How the emotions in dreams affect their meaning",
+      "Personal Context: Interpretations that consider your life situation",
+      "Pattern Recognition: Identify recurring themes in your dreams",
+      "Journal Integration: Track and analyze dreams over time",
+      "Free to Use: Basic dream interpretation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Dream Interpretation Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Dream", description: "Enter your dream description in as much detail as you remember - the setting, people, objects, actions, and especially how the dream made you feel." },
+        { title: "Provide Personal Context", description: "Share any relevant life context - what is happening in your life, who the people in the dream are to you, and any connections you notice to waking events." },
+        { title: "Explore the Interpretation", description: "Read the interpretation and reflect on what resonates. Use follow-up questions to explore specific elements that feel particularly significant." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Contextual Personalization", description: "Dream interpretation that considers your personal life situation produces more relevant insights than generic symbol definitions that apply the same meaning to everyone" },
+      { title: "Emotional Intelligence", description: "The emotions experienced in a dream are often as meaningful as the content. Interpretation that weights emotional experience alongside symbolic content produces richer analysis" },
+      { title: "Reflection Catalyst", description: "Dream interpretation is most valuable as a prompt for self-reflection. The AI provides a starting point for deeper personal insight rather than definitive answers" },
+      { title: "Recurring Pattern Value", description: "Identifying patterns across multiple dreams reveals themes that may be worth exploring in greater depth" }
+    ],
+    useCases: [
+      { title: "Regular Dream Journalers", description: "People who record and reflect on their dreams use the tool to add interpretive depth to their journaling practice" },
+      { title: "People Processing Difficult Experiences", description: "Those working through challenging life situations use dream interpretation as one tool for understanding their subconscious processing" },
+      { title: "Curious Dreamers", description: "Anyone who wakes from a vivid or puzzling dream uses the tool to explore what it might mean" }
+    ]
+  },
+  "dreamoracle": {
+    whatIs: "DreamOracle is an AI dream interpretation platform that provides symbolism-based analysis of dreams through a clean, focused interface. Users describe their dreams and receive interpretations covering the symbolic meaning of key elements, the emotional themes present, and potential connections to waking life. The platform maintains a dream journal feature for tracking dreams over time and identifying recurring symbols and themes.",
+    features: [
+      "Dream Symbolism: Interpretation of the symbolic meaning of dream elements",
+      "Emotional Theme Analysis: Understanding the emotional undercurrents in dreams",
+      "Dream Journal: Record and store dreams for pattern analysis",
+      "Recurring Symbol Tracking: Identify symbols that appear repeatedly",
+      "Waking Life Connection: Suggestions for how dreams may connect to daily life",
+      "Multiple Frameworks: Draws on different dream interpretation traditions",
+      "Quick Analysis: Fast interpretation without lengthy setup",
+      "Free to Start: Basic dream interpretation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Dreamoracle",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record Your Dream", description: "Open DreamOracle and describe your dream while it is still fresh in your memory. Include as many sensory and emotional details as you can recall." },
+        { title: "Review the Analysis", description: "DreamOracle provides a symbolism-based interpretation of your dream covering the key elements, emotional themes, and possible waking life connections." },
+        { title: "Build Your Dream Journal", description: "Use the journal feature to record dreams over time. Review your accumulated dream journal periodically to identify recurring symbols and themes across your dream life." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Symbol-Based Depth", description: "Dreams communicate in symbols and metaphors rather than literal language. Symbol-based interpretation unlocks meaning that surface-level description misses" },
+      { title: "Journal Value Over Time", description: "A single dream interpretation provides limited insight. A dream journal that reveals patterns across many dreams provides much deeper self-knowledge" },
+      { title: "Multiple Tradition Access", description: "Different cultural and psychological traditions approach dream interpretation differently. Drawing on multiple frameworks provides richer analysis than any single approach" },
+      { title: "Memory Preservation", description: "Dreams fade quickly after waking. Immediate recording in a dedicated journal preserves the details that make meaningful interpretation possible" }
+    ],
+    useCases: [
+      { title: "Dedicated Dream Journalers", description: "People committed to understanding their dream life use DreamOracle as their primary dream recording and interpretation platform" },
+      { title: "Self-Discovery Practitioners", description: "People engaged in personal growth and self-understanding use dream interpretation as one window into their subconscious" },
+      { title: "Therapy Supplement", description: "People working with therapists use DreamOracle to track dreams between sessions and bring meaningful material to therapeutic conversations" }
+    ]
+  },
+  "dream-oracles": {
+    whatIs: "Dream Oracles is an AI platform for exploring dream symbolism through multiple interpretive lenses including psychological, spiritual, and cultural frameworks. It goes beyond single-tradition dream interpretation to offer perspectives from different approaches to understanding dream content. Users can explore how their dream would be interpreted from Jungian psychology, spiritual traditions, or cultural folklore, giving a multi-dimensional view of their dream experience.",
+    features: [
+      "Multi-Framework Analysis: Dream interpretation from multiple traditions",
+      "Jungian Psychology: Analysis through Carl Jung analytical psychology framework",
+      "Spiritual Interpretation: Spiritual and mystical perspectives on dream content",
+      "Cultural Symbolism: How different cultures interpret common dream symbols",
+      "Archetype Recognition: Identify Jungian archetypes in dream content",
+      "Symbol Library: Extensive reference of dream symbol meanings",
+      "Comparative Analysis: See how different frameworks interpret the same dream",
+      "Free to Use: Basic multi-framework interpretation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Dream Oracles",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Dream", description: "Go to Dream Oracles and provide a detailed description of your dream including all the elements you remember." },
+        { title: "Select Your Frameworks", description: "Choose which interpretive frameworks you want applied to your dream - psychological, spiritual, cultural, or all of them for a comprehensive multi-perspective analysis." },
+        { title: "Compare Interpretations", description: "Read how different frameworks interpret the same dream content. Notice which interpretations resonate most and use the comparison to develop your own understanding." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Tradition Richness", description: "No single interpretive framework captures the full depth of dream experience. Multiple frameworks together provide a richer, more complete analysis than any one approach alone" },
+      { title: "Jungian Depth", description: "Jungian psychology offers particularly rich dream analysis through its concept of archetypes and the collective unconscious - framework that Dream Oracles applies in accessible form" },
+      { title: "Cultural Context", description: "Dream symbols carry different meanings in different cultural traditions. Understanding these variations provides insight into the universal and culturally specific aspects of dream content" },
+      { title: "Personal Framework Discovery", description: "Encountering multiple interpretive frameworks helps dreamers identify which approach resonates most with their own understanding and develop their personal philosophy of dream meaning" }
+    ],
+    useCases: [
+      { title: "Students of Psychology and Symbolism", description: "People studying Jungian psychology, comparative religion, or dream studies use Dream Oracles for multi-framework interpretation practice" },
+      { title: "Spiritually Oriented Dreamers", description: "People whose orientation to dreams includes spiritual dimensions use Dream Oracles for frameworks that go beyond purely psychological interpretation" },
+      { title: "Curious Explorers", description: "Open-minded individuals interested in multiple perspectives on their dream life use Dream Oracles for the richness of comparative interpretation" }
+    ]
+  },
+  "tabirim": {
+    whatIs: "Tabirim is an AI dream interpretation platform with roots in traditional Islamic dream interpretation. It provides analysis of dreams drawing on the rich tradition of Islamic dream interpretation established by scholars like Ibn Sirin, alongside modern psychological perspectives. For Muslims who want to understand their dreams through an Islamic lens, Tabirim provides culturally and religiously appropriate dream analysis grounded in Islamic scholarly tradition.",
+    features: [
+      "Islamic Dream Interpretation: Analysis drawing on Islamic dream scholarship",
+      "Ibn Sirin Tradition: Interpretations grounded in classical Islamic dream texts",
+      "Cultural Appropriateness: Interpretations respectful of Islamic values",
+      "Psychological Balance: Modern psychological perspectives alongside traditional ones",
+      "Symbol Library: Islamic symbolic meanings for common dream elements",
+      "Quran and Hadith Context: Relevant Islamic textual references",
+      "Personal Context: Interpretations that consider your life situation",
+      "Free to Use: Basic Islamic dream interpretation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Tabirim",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Dream", description: "Go to Tabirim and describe your dream in detail. Include all elements you remember and any emotional experiences during the dream." },
+        { title: "Receive Islamic Interpretation", description: "Tabirim provides dream analysis drawing on Islamic interpretive tradition including relevant references to classical Islamic scholarship on dreams." },
+        { title: "Reflect and Consider", description: "Read the interpretation in the context of your own life and spiritual state. Islamic tradition considers the dreamer personal piety and life context when interpreting dreams." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Classical Scholarship Accessibility", description: "The Islamic tradition of dream interpretation is rich and well-developed but not widely accessible to ordinary Muslims. Tabirim makes this scholarship available through simple questions" },
+      { title: "Cultural Resonance", description: "Muslims who want dream interpretation that honors their faith and cultural background find more meaningful guidance in Islamic-framework analysis than in generic Western psychological approaches" },
+      { title: "Ibn Sirin Tradition", description: "Ibn Sirin compiled the most widely referenced work on Islamic dream interpretation. Drawing on this tradition connects Tabirim to centuries of Islamic scholarly wisdom" },
+      { title: "Spiritual Context Integration", description: "Islamic dream interpretation considers the spiritual state of the dreamer as relevant context. Tabirim incorporates this dimension that secular interpretation tools omit" }
+    ],
+    useCases: [
+      { title: "Muslim Dreamers Seeking Islamic Guidance", description: "Muslims who believe in the spiritual significance of dreams use Tabirim for interpretation that honors the Islamic perspective on dream life" },
+      { title: "Students of Islamic Studies", description: "People studying Islam use Tabirim to explore the rich tradition of Islamic dream interpretation as part of broader Islamic scholarship" },
+      { title: "Spiritually Active Muslims", description: "Muslims engaged in regular spiritual practice use Tabirim as part of their broader spiritual awareness and development" }
+    ]
+  },
+  "tinder-ice-breakers": {
+    whatIs: "Tinder Ice Breakers AI generates creative and engaging opening messages for Tinder conversations. It helps users start conversations that stand out from the generic openers most people send, increasing the likelihood of getting a response. The tool creates personalized opening lines based on profile details, photos, or bio information, producing messages that feel thoughtful and specific rather than copy-pasted.",
+    features: [
+      "Personalized Openers: Opening messages based on specific profile details",
+      "Creative Variety: Different styles from funny to sincere to clever",
+      "Profile-Based: Openers that reference something specific in their profile",
+      "Multiple Options: Generate several different openers to choose from",
+      "Tone Selection: Match the tone to your personal style",
+      "Response Rate Focus: Messages designed to actually get replies",
+      "Fast Generation: Opening ideas ready quickly",
+      "Free to Try: Basic opener generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Tinder Ice Breakers",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Share Profile Details", description: "Go to the Tinder Ice Breakers tool and describe the profile you want to message - their bio, photos, interests, or anything specific that caught your attention." },
+        { title: "Generate Your Openers", description: "The AI generates several opening message options that reference specific profile details. Read through them and identify the ones that feel most natural to your voice." },
+        { title: "Personalize and Send", description: "Choose your favorite opener and add any personal touches that make it feel genuinely from you. Personalized openers that reference something specific always outperform generic ones." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Specificity Advantage", description: "Opening messages that reference something specific in a profile show you actually looked at it - which is rare enough to stand out and creates a natural conversation thread" },
+      { title: "First Message Importance", description: "On Tinder the first message often determines whether a match leads anywhere. A creative specific opener is significantly more likely to get a response than a generic greeting" },
+      { title: "Writer Block Solution", description: "Many people with matches do not message because they cannot think of what to say. AI opener generation removes this barrier" },
+      { title: "Authenticity Preservation", description: "The best use of AI openers is as a starting point you then personalize - maintaining authenticity while benefiting from the creative starting point" }
+    ],
+    useCases: [
+      { title: "Tinder Users With Unstarted Matches", description: "People who have matches but have not started conversations use the tool to get past the opening message challenge" },
+      { title: "People Who Struggle with First Messages", description: "Users who know how to have good conversations but freeze on opening messages use the tool for creative starting points" },
+      { title: "Active Daters Optimizing Their Approach", description: "People who date actively use the tool to improve their match-to-conversation conversion rate" }
+    ]
+  },
+  "photify-ai": {
+    whatIs: "Photify AI is an AI photo enhancement and transformation platform that improves photo quality, applies artistic styles, and transforms images through various AI-powered effects. It offers portrait enhancement, background editing, style transfer, and image quality improvement through a simple upload-and-process interface. For users who want to improve their photos or apply creative transformations without photo editing skills, Photify provides accessible AI-powered image transformation.",
+    features: [
+      "Portrait Enhancement: AI improvement of portrait photo quality",
+      "Style Transfer: Apply artistic styles to your photos",
+      "Background Editing: Change or enhance photo backgrounds",
+      "Quality Improvement: Fix lighting, sharpness, and color in photos",
+      "Creative Effects: Apply various AI-powered visual transformations",
+      "Skin Retouching: Natural-looking portrait retouching",
+      "Fast Processing: Quick photo transformation without long waits",
+      "Free to Try: Basic photo enhancement without payment"
+    ],
+    howToUse: {
+      title: "How to Use Photify Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to photify.ai and upload the photo you want to enhance or transform. The platform accepts standard image formats." },
+        { title: "Choose Your Enhancement", description: "Select the type of transformation you want - portrait enhancement, style application, background change, or quality improvement." },
+        { title: "Download Your Result", description: "Photify processes your photo and returns the enhanced or transformed version. Download it for sharing or personal use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessibility of Enhancement", description: "Photo editing skills take years to develop. AI enhancement makes professional-quality photo improvement accessible to anyone regardless of editing experience" },
+      { title: "Speed for Casual Users", description: "Processing a photo in seconds rather than spending time learning editing software serves users who just want better photos without becoming photographers" },
+      { title: "Style Exploration", description: "Applying artistic styles to personal photos creates unique visual content without requiring artistic skills" },
+      { title: "Quality Recovery", description: "Improving the quality of photos taken in poor conditions - low light, slight blur, poor color - recovers images that would otherwise not be worth keeping" }
+    ],
+    useCases: [
+      { title: "Social Media Users Improving Personal Photos", description: "People who share photos on social media use Photify to present their photos at their best quality" },
+      { title: "Casual Photographers", description: "Amateur photographers use Photify to improve photos they took with their phone without investing in professional editing software" },
+      { title: "Content Creators", description: "People who create online content use Photify for quick photo enhancements that maintain visual quality standards" }
+    ]
+  },
+  "aiselfies": {
+    whatIs: "AISelfi.es is an AI portrait generation platform that creates stylized, artistic versions of selfies and personal photos. Users upload their photos and the AI generates transformed versions in different artistic styles - from anime and illustration to painterly and cinematic aesthetics. It is used for creating unique profile pictures, artistic self-portraits, and social media content that stands out from standard photography.",
+    features: [
+      "Artistic Selfie Generation: Transform your photos into artistic styles",
+      "Multiple Aesthetics: Anime, illustration, painterly, and cinematic styles",
+      "Profile Picture Creation: Generate unique artistic profile pictures",
+      "Style Variety: Wide range of available visual transformations",
+      "Fast Processing: Artistic transformations ready quickly",
+      "High Quality Output: Detailed artistic portraits suitable for sharing",
+      "Privacy Friendly: Photos processed without permanent storage",
+      "Free to Try: Basic artistic transformation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Aiselfies",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to aiselfies.ai and upload a clear photo of yourself. Front-facing photos with good lighting produce the best artistic transformations." },
+        { title: "Choose Your Style", description: "Browse the available artistic styles and select the aesthetic you want applied to your photo - anime, illustration, oil painting, or others." },
+        { title: "Download and Share", description: "Your artistic portrait is generated and ready to download. Use it as a profile picture, share it on social media, or keep it as a unique artistic representation of yourself." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Unique Profile Picture Creation", description: "Standard photos for profile pictures look the same. Artistic AI transformations create distinctive, memorable profile pictures that stand out" },
+      { title: "Style Exploration", description: "Seeing yourself rendered in different artistic styles is an entertaining and sometimes surprisingly revealing experience that appeals to creative curiosity" },
+      { title: "Social Media Differentiation", description: "Artistic self-portraits stand out in social media feeds where standard photography is the norm" },
+      { title: "Safe Artistic Expression", description: "For people who appreciate artistic aesthetics but are not artists themselves, AI portrait transformation provides artistic expression without requiring creative skills" }
+    ],
+    useCases: [
+      { title: "Social Media Users Wanting Unique Profile Pictures", description: "People who want distinctive profile pictures use AISelfi.es for artistic alternatives to standard photos" },
+      { title: "Creative Individuals Exploring Visual Styles", description: "Artistically curious people use AISelfi.es to see themselves represented in different visual traditions and styles" },
+      { title: "Content Creators Building Visual Brand", description: "Creators use artistic portrait generation to establish a distinctive visual aesthetic for their online presence" }
+    ]
+  },
   "askjesus": {
     whatIs: "Ask Jesus AI is a conversational AI tool that responds to questions from the perspective of Jesus Christ, drawing on the Gospels, the teachings of Jesus recorded in scripture, and Christian theological understanding. Users ask questions about faith, life, relationships, and spiritual struggles and receive responses framed through the words and teachings of Jesus. For Christians who want to engage more personally with the teachings of Jesus, Ask Jesus AI provides an imaginative and scripture-grounded conversational experience.",
     features: [
