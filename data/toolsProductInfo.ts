@@ -1,4 +1,70 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "midreal": {
+    whatIs: "MidReal is an AI interactive fiction platform that generates immersive story experiences based on your choices. It creates branching narratives in real time, adapting the story direction based on what you decide at each critical moment. The platform focuses on longer, more developed story experiences - generating detailed scenes, character interactions, and plot developments that respond dynamically to player choices. For readers who want an AI storytelling experience that feels genuinely responsive and literary, MidReal aims for narrative quality alongside interactivity.",
+    features: [
+      "Interactive Narratives: Real-time story generation that responds to your choices",
+      "Literary Quality: Focus on well-written prose rather than simple text responses",
+      "Character Development: Consistent characters that evolve through the story",
+      "Multiple Genres: Fantasy, mystery, romance, thriller, and sci-fi options",
+      "Long-Form Stories: Extended narratives that develop across many sessions",
+      "Save Progress: Return to your story where you left off",
+      "Story Sharing: Share your unique story paths with others",
+      "Free to Try: Basic interactive fiction without payment"
+    ],
+    howToUse: {
+      title: "How to Use Midreal",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Story Type", description: "Sign up at midreal.ai and select the genre and initial scenario you want to explore. The starting scenario sets the tone and world for your story." },
+        { title: "Make Your Choices", description: "As your story unfolds the AI presents decision points. Your choices genuinely shape what happens next - different decisions lead to meaningfully different story directions." },
+        { title: "Continue and Explore", description: "Return to your story across multiple sessions. Explore different choices by starting new branches to see how different decisions would have played out." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Literary Focus", description: "MidReal prioritizes story quality alongside interactivity - the prose is crafted to read well not just to respond to input which produces a more satisfying narrative experience" },
+      { title: "Real-Time Adaptation", description: "AI that generates story content in real time based on your choices rather than selecting from pre-written branches creates genuinely unique story experiences" },
+      { title: "Session Continuity", description: "Being able to return to your story across multiple sessions makes longer narrative experiences possible rather than limiting interactive fiction to single sitting stories" },
+      { title: "Genre Range", description: "Supporting multiple genres means users can find interactive story experiences that match their reading preferences" }
+    ],
+    useCases: [
+      { title: "Interactive Fiction Readers", description: "Fans of choose-your-own-adventure and interactive fiction use MidReal for AI-powered stories that offer more variation and quality than traditional published interactive fiction" },
+      { title: "Casual Readers Wanting Engagement", description: "People who enjoy reading but want more active participation use MidReal for story experiences where their choices matter" },
+      { title: "Writers Exploring Narrative Possibilities", description: "Fiction writers use MidReal to explore how different story decisions play out as creative inspiration for their own work" }
+    ]
+  },
+  "thesis-ai": {
+    whatIs: "Thesis AI is an AI-powered academic writing assistant designed specifically for thesis and dissertation writing. It helps graduate students structure their research, develop arguments, write chapters, and maintain academic writing standards throughout the long process of completing a major research document. Unlike general writing AI, Thesis AI understands the specific requirements of academic research writing - literature reviews, methodology sections, argument development, and academic citation conventions.",
+    features: [
+      "Thesis Structure: AI guidance on organizing and structuring your thesis",
+      "Chapter Writing: Assistance with writing each thesis chapter",
+      "Literature Review: Help organizing and synthesizing research sources",
+      "Argument Development: Strengthen your academic arguments with AI feedback",
+      "Academic Writing Style: Maintain appropriate academic tone throughout",
+      "Citation Support: Proper formatting for academic references",
+      "Research Questions: Help refining and focusing your research questions",
+      "Free to Try: Basic thesis writing assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Thesis Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Project", description: "Sign up and create a new thesis project. Enter your research topic, discipline, and the stage you are at in your writing process." },
+        { title: "Work on Your Chapters", description: "Use Thesis AI assistance for each chapter - getting structural guidance for your literature review, help developing your methodology section, and support writing your discussion and conclusion." },
+        { title: "Refine and Polish", description: "Use the AI feedback to strengthen weak arguments, improve academic language, and ensure consistency in your writing style across all chapters." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Long-Form Academic Specialization", description: "Thesis writing has specific requirements that general AI writing tools do not understand. Thesis AI is calibrated for the scope, depth, and conventions of major research documents" },
+      { title: "Process Support", description: "A thesis takes months or years to complete. AI assistance that supports the full process rather than just individual writing tasks is more valuable for this sustained writing challenge" },
+      { title: "Argument Quality", description: "The intellectual contribution of a thesis depends on argument quality. AI feedback that helps strengthen reasoning and identify logical gaps improves the academic value of the work" },
+      { title: "Style Consistency", description: "Maintaining consistent academic style across a long document written over many months is difficult. AI assistance keeps the writing register consistent throughout" }
+    ],
+    useCases: [
+      { title: "Masters and PhD Students", description: "Graduate students writing their thesis or dissertation use Thesis AI for sustained writing support across the many months of their research writing process" },
+      { title: "Research Students New to Academic Writing", description: "Students who have not written at thesis length before use Thesis AI to understand the specific conventions and expectations of major research documents" },
+      { title: "Non-Native English Academic Writers", description: "International students writing in English use Thesis AI to ensure their research is expressed with the language quality that academic institutions expect" }
+    ]
+  },
   "perchance-ai": {
     whatIs: "Perchance AI is an AI chat and creative content generation platform built within the Perchance ecosystem. It lets users have open-ended AI conversations for creative writing, character roleplay, storytelling, and imaginative exploration. The platform connects the power of AI language generation with the creative community that Perchance has built around random generators and interactive tools. For writers, storytellers, and creative hobbyists who want an AI conversation partner for their creative projects, Perchance AI provides a flexible and accessible option.",
     features: [
