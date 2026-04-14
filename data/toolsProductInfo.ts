@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "ai-baby-generator": {
+    whatIs: "AI Baby Generator is a fun image generation tool that creates realistic visualizations of what a baby might look like based on photos of two parents. Users upload photos of themselves and a partner and the AI generates images of their potential future child combining facial features from both parents. It is used for entertainment, curiosity, and as a lighthearted way for couples to imagine what their children might look like.",
+    features: [
+      "Baby Face Generation: Create AI visualizations of potential future children",
+      "Two Parent Input: Upload photos of both parents for combined feature blending",
+      "Realistic Output: Photorealistic baby images combining parental features",
+      "Multiple Variations: Generate several different possible baby looks",
+      "Fast Generation: Results ready in seconds",
+      "Gender Options: Generate boy or girl variations",
+      "Share Friendly: Download and share generated baby images easily",
+      "Free to Try: Basic generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Baby Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Parent Photos", description: "Go to the AI Baby Generator and upload clear photos of both parents. Front-facing photos with good lighting produce the most realistic results." },
+        { title: "Select Your Options", description: "Choose any preferences like gender if available and set any other generation options the tool provides." },
+        { title: "Generate and Share", description: "Generate your baby visualizations and download the ones you like most. Share them with family and friends for a fun conversation starter." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Entertainment Value", description: "Seeing what your future children might look like is an inherently entertaining and emotionally engaging concept that drives strong user interest" },
+      { title: "Feature Blending Technology", description: "The AI combines facial features from both parents in a way that produces realistic-looking offspring rather than simply averaging the two faces together" },
+      { title: "Social Sharing Appeal", description: "Generated baby images are highly shareable content that naturally spreads through social networks as people tag partners and family members" },
+      { title: "Couple Bonding", description: "Couples use baby generators as a fun shared experience that sparks conversations about family and the future" }
+    ],
+    useCases: [
+      { title: "Couples Curious About Future Children", description: "Partners use AI Baby Generator for the entertaining experience of seeing what their potential children might look like" },
+      { title: "Expecting Parents", description: "People who are already expecting use the tool to get an imaginative preview before their baby arrives" },
+      { title: "Social Media Content Creators", description: "Content creators use baby generator outputs as engaging social media content that generates high interaction" }
+    ]
+  },
+  "baby-face-generator": {
+    whatIs: "Baby Face Generator is an AI tool that transforms adult photos into baby-faced versions or generates baby face images from descriptions. It uses facial analysis and generative AI to create convincing baby-faced images that maintain the identity characteristics of the subject while applying the distinctive features of infant faces - larger eyes, rounder cheeks, smaller noses, and smoother skin. The tool is used for entertainment, creative content, and nostalgia-driven curiosity about what people looked like as babies.",
+    features: [
+      "Baby Face Transformation: Convert adult photos to baby-faced versions",
+      "Feature Preservation: Maintains recognizable identity while applying baby features",
+      "Realistic Results: Photorealistic baby face generation",
+      "Multiple Styles: Different baby age ranges from newborn to toddler",
+      "Fast Processing: Quick transformation without long wait times",
+      "Download Options: Save generated images in standard formats",
+      "Free to Try: Basic transformation without payment",
+      "Privacy Friendly: Photos processed without permanent storage"
+    ],
+    howToUse: {
+      title: "How to Use Baby Face Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to the Baby Face Generator and upload a clear photo of yourself or the person you want to transform. Front-facing photos work best." },
+        { title: "Select Your Style", description: "Choose the baby age range or style if options are available - newborn, infant, or toddler each produce different characteristic looks." },
+        { title: "Generate and Download", description: "Generate your baby face transformation and download the result. Try different source photos for varied results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Nostalgia and Curiosity", description: "People are naturally curious about what they or others looked like as babies. Baby face generators satisfy this curiosity for people who do not have baby photos available" },
+      { title: "Entertainment and Humor", description: "Transformed baby face images of adults are inherently amusing and shareable - making them popular for social media and messaging" },
+      { title: "Creative Content", description: "Content creators use baby face transformations for entertaining video and social media content that generates strong engagement" },
+      { title: "Feature Technology", description: "Maintaining the identity of the subject while convincingly applying baby facial proportions requires sophisticated AI that understands both adult and infant facial structure" }
+    ],
+    useCases: [
+      { title: "People Without Baby Photos", description: "Adults who do not have access to their own baby photos use generators to imagine what they might have looked like as infants" },
+      { title: "Social Media Users Creating Fun Content", description: "People use baby face generators to create amusing content featuring themselves, friends, and celebrities" },
+      { title: "Parents and Families", description: "Family members transform photos of relatives across generations for entertainment and family sharing" }
+    ]
+  },
+  "bible-chat": {
+    whatIs: "Bible Chat is an AI-powered conversational tool that lets users ask questions about the Bible and receive answers grounded in biblical text and Christian theology. It functions like a knowledgeable study partner - users can ask about specific verses, theological concepts, biblical history, character stories, and how biblical teachings apply to modern life. For Christians who want to deepen their biblical knowledge through conversation rather than just reading, Bible Chat provides an interactive study experience available any time.",
+    features: [
+      "Biblical Q&A: Ask any question about the Bible and receive grounded answers",
+      "Verse Explanation: Get detailed explanations of specific Bible passages",
+      "Theological Concepts: Explore Christian doctrines and theological ideas",
+      "Character Studies: Learn about biblical figures and their stories",
+      "Cross-References: Discover how different Bible passages connect",
+      "Modern Application: Understand how biblical teachings apply today",
+      "Multiple Translations: Responses reference different Bible translations",
+      "Free to Use: Basic Bible Q&A without payment"
+    ],
+    howToUse: {
+      title: "How to Use Bible Chat",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Question", description: "Go to the Bible Chat tool and type your question about the Bible - a specific verse, a theological concept, a character, or a practical application question." },
+        { title: "Explore the Answer", description: "Bible Chat provides a response grounded in scripture with relevant verse references. Follow up with more specific questions to go deeper on any topic." },
+        { title: "Continue the Study", description: "Use the conversation to explore related topics, ask for clarification, or take the discussion in a direction that addresses your specific spiritual or intellectual interest." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Always Available Study Partner", description: "Bible study traditionally requires either a knowledgeable person or significant personal research time. Bible Chat provides immediate answers to biblical questions at any hour" },
+      { title: "Interactive Learning", description: "Conversational learning where you can ask follow-up questions and explore topics in the direction that interests you is more engaging than passive reading" },
+      { title: "Accessibility for New Believers", description: "People new to Christianity often have many questions but may feel hesitant to ask in a church setting. Bible Chat provides a low-pressure way to explore biblical content" },
+      { title: "Sermon and Study Preparation", description: "Church members preparing for small group discussions and pastors researching sermon topics use Bible Chat for quick biblical reference and exploration" }
+    ],
+    useCases: [
+      { title: "Christians Wanting to Deepen Bible Knowledge", description: "Believers who want to understand the Bible more deeply use Bible Chat for interactive study that goes beyond surface-level reading" },
+      { title: "New Christians Exploring Their Faith", description: "People new to Christianity use Bible Chat to explore biblical content and get answers to foundational questions about their new faith" },
+      { title: "Church Small Group Leaders", description: "Small group facilitators use Bible Chat to prepare discussion questions and deepen their own understanding of the passages their group is studying" }
+    ]
+  },
+  "sermon-ai": {
+    whatIs: "Sermon AI is an AI tool that helps pastors and preachers prepare sermons more efficiently. It assists with biblical research, outline creation, illustration suggestions, and sermon structure, helping clergy produce spiritually rich and well-organized messages without the full research burden that comprehensive sermon preparation traditionally requires. For pastors who preach weekly and struggle to maintain the research depth they want within their available preparation time, Sermon AI provides intelligent assistance that accelerates the preparation process.",
+    features: [
+      "Sermon Outlines: Generate structured sermon outlines from scripture passages",
+      "Biblical Research: AI-assisted research into passage context and theology",
+      "Illustration Suggestions: Find relevant stories and illustrations for sermon points",
+      "Application Points: Develop practical application from biblical text",
+      "Introduction and Conclusion: Craft engaging sermon openings and closings",
+      "Multiple Preaching Styles: Adapt to expository, topical, or narrative approaches",
+      "Scripture Integration: Weave multiple passages together coherently",
+      "Free to Try: Basic sermon assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Sermon Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Scripture", description: "Sign up at sermon.ai and enter the scripture passage or topic you are preaching on. Include your congregation context and any specific angles you want to develop." },
+        { title: "Review the Outline", description: "Sermon AI generates a sermon outline with main points, sub-points, and suggested illustrations. Review the structure and adapt it to your preaching style and theological convictions." },
+        { title: "Develop and Personalize", description: "Use the AI-generated framework as a starting point and add your personal insights, local illustrations, and pastoral voice to create a sermon that is authentically yours." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Time Efficiency for Weekly Preachers", description: "Pastors who preach every week face enormous preparation pressure. AI assistance with research and outline generation frees time for the personal reflection and prayer that produce authentic preaching" },
+      { title: "Research Depth Support", description: "Thorough biblical research requires time that busy pastors often lack. AI assistance surfaces relevant context, cross-references, and theological insights that enrich sermon content" },
+      { title: "Structure and Organization", description: "Strong sermon structure that moves logically and builds toward application is something many preachers struggle with. AI outline generation provides structural scaffolding that preachers flesh out with their content" },
+      { title: "Illustration Discovery", description: "Finding relevant, contemporary illustrations is one of the most time-consuming parts of sermon preparation. AI suggestions accelerate this process significantly" }
+    ],
+    useCases: [
+      { title: "Weekly Preaching Pastors", description: "Pastors who preach every Sunday use Sermon AI to maintain preparation quality within the limited time available between services" },
+      { title: "Seminary Students Learning to Preach", description: "Homiletics students use Sermon AI to understand sermon structure and practice developing biblical messages" },
+      { title: "Lay Preachers and Guest Speakers", description: "People who preach occasionally rather than weekly use Sermon AI to produce well-structured messages without the practice of regular sermon preparation" }
+    ]
+  },
+  "chefgpt": {
+    whatIs: "ChefGPT is an AI-powered recipe generation and cooking assistant that creates personalized recipes based on the ingredients you have available, your dietary restrictions, and your flavor preferences. Rather than searching recipe databases for something that fits your constraints, ChefGPT generates custom recipes tailored specifically to what you tell it. It can scale recipes for different serving sizes, suggest ingredient substitutions, explain cooking techniques, and help with meal planning.",
+    features: [
+      "Custom Recipe Generation: Create recipes from ingredients you already have",
+      "Dietary Adaptation: Recipes adjusted for allergies and dietary restrictions",
+      "Ingredient Substitution: Suggest alternatives when you are missing something",
+      "Serving Size Scaling: Adjust recipes for any number of servings",
+      "Technique Explanation: Clear instructions for cooking methods",
+      "Meal Planning: Generate weekly meal plans based on your preferences",
+      "Cuisine Variety: Recipes across international cuisines and cooking styles",
+      "Free to Try: Basic recipe generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Chefgpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Tell It What You Have", description: "Sign up at chefgpt.com and enter the ingredients you have available in your kitchen. Include any dietary restrictions or preferences you want the recipe to respect." },
+        { title: "Get Your Custom Recipe", description: "ChefGPT generates a complete recipe using your available ingredients. Review the recipe and ask for substitutions if you are missing any specific items." },
+        { title: "Cook and Explore", description: "Follow the recipe with ChefGPT available for any technique questions or adjustments you need while cooking. Use it regularly to reduce food waste and discover new meal ideas." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Ingredient-First Cooking", description: "Most recipe apps require you to search for recipes and then buy ingredients. ChefGPT reverses this by generating recipes from what you already have which reduces shopping and food waste" },
+      { title: "True Personalization", description: "A recipe generated specifically for your dietary restrictions, available ingredients, and flavor preferences is more useful than finding the closest match in a database" },
+      { title: "Technique Support", description: "Having an AI that can explain cooking techniques as you work through a recipe is like having a knowledgeable friend in the kitchen rather than just a list of instructions" },
+      { title: "Creative Exploration", description: "ChefGPT generates recipes you might never have found in a cookbook by combining ingredients in unexpected ways that still produce delicious results" }
+    ],
+    useCases: [
+      { title: "Home Cooks Reducing Food Waste", description: "People who want to use up ingredients before they spoil use ChefGPT to generate recipes from what is already in their refrigerator and pantry" },
+      { title: "People with Dietary Restrictions", description: "Individuals with allergies, intolerances, or specific dietary preferences use ChefGPT for recipes that automatically respect their constraints" },
+      { title: "Meal Planners", description: "People who plan their weekly meals use ChefGPT for fresh recipe ideas that fit their nutritional goals and cooking time constraints" }
+    ]
+  },
+  "dishgen": {
+    whatIs: "DishGen is an AI recipe generator that creates custom recipes from any combination of ingredients or dietary requirements. It specializes in generating creative, well-structured recipes that work with unusual ingredient combinations and specific dietary constraints. Users can input whatever ingredients they have available, specify their dietary restrictions, and get complete recipes with proper cooking instructions. For home cooks who want creative meal ideas beyond standard cookbook options, DishGen generates recipes tailored to their specific situation.",
+    features: [
+      "Custom Recipe Creation: Generate recipes from any ingredient combination",
+      "Dietary Restriction Support: Vegan, gluten-free, keto, and other diet options",
+      "Creative Combinations: Recipes that make interesting use of unusual ingredients",
+      "Complete Instructions: Full recipes with quantities and cooking steps",
+      "Serving Adjustments: Scale recipes for different numbers of people",
+      "Cuisine Styles: Generate recipes in different culinary traditions",
+      "Nutritional Information: Basic nutrition data for generated recipes",
+      "Free to Use: Basic recipe generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Dishgen",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Ingredients", description: "Go to dishgen.com and enter the ingredients you want to use. You can enter as many or as few as you have available." },
+        { title: "Set Your Preferences", description: "Specify any dietary restrictions, cuisine preferences, or cooking time constraints. The more specific you are the more targeted the recipe." },
+        { title: "Get and Cook", description: "DishGen generates a complete recipe with instructions. Save recipes you like and use them as the foundation of your regular meal rotation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Ingredient Creativity", description: "DishGen generates recipes that make genuinely creative use of whatever ingredients you have - going beyond obvious combinations to suggest interesting meals you would not have thought of" },
+      { title: "Zero-Waste Cooking", description: "Using up ingredients before they expire reduces food waste significantly. DishGen makes this practical by generating good recipes from whatever odds and ends are in your kitchen" },
+      { title: "Dietary Compliance Made Easy", description: "Generating recipes that automatically comply with dietary restrictions removes the need to manually check every recipe for forbidden ingredients" },
+      { title: "Cooking Variety", description: "Getting different recipe ideas from the same set of ingredients keeps cooking interesting and prevents the repetitive meal rotation that many home cooks fall into" }
+    ],
+    useCases: [
+      { title: "Home Cooks Wanting Variety", description: "People who cook regularly use DishGen to break out of their usual meal rotation with creative new recipes" },
+      { title: "Budget-Conscious Cooks", description: "People cooking on a budget use DishGen to make interesting meals from whatever affordable ingredients they have rather than buying specific items for expensive recipes" },
+      { title: "Dietary Restriction Households", description: "Families with members who have different dietary needs use DishGen to generate recipes that work for everyone" }
+    ]
+  },
+  "dream-interpreter-ai": {
+    whatIs: "Dream Interpreter AI is a tool that analyzes dream descriptions and provides psychological and symbolic interpretations of dream content. Users describe their dreams in plain language and the AI draws on psychological frameworks, common dream symbolism, and archetypal interpretation to explain what the dream imagery might represent. For people who are curious about the meaning of their dreams and want thoughtful interpretation beyond basic dream dictionaries, Dream Interpreter AI provides nuanced, personalized analysis.",
+    features: [
+      "Dream Analysis: Interpret the meaning and symbolism of your dreams",
+      "Psychological Framework: Interpretations drawing on psychological dream theory",
+      "Symbol Identification: Explain the common meanings of dream symbols",
+      "Personal Context: Interpretations that consider the personal context you provide",
+      "Recurring Dream Analysis: Understanding patterns in repeated dreams",
+      "Nightmare Interpretation: Thoughtful analysis of disturbing dream content",
+      "Journaling Support: Record and track your dreams over time",
+      "Free to Use: Basic dream interpretation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Dream Interpreter Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Dream", description: "Go to the Dream Interpreter AI and describe your dream in as much detail as you can remember - the people, places, objects, emotions, and any unusual elements." },
+        { title: "Provide Context", description: "Share any relevant personal context - what is happening in your life, who the people in the dream are, and how the dream made you feel. Context improves interpretation accuracy." },
+        { title: "Explore the Interpretation", description: "Read the AI interpretation and reflect on how it resonates with your waking life situation. Use follow-up questions to explore specific elements of the interpretation further." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalized Over Generic", description: "Standard dream dictionaries give the same meaning for everyone who dreams of water or flying. AI interpretation considers your specific dream context and personal situation for more relevant analysis" },
+      { title: "Psychological Depth", description: "Dream interpretation grounded in psychological frameworks provides more meaningful analysis than simple symbol lookups from generic reference materials" },
+      { title: "Curiosity Satisfaction", description: "Dreams are inherently fascinating and the desire to understand them is universal. AI interpretation provides thoughtful responses to this curiosity that goes beyond what simple lookup tools offer" },
+      { title: "Therapeutic Support", description: "Understanding recurring dreams or nightmares can provide insight into unresolved emotional content - AI interpretation serves as a starting point for this self-reflection" }
+    ],
+    useCases: [
+      { title: "Curious Dream Journalers", description: "People who regularly record and think about their dreams use Dream Interpreter AI to add analytical depth to their dream journaling practice" },
+      { title: "People with Recurring Dreams", description: "Those who experience the same dream repeatedly use the tool to understand what the recurring content might be expressing" },
+      { title: "Anyone Who Just Had a Vivid Dream", description: "People who wake up from a particularly striking or disturbing dream use the tool immediately to understand and process the experience" }
+    ]
+  },
+  "gitagpt": {
+    whatIs: "GitaGPT is an AI tool that answers questions using the wisdom and teachings of the Bhagavad Gita, one of the most important texts in Hindu philosophy. Users ask questions about life challenges, ethical dilemmas, spiritual development, or philosophical questions and GitaGPT responds with relevant teachings from the Gita, providing both the scriptural reference and a practical explanation of how that wisdom applies to the question. For Hindus, students of philosophy, and anyone interested in the Gita's teachings, GitaGPT makes this ancient wisdom conversationally accessible.",
+    features: [
+      "Gita-Based Answers: All responses grounded in Bhagavad Gita teachings",
+      "Verse References: Specific Gita verses cited for each response",
+      "Life Guidance: Practical application of Gita wisdom to modern challenges",
+      "Philosophical Questions: Deep answers to questions about dharma and purpose",
+      "Sanskrit Context: Original Sanskrit verses with translations",
+      "Multiple Topics: Covers karma, dharma, devotion, self-realization, and more",
+      "Conversational Interface: Ask questions naturally in plain language",
+      "Free to Use: Access Gita wisdom without payment"
+    ],
+    howToUse: {
+      title: "How to Use Gitagpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Question", description: "Go to gitagpt.com and ask any question about life, ethics, spirituality, or philosophy that you want the Bhagavad Gita's perspective on." },
+        { title: "Receive Gita Wisdom", description: "GitaGPT responds with relevant teachings from the Gita including specific verse references. Read both the scriptural content and its practical application to your question." },
+        { title: "Go Deeper", description: "Ask follow-up questions to explore the teaching further or ask how the same wisdom applies to different aspects of your situation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Ancient Wisdom Made Accessible", description: "The Bhagavad Gita contains profound wisdom but is dense and requires significant study to navigate independently. GitaGPT makes its teachings immediately accessible through simple questions" },
+      { title: "Verse Grounding", description: "Responses that cite specific Gita verses give users the ability to find and study the original text rather than just accepting the AI interpretation" },
+      { title: "Modern Relevance", description: "Showing how ancient Gita teachings apply to contemporary life challenges makes the text relevant to people who might otherwise see it as historically interesting but not personally applicable" },
+      { title: "Spiritual Exploration", description: "People exploring Hindu philosophy and Indian spiritual traditions use GitaGPT as a starting point for deeper study of the Gita" }
+    ],
+    useCases: [
+      { title: "Hindus Seeking Spiritual Guidance", description: "Devotees use GitaGPT to find relevant Gita teachings for challenges they are facing in their personal and professional lives" },
+      { title: "Philosophy Students and Scholars", description: "Students studying Indian philosophy use GitaGPT to quickly find relevant Gita passages on specific philosophical topics" },
+      { title: "Spiritually Curious Individuals", description: "People from all backgrounds who are curious about the wisdom of the Bhagavad Gita use GitaGPT to explore its teachings through natural conversation" }
+    ]
+  },
   "midreal": {
     whatIs: "MidReal is an AI interactive fiction platform that generates immersive story experiences based on your choices. It creates branching narratives in real time, adapting the story direction based on what you decide at each critical moment. The platform focuses on longer, more developed story experiences - generating detailed scenes, character interactions, and plot developments that respond dynamically to player choices. For readers who want an AI storytelling experience that feels genuinely responsive and literary, MidReal aims for narrative quality alongside interactivity.",
     features: [
