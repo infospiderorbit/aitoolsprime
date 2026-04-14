@@ -1,4 +1,235 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "cladwell": {
+    whatIs: "Cladwell is an AI-powered personal styling and wardrobe management app that helps users get more out of the clothes they already own. It catalogs your wardrobe, suggests outfits from your existing pieces, and helps you identify gaps in your wardrobe that would maximize the number of outfits you can create. For people who feel they have nothing to wear despite a full closet, Cladwell provides the styling intelligence to make their existing wardrobe work harder.",
+    features: [
+      "Wardrobe Catalog: Digitize and organize all your clothing items",
+      "Outfit Suggestions: AI-generated outfits from your existing wardrobe",
+      "Gap Analysis: Identify missing pieces that would expand your outfit options",
+      "Style Profiling: Learn your personal style preferences",
+      "Capsule Wardrobe: Build a minimalist wardrobe that maximizes outfits",
+      "Weather Integration: Outfit suggestions based on current weather",
+      "Shopping Guidance: Recommendations for new purchases that fill wardrobe gaps",
+      "Free Trial: Try wardrobe management before paying"
+    ],
+    howToUse: {
+      title: "How to Use Cladwell",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Catalog Your Wardrobe", description: "Download Cladwell and photograph your clothing items to build your digital wardrobe. The app organizes your pieces by category, color, and style." },
+        { title: "Get Daily Outfit Suggestions", description: "Each day Cladwell suggests outfits from your wardrobe. Browse the suggestions and discover combinations you had not considered using your existing clothes." },
+        { title: "Identify and Fill Gaps", description: "Review the gap analysis to see which types of pieces would most expand your outfit options. Use these insights to shop strategically rather than impulsively." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Wardrobe Visibility", description: "Most people mentally access only a fraction of what they own because they cannot see everything at once. Cataloging makes the full wardrobe visible and usable" },
+      { title: "Outfit Combination Intelligence", description: "AI can identify outfit combinations across your wardrobe that human styling intuition misses - surfacing combinations you own but have never paired together" },
+      { title: "Strategic Shopping", description: "Understanding which specific pieces would maximize your outfit count turns shopping from impulse-driven to strategic - buying less but getting more value from each purchase" },
+      { title: "Sustainable Fashion", description: "Getting more use from existing clothing rather than constantly buying new pieces is both economically and environmentally beneficial" }
+    ],
+    useCases: [
+      { title: "People Who Feel They Have Nothing to Wear", description: "Anyone who stands at a full closet feeling they have nothing to wear uses Cladwell to discover the outfits already waiting in their wardrobe" },
+      { title: "Capsule Wardrobe Builders", description: "People simplifying their wardrobe to a smaller collection of versatile pieces use Cladwell for the styling intelligence that makes a capsule wardrobe work" },
+      { title: "Strategic Shoppers", description: "People who want to shop less but dress better use Cladwell to identify exactly which purchases would add the most value to their existing wardrobe" }
+    ]
+  },
+  "outfit-changer": {
+    whatIs: "Outfit Changer AI is a virtual try-on tool that lets users see how different clothing items and outfits look on their own photos without physically trying anything on. Users upload a photo of themselves and the AI applies different clothing items, colors, and styles to their image showing how each option would look on their actual body. For online shoppers who want to visualize how clothes will look before purchasing, Outfit Changer reduces the uncertainty that leads to returns.",
+    features: [
+      "Virtual Try-On: See how outfits look on your own photo",
+      "Clothing Application: Apply different garments to your image",
+      "Style Exploration: Try different styles and aesthetics virtually",
+      "Color Variants: See the same outfit in different colors",
+      "Online Shopping Aid: Visualize purchases before buying",
+      "Multiple Items: Try complete outfit combinations",
+      "Fast Processing: Quick virtual try-on results",
+      "Free to Try: Basic virtual try-on without payment"
+    ],
+    howToUse: {
+      title: "How to Use Outfit Changer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to the Outfit Changer tool and upload a clear full-body or upper-body photo of yourself in fitted clothing for the most accurate results." },
+        { title: "Select Your Outfit", description: "Choose clothing items you want to try on - either from the available library or by uploading images of specific items you are considering purchasing." },
+        { title: "Review and Decide", description: "See how the outfit looks on your actual body and use that visualization to inform your shopping decision. Try multiple options to compare before purchasing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Purchase Confidence", description: "Seeing how a specific garment looks on your actual body before buying significantly reduces the uncertainty that leads to returns and wasted spending" },
+      { title: "Body-Specific Styling", description: "Generic model photos show how clothes look on models not on your body type. Virtual try-on on your own photo gives personally relevant visualization" },
+      { title: "Style Experimentation", description: "Trying completely different styles virtually has no cost or commitment - which encourages style exploration that people might hesitate to do with actual purchases" },
+      { title: "Time Efficiency", description: "Virtual try-on eliminates the time spent physically trying on clothes that do not work - focusing physical shopping on items with higher likelihood of working" }
+    ],
+    useCases: [
+      { title: "Online Shoppers Reducing Returns", description: "People who shop online use Outfit Changer to visualize purchases before buying and reduce the returns that waste time and money" },
+      { title: "Style Explorers", description: "People curious about trying new styles use virtual try-on to explore looks they would not risk purchasing without seeing how they actually look" },
+      { title: "Personal Stylists", description: "Stylists use virtual try-on tools to help clients visualize options before building out a wardrobe" }
+    ]
+  },
+  "stylitics": {
+    whatIs: "Stylitics is an AI-powered outfit and product recommendation platform used primarily by retailers to show shoppers how to style complete looks using the products they sell. It generates outfit combinations and style recommendations from a retailer's product catalog, showing customers how individual items fit into complete outfits. For fashion retailers, Stylitics increases average order value by helping customers discover complementary products and see how items work together.",
+    features: [
+      "Outfit Generation: Create complete outfit recommendations from product catalogs",
+      "Style Bundling: Show complementary products that work together",
+      "Personalization: Outfit suggestions based on shopper style preferences",
+      "Retail Integration: Embeds into retailer websites and apps",
+      "Trend Alignment: Outfits that reflect current fashion trends",
+      "Multiple Style Profiles: Recommendations for different customer style types",
+      "Inventory Awareness: Suggestions from currently available products",
+      "Analytics: Track outfit recommendation performance and conversion"
+    ],
+    howToUse: {
+      title: "How to Use Stylitics",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Retailer Integration", description: "Retailers integrate Stylitics into their e-commerce platform by connecting their product catalog to the Stylitics system." },
+        { title: "Shopper Experience", description: "Shoppers browsing a retailer site see outfit recommendations showing how individual items can be styled with other products in the same catalog." },
+        { title: "Optimization", description: "Retailers use analytics to understand which outfit combinations perform best and optimize their styling recommendations for maximum conversion." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cross-Sell Intelligence", description: "Showing customers how to style complete looks using products from the same catalog is one of the most effective ways to increase average order value in fashion retail" },
+      { title: "Styling Confidence", description: "Many shoppers know what they like but are unsure how to put complete outfits together. Outfit recommendations give them the styling confidence to purchase more complete looks" },
+      { title: "Catalog Utilization", description: "Product recommendations that draw from the full catalog surface items that shoppers might not have discovered through standard browsing" },
+      { title: "Personalization Scale", description: "AI-powered style personalization that works across thousands of concurrent shoppers provides personalization at a scale that human stylists cannot match" }
+    ],
+    useCases: [
+      { title: "Fashion Retailers", description: "Clothing retailers use Stylitics to show shoppers how to style complete outfits from their catalog and increase average order value" },
+      { title: "Department Stores", description: "Multi-category retailers use Stylitics to create outfit recommendations that cross department boundaries" },
+      { title: "Fashion E-commerce Platforms", description: "Online fashion marketplaces use Stylitics to improve the shopping experience and product discovery for their customers" }
+    ]
+  },
+  "outfits-ai": {
+    whatIs: "Outfits AI is an AI personal styling tool that generates outfit ideas and style recommendations based on your wardrobe, body type, occasion, and personal preferences. It helps users discover new outfit combinations from their existing clothes and provides styling guidance for specific occasions. For people who want styling advice without a personal stylist, Outfits AI provides accessible AI-powered fashion guidance.",
+    features: [
+      "Outfit Recommendations: AI-generated outfit ideas for different occasions",
+      "Wardrobe Integration: Suggestions based on clothes you already own",
+      "Occasion Styling: Outfits appropriate for work, casual, formal, and other contexts",
+      "Body Type Consideration: Suggestions that flatter your specific body type",
+      "Style Profile: Personalized recommendations based on your style preferences",
+      "Trend Guidance: Incorporate current fashion trends into your outfits",
+      "Shopping Suggestions: Recommendations for new pieces to add",
+      "Free to Try: Basic outfit suggestions without payment"
+    ],
+    howToUse: {
+      title: "How to Use Outfits Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Style Profile", description: "Sign up at outfits.ai and complete your style profile including your body type, style preferences, and the occasions you most need outfits for." },
+        { title: "Add Your Wardrobe", description: "Catalog your existing clothing items so the AI can generate outfit combinations from what you already own." },
+        { title: "Get Outfit Ideas", description: "Browse AI-generated outfit suggestions for different occasions. Save the ones you like and use them as the basis for your daily dressing decisions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessible Styling Advice", description: "Personal stylists are expensive. AI styling advice that understands your wardrobe and preferences provides similar guidance at a fraction of the cost" },
+      { title: "Occasion Specificity", description: "Getting appropriate outfit ideas for specific occasions - job interviews, dates, weddings, casual Fridays - requires context that generic style advice lacks" },
+      { title: "Body Positive Approach", description: "Outfit suggestions that consider your specific body type produce more flattering and comfortable recommendations than generic styling advice" },
+      { title: "Discovery from Existing Wardrobe", description: "Most people underuse their wardrobe by repeatedly wearing the same combinations. AI suggestions reveal combinations they own but had not considered" }
+    ],
+    useCases: [
+      { title: "People Wanting Daily Outfit Help", description: "Individuals who spend too much time deciding what to wear each morning use Outfits AI for quick, appropriate suggestions" },
+      { title: "Style Beginners", description: "People who feel uncertain about fashion and styling use Outfits AI for guided recommendations that build their style confidence" },
+      { title: "Occasion-Specific Dressers", description: "People who need outfit guidance for specific important occasions use Outfits AI for appropriate and flattering suggestions" }
+    ]
+  },
+  "mobicip": {
+    whatIs: "Mobicip is an AI-powered parental controls and family screen time management platform that helps parents monitor and manage their children digital device usage. It filters inappropriate content, sets screen time limits, monitors app usage, and provides parents with insights into their children online activity. For families navigating the challenges of healthy digital habits, Mobicip provides the tools to establish boundaries and have informed conversations about technology use.",
+    features: [
+      "Content Filtering: Block inappropriate websites and content categories",
+      "Screen Time Management: Set daily limits for device and app usage",
+      "App Controls: Allow or block specific apps on children devices",
+      "Activity Reports: See what your children are doing online",
+      "Location Tracking: Know where your children are",
+      "Scheduled Downtime: Set device-free periods for meals and bedtime",
+      "Safe Search: Enforce safe search across all search engines",
+      "Multi-Device: Manage all family devices from one parent dashboard"
+    ],
+    howToUse: {
+      title: "How to Use Mobicip",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Family Accounts", description: "Sign up at mobicip.com and install the app on your children devices. Connect all family devices to your parent dashboard for centralized management." },
+        { title: "Configure Your Settings", description: "Set content filters appropriate for each child age, establish screen time limits, and configure which apps are allowed on each device." },
+        { title: "Monitor and Adjust", description: "Review the activity reports to understand your children digital habits. Use the insights to have informed conversations and adjust settings as your children grow and digital habits evolve." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Age-Appropriate Filtering", description: "Content appropriate for a teenager is different from what is appropriate for a younger child. Age-specific filtering settings ensure protection scales with each child situation" },
+      { title: "Informed Parenting", description: "Activity reports give parents real information about their children digital habits rather than requiring parents to either fully trust or broadly restrict technology use" },
+      { title: "Healthy Digital Habits", description: "Screen time limits and scheduled downtime help establish the digital boundaries that support healthy development without requiring constant parental intervention" },
+      { title: "Multi-Device Reality", description: "Children today have access to phones, tablets, computers, and gaming devices. Managing all of them from one dashboard makes family digital management practical" }
+    ],
+    useCases: [
+      { title: "Parents of School-Age Children", description: "Families with children between 6 and 16 use Mobicip to establish appropriate digital boundaries while children develop healthy technology habits" },
+      { title: "Parents Concerned About Online Safety", description: "Parents worried about their children exposure to inappropriate content use Mobicip for comprehensive content filtering across all devices" },
+      { title: "Families Establishing Screen Time Rules", description: "Households trying to balance technology use with other activities use Mobicip to automate the screen time limits that are hard to enforce manually" }
+    ]
+  },
+  "dealdrop": {
+    whatIs: "DealDrop is a deals and discount discovery platform that uses AI to aggregate and surface the best current deals, coupons, and discounts across online retailers. It helps shoppers find savings on products they want to buy without manually searching multiple sites and coupon databases. For value-conscious shoppers who want to ensure they are getting the best available price, DealDrop centralizes deal discovery in one accessible place.",
+    features: [
+      "Deal Aggregation: Deals from multiple retailers in one place",
+      "Coupon Discovery: Find available coupon codes for online purchases",
+      "Price Alerts: Get notified when prices drop on items you want",
+      "Category Browsing: Browse deals by product category",
+      "Verified Deals: Confirmation that deals are currently active",
+      "Trending Deals: See what deals other shoppers are finding",
+      "Retailer Coverage: Deals from major online retailers",
+      "Free to Use: Browse deals without payment"
+    ],
+    howToUse: {
+      title: "How to Use Dealdrop",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse or Search", description: "Go to dealdrop.com and either browse deals by category or search for specific products or retailers you want to find discounts for." },
+        { title: "Find Your Savings", description: "Review available deals and coupon codes for your intended purchase. Check the expiration and terms to ensure the deal applies to what you want to buy." },
+        { title: "Apply and Save", description: "Use the coupon code at checkout or click through the deal link to access the discounted price. Track price alerts for items you are not ready to buy yet." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Centralized Discovery", description: "Checking multiple deal sites and coupon databases manually is time-consuming. Aggregating deals in one place makes the savings discovery process practical rather than tedious" },
+      { title: "Verification Value", description: "Expired or invalid coupon codes are frustrating. Verified active deals save users the disappointment of finding a code that does not work at checkout" },
+      { title: "Price Alert Value", description: "Being notified when a product you want drops to your target price is more efficient than repeatedly checking manually or impulse-buying before a sale" },
+      { title: "Habitual Savings", description: "Making deal checking a standard part of the shopping process rather than an occasional activity produces consistent savings over time" }
+    ],
+    useCases: [
+      { title: "Value-Conscious Online Shoppers", description: "Shoppers who regularly buy online use DealDrop to ensure they are always getting the best available price on their purchases" },
+      { title: "Bargain Hunters", description: "People who prioritize finding deals use DealDrop to discover discounts across multiple retailers efficiently" },
+      { title: "Budget-Focused Consumers", description: "People managing tight budgets use DealDrop to stretch their purchasing power by finding savings on necessary purchases" }
+    ]
+  },
+  "vetted": {
+    whatIs: "Vetted is an AI-powered product recommendation platform that helps consumers find the best products for their needs by analyzing expert reviews, user ratings, and product specifications. Rather than reading through dozens of reviews manually, Vetted aggregates and synthesizes product data to surface the top recommendations for specific use cases. For shoppers who want confident product recommendations without extensive research, Vetted provides AI-curated guidance.",
+    features: [
+      "Product Recommendations: AI-curated product suggestions for specific needs",
+      "Review Aggregation: Synthesizes expert and user reviews",
+      "Use Case Matching: Recommendations based on your specific requirements",
+      "Comparison Tools: Compare top products side by side",
+      "Expert Review Integration: Incorporates professional review sources",
+      "Price Tracking: Monitor prices on recommended products",
+      "Category Coverage: Recommendations across electronics, home, and other categories",
+      "Free to Use: Product research without payment"
+    ],
+    howToUse: {
+      title: "How to Use Vetted",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe What You Need", description: "Go to vetted.com and describe what you are looking for - the type of product, your specific use case, and any important requirements or constraints." },
+        { title: "Review Recommendations", description: "Vetted surfaces the top recommended products for your needs with summaries of why each is recommended and how they compare." },
+        { title: "Research Your Shortlist", description: "Dig deeper into your top options using the comparison tools and review summaries to make a confident final decision." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Research Efficiency", description: "Reading enough reviews to make a confident product decision takes hours for complex purchases. AI synthesis of multiple sources produces confident recommendations in minutes" },
+      { title: "Expert and User Balance", description: "Products that score well with both professional reviewers and regular users are more reliably good than products that appeal to only one group. Vetted weighs both perspectives" },
+      { title: "Use Case Specificity", description: "The best camera for a professional photographer is different from the best camera for a casual family photographer. Use case-specific recommendations produce more relevant results than generic best lists" },
+      { title: "Decision Confidence", description: "Making expensive purchases with confidence requires understanding why a product is recommended. Vetted explains the reasoning behind recommendations rather than just listing options" }
+    ],
+    useCases: [
+      { title: "Considered Purchase Shoppers", description: "People making significant purchases - electronics, appliances, fitness equipment - use Vetted to make confident decisions backed by comprehensive research" },
+      { title: "Time-Constrained Consumers", description: "Busy people who need to make purchase decisions but cannot invest hours in research use Vetted for efficient expert-backed recommendations" },
+      { title: "Gift Buyers", description: "People buying gifts for others use Vetted to find well-reviewed products in unfamiliar categories where they lack personal knowledge" }
+    ]
+  },
   "trip-planner-ai": {
     whatIs: "Trip Planner AI is an AI-powered travel itinerary builder that creates detailed day-by-day travel plans for any destination. Users enter their destination, travel dates, group composition, and interests and the AI generates a complete itinerary with activities, timing, restaurant suggestions, and practical tips. The platform allows easy editing and customization of the generated plan and provides maps showing the routing between locations.",
     features: [
