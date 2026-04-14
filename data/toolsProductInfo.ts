@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "trip-planner-ai": {
+    whatIs: "Trip Planner AI is an AI-powered travel itinerary builder that creates detailed day-by-day travel plans for any destination. Users enter their destination, travel dates, group composition, and interests and the AI generates a complete itinerary with activities, timing, restaurant suggestions, and practical tips. The platform allows easy editing and customization of the generated plan and provides maps showing the routing between locations.",
+    features: [
+      "AI Itinerary Generation: Complete day-by-day travel plans from your inputs",
+      "Activity Planning: Curated activities matched to your interests",
+      "Restaurant Suggestions: Dining recommendations for each destination",
+      "Map Integration: Visual maps showing your itinerary routing",
+      "Easy Editing: Modify any part of the generated itinerary",
+      "Group Planning: Plans adapted for couples, families, or solo travelers",
+      "Budget Options: Suggestions across different budget levels",
+      "Free to Use: Basic itinerary planning without payment"
+    ],
+    howToUse: {
+      title: "How to Use Trip Planner Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Trip Details", description: "Go to tripplanner.ai and enter your destination, travel dates, group size, and interests. Include any must-see attractions or specific activities you want included." },
+        { title: "Review Your Itinerary", description: "The AI generates a complete day-by-day plan. Review each day for timing, routing, and activity selection to ensure it matches your travel style." },
+        { title: "Customize and Save", description: "Edit any activities, adjust timing, add or remove stops, and save your finalized itinerary. Access it during your trip for easy reference." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Plan Generation", description: "Trip Planner AI produces a finished itinerary rather than just a list of suggestions - which means you have a usable plan rather than a starting point that still requires significant organization" },
+      { title: "Routing Intelligence", description: "Logical routing between attractions that minimizes travel time is one of the most valuable contributions AI makes to travel planning - something manual planning often gets wrong" },
+      { title: "Interest Matching", description: "Generic travel guides recommend the same top attractions to everyone. Trip Planner AI customizes suggestions based on what you specifically enjoy" },
+      { title: "Time Estimation", description: "Knowing how long each activity takes and building realistic timing into the itinerary prevents the common problem of over-planning and rushing through everything" }
+    ],
+    useCases: [
+      { title: "First-Time Visitors to a Destination", description: "Travelers visiting somewhere new use Trip Planner AI to quickly understand what is worth seeing and create a realistic plan for their time" },
+      { title: "Family Vacation Planners", description: "Parents planning family trips use Trip Planner AI to create itineraries that balance adult and child-friendly activities within realistic daily schedules" },
+      { title: "Weekend Travelers", description: "People planning short city breaks use Trip Planner AI to maximize what they can see in limited time with efficient routing" }
+    ]
+  },
+  "wonderplan": {
+    whatIs: "Wonderplan is an AI trip planning tool that creates personalized travel itineraries based on your budget, travel style, and preferences. It generates complete trip plans including activities, accommodations, and estimated costs, making it easier to understand the full picture of a planned trip before booking. The budget focus helps travelers understand what a trip will actually cost and make informed decisions about their travel spending.",
+    features: [
+      "Budget-Aware Planning: Itineraries that respect your travel budget",
+      "Cost Estimation: Estimated costs for activities and accommodation",
+      "Personalized Itineraries: Plans based on your travel style preferences",
+      "Activity Variety: Mix of popular and off-the-beaten-path suggestions",
+      "Accommodation Options: Stay suggestions at different price points",
+      "Day-by-Day Structure: Clear daily plans with timing",
+      "Exportable Plans: Download your itinerary for offline access",
+      "Free to Use: Basic trip planning without payment"
+    ],
+    howToUse: {
+      title: "How to Use Wonderplan",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Your Budget and Preferences", description: "Go to wonderplan.ai and enter your destination, travel dates, budget range, and travel style preferences - adventure, culture, relaxation, or a mix." },
+        { title: "Review Your Plan", description: "Wonderplan generates a complete itinerary with estimated costs. Review the daily plans and cost breakdown to understand what your trip will realistically involve." },
+        { title: "Adjust and Book", description: "Modify any elements that do not fit your preferences or budget and use the plan as the basis for your actual bookings." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Budget Transparency", description: "Many travelers plan activities without understanding total costs until they are already committed. Wonderplan surfaces cost estimates upfront so budget decisions happen during planning not during the trip" },
+      { title: "Style Personalization", description: "Adventure travelers and culture seekers want completely different itineraries for the same destination. Style-based personalization produces relevant plans rather than generic tourist routes" },
+      { title: "Complete Picture", description: "Having activities, accommodation options, and costs together in one plan gives travelers a realistic understanding of what their trip will involve rather than discovering the full picture piecemeal" },
+      { title: "Accessible Planning", description: "Making detailed travel planning accessible to people who do not have extensive travel experience or research time broadens who can take well-planned independent trips" }
+    ],
+    useCases: [
+      { title: "Budget-Conscious Travelers", description: "People traveling on a defined budget use Wonderplan to understand what is possible within their financial constraints before committing to a trip" },
+      { title: "First Independent Travelers", description: "People planning their first solo or independent trip use Wonderplan to understand the structure and costs of self-planned travel" },
+      { title: "Group Trip Planners", description: "People organizing trips for groups use Wonderplan to create shareable plans that give everyone a clear picture of the proposed itinerary and costs" }
+    ]
+  },
+  "mindtrip": {
+    whatIs: "MindTrip is an AI travel assistant that combines travel inspiration with practical planning in a conversational interface. It helps travelers discover where to go, what to do, and how to organize their trip through natural conversation. The platform blends destination discovery with concrete planning tools, moving from inspiration to bookable itinerary within the same interface.",
+    features: [
+      "Conversational Travel Planning: Plan trips through natural AI conversation",
+      "Destination Discovery: Find new travel destinations based on your interests",
+      "Itinerary Building: Develop concrete day-by-day plans through conversation",
+      "Inspiration to Action: Move from travel ideas to concrete plans seamlessly",
+      "Practical Details: Get logistics and practical travel information",
+      "Personalized Suggestions: Recommendations based on your travel preferences",
+      "Booking Integration: Connect to booking options from your itinerary",
+      "Free to Start: Basic travel planning conversation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Mindtrip",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Share Your Travel Ideas", description: "Go to mindtrip.ai and share what kind of trip you are thinking about - the type of experience you want, rough timing, and any destinations you are considering." },
+        { title: "Develop Your Plan", description: "MindTrip asks questions and provides suggestions that help narrow down your destination and activities. The conversation develops from inspiration into a concrete plan." },
+        { title: "Finalize and Book", description: "Once your itinerary is taking shape, MindTrip connects you to booking options for accommodations and activities to turn your plan into a real trip." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Inspiration to Plan Continuity", description: "Most travel tools handle either inspiration or planning but not both. MindTrip keeps the full journey from idea to booked trip in one conversational flow" },
+      { title: "Conversational Depth", description: "Natural conversation allows for nuanced preference expression that form-based tools cannot capture - the back-and-forth develops plans that genuinely match complex traveler preferences" },
+      { title: "Discovery Emphasis", description: "MindTrip helps travelers find destinations they had not considered rather than just planning trips to places they already decided to visit" },
+      { title: "Booking Integration", description: "Connecting the planning conversation directly to booking options removes the step of taking your plan to a separate booking platform" }
+    ],
+    useCases: [
+      { title: "Travelers in the Inspiration Phase", description: "People who know they want to travel but have not decided where use MindTrip to explore options and find the right destination for their next trip" },
+      { title: "Experience-Focused Travelers", description: "Travelers who care more about the type of experience than the specific destination use MindTrip to find places that deliver the experience they want" },
+      { title: "Planners Who Prefer Conversation", description: "People who find traditional travel planning tools tedious use MindTrip for the more engaging conversational planning approach" }
+    ]
+  },
+  "hadana-ai": {
+    whatIs: "Hadana AI is an AI-powered travel planning platform that creates personalized travel itineraries with a focus on authentic local experiences rather than standard tourist routes. It uses AI to understand your travel preferences and generates itineraries that include local restaurants, neighborhood exploration, and off-the-beaten-path activities alongside essential highlights. For travelers who want to experience destinations like a local rather than as a typical tourist, Hadana provides curated planning that goes beyond the top-ten lists.",
+    features: [
+      "Local Experience Focus: Itineraries that emphasize authentic local experiences",
+      "Personalized Planning: Plans based on your specific travel style",
+      "Neighborhood Exploration: Discover local neighborhoods beyond tourist areas",
+      "Restaurant Curation: Local dining recommendations beyond tourist traps",
+      "Hidden Gems: Off-the-beaten-path activities and locations",
+      "Day-by-Day Structure: Organized daily itineraries with timing",
+      "Cultural Insights: Context about local culture and customs",
+      "Free to Try: Basic itinerary planning without payment"
+    ],
+    howToUse: {
+      title: "How to Use Hadana Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Travel Style", description: "Sign up at hadana.ai and describe your travel preferences - whether you prioritize food, culture, nature, nightlife, or specific types of experiences." },
+        { title: "Receive Your Itinerary", description: "Hadana generates an itinerary that balances must-see highlights with authentic local experiences based on your stated preferences." },
+        { title: "Explore and Adjust", description: "Review your itinerary and adjust any elements. The local recommendations in particular are worth reviewing for the type of neighborhood and dining experiences that match your comfort level." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Local Over Tourist", description: "Standard travel planning produces tourist routes. Hadana specifically curates local experiences that make a trip feel genuine rather than like following a tour group" },
+      { title: "Neighborhood Intelligence", description: "Understanding which neighborhoods are worth exploring and why requires local knowledge that AI can surface from extensive travel data" },
+      { title: "Dining Curation", description: "Finding where locals actually eat rather than where tourists are directed requires specific knowledge. Hadana applies this to restaurant recommendations" },
+      { title: "Cultural Context", description: "Understanding local culture and customs makes travel more respectful and more meaningful. Hadana builds this context into the planning rather than leaving travelers to discover it themselves" }
+    ],
+    useCases: [
+      { title: "Experience-Focused Travelers", description: "Travelers who prioritize authentic experiences over ticking off famous sights use Hadana for itineraries that reflect how locals actually experience their city" },
+      { title: "Repeat Visitors", description: "People returning to a destination they have already visited use Hadana to discover the local experiences they missed on their first tourist-focused trip" },
+      { title: "Culturally Curious Travelers", description: "Travelers who want to genuinely understand the places they visit use Hadana for itineraries that provide cultural depth beyond surface-level sightseeing" }
+    ]
+  },
+  "futurepedia": {
+    whatIs: "Futurepedia is one of the largest AI tools directories on the internet, cataloging thousands of AI tools across hundreds of categories. It helps people discover AI tools for any use case through a searchable, regularly updated database with descriptions, ratings, and categorization. For professionals, creatives, and curious users who want to find the best AI tool for a specific task, Futurepedia provides a comprehensive reference that tracks the rapidly expanding AI tools landscape.",
+    features: [
+      "Massive Tool Directory: Thousands of AI tools cataloged and searchable",
+      "Category Organization: Tools organized by use case and category",
+      "Regular Updates: New tools added as they launch",
+      "Tool Descriptions: Clear explanations of what each tool does",
+      "User Ratings: Community ratings and reviews for tools",
+      "Search Functionality: Find tools for specific use cases quickly",
+      "Free Access: Browse the full directory without payment",
+      "Newsletter: Stay updated on new tool launches"
+    ],
+    howToUse: {
+      title: "How to Use Futurepedia",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search for Your Need", description: "Go to futurepedia.io and search for the type of AI tool you need or browse by category. Use specific task descriptions for the most relevant results." },
+        { title: "Compare Options", description: "Review multiple tools that match your need. Read descriptions and check ratings to identify the tools most likely to work for your specific situation." },
+        { title: "Discover New Tools", description: "Browse categories beyond your immediate need to discover AI tools for use cases you had not considered. The directory often surfaces tools that solve problems you did not know had AI solutions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Discovery at Scale", description: "The AI tools market is enormous and growing constantly. A comprehensive directory that tracks the full landscape makes discovery practical rather than requiring you to stumble across tools through other channels" },
+      { title: "Category Organization", description: "Organizing thousands of tools by use case makes finding what you need manageable. Without organization the volume of available AI tools would be overwhelming" },
+      { title: "Current Information", description: "Regular updates to add new tools and remove discontinued ones keep Futurepedia useful as a current reference rather than becoming outdated quickly" },
+      { title: "Community Validation", description: "User ratings and reviews provide social proof that helps people identify which tools actually deliver on their promises versus which have good marketing but poor execution" }
+    ],
+    useCases: [
+      { title: "Professionals Researching AI Tools", description: "Business professionals evaluating AI tools for their workflows use Futurepedia to understand what is available across different categories before making decisions" },
+      { title: "AI Enthusiasts Staying Current", description: "People who follow the AI landscape use Futurepedia to discover new tools as they launch and track developments across different AI application areas" },
+      { title: "Developers and Builders", description: "Creators building AI-powered products use Futurepedia to research what existing tools are available to incorporate or compete with in their specific domain" }
+    ]
+  },
+  "ainvest": {
+    whatIs: "AInvest is an AI-powered investment research and analysis platform that helps investors understand financial markets, analyze stocks, and stay informed about investment opportunities. It uses AI to process financial data, news, and market trends to surface insights that help investors make more informed decisions. For individual investors who want research quality that typically requires expensive professional tools, AInvest provides AI-powered analysis at an accessible price point.",
+    features: [
+      "Stock Analysis: AI-powered analysis of individual stocks and securities",
+      "Market Trends: Identify trends and patterns in financial markets",
+      "News Analysis: AI processing of financial news and its market implications",
+      "Portfolio Insights: Analysis and suggestions for portfolio improvement",
+      "Earnings Analysis: AI interpretation of earnings reports and guidance",
+      "Risk Assessment: Understand the risk profile of investments",
+      "Investment Ideas: AI-generated investment opportunity suggestions",
+      "Free Plan: Basic investment research without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ainvest",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Portfolio", description: "Sign up at ainvest.com and optionally connect your investment portfolio for personalized analysis and suggestions based on your specific holdings." },
+        { title: "Research Your Investments", description: "Use the stock analysis tools to research specific companies or securities. Review AI-generated insights alongside traditional financial metrics." },
+        { title: "Stay Informed", description: "Use the news analysis and market trend features to stay current on developments affecting your investments without having to process enormous volumes of financial news manually." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Research Democratization", description: "Institutional investors have access to expensive research tools that individual investors cannot afford. AInvest brings AI-powered research quality to individual investors at accessible pricing" },
+      { title: "News Processing Scale", description: "Financial markets are affected by enormous volumes of news and data that no individual investor can process comprehensively. AI analysis surfaces the most relevant signals from the noise" },
+      { title: "Pattern Recognition", description: "AI analysis of market data identifies patterns and correlations that are difficult for humans to spot across the complexity of financial markets" },
+      { title: "Decision Support", description: "AI-generated insights serve as a research starting point that informs investment decisions rather than replacing the judgment of the investor" }
+    ],
+    useCases: [
+      { title: "Individual Investors Doing Their Own Research", description: "Self-directed investors who manage their own portfolios use AInvest to improve the quality of their investment research" },
+      { title: "New Investors Learning Markets", description: "People new to investing use AInvest to understand financial concepts and get research support as they develop their investment knowledge" },
+      { title: "Busy Professionals with Investment Portfolios", description: "Working professionals who invest but have limited time for research use AInvest to stay informed efficiently" }
+    ]
+  },
+  "the-rundown-ai": {
+    whatIs: "The Rundown AI is a daily newsletter and content platform that keeps subscribers informed about the latest developments in artificial intelligence. It curates and summarizes the most important AI news, research breakthroughs, tool launches, and industry developments into a readable daily digest. For professionals, enthusiasts, and anyone who wants to stay current with the rapidly moving AI landscape without spending hours reading technical papers and news sites, The Rundown provides curated, accessible AI intelligence.",
+    features: [
+      "Daily Newsletter: Curated AI news and developments delivered daily",
+      "News Curation: Most important AI stories selected and summarized",
+      "Research Summaries: Accessible summaries of AI research papers",
+      "Tool Launches: Coverage of new AI tools as they launch",
+      "Industry News: Business and investment developments in AI",
+      "Accessible Language: Complex AI topics explained clearly",
+      "Free Subscription: Core newsletter without payment",
+      "Community: Connect with other AI-interested readers"
+    ],
+    howToUse: {
+      title: "How to Use The Rundown Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Subscribe to the Newsletter", description: "Go to therundown.ai and enter your email to subscribe. The daily newsletter arrives in your inbox each morning with the day most important AI developments." },
+        { title: "Read Your Daily Brief", description: "Open your daily email and scan the headlines to identify the stories most relevant to your interests. Read the full summaries for items that matter to you." },
+        { title: "Stay Current", description: "Regular reading of The Rundown builds a comprehensive understanding of the AI landscape over time - connecting individual developments into a coherent picture of where AI is heading." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Curation Value", description: "The volume of AI news, research, and tool launches is overwhelming for anyone trying to follow it independently. Curation that selects the most important developments saves enormous time" },
+      { title: "Accessible Explanations", description: "AI developments are often technical and hard for non-specialists to follow. The Rundown translates complex developments into clear, readable summaries" },
+      { title: "Daily Habit Efficiency", description: "A brief daily newsletter is more sustainable for staying informed than periodic deep research sessions that let you fall behind between them" },
+      { title: "Breadth of Coverage", description: "Covering news, research, tools, and business developments gives a complete picture of the AI landscape rather than just one slice of it" }
+    ],
+    useCases: [
+      { title: "Professionals Working with AI", description: "Business professionals, product managers, and executives who need to understand AI developments for their work use The Rundown to stay informed efficiently" },
+      { title: "AI Enthusiasts and Hobbyists", description: "People who are generally interested in AI and its development use The Rundown to follow the field without needing to be technical specialists" },
+      { title: "Investors and Analysts", description: "People tracking the AI industry for investment or research purposes use The Rundown for comprehensive coverage of business and technology developments" }
+    ]
+  },
+  "shift-ai": {
+    whatIs: "SHIFT AI is an AI productivity and workflow automation platform that helps professionals automate repetitive tasks, streamline workflows, and work more efficiently using AI. It provides tools for automating document processing, email management, data extraction, and other knowledge work tasks that consume significant time without requiring high-level judgment. For knowledge workers who spend large portions of their day on repetitive tasks that AI could handle, SHIFT AI provides the automation infrastructure to reclaim that time.",
+    features: [
+      "Workflow Automation: Automate repetitive knowledge work tasks with AI",
+      "Document Processing: Extract and process information from documents automatically",
+      "Email Automation: Intelligent email management and response assistance",
+      "Data Extraction: Pull structured data from unstructured documents",
+      "Task Management: AI-assisted task organization and prioritization",
+      "Integration: Connect with common business tools and platforms",
+      "Custom Workflows: Build automation for your specific processes",
+      "Team Features: Shared workflows for team productivity improvement"
+    ],
+    howToUse: {
+      title: "How to Use Shift Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Identify Your Repetitive Tasks", description: "Sign up at shift.ai and audit which tasks in your workday are repetitive and rule-based. These are the best candidates for AI automation." },
+        { title: "Set Up Your Workflows", description: "Configure automation for your identified tasks. SHIFT AI guides you through connecting your existing tools and defining the automation rules for each workflow." },
+        { title: "Monitor and Improve", description: "Let your automations run and monitor their performance. Refine workflows based on what works and expand automation to additional tasks as you identify opportunities." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Repetitive Task Identification", description: "Knowledge workers often do not realize how much time they spend on automatable tasks until they audit their work. SHIFT AI helps identify these opportunities" },
+      { title: "Integration Focus", description: "Automation that works within your existing tool stack is more practical than requiring you to switch to new platforms. SHIFT AI connects to tools you already use" },
+      { title: "Knowledge Work Specificity", description: "SHIFT AI targets the type of automation that knowledge workers need - document processing, email, data extraction - rather than manufacturing or physical process automation" },
+      { title: "Time Reclamation", description: "Reclaiming hours spent on repetitive tasks and redirecting them to higher-value work is one of the most direct productivity improvements AI makes possible" }
+    ],
+    useCases: [
+      { title: "Knowledge Workers and Office Professionals", description: "Professionals in roles involving significant document processing, email management, and data handling use SHIFT AI to automate their most time-consuming repetitive tasks" },
+      { title: "Operations and Administrative Teams", description: "Operations professionals use SHIFT AI to streamline administrative workflows that currently require significant manual effort" },
+      { title: "Small Business Owners", description: "Business owners who handle many operational tasks themselves use SHIFT AI to automate routine work so they can focus on higher-value business activities" }
+    ]
+  },
   "myvelofit": {
     whatIs: "MyVeloFit is an AI-powered cycling training platform that analyzes your riding data and creates personalized training plans for cyclists. It connects to your cycling data from Garmin, Wahoo, and other devices, analyzes your fitness level and performance patterns, and generates structured training plans designed to help you reach your specific cycling goals. For cyclists who want the benefits of a personal coach without the cost of hiring one, MyVeloFit provides data-driven training guidance.",
     features: [
