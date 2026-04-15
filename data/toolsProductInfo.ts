@@ -1,4 +1,235 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "intellectia-ai": {
+    whatIs: "Intellectia AI is an AI-powered stock research and investment intelligence platform that helps investors make more informed decisions through AI-generated analysis, earnings summaries, and market insights. It processes financial filings, earnings calls, and market data to surface actionable intelligence about individual stocks and broader market trends. For investors who want research depth without spending hours reading filings and reports, Intellectia AI provides efficient AI-powered investment research.",
+    features: [
+      "Stock Analysis: AI-generated analysis of individual stocks",
+      "Earnings Summaries: Automated summaries of earnings calls and reports",
+      "SEC Filing Analysis: Extract insights from financial filings",
+      "Market Intelligence: Broader market trends and sector analysis",
+      "Price Targets: AI-generated price target analysis",
+      "Risk Assessment: Identify key risks for specific investments",
+      "Watchlist Management: Track your stocks with AI insights",
+      "Free Plan: Basic stock research without payment"
+    ],
+    howToUse: {
+      title: "How to Use Intellectia Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Watchlist", description: "Sign up at intellectia.ai and add the stocks you want to follow. Intellectia generates AI analysis for each stock in your watchlist." },
+        { title: "Review AI Insights", description: "Access AI-generated summaries of earnings calls, key metrics, and investment thesis for your tracked stocks. Get the important information without reading full filings." },
+        { title: "Make Informed Decisions", description: "Use Intellectia intelligence as research input for your investment decisions. Combine AI insights with your own judgment for more informed investing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Filing Processing Speed", description: "Reading and analyzing SEC filings manually takes hours per company. AI processing that extracts key insights in seconds scales research across many more investments" },
+      { title: "Earnings Intelligence", description: "Earnings calls contain important forward-looking information but are long and dense. AI summaries surface the key messages without requiring full call review" },
+      { title: "Research Consistency", description: "Human research quality varies with time and attention. AI analysis applies consistent attention to every stock regardless of how many are being tracked" },
+      { title: "Accessible Depth", description: "Institutional investors have large research teams. Intellectia AI gives individual investors access to comparable research depth" }
+    ],
+    useCases: [
+      { title: "Individual Investors Doing Research", description: "Self-directed investors use Intellectia AI for research that goes beyond price charts and basic metrics" },
+      { title: "Portfolio Managers", description: "Investment managers use Intellectia for efficient research across their investment universe" },
+      { title: "Financial Advisors", description: "Advisors use Intellectia to stay informed about the companies in their client portfolios" }
+    ]
+  },
+  "thomson-reuters": {
+    whatIs: "Thomson Reuters is a global information services company that provides AI-powered legal, tax, and financial research tools for professionals. Its legal platform Westlaw is the leading legal research database, enhanced with AI to help lawyers find relevant authorities faster. For legal and financial professionals who need authoritative, comprehensive research tools, Thomson Reuters provides the gold standard platforms that professionals have relied on for decades, now enhanced with AI capabilities.",
+    features: [
+      "Westlaw Legal Research: Comprehensive legal research database with AI enhancement",
+      "Tax Research: Complete tax law and guidance research platform",
+      "AI Search: Natural language search across legal and financial content",
+      "KeyCite: Citator service for verifying case law validity",
+      "Practical Law: Practice guides and standard documents for lawyers",
+      "Financial Data: Company and market data for financial professionals",
+      "News and Analysis: Expert commentary and news for professionals",
+      "Enterprise Integration: Deploys within professional firm infrastructure"
+    ],
+    howToUse: {
+      title: "How to Use Thomson Reuters",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Your Platform", description: "Subscribe to Thomson Reuters through your organization and access the relevant professional research platform for your practice area." },
+        { title: "Search with AI", description: "Use natural language or traditional Boolean search to find relevant legal cases, statutes, tax guidance, or financial data. AI enhances search relevance significantly." },
+        { title: "Verify and Apply", description: "Use KeyCite or equivalent verification tools to confirm your research is current and valid. Apply the research to your professional work with confidence in its accuracy." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Authoritative Content", description: "Thomson Reuters content is curated by legal and financial experts which provides reliability that general internet sources cannot match for professional use" },
+      { title: "AI Enhancement of Proven Platform", description: "Rather than replacing established research tools, Thomson Reuters AI enhances them - which produces better results from a trusted platform rather than requiring users to switch to unproven alternatives" },
+      { title: "Professional Standard", description: "Many professional standards and court rules effectively require use of authoritative research platforms. Thomson Reuters meets these requirements" },
+      { title: "Depth and Breadth", description: "The comprehensiveness of Thomson Reuters content - decades of case law, all jurisdictions, expert commentary - is impossible for newer platforms to match" }
+    ],
+    useCases: [
+      { title: "Law Firms and Lawyers", description: "Legal professionals use Westlaw and Thomson Reuters tools as their primary legal research platforms" },
+      { title: "Tax Professionals", description: "Accountants and tax attorneys use Thomson Reuters tax platforms for authoritative tax research" },
+      { title: "Financial Institutions", description: "Banks and financial firms use Thomson Reuters financial data and news services" }
+    ]
+  },
+  "dealmachine": {
+    whatIs: "DealMachine is an AI-powered real estate investing platform that helps investors find off-market properties, contact owners, and analyze deals. It provides driving for dollars tools, skip tracing, direct mail campaigns, and AI-powered deal analysis to help investors find and close more real estate deals. For real estate investors who want a systematic approach to finding motivated sellers and off-market opportunities, DealMachine provides the prospecting and analysis tools that support a professional investing operation.",
+    features: [
+      "Property Finding: Identify potential investment properties in any area",
+      "Skip Tracing: Find contact information for property owners",
+      "Direct Mail: Automated marketing campaigns to property owners",
+      "Deal Analysis: Calculate ROI and deal metrics for potential investments",
+      "Driving for Dollars: Mobile app for identifying distressed properties while driving",
+      "CRM: Track your leads and deals through the pipeline",
+      "Team Features: Coordinate virtual assistants and team members",
+      "Free Trial: Try deal finding before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Dealmachine",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Market", description: "Sign up at dealmachine.com and define the geographic market you want to invest in. Configure the property criteria you are looking for." },
+        { title: "Find Properties", description: "Use the driving for dollars feature to identify distressed properties or search the database for properties matching your investment criteria." },
+        { title: "Contact and Convert", description: "Use skip tracing to find owner contact information and send direct mail or make calls. Track your outreach and follow up systematically through the CRM." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Off-Market Advantage", description: "The best real estate deals are often off-market properties where there is no competition. DealMachine systematizes the process of finding and contacting these owners" },
+      { title: "Skip Tracing Efficiency", description: "Finding property owner contact information manually is time-consuming. Skip tracing integration provides owner details instantly" },
+      { title: "Systematic Prospecting", description: "Consistent lead generation requires systematic outreach. DealMachine automates the direct mail and follow-up processes that most investors do inconsistently" },
+      { title: "Deal Analysis Speed", description: "Quickly calculating whether a deal makes financial sense is essential for moving fast in competitive markets. Built-in deal analysis tools make this calculation instant" }
+    ],
+    useCases: [
+      { title: "Real Estate Wholesalers", description: "Wholesalers use DealMachine to find motivated sellers and build their deal pipeline systematically" },
+      { title: "Fix and Flip Investors", description: "Investors looking for distressed properties to renovate and sell use DealMachine for targeted property discovery" },
+      { title: "Buy and Hold Investors", description: "Rental property investors use DealMachine to find off-market deals at prices that support positive cash flow" }
+    ]
+  },
+  "hotel-in-cloud": {
+    whatIs: "Hotel in Cloud is a cloud-based hotel property management system that uses AI to help independent hotels and small hotel chains manage their operations more efficiently. It provides front desk management, reservation handling, channel management, and revenue optimization tools in a modern cloud platform. For independent hoteliers who need professional property management capabilities without the complexity and cost of legacy systems, Hotel in Cloud provides accessible, modern hotel operations software.",
+    features: [
+      "Property Management: Complete front desk and reservation management",
+      "Channel Management: Manage rates and inventory across booking platforms",
+      "Revenue Management: AI-powered pricing optimization",
+      "Housekeeping Management: Room status and housekeeping coordination",
+      "Guest Communication: Automated guest messaging and communication",
+      "Reporting: Operational and financial performance reports",
+      "Online Booking: Direct booking engine for your hotel website",
+      "Cloud-Based: Access from anywhere without local installation"
+    ],
+    howToUse: {
+      title: "How to Use Hotel In Cloud",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Property", description: "Sign up at hotelincloud.com and configure your property - room types, rates, and policies. Connect your booking channels through the channel manager." },
+        { title: "Manage Daily Operations", description: "Use Hotel in Cloud for all front desk operations - check-ins, check-outs, reservations, and housekeeping coordination from a single dashboard." },
+        { title: "Optimize Revenue", description: "Use the revenue management tools to optimize your pricing based on demand patterns. Monitor your performance across all channels from the reporting dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Independent Hotel Accessibility", description: "Legacy property management systems are expensive and complex. Hotel in Cloud provides comparable functionality at a price point accessible to independent hotels" },
+      { title: "Cloud Flexibility", description: "Cloud-based management that works from any device gives hoteliers operational flexibility that on-premise systems cannot provide" },
+      { title: "Channel Management Value", description: "Managing rates and availability across Booking.com, Expedia, and direct channels manually leads to overbooking and inconsistent pricing. Automated channel management prevents these problems" },
+      { title: "Revenue Optimization", description: "AI pricing that responds to demand patterns produces higher revenue than static pricing without requiring revenue management expertise" }
+    ],
+    useCases: [
+      { title: "Independent Hotels", description: "Boutique and independent hotels use Hotel in Cloud for professional property management without legacy system costs" },
+      { title: "Small Hotel Groups", description: "Small chains with multiple properties use Hotel in Cloud for centralized management across their portfolio" },
+      { title: "New Hotel Operators", description: "People opening their first hotel use Hotel in Cloud for modern property management infrastructure from day one" }
+    ]
+  },
+  "collov-ai": {
+    whatIs: "Collov AI is an AI-powered virtual staging and interior design platform that transforms empty property photos into beautifully furnished, styled spaces. It uses AI to add realistic furniture, decor, and design elements to empty room photos, helping real estate agents sell properties faster and helping homeowners visualize design possibilities. For real estate professionals and interior design enthusiasts, Collov AI makes professional-quality virtual staging accessible without physical staging costs.",
+    features: [
+      "Virtual Staging: Transform empty rooms into furnished spaces with AI",
+      "Style Variety: Multiple interior design styles to apply",
+      "Realistic Rendering: Photorealistic furniture and decor placement",
+      "Fast Turnaround: Staged images ready quickly",
+      "Multiple Rooms: Stage all rooms in a property",
+      "Design Exploration: Try different styles on the same space",
+      "Real Estate Optimization: Images optimized for property listings",
+      "Free Credits: Try virtual staging before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Collov Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Room Photo", description: "Sign up at collov.ai and upload photos of the empty or sparsely furnished rooms you want to stage." },
+        { title: "Choose Your Style", description: "Select from different interior design styles - modern, traditional, Scandinavian, industrial, and others. Preview how each style transforms the space." },
+        { title: "Generate and Download", description: "Collov AI generates photorealistic staged versions of your room. Download the images for use in property listings, design presentations, or personal planning." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Staging Cost Elimination", description: "Physical property staging costs thousands of dollars per property. Virtual staging produces comparable visual impact at a fraction of the cost" },
+      { title: "Listing Performance", description: "Furnished property photos consistently outperform empty room photos in attracting buyer interest and offers. Virtual staging achieves this benefit without physical staging logistics" },
+      { title: "Style Exploration", description: "Homeowners planning renovations or redecoration use virtual staging to visualize different design directions before committing to purchases" },
+      { title: "Speed Advantage", description: "Physical staging requires scheduling, delivery, and setup time. Virtual staging produces results in hours rather than days" }
+    ],
+    useCases: [
+      { title: "Real Estate Agents", description: "Property agents use Collov AI to stage listings quickly and affordably for more compelling property marketing" },
+      { title: "Property Developers", description: "Developers use virtual staging to market units before they are physically furnished or occupied" },
+      { title: "Interior Design Enthusiasts", description: "Homeowners planning redesigns use Collov AI to visualize different design approaches before purchasing furniture" }
+    ]
+  },
+  "kreo-software": {
+    whatIs: "Kreo Software is an AI-powered construction estimating and quantity takeoff platform that helps construction professionals produce faster, more accurate cost estimates. It uses AI to read construction drawings and automatically generate quantity takeoffs, reducing the manual measurement work that traditionally takes days to hours. For contractors, estimators, and construction companies that need accurate estimates quickly, Kreo dramatically reduces the time and cost of the estimating process.",
+    features: [
+      "Automated Takeoff: AI reads drawings and generates quantity takeoffs automatically",
+      "Cost Estimating: Complete construction cost estimates from takeoff data",
+      "Drawing Analysis: AI interpretation of architectural and structural drawings",
+      "Collaboration: Multiple estimators working on shared projects",
+      "Historical Data: Build estimates using historical cost data",
+      "Export: Output estimates in standard formats",
+      "Accuracy Improvement: Reduces human measurement errors",
+      "Cloud-Based: Access from anywhere without local installation"
+    ],
+    howToUse: {
+      title: "How to Use Kreo Software",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Drawings", description: "Sign up at kreosoftware.com and upload your construction drawings in PDF or CAD format. Kreo AI analyzes the drawings automatically." },
+        { title: "Review the Takeoff", description: "Kreo generates an automated quantity takeoff from your drawings. Review the measurements and correct any areas where AI interpretation needs adjustment." },
+        { title: "Build Your Estimate", description: "Apply your cost data to the quantities to generate a complete construction estimate. Export the estimate in your preferred format for bid submission." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Takeoff Time Reduction", description: "Manual quantity takeoff from drawings takes days for complex projects. AI automation reduces this to hours while often improving accuracy" },
+      { title: "Estimator Capacity", description: "Estimators who spend less time on takeoff can produce more bids in the same time - directly increasing the number of projects a company can pursue" },
+      { title: "Error Reduction", description: "Manual measurement is error-prone particularly on complex drawings. AI measurement applies consistent precision that reduces costly estimating mistakes" },
+      { title: "Competitive Advantage", description: "Faster estimating means more bids submitted which increases win probability. Speed without sacrificing accuracy is a genuine competitive advantage" }
+    ],
+    useCases: [
+      { title: "General Contractors", description: "Construction companies use Kreo for faster, more accurate estimates that improve their bidding efficiency" },
+      { title: "Specialist Subcontractors", description: "Subcontractors producing trade-specific estimates use Kreo for the takeoff speed that allows them to bid more projects" },
+      { title: "Quantity Surveyors", description: "QS professionals use Kreo to increase their capacity and improve the efficiency of their estimating service" }
+    ]
+  },
+  "xleads": {
+    whatIs: "XLeads is an AI-powered real estate lead generation and marketing platform that helps agents and investors find motivated seller leads and manage their outreach campaigns. It provides data on distressed properties, absentee owners, and other motivated seller segments, combined with marketing tools to reach them through direct mail, email, and digital advertising. For real estate professionals who need a consistent pipeline of leads, XLeads provides the data and marketing infrastructure.",
+    features: [
+      "Motivated Seller Data: Access to distressed property and owner data",
+      "Lead Segmentation: Filter leads by property type, owner status, and other criteria",
+      "Direct Mail: Automated postcard and letter campaigns to owners",
+      "Email Marketing: Email outreach to property owner lists",
+      "Skip Tracing: Find contact information for property owners",
+      "CRM Integration: Manage leads through your sales pipeline",
+      "Analytics: Track campaign performance and ROI",
+      "Free Trial: Try lead generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Xleads",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Target", description: "Sign up at xleads.io and define the type of motivated seller leads you want - absentee owners, pre-foreclosure, high equity, or other segments in your target market." },
+        { title: "Launch Your Campaign", description: "Set up your outreach campaign using direct mail, email, or digital advertising. XLeads manages the delivery and tracks responses." },
+        { title: "Follow Up and Convert", description: "Respond to leads as they come in and manage them through your pipeline. Track which campaigns produce the best leads and optimize your spending accordingly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data Quality", description: "Real estate lead generation depends on the quality and currency of property and owner data. XLeads maintains updated data that produces more accurate contact and better response rates" },
+      { title: "Campaign Automation", description: "Consistent outreach over time is what produces motivated seller leads. Automated campaigns that run without constant manual management ensure the consistency that results require" },
+      { title: "Multi-Channel Reach", description: "Motivated sellers respond to different channels. Having direct mail, email, and digital options available maximizes reach across different owner preferences" },
+      { title: "ROI Tracking", description: "Understanding which campaigns produce the most valuable leads allows investors to optimize their marketing spend toward the highest-return activities" }
+    ],
+    useCases: [
+      { title: "Real Estate Investors", description: "Investors seeking off-market deals use XLeads for systematic motivated seller lead generation" },
+      { title: "Real Estate Agents", description: "Agents who work with investment properties and distressed sales use XLeads to build their listing pipeline" },
+      { title: "Wholesalers", description: "Real estate wholesalers use XLeads for the consistent lead flow their business model requires" }
+    ]
+  },
   "legalforce": {
     whatIs: "LegalForce is an AI-powered trademark search and intellectual property management platform that helps businesses find, file, and manage trademarks. It uses AI to search trademark databases, assess the likelihood of confusion with existing marks, and guide users through the trademark application process. For businesses that need trademark protection but find the process complex and expensive, LegalForce makes trademark management more accessible.",
     features: [
