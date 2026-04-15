@@ -1,4 +1,202 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "composer-ai": {
+    whatIs: "Composer is an AI-powered algorithmic trading platform that lets investors build, test, and automate trading strategies without coding. Users describe their strategy logic in plain language or use visual building blocks, and Composer translates it into automated trading that executes on their brokerage account. For investors who have systematic trading ideas but lack programming skills, Composer makes algorithmic trading accessible.",
+    features: [
+      "No-Code Strategy Building: Create trading strategies without programming",
+      "Plain Language Input: Describe strategy logic in natural language",
+      "Backtesting: Test strategies against historical market data",
+      "Automated Execution: Strategies execute automatically on your account",
+      "Strategy Library: Browse community strategies for inspiration",
+      "Performance Analytics: Track your automated strategy performance",
+      "Brokerage Integration: Connects with major retail brokerages",
+      "Free Trial: Test strategy building before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Composer Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Strategy", description: "Sign up at composer.trade and describe your trading strategy logic. Use the visual builder or plain language to define your entry and exit rules." },
+        { title: "Backtest Your Strategy", description: "Run your strategy against historical data to see how it would have performed. Review the results and refine the logic based on what the backtest reveals." },
+        { title: "Automate and Monitor", description: "Deploy your strategy for live automated trading. Monitor performance through the analytics dashboard and adjust as market conditions evolve." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Strategy Accessibility", description: "Algorithmic trading has required programming skills that most investors lack. No-code strategy building opens systematic trading to investors with ideas but without coding ability" },
+      { title: "Backtesting Before Risk", description: "Testing a strategy against historical data before risking real money reveals fatal flaws without financial cost" },
+      { title: "Consistent Execution", description: "Automated strategies execute without emotional interference - which is one of the main advantages of systematic over discretionary trading" },
+      { title: "Community Learning", description: "Browsing community strategies helps investors understand different approaches and adapt proven strategies to their own preferences" }
+    ],
+    useCases: [
+      { title: "Systematic Investors Without Coding Skills", description: "Investors who want to implement systematic strategies use Composer to automate their approach without learning to code" },
+      { title: "Quant-Curious Retail Investors", description: "People interested in quantitative approaches use Composer as an accessible entry point to algorithmic trading" },
+      { title: "Active Investors Automating Their Process", description: "Investors with clear rules-based approaches use Composer to automate execution and remove emotional decision-making" }
+    ]
+  },
+  "octobot-cloud": {
+    whatIs: "OctoBot Cloud is an open-source cryptocurrency trading bot platform that allows users to create, test, and run automated crypto trading strategies. It provides a cloud-hosted environment for running trading bots continuously, a strategy marketplace for buying and selling trading strategies, and tools for backtesting and optimizing strategies. For crypto traders who want automated trading without the technical burden of running their own infrastructure, OctoBot Cloud provides accessible bot trading in the cloud.",
+    features: [
+      "Cloud Bot Hosting: Run trading bots continuously in the cloud",
+      "Strategy Marketplace: Buy and sell trading strategies",
+      "Backtesting: Test strategies against historical crypto data",
+      "Multiple Exchanges: Bots work across major crypto exchanges",
+      "Open Source: Fully open-source codebase for transparency",
+      "Custom Strategies: Build your own trading strategies",
+      "Portfolio Management: Track bot performance and portfolio value",
+      "Free Tier: Basic bot trading without payment"
+    ],
+    howToUse: {
+      title: "How to Use Octobot Cloud",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Bot", description: "Sign up at octobot.cloud and configure your trading bot. Connect your exchange API keys and select or create a trading strategy." },
+        { title: "Backtest Your Strategy", description: "Run backtests on your chosen strategy to evaluate its historical performance. Review results and adjust parameters before deploying with real funds." },
+        { title: "Deploy and Monitor", description: "Deploy your bot to run continuously in the cloud. Monitor performance through the dashboard and adjust strategy parameters based on live results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Always-On Trading", description: "Crypto markets run continuously. Cloud-hosted bots that trade around the clock capture opportunities that manual traders miss during off hours" },
+      { title: "Open Source Trust", description: "Open-source code that anyone can inspect provides transparency that proprietary black-box systems cannot. Traders know exactly what their bot is doing" },
+      { title: "Strategy Marketplace Value", description: "The ability to buy proven strategies from experienced traders gives less technical users access to sophisticated approaches they could not develop independently" },
+      { title: "Infrastructure Removal", description: "Running trading bots on personal computers requires technical setup and constant uptime. Cloud hosting removes this burden" }
+    ],
+    useCases: [
+      { title: "Crypto Traders Wanting Automation", description: "Cryptocurrency investors who want to automate their trading strategies use OctoBot Cloud for accessible bot trading" },
+      { title: "Developers Building Crypto Strategies", description: "Technical users who build their own trading strategies use OctoBot Cloud for the open-source infrastructure" },
+      { title: "Strategy Sellers", description: "Experienced traders who develop profitable strategies use the marketplace to monetize their work" }
+    ]
+  },
+  "arbitragescanner": {
+    whatIs: "ArbitrageScanner is a cryptocurrency arbitrage detection platform that scans exchanges in real time to find price differences for the same asset across different markets. It identifies arbitrage opportunities across centralized exchanges, decentralized exchanges, and between spot and futures markets. For crypto traders who want to profit from market inefficiencies, ArbitrageScanner provides the real-time data needed to identify and act on arbitrage opportunities.",
+    features: [
+      "Real-Time Scanning: Continuous scanning for price differences across exchanges",
+      "Multi-Exchange Coverage: Monitors major centralized and decentralized exchanges",
+      "Opportunity Alerts: Notifications when profitable arbitrage appears",
+      "Spread Calculator: Calculate potential profit after fees for each opportunity",
+      "Historical Data: Review past arbitrage opportunities and patterns",
+      "DeFi Arbitrage: Cross-protocol opportunities on decentralized exchanges",
+      "CEX-DEX Arbitrage: Opportunities between centralized and decentralized markets",
+      "Free Trial: Scan for arbitrage opportunities before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Arbitragescanner",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect and Configure", description: "Sign up at arbitragescanner.io and configure the exchanges and assets you want to monitor. Set minimum spread thresholds for the opportunities you want to see." },
+        { title: "Monitor Opportunities", description: "Watch the real-time scanner for arbitrage opportunities that meet your criteria. Review the spread and calculate profitability after accounting for fees and transfer times." },
+        { title: "Execute Your Trades", description: "Act on opportunities that are profitable after all costs. Speed of execution is critical in arbitrage so having your accounts funded and ready on relevant exchanges is essential." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Market Inefficiency Profit", description: "Price differences for the same asset across markets represent genuine profit opportunities for traders who can identify and act on them quickly" },
+      { title: "Fee-Adjusted Reality", description: "Raw price differences often disappear after accounting for trading fees, withdrawal fees, and transfer time. ArbitrageScanner shows net profitability rather than just gross spreads" },
+      { title: "DeFi Expansion", description: "Decentralized exchanges create new arbitrage opportunities between DeFi protocols and with centralized markets that did not exist before" },
+      { title: "Speed Advantage", description: "Arbitrage opportunities close quickly as other traders act on them. Real-time scanning with immediate alerts provides the speed advantage that makes execution viable" }
+    ],
+    useCases: [
+      { title: "Professional Crypto Arbitrageurs", description: "Traders who specialize in crypto arbitrage use ArbitrageScanner for comprehensive opportunity detection across markets" },
+      { title: "Active Crypto Traders", description: "Regular crypto traders use ArbitrageScanner to supplement their primary strategies with arbitrage income" },
+      { title: "DeFi Traders", description: "Decentralized finance participants use ArbitrageScanner for cross-protocol opportunities in the DeFi ecosystem" }
+    ]
+  },
+  "gunbot": {
+    whatIs: "Gunbot is a cryptocurrency trading bot that automates trading strategies across major crypto exchanges. It supports a wide range of built-in trading strategies, allows custom strategy development, and provides backtesting tools for evaluating strategies before live deployment. For crypto traders who want reliable automated trading with full control over their strategies and data, Gunbot provides a self-hosted solution that runs on the trader own infrastructure.",
+    features: [
+      "Multiple Strategies: Wide range of built-in automated trading strategies",
+      "Custom Strategy Development: Build your own strategies with scripting",
+      "Multi-Exchange: Works across Binance, Bybit, and other major exchanges",
+      "Self-Hosted: Runs on your own computer or server for data privacy",
+      "Backtesting: Test strategies against historical price data",
+      "DCA Strategies: Dollar-cost averaging automation",
+      "Grid Trading: Automated grid trading strategies",
+      "One-Time License: Pay once rather than ongoing subscription"
+    ],
+    howToUse: {
+      title: "How to Use Gunbot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Gunbot", description: "Purchase Gunbot and install it on your computer or a cloud server. Follow the setup guide to connect your exchange API keys." },
+        { title: "Configure Your Strategy", description: "Select from built-in strategies or configure custom parameters. Set your trading pairs, investment amounts, and strategy-specific settings." },
+        { title: "Run and Monitor", description: "Start your bot and monitor its performance. Review trade logs and performance metrics to optimize your configuration over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Self-Hosted Privacy", description: "Cloud-based bots require sharing exchange API keys with third parties. Self-hosted Gunbot keeps your API keys and trading data on your own infrastructure" },
+      { title: "One-Time Cost", description: "Subscription-based bot services cost ongoing fees that accumulate significantly over time. A one-time license fee is more economical for long-term bot traders" },
+      { title: "Strategy Breadth", description: "A wide range of built-in strategies means traders can test different approaches without building everything from scratch" },
+      { title: "Full Control", description: "Self-hosted software that the trader controls completely allows customization and modification that cloud-based services cannot match" }
+    ],
+    useCases: [
+      { title: "Privacy-Conscious Crypto Traders", description: "Traders who do not want to share their API keys with cloud services use Gunbot for self-hosted automated trading" },
+      { title: "Long-Term Bot Traders", description: "Traders who plan to use automated strategies long-term use Gunbot for the economics of one-time licensing versus ongoing subscriptions" },
+      { title: "Technical Crypto Traders", description: "Technically capable traders who want full control over their bot configuration use Gunbot for the customization it provides" }
+    ]
+  },
+  "taxtim": {
+    whatIs: "TaxTim is an AI-powered tax filing assistant that helps South African taxpayers complete their income tax returns accurately and claim all applicable deductions. It guides users through the tax return process with simple questions rather than complex forms, automatically calculates their tax liability, and submits directly to SARS. For South African taxpayers who find the tax filing process confusing, TaxTim provides accessible, step-by-step guidance that ensures accurate and complete returns.",
+    features: [
+      "SA Tax Focused: Specialized for South African income tax requirements",
+      "Step-by-Step Guidance: Simple questions instead of complex forms",
+      "Deduction Optimization: Identify all applicable deductions",
+      "SARS Submission: Direct submission to SARS eFiling",
+      "Tax Calculation: Accurate tax liability calculation",
+      "Multiple Income Types: Handles employment, rental, and investment income",
+      "Audit Support: Documentation and support if SARS queries your return",
+      "Free Basic: Simple tax returns without payment"
+    ],
+    howToUse: {
+      title: "How to Use Taxtim",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Return", description: "Sign up at taxtim.com and begin your tax return by answering simple questions about your income and expenses for the tax year." },
+        { title: "Provide Your Information", description: "TaxTim guides you through each income source and deduction category with plain language questions. You provide the information and TaxTim handles the tax form completion." },
+        { title: "Review and Submit", description: "Review your completed return and the calculated tax liability. Submit directly to SARS through TaxTim or download for manual submission." }
+      ]
+    },
+    coreFeatures: [
+      { title: "SA Tax Specialization", description: "Generic tax tools do not understand South African tax law specifics. TaxTim is built specifically for SA tax requirements which produces accurate returns for SA taxpayers" },
+      { title: "Question-Based Simplicity", description: "Tax forms are intimidating for non-professionals. Question-based guidance that translates form requirements into plain language makes the process accessible" },
+      { title: "Deduction Maximization", description: "Many South African taxpayers miss legitimate deductions. TaxTim surfaces applicable deductions that increase refunds or reduce liability" },
+      { title: "SARS Compliance", description: "Direct SARS submission ensures returns are filed in the correct format with proper documentation" }
+    ],
+    useCases: [
+      { title: "South African Individual Taxpayers", description: "SA employees and individuals use TaxTim to file their annual income tax returns accurately" },
+      { title: "SA Freelancers and Contractors", description: "Self-employed South Africans use TaxTim for the more complex provisional and annual tax returns their income type requires" },
+      { title: "SA Investors and Landlords", description: "South Africans with investment income and rental properties use TaxTim for accurate reporting of all income types" }
+    ]
+  },
+  "jump-ai": {
+    whatIs: "Jump AI is an AI-powered platform for financial advisors that automates client communication, meeting preparation, and administrative tasks. It generates personalized client communications, prepares meeting summaries and follow-ups, and handles the documentation work that consumes advisor time. For financial advisors who want to serve more clients without proportionally increasing their administrative burden, Jump AI provides the automation that makes scaling client relationships possible.",
+    features: [
+      "Client Communication: AI-generated personalized client emails and messages",
+      "Meeting Preparation: Automated meeting agendas and preparation materials",
+      "Meeting Summaries: AI-generated summaries and follow-up action items",
+      "CRM Integration: Connects with financial advisor CRM systems",
+      "Compliance Awareness: Communications aligned with regulatory requirements",
+      "Portfolio Updates: Automated client portfolio review communications",
+      "Task Automation: Reduce administrative work for advisors",
+      "Free Trial: Try advisor automation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Jump Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Systems", description: "Sign up at jump.ai and connect your CRM and client management systems. Jump AI accesses client data to personalize communications." },
+        { title: "Automate Your Communications", description: "Set up automated communication workflows for regular client touchpoints - portfolio reviews, market updates, and meeting follow-ups. Review and personalize before sending." },
+        { title: "Streamline Your Meetings", description: "Use Jump AI to prepare for client meetings with automated agenda generation and post-meeting to generate summaries and action item tracking." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Advisor Capacity", description: "Financial advisors who spend significant time on administrative communications can serve more clients if that time is recovered. Jump AI enables capacity expansion without hiring" },
+      { title: "Personalization at Scale", description: "Clients expect personalized communication but manual personalization does not scale. AI personalization that draws on CRM data produces relevant communications efficiently" },
+      { title: "Consistency", description: "Client communication quality varies with advisor workload and attention. Automated communication maintains consistent quality regardless of how busy advisors are" },
+      { title: "Compliance Support", description: "Financial advisor communications have regulatory requirements. AI that generates compliant communications reduces the compliance risk of advisor messaging" }
+    ],
+    useCases: [
+      { title: "Independent Financial Advisors", description: "RIAs and independent advisors use Jump AI to scale their practice without proportionally increasing administrative work" },
+      { title: "Wealth Management Firms", description: "Advisory firms use Jump AI to improve advisor productivity and client communication quality across their advisor team" },
+      { title: "Growing Advisory Practices", description: "Advisors building their client base use Jump AI to maintain high-quality client relationships as their roster grows" }
+    ]
+  },
   "luxalgo": {
     whatIs: "LuxAlgo is a technical analysis and trading tools platform that provides AI-powered indicators, signals, and chart analysis tools for traders. It offers a library of advanced trading indicators for TradingView that use AI and machine learning to identify patterns, trends, and potential trading opportunities. For active traders who use technical analysis, LuxAlgo provides sophisticated indicators that go beyond standard technical tools.",
     features: [
