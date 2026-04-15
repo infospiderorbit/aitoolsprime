@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "insightsoftware": {
+    whatIs: "InsightSoftware is a financial reporting and enterprise performance management platform that helps finance teams automate reporting, budgeting, and analytics. It connects to ERP systems like SAP, Oracle, and Microsoft Dynamics to pull financial data and generate reports, dashboards, and forecasts without manual data extraction. For CFOs and finance teams drowning in manual reporting work, InsightSoftware automates the production of financial intelligence that drives business decisions.",
+    features: [
+      "ERP Integration: Direct connection to SAP, Oracle, and other ERP systems",
+      "Financial Reporting: Automated management reports and board packs",
+      "Budgeting and Planning: Collaborative budget and forecast workflows",
+      "Consolidation: Group financial consolidation across entities",
+      "Dashboards: Real-time financial performance dashboards",
+      "Analytics: Deep-dive financial analysis and variance reporting",
+      "Audit Trail: Complete audit trail for financial reporting compliance",
+      "Multiple Formats: Reports in Excel, PDF, and presentation formats"
+    ],
+    howToUse: {
+      title: "How to Use Insightsoftware",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your ERP", description: "Sign up at insightsoftware.com and connect your ERP system. InsightSoftware establishes a direct data connection that pulls financial data automatically." },
+        { title: "Build Your Reports", description: "Use the report builder to create your management accounts, board packs, and financial dashboards. Templates for common report types accelerate the initial setup." },
+        { title: "Automate and Distribute", description: "Schedule automated report generation and distribution to stakeholders. Finance teams move from manual report production to reviewing and analyzing AI-generated outputs." }
+      ]
+    },
+    coreFeatures: [
+      { title: "ERP Data Liberation", description: "Financial data locked in ERP systems requires technical expertise to extract. InsightSoftware makes this data accessible to finance teams without IT involvement" },
+      { title: "Reporting Automation", description: "Monthly close and reporting cycles that consume weeks of finance team time are compressed to days through automated report generation" },
+      { title: "Single Source of Truth", description: "Reports generated directly from ERP data are always accurate and consistent eliminating the version control and reconciliation problems of spreadsheet-based reporting" },
+      { title: "Consolidation Complexity", description: "Group consolidation involving currency conversion intercompany eliminations and multiple accounting standards is handled automatically by InsightSoftware" }
+    ],
+    useCases: [
+      { title: "CFOs and Finance Directors", description: "Senior finance leaders use InsightSoftware to produce the board-level financial intelligence their organizations require without weeks of manual preparation" },
+      { title: "Financial Controllers", description: "Controllers responsible for close and reporting processes use InsightSoftware to automate their most time-consuming reporting work" },
+      { title: "FP&A Teams", description: "Financial planning and analysis teams use InsightSoftware for the budgeting, forecasting, and variance analysis that drives business planning" }
+    ]
+  },
+  "goheather": {
+    whatIs: "GoHeather is an AI legal assistant designed for small businesses and entrepreneurs who need legal guidance without the cost of hiring a lawyer for every question. It answers legal questions, helps draft basic legal documents, and provides guidance on common business legal issues including contracts, employment, intellectual property, and compliance. For small business owners who face legal questions regularly but cannot afford ongoing legal counsel, GoHeather provides accessible legal intelligence.",
+    features: [
+      "Legal Q&A: Answers to common small business legal questions",
+      "Document Drafting: Basic legal document templates and drafting assistance",
+      "Contract Review: Identify key issues in contracts you receive",
+      "Employment Law: Guidance on hiring, firing, and employee management",
+      "IP Basics: Intellectual property guidance for small businesses",
+      "Compliance: Help understanding regulatory requirements",
+      "Plain Language: Legal explanations without unnecessary jargon",
+      "Free to Start: Basic legal guidance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Goheather",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Legal Question", description: "Sign up at goheather.com and ask your legal question in plain language. GoHeather responds with relevant legal guidance and practical advice for your situation." },
+        { title: "Get Document Help", description: "Use the document drafting tools for basic legal documents - NDAs, service agreements, and other common business contracts. Review and customize for your specific situation." },
+        { title: "Understand Your Contracts", description: "Upload contracts you have received and GoHeather identifies key provisions, unusual terms, and anything that warrants attention before you sign." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessibility for Small Business", description: "Legal advice is expensive and small businesses often go without guidance on legal questions they cannot afford to ask a lawyer. GoHeather makes basic legal intelligence accessible" },
+      { title: "Prevention Over Cure", description: "Most small business legal problems are preventable with basic guidance at the right time. Accessible legal advice prevents expensive problems rather than just fixing them" },
+      { title: "Plain Language Communication", description: "Legal language is often unnecessarily complex. GoHeather translates legal concepts into plain language that business owners can understand and act on" },
+      { title: "Document Quality", description: "Poorly drafted contracts create legal problems. Basic AI-assisted drafting is significantly better than informal agreements or contracts cobbled together from internet templates" }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Entrepreneurs and small business operators use GoHeather for legal guidance on the many legal questions that arise in running a business" },
+      { title: "Startups Without Legal Counsel", description: "Early-stage companies that cannot yet afford retained legal counsel use GoHeather for legal guidance during their most legally formative period" },
+      { title: "Freelancers and Contractors", description: "Independent professionals use GoHeather for contract guidance and legal questions related to their freelance business" }
+    ]
+  },
+  "samsearch": {
+    whatIs: "SAMSearch is an AI-powered government contracting intelligence platform that helps businesses find, track, and pursue federal contract opportunities. It monitors SAM.gov and other government procurement databases, uses AI to match opportunities to your business capabilities, and alerts you to relevant new contracts before deadlines pass. For companies that sell to the federal government, SAMSearch provides the intelligence to find opportunities and the tools to pursue them effectively.",
+    features: [
+      "Opportunity Matching: AI matches federal contracts to your capabilities",
+      "SAM.gov Integration: Comprehensive coverage of federal procurement opportunities",
+      "Alert System: Notifications for new matching opportunities",
+      "Contract Tracking: Monitor opportunities through their award process",
+      "Competitor Analysis: See who is winning contracts in your space",
+      "Proposal Support: Resources for developing competitive proposals",
+      "NAICS Filtering: Find opportunities by industry code",
+      "Free Trial: Search contract database before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Samsearch",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Sign up at samsearch.io and enter your business capabilities, past performance, and the types of contracts you want to pursue." },
+        { title: "Review Matched Opportunities", description: "SAMSearch surfaces federal contract opportunities that match your profile. Review each for fit, requirements, and competitive landscape." },
+        { title: "Track and Pursue", description: "Track promising opportunities through their procurement process and use the platform resources to develop competitive responses." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Opportunity Discovery at Scale", description: "The federal marketplace has thousands of active solicitations at any time. AI matching that surfaces relevant opportunities saves enormous time compared to manual SAM.gov searches" },
+      { title: "Deadline Management", description: "Missing proposal deadlines eliminates opportunities. Alert systems that notify you well before deadlines prevent this common failure mode" },
+      { title: "Competitive Intelligence", description: "Understanding who wins contracts in your space helps you position your proposals competitively" },
+      { title: "Market Size Understanding", description: "Businesses new to federal contracting use SAMSearch for data-driven understanding of the actual opportunity landscape" }
+    ],
+    useCases: [
+      { title: "Government Contractors", description: "Companies already selling to the federal government use SAMSearch to find more opportunities and expand their contract pipeline" },
+      { title: "Businesses Entering Federal Market", description: "Companies exploring federal contracting use SAMSearch to understand the market and find initial opportunities" },
+      { title: "Small Business Federal Contractors", description: "Small businesses pursuing set-aside contract opportunities use SAMSearch to identify and track contracts for which they have preferential access" }
+    ]
+  },
+  "dropbox-sign": {
+    whatIs: "Dropbox Sign is an electronic signature platform that lets businesses and individuals send, sign, and manage documents electronically. It integrates with Dropbox and other business tools to streamline document workflows - contracts, agreements, and forms can be sent for signature, signed from any device, and stored securely without printing or scanning. For businesses that process significant volumes of agreements, Dropbox Sign reduces the friction and time associated with traditional paper-based signature processes.",
+    features: [
+      "Electronic Signatures: Legally binding e-signatures from any device",
+      "Document Templates: Reusable templates for common agreement types",
+      "Workflow Automation: Automated signature request sequences",
+      "Audit Trail: Complete audit trail for signed documents",
+      "Integrations: Connects with Salesforce, Google Workspace, and others",
+      "Bulk Send: Send the same document to many signers simultaneously",
+      "Mobile Signing: Sign and send from mobile devices",
+      "Free Plan: Basic e-signature capability without payment"
+    ],
+    howToUse: {
+      title: "How to Use Dropbox Sign",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Document", description: "Sign up at sign.dropbox.com and upload the document you need signed. Add signature fields at the appropriate locations." },
+        { title: "Send for Signature", description: "Enter the signer email addresses and send the signature request. Signers receive an email invitation to sign electronically from any device." },
+        { title: "Track and Store", description: "Monitor signature status in your dashboard. Completed documents are automatically stored with a complete audit trail for legal compliance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Friction Elimination", description: "Printing, signing, scanning, and emailing contracts adds days to agreement timelines. Electronic signature eliminates these steps and gets documents signed in hours" },
+      { title: "Legal Validity", description: "Electronic signatures on Dropbox Sign have the same legal validity as wet ink signatures in most jurisdictions" },
+      { title: "Audit Trail Security", description: "The complete audit trail showing when documents were sent, viewed, and signed provides legal evidence that exceeds paper processes" },
+      { title: "Process Automation", description: "Signature workflows that automatically route documents to multiple signers automate agreement processes that previously required manual coordination" }
+    ],
+    useCases: [
+      { title: "Sales Teams Closing Deals", description: "Sales professionals use Dropbox Sign to send contracts for signature immediately after verbal agreement" },
+      { title: "HR Departments", description: "Human resources teams use Dropbox Sign for offer letters, onboarding documents, and policy acknowledgments" },
+      { title: "Legal and Compliance Teams", description: "Legal departments use Dropbox Sign for NDAs, service agreements, and other contracts that need efficient signature and compliant storage" }
+    ]
+  },
+  "filevine": {
+    whatIs: "Filevine is a legal case management platform that uses AI to help law firms manage cases, documents, and client communications more efficiently. It provides a comprehensive case management system with AI features for document review, task automation, and legal work product generation. For law firms looking to increase the capacity of their lawyers without proportionally increasing headcount, Filevine provides the operational infrastructure that makes high-volume legal practice manageable.",
+    features: [
+      "Case Management: Comprehensive legal case tracking and management",
+      "Document Management: Organized document storage with AI search",
+      "AI Document Review: Automated review and extraction from case documents",
+      "Task Automation: Automate repetitive case management tasks",
+      "Client Portal: Secure client communication and document sharing",
+      "Time Tracking: Integrated time tracking for billing",
+      "Reporting: Case status and firm performance reporting",
+      "Integration: Connects with legal research and other practice tools"
+    ],
+    howToUse: {
+      title: "How to Use Filevine",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Cases", description: "Sign up at filevine.com and create your case structure. Import existing cases and configure workflows that match your practice area." },
+        { title: "Manage Your Cases", description: "Use Filevine as your central case management hub. Track deadlines, manage documents, communicate with clients, and coordinate team work from one platform." },
+        { title: "Leverage AI Features", description: "Use AI document review to process case documents efficiently. Let task automation handle routine case management so lawyers focus on legal work." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Centralized Case Intelligence", description: "Law firms that manage cases across email and multiple systems lose efficiency and create risk. Central case management gives everyone access to everything about a case" },
+      { title: "Deadline Management", description: "Missing legal deadlines has catastrophic consequences. Filevine deadline tracking with automated reminders protects against this failure mode" },
+      { title: "Volume Capacity", description: "High-volume practices need systems that can handle many cases simultaneously without dropping details. Filevine provides this scale" },
+      { title: "Client Communication", description: "Clients who feel informed about their cases are more satisfied. Filevine client portals give clients access to case status without requiring lawyer time for updates" }
+    ],
+    useCases: [
+      { title: "Personal Injury Law Firms", description: "High-volume plaintiff firms use Filevine to manage large caseloads efficiently with consistent quality" },
+      { title: "Family Law Practices", description: "Family law firms use Filevine for sensitive document management and client communication that family matters require" },
+      { title: "Mid-Size Law Firms", description: "Growing law firms use Filevine to scale their practice capacity without proportionally growing administrative overhead" }
+    ]
+  },
+  "linksquares": {
+    whatIs: "LinkSquares is an AI-powered contract management platform that helps businesses manage their executed contracts more intelligently. It uses AI to extract key data from contracts, track obligations and renewals, and surface insights across the contract portfolio. For legal and business teams that sign many contracts but struggle to track what is in them, LinkSquares transforms the contract archive from a pile of PDFs into an organized, searchable, and actionable contract intelligence system.",
+    features: [
+      "Contract Repository: Central storage for all executed agreements",
+      "AI Data Extraction: Automatically extract key terms and data from contracts",
+      "Obligation Tracking: Track contractual obligations and deadlines",
+      "Renewal Management: Alerts for upcoming contract renewals",
+      "Full-Text Search: Search across all contracts instantly",
+      "Analytics: Insights and reporting across your contract portfolio",
+      "Workflow: Streamline contract review and approval processes",
+      "Integration: Connects with Salesforce and other business systems"
+    ],
+    howToUse: {
+      title: "How to Use Linksquares",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Contracts", description: "Sign up at linksquares.com and upload your contract archive. LinkSquares AI processes each contract and extracts key data automatically." },
+        { title: "Review and Organize", description: "Review the AI-extracted data for accuracy. Your contracts are now organized and searchable rather than buried in a file system." },
+        { title: "Track and Act", description: "Monitor upcoming renewals, track obligations, and answer questions about your contracts quickly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Contract Visibility", description: "Most businesses have hundreds of executed contracts with important obligations buried in them. LinkSquares makes this invisible intelligence visible and actionable" },
+      { title: "Renewal Prevention", description: "Auto-renewing contracts that should be renegotiated cost businesses money every year. Renewal alerts prevent this common failure" },
+      { title: "Due Diligence Efficiency", description: "An organized searchable contract repository makes acquisition and audit due diligence far more efficient" },
+      { title: "Obligation Compliance", description: "Systematic obligation tracking prevents the oversight that leads to contract breaches" }
+    ],
+    useCases: [
+      { title: "Legal Operations Teams", description: "In-house legal departments use LinkSquares to manage their contract portfolio with visibility and control" },
+      { title: "Procurement and Vendor Management", description: "Procurement teams use LinkSquares to manage vendor contracts and ensure compliance with renewal timelines" },
+      { title: "Finance Teams", description: "Finance departments use LinkSquares to understand financial commitments in executed contracts" }
+    ]
+  },
+  "agree-com": {
+    whatIs: "Agree.com is a digital agreement platform that streamlines the creation, negotiation, and signing of business agreements. It provides templates for common business contracts, collaborative editing for negotiation, and electronic signature for execution. The platform is designed to make the full agreement lifecycle faster - from initial draft through negotiation to signed contract.",
+    features: [
+      "Agreement Templates: Starting templates for common business contracts",
+      "Collaborative Editing: Real-time negotiation and redlining with counterparties",
+      "Electronic Signature: Legally binding e-signature built into the platform",
+      "Version Control: Track all changes through the negotiation process",
+      "Comment and Discussion: Inline comments for negotiation discussions",
+      "Audit Trail: Complete record of the negotiation and signing process",
+      "Storage: Secure storage of executed agreements",
+      "Free to Start: Basic agreement creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Agree Com",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Agreement", description: "Sign up at agree.com and select a template or start from your own document." },
+        { title: "Invite Your Counterparty", description: "Send an invitation to the other party to collaborate on the agreement. Both sides can propose changes and negotiate terms in real time." },
+        { title: "Execute and Store", description: "Once terms are agreed both parties sign electronically. The executed agreement is stored securely with a complete audit trail." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Negotiation Speed", description: "Traditional contract negotiation by email with tracked changes attachments is slow and chaotic. Real-time collaborative editing is faster and clearer" },
+      { title: "Version Confusion Elimination", description: "Email-based negotiation produces multiple document versions that create confusion. A single collaborative document eliminates this problem" },
+      { title: "All-in-One Workflow", description: "Having drafting, negotiation, and signature in one platform eliminates the handoffs between different tools that slow the agreement process" },
+      { title: "Counterparty Experience", description: "The other party benefits from the same clear organized process which reduces their friction and speeds the overall deal timeline" }
+    ],
+    useCases: [
+      { title: "Sales Teams Closing Contracts", description: "Sales professionals use Agree.com to move from verbal agreement to signed contract faster" },
+      { title: "Legal Teams Processing Agreements", description: "In-house lawyers use Agree.com for commercial agreements that require efficient negotiation" },
+      { title: "Small Businesses", description: "Small companies use Agree.com for a professional agreement process that builds credibility with larger counterparties" }
+    ]
+  },
+  "gva-nda-check": {
+    whatIs: "GVA NDA Check is an AI-powered NDA review tool that analyzes Non-Disclosure Agreements and identifies potentially problematic or one-sided provisions. It reviews NDAs against market standard positions and flags deviations that are unfavorable to the signing party. For businesses and individuals who receive NDAs regularly and need to understand what they are signing without paying for legal review of every document, GVA NDA Check provides quick, accessible contract intelligence.",
+    features: [
+      "NDA Analysis: AI review of Non-Disclosure Agreement provisions",
+      "Risk Flagging: Identifies provisions that are unfavorable or unusual",
+      "Market Standard Comparison: Compare NDA terms against typical market practice",
+      "Plain Language Summary: Explains what the NDA actually requires",
+      "Key Provision Extraction: Surfaces the most important terms",
+      "Mutual vs One-Sided Check: Assess whether obligations are balanced",
+      "Fast Review: Quick analysis without lawyer involvement",
+      "Free to Use: Basic NDA review without payment"
+    ],
+    howToUse: {
+      title: "How to Use Gva Nda Check",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your NDA", description: "Go to the GVA NDA Check tool and upload the NDA you have received. The AI analyzes the document automatically." },
+        { title: "Review the Analysis", description: "GVA NDA Check provides a summary of key provisions, flags anything unusually one-sided or risky, and explains in plain language what the NDA requires of you." },
+        { title: "Make Your Decision", description: "Use the analysis to decide whether to sign as-is, request modifications, or escalate to legal counsel for more complex issues." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessible Pre-Signature Review", description: "Most people sign NDAs without reading them carefully. AI review that takes seconds makes pre-signature review practical for every NDA" },
+      { title: "Risk Surface Without Lawyer Cost", description: "AI flagging surfaces issues efficiently so human judgment can focus where it matters most" },
+      { title: "Plain Language Value", description: "Plain language explanation of what provisions actually require builds genuine understanding before signing" },
+      { title: "Negotiation Support", description: "Understanding which provisions are unusual gives businesses data to request specific changes rather than accepting every NDA as-is" }
+    ],
+    useCases: [
+      { title: "Business Development Professionals", description: "People who sign NDAs regularly use GVA NDA Check for quick review before signing" },
+      { title: "Startup Founders", description: "Entrepreneurs who receive many NDAs use GVA NDA Check to understand what they are signing without legal fees" },
+      { title: "Small Business Owners", description: "Business owners without in-house legal resources use GVA NDA Check for accessible NDA review" }
+    ]
+  },
   "blahget": {
     whatIs: "Blahget is an AI-powered personal budgeting and expense tracking tool that helps individuals manage their finances through simple, conversational input. Users describe their expenses in plain language rather than categorizing them manually, and the AI interprets and organizes the data into a clear budget picture. For people who find traditional budgeting apps too rigid or time-consuming, Blahget provides a more natural and accessible approach to tracking spending.",
     features: [
