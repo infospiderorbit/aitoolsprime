@@ -2151,12 +2151,14 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "cheddar-flow", name: "Cheddar Flow", description: "AI options flow and trading platform", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🧀", category: "legal-finance", subcategory: "ai-stock-trading" }
     ],
     "ai-tax-assistant": [
+      { id: "taxtim", name: "TaxTim", description: "AI tax filing assistant for South African taxpayers", url: "https://taxtim.com", upvotes: 456, verified: true, rating: 4.3, icon: "🧾", category: "legal-finance", subcategory: "ai-tax-assistant" },
       { id: "taxtim-sa", name: "TaxTim SA", description: "AI tax preparation assistant", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "📋", category: "legal-finance", subcategory: "ai-tax-assistant" },
       { id: "taxgpt", name: "TaxGPT", description: "AI tax advice and preparation", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "🤖", category: "legal-finance", subcategory: "ai-tax-assistant" },
       { id: "portfoliopilot", name: "PortfolioPilot", description: "AI portfolio and tax optimization", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "✈️", category: "legal-finance", subcategory: "ai-tax-assistant" },
       { id: "quicko-pro", name: "Quicko Pro", description: "AI tax planning and filing assistant", url: "", upvotes: 754, verified: true, rating: 4.2, icon: "⚡", category: "legal-finance", subcategory: "ai-tax-assistant" }
     ],
     "ai-trading-bot": [
+      { id: "composer-ai", name: "Composer", description: "No-code algorithmic trading platform", url: "https://composer.trade", upvotes: 456, verified: true, rating: 4.3, icon: "🎼", category: "legal-finance", subcategory: "ai-trading-bot" },
       { id: "pionex", name: "Pionex", description: "AI crypto trading bot platform", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🤖", category: "legal-finance", subcategory: "ai-trading-bot" },
       { id: "composer", name: "Composer", description: "AI-powered automated trading platform", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "🎼", category: "legal-finance", subcategory: "ai-trading-bot" },
       { id: "octobot-cloud", name: "OctoBot Cloud", description: "AI crypto trading bot cloud platform", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "🐙", category: "legal-finance", subcategory: "ai-trading-bot" },
@@ -2832,6 +2834,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "getfloorplan", name: "Getfloorplan", description: "Simple AI floor plan generation tool", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "📋", category: "interior-architectural-design", subcategory: "ai-floor-plan-generator" }
     ],
     "ai-interior-design": [
+      { id: "collov-ai", name: "Collov AI", description: "AI virtual staging and interior design platform", url: "https://collov.ai", upvotes: 456, verified: true, rating: 4.3, icon: "🏠", category: "image-editing", subcategory: "ai-interior-design" },
       { id: "coohom-interior", name: "Coohom", description: "Complete AI interior design solution", url: "", upvotes: 1687, verified: true, rating: 4.8, icon: "🏠", category: "interior-architectural-design", subcategory: "ai-interior-design" },
       { id: "roomgpt", name: "RoomGPT", description: "AI room design and renovation tool", url: "", upvotes: 1432, verified: true, rating: 4.7, icon: "🛋️", category: "interior-architectural-design", subcategory: "ai-interior-design" },
       { id: "foyr-neo", name: "Foyr Neo", description: "Professional AI interior design platform", url: "", upvotes: 1298, verified: true, rating: 4.6, icon: "🎨", category: "interior-architectural-design", subcategory: "ai-interior-design" },
