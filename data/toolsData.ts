@@ -2123,6 +2123,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "legalforce", name: "LegalForce", description: "AI contract review and compliance", url: "", upvotes: 754, verified: true, rating: 4.2, icon: "⚖️", category: "legal-finance", subcategory: "ai-contract-review" }
     ],
     "ai-for-finance": [
+      { id: "jump-ai", name: "Jump AI", description: "AI platform for financial advisors", url: "https://jump.ai", upvotes: 456, verified: true, rating: 4.3, icon: "💼", category: "legal-finance", subcategory: "ai-for-finance" },
       { id: "xtransfer", name: "XTransfer", description: "AI international payment and finance platform", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "💸", category: "legal-finance", subcategory: "ai-for-finance" },
       { id: "trueaccord", name: "TrueAccord", description: "AI debt collection and financial recovery", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "🎯", category: "legal-finance", subcategory: "ai-for-finance" },
       { id: "macromicro", name: "MacroMicro", description: "AI financial market analysis platform", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "📊", category: "legal-finance", subcategory: "ai-for-finance" },
@@ -2834,7 +2835,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "getfloorplan", name: "Getfloorplan", description: "Simple AI floor plan generation tool", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "📋", category: "interior-architectural-design", subcategory: "ai-floor-plan-generator" }
     ],
     "ai-interior-design": [
-      { id: "collov-ai", name: "Collov AI", description: "AI virtual staging and interior design platform", url: "https://collov.ai", upvotes: 456, verified: true, rating: 4.3, icon: "🏠", category: "image-editing", subcategory: "ai-interior-design" },
+      { id: "collov-ai", name: "Collov AI", description: "AI virtual staging and interior design platform", url: "https://collov.ai", upvotes: 456, verified: true, rating: 4.3, icon: "🏠", category: "interior-architectural-design", subcategory: "ai-interior-design" },
       { id: "coohom-interior", name: "Coohom", description: "Complete AI interior design solution", url: "", upvotes: 1687, verified: true, rating: 4.8, icon: "🏠", category: "interior-architectural-design", subcategory: "ai-interior-design" },
       { id: "roomgpt", name: "RoomGPT", description: "AI room design and renovation tool", url: "", upvotes: 1432, verified: true, rating: 4.7, icon: "🛋️", category: "interior-architectural-design", subcategory: "ai-interior-design" },
       { id: "foyr-neo", name: "Foyr Neo", description: "Professional AI interior design platform", url: "", upvotes: 1298, verified: true, rating: 4.6, icon: "🎨", category: "interior-architectural-design", subcategory: "ai-interior-design" },
