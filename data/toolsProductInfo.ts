@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "luxalgo": {
+    whatIs: "LuxAlgo is a technical analysis and trading tools platform that provides AI-powered indicators, signals, and chart analysis tools for traders. It offers a library of advanced trading indicators for TradingView that use AI and machine learning to identify patterns, trends, and potential trading opportunities. For active traders who use technical analysis, LuxAlgo provides sophisticated indicators that go beyond standard technical tools.",
+    features: [
+      "AI Indicators: Advanced trading indicators powered by machine learning",
+      "TradingView Integration: Indicators work directly on TradingView charts",
+      "Signal Generation: Buy and sell signals based on AI pattern recognition",
+      "Trend Analysis: AI-powered trend identification and analysis",
+      "Support and Resistance: Automated identification of key price levels",
+      "Backtesting: Test indicators against historical price data",
+      "Multiple Markets: Works across stocks, crypto, forex, and futures",
+      "Free Trial: Try trading indicators before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Luxalgo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect to TradingView", description: "Sign up at luxalgo.com and connect your TradingView account. LuxAlgo indicators become available in your TradingView indicator library." },
+        { title: "Add Indicators to Charts", description: "Add LuxAlgo indicators to your charts for the markets you trade. Configure the settings to match your trading style and timeframe preferences." },
+        { title: "Trade with AI Signals", description: "Use the AI-generated signals and pattern recognition alongside your own analysis. Review signals in the context of broader market conditions before acting." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Indicator Quality", description: "Most retail trading indicators are simple mathematical formulas. AI-powered indicators that use machine learning to identify patterns provide more sophisticated analysis" },
+      { title: "TradingView Native", description: "Traders who already use TradingView do not need to change their platform. Native integration adds AI capabilities to an existing workflow" },
+      { title: "Signal Confirmation", description: "Using AI signals as one input alongside other analysis produces better trading decisions than relying on any single indicator alone" },
+      { title: "Market Coverage", description: "Indicators that work across stocks, crypto, forex, and futures serve traders across different market preferences from one subscription" }
+    ],
+    useCases: [
+      { title: "Active Technical Traders", description: "Traders who use technical analysis use LuxAlgo for more sophisticated AI-powered indicators that improve their chart analysis" },
+      { title: "Crypto Traders", description: "Cryptocurrency traders use LuxAlgo for AI pattern recognition in highly volatile markets where signal quality matters" },
+      { title: "Forex and Futures Traders", description: "Professional traders in forex and futures markets use LuxAlgo for advanced technical tools that support their trading strategies" }
+    ]
+  },
+  "tradytics": {
+    whatIs: "Tradytics is an AI-powered stock market analytics platform that provides options flow analysis, dark pool data, institutional trading activity, and AI-generated market insights. It helps retail traders see the same market data that institutional traders use - large options trades, dark pool prints, and unusual activity - to make more informed trading decisions. For retail traders who want institutional-level market intelligence, Tradytics provides data that was previously only available to professional market participants.",
+    features: [
+      "Options Flow: Real-time unusual options activity and flow analysis",
+      "Dark Pool Data: Large block trades and dark pool print activity",
+      "AI Market Insights: AI-generated analysis of market conditions",
+      "Institutional Activity: Track large player positioning and activity",
+      "Unusual Activity Scanner: Identify stocks with unusual trading patterns",
+      "Sector Analysis: Track money flow across market sectors",
+      "Earnings Analysis: Options activity around earnings events",
+      "Free Trial: Access market intelligence before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Tradytics",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Alerts", description: "Sign up at tradytics.com and configure alerts for the types of unusual activity you want to monitor - specific stocks, sectors, or options activity thresholds." },
+        { title: "Monitor the Flow", description: "Review the daily options flow and dark pool data to understand where large money is moving. Look for unusual activity that diverges from recent patterns." },
+        { title: "Integrate into Your Trading", description: "Use institutional flow data as context for your trading decisions. Unusual options activity and dark pool prints often precede significant price moves." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Information Edge", description: "Retail traders without access to options flow and dark pool data are at an informational disadvantage to institutional participants. Tradytics levels this playing field" },
+      { title: "Leading Indicators", description: "Options activity and dark pool prints often precede price moves because institutional traders act on information before it becomes public. Following this activity provides a timing edge" },
+      { title: "Unusual Activity Value", description: "Identifying stocks with statistically unusual activity helps traders find opportunities before they become obvious to the broader market" },
+      { title: "Sector Intelligence", description: "Understanding which sectors are attracting institutional money provides context for individual stock decisions and broader portfolio positioning" }
+    ],
+    useCases: [
+      { title: "Options Traders", description: "Traders who focus on options markets use Tradytics for the flow analysis that reveals institutional positioning and sentiment" },
+      { title: "Active Stock Traders", description: "Stock traders use dark pool and unusual activity data to identify stocks with significant institutional interest" },
+      { title: "Market Analysts", description: "People who analyze market structure and institutional behavior use Tradytics for the data that reveals large player activity" }
+    ]
+  },
+  "tradesviz": {
+    whatIs: "TradesViz is a trading journal and performance analytics platform that helps traders track, analyze, and improve their trading performance. It imports trades from brokers automatically, generates detailed performance statistics, and uses AI to identify patterns in your trading that reveal strengths and weaknesses. For traders who want to improve systematically rather than just trading on intuition, TradesViz provides the analytical foundation for data-driven trading improvement.",
+    features: [
+      "Trade Journal: Comprehensive logging of all your trades",
+      "Broker Import: Automatic trade import from major brokers",
+      "Performance Analytics: Detailed statistics on your trading performance",
+      "Pattern Analysis: Identify patterns in your winning and losing trades",
+      "Risk Analysis: Understand your risk management effectiveness",
+      "Strategy Tagging: Tag trades by strategy for comparative analysis",
+      "Charts and Visualization: Visual representation of trading performance",
+      "Free Plan: Basic trade journaling without payment"
+    ],
+    howToUse: {
+      title: "How to Use Tradesviz",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Broker", description: "Sign up at tradesviz.com and connect your brokerage account for automatic trade import. TradesViz imports your historical trades and begins building your analytics." },
+        { title: "Review Your Performance", description: "Explore your performance statistics across different dimensions - win rate, profit factor, average win vs loss, performance by time of day, and many other metrics." },
+        { title: "Identify Improvements", description: "Use the pattern analysis to identify what your best and worst trades have in common. Focus your improvement efforts on the patterns that data shows have the biggest impact." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data-Driven Improvement", description: "Traders who journal and analyze their performance systematically improve faster than those who rely on memory and intuition about what is working" },
+      { title: "Pattern Discovery", description: "Without systematic analysis traders cannot identify the subtle patterns in their behavior that separate their winning and losing trades" },
+      { title: "Strategy Separation", description: "Tagging trades by strategy and analyzing each separately reveals which strategies are actually profitable versus which feel good but underperform" },
+      { title: "Risk Management Insight", description: "Understanding your actual risk management in practice - not what you intend to do but what you actually do - is essential for fixing the gaps between intention and execution" }
+    ],
+    useCases: [
+      { title: "Active Retail Traders", description: "Regular traders use TradesViz to track their performance and identify specific improvements that increase their profitability" },
+      { title: "Developing Traders", description: "Traders building their skills use TradesViz for the analytical feedback that accelerates learning" },
+      { title: "Strategy Developers", description: "Traders testing new strategies use TradesViz to evaluate strategy performance objectively across sufficient sample sizes" }
+    ]
+  },
+  "cheddar-flow": {
+    whatIs: "Cheddar Flow is an options flow and unusual activity tracking platform that provides real-time data on large options trades, dark pool activity, and unusual market activity. It helps traders identify stocks where large institutional players are positioning themselves through the options market. For options traders and active stock traders who want to follow smart money activity, Cheddar Flow provides the flow data that reveals institutional positioning.",
+    features: [
+      "Options Flow: Real-time large options trade tracking",
+      "Unusual Activity: Scanner for stocks with abnormal options activity",
+      "Dark Pool Prints: Large block trade activity tracking",
+      "Sector Heat Map: Visual display of sector-level activity",
+      "Top Strikes: Most active options strikes across the market",
+      "Alert System: Notifications for specific activity thresholds",
+      "Historical Data: Review past flow activity for any stock",
+      "Free Trial: Access flow data before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Cheddar Flow",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Flow Feed", description: "Sign up at cheddarflow.com and configure your options flow feed. Set filters for trade size, expiration, and other parameters that match your trading focus." },
+        { title: "Monitor Real-Time Activity", description: "Watch the live flow feed for unusual options activity. Look for large trades in stocks you follow and for activity that is significantly above normal levels." },
+        { title: "Research and Act", description: "When you spot unusual activity, research the underlying stock for news or catalysts that might explain it. Use the flow data as a starting point for deeper analysis before trading." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Institutional Signal Value", description: "Large options trades often reflect institutional conviction about a stock direction. Tracking this activity gives retail traders visibility into professional positioning" },
+      { title: "Real-Time Edge", description: "Options flow that arrives in real time allows traders to identify unusual activity while it is happening rather than discovering it after the price has already moved" },
+      { title: "Dark Pool Context", description: "Combining options flow with dark pool data provides a more complete picture of where large money is moving than either data source alone" },
+      { title: "Sector Intelligence", description: "Sector-level heat maps that show where options activity is concentrated help traders understand broad market rotation before it appears in price action" }
+    ],
+    useCases: [
+      { title: "Options Traders", description: "Active options traders use Cheddar Flow for the flow intelligence that reveals where institutional money is positioning" },
+      { title: "Day Traders", description: "Short-term traders use unusual activity alerts to identify stocks with potential for significant intraday moves" },
+      { title: "Swing Traders", description: "Traders holding positions for days or weeks use flow data to find stocks with institutional conviction backing their thesis" }
+    ]
+  },
+  "taxgpt": {
+    whatIs: "TaxGPT is an AI tax assistant that answers tax questions, helps with tax planning, and guides users through tax filing concepts in plain language. It covers federal and state tax rules, deductions, credits, and filing requirements, providing accessible tax guidance for individuals and small businesses. For people who want to understand their tax situation better without paying for a tax professional for every question, TaxGPT provides intelligent, accessible tax information.",
+    features: [
+      "Tax Q&A: Answer any tax question in plain language",
+      "Deduction Guidance: Identify deductions you may qualify for",
+      "Tax Planning: Forward-looking tax minimization strategies",
+      "Filing Guidance: Help understanding tax filing requirements",
+      "State Tax: Coverage of state tax rules alongside federal",
+      "Small Business Tax: Self-employment and business tax guidance",
+      "Current Tax Law: Up-to-date information on tax rules",
+      "Free to Try: Basic tax questions without payment"
+    ],
+    howToUse: {
+      title: "How to Use Taxgpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Tax Question", description: "Sign up at taxgpt.com and ask your tax question in plain language. TaxGPT provides clear answers grounded in current tax law." },
+        { title: "Explore Deductions", description: "Ask TaxGPT about deductions and credits that might apply to your situation. The AI surfaces options you might not have known to look for." },
+        { title: "Plan Ahead", description: "Use TaxGPT for tax planning questions - estimated taxes, timing of deductions, and strategies for minimizing your tax liability before year end." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessible Tax Intelligence", description: "Tax professionals are expensive for the level of questions many people have. TaxGPT makes basic tax intelligence accessible without professional fees" },
+      { title: "Deduction Discovery", description: "Many taxpayers miss legitimate deductions because they do not know they exist. AI that surfaces applicable deductions adds real financial value" },
+      { title: "Plain Language", description: "Tax law is written in complex technical language. Plain language explanations that people can actually understand enable better tax decisions" },
+      { title: "Year-Round Planning", description: "Tax planning should happen throughout the year not just at filing time. An accessible AI tax tool makes ongoing tax awareness practical" }
+    ],
+    useCases: [
+      { title: "Individual Taxpayers", description: "People with tax questions use TaxGPT for accessible guidance without professional fees for basic questions" },
+      { title: "Small Business Owners", description: "Self-employed individuals and small business owners use TaxGPT for guidance on the more complex tax situations their business creates" },
+      { title: "Tax-Conscious Investors", description: "Investors with capital gains and investment income use TaxGPT to understand the tax implications of their investment decisions" }
+    ]
+  },
+  "portfoliopilot": {
+    whatIs: "PortfolioPilot is an AI-powered investment portfolio management and optimization platform that analyzes your current investments, identifies weaknesses, and suggests improvements. It connects to your brokerage accounts, evaluates your portfolio against your goals and risk tolerance, and provides specific recommendations for rebalancing and optimization. For investors who want professional-level portfolio management without the cost of a financial advisor, PortfolioPilot provides AI-driven portfolio intelligence.",
+    features: [
+      "Portfolio Analysis: Comprehensive evaluation of your current investments",
+      "Risk Assessment: Understand the risk profile of your portfolio",
+      "Optimization Suggestions: Specific recommendations for improvement",
+      "Diversification Analysis: Identify concentration and diversification gaps",
+      "Goal Alignment: Check if your portfolio matches your financial goals",
+      "Fee Analysis: Identify high-fee funds dragging on performance",
+      "Rebalancing Guidance: When and how to rebalance your portfolio",
+      "Free Analysis: Basic portfolio review without payment"
+    ],
+    howToUse: {
+      title: "How to Use Portfoliopilot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Accounts", description: "Sign up at portfoliopilot.com and connect your brokerage accounts. PortfolioPilot analyzes your current holdings automatically." },
+        { title: "Review Your Analysis", description: "PortfolioPilot provides a comprehensive assessment of your portfolio including risk analysis, diversification gaps, fee analysis, and goal alignment." },
+        { title: "Implement Improvements", description: "Review the specific recommendations and implement the changes that make sense for your situation. Use PortfolioPilot for ongoing monitoring as your portfolio evolves." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Objective Portfolio Review", description: "Most investors never get an objective analysis of their portfolio. PortfolioPilot provides the kind of comprehensive review that financial advisors charge significant fees for" },
+      { title: "Fee Awareness", description: "High-fee mutual funds and ETFs quietly drag on portfolio performance over time. Fee analysis that identifies these costs creates real long-term value" },
+      { title: "Diversification Intelligence", description: "Portfolio concentration risks that feel diversified are actually correlated in ways that amplify drawdowns. AI analysis identifies these hidden concentrations" },
+      { title: "Goal Alignment Check", description: "Portfolios that have drifted from their original allocation due to market movements may no longer reflect actual risk tolerance. Regular alignment checks keep portfolios on track" }
+    ],
+    useCases: [
+      { title: "Self-Directed Investors", description: "People who manage their own investments use PortfolioPilot for professional-quality portfolio analysis without advisor fees" },
+      { title: "Investors Evaluating Their Advisor", description: "People who work with financial advisors use PortfolioPilot to independently verify whether their portfolio is well-constructed" },
+      { title: "New Investors Building Portfolios", description: "People starting to invest use PortfolioPilot to build a well-structured portfolio from the beginning" }
+    ]
+  },
+  "quicko-pro": {
+    whatIs: "Quicko Pro is an AI-powered tax filing platform for traders and investors that handles the complex tax calculations associated with active trading, cryptocurrency, and investment income. It imports trading data from brokers and exchanges, calculates gains and losses with proper tax treatment, and generates tax-ready reports. For traders who face complex tax situations from their investing activities, Quicko Pro automates the most technically demanding parts of investment tax preparation.",
+    features: [
+      "Trade Import: Import trading data from brokers and crypto exchanges",
+      "Tax Calculation: Automated gain and loss calculation with proper treatment",
+      "Crypto Tax: Specialized handling of cryptocurrency transactions",
+      "F&O Tax: Futures and options tax treatment",
+      "ITR Filing: Complete income tax return filing support",
+      "Capital Gains Report: Detailed capital gains reports for any period",
+      "Loss Harvesting: Identify tax loss harvesting opportunities",
+      "Free Basic: Basic tax calculation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Quicko Pro",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Trades", description: "Sign up at quicko.com and import your trading data from your brokers and cryptocurrency exchanges. Quicko Pro processes the transactions automatically." },
+        { title: "Review Tax Calculations", description: "Quicko Pro calculates your capital gains, losses, and tax liability with proper treatment for different asset types. Review the calculations before finalizing." },
+        { title: "File Your Return", description: "Use the generated reports to complete your tax filing. Quicko Pro provides the documentation you need to file accurately and confidently." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complexity Management", description: "Active traders with hundreds or thousands of transactions face tax calculations that are impossible to do manually. Automation that handles this complexity is essential" },
+      { title: "Crypto Tax Specifics", description: "Cryptocurrency has specific tax treatment rules that differ from traditional securities. Specialized handling ensures crypto transactions are reported correctly" },
+      { title: "Accuracy and Compliance", description: "Tax errors on investment income can trigger audits and penalties. Automated calculation that applies proper tax rules reduces compliance risk" },
+      { title: "Time Savings", description: "Manual tax preparation for active traders takes days. Automated calculation and report generation compresses this to hours" }
+    ],
+    useCases: [
+      { title: "Active Stock Traders", description: "Traders with high transaction volumes use Quicko Pro for automated tax calculation that handles their trading activity" },
+      { title: "Cryptocurrency Investors", description: "Crypto traders use Quicko Pro for the specialized tax treatment that cryptocurrency transactions require" },
+      { title: "F&O Traders", description: "Futures and options traders use Quicko Pro for the specific tax rules that apply to derivatives trading" }
+    ]
+  },
+  "pionex": {
+    whatIs: "Pionex is a cryptocurrency exchange that provides built-in automated trading bots for crypto investors. It offers 16 free trading bots including grid trading, DCA, and arbitrage bots that automate trading strategies without requiring coding or technical expertise. For crypto investors who want to automate their trading strategies and capture market opportunities without manual monitoring, Pionex provides accessible bot trading with no additional subscription fees.",
+    features: [
+      "Built-In Trading Bots: 16 free automated trading bots included",
+      "Grid Trading Bot: Profit from price volatility within a range",
+      "DCA Bot: Dollar-cost average into positions automatically",
+      "Arbitrage Bot: Capture price differences across exchanges",
+      "Spot-Futures Arbitrage: Earn from funding rate differences",
+      "No Coding Required: Set up bots without technical knowledge",
+      "Low Fees: Competitive trading fees with free bot access",
+      "Mobile App: Manage your bots from mobile devices"
+    ],
+    howToUse: {
+      title: "How to Use Pionex",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up at pionex.com and complete identity verification. Fund your account with cryptocurrency or purchase crypto directly on the platform." },
+        { title: "Choose Your Bot", description: "Select a trading bot that matches your strategy - grid trading for ranging markets, DCA for regular accumulation, or arbitrage for passive income." },
+        { title: "Configure and Launch", description: "Set the parameters for your chosen bot - price range, investment amount, and grid intervals. Launch your bot and let it execute your strategy automatically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Bot Trading Without Fees", description: "Most crypto bot services charge monthly subscription fees on top of trading fees. Pionex includes bots for free which makes automated trading accessible to smaller investors" },
+      { title: "Strategy Automation", description: "Manual execution of systematic trading strategies like grid trading is impractical. Automation that executes consistently captures opportunities that manual trading misses" },
+      { title: "24 7 Market Coverage", description: "Crypto markets run continuously. Automated bots that trade around the clock capture opportunities in Asian and European sessions that manual traders miss" },
+      { title: "No Technical Barrier", description: "Bot trading typically requires programming knowledge or expensive third-party services. Pionex makes automated strategies accessible without technical skills" }
+    ],
+    useCases: [
+      { title: "Crypto Investors Wanting Passive Income", description: "Cryptocurrency holders use Pionex bots to earn returns on their holdings through automated trading strategies" },
+      { title: "Grid Trading Enthusiasts", description: "Traders who believe in grid trading strategies use Pionex for reliable bot execution without subscription costs" },
+      { title: "DCA Investors", description: "Long-term crypto investors use Pionex DCA bots for systematic accumulation without manual regular purchases" }
+    ]
+  },
   "intellectia-ai": {
     whatIs: "Intellectia AI is an AI-powered stock research and investment intelligence platform that helps investors make more informed decisions through AI-generated analysis, earnings summaries, and market insights. It processes financial filings, earnings calls, and market data to surface actionable intelligence about individual stocks and broader market trends. For investors who want research depth without spending hours reading filings and reports, Intellectia AI provides efficient AI-powered investment research.",
     features: [
