@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "blahget": {
+    whatIs: "Blahget is an AI-powered personal budgeting and expense tracking tool that helps individuals manage their finances through simple, conversational input. Users describe their expenses in plain language rather than categorizing them manually, and the AI interprets and organizes the data into a clear budget picture. For people who find traditional budgeting apps too rigid or time-consuming, Blahget provides a more natural and accessible approach to tracking spending.",
+    features: [
+      "Conversational Input: Add expenses by describing them in plain language",
+      "Auto Categorization: AI automatically categorizes your spending",
+      "Budget Tracking: Monitor spending against your budget in real time",
+      "Expense History: Review past spending patterns and trends",
+      "Simple Interface: No complex setup or manual categorization required",
+      "Insights: Understand where your money is going each month",
+      "Goal Tracking: Set and monitor savings goals",
+      "Free to Start: Basic budgeting without payment"
+    ],
+    howToUse: {
+      title: "How to Use Blahget",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Tracking", description: "Sign up at blahget.com and start adding expenses by describing them naturally. Just type what you spent and where, and the AI handles the categorization." },
+        { title: "Review Your Budget", description: "Check your budget dashboard to see how your spending breaks down across categories. Review which areas are consuming the most of your income." },
+        { title: "Adjust and Improve", description: "Use the spending insights to identify where you can cut back. Set budget limits for categories where you tend to overspend." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Natural Language Advantage", description: "Traditional budgeting apps require manual category selection for every transaction. Conversational input that lets you describe spending naturally reduces friction and increases consistency" },
+      { title: "Automatic Organization", description: "AI categorization that handles the organizational work makes budget tracking sustainable for people who abandon more complex systems" },
+      { title: "Accessible Budgeting", description: "Making budgeting feel less like accounting and more like a conversation lowers the barrier for people who have struggled with traditional budget apps" },
+      { title: "Pattern Visibility", description: "Seeing your spending patterns clearly is the foundation of making better financial decisions - Blahget provides this visibility without extensive manual work" }
+    ],
+    useCases: [
+      { title: "People Who Have Abandoned Budget Apps", description: "Those who found traditional budgeting apps too complex or time-consuming use Blahget for a simpler approach that is easier to maintain consistently" },
+      { title: "Young Adults Starting to Budget", description: "People beginning to manage their finances independently use Blahget as an accessible starting point for understanding their spending" },
+      { title: "Anyone Wanting Spending Clarity", description: "People who simply want to know where their money goes each month use Blahget for easy expense tracking without complex financial planning" }
+    ]
+  },
+  "syft-analytics": {
+    whatIs: "Syft Analytics is a financial reporting and analytics platform that helps accountants, CFOs, and finance teams generate beautiful financial reports, dashboards, and presentations from accounting software data. It connects to Xero, QuickBooks, and other accounting platforms and transforms raw financial data into visually compelling reports that tell the story behind the numbers. For finance professionals who spend hours manually creating management reports, Syft automates the production of high-quality financial communications.",
+    features: [
+      "Financial Reporting: Automated generation of management accounts and reports",
+      "Dashboard Creation: Visual financial dashboards from accounting data",
+      "Accounting Integration: Connects with Xero, QuickBooks, and others",
+      "Consolidation: Combine data from multiple entities into group reports",
+      "Benchmarking: Compare performance against industry benchmarks",
+      "Forecasting: Forward-looking financial projections",
+      "Presentation Export: Export reports in presentation-ready formats",
+      "Free Trial: Try reporting automation before committing"
+    ],
+    howToUse: {
+      title: "How to Use Syft Analytics",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Accounting Software", description: "Sign up at syftanalytics.com and connect your accounting platform. Syft pulls your financial data and makes it available for report generation." },
+        { title: "Build Your Reports", description: "Use Syft templates and customization tools to create your management accounts, dashboards, and financial presentations. The visual tools make reports look professional without design skills." },
+        { title: "Share and Present", description: "Export your finished reports in PDF or presentation format. Share them with clients, boards, or management with confidence in their visual quality." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Reporting Time Savings", description: "Creating management accounts manually from accounting software data takes hours per month. Syft automates this production work, freeing finance professionals for higher-value analysis" },
+      { title: "Visual Quality", description: "Financial data presented in well-designed reports communicates more clearly and makes a better impression than plain exported spreadsheets" },
+      { title: "Multi-Entity Consolidation", description: "Businesses with multiple entities need consolidated group reporting that manual approaches handle poorly. Syft handles consolidation automatically" },
+      { title: "Client Communication", description: "Accountants who present financial reports to clients use Syft to produce client-ready materials that demonstrate the value of their services visually" }
+    ],
+    useCases: [
+      { title: "Accounting Firms", description: "Accountants producing management accounts for multiple clients use Syft to automate report production and deliver better-looking work more efficiently" },
+      { title: "CFOs and Finance Directors", description: "Senior finance leaders use Syft to produce board packs and management reports that communicate financial performance clearly to non-finance audiences" },
+      { title: "Bookkeepers and Controllers", description: "Finance team members responsible for regular reporting use Syft to streamline their monthly close and reporting processes" }
+    ]
+  },
+  "accountable": {
+    whatIs: "Accountable is an AI-powered tax and accounting platform for freelancers and self-employed professionals. It simplifies the complex tax and bookkeeping requirements that independent workers face by automating expense tracking, VAT calculations, and tax filing preparation. For freelancers who find accounting overwhelming and expensive to outsource, Accountable provides professional-level tax management at an accessible price point.",
+    features: [
+      "Expense Tracking: Automated tracking and categorization of business expenses",
+      "VAT Management: Automatic VAT calculation and return preparation",
+      "Tax Filing: Guided tax return preparation for self-employed individuals",
+      "Invoice Management: Create and track invoices from the platform",
+      "Mileage Tracking: Log business travel for tax deductions",
+      "Bank Connection: Automatic import of transactions from bank accounts",
+      "Tax Optimization: Identify deductions and optimization opportunities",
+      "Free Trial: Try accounting automation before paying"
+    ],
+    howToUse: {
+      title: "How to Use Accountable",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Finances", description: "Sign up at accountable.eu and connect your bank account. Accountable imports your transactions automatically and begins categorizing business expenses." },
+        { title: "Review and Categorize", description: "Review automatically categorized transactions and correct any that need adjustment. The more you correct the better the automatic categorization becomes over time." },
+        { title: "Prepare Your Taxes", description: "When tax time comes, Accountable has already organized everything you need. Follow the guided tax preparation process to complete your returns accurately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Freelancer Tax Complexity", description: "Self-employed tax requirements are significantly more complex than employee taxes - quarterly payments, expense deductions, VAT, and self-assessment all need management. Accountable handles this complexity" },
+      { title: "Affordable Professional Quality", description: "Hiring an accountant for freelance tax management costs significant fees. Accountable provides comparable guidance at a fraction of the cost" },
+      { title: "Year-Round Organization", description: "Tax problems for freelancers often stem from poor organization throughout the year. Accountable maintains ongoing organization that makes tax time straightforward rather than stressful" },
+      { title: "Deduction Maximization", description: "Many freelancers miss legitimate deductions because they do not know what qualifies. Accountable surfaces deduction opportunities throughout the year" }
+    ],
+    useCases: [
+      { title: "Freelancers and Contractors", description: "Independent professionals use Accountable to manage their business finances without hiring an accountant for routine tax and bookkeeping work" },
+      { title: "Self-Employed Professionals", description: "Doctors, lawyers, consultants, and other self-employed professionals use Accountable for the tax management their independent practice requires" },
+      { title: "Side Hustle Operators", description: "People with income-generating side businesses use Accountable to keep their side income properly organized and reported" }
+    ]
+  },
+  "zeni": {
+    whatIs: "Zeni is an AI-powered finance platform for startups that combines automated bookkeeping, accounting, and CFO services. It uses AI to process financial transactions in real time, categorize expenses, reconcile accounts, and produce financial reports, all backed by a team of finance professionals who review the AI work. For startups that need professional financial management but cannot yet afford a full-time CFO and finance team, Zeni provides the intelligence and oversight at a startup-appropriate price point.",
+    features: [
+      "AI Bookkeeping: Automated real-time bookkeeping powered by AI",
+      "Expense Management: Categorize and manage company expenses",
+      "Financial Reporting: Monthly financial statements and reports",
+      "Burn Rate Tracking: Monitor startup runway and cash burn",
+      "CFO Services: Access to fractional CFO expertise",
+      "Tax Preparation: Year-end tax filing support",
+      "Investor Reporting: Reports formatted for investor updates",
+      "Integrations: Connects with Stripe, Gusto, and other startup tools"
+    ],
+    howToUse: {
+      title: "How to Use Zeni",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Onboard Your Finances", description: "Sign up at zeni.ai and connect your business bank accounts and financial tools. Zeni begins processing your transactions immediately." },
+        { title: "Review AI-Processed Books", description: "The AI categorizes and processes your transactions in real time. Finance professionals review the work to ensure accuracy. Review your clean books through the dashboard." },
+        { title: "Access Reports and Insights", description: "Generate financial statements, track your burn rate, and access CFO-level insights from your Zeni dashboard. Use the reports for investor updates and strategic decisions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Financial Clarity", description: "Startups that close their books monthly lack the financial visibility needed for fast decision-making. Zeni provides real-time bookkeeping that gives constant financial clarity" },
+      { title: "AI Plus Human Quality", description: "Pure AI bookkeeping has accuracy limitations. Zeni combines AI processing speed with human professional review to produce reliable books at AI cost efficiency" },
+      { title: "Startup-Specific Intelligence", description: "Zeni understands startup metrics - burn rate, runway, MRR - that generic accounting software does not surface. This startup-specific intelligence serves founders better" },
+      { title: "Investor Readiness", description: "Startups that need to share financials with investors need professional-quality reports on demand. Zeni maintains investor-ready financials continuously rather than scrambling at fundraising time" }
+    ],
+    useCases: [
+      { title: "Early-Stage Startups", description: "Seed and Series A startups use Zeni for the professional financial management they need to satisfy investors without the cost of a full-time finance team" },
+      { title: "Venture-Backed Companies", description: "Startups with investor obligations use Zeni for the clean, accurate books and investor-friendly reporting their backers expect" },
+      { title: "Founders Without Finance Background", description: "Technical founders who lack financial expertise use Zeni for finance management that handles the complexity they do not have time to learn" }
+    ]
+  },
+  "law-insider": {
+    whatIs: "Law Insider is the largest database of legal contracts and clauses on the internet, with over 40 million contracts sourced from SEC filings and other public sources. Its AI search helps lawyers find relevant contract language, precedents, and market practice for specific provisions they are drafting or negotiating. For lawyers who need to understand market standard language for a specific contract clause, Law Insider provides immediate access to how thousands of real contracts handle the same provision.",
+    features: [
+      "Contract Database: Tens of millions of real contracts from public filings",
+      "Clause Search: Find specific contract language with AI-powered search",
+      "Market Practice: Understand how contracts typically handle specific provisions",
+      "Precedent Research: Find precedents for unusual or complex provisions",
+      "Definition Search: Search how specific terms are defined across contracts",
+      "Industry Filtering: Find contracts from specific industries or deal types",
+      "Export: Download relevant clauses and contracts for reference",
+      "Free Access: Search basic contract database without payment"
+    ],
+    howToUse: {
+      title: "How to Use Law Insider",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Clause", description: "Go to lawinsider.com and search for the specific clause or provision you need. Use natural language or legal terminology to find relevant contract language." },
+        { title: "Review Market Practice", description: "Browse the results to understand how different contracts handle the same provision. Look for patterns in language that represent market standard approaches." },
+        { title: "Use as Precedent", description: "Use the most relevant examples as starting points for your own drafting. Understanding how other contracts handle a provision improves your drafting quality and speeds the process." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Market Standard Intelligence", description: "Knowing what market standard language looks like for any provision is one of the most valuable things a contract lawyer can know. Law Insider provides this intelligence at scale" },
+      { title: "Research Speed", description: "Finding relevant precedents manually through deal files and form books takes hours. Law Insider surfaces relevant examples in seconds through powerful search" },
+      { title: "Negotiation Positioning", description: "Understanding how contracts in your market typically handle a contested provision gives lawyers data to support their negotiating positions" },
+      { title: "Solo and Small Firm Access", description: "Large firms have extensive form libraries built over decades. Law Insider gives solo practitioners and small firms access to comparable precedent depth" }
+    ],
+    useCases: [
+      { title: "Corporate and Transaction Lawyers", description: "Lawyers drafting and negotiating commercial contracts use Law Insider to find market practice quickly and improve their drafting with real-world examples" },
+      { title: "In-House Counsel", description: "Corporate legal teams use Law Insider to understand market norms for contracts they are reviewing and negotiating" },
+      { title: "Law Students and Junior Lawyers", description: "Those learning contract drafting use Law Insider to understand how experienced practitioners handle specific provisions" }
+    ]
+  },
+  "spellbook": {
+    whatIs: "Spellbook is an AI contract drafting and review tool built directly into Microsoft Word. It uses GPT-4 to suggest contract language, identify risky clauses, flag missing provisions, and help lawyers draft agreements faster. Because it operates as a Word add-in rather than a separate platform, it fits naturally into existing lawyer workflows without requiring behavior change. For lawyers who spend significant time drafting and reviewing contracts, Spellbook reduces the time and increases the quality of contract work.",
+    features: [
+      "Word Integration: Works directly inside Microsoft Word as an add-in",
+      "Contract Drafting: AI suggestions for contract language and clauses",
+      "Risk Identification: Flags potentially problematic or one-sided provisions",
+      "Missing Clause Detection: Identifies provisions that should be included",
+      "Language Suggestions: Alternative language options for contested clauses",
+      "Playbook Integration: Apply your firm playbook positions automatically",
+      "Multiple Practice Areas: Covers commercial, employment, and other contract types",
+      "Free Trial: Try contract AI before committing to subscription"
+    ],
+    howToUse: {
+      title: "How to Use Spellbook",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Add-In", description: "Download the Spellbook add-in from the Microsoft AppSource and install it in Word. Sign in to your Spellbook account to activate the features." },
+        { title: "Open Your Contract", description: "Open the contract you are drafting or reviewing in Word. Activate Spellbook from the ribbon to begin AI-assisted work." },
+        { title: "Review Suggestions", description: "Spellbook analyzes your contract and surfaces suggestions - risky language to reconsider, missing provisions to add, and alternative language options. Review and accept the suggestions that improve your work." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Workflow Integration", description: "Lawyers work in Word. An AI tool that works inside Word rather than requiring a separate platform produces much higher adoption than standalone tools that interrupt the existing workflow" },
+      { title: "Risk Surface", description: "Catching risky or one-sided language that a reviewing lawyer might miss protects clients and reduces malpractice exposure" },
+      { title: "Drafting Speed", description: "AI language suggestions that provide starting points for specific provisions are faster than drafting from memory or searching form files" },
+      { title: "Consistency with Firm Positions", description: "Playbook integration that automatically applies firm standard positions ensures consistency across lawyers on contested provisions" }
+    ],
+    useCases: [
+      { title: "Corporate Lawyers", description: "Lawyers drafting and reviewing commercial contracts use Spellbook to work faster and catch issues they might otherwise miss" },
+      { title: "Law Firms Standardizing Practice", description: "Firms that want consistent contract quality across their lawyers use Spellbook to apply firm positions systematically" },
+      { title: "Solo and Small Firm Lawyers", description: "Independent lawyers use Spellbook to access the contract intelligence that large firm resources normally provide" }
+    ]
+  },
+  "luminance": {
+    whatIs: "Luminance is an AI legal document review platform used by law firms and corporate legal teams for due diligence, contract analysis, and document review. It uses machine learning trained specifically on legal documents to read, understand, and extract information from contracts and legal documents at speed. For legal teams that face large volumes of documents in transactions and litigation, Luminance provides the review efficiency that makes previously impractical work volumes manageable.",
+    features: [
+      "Document Review: AI-powered review of large document volumes",
+      "Due Diligence: Automated due diligence across transaction documents",
+      "Contract Analysis: Extract and analyze key provisions from contracts",
+      "Anomaly Detection: Identify unusual provisions that warrant attention",
+      "Multi-Language: Document review across multiple languages",
+      "Clause Extraction: Pull specific clause types from large document sets",
+      "Risk Flagging: Highlight high-risk language for attorney review",
+      "Reporting: Generate review summaries and findings reports"
+    ],
+    howToUse: {
+      title: "How to Use Luminance",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Documents", description: "Sign up at luminance.com and upload the document set you need to review. Luminance processes documents in the format they are received without requiring conversion." },
+        { title: "Configure Your Review", description: "Set the parameters for your review - which clause types to extract, what risk flags to apply, and what information needs to be identified across the document set." },
+        { title: "Review AI Findings", description: "Luminance presents its analysis organized by document and issue. Lawyers review AI-identified provisions and make the legal judgments that require professional expertise." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Volume Handling", description: "Large transactions and litigation matters involve thousands of documents that cannot be reviewed individually by lawyers within normal timeframes and budgets. Luminance makes comprehensive review feasible" },
+      { title: "Consistency", description: "Human document reviewers have varying accuracy and miss things particularly in long review projects. AI review applies consistent attention to every document regardless of volume" },
+      { title: "Multi-Language Capability", description: "Cross-border transactions involve documents in multiple languages. Luminance handles multilingual review that would otherwise require specialized reviewers for each language" },
+      { title: "Issue Spotting", description: "Identifying unusual provisions across hundreds of contracts requires pattern recognition that AI performs better than humans reviewing under time pressure" }
+    ],
+    useCases: [
+      { title: "Law Firms Doing Due Diligence", description: "Transaction lawyers use Luminance to conduct comprehensive due diligence on acquisition targets without the cost of manual review of every document" },
+      { title: "In-House Legal Teams", description: "Corporate legal departments use Luminance for contract review projects and ongoing contract management across their agreement portfolio" },
+      { title: "Litigation Support Teams", description: "E-discovery and litigation support teams use Luminance for document review in legal proceedings" }
+    ]
+  },
+  "casetext": {
+    whatIs: "Casetext is an AI legal research platform that helps lawyers find relevant case law, statutes, and secondary sources faster than traditional legal research tools. Its CARA AI technology analyzes the document you are working on and automatically surfaces the most relevant authorities without requiring manual keyword searches. For lawyers who spend significant billable hours on legal research, Casetext reduces research time while often finding more relevant authorities than manual searching would produce.",
+    features: [
+      "AI Legal Research: Find relevant cases and statutes automatically",
+      "CARA Technology: Upload your document to find relevant authorities",
+      "Case Law Database: Comprehensive database of federal and state cases",
+      "Smart Citator: Check whether cases are still good law",
+      "Brief Analysis: Analyze opposing counsel briefs for their authorities",
+      "Statute Search: Find relevant statutory and regulatory authority",
+      "Memo Drafting: AI assistance for legal memoranda",
+      "Free Trial: Try AI legal research before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Casetext",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Document", description: "Sign up at casetext.com and upload the brief, memo, or complaint you are working on. CARA analyzes your document and finds the most relevant authorities." },
+        { title: "Review Recommended Cases", description: "Browse the cases CARA surfaces ranked by relevance to your specific document. Read summaries and full opinions for the most promising authorities." },
+        { title: "Research Further", description: "Use traditional keyword search for additional research and to verify the CARA results. Use the citator to confirm your key cases remain good law." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Document-Aware Research", description: "Traditional legal research requires lawyers to translate legal issues into keyword searches. CARA understands the full context of your document and finds relevant authorities that keyword searching would miss" },
+      { title: "Research Completeness", description: "Missing a key adverse case or statute is a professional risk. AI-assisted research that finds more relevant authorities reduces this risk" },
+      { title: "Time Efficiency", description: "Legal research can consume a significant portion of project budgets. Faster research through AI assistance produces cost savings that benefit both firm economics and client value" },
+      { title: "Brief Analysis", description: "Analyzing opposing briefs to find and check their authorities is time-consuming but important. Casetext automates this analysis" }
+    ],
+    useCases: [
+      { title: "Litigators and Trial Lawyers", description: "Lawyers preparing briefs and arguments use Casetext to find the most relevant supporting authorities efficiently" },
+      { title: "In-House Counsel", description: "Corporate lawyers use Casetext for quick legal research on questions that arise in business contexts without extensive research time" },
+      { title: "Law Students and Clerks", description: "Those learning legal research use Casetext as a powerful tool that also teaches them what relevant authorities look like" }
+    ]
+  },
   "bestinterest": {
     whatIs: "BestInterest is an AI personal finance education platform that helps people understand financial concepts, make better money decisions, and improve their overall financial health. It provides clear, jargon-free explanations of financial topics, personalized guidance on common financial decisions, and educational content that builds financial literacy over time. For people who feel confused or overwhelmed by personal finance, BestInterest makes financial understanding accessible and actionable.",
     features: [
