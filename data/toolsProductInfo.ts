@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "legalforce": {
+    whatIs: "LegalForce is an AI-powered trademark search and intellectual property management platform that helps businesses find, file, and manage trademarks. It uses AI to search trademark databases, assess the likelihood of confusion with existing marks, and guide users through the trademark application process. For businesses that need trademark protection but find the process complex and expensive, LegalForce makes trademark management more accessible.",
+    features: [
+      "Trademark Search: AI-powered search across trademark databases",
+      "Confusion Analysis: Assess likelihood of confusion with existing marks",
+      "Application Filing: Guided trademark application process",
+      "Portfolio Management: Track and manage your trademark portfolio",
+      "Monitoring: Watch for new marks that may infringe yours",
+      "Global Coverage: Trademark search across multiple jurisdictions",
+      "Status Tracking: Monitor application status through registration",
+      "Free Search: Basic trademark search without payment"
+    ],
+    howToUse: {
+      title: "How to Use Legalforce",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Mark", description: "Sign up at legalforce.com and search for your proposed trademark. The AI searches existing marks and assesses the risk of confusion with similar registered marks." },
+        { title: "Review the Analysis", description: "LegalForce provides a risk assessment showing how similar existing marks are to yours and what the likelihood of successful registration looks like." },
+        { title: "File Your Application", description: "Use the guided application process to file your trademark application. LegalForce walks you through the required information and submits to the appropriate trademark office." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Search Accuracy", description: "Trademark searches require identifying not just identical marks but confusingly similar ones. AI analysis that understands similarity beyond exact matches produces more reliable clearance searches" },
+      { title: "Application Guidance", description: "Trademark applications have specific requirements that vary by jurisdiction. Guided filing reduces the errors that cause applications to be rejected or require expensive corrections" },
+      { title: "Portfolio Visibility", description: "Businesses with multiple trademarks need organized tracking of registration status, renewal dates, and monitoring alerts. LegalForce provides this portfolio intelligence" },
+      { title: "Cost Accessibility", description: "Trademark attorneys charge significant fees for searches and filing. LegalForce makes trademark protection accessible to businesses that cannot justify attorney fees for every mark" }
+    ],
+    useCases: [
+      { title: "Startups and Small Businesses", description: "Growing companies use LegalForce to protect their brand names and logos without the full cost of trademark attorney services" },
+      { title: "Marketing and Brand Teams", description: "Brand managers use LegalForce to clear new product names and manage the trademark portfolio that protects their brand assets" },
+      { title: "E-commerce Businesses", description: "Online sellers use LegalForce to protect their brand identity and monitor for infringing marks in their product categories" }
+    ]
+  },
+  "xtransfer": {
+    whatIs: "XTransfer is an AI-powered international trade finance and payment platform designed for small and medium-sized businesses engaged in cross-border trade. It provides foreign exchange services, trade finance, and payment solutions that help exporters and importers manage the financial complexity of international business. For SMEs that struggle with the cost and complexity of international payments and trade finance, XTransfer provides enterprise-grade financial services at accessible scale.",
+    features: [
+      "International Payments: Cross-border payment processing for trade",
+      "Foreign Exchange: Competitive FX rates for currency conversion",
+      "Trade Finance: Working capital solutions for international trade",
+      "Compliance: Built-in trade compliance and KYC verification",
+      "Multi-Currency Accounts: Hold and manage multiple currencies",
+      "Payment Tracking: Real-time visibility into payment status",
+      "Risk Management: FX hedging and exposure management tools",
+      "SME Focus: Services designed for small and medium businesses"
+    ],
+    howToUse: {
+      title: "How to Use Xtransfer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Account", description: "Sign up at xtransfer.com and complete the business verification process. Connect your bank accounts for the currencies you need to manage." },
+        { title: "Make Your Payments", description: "Use XTransfer to send and receive international trade payments. Access competitive FX rates and track payment status in real time." },
+        { title: "Access Trade Finance", description: "Apply for trade finance solutions when you need working capital support for specific trade transactions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "SME Access to Trade Finance", description: "Large exporters have easy access to trade finance through their banks. SMEs often cannot access equivalent services. XTransfer specifically serves the SME market that traditional banks underserve" },
+      { title: "FX Cost Reduction", description: "International trade businesses lose significant margin to unfavorable FX rates and bank fees. Competitive rates and transparent pricing reduce this cost" },
+      { title: "Compliance Simplification", description: "International trade compliance requirements are complex. Built-in compliance tools reduce the burden of managing these requirements manually" },
+      { title: "Payment Visibility", description: "Not knowing where an international payment is creates anxiety for both buyers and sellers. Real-time tracking provides the visibility that builds trust in trade relationships" }
+    ],
+    useCases: [
+      { title: "Exporters and Importers", description: "Businesses engaged in international trade use XTransfer for efficient payment processing and favorable FX rates" },
+      { title: "Manufacturing SMEs", description: "Small manufacturers selling internationally use XTransfer for trade finance that supports their export operations" },
+      { title: "E-commerce Cross-Border Sellers", description: "Online sellers operating across borders use XTransfer for multi-currency payment management" }
+    ]
+  },
+  "trueaccord": {
+    whatIs: "TrueAccord is an AI-powered debt collection platform that uses machine learning to personalize debt recovery communications and improve collection rates. It analyzes debtor behavior and preferences to determine the optimal timing, channel, and message for collection outreach, producing better outcomes for creditors while treating debtors more humanely than traditional collection approaches. For businesses with accounts receivable problems, TrueAccord provides a more effective and consumer-friendly collection solution.",
+    features: [
+      "AI-Powered Outreach: Machine learning optimizes collection communication",
+      "Multi-Channel: Reaches debtors through email, SMS, and other channels",
+      "Personalization: Communication tailored to individual debtor behavior",
+      "Self-Service Portal: Debtors can manage their account and set up payment plans",
+      "Compliance: Built-in FDCPA and consumer protection compliance",
+      "Analytics: Collection performance reporting and insights",
+      "Payment Plans: Flexible payment arrangement options",
+      "Integration: Connects with existing billing and CRM systems"
+    ],
+    howToUse: {
+      title: "How to Use Trueaccord",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Receivables", description: "Sign up at trueaccord.com and connect your accounts receivable data. TrueAccord ingests your delinquent accounts and begins the AI-optimized outreach process." },
+        { title: "Monitor Collections", description: "Track collection activity and outcomes through the analytics dashboard. See which accounts are engaging and which need different approaches." },
+        { title: "Review Performance", description: "Compare TrueAccord collection rates against your previous approach. The data shows the improvement in both recovery rates and consumer satisfaction." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Behavioral Optimization", description: "Traditional debt collection uses the same approach for everyone. AI that learns individual debtor behavior and adapts outreach accordingly produces significantly better recovery rates" },
+      { title: "Humane Collection", description: "Treating debtors with respect and providing self-service options produces better outcomes than aggressive traditional collection while reducing complaints and legal risk" },
+      { title: "Compliance Automation", description: "Debt collection compliance requirements are complex and violations are costly. Built-in compliance reduces legal exposure" },
+      { title: "Digital-First Approach", description: "Many debtors prefer to manage debt resolution digitally rather than through phone calls. Meeting debtors in their preferred channels improves engagement" }
+    ],
+    useCases: [
+      { title: "Financial Services Companies", description: "Banks, lenders, and credit card companies use TrueAccord for consumer debt collection that improves recovery while maintaining customer relationships" },
+      { title: "Healthcare Organizations", description: "Medical billing departments use TrueAccord for patient balance collection that preserves the patient relationship" },
+      { title: "Subscription Businesses", description: "Companies with recurring revenue use TrueAccord to recover failed payments and reduce churn from payment failures" }
+    ]
+  },
+  "datarails": {
+    whatIs: "Datarails is an AI-powered financial planning and analysis platform that enhances Excel-based FP&A workflows rather than replacing them. It connects to existing financial systems, consolidates data into structured models, and adds AI-powered forecasting and analysis on top of the Excel workflows that finance teams already know. For FP&A teams that are heavily invested in Excel but need better data consolidation and forecasting, Datarails provides AI enhancement without requiring a complete workflow change.",
+    features: [
+      "Excel Integration: Works with existing Excel models and workflows",
+      "Data Consolidation: Automatically consolidate data from multiple sources",
+      "AI Forecasting: Machine learning-powered financial forecasting",
+      "Scenario Planning: Model different business scenarios and assumptions",
+      "Reporting Automation: Automate management report production",
+      "Version Control: Eliminate version confusion in financial models",
+      "Real-Time Data: Live connections to source systems",
+      "Collaboration: Multiple team members working on shared models"
+    ],
+    howToUse: {
+      title: "How to Use Datarails",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Data Sources", description: "Sign up at datarails.com and connect your ERP, CRM, and other financial data sources. Datarails consolidates this data automatically." },
+        { title: "Work in Excel", description: "Continue working in Excel as you normally do. Datarails enhances your existing models with automated data refresh and AI-powered analysis." },
+        { title: "Generate Insights", description: "Use the AI forecasting and scenario planning tools to produce better forward-looking analysis. Share automated reports with stakeholders from the platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Excel Preservation", description: "Finance teams have years invested in Excel models and processes. A platform that enhances rather than replaces Excel achieves much faster adoption than tools requiring complete workflow change" },
+      { title: "Data Consolidation", description: "Manual data consolidation from multiple systems is the most time-consuming part of FP&A work. Automated consolidation eliminates this burden" },
+      { title: "Forecasting Improvement", description: "AI forecasting that learns from historical patterns produces more accurate predictions than manual trend analysis" },
+      { title: "Version Control", description: "Excel version control problems - multiple files, unclear which is current - are a major source of FP&A errors. Datarails eliminates version confusion" }
+    ],
+    useCases: [
+      { title: "FP&A Teams", description: "Financial planning and analysis teams use Datarails to modernize their processes without abandoning the Excel workflows they know well" },
+      { title: "Finance Directors", description: "Senior finance leaders use Datarails for better forecasting and scenario planning that improves strategic decision support" },
+      { title: "Controllers", description: "Financial controllers use Datarails to automate the consolidation and reporting work that currently consumes their team time" }
+    ]
+  },
+  "harvey": {
+    whatIs: "Harvey is an AI platform built specifically for law firms and legal professionals that uses large language models trained on legal data to assist with research, drafting, due diligence, and analysis. It is designed for professional legal use with the accuracy, confidentiality, and workflow integration requirements that legal practice demands. For law firms looking to increase lawyer productivity through AI, Harvey provides enterprise-grade legal AI that meets the standards of professional legal practice.",
+    features: [
+      "Legal Research: AI-assisted research across case law and legal materials",
+      "Contract Drafting: AI assistance for drafting legal documents",
+      "Due Diligence: Automated document review for transactions",
+      "Legal Analysis: AI analysis of legal questions and issues",
+      "Memo Drafting: Assistance with legal memoranda and briefs",
+      "Multi-Practice: Covers corporate, litigation, and other practice areas",
+      "Confidentiality: Enterprise security meeting legal professional standards",
+      "Firm Integration: Deploys within existing law firm infrastructure"
+    ],
+    howToUse: {
+      title: "How to Use Harvey",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Deploy for Your Firm", description: "Work with Harvey to deploy the platform within your firm infrastructure. Harvey is configured for your practice areas and integrated with your existing systems." },
+        { title: "Use in Your Workflow", description: "Lawyers access Harvey directly in their workflow for research, drafting, and analysis tasks. The interface is designed for professional legal use." },
+        { title: "Review and Apply", description: "Harvey produces outputs that lawyers review and apply their professional judgment to. The AI accelerates the work while the lawyer maintains professional responsibility for the advice." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Legal-Specific Training", description: "General AI tools are not trained on legal materials and do not understand legal concepts with the precision professional practice requires. Harvey is built specifically for legal work" },
+      { title: "Confidentiality Standards", description: "Legal practice has strict confidentiality requirements. Harvey is designed with the security and data handling standards that law firms require" },
+      { title: "Professional Integration", description: "AI that integrates into existing law firm workflows and systems achieves higher adoption than standalone tools that require workflow disruption" },
+      { title: "Productivity at Scale", description: "Law firms that can increase the output per lawyer without proportionally increasing costs improve their economics and competitive position" }
+    ],
+    useCases: [
+      { title: "BigLaw and Large Law Firms", description: "Major law firms use Harvey to increase lawyer productivity across their practices" },
+      { title: "Corporate Legal Departments", description: "In-house legal teams use Harvey for research and drafting work that benefits from AI acceleration" },
+      { title: "Mid-Size Law Firms", description: "Growing firms use Harvey to provide their lawyers with AI capabilities that improve their work quality and capacity" }
+    ]
+  },
+  "donotpay": {
+    whatIs: "DoNotPay is an AI consumer rights platform that helps people fight corporations, beat bureaucracy, and navigate legal processes without hiring a lawyer. It automates tasks like canceling subscriptions, disputing charges, fighting parking tickets, claiming refunds, and appealing decisions from companies and government agencies. For individuals who feel powerless against large organizations and complex bureaucratic processes, DoNotPay provides the tools to fight back effectively.",
+    features: [
+      "Dispute Resolution: Fight unfair charges and decisions automatically",
+      "Subscription Cancellation: Cancel difficult-to-cancel subscriptions",
+      "Parking Ticket Appeals: Contest parking tickets and traffic violations",
+      "Refund Claims: Claim refunds you are entitled to",
+      "Small Claims: Prepare small claims court documents",
+      "Robocall Blocking: Block and sue robocallers",
+      "Consumer Rights: Assert your rights against companies",
+      "Free Trial: Try consumer rights tools before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Donotpay",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Find Your Situation", description: "Sign up at donotpay.com and describe your consumer rights issue. DoNotPay identifies the relevant tools and legal options available to you." },
+        { title: "Let DoNotPay Handle It", description: "Use the automated tools to dispute charges, appeal decisions, or cancel services. DoNotPay generates the letters, fills the forms, and takes the steps that would otherwise require your time and knowledge." },
+        { title: "Track Your Outcome", description: "Monitor the progress of your dispute or claim. DoNotPay handles follow-up automatically and notifies you of outcomes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Power Rebalancing", description: "Corporations have legal teams and established processes designed to make disputes difficult. DoNotPay gives individuals comparable tools to fight back effectively" },
+      { title: "Knowledge Gap Elimination", description: "Most people do not know their consumer rights or how to assert them. DoNotPay provides both the knowledge and the execution automatically" },
+      { title: "Time Efficiency", description: "Filing disputes and appeals manually requires researching processes and drafting communications. Automation handles this time-consuming work instantly" },
+      { title: "Psychological Barrier Removal", description: "Many people give up on legitimate claims because the process feels too complex. A tool that handles the complexity makes following through on rights practical" }
+    ],
+    useCases: [
+      { title: "Consumers Fighting Unfair Charges", description: "People who have been charged unfairly or denied refunds they deserve use DoNotPay to dispute these decisions effectively" },
+      { title: "People Dealing with Bureaucracy", description: "Individuals navigating complex government processes use DoNotPay for guidance and automated assistance" },
+      { title: "Anyone Wanting Consumer Protection", description: "People who want to know and assert their consumer rights use DoNotPay as their advocate in dealings with corporations" }
+    ]
+  },
+  "macromicro": {
+    whatIs: "MacroMicro is a financial data and economic analysis platform that provides investors and analysts with comprehensive macroeconomic data, charts, and insights. It aggregates economic indicators, market data, and financial information from around the world into an organized platform for macro-level investment analysis. For investors who base their decisions on macroeconomic factors, MacroMicro provides the data infrastructure that supports informed macro investing.",
+    features: [
+      "Economic Data: Comprehensive macroeconomic indicators from global sources",
+      "Data Visualization: Charts and graphs for economic data analysis",
+      "Correlation Analysis: Understand relationships between economic variables",
+      "Market Data: Financial market data alongside economic indicators",
+      "Country Analysis: Economic data organized by country and region",
+      "Custom Charts: Build custom data visualizations for your analysis",
+      "Alerts: Notifications when key indicators change significantly",
+      "Free Access: Browse basic economic data without payment"
+    ],
+    howToUse: {
+      title: "How to Use Macromicro",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Explore Economic Data", description: "Sign up at macromicro.me and browse the economic data library. Search for specific indicators or explore by country and category." },
+        { title: "Build Your Analysis", description: "Use the charting tools to visualize relationships between economic variables. Overlay different indicators to identify correlations relevant to your investment thesis." },
+        { title: "Set Up Monitoring", description: "Configure alerts for the economic indicators most important to your investment strategy. Stay informed when key metrics change without constantly checking the platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data Consolidation", description: "Economic data is scattered across central bank websites, government statistics, and financial data providers. MacroMicro consolidates this across sources and countries" },
+      { title: "Visual Analysis", description: "Understanding economic relationships requires seeing data in charts rather than tables. Visualization tools that make patterns visible enable better analytical insight" },
+      { title: "Global Coverage", description: "Macro investing requires understanding economic conditions across countries and regions. Global data coverage supports internationally-oriented investment analysis" },
+      { title: "Correlation Discovery", description: "Identifying which economic variables move together and which diverge is fundamental to macro investing. Tools that make correlation analysis easy improve investment decisions" }
+    ],
+    useCases: [
+      { title: "Macro Investors and Hedge Funds", description: "Investment professionals who base decisions on macroeconomic analysis use MacroMicro for the data infrastructure their approach requires" },
+      { title: "Economic Researchers", description: "Academics and analysts studying economic relationships use MacroMicro for accessible global economic data" },
+      { title: "Financial Advisors", description: "Advisors who incorporate macroeconomic views into client portfolios use MacroMicro to support their economic analysis" }
+    ]
+  },
+  "incite-ai": {
+    whatIs: "Incite AI is an AI-powered investment research platform that uses machine learning to analyze market sentiment, news, and financial data to generate investment insights and trading signals. It processes vast amounts of financial information to surface patterns and opportunities that human analysts might miss. For active traders and investors who want AI-powered market intelligence to inform their decisions, Incite AI provides quantitative analysis at an accessible price point.",
+    features: [
+      "Sentiment Analysis: AI analysis of market sentiment across news and social media",
+      "Trading Signals: AI-generated signals for potential trading opportunities",
+      "News Analysis: Automated processing of financial news impact",
+      "Market Screening: Screen stocks based on AI-identified criteria",
+      "Portfolio Analysis: AI assessment of portfolio composition and risk",
+      "Trend Detection: Identify emerging market trends early",
+      "Backtesting: Test strategies against historical data",
+      "Free Trial: Try AI market intelligence before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Incite Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Watchlist", description: "Sign up at incite.ai and set up your investment watchlist. Configure the types of signals and analysis most relevant to your investment approach." },
+        { title: "Review Daily Intelligence", description: "Access your daily AI-generated market intelligence including sentiment analysis, trending topics, and potential opportunities flagged by the algorithms." },
+        { title: "Integrate with Your Process", description: "Use Incite AI intelligence as one input in your investment decision process. Combine AI signals with your own fundamental analysis for more informed decisions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Signal Processing Scale", description: "The volume of market-relevant information - news, filings, social media, economic data - is impossible for human analysts to process comprehensively. AI processing finds signals in the noise" },
+      { title: "Sentiment Edge", description: "Market sentiment is a significant driver of short-term price movements. AI sentiment analysis that processes more sources more quickly than humans provides an informational edge" },
+      { title: "Pattern Recognition", description: "Machine learning identifies statistical patterns in market data that are invisible to human analysis but have genuine predictive value" },
+      { title: "Democratized Quant", description: "Quantitative analysis has historically required either expensive data services or technical development skills. Incite AI makes quant-style analysis accessible to individual investors" }
+    ],
+    useCases: [
+      { title: "Active Traders", description: "Frequent traders use Incite AI for market intelligence that improves their timing and opportunity identification" },
+      { title: "Retail Investors Wanting an Edge", description: "Individual investors who want to make more informed decisions use Incite AI for AI-powered research support" },
+      { title: "Investment Clubs and Small Funds", description: "Small investment groups use Incite AI for the analytical capabilities that institutional investors have but retail investors typically lack" }
+    ]
+  },
   "insightsoftware": {
     whatIs: "InsightSoftware is a financial reporting and enterprise performance management platform that helps finance teams automate reporting, budgeting, and analytics. It connects to ERP systems like SAP, Oracle, and Microsoft Dynamics to pull financial data and generate reports, dashboards, and forecasts without manual data extraction. For CFOs and finance teams drowning in manual reporting work, InsightSoftware automates the production of financial intelligence that drives business decisions.",
     features: [
