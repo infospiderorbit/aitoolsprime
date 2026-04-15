@@ -658,7 +658,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "maestra-ai-transcription", name: "Maestra AI", description: "AI transcription and translation service", url: "", upvotes: 765, verified: true, rating: 4.4, icon: "🎭", category: "voice-generation-conversion", subcategory: "ai-transcription" }
     ],
     "ai-voice-assistants": [
-      { id: "blahget-assistant", name: "Blahget", description: "AI voice assistant and companion", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "👄", category: "voice-generation-conversion", subcategory: "ai-voice-assistants" },
       { id: "roxy-ai", name: "Roxy - AI Voice companion", description: "Personal AI voice companion", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🎭", category: "voice-generation-conversion", subcategory: "ai-voice-assistants" },
       { id: "honeydo", name: "HoneyDo: Speak, Snap and Shop", description: "Voice shopping assistant", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🍯", category: "voice-generation-conversion", subcategory: "ai-voice-assistants" },
       { id: "vapi", name: "Vapi", description: "Voice AI platform for developers", url: "", upvotes: 432, verified: true, rating: 4.2, icon: "🔊", category: "voice-generation-conversion", subcategory: "ai-voice-assistants" },
@@ -2119,7 +2118,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-contract-review": [
       { id: "gva-nda-check", name: "GVA NDA Check", description: "AI NDA and contract review tool", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "🔒", category: "legal-finance", subcategory: "ai-contract-review" },
-      { id: "law-insider-review", name: "Law Insider", description: "AI contract review and analysis platform", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "📋", category: "legal-finance", subcategory: "ai-contract-review" },
       { id: "casetext", name: "Casetext", description: "AI legal research and contract review", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "📚", category: "legal-finance", subcategory: "ai-contract-review" },
       { id: "robin-ai-review", name: "Robin AI", description: "AI-powered contract review assistant", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🤖", category: "legal-finance", subcategory: "ai-contract-review" },
       { id: "legalforce", name: "LegalForce", description: "AI contract review and compliance", url: "", upvotes: 754, verified: true, rating: 4.2, icon: "⚖️", category: "legal-finance", subcategory: "ai-contract-review" }
@@ -2131,14 +2129,11 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "jump-ai-advisors", name: "Jump | AI for Financial Advisors", description: "AI tools for financial advisory services", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🦘", category: "legal-finance", subcategory: "ai-for-finance" }
     ],
     "ai-investing": [
-      { id: "macromicro-investing", name: "MacroMicro", description: "AI macro investment research platform", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "📊", category: "legal-finance", subcategory: "ai-investing" },
       { id: "incite-ai", name: "Incite AI", description: "AI-powered investment insights", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "💡", category: "legal-finance", subcategory: "ai-investing" },
       { id: "intellectia-ai", name: "Intellectia AI", description: "AI investment research platform", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🧠", category: "legal-finance", subcategory: "ai-investing" }
     ],
     "ai-legal-assistant": [
-      { id: "law-insider-assistant", name: "Law Insider", description: "AI legal research and assistance platform", url: "", upvotes: 1789, verified: true, rating: 4.8, icon: "📋", category: "legal-finance", subcategory: "ai-legal-assistant" },
       { id: "thomson-reuters", name: "Thomson Reuters", description: "AI legal research and analytics", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🏛️", category: "legal-finance", subcategory: "ai-legal-assistant" },
-      { id: "casetext-assistant", name: "Casetext", description: "AI legal research assistant", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "📚", category: "legal-finance", subcategory: "ai-legal-assistant" },
       { id: "harvey", name: "Harvey", description: "AI legal assistant for law firms", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "👨‍💼", category: "legal-finance", subcategory: "ai-legal-assistant" },
       { id: "donotpay", name: "DoNotPay", description: "AI legal assistant for consumers", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "🚫", category: "legal-finance", subcategory: "ai-legal-assistant" }
     ],
@@ -2152,13 +2147,11 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-stock-trading": [
       { id: "luxalgo", name: "LuxAlgo", description: "AI trading indicators and analysis", url: "", upvotes: 1678, verified: true, rating: 4.8, icon: "💎", category: "legal-finance", subcategory: "ai-stock-trading" },
       { id: "tradytics", name: "Tradytics", description: "AI options flow and trading analytics", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "📊", category: "legal-finance", subcategory: "ai-stock-trading" },
-      { id: "incite-ai-trading", name: "Incite AI", description: "AI trading insights and analytics", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "💡", category: "legal-finance", subcategory: "ai-stock-trading" },
       { id: "tradesviz", name: "TradesViz", description: "AI trading journal and analytics", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "📈", category: "legal-finance", subcategory: "ai-stock-trading" },
       { id: "cheddar-flow", name: "Cheddar Flow", description: "AI options flow and trading platform", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🧀", category: "legal-finance", subcategory: "ai-stock-trading" }
     ],
     "ai-tax-assistant": [
       { id: "taxtim-sa", name: "TaxTim SA", description: "AI tax preparation assistant", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "📋", category: "legal-finance", subcategory: "ai-tax-assistant" },
-      { id: "accountable-tax", name: "Accountable", description: "AI tax management for freelancers", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "🧾", category: "legal-finance", subcategory: "ai-tax-assistant" },
       { id: "taxgpt", name: "TaxGPT", description: "AI tax advice and preparation", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "🤖", category: "legal-finance", subcategory: "ai-tax-assistant" },
       { id: "portfoliopilot", name: "PortfolioPilot", description: "AI portfolio and tax optimization", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "✈️", category: "legal-finance", subcategory: "ai-tax-assistant" },
       { id: "quicko-pro", name: "Quicko Pro", description: "AI tax planning and filing assistant", url: "", upvotes: 754, verified: true, rating: 4.2, icon: "⚡", category: "legal-finance", subcategory: "ai-tax-assistant" }
