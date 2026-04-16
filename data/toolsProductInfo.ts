@@ -1,3 +1,4 @@
+// v2
 export const toolsProductInfoData: { [key: string]: any } = {
   "oneai": {
     whatIs: "OneAI is an AI language processing platform that helps businesses build text and audio processing capabilities into their products without needing machine learning expertise. It provides pre-built AI skills for summarization, sentiment analysis, topic detection, named entity recognition, and other NLP tasks through a simple API. For developers and product teams that need language understanding capabilities, OneAI provides production-ready AI skills that can be combined into custom processing pipelines.",
