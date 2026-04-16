@@ -1,4 +1,202 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "oneai": {
+    whatIs: "OneAI is an AI language processing platform that helps businesses build text and audio processing capabilities into their products without needing machine learning expertise. It provides pre-built AI skills for summarization, sentiment analysis, topic detection, named entity recognition, and other NLP tasks through a simple API. For developers and product teams that need language understanding capabilities, OneAI provides production-ready AI skills that can be combined into custom processing pipelines.",
+    features: [
+      "AI Skills: Pre-built NLP capabilities for common language tasks",
+      "Summarization: Condense long text into concise summaries",
+      "Sentiment Analysis: Understand emotional tone in text",
+      "Topic Detection: Identify main topics in any content",
+      "Named Entity Recognition: Extract people, places, and organizations",
+      "Audio Processing: Transcribe and analyze spoken content",
+      "Custom Pipelines: Combine multiple AI skills in sequence",
+      "API Access: Simple API integration for any platform"
+    ],
+    howToUse: {
+      title: "How to Use Oneai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Skills", description: "Sign up at oneai.com and select the AI language skills you need for your use case." },
+        { title: "Build Your Pipeline", description: "Combine multiple skills into a processing pipeline that handles your specific language processing needs." },
+        { title: "Integrate via API", description: "Call the OneAI API from your application to process text or audio and receive structured results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Production Ready", description: "Building NLP capabilities from scratch requires significant machine learning expertise. OneAI provides production-ready skills that work immediately" },
+      { title: "Pipeline Flexibility", description: "Combining multiple language skills in sequence creates powerful processing workflows" },
+      { title: "API Simplicity", description: "A clean API that returns structured results makes integration straightforward for developers without NLP expertise" },
+      { title: "Audio and Text", description: "Processing both written and spoken content from one platform reduces integration complexity" }
+    ],
+    useCases: [
+      { title: "Product Developers", description: "Software teams use OneAI to add language understanding to their products without building NLP from scratch" },
+      { title: "Content Platforms", description: "Media companies use OneAI for automated content analysis and categorization" },
+      { title: "Customer Intelligence Teams", description: "Business teams use OneAI to process customer feedback and communications at scale" }
+    ]
+  },
+  "smartwriter": {
+    whatIs: "SmartWriter is an AI-powered cold email and LinkedIn outreach personalization tool that generates highly personalized outreach messages at scale. It researches prospects automatically and creates personalized opening lines and messages that reference specific details about each recipient. For sales teams and growth marketers who do outreach at scale, SmartWriter produces personalized messages that get responses without requiring hours of manual research per prospect.",
+    features: [
+      "Personalized Outreach: Generate personalized cold emails for each prospect",
+      "Auto Research: Automatically research prospects before writing",
+      "LinkedIn Messages: Personalized LinkedIn connection and follow-up messages",
+      "Bulk Generation: Personalize outreach for hundreds of prospects simultaneously",
+      "Multiple Angles: Different personalization approaches for each contact",
+      "Email Sequences: Multi-step outreach sequence generation",
+      "CRM Integration: Export personalized messages to your sales tools",
+      "Free Credits: Try personalized outreach before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Smartwriter",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Prospect List", description: "Sign up at smartwriter.ai and import your prospect list with names, companies, and LinkedIn URLs." },
+        { title: "Generate Personalized Messages", description: "SmartWriter researches each prospect and generates personalized outreach messages referencing specific details about their work and company." },
+        { title: "Review and Send", description: "Review the generated messages, adjust any that need refinement, and export to your email or CRM tool." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization Response Rates", description: "Generic cold emails get very low response rates. Personalized messages referencing specific recipient details perform significantly better" },
+      { title: "Research Automation", description: "Manual prospect research takes 15-30 minutes per prospect. Automated research makes personalization economically viable at scale" },
+      { title: "Volume and Quality Balance", description: "SmartWriter enables high-volume outreach without sacrificing the personalization quality that drives responses" },
+      { title: "Multiple Channel Coverage", description: "Having both email and LinkedIn personalization in one tool streamlines multi-channel outreach campaigns" }
+    ],
+    useCases: [
+      { title: "Sales Development Representatives", description: "SDRs use SmartWriter to run high-volume personalized outreach campaigns" },
+      { title: "Growth Marketers", description: "Marketing teams use SmartWriter for personalized outreach as part of demand generation" },
+      { title: "Recruiters", description: "Talent acquisition teams use SmartWriter for personalized candidate outreach" }
+    ]
+  },
+  "askingtips": {
+    whatIs: "AskingTips is an AI-powered question and answer platform that helps businesses create FAQ content, answer customer questions, and build knowledge bases using AI. It generates comprehensive answers to common questions about products, services, and topics, helping businesses provide better self-service support. For businesses that receive the same questions repeatedly, AskingTips provides a way to build comprehensive answer content efficiently.",
+    features: [
+      "FAQ Generation: Create comprehensive FAQ content for any topic",
+      "Question Research: Identify questions your audience is asking",
+      "Answer Generation: AI-written detailed answers to any question",
+      "Knowledge Base Building: Organize Q&A content into a searchable knowledge base",
+      "SEO Optimization: FAQ content structured for search engine visibility",
+      "Multiple Categories: Organize questions by topic and category",
+      "Export Options: Download FAQ content for use on your website",
+      "Free to Try: Basic question and answer generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Askingtips",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Go to askingtips.com and enter your product, service, or topic. AskingTips identifies common questions people ask about your subject." },
+        { title: "Generate Your Answers", description: "Review the suggested questions and generate comprehensive AI answers for each one. Edit answers to add specific product details." },
+        { title: "Publish Your FAQ", description: "Export your FAQ content and publish it on your website to improve customer self-service and search engine visibility." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Question Discovery", description: "Understanding what questions customers have requires research that AskingTips automates by analyzing search patterns" },
+      { title: "Content Efficiency", description: "Writing comprehensive answers to dozens of FAQ questions manually takes significant time. AI generation produces quality answers faster" },
+      { title: "SEO Value", description: "FAQ content matching actual search queries drives organic traffic and is effective for featured snippets" },
+      { title: "Self-Service Improvement", description: "Comprehensive FAQ content reduces support volume by helping customers find answers independently" }
+    ],
+    useCases: [
+      { title: "Customer Support Teams", description: "Support departments use AskingTips to build FAQ content that reduces ticket volume" },
+      { title: "Content Marketers", description: "Marketing teams use AskingTips for FAQ content that improves SEO and user experience" },
+      { title: "Small Business Owners", description: "Business owners use AskingTips to create professional FAQ sections efficiently" }
+    ]
+  },
+  "vendasta": {
+    whatIs: "Vendasta is an AI-powered platform for agencies and media companies that want to sell digital marketing products and services to local businesses. It provides a white-label marketplace of digital marketing tools, a CRM for managing local business clients, and fulfillment infrastructure. For agencies that serve local business clients, Vendasta provides the product catalog and client management tools that make scaling a local marketing agency possible.",
+    features: [
+      "White-Label Marketplace: Resell digital marketing products under your brand",
+      "Local Business CRM: Manage your local business client relationships",
+      "Reputation Management: Monitor and manage client online reviews",
+      "Listing Management: Ensure client listings are accurate across directories",
+      "Social Media Management: Manage social media for local business clients",
+      "Reporting: Automated performance reports for all client services",
+      "Fulfillment: Access to fulfillment partners for services you cannot deliver",
+      "Partner Network: Connect with other agencies and vendors"
+    ],
+    howToUse: {
+      title: "How to Use Vendasta",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Platform", description: "Sign up at vendasta.com and configure your white-label platform with your agency branding and the products you want to offer." },
+        { title: "Onboard Your Clients", description: "Add your local business clients to the platform. The CRM tracks their needs, services purchased, and performance metrics." },
+        { title: "Deliver and Report", description: "Use Vendasta tools to deliver digital marketing services and generate automated performance reports through your branded platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "White-Label Infrastructure", description: "Building a branded digital marketing platform requires enormous investment. Vendasta provides this ready to white-label" },
+      { title: "Product Catalog Breadth", description: "Local businesses need many different digital marketing services. A marketplace of products expands what agencies can offer" },
+      { title: "Fulfillment Access", description: "Agencies use Vendasta fulfillment partners to deliver services they have sold but cannot fulfill internally" },
+      { title: "Scalable Reporting", description: "Automated reporting makes producing performance reports for many local business clients scalable" }
+    ],
+    useCases: [
+      { title: "Digital Marketing Agencies", description: "Agencies serving local business clients use Vendasta for the platform and product infrastructure that scales their business" },
+      { title: "Media Companies", description: "Traditional media companies use Vendasta to offer digital marketing services alongside their existing advertising products" },
+      { title: "Franchise Brands", description: "Brands with many locations use Vendasta for consistent digital marketing management across all outlets" }
+    ]
+  },
+  "swipe-insight": {
+    whatIs: "Swipe Insight is an AI-powered digital marketing intelligence platform that tracks and analyzes digital advertising trends, platform updates, and marketing best practices. It curates the most important marketing news and insights and delivers them in digestible daily briefings. For digital marketers who need to stay current with rapidly changing platform algorithms and advertising best practices, Swipe Insight provides efficient curated intelligence.",
+    features: [
+      "Marketing Intelligence: Curated digital marketing news and insights",
+      "Platform Updates: Track changes to Google, Meta, and other ad platforms",
+      "Daily Briefings: Digestible daily summaries of marketing developments",
+      "Trend Analysis: Understand what is working across digital channels",
+      "Ad Creative Inspiration: Examples of effective advertising creative",
+      "Strategy Insights: Tactical and strategic marketing guidance",
+      "Multiple Channels: Coverage across search, social, and programmatic",
+      "Free Access: Basic marketing intelligence without payment"
+    ],
+    howToUse: {
+      title: "How to Use Swipe Insight",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Subscribe to Your Briefing", description: "Sign up at swipeinsight.app and configure your marketing intelligence feed based on the channels most relevant to your work." },
+        { title: "Read Your Daily Briefing", description: "Review your daily marketing intelligence briefing and read deeper on topics that affect your campaigns." },
+        { title: "Apply to Your Work", description: "Take the insights and platform updates and apply them to your campaign strategy. Stay ahead of algorithm changes and emerging best practices." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Information Overload Solution", description: "Digital marketers face overwhelming volumes of platform updates and industry news. Curation that surfaces what matters saves enormous time" },
+      { title: "Platform Change Speed", description: "Google and Meta update their advertising platforms constantly. Staying current is essential for maintaining campaign performance" },
+      { title: "Competitive Intelligence", description: "Understanding what strategies are working across the industry informs your own campaign decisions" },
+      { title: "Efficiency of Consumption", description: "Daily briefings consolidating the most important developments are more efficient than monitoring many sources" }
+    ],
+    useCases: [
+      { title: "Digital Marketing Managers", description: "People managing paid campaigns use Swipe Insight to stay current with platform changes and best practices" },
+      { title: "Marketing Agency Teams", description: "Agency professionals use Swipe Insight to maintain the industry knowledge their clients expect" },
+      { title: "Brand Marketing Teams", description: "In-house marketing teams use Swipe Insight to ensure their strategies reflect current platform capabilities" }
+    ]
+  },
+  "seomator": {
+    whatIs: "Seomator is an AI-powered SEO audit and analysis platform that crawls websites and generates comprehensive technical SEO reports with actionable recommendations. It identifies issues affecting search engine rankings including technical errors, on-page optimization gaps, and site speed problems. For website owners and SEO professionals who need thorough technical audits, Seomator automates the comprehensive SEO review process.",
+    features: [
+      "Website Crawling: Comprehensive crawl of your entire website",
+      "Technical SEO Audit: Identify technical issues affecting rankings",
+      "On-Page Analysis: Review title tags, meta descriptions, and content",
+      "Site Speed Analysis: Identify performance issues slowing your site",
+      "Competitor Analysis: Compare your SEO performance against competitors",
+      "White-Label Reports: Branded reports for agency client delivery",
+      "Scheduled Audits: Automatic regular audits to catch new issues",
+      "Free Trial: Try SEO auditing before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Seomator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Website", description: "Sign up at seomator.com and enter your website URL. Seomator crawls your site and generates a comprehensive SEO audit." },
+        { title: "Review Your Report", description: "Read through the audit report covering technical issues, on-page optimization, and content quality. Issues are prioritized by their impact on rankings." },
+        { title: "Fix and Monitor", description: "Work through recommendations starting with highest priority issues. Schedule regular automated audits to catch new problems as your site evolves." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Comprehensive Coverage", description: "Automated crawling checks every page against dozens of SEO criteria producing more complete audits than manual review" },
+      { title: "Prioritization Value", description: "Identifying hundreds of SEO issues is only useful if prioritized by impact. Seomator ranks issues so you work on what matters most" },
+      { title: "Agency Scalability", description: "SEO agencies audit many client sites using automated auditing to deliver comprehensive reports efficiently" },
+      { title: "Ongoing Monitoring", description: "SEO issues appear continuously as sites are updated. Scheduled audits catch new problems before they significantly affect rankings" }
+    ],
+    useCases: [
+      { title: "SEO Professionals", description: "Search engine optimization specialists use Seomator for efficient comprehensive site audits" },
+      { title: "Digital Marketing Agencies", description: "Agencies use Seomator to deliver professional SEO audit reports to clients at scale" },
+      { title: "Website Owners", description: "Business owners use Seomator to understand what technical issues are affecting their search performance" }
+    ]
+  },
   "aisensy": {
     whatIs: "AiSensy is a WhatsApp marketing and customer engagement platform that helps businesses run broadcast campaigns, automate customer support, and manage conversations at scale through the WhatsApp Business API. It provides a no-code chatbot builder, bulk messaging tools, and a shared team inbox for managing WhatsApp customer communication. For businesses that want to reach their customers through WhatsApp - the messaging app most of their customers already use daily - AiSensy provides the infrastructure to do this professionally and at scale.",
     features: [
