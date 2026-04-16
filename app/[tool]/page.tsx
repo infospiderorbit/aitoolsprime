@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ tool: str
   const toolData = findTool(tool);
   if (!toolData) return { title: "Tool Not Found | AI Tools Prime" };
   const info = toolsProductInfoData[tool];
-  const metaDesc = info?.whatIs ? info.whatIs.substring(0, 160) : toolData.description.substring(0, 160);
+  const metaDesc = info?.whatIs ? info?.whatIs.substring(0, 160) : toolData.description.substring(0, 160);
   return {
     title: toolData.name + ": " + toolData.description.substring(0, 60) + " | AI Tools Prime",
     description: metaDesc,
@@ -185,12 +185,12 @@ if (!toolData) notFound();
           <div className="space-y-8">
             <div>
               <h3 className="text-xl font-semibold mb-3">{toolData.name} Overview</h3>
-              <p className="text-muted-foreground leading-relaxed">{info.whatIs}</p>
-              {info.features && (
+              <p className="text-muted-foreground leading-relaxed">{info?.whatIs}</p>
+              {info?.features && (
                 <div className="mt-4">
                   <h4 className="font-medium mb-3">This product stands out with features such as:</h4>
                   <ul className="space-y-2 text-muted-foreground">
-                    {info.features.map((f: string, i: number) => (
+                    {info?.features.map((f: string, i: number) => (
                       <li key={i} className="flex items-start gap-2"><span className="text-primary">•</span>{f}</li>
                     ))}
                   </ul>
@@ -198,15 +198,15 @@ if (!toolData) notFound();
               )}
             </div>
 
-            {info.howToUse && (
+            {info?.howToUse && (
              <div>
                 <hr className="border-border mb-6" />
                 <div className="text-center mb-6">
-                  <h3 className="text-xl font-semibold mb-2">{info.howToUse.title}</h3>
-                  <p className="text-muted-foreground">{info.howToUse.description}</p>
+                  <h3 className="text-xl font-semibold mb-2">{info?.howToUse.title}</h3>
+                  <p className="text-muted-foreground">{info?.howToUse.description}</p>
                 </div>
                 <div className="space-y-3">
-                  {info.howToUse.steps.map((step: any, i: number) => (
+                  {info?.howToUse.steps.map((step: any, i: number) => (
                     <div key={i} className="flex gap-4 p-4 rounded-lg border border-border bg-muted/20">
                       <div className="w-8 h-8 rounded-full border border-border flex items-center justify-center text-sm font-medium shrink-0">{i + 1}</div>
                       <div>
@@ -219,7 +219,7 @@ if (!toolData) notFound();
               </div>
             )}
 
-            {info.coreFeatures && (
+            {info?.coreFeatures && (
               <div>
                 <hr className="border-border mb-6" />
                 <div className="text-center mb-6">
@@ -227,7 +227,7 @@ if (!toolData) notFound();
                   <p className="text-muted-foreground">Powerful features from {toolData.name}</p>
                 </div>
                 <div className="space-y-3">
-                  {info.coreFeatures.map((f: any, i: number) => (
+                  {info?.coreFeatures.map((f: any, i: number) => (
                     <div key={i} className="flex gap-3 p-3 rounded-lg border border-border">
                       <div className="w-2 h-2 rounded-full bg-primary mt-2 shrink-0" />
                       <div>
@@ -240,7 +240,7 @@ if (!toolData) notFound();
               </div>
             )}
 
-            {info.useCases && (
+            {info?.useCases && (
               <div>
                 <hr className="border-border mb-6" />
                 <div className="text-center mb-6">
@@ -248,7 +248,7 @@ if (!toolData) notFound();
                   <p className="text-muted-foreground">Discover how {toolData.name} can benefit different users</p>
                 </div>
                 <div className="grid gap-4 md:grid-cols-2">
-                  {info.useCases.map((u: any, i: number) => (
+                  {info?.useCases.map((u: any, i: number) => (
                     <div key={i} className="p-4 rounded-lg border border-border">
                       <h4 className="font-semibold mb-2">{u.title}</h4>
                       <p className="text-sm text-muted-foreground">{u.description}</p>
