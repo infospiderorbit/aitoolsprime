@@ -1,4 +1,268 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "aisensy": {
+    whatIs: "AiSensy is a WhatsApp marketing and customer engagement platform that helps businesses run broadcast campaigns, automate customer support, and manage conversations at scale through the WhatsApp Business API. It provides a no-code chatbot builder, bulk messaging tools, and a shared team inbox for managing WhatsApp customer communication. For businesses that want to reach their customers through WhatsApp - the messaging app most of their customers already use daily - AiSensy provides the infrastructure to do this professionally and at scale.",
+    features: [
+      "WhatsApp Broadcasts: Send bulk messages to your entire customer list",
+      "Chatbot Builder: Create automated WhatsApp chatbots without coding",
+      "Shared Inbox: Team inbox for managing WhatsApp conversations",
+      "Campaign Analytics: Track delivery, open, and response rates",
+      "WhatsApp API: Official WhatsApp Business API integration",
+      "Catalog Integration: Share product catalogs through WhatsApp",
+      "CRM Integration: Connect with your existing customer database",
+      "Free Trial: Try WhatsApp marketing before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Aisensy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Account", description: "Sign up at aisensy.com and connect your WhatsApp Business number through the official API setup process." },
+        { title: "Build Your Chatbot", description: "Use the no-code builder to create automated responses for common customer queries. Set up flows for order tracking, support tickets, and FAQs." },
+        { title: "Launch Your Campaigns", description: "Create broadcast campaigns to send promotional messages, updates, and offers to your customer list. Monitor delivery and response rates in real time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "WhatsApp Open Rates", description: "WhatsApp messages are opened at rates far higher than email. Reaching customers through their preferred messaging app produces better engagement than any other channel" },
+      { title: "Official API Reliability", description: "Using the official WhatsApp Business API ensures messages are delivered reliably and accounts are not banned for spam" },
+      { title: "No-Code Automation", description: "Building chatbots without coding makes WhatsApp automation accessible to businesses without technical teams" },
+      { title: "Team Collaboration", description: "A shared inbox that multiple team members can access ensures customer messages are responded to quickly without duplication" }
+    ],
+    useCases: [
+      { title: "E-commerce Businesses", description: "Online retailers use AiSensy for order updates, abandoned cart recovery, and promotional campaigns through WhatsApp" },
+      { title: "Customer Support Teams", description: "Support departments use AiSensy for automated first-response and team inbox management" },
+      { title: "Marketing Teams", description: "Marketers use AiSensy for promotional broadcasts and customer engagement campaigns" }
+    ]
+  },
+  "ai-insights-coupler": {
+    whatIs: "AI Insights by Coupler.io is a data analytics and reporting automation platform that pulls data from multiple business tools and generates AI-powered insights and reports. It connects to advertising platforms, CRMs, databases, and other data sources, consolidates the data, and uses AI to surface patterns and actionable insights that would take analysts hours to find manually. For marketing and operations teams that work with data from multiple sources, Coupler.io automates the data consolidation and reporting work.",
+    features: [
+      "Data Consolidation: Pull data from multiple sources into one place",
+      "AI Insights: Automatically surface patterns and anomalies in your data",
+      "Automated Reports: Schedule regular reports delivered automatically",
+      "Multiple Connectors: Connect to Google Ads, Facebook, Shopify, and others",
+      "Dashboard Creation: Visual dashboards from consolidated data",
+      "Google Sheets Integration: Push data directly to Google Sheets",
+      "No-Code: Connect and analyze without technical skills",
+      "Free Trial: Try data automation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Ai Insights Coupler",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Sources", description: "Sign up at coupler.io and connect your data sources - ad platforms, CRMs, databases, or any other tools you use. The connector library covers most major business tools." },
+        { title: "Set Up Your Reports", description: "Configure what data to pull and how to organize it. Schedule automated data refreshes so your reports are always current without manual updating." },
+        { title: "Review AI Insights", description: "Access AI-generated insights that surface the most important patterns in your consolidated data. Use these to inform your marketing and business decisions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data Silos Problem", description: "Business data scattered across multiple platforms is impossible to analyze holistically. Consolidation that brings everything together enables analysis that individual platform reports cannot" },
+      { title: "Automation Value", description: "Manual data export and consolidation from multiple sources takes hours each week. Automation that handles this continuously gives time back to analysts" },
+      { title: "AI Pattern Recognition", description: "Identifying significant patterns across large consolidated datasets is where AI adds genuine value over manual analysis" },
+      { title: "Non-Technical Access", description: "Data consolidation has traditionally required technical skills. No-code connectors make this accessible to marketing and operations teams without engineering support" }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "Marketers use Coupler.io to consolidate campaign data across platforms and understand overall performance" },
+      { title: "E-commerce Analysts", description: "Online retailers use it to combine sales, marketing, and customer data for comprehensive business analysis" },
+      { title: "Agencies Managing Multiple Clients", description: "Digital agencies use Coupler.io to automate client reporting across multiple advertising and analytics platforms" }
+    ]
+  },
+  "scale-insights": {
+    whatIs: "Scale Insights is an AI-powered Amazon PPC automation platform that manages and optimizes Amazon advertising campaigns automatically. It uses machine learning to adjust bids, pause underperforming keywords, and scale spending on profitable campaigns without requiring daily manual management. For Amazon sellers who run significant advertising budgets, Scale Insights reduces the time spent on campaign management while improving advertising efficiency and profitability.",
+    features: [
+      "PPC Automation: Automate Amazon advertising bid management",
+      "AI Bid Optimization: Machine learning adjusts bids for maximum ROI",
+      "Keyword Management: Automatically pause and promote keywords",
+      "Campaign Scaling: Scale profitable campaigns automatically",
+      "Performance Analytics: Detailed advertising performance reporting",
+      "Dayparting: Adjust bids by time of day and day of week",
+      "Rule-Based Automation: Set custom rules for specific scenarios",
+      "Free Trial: Try PPC automation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Scale Insights",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Amazon Account", description: "Sign up at scaleinsights.com and connect your Amazon Seller Central account. Scale Insights accesses your advertising data automatically." },
+        { title: "Configure Your Automation", description: "Set your target ACoS and automation preferences. The AI uses these targets to manage your campaigns toward your profitability goals." },
+        { title: "Monitor and Optimize", description: "Review performance dashboards and let the AI handle day-to-day bid adjustments. Focus your attention on strategy while automation handles execution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Management Time Reduction", description: "Amazon PPC management requires daily attention to bids and keywords. Automation that handles this continuously saves significant time while maintaining optimization quality" },
+      { title: "Optimization at Scale", description: "Human managers can only effectively monitor a limited number of campaigns. AI management scales to hundreds of campaigns without quality degradation" },
+      { title: "Bid Response Speed", description: "Market conditions change throughout the day. AI that adjusts bids in real time responds faster than human managers checking campaigns periodically" },
+      { title: "Profitability Focus", description: "Target ACoS optimization that keeps advertising spend aligned with profitability goals produces better business outcomes than optimizing for sales volume alone" }
+    ],
+    useCases: [
+      { title: "Amazon Private Label Sellers", description: "FBA sellers with significant advertising budgets use Scale Insights to manage their PPC campaigns more efficiently" },
+      { title: "Amazon Agencies", description: "Agencies managing advertising for multiple Amazon seller clients use Scale Insights to scale their management capacity" },
+      { title: "Brand Owners on Amazon", description: "Established brands advertising on Amazon use Scale Insights for sophisticated campaign optimization" }
+    ]
+  },
+  "lexi-ai": {
+    whatIs: "Lexi AI is an AI-powered legal document drafting and review assistant that helps lawyers and legal teams work more efficiently. It assists with contract drafting, legal research, document review, and generating first drafts of legal documents. The platform is designed to integrate into existing legal workflows, helping attorneys produce higher quality work faster without replacing the professional judgment that legal practice requires.",
+    features: [
+      "Document Drafting: AI assistance for drafting legal documents",
+      "Contract Review: Identify key issues and risks in contracts",
+      "Legal Research: AI-assisted research across legal materials",
+      "Clause Library: Access to standard legal clauses and language",
+      "Document Summarization: Quick summaries of long legal documents",
+      "Risk Flagging: Highlight potentially problematic provisions",
+      "Multiple Practice Areas: Covers corporate, employment, and other areas",
+      "Free Trial: Try legal AI before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Lexi Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Document", description: "Sign up at lexi.ai and upload the document you want to review or use as a starting point for drafting." },
+        { title: "Get AI Assistance", description: "Lexi analyzes your document and provides suggestions, flags risks, and helps draft or improve specific sections." },
+        { title: "Review and Finalize", description: "Apply the suggestions that improve your work and make your professional judgment calls on the legal issues identified." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Drafting Speed", description: "Starting from AI-generated first drafts is significantly faster than drafting from blank pages while preserving the lawyer ability to shape the final product" },
+      { title: "Risk Surface", description: "AI that flags potentially problematic provisions catches issues that might be missed in time-pressured review" },
+      { title: "Research Efficiency", description: "Legal research that surfaces relevant authorities quickly reduces the time between question and answer" },
+      { title: "Consistent Quality", description: "AI assistance maintains drafting quality even when lawyers are working under time pressure" }
+    ],
+    useCases: [
+      { title: "Corporate Lawyers", description: "Transactional lawyers use Lexi AI for contract drafting and review work that benefits from AI acceleration" },
+      { title: "In-House Legal Teams", description: "Corporate legal departments use Lexi AI to handle higher volumes of routine legal work" },
+      { title: "Small Law Firms", description: "Smaller practices use Lexi AI to provide their clients with quality comparable to larger firm resources" }
+    ]
+  },
+  "joylink": {
+    whatIs: "JoyLink is an AI-powered affiliate link management and monetization platform that helps content creators and publishers automatically convert regular links into affiliate links and optimize their monetization. It scans your content for product mentions and links, matches them to affiliate programs, and replaces them with monetized links automatically. For bloggers and content creators who want to maximize their affiliate revenue without manually managing hundreds of affiliate relationships, JoyLink automates the link monetization process.",
+    features: [
+      "Auto Link Monetization: Automatically convert links to affiliate links",
+      "Product Detection: Identify product mentions in your content",
+      "Affiliate Network Integration: Connects with major affiliate networks",
+      "Link Management: Central management of all affiliate links",
+      "Performance Analytics: Track clicks and earnings across all links",
+      "Multiple Platforms: Works across blogs, websites, and content platforms",
+      "Broken Link Detection: Identify and fix broken affiliate links",
+      "Free to Start: Basic link monetization without payment"
+    ],
+    howToUse: {
+      title: "How to Use Joylink",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install JoyLink", description: "Sign up at joylink.io and install the plugin or script on your website. JoyLink begins scanning your content for monetization opportunities." },
+        { title: "Review Matches", description: "JoyLink identifies product mentions and suggests affiliate program matches. Review the suggestions and approve the ones that fit your content." },
+        { title: "Earn Automatically", description: "Approved affiliate links are placed automatically. Monitor your earnings dashboard to track performance across all your monetized content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Manual Link Management Problem", description: "Content creators with hundreds of posts cannot manually manage affiliate links across all their content. Automation that handles this at scale makes comprehensive monetization practical" },
+      { title: "Opportunity Discovery", description: "Many product mentions in older content represent missed monetization opportunities. Automatic scanning surfaces these opportunities that manual review would miss" },
+      { title: "Network Coverage", description: "Connecting to multiple affiliate networks increases the likelihood of finding relevant programs for every product mention in your content" },
+      { title: "Passive Income Optimization", description: "Affiliate revenue that runs automatically across all your content without ongoing management is genuinely passive income" }
+    ],
+    useCases: [
+      { title: "Bloggers and Content Creators", description: "Writers with large content libraries use JoyLink to monetize their existing content automatically" },
+      { title: "Niche Website Owners", description: "People running product review and comparison sites use JoyLink for comprehensive affiliate link management" },
+      { title: "Publishers and Media Sites", description: "Content publishers use JoyLink to maximize affiliate revenue across their content portfolio" }
+    ]
+  },
+  "lasso": {
+    whatIs: "Lasso is an affiliate marketing platform built specifically for content creators and bloggers that manages affiliate links, displays product boxes, and tracks affiliate performance. It helps publishers organize their affiliate relationships, create attractive product displays that increase click-through rates, and understand which content and products generate the most revenue. For serious affiliate marketers who want professional-grade tools for managing and optimizing their affiliate business, Lasso provides the purpose-built infrastructure.",
+    features: [
+      "Affiliate Link Management: Organize and manage all your affiliate links",
+      "Product Displays: Beautiful product boxes that increase click-through rates",
+      "Performance Analytics: Track which content and products drive revenue",
+      "Link Cloaking: Clean branded links instead of long affiliate URLs",
+      "Opportunity Finder: Discover affiliate programs for products you mention",
+      "WordPress Plugin: Native WordPress integration",
+      "Amazon Integration: Simplified Amazon Associates link management",
+      "Free Trial: Try affiliate management before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Lasso",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Plugin", description: "Sign up at getlasso.co and install the WordPress plugin. Connect your affiliate networks and begin importing your existing affiliate links." },
+        { title: "Create Product Displays", description: "Build attractive product boxes and comparison tables for the products you recommend. Professional displays increase the click-through rates that drive affiliate revenue." },
+        { title: "Analyze and Optimize", description: "Use the analytics to understand which products and content generate the most revenue. Focus your content creation on the areas that perform best." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Display Quality Impact", description: "Plain text affiliate links perform significantly worse than well-designed product boxes. Professional product displays that show images, prices, and ratings increase click-through rates substantially" },
+      { title: "Link Organization", description: "Affiliate marketers with hundreds of links across many posts need organized management. Lasso provides the structure that makes large affiliate operations manageable" },
+      { title: "Performance Intelligence", description: "Understanding which specific products and posts drive revenue enables content and promotion decisions that improve overall affiliate income" },
+      { title: "WordPress Native", description: "A purpose-built WordPress plugin that integrates natively is more reliable and better featured than generic link management solutions" }
+    ],
+    useCases: [
+      { title: "Affiliate Marketing Bloggers", description: "Content creators who earn significant affiliate income use Lasso for professional affiliate link management" },
+      { title: "Product Review Sites", description: "Sites focused on product reviews and comparisons use Lasso for the display features that maximize their conversion rates" },
+      { title: "Amazon Associates Publishers", description: "Amazon affiliate publishers use Lasso for simplified link management and compliance with Amazon program requirements" }
+    ]
+  },
+  "reditus": {
+    whatIs: "Reditus is a B2B SaaS affiliate and partner program management platform that helps software companies build, manage, and scale their affiliate and referral programs. It provides the infrastructure for recruiting affiliates, tracking referrals, managing commissions, and paying partners - all in one platform designed specifically for SaaS businesses. For SaaS companies that want to grow through partner channels without building their own affiliate infrastructure, Reditus provides a ready-made solution.",
+    features: [
+      "Affiliate Recruitment: Find and recruit affiliates for your SaaS product",
+      "Referral Tracking: Accurate tracking of referrals from each partner",
+      "Commission Management: Flexible commission structures and tracking",
+      "Partner Portal: Dedicated portal for affiliates to access materials",
+      "Automated Payouts: Streamlined commission payment processing",
+      "Performance Analytics: Understand which partners drive the most value",
+      "Marketplace: List your program to attract new affiliates",
+      "Free Plan: Basic affiliate program management without payment"
+    ],
+    howToUse: {
+      title: "How to Use Reditus",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Program", description: "Sign up at getreditus.com and configure your affiliate program - commission rates, cookie duration, and program terms." },
+        { title: "Recruit Affiliates", description: "Use the Reditus marketplace to attract affiliates already looking for SaaS programs to promote. Manage applications and approve partners through the dashboard." },
+        { title: "Track and Pay", description: "Monitor referral performance and process commission payments automatically. Understand which affiliates drive the most valuable customers." }
+      ]
+    },
+    coreFeatures: [
+      { title: "SaaS-Specific Design", description: "Generic affiliate platforms are built for e-commerce. Reditus understands SaaS metrics - MRR, churn, LTV - which makes its tracking and commission structures more appropriate for software businesses" },
+      { title: "Marketplace Distribution", description: "Being listed in a marketplace where affiliates actively search for programs to promote accelerates partner recruitment beyond what outreach alone achieves" },
+      { title: "Automated Operations", description: "Managing affiliate programs manually is operationally complex. Automated tracking and payment processing makes running a partner program sustainable" },
+      { title: "Partner Experience", description: "Affiliates who have a professional portal with easy access to materials and clear performance data are more motivated to actively promote your product" }
+    ],
+    useCases: [
+      { title: "SaaS Startups Building Partner Channels", description: "Early-stage software companies use Reditus to establish an affiliate channel without building custom infrastructure" },
+      { title: "B2B Software Companies", description: "Established SaaS businesses use Reditus to professionalize and scale their existing partner programs" },
+      { title: "SaaS Marketing Teams", description: "Marketing teams responsible for partner channels use Reditus for the management tools that make programs trackable and optimizable" }
+    ]
+  },
+  "kowboykit": {
+    whatIs: "KowboyKit is an AI-powered e-commerce toolkit that provides a suite of tools for online store owners including product research, competitor analysis, ad spy, and marketing automation. It helps e-commerce entrepreneurs find winning products, understand competitor strategies, and automate their marketing across multiple channels. For online sellers who want comprehensive intelligence and automation tools without subscribing to multiple separate services, KowboyKit provides an integrated toolkit.",
+    features: [
+      "Product Research: Find winning products with demand and margin data",
+      "Competitor Analysis: Understand what your competitors are doing",
+      "Ad Spy: See competitor advertising creative and targeting",
+      "Marketing Automation: Automate email and social media marketing",
+      "Store Analytics: Track your store performance metrics",
+      "Supplier Finder: Find reliable suppliers for your products",
+      "Trend Detection: Identify emerging product trends early",
+      "Free Trial: Try the toolkit before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Kowboykit",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Research Your Products", description: "Sign up at kowboykit.com and use the product research tools to find products with strong demand and reasonable competition in your target market." },
+        { title: "Analyze Your Competition", description: "Use the competitor analysis and ad spy tools to understand how successful stores in your niche market their products and what creative approaches work." },
+        { title: "Automate Your Marketing", description: "Set up marketing automation for email sequences, social media posting, and ad campaigns. Let the automation run while you focus on growing your product catalog." }
+      ]
+    },
+    coreFeatures: [
+      { title: "All-in-One Value", description: "E-commerce success requires product research, competitor intelligence, and marketing tools. Having all of these in one platform reduces cost and complexity compared to multiple subscriptions" },
+      { title: "Competitor Intelligence", description: "Understanding what advertising creative and products are working for competitors provides validated insights that reduce your own testing costs" },
+      { title: "Product Research Speed", description: "Finding winning products manually through marketplace browsing and trend analysis takes enormous time. AI-powered research surfaces opportunities much faster" },
+      { title: "Automation Scale", description: "Marketing automation that runs continuously produces results that manual marketing cannot match in volume or consistency" }
+    ],
+    useCases: [
+      { title: "Dropshippers", description: "Dropshipping entrepreneurs use KowboyKit for product research and competitor intelligence to find winning products" },
+      { title: "Print on Demand Sellers", description: "POD sellers use the trend detection and design research tools to find profitable niches and designs" },
+      { title: "E-commerce Store Owners", description: "General online retailers use KowboyKit for the combination of research and automation tools that support store growth" }
+    ]
+  },
   "collov-staging": {
     whatIs: "Collov Virtual Staging AI is an AI-powered virtual staging platform specifically designed for real estate professionals. It transforms empty property photos into beautifully furnished spaces using AI, helping agents sell properties faster with compelling listing photos. The platform specializes in realistic furniture placement and interior styling that makes vacant properties look move-in ready without physical staging costs.",
     features: [
