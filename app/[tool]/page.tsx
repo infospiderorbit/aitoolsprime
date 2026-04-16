@@ -8,6 +8,9 @@ import Footer from "@/components/Footer";
 import { toolsData, Tool } from "@/data/toolsData";
 import { toolsProductInfoData } from "@/data/toolsProductInfo";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 function findTool(toolId: string): Tool | null {
   for (const catData of Object.values(toolsData)) {
     for (const subTools of Object.values(catData)) {
