@@ -21301,53 +21301,7 @@ export const toolsProductInfoData: { [key: string]: any } = {
       ]
     }
   },
-  "default": {
-    whatIs: "This AI tool helps users accomplish their tasks more efficiently with intelligent automation and advanced features.",
-    features: [
-      "AI-powered automation",
-      "User-friendly interface",
-      "Advanced analytics",
-      "Seamless integration"
-    ],
-    howToUse: {
-      title: "How to Use This Tool?",
-      description: "Get started in simple steps",
-      steps: [
-        {
-          title: "Sign Up",
-          description: "Create your account and access the platform."
-        },
-        {
-          title: "Configure Settings",
-          description: "Set up your preferences and customize the tool to your needs."
-        },
-        {
-          title: "Start Using",
-          description: "Begin utilizing the AI features to enhance your workflow."
-        }
-      ]
-    },
-    coreFeatures: [
-      {
-        title: "AI Technology",
-        description: "Advanced artificial intelligence capabilities"
-      },
-      {
-        title: "Easy Integration",
-        description: "Seamlessly integrates with existing workflows"
-      }
-    ],
-    useCases: [
-      {
-        title: "Professionals",
-        description: "Enhance productivity and automate routine tasks"
-      },
-      {
-        title: "Businesses",
-        description: "Streamline operations and improve efficiency"
-      }
-    ]
-  },
+
   "chatup-ai": {
     whatIs: "ChatUp AI is an online entertainment service made for adults, offering uncensored AI chat as well as image generation and video creation tools. It lets users interact with virtual friends and create digital artwork that is explicit and swap faces between videos and photos, and play with various adult-themed scenarios, all without login requirements or filters. The platform provides a diverse blend of mature AI roleplay, a variety of creative and unfiltered content, and customized experiences.",
     features: [
