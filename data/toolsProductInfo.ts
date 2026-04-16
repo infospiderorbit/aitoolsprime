@@ -1,4 +1,136 @@
 export const toolsProductInfoData: { [key: string]: any } = {
+  "collov-staging": {
+    whatIs: "Collov Virtual Staging AI is an AI-powered virtual staging platform specifically designed for real estate professionals. It transforms empty property photos into beautifully furnished spaces using AI, helping agents sell properties faster with compelling listing photos. The platform specializes in realistic furniture placement and interior styling that makes vacant properties look move-in ready without physical staging costs.",
+    features: [
+      "Virtual Staging: Transform empty rooms into furnished spaces",
+      "Real Estate Optimized: Images designed for property listings",
+      "Multiple Styles: Modern, traditional, Scandinavian, and other styles",
+      "Realistic Rendering: Photorealistic furniture and decor placement",
+      "Fast Turnaround: Staged images ready in minutes",
+      "Multiple Rooms: Stage every room in a property",
+      "Download Ready: High-resolution images for MLS and marketing",
+      "Free Credits: Try virtual staging before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Collov Staging",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Property Photo", description: "Sign up at collov.ai and upload photos of the empty rooms you want to stage. Clear well-lit photos produce the best results." },
+        { title: "Select Your Style", description: "Choose from different interior design styles that appeal to your target buyer demographic. Preview how each style transforms the space." },
+        { title: "Download and List", description: "Download your staged images in high resolution and use them in your MLS listing, marketing materials, and social media." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Staging Cost Savings", description: "Physical staging costs thousands per property. Virtual staging produces comparable visual impact at a fraction of the cost making it viable for every listing" },
+      { title: "Listing Performance", description: "Furnished property photos consistently attract more buyer interest and higher offers than empty room photos" },
+      { title: "Speed to Market", description: "Physical staging requires scheduling and setup time. Virtual staging gets your listing photos ready the same day" },
+      { title: "Style Flexibility", description: "Different buyers respond to different aesthetics. Virtual staging lets you create multiple style versions to appeal to different buyer segments" }
+    ],
+    useCases: [
+      { title: "Real Estate Agents", description: "Agents use Collov Virtual Staging to make every listing look its best without physical staging costs" },
+      { title: "Property Developers", description: "Developers use virtual staging to market units before they are physically furnished" },
+      { title: "Real Estate Photographers", description: "Property photographers offer virtual staging as an add-on service using Collov" }
+    ]
+  },
+  "jump-ai-advisors": {
+    whatIs: "Jump AI for Financial Advisors is an AI platform that automates client communication, meeting preparation, and administrative tasks for financial advisors. It generates personalized client communications, prepares meeting summaries, and handles documentation work that consumes advisor time. For financial advisors who want to serve more clients without increasing their administrative burden, Jump AI provides intelligent automation designed specifically for the advisory profession.",
+    features: [
+      "Client Communication: AI-generated personalized client emails",
+      "Meeting Preparation: Automated agendas and prep materials",
+      "Meeting Summaries: AI-generated post-meeting notes and action items",
+      "CRM Integration: Works with financial advisor CRM systems",
+      "Compliance Awareness: Communications aligned with regulatory requirements",
+      "Portfolio Updates: Automated client portfolio review communications",
+      "Task Automation: Reduce repetitive administrative work",
+      "Free Trial: Try advisor automation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Jump Ai Advisors",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Systems", description: "Sign up at jump.ai and connect your CRM and client management systems. Jump AI uses client data to personalize communications." },
+        { title: "Automate Communications", description: "Set up automated workflows for regular client touchpoints - portfolio reviews, market updates, and meeting follow-ups." },
+        { title: "Streamline Meetings", description: "Use Jump AI to prepare meeting agendas and generate post-meeting summaries with action items automatically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Advisor Capacity", description: "Advisors who spend less time on administrative tasks can serve more clients with the same hours" },
+      { title: "Personalization at Scale", description: "AI personalization that draws on CRM data produces relevant client communications without manual effort for each client" },
+      { title: "Consistency", description: "Automated communication maintains consistent quality regardless of how busy advisors are" },
+      { title: "Compliance Support", description: "AI-generated communications that follow regulatory requirements reduce compliance risk" }
+    ],
+    useCases: [
+      { title: "Independent Financial Advisors", description: "RIAs use Jump AI to scale their practice without proportionally increasing administrative work" },
+      { title: "Wealth Management Teams", description: "Advisory firms use Jump AI to improve advisor productivity across their team" },
+      { title: "Growing Advisory Practices", description: "Advisors building their client base use Jump AI to maintain high-quality relationships as their roster grows" }
+    ]
+  },
+  "composer": {
+    whatIs: "Composer is a no-code algorithmic trading platform that lets investors build, test, and automate trading strategies without programming skills. Users describe their strategy logic visually or in plain language and Composer translates it into automated trading that executes on their brokerage account. For investors who have systematic trading ideas but lack coding ability, Composer makes algorithmic trading genuinely accessible.",
+    features: [
+      "No-Code Strategy Building: Create strategies without programming",
+      "Plain Language Input: Describe strategy logic naturally",
+      "Backtesting: Test strategies against historical market data",
+      "Automated Execution: Strategies execute automatically",
+      "Strategy Library: Browse community strategies for inspiration",
+      "Performance Analytics: Track automated strategy performance",
+      "Brokerage Integration: Connects with major retail brokerages",
+      "Free Trial: Test strategy building before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Composer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Strategy", description: "Sign up at composer.trade and describe your trading strategy logic using the visual builder or plain language." },
+        { title: "Backtest Your Strategy", description: "Run your strategy against historical data to evaluate performance before risking real money." },
+        { title: "Automate and Monitor", description: "Deploy your strategy for live automated trading and monitor performance through the analytics dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Strategy Accessibility", description: "Algorithmic trading has required coding skills most investors lack. No-code building opens systematic trading to everyone" },
+      { title: "Backtest Before Risk", description: "Testing against historical data reveals fatal flaws without financial cost" },
+      { title: "Consistent Execution", description: "Automated strategies execute without emotional interference which is the main advantage of systematic trading" },
+      { title: "Community Learning", description: "Browsing community strategies helps investors understand different approaches and adapt proven ones" }
+    ],
+    useCases: [
+      { title: "Systematic Investors Without Coding Skills", description: "Investors who want to implement systematic strategies use Composer without learning to code" },
+      { title: "Quant-Curious Retail Investors", description: "People interested in quantitative approaches use Composer as an accessible entry point" },
+      { title: "Active Investors Automating Their Process", description: "Investors with rules-based approaches use Composer to automate execution and remove emotion" }
+    ]
+  },
+  "taxtim-sa": {
+    whatIs: "TaxTim SA is an AI-powered tax filing assistant that helps South African taxpayers complete their income tax returns accurately. It guides users through the process with simple conversational questions rather than complex forms, automatically calculates tax liability, and submits directly to SARS. For South African taxpayers who find the filing process confusing, TaxTim provides step-by-step guidance that ensures accurate and complete returns.",
+    features: [
+      "SA Tax Focused: Specialized for South African tax requirements",
+      "Step-by-Step Guidance: Simple questions instead of complex forms",
+      "Deduction Optimization: Identify all applicable deductions",
+      "SARS Submission: Direct submission to SARS eFiling",
+      "Tax Calculation: Accurate liability calculation",
+      "Multiple Income Types: Employment, rental, and investment income",
+      "Audit Support: Documentation if SARS queries your return",
+      "Free Basic: Simple returns without payment"
+    ],
+    howToUse: {
+      title: "How to Use Taxtim Sa",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Return", description: "Sign up at taxtim.com and begin by answering simple questions about your income and expenses for the tax year." },
+        { title: "Provide Your Information", description: "TaxTim guides you through each income source and deduction with plain language questions. You provide information and TaxTim handles the form completion." },
+        { title: "Review and Submit", description: "Review your completed return and calculated tax liability. Submit directly to SARS through TaxTim." }
+      ]
+    },
+    coreFeatures: [
+      { title: "SA Tax Specialization", description: "Generic tax tools do not understand South African tax specifics. TaxTim is built specifically for SA requirements" },
+      { title: "Question-Based Simplicity", description: "Plain language questions make the tax process accessible to non-professionals" },
+      { title: "Deduction Maximization", description: "TaxTim surfaces applicable deductions that increase refunds or reduce liability" },
+      { title: "SARS Compliance", description: "Direct SARS submission ensures returns are filed correctly with proper documentation" }
+    ],
+    useCases: [
+      { title: "South African Individual Taxpayers", description: "SA employees use TaxTim to file their annual returns accurately" },
+      { title: "SA Freelancers", description: "Self-employed South Africans use TaxTim for provisional and annual tax returns" },
+      { title: "SA Investors and Landlords", description: "South Africans with investment income and rental properties use TaxTim for accurate multi-income reporting" }
+    ]
+  },
   "composer-ai": {
     whatIs: "Composer is an AI-powered algorithmic trading platform that lets investors build, test, and automate trading strategies without coding. Users describe their strategy logic in plain language or use visual building blocks, and Composer translates it into automated trading that executes on their brokerage account. For investors who have systematic trading ideas but lack programming skills, Composer makes algorithmic trading accessible.",
     features: [
