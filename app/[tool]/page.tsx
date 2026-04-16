@@ -85,7 +85,7 @@ if (!toolData) notFound();
   const addedDate = toolData.addedDate
     ? new Date(toolData.addedDate).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "2-digit" })
     : (() => { const h = toolData.id.split("").reduce((a,c) => a + c.charCodeAt(0) * 31, 0); const start = new Date("2026-01-01").getTime(); const end = new Date("2026-03-19").getTime(); const range = end - start; const t = start + ((h * 1000003) % range); return new Date(t).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "2-digit" }); })();
-  const info = (toolsProductInfoData as any)[toolData.id] || (toolsProductInfoData as any).default;
+  const info = (toolsProductInfoData as any)[toolData.id];
 
   return (
     <div className="min-h-screen bg-background">
