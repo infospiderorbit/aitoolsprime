@@ -364,7 +364,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "calcgen-ai", name: "CalcGen AI", description: "AI calculator and graph generator", url: "", upvotes: 1156, verified: true, rating: 4.3, icon: "🧮", category: "office-productivity", subcategory: "graph-ai" }
     ],
     "whiteboard-ai": [
-      { id: "whimsical-whiteboard", name: "Whimsical", description: "Collaborative whiteboard with AI features", url: "", upvotes: 2134, verified: true, rating: 4.8, icon: "🎨", category: "office-productivity", subcategory: "whiteboard-ai" },
       { id: "boardmix", name: "Boardmix", description: "AI-enhanced collaborative whiteboard", url: "", upvotes: 1789, verified: true, rating: 4.7, icon: "🖼️", category: "office-productivity", subcategory: "whiteboard-ai" },
       { id: "jeda-ai", name: "Jeda.ai", description: "AI-powered visual workspace", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "🎯", category: "office-productivity", subcategory: "whiteboard-ai" },
       { id: "fabrie", name: "Fabrie", description: "Design collaboration with AI whiteboard", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "🧵", category: "office-productivity", subcategory: "whiteboard-ai" },
@@ -2184,7 +2183,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-customer-service": [
       { id: "chaport", name: "Chaport", description: "AI-powered live chat and customer service", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "💬", category: "business-management", subcategory: "ai-customer-service" },
       { id: "dialpad", name: "Dialpad", description: "AI business communications platform", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "📱", category: "business-management", subcategory: "ai-customer-service" },
-      { id: "openphone-cs", name: "OpenPhone", description: "AI customer service phone solution", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "📞", category: "business-management", subcategory: "ai-customer-service" },
       { id: "tidio", name: "Tidio", description: "AI chatbot and customer service platform", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🎭", category: "business-management", subcategory: "ai-customer-service" }
     ],
     "ai-erp": [
@@ -2214,14 +2212,10 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "smartsuite", name: "SmartSuite", description: "AI work management and project platform", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🎯", category: "business-management", subcategory: "ai-project-management" }
     ],
     "ai-recruiting": [
-      { id: "recruit-crm-recruiting", name: "Recruit CRM", description: "AI recruiting and applicant tracking system", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "👥", category: "business-management", subcategory: "ai-recruiting" },
       { id: "zara-recruiting", name: "Zara", description: "AI recruiting and talent acquisition", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "👗", category: "business-management", subcategory: "ai-recruiting" },
       { id: "codesignal", name: "CodeSignal", description: "AI technical recruiting and assessment", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "💻", category: "business-management", subcategory: "ai-recruiting" },
-      { id: "talent-titan-recruiting", name: "Talent Titan", description: "AI recruiting and talent management", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "⚡", category: "business-management", subcategory: "ai-recruiting" }
     ],
     "ai-roadmap": [
-      { id: "bagel-ai-roadmap", name: "Bagel AI", description: "AI product roadmap and planning tool", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "🥯", category: "business-management", subcategory: "ai-roadmap" },
-      { id: "zeda-io-roadmap", name: "Zeda.io", description: "AI product roadmap management platform", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "🎯", category: "business-management", subcategory: "ai-roadmap" },
       { id: "productroadmap-ai", name: "ProductRoadmap.ai", description: "AI-powered product roadmap generator", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "🗺️", category: "business-management", subcategory: "ai-roadmap" },
       { id: "skillai", name: "SkillAI", description: "AI skill development roadmap platform", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🧠", category: "business-management", subcategory: "ai-roadmap" },
       { id: "plani-ai", name: "Plani.ai", description: "AI project and roadmap planning tool", url: "", upvotes: 754, verified: true, rating: 4.2, icon: "📋", category: "business-management", subcategory: "ai-roadmap" }
