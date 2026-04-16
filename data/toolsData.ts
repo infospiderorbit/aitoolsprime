@@ -3219,4 +3219,4 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
 
 export const getToolsBySubcategory = (category: string, subcategory: string): Tool[] => {
   return toolsData[category]?.[subcategory] || [];
-};
+};// cache bust Thu Apr 16 11:43:02 IST 2026
