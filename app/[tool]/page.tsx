@@ -180,7 +180,7 @@ if (!toolData) notFound();
           </div>
         </div>
 
-        <div className="bg-card rounded-2xl border border-border p-8 shadow-card">
+        {info && <div className="bg-card rounded-2xl border border-border p-8 shadow-card">
           <h2 className="text-2xl font-bold mb-6">{toolData.name} Product Information</h2>
           <div className="space-y-8">
             <div>
@@ -258,7 +258,7 @@ if (!toolData) notFound();
               </div>
             )}
           </div>
-        </div>
+        </div>}
       <div className="bg-card rounded-2xl border border-border p-8 shadow-card mt-8">
 <Link href={"/alternatives/" + toolData.id} className="inline-flex items-center gap-2 text-xl font-bold mb-6 hover:text-primary transition-colors">
             🔎 Similar to '{toolData.name}'
