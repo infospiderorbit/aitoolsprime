@@ -1,4 +1,268 @@
 export const toolsProductInfo3: { [key: string]: any } = {
+  "freeadcopy": {
+    whatIs: "FreeAdCopy is a free AI advertising copy generator that creates compelling ad text for Google Ads, Facebook Ads, and other advertising platforms. Users enter their product or service details and the AI generates multiple ad copy variations with headlines, descriptions, and calls to action optimized for each platform. For small business owners and marketers who need quality ad copy without the cost of a copywriter, FreeAdCopy provides accessible AI-powered advertising copy at no cost.",
+    features: [
+      "Free Ad Copy: Generate advertising copy without payment",
+      "Google Ads: Headlines and descriptions for search campaigns",
+      "Facebook Ads: Primary text and headlines for social ads",
+      "Multiple Variations: Generate several copy options to choose from",
+      "Platform Specific: Copy formatted for each advertising platform",
+      "CTA Generation: Compelling calls to action for your ads",
+      "Product Focus: Copy that highlights your specific product benefits",
+      "Instant Results: Ad copy generated immediately"
+    ],
+    howToUse: {
+      title: "How to Use Freeadcopy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Product", description: "Go to freeadcopy.com and describe your product or service, your target audience, and the key benefit you want to highlight." },
+        { title: "Select Your Platform", description: "Choose the advertising platform you are creating copy for. FreeAdCopy formats the output for Google, Facebook, or other platform specifications." },
+        { title: "Review and Use", description: "Review the generated ad copy variations and select the ones that best represent your offering. Copy them directly into your ad platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessibility", description: "Professional ad copywriting costs significant money. Free AI copy generation makes quality ad copy accessible to businesses at any budget level" },
+      { title: "Variation for Testing", description: "Generating multiple copy variations enables A/B testing that improves ad performance over time without additional creative cost" },
+      { title: "Platform Formatting", description: "Each ad platform has different character limits and format requirements. Platform-specific generation handles these technical requirements automatically" },
+      { title: "Speed", description: "Writing multiple ad copy variations manually takes time. AI generation that produces many options immediately accelerates campaign setup" }
+    ],
+    useCases: [
+      { title: "Small Business Owners Running Their Own Ads", description: "Business owners managing their own advertising use FreeAdCopy for quality copy without copywriter costs" },
+      { title: "Freelance Marketers", description: "Independent marketing professionals use FreeAdCopy for quick ad copy generation for client campaigns" },
+      { title: "Startups with Limited Budgets", description: "Early-stage companies use FreeAdCopy for advertising copy before they can afford dedicated copywriting resources" }
+    ]
+  },
+  "copycop-ai": {
+    whatIs: "CopyCop AI is an AI advertising copy compliance and optimization platform that checks marketing copy against advertising platform policies and regulations before you run it. It identifies copy that might be rejected or flagged by Google, Facebook, and other platforms for policy violations, and suggests compliant alternatives. For marketers who have experienced ad disapprovals or account suspensions from policy violations, CopyCop AI provides pre-flight compliance checking that catches problems before they become costly issues.",
+    features: [
+      "Compliance Checking: Check ad copy against platform policies before submitting",
+      "Policy Violation Detection: Identify copy that will be rejected by ad platforms",
+      "Compliant Alternatives: Suggest policy-compliant versions of flagged copy",
+      "Multi-Platform: Checks for Google, Facebook, and other ad platform policies",
+      "Regulated Industry Support: Specific guidance for finance, health, and other regulated sectors",
+      "Risk Scoring: Assess how likely copy is to be flagged or rejected",
+      "Revision Assistance: Help rewrite flagged copy to meet policy requirements",
+      "Free Trial: Try compliance checking before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Copycop Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Copy", description: "Sign up at copycop.ai and paste the ad copy you want to check before submitting to ad platforms." },
+        { title: "Review Compliance Report", description: "CopyCop analyzes your copy against platform policies and returns a compliance report identifying any potential violations and their severity." },
+        { title: "Revise and Recheck", description: "Use the suggested alternatives or revise your copy based on the guidance. Recheck the revised version before submitting to confirm compliance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Disapproval Prevention", description: "Ad disapprovals waste campaign setup time and delay launches. Catching policy violations before submission prevents this wasted effort" },
+      { title: "Account Protection", description: "Repeated policy violations can result in account suspensions that are costly and time-consuming to resolve. Pre-flight checking reduces this risk" },
+      { title: "Regulated Industry Complexity", description: "Healthcare, finance, and other regulated industries face particularly complex advertising restrictions. Specialized guidance for these sectors reduces the compliance burden" },
+      { title: "Speed to Launch", description: "Compliance checking that catches problems early prevents the back-and-forth of repeated disapprovals that delays campaign launches" }
+    ],
+    useCases: [
+      { title: "Performance Marketers", description: "PPC specialists use CopyCop AI to ensure their ad copy passes platform review before campaigns launch" },
+      { title: "Agencies Managing Regulated Clients", description: "Marketing agencies working with healthcare, finance, and legal clients use CopyCop AI for the specialized compliance guidance these industries require" },
+      { title: "E-commerce Advertisers", description: "Online retailers use CopyCop AI to maintain advertising account health by catching policy violations before they escalate" }
+    ]
+  },
+  "search-atlas": {
+    whatIs: "Search Atlas is an AI-powered SEO platform that combines keyword research, content optimization, site auditing, and backlink analysis in one comprehensive tool. It uses AI to provide content recommendations, identify ranking opportunities, and optimize existing content for better search performance. For SEO professionals and content teams that want a full-featured SEO suite with AI capabilities, Search Atlas provides comprehensive search intelligence without requiring multiple separate tools.",
+    features: [
+      "Keyword Research: Find high-opportunity keywords for your content strategy",
+      "Content Optimizer: AI recommendations for improving existing content",
+      "Site Audit: Technical SEO analysis across your entire website",
+      "Backlink Analysis: Monitor your link profile and find link opportunities",
+      "Rank Tracking: Monitor keyword rankings over time",
+      "Competitor Analysis: Understand competitor SEO strategies",
+      "Content Briefs: AI-generated briefs for writers",
+      "Free Trial: Try Search Atlas before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Search Atlas",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Audit Your Site", description: "Sign up at searchatlas.com and run a technical audit of your website. Review the identified issues prioritized by their impact on search performance." },
+        { title: "Research Your Keywords", description: "Use the keyword research tools to identify opportunities in your target market. Find keywords with genuine search volume and achievable competition levels." },
+        { title: "Optimize Your Content", description: "Run your existing content through the content optimizer to get specific recommendations for improving rankings. Apply the suggestions and track performance changes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "All-in-One SEO Value", description: "Using separate tools for keyword research, content optimization, site auditing, and rank tracking is expensive and creates workflow friction. A comprehensive suite eliminates this" },
+      { title: "AI Recommendation Quality", description: "Generic SEO advice applies to everyone. AI recommendations calibrated to your specific content and competitive situation produce more relevant optimization guidance" },
+      { title: "Content Brief Efficiency", description: "Creating detailed content briefs for writers manually takes significant time. AI brief generation that includes keyword targets, topics, and competitor analysis speeds this workflow" },
+      { title: "Competitive Intelligence", description: "Understanding what competitors are doing in search provides context for your own strategy that looking at your metrics alone cannot give" }
+    ],
+    useCases: [
+      { title: "SEO Professionals", description: "In-house SEO specialists use Search Atlas for comprehensive search optimization across keyword research, content, and technical SEO" },
+      { title: "Content Marketing Teams", description: "Content teams use Search Atlas for keyword research and content optimization that improves their organic search performance" },
+      { title: "Digital Marketing Agencies", description: "Agencies managing SEO for multiple clients use Search Atlas for the comprehensive toolset their client work requires" }
+    ]
+  },
+  "blobr": {
+    whatIs: "Blobr is an API productization and monetization platform that helps companies package, publish, and sell access to their APIs. It provides a developer portal, API key management, usage-based billing, and analytics that allow companies to turn their internal APIs into revenue-generating products. For companies that have valuable APIs and want to monetize them without building custom infrastructure, Blobr provides the complete API commercialization platform.",
+    features: [
+      "API Portal: Professional developer portal for your API products",
+      "API Key Management: Issue and manage API keys for customers",
+      "Usage-Based Billing: Charge customers based on API consumption",
+      "Documentation: Generate and host API documentation",
+      "Analytics: Track API usage and revenue metrics",
+      "Access Control: Different tiers and permissions for different customers",
+      "Stripe Integration: Payment processing for API subscriptions",
+      "Free Plan: Basic API publishing without payment"
+    ],
+    howToUse: {
+      title: "How to Use Blobr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Publish Your API", description: "Sign up at blobr.io and connect your API. Configure your endpoints, documentation, and pricing tiers for the developer portal." },
+        { title: "Set Up Billing", description: "Configure your pricing model - subscription tiers, usage-based billing, or a combination. Connect Stripe for payment processing." },
+        { title: "Launch Your Portal", description: "Publish your developer portal and start accepting API customers. Monitor usage and revenue through the analytics dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "API Monetization Infrastructure", description: "Building custom infrastructure for API key management, billing, and developer portals requires significant engineering time. Blobr provides this as a ready-made platform" },
+      { title: "Developer Experience", description: "APIs that are poorly documented and hard to access do not get adopted. A professional developer portal with clear documentation improves API adoption rates" },
+      { title: "Usage Intelligence", description: "Understanding how customers use your API reveals the most valuable features and informs product development priorities" },
+      { title: "Revenue Model Flexibility", description: "Different APIs suit different monetization models. Having subscription, usage-based, and tiered options available allows you to find the model that fits your API" }
+    ],
+    useCases: [
+      { title: "API-First Companies", description: "Companies whose core value is delivered through APIs use Blobr to productize and monetize their API capabilities" },
+      { title: "SaaS Companies with Internal APIs", description: "Software businesses that have built valuable internal APIs use Blobr to create external API products from existing capabilities" },
+      { title: "Data and Intelligence Providers", description: "Companies that generate valuable data use Blobr to sell API access to their data products" }
+    ]
+  },
+  "adwisely": {
+    whatIs: "Adwisely is an AI-powered advertising automation platform that manages Facebook, Instagram, and Google retargeting campaigns for e-commerce businesses. It automatically creates and optimizes retargeting ads that show relevant products to people who have visited your store, using AI to optimize targeting, bidding, and creative rotation for maximum return on ad spend. For e-commerce businesses that want effective retargeting without the expertise to manage it manually, Adwisely provides automated campaign management that drives results.",
+    features: [
+      "Retargeting Automation: Automatic retargeting campaigns for store visitors",
+      "Product Catalog Ads: Dynamic ads showing products visitors viewed",
+      "Facebook and Instagram: Automated campaigns across Meta platforms",
+      "Google Retargeting: Display retargeting on the Google network",
+      "AI Optimization: Automatic bid and audience optimization",
+      "Performance Analytics: Track ROAS and campaign performance",
+      "Shopify Integration: Native Shopify store connection",
+      "Free Trial: Try Adwisely before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Adwisely",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Store", description: "Sign up at adwisely.com and connect your Shopify or other e-commerce store. Adwisely accesses your product catalog and visitor data." },
+        { title: "Configure Your Campaigns", description: "Set your advertising budget and campaign preferences. Adwisely creates your retargeting campaigns automatically based on your store data." },
+        { title: "Monitor and Scale", description: "Review your campaign performance in the dashboard. Adwisely optimizes automatically while you monitor ROAS and scale budgets on performing campaigns." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Retargeting ROI", description: "Retargeting people who have already visited your store consistently produces higher ROAS than prospecting campaigns to cold audiences. Adwisely focuses specifically on this high-return activity" },
+      { title: "Automation of Complex Campaigns", description: "Setting up and optimizing retargeting campaigns across Facebook, Instagram, and Google manually requires significant advertising expertise. Automation makes this accessible without expert knowledge" },
+      { title: "Dynamic Product Ads", description: "Showing visitors the exact products they viewed rather than generic store ads produces much higher click-through and conversion rates" },
+      { title: "Shopify Native Integration", description: "Deep Shopify integration that automatically syncs product catalogs and conversion data eliminates the manual work of keeping campaigns updated with store changes" }
+    ],
+    useCases: [
+      { title: "Shopify Store Owners", description: "E-commerce merchants on Shopify use Adwisely for automated retargeting that recovers revenue from store visitors who did not convert" },
+      { title: "E-commerce Marketing Teams", description: "Marketing teams at online retailers use Adwisely for efficient retargeting campaign management that maximizes return on ad spend" },
+      { title: "D2C Brands", description: "Direct-to-consumer brands use Adwisely for the retargeting infrastructure that keeps their brand top-of-mind with interested shoppers" }
+    ]
+  },
+  "dittto-ai": {
+    whatIs: "Dittto.ai is an AI tool that helps SaaS companies improve their website hero copy by analyzing successful competitor websites and generating better headline options. It researches how top companies in your space describe their product value and uses these insights to suggest stronger positioning statements and hero copy for your own website. For SaaS founders and marketers who know their product is good but struggle to articulate its value clearly on their homepage, Dittto provides data-informed copy optimization.",
+    features: [
+      "Hero Copy Analysis: Analyze competitor homepage copy for insights",
+      "Copy Generation: Generate stronger headline and subheading options",
+      "Competitor Research: Understand how top companies in your space position themselves",
+      "Value Proposition: Clarify and sharpen your product value proposition",
+      "A/B Test Variants: Generate multiple options for testing",
+      "SaaS Focused: Specifically designed for software company websites",
+      "Positioning Insights: Understand what messaging resonates in your market",
+      "Free to Try: Basic copy analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Dittto Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Product", description: "Sign up at dittto.ai and describe your SaaS product and the problem it solves. Include your target customer and key differentiators." },
+        { title: "Analyze Competitors", description: "Dittto researches how successful companies in your space describe similar products and identifies what messaging patterns are most effective." },
+        { title: "Get Your Copy Options", description: "Review the generated hero copy options informed by competitor analysis. Select the direction that best captures your product value and test it against your current copy." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Competitive Context", description: "Writing homepage copy without knowing how competitors describe similar products means missing the context that shapes buyer expectations and language" },
+      { title: "Hero Copy Impact", description: "The homepage hero section is often the most important copy on a website - it determines whether visitors understand your product in the first few seconds" },
+      { title: "Data-Informed Generation", description: "Copy informed by analysis of what works in your specific market is more likely to resonate than copy generated without this context" },
+      { title: "Positioning Clarity", description: "Many SaaS companies struggle to articulate their value clearly. The analysis and generation process helps founders achieve the clarity their website needs" }
+    ],
+    useCases: [
+      { title: "SaaS Founders", description: "Startup founders use Dittto to improve their homepage copy and ensure their product value is communicated clearly to visitors" },
+      { title: "SaaS Marketing Teams", description: "Marketing professionals at software companies use Dittto for data-informed homepage copy optimization" },
+      { title: "Growth Consultants", description: "Consultants working with SaaS companies use Dittto as part of their conversion rate optimization process" }
+    ]
+  },
+  "surgegraph": {
+    whatIs: "SurgeGraph is an AI-powered long-form content generation platform designed specifically for SEO content that ranks in search engines. It generates comprehensive articles optimized around specific keywords with proper structure, relevant subtopics, and SEO signals that improve search performance. The platform integrates keyword data to ensure generated content addresses search intent and includes the topics and terms that correlate with ranking well for target keywords.",
+    features: [
+      "Long-Form Content: Generate comprehensive SEO articles of 1500 plus words",
+      "Keyword Integration: Content built around specific target keywords",
+      "SERP Analysis: Research what top-ranking content covers",
+      "Semantic SEO: Include related terms and topics that improve rankings",
+      "Content Structure: Proper heading hierarchy for search optimization",
+      "Internal Linking: Suggestions for relevant internal links",
+      "Factual Content: AI that generates accurate informational content",
+      "Free Trial: Try SurgeGraph before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Surgegraph",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Keyword", description: "Sign up at surgegraph.io and enter the keyword you want to rank for. SurgeGraph analyzes the search results and identifies what comprehensive coverage requires." },
+        { title: "Generate Your Article", description: "SurgeGraph creates a complete long-form article covering the topic comprehensively. The content includes relevant subtopics, proper structure, and keyword integration." },
+        { title: "Publish and Rank", description: "Review and publish the generated content. Monitor ranking progress and use SurgeGraph to generate additional content that builds your topical authority." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Comprehensiveness for Rankings", description: "Search engines favor content that comprehensively covers a topic. Long-form articles that address all relevant subtopics outperform thin content regardless of other optimization" },
+      { title: "SERP Intelligence", description: "Understanding what content currently ranks reveals what you need to cover and how deeply. SurgeGraph integrates this intelligence into content generation" },
+      { title: "Semantic SEO Integration", description: "Modern search algorithms evaluate whether content covers related concepts not just the main keyword. Including semantically related terms improves ranking signals automatically" },
+      { title: "Production Speed", description: "Producing comprehensive 2000-plus word articles manually takes many hours. AI generation that produces quality long-form content quickly changes the economics of SEO content" }
+    ],
+    useCases: [
+      { title: "SEO Content Teams", description: "Teams producing large volumes of SEO content use SurgeGraph to maintain quality and comprehensiveness at production speed" },
+      { title: "Niche Website Builders", description: "People building content sites for organic traffic use SurgeGraph for comprehensive content that competes for rankings" },
+      { title: "Digital Marketing Agencies", description: "Agencies producing SEO content for clients use SurgeGraph to scale content production while maintaining the comprehensiveness that ranks" }
+    ]
+  },
+  "senuto": {
+    whatIs: "Senuto is a comprehensive SEO analytics and content planning platform popular particularly in the Polish and Central European market that provides keyword research, rank tracking, content planning, and competitor analysis tools. It helps SEO professionals and content marketers understand their search visibility, find keyword opportunities, and plan content that improves organic search performance. For SEO teams that need comprehensive search analytics with strong coverage of European markets, Senuto provides the data depth and planning tools their work requires.",
+    features: [
+      "Keyword Research: Find keyword opportunities with search volume and competition data",
+      "Rank Tracking: Monitor keyword rankings over time",
+      "Content Planner: Plan content based on keyword opportunities",
+      "Visibility Index: Track overall search visibility changes",
+      "Competitor Analysis: Compare your visibility against competitors",
+      "SERP Analysis: Understand who ranks for your target keywords",
+      "European Market Focus: Strong data coverage for Polish and European markets",
+      "Free Trial: Try Senuto before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Senuto",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Domain", description: "Sign up at senuto.com and add your website domain. Senuto begins tracking your keyword rankings and visibility immediately." },
+        { title: "Research Your Keywords", description: "Use the keyword research tools to find opportunities in your target market. Analyze search volume, competition, and seasonal patterns for potential target keywords." },
+        { title: "Plan Your Content", description: "Use the content planner to build a content strategy around the keyword opportunities you identify. Prioritize based on search volume and ranking achievability." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visibility Tracking", description: "Understanding how your overall search visibility changes over time provides context for individual keyword movements" },
+      { title: "European Market Data", description: "SEO platforms with strong European market data coverage provide more accurate insights for businesses targeting Polish and other Central European audiences" },
+      { title: "Content Planning Integration", description: "Connecting keyword research directly to content planning creates a workflow that ensures content effort is directed at actual search opportunities" },
+      { title: "Competitor Visibility Comparison", description: "Understanding how your search visibility compares to competitors in your market reveals the gap you need to close and the opportunities you can exploit" }
+    ],
+    useCases: [
+      { title: "Polish Market SEO Professionals", description: "SEO specialists focusing on the Polish market use Senuto for the strong local data coverage their work requires" },
+      { title: "Central European Digital Marketers", description: "Marketing teams serving Central European markets use Senuto for regional search intelligence" },
+      { title: "Content Marketing Teams", description: "Teams planning content strategies use Senuto for the keyword data and content planning tools that direct their efforts effectively" }
+    ]
+  },
   "glitching-ai": {
     whatIs: "Glitching AI is a creative image manipulation and art generation platform that applies glitch art effects, digital distortion, and experimental visual transformations to photos and images. It generates unique glitch aesthetic artwork that blends digital error aesthetics with creative expression. For digital artists and content creators who want to create distinctive visual content with a contemporary digital art aesthetic, Glitching AI provides accessible tools for glitch art creation.",
     features: [
