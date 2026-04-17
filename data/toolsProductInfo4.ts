@@ -1,4 +1,268 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "hubspot": {
+    whatIs: "HubSpot is a comprehensive CRM and marketing platform that helps businesses attract visitors, convert leads, and close customers through integrated marketing, sales, and service tools. It provides a free CRM at its core with paid hubs for marketing automation, sales pipeline management, customer service, and content management. HubSpot is particularly known for pioneering inbound marketing methodology and providing tools that align marketing and sales teams around shared customer data. For growing businesses that want an integrated platform that scales from startup to enterprise, HubSpot provides the connected tools that eliminate the data silos between marketing and sales.",
+    features: [
+      "Free CRM: Contact and deal management at no cost",
+      "Marketing Hub: Email marketing, automation, and lead generation",
+      "Sales Hub: Pipeline management and sales automation",
+      "Service Hub: Customer support and ticketing",
+      "Content Hub: Website and blog management",
+      "Marketing Automation: Sophisticated behavior-based email workflows",
+      "Analytics: Unified reporting across marketing and sales",
+      "Free Plan: Core CRM features without payment"
+    ],
+    howToUse: {
+      title: "How to Use Hubspot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your CRM", description: "Sign up at hubspot.com and import your contacts. The free CRM gives you immediate visibility into your contact database and deal pipeline." },
+        { title: "Connect Marketing and Sales", description: "Set up your marketing tools to capture leads and automatically route them to your sales pipeline. HubSpot tracks the full journey from first touch to closed deal." },
+        { title: "Automate Your Workflows", description: "Build automation workflows that nurture leads based on behavior, alert sales reps at the right time, and handle routine follow-up without manual intervention." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Inbound Marketing Foundation", description: "HubSpot pioneered the inbound marketing methodology and its tools are built around attracting and converting customers through valuable content rather than interruption marketing" },
+      { title: "Marketing and Sales Alignment", description: "When marketing and sales share the same CRM data, lead handoffs are smoother, attribution is clearer, and both teams work toward the same revenue goals" },
+      { title: "Scalable Platform", description: "Starting with the free CRM and adding paid hubs as the business grows means HubSpot can serve companies from first employees to thousands of customers without platform migration" },
+      { title: "Ecosystem Breadth", description: "The combination of marketing, sales, service, and content tools in one platform eliminates the integration complexity of using best-of-breed tools for each function" }
+    ],
+    useCases: [
+      { title: "Growing B2B Companies", description: "Mid-market businesses use HubSpot for the integrated platform that aligns their growing marketing and sales teams" },
+      { title: "Inbound Marketing Teams", description: "Content and demand generation teams use HubSpot for the marketing automation and analytics that power inbound strategies" },
+      { title: "Sales Teams Moving from Spreadsheets", description: "Sales organizations graduating from spreadsheet CRM use HubSpot for the structured pipeline management and automation that scales their process" }
+    ]
+  },
+  "tabsquare": {
+    whatIs: "TabSquare is an AI-powered restaurant technology platform that provides digital ordering, table management, and customer analytics for restaurants and food service businesses. It offers tableside ordering through QR codes and tablets, kitchen display systems, and AI-driven menu recommendations that increase average order values. For restaurants that want to modernize their operations and improve the dining experience through technology, TabSquare provides the integrated restaurant technology stack that drives both efficiency and revenue.",
+    features: [
+      "Digital Ordering: QR code and tablet-based tableside ordering",
+      "AI Recommendations: Smart menu suggestions that increase order values",
+      "Kitchen Display: Digital kitchen order management",
+      "Table Management: Real-time table status and reservation management",
+      "Customer Analytics: Understanding guest behavior and preferences",
+      "Loyalty Program: Customer retention and rewards management",
+      "POS Integration: Connects with existing point of sale systems",
+      "Free Demo: See TabSquare in action before committing"
+    ],
+    howToUse: {
+      title: "How to Use Tabsquare",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Deploy Digital Ordering", description: "Work with TabSquare to install their ordering system in your restaurant. Configure your menu, pricing, and ordering flow in the management dashboard." },
+        { title: "Enable AI Recommendations", description: "Activate the AI recommendation engine that suggests complementary items and upsells based on what guests are ordering and peak popularity data." },
+        { title: "Monitor and Optimize", description: "Review analytics on ordering patterns, popular items, and revenue per table. Use the insights to optimize your menu placement and promotional offers." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Average Order Value Improvement", description: "AI recommendations that suggest relevant additions at the moment of ordering consistently increase average check size compared to traditional ordering" },
+      { title: "Labor Efficiency", description: "Digital ordering that reduces server trips for taking orders allows front-of-house staff to focus on hospitality rather than order taking" },
+      { title: "Data-Driven Operations", description: "Restaurants that operate on intuition rather than data miss optimization opportunities. Customer analytics that reveal actual behavior enable informed menu and staffing decisions" },
+      { title: "Guest Experience", description: "Guests who can browse menus, customize orders, and pay at their own pace have more control over their dining experience" }
+    ],
+    useCases: [
+      { title: "Full-Service Restaurants", description: "Sit-down restaurants use TabSquare for tableside digital ordering that modernizes the dining experience" },
+      { title: "Restaurant Chains", description: "Multi-location restaurant groups use TabSquare for consistent technology deployment across their portfolio" },
+      { title: "Hotel Food and Beverage", description: "Hotel restaurants and room service operations use TabSquare for digital ordering that serves guests in multiple dining contexts" }
+    ]
+  },
+  "attio": {
+    whatIs: "Attio is a modern CRM platform built for flexibility and customization that allows teams to structure their customer data exactly the way their business works rather than conforming to rigid CRM conventions. It provides a collaborative workspace where teams build custom objects, properties, and views that match their specific sales and customer success processes. For teams that have outgrown basic CRMs but find enterprise CRMs too rigid and complex, Attio provides the flexibility of a custom database with the usability of a modern CRM.",
+    features: [
+      "Custom Data Model: Build CRM structure that matches your business",
+      "Flexible Objects: Create custom record types beyond contacts and companies",
+      "Collaborative Workspace: Team visibility into all customer interactions",
+      "Automation: Workflow automation for your specific processes",
+      "Integration: Connect with your existing tools and data sources",
+      "Reporting: Custom reports and dashboards for your metrics",
+      "API First: Powerful API for custom integrations",
+      "Free Trial: Try Attio before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Attio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Design Your Data Model", description: "Sign up at attio.com and design the data structure that matches your business - create custom objects, properties, and relationships that reflect how you actually work." },
+        { title: "Import Your Data", description: "Import your existing customer data and connect your communication tools. Attio pulls in email and calendar interactions automatically to enrich your records." },
+        { title: "Build Your Workflows", description: "Set up automation that matches your specific sales or customer success process. Attio flexibility means you are not forced into someone else idea of how CRM should work." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Flexibility Over Convention", description: "Standard CRMs assume all businesses have the same sales process. Attio flexibility to model any business process makes it genuinely fit the way each company works" },
+      { title: "Modern UX", description: "Legacy CRM interfaces require significant training and produce low adoption. Attio modern design produces higher team adoption than traditional CRM platforms" },
+      { title: "Collaborative Intelligence", description: "Shared visibility into all customer interactions means the whole team understands relationship history without relying on individual knowledge" },
+      { title: "Developer Friendly", description: "API-first architecture that makes custom integrations straightforward is essential for technical teams that want CRM data connected to their own systems" }
+    ],
+    useCases: [
+      { title: "Tech Startups and Scale-ups", description: "Growing technology companies use Attio for CRM that scales with their business without the rigidity of traditional enterprise CRM" },
+      { title: "Venture Capital and Investment Firms", description: "Investment teams use Attio for relationship and deal tracking that fits the specific workflows of investment management" },
+      { title: "Agencies and Professional Services", description: "Service businesses use Attio for client relationship management customized to their specific engagement and delivery processes" }
+    ]
+  },
+  "openphone": {
+    whatIs: "OpenPhone is a business phone system designed for startups and small teams that provides shared phone numbers, calling, and SMS through a modern app interface. It gives entire teams visibility into business calls and messages, allows multiple team members to share a single business number, and provides context about contacts before every conversation. For growing companies that need a professional business phone presence without the complexity of traditional phone systems, OpenPhone provides modern business communications that the whole team can use.",
+    features: [
+      "Shared Numbers: Team access to shared business phone numbers",
+      "Calling and SMS: Voice calls and text messaging in one app",
+      "Contact Context: See customer history before every call",
+      "Team Inbox: Shared visibility into all business communications",
+      "Auto Replies: Automated SMS responses for common situations",
+      "Call Recording: Record calls for quality and compliance",
+      "Integrations: Connect with HubSpot, Salesforce, and other tools",
+      "Free Trial: Try OpenPhone before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Openphone",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Get Your Number", description: "Sign up at openphone.com and choose your business phone number. Invite your team members so everyone has access to the shared inbox." },
+        { title: "Handle Your Communications", description: "Make calls and send SMS directly from the OpenPhone app on desktop or mobile. See contact history and notes before every conversation." },
+        { title: "Set Up Automation", description: "Configure auto-replies for common questions, set business hours for call routing, and connect OpenPhone to your CRM for automatic contact syncing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Team Visibility", description: "Individual business phones create information silos where important customer conversations are invisible to the rest of the team. Shared inboxes give everyone context" },
+      { title: "Contact Intelligence", description: "Knowing who is calling and seeing their history before picking up makes every conversation more informed and professional" },
+      { title: "Modern Interface", description: "Legacy business phone systems are complex to manage and unpleasant to use. OpenPhone app-based experience matches how modern teams actually communicate" },
+      { title: "Startup Appropriate Scale", description: "Traditional phone systems require IT setup and long contracts. OpenPhone scales from one person to a team without friction" }
+    ],
+    useCases: [
+      { title: "Startups and Small Teams", description: "Early-stage companies use OpenPhone for professional business phone presence that the whole small team can manage together" },
+      { title: "Customer-Facing Teams", description: "Sales and support teams use OpenPhone for the shared inbox and contact context that makes customer conversations better" },
+      { title: "Remote Teams", description: "Distributed teams use OpenPhone for business communications that work from anywhere without physical office phone infrastructure" }
+    ]
+  },
+  "convoso": {
+    whatIs: "Convoso is an AI-powered contact center and outbound calling platform that helps sales and customer service teams increase contact rates and agent productivity. It uses AI-driven dialing, predictive algorithms, and local presence technology to improve the likelihood that called numbers are answered. The platform also provides agent coaching tools, call analytics, and compliance features for high-volume outbound calling operations. For call centers and sales teams that do significant outbound calling, Convoso provides the technology that makes every dial more likely to result in a conversation.",
+    features: [
+      "AI Dialing: Intelligent dialing that maximizes contact rates",
+      "Predictive Dialer: Automatically dials the next number as agents finish calls",
+      "Local Presence: Show local area codes to improve answer rates",
+      "Agent Coaching: Real-time guidance for call center agents",
+      "Compliance Tools: TCPA and DNC list management",
+      "Call Analytics: Detailed performance reporting for teams and agents",
+      "CRM Integration: Connects with Salesforce and other CRM platforms",
+      "Free Demo: See Convoso before committing"
+    ],
+    howToUse: {
+      title: "How to Use Convoso",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Configure Your Campaigns", description: "Work with Convoso to set up your outbound calling campaigns. Configure dialing modes, call lists, and compliance settings for your specific use case." },
+        { title: "Train Your Agents", description: "Onboard agents to the platform and configure coaching tools. Use call monitoring and recording for quality assurance and performance improvement." },
+        { title: "Optimize with Analytics", description: "Review campaign performance data to understand contact rates, conversion rates, and agent performance. Continuously optimize based on what the data shows." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Contact Rate Improvement", description: "The biggest challenge in outbound calling is getting people to answer. AI dialing and local presence technology that improves answer rates directly improves the economics of outbound sales" },
+      { title: "Agent Productivity", description: "Predictive dialing that eliminates agent wait time between calls significantly increases the number of conversations each agent has per hour" },
+      { title: "Compliance Management", description: "TCPA violations from improper outbound calling carry significant legal risk. Built-in compliance tools reduce this risk without requiring separate management" },
+      { title: "Data-Driven Optimization", description: "Call center operations that run on data rather than intuition identify performance problems and optimization opportunities that anecdotal management misses" }
+    ],
+    useCases: [
+      { title: "Outbound Sales Call Centers", description: "High-volume outbound sales operations use Convoso for the dialing technology and agent productivity tools that maximize their calling ROI" },
+      { title: "Lead Generation Companies", description: "Businesses that generate leads through outbound calling use Convoso for the contact rates and compliance features their operations require" },
+      { title: "Insurance and Financial Services", description: "Regulated industries that do significant phone outreach use Convoso for the compliance tools that protect them from legal exposure" }
+    ]
+  },
+  "justcall": {
+    whatIs: "JustCall is a cloud-based business phone system that provides calling, SMS, and voicemail for sales and customer support teams with deep integrations into CRM and helpdesk platforms. It gives teams local phone numbers in over 70 countries, call recording, analytics, and AI-powered features including call transcription and coaching. For sales and support teams that need a reliable cloud phone system integrated with their existing tools, JustCall provides the communications infrastructure that fits naturally into their workflow.",
+    features: [
+      "Cloud Phone System: Business calling from any device",
+      "70 Plus Countries: Local numbers in international markets",
+      "CRM Integration: Deep integration with Salesforce, HubSpot, and others",
+      "Call Recording: Automatic recording with transcription",
+      "SMS Campaigns: Business SMS for sales and marketing outreach",
+      "AI Coaching: Real-time agent coaching and call analysis",
+      "Analytics: Team and individual performance reporting",
+      "Free Trial: Try JustCall before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Justcall",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Numbers", description: "Sign up at justcall.io and get phone numbers for the countries you operate in. Connect your CRM so contacts sync automatically." },
+        { title: "Make Integrated Calls", description: "Call customers directly from your CRM with one click. JustCall logs all calls, recordings, and notes back to your CRM automatically." },
+        { title: "Analyze and Coach", description: "Review team performance analytics and use call recordings and AI analysis for coaching conversations that improve agent performance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "CRM Integration Depth", description: "Phone systems that require manual CRM entry waste sales rep time and produce incomplete records. Deep integrations that log everything automatically maintain data quality without effort" },
+      { title: "International Coverage", description: "Local numbers in 70 plus countries that make international businesses appear local to their customers improve answer rates and professional perception" },
+      { title: "AI Transcription Value", description: "Searchable call transcriptions that capture what was said in every conversation provide intelligence that listening to recordings manually cannot scale to" },
+      { title: "Coaching Infrastructure", description: "Sales and support managers who coach based on actual call recordings and AI analysis produce better performing teams than those who rely on anecdotal observation" }
+    ],
+    useCases: [
+      { title: "Inside Sales Teams", description: "B2B sales teams use JustCall for CRM-integrated calling that keeps their activity data organized automatically" },
+      { title: "Customer Support Centers", description: "Support teams use JustCall for the call routing, recording, and analytics that improve service quality" },
+      { title: "International Businesses", description: "Companies with global customer bases use JustCall for local presence in multiple countries from one phone platform" }
+    ]
+  },
+  "bland-ai": {
+    whatIs: "Bland AI is an AI phone calling platform that makes and receives phone calls autonomously using conversational AI. It handles phone conversations with the naturalness of a human agent, following scripts, answering questions, qualifying leads, and booking appointments without human intervention. The platform is used for outbound sales calls, appointment scheduling, lead qualification, and customer service at scale. For businesses that need to make or receive large volumes of phone calls but cannot staff proportional call center teams, Bland AI provides autonomous phone AI that handles conversations intelligently.",
+    features: [
+      "Autonomous Calling: AI makes and receives phone calls independently",
+      "Natural Conversation: Human-like conversational ability on phone calls",
+      "Outbound Campaigns: Make thousands of calls automatically",
+      "Appointment Booking: Schedule meetings through automated calls",
+      "Lead Qualification: Qualify inbound and outbound leads by phone",
+      "Custom Scripts: Train the AI on your specific call scripts and responses",
+      "CRM Integration: Log call outcomes and data to your CRM",
+      "API Access: Integrate phone AI into your own applications"
+    ],
+    howToUse: {
+      title: "How to Use Bland Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Design Your Call Script", description: "Sign up at bland.ai and create the conversation flow for your use case - outbound sales, appointment scheduling, or inbound support." },
+        { title: "Configure and Test", description: "Train the AI on your specific scripts, company information, and how to handle common objections or questions. Test calls internally before going live." },
+        { title: "Launch and Scale", description: "Launch your AI calling campaigns and monitor performance. Scale to thousands of calls simultaneously without hiring additional staff." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Scale Without Staff", description: "Phone outreach that requires human agents is limited by the number of agents you can hire. AI that makes calls autonomously scales to any volume without proportional staffing costs" },
+      { title: "Consistency", description: "Human agents have good days and bad days. AI calling agents deliver consistent performance on every call regardless of time of day or call volume" },
+      { title: "24 7 Availability", description: "AI calling that works around the clock handles calls at hours when human agents are not available without overtime costs" },
+      { title: "Cost Economics", description: "The cost per call from AI agents is a fraction of human agent costs at scale, fundamentally changing the economics of phone outreach" }
+    ],
+    useCases: [
+      { title: "Sales Development Teams", description: "Sales organizations use Bland AI for high-volume outbound prospecting and lead qualification that scales beyond human SDR capacity" },
+      { title: "Healthcare and Appointment-Based Businesses", description: "Medical practices and service businesses use Bland AI for appointment confirmation and scheduling automation" },
+      { title: "Real Estate and Financial Services", description: "Lead-intensive industries use Bland AI for initial lead qualification calls that filter prospects before human agent follow-up" }
+    ]
+  },
+  "chaport": {
+    whatIs: "Chaport is a customer messaging and live chat platform that helps businesses communicate with website visitors and customers through live chat, chatbots, and multi-channel messaging. It provides a simple, clean chat widget for websites alongside a shared team inbox, chatbot builder, and integrations with popular messaging apps. For small and medium businesses that want to add professional live chat to their website without complex setup, Chaport provides accessible customer messaging with a straightforward interface.",
+    features: [
+      "Live Chat: Real-time chat with website visitors",
+      "Chatbot Builder: Create automated chat flows without coding",
+      "Multi-Channel: Chat, email, and social messaging in one inbox",
+      "Team Inbox: Shared access for customer service teams",
+      "Visitor Monitoring: See who is on your website in real time",
+      "Auto Invitations: Proactively chat with visitors based on behavior",
+      "Mobile App: Respond to chats from mobile devices",
+      "Free Plan: Basic live chat without payment"
+    ],
+    howToUse: {
+      title: "How to Use Chaport",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Chat Widget", description: "Sign up at chaport.com and install the chat widget on your website. The widget is live and accepting chats within minutes of installation." },
+        { title: "Set Up Your Chatbot", description: "Create automated chat flows for common questions using the visual chatbot builder. Configure greetings and automatic responses for when agents are offline." },
+        { title: "Manage Your Conversations", description: "Handle incoming chats from the Chaport inbox. Assign conversations to team members and track response times and customer satisfaction." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Immediate Website Engagement", description: "Website visitors who can chat instantly are more likely to convert than those who must wait for email responses. Live chat that connects immediately captures interest at its peak" },
+      { title: "Chatbot Coverage", description: "After-hours and high-volume periods need automated coverage. Chatbots that handle common questions maintain responsiveness when live agents are not available" },
+      { title: "Simplicity Value", description: "Complex live chat platforms require significant setup and training. Chaport straightforward interface gets teams up and running quickly without technical expertise" },
+      { title: "Proactive Engagement", description: "Reaching out to visitors who have been browsing key pages rather than waiting for them to initiate contact increases engagement opportunities" }
+    ],
+    useCases: [
+      { title: "Small Business Websites", description: "Small businesses use Chaport for professional live chat that improves customer engagement without complex enterprise chat infrastructure" },
+      { title: "E-commerce Stores", description: "Online retailers use Chaport for customer support chat that helps shoppers through purchase decisions" },
+      { title: "SaaS Companies", description: "Software businesses use Chaport for customer support and sales chat that helps users and converts trial users to paying customers" }
+    ]
+  },
   "adcreative-ai": {
     whatIs: "AdCreative.ai is an AI-powered advertising creative platform that generates high-converting ad creatives for social media and display advertising. It uses AI trained on millions of high-performing ads to produce banner images, social media creatives, and ad copy that are statistically more likely to convert than generic designs. The platform connects to your brand assets and generates multiple creative variations for A/B testing. For performance marketers who need large volumes of ad creative without a design team, AdCreative.ai provides AI-generated creatives optimized for conversion.",
     features: [
