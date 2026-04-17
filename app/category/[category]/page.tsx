@@ -5,6 +5,32 @@ import Footer from "@/components/Footer";
 import { toolsData, Tool } from "@/data/toolsData";
 import { categoriesData } from "@/data/categoriesData";
 
+export async function generateMetadata({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ category: string }>;
+  searchParams: Promise<{ sub?: string }>;
+}) {
+  const { category } = await params;
+  const { sub } = await searchParams;
+  const categoryInfo = (categoriesData as any)[category];
+  const categoryTitle = categoryInfo?.title || category.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+
+  if (sub) {
+    const subTitle = sub.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+    return {
+      title: subTitle + " AI Tools | " + categoryTitle + " | AI Tools Prime",
+      description: "Browse the best " + subTitle + " AI tools in the " + categoryTitle + " category. Find and compare top AI tools.",
+    };
+  }
+
+  return {
+    title: categoryTitle + " AI Tools | AI Tools Prime",
+    description: "Browse the best " + categoryTitle + " AI tools. Find and compare top AI tools in this category.",
+  };
+}
+
 export default async function CategoryPage({
   params,
   searchParams,
