@@ -1,4 +1,268 @@
 export const toolsProductInfo3: { [key: string]: any } = {
+  "outreach": {
+    whatIs: "Outreach is a sales execution platform that helps sales teams manage their outreach sequences, track engagement, and optimize their sales process through AI-powered insights. It provides sequence automation for email and call outreach, meeting scheduling, and conversation intelligence that helps reps understand what is working and what is not. For enterprise sales teams that need systematic outreach management and coaching at scale, Outreach provides the infrastructure that keeps large sales teams executing consistently.",
+    features: [
+      "Sales Sequences: Automated multi-step email and call outreach sequences",
+      "Meeting Scheduling: Automated meeting booking integrated with sequences",
+      "AI Insights: Intelligence on what outreach approaches work best",
+      "Pipeline Management: Track deals through the sales pipeline",
+      "Conversation Intelligence: Analysis of calls and meetings",
+      "CRM Integration: Deep Salesforce and CRM synchronization",
+      "Coaching Tools: Manager visibility into rep activity and performance",
+      "Enterprise Grade: Built for large sales team deployment"
+    ],
+    howToUse: {
+      title: "How to Use Outreach",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Sequences", description: "Sign up at outreach.io and create your outreach sequences. Define the steps, timing, and messaging for your email and call cadences." },
+        { title: "Enroll Your Prospects", description: "Add prospects to appropriate sequences based on their profile and stage. Outreach manages the timing and tracks engagement automatically." },
+        { title: "Optimize with Data", description: "Review sequence performance data and AI insights to understand what messaging and timing produces the best response rates. Continuously improve based on what the data shows." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sequence Consistency", description: "Sales reps who manage their own outreach manually execute inconsistently. Sequences that automate the cadence ensure every prospect gets systematic follow-up" },
+      { title: "Manager Visibility", description: "Sales managers who cannot see what their reps are doing cannot coach effectively. Outreach provides the activity visibility that makes evidence-based coaching possible" },
+      { title: "Response Rate Intelligence", description: "Understanding which subject lines, messages, and timing produce responses allows continuous improvement of outreach effectiveness" },
+      { title: "Enterprise Scale", description: "Managing outreach for large sales teams requires platform infrastructure that personal tools and spreadsheets cannot provide" }
+    ],
+    useCases: [
+      { title: "Enterprise Sales Development Teams", description: "Large SDR teams use Outreach for consistent, managed outreach execution across hundreds of reps" },
+      { title: "Account Executive Teams", description: "AEs use Outreach for systematic follow-up and pipeline management" },
+      { title: "Sales Operations", description: "RevOps teams use Outreach to define and enforce the sales process across the organization" }
+    ]
+  },
+  "seismic": {
+    whatIs: "Seismic is a sales enablement platform that helps sales teams find the right content, personalize it for specific buyers, and understand what content actually drives deals forward. It provides a centralized content library, AI-powered content recommendations based on deal context, and analytics that show which content influences buyer decisions. For large sales organizations that produce significant content but struggle to get it used effectively by reps, Seismic solves the content-to-seller gap.",
+    features: [
+      "Content Library: Centralized repository for all sales and marketing content",
+      "AI Recommendations: Suggests relevant content based on deal context",
+      "Content Personalization: Customize content for specific buyers and industries",
+      "Analytics: Track which content is used and influences deal outcomes",
+      "Learning Management: Sales training and onboarding content delivery",
+      "CRM Integration: Content recommendations inside Salesforce",
+      "Buyer Engagement: Track how buyers interact with shared content",
+      "Enterprise Scale: Built for large organization deployment"
+    ],
+    howToUse: {
+      title: "How to Use Seismic",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Organize Your Content", description: "Work with Seismic to organize your sales and marketing content library. Tag content by use case, buyer persona, industry, and sales stage." },
+        { title: "Enable Your Reps", description: "Sales reps access Seismic through Salesforce or the Seismic app to find relevant content for their specific deals. AI recommendations surface the most relevant materials." },
+        { title: "Measure Content Impact", description: "Analytics show which content is being used, which is being ignored, and which correlates with won deals. Use this data to improve your content strategy." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content Discovery Problem", description: "Sales reps spend significant time searching for content or creating their own because they cannot find what they need. Centralized search and AI recommendations solve this" },
+      { title: "Content Effectiveness Intelligence", description: "Marketing teams that produce content rarely know if it actually helps close deals. Analytics that connect content usage to deal outcomes enable data-driven content strategy" },
+      { title: "Personalization at Scale", description: "Generic content performs worse than personalized content in competitive sales situations. Tools that make personalization fast enable reps to do it consistently" },
+      { title: "Onboarding Acceleration", description: "New sales reps who can quickly find relevant content and understand what works ramp faster than those who learn through trial and error" }
+    ],
+    useCases: [
+      { title: "Enterprise Sales Teams", description: "Large sales organizations use Seismic for the content management and enablement infrastructure that keeps distributed teams consistently equipped" },
+      { title: "Marketing Teams", description: "Content marketers use Seismic analytics to understand which content investments actually support revenue" },
+      { title: "Sales Enablement Teams", description: "Enablement professionals use Seismic as their primary platform for content, training, and sales support delivery" }
+    ]
+  },
+  "dialpad": {
+    whatIs: "Dialpad is an AI-powered business communications platform that provides cloud phone, video meetings, and messaging with built-in AI features including real-time transcription, sentiment analysis, and coaching. Its AI assistant takes notes during calls automatically, surfaces relevant information in real time, and provides post-call summaries. For businesses that want modern cloud communications with AI intelligence built in rather than added on, Dialpad provides a unified communications platform that makes every conversation more productive.",
+    features: [
+      "Cloud Phone: Business phone system that works from any device",
+      "AI Transcription: Real-time call transcription and note-taking",
+      "Sentiment Analysis: Live sentiment tracking during customer calls",
+      "AI Coaching: Real-time suggestions for sales and support reps",
+      "Video Meetings: Integrated video conferencing with AI features",
+      "Messaging: Team and customer messaging in one platform",
+      "CRM Integration: Syncs call data and transcripts with CRM systems",
+      "Free Trial: Try Dialpad before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Dialpad",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Numbers", description: "Sign up at dialpad.com and port your existing numbers or get new ones. Install the app on desktop and mobile for anywhere access." },
+        { title: "Make AI-Enhanced Calls", description: "Make calls through Dialpad and the AI transcribes in real time, takes notes automatically, and tracks sentiment. Focus on the conversation while AI handles documentation." },
+        { title: "Review and Act", description: "After calls, review the AI-generated summary and action items. Sync the transcript and notes to your CRM automatically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Documentation Without Effort", description: "Manual call notes are incomplete and inconsistent. AI transcription that captures everything automatically produces better records with less effort" },
+      { title: "Real-Time Coaching Value", description: "Suggestions that appear during live calls help reps respond better in the moment rather than learning from post-call feedback alone" },
+      { title: "Unified Communications", description: "Having phone, video, and messaging in one platform with shared AI features reduces the tool complexity of business communications" },
+      { title: "Sentiment Intelligence", description: "Live sentiment tracking that alerts managers when customer calls turn negative enables real-time intervention before customers become frustrated" }
+    ],
+    useCases: [
+      { title: "Sales Teams", description: "Sales organizations use Dialpad for AI-enhanced call intelligence that improves rep performance and pipeline visibility" },
+      { title: "Customer Support Teams", description: "Support departments use Dialpad for AI transcription and sentiment analysis that improves service quality and coaching" },
+      { title: "Remote and Hybrid Teams", description: "Distributed teams use Dialpad for unified cloud communications that work consistently regardless of location" }
+    ]
+  },
+  "callhippo": {
+    whatIs: "CallHippo is a cloud-based virtual phone system for businesses that provides local and international phone numbers, call routing, IVR, and call analytics. It helps businesses establish professional phone presence in multiple countries, manage call center operations, and track call performance. For businesses that need to support customers across multiple geographies or run inbound and outbound call operations, CallHippo provides the virtual phone infrastructure without physical hardware requirements.",
+    features: [
+      "Virtual Phone Numbers: Local numbers in 50 plus countries",
+      "IVR System: Automated phone menu and call routing",
+      "Call Recording: Record and store calls for quality review",
+      "Call Analytics: Track call volume, duration, and team performance",
+      "Power Dialer: Automated outbound calling for sales teams",
+      "CRM Integration: Sync call data with popular CRM systems",
+      "Mobile App: Make and receive calls from mobile devices",
+      "Free Trial: Try CallHippo before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Callhippo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Get Your Numbers", description: "Sign up at callhippo.com and select virtual phone numbers for the countries you want to support. Numbers are active immediately without hardware setup." },
+        { title: "Configure Your System", description: "Set up your IVR menu, call routing rules, and team assignments. Configure business hours and voicemail for professional call handling." },
+        { title: "Monitor and Improve", description: "Track call analytics to understand volume patterns, team performance, and customer wait times. Use call recordings for quality assurance and coaching." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Global Presence Without Offices", description: "Local phone numbers in target markets build customer trust and reduce call hesitation without requiring physical offices in each country" },
+      { title: "Professional Call Handling", description: "IVR systems and call routing that handle calls professionally even for small teams create enterprise-quality phone experiences" },
+      { title: "Analytics Visibility", description: "Understanding call volume patterns, peak times, and team performance enables staffing and process decisions that improve customer service" },
+      { title: "Cost vs Traditional", description: "Virtual phone systems at a fraction of traditional PBX costs make professional call infrastructure accessible to businesses of all sizes" }
+    ],
+    useCases: [
+      { title: "Sales Teams Doing Outbound", description: "Sales organizations use CallHippo for power dialing and CRM-integrated calling that increases outbound productivity" },
+      { title: "Customer Support Teams", description: "Support departments use CallHippo for multi-country phone support with professional call handling and quality monitoring" },
+      { title: "Remote Teams Needing Phone Presence", description: "Distributed teams use CallHippo for professional business phone numbers without physical office phone systems" }
+    ]
+  },
+  "respond-io": {
+    whatIs: "Respond.io is a customer conversation management platform that unifies messaging from WhatsApp, Instagram, Facebook Messenger, Telegram, and other channels into one inbox for business teams. It provides AI-powered routing, automated responses, and workflow automation for managing high volumes of customer conversations across multiple messaging platforms. For businesses that receive customer inquiries through many different messaging channels, Respond.io provides the unified inbox and automation that makes multi-channel messaging manageable.",
+    features: [
+      "Unified Inbox: All messaging channels in one place",
+      "WhatsApp Business API: Official WhatsApp integration for business",
+      "AI Routing: Automatically route conversations to the right team",
+      "Workflow Automation: Automate repetitive conversation handling",
+      "Multiple Channels: Instagram, Telegram, Facebook, and more",
+      "Team Collaboration: Assign and collaborate on conversations",
+      "CRM Integration: Sync customer data with your CRM",
+      "Free Plan: Basic multi-channel inbox without payment"
+    ],
+    howToUse: {
+      title: "How to Use Respond Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Channels", description: "Sign up at respond.io and connect your messaging channels - WhatsApp, Instagram, Facebook Messenger, and others. All conversations flow into one unified inbox." },
+        { title: "Set Up Automation", description: "Configure routing rules, automated responses for common questions, and workflow automation for your conversation management process." },
+        { title: "Manage and Scale", description: "Handle all customer conversations from one inbox with your team. Use analytics to understand volume patterns and optimize your response operations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Channel Fragmentation Solution", description: "Businesses that receive messages on five different platforms cannot manage them efficiently from five separate apps. A unified inbox that consolidates everything makes multi-channel support practical" },
+      { title: "WhatsApp Scale", description: "WhatsApp Business API access for high-volume messaging requires specialized infrastructure. Respond.io provides this without custom development" },
+      { title: "Automation Necessity", description: "High message volumes require automation for routing, initial responses, and common queries. Manual handling at scale is operationally impossible" },
+      { title: "Team Coordination", description: "Customer conversations that multiple team members can see and collaborate on produce faster, more consistent responses than siloed individual inboxes" }
+    ],
+    useCases: [
+      { title: "E-commerce Customer Service", description: "Online retailers use Respond.io for customer support across WhatsApp, Instagram, and other channels where their customers message" },
+      { title: "Sales Teams Using Messaging", description: "Sales organizations use Respond.io for lead conversations and follow-up across multiple messaging platforms" },
+      { title: "Support Teams Managing High Volume", description: "Customer service teams use Respond.io to handle large volumes of messaging inquiries efficiently with automation and team collaboration" }
+    ]
+  },
+  "tome": {
+    whatIs: "Tome is an AI-powered storytelling and presentation platform that generates complete narrative presentations from a prompt. Unlike traditional presentation builders where you assemble slides manually, Tome creates entire presentations with structure, content, and design from a single description. It is designed for creating compelling narrative stories and presentations quickly, with an emphasis on visual storytelling rather than bullet-point heavy slides. For professionals who need to create presentations quickly that communicate complex ideas clearly, Tome provides AI-native presentation creation.",
+    features: [
+      "AI Generation: Create complete presentations from a single prompt",
+      "Narrative Focus: Design for storytelling rather than bullet points",
+      "Beautiful Design: Visually compelling layouts generated automatically",
+      "Multimedia Integration: Embed video, data, and interactive elements",
+      "Real-Time Collaboration: Multiple people editing simultaneously",
+      "AI Image Generation: Create custom images for your presentation",
+      "Analytics: Track who views your presentations",
+      "Free Plan: Basic presentation creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Tome",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Presentation", description: "Sign up at tome.app and describe what you want to present - your topic, audience, and key message. Be specific about the story you want to tell." },
+        { title: "Review AI Output", description: "Tome generates a complete presentation with structure, content, and design. Review each page and identify what needs to be customized for your specific context." },
+        { title: "Refine and Share", description: "Edit the generated content to add your specific data, examples, and voice. Share via link and track who views it." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Generation Speed", description: "Creating a complete presentation from scratch takes hours. AI generation that produces a complete draft in minutes changes the economics of presentation creation" },
+      { title: "Narrative Quality", description: "Presentations that tell a compelling story are more persuasive than slide decks full of bullet points. Tome is designed around narrative structure rather than information dumping" },
+      { title: "Visual Quality", description: "AI-generated design that looks genuinely good without design skills makes professional visual presentations accessible to everyone" },
+      { title: "Multimedia Integration", description: "Modern presentations that embed video, live data, and interactive elements communicate more effectively than static slides" }
+    ],
+    useCases: [
+      { title: "Startup Founders", description: "Founders use Tome for investor narratives and company story presentations that need to be compelling and quickly created" },
+      { title: "Consultants and Strategists", description: "Consultants use Tome for client presentations that communicate complex ideas clearly and visually" },
+      { title: "Marketing Teams", description: "Marketing professionals use Tome for campaign narratives and internal strategy presentations" }
+    ]
+  },
+  "autoresponder-ai": {
+    whatIs: "AutoResponder.ai is an AI-powered automatic reply platform for WhatsApp, Instagram, Facebook Messenger, and Telegram that responds to incoming messages automatically based on rules and AI understanding. It allows businesses and individuals to set up smart automated responses that handle common questions, provide information, and route conversations without requiring constant manual attention. For businesses with high messaging volumes who cannot respond to every message instantly, AutoResponder.ai provides intelligent automation that maintains responsiveness.",
+    features: [
+      "WhatsApp Auto Reply: Automatic responses to WhatsApp messages",
+      "AI Understanding: Smart responses based on message content",
+      "Multiple Platforms: Works with Instagram, Messenger, and Telegram",
+      "Custom Rules: Set specific responses for specific keywords or questions",
+      "Business Hours: Different responses during and outside business hours",
+      "No Coding: Set up automations without technical skills",
+      "Instant Response: Immediate replies to customer messages",
+      "Free Trial: Try AutoResponder before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Autoresponder Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Accounts", description: "Sign up at autoresponder.ai and connect your WhatsApp, Instagram, or other messaging accounts to the platform." },
+        { title: "Set Up Your Responses", description: "Create automated responses for common questions. Use keyword triggers for specific topics and AI understanding for more complex message handling." },
+        { title: "Monitor and Refine", description: "Review how your automated responses are performing and refine rules based on what questions actually come in from your customers." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Response Speed", description: "Customers who message businesses expect quick responses. Automated replies that acknowledge and respond immediately maintain the responsiveness that messaging expectations require" },
+      { title: "After Hours Coverage", description: "Businesses that cannot staff messaging around the clock use AutoResponder to maintain responsiveness outside business hours" },
+      { title: "Volume Management", description: "High message volumes that exceed manual response capacity are made manageable through automation that handles common queries without human intervention" },
+      { title: "Consistency", description: "Automated responses that always say the right thing are more consistent than human responses that vary with individual rep knowledge and mood" }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Business owners who cannot monitor messages constantly use AutoResponder for automatic replies that keep customers informed" },
+      { title: "E-commerce Businesses", description: "Online retailers use AutoResponder for order inquiry automation and customer service on messaging platforms" },
+      { title: "Service Businesses", description: "Service providers use AutoResponder for appointment inquiry handling and business information responses" }
+    ]
+  },
+  "bizplanner-ai": {
+    whatIs: "BizPlanner AI is an AI-powered business planning platform that helps entrepreneurs and small business owners create comprehensive business plans quickly. It guides users through each section of a business plan with AI assistance, generates financial projections, and produces professionally formatted documents suitable for bank loans and investor presentations. For first-time business plan writers who are not sure what a complete business plan requires, BizPlanner AI provides the structure and assistance that makes the process manageable.",
+    features: [
+      "AI Business Plan Writing: AI assistance for every business plan section",
+      "Financial Projections: Automated revenue and expense forecasting",
+      "Professional Format: Plans formatted for banks and investors",
+      "Industry Templates: Templates tailored to specific business types",
+      "Executive Summary: AI-generated executive summary from your plan",
+      "Export Options: Download in PDF and Word formats",
+      "Step-by-Step Guidance: Walk through each section systematically",
+      "Free Trial: Start your business plan before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Bizplanner Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Business Type", description: "Sign up at bizplanner.ai and select your business type or industry. The platform customizes the plan structure and questions for your specific business context." },
+        { title: "Complete Each Section", description: "Work through each business plan section with AI assistance. Answer questions about your business and the AI helps develop each section into professional plan content." },
+        { title: "Generate and Export", description: "Review your completed plan and generate financial projections. Export the finished document in your required format for loan applications or investor review." }
+      ]
+    },
+    coreFeatures: [
+      { title: "First-Timer Support", description: "Most entrepreneurs write their first business plan without guidance and produce incomplete or poorly structured documents. BizPlanner AI provides the structure and assistance that produces complete professional plans" },
+      { title: "Financial Projection Accessibility", description: "Creating realistic financial projections is one of the hardest parts of business planning for non-finance entrepreneurs. AI that generates reasonable projections from business inputs makes this accessible" },
+      { title: "Lender Requirements", description: "Banks and SBA lenders have specific requirements for business plan content and format. Plans that meet these requirements without requiring the applicant to know them in advance improve loan application outcomes" },
+      { title: "Speed to Completion", description: "Business plans that take weeks to complete manually can be produced in days with AI assistance, which matters when funding opportunities have deadlines" }
+    ],
+    useCases: [
+      { title: "Entrepreneurs Applying for Loans", description: "Small business owners seeking bank loans or SBA financing use BizPlanner AI to produce the complete business plans lenders require" },
+      { title: "First-Time Business Owners", description: "People starting their first business use BizPlanner AI to understand what a business plan requires and produce a professional document" },
+      { title: "Franchise Buyers", description: "People purchasing franchises use BizPlanner AI for the financing business plans their franchise purchase requires" }
+    ]
+  },
   "popl": {
     whatIs: "Popl is a digital business card and networking platform that lets professionals share their contact information, social profiles, and links instantly through NFC technology, QR codes, and links. Instead of exchanging paper business cards, Popl users tap their phone or card to share a complete digital profile. The platform also provides team features for businesses that want consistent digital card deployment across their organization.",
     features: [
