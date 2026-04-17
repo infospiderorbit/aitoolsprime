@@ -1,4 +1,268 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "adcreative-ai": {
+    whatIs: "AdCreative.ai is an AI-powered advertising creative platform that generates high-converting ad creatives for social media and display advertising. It uses AI trained on millions of high-performing ads to produce banner images, social media creatives, and ad copy that are statistically more likely to convert than generic designs. The platform connects to your brand assets and generates multiple creative variations for A/B testing. For performance marketers who need large volumes of ad creative without a design team, AdCreative.ai provides AI-generated creatives optimized for conversion.",
+    features: [
+      "AI Ad Generation: Create high-converting ad creatives automatically",
+      "Conversion Optimization: AI trained on successful ads for better performance",
+      "Brand Integration: Apply your brand colors, fonts, and logos automatically",
+      "Multiple Formats: Creatives sized for all major ad platforms",
+      "Bulk Generation: Produce many creative variations simultaneously",
+      "A/B Testing: Multiple variations for split testing campaigns",
+      "Copy Generation: AI-written ad copy alongside visual creatives",
+      "Free Trial: Try AdCreative.ai before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Adcreative Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Brand", description: "Sign up at adcreative.ai and upload your brand assets - logo, colors, and fonts. AdCreative.ai applies these to all generated creatives automatically." },
+        { title: "Generate Your Creatives", description: "Enter your product details and campaign goals. AdCreative.ai generates multiple creative variations optimized for conversion based on AI analysis of high-performing ads." },
+        { title: "Test and Scale", description: "Launch your generated creatives and A/B test different variations. Scale spending on the best-performing creatives and generate new variations based on what works." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversion-Trained AI", description: "Generic AI image generation produces aesthetically pleasing but not necessarily conversion-optimized creatives. AdCreative.ai is specifically trained on ad performance data which produces creatives more likely to drive results" },
+      { title: "Creative Volume", description: "Performance marketing requires many creative variations for testing. AI that generates dozens of variations quickly enables the testing volume that continuously improves campaign performance" },
+      { title: "Brand Consistency at Scale", description: "Maintaining brand consistency across hundreds of ad creatives manually is difficult. Automatic brand asset application ensures every generated creative is on-brand" },
+      { title: "Design Team Alternative", description: "Building an in-house design team for ad creative production is expensive. AI creative generation provides comparable output at a fraction of the cost" }
+    ],
+    useCases: [
+      { title: "Performance Marketing Teams", description: "Paid advertising specialists use AdCreative.ai for high-volume creative generation that feeds their testing and optimization workflows" },
+      { title: "E-commerce Brands", description: "Online retailers use AdCreative.ai for product ad creatives across Facebook, Instagram, and Google display campaigns" },
+      { title: "Marketing Agencies", description: "Agencies managing advertising for multiple clients use AdCreative.ai to scale creative production across their client portfolio" }
+    ]
+  },
+  "predis-ai": {
+    whatIs: "Predis.ai is an AI-powered social media content creation platform that generates posts, carousels, videos, and ad creatives for social media channels. It creates complete social media content including visual design and copy from product descriptions or keywords, and provides a content calendar for planning and scheduling. For businesses and creators who need consistent high-quality social media content without a design team, Predis.ai automates the content creation process from idea to published post.",
+    features: [
+      "Social Media Posts: Generate complete posts with visuals and copy",
+      "Carousel Creation: Multi-slide carousel posts for Instagram and LinkedIn",
+      "Video Generation: Short video content for social media",
+      "Ad Creative: Advertising creatives for social campaigns",
+      "Content Calendar: Plan and schedule your social content",
+      "Brand Voice: Consistent tone across all generated content",
+      "Multiple Platforms: Content formatted for Instagram, Facebook, LinkedIn, and others",
+      "Free Plan: Basic content generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Predis Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Brand", description: "Sign up at predis.ai and configure your brand profile with your colors, fonts, and brand voice. This guides all content generation." },
+        { title: "Generate Your Content", description: "Enter your product, topic, or campaign theme. Predis.ai generates complete social media posts with visuals and copy ready to publish." },
+        { title: "Schedule and Publish", description: "Review generated content and add it to your content calendar. Schedule posts for optimal timing across your connected social accounts." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Post Generation", description: "Creating social media posts requires both visual design and copywriting. Generating both together from one prompt is more efficient than handling them separately" },
+      { title: "Platform Optimization", description: "Different social platforms have different optimal formats and dimensions. Platform-specific generation produces content that fits each channel natively" },
+      { title: "Carousel Capability", description: "Carousel posts consistently outperform single-image posts on Instagram and LinkedIn. AI carousel generation makes this high-performing format practical to produce at volume" },
+      { title: "Brand Consistency", description: "Consistent brand application across all social content maintains the visual identity that builds audience recognition" }
+    ],
+    useCases: [
+      { title: "Social Media Managers", description: "Marketing professionals managing brand social accounts use Predis.ai for consistent high-quality content production" },
+      { title: "E-commerce Brands", description: "Online retailers use Predis.ai for product social content and ad creatives across their social channels" },
+      { title: "Small Business Owners", description: "Business owners who manage their own social media use Predis.ai for professional-looking content without design skills" }
+    ]
+  },
+  "gethookd": {
+    whatIs: "Gethookd is an AI tool that generates compelling hooks and opening lines for social media content, videos, and marketing copy. It creates attention-grabbing first lines that stop scrollers and pull audiences into content. Strong hooks are one of the most important elements of social media performance and video retention, and Gethookd specifically focuses on this critical element. For content creators and marketers who know that the first three seconds determine whether audiences engage with content, Gethookd provides AI-powered hook generation that improves content performance.",
+    features: [
+      "Hook Generation: Create compelling opening lines for any content type",
+      "Video Hooks: Attention-grabbing openings for YouTube and TikTok videos",
+      "Social Media Hooks: Stop-scroll first lines for posts and captions",
+      "Multiple Variations: Generate many different hook angles to choose from",
+      "Niche Specific: Hooks tailored to your specific topic and audience",
+      "Tone Variety: Different hook styles from curiosity to controversy to value",
+      "Fast Generation: Many hook options produced instantly",
+      "Free to Try: Basic hook generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Gethookd",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Content", description: "Go to gethookd.io and describe the content you are creating - the topic, platform, and the main value or insight you want to share." },
+        { title: "Generate Your Hooks", description: "Gethookd produces multiple hook variations using different angles - curiosity, controversy, value promise, and others. Review the options." },
+        { title: "Select and Test", description: "Choose the hook that best fits your content and audience. Test different hooks on similar content to understand which approaches perform best for your specific audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "First Impression Critical", description: "On social media the hook determines whether anyone reads or watches the rest of your content. A weak hook means even excellent content goes unseen" },
+      { title: "Angle Variety", description: "The same topic can be hooked from many different angles. Multiple variations allow creators to find the most compelling approach rather than going with the first option" },
+      { title: "Platform Specificity", description: "Hooks that work for YouTube videos require different characteristics than hooks for Twitter threads or Instagram captions. Platform-aware generation produces more appropriate options" },
+      { title: "Speed for Volume", description: "Content creators who produce at volume need hooks quickly. AI generation that produces many options instantly removes the hook writing bottleneck" }
+    ],
+    useCases: [
+      { title: "YouTube and Video Creators", description: "Video creators use Gethookd for opening hooks that improve audience retention in the critical first seconds of their videos" },
+      { title: "Social Media Content Creators", description: "Creators posting regularly on Instagram, TikTok, and Twitter use Gethookd for stop-scroll hooks that improve post engagement" },
+      { title: "Copywriters and Marketers", description: "Marketing professionals use Gethookd for email subject lines, ad headlines, and landing page heroes that capture attention immediately" }
+    ]
+  },
+  "icon-ai": {
+    whatIs: "Icon AI is an AI-powered icon and illustration generation platform that creates custom icons, symbols, and simple illustrations for apps, websites, and design projects. It generates consistent icon sets in specified styles, making it practical to create large icon libraries that maintain visual coherence. For designers and developers who need custom icon sets without commissioning individual illustrations, Icon AI provides AI-generated icons that match their specific style requirements.",
+    features: [
+      "Icon Generation: Create custom icons from text descriptions",
+      "Style Consistency: Generate icon sets with consistent visual style",
+      "Multiple Formats: SVG and PNG output for different use cases",
+      "Color Customization: Icons in your specified color palette",
+      "Bulk Generation: Create entire icon libraries at once",
+      "Style Library: Different icon styles from flat to outlined to filled",
+      "App Icons: App store-ready icon generation",
+      "Free to Try: Basic icon generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Icon Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Icons", description: "Sign up at icon.ai and describe the icons you need - the objects, actions, or concepts you want represented and the visual style you prefer." },
+        { title: "Generate Your Set", description: "Generate your icons and review for consistency and accuracy. Regenerate any that need adjustment to ensure the set feels cohesive." },
+        { title: "Download and Implement", description: "Download your icons in SVG format for scalable use across your application or website. Apply your brand colors if not already specified." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Consistency in Sets", description: "Icon sets need visual consistency to look professional. AI that generates all icons in the same style ensures the coherence that manually sourced icons from different places often lack" },
+      { title: "Custom vs Stock", description: "Stock icon libraries rarely have exactly what you need for specific app or website concepts. Custom AI generation produces icons for your specific use cases" },
+      { title: "SVG Quality", description: "SVG format icons that scale perfectly at any size are the professional standard for digital use. Icon AI delivers proper vector output rather than raster images" },
+      { title: "Development Speed", description: "Waiting for custom icon illustrations delays development timelines. AI generation that produces icons in minutes keeps development moving" }
+    ],
+    useCases: [
+      { title: "App and Web Developers", description: "Developers building applications use Icon AI for custom icon sets that match their app design language" },
+      { title: "UI/UX Designers", description: "Designers use Icon AI for custom icons that fit their specific design system requirements" },
+      { title: "Product Teams", description: "Product managers and designers use Icon AI for quick icon creation during product development without waiting for design resources" }
+    ]
+  },
+  "neurons-ai": {
+    whatIs: "Neurons AI is a consumer neuroscience and attention prediction platform that uses AI to predict how people will visually attend to and emotionally respond to marketing content before it is published. It analyzes images, ads, and packaging designs to show where attention will focus and what emotional responses they will trigger, based on models trained on neuroscience research. For brand and marketing teams that want to optimize their creative work based on how people actually process visual information, Neurons AI provides scientific validation without the cost of traditional consumer research.",
+    features: [
+      "Attention Prediction: Predict where viewers will look in any image or design",
+      "Emotion Analysis: Understand emotional responses to marketing content",
+      "Ad Testing: Evaluate ad creative performance before publishing",
+      "Packaging Design: Test product packaging for visual impact",
+      "Heatmap Generation: Visual maps showing predicted attention distribution",
+      "Benchmark Data: Compare your creative against industry benchmarks",
+      "Creative Optimization: Specific recommendations for improving attention",
+      "Free Trial: Try attention prediction before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Neurons Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Creative", description: "Sign up at neuronsinc.com and upload the marketing creative you want to test - an ad image, packaging design, or website screenshot." },
+        { title: "Review Attention Analysis", description: "Neurons AI generates attention heatmaps showing where viewers will focus and emotion predictions showing how the creative will make them feel. Review the analysis against your communication goals." },
+        { title: "Optimize and Test Again", description: "Make adjustments based on the analysis recommendations and test the revised version. Compare before and after to see how changes affect predicted attention and emotion." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Pre-Publication Validation", description: "Publishing underperforming creative wastes media spend. Attention prediction before publishing identifies optimization opportunities when changes are still free to make" },
+      { title: "Neuroscience Accessibility", description: "Traditional consumer neuroscience research with eye tracking and biometrics costs tens of thousands. AI prediction models trained on this research make these insights accessible at a fraction of the cost" },
+      { title: "Attention Economy Context", description: "Understanding where attention actually goes rather than where creators hope it goes reveals whether key messages and brand elements are being seen" },
+      { title: "Benchmark Comparison", description: "Knowing how your creative performs relative to industry benchmarks provides context for whether optimization is needed and how much improvement is achievable" }
+    ],
+    useCases: [
+      { title: "Brand and Marketing Teams", description: "Marketing professionals use Neurons AI to validate creative decisions with neuroscience-based attention prediction before campaign launch" },
+      { title: "Advertising Agencies", description: "Creative agencies use Neurons AI to provide clients with scientific validation of their creative work" },
+      { title: "Packaging Design Teams", description: "Product designers use Neurons AI to test packaging designs for attention and shelf impact before production" }
+    ]
+  },
+  "creatify": {
+    whatIs: "Creatify is an AI video ad creation platform that generates professional marketing videos from product URLs, descriptions, or images. It automatically creates multiple video ad variations with AI avatars, voiceovers, and dynamic visual sequences for social media advertising. For e-commerce brands and marketers who need video ad content at scale without video production expertise, Creatify provides automated video creation that produces advertising-ready content in minutes.",
+    features: [
+      "AI Video Ads: Generate complete video ads from product information",
+      "Product URL Import: Create ads directly from your product page URL",
+      "AI Avatars: Digital presenters for product demonstration videos",
+      "Multiple Variations: Generate many video versions for A/B testing",
+      "Platform Formats: Videos sized for TikTok, Instagram, Facebook, and YouTube",
+      "Voiceover Generation: AI narration in multiple languages",
+      "Script Generation: AI-written video scripts",
+      "Free Credits: Try video ad creation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Creatify",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Product", description: "Sign up at creatify.ai and enter your product URL or description. Creatify extracts product information and generates video ad concepts automatically." },
+        { title: "Customize Your Video", description: "Select from generated video variations and customize the script, avatar, music, and visual elements to match your brand and campaign goals." },
+        { title: "Export and Launch", description: "Download your finished video ads in the formats your advertising platforms require. Launch multiple variations for A/B testing to find the best performers." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Video Ad Accessibility", description: "Professional video ad production requires videographers, editors, and significant budget. AI video creation makes this format accessible to brands of any size" },
+      { title: "Product to Video Speed", description: "Going from product page to finished video ad in minutes rather than days or weeks enables rapid campaign iteration and testing" },
+      { title: "Volume for Testing", description: "Video advertising that finds winning creatives requires testing multiple variations. AI generation that produces many versions quickly enables this testing volume" },
+      { title: "Multi-Platform Format", description: "Different advertising platforms require different video dimensions and lengths. Automatic format adaptation eliminates the manual work of creating platform-specific versions" }
+    ],
+    useCases: [
+      { title: "E-commerce Brands", description: "Online retailers use Creatify for product video ads that drive sales on TikTok, Instagram, and Facebook without video production resources" },
+      { title: "Performance Marketers", description: "Paid advertising specialists use Creatify for high-volume video creative generation that feeds their testing and optimization workflows" },
+      { title: "Digital Marketing Agencies", description: "Agencies managing video advertising for e-commerce clients use Creatify to scale video production across their client portfolio" }
+    ]
+  },
+  "higgsfield": {
+    whatIs: "Higgsfield is an AI video generation platform that creates cinematic-quality video content from text prompts and images. It specializes in generating visually impressive video clips with sophisticated camera movements, lighting, and visual effects that approach professional production quality. For content creators, filmmakers, and marketers who want AI-generated video with genuinely high production value, Higgsfield provides video generation that goes beyond basic AI video tools in visual sophistication.",
+    features: [
+      "Cinematic Video: Generate high-quality video with professional visual standards",
+      "Camera Movements: Sophisticated camera motion in generated videos",
+      "Text to Video: Create videos from detailed text descriptions",
+      "Image to Video: Animate still images into video sequences",
+      "Visual Effects: Professional-quality lighting and visual effects",
+      "Multiple Styles: Different cinematic styles and aesthetics",
+      "High Resolution: Quality output for professional use",
+      "Free Credits: Try video generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Higgsfield",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Scene", description: "Sign up at higgsfield.ai and describe the video scene you want to create with as much detail as possible - setting, lighting, movement, and mood." },
+        { title: "Generate and Preview", description: "Higgsfield generates your video clip. Preview the result and refine your prompt to improve specific elements that need adjustment." },
+        { title: "Download and Use", description: "Download your finished video clip for use in your production, marketing campaign, or creative project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Quality Standard", description: "Most AI video generation produces recognizably artificial results. Higgsfield specifically targets cinematic quality that is closer to professional production" },
+      { title: "Camera Movement Sophistication", description: "Static AI video clips feel amateur. Sophisticated camera movements that mimic professional cinematography dramatically improve perceived production value" },
+      { title: "Creative Potential", description: "The ability to generate video scenes that would be impossible or extremely expensive to film traditionally opens creative possibilities that previously required major production budgets" },
+      { title: "Speed vs Production", description: "Professional video production takes days or weeks and significant budget. AI generation that produces quality clips in minutes changes the creative economics of video content" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Video creators use Higgsfield for high-quality AI video clips that enhance their productions beyond what they could film themselves" },
+      { title: "Filmmakers and Directors", description: "Independent filmmakers use Higgsfield for pre-visualization and for generating supplementary footage that would be too expensive to film" },
+      { title: "Marketing Teams", description: "Brand marketers use Higgsfield for cinematic marketing video content without professional production costs" }
+    ]
+  },
+  "captions": {
+    whatIs: "Captions is an AI-powered video creation and editing app that makes professional video production accessible through AI automation. It records video, adds automatic captions, removes filler words, improves eye contact, enhances audio, and creates polished finished videos automatically. The AI handles the most time-consuming post-production tasks so creators can focus on their message rather than technical editing. For creators who want professional-looking video content without spending hours in post-production, Captions provides the automation that makes quality video creation fast.",
+    features: [
+      "Auto Captions: Accurate automatic captions for all videos",
+      "Filler Word Removal: AI removes ums, ahs, and pauses automatically",
+      "Eye Contact Correction: AI adjusts eye contact to face the camera",
+      "Audio Enhancement: Improve voice quality and reduce background noise",
+      "Teleprompter: Built-in teleprompter for recording with scripts",
+      "Video Editing: Basic editing tools alongside AI features",
+      "Multiple Languages: Captions in many languages",
+      "Free Plan: Basic video creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Captions",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record Your Video", description: "Download Captions and record your video using the built-in camera with teleprompter if needed. The app captures the raw footage for AI processing." },
+        { title: "Apply AI Enhancements", description: "Let Captions automatically add subtitles, remove filler words, correct eye contact, and enhance your audio. Review each enhancement before finalizing." },
+        { title: "Export and Share", description: "Export your polished video and share directly to social platforms. The AI post-production that would take hours manually is completed in minutes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Filler Word Removal Value", description: "Removing ums, ahs, and pauses from recorded video makes speakers sound more confident and professional. Manual editing to remove these is extremely tedious. AI automation makes this practical" },
+      { title: "Eye Contact Importance", description: "Looking at the camera rather than the screen while recording creates more engaging connection with viewers. AI eye contact correction achieves this without requiring special equipment" },
+      { title: "Caption Accessibility", description: "Videos with captions perform better on social media where many viewers watch without sound and are more accessible to hearing-impaired audiences" },
+      { title: "Post-Production Compression", description: "Video post-production that normally takes hours is compressed to minutes with AI automation - which fundamentally changes the economics of regular video content creation" }
+    ],
+    useCases: [
+      { title: "Social Media Creators", description: "TikTok, Instagram, and YouTube creators use Captions for fast professional-quality video production without time-consuming manual editing" },
+      { title: "Business Professionals Creating Video Content", description: "Executives and professionals who create video content for LinkedIn and company channels use Captions for polished results without video editing expertise" },
+      { title: "Course Creators and Educators", description: "Educators producing online course content use Captions for the automated captioning and audio enhancement that improves their video quality" }
+    ]
+  },
   "hotpot-ai": {
     whatIs: "Hotpot AI is a creative tools platform offering a comprehensive suite of AI-powered design and image editing tools accessible directly in the browser without any software installation. The platform covers a wide range of creative needs including image generation, background removal, photo restoration, AI art creation, image upscaling and more — all with a no-skill-required approach that makes professional-looking results achievable by anyone. Hotpot is particularly popular for its game asset generation tools and its approachable pricing structure.",
     features: [
