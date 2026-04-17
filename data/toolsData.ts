@@ -542,7 +542,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "image-to-video": [
       { id: "pixverse", name: "PixVerse", description: "AI image-to-video generation", url: "", upvotes: 1789, verified: true, rating: 4.7, icon: "🎨", category: "video-animation", subcategory: "image-to-video" },
       { id: "magic-hour-image", name: "Magic Hour", description: "AI image animation platform", url: "", upvotes: 1234, verified: true, rating: 4.5, icon: "🌅", category: "video-animation", subcategory: "image-to-video" },
-      { id: "higgsfield-image", name: "Higgsfield", description: "Scientific image-to-video AI", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "🔬", category: "video-animation", subcategory: "image-to-video" },
     ],
     "long-video-to-short-video-ai": [
       { id: "vizard-ai-short", name: "Vizard.ai", description: "AI long-to-short video conversion", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🧙‍♂️", category: "video-animation", subcategory: "long-video-to-short-video-ai" },
@@ -2286,15 +2285,12 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-ad-creative": [
 
       { id: "adcreative-ai", name: "AdCreative.ai", description: "AI-powered ad creative generation platform", url: "", upvotes: 2234, verified: true, rating: 4.8, icon: "🎨", category: "marketing-advertising", subcategory: "ai-ad-creative" },
-      { id: "predis-ai-creative", name: "Predis.ai", description: "AI social media creative generator", url: "", upvotes: 1876, verified: true, rating: 4.7, icon: "📱", category: "marketing-advertising", subcategory: "ai-ad-creative" },
       { id: "gethookd", name: "Gethookd", description: "AI ad creative and copywriting tool", url: "", upvotes: 1543, verified: true, rating: 4.6, icon: "🪝", category: "marketing-advertising", subcategory: "ai-ad-creative" },
       { id: "icon-ai", name: "Icon AI", description: "AI icon and creative element generator", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "💎", category: "marketing-advertising", subcategory: "ai-ad-creative" },
       { id: "neurons-ai", name: "Neurons AI", description: "AI creative optimization and testing", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "🧠", category: "marketing-advertising", subcategory: "ai-ad-creative" }
     ],
     "ai-ad-generator": [
       { id: "creatify", name: "Creatify", description: "AI video ad generator for marketing", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "🎬", category: "marketing-advertising", subcategory: "ai-ad-generator" },
-      { id: "predis-ai-generator", name: "Predis.ai", description: "AI ad generator for social media", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "📱", category: "marketing-advertising", subcategory: "ai-ad-generator" },
-      { id: "adcreative-ai-generator", name: "AdCreative.ai", description: "AI ad creative generator", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "🎨", category: "marketing-advertising", subcategory: "ai-ad-generator" },
       { id: "captions", name: "Captions", description: "AI video ad generator with captions", url: "", upvotes: 1156, verified: true, rating: 4.3, icon: "📝", category: "marketing-advertising", subcategory: "ai-ad-generator" }
     ],
     "ai-advertising": [
