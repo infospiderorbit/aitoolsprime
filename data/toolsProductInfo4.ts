@@ -1,4 +1,268 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "jotform-ai-agents": {
+    whatIs: "Jotform AI Agents is an AI-powered form and data collection platform that transforms traditional forms into conversational AI experiences. Instead of presenting users with static form fields, Jotform AI Agents conducts natural conversations to collect information, making the data gathering process more engaging and completing more submissions. It builds on Jotform existing form infrastructure to add AI conversation capabilities for customer intake, lead generation, surveys, and support. For businesses that collect significant data through forms and want to improve completion rates and data quality, Jotform AI Agents provides conversational AI without custom development.",
+    features: [
+      "Conversational Forms: Transform static forms into AI conversations",
+      "AI Data Collection: Gather information through natural dialogue",
+      "Form Integration: Builds on existing Jotform form infrastructure",
+      "Lead Generation: Conversational lead capture for websites",
+      "Customer Intake: AI-powered intake for service businesses",
+      "Survey Replacement: Engaging surveys through conversation",
+      "Multiple Channels: Deploy on websites, WhatsApp, and other channels",
+      "Free Plan: Basic AI agent creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Jotform Ai Agents",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Agent", description: "Sign up at jotform.com and create an AI agent. Define what information you need to collect and how you want the conversation to flow." },
+        { title: "Train Your Agent", description: "Provide your agent with information about your business, common questions, and how to handle different responses. The agent learns to handle your specific use case." },
+        { title: "Deploy and Collect", description: "Embed your AI agent on your website or share via link. Watch completion rates improve as conversational collection engages users more than static forms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Completion Rate Improvement", description: "Conversational data collection consistently produces higher completion rates than static multi-field forms because it feels more like a natural interaction" },
+      { title: "Data Quality", description: "Conversational collection that can ask follow-up questions and clarify ambiguous answers produces better quality data than static fields that accept any input" },
+      { title: "Engagement Experience", description: "Users who find data collection engaging rather than tedious provide more thoughtful and complete responses" },
+      { title: "No-Code Deployment", description: "Building conversational AI data collection without coding makes this capability accessible to businesses without technical development resources" }
+    ],
+    useCases: [
+      { title: "Service Businesses Doing Client Intake", description: "Professional services firms use Jotform AI Agents for client onboarding that collects comprehensive information through natural conversation" },
+      { title: "Lead Generation Campaigns", description: "Marketing teams use AI agents for lead capture that qualifies prospects through conversation" },
+      { title: "Research and Survey Teams", description: "Researchers use conversational surveys that produce more thoughtful responses than traditional survey forms" }
+    ]
+  },
+  "memento-database": {
+    whatIs: "Memento Database is a flexible personal and team database application for Android, iOS, and desktop that allows users to build custom databases for any information management need without programming. It provides a library of templates for common use cases - inventory, contacts, tasks, collections - alongside tools to build fully custom structures. For individuals and small teams that need organized, structured information management beyond what spreadsheets offer but without the complexity of enterprise databases, Memento provides accessible custom database creation.",
+    features: [
+      "Custom Databases: Build any database structure for any information need",
+      "Template Library: Pre-built templates for common database needs",
+      "Mobile First: Full database functionality on Android and iOS",
+      "Offline Access: Work without internet connection",
+      "Cloud Sync: Synchronize data across devices",
+      "JavaScript Scripting: Automate with scripting for power users",
+      "Barcode Scanner: Scan barcodes to add items to databases",
+      "Free Plan: Basic database creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Memento Database",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Download Memento Database and browse the template library. Select a template for your use case or start a custom database from scratch." },
+        { title: "Build Your Structure", description: "Define the fields and data types for your database. Add the information categories that match what you need to track." },
+        { title: "Enter and Use Your Data", description: "Start adding records to your database. Use the mobile app to add items on the go and access your organized information from any device." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Flexibility Beyond Spreadsheets", description: "Spreadsheets that try to function as databases become unwieldy. Proper database structure with defined field types produces more organized and queryable information" },
+      { title: "Mobile Database Access", description: "Most database tools are desktop-first. Mobile-first design that works natively on phones makes database access and data entry practical away from a desk" },
+      { title: "Template Accessibility", description: "Building a database from scratch requires understanding data modeling. Templates that provide proven structures for common use cases make database creation accessible to non-technical users" },
+      { title: "Offline Functionality", description: "Database apps that require internet connectivity fail in environments with poor connectivity. Offline functionality that syncs when connected works reliably anywhere" }
+    ],
+    useCases: [
+      { title: "Personal Information Managers", description: "Individuals use Memento for personal databases of collections, contacts, books, and other organized information" },
+      { title: "Small Business Inventory", description: "Small retailers and businesses use Memento for inventory tracking without expensive dedicated inventory software" },
+      { title: "Field Data Collection", description: "Teams that collect data in the field use Memento for structured mobile data entry that syncs to shared databases" }
+    ]
+  },
+  "final-round-ai": {
+    whatIs: "Final Round AI is an AI interview preparation and coaching platform that helps job seekers practice and improve their interview performance. It provides AI-powered mock interviews with real-time feedback, industry-specific question banks, and coaching on communication style, content quality, and presentation. The platform simulates actual interview conditions and provides the detailed feedback that helps candidates identify and fix specific weaknesses before real interviews. For job seekers who want to go into interviews with genuine confidence from thorough preparation, Final Round AI provides the practice infrastructure that traditional preparation methods cannot match.",
+    features: [
+      "AI Mock Interviews: Realistic interview simulations with AI interviewers",
+      "Real-Time Feedback: Instant assessment of your answers during practice",
+      "Industry Questions: Role-specific interview question banks",
+      "Communication Coaching: Feedback on delivery, pace, and clarity",
+      "Answer Frameworks: Guidance on structuring compelling interview answers",
+      "Recording Review: Watch your practice sessions to identify improvements",
+      "Multiple Interview Types: Behavioral, technical, and case interview practice",
+      "Free to Try: Basic interview practice without payment"
+    ],
+    howToUse: {
+      title: "How to Use Final Round Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Interview", description: "Sign up at finalroundai.com and select the role and industry you are interviewing for. The AI configures relevant questions for your specific interview context." },
+        { title: "Practice Your Answers", description: "Conduct your mock interview answering questions as you would in a real interview. The AI evaluates your answers and delivery in real time." },
+        { title: "Review and Improve", description: "Review the detailed feedback on each answer and watch your recordings to see what you look and sound like from the interviewer perspective. Focus your practice on the weaknesses identified." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Safe Practice Environment", description: "The anxiety of real interviews makes it hard to perform at your best. Extensive practice in a safe environment builds the muscle memory that makes strong performance automatic" },
+      { title: "Specific Feedback Value", description: "Generic interview advice is not useful. Feedback specific to your actual answers identifies exactly what needs to improve rather than giving abstract guidance" },
+      { title: "Repetition for Confidence", description: "Confidence in interviews comes from having answered similar questions many times. AI mock interviews provide the repetition volume that human practice partners cannot match" },
+      { title: "Recording Self-Awareness", description: "Seeing yourself on video often reveals habits - filler words, poor posture, lack of eye contact - that are invisible when you are focused on your answer content" }
+    ],
+    useCases: [
+      { title: "Active Job Seekers", description: "People preparing for upcoming interviews use Final Round AI for thorough preparation that builds genuine confidence" },
+      { title: "Career Changers", description: "Professionals moving to new industries or roles use Final Round AI to prepare for unfamiliar interview formats and questions" },
+      { title: "New Graduates", description: "Recent graduates entering the job market for the first time use Final Round AI to develop interview skills through extensive practice" }
+    ]
+  },
+  "talent-titan": {
+    whatIs: "Talent Titan is an AI-powered recruiting and talent acquisition platform that helps companies find, assess, and hire candidates more efficiently. It uses AI for resume screening, candidate matching, and interview scheduling to reduce the time and effort of high-volume recruiting. The platform also provides skills assessment tools that evaluate candidates objectively rather than relying solely on resume review. For HR teams and recruiting departments that process large volumes of applications, Talent Titan provides the automation that makes thorough candidate evaluation practical at scale.",
+    features: [
+      "AI Resume Screening: Automatically screen and rank candidate applications",
+      "Candidate Matching: Match applicants to roles based on skills and experience",
+      "Skills Assessment: Objective evaluation of candidate capabilities",
+      "Interview Scheduling: Automated interview coordination",
+      "ATS Integration: Works with existing applicant tracking systems",
+      "Analytics: Recruiting funnel performance and time-to-hire metrics",
+      "Bias Reduction: Structured evaluation that reduces unconscious bias",
+      "Free Trial: Try Talent Titan before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Talent Titan",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Role", description: "Sign up at talenttitan.com and create your job posting with required skills and qualifications. The AI uses these criteria for candidate matching and screening." },
+        { title: "Review Ranked Candidates", description: "As applications come in, Talent Titan ranks and screens them automatically. Review the top-ranked candidates rather than reading every application manually." },
+        { title: "Assess and Interview", description: "Send skills assessments to shortlisted candidates and use the scheduling tools to coordinate interviews efficiently. Make data-informed hiring decisions based on objective assessment results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Volume Management", description: "High-volume recruiting that receives hundreds of applications per role is impossible to evaluate thoroughly without automation. AI screening that processes all applications ensures no strong candidate is missed" },
+      { title: "Time to Hire Reduction", description: "Lengthy hiring processes lose strong candidates to competitors. Automation that speeds screening, assessment, and scheduling reduces the time from posting to offer" },
+      { title: "Objective Evaluation", description: "Human resume review is inconsistent and subject to bias. Structured AI evaluation that applies the same criteria to every application produces more objective initial screening" },
+      { title: "Recruiter Capacity", description: "Recruiting teams that can process more applications per recruiter can handle more open roles without proportionally increasing headcount" }
+    ],
+    useCases: [
+      { title: "High-Volume Recruiting Teams", description: "HR departments hiring at scale use Talent Titan for the automation that makes thorough evaluation of large applicant pools practical" },
+      { title: "Growing Companies", description: "Rapidly scaling companies use Talent Titan to hire quickly without sacrificing the quality of candidate evaluation" },
+      { title: "Staffing Agencies", description: "Recruiting firms use Talent Titan to increase the volume of placements their recruiters can handle simultaneously" }
+    ]
+  },
+  "productboard": {
+    whatIs: "Productboard is a product management platform that helps product teams collect customer feedback, prioritize features, and build product roadmaps aligned to customer needs and business goals. It provides a structured system for capturing insights from customer interviews, support tickets, sales calls, and other sources, then using that feedback to inform prioritization decisions. For product teams that want to build products their customers actually want rather than what internal stakeholders think they want, Productboard provides the feedback-to-roadmap infrastructure that keeps product decisions customer-informed.",
+    features: [
+      "Feedback Collection: Centralize customer insights from multiple sources",
+      "Feature Prioritization: Score and prioritize features based on customer data",
+      "Product Roadmap: Build and share visual product roadmaps",
+      "Customer Segments: Understand which features matter to which customers",
+      "Integration: Connect with Jira, Salesforce, Zendesk, and others",
+      "Stakeholder Sharing: Share roadmaps with different audiences",
+      "Insights Repository: Searchable library of all customer feedback",
+      "Free Trial: Try Productboard before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Productboard",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Feedback Sources", description: "Sign up at productboard.com and connect your customer feedback channels - support tickets, NPS surveys, sales CRM, and any other sources of customer insight." },
+        { title: "Process and Tag Insights", description: "Review incoming feedback and tag it to relevant features or themes. Productboard builds a connection between customer insights and potential features." },
+        { title: "Prioritize and Roadmap", description: "Use the prioritization tools to score features based on customer impact and business value. Build your roadmap around the features that matter most to customers." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Customer-Driven Prioritization", description: "Product teams that prioritize based on loudest internal voice rather than actual customer data build features customers do not want. Structured customer feedback changes this dynamic" },
+      { title: "Insight Volume Management", description: "Growing companies receive customer feedback from many channels simultaneously. A centralized repository that connects insights to features makes this volume manageable" },
+      { title: "Roadmap Communication", description: "Different stakeholders need different views of the product roadmap. Productboard enables sharing appropriate roadmap views with executives, customers, and engineering teams" },
+      { title: "Feedback to Feature Connection", description: "Understanding which specific customer feedback supports each feature prioritization makes roadmap decisions defensible and data-backed" }
+    ],
+    useCases: [
+      { title: "Product Managers", description: "PMs use Productboard for the structured system that connects customer feedback to product decisions" },
+      { title: "Product Teams at SaaS Companies", description: "Software product teams use Productboard for customer-driven roadmap development" },
+      { title: "CPOs and Heads of Product", description: "Product leaders use Productboard for portfolio visibility and ensuring customer needs drive prioritization across multiple product lines" }
+    ]
+  },
+  "bagel-ai": {
+    whatIs: "Bagel AI is an AI product roadmap and planning platform that helps product teams create, manage, and communicate product roadmaps using AI assistance. It generates roadmap content from product goals and customer insights, helps prioritize features, and creates presentation-ready roadmaps for different stakeholder audiences. For product managers who spend significant time maintaining and communicating roadmaps, Bagel AI provides AI assistance that reduces the administrative burden of roadmap management.",
+    features: [
+      "AI Roadmap Generation: Create roadmaps from goals and insights with AI",
+      "Feature Prioritization: AI-assisted feature scoring and ranking",
+      "Stakeholder Views: Different roadmap presentations for different audiences",
+      "Goal Alignment: Connect roadmap items to business objectives",
+      "Progress Tracking: Monitor roadmap execution and milestone completion",
+      "Collaboration: Team input on roadmap development",
+      "Export Options: Share roadmaps in presentation and document formats",
+      "Free Trial: Try Bagel AI before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Bagel Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Goals", description: "Sign up at bagel.ai and input your product goals and the customer insights informing your next planning cycle." },
+        { title: "Generate Your Roadmap", description: "Bagel AI generates roadmap content organized around your goals. Review the suggested features and prioritization and adjust based on your judgment and context." },
+        { title: "Share with Stakeholders", description: "Create stakeholder-appropriate views of your roadmap and share with engineering, executives, and customers as appropriate for each audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Roadmap Generation Speed", description: "Creating roadmaps from scratch takes significant time. AI generation that produces structured roadmap content from goals and insights dramatically speeds this process" },
+      { title: "Stakeholder Communication", description: "Different stakeholders need different levels of detail and different framing of the roadmap. Multiple views that present the same plan appropriately for each audience reduces the communication burden" },
+      { title: "Goal Connection", description: "Roadmaps that are clearly connected to business goals are easier to defend and communicate than feature lists without strategic context" },
+      { title: "Administrative Reduction", description: "Product managers who spend less time on roadmap administration have more time for the customer research and strategic thinking that makes roadmaps valuable" }
+    ],
+    useCases: [
+      { title: "Product Managers", description: "PMs use Bagel AI to reduce the time spent on roadmap creation and maintenance while improving roadmap quality" },
+      { title: "Startup Product Teams", description: "Early-stage product teams use Bagel AI for roadmap structure and communication as they establish their product planning process" },
+      { title: "Agile Product Teams", description: "Teams doing quarterly planning use Bagel AI to generate and communicate roadmaps efficiently within their planning cycles" }
+    ]
+  },
+  "chatprd": {
+    whatIs: "ChatPRD is an AI product management assistant that helps product managers write product requirements documents, user stories, and other product documentation faster. It generates PRDs from feature descriptions, creates acceptance criteria, writes user stories, and helps structure product thinking for complex features. For product managers who spend significant time on documentation and want to focus more on strategy and customer research, ChatPRD provides AI assistance that handles the writing work without sacrificing quality.",
+    features: [
+      "PRD Generation: Create product requirements documents with AI",
+      "User Story Writing: Generate well-structured user stories",
+      "Acceptance Criteria: Define clear acceptance criteria for features",
+      "Feature Specification: Detailed feature specification from high-level descriptions",
+      "Edge Case Identification: AI surfaces potential edge cases and considerations",
+      "Documentation Templates: Structured templates for different document types",
+      "Revision Assistance: Improve and refine existing documentation",
+      "Free to Try: Basic PRD generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Chatprd",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Feature", description: "Sign up at chatprd.ai and describe the feature you need to document. Include the problem it solves, who it serves, and the key requirements." },
+        { title: "Generate Your PRD", description: "ChatPRD generates a complete PRD including background, requirements, user stories, and acceptance criteria. Review the output for accuracy and completeness." },
+        { title: "Refine and Finalize", description: "Edit the generated document to add your specific context, adjust requirements based on technical constraints, and share with your engineering team for implementation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Documentation Speed", description: "Writing thorough PRDs takes hours of careful work. AI generation that produces comprehensive first drafts dramatically reduces the time from feature decision to engineering-ready specification" },
+      { title: "Completeness Assurance", description: "AI that identifies edge cases and considerations that are easy to overlook in manual documentation produces more complete specifications that reduce back-and-forth during development" },
+      { title: "Consistent Quality", description: "PRD quality varies with how much time a PM has available. AI assistance maintains documentation quality even when time is limited" },
+      { title: "Focus Reallocation", description: "Product managers who spend less time on documentation have more capacity for the customer research and strategic work that makes products better" }
+    ],
+    useCases: [
+      { title: "Product Managers", description: "PMs use ChatPRD for faster documentation that maintains quality while freeing time for higher-value activities" },
+      { title: "Startup Product Teams", description: "Early-stage product teams use ChatPRD for structured product documentation as they build their PM processes" },
+      { title: "Engineering Teams Needing Better Specs", description: "Development teams frustrated by unclear requirements use ChatPRD-generated specs to get the clarity they need for effective implementation" }
+    ]
+  },
+  "zeda-io": {
+    whatIs: "Zeda.io is an AI-powered product discovery and strategy platform that helps product teams understand what to build next by connecting customer feedback, product analytics, and strategic objectives. It uses AI to analyze feedback patterns, identify the most impactful opportunities, and generate product strategy insights that connect customer needs to business outcomes. For product leaders who want to make more confident product decisions backed by comprehensive data analysis, Zeda.io provides the intelligence layer that transforms raw customer signals into clear strategic direction.",
+    features: [
+      "AI Opportunity Discovery: Identify the highest-impact product opportunities",
+      "Feedback Analysis: AI analysis of customer feedback patterns",
+      "Strategy Generation: AI-powered product strategy recommendations",
+      "Customer Segmentation: Understand needs by customer type",
+      "Metric Connection: Link product decisions to business outcomes",
+      "Competitive Intelligence: Track competitive product developments",
+      "Roadmap Generation: Create data-backed product roadmaps",
+      "Free Trial: Try Zeda.io before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Zeda Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Data Sources", description: "Sign up at zeda.io and connect your customer feedback sources, product analytics, and business metrics. Zeda.io begins analyzing the data immediately." },
+        { title: "Review AI Insights", description: "Explore the AI-generated insights about customer needs, pain points, and opportunities. The analysis surfaces patterns that manual review would miss in large data volumes." },
+        { title: "Build Your Strategy", description: "Use the opportunity scores and strategic recommendations to make confident product prioritization decisions. Generate roadmaps that connect features to customer needs and business goals." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Pattern Recognition at Scale", description: "Product teams receive more customer feedback than they can manually analyze. AI that identifies patterns across thousands of data points surfaces insights that human analysis misses" },
+      { title: "Opportunity Scoring", description: "Deciding what to build next requires weighing many factors. AI that scores opportunities based on customer impact and strategic alignment produces more defensible prioritization decisions" },
+      { title: "Strategy to Execution Connection", description: "Product decisions that are clearly connected to both customer needs and business outcomes are easier to communicate and execute" },
+      { title: "Discovery Efficiency", description: "Product discovery that relies on manual synthesis of feedback and interviews is time-consuming. AI-accelerated discovery that processes more data faster improves the quality of product decisions" }
+    ],
+    useCases: [
+      { title: "Product Leaders", description: "CPOs and VPs of Product use Zeda.io for the strategic intelligence that informs high-stakes product direction decisions" },
+      { title: "Product Strategy Teams", description: "Product strategy professionals use Zeda.io for comprehensive analysis that supports strategic planning cycles" },
+      { title: "Data-Driven Product Teams", description: "Teams committed to evidence-based product development use Zeda.io for the analytical infrastructure that supports this approach" }
+    ]
+  },
   "hubspot": {
     whatIs: "HubSpot is a comprehensive CRM and marketing platform that helps businesses attract visitors, convert leads, and close customers through integrated marketing, sales, and service tools. It provides a free CRM at its core with paid hubs for marketing automation, sales pipeline management, customer service, and content management. HubSpot is particularly known for pioneering inbound marketing methodology and providing tools that align marketing and sales teams around shared customer data. For growing businesses that want an integrated platform that scales from startup to enterprise, HubSpot provides the connected tools that eliminate the data silos between marketing and sales.",
     features: [
