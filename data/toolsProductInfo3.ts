@@ -1,4 +1,268 @@
 export const toolsProductInfo3: { [key: string]: any } = {
+  "responso": {
+    whatIs: "Responso is an AI-powered customer service platform for e-commerce sellers that manages customer inquiries across multiple marketplaces and channels from one unified inbox. It uses AI to suggest and automate responses to common customer questions on Amazon, eBay, Etsy, and other platforms, helping sellers maintain high response rates without spending hours on customer service daily. For e-commerce sellers who sell across multiple platforms and struggle with customer service volume, Responso provides the automation and unification that makes multi-platform customer service manageable.",
+    features: [
+      "Unified Inbox: All marketplace messages in one place",
+      "AI Response Suggestions: Automated reply suggestions for common questions",
+      "Multi-Marketplace: Amazon, eBay, Etsy, and other platforms",
+      "Auto-Reply: Automatic responses for simple repetitive questions",
+      "Response Templates: Save and reuse responses for common situations",
+      "Performance Analytics: Track response times and customer satisfaction",
+      "Team Collaboration: Assign messages to team members",
+      "Free Trial: Try Responso before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Responso",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Marketplaces", description: "Sign up at responso.com and connect your seller accounts across Amazon, eBay, Etsy, and other platforms. All messages flow into your unified inbox." },
+        { title: "Set Up AI Responses", description: "Configure AI response suggestions for your most common customer questions. Review the suggestions and customize them for your specific products and policies." },
+        { title: "Manage and Monitor", description: "Handle all customer messages from one inbox with AI assistance. Track your response time metrics and customer satisfaction scores." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Platform Chaos Solution", description: "Checking separate inboxes on five different marketplaces is time-consuming and leads to missed messages. Unification that brings everything together prevents this" },
+      { title: "Response Rate Requirements", description: "Marketplaces penalize sellers with slow response rates. AI assistance that speeds response times protects seller ratings" },
+      { title: "Repetitive Question Automation", description: "The same questions about shipping, returns, and product details come in constantly. Automation for these saves hours of daily repetitive work" },
+      { title: "Scale Without Proportional Staff", description: "Growing e-commerce businesses that sell across more platforms face increasing customer service volume. AI automation makes this scale without requiring proportional staff growth" }
+    ],
+    useCases: [
+      { title: "Multi-Platform E-commerce Sellers", description: "Sellers active on multiple marketplaces use Responso to manage customer service without checking each platform separately" },
+      { title: "Amazon FBA Sellers", description: "Amazon sellers use Responso for message management that protects their seller metrics" },
+      { title: "E-commerce Agencies", description: "Agencies managing customer service for multiple seller clients use Responso for efficient multi-account management" }
+    ]
+  },
+  "engage-ai": {
+    whatIs: "Engage AI is a LinkedIn engagement tool that uses AI to generate thoughtful, personalized comments for LinkedIn posts in your target audience. It helps sales and marketing professionals build relationships on LinkedIn by maintaining consistent engagement with prospects and thought leaders without spending hours manually writing comments. For B2B professionals who use LinkedIn for relationship building and pipeline development, Engage AI automates the commenting work that builds visibility and connection.",
+    features: [
+      "AI Comment Generation: Generate relevant comments for LinkedIn posts",
+      "Prospect Monitoring: Track posts from your target prospects",
+      "Tone Customization: Adjust comment tone for different contexts",
+      "Chrome Extension: Works directly in LinkedIn",
+      "Comment History: Track your engagement activity",
+      "Thought Leader Tracking: Follow key influencers in your space",
+      "Relationship Building: Systematic engagement that builds connections",
+      "Free Plan: Basic comment generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Engage Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Targets", description: "Sign up at engage-ai.co and install the Chrome extension. Add the LinkedIn profiles of prospects and thought leaders you want to engage with." },
+        { title: "Generate and Review Comments", description: "When target connections post content, Engage AI generates relevant comment suggestions. Review and customize each comment before posting." },
+        { title: "Build Relationships", description: "Post consistently thoughtful comments on your prospects posts. Over time this builds genuine familiarity that makes outreach conversations warmer." }
+      ]
+    },
+    coreFeatures: [
+      { title: "LinkedIn Visibility", description: "Consistent commenting on prospects posts increases your visibility in their network. People who see your name regularly become more receptive to connection requests and messages" },
+      { title: "Relationship Before Outreach", description: "Cold outreach to people who have seen your thoughtful comments on their posts converts better than purely cold messages to strangers" },
+      { title: "Time Efficiency", description: "Manually reading posts and crafting thoughtful comments for dozens of prospects daily takes significant time. AI assistance makes systematic LinkedIn engagement feasible" },
+      { title: "Thought Leadership Association", description: "Commenting thoughtfully on thought leader posts associates your name with important conversations in your industry" }
+    ],
+    useCases: [
+      { title: "B2B Sales Professionals", description: "SDRs and AEs use Engage AI for LinkedIn engagement that warms prospects before outreach" },
+      { title: "Founders Building Network", description: "Startup founders use Engage AI to build relationships with potential customers, partners, and investors through consistent LinkedIn engagement" },
+      { title: "Marketing Professionals", description: "Marketers use Engage AI to build brand visibility through systematic thought leadership engagement" }
+    ]
+  },
+  "commentguard": {
+    whatIs: "CommentGuard is an AI-powered comment moderation platform that automatically filters, hides, and manages harmful, spammy, and off-topic comments on social media posts. It protects brand reputation by keeping comment sections clean without requiring constant manual monitoring. The AI understands context and nuance to distinguish genuine negative feedback from harmful content, ensuring brands can maintain healthy community discussions while blocking trolls and spam. For brands with active social media presence and high comment volumes, CommentGuard provides automated protection without constant manual attention.",
+    features: [
+      "AI Moderation: Automatically filter harmful and spam comments",
+      "Platform Coverage: Moderation across Facebook, Instagram, and YouTube",
+      "Custom Rules: Set specific moderation criteria for your brand",
+      "Sentiment Analysis: Understand the tone of your comment section",
+      "Whitelist and Blacklist: Approve specific users or block specific terms",
+      "Real-Time Protection: Instant moderation as comments appear",
+      "Reporting: Analytics on comment section health and trends",
+      "Free Trial: Try CommentGuard before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Commentguard",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Accounts", description: "Sign up at commentguard.io and connect your social media accounts. CommentGuard begins monitoring your comment sections immediately." },
+        { title: "Configure Your Rules", description: "Set your moderation preferences - what types of content to hide automatically, which terms to block, and how strictly to moderate different content types." },
+        { title: "Monitor and Review", description: "Review the moderation log to see what has been filtered and adjust your rules based on what is being caught and what is getting through." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brand Reputation Protection", description: "Harmful comments that go unmoderated damage brand perception for everyone who sees them. Automated protection that works around the clock prevents this" },
+      { title: "Community Health", description: "Comment sections that become dominated by spam and negativity drive away genuine community members. Proactive moderation maintains the community quality that brands work to build" },
+      { title: "Manual Monitoring Impossibility", description: "Brands with high comment volumes cannot manually review every comment. Automated moderation that handles the volume makes comprehensive protection practical" },
+      { title: "Nuanced Moderation", description: "Simple keyword blocking catches obvious problems but misses context-dependent content. AI moderation that understands context produces fewer false positives" }
+    ],
+    useCases: [
+      { title: "Brands with Active Social Media", description: "Companies with high social media engagement use CommentGuard for comment section protection without dedicating staff to manual monitoring" },
+      { title: "E-commerce Brands", description: "Online retailers use CommentGuard to protect their social commerce from spam and competitive interference in comment sections" },
+      { title: "Media and Entertainment", description: "High-visibility media accounts use CommentGuard for comment moderation at the scale their audience generates" }
+    ]
+  },
+  "ai-otaku-labo": {
+    whatIs: "AI Otaku LABO is a Japanese AI tools and technology exploration platform that provides reviews, tutorials, and analysis of AI tools with a focus on the Japanese market and Japanese-language AI applications. It serves as a resource for Japanese users who want to understand and adopt AI tools, providing content in Japanese that covers both global AI tools and Japan-specific applications. For Japanese speakers exploring AI adoption, AI Otaku LABO provides accessible Japanese-language AI education and tool coverage.",
+    features: [
+      "Japanese AI Coverage: AI tool reviews and tutorials in Japanese",
+      "Tool Reviews: Detailed analysis of AI tools for Japanese users",
+      "Tutorials: Step-by-step guides for using AI tools in Japanese",
+      "Japan-Specific Content: Coverage of AI tools and use cases relevant to Japan",
+      "Community: Japanese AI enthusiast community and discussion",
+      "News: Latest AI developments covered in Japanese",
+      "Comparisons: Side-by-side tool comparisons for Japanese audiences",
+      "Free Access: All content without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Otaku Labo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse Content", description: "Visit AI Otaku LABO and browse the AI tool reviews and tutorials in Japanese. Find content relevant to the tools and use cases you are interested in." },
+        { title: "Follow Tutorials", description: "Use the step-by-step Japanese tutorials to learn how to use specific AI tools. The Japanese-language guidance makes complex tools more accessible." },
+        { title: "Stay Current", description: "Follow AI Otaku LABO for ongoing coverage of new AI tools and developments in Japanese. Stay informed about the rapidly evolving AI landscape." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Language Accessibility", description: "Most AI tool documentation and reviews are in English. Japanese-language coverage makes the AI tools ecosystem accessible to Japanese speakers who are not comfortable with English" },
+      { title: "Cultural Relevance", description: "AI adoption in Japan has specific cultural and business context. Content that addresses Japanese use cases and concerns is more practically useful than translated global content" },
+      { title: "Community Value", description: "Japanese AI enthusiasts connecting with each other creates a support network for AI adoption that individual exploration cannot provide" },
+      { title: "Curation for Japanese Market", description: "Not all AI tools are equally relevant or available in Japan. Curation that focuses on tools practical for Japanese users saves research time" }
+    ],
+    useCases: [
+      { title: "Japanese AI Enthusiasts", description: "Tech-curious Japanese professionals use AI Otaku LABO to explore AI tools in their native language" },
+      { title: "Japanese Businesses Exploring AI", description: "Companies in Japan considering AI adoption use AI Otaku LABO for accessible information about available tools" },
+      { title: "Japanese Content Creators", description: "Creators in Japan use AI Otaku LABO for guidance on AI tools relevant to their content creation work" }
+    ]
+  },
+  "tracefuse": {
+    whatIs: "TraceFuse is an AI-powered error tracking and application monitoring platform that helps development teams identify, prioritize, and fix software errors faster. It captures exceptions and errors from applications in real time, groups related errors intelligently, and uses AI to suggest likely causes and fixes. For engineering teams that spend significant time debugging production issues, TraceFuse reduces the time from error detection to resolution through AI-assisted diagnosis.",
+    features: [
+      "Error Tracking: Capture and track application errors in real time",
+      "AI Diagnosis: AI-suggested causes and fixes for common error patterns",
+      "Error Grouping: Intelligently group related errors to reduce noise",
+      "Performance Monitoring: Track application performance alongside errors",
+      "Alert System: Notifications when error rates spike",
+      "Stack Trace Analysis: Detailed stack traces with context",
+      "Integration: Connects with GitHub, Jira, and development tools",
+      "Free Plan: Basic error tracking without payment"
+    ],
+    howToUse: {
+      title: "How to Use Tracefuse",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Integrate Your Application", description: "Sign up at tracefuse.io and add the TraceFuse SDK to your application. Error capture begins immediately after integration." },
+        { title: "Review Your Errors", description: "Access your error dashboard to see what errors are occurring in production. AI grouping reduces thousands of individual errors to a manageable set of distinct issues." },
+        { title: "Fix with AI Help", description: "Use AI diagnosis to understand likely causes of each error pattern. Follow suggested fixes or use the context to guide your own debugging." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Production Error Visibility", description: "Errors that occur in production are often invisible until users complain. Real-time error tracking that surfaces issues immediately allows faster response" },
+      { title: "AI Diagnosis Speed", description: "Understanding why an error occurs requires reading stack traces and understanding application context. AI that suggests likely causes reduces the time to diagnosis" },
+      { title: "Error Volume Management", description: "High-traffic applications generate thousands of error events. Intelligent grouping that reduces this to distinct issues makes the error landscape manageable" },
+      { title: "Developer Time Value", description: "Debugging production issues is one of the least satisfying uses of developer time. AI assistance that speeds resolution frees engineers for more valuable work" }
+    ],
+    useCases: [
+      { title: "Engineering Teams", description: "Development teams use TraceFuse for production error monitoring that reduces the time their engineers spend on debugging" },
+      { title: "SaaS Companies", description: "Software businesses use TraceFuse to maintain application quality and respond quickly to production issues that affect customers" },
+      { title: "Startup Engineering Teams", description: "Small engineering teams use TraceFuse for production monitoring without the resources to build custom observability infrastructure" }
+    ]
+  },
+  "seo-ai": {
+    whatIs: "SEO.AI is an AI-powered SEO content creation platform that generates search-engine-optimized articles, meta descriptions, and content briefs. It analyzes search intent, identifies relevant keywords, and produces content that is structured to rank in search engines. The platform combines keyword research data with AI writing to produce content that is both readable for humans and optimized for search algorithms. For content teams that want to scale their SEO content production without sacrificing optimization quality, SEO.AI provides the intelligence and automation to do both simultaneously.",
+    features: [
+      "AI Article Writing: Generate complete SEO-optimized articles",
+      "Keyword Research: Find and target the right keywords for your content",
+      "Search Intent Analysis: Understand what searchers actually want to find",
+      "Content Briefs: Generate detailed briefs for human writers",
+      "Meta Descriptions: AI-optimized meta titles and descriptions",
+      "Internal Linking: Suggestions for relevant internal links",
+      "Competitor Analysis: See what content is ranking for your target keywords",
+      "Free Trial: Try SEO.AI before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Seo Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Research Your Keywords", description: "Sign up at seo.ai and enter your target topic or keyword. SEO.AI analyzes search volume, competition, and search intent to guide your content strategy." },
+        { title: "Generate Your Content", description: "Use the AI writer to generate a complete optimized article or content brief. The output is structured for both readability and search engine performance." },
+        { title: "Optimize and Publish", description: "Review and refine the generated content, add your specific expertise and examples, then publish. Monitor rankings to see search performance over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "SEO and Readability Together", description: "Content that is optimized only for search engines is unpleasant to read. SEO.AI produces content that satisfies both search algorithms and human readers simultaneously" },
+      { title: "Intent Accuracy", description: "Targeting a keyword with the wrong content type produces content that will never rank regardless of quality. Search intent analysis ensures your content matches what searchers actually want" },
+      { title: "Scale Without Quality Loss", description: "Manually researching and writing SEO-optimized content is slow. AI assistance that maintains optimization quality while increasing production speed changes the economics of content marketing" },
+      { title: "Competitor Intelligence", description: "Understanding what content is currently ranking for your target keywords reveals the quality bar you need to clear and the gaps you can exploit" }
+    ],
+    useCases: [
+      { title: "SEO and Content Marketing Teams", description: "Marketing teams use SEO.AI to scale their organic content production while maintaining the optimization quality that drives rankings" },
+      { title: "Digital Marketing Agencies", description: "Agencies producing SEO content for clients use SEO.AI to increase production capacity without proportionally increasing headcount" },
+      { title: "E-commerce Brands", description: "Online retailers use SEO.AI for category and product content that drives organic traffic to their stores" }
+    ]
+  },
+  "truegether": {
+    whatIs: "TrueGether is a free online marketplace platform that allows sellers to list and sell products across multiple e-commerce channels including eBay, Bonanza, and its own marketplace simultaneously. It provides multi-channel listing management, inventory synchronization, and order management that helps online sellers expand their reach without managing each channel separately. For individual sellers and small retailers who want to sell across multiple platforms without the complexity of managing each separately, TrueGether provides free multi-channel selling infrastructure.",
+    features: [
+      "Multi-Channel Listing: List products across multiple marketplaces simultaneously",
+      "Free Marketplace: Sell on TrueGether own marketplace at no cost",
+      "eBay Integration: List and sync with eBay automatically",
+      "Inventory Sync: Keep inventory synchronized across all channels",
+      "Order Management: Manage orders from all channels in one place",
+      "Bulk Listing: Upload many products simultaneously",
+      "Product Import: Import existing listings from other platforms",
+      "Free to Use: Core multi-channel selling without payment"
+    ],
+    howToUse: {
+      title: "How to Use Truegether",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up at truegether.com and set up your seller account. Connect your existing marketplace accounts for synchronization." },
+        { title: "List Your Products", description: "Upload your product listings to TrueGether and select which channels to list on. Your listings appear across all selected marketplaces simultaneously." },
+        { title: "Manage Your Sales", description: "Receive orders from all channels in your TrueGether dashboard. Manage fulfillment and inventory from one place rather than separately on each platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Channel Reach", description: "Selling on multiple marketplaces increases your potential buyer audience without requiring separate listing management on each platform" },
+      { title: "Free Entry Point", description: "Most multi-channel selling tools charge significant fees. TrueGether free model makes multi-channel expansion accessible to small sellers without additional costs" },
+      { title: "Inventory Risk Reduction", description: "Synchronized inventory that updates across all channels when you make a sale prevents overselling the same item on multiple platforms" },
+      { title: "Existing Listing Import", description: "Importing existing listings from other platforms eliminates the work of recreating all your products from scratch in a new system" }
+    ],
+    useCases: [
+      { title: "Individual Online Sellers", description: "Private sellers and small retailers use TrueGether to expand their reach across multiple marketplaces affordably" },
+      { title: "eBay Sellers Diversifying", description: "Established eBay sellers use TrueGether to list on additional platforms and reduce their dependence on a single marketplace" },
+      { title: "Small E-commerce Retailers", description: "Small online stores use TrueGether for multi-channel presence without the cost of enterprise multi-channel management tools" }
+    ]
+  },
+  "storebuild-ai": {
+    whatIs: "StoreBuild AI is an AI-powered e-commerce store builder that creates complete online stores from a product description or business idea. It generates store design, product pages, and copy automatically, allowing entrepreneurs to launch an online store quickly without web development skills. The platform handles the technical setup while the AI handles content and design, making e-commerce accessible to business owners who want to sell online without technical barriers.",
+    features: [
+      "AI Store Generation: Create complete stores from a business description",
+      "Product Pages: AI-generated product descriptions and pages",
+      "Store Design: Automatic design and layout generation",
+      "Payment Integration: Built-in payment processing setup",
+      "Mobile Optimized: Stores that work on all devices",
+      "SEO Ready: Basic SEO optimization for generated stores",
+      "Custom Domain: Connect your own domain to your store",
+      "Free Trial: Try StoreBuild AI before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Storebuild Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Store", description: "Sign up at storebuild.ai and describe your business - what you sell, who your customers are, and what style you want for your store." },
+        { title: "Review Generated Store", description: "StoreBuild AI creates your complete store with pages, product listings, and design. Review each section and customize anything that needs adjustment." },
+        { title: "Launch and Sell", description: "Connect your payment processor, add your domain, and launch your store. StoreBuild AI handles the technical setup so you can focus on sales." }
+      ]
+    },
+    coreFeatures: [
+      { title: "No-Code E-commerce", description: "Building an online store traditionally requires either technical skills or hiring a developer. AI that generates a complete store removes this barrier entirely" },
+      { title: "Speed to Launch", description: "The time from business idea to live online store is compressed from weeks to hours with AI store generation" },
+      { title: "Content Generation", description: "Writing compelling product descriptions and store copy is one of the most time-consuming parts of e-commerce setup. AI content generation handles this automatically" },
+      { title: "Complete Package", description: "Having design, content, and technical setup in one AI-powered package eliminates the need to coordinate multiple services for a new store" }
+    ],
+    useCases: [
+      { title: "First-Time E-commerce Entrepreneurs", description: "People starting their first online store use StoreBuild AI to launch quickly without needing technical skills" },
+      { title: "Brick-and-Mortar Businesses Going Online", description: "Physical retailers use StoreBuild AI to create an online presence quickly" },
+      { title: "Product Creators and Makers", description: "Artisans and creators use StoreBuild AI to launch online stores for their handmade products" }
+    ]
+  },
   "plannit-ai": {
     whatIs: "Plannit AI is an AI-powered business plan generator that helps entrepreneurs create detailed business plans quickly through a guided AI conversation. It asks targeted questions about your business and uses the answers to generate a complete, professionally formatted business plan including market analysis, competitive landscape, financial projections, and operational details. For entrepreneurs who need a business plan but find the blank page overwhelming, Plannit AI makes the process conversational and manageable.",
     features: [
