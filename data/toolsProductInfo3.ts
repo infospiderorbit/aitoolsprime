@@ -1,4 +1,235 @@
 export const toolsProductInfo3: { [key: string]: any } = {
+  "seo-writing-ai": {
+    whatIs: "SEO Writing AI is an AI content generation platform that produces long-form SEO-optimized articles automatically from keywords. It analyzes search intent, generates comprehensive articles with proper structure, and includes relevant images and internal linking suggestions. The platform is designed for high-volume SEO content production where speed and optimization quality both matter. For content teams and agencies producing large volumes of search-optimized content, SEO Writing AI provides the production speed that makes ambitious content strategies achievable.",
+    features: [
+      "Bulk Article Generation: Produce many SEO articles simultaneously",
+      "Keyword-Based Writing: Articles built around specific target keywords",
+      "Auto-Publishing: Direct publishing to WordPress sites",
+      "Image Integration: Relevant images included in generated articles",
+      "NLP Optimization: Natural language processing signals for better rankings",
+      "Internal Linking: Automatic internal link suggestions",
+      "Multiple Languages: Content generation in many languages",
+      "Free Credits: Try article generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Seo Writing Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Keywords", description: "Sign up at seowriting.ai and enter the keywords you want to create content for. Add them individually or upload a bulk list for simultaneous processing." },
+        { title: "Configure Your Settings", description: "Set your article length, tone, and any specific requirements. Configure auto-publishing if you want articles sent directly to your WordPress site." },
+        { title: "Generate and Publish", description: "Generate your articles and review before publishing. For high-volume production, use the bulk generation and auto-publish features to maximize output." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Bulk Production Capability", description: "Content strategies that require hundreds of articles need production tools that match this scale. Bulk generation that processes many articles simultaneously makes ambitious content plans achievable" },
+      { title: "Auto-Publish Efficiency", description: "Manually copying generated content to WordPress for each article adds significant time when producing at volume. Auto-publishing eliminates this step entirely" },
+      { title: "SEO Signal Integration", description: "NLP optimization that includes semantic signals beyond the main keyword produces content more likely to rank well in modern search algorithms" },
+      { title: "Multi-Language Scale", description: "Content strategies targeting multiple language markets need production tools that work in each language. Multi-language support extends the same production efficiency across markets" }
+    ],
+    useCases: [
+      { title: "Niche Site Builders", description: "People building content sites for organic traffic use SEO Writing AI for the high-volume production that competitive niches require" },
+      { title: "SEO Agencies", description: "Agencies managing content production for many clients use SEO Writing AI for the scale that their client portfolios demand" },
+      { title: "E-commerce Brands", description: "Online retailers use SEO Writing AI for category content and buying guides that drive organic traffic to their product pages" }
+    ]
+  },
+  "readdy": {
+    whatIs: "Readdy is an AI reading assistant and document intelligence platform that helps users quickly understand long documents, research papers, and reports. It answers questions about uploaded documents, generates summaries, extracts key information, and helps users navigate complex material efficiently. For researchers, students, and professionals who need to process large volumes of written material, Readdy provides the AI reading assistance that makes this practical.",
+    features: [
+      "Document Q&A: Ask questions about uploaded documents and get answers",
+      "Summarization: Generate concise summaries of long documents",
+      "Key Point Extraction: Pull the most important information from any document",
+      "PDF Support: Process PDF documents directly",
+      "Multiple Documents: Analyze several documents simultaneously",
+      "Research Assistance: Help navigating academic papers and research",
+      "Citation Support: Track where information comes from in documents",
+      "Free to Try: Basic document analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Readdy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Document", description: "Sign up at readdy.ai and upload the document you want to analyze. Readdy processes PDFs and other document formats automatically." },
+        { title: "Ask Your Questions", description: "Ask questions about the document content in plain language. Readdy finds and presents the relevant information from the document." },
+        { title: "Get Your Summary", description: "Request a summary or key point extraction for a quick understanding of the document without reading every page." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Reading Time Reduction", description: "Long documents that take hours to read thoroughly can be understood at a summary level in minutes with AI assistance" },
+      { title: "Research Efficiency", description: "Researchers who need to evaluate many documents to find relevant information use Readdy to process sources much faster than manual reading" },
+      { title: "Comprehension Support", description: "Complex technical documents and academic papers are hard to understand without specialist knowledge. AI that explains content in accessible terms improves comprehension" },
+      { title: "Information Retrieval", description: "Finding specific information buried in long documents normally requires reading everything. Question-based retrieval that surfaces relevant sections instantly saves significant time" }
+    ],
+    useCases: [
+      { title: "Researchers and Academics", description: "Scholars use Readdy for efficient processing of academic literature and research documents" },
+      { title: "Legal and Finance Professionals", description: "Professionals reviewing long contracts and reports use Readdy for faster document intelligence" },
+      { title: "Students", description: "Students use Readdy for understanding complex assigned readings and research papers more efficiently" }
+    ]
+  },
+  "studio-ai": {
+    whatIs: "Studio AI is a creative AI platform that provides a suite of tools for generating and editing images, videos, and other visual content. It offers multiple AI models for different creative tasks - image generation, style transfer, background removal, and video creation - accessible through one interface. For creative professionals and content creators who work with multiple types of visual AI tools, Studio AI provides an integrated creative workspace that reduces the need to switch between multiple platforms.",
+    features: [
+      "Image Generation: Create original images from text descriptions",
+      "Style Transfer: Apply artistic styles to existing images",
+      "Background Removal: Remove and replace image backgrounds",
+      "Video Creation: Generate short video content with AI",
+      "Multiple AI Models: Access different AI models for different tasks",
+      "Creative Workspace: Integrated environment for multiple creative tasks",
+      "High Resolution: Quality output suitable for professional use",
+      "Free Credits: Try creative tools before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Studio Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Sign up at studio.ai and select the creative tool that matches your task - image generation, style transfer, or video creation." },
+        { title: "Create Your Content", description: "Describe what you want to create or upload source material for transformation. Generate multiple variations to find the best result." },
+        { title: "Refine and Export", description: "Adjust and refine your creative output using the editing tools. Export in the resolution and format your project requires." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Modal Creativity", description: "Different creative tasks require different AI tools. An integrated workspace that provides multiple AI capabilities reduces the friction of switching between separate tools" },
+      { title: "Creative Experimentation", description: "Having multiple AI models available in one interface makes it easy to experiment with different approaches to the same creative challenge" },
+      { title: "Professional Quality Output", description: "Creative work that will be used professionally requires quality that matches the resolution and detail standards of the medium" },
+      { title: "Workflow Integration", description: "AI creative tools that integrate into existing creative workflows are more useful than standalone tools that require separate login and export steps" }
+    ],
+    useCases: [
+      { title: "Digital Artists and Illustrators", description: "Visual artists use Studio AI for AI-assisted creative work across image generation and manipulation" },
+      { title: "Content Creators", description: "Video and social media creators use Studio AI for visual content creation across multiple formats" },
+      { title: "Marketing and Design Teams", description: "Creative teams use Studio AI for campaign visual production with multiple AI tools accessible from one platform" }
+    ]
+  },
+  "ilogo-ai": {
+    whatIs: "iLogo AI is an AI-powered logo design platform that generates professional logo concepts from business names and descriptions. It creates multiple logo variations in different styles for users to choose from, providing vector files and brand assets for the selected design. For startups and small businesses that need a professional logo without the cost of a designer, iLogo AI provides accessible AI-powered logo creation with professional output quality.",
+    features: [
+      "AI Logo Generation: Create logos from your business name and description",
+      "Multiple Concepts: Generate several different logo directions",
+      "Vector Output: Scalable vector files for professional use",
+      "Style Variety: Different visual styles from modern to classic",
+      "Color Variations: Multiple color scheme options for chosen concept",
+      "Brand Assets: Complete brand kit with logo variations",
+      "Fast Delivery: Logos generated in minutes",
+      "Free to Try: Basic logo generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ilogo Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Brand", description: "Sign up at ilogo.ai and enter your business name and description. Include your industry, brand personality, and any style preferences." },
+        { title: "Choose Your Concept", description: "Browse the generated logo concepts and select the direction that best represents your brand. Consider how each option will look across different applications." },
+        { title: "Download Your Files", description: "Download your chosen logo in vector format with all the color variations and sizes you need for professional use across digital and print applications." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Vector Quality", description: "Logos need to scale from business cards to billboards without losing quality. Vector output that scales perfectly is essential for professional brand use" },
+      { title: "Multiple Directions", description: "Seeing several different logo concepts helps business owners find the right visual direction rather than accepting the first adequate option" },
+      { title: "Speed to Brand", description: "New businesses need brand assets immediately. AI logo generation that delivers results in minutes rather than weeks meets this urgent need" },
+      { title: "Cost Accessibility", description: "Professional logo design from agencies costs hundreds to thousands. AI generation makes quality logo design accessible at a fraction of this cost" }
+    ],
+    useCases: [
+      { title: "Startups and New Businesses", description: "Entrepreneurs launching new ventures use iLogo AI for professional logo creation without designer costs" },
+      { title: "Small Business Rebrands", description: "Existing businesses updating their visual identity use iLogo AI for affordable logo refresh" },
+      { title: "Side Project Creators", description: "People launching side businesses use iLogo AI for quick professional branding without significant investment" }
+    ]
+  },
+  "designs-ai": {
+    whatIs: "Designs.ai is a comprehensive AI creative platform that provides tools for logo creation, video making, graphic design, voiceover generation, and social media content creation in one subscription. It gives businesses and creators access to multiple AI-powered creative tools without needing separate subscriptions for each type of content. For businesses that need varied creative content regularly without a creative team, Designs.ai provides the breadth of AI creative tools that cover most visual and audio content needs.",
+    features: [
+      "Logo Maker: AI-powered logo creation tool",
+      "Video Maker: Create marketing videos with AI assistance",
+      "Graphic Designer: AI-assisted graphic and banner creation",
+      "Voiceover Generator: Text-to-speech voiceover in multiple languages",
+      "Social Media Creator: Platform-specific social content creation",
+      "Color Palette Generator: AI color scheme suggestions",
+      "Font Pairing: Intelligent font combination recommendations",
+      "Free Trial: Try all creative tools before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Designs Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Creative Task", description: "Sign up at designs.ai and select the creative tool you need - logo, video, graphic, or voiceover. Each tool is optimized for its specific creative output." },
+        { title: "Create Your Content", description: "Provide your content brief or assets and let the AI generate your creative output. Customize colors, fonts, and elements to match your brand." },
+        { title: "Download and Deploy", description: "Download your finished creative assets in the appropriate formats for your intended use - social media, website, print, or broadcast." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Suite Value", description: "Separate subscriptions for logo tools, video makers, and graphic design software add up significantly. A single subscription covering multiple creative types provides better value" },
+      { title: "Consistent Brand Application", description: "Having all creative tools under one platform with shared brand settings makes consistent visual identity application easier across different content types" },
+      { title: "Non-Designer Accessibility", description: "AI creative tools that handle the technical design work make professional-looking content accessible to people without design training" },
+      { title: "Voiceover Integration", description: "Having text-to-speech voiceover in the same platform as visual creative tools simplifies video production that requires both visual and audio elements" }
+    ],
+    useCases: [
+      { title: "Small Business Marketing Teams", description: "Small teams use Designs.ai for the variety of creative content their marketing requires without multiple tool subscriptions" },
+      { title: "Solopreneurs", description: "Individual business owners use Designs.ai for all their creative needs from one affordable platform" },
+      { title: "Content Creators", description: "Creators who produce varied content across formats use Designs.ai for the creative breadth that one subscription provides" }
+    ]
+  },
+  "logome": {
+    whatIs: "Logome is an AI logo maker that creates professional logos and brand identity packages from business information. It generates multiple logo options in different styles, provides comprehensive brand kits with color palettes and typography, and delivers vector files for professional use. The platform is designed to give small businesses and startups the professional brand identity they need without the cost or time of working with a designer.",
+    features: [
+      "AI Logo Creation: Generate professional logos from your business details",
+      "Brand Kit: Complete identity package with colors and typography",
+      "Multiple Styles: Classic, modern, minimalist, and other design directions",
+      "Vector Files: Professional scalable output for all applications",
+      "Social Media Assets: Sized assets for different platforms",
+      "Favicon Creation: Website favicon from your logo",
+      "Unlimited Revisions: Adjust your chosen logo direction",
+      "Free to Try: Basic logo generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Logome",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Business Details", description: "Sign up at logome.ai and enter your business name, industry, and brand personality. Include any colors or design styles you prefer or want to avoid." },
+        { title: "Browse and Select", description: "Review the generated logo options across different styles. Select the direction that best represents your brand and feels right for your market." },
+        { title: "Customize and Download", description: "Refine your chosen logo - adjust colors, typography, and spacing. Download the complete brand kit with all files you need for professional use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brand Identity Completeness", description: "A logo alone is not a complete brand identity. A comprehensive kit with colors, fonts, and assets ensures consistent brand application across all touchpoints" },
+      { title: "Professional Vector Output", description: "Raster logos that cannot scale without losing quality are inadequate for professional brand use. Vector output that scales perfectly meets professional standards" },
+      { title: "Speed for New Businesses", description: "New businesses need brand assets immediately to start marketing. AI logo generation that delivers complete brand kits quickly meets this urgent need" },
+      { title: "Cost vs Agency", description: "Brand identity packages from design agencies cost thousands. AI-powered brand creation at a fraction of this cost makes professional branding accessible to businesses of all sizes" }
+    ],
+    useCases: [
+      { title: "New Business Owners", description: "Entrepreneurs starting new businesses use Logome for complete brand identity creation at startup-appropriate cost" },
+      { title: "Freelancers Building Personal Brand", description: "Independent professionals use Logome for personal brand logos and identity assets" },
+      { title: "Startup Founders", description: "Early-stage founders use Logome for professional brand assets that make their company look established from day one" }
+    ]
+  },
+  "7lemon": {
+    whatIs: "7Lemon is an AI customer service and live chat platform that helps businesses provide responsive customer support through website chat, WhatsApp, and other messaging channels. It combines AI chatbot capabilities with human agent support, routing conversations intelligently and providing agents with AI assistance to respond faster and more accurately. For businesses that want to improve their customer support quality and response times without significantly increasing support staff, 7Lemon provides the AI-enhanced support infrastructure that makes better service achievable.",
+    features: [
+      "Live Chat: Website chat for real-time customer support",
+      "AI Chatbot: Automated responses for common customer questions",
+      "WhatsApp Integration: Customer support through WhatsApp",
+      "Human Handoff: Smooth transfer from AI to human agents",
+      "Agent AI Assistance: AI suggestions to help agents respond better",
+      "Multi-Channel: Unified inbox across chat channels",
+      "Analytics: Track response times and customer satisfaction",
+      "Free Trial: Try 7Lemon before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use 7Lemon",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Your Chat Widget", description: "Sign up at 7lemon.io and install the chat widget on your website. Configure your greeting messages and initial automation flows." },
+        { title: "Set Up Your AI Responses", description: "Configure automated responses for your most common customer questions. Set up routing rules for when conversations should transfer to human agents." },
+        { title: "Train Your Team", description: "Onboard your support agents to the platform. The AI assistance features help agents respond more accurately and efficiently to customer inquiries." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Response Time Improvement", description: "Customers who wait too long for support responses become frustrated and leave. AI that handles common questions instantly and assists agents with complex ones reduces response times significantly" },
+      { title: "Human Plus AI Balance", description: "Fully automated chatbots fail on complex questions. Fully human support cannot scale economically. The combination of AI handling routine questions and assisting humans on complex ones produces the best outcomes" },
+      { title: "Agent Quality Enhancement", description: "AI assistance that suggests responses helps agents give more accurate and consistent answers even when they are new or handling unfamiliar topics" },
+      { title: "Multi-Channel Unification", description: "Customers who contact support through different channels expect consistent service. A unified inbox that brings all channels together enables this consistency" }
+    ],
+    useCases: [
+      { title: "E-commerce Customer Service", description: "Online retailers use 7Lemon for customer support across their website chat and WhatsApp at the scale their order volume requires" },
+      { title: "SaaS Companies", description: "Software businesses use 7Lemon for customer support that combines AI automation with human expertise for complex product questions" },
+      { title: "Small Business Customer Service", description: "Small businesses use 7Lemon for professional customer support infrastructure that previously required larger support teams" }
+    ]
+  },
   "freeadcopy": {
     whatIs: "FreeAdCopy is a free AI advertising copy generator that creates compelling ad text for Google Ads, Facebook Ads, and other advertising platforms. Users enter their product or service details and the AI generates multiple ad copy variations with headlines, descriptions, and calls to action optimized for each platform. For small business owners and marketers who need quality ad copy without the cost of a copywriter, FreeAdCopy provides accessible AI-powered advertising copy at no cost.",
     features: [
