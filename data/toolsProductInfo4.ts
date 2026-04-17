@@ -1,4 +1,268 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "miro": {
+    whatIs: "Miro is an online collaborative whiteboard platform that gives teams a shared visual workspace for brainstorming, planning, and collaboration. It provides an infinite canvas with sticky notes, diagrams, frameworks, and templates that teams use for design thinking, sprint planning, retrospectives, and strategic planning sessions. The platform is built for remote and hybrid teams who need the energy and creativity of in-person whiteboarding sessions without being in the same room. For product, design, and engineering teams that think visually and collaborate across locations, Miro provides the digital workspace that makes distributed collaboration genuinely effective.",
+    features: [
+      "Infinite Canvas: Unlimited whiteboard space for any collaboration need",
+      "Template Library: Hundreds of templates for common team activities",
+      "Real-Time Collaboration: Multiple people working simultaneously",
+      "Sticky Notes and Diagrams: Visual collaboration tools for any thinking style",
+      "Video Integration: Built-in video calls while collaborating on the board",
+      "Presentation Mode: Turn your board into a presentation",
+      "Integration: Connects with Jira, Confluence, Slack, and others",
+      "Free Plan: Basic whiteboard collaboration without payment"
+    ],
+    howToUse: {
+      title: "How to Use Miro",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Board", description: "Sign up at miro.com and create a new board. Choose a template for your activity or start with a blank canvas." },
+        { title: "Invite Your Team", description: "Share the board link with your team. Everyone joins the same canvas and can see each other working in real time." },
+        { title: "Collaborate and Create", description: "Use sticky notes, shapes, and drawing tools to brainstorm and organize ideas. Use the timer and voting features to facilitate structured collaboration sessions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Remote Collaboration Equivalence", description: "Remote teams that lack shared physical whiteboard space lose a critical creative collaboration medium. Miro recreates this shared visual thinking space digitally" },
+      { title: "Template Facilitation", description: "Running effective workshops and retrospectives requires structure. Templates that provide proven frameworks reduce facilitation preparation time" },
+      { title: "Asynchronous Contribution", description: "Boards that team members can contribute to across time zones enable collaboration that does not require everyone online simultaneously" },
+      { title: "Integration with Work Tools", description: "Connecting Miro to Jira and other project tools means whiteboard outputs connect directly to work execution rather than remaining isolated in a separate tool" }
+    ],
+    useCases: [
+      { title: "Product and Design Teams", description: "Product managers and designers use Miro for design thinking workshops, user journey mapping, and collaborative product planning" },
+      { title: "Engineering Teams", description: "Development teams use Miro for sprint planning, architecture diagrams, and technical brainstorming sessions" },
+      { title: "Remote and Hybrid Organizations", description: "Distributed teams use Miro as their primary visual collaboration space for all the activities that would happen on physical whiteboards in an office" }
+    ]
+  },
+  "whimsical": {
+    whatIs: "Whimsical is a visual collaboration platform that provides purpose-built tools for wireframes, flowcharts, mind maps, and sticky note boards. Unlike general whiteboard tools, each Whimsical mode is specifically designed for its use case with smart snap-to-grid behavior, automatic connectors, and purpose-specific elements. The result is visual documents that look professional and organized without requiring design skills or extensive manual formatting. For product and design teams that need to communicate ideas visually, Whimsical produces clean, clear diagrams faster than general diagramming tools.",
+    features: [
+      "Wireframes: Purpose-built UI wireframing with component library",
+      "Flowcharts: Smart flowchart creation with automatic connectors",
+      "Mind Maps: Organized thought mapping and brainstorming",
+      "Sticky Notes: Collaborative virtual sticky note sessions",
+      "AI Generation: AI-assisted diagram and wireframe creation",
+      "Real-Time Collaboration: Multiple people editing simultaneously",
+      "Clean Output: Professional-looking results without design skills",
+      "Free Plan: Basic diagram creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Whimsical",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Sign up at whimsical.com and select the tool that matches your need - wireframe for UI design, flowchart for process documentation, or mind map for brainstorming." },
+        { title: "Create Your Diagram", description: "Use the purpose-built tools to create your visual. Smart snapping, auto-connectors, and component libraries make clean diagrams quick to produce." },
+        { title: "Share and Collaborate", description: "Share your diagram with collaborators or embed it in documentation. Team members can comment and edit in real time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Purpose-Built Quality", description: "General diagramming tools require significant effort to make outputs look clean and professional. Purpose-built modes that handle formatting automatically produce better results faster" },
+      { title: "Wireframe Component Library", description: "UI wireframing with a component library of common interface elements produces wireframes that communicate design intent clearly without requiring Figma-level skills" },
+      { title: "Mind Map Structure", description: "Mind mapping that automatically organizes and spaces nodes produces clear thought maps without manual layout work" },
+      { title: "Cross-Tool Workflow", description: "Having wireframes, flowcharts, and mind maps in one platform keeps visual documentation organized rather than scattered across multiple tools" }
+    ],
+    useCases: [
+      { title: "Product Managers", description: "PMs use Whimsical for wireframes to communicate product ideas and flowcharts to document user journeys" },
+      { title: "UX Designers", description: "Designers use Whimsical for quick wireframing and prototyping in the early stages of design" },
+      { title: "Developers Documenting Systems", description: "Engineers use Whimsical flowcharts for system architecture and process documentation" }
+    ]
+  },
+  "dronedeploy": {
+    whatIs: "DroneDeploy is an AI-powered drone data and aerial intelligence platform that processes drone footage into actionable maps, 3D models, and analytics for construction, agriculture, and infrastructure industries. It automatically stitches aerial photos into orthomosaic maps, generates 3D point clouds, and uses AI to extract measurements, detect anomalies, and track progress over time. For industries that manage large physical assets and sites, DroneDeploy transforms drone data from raw footage into professional intelligence products.",
+    features: [
+      "Aerial Mapping: Create accurate maps from drone footage automatically",
+      "3D Modeling: Generate 3D models of sites and structures",
+      "Progress Tracking: Monitor construction and site changes over time",
+      "AI Analysis: Automatic detection of anomalies and issues",
+      "Measurements: Accurate area and volume measurements from aerial data",
+      "Reporting: Professional reports from aerial intelligence",
+      "Multiple Industries: Construction, agriculture, mining, and more",
+      "Free Trial: Try DroneDeploy before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Dronedeploy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Fly Your Mission", description: "Sign up at dronedeploy.com and plan your drone mission. The app guides your drone to capture the footage needed for your mapping project." },
+        { title: "Process Your Data", description: "Upload your drone footage to DroneDeploy. The platform automatically processes images into maps, models, and measurements." },
+        { title: "Extract Intelligence", description: "Access your processed maps and use the measurement, annotation, and AI analysis tools to extract the insights your project needs." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated Processing", description: "Manually stitching drone photos into maps requires specialized software and significant time. Automated processing that handles this delivers results quickly without technical expertise" },
+      { title: "Accuracy for Professional Use", description: "Construction and infrastructure projects require accurate measurements. AI-processed aerial data that delivers survey-grade accuracy meets professional standards" },
+      { title: "Progress Visualization", description: "Comparing aerial captures over time to track site progress provides a clear visual record that static reports cannot match" },
+      { title: "AI Anomaly Detection", description: "Automatically identifying issues like roof damage, crop stress, or structural problems in aerial imagery finds problems that manual visual inspection misses" }
+    ],
+    useCases: [
+      { title: "Construction Companies", description: "Construction firms use DroneDeploy for site progress tracking, volume calculations, and as-built documentation" },
+      { title: "Agriculture Operations", description: "Farms use DroneDeploy for crop health monitoring, field mapping, and yield estimation from aerial data" },
+      { title: "Infrastructure Inspection Teams", description: "Utilities and infrastructure operators use DroneDeploy for aerial inspection of assets that are costly or dangerous to inspect manually" }
+    ]
+  },
+  "smartsuite": {
+    whatIs: "SmartSuite is a flexible work management platform that combines project management, database, and workflow tools in one system. It allows teams to build custom workflows for any process - project tracking, CRM, content management, HR processes - using a no-code interface that creates structured applications rather than simple task lists. For teams that have outgrown basic project management tools but do not want multiple specialized tools for different processes, SmartSuite provides an adaptable platform that handles diverse work management needs.",
+    features: [
+      "Custom Workflows: Build any process into a structured workflow",
+      "Project Management: Task and project tracking with multiple views",
+      "Database Functionality: Structured data management for any information type",
+      "Multiple Views: Table, board, calendar, chart, and other views",
+      "Automation: Workflow automation for repetitive processes",
+      "Reporting: Custom dashboards and reports",
+      "Team Collaboration: Comments, assignments, and notifications",
+      "Free Trial: Try SmartSuite before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Smartsuite",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Design Your Workflow", description: "Sign up at smartsuite.com and create a solution for your specific process. Define the fields, views, and structure that match how your team actually works." },
+        { title: "Migrate Your Work", description: "Import existing data or start fresh. Configure the automation rules that handle routine steps in your workflow automatically." },
+        { title: "Collaborate and Track", description: "Invite your team and begin managing your work in SmartSuite. Use different views for different perspectives on the same data." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Process Flexibility", description: "Rigid project management tools force teams to adapt their processes to the software. SmartSuite flexibility to build any workflow means the software adapts to the team instead" },
+      { title: "Multiple View Value", description: "The same work looks different from different perspectives. Having table, board, and calendar views of the same data serves different team member needs without duplicating information" },
+      { title: "Process Consolidation", description: "Teams using separate tools for projects, CRM, and internal processes gain efficiency by consolidating these into one platform with connected data" },
+      { title: "No-Code Customization", description: "Building custom workflow applications without coding makes process design accessible to operations and project management teams without technical resources" }
+    ],
+    useCases: [
+      { title: "Operations Teams", description: "Business operations professionals use SmartSuite for the flexible workflow management that handles their diverse process needs" },
+      { title: "Agencies and Creative Teams", description: "Agencies use SmartSuite for project and client management customized to their specific delivery processes" },
+      { title: "Growing Teams Needing Structure", description: "Teams that have outgrown simple task lists use SmartSuite for more sophisticated process management without enterprise software complexity" }
+    ]
+  },
+  "mercor": {
+    whatIs: "Mercor is an AI-powered hiring platform that matches companies with pre-vetted technical talent through AI screening and assessment. It uses AI interviews and technical evaluations to assess candidate skills objectively before presenting them to hiring companies, reducing the time companies spend on screening and interviewing unqualified candidates. For companies that need to hire engineers and technical professionals quickly without investing significant recruiting resources in initial screening, Mercor provides a curated talent marketplace backed by AI assessment.",
+    features: [
+      "AI Screening: Automated technical interviews and skill assessment",
+      "Pre-Vetted Talent: Candidates screened before company sees them",
+      "Technical Assessment: Objective evaluation of engineering skills",
+      "Fast Matching: Quick presentation of qualified candidates",
+      "Global Talent: Access to international technical talent",
+      "Diverse Roles: Engineers, data scientists, and other technical roles",
+      "Trial Periods: Try candidates before permanent hire",
+      "Free to Post: List roles without upfront payment"
+    ],
+    howToUse: {
+      title: "How to Use Mercor",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Post Your Role", description: "Sign up at mercor.com and describe the technical role you need to fill. Specify required skills, experience level, and any other criteria." },
+        { title: "Review Matched Candidates", description: "Mercor presents pre-screened candidates who have passed AI technical assessment. Review profiles knowing every candidate has been objectively evaluated." },
+        { title: "Interview and Hire", description: "Conduct your final interviews with confidence that candidates have already demonstrated the technical skills your role requires. Move quickly to offers for qualified candidates." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Screening Time Elimination", description: "Engineering interviews consume enormous developer time. Pre-vetted candidates who have already passed technical assessment eliminate the first several rounds of screening" },
+      { title: "Objective Assessment", description: "Technical hiring that relies on resume review misses strong candidates with non-traditional backgrounds. AI assessment that evaluates actual skills rather than credentials improves hiring quality" },
+      { title: "Speed to Hire", description: "Fast-growing companies that need engineers quickly cannot afford lengthy recruiting cycles. Pre-vetted talent marketplaces compress time to qualified candidate significantly" },
+      { title: "Global Talent Access", description: "Limiting technical hiring to local markets reduces the talent pool. Access to global pre-vetted talent expands the candidate universe for specialized roles" }
+    ],
+    useCases: [
+      { title: "Tech Startups Hiring Engineers", description: "Growing technology companies use Mercor for fast access to pre-screened technical talent" },
+      { title: "Engineering Teams Scaling Quickly", description: "Teams that need to hire multiple engineers rapidly use Mercor for the speed and quality that their growth requires" },
+      { title: "Companies Without Recruiting Resources", description: "Businesses without dedicated technical recruiters use Mercor for the recruiting infrastructure they lack internally" }
+    ]
+  },
+  "codesignal": {
+    whatIs: "CodeSignal is a technical assessment and skills evaluation platform that helps companies evaluate engineering candidates and measure developer skills objectively. It provides coding challenges, technical interviews, and skills benchmarking that assess real programming ability rather than resume claims. The platform is used for pre-employment screening, interview preparation, and internal skills development. For companies that make technical hiring decisions and want objective data about candidate coding ability, CodeSignal provides the assessment infrastructure that reduces hiring mistakes.",
+    features: [
+      "Technical Assessments: Coding challenges that evaluate real programming ability",
+      "Interview Platform: Structured technical interview environment",
+      "Skills Benchmarking: Measure candidate skills against industry standards",
+      "Automated Scoring: Objective evaluation without human bias",
+      "Multiple Languages: Assessments in all major programming languages",
+      "Interview Practice: Candidates can practice on the platform",
+      "ATS Integration: Connects with recruiting systems",
+      "Free Tier: Basic assessment capabilities without payment"
+    ],
+    howToUse: {
+      title: "How to Use Codesignal",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Assessment", description: "Sign up at codesignal.com and configure technical assessments for your role. Choose from existing challenges or create custom problems that test your specific technical requirements." },
+        { title: "Send to Candidates", description: "Invite candidates to complete assessments. CodeSignal administers the assessment, scores it automatically, and presents results with detailed performance data." },
+        { title: "Make Data-Informed Decisions", description: "Review assessment results alongside interview performance to make technical hiring decisions backed by objective skill measurement rather than impression alone." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Objective Skill Measurement", description: "Hiring decisions based on resumes and conversational interviews are subjective and inconsistent. Code assessment that measures actual programming ability produces more reliable technical hiring decisions" },
+      { title: "Screening Efficiency", description: "Technical phone screens that consume senior engineer time are expensive. Automated assessments that filter candidates before human interviews reduce this cost significantly" },
+      { title: "Bias Reduction", description: "Standardized coding challenges that evaluate all candidates on the same problems reduce the subjective bias that affects conversational technical interviews" },
+      { title: "Candidate Signal Quality", description: "Better assessment data that reveals how candidates actually code under realistic conditions produces better hiring signal than algorithm puzzles disconnected from real work" }
+    ],
+    useCases: [
+      { title: "Engineering Hiring Teams", description: "Companies hiring software engineers use CodeSignal for objective technical screening and interview assessment" },
+      { title: "Technical Recruiting Teams", description: "Recruiters who are not engineers use CodeSignal for technical screening they could not conduct themselves" },
+      { title: "Candidates Preparing for Interviews", description: "Software engineers preparing for technical interviews use CodeSignal for practice on real interview-style problems" }
+    ]
+  },
+  "zapier": {
+    whatIs: "Zapier is the leading no-code automation platform that connects over 7000 apps and automates workflows between them without requiring programming skills. It uses a trigger-and-action model where an event in one app automatically triggers actions in other connected apps. Zapier handles the most common integration needs that would otherwise require custom development - syncing data between tools, automating repetitive data entry, and triggering actions across systems when specific events occur. For non-technical teams that use many different software tools and want to connect them without engineering resources, Zapier provides the automation infrastructure that eliminates manual work between apps.",
+    features: [
+      "7000 Plus App Integrations: Connect virtually any software tool",
+      "No-Code Automation: Build workflows without programming",
+      "Multi-Step Zaps: Complex automations with multiple actions",
+      "Filters and Logic: Conditional automation based on data values",
+      "Data Transformation: Format and transform data between apps",
+      "AI Actions: AI-powered steps in automation workflows",
+      "Team Collaboration: Share and manage automations across teams",
+      "Free Plan: Basic automation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Zapier",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Trigger", description: "Sign up at zapier.com and select the app and event that will start your automation. This is the trigger that initiates the workflow." },
+        { title: "Add Your Actions", description: "Define what should happen when the trigger fires. Add actions in other apps - create records, send messages, update data - that complete your automated workflow." },
+        { title: "Test and Activate", description: "Test your Zap with real data to confirm it works correctly. Activate it and the automation runs in the background whenever the trigger event occurs." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Integration Without Development", description: "Connecting software tools traditionally requires API development that takes engineering time. Zapier provides this integration capability without any coding" },
+      { title: "Manual Work Elimination", description: "Repetitive tasks like copying data between apps or sending notifications when things happen consume staff time that automation can handle instantly and reliably" },
+      { title: "7000 App Coverage", description: "The breadth of Zapier app library means almost any software combination can be connected, making it useful regardless of which specific tools a business uses" },
+      { title: "Reliability at Scale", description: "Automation that runs reliably in the background handles integrations consistently without the errors and delays of manual data transfer" }
+    ],
+    useCases: [
+      { title: "Operations and Business Teams", description: "Non-technical business professionals use Zapier to automate the manual work between their software tools" },
+      { title: "Marketing Teams", description: "Marketing professionals use Zapier for lead routing, campaign automation, and data synchronization across their marketing stack" },
+      { title: "Small Business Owners", description: "Business owners who use many software tools use Zapier to connect them and eliminate manual data entry between systems" }
+    ]
+  },
+  "copy-ai": {
+    whatIs: "Copy.ai is an AI copywriting platform that helps marketing teams and content creators generate marketing copy, blog content, social media posts, and other business writing at scale. It provides a large library of templates for specific copywriting tasks and a general AI writing assistant for open-ended content creation. The platform is particularly focused on marketing use cases and offers tools for running complete content workflows from ideation to final copy. For marketing teams that need to produce large volumes of quality content, Copy.ai provides the AI writing infrastructure that scales content production without proportionally scaling headcount.",
+    features: [
+      "Marketing Templates: 90 plus templates for specific marketing copy needs",
+      "Blog Writer: Long-form blog post generation and optimization",
+      "Social Media Copy: Platform-specific social content generation",
+      "Email Copy: Marketing email and newsletter content",
+      "Ad Copy: Advertising copy for multiple platforms",
+      "Brand Voice: Train the AI on your specific brand tone",
+      "Workflows: Multi-step content creation pipelines",
+      "Free Plan: Basic copy generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Copy Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Sign up at copy.ai and select a template for your copywriting need - blog post, email subject line, product description, or ad copy." },
+        { title: "Input Your Details", description: "Provide the specific information about your product, audience, and goals. The more specific your input the more relevant the generated copy." },
+        { title: "Generate and Refine", description: "Generate multiple copy variations and select the best direction. Edit and refine the output to add your specific voice and any details the AI did not know." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Template Specialization", description: "Specific copywriting tasks have specific requirements. Templates built for each use case produce more appropriate output than generic writing prompts" },
+      { title: "Volume for Marketing", description: "Marketing teams that produce content across many channels simultaneously need tools that scale their output without proportionally scaling their headcount" },
+      { title: "Brand Voice Training", description: "Generic AI copy sounds like everyone else. Brand voice training that produces on-brand content makes AI assistance useful for consistent marketing communication" },
+      { title: "Workflow Efficiency", description: "Multi-step content workflows that handle ideation, drafting, and optimization in sequence produce better results than isolated generation without process structure" }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "In-house marketing teams use Copy.ai for the content volume their programs require across email, social, ads, and blog content" },
+      { title: "Content Marketing Agencies", description: "Agencies use Copy.ai to scale content production for multiple clients without proportionally increasing writer headcount" },
+      { title: "E-commerce Brands", description: "Online retailers use Copy.ai for product descriptions, email campaigns, and social content at the scale their business requires" }
+    ]
+  },
   "jotform-ai-agents": {
     whatIs: "Jotform AI Agents is an AI-powered form and data collection platform that transforms traditional forms into conversational AI experiences. Instead of presenting users with static form fields, Jotform AI Agents conducts natural conversations to collect information, making the data gathering process more engaging and completing more submissions. It builds on Jotform existing form infrastructure to add AI conversation capabilities for customer intake, lead generation, surveys, and support. For businesses that collect significant data through forms and want to improve completion rates and data quality, Jotform AI Agents provides conversational AI without custom development.",
     features: [
