@@ -1,4 +1,268 @@
 export const toolsProductInfo3: { [key: string]: any } = {
+  "glitching-ai": {
+    whatIs: "Glitching AI is a creative image manipulation and art generation platform that applies glitch art effects, digital distortion, and experimental visual transformations to photos and images. It generates unique glitch aesthetic artwork that blends digital error aesthetics with creative expression. For digital artists and content creators who want to create distinctive visual content with a contemporary digital art aesthetic, Glitching AI provides accessible tools for glitch art creation.",
+    features: [
+      "Glitch Effects: Apply digital distortion and glitch aesthetics to images",
+      "Art Generation: Create original glitch art from text or image inputs",
+      "Multiple Styles: Different glitch and distortion effect varieties",
+      "Custom Intensity: Control the level of glitch effect applied",
+      "High Resolution: Quality output suitable for printing and display",
+      "Fast Processing: Glitch effects applied quickly",
+      "Download Options: Save artwork in standard formats",
+      "Free to Try: Basic glitch art creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Glitching Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload or Describe", description: "Sign up at glitching.ai and either upload an image to glitch or describe the artwork you want created." },
+        { title: "Apply Your Effects", description: "Choose the glitch effects and distortion levels you want applied. Preview different intensities and styles to find the right aesthetic." },
+        { title: "Download Your Art", description: "Download your finished glitch artwork in high resolution for use in your digital content, prints, or social media." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Distinctive Aesthetic", description: "Glitch art has a specific contemporary digital aesthetic that stands out from conventional photography and illustration" },
+      { title: "Accessibility of Digital Art", description: "Creating glitch art manually requires technical knowledge of image manipulation. AI tools make this aesthetic accessible without technical skills" },
+      { title: "Content Differentiation", description: "Social media content that uses distinctive visual styles stands out in feeds full of conventional photography" },
+      { title: "Creative Experimentation", description: "The unpredictable nature of glitch aesthetics encourages creative experimentation that produces unexpected and interesting results" }
+    ],
+    useCases: [
+      { title: "Digital Artists", description: "Artists working in digital media use Glitching AI for creating glitch art pieces and exploring digital distortion aesthetics" },
+      { title: "Social Media Content Creators", description: "Creators use Glitching AI for visually distinctive content that stands out in social media feeds" },
+      { title: "Graphic Designers", description: "Designers use glitch effects for contemporary visual projects that call for digital art aesthetics" }
+    ]
+  },
+  "kopy": {
+    whatIs: "Kopy is an AI copywriting platform that generates marketing copy, ad text, email campaigns, and other conversion-focused content. It is designed specifically for producing copy that converts - driving clicks, sign-ups, and purchases rather than just informing. The platform uses copywriting frameworks and psychological principles to produce persuasive content across different formats and channels. For marketers who need high-converting copy at volume, Kopy provides AI assistance trained on effective marketing communication.",
+    features: [
+      "Ad Copy: High-converting copy for Google, Facebook, and other ad platforms",
+      "Email Copy: Persuasive email campaigns and subject lines",
+      "Landing Page Copy: Conversion-focused landing page content",
+      "Product Descriptions: Compelling product copy that drives purchases",
+      "Social Media Copy: Platform-optimized social content",
+      "Headlines: Attention-grabbing headlines and hooks",
+      "Call to Action: Effective CTA text for different conversion goals",
+      "Free to Try: Basic copy generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Kopy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Goal", description: "Sign up at kopy.ai and describe what you want your copy to accomplish - the product, the audience, and the conversion action you want readers to take." },
+        { title: "Generate Your Copy", description: "Kopy generates multiple copy variations using different angles and frameworks. Review the options and select the direction that best fits your campaign." },
+        { title: "Test and Optimize", description: "Use different copy variations for A/B testing. Track which versions convert better and use those insights to brief future copy generation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversion Focus", description: "Generic AI writing produces content that informs but does not necessarily persuade. Kopy is specifically oriented toward conversion which produces more effective marketing copy" },
+      { title: "Framework Application", description: "Effective copywriting applies proven frameworks - AIDA, PAS, FAB - that structure persuasion. AI that applies these frameworks automatically produces better copy than undirected generation" },
+      { title: "Volume for Testing", description: "Generating many copy variations quickly enables the A/B testing that consistently improves conversion rates over time" },
+      { title: "Channel Optimization", description: "Copy that works on Facebook requires different characteristics than Google search ads. Channel-specific optimization produces better results than adapting one piece of copy everywhere" }
+    ],
+    useCases: [
+      { title: "Performance Marketers", description: "PPC and social advertising specialists use Kopy for high-converting ad copy across multiple campaigns and variations" },
+      { title: "E-commerce Marketers", description: "Online retailers use Kopy for product descriptions and email campaigns that drive purchases" },
+      { title: "Marketing Agencies", description: "Agencies use Kopy to produce conversion-focused copy for multiple clients efficiently" }
+    ]
+  },
+  "marketsy-ai": {
+    whatIs: "Marketsy.ai is an AI-powered e-commerce marketplace builder that helps creators and entrepreneurs build and launch their own online stores and marketplaces. It generates store content, product listings, and marketing copy using AI, and provides the technical infrastructure for accepting payments and managing orders. For creators who want to monetize their audience through a branded store without technical complexity, Marketsy.ai provides the complete e-commerce infrastructure with AI-powered content creation.",
+    features: [
+      "AI Store Builder: Create complete stores with AI-generated content",
+      "Product Listings: AI-written product descriptions and titles",
+      "Marketplace Creation: Build multi-vendor marketplaces",
+      "Payment Processing: Built-in payment collection",
+      "Digital Products: Sell digital downloads and courses",
+      "Marketing Copy: AI-generated promotional content for your store",
+      "Creator Focus: Designed specifically for creator monetization",
+      "Free to Start: Basic store creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Marketsy Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Store", description: "Sign up at marketsy.ai and describe your store concept. Marketsy generates your store structure and initial content automatically." },
+        { title: "Add Your Products", description: "List your products with AI assistance for descriptions and titles. Upload images and set your pricing for each item." },
+        { title: "Launch and Market", description: "Publish your store and use the AI-generated marketing copy for promoting your products across social media and email." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creator Monetization", description: "Creators who have built an audience want to monetize directly without platform fees. Marketsy provides the store infrastructure for direct sales" },
+      { title: "Content Generation Speed", description: "Writing compelling product descriptions for every item in a store is time-consuming. AI generation that handles this makes store setup dramatically faster" },
+      { title: "Technical Barrier Removal", description: "E-commerce store setup has traditionally required either technical skills or hiring developers. AI-powered store creation removes this barrier" },
+      { title: "All-in-One Solution", description: "Having store creation, content generation, and payment processing in one platform eliminates the need to integrate multiple separate services" }
+    ],
+    useCases: [
+      { title: "Content Creators Selling Products", description: "YouTubers, podcasters, and writers use Marketsy to sell merchandise, courses, and digital products directly to their audience" },
+      { title: "Artisans and Makers", description: "Craftspeople and artists use Marketsy for branded stores to sell their handmade products" },
+      { title: "Digital Product Sellers", description: "Creators selling templates, presets, and digital downloads use Marketsy for a dedicated store experience" }
+    ]
+  },
+  "buildmystores": {
+    whatIs: "BuildMyStores is an AI-powered dropshipping store builder that creates complete print-on-demand and dropshipping stores automatically. It generates store design, product listings, and marketing copy using AI, and integrates with dropshipping suppliers so stores are ready to take orders immediately after creation. For entrepreneurs who want to launch a dropshipping business quickly without technical skills, BuildMyStores provides an AI-powered path from idea to live store in minimal time.",
+    features: [
+      "AI Store Creation: Complete dropshipping stores built automatically",
+      "POD Integration: Print-on-demand product integration built in",
+      "Dropshipping Suppliers: Connection to dropshipping product sources",
+      "Product Listings: AI-generated product descriptions and titles",
+      "Store Design: Automatic design and branding generation",
+      "Marketing Copy: AI-written promotional content",
+      "Order Management: Handle orders through the platform",
+      "Free Trial: Try store building before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Buildmystores",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Niche", description: "Sign up at buildmystores.com and select your dropshipping niche or product category. The AI uses this to generate appropriate store content and source relevant products." },
+        { title: "Review Your Store", description: "BuildMyStores generates your complete store with product listings, descriptions, and design. Review the output and customize anything that needs adjustment." },
+        { title: "Launch and Market", description: "Activate your payment processing and launch your store. Use the generated marketing copy to begin promoting your products across social channels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed to Market", description: "Setting up a dropshipping store manually takes days to weeks. AI that generates a complete store in hours dramatically reduces time to first sale" },
+      { title: "Supplier Integration", description: "Connecting to dropshipping suppliers manually requires research and technical setup. Built-in supplier integration eliminates this work" },
+      { title: "Content at Scale", description: "Dropshipping stores often feature hundreds of products. AI content generation that writes descriptions for all products makes large catalogs manageable" },
+      { title: "Low Technical Barrier", description: "Dropshipping business models are attractive but technical store setup has been a barrier. AI store creation makes this business model accessible without web development skills" }
+    ],
+    useCases: [
+      { title: "Aspiring Dropshippers", description: "Entrepreneurs who want to start a dropshipping business use BuildMyStores to launch quickly without technical skills" },
+      { title: "Print-on-Demand Entrepreneurs", description: "Creators who want to sell custom print products use BuildMyStores for fast POD store setup" },
+      { title: "Side Hustle Starters", description: "People starting e-commerce side businesses use BuildMyStores for rapid store launch with minimal upfront investment" }
+    ]
+  },
+  "wegic": {
+    whatIs: "Wegic is an AI website builder that creates complete websites through natural language conversation. Users describe their website needs in plain language and Wegic builds and iterates on the site through ongoing conversation rather than through form-based configuration or drag-and-drop tools. The conversational interface makes website creation more intuitive and allows for natural iteration based on feedback. For anyone who wants a website but finds traditional website builders confusing or limiting, Wegic provides a more natural conversational alternative.",
+    features: [
+      "Conversational Building: Create websites through natural language conversation",
+      "AI Design: Automatic visual design based on your descriptions",
+      "Iterative Refinement: Improve your site through continued conversation",
+      "Complete Websites: Full multi-page websites not just single pages",
+      "Hosting Included: Built-in hosting for created websites",
+      "Custom Domain: Connect your own domain",
+      "Mobile Responsive: Sites that work on all devices automatically",
+      "Free Plan: Basic website creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Wegic",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start the Conversation", description: "Sign up at wegic.ai and describe what kind of website you need. Explain your business, your goals, and any specific features you want." },
+        { title: "Review and Iterate", description: "Wegic builds your website and presents it for review. Describe changes you want in plain language and the AI implements them." },
+        { title: "Launch Your Site", description: "Once you are satisfied with the result, publish your site on your own domain. Wegic handles all the technical hosting infrastructure." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversation Over Configuration", description: "Traditional website builders require learning interface-specific tools and configuration options. Conversational building that responds to plain language descriptions is more intuitive" },
+      { title: "Iteration Speed", description: "Requesting changes through conversation and seeing them implemented immediately is faster than manually adjusting design tools" },
+      { title: "Complete Website Generation", description: "AI that creates entire multi-page websites rather than helping assemble individual elements produces more complete results faster" },
+      { title: "Accessibility", description: "People who are intimidated by traditional website builders find conversational creation more approachable and less technically demanding" }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Business owners who need a website but find traditional builders overwhelming use Wegic for conversational website creation" },
+      { title: "Freelancers and Consultants", description: "Independent professionals use Wegic to create portfolio and service websites through natural conversation" },
+      { title: "Non-Technical Entrepreneurs", description: "Startup founders without technical backgrounds use Wegic to create their initial web presence quickly" }
+    ]
+  },
+  "b12": {
+    whatIs: "B12 is an AI-powered website and business tool platform that builds professional websites for service businesses and provides integrated tools for client management, payments, and marketing. The AI creates initial website drafts from business descriptions that human designers then refine, combining AI speed with human quality assurance. It also provides scheduling, invoicing, and email marketing tools integrated with the website. For service businesses that need both a professional website and client management tools, B12 provides an integrated business platform.",
+    features: [
+      "AI Website Draft: AI creates your initial website from your business description",
+      "Human Design Review: Professional designers refine the AI output",
+      "Client Management: Scheduling, contracts, and client communication tools",
+      "Online Payments: Integrated payment collection from clients",
+      "Email Marketing: Send campaigns to your client list",
+      "Booking System: Online appointment scheduling for clients",
+      "Professional Domain: Business domain and professional email included",
+      "Free Trial: Try B12 before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use B12",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Business", description: "Sign up at b12.io and describe your service business. The AI generates an initial website draft that reflects your business type and services." },
+        { title: "Review with Designer", description: "A B12 designer reviews and refines the AI draft to ensure professional quality. Provide feedback on the design direction and content." },
+        { title: "Launch and Manage Clients", description: "Publish your website and use the integrated client management tools for scheduling, invoicing, and email marketing from one platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Plus Human Quality", description: "Pure AI websites can look generic. B12 combines AI speed with human designer review to produce websites that meet professional quality standards" },
+      { title: "Service Business Integration", description: "Service businesses need not just a website but scheduling, payments, and client management. Having all of these integrated eliminates the need for multiple separate tools" },
+      { title: "Professional Credibility", description: "Service businesses that work with clients need websites that project professional credibility. B12 human-reviewed designs meet this standard" },
+      { title: "Time to Launch", description: "The AI draft that human designers refine is faster than traditional custom web design while producing better results than DIY website builders" }
+    ],
+    useCases: [
+      { title: "Consultants and Coaches", description: "Professional service providers use B12 for the professional website and client management tools their practice requires" },
+      { title: "Freelancers", description: "Independent professionals use B12 for a professional web presence integrated with scheduling and payment collection" },
+      { title: "Small Service Businesses", description: "Local service businesses use B12 for professional website creation and the client management tools that run their operations" }
+    ]
+  },
+  "baked-design": {
+    whatIs: "Baked Design is an AI-powered graphic design platform that creates branded marketing materials, social media graphics, and visual content from templates and brand guidelines. It allows businesses and creators to produce professional-looking visual content quickly without design skills by applying their brand colors, fonts, and style to AI-generated designs. For teams that need consistent branded visual content at volume, Baked Design provides the design automation that maintains brand consistency without a dedicated designer.",
+    features: [
+      "Brand Templates: Design templates that maintain your visual brand",
+      "AI Design Generation: Create visual content from descriptions",
+      "Social Media Graphics: Platform-sized graphics for all channels",
+      "Marketing Materials: Flyers, banners, and promotional materials",
+      "Brand Kit Application: Automatically apply your brand colors and fonts",
+      "Batch Creation: Produce many graphics simultaneously",
+      "Download Options: Export in formats for digital and print use",
+      "Free to Try: Basic design creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Baked Design",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Brand Kit", description: "Sign up at baked.design and upload your brand assets - logo, colors, and fonts. Baked Design applies these consistently across all generated content." },
+        { title: "Create Your Graphics", description: "Choose a template type or describe what you need. Baked Design generates branded graphics that match your visual identity automatically." },
+        { title: "Download and Use", description: "Download your finished graphics in the appropriate format and size for your intended use - social media, email, or print." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brand Consistency at Scale", description: "Producing many graphics manually while maintaining consistent brand application requires significant design skill and attention. AI that applies brand guidelines automatically ensures consistency regardless of volume" },
+      { title: "Design Without Designers", description: "Professional branded graphics that previously required a designer are accessible to teams without design resources through AI design generation" },
+      { title: "Speed for Content Needs", description: "Social media and marketing content needs require many graphics regularly. AI batch creation that produces multiple graphics quickly meets this demand" },
+      { title: "Template Flexibility", description: "Starting from templates that maintain brand structure while allowing content variation produces better results than fully custom generation for every graphic" }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "Marketing departments use Baked Design for branded social media and campaign graphics at the volume their content calendar requires" },
+      { title: "Small Business Owners", description: "Business owners use Baked Design for professional marketing materials without hiring a designer for every piece" },
+      { title: "Social Media Managers", description: "Social media professionals use Baked Design for consistently branded graphics across all platforms they manage" }
+    ]
+  },
+  "scrip-ai": {
+    whatIs: "Scrip AI is an AI scriptwriting tool that helps content creators, filmmakers, and video producers write scripts for YouTube videos, short films, podcasts, and other video content. It generates complete scripts from topic descriptions, structures content for engagement, and helps creators overcome the blank page problem that often slows down video production. For creators who have ideas but struggle with translating them into structured scripts, Scrip AI provides the scriptwriting assistance that accelerates production.",
+    features: [
+      "Script Generation: Complete scripts from topic or video descriptions",
+      "YouTube Scripts: Scripts structured for YouTube video format and retention",
+      "Podcast Scripts: Audio-first scripts for podcast episodes",
+      "Short Film Scripts: Narrative scripts for short video content",
+      "Hooks and Openings: Compelling video openings that retain viewers",
+      "Outline First: Generate outlines before full scripts for review",
+      "Multiple Formats: Scripts for different video lengths and styles",
+      "Free to Try: Basic script generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Scrip Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Video", description: "Sign up at scrip.ai and describe the video you want to create - the topic, target audience, key points, and desired length." },
+        { title: "Review the Script", description: "Scrip AI generates a complete script with introduction, main content sections, and conclusion. Review the structure and content for accuracy and tone." },
+        { title: "Customize and Record", description: "Edit the script to add your personal voice, specific examples, and any corrections needed. Use the finished script as your recording guide." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Blank Page Solution", description: "The hardest part of video production for many creators is starting the script. AI that generates a complete first draft removes this barrier" },
+      { title: "Structure for Retention", description: "YouTube videos that retain viewers follow specific structural patterns. Scripts built around these patterns improve audience retention metrics" },
+      { title: "Production Speed", description: "Script writing is often the longest phase of video production. AI assistance that generates drafts quickly accelerates the overall production timeline" },
+      { title: "Consistency Across Topics", description: "Creators who cover many topics sometimes struggle to maintain consistent quality. AI scripting assistance provides consistent structure regardless of topic" }
+    ],
+    useCases: [
+      { title: "YouTube Content Creators", description: "YouTubers use Scrip AI to produce scripts for their videos faster and with better structure for viewer retention" },
+      { title: "Podcast Hosts", description: "Podcast creators use Scrip AI for structured episode scripts that keep their content organized and on track" },
+      { title: "Video Marketing Teams", description: "Marketing teams producing video content use Scrip AI for scripts that communicate their message effectively" }
+    ]
+  },
   "responso": {
     whatIs: "Responso is an AI-powered customer service platform for e-commerce sellers that manages customer inquiries across multiple marketplaces and channels from one unified inbox. It uses AI to suggest and automate responses to common customer questions on Amazon, eBay, Etsy, and other platforms, helping sellers maintain high response rates without spending hours on customer service daily. For e-commerce sellers who sell across multiple platforms and struggle with customer service volume, Responso provides the automation and unification that makes multi-platform customer service manageable.",
     features: [
