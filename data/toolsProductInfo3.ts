@@ -1,4 +1,268 @@
 export const toolsProductInfo3: { [key: string]: any } = {
+  "stripo": {
+    whatIs: "Stripo is a professional email template builder that helps marketers and designers create responsive HTML email templates without coding knowledge. It provides a drag-and-drop editor with hundreds of pre-built templates, modules, and design elements specifically optimized for email clients. The platform integrates directly with major email service providers so templates can be exported or synced with one click. For email marketers who want professional-looking emails without hiring a developer, Stripo makes high-quality email design accessible.",
+    features: [
+      "Drag-and-Drop Editor: Build email templates without writing code",
+      "500 Plus Templates: Professional email templates for every use case",
+      "ESP Integration: Export directly to Mailchimp, Klaviyo, and others",
+      "Responsive Design: Templates that work on mobile and desktop",
+      "Module Library: Reusable content blocks for consistent email design",
+      "HTML Export: Download clean HTML for any email platform",
+      "Team Collaboration: Multiple designers working on shared templates",
+      "Free Plan: Build emails without payment"
+    ],
+    howToUse: {
+      title: "How to Use Stripo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Sign up at stripo.email and browse the template library. Select a template that matches your email type and brand style as your starting point." },
+        { title: "Customize Your Design", description: "Use the drag-and-drop editor to customize colors, fonts, images, and content. Add or remove sections and rearrange elements to match your exact needs." },
+        { title: "Export and Send", description: "Export your finished template directly to your ESP or download the HTML. Your email is ready to send with professional design quality." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Email-Specific Design", description: "Generic design tools do not understand email client limitations. Stripo is built specifically for email which means templates render correctly across Gmail, Outlook, and mobile clients" },
+      { title: "ESP Integration Speed", description: "Copying HTML between design tools and email platforms creates errors. Direct ESP integration eliminates this step" },
+      { title: "Template Reusability", description: "Building a library of reusable modules means consistent branded emails without redesigning from scratch each time" },
+      { title: "No Developer Required", description: "Professional HTML email design has traditionally required developer skills. Stripo makes it accessible to marketers and designers without coding knowledge" }
+    ],
+    useCases: [
+      { title: "Email Marketers", description: "Marketing teams use Stripo to design professional campaign emails without depending on developers for every send" },
+      { title: "Freelance Designers", description: "Designers use Stripo to build email templates for clients across different ESPs from one design platform" },
+      { title: "E-commerce Brands", description: "Online retailers use Stripo for consistent professional email design across promotional, transactional, and lifecycle emails" }
+    ]
+  },
+  "beacons": {
+    whatIs: "Beacons is an AI-powered link-in-bio and creator monetization platform that helps content creators build a professional online presence, sell products, and manage their business from one place. It goes beyond simple link pages to provide a complete creator business hub including a store, media kit, email list, and AI tools for content creation. For creators who want to monetize their audience without juggling multiple platforms, Beacons provides an integrated solution.",
+    features: [
+      "Link in Bio: Professional link page for all your content and links",
+      "Creator Store: Sell digital products, services, and subscriptions",
+      "Media Kit: AI-generated professional media kit for brand partnerships",
+      "Email List: Build and manage your email subscriber list",
+      "AI Writing Tools: Generate content and captions with AI assistance",
+      "Analytics: Track link clicks and page performance",
+      "Brand Partnerships: Tools for managing brand deal outreach",
+      "Free Plan: Basic link page without payment"
+    ],
+    howToUse: {
+      title: "How to Use Beacons",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Page", description: "Sign up at beacons.ai and create your link-in-bio page. Add your social media links, content links, and any products or services you offer." },
+        { title: "Add Your Store", description: "Set up your creator store to sell digital products, coaching sessions, or subscriptions directly through your Beacons page." },
+        { title: "Share and Grow", description: "Add your Beacons link to your Instagram, TikTok, and other social profiles. Use the analytics to understand what your audience clicks on most." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Beyond Link Pages", description: "Simple link-in-bio tools just hold links. Beacons adds a store, email list, and media kit that turn the link page into a complete business infrastructure" },
+      { title: "Media Kit Value", description: "Brand partnerships require professional media kits that show follower counts, engagement rates, and audience demographics. AI-generated media kits make this professional presentation accessible to all creators" },
+      { title: "Monetization Integration", description: "Having your store on the same page as your content links reduces friction for fans who want to support you" },
+      { title: "Creator Business Hub", description: "Managing links, products, email, and partnerships from one platform reduces the complexity of running a creator business" }
+    ],
+    useCases: [
+      { title: "Content Creators and Influencers", description: "Social media creators use Beacons as their primary online hub and monetization platform" },
+      { title: "YouTubers and Podcasters", description: "Video and audio creators use Beacons to direct their audience to all their content and monetization options" },
+      { title: "Freelancers Building Personal Brand", description: "Independent professionals use Beacons to present their services and contact information through a single professional link" }
+    ]
+  },
+  "klaviyo": {
+    whatIs: "Klaviyo is an AI-powered email and SMS marketing platform built specifically for e-commerce businesses. It connects deeply with e-commerce platforms like Shopify and WooCommerce to use purchase history, browsing behavior, and customer data for highly targeted, personalized marketing automation. The platform is known for its sophisticated segmentation, predictive analytics, and revenue attribution that shows exactly how much each email and SMS campaign earns. For e-commerce brands that want marketing automation that directly drives revenue, Klaviyo provides the data depth and automation sophistication that generic email tools lack.",
+    features: [
+      "E-commerce Integration: Deep Shopify and WooCommerce data connection",
+      "Behavioral Segmentation: Segment customers by purchase history and behavior",
+      "Email Automation: Sophisticated automated email flows for every customer journey stage",
+      "SMS Marketing: Integrated SMS campaigns alongside email",
+      "Predictive Analytics: AI predictions for customer lifetime value and churn risk",
+      "Revenue Attribution: See exactly how much revenue each campaign generates",
+      "A/B Testing: Test subject lines, content, and timing",
+      "Free Plan: Up to 500 contacts without payment"
+    ],
+    howToUse: {
+      title: "How to Use Klaviyo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Store", description: "Sign up at klaviyo.com and connect your Shopify or WooCommerce store. Klaviyo imports your customer data and purchase history immediately." },
+        { title: "Set Up Your Flows", description: "Create automated email flows for abandoned cart, welcome series, post-purchase, and win-back sequences. Klaviyo provides templates for all major e-commerce flows." },
+        { title: "Segment and Campaign", description: "Build customer segments based on purchase behavior and send targeted campaigns. Use the revenue dashboard to see the direct impact of each send." }
+      ]
+    },
+    coreFeatures: [
+      { title: "E-commerce Data Depth", description: "Generic email tools treat all subscribers the same. Klaviyo uses actual purchase data and browsing behavior to personalize every message based on what customers actually do" },
+      { title: "Revenue Attribution Clarity", description: "Knowing exactly how much revenue each email generates allows marketers to optimize for business outcomes rather than open rates" },
+      { title: "Predictive Intelligence", description: "AI predictions that identify customers likely to churn or make high-value purchases enable proactive marketing that generic tools cannot do" },
+      { title: "Abandoned Cart Recovery", description: "Automated abandoned cart sequences that recover revenue from customers who left without purchasing are one of the highest-ROI automations in e-commerce" }
+    ],
+    useCases: [
+      { title: "E-commerce Brands on Shopify", description: "Shopify merchants use Klaviyo for the deep platform integration that makes sophisticated e-commerce marketing automation possible" },
+      { title: "DTC Brands", description: "Direct-to-consumer brands use Klaviyo for the customer data sophistication that builds long-term customer relationships" },
+      { title: "E-commerce Marketing Teams", description: "Marketing teams at online retailers use Klaviyo for the revenue attribution that connects marketing spend to business outcomes" }
+    ]
+  },
+  "robly": {
+    whatIs: "Robly is an email marketing platform that uses AI to improve email open rates through smart send time optimization and re-engagement features. Its OpenGen technology automatically resends campaigns to subscribers who did not open the first send with a different subject line, increasing overall open rates without manual effort. For small businesses and nonprofits that want better email performance without sophisticated marketing automation expertise, Robly provides effective tools with an approachable interface.",
+    features: [
+      "OpenGen Technology: Automatically resend to non-openers with new subject lines",
+      "Send Time Optimization: AI determines the best time to send for each subscriber",
+      "Email Templates: Professional templates for different email types",
+      "List Management: Manage subscriber lists and segments",
+      "Automation: Basic automated email sequences",
+      "A/B Testing: Test subject lines and content",
+      "Reporting: Track opens, clicks, and campaign performance",
+      "Free Trial: Try Robly before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Robly",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your List", description: "Sign up at robly.com and import your email subscriber list. Set up your sender information and configure your sending preferences." },
+        { title: "Create Your Campaign", description: "Choose a template and create your email campaign. Write your subject line and content with the email editor." },
+        { title: "Send with OpenGen", description: "Send your campaign and enable OpenGen to automatically resend to non-openers. Robly handles the timing and subject line variation automatically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "OpenGen Innovation", description: "Most email platforms send once and accept whatever open rate results. OpenGen that automatically re-engages non-openers produces significantly higher total open rates" },
+      { title: "Send Time Intelligence", description: "Sending at the optimal time for each subscriber rather than a single blast time improves open rates without additional creative effort" },
+      { title: "Small Business Accessibility", description: "Robly provides effective email marketing without the complexity of enterprise platforms, making it practical for small teams without dedicated marketing expertise" },
+      { title: "Nonprofit Value", description: "Nonprofits with limited resources use Robly for effective donor and supporter communication without enterprise marketing budgets" }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Small businesses use Robly for effective email marketing with features that improve performance without requiring marketing expertise" },
+      { title: "Nonprofits and Charities", description: "Nonprofit organizations use Robly for donor communication and fundraising campaigns" },
+      { title: "Bloggers and Content Creators", description: "Independent publishers use Robly for newsletter delivery with open rate optimization" }
+    ]
+  },
+  "instantly-ai": {
+    whatIs: "Instantly.ai is an AI-powered cold email outreach platform built for high-volume sales prospecting. It manages unlimited email accounts, warms them up automatically to maintain deliverability, and sends personalized cold email campaigns at scale. The platform includes a B2B lead database, AI email writing, and a unified inbox for managing replies across all connected accounts. For sales teams that do outbound email prospecting, Instantly.ai handles the technical complexity of sending at scale while maintaining the inbox placement rates that drive replies.",
+    features: [
+      "Unlimited Email Accounts: Connect and manage unlimited sending accounts",
+      "Email Warmup: Automatic warmup to maintain sender reputation",
+      "B2B Lead Database: Access to millions of verified business contacts",
+      "AI Email Writing: Generate personalized cold email sequences",
+      "Unified Inbox: Manage all replies across accounts in one place",
+      "Campaign Analytics: Track open, reply, and conversion rates",
+      "Deliverability Tools: Maintain inbox placement at scale",
+      "Free Trial: Test the platform before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Instantly Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Accounts", description: "Sign up at instantly.ai and connect your email accounts. Enable automatic warmup to build sender reputation before launching campaigns." },
+        { title: "Find or Import Leads", description: "Use the B2B lead database to find your target prospects or import your own list. Verify emails to ensure deliverability." },
+        { title: "Launch Your Campaign", description: "Create your email sequence with AI assistance, set your sending schedule, and launch. Monitor replies in the unified inbox and respond to interested prospects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Deliverability at Scale", description: "Sending cold email at volume destroys sender reputation without proper warmup and rotation. Instantly manages this technical complexity automatically" },
+      { title: "Unlimited Account Scaling", description: "Sales teams that need to send thousands of emails daily use multiple accounts. Managing unlimited accounts from one platform makes this practical" },
+      { title: "Reply Management", description: "Responses coming into multiple email accounts create management chaos. A unified inbox that consolidates all replies maintains organized follow-up" },
+      { title: "Lead Database Integration", description: "Having prospecting and outreach in one platform eliminates the workflow of exporting from one tool and importing into another" }
+    ],
+    useCases: [
+      { title: "Sales Development Teams", description: "SDR teams use Instantly.ai for high-volume cold email prospecting that fills their pipeline with qualified opportunities" },
+      { title: "Growth Agencies", description: "Agencies running outbound campaigns for clients use Instantly.ai to manage multiple client campaigns from one platform" },
+      { title: "Founders Doing Outbound", description: "Early-stage founders use Instantly.ai for founder-led sales outreach to validate their market and close early customers" }
+    ]
+  },
+  "clay": {
+    whatIs: "Clay is an AI-powered data enrichment and sales prospecting platform that helps sales and growth teams build highly targeted prospect lists with rich data. It connects to over 50 data sources and uses AI to research prospects, enrich contact data, and write personalized outreach at scale. For revenue teams that need deeply researched prospect lists and personalized outreach, Clay automates the research work that normally takes hours per prospect.",
+    features: [
+      "Data Enrichment: Enrich contact data from 50 plus sources simultaneously",
+      "AI Research: Automatically research prospects and companies",
+      "Prospect Building: Build targeted lists from multiple data sources",
+      "AI Personalization: Generate personalized outreach based on enriched data",
+      "Workflow Automation: Automate multi-step prospecting research workflows",
+      "CRM Integration: Push enriched data directly to your CRM",
+      "Waterfall Enrichment: Try multiple sources to maximize data coverage",
+      "Free Trial: Test Clay before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Clay",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Search", description: "Sign up at clay.com and define your ideal customer profile. Use Clay search and filtering to identify prospects that match your criteria." },
+        { title: "Enrich Your Data", description: "Run your prospect list through Clay enrichment to add emails, phone numbers, company data, and research from multiple sources simultaneously." },
+        { title: "Personalize and Outreach", description: "Use the AI research data to generate personalized outreach for each prospect. Export to your outreach tool or CRM with all enriched data included." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Source Enrichment", description: "Single-source enrichment misses data that other sources have. Waterfall enrichment that tries multiple sources maximizes the data coverage on any prospect list" },
+      { title: "Research Automation", description: "Manual prospect research takes 20-30 minutes per contact. AI that researches prospects automatically scales this work to hundreds of contacts per hour" },
+      { title: "Personalization Quality", description: "Personalized outreach based on actual research about each prospect produces better responses than template-based personalization" },
+      { title: "Revenue Team Efficiency", description: "The research and enrichment work that consumes sales team time is the part that AI handles best - freeing people for the relationship work that actually closes deals" }
+    ],
+    useCases: [
+      { title: "Sales Development Teams", description: "SDR teams use Clay for building deeply enriched prospect lists that enable more personalized and effective outreach" },
+      { title: "Revenue Operations Teams", description: "RevOps professionals use Clay for data enrichment workflows that improve CRM data quality" },
+      { title: "Growth Teams", description: "Growth professionals use Clay for targeted list building and enrichment that supports multiple go-to-market motions" }
+    ]
+  },
+  "phantombuster": {
+    whatIs: "PhantomBuster is a cloud-based automation platform that extracts data and automates actions on social media platforms and websites. It provides pre-built automation scripts called Phantoms for LinkedIn, Twitter, Instagram, and other platforms that scrape data, send connection requests, follow accounts, and perform other repetitive social media actions automatically. For sales, marketing, and recruiting teams that spend time on manual social media tasks, PhantomBuster automates the most repetitive work at scale.",
+    features: [
+      "LinkedIn Automation: Automate LinkedIn connection requests and messaging",
+      "Data Extraction: Scrape data from LinkedIn, Twitter, and other platforms",
+      "Pre-Built Phantoms: Ready-to-use automation scripts for common tasks",
+      "Cloud Execution: Automations run in the cloud without your computer",
+      "Lead Generation: Extract leads from social media and company websites",
+      "CRM Export: Push extracted data directly to your CRM",
+      "Scheduling: Run automations on schedules without manual triggering",
+      "Free Trial: Try PhantomBuster before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Phantombuster",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Phantom", description: "Sign up at phantombuster.com and browse the Phantom library. Select the automation that matches your task - LinkedIn outreach, data extraction, or social media automation." },
+        { title: "Configure and Connect", description: "Connect your social media accounts and configure your Phantom with the specific parameters for your use case. Set targeting criteria and action limits." },
+        { title: "Launch and Monitor", description: "Launch your Phantom and let it run in the cloud. Monitor results in your dashboard and export extracted data to your CRM or outreach tool." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cloud Execution", description: "Browser-based automation that requires your computer to stay on is impractical. Cloud execution that runs independently makes automation genuinely hands-off" },
+      { title: "Pre-Built Library", description: "Building social media automation from scratch requires significant technical skill. Pre-built Phantoms make automation accessible without coding" },
+      { title: "Scale of Operation", description: "Manual LinkedIn outreach takes hours per day. Automated outreach that runs continuously scales what sales and recruiting teams can accomplish" },
+      { title: "Data Extraction Value", description: "Extracting structured data from LinkedIn and other platforms manually is extremely time-consuming. Automated extraction produces usable data in minutes" }
+    ],
+    useCases: [
+      { title: "Sales Development Teams", description: "SDRs use PhantomBuster for LinkedIn prospecting and outreach automation that increases their daily contact volume" },
+      { title: "Recruiters", description: "Talent acquisition teams use PhantomBuster for LinkedIn candidate sourcing and outreach at scale" },
+      { title: "Growth Marketers", description: "Growth teams use PhantomBuster for social media data extraction and audience building" }
+    ]
+  },
+  "getprospect": {
+    whatIs: "GetProspect is a B2B lead generation and email finder platform that helps sales teams find verified business email addresses and build prospect lists. It provides LinkedIn email finding through a browser extension, a B2B contact database for searching by company and role, and email verification to ensure deliverability. For sales teams that need accurate contact data for their outreach, GetProspect provides reliable email finding at scale.",
+    features: [
+      "Email Finder: Find verified business email addresses for prospects",
+      "LinkedIn Extension: Find emails directly from LinkedIn profiles",
+      "B2B Database: Search millions of business contacts by role and company",
+      "Email Verification: Verify email addresses before outreach",
+      "Bulk Finding: Find emails for large prospect lists simultaneously",
+      "CRM Integration: Export contacts directly to your CRM",
+      "API Access: Integrate email finding into your own tools",
+      "Free Plan: Find emails without payment up to monthly limit"
+    ],
+    howToUse: {
+      title: "How to Use Getprospect",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Sign up at getprospect.io and install the Chrome extension. Use it to find email addresses directly from LinkedIn profiles as you browse." },
+        { title: "Search the Database", description: "Use the database search to find prospects by job title, company, location, and other criteria. Build targeted lists of decision-makers in your target market." },
+        { title: "Verify and Export", description: "Verify your found emails to confirm deliverability before outreach. Export your verified contact list to your CRM or email outreach tool." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Email Accuracy", description: "Sending to invalid emails hurts sender reputation and wastes outreach effort. Verification before sending ensures your messages reach real inboxes" },
+      { title: "LinkedIn Integration", description: "Finding emails directly from LinkedIn profiles while browsing makes the prospecting workflow seamless rather than requiring separate lookups" },
+      { title: "Database Breadth", description: "A large B2B contact database that can be searched by role and company enables list building without starting from scratch on every prospecting campaign" },
+      { title: "Scale Efficiency", description: "Bulk email finding that processes large lists simultaneously is dramatically faster than finding contacts one by one" }
+    ],
+    useCases: [
+      { title: "Sales Development Representatives", description: "SDRs use GetProspect to find verified contact information for their target prospects efficiently" },
+      { title: "Recruiters", description: "Talent acquisition teams use GetProspect to find direct email addresses for candidates identified on LinkedIn" },
+      { title: "B2B Marketers", description: "Marketing teams use GetProspect for building targeted contact lists for ABM and demand generation campaigns" }
+    ]
+  },
   "ai-novelist": {
     whatIs: "AI Novelist is a dedicated AI platform for novel writing that helps authors develop, draft, and organize long-form fiction projects from initial concept through to finished manuscript. It is built around the specific needs of novel writing - long context management, character consistency, chapter organization, and the ability to develop a story over tens of thousands of words without the narrative losing coherence. For writers who have the story in their head but struggle with getting it onto the page consistently, AI Novelist provides the structure and generation assistance to keep the project moving.",
     features: [
