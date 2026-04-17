@@ -1,4 +1,268 @@
 export const toolsProductInfo3: { [key: string]: any } = {
+  "popl": {
+    whatIs: "Popl is a digital business card and networking platform that lets professionals share their contact information, social profiles, and links instantly through NFC technology, QR codes, and links. Instead of exchanging paper business cards, Popl users tap their phone or card to share a complete digital profile. The platform also provides team features for businesses that want consistent digital card deployment across their organization.",
+    features: [
+      "Digital Business Card: Share contact info instantly via NFC or QR code",
+      "NFC Cards: Physical cards that share your digital profile with a tap",
+      "Team Management: Deploy digital cards across your entire organization",
+      "CRM Integration: Capture leads directly into your CRM",
+      "Analytics: Track how often your card is viewed and clicked",
+      "Custom Branding: Brand your digital card with company colors and logo",
+      "Multiple Profiles: Different cards for different professional contexts",
+      "Free Plan: Basic digital card without payment"
+    ],
+    howToUse: {
+      title: "How to Use Popl",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Profile", description: "Sign up at popl.co and build your digital profile with your contact information, social links, and any other details you want to share." },
+        { title: "Get Your Card", description: "Order a Popl NFC card or use the app to share via QR code. The physical card taps to any smartphone to instantly share your digital profile." },
+        { title: "Share and Track", description: "Share your card at networking events and meetings. Monitor views and clicks in your analytics dashboard to understand your networking reach." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Paper Card Elimination", description: "Paper business cards get lost, become outdated, and cannot be updated. Digital cards that always show current information solve all these problems simultaneously" },
+      { title: "Instant Information Transfer", description: "NFC tap sharing that instantly opens a complete profile is faster and more complete than manually entering contact information from a paper card" },
+      { title: "Lead Capture", description: "CRM integration that captures new contacts automatically transforms networking from a business card exchange into a trackable lead generation activity" },
+      { title: "Team Consistency", description: "Organizations that deploy Popl across their team ensure every employee presents a consistent professional digital identity" }
+    ],
+    useCases: [
+      { title: "Sales Professionals", description: "Salespeople use Popl for professional networking and lead capture at events and meetings" },
+      { title: "Business Executives", description: "Senior professionals use Popl for a premium networking experience that reflects their professional brand" },
+      { title: "Companies Deploying at Scale", description: "Organizations use Popl Teams to ensure consistent professional digital card deployment across all employees" }
+    ]
+  },
+  "jasper-ai": {
+    whatIs: "Jasper AI is one of the most established AI writing platforms for marketing teams and content creators. It generates marketing copy, blog posts, social media content, product descriptions, and other business content using AI trained on marketing best practices. Jasper includes brand voice features that learn your specific tone and style, ensuring generated content sounds consistently like your brand rather than generic AI output. For marketing teams that produce large volumes of content, Jasper provides the AI assistance that maintains quality and brand consistency at scale.",
+    features: [
+      "Brand Voice: Train Jasper to write in your specific brand tone and style",
+      "Marketing Templates: Specialized templates for ads, emails, and landing pages",
+      "Long-Form Content: Generate complete blog posts and articles",
+      "SEO Mode: Content optimized for search engine ranking",
+      "Team Collaboration: Multiple team members working with shared brand voice",
+      "Browser Extension: Jasper assistance anywhere you write online",
+      "Multiple Languages: Content generation in many languages",
+      "Free Trial: Try Jasper before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Jasper Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Train Your Brand Voice", description: "Sign up at jasper.ai and set up your brand voice by providing examples of your existing content. Jasper learns your tone and style for consistent output." },
+        { title: "Choose Your Template", description: "Select from Jasper marketing templates for your content type - blog post, Facebook ad, email subject line, or product description." },
+        { title: "Generate and Refine", description: "Generate your content and use the editor to refine it. Jasper gives you a strong first draft that you shape into final copy." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brand Voice Consistency", description: "AI content that sounds generic undermines brand identity. Brand voice training that produces on-brand content makes AI assistance practical for consistent marketing communication" },
+      { title: "Marketing Template Depth", description: "Templates built specifically for marketing use cases produce more appropriate output than general writing prompts" },
+      { title: "Team Scale", description: "Marketing teams that produce high content volumes use Jasper to maintain quality across multiple writers and channels simultaneously" },
+      { title: "Campaign Speed", description: "Generating first drafts for entire campaigns in hours rather than days changes the economics of content marketing" }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "In-house marketing teams use Jasper for high-volume content production that maintains brand voice consistency" },
+      { title: "Content Marketing Agencies", description: "Agencies use Jasper to scale content production for multiple clients without proportionally increasing headcount" },
+      { title: "E-commerce Brands", description: "Online retailers use Jasper for product descriptions, email campaigns, and ad copy at the scale their catalogs require" }
+    ]
+  },
+  "activecampaign": {
+    whatIs: "ActiveCampaign is a customer experience automation platform that combines email marketing, marketing automation, CRM, and sales automation in one integrated system. It is known for its powerful automation builder that can create sophisticated customer journeys based on behavior, segmentation, and triggers. For businesses that want to move beyond basic email marketing into genuine lifecycle marketing automation, ActiveCampaign provides the depth of automation capability that enterprise tools offer at a price accessible to growing businesses.",
+    features: [
+      "Email Marketing: Professional email campaigns and newsletters",
+      "Marketing Automation: Sophisticated behavior-triggered automation workflows",
+      "CRM: Built-in customer relationship management",
+      "Sales Automation: Automated sales pipeline and follow-up sequences",
+      "Segmentation: Deep behavioral and demographic segmentation",
+      "Site Tracking: Track visitor behavior on your website",
+      "Lead Scoring: Score contacts based on engagement and behavior",
+      "Free Trial: Try ActiveCampaign before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Activecampaign",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Systems", description: "Sign up at activecampaign.com and connect your website, e-commerce platform, and other tools. Site tracking begins capturing visitor behavior immediately." },
+        { title: "Build Your Automations", description: "Use the visual automation builder to create customer journeys. Set triggers based on behavior, segment contacts dynamically, and automate follow-up sequences." },
+        { title: "Manage Your Pipeline", description: "Use the CRM to track deals and automate sales follow-up. Score leads based on engagement and route hot prospects to your sales team automatically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automation Sophistication", description: "Basic email platforms send broadcasts. ActiveCampaign creates sophisticated customer journeys that respond to individual behavior throughout the entire customer lifecycle" },
+      { title: "Unified Platform", description: "Having email, automation, CRM, and sales automation in one system eliminates the data synchronization problems that come from using multiple specialized tools" },
+      { title: "Behavior-Based Personalization", description: "Website tracking that captures what visitors look at enables personalization based on actual interests rather than assumed demographics" },
+      { title: "Accessible Enterprise Capability", description: "The automation sophistication that previously required enterprise marketing platforms is available in ActiveCampaign at SMB pricing" }
+    ],
+    useCases: [
+      { title: "E-commerce Businesses", description: "Online retailers use ActiveCampaign for lifecycle email automation from welcome through post-purchase and win-back sequences" },
+      { title: "B2B Companies", description: "Business software companies use ActiveCampaign for lead nurturing automation that moves prospects through the sales funnel" },
+      { title: "Marketing Teams at Growth Stage Companies", description: "Growing businesses use ActiveCampaign as they graduate from basic email tools and need genuine marketing automation" }
+    ]
+  },
+  "pitch": {
+    whatIs: "Pitch is a collaborative presentation platform that helps teams create beautiful, professional slide decks faster. It combines AI-powered design assistance with real-time collaboration features that make presentation creation a team activity rather than a solo task. Templates designed by professional designers give presentations a polished look without requiring design skills. For teams that need to create investor decks, sales presentations, and company updates regularly, Pitch provides a faster and more collaborative alternative to traditional presentation software.",
+    features: [
+      "AI Design Assistance: AI suggestions for layouts, colors, and design",
+      "Real-Time Collaboration: Multiple team members editing simultaneously",
+      "Professional Templates: Designer-created templates for every presentation type",
+      "Brand Kit: Apply your brand colors and fonts across all presentations",
+      "Analytics: Track who views your presentations and for how long",
+      "Video Recording: Record yourself presenting over your slides",
+      "Smart Fields: Dynamic data that updates across presentations automatically",
+      "Free Plan: Basic presentations without payment"
+    ],
+    howToUse: {
+      title: "How to Use Pitch",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Sign up at pitch.com and select a template that matches your presentation type - investor deck, sales presentation, or company update." },
+        { title: "Collaborate with Your Team", description: "Invite team members to edit simultaneously. Assign sections to different contributors and see changes in real time without version conflicts." },
+        { title: "Present and Track", description: "Share your finished presentation and track viewer analytics. Know who opened your deck and which slides they spent the most time on." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Collaboration First Design", description: "Traditional presentation software is built for solo creation. Pitch is designed for team creation which makes collaborative presentations significantly faster" },
+      { title: "Template Quality", description: "Designer-created templates that look genuinely professional give teams a better starting point than the generic templates in traditional presentation tools" },
+      { title: "Viewer Analytics", description: "Knowing which slides investors or prospects spent time on provides intelligence that improves follow-up conversations" },
+      { title: "Brand Consistency", description: "Brand kit features that apply consistent colors and fonts across all presentations maintain visual identity without manual style application" }
+    ],
+    useCases: [
+      { title: "Startup Teams Creating Investor Decks", description: "Founders use Pitch for investor presentations that need professional design without a dedicated designer" },
+      { title: "Sales Teams", description: "Sales professionals use Pitch for client presentations that are consistently on-brand and trackable" },
+      { title: "Marketing and Communications Teams", description: "Teams creating regular presentations use Pitch for the collaboration and brand consistency features" }
+    ]
+  },
+  "slidebean": {
+    whatIs: "Slidebean is an AI-powered presentation platform that automates the design of pitch decks and business presentations. Users provide their content and Slidebean AI handles the visual layout and design, producing professionally designed slides without requiring design skills. The platform is particularly popular for startup pitch decks and has a specific focus on helping founders present their business compellingly to investors.",
+    features: [
+      "AI Design Automation: AI handles slide layout and visual design automatically",
+      "Pitch Deck Focus: Specifically designed for startup investor presentations",
+      "Content First: Add your content and let AI handle the design",
+      "Professional Output: Investor-quality presentation design",
+      "Financial Modeling: Built-in financial projection tools",
+      "Pitch Deck Review: Expert review service for your pitch deck",
+      "Startup Resources: Guides and templates for fundraising presentations",
+      "Free Plan: Basic presentation creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Slidebean",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Add Your Content", description: "Sign up at slidebean.com and input your presentation content - your company description, problem, solution, market size, and other key sections." },
+        { title: "Let AI Design It", description: "Slidebean AI automatically arranges your content into professionally designed slides. Review the output and make any content adjustments." },
+        { title: "Refine and Present", description: "Fine-tune the design and content until your pitch deck effectively tells your startup story. Use the pitch deck review service for expert feedback before investor meetings." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Design Without a Designer", description: "Founders who are not designers can produce investor-quality presentations through AI design automation that handles the visual work" },
+      { title: "Pitch Deck Structure", description: "Investor presentations have specific structural expectations. Slidebean templates built around successful pitch deck structures help founders present the right information in the right order" },
+      { title: "Content Focus", description: "Separating content creation from design work lets founders focus on their story and business substance rather than fighting with slide aesthetics" },
+      { title: "Expert Review Value", description: "Human expert review of pitch decks before investor meetings catches issues that founders who are too close to their own story miss" }
+    ],
+    useCases: [
+      { title: "Startup Founders Fundraising", description: "Founders preparing for investor meetings use Slidebean for professional pitch deck creation without design resources" },
+      { title: "Accelerator Cohort Companies", description: "Startups in accelerator programs use Slidebean for demo day presentations" },
+      { title: "Early-Stage Companies", description: "Pre-seed and seed stage companies use Slidebean to create the fundraising materials their stage requires" }
+    ]
+  },
+  "upmetrics": {
+    whatIs: "Upmetrics is an AI-powered business planning platform that helps entrepreneurs and small business owners create professional business plans, financial projections, and pitch decks. It guides users through the business plan writing process with AI assistance for each section and provides financial modeling tools that produce professional forecasts without accounting expertise. For entrepreneurs who need a business plan for funding, loans, or strategic clarity, Upmetrics makes professional business planning accessible.",
+    features: [
+      "AI Business Plan Writing: AI assistance for every section of your business plan",
+      "Financial Projections: Automated financial modeling and forecast generation",
+      "Pitch Deck Creation: Generate pitch decks from your business plan",
+      "Template Library: Industry-specific business plan templates",
+      "Collaboration: Work on your plan with partners and advisors",
+      "Export Options: Download in Word, PDF, and other formats",
+      "Investor Ready: Plans formatted for bank loans and investor review",
+      "Free Trial: Start your business plan without payment"
+    ],
+    howToUse: {
+      title: "How to Use Upmetrics",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Sign up at upmetrics.co and select a business plan template for your industry. The template provides the structure for a complete professional plan." },
+        { title: "Write with AI Assistance", description: "Work through each section of your plan with AI assistance. Get suggestions for market analysis, competitive positioning, and strategy based on your business inputs." },
+        { title: "Generate Financials", description: "Use the financial modeling tools to create revenue projections, expense budgets, and cash flow forecasts. The models produce professional financial statements automatically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Structure and Completeness", description: "Many first-time business plan writers do not know what a complete plan includes. Templates and AI guidance ensure nothing important is missed" },
+      { title: "Financial Modeling Accessibility", description: "Creating professional financial projections traditionally requires accounting or financial modeling skills. Upmetrics makes this accessible to entrepreneurs without finance backgrounds" },
+      { title: "Lender and Investor Formatting", description: "Business plans for bank loans and investor review have specific formatting expectations. Upmetrics produces plans that meet these standards" },
+      { title: "Strategic Clarity Value", description: "The process of writing a complete business plan forces clarity about the business model, market, and strategy that benefits founders beyond just the funding application" }
+    ],
+    useCases: [
+      { title: "Entrepreneurs Seeking Funding", description: "Business owners applying for loans or investor funding use Upmetrics to create the professional business plans lenders and investors require" },
+      { title: "Startup Founders", description: "Early-stage founders use Upmetrics to develop the business plan that articulates their strategy and financial model" },
+      { title: "Small Business Owners", description: "Established small business owners use Upmetrics for strategic planning and when expansion financing requires updated business plans" }
+    ]
+  },
+  "mailbutler": {
+    whatIs: "Mailbutler is an AI-powered email productivity extension for Apple Mail, Gmail, and Outlook that adds smart features to your existing email client. It provides AI email writing assistance, email tracking, scheduling, follow-up reminders, and contact management - all integrated directly into the email clients you already use. For professionals who live in their email and want AI assistance without switching platforms, Mailbutler enhances the tools they already know.",
+    features: [
+      "AI Email Writing: Generate and improve emails with AI assistance",
+      "Email Tracking: See when recipients open your emails",
+      "Send Later: Schedule emails to send at optimal times",
+      "Follow-Up Reminders: Never forget to follow up on important emails",
+      "Contact Management: Smart contact notes and interaction history",
+      "Email Templates: Save and reuse common email responses",
+      "Apple Mail Support: Works with Apple Mail alongside Gmail and Outlook",
+      "Free Trial: Try Mailbutler before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Mailbutler",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Sign up at mailbutler.io and install the extension for your email client. Mailbutler integrates seamlessly without requiring you to change your email workflow." },
+        { title: "Use AI Writing Assistance", description: "When composing emails, use Mailbutler AI to generate drafts, improve your writing, or suggest better subject lines directly within your email client." },
+        { title: "Track and Follow Up", description: "Enable tracking on important emails and set follow-up reminders. Know when recipients open your emails and never let important conversations go cold." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Native Email Client Enhancement", description: "Moving to a new email platform has high switching costs. Mailbutler adds AI and productivity features to the email client you already use rather than requiring a platform change" },
+      { title: "Apple Mail Support", description: "Most email productivity tools focus on Gmail. Mailbutler support for Apple Mail serves the significant professional user base that prefers Apple native applications" },
+      { title: "Follow-Up Prevention", description: "The most common email failure is forgetting to follow up on important messages. Automated reminders prevent this without requiring a separate task management system" },
+      { title: "Tracking Intelligence", description: "Knowing when recipients open emails provides the context for better follow-up timing and conversation management" }
+    ],
+    useCases: [
+      { title: "Sales Professionals", description: "Salespeople use Mailbutler for email tracking and follow-up reminders that improve their outreach effectiveness" },
+      { title: "Executives and Managers", description: "Senior professionals use Mailbutler AI writing assistance and scheduling to manage high email volumes more efficiently" },
+      { title: "Apple Ecosystem Users", description: "Professionals who use Apple Mail as their primary email client use Mailbutler for the productivity features that Gmail-focused tools do not provide" }
+    ]
+  },
+  "gong": {
+    whatIs: "Gong is a revenue intelligence platform that records, transcribes, and analyzes sales calls and meetings using AI. It identifies what top performers do differently, surfaces deal risks, provides coaching insights for sales managers, and tracks whether sales methodologies are being followed. For sales organizations that want to understand what actually happens in customer conversations and improve performance systematically, Gong transforms conversation data into actionable revenue intelligence.",
+    features: [
+      "Call Recording: Record and transcribe all sales calls automatically",
+      "AI Analysis: Identify patterns in successful and unsuccessful sales conversations",
+      "Deal Intelligence: Surface risks and opportunities in your pipeline",
+      "Sales Coaching: Data-driven coaching insights for sales managers",
+      "Methodology Tracking: Verify sales process adherence across the team",
+      "Forecast Accuracy: AI-powered sales forecasting from conversation signals",
+      "CRM Integration: Sync conversation insights with Salesforce and other CRMs",
+      "Competitor Intelligence: Track competitor mentions across all calls"
+    ],
+    howToUse: {
+      title: "How to Use Gong",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Communications", description: "Sign up at gong.io and connect your video conferencing and phone systems. Gong begins recording and transcribing calls automatically." },
+        { title: "Review Your Intelligence", description: "Access AI-generated insights about your deals, team performance, and conversation patterns. Identify which behaviors correlate with winning deals." },
+        { title: "Coach and Improve", description: "Use call recordings and AI insights for structured coaching conversations. Share specific call moments with reps to illustrate coaching points with evidence." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversation Data at Scale", description: "Sales managers cannot listen to every call their team makes. Gong analyzes all calls and surfaces the important moments and patterns that would otherwise be invisible" },
+      { title: "Evidence-Based Coaching", description: "Coaching based on specific call recordings rather than general feedback is more credible, actionable, and effective for changing behavior" },
+      { title: "Deal Risk Visibility", description: "Identifying deals at risk before they are lost gives sales teams time to intervene. AI signals that detect risk from conversation patterns provide earlier warning than CRM data alone" },
+      { title: "Top Performer Replication", description: "Understanding what your best salespeople do differently and teaching those behaviors to the broader team is one of the highest-leverage sales improvement activities" }
+    ],
+    useCases: [
+      { title: "Enterprise Sales Teams", description: "Large sales organizations use Gong for conversation intelligence that improves performance across hundreds of salespeople" },
+      { title: "Sales Managers", description: "Sales leaders use Gong for evidence-based coaching and pipeline visibility that improves forecast accuracy" },
+      { title: "Revenue Operations", description: "RevOps teams use Gong data to understand what actually happens in customer conversations and optimize the sales process accordingly" }
+    ]
+  },
   "stripo": {
     whatIs: "Stripo is a professional email template builder that helps marketers and designers create responsive HTML email templates without coding knowledge. It provides a drag-and-drop editor with hundreds of pre-built templates, modules, and design elements specifically optimized for email clients. The platform integrates directly with major email service providers so templates can be exported or synced with one click. For email marketers who want professional-looking emails without hiring a developer, Stripo makes high-quality email design accessible.",
     features: [
