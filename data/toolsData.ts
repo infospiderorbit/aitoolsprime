@@ -1614,7 +1614,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "seapik", name: "Seapik", description: "Sea-themed Pokémon AI", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "🌊", category: "art-creative-design", subcategory: "ai-pokemon-generator" }
     ],
     "ai-poster-generator": [
-      { id: "logome-poster", name: "Logome", description: "AI poster and logo creator", url: "", upvotes: 1456, verified: true, rating: 4.7, icon: "📇", category: "art-creative-design", subcategory: "ai-poster-generator" },
       { id: "pixarai-poster", name: "PixarAI", description: "Pixar style poster AI", url: "", upvotes: 1098, verified: true, rating: 4.6, icon: "🏰", category: "art-creative-design", subcategory: "ai-poster-generator" },
       { id: "ai-poster-generator", name: "AI Poster Generator", description: "Professional poster AI tool", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🎨", category: "art-creative-design", subcategory: "ai-poster-generator" },
       { id: "ai-pixar-posters", name: "AI Pixar Posters", description: "Pixar style poster creator", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🎭", category: "art-creative-design", subcategory: "ai-poster-generator" },
@@ -2350,8 +2349,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "popl", name: "Popl", description: "AI digital business card and lead generation", url: "", upvotes: 1432, verified: true, rating: 4.2, icon: "📇", category: "marketing-advertising", subcategory: "ai-lead-generation" }
     ],
     "ai-marketing": [
-      { id: "mailchimp-marketing", name: "Mailchimp", description: "AI marketing automation platform", url: "", upvotes: 2234, verified: true, rating: 4.7, icon: "🐵", category: "marketing-advertising", subcategory: "ai-marketing" },
-      { id: "klaviyo-marketing", name: "Klaviyo", description: "AI marketing platform for brands", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "💌", category: "marketing-advertising", subcategory: "ai-marketing" },
       { id: "jasper-ai", name: "Jasper AI", description: "AI content marketing platform", url: "", upvotes: 1876, verified: true, rating: 4.5, icon: "💎", category: "marketing-advertising", subcategory: "ai-marketing" },
       { id: "hypeauditor", name: "HypeAuditor", description: "AI influencer marketing analytics", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "📊", category: "marketing-advertising", subcategory: "ai-marketing" },
       { id: "activecampaign", name: "ActiveCampaign", description: "AI marketing automation and CRM", url: "", upvotes: 1543, verified: true, rating: 4.3, icon: "🎯", category: "marketing-advertising", subcategory: "ai-marketing" }
@@ -2391,14 +2388,12 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "seo-ai", name: "SEO.AI", description: "AI SEO automation and optimization platform", url: "", upvotes: 1543, verified: true, rating: 4.3, icon: "🤖", category: "marketing-advertising", subcategory: "ai-seo-tools" }
     ],
     "ai-sales": [
-      { id: "instantly-ai-sales", name: "Instantly.ai", description: "AI cold email sales automation", url: "", upvotes: 2234, verified: true, rating: 4.7, icon: "⚡", category: "marketing-advertising", subcategory: "ai-sales" },
       { id: "gong", name: "Gong", description: "AI sales conversation analytics", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🥇", category: "marketing-advertising", subcategory: "ai-sales" },
       { id: "outreach", name: "Outreach", description: "AI sales engagement platform", url: "", upvotes: 1876, verified: true, rating: 4.5, icon: "📬", category: "marketing-advertising", subcategory: "ai-sales" },
       { id: "seismic", name: "Seismic", description: "AI sales enablement platform", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "📊", category: "marketing-advertising", subcategory: "ai-sales" },
       { id: "truegether", name: "TrueGether", description: "AI marketplace and sales platform", url: "", upvotes: 1543, verified: true, rating: 4.3, icon: "🛒", category: "marketing-advertising", subcategory: "ai-sales" }
     ],
     "ai-sales-assistant": [
-      { id: "getprospect-sales", name: "GetProspect", description: "AI sales prospecting assistant", url: "", upvotes: 1789, verified: true, rating: 4.6, icon: "🎯", category: "marketing-advertising", subcategory: "ai-sales-assistant" },
       { id: "respond-io", name: "Respond.io", description: "AI customer conversation platform for sales", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "💬", category: "marketing-advertising", subcategory: "ai-sales-assistant" },
       { id: "tome", name: "Tome", description: "AI presentation tool for sales", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "📚", category: "marketing-advertising", subcategory: "ai-sales-assistant" }
     ],
@@ -2431,7 +2426,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "dittto-ai", name: "Dittto.ai", description: "AI Google Ads copy generator", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "📝", category: "marketing-advertising", subcategory: "google-ads-ai" }
     ],
     "seo-writing-ai": [
-      { id: "surfer-seo", name: "Surfer", description: "AI SEO content optimization platform", url: "", upvotes: 2134, verified: true, rating: 4.7, icon: "🏄", category: "marketing-advertising", subcategory: "seo-writing-ai" },
       { id: "surgegraph", name: "SurgeGraph", description: "AI SEO content generation platform", url: "", upvotes: 1876, verified: true, rating: 4.5, icon: "📈", category: "marketing-advertising", subcategory: "seo-writing-ai" },
       { id: "senuto", name: "Senuto", description: "AI SEO content and keyword tool", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🔍", category: "marketing-advertising", subcategory: "seo-writing-ai" },
       { id: "seo-writing-ai-tool", name: "SEO Writing AI", description: "AI SEO content writing assistant", url: "", upvotes: 1543, verified: true, rating: 4.3, icon: "✍️", category: "marketing-advertising", subcategory: "seo-writing-ai" }
