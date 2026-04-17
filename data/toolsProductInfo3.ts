@@ -1,4 +1,268 @@
 export const toolsProductInfo3: { [key: string]: any } = {
+  "plannit-ai": {
+    whatIs: "Plannit AI is an AI-powered business plan generator that helps entrepreneurs create detailed business plans quickly through a guided AI conversation. It asks targeted questions about your business and uses the answers to generate a complete, professionally formatted business plan including market analysis, competitive landscape, financial projections, and operational details. For entrepreneurs who need a business plan but find the blank page overwhelming, Plannit AI makes the process conversational and manageable.",
+    features: [
+      "Conversational Planning: AI guides you through questions to build your plan",
+      "Complete Plans: Full business plan with all standard sections",
+      "Market Analysis: AI-generated market size and opportunity analysis",
+      "Financial Projections: Revenue and expense forecasting",
+      "Competitive Analysis: Framework for analyzing your competition",
+      "Export Options: Download in PDF and Word formats",
+      "Multiple Industries: Plans for any business type or industry",
+      "Free Trial: Start planning before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Plannit Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Answer the Questions", description: "Sign up at plannit.ai and begin the AI conversation. Answer questions about your business idea, target market, revenue model, and goals." },
+        { title: "Review Generated Content", description: "Plannit AI generates each plan section from your answers. Review the content and provide additional detail where the AI needs more specific information." },
+        { title: "Finalize and Export", description: "Complete all sections and export your finished business plan. The document is professionally formatted and ready for bank or investor review." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversational Versus Form-Based", description: "Question-based plan building that feels like a conversation is more natural and produces better information than filling out forms" },
+      { title: "Complete Section Coverage", description: "First-time business plan writers often skip important sections because they do not know they are required. Guided completion ensures nothing is missed" },
+      { title: "Market Intelligence Integration", description: "AI-generated market analysis that contextualizes your business in the broader market adds substance that entrepreneurs without research skills cannot produce alone" },
+      { title: "Speed to Completion", description: "Completing a business plan through guided conversation takes hours rather than the weeks that manual research and writing requires" }
+    ],
+    useCases: [
+      { title: "New Entrepreneurs", description: "People starting their first business use Plannit AI for the guided structure that produces a complete professional plan" },
+      { title: "Students and MBA Programs", description: "Business students use Plannit AI for entrepreneurship coursework that requires business plan development" },
+      { title: "Small Business Loan Applicants", description: "Business owners applying for financing use Plannit AI to produce the complete plans lenders require" }
+    ]
+  },
+  "averi-ai": {
+    whatIs: "Averi AI is an AI marketing assistant platform that helps small businesses and entrepreneurs manage their marketing across multiple channels without a dedicated marketing team. It generates content, schedules social media posts, manages email campaigns, and provides marketing strategy guidance all from one platform. For small business owners who need marketing help but cannot afford to hire a marketing team, Averi AI provides AI-powered marketing management at an accessible price point.",
+    features: [
+      "Marketing Strategy: AI-generated marketing strategy for your business",
+      "Social Media Management: Create and schedule posts across platforms",
+      "Email Marketing: AI-written email campaigns and newsletters",
+      "Content Generation: Blog posts, captions, and marketing copy",
+      "Brand Voice: Consistent tone across all generated content",
+      "Analytics: Track marketing performance across channels",
+      "Campaign Management: Coordinate campaigns across multiple channels",
+      "Free Trial: Try Averi AI before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Averi Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Brand", description: "Sign up at averi.ai and configure your business profile including your brand voice, target audience, and marketing goals." },
+        { title: "Generate Your Content", description: "Use Averi AI to generate social media posts, email campaigns, and other marketing content. Review and publish across your connected channels." },
+        { title: "Monitor and Optimize", description: "Track performance across all your marketing channels from one dashboard. Use the insights to adjust your strategy and content approach." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Marketing Without a Team", description: "Small businesses that cannot afford marketing staff use Averi AI for the marketing management that would otherwise require a dedicated team" },
+      { title: "Channel Coordination", description: "Managing marketing across social media, email, and other channels separately is time-consuming and produces inconsistent results. Coordination from one platform improves both efficiency and consistency" },
+      { title: "Strategy Guidance", description: "Many small business owners are strong at their core business but uncertain about marketing strategy. AI guidance that provides direction reduces the uncertainty of self-directed marketing" },
+      { title: "Content Volume", description: "Consistent marketing requires more content than most small business owners can produce manually. AI content generation makes the required volume achievable" }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Independent business operators use Averi AI for marketing management they cannot afford to hire for" },
+      { title: "Solopreneurs", description: "One-person businesses use Averi AI for the marketing presence and consistency their business needs" },
+      { title: "Startups Without Marketing Staff", description: "Early-stage companies use Averi AI for marketing before they can afford to hire a dedicated marketing team" }
+    ]
+  },
+  "content-codex": {
+    whatIs: "Content Codex is an AI content strategy and creation platform that helps marketers and content teams develop content strategies, generate content ideas, and produce optimized content at scale. It analyzes your target audience and competitive landscape to generate content ideas that are likely to perform well, then assists with creating that content with SEO optimization built in. For content marketing teams that need both strategic direction and production assistance, Content Codex provides an integrated content intelligence platform.",
+    features: [
+      "Content Strategy: AI-generated content strategy based on your goals and audience",
+      "Topic Research: Find content topics with genuine audience demand",
+      "Content Generation: AI assistance for creating optimized content",
+      "SEO Integration: Content optimized for search from creation",
+      "Competitive Analysis: Understand what content is working in your market",
+      "Content Calendar: Plan and schedule your content production",
+      "Performance Tracking: Monitor how your content performs over time",
+      "Free Trial: Try Content Codex before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Content Codex",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Strategy", description: "Sign up at contentcodex.com and input your business goals, target audience, and competitive context. Content Codex generates a content strategy aligned to your objectives." },
+        { title: "Research and Plan", description: "Use the topic research tools to find content opportunities with real audience demand. Build your content calendar around topics that are both relevant and searchable." },
+        { title: "Create and Optimize", description: "Generate content with AI assistance and SEO optimization built in. Publish and track performance to understand what resonates with your audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Strategy Before Creation", description: "Creating content without a clear strategy wastes production effort on topics that do not serve business goals. Starting with AI-generated strategy ensures content serves clear objectives" },
+      { title: "Demand Validation", description: "Writing about topics no one searches for or cares about produces content that never gets read. Topic research that validates demand before creation improves content ROI" },
+      { title: "SEO Integration", description: "Content optimized for search from the beginning performs better than content that is SEO-optimized as an afterthought" },
+      { title: "Production Efficiency", description: "AI assistance that speeds content creation allows teams to produce more content without proportionally increasing headcount" }
+    ],
+    useCases: [
+      { title: "Content Marketing Teams", description: "Marketing teams use Content Codex for both strategic direction and production efficiency in their content programs" },
+      { title: "SEO and Organic Growth Teams", description: "Teams focused on organic search use Content Codex for content intelligence that improves search performance" },
+      { title: "B2B Marketing Teams", description: "Business marketers use Content Codex for the thought leadership and educational content their buyers expect" }
+    ]
+  },
+  "molo9": {
+    whatIs: "Molo9 is an AI-powered pitch deck and fundraising platform that helps startup founders create investor-ready presentations and access fundraising resources. It uses AI to structure compelling pitch narratives, generate slide content, and provide feedback on pitch strength. The platform also provides access to investor databases and fundraising guides that support the complete fundraising process. For early-stage founders preparing for their first fundraise, Molo9 provides both the presentation tools and the fundraising knowledge they need.",
+    features: [
+      "AI Pitch Deck: Generate investor-ready pitch decks with AI assistance",
+      "Narrative Structure: AI guidance on compelling pitch story structure",
+      "Investor Database: Access to angel and VC investor contacts",
+      "Pitch Feedback: AI assessment of your pitch deck strength",
+      "Fundraising Guides: Educational resources on the fundraising process",
+      "Financial Modeling: Basic financial projection tools",
+      "Pitch Practice: Tools for rehearsing your investor pitch",
+      "Free to Start: Basic pitch deck creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Molo9",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Pitch", description: "Sign up at molo9.com and begin building your pitch deck. The AI guides you through the standard investor pitch structure and helps generate content for each section." },
+        { title: "Get AI Feedback", description: "Submit your draft pitch for AI assessment. Receive specific feedback on what is working and what needs strengthening before you present to investors." },
+        { title: "Access Investors", description: "Use the investor database to find angels and VCs that invest in your stage and sector. Prepare personalized outreach based on each investor focus area." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Pitch Structure Intelligence", description: "First-time fundraising founders often do not know what investors expect to see or in what order. AI guidance on pitch structure produces presentations that meet investor expectations" },
+      { title: "Feedback Before Investors", description: "Getting objective feedback on a pitch before presenting to real investors is valuable but hard to access. AI assessment provides this feedback without requiring warm introductions" },
+      { title: "Investor Discovery", description: "Finding investors who are actively writing checks in your stage and sector is one of the hardest parts of fundraising. An investor database that filters by stage and focus saves significant time" },
+      { title: "Fundraising Education", description: "The fundraising process has unwritten rules that experienced founders know but first-timers do not. Educational resources that surface this knowledge improve fundraising outcomes" }
+    ],
+    useCases: [
+      { title: "Pre-Seed and Seed Stage Founders", description: "Early-stage founders preparing their first fundraise use Molo9 for pitch deck creation and investor discovery" },
+      { title: "Accelerator Graduates", description: "Companies graduating from accelerator programs use Molo9 to prepare for demo day and subsequent fundraising" },
+      { title: "First-Time Founders", description: "Entrepreneurs raising for the first time use Molo9 for the pitch structure guidance and fundraising education they need" }
+    ]
+  },
+  "openvc": {
+    whatIs: "OpenVC is a platform that connects startup founders with venture capital investors through a structured introduction and matching system. It provides a database of VC funds with their investment thesis, check sizes, and portfolio, and enables founders to submit their startups for review by relevant investors. The platform removes some of the cold outreach friction in fundraising by creating a structured channel for founder-investor connection. For founders who lack warm introductions to VCs, OpenVC provides a more accessible path to investor discovery and outreach.",
+    features: [
+      "VC Database: Comprehensive database of venture capital funds",
+      "Investment Thesis: Each fund thesis, check size, and focus areas",
+      "Startup Submission: Submit your startup for review by relevant VCs",
+      "Matching: Connect with investors who invest in your stage and sector",
+      "Portfolio Research: See what each fund has invested in previously",
+      "Fundraising Resources: Guides and templates for VC outreach",
+      "Community: Connect with other founders going through fundraising",
+      "Free Access: Basic platform access without payment"
+    ],
+    howToUse: {
+      title: "How to Use Openvc",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Research Investors", description: "Sign up at openvc.app and browse the VC database. Filter by stage, sector, and geography to find funds that invest in companies like yours." },
+        { title: "Review Investment Thesis", description: "Read each fund investment thesis and portfolio to understand what they look for and whether your startup is genuinely a fit for their strategy." },
+        { title: "Submit Your Startup", description: "Submit your startup information for review by investors you have identified as good fits. Craft your submission to align with each fund specific investment criteria." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Warm Introduction Problem", description: "Most VC investment happens through warm introductions that founders outside established networks cannot access. OpenVC creates a more accessible structured channel" },
+      { title: "Thesis Alignment Research", description: "Approaching investors whose thesis does not match your startup wastes everyone time. Detailed fund information enables better targeting before outreach" },
+      { title: "Portfolio Intelligence", description: "Understanding what a fund has already invested in reveals whether they have appetite for your category or already have a competing portfolio company" },
+      { title: "Fundraising Efficiency", description: "Researching, targeting, and submitting to the right investors is more efficient than spray-and-pray outreach that wastes time on non-fits" }
+    ],
+    useCases: [
+      { title: "Seed and Series A Founders", description: "Founders raising early rounds use OpenVC to discover and access relevant VC investors efficiently" },
+      { title: "Founders Without Networks", description: "Entrepreneurs outside major startup hubs use OpenVC to access investors they could not reach through personal networks" },
+      { title: "International Founders", description: "Global founders use OpenVC to find US and international VCs that invest across geographies" }
+    ]
+  },
+  "storydoc": {
+    whatIs: "Storydoc is an AI-powered interactive presentation and proposal platform that creates engaging web-based presentations instead of static PDF or PowerPoint files. It produces scroll-based interactive decks with animations, embedded media, and personalization that make investor pitches, sales proposals, and reports more engaging than traditional presentations. Analytics show how recipients interact with each slide. For sales and marketing teams that want presentations that stand out and provide engagement intelligence, Storydoc creates a more compelling presentation experience.",
+    features: [
+      "Interactive Presentations: Web-based presentations that engage rather than bore",
+      "AI Content Generation: AI assistance for presentation content creation",
+      "Personalization: Customize presentations for specific recipients",
+      "Engagement Analytics: Track how recipients interact with each slide",
+      "Templates: Professional templates for different presentation types",
+      "Embedded Media: Video, data, and interactive elements in presentations",
+      "CRM Integration: Track presentation engagement in your CRM",
+      "Free Trial: Try Storydoc before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Storydoc",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Sign up at storydoc.com and select a template for your presentation type - investor deck, sales proposal, or company overview." },
+        { title: "Create with AI", description: "Use AI assistance to generate content for your presentation. Add your specific data, messaging, and media to personalize the generated structure." },
+        { title: "Share and Track", description: "Share your interactive presentation via link. Monitor engagement analytics to see which slides recipients spend time on and where they drop off." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Engagement Quality", description: "Interactive scroll-based presentations that feel like websites create more engaging experiences than static slides that audiences have seen thousands of times before" },
+      { title: "Analytics Intelligence", description: "Knowing exactly which slides investors or prospects engaged with most provides invaluable context for follow-up conversations" },
+      { title: "Personalization Impact", description: "Presentations personalized for specific recipients with their name, company, and relevant details perform better than generic decks" },
+      { title: "Format Differentiation", description: "Interactive web presentations that stand out from the PDF and PowerPoint decks everyone else sends create a better first impression" }
+    ],
+    useCases: [
+      { title: "Sales Teams", description: "Sales professionals use Storydoc for interactive proposals and presentations that engage prospects more effectively than static alternatives" },
+      { title: "Startup Founders", description: "Founders use Storydoc for investor pitches that stand out and provide engagement data to improve follow-up" },
+      { title: "Marketing Teams", description: "Marketing professionals use Storydoc for campaign presentations and reports that communicate more compellingly than traditional formats" }
+    ]
+  },
+  "tanka": {
+    whatIs: "Tanka is an AI-powered messaging intelligence platform that helps sales and customer success teams manage their messaging conversations more effectively. It integrates with Slack, Teams, and email to provide AI summaries of conversation threads, suggested responses, and relationship intelligence that helps teams stay on top of customer and prospect communications. For teams that manage many simultaneous customer conversations across multiple channels, Tanka provides the AI assistance that keeps communication quality high at volume.",
+    features: [
+      "Message Summaries: AI summaries of long conversation threads",
+      "Response Suggestions: AI-suggested replies for common situations",
+      "Relationship Intelligence: Context about contacts and conversation history",
+      "Multi-Channel: Works across Slack, Teams, and email",
+      "CRM Integration: Sync conversation insights with your CRM",
+      "Priority Inbox: AI-prioritized messages based on importance",
+      "Team Collaboration: Share conversation context with team members",
+      "Free Trial: Try Tanka before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Tanka",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Channels", description: "Sign up at tanka.ai and connect your messaging channels - Slack, Teams, and email. Tanka begins processing your conversation history." },
+        { title: "Review AI Summaries", description: "Access AI summaries of long conversation threads to catch up on context without reading every message. Use suggested responses for common situations." },
+        { title: "Manage Relationships", description: "Use the relationship intelligence to track where each customer or prospect conversation stands and what follow-up is needed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversation Volume Management", description: "Sales and customer success teams that manage many simultaneous conversations cannot read every message in full. AI summaries that surface what matters make high-volume management practical" },
+      { title: "Context Without Reading Everything", description: "Getting up to speed on a conversation that happened while you were away normally requires reading the full thread. AI summaries provide context in seconds" },
+      { title: "Response Quality at Speed", description: "Suggested responses for common situations maintain response quality when volume pressure creates shortcuts" },
+      { title: "Cross-Channel Intelligence", description: "Customer conversations that happen across email, Slack, and Teams are hard to track holistically. Cross-channel context that aggregates all touchpoints provides a complete picture" }
+    ],
+    useCases: [
+      { title: "Customer Success Teams", description: "CS teams managing many customer accounts use Tanka for conversation summaries and relationship intelligence that help them stay on top of all their accounts" },
+      { title: "Sales Teams", description: "Sales reps use Tanka for prospect conversation management and follow-up intelligence across multiple active deals" },
+      { title: "Account Management Teams", description: "Account managers use Tanka to maintain relationship context across long-term customer relationships with many touchpoints" }
+    ]
+  },
+  "replyguy": {
+    whatIs: "ReplyGuy is an AI tool that monitors social media for mentions of your keywords and automatically generates contextually relevant replies that promote your product or service naturally. It finds conversations where your target audience is discussing relevant topics and suggests or posts replies that add value while positioning your offering. For startups and marketers who want to participate in relevant social conversations at scale, ReplyGuy automates the discovery and response process that builds social presence organically.",
+    features: [
+      "Keyword Monitoring: Track mentions of your keywords across social platforms",
+      "AI Reply Generation: Generate contextually relevant replies automatically",
+      "Natural Promotion: Replies that add value while mentioning your product",
+      "Twitter and Reddit: Coverage across major social platforms",
+      "Automated Posting: Option to post replies automatically",
+      "Conversation Discovery: Find relevant discussions in your target market",
+      "Tone Control: Adjust reply tone and promotional intensity",
+      "Free Trial: Try ReplyGuy before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Replyguy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Your Keywords", description: "Sign up at replyguy.com and enter the keywords related to your product category, problems you solve, and target audience discussions." },
+        { title: "Review Generated Replies", description: "ReplyGuy finds relevant conversations and generates reply suggestions. Review each reply to ensure it adds genuine value and sounds natural." },
+        { title: "Post and Monitor", description: "Post approved replies and monitor the engagement they generate. Adjust your keywords and reply approach based on what resonates." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversation Discovery at Scale", description: "Finding relevant conversations manually across Twitter and Reddit takes hours. Automated monitoring that surfaces relevant discussions saves significant time" },
+      { title: "Natural Integration", description: "Replies that add genuine value to conversations perform better and create less backlash than obvious promotional posts" },
+      { title: "Always-On Presence", description: "Relevant conversations happen continuously. Automated monitoring ensures you participate in discussions when they are happening rather than discovering them too late" },
+      { title: "Audience Research", description: "Monitoring what your target audience discusses provides ongoing intelligence about their problems, language, and decision factors" }
+    ],
+    useCases: [
+      { title: "Startup Founders Building Awareness", description: "Early-stage founders use ReplyGuy to build product awareness through organic social conversation participation" },
+      { title: "Growth Marketers", description: "Marketing teams use ReplyGuy for social listening and engagement that drives awareness without paid advertising" },
+      { title: "SaaS Companies", description: "Software businesses use ReplyGuy to participate in conversations where their target audience discusses the problems they solve" }
+    ]
+  },
   "outreach": {
     whatIs: "Outreach is a sales execution platform that helps sales teams manage their outreach sequences, track engagement, and optimize their sales process through AI-powered insights. It provides sequence automation for email and call outreach, meeting scheduling, and conversation intelligence that helps reps understand what is working and what is not. For enterprise sales teams that need systematic outreach management and coaching at scale, Outreach provides the infrastructure that keeps large sales teams executing consistently.",
     features: [
