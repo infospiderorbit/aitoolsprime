@@ -1,4 +1,268 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "naming-magic": {
+    whatIs: "Naming Magic is an AI business name generator that creates creative, brandable names using GPT-4 to understand the nuance and context of your business description. It goes beyond keyword matching to generate names that capture the essence and personality of your brand. Users describe their business in natural language and Naming Magic generates names that feel thoughtfully crafted rather than algorithmically produced.",
+    features: [
+      "GPT-4 Powered: Names generated using advanced AI language understanding",
+      "Context Aware: Understands business nuance beyond simple keywords",
+      "Creative Names: Genuinely creative names not just keyword combinations",
+      "Domain Checking: Availability verification for generated names",
+      "Multiple Rounds: Generate additional batches if first results need more options",
+      "Style Control: Adjust naming style preferences",
+      "Free to Use: Basic name generation without payment",
+      "Instant Results: Names generated immediately"
+    ],
+    howToUse: {
+      title: "How to Use Naming Magic",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Business", description: "Go to namingmagic.com and describe your business in natural language. Include what you do, who you serve, and the personality you want your brand to convey." },
+        { title: "Review Generated Names", description: "Browse the AI-generated names and evaluate them for creativity, memorability, and brand fit. The GPT-4 foundation produces more nuanced options than simple keyword generators." },
+        { title: "Check and Secure", description: "Verify domain availability for your favorite names and secure the domain immediately once you have made your selection." }
+      ]
+    },
+    coreFeatures: [
+      { title: "GPT-4 Understanding", description: "Advanced language models that understand business context and nuance produce more creative and appropriate names than simpler pattern-matching algorithms" },
+      { title: "Natural Language Input", description: "Describing your business naturally rather than entering keywords produces more relevant names because the AI understands the full context of your description" },
+      { title: "Creative Quality", description: "Names that feel crafted rather than generated build stronger brand impressions with customers and investors" },
+      { title: "Iteration Capability", description: "Generating multiple rounds of names until you find the right option is more efficient than starting over with a different tool when first results are not perfect" }
+    ],
+    useCases: [
+      { title: "Tech Founders", description: "Technology company founders use Naming Magic for creative names that stand out in competitive tech markets" },
+      { title: "Creative Entrepreneurs", description: "Founders who want distinctive brand names use Naming Magic for the creative quality that simpler generators cannot match" },
+      { title: "Brand Consultants", description: "Naming professionals use Naming Magic as a creative ideation tool in client naming projects" }
+    ]
+  },
+  "namegener": {
+    whatIs: "Namegener is a free business name generator that creates name suggestions for companies, products, and brands using AI. It provides a straightforward interface for generating business name ideas from keywords with domain availability checking. For entrepreneurs who need a quick, free option for business name brainstorming, Namegener provides accessible AI naming without subscription requirements.",
+    features: [
+      "Free Name Generation: Business names without payment",
+      "Keyword Based: Names generated from your keyword inputs",
+      "Domain Checking: Basic domain availability verification",
+      "Multiple Suggestions: Several name options per generation",
+      "Simple Interface: No complex setup or account required",
+      "Instant Results: Names ready immediately",
+      "Various Styles: Different naming approach options",
+      "No Account Required: Use without creating an account"
+    ],
+    howToUse: {
+      title: "How to Use Namegener",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Keywords", description: "Go to namegener.com and enter the keywords that describe your business. Include your industry and any brand characteristics." },
+        { title: "Generate Your Names", description: "Click generate to receive multiple business name suggestions based on your keywords. Review the options for fit and availability." },
+        { title: "Check and Use", description: "Verify domain availability for names you like and proceed with your chosen name for brand development." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Zero Cost Access", description: "Free name generation without subscription makes business naming accessible to entrepreneurs at any budget level" },
+      { title: "No Friction Entry", description: "No account creation required means you can generate names immediately without any setup process" },
+      { title: "Quick Brainstorming", description: "For quick ideation sessions where you want many options fast, free generators that require no setup are more practical than premium tools" },
+      { title: "Supplement to Premium Tools", description: "Namegener works well as a supplement to premium naming tools for initial brainstorming before moving to more sophisticated generation" }
+    ],
+    useCases: [
+      { title: "Budget-Conscious Entrepreneurs", description: "Founders who want to explore name options without tool costs use Namegener for free brainstorming" },
+      { title: "Early Ideation Stage", description: "Entrepreneurs in the very early stages of idea development use Namegener for quick name exploration before committing to a direction" },
+      { title: "Students and Hobbyists", description: "People exploring business ideas for learning or fun use Namegener for accessible free naming" }
+    ]
+  },
+  "namehassle": {
+    whatIs: "NameHassle is a business name generator and brand naming platform that helps entrepreneurs find available, brandable business names with domain availability checking. It generates creative name options from business descriptions and keywords, with built-in availability checking that saves the manual work of separately verifying each promising name. For founders who want a straightforward name generation experience with integrated availability checking, NameHassle provides a practical naming workflow.",
+    features: [
+      "Business Name Generation: Creative names from business descriptions",
+      "Domain Availability: Integrated checking for generated names",
+      "Brand Quality Focus: Names oriented toward brand appropriateness",
+      "Multiple Suggestions: Several options per generation session",
+      "Category Support: Names calibrated to different business types",
+      "Social Handle Check: Social media availability for some names",
+      "Free to Use: Basic name generation without payment",
+      "Simple Workflow: Straightforward naming process"
+    ],
+    howToUse: {
+      title: "How to Use Namehassle",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Business", description: "Go to namehassle.com and describe what your business does and any naming preferences you have." },
+        { title: "Review Available Names", description: "Browse generated names with their availability status. Focus on options that are both appealing and available across your required channels." },
+        { title: "Secure Your Name", description: "Choose your preferred available name and secure the domain and social handles immediately to prevent others from taking them." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Integrated Availability", description: "Generating names and checking availability separately doubles the work. Integrated checking that shows availability alongside names makes the selection process more efficient" },
+      { title: "Brand Appropriate Names", description: "Business names need to feel appropriate for their industry and target audience. Category-calibrated generation produces more suitable options than generic keyword combinations" },
+      { title: "Practical Workflow", description: "A straightforward naming workflow that moves from description to available options in minimal steps is more practical for busy entrepreneurs than complex multi-step tools" },
+      { title: "Social Presence Consideration", description: "Modern brands need consistent presence across domains and social platforms. Checking social handle availability alongside domains prevents the frustration of finding social handles taken for your chosen name" }
+    ],
+    useCases: [
+      { title: "New Business Founders", description: "Entrepreneurs establishing new businesses use NameHassle for practical available name finding" },
+      { title: "Product Namers", description: "People naming new products use NameHassle for brand-appropriate name generation with availability checking" },
+      { title: "Side Project Creators", description: "Individuals launching side projects use NameHassle for quick available name finding without complex tool overhead" }
+    ]
+  },
+  "namefinder-ai": {
+    whatIs: "Namefinder.ai is an AI-powered business and domain name finder that helps entrepreneurs discover available names that match their brand requirements. It uses AI to generate relevant name options and checks availability across domains and social platforms simultaneously. The platform focuses on finding genuinely available names rather than just generating creative options that might not be available, making it practical for founders who need a name they can actually use.",
+    features: [
+      "AI Name Discovery: Find available names matching your requirements",
+      "Simultaneous Availability: Domain and social checking at the same time",
+      "AI Relevance: Names contextually matched to your business type",
+      "Domain Focus: Strong emphasis on finding available domains",
+      "Multiple TLDs: Check availability across different domain extensions",
+      "Brand Matching: Names appropriate for your brand personality",
+      "Instant Search: Immediate results for availability and suggestions",
+      "Free to Use: Basic name finding without payment"
+    ],
+    howToUse: {
+      title: "How to Use Namefinder Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Requirements", description: "Go to namefinder.ai and describe what you are looking for - your business type, desired name characteristics, and any must-have or avoid criteria." },
+        { title: "Browse Available Names", description: "Review the AI-generated names that are confirmed available. All presented options have been verified for availability so you can focus on finding the right fit." },
+        { title: "Register Immediately", description: "When you find the right name, register it immediately. Domain names can be claimed by others quickly so acting fast on found names is important." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Availability First", description: "Many name generators produce creative names that are already taken. Namefinder.ai focuses on names you can actually use, making it more practically useful for founders who need a real name" },
+      { title: "Simultaneous Multi-Channel Search", description: "Checking domain and social availability separately wastes time. Simultaneous search produces complete availability information efficiently" },
+      { title: "AI Relevance", description: "Names that are contextually appropriate for your business type are more likely to resonate with your target audience than generic available names" },
+      { title: "Decision Speed", description: "Founders who find the right available name quickly can move forward with brand development instead of spending weeks in the naming phase" }
+    ],
+    useCases: [
+      { title: "Pre-Launch Entrepreneurs", description: "Founders ready to commit to a name use Namefinder.ai to find available options that meet their brand requirements" },
+      { title: "Domain Seekers", description: "People specifically looking for available domain names use Namefinder.ai for AI-assisted domain discovery" },
+      { title: "Rebranding Businesses", description: "Companies undergoing rebranding use Namefinder.ai to find new available names that work for their evolved brand identity" }
+    ]
+  },
+  "leanware": {
+    whatIs: "Leanware is an AI-powered software development and project management platform that helps development teams build and ship software more efficiently through AI-assisted planning, code review, and progress tracking. It provides tools for sprint planning, automated code quality checks, and project visibility that keep development teams aligned and productive. For software development teams that want AI assistance integrated into their development workflow, Leanware provides the AI-enhanced development platform.",
+    features: [
+      "AI Sprint Planning: AI assistance for development sprint planning",
+      "Code Review: Automated code quality and review assistance",
+      "Project Tracking: Development project progress monitoring",
+      "Team Coordination: Shared visibility for development team activities",
+      "Velocity Tracking: Monitor team productivity and sprint velocity",
+      "Technical Debt Tracking: Identify and manage technical debt",
+      "Integration: Works with GitHub, GitLab, and other development tools",
+      "Free Trial: Try Leanware before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Leanware",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Development Tools", description: "Sign up at leanware.io and connect your code repositories and project management tools. Leanware begins analyzing your development workflow." },
+        { title: "Use AI Planning Assistance", description: "Leverage AI assistance for sprint planning to estimate tasks more accurately and distribute work appropriately across your team." },
+        { title: "Monitor and Improve", description: "Track team velocity and project progress through the dashboard. Use the insights to continuously improve your development process." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Planning Accuracy", description: "Development sprint planning is notoriously difficult. AI assistance that incorporates historical velocity data and task complexity produces more accurate planning estimates" },
+      { title: "Code Quality Automation", description: "Manual code review processes are slow and inconsistent. Automated quality checks that flag issues before human review improve code quality without slowing releases" },
+      { title: "Visibility for Leaders", description: "Engineering managers who have clear visibility into development progress make better resource and priority decisions than those relying on status meetings alone" },
+      { title: "Continuous Improvement", description: "Teams that measure their velocity and process consistently find specific improvements more easily than those who rely on general impressions of how things are going" }
+    ],
+    useCases: [
+      { title: "Software Development Teams", description: "Engineering teams use Leanware for AI-enhanced planning and quality tooling that improves their development process" },
+      { title: "Engineering Managers", description: "Development leads use Leanware for the visibility and planning accuracy that helps them manage their teams effectively" },
+      { title: "Startups Scaling Engineering", description: "Growing engineering teams use Leanware for process infrastructure as they scale beyond the informal coordination that works for small teams" }
+    ]
+  },
+  "visage-technologies": {
+    whatIs: "Visage Technologies is a computer vision and face analysis technology company that provides SDKs and APIs for face tracking, age and gender estimation, emotion recognition, and facial feature detection. Its technology is used by developers and companies building applications that require facial analysis capabilities - from entertainment and retail analytics to automotive driver monitoring. For product teams that need reliable, production-ready face analysis capabilities without building from scratch, Visage Technologies provides the specialized computer vision technology.",
+    features: [
+      "Face Tracking: Real-time face detection and tracking technology",
+      "Age and Gender Estimation: AI estimation of demographic characteristics",
+      "Emotion Recognition: Detection of facial expressions and emotions",
+      "Facial Feature Detection: Precise detection of facial landmarks",
+      "SDK and API: Integration options for different development environments",
+      "Cross-Platform: Works on mobile, desktop, and web platforms",
+      "Automotive Grade: Driver monitoring solutions for vehicles",
+      "Free Evaluation: Try the SDK before licensing"
+    ],
+    howToUse: {
+      title: "How to Use Visage Technologies",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Request the SDK", description: "Contact Visage Technologies or request evaluation access to their SDK for your target platform - mobile, desktop, or web." },
+        { title: "Integrate Face Analysis", description: "Use the SDK to add face analysis capabilities to your application. Comprehensive documentation guides integration across different platforms." },
+        { title: "Deploy and Scale", description: "Deploy your application with Visage face analysis capabilities. License the technology for production deployment at your required scale." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Specialized Accuracy", description: "Face analysis is a specialized computer vision domain where purpose-built technology from specialists significantly outperforms general AI tools applied to the domain" },
+      { title: "Production Reliability", description: "Applications built on reliable, well-tested face analysis technology have fewer failures than those built on research code adapted for production use" },
+      { title: "Cross-Platform Consistency", description: "Technology that works consistently across mobile, desktop, and web platforms simplifies development compared to using different solutions for each platform" },
+      { title: "Automotive Standards", description: "Driver monitoring applications require the reliability and accuracy standards of automotive-grade technology that consumer applications do not need to meet" }
+    ],
+    useCases: [
+      { title: "App Developers Adding Face Features", description: "Mobile and web application developers use Visage SDK for reliable face analysis capabilities in their products" },
+      { title: "Retail and Analytics Companies", description: "Businesses using in-store analytics for customer behavior measurement use Visage for age, gender, and emotion analysis" },
+      { title: "Automotive Tier 1 Suppliers", description: "Vehicle system suppliers use Visage for driver monitoring systems that meet automotive reliability standards" }
+    ]
+  },
+  "ai-superior": {
+    whatIs: "AI Superior is an AI consulting and custom AI development company that helps businesses design, build, and deploy AI solutions tailored to their specific needs. It provides AI strategy consulting, custom machine learning model development, computer vision solutions, and natural language processing applications. For organizations that need AI capabilities beyond what off-the-shelf AI tools provide, AI Superior delivers bespoke AI development that solves specific business problems.",
+    features: [
+      "AI Strategy Consulting: Strategic guidance on AI adoption and implementation",
+      "Custom ML Models: Tailored machine learning solutions for specific problems",
+      "Computer Vision: Custom image and video analysis solutions",
+      "NLP Solutions: Natural language processing for business applications",
+      "Data Science: Data analysis and predictive modeling",
+      "AI Integration: Connect custom AI to existing business systems",
+      "Proof of Concept: Rapid AI prototyping before full development",
+      "Enterprise Focus: Solutions for business and enterprise requirements"
+    ],
+    howToUse: {
+      title: "How to Use Ai Superior",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Problem", description: "Contact AI Superior and describe the business problem you want to solve with AI. Be specific about the outcomes you need and the data you have available." },
+        { title: "Engage in Strategy", description: "Work with AI Superior consultants to define the right AI approach for your problem. Agree on success metrics and development scope." },
+        { title: "Build and Deploy", description: "AI Superior develops your custom solution and integrates it with your existing systems. Support continues through deployment and into production operation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Custom vs Off-the-Shelf", description: "Generic AI tools solve generic problems. Business problems with specific data, requirements, and constraints need custom AI solutions that fit the actual situation" },
+      { title: "Domain Expertise", description: "AI applied to specific business domains requires understanding of both AI techniques and domain context. Specialized consultants who understand both produce better solutions" },
+      { title: "Integration Reality", description: "Custom AI that cannot integrate with existing business systems has limited practical value. Development that includes integration work produces deployable solutions" },
+      { title: "ROI Focus", description: "Business-focused AI development that clearly connects technical work to business outcomes produces solutions with demonstrable return on investment" }
+    ],
+    useCases: [
+      { title: "Enterprises Adopting AI", description: "Large organizations use AI Superior for the custom AI solutions their specific operational challenges require" },
+      { title: "Companies with Proprietary Data", description: "Businesses with unique datasets use AI Superior for custom models that extract value from their specific data" },
+      { title: "Organizations with Complex Requirements", description: "Companies whose AI needs exceed what SaaS tools can provide use AI Superior for bespoke development" }
+    ]
+  },
+  "chaingpt": {
+    whatIs: "ChainGPT is an AI blockchain and Web3 platform that provides AI tools specifically designed for the cryptocurrency and blockchain ecosystem. It offers AI-powered smart contract generation, blockchain analysis, NFT creation, trading insights, and a suite of tools that help Web3 developers and crypto users navigate the technical and analytical complexity of blockchain technology. For Web3 builders and crypto enthusiasts who want AI capabilities tailored to their specific domain, ChainGPT provides blockchain-native AI tools.",
+    features: [
+      "Smart Contract Generation: AI-generated smart contracts from natural language descriptions",
+      "Blockchain Analysis: AI analysis of blockchain data and transactions",
+      "NFT Generator: AI-powered NFT art and metadata creation",
+      "Trading Insights: AI market analysis for crypto trading",
+      "Web3 Development: AI assistance for blockchain application development",
+      "Security Auditing: AI-assisted smart contract security analysis",
+      "Crypto News: AI-curated blockchain and crypto news",
+      "Free to Try: Basic ChainGPT features without payment"
+    ],
+    howToUse: {
+      title: "How to Use Chaingpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access ChainGPT Tools", description: "Sign up at chaingpt.org and access the suite of AI tools for your specific Web3 need - smart contract development, trading analysis, or NFT creation." },
+        { title: "Generate Your Smart Contract", description: "Describe the smart contract functionality you need in plain language. ChainGPT generates the code and you review it with your technical team before deployment." },
+        { title: "Analyze and Build", description: "Use ChainGPT blockchain analysis and development tools as part of your Web3 building workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Blockchain Domain Specificity", description: "General AI tools do not understand blockchain-specific concepts, patterns, and security requirements. Domain-specific AI produces more appropriate and safer smart contract code" },
+      { title: "Smart Contract Accessibility", description: "Writing smart contracts requires Solidity expertise that many blockchain entrepreneurs lack. AI generation that produces functional contracts from descriptions lowers this technical barrier" },
+      { title: "Security Awareness", description: "Smart contract bugs can result in significant financial losses. AI that incorporates security best practices into generated contracts reduces risk compared to naive manual coding" },
+      { title: "Web3 Workflow Integration", description: "AI tools designed specifically for Web3 workflows integrate more naturally into blockchain development processes than generic AI tools adapted to the domain" }
+    ],
+    useCases: [
+      { title: "Web3 Developers", description: "Blockchain application developers use ChainGPT for AI assistance with smart contract development and blockchain analysis" },
+      { title: "Crypto Entrepreneurs", description: "Founders building blockchain businesses use ChainGPT for accessible smart contract generation without deep Solidity expertise" },
+      { title: "DeFi and NFT Creators", description: "Decentralized finance and NFT project creators use ChainGPT for the domain-specific AI tools their projects require" }
+    ]
+  },
   "vizologi": {
     whatIs: "Vizologi is a business strategy and innovation platform that uses AI to help entrepreneurs and business analysts explore business models, market opportunities, and competitive landscapes. It provides access to thousands of real business model examples organized by patterns, and uses AI to generate business model ideas and strategic insights. For entrepreneurs exploring new business ideas and analysts studying business model innovation, Vizologi provides a structured framework for strategic thinking backed by extensive real-world examples.",
     features: [
