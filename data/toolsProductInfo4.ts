@@ -1,4 +1,235 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "n8n": {
+    whatIs: "n8n is an open-source workflow automation platform that allows technical teams to build complex automations and integrations through a visual node-based interface. Unlike no-code tools, n8n is designed for developers and technical users who need the flexibility to write custom code within automation workflows, self-host their automation infrastructure, and connect to virtually any system through its extensible node library. For engineering and operations teams that need powerful automation without the vendor lock-in of SaaS automation tools, n8n provides the open-source alternative that combines visual workflow building with full technical flexibility.",
+    features: [
+      "Open Source: Self-host your automation infrastructure",
+      "Visual Workflow Builder: Node-based interface for building automations",
+      "Custom Code: Write JavaScript or Python within workflow nodes",
+      "400 Plus Integrations: Pre-built nodes for common services",
+      "Self-Hosting: Run on your own infrastructure for data privacy",
+      "API Connections: Connect to any service with HTTP requests",
+      "Webhooks: Trigger workflows from external services",
+      "Free Self-Hosted: Run unlimited workflows on your own server"
+    ],
+    howToUse: {
+      title: "How to Use N8N",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install n8n", description: "Install n8n on your own server or use n8n cloud. The open-source version gives you complete control over your automation infrastructure." },
+        { title: "Build Your Workflow", description: "Use the visual editor to connect nodes that represent different services and actions. Add custom code nodes where you need specific logic that pre-built nodes cannot handle." },
+        { title: "Deploy and Monitor", description: "Activate your workflow and monitor executions through the n8n interface. Debug failed executions with detailed logs that show exactly what happened at each step." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Self-Hosting Control", description: "SaaS automation tools mean your workflow logic and data passes through vendor infrastructure. Self-hosted n8n keeps automation data on your own servers" },
+      { title: "Developer Flexibility", description: "No-code automation tools break when workflows require custom logic. n8n custom code nodes handle complex transformations that visual-only tools cannot" },
+      { title: "Open Source Transparency", description: "Open-source code that developers can inspect, modify, and extend provides confidence and flexibility that closed proprietary tools cannot" },
+      { title: "Cost at Scale", description: "SaaS automation pricing that scales with usage becomes expensive for high-volume automations. Self-hosted n8n has fixed infrastructure costs regardless of execution volume" }
+    ],
+    useCases: [
+      { title: "Engineering and DevOps Teams", description: "Technical teams use n8n for complex automation that requires custom code and self-hosted infrastructure" },
+      { title: "Startups Wanting Automation Control", description: "Growing companies use n8n for automation infrastructure they own and control without vendor dependency" },
+      { title: "Data-Sensitive Organizations", description: "Companies with strict data handling requirements use n8n self-hosted to keep automation data within their own infrastructure" }
+    ]
+  },
+  "syncsketch": {
+    whatIs: "SyncSketch is a cloud-based review and collaboration platform for video, image, and 3D asset review in creative production. It allows artists, directors, and clients to annotate directly on video frames and images, compare versions side by side, and manage review feedback in an organized system. The platform eliminates the confusion of email-based feedback on creative work by providing a structured review environment where all comments are attached directly to the frames they reference. For creative studios and production teams that manage iterative review cycles with multiple stakeholders, SyncSketch provides the review infrastructure that keeps feedback organized and revisions on track.",
+    features: [
+      "Frame-Accurate Annotations: Draw and comment directly on video frames",
+      "Version Comparison: Compare different versions side by side",
+      "Real-Time Review: Multiple reviewers annotating simultaneously",
+      "Client Sharing: Easy sharing with external stakeholders",
+      "Feedback Organization: All comments organized by project and version",
+      "Video and Image Support: Review any visual media format",
+      "Approval Workflow: Track approval status across reviewers",
+      "Free Plan: Basic review collaboration without payment"
+    ],
+    howToUse: {
+      title: "How to Use Syncsketch",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Assets", description: "Sign up at syncsketch.com and upload the video or images you need reviewed. Organize assets by project and version." },
+        { title: "Share with Reviewers", description: "Send review links to directors, clients, and other stakeholders. They can annotate directly on frames without installing software." },
+        { title: "Consolidate Feedback", description: "Review all annotations in one organized view. Export feedback for your artists and track which comments have been addressed across revisions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Frame-Accurate Feedback", description: "Describing which frame a note applies to in email feedback creates confusion. Direct annotation on the specific frame eliminates this ambiguity entirely" },
+      { title: "External Stakeholder Access", description: "Clients and stakeholders who are not in your production system need easy access for review. Shareable links that require no account creation remove friction" },
+      { title: "Version Organization", description: "Creative projects go through many versions. Organized version tracking that connects feedback to specific versions prevents confusion about which notes apply to which cut" },
+      { title: "Email Feedback Replacement", description: "Consolidating review feedback that previously arrived through email, Slack, and phone calls into one structured system dramatically reduces the effort of managing revisions" }
+    ],
+    useCases: [
+      { title: "Animation and VFX Studios", description: "Animation studios use SyncSketch for director and client review of animation and visual effects work" },
+      { title: "Video Production Companies", description: "Video production teams use SyncSketch for client review of edits and motion graphics" },
+      { title: "Game Development Studios", description: "Game studios use SyncSketch for art direction and asset review across their production pipeline" }
+    ]
+  },
+  "dooray": {
+    whatIs: "Dooray is an integrated work management platform popular in South Korea and Asia that combines project management, messaging, email, calendar, and video conferencing in one unified business workspace. It provides the collaboration infrastructure that keeps teams organized without requiring separate tools for each communication and project management need. For organizations in Asian markets that want an all-in-one work platform with strong localization and enterprise features, Dooray provides the integrated workspace that reduces tool fragmentation.",
+    features: [
+      "Project Management: Task and project tracking with multiple views",
+      "Team Messaging: Real-time team communication channels",
+      "Email Integration: Business email within the platform",
+      "Calendar: Shared team calendars and scheduling",
+      "Video Conferencing: Built-in video meeting capability",
+      "Document Management: Shared document storage and collaboration",
+      "Workflow Automation: Automate repetitive work processes",
+      "Enterprise Security: Features for corporate security requirements"
+    ],
+    howToUse: {
+      title: "How to Use Dooray",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Workspace", description: "Sign up at dooray.com and configure your organization workspace. Invite team members and set up your project structure." },
+        { title: "Organize Your Projects", description: "Create projects for your work streams and organize tasks with the project management tools. Connect tasks to your team messaging for seamless communication." },
+        { title: "Communicate and Collaborate", description: "Use Dooray messaging, email, and calendar as your primary communication tools. Keep all work coordination within one platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Tool Consolidation", description: "Using separate tools for messaging, project management, email, and meetings creates context switching and information fragmentation. Integrated platforms that consolidate these reduce this overhead" },
+      { title: "Asian Market Fit", description: "Platforms built for Western markets often lack the localization and specific features that Asian enterprise customers require. Dooray strong Asian market focus produces better fit for these organizations" },
+      { title: "Enterprise Feature Set", description: "Organizations that require enterprise security, compliance, and administration features need platforms built to these standards from the ground up" },
+      { title: "Communication and Work Connection", description: "Keeping project tasks and team communication in the same platform means work context is always available alongside the conversation about it" }
+    ],
+    useCases: [
+      { title: "Korean and Asian Enterprises", description: "Organizations in South Korea and Asian markets use Dooray for the localized enterprise work platform that fits their needs" },
+      { title: "Remote Teams in Asian Markets", description: "Distributed teams in Asian markets use Dooray for the integrated communication and project management that keeps remote work organized" },
+      { title: "Enterprise Organizations", description: "Large organizations use Dooray for the enterprise security and administration features their IT requirements demand" }
+    ]
+  },
+  "productroadmap-ai": {
+    whatIs: "ProductRoadmap.ai is an AI-powered product roadmap generation platform that helps product managers create structured roadmaps quickly from product goals and priorities. It uses AI to generate roadmap content, suggest feature prioritization, and create presentation-ready roadmaps for different stakeholder audiences. For product managers who spend significant time maintaining and updating roadmaps, ProductRoadmap.ai provides AI assistance that reduces the administrative work of roadmap management.",
+    features: [
+      "AI Roadmap Generation: Create roadmaps from goals with AI assistance",
+      "Feature Prioritization: AI-suggested feature ranking and scoring",
+      "Multiple Views: Different roadmap formats for different audiences",
+      "Goal Alignment: Connect roadmap items to strategic objectives",
+      "Export Options: Share roadmaps in various formats",
+      "Collaboration: Team input on roadmap development",
+      "Timeline Planning: Quarterly and annual roadmap structure",
+      "Free Trial: Try ProductRoadmap.ai before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Productroadmap Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Goals", description: "Sign up at productroadmap.ai and enter your product goals and key features you are considering for your next planning cycle." },
+        { title: "Generate Your Roadmap", description: "The AI generates a structured roadmap with suggested prioritization and timeline. Review and adjust based on your specific context and constraints." },
+        { title: "Share with Stakeholders", description: "Export your roadmap in the format appropriate for your audience and share with engineering, executives, and customers." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Generation Speed", description: "Creating roadmaps from scratch is time-consuming. AI generation that produces a structured first draft significantly reduces the time from planning inputs to shareable roadmap" },
+      { title: "Prioritization Assistance", description: "Feature prioritization that considers multiple factors simultaneously is cognitively demanding. AI assistance that suggests prioritization based on goals and impact helps PMs make more systematic decisions" },
+      { title: "Stakeholder Communication", description: "Roadmaps that look professional and are easy to read communicate credibility and clarity to stakeholders" },
+      { title: "Iteration Support", description: "Roadmaps change frequently as priorities shift. AI assistance that makes updating and regenerating roadmaps fast reduces the friction of keeping roadmaps current" }
+    ],
+    useCases: [
+      { title: "Product Managers", description: "PMs use ProductRoadmap.ai for faster roadmap creation and maintenance" },
+      { title: "Startup Founders Acting as PM", description: "Founders who handle product management use ProductRoadmap.ai for structured product planning without PM expertise" },
+      { title: "Product Teams in Planning Cycles", description: "Teams doing quarterly planning use ProductRoadmap.ai for efficient roadmap generation and communication" }
+    ]
+  },
+  "plani-ai": {
+    whatIs: "Plani.ai is an AI project planning and scheduling platform that helps teams create realistic project plans, estimate timelines, and manage resources using AI assistance. It generates project schedules from high-level goals, identifies dependencies, suggests resource allocation, and flags schedule risks before they become problems. For project managers and team leads who need to create and maintain accurate project plans without spending excessive time on scheduling mechanics, Plani.ai provides AI assistance that makes project planning faster and more realistic.",
+    features: [
+      "AI Project Planning: Generate project plans from goals and requirements",
+      "Timeline Estimation: AI-powered realistic schedule estimation",
+      "Resource Planning: Allocate team capacity to project tasks",
+      "Dependency Management: Track task dependencies and critical path",
+      "Risk Identification: Surface schedule risks before they escalate",
+      "Progress Tracking: Monitor project progress against plan",
+      "Team Collaboration: Shared project visibility for all stakeholders",
+      "Free Trial: Try Plani.ai before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Plani Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Project", description: "Sign up at plani.ai and describe your project goals, deliverables, and team capacity. The AI generates an initial project plan based on your inputs." },
+        { title: "Review and Adjust", description: "Review the generated plan for accuracy and adjust timeline estimates where your specific context differs from AI assumptions. Add dependencies and milestones." },
+        { title: "Execute and Track", description: "Share the plan with your team and track progress. Use the risk alerts to address schedule threats before they impact delivery dates." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Planning Speed", description: "Creating detailed project plans manually from scratch takes significant time. AI generation of initial plans reduces planning time dramatically" },
+      { title: "Realistic Estimation", description: "Human project estimates are typically optimistic. AI that incorporates historical patterns and dependency analysis produces more realistic timelines" },
+      { title: "Risk Early Warning", description: "Identifying schedule risks before they materialize allows mitigation while options still exist. Late risk discovery when problems are already occurring limits available responses" },
+      { title: "Resource Visibility", description: "Understanding how project tasks map to team capacity reveals resource conflicts before they cause schedule problems" }
+    ],
+    useCases: [
+      { title: "Project Managers", description: "PMs use Plani.ai for faster project planning and more accurate schedule estimation" },
+      { title: "Engineering Team Leads", description: "Technical leads use Plani.ai for sprint and project planning that accounts for realistic team capacity" },
+      { title: "Startup Operations Teams", description: "Growing companies use Plani.ai for project planning as they build out their operational processes" }
+    ]
+  },
+  "smartlead": {
+    whatIs: "Smartlead is an AI-powered cold email outreach platform designed for high-volume sales prospecting with unlimited email accounts and advanced deliverability features. It provides email warmup, multi-channel sequences, AI personalization, and a unified inbox for managing all outreach responses. The platform is built specifically for agencies and sales teams that run multiple simultaneous outreach campaigns and need to maintain deliverability at scale. For outbound sales teams that need to send thousands of cold emails daily while maintaining inbox placement, Smartlead provides the infrastructure that makes high-volume cold email sustainable.",
+    features: [
+      "Unlimited Email Accounts: No limit on connected sending accounts",
+      "Email Warmup: Automated warmup for all connected accounts",
+      "AI Personalization: Generate personalized email content at scale",
+      "Multi-Channel Sequences: Email and LinkedIn outreach combined",
+      "Unified Inbox: Manage all replies from one interface",
+      "Deliverability Tools: Maintain inbox placement at high volumes",
+      "Agency Features: Manage multiple client campaigns",
+      "Free Trial: Try Smartlead before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Smartlead",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Accounts", description: "Sign up at smartlead.ai and connect your email accounts. Enable warmup for all accounts to build sender reputation before sending campaigns." },
+        { title: "Create Your Campaigns", description: "Build email sequences with AI personalization. Set your sending schedule to distribute sends across accounts for maximum deliverability." },
+        { title: "Manage Replies", description: "Monitor replies in the unified inbox and respond to interested prospects. Track campaign performance across all accounts from one dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Unlimited Account Scaling", description: "Platforms that limit email account connections constrain how much outreach volume is possible. Unlimited accounts allow scaling to any send volume needed" },
+      { title: "Deliverability at Volume", description: "Sending cold email at scale without proper warmup and rotation destroys sender reputation. Automated warmup and intelligent account rotation maintain deliverability" },
+      { title: "Agency Multi-Client Management", description: "Agencies running outreach for multiple clients need to keep campaigns separated and manageable. Client-specific campaign management prevents interference between accounts" },
+      { title: "AI Personalization Scale", description: "Manual personalization that makes emails feel individual does not scale to high-volume outreach. AI personalization that sounds genuine at scale solves this contradiction" }
+    ],
+    useCases: [
+      { title: "Outbound Sales Agencies", description: "Agencies running cold email campaigns for multiple clients use Smartlead for the multi-account management their operations require" },
+      { title: "Sales Development Teams", description: "High-volume SDR teams use Smartlead for the deliverability infrastructure that keeps their outreach reaching inboxes" },
+      { title: "Growth Hackers", description: "Growth-focused teams use Smartlead for systematic cold email outreach that generates leads at predictable volumes" }
+    ]
+  },
+  "dify-ai": {
+    whatIs: "Dify.AI is an open-source LLM application development platform that helps developers and non-technical users build, deploy, and manage AI applications powered by large language models. It provides a visual workflow builder for creating AI application logic, supports multiple LLM providers, includes RAG pipeline tools for connecting AI to custom knowledge bases, and offers a complete backend for deploying AI applications in production. For teams that want to build AI-powered applications without managing the underlying LLM infrastructure complexity, Dify.AI provides the development platform that accelerates AI application creation.",
+    features: [
+      "Visual Workflow Builder: Build AI application logic visually",
+      "Multiple LLM Support: Connect to OpenAI, Anthropic, and other providers",
+      "RAG Pipeline: Connect AI to your custom knowledge bases",
+      "Agent Building: Create AI agents with tool use capabilities",
+      "API Generation: Deploy AI applications as APIs automatically",
+      "Open Source: Self-host the full platform",
+      "Prompt Management: Version control for your AI prompts",
+      "Free Cloud Plan: Start building without self-hosting"
+    ],
+    howToUse: {
+      title: "How to Use Dify Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Application", description: "Sign up at dify.ai or deploy the open-source version. Create a new application and select the LLM provider you want to use." },
+        { title: "Build Your Workflow", description: "Use the visual builder to create your AI application logic. Connect your knowledge base if you need RAG capabilities for custom data." },
+        { title: "Deploy and Integrate", description: "Deploy your application and access it through the generated API. Integrate your AI application into your product or workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "LLM Application Complexity Reduction", description: "Building LLM applications from scratch requires managing prompts, context, streaming, error handling, and deployment. Dify handles this infrastructure so developers focus on application logic" },
+      { title: "RAG Accessibility", description: "Connecting LLMs to custom knowledge bases through RAG is technically complex. Dify RAG pipeline tools make this capability accessible without deep AI engineering expertise" },
+      { title: "Multi-Provider Flexibility", description: "LLM capabilities and pricing change rapidly. Supporting multiple providers allows switching without rebuilding application infrastructure" },
+      { title: "Open Source Control", description: "Self-hosted open-source deployment keeps AI application data and logic on your own infrastructure for privacy and cost control" }
+    ],
+    useCases: [
+      { title: "Developers Building AI Products", description: "Software engineers use Dify.AI for AI application development that abstracts LLM infrastructure complexity" },
+      { title: "Non-Technical Teams Building AI Tools", description: "Operations and product teams use Dify visual builder for AI applications without writing code" },
+      { title: "Enterprise AI Teams", description: "Corporate teams use Dify self-hosted for AI application development with full data control and privacy" }
+    ]
+  },
   "miro": {
     whatIs: "Miro is an online collaborative whiteboard platform that gives teams a shared visual workspace for brainstorming, planning, and collaboration. It provides an infinite canvas with sticky notes, diagrams, frameworks, and templates that teams use for design thinking, sprint planning, retrospectives, and strategic planning sessions. The platform is built for remote and hybrid teams who need the energy and creativity of in-person whiteboarding sessions without being in the same room. For product, design, and engineering teams that think visually and collaborate across locations, Miro provides the digital workspace that makes distributed collaboration genuinely effective.",
     features: [
