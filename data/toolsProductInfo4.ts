@@ -1,4 +1,202 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "onlycoms": {
+    whatIs: "OnlyComs is a domain name search and discovery platform that focuses exclusively on finding available .com domains. It uses AI to generate domain name ideas and checks .com availability in real time, recognizing that .com domains remain the gold standard for business credibility. For entrepreneurs who specifically want a .com domain rather than alternative extensions, OnlyComs provides focused search that skips the noise of alternative TLDs.",
+    features: [
+      "Com-Only Focus: Exclusively searches for available .com domains",
+      "AI Generation: AI-suggested domain names based on your inputs",
+      "Real-Time Availability: Instant .com availability checking",
+      "Keyword Variations: Multiple variations of your keyword combinations",
+      "Brand Suggestions: Brandable domain options beyond literal keywords",
+      "Quick Search: Fast results focused on availability",
+      "Registration Links: Direct links to register found domains",
+      "Free to Use: Domain search without payment"
+    ],
+    howToUse: {
+      title: "How to Use Onlycoms",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Keywords", description: "Go to onlycoms.com and enter the keywords or name concepts you want for your .com domain." },
+        { title: "Browse Available Domains", description: "Review the available .com domains generated from your inputs. All results shown are confirmed available .com domains." },
+        { title: "Register Your Domain", description: "Click through to register your chosen domain immediately through the linked domain registrar." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Com Credibility", description: "Despite many alternative domain extensions, .com remains the most credible and memorable TLD for business. Focusing exclusively on .com avoids the credibility cost of alternative extensions" },
+      { title: "Focused Results", description: "Tools that show availability across many TLDs create noise that requires filtering. .com-only results focus attention on the domains that actually matter for most businesses" },
+      { title: "Availability Confidence", description: "Real-time availability checking that only shows truly available domains prevents the disappointment of falling in love with a name that is already taken" },
+      { title: "Speed", description: "Focused single-purpose search that produces only available .com results is faster than comprehensive multi-TLD searches that require manual filtering" }
+    ],
+    useCases: [
+      { title: "Business Founders Wanting .com", description: "Entrepreneurs who specifically need a .com domain use OnlyComs for focused available .com discovery" },
+      { title: "Domain Name Investors", description: "People acquiring .com domains for investment use OnlyComs for efficient available .com searching" },
+      { title: "Startups Building Credibility", description: "Early-stage companies that want to project credibility through a .com domain use OnlyComs for their domain search" }
+    ]
+  },
+  "brandsnap-ai": {
+    whatIs: "BrandSnap AI is an AI brand name generation platform that creates complete brand concepts including names, taglines, and visual identity direction from business descriptions. It uses AI to understand your brand positioning and generates cohesive brand packages that work together as a unified identity. For entrepreneurs who need a complete starting brand identity quickly, BrandSnap provides integrated brand package creation.",
+    features: [
+      "Complete Brand Package: Names, taglines, and identity direction together",
+      "AI Brand Understanding: Deep comprehension of your brand positioning",
+      "Cohesive Output: Elements that work together as unified identity",
+      "Domain Checking: Availability verification for generated names",
+      "Visual Direction: Initial visual identity concept suggestions",
+      "Multiple Concepts: Several different brand direction options",
+      "Fast Generation: Complete brand concepts produced quickly",
+      "Free to Try: Basic brand generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Brandsnap Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Brand Positioning", description: "Sign up at brandsnap.ai and describe your business, target audience, unique value proposition, and brand personality." },
+        { title: "Review Brand Concepts", description: "BrandSnap generates several complete brand concepts with names, taglines, and visual direction. Compare the concepts for overall fit with your vision." },
+        { title: "Develop Your Chosen Direction", description: "Select the brand concept that best represents your business and use it as the foundation for full brand development." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cohesive Brand Creation", description: "Individual naming and visual identity tools produce elements that may not work well together. Integrated generation that creates all elements simultaneously produces more cohesive brand packages" },
+      { title: "Positioning Intelligence", description: "Brand names that reflect your positioning and speak to your target audience are more effective than generic available names. Positioning-aware generation produces more strategically appropriate options" },
+      { title: "Decision Speed", description: "Evaluating complete brand concepts rather than individual elements makes brand selection decisions faster and more confident" },
+      { title: "Foundation Quality", description: "A strong brand concept foundation that includes all key elements makes subsequent brand development more efficient and coherent" }
+    ],
+    useCases: [
+      { title: "Startup Founders", description: "Entrepreneurs establishing new ventures use BrandSnap for complete brand foundation creation" },
+      { title: "Small Business Owners", description: "Business owners launching new brands use BrandSnap for professional brand package development without agency costs" },
+      { title: "Marketers Running Product Launches", description: "Marketing teams launching new products use BrandSnap for rapid brand concept development" }
+    ]
+  },
+  "deepnewz": {
+    whatIs: "DeepNewz is an AI news analysis and prediction platform that analyzes current events and makes predictions about future outcomes using AI models trained on historical event data. It provides probabilistic forecasts on news events, political developments, and market-moving situations. For analysts, researchers, and informed citizens who want data-driven perspectives on how current events might unfold, DeepNewz provides AI-powered news intelligence beyond simple aggregation.",
+    features: [
+      "News Analysis: AI analysis of current events and their implications",
+      "Outcome Prediction: Probabilistic forecasts on how events might develop",
+      "Political Intelligence: Analysis of political developments and elections",
+      "Market Impact: Assessment of news impact on financial markets",
+      "Historical Pattern: AI trained on historical event outcome data",
+      "Confidence Scores: Probability estimates for different outcomes",
+      "Topic Coverage: Analysis across multiple news categories",
+      "Free Access: Basic news analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Deepnewz",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse Current Events", description: "Sign up at deepnewz.com and browse current events that have active AI analysis and predictions." },
+        { title: "Review Predictions", description: "Examine the probabilistic forecasts for events you are following. Understand the reasoning behind different outcome probabilities." },
+        { title: "Track and Evaluate", description: "Follow events as they develop and evaluate prediction accuracy over time to calibrate how to use the forecasts in your own analysis." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Probabilistic Thinking", description: "News analysis that provides probability distributions rather than binary predictions reflects the genuine uncertainty in how events unfold" },
+      { title: "Pattern-Based Forecasting", description: "Historical event data contains patterns about how similar situations have resolved. AI that learns from this history produces more calibrated forecasts than intuitive prediction" },
+      { title: "Decision Support", description: "Analysts and decision-makers who incorporate probabilistic event forecasts into their planning make better-prepared decisions than those who rely on single-scenario thinking" },
+      { title: "Intellectual Honesty", description: "Expressing predictions as probabilities rather than confident assertions is more intellectually honest and practically useful than false certainty" }
+    ],
+    useCases: [
+      { title: "Political Analysts and Researchers", description: "Political scientists and policy researchers use DeepNewz for data-driven election and political outcome analysis" },
+      { title: "Financial Analysts", description: "Investors and analysts use DeepNewz for AI assessment of how news events might affect markets" },
+      { title: "Informed Citizens", description: "Engaged news followers use DeepNewz for more sophisticated analysis of current events than traditional news commentary provides" }
+    ]
+  },
+  "talent-protocol": {
+    whatIs: "Talent Protocol is a Web3 professional identity and reputation platform that allows professionals to build verifiable on-chain credentials and reputation scores. It enables talent to tokenize their professional reputation and career achievements in a decentralized way that travels with them across jobs and platforms. For Web3 professionals who want to build portable, verifiable professional identity that is not controlled by any single employer or platform, Talent Protocol provides the decentralized professional reputation infrastructure.",
+    features: [
+      "On-Chain Credentials: Verifiable professional credentials stored on blockchain",
+      "Reputation Score: Decentralized professional reputation measurement",
+      "Professional Identity: Portable professional identity across platforms",
+      "Talent Discovery: Employers find talent through verified credentials",
+      "Career Building: Tools for building and documenting professional growth",
+      "Web3 Native: Built for the decentralized web ecosystem",
+      "Community: Network of Web3 professionals and builders",
+      "Free to Join: Basic professional profile without payment"
+    ],
+    howToUse: {
+      title: "How to Use Talent Protocol",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Profile", description: "Sign up at talentprotocol.com and build your professional profile. Add your skills, experience, and achievements to establish your professional identity." },
+        { title: "Build Your Credentials", description: "Earn and collect verifiable on-chain credentials for your skills and accomplishments. These credentials are portable and cannot be removed by any single platform." },
+        { title: "Grow Your Reputation", description: "Engage with the community and continue adding verified credentials to build a reputation score that reflects your actual professional standing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Portability", description: "Professional reputation locked in LinkedIn or a single employer is vulnerable to platform changes and employer relationships. On-chain reputation that professionals own and control travels with them everywhere" },
+      { title: "Verifiability", description: "Claims on traditional professional profiles are unverified and easily falsified. On-chain credentials that are cryptographically verified provide trustworthy signals to employers and collaborators" },
+      { title: "Web3 Native Identity", description: "Web3 professionals whose careers happen in decentralized contexts need professional identity infrastructure that fits their world rather than Web2 platforms that do not understand it" },
+      { title: "Meritocratic Discovery", description: "Talent discovery based on verified credentials and reputation rather than network connections produces more meritocratic outcomes for both talent and employers" }
+    ],
+    useCases: [
+      { title: "Web3 Developers and Builders", description: "Blockchain developers use Talent Protocol for portable verifiable professional identity in the Web3 ecosystem" },
+      { title: "DAOs and Web3 Organizations", description: "Decentralized organizations use Talent Protocol for talent discovery and credential verification" },
+      { title: "Career-Building Web3 Professionals", description: "Anyone building a career in Web3 uses Talent Protocol for the reputation infrastructure appropriate to decentralized work" }
+    ]
+  },
+  "futureverse": {
+    whatIs: "Futureverse is a Web3 gaming and metaverse technology company that provides open metaverse infrastructure, AI-powered gaming experiences, and blockchain-based digital ownership for virtual worlds. It develops the technology platforms that enable AI-generated game content, verifiable digital asset ownership, and interconnected virtual experiences. For game developers and metaverse builders who want to create next-generation gaming experiences with AI and blockchain integration, Futureverse provides the foundational technology stack.",
+    features: [
+      "Open Metaverse: Infrastructure for interconnected virtual worlds",
+      "AI Game Content: AI-generated characters, items, and experiences",
+      "Blockchain Ownership: Verifiable digital asset ownership for players",
+      "Gaming Platform: Technology for next-generation gaming experiences",
+      "NFT Integration: Player-owned digital assets in games",
+      "Developer Tools: SDK and tools for building on Futureverse",
+      "Cross-Game Assets: Digital items that work across different games",
+      "Developer Access: Build on Futureverse infrastructure"
+    ],
+    howToUse: {
+      title: "How to Use Futureverse",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Explore the Platform", description: "Visit futureverse.com to understand the technology platform and the gaming experiences built on it." },
+        { title: "Build on Futureverse", description: "Developers access the Futureverse SDK and tools to build games and experiences that use the open metaverse infrastructure." },
+        { title: "Play and Own", description: "Players engage with Futureverse-powered games and own their digital assets through blockchain verification." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Open Metaverse Vision", description: "Closed metaverse platforms that trap users and their assets in single company ecosystems are inferior to open infrastructure where assets and identity travel across experiences" },
+      { title: "AI-Generated Scale", description: "Creating the vast content of persistent virtual worlds requires AI generation that can produce game content at a scale impossible through manual creation alone" },
+      { title: "True Digital Ownership", description: "Players who own their digital assets through blockchain verification can sell, trade, and use them in ways that platform-controlled items prohibit" },
+      { title: "Developer Opportunity", description: "Open infrastructure that developers can build on creates a richer ecosystem of experiences than any single company can create internally" }
+    ],
+    useCases: [
+      { title: "Game Developers", description: "Studios building next-generation games use Futureverse infrastructure for AI content generation and blockchain ownership features" },
+      { title: "Metaverse Builders", description: "Developers creating virtual world experiences use Futureverse for the open metaverse infrastructure their projects require" },
+      { title: "Crypto Gaming Enthusiasts", description: "Players who value digital asset ownership participate in Futureverse-powered gaming experiences" }
+    ]
+  },
+  "cortex-labs": {
+    whatIs: "Cortex Labs is an AI and machine learning infrastructure company that provides tools and platforms for deploying, scaling, and managing machine learning models in production. It helps ML engineering teams move models from development to production more reliably and efficiently through automated deployment infrastructure, model monitoring, and serving optimization. For organizations that build and deploy machine learning models, Cortex Labs provides the MLOps infrastructure that makes production ML more manageable.",
+    features: [
+      "Model Deployment: Automated deployment of ML models to production",
+      "Auto-Scaling: Automatic scaling of model serving based on demand",
+      "Model Monitoring: Track model performance and data drift in production",
+      "Multiple Frameworks: Supports TensorFlow, PyTorch, and other ML frameworks",
+      "Kubernetes Native: Built on Kubernetes for cloud-native deployment",
+      "Cost Optimization: Efficient resource use for model serving",
+      "API Generation: Automatic REST APIs for deployed models",
+      "Open Source: Core platform available as open source"
+    ],
+    howToUse: {
+      title: "How to Use Cortex Labs",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Deploy Your Model", description: "Access Cortex Labs and configure your model deployment. Define your serving requirements and resource allocation for your production model." },
+        { title: "Configure Scaling", description: "Set up auto-scaling rules that match your traffic patterns. Models scale up to handle demand peaks and down during quiet periods to control costs." },
+        { title: "Monitor Production", description: "Track model performance metrics and data drift in production. Receive alerts when model behavior changes in ways that might indicate degradation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Production Gap", description: "The gap between a working ML model in development and a reliable production deployment is where many ML projects fail. Purpose-built deployment infrastructure bridges this gap" },
+      { title: "Operational Efficiency", description: "Managing model serving infrastructure manually requires significant DevOps expertise and effort. Automated deployment and scaling reduces the operational burden on ML teams" },
+      { title: "Performance Monitoring", description: "Models that perform well in testing can degrade in production due to data drift and distribution shifts. Continuous monitoring catches these issues before they significantly impact users" },
+      { title: "Cost Control", description: "Model serving infrastructure that scales automatically prevents both the cost of over-provisioning and the performance issues of under-provisioning" }
+    ],
+    useCases: [
+      { title: "ML Engineering Teams", description: "Machine learning engineers use Cortex Labs for reliable, efficient production deployment of their models" },
+      { title: "Data Science Teams Deploying Models", description: "Data scientists who need to deploy their work to production use Cortex Labs for the engineering infrastructure their models require" },
+      { title: "AI-First Companies", description: "Organizations building AI-powered products use Cortex Labs for the model serving infrastructure that keeps their AI features reliable and scalable" }
+    ]
+  },
   "naming-magic": {
     whatIs: "Naming Magic is an AI business name generator that creates creative, brandable names using GPT-4 to understand the nuance and context of your business description. It goes beyond keyword matching to generate names that capture the essence and personality of your brand. Users describe their business in natural language and Naming Magic generates names that feel thoughtfully crafted rather than algorithmically produced.",
     features: [
