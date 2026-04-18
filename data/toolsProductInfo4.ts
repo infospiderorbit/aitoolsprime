@@ -1,4 +1,268 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "offline-chat": {
+    whatIs: "Offline Chat is a private AI chat application that runs large language models entirely on your device without requiring an internet connection. All conversations remain local and are never sent to external servers, providing complete privacy for sensitive conversations. For users who want AI assistant capabilities without the privacy concerns of cloud-based AI services, Offline Chat provides powerful on-device AI that works anywhere.",
+    features: [
+      "Fully Offline: AI runs entirely on your device with no internet required",
+      "Complete Privacy: Conversations never leave your device",
+      "Multiple Models: Support for various open source language models",
+      "No Subscription: One-time or free access without ongoing fees",
+      "Works Anywhere: Use AI without internet connectivity",
+      "Secure Storage: Conversations stored locally and encrypted",
+      "Model Selection: Choose different models for different tasks",
+      "Free to Use: Basic offline AI without payment"
+    ],
+    howToUse: {
+      title: "How to Use Offline Chat",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Download and Install", description: "Download Offline Chat and install the AI model you want to use. The model downloads once and then runs locally without internet." },
+        { title: "Start Chatting", description: "Open the app and begin your conversation. Everything runs locally with no data leaving your device." },
+        { title: "Explore Your Models", description: "Try different available models for different tasks. Some models excel at coding while others are better for creative writing or analysis." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Privacy Guarantee", description: "Cloud AI services receive all your conversations and may use them for training. Fully local AI provides a genuine privacy guarantee that cloud services cannot match" },
+      { title: "Offline Availability", description: "AI that works without internet is available in environments where connectivity is unreliable or restricted" },
+      { title: "Cost Control", description: "Subscription-free AI that runs locally eliminates ongoing API costs for users who want AI assistance regularly" },
+      { title: "Sensitive Use Cases", description: "Conversations involving confidential business information, personal health details, or other sensitive content are appropriate for local AI where cloud services are not" }
+    ],
+    useCases: [
+      { title: "Privacy-Conscious Professionals", description: "People who handle sensitive information use Offline Chat for AI assistance that keeps confidential content local" },
+      { title: "Users in Low-Connectivity Environments", description: "People who work in areas with unreliable internet use offline AI for consistent assistant access" },
+      { title: "Cost-Conscious AI Users", description: "People who want AI assistance without ongoing subscription costs use offline models for everyday AI tasks" }
+    ]
+  },
+  "google-gemini": {
+    whatIs: "Google Gemini is Google most capable AI model family, available through Google products including Google Search, Google Workspace, and the Gemini app. Gemini models are natively multimodal, understanding and generating text, images, audio, and video. The Gemini app provides a conversational AI assistant for everyday tasks while Gemini in Google Workspace brings AI assistance to Gmail, Docs, Sheets, and other Google productivity tools. For individuals and organizations that use Google products, Gemini provides integrated AI assistance across the entire Google ecosystem.",
+    features: [
+      "Multimodal Understanding: Process text, images, audio, and video",
+      "Google Workspace Integration: AI in Gmail, Docs, Sheets, and more",
+      "Gemini App: Standalone conversational AI assistant",
+      "Long Context: Process very long documents and conversations",
+      "Code Generation: Strong programming assistance capabilities",
+      "Research Assistance: Help with research and information synthesis",
+      "Creative Writing: Support for creative content creation",
+      "Free Access: Gemini available without payment in many Google products"
+    ],
+    howToUse: {
+      title: "How to Use Google Gemini",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Through Google", description: "Access Gemini through gemini.google.com or through Google Workspace if your organization has it enabled." },
+        { title: "Use in Your Workflow", description: "Integrate Gemini into your daily workflow through Gmail for email drafting, Docs for writing assistance, or the Gemini app for general questions." },
+        { title: "Explore Multimodal Capabilities", description: "Try Gemini with images, documents, and other content types to explore its full range of capabilities beyond text conversation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Ecosystem Integration", description: "AI built into the tools you already use is more practically valuable than a separate AI tool that requires context switching" },
+      { title: "Multimodal Capability", description: "Native understanding of images, audio, and video enables more versatile assistance than text-only AI models" },
+      { title: "Google Knowledge Integration", description: "Gemini with Google Search integration provides AI responses grounded in current web information" },
+      { title: "Workplace Productivity", description: "AI integrated into email, documents, and spreadsheets reduces the friction of using AI for work tasks" }
+    ],
+    useCases: [
+      { title: "Google Workspace Users", description: "Organizations using Google Workspace use Gemini for AI-assisted productivity across their entire workflow" },
+      { title: "Individual Google Product Users", description: "People who use Gmail and Google Docs benefit from Gemini AI assistance built directly into these tools" },
+      { title: "Developers Building with Google AI", description: "Developers access Gemini through the API for building AI-powered applications" }
+    ]
+  },
+  "poe": {
+    whatIs: "Poe is an AI chat platform from Quora that provides access to multiple AI models including Claude, GPT-4, Gemini, and others through a single interface. Users can chat with different AI models, compare their responses, create custom AI bots, and share them with others. For users who want to explore different AI models without subscribing to each separately, Poe provides a convenient multi-model access point.",
+    features: [
+      "Multi-Model Access: Chat with Claude, GPT-4, Gemini, and others",
+      "Model Comparison: Try the same question with different AI models",
+      "Custom Bots: Create personalized AI bots with custom instructions",
+      "Bot Sharing: Share created bots with the Poe community",
+      "Creator Monetization: Earn from bots you create",
+      "Mobile App: Full AI access on iOS and Android",
+      "Daily Free Messages: Free daily messages for each model",
+      "Subscription: Unlimited access with a paid subscription"
+    ],
+    howToUse: {
+      title: "How to Use Poe",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Model", description: "Sign up at poe.com and browse the available AI models. Select the model that seems most appropriate for your current task." },
+        { title: "Chat and Compare", description: "Start a conversation with your chosen model. Try the same question with different models to compare their approaches and capabilities." },
+        { title: "Create Custom Bots", description: "Build custom AI bots with specific instructions and personalities for recurring use cases. Share your useful bots with the Poe community." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Model Access Consolidation", description: "Subscribing to Claude, ChatGPT, and Gemini separately is expensive. A single platform that provides access to multiple models is more economical" },
+      { title: "Model Comparison Value", description: "Understanding which AI model is best for specific tasks requires trying them on the same questions. Easy comparison on one platform builds this understanding" },
+      { title: "Custom Bot Value", description: "Creating bots with specific instructions for recurring tasks produces better results than giving the same context repeatedly to a general AI" },
+      { title: "Community Discovery", description: "Community-created bots for specific use cases surface AI applications that individual users might not think to create themselves" }
+    ],
+    useCases: [
+      { title: "AI Enthusiasts Exploring Models", description: "People curious about different AI capabilities use Poe for convenient multi-model access and comparison" },
+      { title: "Power Users Wanting Model Choice", description: "Users who want to select the best model for each task use Poe for flexible access across leading AI models" },
+      { title: "Bot Creators", description: "People who build specialized AI tools use Poe for creating and sharing custom AI bots" }
+    ]
+  },
+  "hugging-face": {
+    whatIs: "Hugging Face is the leading platform for open source AI models, datasets, and machine learning tools. It hosts hundreds of thousands of AI models that developers and researchers can download, use, and fine-tune for their specific applications. The Hugging Face Hub provides the infrastructure for the AI community to share and collaborate on models, while their Transformers library makes state-of-the-art AI accessible through Python code. For AI developers and researchers who want access to open source AI models and collaborative ML infrastructure, Hugging Face is the essential platform.",
+    features: [
+      "Model Hub: Hundreds of thousands of open source AI models",
+      "Dataset Repository: Curated datasets for AI training and evaluation",
+      "Transformers Library: Python library for using state-of-the-art AI models",
+      "Spaces: Deploy and share AI demos and applications",
+      "Inference API: Use models through API without local setup",
+      "Fine-Tuning: Tools for adapting models to specific use cases",
+      "Collaboration: Team features for ML project collaboration",
+      "Free Tier: Substantial free access to models and compute"
+    ],
+    howToUse: {
+      title: "How to Use Hugging Face",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Hub", description: "Go to huggingface.co and browse the model hub for models relevant to your use case. Filter by task, language, and other criteria." },
+        { title: "Use Models in Your Code", description: "Install the Transformers library and load models directly in your Python code. The library standardizes model usage across different architectures." },
+        { title: "Share Your Work", description: "Upload your own models and datasets to the Hub. Create Spaces to demonstrate your AI applications to the community." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Open Source AI Access", description: "Commercial AI model APIs have usage costs and restrictions. Open source models on Hugging Face can be downloaded and used without ongoing API costs" },
+      { title: "Community Scale", description: "The collective intelligence of hundreds of thousands of researchers and developers sharing models produces breadth and quality no single organization can match" },
+      { title: "Research Infrastructure", description: "Standardized model sharing infrastructure that the research community has adopted makes AI research more reproducible and collaborative" },
+      { title: "Democratization", description: "Making state-of-the-art AI accessible to anyone with a Python environment has democratized AI development beyond well-resourced organizations" }
+    ],
+    useCases: [
+      { title: "AI Researchers", description: "Machine learning researchers use Hugging Face for model access, dataset sharing, and research collaboration" },
+      { title: "AI Application Developers", description: "Developers building AI-powered products use Hugging Face for open source model access and deployment" },
+      { title: "Data Scientists", description: "Data science professionals use Hugging Face for pre-trained models and datasets that accelerate their ML projects" }
+    ]
+  },
+  "venice-ai": {
+    whatIs: "Venice AI is a private AI platform that provides powerful AI assistant capabilities with a strong commitment to user privacy. It processes conversations without storing them on servers and does not use conversation data for model training. Venice offers access to capable open source models through a clean interface while maintaining the privacy standards that users who handle sensitive information require. For users who want capable AI assistance without sacrificing their conversational privacy, Venice AI provides the private alternative to mainstream AI services.",
+    features: [
+      "Privacy First: Conversations not stored or used for training",
+      "Capable Models: Access to powerful open source AI models",
+      "Uncensored Options: Less restricted model options for legitimate use cases",
+      "Image Generation: AI image creation alongside text capabilities",
+      "No Logging: Minimal data retention by design",
+      "Web Access: AI with ability to search current web information",
+      "Clean Interface: Simple focused chat interface",
+      "Free Plan: Basic private AI access without payment"
+    ],
+    howToUse: {
+      title: "How to Use Venice Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up at venice.ai and choose your preferred AI model. Venice offers different models with different capability and privacy tradeoffs." },
+        { title: "Chat Privately", description: "Start conversations knowing your exchanges are not being stored or used to train future models. Use Venice for sensitive professional or personal conversations." },
+        { title: "Generate Images", description: "Use the image generation features for creative visual content creation alongside your text conversations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Privacy Architecture", description: "Most AI services store conversation history and may use it for training. Venice design that avoids this storage provides a meaningfully different privacy posture" },
+      { title: "Sensitive Use Cases", description: "Legal, medical, financial, and personal conversations that users would not want stored benefit from a platform designed to not retain them" },
+      { title: "Open Source Models", description: "Access to capable open source models that are not filtered by content policies provides more versatile AI assistance for legitimate use cases" },
+      { title: "Trust Through Design", description: "Privacy that is built into the platform architecture rather than promised through policy provides stronger guarantees than policy-based privacy commitments" }
+    ],
+    useCases: [
+      { title: "Privacy-Conscious Professionals", description: "Lawyers, healthcare workers, and others handling sensitive information use Venice for AI assistance that respects confidentiality" },
+      { title: "Users Uncomfortable with Data Retention", description: "People concerned about AI services storing their conversations use Venice for a privacy-respecting alternative" },
+      { title: "Researchers and Writers", description: "People working on sensitive topics use Venice for AI assistance without concern about their research being retained" }
+    ]
+  },
+  "unsloth-ai": {
+    whatIs: "Unsloth AI is an open source library that dramatically speeds up the fine-tuning of large language models while reducing memory requirements. It makes training and fine-tuning LLMs significantly faster and cheaper by optimizing the underlying computation, enabling researchers and developers to fine-tune powerful models on consumer hardware that would otherwise require expensive cloud GPU instances. For AI developers who want to fine-tune language models efficiently without prohibitive compute costs, Unsloth provides the optimization that makes this practical.",
+    features: [
+      "Training Speed: 2-5x faster LLM fine-tuning than standard approaches",
+      "Memory Efficiency: Significantly reduced GPU memory requirements",
+      "Consumer Hardware: Fine-tune large models on consumer GPUs",
+      "Open Source: Free and open source library",
+      "Multiple Models: Works with Llama, Mistral, and other popular models",
+      "LoRA Training: Efficient parameter-efficient fine-tuning",
+      "Quantization: 4-bit quantization for further memory reduction",
+      "Integration: Works with standard Hugging Face training workflows"
+    ],
+    howToUse: {
+      title: "How to Use Unsloth Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Unsloth", description: "Install Unsloth via pip and set up your training environment. The library integrates with standard Python ML workflows." },
+        { title: "Load Your Model", description: "Use Unsloth to load the base model you want to fine-tune with automatic optimization applied." },
+        { title: "Train Efficiently", description: "Run your fine-tuning with Unsloth optimizations reducing your training time and GPU memory requirements significantly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cost Reduction", description: "Fine-tuning large language models on cloud GPU instances is expensive. Unsloth optimizations that reduce training time directly reduce compute costs" },
+      { title: "Accessibility", description: "Models that previously required A100 GPUs to fine-tune can be trained on consumer hardware with Unsloth memory optimizations" },
+      { title: "Iteration Speed", description: "Faster training that enables more experiments in the same time produces better fine-tuned models through more rapid iteration" },
+      { title: "Open Source Trust", description: "Open source optimization code that researchers can inspect and verify provides confidence that the optimizations are correctly implemented" }
+    ],
+    useCases: [
+      { title: "AI Researchers Fine-Tuning Models", description: "ML researchers use Unsloth for faster, cheaper fine-tuning experiments on large language models" },
+      { title: "AI Application Developers", description: "Developers fine-tuning models for specific applications use Unsloth to reduce the cost and time of creating specialized models" },
+      { title: "Students and Independent Researchers", description: "People without access to large GPU budgets use Unsloth to make LLM fine-tuning accessible on limited hardware" }
+    ]
+  },
+  "mimicpc": {
+    whatIs: "MimicPC is a cloud PC gaming service that allows users to play PC games through a web browser without requiring a gaming PC or console. It provides access to a virtual gaming PC in the cloud with games pre-installed, streaming gameplay to any device with a browser and internet connection. For gamers who want to play demanding PC games without expensive gaming hardware, MimicPC provides cloud gaming access through an accessible subscription service.",
+    features: [
+      "Cloud Gaming: Play PC games without local gaming hardware",
+      "Browser-Based: Access through any web browser",
+      "Pre-Installed Games: Games ready to play without downloads",
+      "Any Device: Play on laptops, tablets, and other non-gaming devices",
+      "Low Latency: Optimized streaming for responsive gameplay",
+      "Game Library: Access to various PC game titles",
+      "Flexible Sessions: Play when you want without long commitments",
+      "Free Trial: Try cloud gaming before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Mimicpc",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Through Browser", description: "Go to mimicpc.com and start a gaming session. No downloads or installations required on your local device." },
+        { title: "Choose Your Game", description: "Browse the available game library and select the title you want to play. The game launches in the cloud immediately." },
+        { title: "Play and Enjoy", description: "Play your chosen game through the browser stream. Use your mouse and keyboard or connect a controller for your preferred input method." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Hardware Cost Elimination", description: "Gaming PCs that run demanding titles cost thousands of dollars. Cloud gaming that streams these games eliminates this hardware investment" },
+      { title: "Device Flexibility", description: "Cloud gaming that works on any device with a browser enables gaming on laptops, tablets, and other devices not designed for gaming" },
+      { title: "Instant Access", description: "Games that are pre-installed in the cloud start immediately without the lengthy download and installation process of local gaming" },
+      { title: "Try Before You Buy", description: "Playing games through cloud access before purchasing them locally lets gamers evaluate whether a game is worth buying" }
+    ],
+    useCases: [
+      { title: "Non-Gaming PC Owners", description: "People who use regular laptops and computers use MimicPC for access to games their hardware cannot run" },
+      { title: "Casual Gamers", description: "People who game occasionally use cloud gaming to avoid the cost of dedicated gaming hardware for infrequent use" },
+      { title: "Travelers", description: "People traveling with only a laptop use MimicPC for gaming access without carrying a gaming PC" }
+    ]
+  },
+  "imyfone": {
+    whatIs: "iMyFone is a software company that provides a suite of iOS and Android utility tools for device management, data recovery, system repair, and privacy protection. Their products include tools for recovering deleted data, fixing iOS system issues, managing iPhone content, and protecting personal privacy by erasing data permanently. For iPhone and Android users who need reliable utilities for device management and data operations, iMyFone provides the specialized mobile device tools that standard operating systems do not include.",
+    features: [
+      "Data Recovery: Recover deleted photos, messages, and files from devices",
+      "iOS System Repair: Fix iPhone system issues without data loss",
+      "Data Erasure: Permanently delete data for privacy protection",
+      "iPhone Management: Manage iPhone content from computer",
+      "WhatsApp Transfer: Transfer and backup WhatsApp data",
+      "Screen Recording: Record iPhone screen for various purposes",
+      "Unlock Tools: Remove screen locks in specific circumstances",
+      "Free Trial: Try tools before purchasing full version"
+    ],
+    howToUse: {
+      title: "How to Use Imyfone",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Download Your Tool", description: "Visit imyfone.com and download the specific tool for your need - data recovery, system repair, or device management." },
+        { title: "Connect Your Device", description: "Connect your iPhone or Android device to your computer and follow the tool setup instructions." },
+        { title: "Complete Your Operation", description: "Use the tool interface to perform your data recovery, system repair, or management operation. Follow the guided process for best results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Specialized Mobile Utilities", description: "Standard mobile operating systems do not include tools for data recovery, system repair, or deep device management. Specialized third-party utilities fill this gap" },
+      { title: "Data Recovery Value", description: "Accidentally deleted photos and messages that are emotionally or practically important can often be recovered with specialized tools that standard backups cannot restore" },
+      { title: "Privacy Through Erasure", description: "Selling or giving away a device requires genuinely permanent data erasure that factory reset does not always achieve. Specialized erasure tools provide this security" },
+      { title: "System Repair Accessibility", description: "iOS system issues that would otherwise require an Apple Store visit can sometimes be resolved with software repair tools" }
+    ],
+    useCases: [
+      { title: "iPhone Users with Data Loss", description: "People who have accidentally deleted important photos or messages use iMyFone recovery tools to retrieve lost data" },
+      { title: "Privacy-Conscious Device Sellers", description: "People selling or donating their devices use iMyFone erasure tools to ensure personal data is truly unrecoverable" },
+      { title: "Technical iPhone Users", description: "Power users who want deeper control over their iPhone management use iMyFone tools for capabilities beyond standard iOS features" }
+    ]
+  },
   "pairrd": {
     whatIs: "Pairrd is an AI-powered dating and relationship app that uses advanced matching algorithms to connect people based on deeper compatibility factors beyond surface-level preferences. It analyzes personality traits, values, and relationship goals to suggest matches that are more likely to result in meaningful connections. For singles who are frustrated with superficial swiping-based dating apps, Pairrd provides a more intentional approach to finding compatible partners.",
     features: [
