@@ -1,4 +1,202 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "chad-ai": {
+    whatIs: "Chad AI is an AI chat assistant platform that provides conversational AI for everyday tasks, questions, and creative work. It offers a straightforward AI chat experience with capable language models for writing assistance, answering questions, brainstorming, and general productivity. For users who want a reliable AI assistant for daily tasks without complexity, Chad AI provides accessible conversational AI.",
+    features: [
+      "AI Chat: Conversational AI for everyday questions and tasks",
+      "Writing Assistance: Help with writing, editing, and content creation",
+      "Brainstorming: Generate ideas and explore creative directions",
+      "Question Answering: Get accurate answers to diverse questions",
+      "Task Assistance: Help with various daily productivity tasks",
+      "Simple Interface: Clean straightforward chat experience",
+      "Multiple Use Cases: Versatile AI for different task types",
+      "Free to Try: Basic AI chat without payment"
+    ],
+    howToUse: {
+      title: "How to Use Chad Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start a Conversation", description: "Sign up at chadai.com and begin chatting with the AI assistant about whatever you need help with." },
+        { title: "Use for Your Tasks", description: "Use Chad AI for writing assistance, answering questions, brainstorming ideas, or any other tasks where AI assistance helps." },
+        { title: "Explore Capabilities", description: "Try Chad AI for different types of tasks to understand where it provides the most value in your daily workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Everyday Accessibility", description: "AI that handles everyday tasks without complexity makes AI assistance practical for regular use rather than occasional complex queries" },
+      { title: "Writing Quality", description: "AI writing assistance that improves draft quality saves editing time and produces better final content" },
+      { title: "Versatility", description: "A single AI that handles diverse task types is more practical than separate specialized tools for each type of task" },
+      { title: "Productivity Impact", description: "AI assistance for routine tasks frees mental energy for the creative and strategic work that benefits most from human attention" }
+    ],
+    useCases: [
+      { title: "Knowledge Workers", description: "Professionals who write and research regularly use Chad AI for AI assistance that improves their daily productivity" },
+      { title: "Students", description: "Students use Chad AI for writing assistance, research help, and concept explanation" },
+      { title: "Content Creators", description: "Writers and creators use Chad AI for brainstorming and drafting assistance" }
+    ]
+  },
+  "globalgpt": {
+    whatIs: "GlobalGPT is an AI platform that provides access to leading AI models including ChatGPT, Claude, and Gemini through a single interface, with a focus on making these models accessible to users in regions where they might otherwise be restricted or difficult to access. It offers a consolidated AI access point with translation capabilities and multi-language support. For users who want reliable access to top AI models with strong multilingual support, GlobalGPT provides a globally accessible AI platform.",
+    features: [
+      "Multi-Model Access: Access ChatGPT, Claude, and Gemini in one place",
+      "Global Accessibility: Available in regions where AI access may be limited",
+      "Multi-Language Support: Strong support for many languages",
+      "Translation Integration: Built-in translation capabilities",
+      "Unified Interface: Single platform for multiple AI models",
+      "Mobile Friendly: Accessible on mobile devices",
+      "API Access: Developer API for integration",
+      "Free Tier: Basic AI access without payment"
+    ],
+    howToUse: {
+      title: "How to Use Globalgpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up at globalgpt.io and create your account to access the AI models available on the platform." },
+        { title: "Select Your Model", description: "Choose the AI model you want to use for your current task. Different models have different strengths for different types of work." },
+        { title: "Chat in Your Language", description: "Interact with AI in your preferred language. GlobalGPT handles translation and provides multilingual AI assistance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Access Consolidation", description: "Subscribing to multiple AI services separately is expensive and complex. A single platform providing access to multiple models simplifies this" },
+      { title: "Global Reach", description: "AI services that are restricted or difficult to access in certain regions leave many users without AI assistance. GlobalGPT addresses this accessibility gap" },
+      { title: "Language Inclusion", description: "AI platforms with strong multilingual support include users who prefer to work in languages other than English" },
+      { title: "Model Choice", description: "Different tasks benefit from different AI models. Access to multiple models enables choosing the best tool for each specific need" }
+    ],
+    useCases: [
+      { title: "Users in Regions with Limited AI Access", description: "People in countries where major AI services are restricted use GlobalGPT for accessible AI assistance" },
+      { title: "Multilingual Users", description: "People who prefer working in non-English languages use GlobalGPT for strong multilingual AI support" },
+      { title: "Users Wanting Multi-Model Access", description: "People who want to use different AI models for different tasks use GlobalGPT for consolidated access" }
+    ]
+  },
+  "easy-with-ai": {
+    whatIs: "Easy With AI is an AI tools directory and educational platform that helps people discover, learn about, and use AI tools effectively. It curates AI tools across different categories with accessible explanations, tutorials, and use case guidance that helps non-technical users understand how to get value from AI. For people who are curious about AI but find the landscape overwhelming, Easy With AI provides the guidance that makes AI tool adoption approachable.",
+    features: [
+      "AI Tool Directory: Curated collection of AI tools across categories",
+      "Educational Content: Accessible explanations of AI tools and concepts",
+      "Tutorials: Step-by-step guides for using AI tools effectively",
+      "Use Case Guidance: Practical examples of how AI tools help real tasks",
+      "Beginner Friendly: Content designed for non-technical audiences",
+      "Tool Comparisons: Compare similar tools to find the best fit",
+      "Regular Updates: New tools and content added regularly",
+      "Free Access: Browse and learn without payment"
+    ],
+    howToUse: {
+      title: "How to Use Easy With Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Directory", description: "Visit easywith.ai and browse AI tools by category or search for tools relevant to your specific needs." },
+        { title: "Read the Guides", description: "Access tutorials and use case guides for tools you are interested in. The educational content helps you understand how to get value from each tool." },
+        { title: "Try Your Tools", description: "Use the guidance to start using the AI tools you have discovered. The practical tutorials make getting started less intimidating." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Discovery Navigation", description: "The AI tool landscape has thousands of options that are overwhelming to navigate. Curated directories that organize and explain tools help people find what they actually need" },
+      { title: "Non-Technical Accessibility", description: "Most AI tool documentation assumes technical knowledge. Educational content written for non-technical audiences makes AI adoption possible for a much broader audience" },
+      { title: "Use Case Clarity", description: "Understanding what a tool is good for before trying it saves time and prevents disappointment from using tools for the wrong purposes" },
+      { title: "Adoption Confidence", description: "People who understand what AI tools do and how to use them before trying them have more successful adoption experiences" }
+    ],
+    useCases: [
+      { title: "AI Curious Non-Technical Users", description: "People interested in AI but not sure where to start use Easy With AI for guided discovery and education" },
+      { title: "Small Business Owners Exploring AI", description: "Business owners considering AI adoption use Easy With AI to understand what tools exist and how they could help their specific business" },
+      { title: "Educators and Trainers", description: "People teaching others about AI use Easy With AI for curated tool examples and accessible educational content" }
+    ]
+  },
+  "characterhub": {
+    whatIs: "CharacterHub is a community platform for sharing, discovering, and downloading AI character cards and personas for use in AI roleplay and creative writing applications. It hosts a large library of community-created character definitions that users can import into AI chat applications for roleplay, collaborative storytelling, and creative exploration. For AI roleplay enthusiasts who want diverse characters and personas for their AI conversations, CharacterHub provides the community-built character library.",
+    features: [
+      "Character Library: Thousands of community-created AI character cards",
+      "Character Sharing: Upload and share your own character creations",
+      "Import Ready: Characters formatted for popular AI apps",
+      "Category Browse: Find characters by genre, type, and theme",
+      "Creator Profiles: Follow creators whose characters you enjoy",
+      "Rating System: Community ratings help find quality characters",
+      "Search and Filter: Find characters matching specific criteria",
+      "Free Access: Browse and download characters without payment"
+    ],
+    howToUse: {
+      title: "How to Use Characterhub",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Library", description: "Go to characterhub.org and browse the character library. Search by character type, genre, or theme to find characters that interest you." },
+        { title: "Download Your Character", description: "Download the character card for your chosen character. The format is compatible with popular AI roleplay applications." },
+        { title: "Import and Roleplay", description: "Import the character card into your AI application. The character definition shapes how the AI portrays the character in your conversations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Community Creativity", description: "Community-created characters represent diverse creative visions that no single developer could produce. The collective creativity of thousands of creators produces enormous variety" },
+      { title: "Import Convenience", description: "Standardized character card formats that work across multiple AI applications make characters portable and easy to use" },
+      { title: "Quality Discovery", description: "Community ratings and popularity signals help users find high-quality character definitions among the many available options" },
+      { title: "Creative Expansion", description: "Access to thousands of diverse characters expands the creative possibilities of AI roleplay beyond what any individual could create" }
+    ],
+    useCases: [
+      { title: "AI Roleplay Enthusiasts", description: "People who use AI for creative roleplay use CharacterHub for diverse character options beyond default AI personas" },
+      { title: "Creative Writers", description: "Writers use AI characters for collaborative storytelling and creative writing exploration" },
+      { title: "AI Application Users", description: "People using AI chat applications for entertainment use CharacterHub to find interesting characters for their conversations" }
+    ]
+  },
+  "angular-dev": {
+    whatIs: "Angular is Google open source web application framework for building dynamic single-page applications. Angular.dev is the official documentation and learning platform that provides comprehensive guides, API references, tutorials, and interactive examples for developers building with Angular. For web developers learning Angular or experienced developers seeking reference documentation, angular.dev provides the authoritative resource for Angular development.",
+    features: [
+      "Comprehensive Documentation: Complete Angular framework documentation",
+      "Interactive Tutorials: Learn Angular through hands-on exercises",
+      "API Reference: Detailed reference for all Angular APIs and features",
+      "Getting Started Guides: Step-by-step introduction for new developers",
+      "Component Library: Documentation for Angular component architecture",
+      "TypeScript Integration: Guidance on Angular TypeScript patterns",
+      "Performance Guides: Best practices for Angular application performance",
+      "Free Access: All documentation available without payment"
+    ],
+    howToUse: {
+      title: "How to Use Angular Dev",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start the Tutorial", description: "Go to angular.dev and begin with the getting started tutorial. The interactive tutorial teaches Angular fundamentals through hands-on exercises." },
+        { title: "Follow Learning Path", description: "Progress through the structured learning content from basics to advanced topics. The documentation is organized for progressive skill development." },
+        { title: "Reference During Development", description: "Use the API reference and guides during active development to find specific Angular features and patterns for your application." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Authoritative Source", description: "Official framework documentation from the framework creators is the most accurate and current reference for Angular development" },
+      { title: "Interactive Learning", description: "Hands-on tutorials that let developers practice in the browser are more effective for learning than passive reading alone" },
+      { title: "Comprehensive Coverage", description: "Documentation that covers everything from beginner concepts to advanced optimization gives developers resources at every skill level" },
+      { title: "TypeScript Guidance", description: "Angular strong TypeScript integration requires guidance specific to the framework patterns. Official documentation covers these patterns accurately" }
+    ],
+    useCases: [
+      { title: "Angular Developers", description: "Web developers building Angular applications use angular.dev as their primary reference and learning resource" },
+      { title: "Web Development Students", description: "People learning web development use angular.dev for structured Angular learning" },
+      { title: "Frontend Engineering Teams", description: "Development teams building Angular applications use the documentation for team reference and onboarding new developers" }
+    ]
+  },
+  "periodic-table-2024": {
+    whatIs: "Periodic Table Chemistry 2024 is an AI-enhanced interactive periodic table application that provides comprehensive chemistry information, element properties, and educational content. It goes beyond static periodic table displays to provide AI-powered explanations of chemistry concepts, element relationships, and chemical reactions. For students, educators, and chemistry enthusiasts who want an interactive and intelligent chemistry reference, Periodic Table 2024 provides an AI-enhanced educational chemistry tool.",
+    features: [
+      "Interactive Periodic Table: Full interactive element exploration",
+      "AI Chemistry Assistant: Ask questions and get chemistry explanations",
+      "Element Properties: Comprehensive data for all elements",
+      "Chemical Reactions: Information on reactions and compounds",
+      "Educational Content: Explanations suitable for different learning levels",
+      "3D Visualizations: Visual representations of atomic structures",
+      "Quiz Features: Test your chemistry knowledge",
+      "Free Access: Basic periodic table access without payment"
+    ],
+    howToUse: {
+      title: "How to Use Periodic Table 2024",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Explore the Table", description: "Open Periodic Table 2024 and begin exploring elements by clicking on them. Each element reveals comprehensive property data and information." },
+        { title: "Ask Chemistry Questions", description: "Use the AI assistant to ask chemistry questions. Get explanations of reactions, properties, and concepts at the level appropriate for your understanding." },
+        { title: "Study and Quiz", description: "Use the educational content and quiz features to study chemistry concepts and test your knowledge." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI-Enhanced Learning", description: "Static periodic tables present data without explanation. AI that can answer chemistry questions and explain concepts transforms a reference into a learning tool" },
+      { title: "Comprehensive Data", description: "Having all element properties, reactions, and compounds in one place is more efficient than consulting multiple reference sources" },
+      { title: "Interactive Engagement", description: "Interactive exploration of the periodic table is more engaging and memorable than reading chemistry textbooks" },
+      { title: "Accessible Explanation", description: "AI that can explain chemistry concepts at different levels of complexity serves students from middle school through university" }
+    ],
+    useCases: [
+      { title: "Chemistry Students", description: "Students studying chemistry use Periodic Table 2024 for both reference and learning support" },
+      { title: "Chemistry Teachers", description: "Educators use interactive periodic table tools for classroom demonstrations and student engagement" },
+      { title: "Chemistry Enthusiasts", description: "People with general interest in chemistry use the app for accessible exploration of elements and chemical concepts" }
+    ]
+  },
   "skingenerator-io": {
     whatIs: "SkinGenerator.io is an AI-powered Minecraft skin generator that creates custom player skins from text descriptions or design preferences. Users describe the character they want and the AI generates a complete Minecraft-compatible skin ready for download and use. For Minecraft players who want a unique custom skin that reflects their personal style or character concept without needing pixel art skills, SkinGenerator.io provides accessible AI skin creation.",
     features: [
