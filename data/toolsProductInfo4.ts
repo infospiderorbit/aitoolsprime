@@ -1,4 +1,268 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "roomgpt": {
+    whatIs: "RoomGPT is an AI room redesign tool that transforms photos of existing rooms into stunning redesigned versions using different interior design styles. Users upload a photo of their current room and select a design style and RoomGPT generates multiple photorealistic versions showing how the room would look with a complete redesign. For homeowners who want design inspiration and visualization without hiring an interior designer, RoomGPT provides instant AI-powered room transformation images.",
+    features: [
+      "Room Transformation: Transform photos of existing rooms into redesigned versions",
+      "Multiple Styles: Modern, minimalist, bohemian, Scandinavian, and many other styles",
+      "Instant Results: Redesigned room images generated in seconds",
+      "Multiple Variations: Generate several different versions of the same room",
+      "Photo Upload: Works with smartphone photos of your actual rooms",
+      "Style Exploration: Try many different design directions quickly",
+      "Inspiration Generation: Discover design possibilities you had not considered",
+      "Free Credits: Try room redesign before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Roomgpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Photograph Your Room", description: "Take a clear photo of the room you want to redesign. Good lighting and a wide angle that captures the full room produce the best results." },
+        { title: "Select Your Style", description: "Upload your photo to roomgpt.io and select the design style you want to explore. Try multiple styles to see which direction resonates most." },
+        { title: "Use for Inspiration", description: "Review the generated redesign images for design inspiration. Use the visualizations to guide your actual renovation or decoration decisions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Instant Design Inspiration", description: "Imagining how a room could look with a complete style overhaul is difficult without visual reference. AI transformation images that show the actual room redesigned provide concrete inspiration" },
+      { title: "Style Discovery", description: "Many homeowners know they want change but are not sure which design style suits them. Seeing their actual room in different styles makes this choice clearer and more personal" },
+      { title: "Decision Confidence", description: "Committing to a major room redesign is easier when you have seen a realistic visualization of the intended direction rather than relying on imagination alone" },
+      { title: "Cost-Free Exploration", description: "Trying different design directions virtually costs nothing. Physical redesigns that do not work out are expensive and time-consuming to reverse" }
+    ],
+    useCases: [
+      { title: "Homeowners Considering Room Redesigns", description: "People thinking about updating their home decor use RoomGPT for design direction visualization before spending money" },
+      { title: "Interior Design Enthusiasts", description: "People who enjoy home design use RoomGPT for creative exploration of different aesthetic directions for their spaces" },
+      { title: "Real Estate Sellers", description: "Sellers use RoomGPT to visualize staging and redesign improvements that could improve sale price" }
+    ]
+  },
+  "foyr-neo": {
+    whatIs: "Foyr Neo is a professional cloud-based interior design software that provides 3D design, photorealistic rendering, and floor plan tools for interior designers and architects. It combines the capabilities of multiple design tools in one cloud platform, making professional-quality design work accessible without expensive software installations. For interior design professionals who need powerful visualization and design tools with the flexibility of cloud access, Foyr Neo provides a comprehensive professional design platform.",
+    features: [
+      "3D Interior Design: Professional 3D space design and modeling",
+      "Photorealistic Rendering: High-quality render output for client presentations",
+      "Floor Plan Tools: Accurate 2D floor plan creation",
+      "Material Library: Extensive materials, textures, and furniture catalog",
+      "Cloud-Based: Access your projects from any device with a browser",
+      "Real-Time Rendering: See design changes instantly in 3D",
+      "Team Collaboration: Share projects with clients and team members",
+      "Free Trial: Try Foyr Neo before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Foyr Neo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Floor Plan", description: "Sign up at foyr.com and start a new project. Draw your floor plan accurately using the 2D design tools." },
+        { title: "Design in 3D", description: "Switch to 3D view to furnish and decorate your space. Apply materials, add furniture, and adjust lighting to create your design vision." },
+        { title: "Render for Clients", description: "Generate photorealistic renders of your design for client presentations. The high-quality output communicates your design intent with professional clarity." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cloud Flexibility", description: "Traditional design software requires powerful local computers and is inaccessible remotely. Cloud-based design that works on any device with internet access gives designers true flexibility" },
+      { title: "All-in-One Platform", description: "Using separate tools for floor plans, 3D modeling, and rendering creates workflow friction. A unified platform that handles all these tasks improves design workflow efficiency" },
+      { title: "Render Quality for Business", description: "Client presentations with photorealistic renders that show exactly how a space will look close more design contracts than sketches and mood boards alone" },
+      { title: "Learning Curve Accessibility", description: "Professional 3D design software like AutoCAD and 3ds Max have steep learning curves. More accessible cloud platforms with similar capabilities democratize professional design tools" }
+    ],
+    useCases: [
+      { title: "Interior Designers", description: "Design professionals use Foyr Neo for client project design and presentation work" },
+      { title: "Architecture Students", description: "Design students use Foyr Neo for professional-quality visualization work on academic projects" },
+      { title: "Real Estate Developers", description: "Property developers use Foyr Neo for unit visualization and marketing material creation" }
+    ]
+  },
+  "homevisualizer-ai": {
+    whatIs: "HomeVisualizer.AI is an AI home exterior and interior visualization platform that shows homeowners how different renovation changes would look on their actual property. Users upload photos of their home and the AI renders realistic visualizations of paint colors, siding, roofing, windows, and other exterior or interior changes. For homeowners planning renovation projects, HomeVisualizer.AI provides the before-and-after visualization that makes renovation decisions more confident.",
+    features: [
+      "Exterior Visualization: See how paint colors and materials look on your actual home",
+      "Interior Visualization: Preview interior design changes in your real spaces",
+      "Paint Color Preview: Try hundreds of paint colors on your home photo",
+      "Roofing and Siding: Visualize different roofing and siding material options",
+      "Window Styles: Preview different window configurations",
+      "Realistic Rendering: Photorealistic visualization of changes",
+      "Multiple Options: Compare different choices side by side",
+      "Free to Try: Basic visualization without payment"
+    ],
+    howToUse: {
+      title: "How to Use Homevisualizer Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Home Photo", description: "Sign up at homevisualizer.ai and upload a clear photo of the exterior or interior space you want to visualize changes for." },
+        { title: "Select Your Changes", description: "Choose the type of change you want to visualize - paint color, siding material, roofing, or interior decor. Select from the available options." },
+        { title: "Compare and Decide", description: "Review the realistic visualization of your chosen changes. Try multiple options and compare them side by side to make confident renovation decisions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Color Decision Confidence", description: "Choosing exterior paint colors from small swatches is notoriously unreliable. Visualization on the actual home in realistic lighting eliminates color regret" },
+      { title: "Material Selection", description: "Choosing between siding, roofing, and window materials from samples requires imagination. Visualization on the actual property makes these choices much more concrete" },
+      { title: "Contractor Communication", description: "Homeowners who can show contractors visualizations of their desired outcome communicate project scope more clearly and get more accurate quotes" },
+      { title: "Renovation ROI Assessment", description: "Seeing how different improvements would look helps homeowners prioritize renovation investments by visual impact" }
+    ],
+    useCases: [
+      { title: "Homeowners Planning Exterior Renovations", description: "People considering paint, siding, or roofing changes use HomeVisualizer.AI for before-and-after visualization before committing to renovation costs" },
+      { title: "Real Estate Sellers", description: "Sellers use the tool to identify exterior improvements that would maximize curb appeal before listing" },
+      { title: "Renovation Contractors", description: "Contractors use HomeVisualizer.AI for client proposal visualization that communicates project possibilities clearly" }
+    ]
+  },
+  "mnml-ai": {
+    whatIs: "mnml.ai is an AI interior design tool that generates minimalist design concepts for rooms and spaces. It specializes in the minimalist design aesthetic - clean lines, neutral palettes, functional furniture, and uncluttered spaces - providing AI-generated design concepts that embody these principles. For people drawn to minimalist living who want design guidance for creating calmer, more intentional spaces, mnml.ai provides AI-powered minimalist design inspiration.",
+    features: [
+      "Minimalist Design: AI concepts focused on minimalist aesthetic principles",
+      "Room Visualization: See how minimalist design transforms your spaces",
+      "Style Consistency: Designs that maintain true minimalist principles",
+      "Furniture Suggestions: Functional minimal furniture recommendations",
+      "Color Palettes: Neutral and intentional color scheme guidance",
+      "Declutter Guidance: Advice on space editing for minimalist living",
+      "Multiple Rooms: Design concepts for any room type",
+      "Free to Try: Basic design generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Mnml Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Space", description: "Sign up at mnml.ai and describe the room you want to redesign with a minimalist approach. Include current pain points and what you want the space to feel like." },
+        { title: "Review Minimalist Concepts", description: "The AI generates minimalist design concepts for your space. Review how the principles of simplicity and intentionality would transform your room." },
+        { title: "Implement Gradually", description: "Use the generated concepts as a guide for gradually editing your space toward the minimalist ideal. Start with removing rather than adding." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Aesthetic Clarity", description: "Many people are drawn to minimalism but not sure how to achieve it in their actual space. AI guidance specific to minimalist principles provides concrete direction" },
+      { title: "Philosophy Alignment", description: "Minimalism is both an aesthetic and a lifestyle philosophy. Design guidance that understands both dimensions produces more aligned results than generic declutter advice" },
+      { title: "Intentional Living Support", description: "The minimalist design aesthetic supports the intentional living philosophy that many people find reduces stress and increases focus" },
+      { title: "Transformation Visualization", description: "Seeing a visualization of your actual space transformed through minimalist principles shows what is possible and motivates the decluttering process" }
+    ],
+    useCases: [
+      { title: "Minimalism Enthusiasts", description: "People committed to minimalist living use mnml.ai for design guidance that aligns with their philosophy" },
+      { title: "People Feeling Overwhelmed by Clutter", description: "Homeowners who feel their spaces are chaotic use mnml.ai for clear direction on creating calmer environments" },
+      { title: "Small Space Dwellers", description: "People in small apartments use mnml.ai for maximizing the feeling of space through minimalist design principles" }
+    ]
+  },
+  "kitchengpt": {
+    whatIs: "KitchenGPT is an AI kitchen design tool that generates kitchen redesign concepts from photos and preferences. It creates realistic visualizations of kitchen transformations including cabinet styles, countertop materials, backsplash options, and appliance placement. Kitchen renovations are among the most impactful and expensive home improvements, and KitchenGPT provides design visualization that helps homeowners make better decisions before committing to major kitchen renovation costs.",
+    features: [
+      "Kitchen Transformation: AI visualization of kitchen redesign concepts",
+      "Cabinet Style Options: Different cabinet door styles and configurations",
+      "Countertop Materials: Visualize granite, quartz, marble, and other options",
+      "Backsplash Design: Preview different backsplash tile and material options",
+      "Appliance Placement: Optimize kitchen workflow and appliance layout",
+      "Color Scheme: Coordinate cabinet, countertop, and wall colors",
+      "Layout Options: Different kitchen layout configurations",
+      "Free to Try: Basic kitchen design without payment"
+    ],
+    howToUse: {
+      title: "How to Use Kitchengpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Kitchen Photo", description: "Sign up at kitchengpt.io and upload a clear photo of your current kitchen. Capture the full kitchen space for the most comprehensive redesign." },
+        { title: "Specify Your Preferences", description: "Describe your style preferences, budget range, and any specific features you want in your redesigned kitchen." },
+        { title: "Review Kitchen Concepts", description: "KitchenGPT generates realistic visualizations of your redesigned kitchen. Review different cabinet, countertop, and layout options to find your ideal direction." }
+      ]
+    },
+    coreFeatures: [
+      { title: "High Stakes Decision Support", description: "Kitchen renovations typically cost tens of thousands of dollars. Visualization that shows the result before committing to contractors prevents expensive design mistakes" },
+      { title: "Material Comparison", description: "Choosing between countertop and cabinet materials from samples without seeing them in context produces disappointing results. Visualization in the actual kitchen environment is more reliable" },
+      { title: "Layout Optimization", description: "Kitchen workflow depends heavily on layout. Visualizing different configurations before demolition helps identify the best functional arrangement" },
+      { title: "Contractor Communication", description: "Design visualizations that show exactly what a homeowner wants produce more accurate contractor quotes than vague verbal descriptions" }
+    ],
+    useCases: [
+      { title: "Homeowners Planning Kitchen Renovations", description: "People considering kitchen updates use KitchenGPT for design visualization before engaging contractors" },
+      { title: "Kitchen Designers", description: "Design professionals use AI visualization tools for faster client concept presentation" },
+      { title: "Home Improvement Enthusiasts", description: "People who enjoy home improvement use KitchenGPT for design exploration and inspiration" }
+    ]
+  },
+  "myarchitectai": {
+    whatIs: "MyArchitectAI is an AI architectural design assistant that helps homeowners and architects generate building design concepts, floor plans, and exterior visualizations. It uses AI to create architectural concepts from descriptions and requirements, accelerating the early design exploration phase of architectural projects. For homeowners who want to explore what a new home or addition could look like and for architects who want AI assistance in the conceptual design phase, MyArchitectAI provides accessible architectural design generation.",
+    features: [
+      "Architectural Concept Generation: AI-created building design concepts",
+      "Floor Plan Creation: Basic floor plan layouts from requirements",
+      "Exterior Visualization: 3D exterior views of architectural concepts",
+      "Style Variety: Different architectural styles from modern to traditional",
+      "Space Planning: Room layout and relationship planning",
+      "Addition Design: Concepts for home additions and extensions",
+      "Design Iteration: Quickly explore multiple design directions",
+      "Free to Try: Basic design generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Myarchitectai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Project", description: "Sign up at myarchitectai.com and describe your architectural project - the type of building, required spaces, style preferences, and any specific requirements." },
+        { title: "Review Generated Concepts", description: "MyArchitectAI generates architectural concepts that interpret your requirements. Review the floor plans and exterior visualizations for initial direction." },
+        { title: "Iterate and Refine", description: "Explore multiple design directions by adjusting your requirements and preferences. Use the generated concepts as starting points for discussions with professional architects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conceptual Exploration Speed", description: "Early design exploration that helps clients understand possibilities is valuable but time-consuming for architects to produce manually. AI generation that creates multiple concepts quickly accelerates this phase" },
+      { title: "Client Communication", description: "Homeowners who can see architectural concepts early in the process have more productive conversations with architects about what they actually want" },
+      { title: "Accessibility of Design", description: "Professional architectural design services are expensive. AI that makes architectural concept visualization accessible helps homeowners explore possibilities before engaging expensive professional services" },
+      { title: "Iteration Without Cost", description: "Exploring many different architectural directions with a professional architect is expensive. AI generation that allows free exploration before professional engagement makes this more efficient" }
+    ],
+    useCases: [
+      { title: "Homeowners Planning New Builds or Additions", description: "People considering home construction or major additions use MyArchitectAI for concept visualization before engaging architects" },
+      { title: "Architects in Early Design Phase", description: "Design professionals use AI for rapid concept generation during the exploration phase of architectural projects" },
+      { title: "Real Estate Developers", description: "Developers use MyArchitectAI for initial concept visualization on development sites before detailed design work begins" }
+    ]
+  },
+  "spacely-ai": {
+    whatIs: "Spacely AI is an AI interior design platform that generates complete interior design concepts for rooms and spaces from style preferences and room photos. It creates realistic visualizations of fully designed rooms with furniture, decor, lighting, and material selections that work together as cohesive design schemes. For homeowners and interior design enthusiasts who want professional-quality design concepts without hiring a designer, Spacely AI provides AI-powered complete room design.",
+    features: [
+      "Complete Room Design: Full interior design concepts with all elements",
+      "Style-Based Generation: Designs tailored to your aesthetic preferences",
+      "Photo-Based Starting Point: Upload room photos for personalized designs",
+      "Furniture and Decor: Complete furnishing and decoration suggestions",
+      "Material Coordination: Coordinated flooring, paint, and surface materials",
+      "Lighting Design: Integrated lighting concept in room designs",
+      "Shopping Links: Links to purchase designed items",
+      "Free to Try: Basic design generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Spacely Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Room", description: "Sign up at spacely.ai and upload photos of the room you want designed. Include multiple angles for comprehensive design generation." },
+        { title: "Define Your Style", description: "Select or describe your preferred design aesthetic. Provide any specific requirements or constraints for the design." },
+        { title: "Explore Your Designs", description: "Spacely AI generates complete room design concepts. Browse through the designs and their specific furniture and material recommendations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Design Packages", description: "Getting individual furniture and decor recommendations is helpful but a complete coordinated design that shows how everything works together is more valuable for actual implementation" },
+      { title: "Professional Quality Accessibility", description: "Interior designers who create coordinated complete room designs charge significant fees. AI that produces comparable complete design concepts makes this quality accessible" },
+      { title: "Shopping Integration", description: "Design concepts that link directly to purchasable items reduce the work of translating design inspiration into actual purchases" },
+      { title: "Coordination Confidence", description: "Knowing that all elements of a design work together is difficult when assembling a room piece by piece. Complete AI-designed rooms provide the coordination assurance that individual item selection lacks" }
+    ],
+    useCases: [
+      { title: "Homeowners Furnishing New Spaces", description: "People setting up new homes or renovating rooms use Spacely AI for complete coordinated room design" },
+      { title: "Interior Design Enthusiasts", description: "People who enjoy home design use Spacely AI for professional-quality complete room concepts" },
+      { title: "Short-Term Rental Operators", description: "Airbnb and vacation rental owners use Spacely AI for well-designed spaces that attract positive guest reviews" }
+    ]
+  },
+  "ai-two": {
+    whatIs: "AI Two is an AI interior design platform that generates redesigned room visualizations from photos by applying different design styles and making specific design changes. It provides homeowners with before-and-after room transformations that show what their actual space could look like with different design approaches. The platform focuses on practical design visualization that helps homeowners make real renovation and decoration decisions.",
+    features: [
+      "Room Redesign: Transform photos of your rooms with AI",
+      "Style Application: Apply different interior design styles to your space",
+      "Before and After: Clear visualization of design transformation",
+      "Specific Changes: Visualize particular changes like paint or furniture",
+      "Multiple Variations: Generate several design options",
+      "Realistic Output: Photorealistic redesign images",
+      "Personal Space Focus: Works with your actual room photos",
+      "Free Credits: Try room redesign before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Ai Two",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Take Your Room Photo", description: "Photograph your room clearly in good lighting. The AI works best with photos that capture the full room space and existing features." },
+        { title: "Choose Your Direction", description: "Upload your photo to ai-two.com and select the design style or specific changes you want to visualize." },
+        { title: "Review and Implement", description: "Review the AI-generated redesign images. Use the visualizations to guide your actual decoration and renovation decisions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personal Space Transformation", description: "Generic room design inspiration is less useful than seeing your actual space transformed. Photo-based redesign that works with your real room is more actionable" },
+      { title: "Decision Support", description: "Homeowners who can see realistic before-and-after images of their space make more confident renovation decisions" },
+      { title: "Style Exploration", description: "Trying different design styles on your actual room helps you understand which aesthetic directions genuinely work in your specific space" },
+      { title: "Investment Clarity", description: "Understanding what a design direction would actually look like in your room helps you decide whether the investment in actual renovation is worthwhile" }
+    ],
+    useCases: [
+      { title: "Homeowners Considering Redesigns", description: "People thinking about updating their home design use AI Two for visualization before committing to changes" },
+      { title: "Renters Personalizing Spaces", description: "Tenants who want to personalize their rental spaces use AI Two to explore changes that work within rental constraints" },
+      { title: "Interior Design Students", description: "Design students use AI room transformation tools for learning and portfolio development" }
+    ]
+  },
   "neighborbrite": {
     whatIs: "NeighborBrite is an AI-powered outdoor lighting design platform that helps homeowners plan and visualize landscape and architectural lighting for their properties. It uses AI to generate lighting design recommendations based on property photos, creating visual simulations of how different lighting configurations would look at night. For homeowners who want to enhance their property with outdoor lighting but are not sure where to start, NeighborBrite provides accessible AI-guided lighting design.",
     features: [
