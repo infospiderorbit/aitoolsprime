@@ -1,4 +1,235 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "ludo-ai": {
+    whatIs: "Ludo.ai is an AI-powered game design platform that helps game designers generate game concepts, mechanics, art assets, and design documentation. It provides tools for brainstorming game ideas, creating concept art, and researching the competitive game market. For game designers who want AI assistance throughout the development process, Ludo.ai provides specialized game industry AI tools.",
+    features: [
+      "Game Concept Generation: AI-powered game idea and concept creation",
+      "Market Research: Analyze successful games and market trends",
+      "Art Generation: Create game concept art and visual assets",
+      "Game Design Documents: AI assistance for GDD writing",
+      "Mechanic Exploration: Brainstorm and develop game mechanics",
+      "Competitive Analysis: Understand the game market landscape",
+      "Trend Analysis: Identify trending game genres and features",
+      "Free Trial: Try Ludo.ai before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Ludo Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Research the Market", description: "Sign up at ludo.ai and use the market research tools to understand successful games in your target genre." },
+        { title: "Generate Concepts", description: "Use AI concept generation tools to brainstorm game ideas and explore different creative directions." },
+        { title: "Document Your Design", description: "Use writing assistance to create comprehensive game design documentation for your development team." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Game Industry Specialization", description: "Generic AI tools do not understand game design conventions. Game-specific AI produces more relevant output for game development work" },
+      { title: "Market Intelligence", description: "Understanding what successful games do well before designing your own improves the likelihood of creating something players want" },
+      { title: "Documentation Speed", description: "Game design documents are time-consuming to write. AI assistance accelerates the documentation process" },
+      { title: "Concept Exploration", description: "AI that generates many concepts rapidly enables more thorough creative exploration before committing to a direction" }
+    ],
+    useCases: [
+      { title: "Indie Game Designers", description: "Independent developers use Ludo.ai for market research and concept development without large studio resources" },
+      { title: "Game Design Students", description: "Students learning game design use Ludo.ai for concept generation and documentation practice" },
+      { title: "Game Studios in Pre-Production", description: "Studios in the conceptual phase use Ludo.ai for market research and design exploration" }
+    ]
+  },
+  "websim": {
+    whatIs: "WebSim is an AI web simulation platform that generates functional websites and web applications from text descriptions. It uses AI to create complete web experiences that users can interact with immediately without any coding. For creators who want to rapidly prototype web ideas or create interactive simulations, WebSim provides AI-powered web generation that goes from description to working experience instantly.",
+    features: [
+      "Web Generation: Create complete websites from text descriptions",
+      "Interactive Simulations: Generate interactive web-based simulations",
+      "App Prototyping: Rapid prototyping of web application concepts",
+      "No Coding Required: Web creation without programming knowledge",
+      "Immediate Interaction: Generated sites work immediately",
+      "Creative Exploration: Explore unusual web concepts quickly",
+      "Sharing: Share generated web experiences with others",
+      "Free to Use: Basic web generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Websim",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Web Experience", description: "Go to websim.ai and describe the website or web application you want to create. Be specific about functionality and interactions." },
+        { title: "Interact with Your Creation", description: "WebSim generates a working web experience from your description. Interact with it immediately to test whether it matches your vision." },
+        { title: "Iterate and Share", description: "Refine your description to improve the generated experience. Share the URL of your creation with others." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Zero-Code Creation", description: "Creating interactive web experiences traditionally requires coding. AI generation from descriptions democratizes web creation" },
+      { title: "Rapid Prototyping", description: "Testing whether a web concept works before investing in development saves significant engineering time" },
+      { title: "Creative Exploration", description: "Generating unusual web experiences from descriptions enables creative exploration that coding effort would prevent" },
+      { title: "Instant Sharing", description: "Generated web experiences shareable via URL enable fast feedback collection on concepts" }
+    ],
+    useCases: [
+      { title: "Designers Prototyping Concepts", description: "UX and product designers use WebSim for rapid concept prototyping without developer dependency" },
+      { title: "Creative Technologists", description: "Experimentally-minded creators use WebSim for generating unusual interactive web experiences" },
+      { title: "Non-Technical Founders", description: "Startup founders without coding skills use WebSim to create working prototypes for demos" }
+    ]
+  },
+  "aimlabs": {
+    whatIs: "Aimlabs is a free aim training platform for first-person shooter gamers that provides scientific training scenarios to improve mouse accuracy, tracking, and reaction time. It offers hundreds of targeted training tasks designed to address specific FPS skill deficiencies, personalized training programs based on performance analysis, and benchmarking against millions of players. For FPS gamers who want to systematically improve their shooting mechanics, Aimlabs provides the scientific training environment that produces measurable skill improvement.",
+    features: [
+      "Aim Training Scenarios: Hundreds of targeted training tasks for FPS skills",
+      "Personalized Programs: Training plans based on your specific weaknesses",
+      "Performance Analytics: Detailed analysis of your aim and reaction time",
+      "Benchmarking: Compare your performance against millions of players",
+      "Game-Specific Training: Tasks optimized for specific FPS titles",
+      "Progress Tracking: Monitor skill improvement over time",
+      "Free to Use: Full aim training platform without payment",
+      "Community: Connect with other players improving their aim"
+    ],
+    howToUse: {
+      title: "How to Use Aimlabs",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Complete the Assessment", description: "Download Aimlabs and complete the initial skill assessment. The platform analyzes your baseline performance across different aim skill categories." },
+        { title: "Follow Your Training Plan", description: "Review your personalized training program targeting your identified weaknesses. Complete daily sessions consistently for best results." },
+        { title: "Track Your Progress", description: "Monitor your performance metrics over time to see measurable skill improvement. Adjust your training focus based on areas showing slowest progress." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Scientific Training Approach", description: "Purpose-built training scenarios that isolate specific skills produce faster improvement than undirected play" },
+      { title: "Weakness Identification", description: "Analytics that identify specific weaknesses enable targeted practice rather than general improvement efforts" },
+      { title: "Measurable Progress", description: "Tracking performance metrics over time provides objective evidence of improvement" },
+      { title: "Free Access", description: "Professional-quality aim training that is completely free removes the cost barrier to systematic skill development" }
+    ],
+    useCases: [
+      { title: "Competitive FPS Players", description: "Players in Valorant, CS2, and Apex Legends use Aimlabs for systematic aim improvement" },
+      { title: "Aspiring Pro Gamers", description: "Players pursuing professional gaming careers use Aimlabs for rigorous aim training" },
+      { title: "Casual Players Wanting Improvement", description: "Regular gamers who want to perform better use Aimlabs for accessible structured training" }
+    ]
+  },
+  "human-or-not": {
+    whatIs: "Human or Not is an interactive AI game that challenges players to determine whether they are chatting with a human or an AI in short two-minute conversations. Players engage with either a real person or an AI chatbot and must guess which they are talking to. The game raises fascinating questions about AI conversational capabilities while generating valuable data about AI detectability. For people curious about AI conversational abilities and their own ability to distinguish AI from humans, Human or Not provides an engaging educational experience.",
+    features: [
+      "Interactive AI Game: Guess whether you are talking to human or AI",
+      "Two-Minute Conversations: Short chat sessions with human or AI partners",
+      "Accuracy Tracking: Monitor your detection success rate over time",
+      "AI Detection Challenge: Test your ability to identify AI conversation patterns",
+      "Educational Experience: Learn about AI conversational capabilities",
+      "Social Experiment: Participate in a large-scale AI interaction study",
+      "Multiple Rounds: Play many conversations to test different approaches",
+      "Free to Play: Full game access without payment"
+    ],
+    howToUse: {
+      title: "How to Use Human Or Not",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start a Conversation", description: "Go to humanornot.ai and begin a conversation. You will be matched with either a real human or an AI chatbot for a two-minute chat." },
+        { title: "Detect Clues", description: "During the conversation look for clues that might indicate whether your partner is human or AI." },
+        { title: "Make Your Guess", description: "After the conversation ends guess whether you were talking to a human or AI. See if you were correct and track your accuracy." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Capability Revelation", description: "Playing Human or Not reveals firsthand how capable modern AI has become at natural conversation" },
+      { title: "Human Communication Insight", description: "The game reveals what makes human conversation distinctive from AI in ways hard to articulate until experienced directly" },
+      { title: "Detection Skill Development", description: "Regular play develops sensitivity to AI conversation patterns with practical value as AI becomes more present in daily life" },
+      { title: "Engagement Value", description: "The game format makes learning about AI genuinely entertaining rather than academic" }
+    ],
+    useCases: [
+      { title: "AI Curious Individuals", description: "People interested in AI capabilities use Human or Not for a firsthand experience of current AI conversation quality" },
+      { title: "Researchers and Educators", description: "People studying or teaching about AI use the game for engaging demonstration of AI capabilities" },
+      { title: "Technology Enthusiasts", description: "Tech-interested people use Human or Not as an entertaining way to explore AI conversation quality" }
+    ]
+  },
+  "your-gg": {
+    whatIs: "YOUR.GG is an AI-powered gaming performance analytics platform that analyzes gameplay data to provide personalized improvement insights and coaching recommendations. It processes match history, in-game statistics, and performance patterns to identify specific areas where your play is costing you wins and provides targeted advice for improvement. For competitive gamers who want data-driven coaching, YOUR.GG provides the analytical intelligence that identifies exactly what to work on.",
+    features: [
+      "Performance Analytics: Deep analysis of your gaming performance data",
+      "Personalized Coaching: Specific improvement advice based on your gameplay",
+      "Match History Analysis: Review and analyze your recent games",
+      "Weakness Identification: Find the specific habits costing you wins",
+      "Champion and Role Insights: Game-specific performance analysis",
+      "Progress Tracking: Monitor improvement over time",
+      "Coaching Recommendations: Actionable specific advice for improvement",
+      "Free Plan: Basic performance analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Your Gg",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Account", description: "Sign up at your.gg and connect your gaming account. YOUR.GG imports your match history and begins analyzing your performance patterns." },
+        { title: "Review Your Analysis", description: "Explore your personalized performance analysis. Identify the specific areas where your gameplay is weakest." },
+        { title: "Apply the Coaching", description: "Follow the specific coaching recommendations for your identified weaknesses. Return regularly to track whether your targeted practice is producing improvement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Specific Over Generic", description: "Analysis of your specific gameplay identifies the particular habits limiting your personal performance" },
+      { title: "Data-Driven Improvement", description: "Data analysis that identifies actual performance patterns produces more reliable improvement targets than subjective feelings" },
+      { title: "Efficiency of Practice", description: "Targeted practice on identified weaknesses produces faster improvement per hour of play" },
+      { title: "Progress Measurement", description: "Tracking improvement objectively over time provides motivation and helps identify when coaching advice is working" }
+    ],
+    useCases: [
+      { title: "Competitive Gamers", description: "Players competing in ranked modes use YOUR.GG for analytical coaching that improves their competitive performance" },
+      { title: "League of Legends Players", description: "LoL players use YOUR.GG for the detailed champion and gameplay analysis specific to their game" },
+      { title: "Aspiring Content Creators", description: "Gamers building their skills for streaming use YOUR.GG for systematic improvement" }
+    ]
+  },
+  "google-ai-developers": {
+    whatIs: "Google AI for Developers is Google developer platform providing access to Google AI models, APIs, tools, and resources for building AI-powered applications. It gives developers access to Gemini models, Vertex AI, and Google Cloud AI services with extensive documentation and SDKs for integrating Google AI into products. For developers who want to build with Google AI capabilities, the platform provides the technical resources and infrastructure needed for professional AI development.",
+    features: [
+      "Gemini API: Access to Google Gemini AI models through API",
+      "Vertex AI: Enterprise AI platform on Google Cloud",
+      "Developer Tools: SDKs, libraries, and development tools",
+      "Comprehensive Documentation: Complete technical documentation and tutorials",
+      "Model Variety: Different model sizes and capabilities for different use cases",
+      "Multimodal AI: Text, image, audio, and video AI capabilities",
+      "Free Tier: Significant free usage for development and testing",
+      "Enterprise Scale: Infrastructure for production AI applications"
+    ],
+    howToUse: {
+      title: "How to Use Google Ai Developers",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Get API Access", description: "Go to ai.google.dev and create a project. Obtain your API key for accessing Gemini and other Google AI services." },
+        { title: "Explore the Documentation", description: "Review the comprehensive documentation and quickstart guides for the AI capabilities you want to integrate." },
+        { title: "Build and Scale", description: "Develop your AI application using Google AI APIs and SDKs. Scale to production using Google Cloud infrastructure." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Model Quality", description: "Google Gemini models represent some of the most capable AI models available providing developers access to frontier AI capabilities" },
+      { title: "Infrastructure Reliability", description: "Building on Google Cloud AI infrastructure provides the reliability and scale that production applications require" },
+      { title: "Multimodal Capability", description: "AI that processes text, images, audio, and video enables applications impossible with text-only models" },
+      { title: "Developer Ecosystem", description: "Comprehensive documentation and active community make Google AI accessible to developers across different skill levels" }
+    ],
+    useCases: [
+      { title: "App Developers Adding AI Features", description: "Mobile and web developers use Google AI APIs to add intelligent features to their applications" },
+      { title: "Enterprise Development Teams", description: "Corporate developers building AI-powered business applications use Vertex AI for enterprise features" },
+      { title: "AI Researchers and Experimenters", description: "Developers exploring AI capabilities use the free tier for experimentation and learning" }
+    ]
+  },
+  "civitai": {
+    whatIs: "Civitai is the largest community platform for AI image generation models where creators share, discover, and download custom models, LoRAs, embeddings, and other resources for Stable Diffusion and other AI image generators. It hosts hundreds of thousands of community-created models enabling specific artistic styles, character appearances, and visual effects. For AI artists who want to expand their creative capabilities beyond base models, Civitai provides access to the most extensive library of community AI art resources.",
+    features: [
+      "Model Sharing: Community platform for AI image generation models",
+      "LoRA Library: Thousands of LoRA models for specific styles and characters",
+      "Image Gallery: Browse images created with shared models",
+      "Model Search: Find models for specific artistic styles or subjects",
+      "Creator Profiles: Follow creators whose models you enjoy",
+      "Version Tracking: Multiple versions of models as they improve",
+      "Free Download: Most models available without payment",
+      "Community: Connect with AI art generation community"
+    ],
+    howToUse: {
+      title: "How to Use Civitai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Library", description: "Go to civitai.com and browse or search for models that match the artistic style or subject you want to generate." },
+        { title: "Download and Install", description: "Download your chosen models and install them in your Stable Diffusion setup following the provided instructions." },
+        { title: "Generate with Custom Models", description: "Use your downloaded models in your image generation workflow. Combine multiple LoRAs for unique creative results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Community Model Depth", description: "The volume and variety of community-created models enables artistic capabilities that no single company could develop independently" },
+      { title: "Style Specificity", description: "Custom LoRA models that capture specific artistic styles produce results that base models cannot achieve" },
+      { title: "Creative Range", description: "Access to hundreds of thousands of specialized models dramatically expands what AI artists can create" },
+      { title: "Community Knowledge", description: "Model pages with generation examples provide practical guidance that helps users get the best results from each model" }
+    ],
+    useCases: [
+      { title: "Stable Diffusion Users", description: "AI image generation enthusiasts who run Stable Diffusion locally use Civitai for model and LoRA downloads" },
+      { title: "AI Artists", description: "Digital artists who incorporate AI image generation in their workflow use Civitai for models that enable their specific artistic vision" },
+      { title: "AI Art Developers", description: "Developers building AI art applications use Civitai models as components in their creative software" }
+    ]
+  },
   "arcadium": {
     whatIs: "Arcadium is an AI interior design platform that creates photorealistic room design concepts from style preferences and space photos. It generates complete room makeovers showing how spaces would look with different furniture arrangements, color schemes, and design styles. For homeowners who want to explore dramatic interior transformations before committing to renovation costs, Arcadium provides AI-powered design visualization.",
     features: [
