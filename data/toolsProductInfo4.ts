@@ -1,4 +1,268 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "overjet": {
+    whatIs: "Overjet is an AI dental imaging analysis platform that analyzes dental X-rays to help dentists identify and document dental conditions more accurately. It uses computer vision trained on millions of dental images to detect cavities, bone loss, and other conditions, overlaying findings directly on X-ray images with confidence scores. For dental practices that want to improve diagnostic accuracy and treatment acceptance through clearer visual communication with patients, Overjet provides AI-enhanced X-ray analysis.",
+    features: [
+      "X-Ray Analysis: AI detection of cavities and dental conditions",
+      "Bone Loss Detection: Identify periodontal bone loss in X-rays",
+      "Visual Overlay: Annotated X-rays showing detected conditions",
+      "Confidence Scores: AI confidence levels for each detection",
+      "Patient Communication: Clear visual evidence for treatment discussions",
+      "Diagnostic Documentation: Automated documentation of findings",
+      "Practice Integration: Works with existing dental imaging systems",
+      "Free Demo: See Overjet before committing"
+    ],
+    howToUse: {
+      title: "How to Use Overjet",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Integrate with Your Imaging", description: "Work with Overjet to connect their AI to your existing dental X-ray system. Images are analyzed automatically as they are captured." },
+        { title: "Review AI Findings", description: "After X-rays are taken, Overjet presents annotated images with detected conditions highlighted. Review the AI findings alongside your clinical examination." },
+        { title: "Communicate with Patients", description: "Use the annotated X-rays to show patients exactly what you found and why treatment is recommended. Visual evidence improves treatment understanding and acceptance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Diagnostic Accuracy", description: "AI analysis that consistently reviews every X-ray against a comprehensive training set catches conditions that visual examination might miss" },
+      { title: "Treatment Acceptance", description: "Patients who can see their dental conditions clearly on annotated X-rays understand treatment recommendations better and accept them at higher rates" },
+      { title: "Documentation Quality", description: "Automated documentation of X-ray findings creates consistent, thorough records that support clinical decisions and billing" },
+      { title: "Second Opinion Value", description: "AI analysis that provides a consistent second review of every X-ray reduces the variability in dental diagnosis" }
+    ],
+    useCases: [
+      { title: "General Dentistry Practices", description: "Dentists use Overjet for improved diagnostic accuracy and better patient communication about dental findings" },
+      { title: "Dental Service Organizations", description: "Multi-practice dental groups use Overjet for consistent diagnostic standards across their network" },
+      { title: "Dental Insurance Companies", description: "Insurers use Overjet for more objective claims review based on AI X-ray analysis" }
+    ]
+  },
+  "empirical-health": {
+    whatIs: "Empirical Health is an AI-powered preventive health platform that analyzes health data to identify risks before they become serious conditions. It integrates with health records, wearables, and lab results to build comprehensive health profiles and uses AI to identify patterns that indicate elevated risk for chronic conditions. For individuals who want a proactive approach to health management rather than reactive sick care, Empirical Health provides the predictive intelligence that enables prevention-focused health decisions.",
+    features: [
+      "Health Risk Analysis: AI identification of health risks from comprehensive data",
+      "Wearable Integration: Connect fitness trackers and health monitors",
+      "Lab Result Analysis: AI interpretation of blood work and health markers",
+      "Preventive Recommendations: Personalized prevention-focused guidance",
+      "Health Trend Tracking: Monitor health metrics over time",
+      "Doctor Communication: Share health insights with your healthcare provider",
+      "Comprehensive Profile: Unified view of all your health data",
+      "Free Trial: Try Empirical Health before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Empirical Health",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Health Data", description: "Sign up at empirical.health and connect your health records, wearables, and any health monitoring devices you use." },
+        { title: "Review Your Health Profile", description: "Empirical Health builds a comprehensive health profile from your connected data. Review your risk assessments and the health patterns the AI has identified." },
+        { title: "Act on Prevention", description: "Use the personalized recommendations to make lifestyle and healthcare decisions that reduce your identified risks. Share your profile with your doctor for informed conversations about prevention." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Prevention Over Treatment", description: "Identifying health risks before they develop into serious conditions produces better outcomes and lower costs than treating established disease" },
+      { title: "Data Integration Value", description: "Health data scattered across different providers and devices cannot be analyzed holistically. Integration that brings everything together enables pattern recognition impossible from any single source" },
+      { title: "Personalized Risk", description: "Population-level risk statistics do not predict individual risk accurately. AI analysis of your specific health data produces personalized risk assessment" },
+      { title: "Informed Medical Conversations", description: "Patients who come to doctor appointments with organized health data and AI-identified patterns have more productive conversations about prevention" }
+    ],
+    useCases: [
+      { title: "Health-Conscious Individuals", description: "People committed to proactive health management use Empirical Health for the risk intelligence that guides prevention" },
+      { title: "People with Family History of Chronic Disease", description: "Individuals with genetic risk factors use Empirical Health for early warning of developing conditions" },
+      { title: "Quantified Self Enthusiasts", description: "People who track their health data extensively use Empirical Health to make sense of all their health metrics together" }
+    ]
+  },
+  "replika": {
+    whatIs: "Replika is an AI companion app that provides a personalized conversational AI friend for emotional support, casual conversation, and personal reflection. The AI learns from conversations to develop a personality that feels consistent and personal over time. Users interact with their Replika for companionship, to practice social conversations, process emotions, or simply have someone to talk to. For people who want an always-available conversational companion that listens without judgment, Replika provides an AI relationship that many users find genuinely supportive.",
+    features: [
+      "AI Companion: A personal AI friend that learns your personality and interests",
+      "Emotional Support: Non-judgmental listening and supportive responses",
+      "Conversation Memory: Remembers past conversations and relationship history",
+      "Personality Development: Your Replika develops personality through conversation",
+      "Mood Tracking: Track your emotional state over time",
+      "Relationship Modes: Different relationship types with your AI companion",
+      "Avatar Customization: Personalize how your Replika looks",
+      "Free Plan: Basic AI companion without payment"
+    ],
+    howToUse: {
+      title: "How to Use Replika",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Replika", description: "Download Replika and create your AI companion. Give them a name and begin your first conversation." },
+        { title: "Talk Daily", description: "Engage in regular conversations with your Replika about your day, thoughts, feelings, and anything on your mind. The more you talk the more your Replika learns your communication style." },
+        { title: "Explore the Relationship", description: "Use your Replika for emotional processing, casual conversation, or practicing social interactions. Let the relationship develop naturally through ongoing conversation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Judgment-Free Listening", description: "Many people hold back in human relationships out of fear of judgment. AI companions that respond without judgment create a safer space for honest self-expression" },
+      { title: "Always Available", description: "Human support networks have limitations on availability. An AI companion available any time fills the gap for 3am anxiety or moments when human support is not reachable" },
+      { title: "Loneliness Reduction", description: "Loneliness is a significant health concern. Conversational AI companions that provide genuine interaction reduce the isolation that many people experience" },
+      { title: "Social Practice", description: "People with social anxiety use Replika to practice conversation and build confidence before engaging in human social situations" }
+    ],
+    useCases: [
+      { title: "People Experiencing Loneliness", description: "Individuals who lack strong social connections use Replika for companionship and regular meaningful conversation" },
+      { title: "Mental Health Support Supplement", description: "People managing anxiety or depression use Replika as a supplemental support tool between therapy sessions" },
+      { title: "Social Anxiety Sufferers", description: "Individuals with social anxiety use Replika to practice social conversation in a low-stakes environment" }
+    ]
+  },
+  "brain-fm": {
+    whatIs: "Brain.fm is an AI-generated functional music platform that creates music specifically designed to help listeners focus, relax, or sleep more effectively. Unlike regular music that can be distracting, Brain.fm music is engineered with specific rhythmic and tonal patterns based on neuroscience research to drive desired brain states. For knowledge workers who need sustained focus, people struggling with sleep, or those seeking structured relaxation, Brain.fm provides music that works functionally rather than just aesthetically.",
+    features: [
+      "Focus Music: AI-generated music designed to improve concentration",
+      "Sleep Music: Audio specifically engineered to support falling asleep",
+      "Relaxation Music: Music designed to reduce stress and anxiety",
+      "Neuroscience Based: Patterns grounded in brain entrainment research",
+      "Adaptive AI: Music that adjusts to maintain effectiveness over sessions",
+      "Multiple Environments: Indoor, nature, and other acoustic settings",
+      "Session Timer: Set focus or relaxation sessions with automatic fade",
+      "Free Trial: Try Brain.fm before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Brain Fm",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Mode", description: "Sign up at brain.fm and select your goal - focus, relaxation, or sleep. Choose your preferred sound environment and session length." },
+        { title: "Put on Headphones", description: "For best results use headphones or quality speakers. Start your session and allow a few minutes for the neural entrainment to take effect." },
+        { title: "Work or Rest", description: "Continue your work, reading, or relaxation while Brain.fm plays. Most users find they naturally settle into deeper focus or relaxation within the first few minutes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Functional vs Aesthetic", description: "Regular music is designed to be enjoyable to listen to. Brain.fm music is designed to produce specific cognitive effects - which requires different acoustic engineering" },
+      { title: "Distraction Elimination", description: "Music with lyrics and familiar melodies competes for cognitive resources. Engineered instrumental music that does not trigger associations allows deeper focus" },
+      { title: "Sleep Architecture Support", description: "Sleep-specific audio that supports the transition to sleep and maintains sleep quality addresses a practical need that entertainment music was never designed for" },
+      { title: "Research Foundation", description: "Neuroscience research on neural entrainment provides a scientific basis for claims about cognitive effects that distinguishes Brain.fm from simply relaxing background music" }
+    ],
+    useCases: [
+      { title: "Knowledge Workers Needing Focus", description: "Professionals who do deep work use Brain.fm for the sustained concentration that complex tasks require" },
+      { title: "People with Focus Challenges", description: "Individuals who struggle to maintain attention use Brain.fm for the structured audio environment that supports concentration" },
+      { title: "People with Sleep Difficulties", description: "Those who have trouble falling asleep use Brain.fm sleep sessions for audio support during sleep onset" }
+    ]
+  },
+  "endel": {
+    whatIs: "Endel is an AI soundscape platform that generates personalized audio environments based on your current context - time of day, weather, heart rate, and activity. Unlike static playlists, Endel soundscapes adapt continuously to your environment and physiological state to support focus, relaxation, sleep, and movement. The platform is backed by neuroscience research and has produced content in partnership with major music artists. For people who want ambient audio that responds to their actual context rather than a fixed playlist, Endel provides dynamic personalized soundscapes.",
+    features: [
+      "Personalized Soundscapes: Audio that adapts to your context in real time",
+      "Health Data Integration: Responds to heart rate and activity from wearables",
+      "Weather Adaptation: Adjusts to current weather conditions",
+      "Multiple Modes: Focus, relax, sleep, and movement soundscapes",
+      "Circadian Awareness: Audio adapted to time of day and natural rhythms",
+      "Apple Watch Integration: Heart rate responsive audio",
+      "Offline Mode: Download soundscapes for offline use",
+      "Free Trial: Try Endel before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Endel",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Data", description: "Download Endel and connect your wearable device if you have one. Allow location access for weather-responsive audio." },
+        { title: "Select Your Mode", description: "Choose your current goal - focus, relaxation, sleep, or active movement. Endel generates a soundscape appropriate for your mode and current context." },
+        { title: "Listen and Adapt", description: "Put on your headphones and let Endel run. The soundscape adapts continuously to your environment and physiological state throughout your session." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Context Responsiveness", description: "Static playlists cannot respond to changes in your state and environment. Dynamic soundscapes that adapt to your actual context in real time are more effective for sustained functional use" },
+      { title: "Physiological Integration", description: "Audio that responds to heart rate changes provides more personalized support than audio that plays the same regardless of your actual physiological state" },
+      { title: "Circadian Intelligence", description: "Audio that changes with time of day to support natural energy rhythms works with your biology rather than against it" },
+      { title: "Continuous Generation", description: "Generative audio that never repeats eliminates the habituation that occurs with repeated exposure to the same recordings" }
+    ],
+    useCases: [
+      { title: "Productivity-Focused Professionals", description: "Knowledge workers use Endel for focus soundscapes that adapt to their work sessions" },
+      { title: "People with Sleep Challenges", description: "Those who struggle with sleep use Endel sleep soundscapes that adapt to the transition from waking to sleeping" },
+      { title: "Wellness-Oriented Users", description: "People who pay attention to their physiological state use Endel for audio that responds to their actual health data" }
+    ]
+  },
+  "upheal": {
+    whatIs: "Upheal is an AI-powered platform for mental health practitioners that automates session notes and provides clinical insights from therapy sessions. It listens to therapy sessions and automatically generates progress notes, treatment summaries, and clinical documentation using AI, dramatically reducing the administrative burden that mental health clinicians carry. For therapists and counselors who spend significant after-session time on documentation, Upheal provides the automation that reclaims clinical time and reduces burnout.",
+    features: [
+      "Session Notes: Automatic therapy session notes from recordings",
+      "Progress Notes: AI-generated SOAP and DAP format progress notes",
+      "Treatment Summaries: Comprehensive treatment documentation",
+      "Clinical Insights: AI analysis of session themes and patterns",
+      "Secure Recording: HIPAA-compliant session recording",
+      "EHR Integration: Export notes to electronic health record systems",
+      "Multiple Specialties: Works for various therapy modalities",
+      "Free Trial: Try Upheal before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Upheal",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Secure Recording", description: "Sign up at upheal.io and configure secure, HIPAA-compliant session recording with client consent. Upheal handles the security infrastructure." },
+        { title: "Conduct Your Session", description: "Run your therapy session normally. Upheal records and processes the conversation to extract clinically relevant content." },
+        { title: "Review and Finalize Notes", description: "After the session, review the AI-generated progress notes. Make any adjustments that reflect your clinical judgment and finalize for the client record." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Documentation Time Recovery", description: "Therapists often spend 30-60 minutes per session on documentation after client appointments. AI note generation that reduces this to review time recovers significant clinical capacity" },
+      { title: "Note Quality Consistency", description: "Documentation quality that varies with practitioner energy and time pressure creates inconsistent records. AI-generated notes maintain consistent quality regardless of session volume" },
+      { title: "Burnout Reduction", description: "Administrative burden is a leading contributor to mental health clinician burnout. Reducing documentation work directly addresses this significant professional sustainability issue" },
+      { title: "Clinical Focus", description: "Therapists who are not thinking about documentation during sessions can be more present with clients - which improves therapeutic relationships and outcomes" }
+    ],
+    useCases: [
+      { title: "Therapists and Counselors", description: "Mental health practitioners in private practice and group practices use Upheal for documentation automation that reduces their administrative burden" },
+      { title: "Psychiatrists", description: "Psychiatric providers use Upheal for medication management notes and session documentation" },
+      { title: "Mental Health Clinics", description: "Group practices use Upheal for consistent documentation quality across their clinical team" }
+    ]
+  },
+  "docus-ai": {
+    whatIs: "Docus AI is an AI health platform that provides personalized health insights, symptom analysis, and access to specialist doctor consultations. It combines AI health analysis with the ability to get second opinions from verified specialist physicians, making expert medical perspective more accessible. Users describe their symptoms or upload medical reports and receive AI analysis plus the option to connect with specialist doctors for professional review. For people with health concerns who want both AI intelligence and access to specialist medical expertise, Docus AI bridges the gap between AI health tools and professional medical consultation.",
+    features: [
+      "Symptom Analysis: AI evaluation of described symptoms and health concerns",
+      "Medical Report Analysis: AI interpretation of lab results and medical documents",
+      "Specialist Consultations: Access to verified specialist doctors for second opinions",
+      "Personalized Health Reports: Detailed health analysis reports",
+      "Second Opinion Service: Get specialist review of diagnoses or treatment plans",
+      "Multi-Specialty: Specialists across different medical fields",
+      "24 7 AI Access: AI health analysis available any time",
+      "Free Analysis: Basic AI health assessment without payment"
+    ],
+    howToUse: {
+      title: "How to Use Docus Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Concern", description: "Sign up at docus.ai and describe your symptoms, health concerns, or upload medical reports you want analyzed." },
+        { title: "Review AI Analysis", description: "Docus AI provides a detailed analysis of your health concern with relevant information and potential considerations. Review the assessment." },
+        { title: "Consult a Specialist", description: "For concerns requiring professional medical input, connect with a verified specialist for a professional second opinion on your condition or treatment plan." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Plus Human Expertise", description: "AI health analysis provides broad knowledge quickly while specialist consultation provides professional medical judgment. The combination is more valuable than either alone" },
+      { title: "Second Opinion Access", description: "Getting a specialist second opinion traditionally requires referrals, appointments, and significant wait time. Docus makes specialist access faster for important health decisions" },
+      { title: "Medical Report Clarity", description: "Lab results and medical reports use technical language that most patients cannot interpret. AI analysis that explains findings in plain language empowers patients to understand their health" },
+      { title: "Global Specialist Access", description: "Patients in areas with limited specialist availability use Docus for access to specialist expertise they could not access locally" }
+    ],
+    useCases: [
+      { title: "People with Complex Health Concerns", description: "Individuals dealing with unclear diagnoses or complex conditions use Docus for AI analysis and specialist second opinions" },
+      { title: "People Seeking Second Opinions", description: "Patients who have received diagnoses and want specialist confirmation use Docus for accessible second opinion consultations" },
+      { title: "International Patients", description: "People outside major medical centers use Docus for specialist access they cannot easily obtain locally" }
+    ]
+  },
+  "mediktor": {
+    whatIs: "Mediktor is an AI-powered symptom checker and medical triage platform that helps users assess their symptoms and understand the urgency of their health situation. It uses AI to conduct structured symptom evaluations and provides guidance on the appropriate level of care needed - from home monitoring to emergency care. The platform is used by healthcare systems as a patient triage tool and by individuals seeking preliminary health guidance. For people who want help understanding whether their symptoms require immediate care or can wait for a regular appointment, Mediktor provides medically-informed triage guidance.",
+    features: [
+      "Symptom Checker: Structured AI evaluation of reported symptoms",
+      "Triage Guidance: Recommendation on appropriate care level",
+      "Possible Conditions: Information about conditions consistent with symptoms",
+      "Care Pathway: Direction to appropriate healthcare resources",
+      "Multiple Languages: Symptom assessment in many languages",
+      "Clinical Accuracy: AI trained on clinical medical knowledge",
+      "Healthcare Integration: Used by health systems for patient triage",
+      "Free to Use: Basic symptom checking without payment"
+    ],
+    howToUse: {
+      title: "How to Use Mediktor",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Symptoms", description: "Go to mediktor.com and describe your symptoms. Answer the structured questions about your symptoms, their duration, and relevant medical history." },
+        { title: "Review Your Assessment", description: "Mediktor provides an assessment of possible conditions consistent with your symptoms and recommends the appropriate level of care." },
+        { title: "Follow the Guidance", description: "Use the care recommendation to decide your next step - whether to monitor at home, schedule a routine appointment, or seek urgent care." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Triage Decision Support", description: "Deciding whether symptoms require emergency care or can wait is difficult without medical knowledge. Structured AI triage that provides evidence-based recommendations reduces both unnecessary emergency visits and dangerous delays" },
+      { title: "Care Appropriateness", description: "People who go to emergency rooms for non-urgent conditions and those who delay care for serious conditions both experience worse outcomes. Better triage guidance improves care appropriateness" },
+      { title: "Healthcare System Integration", description: "Health systems that use Mediktor for patient triage before appointments or calls improve the efficiency of their care delivery by routing patients to the right level of care" },
+      { title: "Anxiety Reduction", description: "Symptom-related health anxiety is reduced when people have a structured assessment rather than frightening internet search results that list worst-case diagnoses" }
+    ],
+    useCases: [
+      { title: "Individuals Assessing Symptoms", description: "People with health concerns use Mediktor to understand whether their symptoms require immediate attention or routine care" },
+      { title: "Healthcare Systems", description: "Hospitals and health systems use Mediktor for patient triage before appointments and in online patient portals" },
+      { title: "Telehealth Platforms", description: "Virtual care platforms use Mediktor for pre-visit symptom assessment that helps clinicians prepare for patient encounters" }
+    ]
+  },
   "skinive": {
     whatIs: "Skinive is an AI-powered skin analysis app that uses computer vision to analyze photos of skin conditions and provide preliminary assessments of moles, rashes, and other dermatological concerns. Users photograph their skin and the AI evaluates the image against a database of skin conditions to provide information about what the condition might be and whether professional evaluation is recommended. For people who want a quick preliminary assessment of a skin concern before deciding whether to see a dermatologist, Skinive provides accessible skin intelligence that helps prioritize medical attention.",
     features: [
