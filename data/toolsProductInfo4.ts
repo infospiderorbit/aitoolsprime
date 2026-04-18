@@ -1,4 +1,268 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "neighborbrite": {
+    whatIs: "NeighborBrite is an AI-powered outdoor lighting design platform that helps homeowners plan and visualize landscape and architectural lighting for their properties. It uses AI to generate lighting design recommendations based on property photos, creating visual simulations of how different lighting configurations would look at night. For homeowners who want to enhance their property with outdoor lighting but are not sure where to start, NeighborBrite provides accessible AI-guided lighting design.",
+    features: [
+      "Lighting Design: AI-generated outdoor lighting recommendations",
+      "Visual Simulation: See how lighting will look on your property at night",
+      "Photo-Based Design: Upload property photos for personalized recommendations",
+      "Fixture Suggestions: Specific lighting product recommendations",
+      "Multiple Styles: Different lighting aesthetics from dramatic to subtle",
+      "Energy Efficiency: Recommendations that balance impact with efficiency",
+      "DIY Friendly: Designs accessible for homeowner installation",
+      "Free to Try: Basic lighting design without payment"
+    ],
+    howToUse: {
+      title: "How to Use Neighborbrite",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Property Photos", description: "Sign up at neighborbrite.com and upload photos of your home exterior and landscape from different angles." },
+        { title: "Review Design Recommendations", description: "NeighborBrite generates lighting design recommendations with visual simulations showing how your property would look illuminated at night." },
+        { title: "Plan Your Installation", description: "Use the fixture recommendations and placement guidance to plan your lighting installation. Order recommended products and install according to the design." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Before-You-Buy Visualization", description: "Outdoor lighting is expensive to install and hard to visualize in advance. AI simulation that shows the result before purchase prevents costly mistakes" },
+      { title: "Design Expertise Access", description: "Professional outdoor lighting design consultation is expensive. AI that provides design guidance makes professional-quality lighting accessible to any homeowner" },
+      { title: "Property Value Impact", description: "Well-designed outdoor lighting significantly improves curb appeal and property value. AI guidance that produces professional-quality results maximizes this investment" },
+      { title: "Safety and Security", description: "Strategic lighting that illuminates pathways and entry points improves both safety and security beyond just aesthetics" }
+    ],
+    useCases: [
+      { title: "Homeowners Planning Outdoor Lighting", description: "People wanting to add or improve their landscape lighting use NeighborBrite for design guidance before purchasing fixtures" },
+      { title: "Real Estate Sellers", description: "Homeowners preparing to sell use NeighborBrite for lighting improvements that enhance curb appeal and property value" },
+      { title: "Landscape Contractors", description: "Outdoor lighting installers use NeighborBrite for efficient design proposals for client properties" }
+    ]
+  },
+  "dreamzar-app": {
+    whatIs: "DreamzAR is an augmented reality home design and renovation app that lets homeowners visualize furniture, decor, and renovation changes in their actual space using their smartphone camera. It overlays virtual furniture and design elements onto the live camera view so users can see exactly how new items will look in their real rooms before purchasing. For homeowners who struggle to visualize how furniture and decor will look in their space, DreamzAR provides the AR visualization that eliminates purchase regret.",
+    features: [
+      "AR Visualization: See furniture in your actual space using augmented reality",
+      "Real-Time Preview: Live camera view with virtual furniture overlaid",
+      "Furniture Catalog: Browse and place furniture from integrated catalogs",
+      "Room Measurement: AR measurement tools for accurate sizing",
+      "Multiple Categories: Furniture, lighting, decor, and flooring visualization",
+      "Screenshot Capture: Save AR views for reference and sharing",
+      "Shopping Integration: Link directly to purchase visualized items",
+      "Free to Use: Basic AR visualization without payment"
+    ],
+    howToUse: {
+      title: "How to Use Dreamzar App",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Point Your Camera", description: "Download DreamzAR and open the app in the room you want to redesign. The camera becomes your AR visualization window." },
+        { title: "Select and Place Items", description: "Browse the furniture and decor catalog and select items to place in your AR view. Adjust size, position, and rotation to see how items fit your space." },
+        { title: "Capture and Decide", description: "Take screenshots of your favorite AR arrangements to compare options. Use the visualizations to make confident purchase decisions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Purchase Confidence", description: "Furniture that looks different in a showroom than in your home is a common frustrating experience. AR visualization in your actual space eliminates this uncertainty" },
+      { title: "Space Planning", description: "Understanding how furniture will fit and flow in a space before buying prevents the costly problem of purchasing items that are the wrong size for the room" },
+      { title: "Design Experimentation", description: "Trying many different furniture arrangements virtually costs nothing. Physical rearrangement of heavy furniture has real costs in time and effort" },
+      { title: "Return Reduction", description: "Furniture returns are expensive and inconvenient for both buyers and retailers. Better visualization before purchase reduces return rates significantly" }
+    ],
+    useCases: [
+      { title: "Homeowners Furnishing New Spaces", description: "People moving into new homes use DreamzAR to plan furniture placement before buying" },
+      { title: "Renovation Planners", description: "Homeowners planning room renovations use DreamzAR to visualize different design directions before committing to changes" },
+      { title: "Interior Design Enthusiasts", description: "People who enjoy redesigning their spaces use DreamzAR for virtual experimentation with different looks" }
+    ]
+  },
+  "rescape-ai": {
+    whatIs: "Rescape AI is an AI-powered landscape design platform that generates landscape design concepts for outdoor spaces from photos and descriptions. It uses AI to create realistic visualizations of transformed gardens, patios, and outdoor areas, helping homeowners and landscape professionals communicate design ideas visually. For homeowners who want to transform their outdoor spaces but need help visualizing possibilities, Rescape AI provides AI-generated landscape design inspiration.",
+    features: [
+      "Landscape Visualization: AI-generated images of transformed outdoor spaces",
+      "Photo-Based Design: Upload current space photos for personalized concepts",
+      "Multiple Styles: Different landscape design aesthetics and approaches",
+      "Garden Design: Planting schemes and garden layout concepts",
+      "Patio Design: Hardscape and outdoor living space visualization",
+      "Realistic Rendering: Photorealistic landscape transformation images",
+      "Design Inspiration: Browse and explore different landscape possibilities",
+      "Free to Try: Basic landscape visualization without payment"
+    ],
+    howToUse: {
+      title: "How to Use Rescape Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Outdoor Space", description: "Sign up at rescape.ai and upload photos of your current garden, patio, or outdoor area you want to transform." },
+        { title: "Describe Your Vision", description: "Tell Rescape AI about your style preferences, how you want to use the space, and any specific elements you want included in the design." },
+        { title: "Review Design Concepts", description: "Rescape AI generates realistic visualizations of your transformed outdoor space. Use these as inspiration and reference for your actual landscaping project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Transformation Visualization", description: "Imagining how a neglected or bare outdoor space could look after landscaping is difficult. AI visualization that shows the transformation possibility motivates and guides improvement projects" },
+      { title: "Communication Tool", description: "Homeowners who can show landscape contractors AI visualizations of their desired outcome communicate their vision more effectively than verbal descriptions alone" },
+      { title: "Design Exploration", description: "Exploring different landscape styles before committing to plants and hardscape materials is much cheaper virtually than through physical trial and error" },
+      { title: "Project Confidence", description: "Landscaping projects are significant investments. Seeing a realistic visualization of the expected outcome builds confidence in the investment" }
+    ],
+    useCases: [
+      { title: "Homeowners Planning Landscape Projects", description: "People considering garden or patio improvements use Rescape AI for design visualization before hiring contractors" },
+      { title: "Landscape Contractors", description: "Professionals use Rescape AI for client design presentations that communicate project possibilities visually" },
+      { title: "Real Estate Sellers", description: "Homeowners use Rescape AI to identify landscaping improvements that would enhance property appeal before listing" }
+    ]
+  },
+  "pool-planner-ai": {
+    whatIs: "Pool Planner AI is an AI-powered swimming pool design tool that helps homeowners plan and visualize swimming pool installations for their properties. It generates pool design concepts based on yard dimensions, style preferences, and budget, creating realistic visualizations of how a pool would look in the actual outdoor space. For homeowners considering a pool installation, Pool Planner AI provides design guidance and visualization before the significant investment commitment.",
+    features: [
+      "Pool Design Generation: AI-created pool design concepts for your yard",
+      "Visual Simulation: Realistic images of pool in your actual space",
+      "Size and Shape Options: Different pool configurations for your space",
+      "Feature Integration: Waterfalls, spa, and other feature visualization",
+      "Landscape Integration: How pool works with surrounding landscape",
+      "Budget Guidance: Design options at different investment levels",
+      "Contractor Communication: Design concepts to share with pool builders",
+      "Free to Try: Basic pool design visualization without payment"
+    ],
+    howToUse: {
+      title: "How to Use Pool Planner Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Yard Information", description: "Sign up at poolplanner.ai and upload photos of your yard and provide dimensions and any slope or feature information." },
+        { title: "Generate Design Concepts", description: "Pool Planner AI creates pool design options that work within your yard constraints and match your style preferences." },
+        { title: "Review and Refine", description: "Explore the generated designs and select or refine the direction that best fits your vision and budget. Use the designs in conversations with pool contractors." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Investment Visualization", description: "Swimming pools are among the most expensive home improvements. Visualizing the result before committing to a contractor conversation is valuable for such a significant decision" },
+      { title: "Yard Constraint Awareness", description: "Understanding how pool size and placement options work within your specific yard before talking to contractors makes those conversations more productive" },
+      { title: "Feature Exploration", description: "Deciding between pool features like spas, waterfalls, and lighting is easier when you can see visualizations of each option rather than relying on catalog photos" },
+      { title: "Contractor Communication", description: "Pool design concepts give contractors a clear starting point that produces more accurate quotes and reduces the back-and-forth of undefined project scope" }
+    ],
+    useCases: [
+      { title: "Homeowners Considering Pool Installation", description: "People thinking about adding a pool use Pool Planner AI to visualize options and understand what is possible in their space" },
+      { title: "Pool Contractors", description: "Pool builders use AI design tools for faster client proposal development and clearer communication of design options" },
+      { title: "Real Estate Investors", description: "Property investors evaluate pool addition value using design visualization to understand what a pool would look like before committing to installation" }
+    ]
+  },
+  "planner-5d": {
+    whatIs: "Planner 5D is a comprehensive home design and floor plan software that allows users to create detailed 2D floor plans and 3D visualizations of homes and rooms. It provides an extensive furniture and material catalog, realistic rendering capabilities, and AI-powered design features that help both professionals and homeowners plan spaces accurately. For anyone who needs to plan a home renovation, new construction, or interior redesign with accurate space planning, Planner 5D provides professional-grade design tools in an accessible interface.",
+    features: [
+      "Floor Plan Creation: Detailed 2D floor plan design tools",
+      "3D Visualization: Photorealistic 3D rendering of designed spaces",
+      "Furniture Catalog: Thousands of furniture and decor items",
+      "AI Design Suggestions: AI-powered design recommendations",
+      "Room Templates: Starting templates for different room types",
+      "Measurement Accuracy: Precise room and furniture dimensioning",
+      "Export Options: Share and export designs in multiple formats",
+      "Free Plan: Basic home design without payment"
+    ],
+    howToUse: {
+      title: "How to Use Planner 5D",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Floor Plan", description: "Sign up at planner5d.com and create a new project. Draw your room or floor plan using the intuitive drag-and-drop interface or import existing plans." },
+        { title: "Furnish Your Space", description: "Browse the furniture catalog and populate your floor plan with furniture, fixtures, and decor. See the 2D layout update in real time." },
+        { title: "Render in 3D", description: "Switch to 3D view for a photorealistic visualization of your designed space. Use the render feature for high-quality images to share or use in presentations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessible Professional Tools", description: "Professional home design software requires extensive training. Planner 5D interface that non-designers can learn quickly makes professional-quality space planning accessible" },
+      { title: "Accuracy for Planning", description: "Furniture placement that looks good in 3D but does not work dimensionally creates problems during actual installation. Accurate measurement tools prevent this" },
+      { title: "Communication Tool", description: "3D renderings that show exactly how a space will look communicate design intent far more clearly than 2D plans alone to family members, contractors, and designers" },
+      { title: "Renovation Planning", description: "Planning a renovation in software before starting construction prevents the expensive mistakes of discovering problems only when work has begun" }
+    ],
+    useCases: [
+      { title: "Homeowners Planning Renovations", description: "People planning home improvements use Planner 5D for accurate space planning and design visualization" },
+      { title: "Interior Designers", description: "Design professionals use Planner 5D for client presentations and space planning work" },
+      { title: "Real Estate Developers", description: "Property developers use Planner 5D for unit layout planning and marketing visualization" }
+    ]
+  },
+  "coohom": {
+    whatIs: "Coohom is a professional 3D interior design platform used by furniture brands, interior designers, and retailers for photorealistic product visualization and space design. It provides high-fidelity 3D rendering, an extensive material library, and tools for creating showroom-quality design presentations. The platform is particularly strong for furniture manufacturers and retailers who need to showcase their products in realistic room settings. For businesses that need professional-quality interior design visualization for marketing and sales, Coohom provides the rendering technology that produces compelling product presentations.",
+    features: [
+      "Photorealistic Rendering: High-quality 3D renders of interior spaces",
+      "Material Library: Extensive realistic material and texture library",
+      "Furniture Visualization: Showcase furniture in realistic room settings",
+      "Brand Customization: Custom product libraries for furniture brands",
+      "360 Panorama: Immersive 360-degree room views",
+      "AR Mode: Augmented reality visualization of products",
+      "Team Collaboration: Multiple designers working on shared projects",
+      "Free Plan: Basic 3D design without payment"
+    ],
+    howToUse: {
+      title: "How to Use Coohom",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Space", description: "Sign up at coohom.com and create your room design. Set dimensions and add architectural elements like windows and doors." },
+        { title: "Add Furniture and Materials", description: "Populate your space with furniture from the catalog or your brand library. Apply materials and textures to surfaces for realistic rendering." },
+        { title: "Render and Share", description: "Generate high-quality renders of your designed space. Create 360 panoramas and AR views for comprehensive product presentation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photorealism Quality", description: "Furniture and interior products that look good in photorealistic renders sell better than those shown only in standard product photography" },
+      { title: "Product in Context", description: "Showing furniture in a complete room setting rather than against a white background helps customers visualize products in their own spaces" },
+      { title: "Brand Product Libraries", description: "Furniture manufacturers who upload their product catalog to Coohom enable their retail partners to use those products in design presentations" },
+      { title: "Sales Tool Value", description: "Interior designers and furniture retailers who create compelling rendered presentations close more sales than those who rely on flat catalog images" }
+    ],
+    useCases: [
+      { title: "Furniture Manufacturers and Brands", description: "Furniture companies use Coohom for photorealistic product visualization and to enable retail partners to use their products in design presentations" },
+      { title: "Interior Designers", description: "Design professionals use Coohom for client presentation quality that photorealistic renders provide" },
+      { title: "Furniture Retailers", description: "Showroom retailers use Coohom for in-store design consultation and online product visualization" }
+    ]
+  },
+  "mappedin": {
+    whatIs: "Mappedin is an indoor mapping and wayfinding platform that creates digital maps of complex indoor spaces like shopping malls, airports, hospitals, and campuses. It provides the technology for building interactive indoor maps that help visitors navigate large interior spaces, find stores or services, and understand complex multi-level environments. For facilities and venue operators who want to improve visitor navigation and experience through digital wayfinding, Mappedin provides the indoor mapping infrastructure.",
+    features: [
+      "Indoor Mapping: Digital maps of complex interior spaces",
+      "Wayfinding: Turn-by-turn navigation within buildings",
+      "Multi-Level Support: Maps for multi-story buildings and complexes",
+      "Retail Integration: Store and tenant information within mall maps",
+      "Kiosk Deployment: Interactive map kiosks for physical deployment",
+      "Mobile App Integration: Wayfinding in your venue mobile app",
+      "Analytics: Understand visitor navigation patterns",
+      "API Access: Integrate indoor maps into your own applications"
+    ],
+    howToUse: {
+      title: "How to Use Mappedin",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Map Your Venue", description: "Work with Mappedin to create a digital map of your indoor space. Provide floor plans and point of interest information for accurate mapping." },
+        { title: "Configure Wayfinding", description: "Set up routing and wayfinding for your map. Add all points of interest, services, and destinations visitors need to find." },
+        { title: "Deploy Your Map", description: "Deploy your interactive map through kiosks, your website, or mobile app. Enable visitors to navigate your venue confidently." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Navigation Complexity", description: "Large indoor spaces with multiple floors, wings, and hundreds of stores are genuinely difficult to navigate. Digital wayfinding that provides clear directions improves visitor experience significantly" },
+      { title: "Retail Performance", description: "Shoppers who can find the stores and products they are looking for spend more and visit more frequently than those who get frustrated and leave" },
+      { title: "Operational Efficiency", description: "Staff who spend less time giving directions to lost visitors have more capacity for their actual responsibilities" },
+      { title: "Data Intelligence", description: "Analytics on how visitors navigate a space reveal traffic patterns that inform retail placement, signage decisions, and operational improvements" }
+    ],
+    useCases: [
+      { title: "Shopping Mall Operators", description: "Mall management companies use Mappedin for digital wayfinding that improves shopper navigation and retail performance" },
+      { title: "Airports and Transportation Hubs", description: "Complex transportation facilities use Mappedin for passenger wayfinding that reduces stress and improves flow" },
+      { title: "Hospitals and Healthcare Campuses", description: "Medical facilities use Mappedin for patient and visitor wayfinding in complex buildings where finding the right department matters" }
+    ]
+  },
+  "getfloorplan": {
+    whatIs: "GetFloorPlan is an AI-powered floor plan creation service that converts photos and sketches of properties into professional 2D and 3D floor plans. It uses AI to recognize room layouts from photographs and produces clean, accurate floor plan diagrams with dimensions suitable for real estate listings, architectural documentation, and property marketing. For real estate agents, property managers, and architects who need professional floor plans quickly, GetFloorPlan provides fast, accurate floor plan creation from simple inputs.",
+    features: [
+      "Photo to Floor Plan: Convert property photos into professional floor plans",
+      "2D and 3D Output: Both flat and three-dimensional floor plan formats",
+      "AI Recognition: Automatic room and feature recognition from photos",
+      "Accurate Dimensions: Precise room measurements in generated plans",
+      "Real Estate Format: Plans formatted for property listings",
+      "Fast Turnaround: Professional floor plans in hours not days",
+      "Multiple Formats: Export in various file formats for different uses",
+      "Free Trial: Try floor plan creation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Getfloorplan",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Photos", description: "Sign up at getfloorplan.com and upload photos of each room in the property. Include photos that capture room dimensions and layout clearly." },
+        { title: "Review Generated Plan", description: "GetFloorPlan produces a professional floor plan from your photos. Review the layout for accuracy and request any corrections needed." },
+        { title: "Download and Use", description: "Download your finished floor plan in the format you need for your real estate listing, architectural documentation, or property marketing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real Estate Listing Quality", description: "Properties with professional floor plans in their listings attract more serious buyers and higher offers than those with photos only" },
+      { title: "Speed vs Traditional", description: "Traditional floor plan creation by surveyors takes days and costs significant fees. AI-powered creation from photos delivers comparable quality in hours at lower cost" },
+      { title: "Remote Property Documentation", description: "Property managers and owners who need floor plans for properties they are not physically present at can use photo-based creation for remote documentation" },
+      { title: "Marketing Material Quality", description: "Professional floor plans that clearly show property layout and dimensions communicate property value more effectively than photos alone" }
+    ],
+    useCases: [
+      { title: "Real Estate Agents", description: "Property agents use GetFloorPlan for listing floor plans that attract more qualified buyer inquiries" },
+      { title: "Property Managers", description: "Rental property managers use GetFloorPlan for property documentation and marketing materials" },
+      { title: "Architects and Designers", description: "Design professionals use GetFloorPlan for quick as-built documentation of existing spaces" }
+    ]
+  },
   "solobuildpad": {
     whatIs: "SoloBuildpad is a platform for solo founders and indie hackers that provides resources, community, and tools for building products independently. It offers a structured environment for solo builders to track their progress, get accountability, and connect with other independent builders working on their own projects. For solo founders who work alone but want the motivation, accountability, and community that team environments provide, SoloBuildpad offers the infrastructure for independent building.",
     features: [
