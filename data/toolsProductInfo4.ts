@@ -1,4 +1,235 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "arcadium": {
+    whatIs: "Arcadium is an AI interior design platform that creates photorealistic room design concepts from style preferences and space photos. It generates complete room makeovers showing how spaces would look with different furniture arrangements, color schemes, and design styles. For homeowners who want to explore dramatic interior transformations before committing to renovation costs, Arcadium provides AI-powered design visualization.",
+    features: [
+      "Room Makeover Visualization: Complete room transformation concepts",
+      "Style Selection: Choose from various interior design aesthetics",
+      "Photo-Based: Upload your room photos for personalized designs",
+      "Realistic Rendering: Photorealistic design visualization output",
+      "Multiple Concepts: Generate several different design directions",
+      "Furniture and Decor: Complete furnishing recommendations in designs",
+      "Color Coordination: Coordinated color schemes in generated designs",
+      "Free to Try: Basic design generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Arcadium",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Space", description: "Sign up at arcadium.ai and upload photos of the room you want to redesign." },
+        { title: "Select Your Style", description: "Choose the design aesthetic you want to explore or describe your ideal room feeling." },
+        { title: "Review and Explore", description: "Browse the AI-generated room concepts and use them for decoration inspiration and renovation planning." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Transformation Inspiration", description: "Seeing your actual space dramatically transformed through AI visualization inspires renovation confidence and clarity" },
+      { title: "Multiple Direction Exploration", description: "Trying several design styles quickly helps homeowners identify which aesthetic direction genuinely resonates with them" },
+      { title: "Decision Foundation", description: "Concrete visual concepts provide a foundation for making renovation decisions rather than relying on abstract imagination" },
+      { title: "Communication Tool", description: "Design visualizations help homeowners communicate their vision clearly to contractors and designers" }
+    ],
+    useCases: [
+      { title: "Homeowners Planning Renovations", description: "People considering interior updates use Arcadium for design direction visualization" },
+      { title: "Decoration Enthusiasts", description: "Home design enthusiasts use Arcadium for creative exploration of different interior aesthetics" },
+      { title: "Short-Term Rental Owners", description: "Vacation rental operators use Arcadium for design ideas that create appealing guest spaces" }
+    ]
+  },
+  "renovate-ai": {
+    whatIs: "Renovate AI is an AI home renovation planning platform that helps homeowners plan, visualize, and estimate home renovation projects. It generates renovation concepts from photos, provides rough cost estimates for different renovation scopes, and helps homeowners understand what is involved in various renovation projects. For homeowners considering renovations who want to understand costs and visualize outcomes before engaging contractors, Renovate AI provides accessible renovation intelligence.",
+    features: [
+      "Renovation Visualization: See how renovations would transform your space",
+      "Cost Estimation: Rough cost ranges for different renovation scopes",
+      "Project Planning: Understand what is involved in renovation projects",
+      "Before and After: Clear visualization of renovation outcomes",
+      "Multiple Scopes: Options from minor updates to major renovations",
+      "Contractor Preparation: Information for productive contractor conversations",
+      "Photo-Based Analysis: Personalized insights from your space photos",
+      "Free to Try: Basic renovation planning without payment"
+    ],
+    howToUse: {
+      title: "How to Use Renovate Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Space", description: "Sign up at renovate.ai and upload photos of the space you are considering renovating." },
+        { title: "Define Your Goals", description: "Describe what you want to achieve with the renovation and your approximate budget range." },
+        { title: "Review Renovation Options", description: "Renovate AI generates renovation concepts with rough cost estimates. Review the options to understand what different investment levels would achieve." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cost Reality Check", description: "Homeowners who do not understand renovation costs are regularly surprised by contractor quotes. Rough cost ranges before contractor engagement set realistic expectations" },
+      { title: "Scope Definition", description: "Understanding the difference between cosmetic updates and structural renovations helps homeowners define what they actually want and budget appropriately" },
+      { title: "Contractor Productivity", description: "Homeowners who arrive at contractor meetings with clear renovation concepts and realistic budget expectations have more productive conversations" },
+      { title: "Investment Decision", description: "Understanding what a renovation would look like and roughly cost helps homeowners decide whether the investment is worthwhile for their goals" }
+    ],
+    useCases: [
+      { title: "Homeowners Considering Renovations", description: "People exploring renovation possibilities use Renovate AI to understand costs and visualize outcomes before committing" },
+      { title: "First-Time Renovators", description: "People undertaking their first renovation use Renovate AI to understand what is involved before engaging contractors" },
+      { title: "Budget-Planning Homeowners", description: "People trying to understand how renovation budget translates to outcomes use Renovate AI for rough cost guidance" }
+    ]
+  },
+  "ai-garden-design": {
+    whatIs: "AI Garden Design by Ogrovision is an AI-powered garden and landscape design tool that creates personalized garden design concepts from property photos and style preferences. It generates realistic visualizations of transformed outdoor spaces with planting schemes, hardscape elements, and landscape features. For homeowners who want to transform their garden or landscape but need design guidance and visualization, AI Garden Design provides accessible AI-powered outdoor design.",
+    features: [
+      "Garden Design Generation: AI-created garden concepts from your space",
+      "Planting Schemes: Plant selection and arrangement recommendations",
+      "Hardscape Integration: Patio, path, and structure design elements",
+      "Style Variety: Formal, cottage, contemporary, and other garden styles",
+      "Realistic Visualization: Photorealistic garden transformation images",
+      "Seasonal Planning: Designs that consider year-round interest",
+      "Plant Recommendations: Specific plant suggestions for your climate",
+      "Free to Try: Basic garden design without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Garden Design",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Garden Photo", description: "Sign up and upload photos of your current outdoor space. Include photos from different angles to capture the full garden area." },
+        { title: "Describe Your Vision", description: "Tell the AI about your garden goals, preferred style, how you want to use the space, and any plants or features you particularly want." },
+        { title: "Explore Design Concepts", description: "Review the AI-generated garden design concepts. Use the planting and hardscape recommendations as a guide for your actual garden project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Garden Transformation Visualization", description: "Imagining how a bare or neglected garden could look with professional planting is difficult. Realistic visualization that shows the transformation possibility inspires garden investment" },
+      { title: "Planting Knowledge Gap", description: "Most homeowners lack the plant knowledge to design effective planting schemes. AI recommendations that consider plant combinations, growth habits, and seasonal interest fill this knowledge gap" },
+      { title: "Project Communication", description: "Garden design concepts give landscape contractors a clear starting point that produces more accurate quotes and reduces design back-and-forth" },
+      { title: "Seasonal Planning", description: "Effective gardens provide interest across seasons. AI design that incorporates seasonal planning produces better long-term results than impulse plant purchases" }
+    ],
+    useCases: [
+      { title: "Homeowners Planning Garden Projects", description: "People wanting to improve their gardens use AI Garden Design for planning and visualization before hiring landscapers" },
+      { title: "Garden Enthusiasts", description: "People who enjoy gardening use the tool for design guidance and planting inspiration" },
+      { title: "Property Sellers", description: "Homeowners use garden design visualization to identify landscape improvements that would enhance property appeal" }
+    ]
+  },
+  "ai-room-planner": {
+    whatIs: "AI Room Planner is an AI-powered room layout and furniture arrangement tool that helps homeowners optimize furniture placement and room flow. It analyzes room dimensions and furniture requirements to generate optimal layout options that maximize both functionality and aesthetic appeal. For people who struggle with furniture arrangement or are setting up a new space, AI Room Planner provides data-informed layout recommendations.",
+    features: [
+      "Room Layout Generation: Optimal furniture arrangement recommendations",
+      "Dimension-Based Planning: Layouts based on accurate room measurements",
+      "Traffic Flow Optimization: Arrangements that allow comfortable movement",
+      "Multiple Layouts: Several different furniture arrangement options",
+      "Furniture Sizing: Recommendations for appropriate furniture dimensions",
+      "Functional Zones: Defined activity areas within open plan spaces",
+      "Visual Output: Clear diagrams of recommended layouts",
+      "Free to Use: Basic room planning without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Room Planner",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Room Dimensions", description: "Sign up at airoomplan.com and enter your room dimensions and door and window locations accurately." },
+        { title: "Specify Your Furniture", description: "List the furniture pieces you need to accommodate or let the tool recommend appropriate pieces for your space and needs." },
+        { title: "Review Layout Options", description: "AI Room Planner generates multiple furniture arrangement options. Review each for functionality, traffic flow, and aesthetic balance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Spatial Intelligence", description: "Most people struggle to visualize furniture arrangements in empty spaces. AI that generates multiple tested layouts solves this common spatial reasoning challenge" },
+      { title: "Traffic Flow Optimization", description: "Furniture arrangements that look good in isolation can create uncomfortable or impractical traffic flow. Optimization that considers movement through the space produces more livable arrangements" },
+      { title: "Furniture Sizing Guidance", description: "Furniture that is proportionally wrong for a room size is one of the most common decorating mistakes. Size recommendations that fit the specific room dimensions prevent this" },
+      { title: "Moving Efficiency", description: "Knowing the optimal furniture arrangement before moving day prevents the physical exhaustion of multiple rearrangements" }
+    ],
+    useCases: [
+      { title: "People Moving Into New Spaces", description: "Anyone setting up a new home or apartment uses AI Room Planner for optimal furniture arrangement before moving in" },
+      { title: "Renovation Planners", description: "Homeowners reconfiguring rooms during renovation use the tool to optimize the new layout" },
+      { title: "Furniture Shoppers", description: "People buying furniture for a space use AI Room Planner to confirm pieces will fit and work together in their room" }
+    ]
+  },
+  "interior-ai": {
+    whatIs: "Interior AI is an AI interior design visualization tool that transforms photos of rooms into professionally designed spaces using different interior design styles. It applies photorealistic design transformations to room photos, showing users what their spaces would look like with different furniture, decor, paint, and design approaches. For homeowners and design enthusiasts who want to explore interior design possibilities for their actual spaces, Interior AI provides instant design transformation visualization.",
+    features: [
+      "Room Style Transformation: Apply different design styles to room photos",
+      "Photorealistic Output: High-quality realistic design visualization",
+      "Multiple Styles: Dozens of interior design aesthetics available",
+      "Instant Results: Transformed room images produced quickly",
+      "Photo Upload: Works with standard smartphone room photos",
+      "Design Exploration: Try many styles without commitment",
+      "Inspiration Generation: Discover unexpected design directions",
+      "Free Credits: Try room transformation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Interior Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Photograph Your Room", description: "Take clear photos of the room you want to redesign. Multiple angles help capture the full space for the best transformation results." },
+        { title: "Select Your Style", description: "Upload your photo to interiorai.com and choose from the available design styles. Try multiple styles to compare different directions." },
+        { title: "Use the Results", description: "Review the transformed room images for design inspiration. Use the visualizations to guide actual renovation and decoration decisions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Instant Transformation", description: "Seeing your exact room transformed into different design styles provides more relevant inspiration than looking at generic room photos in design magazines" },
+      { title: "Style Discovery", description: "Trying ten different design styles on your actual room in minutes reveals which aesthetic directions genuinely work in your specific space" },
+      { title: "Renovation Motivation", description: "Seeing the dramatic improvement possible through a redesign motivates homeowners to make renovation investments they might otherwise hesitate on" },
+      { title: "Low-Commitment Exploration", description: "Exploring design directions virtually costs nothing and carries no obligation, making creative exploration much more accessible than physical trial and error" }
+    ],
+    useCases: [
+      { title: "Homeowners Wanting Design Inspiration", description: "People considering room updates use Interior AI for style direction visualization" },
+      { title: "Interior Design Students", description: "Design students use AI visualization tools for learning and inspiration" },
+      { title: "Real Estate Stagers", description: "Staging professionals use Interior AI to visualize staging concepts for properties" }
+    ]
+  },
+  "luw-ai": {
+    whatIs: "Luw.ai is an AI interior design platform that generates personalized room design concepts based on your style preferences and existing space. It creates complete design recommendations including furniture, colors, materials, and decor that work together as a cohesive design scheme. For people who want professional interior design guidance without designer fees, Luw.ai provides AI-powered complete room design.",
+    features: [
+      "Personalized Design: Room concepts based on your preferences",
+      "Complete Schemes: Furniture, color, material, and decor coordinated together",
+      "Style Matching: Designs aligned with your aesthetic preferences",
+      "Room-Specific: Different concepts for every room type",
+      "Realistic Visualization: See your designed room before implementation",
+      "Shopping Guidance: Product recommendations to achieve the design",
+      "Iteration Support: Refine concepts until they match your vision",
+      "Free to Try: Basic design generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Luw Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Share Your Preferences", description: "Sign up at luw.ai and describe your style preferences, how you use the room, and any specific requirements or constraints." },
+        { title: "Review Design Concepts", description: "Luw.ai generates complete room design concepts with all elements coordinated. Review the furniture, color, and material recommendations." },
+        { title: "Refine and Implement", description: "Adjust the concepts based on your feedback until they match your vision. Use the recommendations as a shopping and implementation guide." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Coordination Intelligence", description: "Choosing furniture, colors, and decor individually without understanding how they work together produces rooms that feel disconnected. Complete coordinated designs solve this fundamental challenge" },
+      { title: "Professional Quality Access", description: "Interior designers who create coordinated complete room concepts charge thousands in fees. AI that produces comparable output makes this quality accessible to anyone" },
+      { title: "Decision Simplification", description: "Complete design packages that include all the decisions reduce the paralysis of too many individual choices" },
+      { title: "Implementation Clarity", description: "Having a clear complete design to implement is more actionable than vague inspiration or isolated product recommendations" }
+    ],
+    useCases: [
+      { title: "Homeowners Setting Up Spaces", description: "People furnishing and decorating new or renovated rooms use Luw.ai for complete design guidance" },
+      { title: "People Unsatisfied with Current Interiors", description: "Homeowners who feel their spaces do not reflect their taste use Luw.ai for professional-quality redesign direction" },
+      { title: "Budget-Conscious Decorators", description: "People who want professional design quality without designer fees use Luw.ai for accessible AI design guidance" }
+    ]
+  },
+  "room-ai": {
+    whatIs: "Room AI is an AI room design and visualization platform that generates redesigned room concepts from photos using artificial intelligence. It creates realistic before-and-after transformations showing how rooms would look with different furniture, decor, and design styles applied. For homeowners who want to visualize their rooms redesigned before spending money on actual changes, Room AI provides accessible AI-powered room transformation.",
+    features: [
+      "Room Transformation: AI-generated room redesign from your photos",
+      "Style Options: Multiple interior design styles available",
+      "Realistic Visualization: Photorealistic before and after images",
+      "Quick Generation: Redesigned room images produced rapidly",
+      "Multiple Variations: Generate several different design options",
+      "Style Exploration: Try different aesthetics on your actual space",
+      "Inspiration Tool: Discover design possibilities you had not considered",
+      "Free Credits: Try room redesign before purchasing more credits"
+    ],
+    howToUse: {
+      title: "How to Use Room Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Room Photo", description: "Go to room.ai and upload a photo of the room you want to redesign. Clear photos in good lighting produce the best transformation results." },
+        { title: "Choose Your Design Direction", description: "Select from available design styles or describe the aesthetic you want to explore for your room." },
+        { title: "Review Your Redesigns", description: "Room AI generates redesigned versions of your room. Review the different design options and use them for renovation and decoration planning." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photo-Based Relevance", description: "Generic design inspiration from magazines shows rooms that are not your space. AI transformation that works with your actual room provides more relevant and actionable visualization" },
+      { title: "Rapid Style Testing", description: "Testing multiple design directions virtually in minutes is dramatically faster than physically moving furniture or repainting walls to see if a direction works" },
+      { title: "Commitment Reduction", description: "Seeing a realistic visualization before spending any money reduces the anxiety of major design decisions" },
+      { title: "Contractor Briefing", description: "Before-and-after visualizations help homeowners brief contractors and designers on their desired direction more effectively than verbal descriptions" }
+    ],
+    useCases: [
+      { title: "Homeowners Planning Design Changes", description: "People considering room updates use Room AI for design direction clarity before spending money" },
+      { title: "Interior Design Explorers", description: "People curious about different design possibilities for their spaces use Room AI for creative exploration" },
+      { title: "Property Managers", description: "Rental property owners use Room AI for design ideas that improve property appeal and rental value" }
+    ]
+  },
   "roomgpt": {
     whatIs: "RoomGPT is an AI room redesign tool that transforms photos of existing rooms into stunning redesigned versions using different interior design styles. Users upload a photo of their current room and select a design style and RoomGPT generates multiple photorealistic versions showing how the room would look with a complete redesign. For homeowners who want design inspiration and visualization without hiring an interior designer, RoomGPT provides instant AI-powered room transformation images.",
     features: [
