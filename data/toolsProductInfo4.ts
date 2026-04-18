@@ -1,4 +1,268 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "skinive": {
+    whatIs: "Skinive is an AI-powered skin analysis app that uses computer vision to analyze photos of skin conditions and provide preliminary assessments of moles, rashes, and other dermatological concerns. Users photograph their skin and the AI evaluates the image against a database of skin conditions to provide information about what the condition might be and whether professional evaluation is recommended. For people who want a quick preliminary assessment of a skin concern before deciding whether to see a dermatologist, Skinive provides accessible skin intelligence that helps prioritize medical attention.",
+    features: [
+      "Skin Condition Analysis: AI evaluation of photographed skin conditions",
+      "Mole Assessment: Analysis of moles for concerning characteristics",
+      "Rash Identification: Information about common skin rash types",
+      "Risk Indicators: Flags conditions that warrant professional evaluation",
+      "Photo-Based: Analysis from smartphone camera photos",
+      "Dermatology Database: Trained on a comprehensive skin condition library",
+      "Follow-Up Guidance: Recommendations for next steps based on analysis",
+      "Free to Try: Basic skin analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Skinive",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Photograph Your Skin", description: "Download Skinive and photograph the skin area you want to analyze. Take clear close-up photos in good lighting for the most accurate analysis." },
+        { title: "Review the Analysis", description: "Skinive evaluates your photo and provides information about what the condition might be and its characteristics. Review the risk indicators and recommendations." },
+        { title: "Follow the Guidance", description: "Use the analysis as a starting point for your next steps. If the app flags concerning characteristics, use that information to prioritize scheduling a dermatologist appointment." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Access Before Appointment", description: "Getting a preliminary assessment before deciding whether to see a dermatologist helps people make more informed decisions about when professional care is actually needed" },
+      { title: "Mole Monitoring", description: "Tracking changes in moles over time with consistent photo analysis helps identify changes that warrant professional attention earlier" },
+      { title: "Health Anxiety Reduction", description: "People worried about skin conditions often experience significant anxiety waiting to see a doctor. A preliminary assessment that provides some information reduces this uncertainty" },
+      { title: "Triage Value", description: "Understanding which skin concerns are potentially more serious helps people prioritize limited healthcare time and resources appropriately" }
+    ],
+    useCases: [
+      { title: "People with Skin Concerns", description: "Individuals with moles or skin changes use Skinive for preliminary assessment before deciding whether to see a dermatologist" },
+      { title: "People in Areas with Limited Dermatology Access", description: "Those without easy access to dermatologists use Skinive for initial skin evaluation" },
+      { title: "Health-Conscious Individuals", description: "People who monitor their health proactively use Skinive for regular skin screening" }
+    ]
+  },
+  "eczemaless": {
+    whatIs: "Eczemaless is an AI-powered eczema management app that helps people with eczema track their condition, identify triggers, and manage their symptoms more effectively. It uses AI to analyze symptom patterns, correlate flare-ups with potential triggers like diet, weather, and stress, and provide personalized management recommendations. For eczema sufferers who struggle to identify what triggers their flare-ups and want a systematic approach to managing their chronic condition, Eczemaless provides the tracking and intelligence that improves long-term management.",
+    features: [
+      "Symptom Tracking: Log eczema symptoms and flare-up severity over time",
+      "Trigger Identification: AI analysis of correlations between triggers and flare-ups",
+      "Treatment Tracking: Monitor the effectiveness of different treatments",
+      "Environmental Data: Correlate symptoms with weather and environmental factors",
+      "Diet Tracking: Identify food triggers through dietary logging",
+      "Progress Reports: Track improvement over time",
+      "Doctor Reports: Generate reports to share with healthcare providers",
+      "Free to Try: Basic eczema tracking without payment"
+    ],
+    howToUse: {
+      title: "How to Use Eczemaless",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Download Eczemaless and create your profile with your eczema history, current treatments, and known triggers." },
+        { title: "Log Daily", description: "Record your symptoms, severity, diet, stress levels, and any other relevant factors daily. Consistency in logging produces more reliable trigger analysis." },
+        { title: "Review Your Insights", description: "Check the AI analysis for correlations between your logged factors and flare-up patterns. Use these insights to modify your habits and discuss findings with your dermatologist." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Trigger Mystery Solution", description: "Identifying personal eczema triggers is one of the hardest challenges because flare-ups often occur days after exposure. AI that analyzes patterns across weeks of data finds correlations that self-observation misses" },
+      { title: "Chronic Condition Management", description: "Eczema requires long-term management rather than one-time treatment. Systematic tracking that identifies patterns improves management over months and years" },
+      { title: "Doctor Communication", description: "Bringing organized data and AI-identified patterns to dermatologist appointments produces more productive consultations than verbal symptom descriptions" },
+      { title: "Treatment Effectiveness", description: "Understanding which treatments correlate with improvement helps patients and doctors make better treatment decisions based on individual response data" }
+    ],
+    useCases: [
+      { title: "Adults with Chronic Eczema", description: "People managing long-term eczema use Eczemaless for systematic trigger identification and symptom management" },
+      { title: "Parents of Children with Eczema", description: "Parents tracking their children eczema use the app to identify patterns and communicate effectively with pediatric dermatologists" },
+      { title: "People Starting New Treatments", description: "Eczema patients trying new treatments use the tracking to objectively assess whether the treatment is producing improvement" }
+    ]
+  },
+  "skincarelens": {
+    whatIs: "SkinCareLens is an AI skin analysis app that evaluates your skin through selfie photos and provides personalized skincare recommendations based on your skin type, concerns, and conditions. It analyzes skin texture, hydration, pores, wrinkles, and other characteristics to build a skin profile and recommend appropriate skincare products and routines. For people who want a personalized skincare approach based on their actual skin analysis rather than generic advice, SkinCareLens provides AI-powered skincare intelligence.",
+    features: [
+      "Skin Analysis: AI evaluation of skin type and condition from selfies",
+      "Personalized Recommendations: Skincare routine suggestions based on your analysis",
+      "Product Matching: Product recommendations suited to your skin profile",
+      "Progress Tracking: Monitor skin improvements over time",
+      "Multiple Skin Concerns: Analysis of wrinkles, pores, hydration, and more",
+      "Routine Builder: Step-by-step skincare routine guidance",
+      "Ingredient Analysis: Understand which ingredients work for your skin",
+      "Free to Try: Basic skin analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Skincarelens",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Take Your Selfie", description: "Download SkinCareLens and take a clear selfie in good natural lighting. The app analyzes multiple skin characteristics from the photo." },
+        { title: "Review Your Skin Profile", description: "Read your detailed skin analysis covering skin type, hydration levels, texture, and specific concerns. Understand what your skin actually needs." },
+        { title: "Follow Your Personalized Routine", description: "Use the recommended routine and products based on your specific skin profile. Track your progress with regular selfie analyses." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization Over Generic Advice", description: "Generic skincare advice that applies to everyone produces mediocre results for most people. Analysis of your actual skin characteristics produces more relevant recommendations" },
+      { title: "Objective Skin Assessment", description: "Perceiving your own skin objectively is difficult. AI analysis that identifies characteristics you might not notice provides a more accurate foundation for skincare decisions" },
+      { title: "Product Waste Reduction", description: "Buying skincare products that are wrong for your skin type wastes money. Analysis-based product matching improves the likelihood that recommended products work for you" },
+      { title: "Progress Visibility", description: "Tracking skin changes over time with consistent analysis makes improvements visible that are hard to perceive day to day" }
+    ],
+    useCases: [
+      { title: "Skincare Enthusiasts", description: "People invested in their skincare routine use SkinCareLens for objective analysis and personalized guidance" },
+      { title: "People New to Skincare", description: "Those building their first skincare routine use SkinCareLens for a starting point based on their actual skin type" },
+      { title: "People with Specific Skin Concerns", description: "Those dealing with acne, aging, or hyperpigmentation use SkinCareLens for targeted recommendations for their specific issues" }
+    ]
+  },
+  "regrow-ai": {
+    whatIs: "Regrow AI is an agricultural intelligence platform that uses satellite imagery and AI to provide crop monitoring, sustainability analysis, and carbon measurement for agricultural operations. It helps farmers and agricultural businesses understand crop health, measure carbon sequestration, and document sustainable practices for compliance and carbon market participation. For large-scale agricultural operations that want to quantify their environmental impact and participate in carbon markets, Regrow AI provides the measurement and verification infrastructure.",
+    features: [
+      "Crop Monitoring: Satellite-based crop health and yield analysis",
+      "Carbon Measurement: Quantify carbon sequestration in agricultural soil",
+      "Sustainability Reporting: Document sustainable farming practices",
+      "Carbon Market Support: Generate verified carbon credits from farming practices",
+      "Soil Health Analysis: Understand soil carbon and health metrics",
+      "Field Analytics: Detailed analytics for individual fields",
+      "Compliance Documentation: Evidence for sustainability requirements",
+      "Enterprise Focus: Built for large-scale agricultural operations"
+    ],
+    howToUse: {
+      title: "How to Use Regrow Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Fields", description: "Work with Regrow to connect your field data and satellite imagery coverage. The platform begins monitoring your agricultural operations." },
+        { title: "Review Crop Intelligence", description: "Access crop health analysis, growth monitoring, and yield projections from satellite data processed by AI." },
+        { title: "Measure and Monetize Sustainability", description: "Use the carbon measurement tools to quantify your sustainable practices. Generate documentation for carbon market participation or sustainability reporting." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Satellite Scale", description: "Ground-based crop monitoring cannot cover large agricultural operations comprehensively. Satellite imagery that covers every field continuously provides the monitoring scale that large farms require" },
+      { title: "Carbon Market Access", description: "Agricultural carbon markets require verified measurement of carbon sequestration. AI measurement that meets verification standards enables farm participation in voluntary carbon markets" },
+      { title: "Sustainability Documentation", description: "Food companies and retailers increasingly require sustainability documentation from their agricultural suppliers. Regrow AI provides the evidence that meets these requirements" },
+      { title: "Data-Driven Agronomy", description: "Farming decisions informed by objective satellite data and AI analysis produce better outcomes than decisions based on visual field inspection alone" }
+    ],
+    useCases: [
+      { title: "Large Agricultural Operations", description: "Commercial farms use Regrow AI for comprehensive crop monitoring across their large land holdings" },
+      { title: "Agricultural Carbon Programs", description: "Farming operations participating in carbon markets use Regrow AI for the measurement and verification their participation requires" },
+      { title: "Food Companies with Supplier Sustainability Requirements", description: "Agricultural suppliers to sustainability-focused food companies use Regrow AI for the documentation their customers require" }
+    ]
+  },
+  "face-gpt": {
+    whatIs: "FaceGPT is an AI facial analysis tool that evaluates face photos and provides insights about facial characteristics, symmetry, and aesthetic features. It uses computer vision to analyze facial structure, proportions, and other characteristics, providing users with detailed facial analysis. For people curious about their facial characteristics or exploring aesthetic considerations, FaceGPT provides AI-powered facial analysis in an accessible format.",
+    features: [
+      "Facial Analysis: Comprehensive AI evaluation of facial characteristics",
+      "Symmetry Assessment: Analysis of facial symmetry and balance",
+      "Feature Analysis: Detailed evaluation of individual facial features",
+      "Proportion Analysis: Facial proportion and harmony assessment",
+      "Photo-Based: Analysis from uploaded photos",
+      "Multiple Metrics: Various facial characteristic measurements",
+      "Fast Analysis: Results delivered quickly",
+      "Free to Try: Basic facial analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Face Gpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to FaceGPT and upload a clear front-facing photo. Good lighting and a neutral expression produce the most accurate analysis." },
+        { title: "Review Your Analysis", description: "FaceGPT provides a detailed analysis of your facial characteristics including symmetry, proportions, and feature assessment." },
+        { title: "Explore the Insights", description: "Use the analysis for whatever purpose brought you to the tool - curiosity, aesthetic exploration, or personal interest in your facial characteristics." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Curiosity Satisfaction", description: "Many people are curious about their facial characteristics and how they compare to various aesthetic standards. AI analysis satisfies this curiosity with objective measurement" },
+      { title: "Symmetry Intelligence", description: "Facial symmetry is an interesting characteristic that is difficult to perceive accurately about oneself. Objective measurement provides information that self-observation cannot" },
+      { title: "Accessibility", description: "Professional facial analysis has traditionally required consultation with specialists. AI analysis that provides similar insights instantly and affordably makes this information accessible" },
+      { title: "Personal Exploration", description: "People exploring their appearance for personal interest use FaceGPT for the detailed analysis that goes beyond what mirrors reveal" }
+    ],
+    useCases: [
+      { title: "Curious Individuals", description: "People interested in understanding their facial characteristics use FaceGPT for objective AI analysis" },
+      { title: "People Exploring Aesthetic Considerations", description: "Individuals considering aesthetic procedures use FaceGPT for baseline facial analysis" },
+      { title: "Self-Improvement Enthusiasts", description: "People interested in personal development and self-understanding use FaceGPT as one tool for self-awareness" }
+    ]
+  },
+  "carepatron": {
+    whatIs: "Carepatron is a healthcare practice management platform that helps healthcare practitioners manage their practice operations including appointment scheduling, client records, billing, and telehealth. It combines the administrative tools that healthcare practices need to run efficiently with clinical documentation features and a client portal. For independent healthcare practitioners and small practices that want to manage their entire practice from one platform, Carepatron provides the integrated practice management that reduces administrative overhead.",
+    features: [
+      "Appointment Scheduling: Online booking and calendar management",
+      "Client Records: Electronic health records and clinical documentation",
+      "Billing and Invoicing: Practice billing and payment collection",
+      "Telehealth: Built-in video consultation capability",
+      "Client Portal: Patient-facing portal for records and communication",
+      "Document Templates: Clinical documentation templates",
+      "Practice Analytics: Performance and revenue reporting",
+      "Free Plan: Basic practice management without payment"
+    ],
+    howToUse: {
+      title: "How to Use Carepatron",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Practice", description: "Sign up at carepatron.com and configure your practice profile, services, and scheduling preferences. Set up your practitioner profile and availability." },
+        { title: "Onboard Your Clients", description: "Add your existing clients to the system and send them portal invitations. New clients book appointments online through your booking page." },
+        { title: "Run Your Practice", description: "Use Carepatron for daily practice operations - appointments, clinical notes, billing, and client communication from one integrated platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "All-in-One Practice Management", description: "Using separate tools for scheduling, records, billing, and telehealth creates workflow fragmentation and data silos. Integrated practice management that connects all these functions improves efficiency" },
+      { title: "Administrative Burden Reduction", description: "Healthcare practitioners who spend less time on administrative tasks have more capacity for patient care - the reason most people enter healthcare in the first place" },
+      { title: "Client Experience", description: "A professional booking system and client portal creates a better patient experience than phone-only scheduling and paper records" },
+      { title: "Free Tier Access", description: "Small practices and solo practitioners who cannot justify expensive practice management software use Carepatron for professional practice management at accessible cost" }
+    ],
+    useCases: [
+      { title: "Independent Healthcare Practitioners", description: "Solo practitioners in psychology, physiotherapy, nutrition, and other health fields use Carepatron for complete practice management" },
+      { title: "Small Healthcare Practices", description: "Small multi-practitioner practices use Carepatron for the integrated management that keeps their operations organized" },
+      { title: "Allied Health Professionals", description: "Physiotherapists, occupational therapists, and other allied health practitioners use Carepatron for discipline-specific practice management" }
+    ]
+  },
+  "dr-oracle": {
+    whatIs: "Dr. Oracle is an AI medical information platform that answers health questions using medical knowledge to provide accurate, evidence-based health information. It helps users understand symptoms, conditions, medications, and health concerns in clear language without requiring medical expertise to interpret. For people who want reliable medical information beyond what general internet searches provide, Dr. Oracle offers AI-powered health intelligence that is more accurate and nuanced than typical health websites.",
+    features: [
+      "Medical Q&A: Answer health questions with evidence-based information",
+      "Symptom Information: Detailed information about symptoms and their possible causes",
+      "Condition Education: Comprehensive information about medical conditions",
+      "Medication Information: Details about medications, uses, and interactions",
+      "Treatment Options: Overview of treatment approaches for various conditions",
+      "When to Seek Care: Guidance on when professional medical attention is appropriate",
+      "Trusted Sources: Information grounded in medical literature",
+      "Free to Use: Basic medical information without payment"
+    ],
+    howToUse: {
+      title: "How to Use Dr Oracle",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Health Question", description: "Go to Dr. Oracle and ask your health question in plain language. Be specific about your symptoms, concerns, or the information you need." },
+        { title: "Review the Medical Information", description: "Dr. Oracle provides evidence-based information about your question with clear explanations appropriate for a non-medical audience." },
+        { title: "Apply to Your Situation", description: "Use the information to better understand your health situation and make more informed decisions about seeking professional care." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Quality Over Search Results", description: "General internet searches for health information return varying quality results. Dr. Oracle provides consistently accurate, evidence-based information that is more reliable than random web results" },
+      { title: "Plain Language Medical Education", description: "Medical information written for professionals is hard for patients to understand. Clear language explanations that maintain accuracy make medical knowledge genuinely accessible" },
+      { title: "Informed Healthcare Navigation", description: "Patients who understand their conditions and treatment options have more productive doctor conversations and make better healthcare decisions" },
+      { title: "Appropriate Care Seeking", description: "Understanding when symptoms warrant immediate attention versus monitoring helps people seek care at the right time rather than too late or unnecessarily" }
+    ],
+    useCases: [
+      { title: "People with Health Questions", description: "Individuals with questions about symptoms, conditions, or medications use Dr. Oracle for reliable medical information" },
+      { title: "Patients Preparing for Doctor Visits", description: "People preparing for medical appointments use Dr. Oracle to understand their conditions and formulate better questions for their doctors" },
+      { title: "Caregivers", description: "Family members caring for sick relatives use Dr. Oracle to understand the conditions and treatments their loved ones are dealing with" }
+    ]
+  },
+  "glass-health": {
+    whatIs: "Glass Health is an AI clinical decision support platform that assists healthcare providers with diagnosis and treatment planning. It uses AI to suggest differential diagnoses, recommend relevant clinical guidelines, and help physicians think through complex cases. The platform is designed to augment physician decision-making by surfacing relevant clinical information and helping ensure thorough consideration of diagnostic possibilities. For clinicians who want AI assistance that improves diagnostic accuracy and ensures evidence-based treatment planning, Glass Health provides clinical intelligence at the point of care.",
+    features: [
+      "Differential Diagnosis: AI-suggested diagnostic possibilities for clinical presentations",
+      "Clinical Guidelines: Relevant treatment guidelines surfaced automatically",
+      "Case Analysis: AI assistance for working through complex clinical cases",
+      "Evidence-Based Suggestions: Recommendations grounded in medical evidence",
+      "EHR Integration: Works within existing clinical workflows",
+      "Physician-Focused: Designed for clinical professional use",
+      "Multiple Specialties: Coverage across medical specialties",
+      "Free Trial: Try Glass Health before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Glass Health",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Present Your Case", description: "Sign up at glass.health and enter the clinical presentation - symptoms, history, and relevant findings. Glass Health generates diagnostic suggestions and relevant guidelines." },
+        { title: "Review Differential Diagnoses", description: "Examine the suggested differential diagnoses and the clinical reasoning behind each. Use the suggestions to ensure thorough consideration of diagnostic possibilities." },
+        { title: "Access Guidelines", description: "Review the relevant clinical guidelines surfaced for your case. Ensure your treatment plan aligns with current evidence-based recommendations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Diagnostic Completeness", description: "Physicians working quickly under time pressure may not consider every diagnostic possibility. AI that generates comprehensive differentials reduces the risk of anchoring on the most obvious diagnosis" },
+      { title: "Guideline Currency", description: "Medical guidelines update constantly and it is impossible to stay current across all specialties. Real-time guideline surfacing ensures treatment recommendations reflect current evidence" },
+      { title: "Complex Case Support", description: "Unusual or multisystem presentations that do not fit obvious patterns benefit from AI analysis that considers a broader range of possibilities than rapid clinical pattern matching" },
+      { title: "Learning Tool", description: "Residents and physicians in training use Glass Health as an educational tool that explains the reasoning behind diagnostic suggestions" }
+    ],
+    useCases: [
+      { title: "Attending Physicians", description: "Physicians in clinical practice use Glass Health for decision support on complex cases and to verify comprehensive diagnostic consideration" },
+      { title: "Residents and Medical Trainees", description: "Medical residents use Glass Health as a learning tool that provides reasoning alongside clinical suggestions" },
+      { title: "Emergency and Urgent Care Physicians", description: "Clinicians who see undifferentiated patients use Glass Health for rapid differential diagnosis support" }
+    ]
+  },
   "n8n": {
     whatIs: "n8n is an open-source workflow automation platform that allows technical teams to build complex automations and integrations through a visual node-based interface. Unlike no-code tools, n8n is designed for developers and technical users who need the flexibility to write custom code within automation workflows, self-host their automation infrastructure, and connect to virtually any system through its extensible node library. For engineering and operations teams that need powerful automation without the vendor lock-in of SaaS automation tools, n8n provides the open-source alternative that combines visual workflow building with full technical flexibility.",
     features: [
