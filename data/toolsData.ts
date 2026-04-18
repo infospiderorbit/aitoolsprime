@@ -1626,7 +1626,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-sketch-generator": [
       { id: "autodraw-sketch", name: "AutoDraw", description: "AI sketch generation tool", url: "", upvotes: 1789, verified: true, rating: 4.8, icon: "✏️", category: "art-creative-design", subcategory: "ai-sketch-generator" },
-      { id: "mnml-ai-sketch", name: "mnml.ai", description: "Minimalist sketch AI", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "✨", category: "art-creative-design", subcategory: "ai-sketch-generator" },
       { id: "scribble-diffusion", name: "Scribble Diffusion", description: "Scribble to art AI", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🎨", category: "art-creative-design", subcategory: "ai-sketch-generator" },
       { id: "sketch-logo-ai", name: "Sketch Logo AI", description: "Logo sketch AI creator", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🏷️", category: "art-creative-design", subcategory: "ai-sketch-generator" },
       { id: "sketchedge", name: "SketchEdge", description: "Edge detection sketch AI", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "📐", category: "art-creative-design", subcategory: "ai-sketch-generator" }
@@ -2817,7 +2816,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-interior-design": [
       { id: "collov-ai", name: "Collov AI", description: "AI virtual staging and interior design platform", url: "https://collov.ai", upvotes: 456, verified: true, rating: 4.3, icon: "🏠", category: "interior-architectural-design", subcategory: "ai-interior-design" },
-      { id: "coohom-interior", name: "Coohom", description: "Complete AI interior design solution", url: "", upvotes: 1687, verified: true, rating: 4.8, icon: "🏠", category: "interior-architectural-design", subcategory: "ai-interior-design" },
       { id: "roomgpt", name: "RoomGPT", description: "AI room design and renovation tool", url: "", upvotes: 1432, verified: true, rating: 4.7, icon: "🛋️", category: "interior-architectural-design", subcategory: "ai-interior-design" },
       { id: "foyr-neo", name: "Foyr Neo", description: "Professional AI interior design platform", url: "", upvotes: 1298, verified: true, rating: 4.6, icon: "🎨", category: "interior-architectural-design", subcategory: "ai-interior-design" },
       { id: "homevisualizer-ai", name: "HomeVisualizer.AI", description: "AI-powered home visualization tool", url: "", upvotes: 1156, verified: true, rating: 4.5, icon: "👁️", category: "interior-architectural-design", subcategory: "ai-interior-design" },
@@ -2832,13 +2830,11 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-landscape-generator": [
       { id: "renovate-ai", name: "Renovate AI", description: "AI landscape design and renovation", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "🌳", category: "interior-architectural-design", subcategory: "ai-landscape-generator" },
-      { id: "dreamzar-app-landscape", name: "DreamzAR App", description: "AR landscape design application", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "📱", category: "interior-architectural-design", subcategory: "ai-landscape-generator" },
       { id: "ai-garden-design", name: "AI Garden Design by Ogrovision", description: "Professional AI garden design tool", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "🌺", category: "interior-architectural-design", subcategory: "ai-landscape-generator" },
       { id: "landscapedesignsai", name: "LandscapeDesignsAI", description: "AI-powered landscape design generator", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🏞️", category: "interior-architectural-design", subcategory: "ai-landscape-generator" },
       { id: "landscapingai", name: "LandscapingAI", description: "AI landscaping design and planning", url: "", upvotes: 754, verified: true, rating: 4.2, icon: "🌱", category: "interior-architectural-design", subcategory: "ai-landscape-generator" }
     ],
     "ai-room-planner": [
-      { id: "roomgpt-planner", name: "RoomGPT", description: "AI room planning and design tool", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🛋️", category: "interior-architectural-design", subcategory: "ai-room-planner" },
       { id: "ai-room-planner", name: "AI Room Planner", description: "Professional AI room planning platform", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "📐", category: "interior-architectural-design", subcategory: "ai-room-planner" },
       { id: "interior-ai", name: "Interior AI", description: "AI interior design and room planning", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "🏠", category: "interior-architectural-design", subcategory: "ai-room-planner" },
       { id: "luw-ai", name: "Luw.ai", description: "Smart AI room layout planner", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "💡", category: "interior-architectural-design", subcategory: "ai-room-planner" },
