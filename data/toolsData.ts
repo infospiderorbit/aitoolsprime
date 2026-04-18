@@ -2252,8 +2252,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "chaingpt", name: "ChainGPT", description: "AI blockchain and crypto assistant", url: "", upvotes: 1156, verified: true, rating: 4.2, icon: "🔗", category: "business-management", subcategory: "ai-crypto" }
     ],
     "ai-domain-name-generator": [
-      { id: "namesnack-domain", name: "NameSnack", description: "AI domain name generator and checker", url: "", upvotes: 1789, verified: true, rating: 4.6, icon: "🌐", category: "business-management", subcategory: "ai-domain-name-generator" },
-      { id: "namehassle-domain", name: "NameHassle", description: "AI domain name generator with availability", url: "", upvotes: 1543, verified: true, rating: 4.5, icon: "🎯", category: "business-management", subcategory: "ai-domain-name-generator" },
       { id: "namy-ai", name: "Namy.ai", description: "AI domain name generator and branding", url: "", upvotes: 1432, verified: true, rating: 4.4, icon: "🤖", category: "business-management", subcategory: "ai-domain-name-generator" },
       { id: "onlycoms", name: "OnlyComs", description: "AI .com domain name generator", url: "", upvotes: 1298, verified: true, rating: 4.3, icon: "🏷️", category: "business-management", subcategory: "ai-domain-name-generator" },
       { id: "brandsnap-ai", name: "BrandSnap.ai", description: "AI domain name and brand generator", url: "", upvotes: 1156, verified: true, rating: 4.2, icon: "📸", category: "business-management", subcategory: "ai-domain-name-generator" }
