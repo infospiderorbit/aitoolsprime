@@ -1,4 +1,235 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "skingenerator-io": {
+    whatIs: "SkinGenerator.io is an AI-powered Minecraft skin generator that creates custom player skins from text descriptions or design preferences. Users describe the character they want and the AI generates a complete Minecraft-compatible skin ready for download and use. For Minecraft players who want a unique custom skin that reflects their personal style or character concept without needing pixel art skills, SkinGenerator.io provides accessible AI skin creation.",
+    features: [
+      "AI Skin Generation: Create Minecraft skins from text descriptions",
+      "Custom Characters: Generate any character concept as a skin",
+      "Instant Download: Skin files ready for immediate use",
+      "Multiple Styles: Different art styles for generated skins",
+      "Minecraft Compatible: Skins formatted for immediate game use",
+      "Character Variety: Generate humans, creatures, and fantasy characters",
+      "Free Credits: Try skin generation before subscribing",
+      "Community Gallery: Browse skins others have created"
+    ],
+    howToUse: {
+      title: "How to Use Skingenerator Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Character", description: "Go to skingenerator.io and describe the Minecraft skin you want. Include character type, clothing, colors, and any specific features." },
+        { title: "Generate Your Skin", description: "The AI creates your skin based on your description. Review the generated skin and regenerate if you want different variations." },
+        { title: "Download and Apply", description: "Download your generated skin file and apply it to your Minecraft account through the game settings or Minecraft.net." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Pixel Art Accessibility", description: "Creating Minecraft skins manually requires pixel art skills that most players lack. AI generation makes unique custom skin creation accessible to everyone" },
+      { title: "Character Creativity", description: "Describing any character concept and having it generated as a skin enables creative character expression beyond what pre-made skin packs offer" },
+      { title: "Instant Customization", description: "Getting a unique skin immediately rather than spending hours on pixel art or browsing skin websites for something close to what you want saves significant time" },
+      { title: "Uniqueness", description: "AI-generated skins from unique descriptions produce skins that no other player has rather than sharing popular downloaded designs" }
+    ],
+    useCases: [
+      { title: "Minecraft Players Wanting Custom Skins", description: "Players who want unique character representation use SkinGenerator.io for AI-created skins matching their vision" },
+      { title: "Content Creators", description: "Minecraft YouTubers and streamers use skin generators for character-specific skins that match their content themes" },
+      { title: "Young Players", description: "Children and teenagers who play Minecraft use skin generators for creative character customization without art skills" }
+    ]
+  },
+  "ai-mc-texture": {
+    whatIs: "AI MC Texture is an AI-powered Minecraft texture pack generator that creates custom resource packs for Minecraft from style descriptions or reference images. It generates cohesive texture sets that apply a consistent visual style across Minecraft blocks and items, transforming the game visual appearance. For Minecraft players who want a unique visual experience beyond available texture packs, AI MC Texture provides AI-generated custom resource pack creation.",
+    features: [
+      "Texture Pack Generation: Create complete Minecraft resource packs with AI",
+      "Style Consistency: Textures that maintain visual coherence across all blocks",
+      "Custom Visual Styles: Any art style applied to Minecraft textures",
+      "Block Coverage: Textures for all major Minecraft blocks and items",
+      "Download Ready: Resource packs formatted for immediate game use",
+      "Style Input: Describe or show the style you want applied",
+      "Minecraft Compatible: Properly formatted for Minecraft resource pack format",
+      "Free to Try: Basic texture generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Mc Texture",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Style", description: "Go to the AI MC Texture platform and describe the visual style you want for your Minecraft world - realistic, cartoon, fantasy, or any other aesthetic." },
+        { title: "Generate Your Pack", description: "The AI generates textures for Minecraft blocks in your chosen style. Review the output for consistency and quality." },
+        { title: "Install and Play", description: "Download your generated resource pack and install it in Minecraft through the resource packs settings. Enjoy your custom visual experience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Style Uniqueness", description: "Downloaded texture packs are used by many players. AI-generated packs from unique style descriptions create visuals that are genuinely personal" },
+      { title: "Art Style Range", description: "AI generation can apply virtually any visual style to Minecraft textures whereas manual texture creation is limited by creator skill and time" },
+      { title: "Consistency Challenge", description: "Creating a texture pack that looks consistent across hundreds of blocks is technically demanding. AI that maintains style coherence across all textures handles this challenge" },
+      { title: "Creative Expression", description: "Custom textures that match your vision for how your Minecraft world should look enhance the creative experience of the game" }
+    ],
+    useCases: [
+      { title: "Minecraft Players Wanting Unique Visuals", description: "Players who want a distinctive game appearance use AI MC Texture for custom resource packs" },
+      { title: "Minecraft Content Creators", description: "YouTubers and streamers use custom texture packs for distinctive visual branding in their content" },
+      { title: "Modpack Developers", description: "Minecraft modpack creators use AI texture generation for custom visual styles that complement their modded game content" }
+    ]
+  },
+  "minecraft-plot": {
+    whatIs: "Minecraft Plot is an AI-powered Minecraft building and plot planning tool that helps players design and plan structures, buildings, and landscapes for their Minecraft worlds. It generates building concepts, layout plans, and construction guidance for Minecraft projects of different scales. For Minecraft players who want to build impressive structures but struggle with design and planning, Minecraft Plot provides AI-assisted building guidance.",
+    features: [
+      "Building Concepts: AI-generated Minecraft building ideas and designs",
+      "Layout Planning: Floor plan and layout guidance for structures",
+      "Style Guidance: Building in different architectural styles",
+      "Scale Planning: Designs for different project scales",
+      "Material Suggestions: Recommended block choices for planned designs",
+      "Step-by-Step Guidance: Construction sequence recommendations",
+      "Community Sharing: Share and discover building plans",
+      "Free to Use: Basic planning without payment"
+    ],
+    howToUse: {
+      title: "How to Use Minecraft Plot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Build", description: "Go to the Minecraft Plot platform and describe the structure or area you want to build - the type, style, size, and any specific features." },
+        { title: "Review the Plan", description: "AI generates a building plan with layout guidance and material suggestions. Review the plan and adapt it to your specific Minecraft world." },
+        { title: "Build with Guidance", description: "Follow the construction guidance to realize your planned build. Use the step-by-step suggestions to work through complex structures systematically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Design Skill Gap", description: "Many Minecraft players have the technical building skills but struggle with design and planning. AI guidance that provides design direction addresses this gap" },
+      { title: "Planning Before Building", description: "Planning large builds before starting prevents the frustration of discovering design problems after significant construction effort" },
+      { title: "Style Exploration", description: "Exploring different architectural styles with AI guidance helps players develop their building aesthetic beyond their default style" },
+      { title: "Inspiration for Creativity", description: "AI building concepts provide starting points that players customize and build upon rather than replacing creativity" }
+    ],
+    useCases: [
+      { title: "Minecraft Builders Wanting Design Help", description: "Players who can build technically but struggle with design use Minecraft Plot for planning and concept guidance" },
+      { title: "Creative Mode Players", description: "Players focused on building and creative projects use Minecraft Plot for ambitious build planning" },
+      { title: "Minecraft Education Users", description: "Teachers and students using Minecraft for education use building planning tools for structured construction projects" }
+    ]
+  },
+  "folotoy": {
+    whatIs: "FoloToy is an AI-powered smart toy platform that creates AI-enabled physical toys with conversational capabilities. The toys connect to AI language models to have real conversations with children, answering questions, telling stories, and engaging in educational play. For parents who want their children to have engaging AI companions that support learning and imagination, FoloToy provides the hardware and AI integration that brings conversational AI to physical toy form.",
+    features: [
+      "AI Conversation: Physical toys with genuine conversational AI capabilities",
+      "Child-Safe AI: AI interactions appropriate for children",
+      "Educational Play: Learning through AI conversation and storytelling",
+      "Story Telling: AI-generated stories customized for each child",
+      "Question Answering: Children can ask any age-appropriate question",
+      "Multiple Characters: Different toy characters with distinct personalities",
+      "Parental Controls: Parent oversight of AI interaction content",
+      "Hardware Product: Physical toy with embedded AI connection"
+    ],
+    howToUse: {
+      title: "How to Use Folotoy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Toy", description: "Purchase a FoloToy and follow the setup instructions to connect it to the AI platform through your home WiFi." },
+        { title: "Introduce to Your Child", description: "Let your child meet their new AI toy companion. The toy responds to voice and engages in natural conversation." },
+        { title: "Monitor and Customize", description: "Use the parent app to monitor conversations, adjust content settings, and customize the toy experience for your child." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Physical AI Companion", description: "AI assistants on phones and tablets compete with other apps and screens. Physical toy companions provide AI interaction in a dedicated, appropriate form factor for children" },
+      { title: "Child-Appropriate AI", description: "General AI assistants are not designed for children. Toys with AI tuned specifically for child interaction and safety provide more appropriate experiences" },
+      { title: "Educational Value", description: "Conversational AI that answers questions, explains concepts, and tells stories in child-friendly ways supports learning through play" },
+      { title: "Imagination Support", description: "AI companions that engage with children imaginative scenarios and storytelling enrich play experiences beyond what static toys provide" }
+    ],
+    useCases: [
+      { title: "Parents of Young Children", description: "Parents who want engaging educational technology for their children use FoloToy for age-appropriate AI companion toys" },
+      { title: "Early Education Settings", description: "Preschools and early education environments use AI toys for interactive educational experiences" },
+      { title: "Tech-Forward Families", description: "Families who embrace educational technology use FoloToy for innovative AI-powered play experiences" }
+    ]
+  },
+  "furhat-robotics": {
+    whatIs: "Furhat Robotics is a social robotics company that develops Furhat, a social robot with a backprojected face that can display human-like facial expressions, make eye contact, and engage in natural conversation. Furhat is used for research, commercial applications, and human-robot interaction studies. Its software platform enables developers to build social robot applications for customer service, research, education, and other contexts. For organizations that want to explore or deploy social robot technology, Furhat Robotics provides the most human-like conversational robot available.",
+    features: [
+      "Social Robot Hardware: Physical robot with expressive face and voice",
+      "Human-Like Expressions: Facial expressions that mirror human emotion",
+      "Natural Conversation: AI-powered conversational capabilities",
+      "Developer Platform: SDK for building custom robot applications",
+      "Eye Contact: Sophisticated gaze behavior for natural interaction",
+      "Multiple Personas: Different character and personality configurations",
+      "Research Platform: Used in HRI research worldwide",
+      "Commercial Applications: Customer service and service robot deployment"
+    ],
+    howToUse: {
+      title: "How to Use Furhat Robotics",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Acquire the Hardware", description: "Contact Furhat Robotics to acquire a Furhat robot for your research or commercial application." },
+        { title: "Build Your Application", description: "Use the Furhat SDK to develop conversational scenarios and behaviors for your specific use case." },
+        { title: "Deploy and Study", description: "Deploy Furhat in your research context or commercial setting. Collect interaction data and iterate on your application." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Human-Like Interaction Quality", description: "The quality of human-robot interaction depends heavily on the naturalness of the robot appearance and expression. Furhat backprojected face produces more natural interactions than mechanical faces" },
+      { title: "Research Value", description: "Controlled social robot research requires standardized, reproducible hardware. Furhat widespread use in HRI research creates a common platform for comparable studies" },
+      { title: "Commercial Viability", description: "Social robots that people respond to naturally are more commercially viable for customer-facing applications than mechanical alternatives" },
+      { title: "Developer Accessibility", description: "A programmable platform with SDK access enables developers to build diverse applications without robotics engineering expertise" }
+    ],
+    useCases: [
+      { title: "HRI Researchers", description: "Human-robot interaction researchers use Furhat as a standardized platform for social robotics studies" },
+      { title: "Commercial Service Deployments", description: "Companies deploying robots for customer interaction use Furhat for the natural conversational quality their applications require" },
+      { title: "Educational Institutions", description: "Universities with robotics programs use Furhat for research and education in social robotics" }
+    ]
+  },
+  "sourcenext": {
+    whatIs: "Sourcenext is a Japanese software company that provides consumer and business software products including AI translation tools, PC utilities, and productivity software. Their POCKETALK translation device and software is particularly well-known for enabling real-time two-way translation across many languages. For users who need reliable translation tools for travel, business, or multilingual communication, Sourcenext provides established Japanese software solutions with strong language tool focus.",
+    features: [
+      "AI Translation: Real-time translation across many languages",
+      "POCKETALK Integration: Software for the POCKETALK translation device",
+      "PC Utilities: Various Windows PC utility software",
+      "Productivity Tools: Business and productivity software products",
+      "Japanese Market Focus: Software localized for Japanese users",
+      "Security Software: Antivirus and security products",
+      "Language Tools: Multiple language learning and translation products",
+      "Reliable Software: Established products with long track records"
+    ],
+    howToUse: {
+      title: "How to Use Sourcenext",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Product", description: "Visit sourcenext.com and browse their software products for your specific need - translation, utilities, or productivity tools." },
+        { title: "Purchase and Install", description: "Purchase your chosen software and install it following the provided instructions." },
+        { title: "Use Your Software", description: "Use your Sourcenext software for your intended purpose. Translation tools work immediately while utility software integrates into your daily computing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Translation Reliability", description: "Real-time translation that works accurately across many languages enables communication across language barriers that was previously impossible without interpreters" },
+      { title: "Japanese Market Expertise", description: "Software developed specifically for the Japanese market with Japanese user expectations provides better localization than international software adapted for Japan" },
+      { title: "Established Track Record", description: "Software products with long commercial histories have demonstrated reliability that newer entrants cannot claim" },
+      { title: "Hardware-Software Integration", description: "POCKETALK translation devices integrated with Sourcenext software create a seamless translation experience across hardware and software components" }
+    ],
+    useCases: [
+      { title: "Japanese Travelers and Business Users", description: "Japanese users who travel internationally or work with foreign clients use Sourcenext translation products for communication support" },
+      { title: "International Visitors to Japan", description: "People traveling in Japan use POCKETALK and Sourcenext translation tools for communication with Japanese speakers" },
+      { title: "Japanese PC Users", description: "Computer users in Japan use Sourcenext utility and productivity software designed for the Japanese computing environment" }
+    ]
+  },
+  "miniapps-ai": {
+    whatIs: "Miniapps.ai is a platform that provides a collection of AI-powered mini applications for various productivity, creative, and utility tasks. It offers a library of focused AI tools that each handle specific tasks - writing assistance, image editing, data analysis, and more - accessible from one platform without needing separate subscriptions for each tool. For users who want AI assistance for many different tasks without subscribing to multiple specialized services, Miniapps.ai provides a consolidated collection of AI utilities.",
+    features: [
+      "AI Tool Collection: Many different AI utilities in one platform",
+      "Writing Tools: AI assistance for various writing tasks",
+      "Image Tools: AI-powered image editing and generation",
+      "Productivity Utilities: AI tools for productivity and organization",
+      "Data Tools: AI assistance for data analysis tasks",
+      "Regular Updates: New AI tools added to the collection",
+      "Simple Interface: Easy access to many AI capabilities",
+      "Free Tier: Basic access to tool collection without payment"
+    ],
+    howToUse: {
+      title: "How to Use Miniapps Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse Available Tools", description: "Sign up at miniapps.ai and explore the available AI tools. Find the specific tools relevant to your current needs." },
+        { title: "Use Your Tool", description: "Select the tool you need and provide your input. Each mini app is focused on a specific task and produces relevant output quickly." },
+        { title: "Explore New Tools", description: "Regularly check for new tools added to the platform. New AI capabilities become available as the collection expands." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Tool Breadth", description: "Different tasks benefit from different specialized AI tools. A collection that covers many task types is more versatile than single-purpose AI subscriptions" },
+      { title: "Cost Consolidation", description: "Multiple AI tool subscriptions add up in cost. A single platform providing access to many tools is more economical for diverse AI needs" },
+      { title: "Discovery", description: "Browsing a collection of AI tools exposes users to capabilities they might not have known they needed until seeing them available" },
+      { title: "Simplicity", description: "One platform with many tools is simpler to manage than multiple separate accounts and subscriptions for different AI capabilities" }
+    ],
+    useCases: [
+      { title: "Productivity-Focused Professionals", description: "Workers who need AI assistance for diverse tasks use Miniapps.ai for flexible tool access without multiple subscriptions" },
+      { title: "Content Creators", description: "Creators who work across writing, images, and other media use Miniapps.ai for AI tools spanning their creative workflow" },
+      { title: "Small Business Owners", description: "Business owners who need various AI tools for different business tasks use Miniapps.ai for affordable comprehensive AI access" }
+    ]
+  },
   "offline-chat": {
     whatIs: "Offline Chat is a private AI chat application that runs large language models entirely on your device without requiring an internet connection. All conversations remain local and are never sent to external servers, providing complete privacy for sensitive conversations. For users who want AI assistant capabilities without the privacy concerns of cloud-based AI services, Offline Chat provides powerful on-device AI that works anywhere.",
     features: [
