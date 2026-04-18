@@ -315,7 +315,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "trevor-ai", name: "Trevor AI", description: "AI-powered daily schedule planner", url: "", upvotes: 987, verified: true, rating: 4.2, icon: "📅", category: "office-productivity", subcategory: "ai-schedule-maker" }
     ],
     "ai-scheduling": [
-      { id: "medisphere-scheduling", name: "MediSphere", description: "Medical appointment scheduling with AI", url: "", upvotes: 1789, verified: true, rating: 4.7, icon: "🏥", category: "office-productivity", subcategory: "ai-scheduling" },
       { id: "reclaim-ai-scheduling", name: "Reclaim.ai", description: "Smart calendar scheduling optimization", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "📅", category: "office-productivity", subcategory: "ai-scheduling" },
       { id: "carepatron", name: "Carepatron", description: "Healthcare practice management and scheduling", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "👩‍⚕️", category: "office-productivity", subcategory: "ai-scheduling" },
       { id: "toki-scheduling", name: "Toki", description: "AI meeting and appointment scheduling", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "⏰", category: "office-productivity", subcategory: "ai-scheduling" },
@@ -2911,11 +2910,9 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
   "other": {
     "ai-game-generator": [
       { id: "stosh", name: "Stosh", description: "Stosh is an AI-powered TV show discovery and recommendation platform that helps users find their next favorite series based on their viewing history and preferences", url: "https://stosh.com", upvotes: 567, verified: false, rating: 4.1, icon: "📺", category: "other", subcategory: "ai-recommendation", addedDate: "2026-04-03" },
-      { id: "rosebud-ai-game", name: "Rosebud AI", description: "AI-powered game generation and development platform", url: "", upvotes: 2134, verified: true, rating: 4.8, icon: "🌹", category: "other", subcategory: "ai-game-generator" },
       { id: "ludo-ai", name: "Ludo.ai", description: "AI game design and concept generator", url: "", upvotes: 1876, verified: true, rating: 4.7, icon: "🎮", category: "other", subcategory: "ai-game-generator" },
       { id: "websim", name: "Websim", description: "AI-powered web-based game simulator", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "🌐", category: "other", subcategory: "ai-game-generator" },
       { id: "ai-minecraft-game", name: "AI Minecraft", description: "AI-generated Minecraft game content", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "⛏️", category: "other", subcategory: "ai-game-generator" },
-      { id: "rosebud-ai-minecraft", name: "Rosebud AI", description: "AI Minecraft content generator", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "🌹", category: "other", subcategory: "ai-game-generator" }
     ],
     "ai-games": [
       { id: "easysbc", name: "EasySBC", description: "AI-powered FIFA SBC solver and game assistant", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "⚽", category: "other", subcategory: "ai-games" },
