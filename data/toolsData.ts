@@ -669,7 +669,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-voice-cloning": [
       { id: "vidnoz-ai-clone", name: "Vidnoz AI", description: "AI voice cloning and synthesis", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🎬", category: "voice-generation-conversion", subcategory: "ai-voice-cloning" },
-      { id: "minimax-audio-clone", name: "MiniMax Audio", description: "Advanced voice cloning technology", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🔊", category: "voice-generation-conversion", subcategory: "ai-voice-cloning" },
       { id: "kits-ai", name: "Kits AI", description: "AI voice cloning for musicians", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🎵", category: "voice-generation-conversion", subcategory: "ai-voice-cloning" },
       { id: "topmediai", name: "TopMediai", description: "AI voice cloning and generation", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🎤", category: "voice-generation-conversion", subcategory: "ai-voice-cloning" },
       { id: "fineshare-finevoice", name: "Fineshare FineVoice", description: "AI voice cloning and editing", url: "", upvotes: 432, verified: true, rating: 4.2, icon: "🎙️", category: "voice-generation-conversion", subcategory: "ai-voice-cloning" }
@@ -2918,7 +2917,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-models": [
       { id: "google-ai-developers", name: "Google AI for Developers", description: "Google's AI models and development tools", url: "", upvotes: 3456, verified: true, rating: 4.9, icon: "🔬", category: "other", subcategory: "ai-models" },
       { id: "civitai", name: "Civitai", description: "Community-driven AI model sharing platform", url: "https://civitai.com", upvotes: 2987, verified: true, rating: 4.8, icon: "🎨", category: "other", subcategory: "ai-models" },
-      { id: "minimax", name: "MiniMax", description: "Advanced AI model development platform", url: "", upvotes: 2156, verified: true, rating: 4.6, icon: "🔄", category: "other", subcategory: "ai-models" },
       { id: "google-ai-studio", name: "Google AI Studio", description: "Google's AI model development environment", url: "https://aistudio.google.com", upvotes: 1987, verified: true, rating: 4.5, icon: "🎬", category: "other", subcategory: "ai-models" }
     ],
     "ai-poker": [
@@ -2943,7 +2941,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "large-language-models": [
       { id: "deepseek", name: "DeepSeek", description: "Advanced large language model platform", url: "https://deepseek.com", upvotes: 3456, verified: true, rating: 4.9, icon: "🔍", category: "other", subcategory: "large-language-models" },
-      { id: "minimax-llm", name: "MiniMax", description: "Efficient large language model solution", url: "", upvotes: 3234, verified: true, rating: 4.8, icon: "🔄", category: "other", subcategory: "large-language-models" },
       { id: "offline-chat-llm", name: "Offline Chat: Private AI", description: "Private offline large language model", url: "", upvotes: 2987, verified: true, rating: 4.7, icon: "🔒", category: "other", subcategory: "large-language-models" },
       { id: "google-gemini-llm", name: "Google Gemini", description: "Google's multimodal large language model", url: "https://gemini.google.com", upvotes: 2765, verified: true, rating: 4.6, icon: "💎", category: "other", subcategory: "large-language-models" },
       { id: "poe", name: "Poe", description: "Access to multiple language models in one platform", url: "", upvotes: 2543, verified: true, rating: 4.5, icon: "🎭", category: "other", subcategory: "large-language-models" }
@@ -2951,7 +2948,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "minecraft-ai": [
       { id: "skingenerator-io", name: "SkinGenerator.io", description: "AI Minecraft skin generator", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "🎨", category: "other", subcategory: "minecraft-ai" },
       { id: "minecraft-plot", name: "Minecraft Plot", description: "AI story and plot generator for Minecraft", url: "", upvotes: 1432, verified: true, rating: 4.4, icon: "📖", category: "other", subcategory: "minecraft-ai" },
-      { id: "ai-minecraft-mc", name: "AI Minecraft", description: "AI assistant for Minecraft gameplay", url: "", upvotes: 1298, verified: true, rating: 4.3, icon: "⛏️", category: "other", subcategory: "minecraft-ai" },
       { id: "olc-bedrock-dev", name: "OLC Bedrock Dev Helper", description: "AI development assistant for Minecraft Bedrock", url: "", upvotes: 1156, verified: true, rating: 4.2, icon: "🔧", category: "other", subcategory: "minecraft-ai" }
     ],
     "nsfw": [
@@ -2959,13 +2955,11 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "generatorfuta-ai", name: "GeneratorFuta AI", description: "GeneratorFuta AI is a specialized adult AI art generator for creating custom futanari character illustrations with detailed style controls and high-quality image output", url: "", upvotes: 1600, verified: false, rating: 4.0, icon: "🔞", category: "image-generation-editing", subcategory: "nsfw", addedDate: "2026-04-01" },
       { id: "motionmuse-ai", name: "MotionMuse AI", description: "MotionMuse AI is an AI-powered animation platform that generates smooth animated videos and motion graphics from text prompts", url: "https://motionmuse.ai", upvotes: 2700, verified: false, rating: 4.2, icon: "🎬", category: "video-animation", subcategory: "nsfw", addedDate: "2026-04-01" },
       { id: "createporn", name: "CreatePorn", description: "CreatePorn is an adult AI image generation platform for creating explicit NSFW content with full customization and no content restrictions", url: "https://www.createporn.com", upvotes: 3200, verified: false, rating: 4.1, icon: "🔞", category: "image-generation-editing", subcategory: "nsfw", addedDate: "2026-04-01" },
-      { id: "juicychat-ai-nsfw", name: "JuicyChat.AI", description: "AI adult chat and conversation platform", url: "", upvotes: 4567, verified: true, rating: 4.8, icon: "🍑", category: "other", subcategory: "nsfw" },
       { id: "girlfriendgpt-nsfw", name: "GirlfriendGPT", description: "AI girlfriend with adult conversation features", url: "", upvotes: 4234, verified: true, rating: 4.7, icon: "💕", category: "other", subcategory: "nsfw" },
       { id: "sharesome-ai", name: "Sharesome AI", description: "AI adult content creation and sharing", url: "https://sharesome.com/ai/", upvotes: 3543, verified: true, rating: 4.4, icon: "🔞", category: "other", subcategory: "nsfw" }
     ],
     "open-source-ai-models": [
       { id: "hugging-face", name: "Hugging Face", description: "Open source AI models and community platform", url: "https://huggingface.co", upvotes: 4567, verified: true, rating: 4.9, icon: "🤗", category: "other", subcategory: "open-source-ai-models" },
-      { id: "google-ai-developers-os", name: "Google AI for Developers", description: "Google's open source AI development tools", url: "", upvotes: 3234, verified: true, rating: 4.7, icon: "🔬", category: "other", subcategory: "open-source-ai-models" },
       { id: "mimicpc", name: "MimicPC", description: "Open source AI model deployment platform", url: "", upvotes: 2987, verified: true, rating: 4.6, icon: "💻", category: "other", subcategory: "open-source-ai-models" },
       { id: "unsloth-ai", name: "Unsloth AI", description: "Fast open source AI model training", url: "", upvotes: 2765, verified: true, rating: 4.5, icon: "⚡", category: "other", subcategory: "open-source-ai-models" }
     ],
