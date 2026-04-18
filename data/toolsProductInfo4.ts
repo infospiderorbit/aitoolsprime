@@ -1,4 +1,268 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "avey-app": {
+    whatIs: "Avey is an AI health assistant app that helps users understand their symptoms, track their health, and make better healthcare decisions. It provides personalized health guidance through conversational AI, helping users assess symptoms, understand conditions, and know when to seek professional care. The app is designed to be a knowledgeable health companion that helps people navigate their health questions between doctor visits.",
+    features: [
+      "Symptom Assessment: Conversational AI evaluation of health symptoms",
+      "Health Tracking: Monitor health metrics and symptoms over time",
+      "Personalized Guidance: Health advice tailored to your profile",
+      "Condition Information: Clear explanations of health conditions",
+      "Medication Reminders: Track and be reminded about medications",
+      "Doctor Visit Prep: Help preparing questions for medical appointments",
+      "Health History: Maintain a personal health record",
+      "Free to Use: Basic health assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Avey App",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Health Profile", description: "Download Avey and create your health profile with your medical history, current medications, and health goals." },
+        { title: "Ask Your Health Questions", description: "Describe your symptoms or health concerns in the conversational interface. Avey asks follow-up questions and provides personalized health guidance." },
+        { title: "Track and Manage", description: "Use Avey to track symptoms over time, manage medications, and prepare for doctor appointments with organized health information." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversational Health Access", description: "Health questions that feel awkward to Google or wait for a doctor appointment to ask are handled naturally through AI conversation" },
+      { title: "Between-Visit Support", description: "The time between doctor appointments is when most health questions arise. An AI health companion available any time fills this gap" },
+      { title: "Appointment Preparation", description: "Patients who arrive at doctor appointments with organized symptom history and prepared questions have more productive consultations" },
+      { title: "Health Literacy Building", description: "Regular interaction with a knowledgeable health AI gradually builds health understanding that helps people make better long-term health decisions" }
+    ],
+    useCases: [
+      { title: "People with Frequent Health Questions", description: "Individuals who regularly have health questions between doctor visits use Avey for immediate accessible guidance" },
+      { title: "Chronic Condition Managers", description: "People managing ongoing health conditions use Avey for day-to-day symptom tracking and health management support" },
+      { title: "Health-Conscious Individuals", description: "People who proactively manage their health use Avey as a knowledgeable health companion for ongoing wellness support" }
+    ]
+  },
+  "docai": {
+    whatIs: "DocAI is an AI-powered medical documentation platform that helps healthcare providers generate clinical notes, discharge summaries, and other medical documentation more efficiently. It processes clinical information and generates properly formatted medical documents that meet documentation standards, reducing the time clinicians spend on administrative writing. For healthcare providers who want to reduce documentation burden while maintaining documentation quality, DocAI provides AI assistance that handles the writing work.",
+    features: [
+      "Clinical Note Generation: AI-generated clinical notes from patient encounters",
+      "Discharge Summaries: Automated discharge summary creation",
+      "Medical Documentation: Various healthcare document types",
+      "Template Support: Documentation formatted to clinical standards",
+      "EHR Integration: Export to electronic health record systems",
+      "Specialty Support: Documentation for different medical specialties",
+      "Compliance: Documentation meeting regulatory requirements",
+      "Free Trial: Try DocAI before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Docai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Clinical Information", description: "Sign up at docai.com and input the clinical information from your patient encounter - findings, assessment, and plan." },
+        { title: "Review Generated Documentation", description: "DocAI generates properly formatted clinical documentation from your inputs. Review for accuracy and completeness." },
+        { title: "Finalize and Export", description: "Make any necessary adjustments and export the documentation to your EHR system or download for your records." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Documentation Time Reduction", description: "Clinical documentation consumes significant physician time that could be spent on patient care. AI generation that produces documentation from clinical inputs dramatically reduces this burden" },
+      { title: "Consistency", description: "Manually written documentation varies in completeness and format. AI-generated documentation maintains consistent structure and thoroughness" },
+      { title: "Compliance Assurance", description: "Medical documentation has specific regulatory requirements. Templates built to meet these requirements reduce compliance risk" },
+      { title: "Cognitive Load Reduction", description: "Physicians who do not carry documentation tasks in their heads while seeing patients can be more present in clinical encounters" }
+    ],
+    useCases: [
+      { title: "Physicians in High-Volume Practices", description: "Doctors who see many patients daily use DocAI for efficient clinical documentation" },
+      { title: "Hospital-Based Clinicians", description: "Hospitalists and specialists use DocAI for inpatient documentation that meets hospital standards" },
+      { title: "Telehealth Providers", description: "Virtual care physicians use DocAI for documentation of telehealth encounters" }
+    ]
+  },
+  "hehealth": {
+    whatIs: "HeHealth is an AI men's sexual health platform that provides private, AI-powered assessment of men's sexual health concerns through photo analysis and symptom evaluation. It allows men to get preliminary assessment of genital health concerns in a private, non-judgmental environment before deciding whether to seek professional care. The platform addresses the significant barrier of embarrassment that prevents many men from seeking timely sexual health care.",
+    features: [
+      "Private Assessment: Confidential AI evaluation of men's health concerns",
+      "Photo Analysis: AI analysis of submitted photos for assessment",
+      "Symptom Evaluation: Assessment of described symptoms",
+      "STI Information: Educational information about sexual health conditions",
+      "Care Guidance: Recommendations on when to seek professional care",
+      "Non-Judgmental: Confidential and stigma-free health assessment",
+      "Educational Content: Men's sexual health education",
+      "Free to Use: Basic health assessment without payment"
+    ],
+    howToUse: {
+      title: "How to Use Hehealth",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Concern", description: "Go to hehealth.com and describe your concern or submit photos for assessment. All submissions are handled with strict privacy." },
+        { title: "Review Your Assessment", description: "HeHealth provides an AI assessment of your concern with relevant health information and guidance on next steps." },
+        { title: "Seek Appropriate Care", description: "Use the assessment to decide whether to seek professional care and what type of provider would be most appropriate for your situation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Embarrassment Barrier Reduction", description: "Men delay seeking sexual health care more than any other demographic due to embarrassment. Private AI assessment that provides information without judgment reduces this barrier" },
+      { title: "Early Assessment", description: "Catching sexual health conditions early through timely assessment leads to better outcomes. Removing the barrier to initial assessment helps men seek care sooner" },
+      { title: "Health Literacy", description: "Educational content about men's sexual health that is provided in a non-judgmental context improves health literacy in an area where education is often lacking" },
+      { title: "Care Navigation", description: "Guidance on the appropriate type of provider and urgency of care helps men navigate the healthcare system for sexual health concerns they may not know how to address" }
+    ],
+    useCases: [
+      { title: "Men with Sexual Health Concerns", description: "Men who have health concerns they are embarrassed to discuss immediately with a doctor use HeHealth for private preliminary assessment" },
+      { title: "Men Without Regular Healthcare Providers", description: "Men who do not have established care relationships use HeHealth for health information and care navigation" },
+      { title: "Young Men", description: "Younger men who lack experience navigating healthcare for personal health concerns use HeHealth for guidance" }
+    ]
+  },
+  "selfgazer": {
+    whatIs: "Selfgazer is an AI self-reflection and journaling platform that uses AI to guide deeper personal reflection and help users gain insight from their journaling practice. It asks thoughtful follow-up questions based on what you write, identifies patterns in your reflections over time, and provides insights that help you understand your thoughts, feelings, and behaviors more clearly. For people who journal but want to go beyond surface-level recording to genuine self-understanding, Selfgazer provides the AI-guided depth that transforms journaling into a growth practice.",
+    features: [
+      "AI-Guided Reflection: Thoughtful follow-up questions based on your writing",
+      "Pattern Recognition: Identify recurring themes in your reflections",
+      "Insight Generation: AI analysis of patterns in your thinking and behavior",
+      "Mood Tracking: Monitor emotional patterns over time",
+      "Growth Tracking: See your personal development over time",
+      "Private and Secure: Personal reflections stored securely",
+      "Journaling Prompts: Starting prompts for daily reflection practice",
+      "Free to Try: Basic reflection journaling without payment"
+    ],
+    howToUse: {
+      title: "How to Use Selfgazer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Reflection", description: "Sign up at selfgazer.com and begin your first journal entry. Write about whatever is on your mind - the AI will ask follow-up questions to deepen your reflection." },
+        { title: "Engage with the Questions", description: "Respond to the AI follow-up questions that probe deeper into what you have written. The questions are designed to surface insights you might not reach on your own." },
+        { title: "Review Your Patterns", description: "Over time, review the patterns and insights that Selfgazer identifies across your journal entries. Use these observations to inform your personal growth intentions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Depth Beyond Recording", description: "Regular journaling that simply records events produces limited insight. AI-guided questions that probe the meaning and implications of what you write produce genuine self-understanding" },
+      { title: "Pattern Visibility", description: "Individual journal entries reveal your thinking in the moment. Pattern analysis across many entries reveals the recurring themes and tendencies that shape your life" },
+      { title: "Consistency Support", description: "Regular reflection practice is more valuable than occasional deep sessions. Daily prompts and guided questions make consistent reflection practice sustainable" },
+      { title: "Non-Judgmental Exploration", description: "AI that asks questions without judgment creates a safe space for exploring thoughts and feelings you might not share with other people" }
+    ],
+    useCases: [
+      { title: "Personal Development Practitioners", description: "People committed to self-improvement use Selfgazer for the reflective practice that accelerates personal growth" },
+      { title: "Therapy Supplement Users", description: "People in therapy use Selfgazer for between-session reflection that deepens their therapeutic work" },
+      { title: "Mindfulness and Wellness Enthusiasts", description: "Individuals with a mindfulness practice use Selfgazer for reflective journaling that complements their other wellness practices" }
+    ]
+  },
+  "abby-therapist": {
+    whatIs: "Abby is an AI therapy assistant that provides mental health support through conversational AI. It offers a supportive listening presence, helps users work through thoughts and feelings, and provides evidence-based mental health techniques for managing anxiety, stress, and other common mental health challenges. Abby is designed as a supportive supplement to professional mental health care rather than a replacement, providing accessible support between therapy sessions or for people who are not yet connected with professional care.",
+    features: [
+      "Supportive Conversation: Empathetic AI listening and response",
+      "CBT Techniques: Evidence-based cognitive behavioral therapy approaches",
+      "Anxiety Management: Tools for managing anxiety and worry",
+      "Mood Tracking: Monitor emotional patterns over time",
+      "Crisis Resources: Information and resources for crisis situations",
+      "24 7 Availability: Support available any time",
+      "Session Summaries: Review key insights from conversations",
+      "Free to Try: Basic mental health support without payment"
+    ],
+    howToUse: {
+      title: "How to Use Abby Therapist",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start a Conversation", description: "Download Abby and begin a conversation about how you are feeling. Abby listens and responds with empathy and supportive guidance." },
+        { title: "Explore Your Thoughts", description: "Use Abby to work through difficult thoughts and feelings. The AI uses evidence-based techniques to help you examine and reframe unhelpful thinking patterns." },
+        { title: "Build Your Practice", description: "Use Abby regularly for emotional check-ins and skill practice. The consistency of regular practice builds the mental health skills that improve wellbeing over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessibility", description: "Professional therapy is expensive and often has long waiting lists. AI mental health support that is available immediately and at low cost fills a significant access gap" },
+      { title: "Between-Session Support", description: "The time between therapy appointments is when people often most need support. An AI companion available any time provides support when human therapists are not reachable" },
+      { title: "Stigma Reduction", description: "People who would not seek professional mental health care due to stigma may be willing to use a private AI app. This creates a pathway to mental health support for the otherwise unserved" },
+      { title: "Skill Practice", description: "Mental health skills like cognitive reframing and mindfulness require regular practice. An AI that supports daily practice accelerates skill development" }
+    ],
+    useCases: [
+      { title: "People with Mild to Moderate Mental Health Challenges", description: "Individuals managing anxiety, stress, and mood challenges use Abby for accessible support and skill building" },
+      { title: "People on Therapy Waitlists", description: "Those waiting for professional therapy appointments use Abby for interim support while they wait for care" },
+      { title: "Therapy Clients Between Sessions", description: "People already in therapy use Abby for between-session support and skill practice" }
+    ]
+  },
+  "infiheal": {
+    whatIs: "Infiheal is an AI mental health and wellness platform that provides personalized emotional support, self-help tools, and access to professional therapists. It combines AI-powered emotional support with human therapy access, creating a continuum of care from self-help tools to professional intervention. The platform provides mood tracking, guided exercises, and AI conversation alongside the ability to book sessions with licensed therapists. For people who want both immediate AI support and access to professional care in one place, Infiheal provides the integrated mental wellness platform.",
+    features: [
+      "AI Emotional Support: Conversational AI for emotional processing",
+      "Professional Therapist Access: Book sessions with licensed therapists",
+      "Mood Tracking: Monitor and understand your emotional patterns",
+      "Guided Exercises: Evidence-based mental wellness exercises",
+      "Self-Help Tools: Resources for managing common mental health challenges",
+      "Integrated Platform: AI support and professional care in one place",
+      "Privacy: Secure and confidential mental health support",
+      "Free to Start: Basic emotional support without payment"
+    ],
+    howToUse: {
+      title: "How to Use Infiheal",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start with AI Support", description: "Sign up at infiheal.com and begin using the AI emotional support features. Track your mood and use the guided exercises for immediate wellness support." },
+        { title: "Assess Your Needs", description: "Use the platform to understand your mental health needs. If AI support is not sufficient, book a session with a licensed therapist through the same platform." },
+        { title: "Build Your Wellness Practice", description: "Develop a regular wellness practice using the combination of AI tools and professional support that matches your needs and budget." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Care Continuum", description: "Mental health needs exist on a spectrum. A platform that provides both self-help AI tools and professional therapy access meets people where they are on that spectrum" },
+      { title: "Accessibility", description: "Professional therapy is not accessible to everyone due to cost and availability. AI support tools that provide genuine value make mental health resources available to more people" },
+      { title: "Integrated Experience", description: "Having AI support and professional care in one platform creates continuity between self-help and professional intervention rather than requiring separate unconnected services" },
+      { title: "Stigma-Free Entry", description: "People who would not immediately seek professional therapy may begin with AI support and progress to professional care as they become more comfortable with mental health support" }
+    ],
+    useCases: [
+      { title: "People Exploring Mental Health Support", description: "Individuals who want mental health support but are not sure they need professional therapy use Infiheal for accessible entry into mental wellness" },
+      { title: "People Managing Daily Stress", description: "Professionals and students managing significant life stress use Infiheal for ongoing emotional support and wellness tools" },
+      { title: "People Seeking Affordable Mental Health Access", description: "Individuals who cannot afford regular professional therapy use Infiheal for the combination of AI support and occasional professional sessions" }
+    ]
+  },
+  "free-ai-therapist": {
+    whatIs: "Free AI Therapist is an accessible AI mental health support platform that provides free conversational mental health assistance to anyone who needs support. It offers empathetic AI conversation for emotional processing, anxiety management, and general mental health support without any cost barrier. The platform is designed for people who cannot access professional mental health care due to cost, availability, or stigma, providing a starting point for mental wellness support.",
+    features: [
+      "Free Mental Health Support: No-cost AI emotional support",
+      "Empathetic Conversation: Understanding and supportive AI responses",
+      "Anxiety Support: Tools and conversation for managing anxiety",
+      "Emotional Processing: Help working through difficult emotions",
+      "Coping Strategies: Evidence-based coping technique guidance",
+      "Crisis Information: Resources for mental health crises",
+      "Private: Confidential conversations without account required",
+      "Always Available: Support accessible any time"
+    ],
+    howToUse: {
+      title: "How to Use Free Ai Therapist",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start a Conversation", description: "Go to the Free AI Therapist platform and begin describing what you are going through. No account creation is required for basic support." },
+        { title: "Explore Your Feelings", description: "Share what is on your mind and the AI responds with empathy and helpful perspective. Use the conversation to process difficult emotions and thoughts." },
+        { title: "Access Resources", description: "Use the coping strategies and mental health information provided to build your skills for managing difficult emotions independently." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Zero Cost Barrier", description: "Cost is one of the most significant barriers to mental health support. Completely free access removes this barrier entirely for people who cannot afford professional care" },
+      { title: "No Account Friction", description: "Requiring account creation to access mental health support creates a barrier for people in distress. Immediate no-account access reduces this friction" },
+      { title: "Crisis Bridge", description: "People in mild crisis who are not yet ready to call a hotline may use AI support as a first step toward getting help" },
+      { title: "Universal Access", description: "Making mental health support available to anyone regardless of financial situation addresses the significant inequality in mental health care access" }
+    ],
+    useCases: [
+      { title: "People Without Mental Health Resources", description: "Individuals who cannot access or afford professional mental health care use Free AI Therapist for accessible support" },
+      { title: "People in Distress Seeking Immediate Help", description: "Those experiencing emotional distress who need immediate support use the platform for accessible crisis-adjacent conversation" },
+      { title: "Young People", description: "Teenagers and young adults who face stigma around mental health help-seeking use the free anonymous platform as a lower-barrier entry point" }
+    ]
+  },
+  "therapywith-ai": {
+    whatIs: "TherapyWithAI is an AI-powered mental health support platform that provides structured therapeutic conversations using evidence-based approaches including cognitive behavioral therapy, mindfulness, and other validated therapeutic frameworks. It guides users through therapeutic exercises and conversations that build mental health skills and provide emotional support. For people who want more than just conversational AI support but need structured therapeutic content, TherapyWithAI provides a more clinically-grounded AI mental health experience.",
+    features: [
+      "Structured Therapy: Evidence-based therapeutic frameworks in AI conversation",
+      "CBT Exercises: Cognitive behavioral therapy techniques and exercises",
+      "Mindfulness Guidance: Mindfulness and meditation exercises",
+      "Therapeutic Journaling: Guided journaling with therapeutic prompts",
+      "Mood Assessment: Regular mood tracking and pattern analysis",
+      "Progress Tracking: Monitor mental health improvements over time",
+      "Session Structure: Organized therapeutic sessions not just chat",
+      "Free to Try: Basic therapeutic support without payment"
+    ],
+    howToUse: {
+      title: "How to Use Therapywith Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Assess Your Needs", description: "Sign up at therapywithAI and complete an initial assessment of your mental health concerns and goals. This guides the therapeutic approach." },
+        { title: "Engage in Structured Sessions", description: "Participate in structured therapeutic sessions that use CBT, mindfulness, or other approaches based on your needs and preferences." },
+        { title: "Practice Daily", description: "Use daily exercises and check-ins to build the mental health skills that produce lasting improvement. Consistency in practice produces the best outcomes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Clinical Framework Value", description: "Unstructured AI conversation is supportive but therapeutic frameworks that have been clinically validated produce more reliable mental health outcomes" },
+      { title: "Skill Building Focus", description: "Mental health improvement requires building skills not just processing emotions. Structured exercises that teach and reinforce coping skills produce lasting change" },
+      { title: "Evidence-Based Approach", description: "Grounding AI mental health support in validated therapeutic approaches like CBT provides a more defensible foundation than proprietary AI conversation approaches" },
+      { title: "Accessible Professional-Level Content", description: "Therapeutic content that reflects professional clinical approaches makes evidence-based mental health support accessible without the cost of professional therapy" }
+    ],
+    useCases: [
+      { title: "People Seeking Structured Mental Health Support", description: "Individuals who want more than conversation and need structured therapeutic content use TherapyWithAI for the clinical framework it provides" },
+      { title: "People in CBT-Based Therapy", description: "Therapy clients who are learning CBT with a professional use TherapyWithAI to practice skills between sessions" },
+      { title: "Mental Health Self-Improvement Seekers", description: "People committed to improving their mental health through evidence-based methods use TherapyWithAI for structured skill building" }
+    ]
+  },
   "overjet": {
     whatIs: "Overjet is an AI dental imaging analysis platform that analyzes dental X-rays to help dentists identify and document dental conditions more accurately. It uses computer vision trained on millions of dental images to detect cavities, bone loss, and other conditions, overlaying findings directly on X-ray images with confidence scores. For dental practices that want to improve diagnostic accuracy and treatment acceptance through clearer visual communication with patients, Overjet provides AI-enhanced X-ray analysis.",
     features: [
