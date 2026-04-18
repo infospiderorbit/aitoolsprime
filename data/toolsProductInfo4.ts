@@ -1,4 +1,268 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "pairrd": {
+    whatIs: "Pairrd is an AI-powered dating and relationship app that uses advanced matching algorithms to connect people based on deeper compatibility factors beyond surface-level preferences. It analyzes personality traits, values, and relationship goals to suggest matches that are more likely to result in meaningful connections. For singles who are frustrated with superficial swiping-based dating apps, Pairrd provides a more intentional approach to finding compatible partners.",
+    features: [
+      "Deep Compatibility Matching: AI matching based on personality and values",
+      "Relationship Goals: Match with people who want similar relationship types",
+      "Personality Analysis: Understand your own and matches compatibility",
+      "Conversation Starters: AI-suggested openers based on shared interests",
+      "Profile Insights: Detailed compatibility explanations for each match",
+      "Video Profiles: Authentic video introductions beyond static photos",
+      "Privacy Controls: Control what information is shared and with whom",
+      "Free to Try: Basic matching without payment"
+    ],
+    howToUse: {
+      title: "How to Use Pairrd",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Complete Your Profile", description: "Sign up at pairrd.com and complete your detailed profile including personality questions, values, and relationship goals." },
+        { title: "Review Your Matches", description: "Pairrd presents matches with compatibility explanations. Review why each person is suggested and what you have in common." },
+        { title: "Connect Meaningfully", description: "Start conversations using AI-suggested openers based on genuine shared interests. Focus on authentic connection rather than surface impressions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Compatibility Depth", description: "Matching based on superficial preferences produces poor relationship outcomes. Deeper compatibility matching that considers values and personality produces more meaningful connections" },
+      { title: "Intentional Dating", description: "People who approach dating with clarity about what they want and why have better outcomes than those who swipe based on photos alone" },
+      { title: "Conversation Quality", description: "Openers that reference genuine shared interests produce better conversations than generic pickup lines or empty compliments" },
+      { title: "Time Efficiency", description: "Better matching that surfaces genuinely compatible people reduces the time spent on dates with fundamentally incompatible matches" }
+    ],
+    useCases: [
+      { title: "Serious Relationship Seekers", description: "People who want meaningful long-term relationships use Pairrd for compatibility-focused matching" },
+      { title: "Professionals with Limited Time", description: "Busy professionals who cannot afford to waste time on incompatible dates use Pairrd for more efficient serious dating" },
+      { title: "People Frustrated with Superficial Apps", description: "Those disappointed with swipe-based dating use Pairrd for a more intentional approach to finding compatible partners" }
+    ]
+  },
+  "poker-bot-ai": {
+    whatIs: "Poker Bot AI is an AI poker training and analysis platform that uses advanced poker algorithms to help players improve their game through hand analysis, range training, and GTO strategy guidance. It analyzes poker hands, identifies leaks in your strategy, and teaches game theory optimal play concepts that improve decision-making at the table. For poker players who want to develop a more sophisticated mathematical approach to the game, Poker Bot AI provides the analytical tools that serious players use.",
+    features: [
+      "Hand Analysis: Detailed analysis of poker hands and decisions",
+      "GTO Training: Game theory optimal strategy guidance",
+      "Range Training: Practice building and reading hand ranges",
+      "Leak Identification: Find the specific mistakes costing you money",
+      "Equity Calculations: Accurate hand equity and odds calculations",
+      "Session Review: Analyze full playing sessions for patterns",
+      "Multiple Game Types: Training for Texas Hold em and other variants",
+      "Free to Try: Basic hand analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Poker Bot Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Hands", description: "Sign up at pokerbotai.com and upload hands from your playing sessions for detailed analysis." },
+        { title: "Review the Analysis", description: "Examine the AI analysis of each decision point in your hands. Understand where your play deviated from optimal strategy and why." },
+        { title: "Practice Ranges", description: "Use the range training tools to develop better hand reading and range construction skills that apply at the table." }
+      ]
+    },
+    coreFeatures: [
+      { title: "GTO Foundation", description: "Understanding game theory optimal play provides a mathematical foundation for poker decisions that intuition-based play cannot match" },
+      { title: "Leak Discovery", description: "Most poker players have systematic leaks they repeat consistently. AI analysis that identifies these patterns enables targeted improvement" },
+      { title: "Range Thinking", description: "Thinking in ranges rather than specific hands is a fundamental skill of advanced poker. Training tools that develop this skill improve all poker decisions" },
+      { title: "Mathematical Precision", description: "Poker decisions grounded in accurate equity calculations produce better results than decisions based on feel alone" }
+    ],
+    useCases: [
+      { title: "Serious Poker Players", description: "Players who approach poker as a skill game use Poker Bot AI for the analytical training that improves their results" },
+      { title: "Tournament Players", description: "Poker tournament competitors use GTO training to develop the solid foundational strategy that tournament play requires" },
+      { title: "Cash Game Players", description: "Regular cash game players use hand analysis to identify and fix the leaks that are costing them money" }
+    ]
+  },
+  "pokergpt": {
+    whatIs: "PokerGPT is an AI poker assistant that provides real-time strategy advice, hand analysis, and poker education through a conversational AI interface. Users can describe poker situations and receive GTO-informed advice on optimal plays, ask questions about poker strategy, and get explanations of complex poker concepts in accessible language. For poker players who want an intelligent poker coach they can consult at any time, PokerGPT provides AI-powered poker expertise on demand.",
+    features: [
+      "Real-Time Advice: Immediate strategy guidance for poker situations",
+      "Hand Analysis: AI evaluation of specific poker hands and decisions",
+      "Strategy Education: Learn poker concepts through conversation",
+      "GTO Guidance: Game theory optimal strategy recommendations",
+      "Scenario Analysis: What-if analysis for different poker situations",
+      "Concept Explanation: Clear explanations of complex poker theory",
+      "Bankroll Advice: Guidance on poker bankroll management",
+      "Free to Try: Basic poker advice without payment"
+    ],
+    howToUse: {
+      title: "How to Use Pokergpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Situation", description: "Go to pokergpt.ai and describe the poker situation you want advice on. Include stack sizes, positions, and the action so far." },
+        { title: "Review the Guidance", description: "PokerGPT provides strategy advice for your situation with explanations of the reasoning. Ask follow-up questions to understand the concepts fully." },
+        { title: "Apply at the Table", description: "Use the guidance to inform your actual poker decisions. Over time the concepts become internalized and improve your automatic decision-making." }
+      ]
+    },
+    coreFeatures: [
+      { title: "On-Demand Expertise", description: "Poker coaches charge significant hourly rates. AI poker advice available any time provides coaching access without scheduling or cost barriers" },
+      { title: "Concept Accessibility", description: "GTO poker theory is mathematically complex. Conversational AI that explains concepts in accessible language makes this knowledge available to players without advanced math backgrounds" },
+      { title: "Situation Specificity", description: "Generic poker books cannot address your specific situation. AI that analyzes the exact situation you describe provides more relevant guidance" },
+      { title: "Learning Acceleration", description: "Understanding the why behind poker decisions is more valuable than memorizing plays. AI that explains reasoning accelerates genuine strategic understanding" }
+    ],
+    useCases: [
+      { title: "Learning Poker Players", description: "People developing their poker skills use PokerGPT for accessible strategy education and hand analysis" },
+      { title: "Recreational Poker Players", description: "Casual players who want to improve use PokerGPT for on-demand coaching that fits their schedule and budget" },
+      { title: "Online Poker Players", description: "Players who play online use PokerGPT for strategy review between sessions" }
+    ]
+  },
+  "hybrid-poker": {
+    whatIs: "Hybrid Poker is an AI-enhanced poker training platform that combines traditional poker study methods with AI analysis to create a comprehensive improvement program. It provides solver-based hand analysis, leak detection, range training, and personalized study plans that address each player specific weaknesses. For poker players who want a structured approach to improvement that uses the same tools professional players rely on, Hybrid Poker provides accessible professional-grade training.",
+    features: [
+      "Solver Integration: Access to poker solver analysis for hand study",
+      "Personalized Study Plans: Training programs based on your specific leaks",
+      "Leak Detection: Identify systematic mistakes in your play",
+      "Range Training: Develop hand range reading and construction skills",
+      "Video Content: Educational content explaining key poker concepts",
+      "Hand History Analysis: Upload and analyze your playing history",
+      "Progress Tracking: Monitor improvement across key metrics",
+      "Free Trial: Try Hybrid Poker before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Hybrid Poker",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your History", description: "Sign up at hybridpoker.com and upload your hand history files from your poker platform. The AI analyzes your play for patterns and leaks." },
+        { title: "Review Your Leaks", description: "Examine the identified leaks in your game with specific examples from your actual hands. Understand exactly where you are losing money." },
+        { title: "Follow Your Study Plan", description: "Complete the personalized study plan targeting your identified weaknesses. Track your progress as you work through the training material." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalized Curriculum", description: "Generic poker training covers everything equally. Training that focuses specifically on your identified weaknesses produces faster improvement per study hour" },
+      { title: "Solver Access", description: "GTO solvers are the gold standard for poker analysis but are complex to use. Accessible solver analysis makes professional-grade hand study available to all players" },
+      { title: "Pattern Recognition", description: "Individual hand review misses systematic patterns. Analysis across many hands reveals the consistent mistakes that are most costly" },
+      { title: "Structured Improvement", description: "Unstructured study produces slow improvement. Personalized study plans that address specific weaknesses in a logical order produce faster results" }
+    ],
+    useCases: [
+      { title: "Serious Poker Students", description: "Players committed to systematic improvement use Hybrid Poker for structured professional-grade training" },
+      { title: "Mid-Stakes Players Moving Up", description: "Players trying to move up in stakes use Hybrid Poker to identify and fix the leaks that are limiting their advancement" },
+      { title: "Recreational Players Wanting Structure", description: "Casual players who want to improve methodically use Hybrid Poker for structured training" }
+    ]
+  },
+  "rta-poker": {
+    whatIs: "RTA Poker is a real-time poker assistance and analysis tool that helps players understand optimal poker decisions through GTO analysis and solver-based guidance. It provides hand analysis, range visualization, and strategy guidance that helps players understand the mathematical foundations of correct poker play. For poker players who want to develop a more rigorous analytical approach to their game, RTA Poker provides the tools that serious students of poker use.",
+    features: [
+      "GTO Analysis: Game theory optimal play analysis and guidance",
+      "Range Visualization: Visual display of hand ranges for different situations",
+      "Solver Access: Poker solver analysis for hand study",
+      "Decision Analysis: Evaluate specific poker decision points",
+      "Educational Content: Learn the theory behind GTO recommendations",
+      "Hand History Review: Analyze your past sessions",
+      "Spot Practice: Practice specific common poker situations",
+      "Free to Try: Basic analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Rta Poker",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Study Key Spots", description: "Sign up at rtapoker.com and use the spot practice feature to study common poker situations that come up frequently at your stake level." },
+        { title: "Analyze Your Hands", description: "Upload hands from your sessions and review the GTO analysis for key decision points. Understand where your decisions deviated from optimal." },
+        { title: "Build Range Understanding", description: "Use the range visualization tools to develop your understanding of how hand ranges should be constructed in different situations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "GTO Foundation", description: "Mathematical game theory optimal play provides a solid foundation that is unexploitable regardless of opponent tendencies" },
+      { title: "Visual Learning", description: "Range visualizations that show hand distributions graphically are more intuitive than abstract descriptions of ranges" },
+      { title: "Spot-Based Study", description: "Focusing study on specific common situations that occur frequently produces more practical improvement than randomly reviewing hands" },
+      { title: "Analytical Development", description: "Developing the analytical thinking that GTO study requires improves poker decision-making broadly beyond specific memorized spots" }
+    ],
+    useCases: [
+      { title: "GTO-Focused Poker Players", description: "Players who want to develop rigorous analytical poker skills use RTA Poker for GTO study and analysis" },
+      { title: "Online Poker Grinders", description: "Players who play high volumes online use RTA Poker for efficient study of the spots that occur most frequently in their games" },
+      { title: "Poker Students", description: "People seriously studying poker use RTA Poker for access to solver analysis as a core study tool" }
+    ]
+  },
+  "covariant": {
+    whatIs: "Covariant is an AI robotics platform that provides universal AI for industrial robots, enabling them to handle the complex unstructured tasks that traditional robotic automation cannot manage. Its AI gives robots the ability to pick, handle, and process a wide variety of objects in dynamic environments without requiring manual programming for each new item. For warehouses, fulfillment centers, and manufacturing facilities that need flexible robotic automation, Covariant provides the AI that makes robots intelligent enough for real-world complexity.",
+    features: [
+      "Universal Robot AI: AI that works across different robot hardware",
+      "Flexible Picking: Handle diverse items without manual programming",
+      "Vision AI: Advanced computer vision for object recognition",
+      "Adaption: Handles new items without reprogramming",
+      "High Throughput: Production-scale picking performance",
+      "Quality Control: AI-powered inspection and quality checking",
+      "Integration: Works with existing warehouse management systems",
+      "Enterprise Deployment: Built for industrial-scale operations"
+    ],
+    howToUse: {
+      title: "How to Use Covariant",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Assess Your Use Case", description: "Contact Covariant to discuss your specific automation needs and evaluate whether their AI fits your operational requirements." },
+        { title: "Deploy and Integrate", description: "Covariant deploys their AI on your robotic hardware and integrates with your existing warehouse management systems." },
+        { title: "Scale Operations", description: "Operate your AI-enabled robots for flexible automated picking and handling. Scale to additional robots and locations as proven results justify expansion." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Flexibility vs Traditional Automation", description: "Traditional industrial robots require extensive programming for each new item. AI robots that generalize across items handle the variety that modern fulfillment requires" },
+      { title: "Labor Augmentation", description: "Robotic automation that handles repetitive high-volume picking tasks allows human workers to focus on work requiring judgment and dexterity" },
+      { title: "Speed and Accuracy", description: "AI-enabled robots that work continuously at high throughput with consistent accuracy outperform human picking on pure volume metrics" },
+      { title: "Scalable Operations", description: "Robotic systems that can be scaled up by adding units are more flexible than human labor scaling which requires hiring and training" }
+    ],
+    useCases: [
+      { title: "Fulfillment and E-commerce Warehouses", description: "High-volume order fulfillment operations use Covariant AI for flexible robotic picking across diverse product catalogs" },
+      { title: "Manufacturing Facilities", description: "Production facilities use Covariant for flexible part handling and quality inspection automation" },
+      { title: "Distribution Centers", description: "Logistics operations use Covariant for automated sorting and handling in their distribution infrastructure" }
+    ]
+  },
+  "sanctuary-ai": {
+    whatIs: "Sanctuary AI is a robotics company developing Phoenix, a general-purpose humanoid robot powered by Carbon AI, their human-like artificial intelligence system. Carbon AI is designed to understand and reason about the world the way humans do, enabling Phoenix to perform a wide variety of physical tasks in human environments without task-specific programming. For industries that need flexible physical automation in environments built for humans, Sanctuary AI is developing the humanoid robot technology that could work anywhere humans work.",
+    features: [
+      "Humanoid Robot: General-purpose humanoid robot platform",
+      "Carbon AI: Human-like artificial intelligence for task understanding",
+      "Task Flexibility: Perform diverse tasks without specific programming",
+      "Human Environment Adaptation: Works in spaces designed for humans",
+      "Natural Language Interface: Communicate with the robot naturally",
+      "Continuous Learning: Robot improves through experience",
+      "Safe Operation: Safety systems for human-robot collaboration",
+      "Enterprise Partnership: Working with industry partners on deployment"
+    ],
+    howToUse: {
+      title: "How to Use Sanctuary Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Explore Partnership", description: "Contact Sanctuary AI to discuss whether Phoenix humanoid robots fit your operational use case and timeline." },
+        { title: "Pilot Program", description: "Work with Sanctuary AI on a pilot deployment to evaluate robot performance in your specific environment and tasks." },
+        { title: "Scale Deployment", description: "Expand deployment based on pilot results. Humanoid robots that perform well in pilot contexts can be scaled to larger operational roles." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Human Environment Compatibility", description: "Most facilities are designed for human workers. Humanoid robots that operate in existing human-designed environments avoid the costly facility modifications that conventional robots require" },
+      { title: "Task Generality", description: "A single humanoid robot that can perform many tasks provides more operational flexibility than multiple specialized robots each limited to specific functions" },
+      { title: "Labor Shortage Solution", description: "Industries facing persistent labor shortages can use humanoid robots to fill roles that are difficult to staff with human workers" },
+      { title: "Future of Work", description: "Humanoid robots represent the direction that physical automation is heading as AI capabilities advance to enable general-purpose physical intelligence" }
+    ],
+    useCases: [
+      { title: "Manufacturing Companies", description: "Industrial manufacturers explore Sanctuary AI humanoid robots for flexible production and assembly tasks" },
+      { title: "Logistics and Warehousing", description: "Supply chain operations investigate humanoid robots for the diverse physical tasks that their operations require" },
+      { title: "Retail and Hospitality", description: "Customer-facing businesses explore humanoid robots for service roles in their human-designed environments" }
+    ]
+  },
+  "deepseek": {
+    whatIs: "DeepSeek is a Chinese AI research company that develops powerful large language models and releases them openly for research and commercial use. Their models including DeepSeek-V2 and DeepSeek-Coder have demonstrated impressive capabilities competitive with leading AI models while being available at significantly lower cost. For developers and organizations that want access to high-capability AI models at lower cost and with more flexible deployment options, DeepSeek provides an important alternative in the AI model landscape.",
+    features: [
+      "Powerful LLMs: High-capability large language models",
+      "Open Weights: Models available for download and self-hosting",
+      "Coding Models: Specialized models for software development tasks",
+      "Competitive Performance: Capabilities competitive with leading models",
+      "Cost Efficiency: Strong performance at lower API costs",
+      "Research Focus: Models developed with research transparency",
+      "Multiple Sizes: Different model sizes for different use cases",
+      "Free API Access: Try DeepSeek models through the API"
+    ],
+    howToUse: {
+      title: "How to Use Deepseek",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access the API", description: "Sign up at deepseek.com and get API access to DeepSeek models. Review the model options for your specific use case." },
+        { title: "Integrate Your Application", description: "Use the DeepSeek API in your application following the documentation. The API is compatible with OpenAI format for easy integration." },
+        { title: "Evaluate and Deploy", description: "Test DeepSeek model performance for your specific tasks and deploy in production if results meet your requirements." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cost Efficiency", description: "DeepSeek models that deliver competitive performance at lower cost change the economics of AI-powered applications significantly" },
+      { title: "Open Availability", description: "Open model weights that can be self-hosted provide data privacy and deployment flexibility that API-only models cannot offer" },
+      { title: "Coding Capability", description: "DeepSeek Coder models with strong programming capability provide an effective alternative for code generation and review tasks" },
+      { title: "Model Competition", description: "Alternative high-quality models that compete with leading providers give developers and organizations more choices and negotiating leverage" }
+    ],
+    useCases: [
+      { title: "Cost-Conscious AI Developers", description: "Developers building AI applications use DeepSeek for competitive performance at lower API costs" },
+      { title: "Organizations Wanting Self-Hosting", description: "Companies that require on-premises AI deployment use DeepSeek open weights for private self-hosted model deployment" },
+      { title: "Coding Tool Builders", description: "Developers building coding assistants use DeepSeek Coder for strong programming-specific AI capabilities" }
+    ]
+  },
   "ludo-ai": {
     whatIs: "Ludo.ai is an AI-powered game design platform that helps game designers generate game concepts, mechanics, art assets, and design documentation. It provides tools for brainstorming game ideas, creating concept art, and researching the competitive game market. For game designers who want AI assistance throughout the development process, Ludo.ai provides specialized game industry AI tools.",
     features: [
