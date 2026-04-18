@@ -1,4 +1,268 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "vizologi": {
+    whatIs: "Vizologi is a business strategy and innovation platform that uses AI to help entrepreneurs and business analysts explore business models, market opportunities, and competitive landscapes. It provides access to thousands of real business model examples organized by patterns, and uses AI to generate business model ideas and strategic insights. For entrepreneurs exploring new business ideas and analysts studying business model innovation, Vizologi provides a structured framework for strategic thinking backed by extensive real-world examples.",
+    features: [
+      "Business Model Explorer: Browse thousands of real business model examples",
+      "AI Strategy Generation: Generate business model ideas with AI assistance",
+      "Market Analysis: Explore market opportunities and competitive dynamics",
+      "Innovation Patterns: Identify business model patterns across industries",
+      "Strategy Canvas: Visual business model mapping tools",
+      "Competitor Analysis: Understand how competitors structure their businesses",
+      "Industry Research: Deep dives into specific industry dynamics",
+      "Free Access: Basic business model exploration without payment"
+    ],
+    howToUse: {
+      title: "How to Use Vizologi",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Explore Business Models", description: "Sign up at vizologi.com and browse the business model library. Search by industry, pattern, or business type to find relevant examples for your research." },
+        { title: "Generate Strategy Ideas", description: "Use the AI strategy tools to generate business model variations and strategic options for your venture or research project." },
+        { title: "Map Your Business Model", description: "Use the strategy canvas to map your own business model and identify areas for innovation and improvement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real Example Library", description: "Abstract business strategy concepts become concrete with thousands of real business examples. Learning from actual companies is more actionable than theoretical frameworks alone" },
+      { title: "Pattern Recognition", description: "Business model innovation often comes from applying patterns from one industry to another. Vizologi pattern library makes these cross-industry insights accessible" },
+      { title: "Entrepreneur Decision Support", description: "Founders who explore multiple business model options before committing make more informed strategic decisions than those who pursue the first obvious approach" },
+      { title: "Academic and Professional Research", description: "Business analysts and researchers use structured business model databases for comparative studies that individual web research cannot efficiently produce" }
+    ],
+    useCases: [
+      { title: "Entrepreneurs Exploring Business Models", description: "Founders use Vizologi to explore different business model options and identify the most viable approach for their venture" },
+      { title: "Business Strategy Consultants", description: "Strategy professionals use Vizologi for client research and to identify innovation opportunities in specific industries" },
+      { title: "MBA Students and Researchers", description: "Business school students and academic researchers use Vizologi for business model analysis and strategic research" }
+    ]
+  },
+  "stratup-ai": {
+    whatIs: "Stratup AI is an AI-powered startup idea generation and validation platform that helps aspiring entrepreneurs discover viable business opportunities. It generates startup ideas based on market trends, user interests, and identified problems, then provides initial validation frameworks to assess idea viability. For people who want to start a business but struggle to identify the right opportunity, Stratup AI provides the creative ideation and preliminary validation that gets the entrepreneurial journey started.",
+    features: [
+      "Startup Idea Generation: AI-generated business ideas based on trends and interests",
+      "Market Validation: Framework for testing idea viability",
+      "Problem Identification: Surface problems worth solving in various markets",
+      "Trend Analysis: Ideas aligned with emerging market trends",
+      "Competitive Landscape: Initial competitive overview for generated ideas",
+      "Idea Refinement: Iterate on ideas to find the strongest version",
+      "Pitch Summary: Quick pitch summary for promising ideas",
+      "Free to Try: Basic idea generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Stratup Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Interests", description: "Sign up at stratup.ai and describe your interests, skills, and the types of problems you want to solve. The more specific you are the more relevant the generated ideas." },
+        { title: "Explore Generated Ideas", description: "Browse the AI-generated startup ideas that match your inputs. Review each idea for the problem it solves, target market, and initial viability assessment." },
+        { title: "Validate Your Favorites", description: "Use the validation frameworks to test your favorite ideas against market reality. Identify which ideas have the strongest potential before investing significant time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Ideation Acceleration", description: "Coming up with good startup ideas is harder than it looks. AI that generates many ideas quickly gives aspiring founders more options to evaluate than they would generate independently" },
+      { title: "Trend Alignment", description: "Ideas aligned with emerging trends have better timing than ideas pursuing declining or stagnant markets. AI that incorporates trend data produces more timely opportunities" },
+      { title: "Validation Framework", description: "Many aspiring founders spend months building ideas that have no market. Preliminary validation frameworks that test assumptions early save enormous wasted effort" },
+      { title: "Confidence Building", description: "Aspiring entrepreneurs who explore many ideas systematically before committing develop better judgment about opportunity quality over time" }
+    ],
+    useCases: [
+      { title: "Aspiring Entrepreneurs", description: "People who want to start a business but have not found the right idea use Stratup AI for structured ideation and early validation" },
+      { title: "Serial Entrepreneurs", description: "Experienced founders use Stratup AI to explore new opportunity spaces efficiently when looking for their next venture" },
+      { title: "Innovation Teams", description: "Corporate innovation teams use Stratup AI for new business idea generation and initial opportunity screening" }
+    ]
+  },
+  "validator-ai": {
+    whatIs: "Validator AI is a startup idea validation platform that uses AI to evaluate the viability of business ideas against market criteria, competitive reality, and execution feasibility. Entrepreneurs submit their startup ideas and receive detailed AI-generated assessments covering market size, competition, differentiation, potential challenges, and overall viability score. For founders who want objective feedback on their ideas before investing significant time and resources, Validator AI provides structured assessment that supplements the validation bias of asking people who know you.",
+    features: [
+      "Idea Assessment: Comprehensive AI evaluation of startup idea viability",
+      "Market Size Analysis: AI estimation of addressable market opportunity",
+      "Competition Assessment: Evaluation of competitive landscape",
+      "Differentiation Analysis: Assessment of unique value proposition strength",
+      "Risk Identification: Key risks and challenges for the business idea",
+      "Viability Score: Overall assessment score with reasoning",
+      "Improvement Suggestions: Specific recommendations for strengthening the idea",
+      "Free to Try: Basic idea validation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Validator Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Idea", description: "Sign up at validator.ai and describe your startup idea in detail - the problem, solution, target customer, and business model." },
+        { title: "Review Your Assessment", description: "Validator AI generates a comprehensive assessment covering market opportunity, competition, differentiation, and key risks. Review each dimension of the analysis." },
+        { title: "Refine and Revalidate", description: "Use the feedback to strengthen weak areas of your idea. Resubmit the improved version to see how the assessment changes with your refinements." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Objectivity Value", description: "Friends and family asked about startup ideas tend to be encouraging rather than honest. AI assessment that evaluates ideas against objective criteria provides the honest feedback that improves ideas" },
+      { title: "Systematic Evaluation", description: "Evaluating startup ideas requires considering many dimensions simultaneously. Structured assessment that covers all key viability factors produces more thorough evaluation than intuitive judgment" },
+      { title: "Early Pivot Intelligence", description: "Understanding the weaknesses in a startup idea before building anything allows founders to pivot or refine their approach before wasting development resources" },
+      { title: "Investor Preparation", description: "Founders who have rigorously validated their idea with structured assessment are better prepared for investor questions about market opportunity and competitive positioning" }
+    ],
+    useCases: [
+      { title: "Pre-Launch Founders", description: "Entrepreneurs in the idea stage use Validator AI for objective assessment before committing to building" },
+      { title: "Accelerator Applicants", description: "Founders applying to accelerator programs use Validator AI to strengthen their ideas and applications" },
+      { title: "Corporate Innovators", description: "Intrapreneurs evaluating new business ideas within organizations use Validator AI for structured opportunity assessment" }
+    ]
+  },
+  "namelix": {
+    whatIs: "Namelix is an AI-powered business name generator that creates short, brandable business names from keywords and preferences. It uses machine learning to generate creative name options that are memorable, available as domains, and appropriate for the specified business type. Users enter keywords related to their business and Namelix produces dozens of unique name options with logo previews. For entrepreneurs who need a distinctive business name that is both creative and available, Namelix provides AI-powered naming at scale.",
+    features: [
+      "AI Name Generation: Creative business names from keyword inputs",
+      "Domain Availability: Checks domain availability for generated names",
+      "Logo Preview: Simple logo concepts alongside name suggestions",
+      "Style Preferences: Adjust for different naming styles and lengths",
+      "Multiple Options: Dozens of name variations to choose from",
+      "Industry Specific: Names calibrated to your business type",
+      "Saved Names: Save and compare favorite options",
+      "Free to Use: Basic name generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Namelix",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Keywords", description: "Go to namelix.com and enter keywords that describe your business - what you do, your industry, and any words that capture your brand essence." },
+        { title: "Set Your Preferences", description: "Choose your preferred name style - short, made-up words, real words, or compound names. Set the style that fits your brand personality." },
+        { title: "Browse and Select", description: "Browse the generated names with logo previews. Save the ones you like and check domain availability for your favorites before making your final decision." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Naming at Scale", description: "Coming up with creative available business names manually is time-consuming. AI that generates dozens of creative options quickly gives entrepreneurs meaningful choice" },
+      { title: "Domain Reality Check", description: "A great name with no available domain is useless. Integrated domain checking makes availability part of the selection process" },
+      { title: "Logo Preview Value", description: "Seeing how a name looks with a simple logo helps entrepreneurs evaluate whether the name has visual brand potential beyond just how it sounds" },
+      { title: "Naming Style Range", description: "Different businesses suit different naming approaches. Style controls that produce made-up words for tech companies or professional real words for service businesses produce more appropriate results" }
+    ],
+    useCases: [
+      { title: "New Business Founders", description: "Entrepreneurs starting new businesses use Namelix for creative available names without the cost of professional naming services" },
+      { title: "Product Managers Naming Features", description: "Product teams naming new features or sub-brands use Namelix for quick creative name exploration" },
+      { title: "Side Project Creators", description: "People launching side projects use Namelix for distinctive names that stand out without extensive manual brainstorming" }
+    ]
+  },
+  "namesnack": {
+    whatIs: "NameSnack is an AI business name generator that creates brandable company names using machine learning trained on thousands of successful business names. It produces creative, available names with matching domain suggestions and brand identity previews. The platform is known for the quality and creativity of its generated names which go beyond simple keyword combinations to produce names that feel genuinely distinctive and memorable.",
+    features: [
+      "AI Name Generation: High-quality creative business names",
+      "Brand Identity Preview: Visual brand concepts for promising names",
+      "Domain Checking: Availability check for generated names",
+      "Industry Adaptation: Names calibrated to different business sectors",
+      "Memorable Focus: AI optimized for memorable and distinctive names",
+      "Multiple Styles: Short names, made-up words, and descriptive options",
+      "Instant Results: Names generated immediately",
+      "Free to Use: Basic name generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Namesnack",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Business", description: "Go to namesnack.com and describe your business in a few words. Include your industry and any brand characteristics you want the name to convey." },
+        { title: "Browse Generated Names", description: "Review the AI-generated name options with their visual previews. Look for names that feel distinctive, are easy to remember, and match your brand personality." },
+        { title: "Check Availability", description: "For names you like, verify domain and social media handle availability. Secure your chosen name and domain before finalizing your brand identity." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Quality Over Quantity", description: "NameSnack focuses on generating high-quality creative names rather than large volumes of mediocre options, which makes selection faster and more productive" },
+      { title: "Brand Feel", description: "Business names that feel like genuine brands rather than keyword mashups build more credibility. AI trained on successful brand names produces better brand-quality output" },
+      { title: "Visual Brand Preview", description: "Seeing how a name looks with brand visual elements helps entrepreneurs make more informed name decisions than evaluating text alone" },
+      { title: "Discovery of Unexpected Options", description: "AI naming sometimes produces options that founders would never have considered independently but immediately recognize as excellent choices" }
+    ],
+    useCases: [
+      { title: "Startup Founders", description: "Founders launching new ventures use NameSnack for creative brand-quality names that make strong first impressions" },
+      { title: "Small Business Owners", description: "Local and online business owners use NameSnack for distinctive names that stand out in their market" },
+      { title: "Brand Consultants", description: "Naming and branding professionals use NameSnack for rapid creative exploration in client naming projects" }
+    ]
+  },
+  "brandbolt": {
+    whatIs: "BrandBolt is an AI brand name and identity generation platform that creates complete brand packages from business descriptions. It generates business names, taglines, domain availability, and initial brand identity concepts in one workflow. For entrepreneurs who need to establish a complete brand identity quickly, BrandBolt provides the integrated naming and branding that gets from idea to brand faster than using separate tools for each element.",
+    features: [
+      "Complete Brand Generation: Names, taglines, and identity in one workflow",
+      "AI Naming: Creative business name generation",
+      "Tagline Creation: Brand taglines alongside name options",
+      "Domain Checking: Availability verification for generated names",
+      "Brand Concepts: Initial visual brand direction suggestions",
+      "Multiple Industries: Brand generation for any business type",
+      "Quick Workflow: Fast path from idea to brand assets",
+      "Free to Try: Basic brand generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Brandbolt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Brand", description: "Sign up at brandbolt.io and describe your business, target audience, and brand personality. Be specific about what makes your business different." },
+        { title: "Review Brand Package", description: "BrandBolt generates a complete brand package with names, taglines, and initial identity concepts. Review each element for fit with your vision." },
+        { title: "Select and Develop", description: "Choose the brand direction that best represents your business and use it as the foundation for further brand development." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Integrated Brand Creation", description: "Getting a name, tagline, and visual brand direction from separate tools requires extra effort to ensure they work together. Integrated generation produces more cohesive brand packages" },
+      { title: "Speed for Entrepreneurs", description: "New businesses need brand assets quickly to start marketing. AI brand generation that delivers complete packages in minutes meets this urgent timeline" },
+      { title: "Starting Point Quality", description: "AI-generated brand packages that provide a strong starting point are easier to develop than starting from nothing, even for experienced brand developers" },
+      { title: "Cost Efficiency", description: "Complete brand packages from agencies cost thousands. AI brand generation provides a solid foundation at a fraction of this cost" }
+    ],
+    useCases: [
+      { title: "Early-Stage Startups", description: "Founders who need a brand quickly use BrandBolt for complete brand package generation" },
+      { title: "Solo Entrepreneurs", description: "Independent business owners use BrandBolt for all-in-one brand creation without agency costs" },
+      { title: "Product Launchers", description: "People launching new products use BrandBolt for quick brand identity development" }
+    ]
+  },
+  "brandix-ai": {
+    whatIs: "Brandix AI is an AI-powered brand name generator that creates unique, memorable business names with domain availability checking and brand identity suggestions. It uses AI to understand your business context and generate names that are distinctive, pronounceable, and available for use as a brand and domain. The platform focuses on generating names that feel like genuine brands rather than generic keyword combinations.",
+    features: [
+      "AI Brand Naming: Unique memorable names from business descriptions",
+      "Domain Availability: Real-time domain checking for generated names",
+      "Brand Identity: Initial visual identity suggestions for promising names",
+      "Uniqueness Check: Verify name uniqueness and trademark considerations",
+      "Multiple Formats: Different name styles and lengths",
+      "Industry Context: Names appropriate for your specific industry",
+      "Instant Generation: Names produced immediately",
+      "Free to Use: Basic brand naming without payment"
+    ],
+    howToUse: {
+      title: "How to Use Brandix Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Business Details", description: "Go to brandix.ai and describe your business concept, target audience, and any naming preferences or constraints." },
+        { title: "Review Name Options", description: "Browse the generated brand names with their domain availability status. Focus on names that are distinctive, easy to pronounce, and feel right for your brand." },
+        { title: "Verify and Secure", description: "For your favorite names, verify trademark availability and secure the domain immediately. Brand names are first-come-first-served." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brand Quality Focus", description: "Generic business name generators produce keyword combinations that do not feel like brands. AI focused specifically on brand quality produces more genuinely brandable names" },
+      { title: "Immediate Domain Check", description: "Discovering your perfect name has no available domain after you have already become attached to it is frustrating. Real-time domain checking prevents this" },
+      { title: "Trademark Awareness", description: "Knowing a name might have trademark issues before committing to it saves the expensive legal problems of rebranding after launch" },
+      { title: "Distinctiveness", description: "Memorable distinctive names that stand out in their market build brand recognition faster than generic descriptive names" }
+    ],
+    useCases: [
+      { title: "Tech Startups", description: "Technology companies use Brandix AI for modern distinctive brand names appropriate for the tech sector" },
+      { title: "E-commerce Brands", description: "Online retailers use Brandix AI for brandable names that work well for digital-first businesses" },
+      { title: "Creative Businesses", description: "Agencies, studios, and creative businesses use Brandix AI for names that project creativity and distinctiveness" }
+    ]
+  },
+  "findname": {
+    whatIs: "FindName is a business name search and discovery platform that helps entrepreneurs find available business names that match their brand requirements. It searches across domain availability, trademark databases, and business name registrations to surface available options that meet multiple availability criteria simultaneously. For founders who want to ensure their chosen name is truly available across all relevant channels before committing, FindName provides comprehensive availability research in one search.",
+    features: [
+      "Multi-Channel Search: Check availability across domains, trademarks, and social media",
+      "Domain Availability: Real-time domain checking across TLDs",
+      "Trademark Search: Basic trademark availability checking",
+      "Social Handle Check: Username availability on major platforms",
+      "Name Suggestions: Related name ideas when your first choice is taken",
+      "Availability Report: Comprehensive report on a specific name",
+      "Batch Checking: Check multiple names simultaneously",
+      "Free to Use: Basic name availability checking without payment"
+    ],
+    howToUse: {
+      title: "How to Use Findname",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Name", description: "Go to findname.io and enter the business name you want to check. FindName searches across multiple availability databases simultaneously." },
+        { title: "Review Availability Report", description: "See availability status across domains, trademarks, and social platforms in one report. Understand exactly which channels are available and which are taken." },
+        { title: "Explore Alternatives", description: "If your preferred name is not available in all channels, review the suggested alternatives that might be available across the channels you need." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Channel Reality", description: "A name available as a .com domain might already be trademarked or taken as a social handle. Checking all channels simultaneously prevents committing to a name that fails on one critical dimension" },
+      { title: "Time Efficiency", description: "Manually checking name availability across domains, trademark databases, and social platforms takes significant time. Simultaneous multi-channel search compresses this to seconds" },
+      { title: "Commitment Confidence", description: "Knowing a name is available across all channels before committing to brand development eliminates the risk of discovering conflicts after investing in brand assets" },
+      { title: "Alternative Discovery", description: "Finding that your preferred name is taken across some channels leads to discovering alternatives you might not have considered independently" }
+    ],
+    useCases: [
+      { title: "Pre-Launch Founders", description: "Entrepreneurs preparing to launch use FindName to confirm their chosen business name is available before brand investment" },
+      { title: "Brand Managers", description: "Marketing professionals checking availability for new product names use FindName for comprehensive multi-channel search" },
+      { title: "Domain Investors", description: "People evaluating domain name opportunities use FindName to understand the full availability landscape for specific names" }
+    ]
+  },
   "avey-app": {
     whatIs: "Avey is an AI health assistant app that helps users understand their symptoms, track their health, and make better healthcare decisions. It provides personalized health guidance through conversational AI, helping users assess symptoms, understand conditions, and know when to seek professional care. The app is designed to be a knowledgeable health companion that helps people navigate their health questions between doctor visits.",
     features: [
