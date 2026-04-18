@@ -1,4 +1,268 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "namefi": {
+    whatIs: "Namefi is a Web3 domain name platform that brings traditional domain names onto the blockchain, allowing domain owners to use their domains as NFTs, collateral, and programmable digital assets. It enables domain monetization through DeFi mechanisms and creates a more open, composable domain ownership experience. For Web3 users who want to do more with their domain names than traditional registrars allow, Namefi provides blockchain-native domain ownership.",
+    features: [
+      "Blockchain Domains: Traditional domains tokenized as NFTs on blockchain",
+      "Domain NFTs: Use domains as programmable blockchain assets",
+      "DeFi Integration: Use domains as collateral in DeFi protocols",
+      "Domain Monetization: Earn from your domain names through Web3 mechanisms",
+      "Programmable Ownership: Smart contract-based domain management",
+      "Cross-Chain: Domain assets usable across different blockchain networks",
+      "Traditional Domain Support: Works with existing .com and other TLDs",
+      "Free to Explore: Browse platform without payment"
+    ],
+    howToUse: {
+      title: "How to Use Namefi",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Wallet", description: "Sign up at namefi.io and connect your Web3 wallet. Bridge your existing domains or acquire domains through the platform." },
+        { title: "Tokenize Your Domain", description: "Convert your domain name to a blockchain-native NFT asset. Your domain becomes programmable and usable in Web3 contexts." },
+        { title: "Use in Web3", description: "Use your tokenized domain as collateral, earn yield, or trade it through NFT marketplaces while maintaining control of the underlying domain." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Domain Asset Value", description: "Traditional domains are functional but illiquid assets. Tokenization that creates liquid blockchain assets from domains unlocks their value in new ways" },
+      { title: "DeFi Utility", description: "Using domain names as collateral in DeFi protocols creates utility from assets that otherwise just sit passively in registrar accounts" },
+      { title: "Programmable Management", description: "Smart contract-based domain management enables automated, trustless domain transactions that traditional registrar infrastructure cannot support" },
+      { title: "Web3 Composability", description: "Domain assets that work across Web3 protocols and applications integrate into the broader decentralized ecosystem rather than remaining isolated in traditional web infrastructure" }
+    ],
+    useCases: [
+      { title: "Domain Name Investors", description: "People who own valuable domain portfolios use Namefi to unlock Web3 utility and liquidity from their assets" },
+      { title: "Web3 Builders", description: "Blockchain application developers use Namefi for programmable domain infrastructure in their decentralized applications" },
+      { title: "DeFi Users", description: "Crypto users who want to use all available assets in DeFi protocols use Namefi to bring domain value into the DeFi ecosystem" }
+    ]
+  },
+  "skyhitz": {
+    whatIs: "Skyhitz is a Web3 music platform built on the Stellar blockchain that allows music creators to tokenize their tracks and fans to invest in songs they believe in. Musicians upload their music and create investment tokens that fans can purchase, sharing in the commercial success of the tracks they support. For independent musicians who want new ways to fund their music and for music fans who want to participate financially in artists they support, Skyhitz provides the blockchain-based music investment infrastructure.",
+    features: [
+      "Music Tokenization: Create investment tokens for your music tracks",
+      "Fan Investment: Fans invest in songs they believe will succeed",
+      "Revenue Sharing: Token holders share in track commercial success",
+      "Stellar Blockchain: Built on the Stellar network for low fees",
+      "Music Discovery: Find emerging artists and tracks to support",
+      "Artist Tools: Upload and manage your music token offerings",
+      "Transparent Royalties: Blockchain-verified royalty distribution",
+      "Free to Join: Basic platform access without payment"
+    ],
+    howToUse: {
+      title: "How to Use Skyhitz",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Music", description: "Sign up at skyhitz.io and upload your tracks to the platform. Configure your investment token offering for each track you want to tokenize." },
+        { title: "Create Your Token Offering", description: "Set the terms for your music investment tokens - how many tokens, what percentage of royalties token holders receive, and the token price." },
+        { title: "Build Your Investor Base", description: "Promote your token offering to fans and supporters. Build a community of investors who are financially aligned with your musical success." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Alternative Music Funding", description: "Independent musicians who cannot get traditional label deals need alternative funding. Fan investment through blockchain tokens creates a new funding model" },
+      { title: "Fan Alignment", description: "Fans who have financial stakes in an artist success are more motivated to promote and support that artist than passive listeners" },
+      { title: "Transparent Royalties", description: "Blockchain-based royalty distribution that token holders can verify creates trust that traditional royalty accounting cannot match" },
+      { title: "Creator Economy Innovation", description: "Music investment tokens represent a new model for creator-fan relationships that goes beyond streaming and merchandise into genuine financial partnership" }
+    ],
+    useCases: [
+      { title: "Independent Musicians", description: "Artists without label deals use Skyhitz to fund their music through fan investment" },
+      { title: "Music Fans and Collectors", description: "People who want to financially support artists they believe in use Skyhitz to invest in tracks they think will succeed" },
+      { title: "Crypto-Native Music Enthusiasts", description: "Web3 users who want to combine their music passion with blockchain investment use Skyhitz for crypto-native music participation" }
+    ]
+  },
+  "worlds-beyond": {
+    whatIs: "Worlds Beyond is a Web3 gaming and metaverse platform that creates immersive virtual world experiences with player-owned digital assets and AI-generated content. It builds gaming experiences where players genuinely own their in-game items through NFTs and participate in economies that extend beyond the game itself. For players who want gaming experiences with real digital ownership and economic participation, Worlds Beyond provides the next-generation gaming infrastructure.",
+    features: [
+      "Immersive Virtual Worlds: Rich interactive metaverse experiences",
+      "Player Ownership: True digital asset ownership through NFTs",
+      "AI Content Generation: AI-created game content and environments",
+      "Play to Earn: Economic participation for active players",
+      "Cross-Platform: Experiences accessible across different devices",
+      "Community Governance: Player input into world development",
+      "Digital Asset Trading: Buy, sell, and trade in-game assets",
+      "Free to Play: Basic game access without payment"
+    ],
+    howToUse: {
+      title: "How to Use Worlds Beyond",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up at worldsbeyond.io and create your player account and digital identity for the platform." },
+        { title: "Explore the World", description: "Enter the virtual worlds and begin exploring the AI-generated environments. Collect and interact with digital assets as you play." },
+        { title: "Build and Trade", description: "Acquire player-owned assets through gameplay or purchase. Trade assets with other players and participate in the in-game economy." }
+      ]
+    },
+    coreFeatures: [
+      { title: "True Ownership", description: "Traditional games grant licenses to use digital items that can be revoked. NFT-based ownership that players truly control cannot be taken away by the game company" },
+      { title: "AI Content Scale", description: "Creating enough content to fill vast persistent virtual worlds requires AI generation that can produce environments and items at scale impossible through manual creation" },
+      { title: "Economic Participation", description: "Games where players can earn real value from their time and skill investment create stronger engagement and larger communities than pure entertainment games" },
+      { title: "Interoperability Future", description: "Digital assets that work across different games and platforms represent the direction gaming is heading as the metaverse concept develops" }
+    ],
+    useCases: [
+      { title: "Web3 Gamers", description: "Players who value digital ownership use Worlds Beyond for gaming experiences where their assets are genuinely theirs" },
+      { title: "Play-to-Earn Participants", description: "Players who want to earn from gaming use Worlds Beyond for the economic participation model" },
+      { title: "Metaverse Explorers", description: "People curious about virtual world experiences use Worlds Beyond for accessible metaverse exploration" }
+    ]
+  },
+  "defipe": {
+    whatIs: "DefiPe is a decentralized finance platform that provides DeFi services including yield farming, liquidity provision, and token swapping. It enables crypto users to put their digital assets to work earning yield through decentralized protocols without relying on centralized financial intermediaries. For crypto holders who want to generate returns from their assets through DeFi mechanisms, DefiPe provides the infrastructure for decentralized yield generation.",
+    features: [
+      "Yield Farming: Earn yields on cryptocurrency holdings",
+      "Liquidity Provision: Provide liquidity to trading pairs for fees",
+      "Token Swapping: Exchange cryptocurrencies through decentralized protocols",
+      "DeFi Aggregation: Access multiple DeFi protocols through one interface",
+      "Wallet Integration: Connect popular crypto wallets",
+      "Yield Optimization: Automatically optimize yield strategies",
+      "Transparent Operations: All operations verifiable on blockchain",
+      "Free to Use: Access DeFi services without platform fees"
+    ],
+    howToUse: {
+      title: "How to Use Defipe",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Wallet", description: "Go to defipe.io and connect your cryptocurrency wallet. Your assets remain in your wallet rather than being deposited to a centralized platform." },
+        { title: "Choose Your Strategy", description: "Select a yield strategy that matches your risk tolerance and token holdings. Review the expected yields and associated risks for each option." },
+        { title: "Provide Liquidity or Farm", description: "Deploy your assets into your chosen strategy. Monitor your yield earnings and rebalance your strategy as market conditions change." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Decentralized Control", description: "Centralized finance platforms control user assets and can freeze withdrawals. DeFi protocols that operate through smart contracts give users control of their assets throughout" },
+      { title: "Permissionless Access", description: "DeFi protocols that anyone can access without identity verification or approval provide financial services to people who cannot access traditional finance" },
+      { title: "Transparency", description: "All DeFi operations occur on public blockchains that anyone can verify. This transparency contrasts with the opacity of centralized financial institutions" },
+      { title: "Composability", description: "DeFi protocols that work together create financial products impossible in traditional finance. Composability enables sophisticated strategies built from simple building blocks" }
+    ],
+    useCases: [
+      { title: "Crypto Yield Seekers", description: "Cryptocurrency holders who want to earn returns on idle assets use DefiPe for decentralized yield generation" },
+      { title: "DeFi Participants", description: "Active DeFi users use DefiPe for access to multiple protocols and yield opportunities through one interface" },
+      { title: "Crypto-Native Investors", description: "Investors who prefer decentralized finance over centralized exchanges use DefiPe for their yield and liquidity activities" }
+    ]
+  },
+  "nft-advisor": {
+    whatIs: "NFT Advisor is an AI-powered NFT analysis and advisory platform that helps collectors and investors make more informed decisions about NFT purchases and sales. It analyzes NFT projects for community strength, utility, team credibility, and market dynamics, providing data-driven assessments that go beyond floor price and volume metrics. For NFT participants who want analytical support beyond speculation and hype, NFT Advisor provides the intelligence layer for more informed NFT investment decisions.",
+    features: [
+      "Project Analysis: Comprehensive AI assessment of NFT projects",
+      "Community Metrics: Analysis of community strength and engagement",
+      "Team Research: Evaluation of project team credibility",
+      "Rarity Analysis: Rarity scoring for individual NFTs within collections",
+      "Market Trends: NFT market trend analysis and insights",
+      "Risk Assessment: Identification of project risks and red flags",
+      "Portfolio Tracking: Monitor your NFT holdings performance",
+      "Free Access: Basic NFT analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Nft Advisor",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Research a Project", description: "Sign up at nftadvisor.io and search for an NFT project you want to evaluate. NFT Advisor provides a comprehensive analysis report." },
+        { title: "Review the Assessment", description: "Read through the project analysis covering community, team, utility, market metrics, and risk factors. Use the assessment to inform your decision." },
+        { title: "Track Your Portfolio", description: "Add your NFT holdings to track their performance and receive alerts on significant changes to projects in your portfolio." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Beyond Floor Price", description: "NFT investment decisions based only on floor price and volume miss the qualitative factors that determine long-term project viability. Comprehensive analysis produces better-informed decisions" },
+      { title: "Community Intelligence", description: "NFT project success depends heavily on community strength. Analysis that quantifies community engagement provides signal that raw market data does not" },
+      { title: "Risk Identification", description: "NFT markets have significant risks including rug pulls and abandoned projects. AI analysis that identifies red flags protects investors from common NFT pitfalls" },
+      { title: "Due Diligence at Scale", description: "Manually researching every NFT project you consider investing in is time-consuming. AI analysis that processes project data quickly enables more thorough due diligence" }
+    ],
+    useCases: [
+      { title: "NFT Collectors and Investors", description: "People who buy and sell NFTs use NFT Advisor for analytical support that improves their investment decisions" },
+      { title: "NFT Market Researchers", description: "Analysts studying the NFT market use NFT Advisor for data and insights across many projects" },
+      { title: "Crypto Portfolio Managers", description: "Investment managers with crypto and NFT exposure use NFT Advisor for portfolio analysis and risk management" }
+    ]
+  },
+  "spice-ai": {
+    whatIs: "Spice AI is an AI and data infrastructure platform that provides time-series data, AI models, and analytics for financial markets, blockchain data, and other data-intensive applications. It offers a developer-friendly data platform that makes it easy to access, query, and use complex financial and blockchain datasets in applications and AI models. For developers building financial applications, trading systems, and blockchain analytics tools, Spice AI provides the data infrastructure that accelerates development.",
+    features: [
+      "Time-Series Data: High-quality financial and blockchain time-series datasets",
+      "AI Model Access: Pre-built AI models for financial and blockchain applications",
+      "Developer API: Simple API for accessing data and models",
+      "Blockchain Data: Comprehensive on-chain data across multiple networks",
+      "Market Data: Financial market data for analytics and trading applications",
+      "Real-Time Feeds: Live data streams for time-sensitive applications",
+      "SQL Queries: Query financial data using familiar SQL syntax",
+      "Free Tier: Basic data access without payment"
+    ],
+    howToUse: {
+      title: "How to Use Spice Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access the Platform", description: "Sign up at spice.ai and explore the available datasets and AI models for your application domain." },
+        { title: "Query Your Data", description: "Use the SQL interface or API to query the financial and blockchain data you need for your application or analysis." },
+        { title: "Build Your Application", description: "Integrate Spice AI data and models into your application. Use the developer-friendly APIs to build financial or blockchain analytics features." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data Quality and Reliability", description: "Financial and blockchain applications require high-quality, reliable data. Purpose-built financial data infrastructure provides the quality standards that general data sources cannot guarantee" },
+      { title: "Developer Accessibility", description: "Complex financial datasets are traditionally accessible only through expensive specialized data providers. Developer-friendly APIs that make this data accessible accelerate financial application development" },
+      { title: "AI Model Integration", description: "Pre-built AI models for financial domains that developers can use directly reduce the ML expertise required to build intelligent financial applications" },
+      { title: "Real-Time Capability", description: "Financial applications often require real-time or near-real-time data. Infrastructure built for low-latency data delivery meets this requirement that general databases cannot" }
+    ],
+    useCases: [
+      { title: "Fintech Developers", description: "Developers building financial applications use Spice AI for the reliable financial data and AI models their applications require" },
+      { title: "Blockchain Analytics Builders", description: "Teams creating blockchain analytics tools use Spice AI for comprehensive on-chain data across multiple networks" },
+      { title: "Quantitative Traders", description: "Quants building algorithmic trading systems use Spice AI for the time-series financial data their strategies require" }
+    ]
+  },
+  "swaap": {
+    whatIs: "Swaap is a decentralized exchange and market making protocol that uses AI and mathematical models to provide more capital-efficient liquidity and better pricing for DeFi traders. It applies quantitative finance techniques to automated market making, reducing impermanent loss for liquidity providers while offering competitive pricing for traders. For DeFi participants who provide liquidity or trade on decentralized exchanges, Swaap provides a more sophisticated alternative to traditional constant product AMMs.",
+    features: [
+      "AI Market Making: Quantitative models for more efficient liquidity provision",
+      "Reduced Impermanent Loss: Better LP returns through mathematical optimization",
+      "Competitive Pricing: Better trade execution for DeFi traders",
+      "Multiple Assets: Support for various token pairs",
+      "On-Chain Transparency: All operations verifiable on blockchain",
+      "Liquidity Provision: Earn fees as a liquidity provider",
+      "Capital Efficiency: Better returns per unit of capital deployed",
+      "Free to Use: Access trading without platform fees"
+    ],
+    howToUse: {
+      title: "How to Use Swaap",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Wallet", description: "Go to swaap.finance and connect your Web3 wallet to access the trading and liquidity provision features." },
+        { title: "Trade or Provide Liquidity", description: "Use Swaap for token swapping or provide liquidity to earn trading fees. Review the expected returns and risk profile before providing liquidity." },
+        { title: "Monitor Your Position", description: "Track your liquidity provision performance and trading activity. Monitor impermanent loss compared to alternative liquidity strategies." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Impermanent Loss Reduction", description: "Traditional AMM liquidity provision exposes providers to significant impermanent loss. Quantitative models that reduce this loss improve LP economics substantially" },
+      { title: "Capital Efficiency", description: "Better capital efficiency means liquidity providers earn more per unit of capital deployed compared to standard AMMs" },
+      { title: "Quant Finance Application", description: "Applying quantitative finance techniques that institutional market makers use to decentralized protocols brings more sophisticated pricing to DeFi" },
+      { title: "Trader Quality", description: "Better pricing and lower slippage for traders creates more trading volume that benefits liquidity providers through higher fee income" }
+    ],
+    useCases: [
+      { title: "DeFi Liquidity Providers", description: "Crypto investors who provide liquidity to DEXes use Swaap for better LP returns and reduced impermanent loss" },
+      { title: "DeFi Traders", description: "Active DeFi traders use Swaap for competitive pricing and efficient execution on token swaps" },
+      { title: "Quantitative DeFi Participants", description: "Sophisticated DeFi users who evaluate protocols on mathematical rather than marketing grounds use Swaap for its quantitative approach" }
+    ]
+  },
+  "puti": {
+    whatIs: "PUTI is a Web3 gaming platform that creates blockchain-based gaming experiences with player-owned assets and play-to-earn mechanics. It develops games where players can earn cryptocurrency and NFTs through gameplay, creating genuine economic value from gaming time and skill. For gamers who want to participate in the play-to-earn economy and for Web3 enthusiasts who want engaging gaming experiences built on blockchain technology, PUTI provides accessible blockchain gaming.",
+    features: [
+      "Play-to-Earn: Earn cryptocurrency through gameplay",
+      "NFT Assets: Player-owned in-game items as NFTs",
+      "Blockchain Gaming: Games built on blockchain infrastructure",
+      "Skill Rewards: Better players earn more from their gaming skill",
+      "Asset Trading: Buy, sell, and trade game assets on marketplaces",
+      "Community: Player community around PUTI gaming experiences",
+      "Multiple Games: Different game types within the platform",
+      "Free to Play: Basic game access without investment"
+    ],
+    howToUse: {
+      title: "How to Use Puti",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up at puti.io and create your player account. Connect your cryptocurrency wallet to receive earnings and manage assets." },
+        { title: "Start Playing", description: "Enter the available games and begin playing. Learn the mechanics and develop skills that increase your earning potential." },
+        { title: "Earn and Trade", description: "Accumulate in-game assets and cryptocurrency through gameplay. Trade assets with other players or sell on NFT marketplaces." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Economic Gaming", description: "Games where skilled players earn real economic value create stronger engagement incentives than purely entertainment games" },
+      { title: "Asset Ownership", description: "Players who own their in-game assets can sell them when they stop playing, recovering value from their gaming investment in ways traditional games never allowed" },
+      { title: "Skill Monetization", description: "Play-to-earn models allow skilled players to monetize their gaming ability in ways that streaming and esports only provide for the very top tier" },
+      { title: "Blockchain Transparency", description: "Game economies that operate on public blockchains with verifiable rules create fairer gaming environments than opaque centralized game economies" }
+    ],
+    useCases: [
+      { title: "Play-to-Earn Gamers", description: "Players who want to earn from their gaming time use PUTI for accessible blockchain gaming with economic rewards" },
+      { title: "Crypto Gamers", description: "Web3 enthusiasts who want engaging gaming experiences with blockchain integration use PUTI for crypto-native gaming" },
+      { title: "Emerging Market Players", description: "Gamers in regions where play-to-earn provides meaningful income use PUTI for economic participation through gaming" }
+    ]
+  },
   "onlycoms": {
     whatIs: "OnlyComs is a domain name search and discovery platform that focuses exclusively on finding available .com domains. It uses AI to generate domain name ideas and checks .com availability in real time, recognizing that .com domains remain the gold standard for business credibility. For entrepreneurs who specifically want a .com domain rather than alternative extensions, OnlyComs provides focused search that skips the noise of alternative TLDs.",
     features: [
