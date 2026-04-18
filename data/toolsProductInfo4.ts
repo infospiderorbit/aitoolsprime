@@ -1,4 +1,202 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "rosebud": {
+    whatIs: "Rosebud is an AI-powered journaling and self-reflection platform that uses AI to help users develop deeper self-awareness through guided journaling. It asks thoughtful follow-up questions based on what you write, identifies emotional patterns over time, and provides insights that help you understand yourself better. For people who want to use journaling as a tool for genuine personal growth rather than just daily recording, Rosebud provides the AI guidance that transforms writing into insight.",
+    features: [
+      "AI-Guided Journaling: Thoughtful follow-up questions based on your entries",
+      "Emotional Pattern Recognition: Identify recurring emotional themes over time",
+      "Self-Insight Generation: AI analysis that surfaces self-understanding",
+      "Mood Tracking: Monitor emotional patterns and wellbeing trends",
+      "Reflection Prompts: Daily prompts to support consistent journaling practice",
+      "Private and Secure: Personal reflections stored securely",
+      "Progress Visibility: See your personal growth journey over time",
+      "Free to Try: Basic journaling without payment"
+    ],
+    howToUse: {
+      title: "How to Use Rosebud",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Journal", description: "Sign up at rosebud.app and write your first journal entry. Share what is on your mind and the AI will ask follow-up questions to deepen your reflection." },
+        { title: "Engage with AI Questions", description: "Respond to the thoughtful questions the AI asks about your entry. These questions are designed to help you explore your thoughts and feelings more deeply." },
+        { title: "Review Your Patterns", description: "Over time review the patterns and insights Rosebud identifies across your entries. Use these observations to support your personal growth." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Depth Beyond Recording", description: "Daily journaling that simply records events produces limited insight. AI-guided questions that probe meaning and implications produce genuine self-understanding" },
+      { title: "Pattern Recognition", description: "Individual entries reveal thinking in the moment. Pattern analysis across many entries reveals the recurring themes that shape your life" },
+      { title: "Consistency Support", description: "Daily prompts and guided questions make consistent reflection practice sustainable" },
+      { title: "Non-Judgmental Space", description: "AI that asks questions without judgment creates a safe space for exploring thoughts you might not share with other people" }
+    ],
+    useCases: [
+      { title: "Personal Development Practitioners", description: "People committed to self-improvement use Rosebud for the reflective practice that accelerates personal growth" },
+      { title: "Therapy Supplement", description: "People in therapy use Rosebud for between-session reflection that deepens their therapeutic work" },
+      { title: "Mindfulness Enthusiasts", description: "Individuals with a mindfulness practice use Rosebud for reflective journaling that complements their wellness practices" }
+    ]
+  },
+  "ai-minecraft": {
+    whatIs: "AI Minecraft refers to the application of artificial intelligence within Minecraft environments for various purposes including automated building, NPC behavior, research into AI decision-making, and educational AI experiments. Projects in this space range from AI agents that learn to play Minecraft to tools that use AI to generate structures and worlds. For researchers, educators, and Minecraft enthusiasts interested in AI, the Minecraft AI space provides an accessible sandbox for AI experimentation and education.",
+    features: [
+      "AI Agents: AI-powered characters that learn and act in Minecraft",
+      "Automated Building: AI that constructs structures automatically",
+      "Research Platform: Minecraft as environment for AI research",
+      "Educational AI: Learn AI concepts through Minecraft experiments",
+      "World Generation: AI-enhanced world and structure generation",
+      "NPC Behavior: More intelligent non-player character behaviors",
+      "Mod Integration: AI capabilities through Minecraft modifications",
+      "Community Projects: Open source AI Minecraft projects"
+    ],
+    howToUse: {
+      title: "How to Use Ai Minecraft",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Explore Available Projects", description: "Search for AI Minecraft projects and mods relevant to your interest - whether research, education, or entertainment." },
+        { title: "Set Up Your Environment", description: "Install Minecraft and any required mods or tools for your chosen AI Minecraft project. Follow the project-specific setup instructions." },
+        { title: "Experiment and Learn", description: "Run AI experiments in your Minecraft environment. Observe how AI agents behave and learn from the results of your experiments." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessible AI Sandbox", description: "Minecraft provides an accessible, well-understood environment for AI experimentation that researchers and educators can use without building custom environments" },
+      { title: "Visual Learning", description: "Watching AI agents navigate and interact in Minecraft makes AI concepts visual and intuitive in ways that abstract code does not" },
+      { title: "Educational Engagement", description: "Learning AI through Minecraft is more engaging for students than traditional programming exercises" },
+      { title: "Research Utility", description: "The complexity and open-ended nature of Minecraft makes it a valuable benchmark environment for testing AI capability" }
+    ],
+    useCases: [
+      { title: "AI Researchers", description: "Researchers use Minecraft as an experimental environment for testing AI agents and decision-making algorithms" },
+      { title: "Computer Science Educators", description: "Teachers use Minecraft AI projects for engaging AI education" },
+      { title: "AI Enthusiast Hobbyists", description: "People interested in AI use Minecraft AI projects for hands-on exploration of AI concepts" }
+    ]
+  },
+  "easysbca": {
+    whatIs: "EasySBCA is a platform that simplifies the process of completing SBCA assessments and documentation for educational and professional purposes. It provides guided tools for completing structured assessments, organizing documentation, and managing the paperwork associated with various certification and compliance processes. For individuals and organizations navigating complex assessment and documentation requirements, EasySBCA provides the structured guidance that makes these processes more manageable.",
+    features: [
+      "Assessment Guidance: Step-by-step support for SBCA completion",
+      "Documentation Organization: Organize and manage assessment paperwork",
+      "Process Structure: Clear workflow for complex assessment processes",
+      "Template Library: Templates for common assessment document types",
+      "Progress Tracking: Monitor completion status across requirements",
+      "Compliance Support: Ensure documentation meets requirements",
+      "Simple Interface: Accessible tools for non-expert users",
+      "Free to Try: Basic assessment support without payment"
+    ],
+    howToUse: {
+      title: "How to Use Easysbca",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Assessment", description: "Sign up at easysbca.com and begin setting up your assessment profile with the relevant information for your specific requirements." },
+        { title: "Follow the Guided Process", description: "Work through the guided assessment process step by step. The platform provides clear direction for each required element." },
+        { title: "Complete and Submit", description: "Finalize your documentation and review for completeness before submission. EasySBCA helps ensure nothing required is missed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Process Complexity Reduction", description: "Complex assessment and documentation processes are challenging to navigate without guidance. Structured tools that walk users through requirements reduce errors and omissions" },
+      { title: "Documentation Organization", description: "Managing multiple documents across complex processes is difficult without organizational tools. Centralized documentation management prevents things from being lost or missed" },
+      { title: "Compliance Confidence", description: "Submitting documentation that meets all requirements the first time prevents the delays of resubmission due to missing or incorrect information" },
+      { title: "Accessibility", description: "Making complex processes navigable for people without specialist expertise in the assessment domain broadens access to these processes" }
+    ],
+    useCases: [
+      { title: "Individuals Completing SBCA Requirements", description: "People who need to complete SBCA assessments use EasySBCA for guided process support" },
+      { title: "Educational Institutions", description: "Schools managing student assessment documentation use EasySBCA for organized compliance management" },
+      { title: "HR and Compliance Teams", description: "Organizations managing employee certification requirements use EasySBCA for structured documentation processes" }
+    ]
+  },
+  "ai-realm": {
+    whatIs: "AI Realm is an AI gaming and entertainment platform that provides AI-powered game experiences, interactive storytelling, and creative AI tools for gamers and entertainment enthusiasts. It combines AI game generation, interactive narrative experiences, and creative tools that use AI to enhance entertainment experiences. For users who want to explore AI-powered gaming and interactive entertainment beyond traditional game formats, AI Realm provides a platform for next-generation AI entertainment.",
+    features: [
+      "AI Game Experiences: Play AI-generated and AI-enhanced games",
+      "Interactive Storytelling: AI-powered narrative experiences",
+      "Creative Tools: AI tools for game-related content creation",
+      "Community: Connect with AI gaming enthusiasts",
+      "New Game Formats: Experience gaming formats enabled by AI",
+      "Customization: Personalize AI gaming experiences",
+      "Regular Updates: New AI experiences and tools added regularly",
+      "Free to Explore: Basic access without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Realm",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Explore the Platform", description: "Sign up at airealm.io and browse the available AI gaming experiences and tools." },
+        { title: "Engage with AI Games", description: "Play the available AI-generated game experiences. Provide feedback that helps improve the AI game quality over time." },
+        { title: "Create and Share", description: "Use the creative tools to contribute your own AI-enhanced gaming content to the community." }
+      ]
+    },
+    coreFeatures: [
+      { title: "New Gaming Frontier", description: "AI enables game experiences not previously possible including infinitely varied narratives and personalized challenges" },
+      { title: "Entertainment Innovation", description: "The intersection of AI and gaming creates entertainment formats representing genuine innovation beyond incremental improvements" },
+      { title: "Community Building", description: "Shared exploration of new AI entertainment forms creates communities around emerging entertainment categories" },
+      { title: "Creative Empowerment", description: "AI tools that let gamers create rather than just consume expand the role of the audience in defining the gaming experience" }
+    ],
+    useCases: [
+      { title: "AI and Gaming Enthusiasts", description: "People at the intersection of AI and gaming use AI Realm for exploration of emerging AI entertainment forms" },
+      { title: "Game Developers Exploring AI", description: "Developers investigating AI game applications use AI Realm for inspiration and experimentation" },
+      { title: "Early Technology Adopters", description: "People who engage with emerging technology early use AI Realm for access to AI entertainment before it becomes mainstream" }
+    ]
+  },
+  "olc-bedrock": {
+    whatIs: "OLC Bedrock Dev Helper is an AI-powered development assistant for the olcPixelGameEngine, a single-file game development library created by OneLoneCoder. It helps developers working with the olcPGE library by answering API questions, generating code examples, debugging assistance, and providing guidance on implementing game features using the engine. For developers using the olcPixelGameEngine who want AI assistance specific to this library, OLC Bedrock Dev Helper provides specialized development support.",
+    features: [
+      "OLC API Knowledge: Comprehensive knowledge of olcPixelGameEngine API",
+      "Code Generation: Generate olcPGE code examples for specific features",
+      "Debugging Help: Assistance with olcPGE-specific bugs and issues",
+      "Feature Implementation: Guidance on implementing game features",
+      "Documentation Reference: Quick access to API documentation through conversation",
+      "Game Development Guidance: General game dev advice in olcPGE context",
+      "Example Code: Practical code examples for common patterns",
+      "Free to Use: Development assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Olc Bedrock",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Question", description: "Access OLC Bedrock Dev Helper and describe the olcPixelGameEngine feature or problem you need help with." },
+        { title: "Review the Guidance", description: "The AI provides specific guidance, code examples, and explanations relevant to your olcPGE development question." },
+        { title: "Implement and Test", description: "Use the provided guidance and code examples in your olcPGE project. Test the implementation and ask follow-up questions if needed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Library Specialization", description: "Generic AI assistants have limited knowledge of niche libraries like olcPGE. Specialized AI trained on this specific library provides more accurate and useful guidance" },
+      { title: "Learning Acceleration", description: "Developers learning olcPGE benefit from AI that can explain library-specific concepts and patterns in context" },
+      { title: "Debugging Efficiency", description: "olcPGE-specific bugs that generic AI cannot diagnose accurately are handled better by specialized AI with deep library knowledge" },
+      { title: "Community Support", description: "The olcPGE community gets AI-powered support that supplements the existing community forums and documentation" }
+    ],
+    useCases: [
+      { title: "olcPixelGameEngine Developers", description: "Developers building games with olcPGE use the Dev Helper for API assistance and code guidance" },
+      { title: "Game Development Students", description: "Students learning game development with olcPGE use the AI helper for learning support" },
+      { title: "OneLoneCoder Community Members", description: "Members of the OneLoneCoder community use the Dev Helper for olcPGE development assistance" }
+    ]
+  },
+  "food-analyst": {
+    whatIs: "Food Analyst is an AI-powered food and nutrition analysis platform that helps users understand the nutritional content, ingredients, and health implications of the foods they eat. Users can photograph meals or input food items and receive detailed nutritional analysis, ingredient breakdowns, and health insights. For health-conscious individuals who want to make more informed food choices, Food Analyst provides the nutritional intelligence that supports better eating decisions.",
+    features: [
+      "Nutritional Analysis: Detailed breakdown of nutrients in foods and meals",
+      "Photo Recognition: Analyze meals from smartphone photos",
+      "Ingredient Analysis: Understand what is in your food",
+      "Health Insights: How foods affect your specific health goals",
+      "Meal Logging: Track your daily nutritional intake",
+      "Diet Compatibility: Check foods against your dietary requirements",
+      "Allergen Detection: Identify potential allergens in foods",
+      "Free to Try: Basic food analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Food Analyst",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Photograph Your Food", description: "Download Food Analyst and photograph the meal or food item you want to analyze. The AI recognizes foods from photos automatically." },
+        { title: "Review Nutritional Data", description: "Food Analyst provides a detailed nutritional breakdown of your photographed food including calories, macronutrients, vitamins, and minerals." },
+        { title: "Track and Improve", description: "Log your meals over time to understand your overall nutritional patterns. Use the insights to make informed adjustments to your diet." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Nutritional Awareness", description: "Most people have limited awareness of the actual nutritional content of foods they eat regularly. AI analysis that reveals this information enables more informed food choices" },
+      { title: "Photo Convenience", description: "Manually looking up nutritional information for every food item is tedious. Photo recognition that identifies and analyzes foods automatically makes nutritional tracking practical" },
+      { title: "Health Goal Alignment", description: "Understanding how specific foods support or undermine your health goals makes dietary decision-making more purposeful" },
+      { title: "Ingredient Transparency", description: "Knowing what is actually in processed foods and restaurant meals provides the transparency that ingredient lists alone often obscure" }
+    ],
+    useCases: [
+      { title: "Health-Conscious Individuals", description: "People focused on nutrition use Food Analyst for detailed understanding of what they are eating" },
+      { title: "People Managing Dietary Conditions", description: "Individuals managing diabetes, food allergies, or other diet-related conditions use Food Analyst for careful nutritional monitoring" },
+      { title: "Fitness and Wellness Enthusiasts", description: "People optimizing their diet for fitness goals use Food Analyst for accurate nutritional data to support their performance nutrition" }
+    ]
+  },
   "chad-ai": {
     whatIs: "Chad AI is an AI chat assistant platform that provides conversational AI for everyday tasks, questions, and creative work. It offers a straightforward AI chat experience with capable language models for writing assistance, answering questions, brainstorming, and general productivity. For users who want a reliable AI assistant for daily tasks without complexity, Chad AI provides accessible conversational AI.",
     features: [
