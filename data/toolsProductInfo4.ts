@@ -1,4 +1,202 @@
 export const toolsProductInfo4: { [key: string]: any } = {
+  "solobuildpad": {
+    whatIs: "SoloBuildpad is a platform for solo founders and indie hackers that provides resources, community, and tools for building products independently. It offers a structured environment for solo builders to track their progress, get accountability, and connect with other independent builders working on their own projects. For solo founders who work alone but want the motivation, accountability, and community that team environments provide, SoloBuildpad offers the infrastructure for independent building.",
+    features: [
+      "Solo Builder Community: Connect with other independent founders and makers",
+      "Progress Tracking: Track your building progress and milestones",
+      "Accountability: Structured accountability for solo building goals",
+      "Resources: Curated resources for indie hackers and solo founders",
+      "Project Showcase: Share your projects with the community",
+      "Build in Public: Tools for transparent public building",
+      "Maker Network: Network with fellow solo builders",
+      "Free to Join: Basic community access without payment"
+    ],
+    howToUse: {
+      title: "How to Use Solobuildpad",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Profile", description: "Sign up at solobuildpad.com and create your builder profile. Add your current projects and building goals." },
+        { title: "Set Your Goals", description: "Define your building goals and milestones. The platform helps you track progress and maintain accountability toward your targets." },
+        { title: "Engage with the Community", description: "Connect with other solo builders, share your progress, and get support from a community that understands the challenges of building alone." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Solo Building Challenges", description: "Building alone without teammates for motivation and accountability is harder than building with others. Community and structure that solo builders create for themselves addresses this fundamental challenge" },
+      { title: "Build in Public Benefits", description: "Sharing progress publicly creates accountability and attracts early users and supporters who follow the building journey" },
+      { title: "Peer Learning", description: "Solo builders who connect with others at similar stages learn from each other in ways that solo isolation prevents" },
+      { title: "Momentum Maintenance", description: "Structured progress tracking and community accountability help solo founders maintain momentum through the inevitable difficult periods of independent building" }
+    ],
+    useCases: [
+      { title: "Indie Hackers", description: "Independent product builders use SoloBuildpad for community and accountability in their solo building journey" },
+      { title: "Solo Founders", description: "Entrepreneurs building their first product alone use SoloBuildpad for structure and support" },
+      { title: "Side Project Builders", description: "People building side projects alongside their day jobs use SoloBuildpad for accountability and community" }
+    ]
+  },
+  "herozshift-ai": {
+    whatIs: "HerozShift AI is an AI-powered shift scheduling and workforce management platform that helps businesses with hourly workers optimize their scheduling, reduce labor costs, and improve employee satisfaction. It uses AI to create optimal shift schedules based on demand forecasts, employee availability, and labor cost constraints. For retail, hospitality, and other businesses with variable staffing needs, HerozShift AI provides the intelligent scheduling that balances business needs with employee preferences.",
+    features: [
+      "AI Shift Scheduling: Optimal schedule generation using AI",
+      "Demand Forecasting: Predict staffing needs based on historical patterns",
+      "Employee Availability: Incorporate worker preferences and availability",
+      "Labor Cost Optimization: Minimize costs while meeting coverage requirements",
+      "Schedule Publishing: Easy schedule distribution to employees",
+      "Shift Swapping: Employee self-service shift exchange",
+      "Compliance: Labor law compliance in schedule generation",
+      "Free Trial: Try scheduling automation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Herozshift Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Business", description: "Sign up at herozshift.ai and configure your business locations, departments, and staffing requirements." },
+        { title: "Input Your Constraints", description: "Enter your labor cost targets, minimum staffing requirements, and employee availability. The AI uses these to generate optimal schedules." },
+        { title: "Generate and Publish", description: "Generate your AI-optimized schedule and review before publishing. Employees receive their schedules through the app and can request swaps through the self-service system." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Scheduling Complexity", description: "Manual scheduling for businesses with many employees and variable demand is enormously time-consuming. AI that handles this complexity automatically reclaims manager time" },
+      { title: "Demand Alignment", description: "Staffing that matches actual customer demand rather than guessed requirements reduces both costly overstaffing and service-damaging understaffing" },
+      { title: "Employee Satisfaction", description: "Schedules that incorporate employee availability preferences produce higher satisfaction and lower turnover than schedules that ignore worker needs" },
+      { title: "Labor Cost Control", description: "Labor is typically the largest controllable cost for hourly worker businesses. Optimized scheduling that minimizes cost while meeting coverage reduces this significant expense" }
+    ],
+    useCases: [
+      { title: "Retail Businesses", description: "Retail stores use HerozShift AI for optimized hourly staff scheduling that matches customer traffic patterns" },
+      { title: "Restaurants and Hospitality", description: "Food service and hospitality businesses use the platform for variable demand scheduling" },
+      { title: "Healthcare and Care Facilities", description: "Organizations with around-the-clock staffing needs use HerozShift AI for complex multi-shift scheduling" }
+    ]
+  },
+  "namy-ai": {
+    whatIs: "Namy.ai is an AI business name generator that creates unique, brandable names using AI to understand your business context and generate names that feel genuine and memorable. It focuses on producing names that work as real brands rather than keyword combinations, with domain availability checking built into the selection process.",
+    features: [
+      "AI Name Generation: Unique brandable names from business descriptions",
+      "Domain Availability: Real-time checking for generated names",
+      "Brand Quality: Names oriented toward genuine brand appeal",
+      "Multiple Styles: Different naming approaches and lengths",
+      "Industry Context: Names appropriate for your business sector",
+      "Instant Results: Names generated immediately",
+      "Free to Use: Basic name generation without payment",
+      "No Account Needed: Generate names without registration"
+    ],
+    howToUse: {
+      title: "How to Use Namy Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Business", description: "Go to namy.ai and describe your business concept and brand personality in plain language." },
+        { title: "Browse Name Options", description: "Review the AI-generated names with their domain availability status. Look for names that feel distinctive and appropriate for your market." },
+        { title: "Secure Your Choice", description: "Register your chosen domain immediately after selecting your preferred name." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brand Authenticity", description: "Names that feel like genuine brands rather than keyword mashups build stronger customer connections and better brand recognition" },
+      { title: "Instant Availability", description: "Checking domain availability alongside name generation saves the time of separately verifying each promising option" },
+      { title: "No Friction Access", description: "Name generation without account creation makes the tool practical for quick brainstorming sessions" },
+      { title: "Quality Focus", description: "Fewer high-quality name options are more useful than many mediocre ones that still require extensive evaluation" }
+    ],
+    useCases: [
+      { title: "New Business Founders", description: "Entrepreneurs naming new ventures use Namy.ai for quality AI-generated brand names" },
+      { title: "Product Namers", description: "Teams naming new products use Namy.ai for brandable name options with availability confirmation" },
+      { title: "Rebranding Projects", description: "Businesses updating their brand name use Namy.ai for fresh available naming options" }
+    ]
+  },
+  "recap": {
+    whatIs: "Recap is an AI meeting summary and productivity platform that automatically generates concise summaries of meetings, calls, and conversations. It captures the key decisions, action items, and discussion points from recordings and transcripts, delivering organized summaries that save teams from manual note-taking and review. For busy professionals who attend many meetings and need efficient ways to capture and share what was discussed, Recap provides the automated meeting intelligence that keeps teams aligned.",
+    features: [
+      "Meeting Summaries: Automatic concise summaries of meetings and calls",
+      "Action Item Extraction: Identify and track commitments and next steps",
+      "Key Decision Capture: Surface important decisions from meeting discussions",
+      "Multiple Formats: Works with Zoom, Teams, and other meeting platforms",
+      "Team Sharing: Distribute summaries to attendees and stakeholders",
+      "Search Archive: Find information from past meetings quickly",
+      "Integration: Connects with project management and CRM tools",
+      "Free Plan: Basic meeting summarization without payment"
+    ],
+    howToUse: {
+      title: "How to Use Recap",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Meeting Platform", description: "Sign up at recap.ai and connect your video conferencing platform. Recap automatically processes meetings as they occur." },
+        { title: "Review Your Summaries", description: "After each meeting, review the AI-generated summary with action items and key decisions. Edit any items that need clarification." },
+        { title: "Share and Act", description: "Distribute summaries to your team and use the action item tracking to ensure commitments are followed through." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Note-Taking Elimination", description: "Manual note-taking during meetings divides attention between listening and writing. Automated summaries allow full presence in meetings" },
+      { title: "Follow-Through Improvement", description: "Action items that are explicitly captured and tracked have much higher completion rates than verbal commitments made in meetings and not documented" },
+      { title: "Alignment Across Teams", description: "Concise meeting summaries shared with all stakeholders keep people aligned without requiring everyone to attend every meeting" },
+      { title: "Searchable Meeting History", description: "A searchable archive of meeting summaries transforms meetings from ephemeral events into lasting organizational knowledge" }
+    ],
+    useCases: [
+      { title: "Managers and Team Leads", description: "People who run many meetings use Recap for automatic documentation that saves meeting follow-up time" },
+      { title: "Remote Teams", description: "Distributed teams use Recap for asynchronous meeting intelligence that keeps absent members informed" },
+      { title: "Client-Facing Professionals", description: "Consultants and account managers use Recap for automatic meeting documentation that supports client relationships" }
+    ]
+  },
+  "liknr": {
+    whatIs: "Liknr is a music discovery and recommendation platform that uses AI to match listeners with music they will genuinely love based on deep analysis of musical characteristics rather than simple genre categories. It analyzes the acoustic properties, rhythmic patterns, and emotional qualities of music to find connections between tracks that human categorization misses. For music enthusiasts who feel limited by genre-based recommendations and want discovery that understands what they actually like about music, Liknr provides deeper music matching.",
+    features: [
+      "Deep Music Analysis: AI analysis of musical characteristics beyond genre",
+      "Acoustic Matching: Find music similar in sound not just category",
+      "Emotional Resonance: Match music by emotional qualities and energy",
+      "Discovery Engine: Find genuinely new music you will actually enjoy",
+      "Cross-Genre Connections: Discover music across genre boundaries",
+      "Personal Taste Learning: Improves with your listening feedback",
+      "Playlist Generation: Create playlists based on musical characteristics",
+      "Free to Use: Basic music discovery without payment"
+    ],
+    howToUse: {
+      title: "How to Use Liknr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Music", description: "Sign up at liknr.com and connect your music streaming account or tell Liknr what music you love." },
+        { title: "Explore Recommendations", description: "Browse the AI-generated music recommendations that match the musical characteristics of what you already love. Discover tracks you would not find through genre browsing." },
+        { title: "Refine Your Taste Profile", description: "Rate recommendations and explore further. The more feedback you provide the more accurate Liknr becomes at predicting what you will enjoy." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Beyond Genre Limitations", description: "Genre categories are cultural labels that do not accurately describe musical characteristics. Analysis of actual acoustic properties finds connections that genre matching misses" },
+      { title: "Discovery Quality", description: "The challenge in music discovery is finding new music you actually like rather than just new music in categories you have liked before. Characteristic-based matching improves discovery quality" },
+      { title: "Cross-Genre Breadth", description: "Some of the most interesting musical discoveries come from unexpected genre combinations. AI that finds acoustic similarities across genres opens these discoveries" },
+      { title: "Personal Accuracy", description: "Music recommendations that learn from individual feedback become more accurate over time at predicting what each specific listener will enjoy" }
+    ],
+    useCases: [
+      { title: "Music Enthusiasts", description: "Passionate music listeners use Liknr for discovery that goes deeper than streaming platform recommendations" },
+      { title: "Audiophiles", description: "People who care deeply about how music sounds use Liknr for acoustic characteristic-based matching" },
+      { title: "Music Explorers", description: "Listeners who actively seek new music use Liknr to discover tracks across genre boundaries they would not find through traditional recommendations" }
+    ]
+  },
+  "rido-protocol": {
+    whatIs: "Rido Protocol is a decentralized ride-sharing and mobility protocol built on blockchain that aims to create a more equitable transportation network where drivers keep more of their earnings and riders pay lower fees by eliminating intermediary platform fees. It uses smart contracts to connect drivers and riders directly and distributes governance to community participants. For drivers frustrated by high platform fees and riders who want lower costs, Rido Protocol offers a community-owned alternative to centralized ride-sharing platforms.",
+    features: [
+      "Decentralized Ride-Sharing: Peer-to-peer transportation without central intermediary",
+      "Lower Platform Fees: Drivers keep more earnings through reduced fees",
+      "Smart Contract Matching: Automated driver-rider matching through blockchain",
+      "Community Governance: Token holders participate in protocol decisions",
+      "Transparent Pricing: Fare calculation visible and verifiable on-chain",
+      "Driver Token Rewards: Earn governance tokens for platform contribution",
+      "Rider Benefits: Lower fares through fee reduction",
+      "Token Economy: Native token for platform participation"
+    ],
+    howToUse: {
+      title: "How to Use Rido Protocol",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Join the Network", description: "Sign up at rido.protocol and join either as a driver or rider. Connect your wallet for token rewards and payments." },
+        { title: "Use the Service", description: "Drivers accept rides through the decentralized matching system. Riders request transportation and pay through the protocol." },
+        { title: "Participate in Governance", description: "Earn and use governance tokens to participate in protocol decisions about fees, features, and network development." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Driver Economics", description: "Traditional ride-sharing platforms take 25-30 percent of driver earnings. Reduced fees through decentralization significantly improve driver income for the same work" },
+      { title: "Rider Cost Reduction", description: "Lower platform fees that are passed to riders make transportation more affordable compared to centralized alternatives" },
+      { title: "Community Ownership", description: "Governance that includes drivers and riders who use the platform aligns platform development with user interests rather than investor returns" },
+      { title: "Transparency", description: "Smart contract-based fare calculation and fee distribution that everyone can verify builds trust that centralized platform opacity cannot provide" }
+    ],
+    useCases: [
+      { title: "Ride-Share Drivers", description: "Drivers frustrated with high platform fees use Rido Protocol for better economics on their transportation work" },
+      { title: "Cost-Conscious Riders", description: "Riders who want lower transportation costs use Rido Protocol for reduced fare alternatives" },
+      { title: "Web3 Transportation Enthusiasts", description: "People interested in decentralized alternatives to platform economy businesses use Rido Protocol for community-owned transportation" }
+    ]
+  },
   "namefi": {
     whatIs: "Namefi is a Web3 domain name platform that brings traditional domain names onto the blockchain, allowing domain owners to use their domains as NFTs, collateral, and programmable digital assets. It enables domain monetization through DeFi mechanisms and creates a more open, composable domain ownership experience. For Web3 users who want to do more with their domain names than traditional registrars allow, Namefi provides blockchain-native domain ownership.",
     features: [
