@@ -248,7 +248,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-pdf-summarizer": [
       { id: "pdf-guru", name: "PDF Guru", description: "AI PDF summarization and analysis", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "🧙‍♂️", category: "office-productivity", subcategory: "ai-pdf-summarizer" },
       { id: "chatpdf-summarizer", name: "ChatPDF", description: "Summarize PDFs with AI conversation", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "💬", category: "office-productivity", subcategory: "ai-pdf-summarizer" },
-      { id: "lightpdf-summarizer", name: "LightPDF", description: "Quick PDF summarization tool", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "💡", category: "office-productivity", subcategory: "ai-pdf-summarizer" },
       { id: "lilys-ai", name: "Lilys AI", description: "AI-powered document summarization", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "🌸", category: "office-productivity", subcategory: "ai-pdf-summarizer" },
       { id: "noiz", name: "Noiz", description: "Smart PDF content extraction and summary", url: "", upvotes: 1156, verified: true, rating: 4.3, icon: "🎵", category: "office-productivity", subcategory: "ai-pdf-summarizer" }
     ],
@@ -1669,7 +1668,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "blush", name: "Blush", description: "AI character vector graphics", url: "", upvotes: 654, verified: false, rating: 4.5, icon: "😊", category: "art-creative-design", subcategory: "ai-vector-graphics" }
     ],
     "fashion-ai": [
-      { id: "youcam-app-fashion", name: "YouCam App Provider", description: "AI fashion try-on app", url: "", upvotes: 1789, verified: true, rating: 4.8, icon: "💄", category: "art-creative-design", subcategory: "fashion-ai" },
       { id: "pic-copilot", name: "Pic Copilot", description: "AI fashion photography", url: "", upvotes: 1456, verified: true, rating: 4.7, icon: "📸", category: "art-creative-design", subcategory: "fashion-ai" },
       { id: "botika", name: "Botika", description: "AI fashion model platform", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🤖", category: "art-creative-design", subcategory: "fashion-ai" },
       { id: "fashn-ai-fashion", name: "FASHN AI", description: "AI fashion design platform", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "✨", category: "art-creative-design", subcategory: "fashion-ai" },
@@ -2766,7 +2764,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-face-recognition": [
       { id: "onfido", name: "Onfido", description: "AI identity verification and face recognition", url: "", upvotes: 2321, verified: true, rating: 4.5, icon: "🔐", category: "image-analysis", subcategory: "ai-face-recognition" },
       { id: "shufti", name: "Shufti", description: "AI KYC verification with face recognition", url: "", upvotes: 1987, verified: true, rating: 4.4, icon: "✅", category: "image-analysis", subcategory: "ai-face-recognition" },
-      { id: "facesymai-recognition", name: "FaceSymAI", description: "AI facial recognition technology", url: "", upvotes: 1765, verified: true, rating: 4.3, icon: "🤖", category: "image-analysis", subcategory: "ai-face-recognition" }
     ],
     "ai-image-recognition": [
       { id: "ultralytics", name: "Ultralytics", description: "AI computer vision and object detection", url: "", upvotes: 3456, verified: true, rating: 4.8, icon: "🤖", category: "image-analysis", subcategory: "ai-image-recognition" },
@@ -2790,7 +2787,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "segment-anything-sam", name: "Segment Anything Model (SAM)", description: "Open-source AI segmentation model", url: "", upvotes: 2321, verified: true, rating: 4.5, icon: "🔪", category: "image-analysis", subcategory: "ai-image-segmentation" }
     ],
     "ai-ocr": [
-      { id: "pdnob-translator", name: "PDNob Image Translator", description: "AI OCR with translation capabilities", url: "", upvotes: 2321, verified: true, rating: 4.5, icon: "🌐", category: "image-analysis", subcategory: "ai-ocr" },
       { id: "lightpdf", name: "LightPDF", description: "AI PDF OCR and document conversion", url: "", upvotes: 1765, verified: true, rating: 4.3, icon: "📑", category: "image-analysis", subcategory: "ai-ocr" }
     ],
     "image-to-prompt": [
