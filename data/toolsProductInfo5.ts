@@ -1,4 +1,268 @@
 export const toolsProductInfo5: { [key: string]: any } = {
+  "zeli-app": {
+    whatIs: "Zeli is an AI reading assistant that helps users quickly understand long articles, newsletters, and web content through smart summarization and key point extraction. It works as a browser extension and mobile app that sits alongside your reading and provides instant summaries, highlights the most important points, and answers questions about the content you are reading. For people with heavy reading lists who cannot get through everything they want to read, Zeli provides the AI reading companion that helps you absorb more in less time.",
+    features: [
+      "Article Summarization: Get concise summaries of any article instantly",
+      "Key Point Extraction: Surface the most important ideas from long reads",
+      "Browser Extension: Summarize any web page while browsing",
+      "Question Answering: Ask specific questions about content you are reading",
+      "Reading List Management: Organize content you want to read or have read",
+      "Newsletter Digest: Summarize email newsletters automatically",
+      "Mobile App: Access reading assistance on your phone",
+      "Free Plan: Basic summarization without payment"
+    ],
+    howToUse: {
+      title: "How to Use Zeli App",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Sign up at zeli.app and install the browser extension. It adds a summary button to every web page you visit." },
+        { title: "Summarize While Reading", description: "Click the summary button on any article to get an instant summary. Read the summary first to decide if the full article is worth your time." },
+        { title: "Ask Questions", description: "Use the question feature to ask specific things about an article without reading the whole piece. Get targeted answers from the content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Information Overload Solution", description: "The volume of content worth reading far exceeds available reading time. Smart summarization that surfaces what matters most helps people stay informed without drowning" },
+      { title: "Reading Triage", description: "Deciding whether an article is worth reading in full before committing the time makes reading time more valuable. Summaries that enable this triage save hours weekly" },
+      { title: "Comprehension Support", description: "Long complex articles are easy to lose track of while reading. AI that highlights key points helps readers maintain understanding of the main argument" },
+      { title: "Newsletter Management", description: "Email newsletters accumulate faster than most people can read them. Automatic summarization that condenses newsletters makes staying subscribed practical" }
+    ],
+    useCases: [
+      { title: "Busy Professionals", description: "Knowledge workers with heavy reading requirements use Zeli to stay informed without dedicating hours daily to reading" },
+      { title: "Researchers and Students", description: "People who need to process large amounts of written material use Zeli to triage and absorb content more efficiently" },
+      { title: "Newsletter Subscribers", description: "People who subscribe to many newsletters use Zeli to digest their inbox without falling behind" }
+    ]
+  },
+  "goatstack-ai": {
+    whatIs: "GoatStack.AI is an AI-powered technology news and research aggregation platform that curates the most important developments in artificial intelligence, machine learning, and technology. It filters the noise from hundreds of sources and surfaces the stories and research papers that actually matter to practitioners and researchers. For AI professionals who need to stay current without spending hours on information gathering, GoatStack provides the curated intelligence feed.",
+    features: [
+      "AI News Curation: Filtered technology and AI news from hundreds of sources",
+      "Research Paper Discovery: Surface important new papers in AI and ML",
+      "Trend Identification: Spot emerging trends before they become mainstream",
+      "Source Diversity: Content from academic, industry, and media sources",
+      "Personalization: Customize your feed for your specific interests",
+      "Daily Digest: Curated summary of the most important developments",
+      "Search: Find specific topics across the curated content library",
+      "Free Access: Basic news curation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Goatstack Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Feed", description: "Sign up at goatstack.ai and configure your interests across AI subfields, programming languages, and technology areas." },
+        { title: "Read Your Daily Digest", description: "Check your personalized feed for the day most important developments. GoatStack has already filtered hundreds of sources so you only see what matters." },
+        { title: "Explore and Search", description: "Use search to find coverage of specific topics or dig deeper into areas that caught your attention in the daily digest." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Signal to Noise", description: "Technology news includes enormous amounts of repetitive and low-value content. Curation that filters this down to genuinely important developments saves significant time" },
+      { title: "Research Discovery", description: "New AI research papers appear daily across many venues. Aggregation that surfaces important new work ensures practitioners do not miss significant advances" },
+      { title: "Trend Early Warning", description: "Spotting emerging trends before they become widely known provides competitive advantage for practitioners who incorporate new techniques early" },
+      { title: "Source Breadth", description: "Important AI developments happen across academic papers, company blogs, and journalism. A single feed covering all these sources is more complete than following any single type" }
+    ],
+    useCases: [
+      { title: "AI Researchers and Practitioners", description: "ML engineers and AI researchers use GoatStack to stay current with field developments without monitoring many sources manually" },
+      { title: "Technology Leaders", description: "CTOs and technology directors use the platform to track AI trends relevant to their strategic decisions" },
+      { title: "AI Product Managers", description: "Product managers building AI products use GoatStack to understand the landscape of tools and capabilities their products compete with" }
+    ]
+  },
+  "tarotoo": {
+    whatIs: "Tarotoo is an AI-powered tarot reading platform that provides personalized tarot card readings using artificial intelligence. It interprets tarot card spreads through AI that draws on traditional tarot symbolism and meaning, providing thoughtful readings for questions about relationships, career, personal growth, and life decisions. For people curious about tarot who want accessible readings without finding a human reader, Tarotoo provides AI-guided tarot exploration.",
+    features: [
+      "AI Tarot Readings: Personalized readings using AI interpretation",
+      "Multiple Spreads: Different spread types for different types of questions",
+      "Card Meanings: Detailed explanations of individual card symbolism",
+      "Daily Card: Daily single card reading for reflection",
+      "Question Guidance: Readings focused on specific questions or situations",
+      "Card Library: Complete reference for all 78 tarot cards",
+      "Reading History: Review your past readings over time",
+      "Free Readings: Basic tarot readings without payment"
+    ],
+    howToUse: {
+      title: "How to Use Tarotoo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Question", description: "Go to tarotoo.com and formulate the question or situation you want guidance on. Clear specific questions produce more relevant readings." },
+        { title: "Draw Your Cards", description: "Select your spread type and draw your cards. The platform reveals your cards and their positions in the spread." },
+        { title: "Read Your Interpretation", description: "Review the AI interpretation of your spread. Consider how the symbolism and themes apply to your specific situation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessibility", description: "Traditional tarot readings require finding and paying a human reader. AI tarot makes readings available to anyone curious about the practice at any time" },
+      { title: "Reflection Tool", description: "Many people use tarot not for prediction but as a structured reflection prompt. AI readings provide this reflective framework without requiring belief in divination" },
+      { title: "Learning Resource", description: "People learning tarot use AI readings to understand card meanings and spread interpretation through practice" },
+      { title: "Symbolic Exploration", description: "Tarot symbolism draws on rich psychological and mythological traditions. AI interpretation that explains this symbolism makes the practice more meaningful and educational" }
+    ],
+    useCases: [
+      { title: "Tarot Curious Individuals", description: "People curious about tarot who want to explore the practice use Tarotoo for accessible AI-guided readings" },
+      { title: "Reflection Practitioners", description: "People who use tarot as a reflective journaling tool use Tarotoo for daily reflection prompts" },
+      { title: "Tarot Students", description: "People learning to read tarot use the platform to study card meanings and practice interpretation" }
+    ]
+  },
+  "tarotap": {
+    whatIs: "Tarotap is a mobile tarot reading app that provides AI-enhanced tarot readings and a comprehensive tarot learning platform. It combines traditional tarot card interpretations with AI personalization to deliver readings that feel relevant to each user situation. The app also serves as a learning resource for people developing their own tarot reading skills. For tarot enthusiasts who want a sophisticated mobile tarot experience, Tarotap provides both AI readings and educational tarot content.",
+    features: [
+      "AI-Enhanced Readings: Personalized tarot interpretations for your situation",
+      "Full Card Library: Complete coverage of all major and minor arcana",
+      "Multiple Spreads: Celtic Cross, three-card, and other classic spreads",
+      "Learning Mode: Study card meanings with detailed educational content",
+      "Daily Reading: Morning card draws for daily reflection",
+      "Journaling: Record your readings and thoughts over time",
+      "Offline Access: Use the app without internet connection",
+      "Free to Download: Basic readings without payment"
+    ],
+    howToUse: {
+      title: "How to Use Tarotap",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Download and Set Up", description: "Download Tarotap and create your profile. Share your interests and reading preferences to personalize your experience." },
+        { title: "Choose Your Reading Type", description: "Select the spread that fits your question. Use three-card spreads for simple questions and more complex spreads for life situations." },
+        { title: "Learn and Reflect", description: "Review the interpretations and use the journaling feature to record your thoughts. Return to past readings to see how situations developed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Mobile Convenience", description: "Dedicated tarot apps that work offline and feel native to mobile provide a better experience than web-based alternatives on a phone" },
+      { title: "Educational Depth", description: "Learning resources that explain the rich symbolism and traditional meanings behind each card develop genuine tarot understanding rather than surface interpretation" },
+      { title: "Personalization Quality", description: "Readings that incorporate your specific situation and question produce more relevant interpretations than generic card meanings" },
+      { title: "Practice Support", description: "Regular daily readings that build familiarity with card symbolism accelerate the development of personal tarot reading skill" }
+    ],
+    useCases: [
+      { title: "Tarot Enthusiasts", description: "Regular tarot practitioners use Tarotap for a sophisticated mobile reading experience" },
+      { title: "Tarot Learners", description: "People developing their tarot skills use the app for both practice readings and educational card study" },
+      { title: "Mindfulness Practitioners", description: "People who use tarot for daily reflection and mindfulness use Tarotap for morning card draws" }
+    ]
+  },
+  "lyzr": {
+    whatIs: "Lyzr is an enterprise AI agent platform that enables businesses to build, deploy, and manage AI agents for automating complex business workflows. It provides pre-built agent templates for common business functions alongside tools for creating custom agents that orchestrate multiple AI capabilities. For enterprises that want to deploy AI agents that work reliably in production rather than just in demos, Lyzr provides the agent infrastructure that handles real business complexity.",
+    features: [
+      "Enterprise AI Agents: Production-ready AI agents for business workflows",
+      "Agent Templates: Pre-built agents for common business use cases",
+      "Custom Agent Builder: Create agents tailored to your specific workflows",
+      "Multi-Agent Orchestration: Coordinate multiple agents working together",
+      "Tool Integration: Connect agents to your existing business tools",
+      "Monitoring and Logging: Track agent performance and behavior in production",
+      "Security Controls: Enterprise-grade security for agent deployments",
+      "Free Trial: Explore the platform before enterprise commitment"
+    ],
+    howToUse: {
+      title: "How to Use Lyzr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Explore Agent Templates", description: "Sign up at lyzr.ai and browse the agent template library. Find templates that match your target business workflow." },
+        { title: "Configure Your Agent", description: "Customize an existing template or build a new agent for your specific use case. Connect the tools and data sources your agent needs to operate." },
+        { title: "Deploy and Monitor", description: "Deploy your agent to production and monitor its performance through the Lyzr dashboard. Track completion rates and identify cases where the agent needs improvement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Production Reliability", description: "AI agent demos that work in controlled conditions often fail in production with real data and edge cases. Lyzr infrastructure built for production handles this complexity" },
+      { title: "Enterprise Requirements", description: "Business AI deployments require security, auditability, and integration with existing systems that consumer AI tools do not provide" },
+      { title: "Workflow Complexity", description: "Real business workflows involve multiple steps, conditional logic, and tool use that simple AI assistants cannot handle. Agent orchestration that manages this complexity produces useful automation" },
+      { title: "Monitoring Necessity", description: "AI agents that operate unsupervised in production require monitoring to catch failures and unexpected behavior before they cause business problems" }
+    ],
+    useCases: [
+      { title: "Enterprise Technology Teams", description: "IT and engineering teams at large organizations use Lyzr for deploying AI agents across business functions" },
+      { title: "AI-Forward Operations Teams", description: "Operations teams automating complex workflows use Lyzr for reliable agent-based automation" },
+      { title: "Consulting and System Integrators", description: "Technology consultants build Lyzr-based AI agent solutions for their enterprise clients" }
+    ]
+  },
+  "altindex": {
+    whatIs: "AltIndex is an alternative data and AI stock analysis platform that provides investment insights derived from non-traditional data sources. It analyzes signals from app download trends, web traffic, job postings, social media sentiment, and other alternative data to identify investment opportunities and risks before they appear in financial statements. For investors who want an edge from data that the market has not fully priced in, AltIndex provides alternative data intelligence at accessible price points.",
+    features: [
+      "Alternative Data: Investment signals from non-traditional data sources",
+      "App Analytics: Track app download trends for consumer companies",
+      "Web Traffic Analysis: Monitor website traffic changes for companies",
+      "Job Posting Signals: Hiring trends as business health indicators",
+      "Social Sentiment: Brand and product sentiment tracking",
+      "Stock Scoring: AI-generated scores for individual stocks",
+      "Portfolio Analysis: Alternative data view of your holdings",
+      "Free Plan: Basic alternative data access without payment"
+    ],
+    howToUse: {
+      title: "How to Use Altindex",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Watchlist", description: "Sign up at altindex.com and add the stocks you want to monitor with alternative data signals." },
+        { title: "Review Your Signals", description: "Check the alternative data dashboard for your watchlist. Review app trends, web traffic, and sentiment signals for each company." },
+        { title: "Incorporate into Research", description: "Use AltIndex signals as one input in your investment research. Alternative data is most valuable when combined with fundamental analysis." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Information Edge", description: "Public company financial statements are available to all investors simultaneously. Alternative data that reveals business trends before they appear in earnings provides genuine information advantage" },
+      { title: "Consumer Business Insight", description: "App downloads and web traffic provide real-time visibility into consumer business performance that quarterly earnings reports reveal months later" },
+      { title: "Early Warning System", description: "Deteriorating alternative data signals that precede financial weakness give investors time to act before bad news becomes public" },
+      { title: "Democratized Access", description: "Alternative data was previously accessible only to institutional investors with seven-figure data budgets. Platforms that make these signals accessible at retail price points level the playing field" }
+    ],
+    useCases: [
+      { title: "Retail Investors Seeking Edge", description: "Individual investors who want information advantages beyond public financial data use AltIndex for alternative data signals" },
+      { title: "Fundamental Analysts", description: "Research analysts incorporate alternative data to enrich their company analysis with real-time business trend data" },
+      { title: "Quantitative Investors", description: "Quant investors use alternative data signals as factors in systematic investment strategies" }
+    ]
+  },
+  "researchrabbit": {
+    whatIs: "ResearchRabbit is a free academic literature discovery platform that helps researchers find relevant papers through citation mapping and AI-powered recommendations. It visualizes how papers connect through citations, suggests related work you might have missed, and helps researchers build comprehensive understanding of a research area by mapping the intellectual landscape. For academics who want to discover the full breadth of relevant literature without manual citation chasing, ResearchRabbit provides an intelligent literature map.",
+    features: [
+      "Citation Mapping: Visualize how papers connect through citations",
+      "Paper Recommendations: AI suggestions for related work you might miss",
+      "Collection Building: Organize papers into research collections",
+      "Author Tracking: Follow researchers whose work you want to monitor",
+      "New Paper Alerts: Get notified when relevant new papers appear",
+      "Zotero Integration: Sync with your existing reference manager",
+      "Collaboration: Share collections with research collaborators",
+      "Completely Free: Full access without any payment"
+    ],
+    howToUse: {
+      title: "How to Use Researchrabbit",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Add Your Seed Papers", description: "Sign up at researchrabbit.ai and add the papers that are most central to your research topic. These seed papers anchor your literature map." },
+        { title: "Explore the Map", description: "ResearchRabbit generates a visual map of papers connected to your seeds through citations. Explore the map to discover related work." },
+        { title: "Build Your Collection", description: "Add relevant discovered papers to your collection. Set up alerts for new papers and follow the authors whose work matters most to your research." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Citation Network Value", description: "Following citation chains manually is tedious and easy to lose track of. Visual citation maps that show the full network make literature exploration systematic and complete" },
+      { title: "Discovery Completeness", description: "Manual literature search misses papers that use different terminology or appear in unexpected venues. AI recommendations surface relevant work that keyword search would not find" },
+      { title: "Free Access", description: "Research tools that are completely free remove cost barriers for students and researchers at institutions with limited tool budgets" },
+      { title: "Zotero Integration", description: "Connecting to existing reference management workflows means discovered papers flow directly into the tools researchers already use" }
+    ],
+    useCases: [
+      { title: "PhD Students", description: "Doctoral researchers use ResearchRabbit for comprehensive literature discovery during their literature review phase" },
+      { title: "Academic Researchers", description: "University researchers use the platform to stay current with their field and discover adjacent relevant work" },
+      { title: "Research Teams", description: "Research groups share collections through ResearchRabbit to coordinate their literature coverage" }
+    ]
+  },
+  "centre-governance-ai": {
+    whatIs: "The Centre for the Governance of AI is an independent research organization focused on understanding and improving the governance of artificial intelligence. It conducts research on AI policy, safety, international coordination, and the social implications of advanced AI systems. The Centre produces reports, hosts events, and engages with policymakers, technologists, and civil society to inform how AI is governed at national and international levels.",
+    features: [
+      "Policy Research: Analysis of AI governance frameworks and policies",
+      "Safety Research: Work on making AI systems safe and beneficial",
+      "International Coordination: Research on global AI governance challenges",
+      "Public Reports: Freely available research on AI governance topics",
+      "Policy Engagement: Direct engagement with governments and regulators",
+      "Event Hosting: Conferences and workshops on AI governance",
+      "Fellowship Programs: Supporting early-career AI governance researchers",
+      "Free Resources: All research publications available without payment"
+    ],
+    howToUse: {
+      title: "How to Use Centre Governance Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access the Research", description: "Visit governance.ai to browse the Centre published research and reports on AI governance topics." },
+        { title: "Engage with the Work", description: "Read reports relevant to your interests in AI policy and governance. Sign up for updates to receive new research as it is published." },
+        { title: "Connect with the Community", description: "Attend events and engage with the community of researchers, policymakers, and practitioners working on AI governance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Independent Perspective", description: "AI governance research from organizations without industry funding provides perspectives that are not influenced by commercial interests in AI development" },
+      { title: "Policy Relevance", description: "Research that engages directly with policymakers and is designed to inform governance decisions has practical impact beyond academic contribution" },
+      { title: "International Scope", description: "AI governance challenges that cross national borders require research that examines international coordination and the different approaches governments are taking" },
+      { title: "Early Career Development", description: "Fellowship programs that support early-career researchers build the field of AI governance research for the long term" }
+    ],
+    useCases: [
+      { title: "AI Policy Researchers", description: "Academics and think tank researchers working on AI policy use the Centre resources and community" },
+      { title: "Government Officials", description: "Policymakers working on AI regulation use Centre research to inform their understanding of governance options" },
+      { title: "Technology Leaders", description: "Senior technologists who want to understand AI governance debates use Centre publications for independent analysis" }
+    ]
+  },
   "firecrawl": {
     whatIs: "Firecrawl is a web scraping and crawling API that converts any website into clean, structured data ready for use in AI applications and data pipelines. It handles JavaScript rendering, pagination, and complex website structures automatically, delivering clean markdown or structured JSON output without the mess of raw HTML. For developers building AI applications that need web data, Firecrawl removes the painful engineering work of building and maintaining web scrapers.",
     features: [
