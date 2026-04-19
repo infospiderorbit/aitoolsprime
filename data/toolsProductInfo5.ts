@@ -1,4 +1,268 @@
 export const toolsProductInfo5: { [key: string]: any } = {
+  "blainy": {
+    whatIs: "Blainy is an AI writing assistant built specifically for academic writing that helps students write essays, research papers, and academic documents with proper structure, citations, and academic tone. It provides AI-powered writing suggestions, helps organize arguments, and assists with the citation process to make academic writing less daunting. For students who struggle with the demands of academic writing, Blainy provides the intelligent writing companion that guides them through producing quality academic work.",
+    features: [
+      "Academic Writing Assistant: AI tuned specifically for academic writing standards",
+      "Essay Structure: Help organizing arguments and essay structure",
+      "Citation Help: Assistance with in-text citations and reference lists",
+      "Tone Guidance: Suggestions for maintaining academic register",
+      "Grammar and Style: Academic writing grammar and style corrections",
+      "Research Integration: Help incorporating research into your writing",
+      "Multiple Citation Styles: Support for APA, MLA, Chicago, and others",
+      "Free to Try: Basic writing assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Blainy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Document", description: "Sign up at blainy.com and start a new academic document. Input your essay prompt or research question to get started." },
+        { title: "Write with Assistance", description: "Write your draft with Blainy suggestions appearing as you type. Accept suggestions that improve your academic writing quality." },
+        { title: "Cite and Polish", description: "Use the citation tools to properly attribute your sources. Review the complete document for academic tone and argument coherence." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Academic Specificity", description: "General writing assistants give generic writing advice. Academic-specific AI that understands essay structure, argument development, and citation requirements provides more relevant guidance" },
+      { title: "Citation Complexity", description: "Proper citation in academic writing requires understanding complex style guides that change between disciplines. AI assistance that handles citation formatting reduces this burden" },
+      { title: "Structure Support", description: "Many students know what they want to say but struggle to organize it into a coherent academic argument. Structural guidance that helps organize ideas produces better essays" },
+      { title: "Confidence Building", description: "Students who receive specific feedback on their academic writing develop better writing skills over time rather than just getting their work fixed" }
+    ],
+    useCases: [
+      { title: "Undergraduate Students", description: "University students writing essays and research papers use Blainy for academic writing guidance" },
+      { title: "International Students", description: "Students writing in English as a second language use Blainy to ensure their academic writing meets English academic standards" },
+      { title: "High School Students", description: "Advanced high school students preparing for university-level writing use Blainy to develop their academic writing skills" }
+    ]
+  },
+  "explainpaper": {
+    whatIs: "Explainpaper is an AI tool that makes academic papers easier to understand by allowing users to highlight confusing passages and get plain-English explanations. It acts as an AI research assistant that sits alongside any academic paper and explains complex methodology, jargon, and technical concepts in language that non-specialists can follow. For readers who want to engage with research outside their immediate specialization, Explainpaper removes the comprehension barrier that technical language creates.",
+    features: [
+      "Passage Explanation: Highlight any text and get a plain-English explanation",
+      "Jargon Translation: Convert technical terminology into accessible language",
+      "Methodology Clarification: Understand complex research methods",
+      "Statistical Explanation: Make sense of statistical results and analysis",
+      "Concept Background: Get context for unfamiliar concepts referenced in papers",
+      "Paper Upload: Upload any PDF paper for explanation assistance",
+      "Free to Use: Basic explanation without payment",
+      "Unlimited Papers: No limits on papers you can analyze"
+    ],
+    howToUse: {
+      title: "How to Use Explainpaper",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Paper", description: "Go to explainpaper.com and upload the PDF of the paper you want to read. The paper appears in the interface ready for annotation." },
+        { title: "Highlight Confusing Text", description: "As you read, highlight any passage you find confusing or want explained. The AI immediately provides a clear explanation." },
+        { title: "Build Understanding", description: "Work through the paper highlighting sections you need explained. By the end you should have a much clearer understanding of the research." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Interdisciplinary Research", description: "Researchers who need to engage with literature from adjacent fields often find the technical language of other disciplines impenetrable. AI that explains this language makes interdisciplinary research more accessible" },
+      { title: "Student Comprehension", description: "Academic papers written for expert audiences often leave students confused. Plain-English explanations that preserve accuracy help students genuinely engage with primary research" },
+      { title: "Efficiency", description: "Struggling to understand a passage and eventually giving up wastes time. Immediate explanation that resolves confusion keeps reading productive" },
+      { title: "Democratization", description: "Academic research locked behind jargon is inaccessible to practitioners, policymakers, and interested members of the public. AI that translates this language democratizes access to research" }
+    ],
+    useCases: [
+      { title: "Graduate Students", description: "PhD and masters students reading outside their narrow specialization use Explainpaper to understand adjacent research" },
+      { title: "Undergraduate Researchers", description: "Undergraduates engaging with primary research for the first time use the tool to understand papers their courses assign" },
+      { title: "Professionals Reading Research", description: "Practitioners in medicine, law, and other fields who want to engage with academic research in their area use Explainpaper to bridge the gap between research and practice" }
+    ]
+  },
+  "illuminate": {
+    whatIs: "Illuminate is an AI research tool from Google that converts academic papers into engaging audio conversations between AI hosts who discuss and explain the research. Instead of reading dense academic papers, users can listen to a generated podcast-style discussion that explains the key findings, methodology, and implications in accessible conversational language. For people who learn better through audio or want to engage with research while commuting or exercising, Illuminate transforms academic papers into listenable content.",
+    features: [
+      "Paper to Audio: Convert academic papers into audio discussions",
+      "Conversational Format: AI hosts discuss research in podcast style",
+      "Key Finding Explanation: Clear explanation of research findings",
+      "Methodology Discussion: Accessible explanation of how research was conducted",
+      "Implication Exploration: Discussion of what the research means",
+      "Multiple Papers: Process many papers into audio content",
+      "Mobile Friendly: Listen on any device while doing other things",
+      "Free Access: Use without payment during the research phase"
+    ],
+    howToUse: {
+      title: "How to Use Illuminate",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Paper", description: "Go to illuminate.google.com and submit the academic paper you want converted to audio. Paste the URL or upload the PDF." },
+        { title: "Wait for Generation", description: "Illuminate generates the audio discussion of your paper. The generation takes a few minutes depending on paper length." },
+        { title: "Listen and Learn", description: "Listen to the AI-generated discussion of your paper. The conversational format makes complex research accessible even while doing other activities." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Audio Learning", description: "Many people absorb information more effectively through listening than reading. Audio conversion of research papers serves this learning style with academic content" },
+      { title: "Multitasking Research", description: "Listening to research discussions while commuting, exercising, or doing other tasks extends available research time beyond dedicated reading sessions" },
+      { title: "Accessibility", description: "Dense academic language that is difficult to read is often easier to follow in conversational spoken form. Audio format lowers the comprehension barrier for non-specialist readers" },
+      { title: "Engagement Quality", description: "Conversational discussion that explains why research matters and what it implies is more engaging than the passive experience of reading a paper" }
+    ],
+    useCases: [
+      { title: "Commuting Researchers", description: "Academics and students who want to use commute time for research engagement use Illuminate to listen to papers on the go" },
+      { title: "Busy Professionals", description: "Professionals who want to stay current with research but have limited reading time use audio paper conversion for flexible research engagement" },
+      { title: "Accessibility Needs", description: "People with reading difficulties or visual impairments use audio conversion to access academic research content" }
+    ]
+  },
+  "prolific": {
+    whatIs: "Prolific is an online research platform that connects academic researchers with participants for online studies and surveys. It provides a pre-screened participant pool with detailed demographic information, ensuring researchers can find the specific participant types their studies require. Prolific has become the gold standard for online research participant recruitment because of its commitment to participant quality and fair compensation. For researchers who need reliable, ethical participant recruitment for their studies, Prolific provides the infrastructure that produces trustworthy research data.",
+    features: [
+      "Participant Recruitment: Access a large pool of pre-screened research participants",
+      "Demographic Filtering: Find participants matching specific demographic criteria",
+      "Quality Assurance: Attention checks and quality controls for reliable data",
+      "Fair Pay: Platform that ensures participants receive fair compensation",
+      "Fast Recruitment: Fill studies with hundreds of participants quickly",
+      "Academic Integration: Works with Qualtrics, Gorilla, and other research tools",
+      "Ethics Compliance: Platform designed around research ethics standards",
+      "Free to Explore: Review the platform before running paid studies"
+    ],
+    howToUse: {
+      title: "How to Use Prolific",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Study", description: "Sign up at prolific.com and create your study. Set your eligibility criteria to find the specific participant types your research requires." },
+        { title: "Launch and Collect", description: "Launch your study and Prolific matches you with eligible participants. Data collection happens quickly with participants completing studies within hours." },
+        { title: "Analyze Quality Data", description: "Download your completed responses. Prolific quality controls and participant screening produce data that is more reliable than many alternative recruitment methods." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Participant Quality", description: "Online research plagued by bots and inattentive respondents produces unreliable data. Prolific pre-screening and quality controls produce participants who genuinely engage with studies" },
+      { title: "Demographic Access", description: "Finding participants with specific characteristics for research is difficult through convenience sampling. Prolific demographic filtering makes it possible to recruit exactly the population a study requires" },
+      { title: "Ethical Recruitment", description: "Fair participant compensation and transparent research practices produce more ethical research and participants who are genuinely willing to engage" },
+      { title: "Speed", description: "Traditional participant recruitment that takes weeks through university participant pools happens in hours on Prolific for most study types" }
+    ],
+    useCases: [
+      { title: "Academic Researchers", description: "University researchers conducting behavioral and social science studies use Prolific for participant recruitment" },
+      { title: "UX Researchers", description: "Product teams conducting user research use Prolific to recruit representative participants for usability studies" },
+      { title: "Market Research Teams", description: "Commercial research that needs specific demographic groups uses Prolific for targeted participant recruitment" }
+    ]
+  },
+  "glasp": {
+    whatIs: "Glasp is a social web highlighter that allows users to highlight and annotate web pages and PDFs while building a searchable library of their accumulated knowledge. Unlike private highlighting tools, Glasp makes highlights social - users can see what others have highlighted from the same source and discover insights through shared annotations. For people who read extensively online and want to build and share their knowledge, Glasp provides the social reading layer that turns individual highlights into collective intelligence.",
+    features: [
+      "Web Highlighting: Highlight and annotate any web page or PDF",
+      "Social Discovery: See highlights others made from the same content",
+      "Knowledge Library: Build a searchable library of your highlights",
+      "AI Summary: Generate summaries from your accumulated highlights",
+      "Profile Sharing: Share your highlights and reading with others",
+      "Export Options: Export highlights to Notion, Obsidian, and other tools",
+      "Browser Extension: Works directly in your browser",
+      "Free to Use: Full highlighting without payment"
+    ],
+    howToUse: {
+      title: "How to Use Glasp",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Sign up at glasp.co and install the browser extension. Highlighting becomes available on every web page you visit." },
+        { title: "Start Highlighting", description: "As you read articles and web pages, highlight the passages that matter to you. Add notes to any highlight for additional context." },
+        { title: "Explore the Social Layer", description: "Visit the Glasp web app to see your accumulated library and discover what others have highlighted from sources you have read." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Knowledge Accumulation", description: "Highlights that disappear into individual apps produce knowledge that is hard to retrieve later. A searchable library that accumulates over time makes past learning accessible" },
+      { title: "Social Reading Value", description: "Seeing what thoughtful readers have highlighted from the same source surfaces insights that individual reading might miss" },
+      { title: "Export Flexibility", description: "Highlights that can flow into personal knowledge management systems like Notion and Obsidian integrate with existing workflows rather than creating a new silo" },
+      { title: "Reading as Contribution", description: "Making highlights public turns individual reading into a contribution to collective understanding that benefits other readers of the same content" }
+    ],
+    useCases: [
+      { title: "Avid Readers and Researchers", description: "People who read extensively online use Glasp to capture and organize insights from their reading" },
+      { title: "Personal Knowledge Management Practitioners", description: "People who build structured knowledge bases use Glasp highlights as input to their PKM systems" },
+      { title: "Content Creators and Writers", description: "Writers use Glasp to collect reference material and insights from their research reading" }
+    ]
+  },
+  "branded": {
+    whatIs: "Branded is a market research platform that connects brands with consumers for insights through surveys, focus groups, and research studies. It provides access to a diverse consumer panel and research tools that help brands understand their customers, test concepts, and make evidence-based product and marketing decisions. For brands that need consumer insights to inform their decisions, Branded provides the research infrastructure that makes quality market research accessible.",
+    features: [
+      "Consumer Panel: Access to a diverse panel of research participants",
+      "Survey Tools: Create and deploy consumer surveys easily",
+      "Concept Testing: Test product ideas and marketing concepts with consumers",
+      "Brand Tracking: Monitor brand perception over time",
+      "Qual and Quant: Both qualitative and quantitative research capabilities",
+      "Fast Results: Research results in days not weeks",
+      "Analytics Dashboard: Visualize and analyze research findings",
+      "Free Trial: Explore the platform before committing"
+    ],
+    howToUse: {
+      title: "How to Use Branded",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Research Question", description: "Sign up at branded.com and define what you need to learn from consumers. The clearer your research question the more useful your results." },
+        { title: "Configure Your Study", description: "Set up your survey or research study using the platform tools. Define your target consumer segment and study parameters." },
+        { title: "Collect and Analyze", description: "Launch your study and collect responses from the consumer panel. Use the analytics tools to understand what consumers are telling you." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Consumer Reality Check", description: "Brand assumptions about what consumers want are often wrong. Research that asks actual consumers produces more accurate understanding than internal debate" },
+      { title: "Speed to Insight", description: "Traditional market research agencies take weeks or months to deliver results. Platforms that run research in days enable faster decision-making" },
+      { title: "Concept Validation", description: "Testing product concepts with real consumers before development investment reduces the risk of building something the market does not want" },
+      { title: "Continuous Understanding", description: "Brand tracking that monitors consumer perception over time reveals how marketing and product decisions are affecting brand health" }
+    ],
+    useCases: [
+      { title: "Brand and Marketing Teams", description: "Marketing professionals use Branded for consumer insights that inform campaign strategy and brand decisions" },
+      { title: "Product Teams", description: "Product managers use the platform for concept testing before committing development resources" },
+      { title: "Insights and Research Teams", description: "Corporate research functions use Branded for agile consumer research that supplements larger research programs" }
+    ]
+  },
+  "semantic-scholar": {
+    whatIs: "Semantic Scholar is a free AI-powered academic search engine developed by the Allen Institute for AI that provides intelligent search and discovery across hundreds of millions of academic papers. It uses AI to understand paper content and context, providing features like citation analysis, paper recommendations, research topic exploration, and author disambiguation that make it more capable than simple keyword search. For researchers who need comprehensive and intelligent access to academic literature, Semantic Scholar provides the most sophisticated free academic search available.",
+    features: [
+      "AI-Powered Search: Intelligent search that understands research context",
+      "Citation Analysis: Understand how papers have been cited and built upon",
+      "Paper Recommendations: Discover related work through AI recommendations",
+      "Research Topics: Explore research areas and their key papers",
+      "Author Profiles: Comprehensive author pages with publication history",
+      "Open Access Links: Find freely available versions of papers",
+      "Alert System: Get notified of new papers in your research area",
+      "Completely Free: Full access without any payment"
+    ],
+    howToUse: {
+      title: "How to Use Semantic Scholar",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Topic", description: "Go to semanticscholar.org and search for your research topic. The AI understands research context and returns more relevant results than keyword search." },
+        { title: "Explore Paper Connections", description: "Click on papers of interest and explore their citation network. Find the influential papers in your area and the recent work that builds on foundational research." },
+        { title: "Set Up Alerts", description: "Create alerts for your research topics and key authors to receive notifications when new relevant papers are published." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Search Quality", description: "Keyword search that matches words without understanding meaning misses relevant papers that use different terminology. AI that understands research context produces more complete and relevant results" },
+      { title: "Citation Intelligence", description: "Understanding how papers have been received and built upon by subsequent research provides context for evaluating their significance that abstract reading alone cannot" },
+      { title: "Free Access", description: "Premium academic databases charge institutional fees that individuals and smaller institutions cannot afford. Completely free access removes this barrier" },
+      { title: "Comprehensive Coverage", description: "Coverage across hundreds of millions of papers spanning all disciplines makes Semantic Scholar a comprehensive starting point for any literature search" }
+    ],
+    useCases: [
+      { title: "Researchers Across All Fields", description: "Academic researchers in any discipline use Semantic Scholar for comprehensive intelligent literature search" },
+      { title: "Students", description: "Graduate and undergraduate students use Semantic Scholar for literature review and research discovery" },
+      { title: "Independent Researchers", description: "Researchers without institutional database access use Semantic Scholar as their primary free academic search tool" }
+    ]
+  },
+  "elicit": {
+    whatIs: "Elicit is an AI research assistant that uses language models to help researchers find and analyze academic literature. It searches across papers to answer research questions, summarizes findings across multiple studies, extracts key information from papers, and helps synthesize what the literature says about specific questions. For researchers who want to move from research question to synthesized literature understanding more quickly, Elicit provides the AI research assistant that accelerates the literature review process.",
+    features: [
+      "Research Question Search: Find papers that answer your specific research question",
+      "Cross-Paper Synthesis: Understand what multiple papers collectively say",
+      "Data Extraction: Pull specific information from papers in a structured way",
+      "Concept Clarification: Understand how papers define and use key concepts",
+      "Evidence Mapping: Map the strength and consistency of evidence across studies",
+      "Citation Export: Export found papers to reference management tools",
+      "Workflow Integration: Works alongside your existing research process",
+      "Free Plan: Basic research assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Elicit",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Research Question", description: "Sign up at elicit.com and enter your research question in plain language. Elicit searches for papers that address your specific question." },
+        { title: "Review Found Papers", description: "Browse the papers Elicit found and review the extracted summaries and key findings. See how different papers address your question." },
+        { title: "Synthesize Your Findings", description: "Use Elicit synthesis features to understand what the collective literature says about your question. Export the papers you want to read in full." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Question-Based Search", description: "Topic keyword search finds papers about a subject. Research question search that finds papers answering specific questions is more useful for researchers with defined inquiry" },
+      { title: "Synthesis Efficiency", description: "Reading many papers to understand what the collective evidence says takes enormous time. AI synthesis that processes multiple papers simultaneously accelerates this work" },
+      { title: "Structured Extraction", description: "Pulling specific data points from many papers for systematic review requires tedious manual work. Automated extraction that structures this information saves weeks of work" },
+      { title: "Evidence Mapping", description: "Understanding how consistent and strong the evidence is across studies requires seeing how many papers reach similar conclusions. Evidence mapping that shows this pattern supports evidence-based conclusions" }
+    ],
+    useCases: [
+      { title: "Systematic Review Researchers", description: "Researchers conducting systematic reviews use Elicit for comprehensive and structured literature search and extraction" },
+      { title: "Evidence-Based Practitioners", description: "Clinicians, policymakers, and practitioners who make evidence-based decisions use Elicit to quickly understand what research says" },
+      { title: "Graduate Students", description: "Students conducting literature reviews use Elicit to find and synthesize relevant research more efficiently" }
+    ]
+  },
   "zeli-app": {
     whatIs: "Zeli is an AI reading assistant that helps users quickly understand long articles, newsletters, and web content through smart summarization and key point extraction. It works as a browser extension and mobile app that sits alongside your reading and provides instant summaries, highlights the most important points, and answers questions about the content you are reading. For people with heavy reading lists who cannot get through everything they want to read, Zeli provides the AI reading companion that helps you absorb more in less time.",
     features: [
