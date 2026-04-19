@@ -150,6 +150,9 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-document-extraction": [
       { id: "pestle-recipe", name: "Pestle: Recipe Manager", description: "AI-powered recipe extraction and management", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "🥘", category: "office-productivity", subcategory: "ai-document-extraction" },
+      { id: "image-to-text", name: "Image to Text", description: "AI OCR tool that extracts text from any image", url: "", upvotes: 1456, verified: true, rating: 4.3, icon: "📝", category: "office-productivity", subcategory: "ai-document-extraction" },
+      { id: "pdnob-image", name: "PDNob Image Translator", description: "AI tool that translates text within images between languages", url: "", upvotes: 1123, verified: true, rating: 4.2, icon: "🌐", category: "office-productivity", subcategory: "ai-document-extraction" },
+      { id: "describe-image", name: "Describe Image", description: "AI tool that generates detailed text descriptions of images", url: "", upvotes: 1234, verified: true, rating: 4.3, icon: "🖼️", category: "office-productivity", subcategory: "ai-document-extraction" },
       { id: "imagetotext-info", name: "ImageToText.info", description: "Extract text from images with AI", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "🖼️", category: "office-productivity", subcategory: "ai-document-extraction" },
       { id: "image-to-text-converter", name: "Image to Text converter", description: "Convert images to editable text", url: "", upvotes: 1156, verified: true, rating: 4.3, icon: "📄", category: "office-productivity", subcategory: "ai-document-extraction" },
       { id: "jpgtotext", name: "jpgtotext.com", description: "Extract text from JPG images using AI", url: "", upvotes: 987, verified: true, rating: 4.2, icon: "🖼️", category: "office-productivity", subcategory: "ai-document-extraction" },
@@ -718,6 +721,9 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "ai-face-ager", name: "AI Face Ager", description: "Professional AI age progression technology", url: "", upvotes: 189, verified: true, rating: 4.1, icon: "⏰", category: "image-generation-editing", subcategory: "ai-age-progression" }
     ],
     "ai-avatar-generator": [
+      
+      { id: "segment-anything", name: "Segment Anything", description: "Meta AI image segmentation model that segments any object", url: "", upvotes: 2100, verified: true, rating: 4.7, icon: "✂️", category: "image-generation-editing", subcategory: "ai-image-editing" },
+      { id: "sam-model", name: "Segment Anything Model (SAM)", description: "Foundational AI model for precise image segmentation", url: "", upvotes: 1980, verified: true, rating: 4.7, icon: "🎯", category: "image-generation-editing", subcategory: "ai-image-editing" },
       { id: "vidnoz-ai", name: "Vidnoz AI", description: "AI video and avatar creation tool", url: "", upvotes: 789, verified: true, rating: 4.6, icon: "🎬", category: "image-generation-editing", subcategory: "ai-avatar-generator" },
       { id: "d-id", name: "D-ID", description: "AI-powered talking avatar generator", url: "", upvotes: 456, verified: true, rating: 4.4, icon: "🗣️", category: "image-generation-editing", subcategory: "ai-avatar-generator" },
       { id: "vidyard", name: "Vidyard", description: "Video messaging with AI avatar features", url: "", upvotes: 345, verified: true, rating: 4.3, icon: "📹", category: "image-generation-editing", subcategory: "ai-avatar-generator" }
