@@ -1,4 +1,466 @@
 export const toolsProductInfo5: { [key: string]: any } = {
+  "meta-sam2": {
+    whatIs: "Meta Segment Anything Model 2 (SAM 2) is Meta AI most advanced image and video segmentation model that can identify and isolate any object in images and videos with remarkable precision. SAM 2 extends the original SAM capabilities to video, tracking objects across frames and allowing users to segment moving subjects throughout a video clip. For researchers, developers, and creative professionals who need precise object segmentation, SAM 2 provides state-of-the-art segmentation that works on virtually any object without task-specific training.",
+    features: [
+      "Image Segmentation: Isolate any object in images with precise masking",
+      "Video Segmentation: Track and segment objects across video frames",
+      "Interactive Prompting: Click or draw to specify what to segment",
+      "Zero-Shot Generalization: Works on any object without specific training",
+      "High Accuracy: State-of-the-art segmentation quality",
+      "Open Source: Model weights available for research and development",
+      "API Access: Use through Meta AI infrastructure",
+      "Real-Time Capable: Fast enough for interactive applications"
+    ],
+    howToUse: {
+      title: "How to Use Meta Sam2",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access the Model", description: "Access SAM 2 through Meta AI research repositories or through platforms that have integrated it. The model is open source and available for research use." },
+        { title: "Provide Your Prompt", description: "Click on the object you want to segment or draw a bounding box around it. SAM 2 uses your prompt to identify precisely what to isolate." },
+        { title: "Use the Segmentation", description: "Export the segmentation mask for your target object. Use it for background removal, object isolation, video editing, or downstream AI tasks." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Universal Segmentation", description: "Traditional segmentation models require training on specific object categories. SAM 2 zero-shot capability that works on any object without retraining is a fundamental capability advance" },
+      { title: "Video Extension", description: "Segmenting objects in video requires tracking across frames as the object moves and changes appearance. SAM 2 handles this complexity that image-only models cannot address" },
+      { title: "Interactive Precision", description: "Segmentation that responds to simple clicks and prompts makes precise object isolation accessible without pixel-level manual masking work" },
+      { title: "Foundation Model Value", description: "A powerful segmentation model that other applications can build on accelerates development of the broader computer vision application ecosystem" }
+    ],
+    useCases: [
+      { title: "Computer Vision Researchers", description: "AI researchers use SAM 2 for segmentation tasks in their research and as a component in larger vision systems" },
+      { title: "Video Editors", description: "Creative professionals use video object segmentation for background replacement and visual effects work" },
+      { title: "AI Application Developers", description: "Developers building vision applications use SAM 2 as a segmentation backbone for their products" }
+    ]
+  },
+  "flypix-ai": {
+    whatIs: "FlyPix AI is an AI-powered aerial image analysis platform that automatically detects, counts, and classifies objects in drone and satellite imagery. It processes aerial photos to identify specific objects of interest - vehicles, buildings, vegetation, infrastructure - delivering structured data from overhead imagery without manual photo analysis. For organizations that collect drone or satellite imagery and need to extract actionable information efficiently, FlyPix AI provides the computer vision that turns aerial photos into structured intelligence.",
+    features: [
+      "Object Detection: Automatically detect and count objects in aerial images",
+      "Aerial Image Analysis: Process drone and satellite imagery at scale",
+      "Custom Object Classes: Train detection for your specific objects of interest",
+      "Batch Processing: Analyze large collections of aerial images simultaneously",
+      "Geographic Output: Results tied to geographic coordinates",
+      "Change Detection: Compare aerial images over time to identify changes",
+      "Reporting: Generate structured reports from aerial analysis",
+      "Free Trial: Process sample imagery before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Flypix Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Imagery", description: "Sign up at flypix.ai and upload the aerial images or connect your drone data source. The platform accepts standard aerial image formats." },
+        { title: "Configure Your Detection", description: "Select the object types you want to detect or configure custom detection for objects specific to your use case." },
+        { title: "Review and Export Results", description: "FlyPix processes your imagery and presents detection results with counts and locations. Export the structured data for your reporting or downstream analysis." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Scale of Aerial Data", description: "Drone surveys and satellite imagery generate enormous image volumes that are impossible to analyze manually in reasonable time. Automated detection that processes thousands of images quickly makes aerial data actionable" },
+      { title: "Consistency", description: "Human analysts who review aerial images get tired and miss objects. AI detection that applies the same standards to every image produces consistent results regardless of volume" },
+      { title: "Geographic Intelligence", description: "Detection results tied to geographic coordinates that map object locations provide spatial intelligence that photo counts alone cannot deliver" },
+      { title: "Change Monitoring", description: "Comparing aerial imagery over time to identify what has changed requires systematic analysis that manual comparison cannot scale to" }
+    ],
+    useCases: [
+      { title: "Construction and Infrastructure", description: "Project managers use aerial AI to monitor construction progress and count equipment and materials from drone surveys" },
+      { title: "Agriculture Operations", description: "Farmers and agronomists use aerial detection to count crops, identify problem areas, and monitor field conditions from drone imagery" },
+      { title: "Environmental Monitoring", description: "Conservation organizations use aerial AI to count wildlife, monitor vegetation change, and track land use from satellite data" }
+    ]
+  },
+  "rsip-vision": {
+    whatIs: "RSIP Vision is a computer vision consulting and development company that builds custom AI vision solutions for medical imaging, industrial inspection, and other specialized computer vision applications. They develop deep learning models, image processing algorithms, and complete vision systems for clients who need computer vision capabilities beyond what off-the-shelf solutions provide. For organizations with specialized computer vision challenges that require custom development, RSIP Vision provides the technical expertise to build solutions tailored to their specific domain.",
+    features: [
+      "Medical Imaging AI: Specialized AI for radiology, pathology, and medical imaging",
+      "Industrial Inspection: Computer vision for manufacturing quality control",
+      "Custom Model Development: Build models trained on your specific domain",
+      "Algorithm Development: Custom image processing and analysis algorithms",
+      "Complete Systems: End-to-end vision system design and deployment",
+      "Domain Expertise: Deep knowledge across medical and industrial vision domains",
+      "Research Background: Academic research foundation applied to practical problems",
+      "Consulting Services: Expert guidance on computer vision strategy and implementation"
+    ],
+    howToUse: {
+      title: "How to Use Rsip Vision",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Challenge", description: "Contact RSIP Vision with a description of your computer vision challenge. Their team assesses the technical requirements and appropriate approaches." },
+        { title: "Engage in Development", description: "Work with RSIP Vision engineers to develop your custom vision solution. The development process includes data collection guidance, model development, and validation." },
+        { title: "Deploy Your Solution", description: "Receive your completed vision system and deploy it in your operational environment. RSIP Vision provides support through deployment and into production operation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Domain Specificity Requirement", description: "Medical imaging and industrial inspection involve specialized visual domains where generic computer vision models perform poorly. Domain expertise that produces accurate models for specific applications is essential" },
+      { title: "Custom Training Data", description: "Specialized applications require training data from the specific domain that is not available in public datasets. Custom data collection and annotation expertise is necessary for these applications" },
+      { title: "Regulatory Compliance", description: "Medical AI applications must meet regulatory requirements that require specific validation and documentation. Specialized developers who understand these requirements build compliant systems" },
+      { title: "Technical Complexity", description: "Advanced computer vision applications involve technical challenges in data preparation, model architecture, and validation that general software developers cannot address without specialized expertise" }
+    ],
+    useCases: [
+      { title: "Medical Device Companies", description: "Healthcare technology companies building AI-assisted diagnostic products work with RSIP Vision for medical imaging AI development" },
+      { title: "Manufacturing Companies", description: "Industrial manufacturers with quality control challenges use RSIP Vision for custom machine vision inspection systems" },
+      { title: "Research Institutions", description: "Academic and government research organizations use RSIP Vision for computer vision components in larger research projects" }
+    ]
+  },
+  "imagetotext-info": {
+    whatIs: "ImageToText.info is an online OCR and image text extraction tool that converts text in images, photos, and scanned documents into editable digital text. It uses AI optical character recognition to accurately extract text from any image containing written or printed text, making the content searchable and editable. For anyone who needs to extract text from images without manual retyping, ImageToText.info provides fast and accurate text extraction from any image source.",
+    features: [
+      "OCR Text Extraction: Extract text from any image accurately",
+      "Multiple Image Formats: Process JPG, PNG, PDF, and other formats",
+      "Multiple Languages: Text recognition in many languages",
+      "Handwriting Recognition: Extract handwritten text from images",
+      "Bulk Processing: Convert multiple images simultaneously",
+      "Copy and Download: Easy export of extracted text",
+      "No Registration: Extract text without creating an account",
+      "Free to Use: Basic OCR without payment"
+    ],
+    howToUse: {
+      title: "How to Use Imagetotext Info",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to imagetotext.info and upload the image containing the text you want to extract. Paste an image URL or upload directly from your device." },
+        { title: "Review Extracted Text", description: "The AI processes your image and extracts all text content. Review the extracted text for accuracy." },
+        { title: "Copy and Use", description: "Copy the extracted text and use it in any application. The text is now fully editable and searchable digital content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Retyping Elimination", description: "Manually retyping text from images or scanned documents is slow and error-prone. OCR that extracts text automatically saves significant time with better accuracy" },
+      { title: "Digital Accessibility", description: "Text locked in images cannot be searched, copied, or edited. OCR that converts image text to digital format makes the content accessible and useful" },
+      { title: "No Friction Access", description: "OCR tools that work without account creation or software installation are practically useful for occasional text extraction needs" },
+      { title: "Language Range", description: "Text in many languages and scripts that requires specialized recognition is handled by AI trained across multiple language systems" }
+    ],
+    useCases: [
+      { title: "Office Workers", description: "Professionals who receive documents as images or photos use OCR to convert them to editable text for their work" },
+      { title: "Students", description: "Students extract text from textbook photos and scanned readings for notes and citations" },
+      { title: "Researchers", description: "Researchers digitize text from historical documents, books, and other physical sources using OCR" }
+    ]
+  },
+  "jpgtotext": {
+    whatIs: "JPGtoText is a specialized OCR tool focused on converting JPG images and photos into extractable text. It processes JPEG photos of documents, signs, receipts, and any text-containing images and returns the digital text content accurately. For users who frequently need to extract text from JPEG photos specifically, JPGtoText provides a focused tool optimized for this common conversion task.",
+    features: [
+      "JPG Text Extraction: Specialized OCR for JPEG image files",
+      "Photo Text Recognition: Extract text from phone photos of documents",
+      "Receipt Processing: Extract text from receipt and invoice photos",
+      "Sign Recognition: Read text from photos of signs and labels",
+      "Multiple Languages: Text recognition across many languages",
+      "Fast Processing: Quick extraction from standard JPEG files",
+      "Free to Use: Basic text extraction without payment",
+      "No Account Required: Extract text without registration"
+    ],
+    howToUse: {
+      title: "How to Use Jpgtotext",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your JPG", description: "Go to jpgtotext.com and upload your JPEG image. The tool accepts standard JPEG photos from any source including phone cameras." },
+        { title: "Extract Your Text", description: "The OCR engine processes your image and returns the extracted text. Results are typically available within seconds." },
+        { title: "Copy and Use", description: "Copy the extracted text to your clipboard and paste it into any application for editing or further use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Phone Photo Convenience", description: "Photos taken with smartphones are typically JPEG format. A tool optimized for JPEG extraction that accepts phone photos directly fits the most common use case" },
+      { title: "Receipt and Document Processing", description: "Office workers and individuals who photograph receipts and documents for expense tracking or record-keeping use JPG-to-text for quick text extraction" },
+      { title: "Label and Sign Reading", description: "Reading text from photos of product labels, signs, or handwritten notes through OCR is faster than manual transcription" },
+      { title: "No Software Installation", description: "Web-based OCR that works in a browser without software installation is practical for occasional conversion needs" }
+    ],
+    useCases: [
+      { title: "Office Professionals", description: "Workers who photograph documents and receipts use JPGtoText for quick text extraction without dedicated OCR software" },
+      { title: "Small Business Owners", description: "Business owners who capture invoices and receipts with their phone use the tool for quick text extraction and record-keeping" },
+      { title: "General Users", description: "Anyone who needs to extract text from a JPEG photo uses JPGtoText as a simple free solution" }
+    ]
+  },
+  "lightpdf": {
+    whatIs: "LightPDF is a comprehensive online PDF tool suite that provides AI-powered PDF editing, conversion, compression, and document management capabilities. It offers tools for converting PDFs to and from other formats, editing PDF content, adding signatures, compressing file sizes, and using AI to summarize, translate, and analyze PDF documents. For users who work with PDF documents regularly and need a full-featured online PDF toolkit, LightPDF provides extensive PDF capabilities without requiring desktop software.",
+    features: [
+      "PDF Conversion: Convert PDFs to Word, Excel, PowerPoint, and other formats",
+      "PDF Editing: Edit text, images, and content in PDF documents",
+      "AI PDF Summary: Summarize long PDF documents with AI",
+      "PDF Translation: Translate PDF content into other languages",
+      "PDF Compression: Reduce PDF file sizes for easier sharing",
+      "Digital Signatures: Add and verify digital signatures",
+      "OCR: Extract text from scanned PDF documents",
+      "Free to Use: Basic PDF tools without payment"
+    ],
+    howToUse: {
+      title: "How to Use Lightpdf",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your PDF", description: "Go to lightpdf.com and upload the PDF you want to work with. Select the tool appropriate for your task from the comprehensive toolkit." },
+        { title: "Process Your Document", description: "Apply the selected operation to your PDF. Conversions, edits, and AI operations typically complete within seconds to a minute depending on document size." },
+        { title: "Download Your Result", description: "Download the processed document in your desired format. The result is ready for immediate use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Software Independence", description: "Desktop PDF software requires installation and often expensive licenses. Web-based PDF tools that work in any browser provide full PDF capabilities without software overhead" },
+      { title: "AI Enhancement", description: "AI summarization and translation that work directly on PDF content add capabilities that traditional PDF tools do not provide" },
+      { title: "Format Flexibility", description: "Converting PDFs to editable formats and back is a common business need. Comprehensive conversion that handles many target formats serves diverse workflow requirements" },
+      { title: "File Size Management", description: "Large PDF files that are difficult to email or share are compressed to practical sizes without significant quality loss" }
+    ],
+    useCases: [
+      { title: "Office Workers", description: "Business professionals who work with PDF documents daily use LightPDF for conversion, editing, and AI-powered document processing" },
+      { title: "Students and Academics", description: "Students use LightPDF for PDF-to-Word conversion and AI summarization of research papers" },
+      { title: "Small Business Owners", description: "Business owners use digital signatures and PDF creation tools for document workflow management" }
+    ]
+  },
+  "midjourneysref": {
+    whatIs: "MidjourneySref is a resource platform for Midjourney style reference codes and parameters. It catalogs and shares style reference codes that Midjourney users can use to achieve specific visual aesthetics in their AI image generations. Users discover style codes that produce particular artistic looks, copy them into their Midjourney prompts, and achieve consistent visual styles without needing to describe complex aesthetic parameters from scratch.",
+    features: [
+      "Style Reference Library: Curated collection of Midjourney style reference codes",
+      "Visual Previews: See what each style code produces before using it",
+      "Style Categories: Browse codes organized by aesthetic type",
+      "Code Sharing: Community sharing of discovered style codes",
+      "Search: Find style codes matching specific aesthetic descriptions",
+      "Usage Examples: See real outputs from each style code",
+      "Community Ratings: Find the most effective style codes",
+      "Free Access: Browse and use style codes without payment"
+    ],
+    howToUse: {
+      title: "How to Use Midjourneysref",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Library", description: "Visit midjourneysref.com and browse the style code library. Filter by aesthetic category or search for specific visual styles." },
+        { title: "Preview Your Style", description: "View the sample outputs from any style code before using it. Understand what the code produces so you can select the most appropriate one." },
+        { title: "Use in Midjourney", description: "Copy your chosen style reference code and add it to your Midjourney prompt using the sref parameter. Generate images with your selected style applied." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Consistent Aesthetics", description: "Achieving a specific visual style in Midjourney through text description alone is inconsistent and requires many iterations. Style reference codes that reliably produce specific aesthetics save time and tokens" },
+      { title: "Style Discovery", description: "Discovering aesthetic possibilities in Midjourney through systematic exploration is time-consuming. A curated library that shows what different codes produce accelerates style discovery" },
+      { title: "Community Intelligence", description: "Style codes discovered and shared by thousands of users represent collective knowledge that individuals could not accumulate independently" },
+      { title: "Prompt Simplification", description: "Replacing complex aesthetic descriptions with a single style reference code simplifies prompts while producing more consistent results" }
+    ],
+    useCases: [
+      { title: "Midjourney Power Users", description: "Regular Midjourney users use style reference libraries to achieve consistent aesthetics across their image generations" },
+      { title: "Digital Artists", description: "Artists who use Midjourney in their creative workflow use style codes to maintain consistent visual identity" },
+      { title: "Content Creators", description: "Social media creators who produce Midjourney content use style references for recognizable visual branding" }
+    ]
+  },
+  "copycoder": {
+    whatIs: "CopyCoder is an AI tool that analyzes screenshots of user interfaces and generates the corresponding code to recreate them. Users take a screenshot of any website, app, or UI design and CopyCoder produces working code in frameworks like React, HTML, or Tailwind CSS that matches the visual layout. For developers who want to quickly implement UI designs from screenshots or need to replicate existing interfaces, CopyCoder provides the screenshot-to-code conversion that saves significant frontend development time.",
+    features: [
+      "Screenshot to Code: Convert UI screenshots into working frontend code",
+      "Multiple Frameworks: Generate React, HTML, Tailwind, and other framework code",
+      "Design Replication: Accurately recreate visual layouts from screenshots",
+      "Component Generation: Create reusable UI components from screenshots",
+      "Responsive Code: Generate code with responsive design considerations",
+      "Clean Output: Well-structured code rather than messy generated output",
+      "Iteration Support: Refine generated code through follow-up prompts",
+      "Free to Try: Basic screenshot conversion without payment"
+    ],
+    howToUse: {
+      title: "How to Use Copycoder",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Take Your Screenshot", description: "Capture a screenshot of the UI you want to replicate or have already saved a design screenshot." },
+        { title: "Upload to CopyCoder", description: "Go to copycoder.ai and upload your screenshot. Select the target framework for your generated code." },
+        { title: "Review and Refine", description: "CopyCoder generates the frontend code for your screenshot. Review the code, test it in your project, and use follow-up prompts to refine any elements that need adjustment." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Development Speed", description: "Implementing a UI from scratch by looking at a design takes significant time even for experienced developers. AI that generates the initial code structure from a screenshot dramatically reduces this time" },
+      { title: "Design to Code Gap", description: "Translating visual designs into accurate code requires interpreting spacing, typography, and layout in ways that are time-consuming to do precisely. AI conversion handles this translation" },
+      { title: "Prototyping Acceleration", description: "Creating working prototypes quickly from design screenshots enables faster iteration on UI ideas without full frontend development investment" },
+      { title: "Learning Tool", description: "Developers who examine the generated code to understand how specific UI patterns are implemented accelerate their frontend development learning" }
+    ],
+    useCases: [
+      { title: "Frontend Developers", description: "Web developers use CopyCoder to quickly implement UI designs from screenshots and mockups" },
+      { title: "Full-Stack Developers", description: "Developers who handle both backend and frontend use CopyCoder to accelerate the frontend work that is not their primary specialty" },
+      { title: "Startup Developers", description: "Founders and small team developers use screenshot-to-code conversion to build functional UIs quickly without dedicated frontend resources" }
+    ]
+  },
+  "image-to-prompt-pro": {
+    whatIs: "Image to Prompt Pro is an AI tool that analyzes images and generates detailed text prompts that would recreate similar images in AI image generators like Midjourney, Stable Diffusion, and DALL-E. It reverse-engineers the visual characteristics, style, composition, and aesthetic of an image into a comprehensive prompt. For AI artists who want to understand what prompts produce specific visual results or who want to use existing images as style references, Image to Prompt Pro provides the prompt reverse-engineering capability.",
+    features: [
+      "Image Analysis: Analyze visual characteristics of any image",
+      "Prompt Generation: Create detailed prompts that recreate image style",
+      "Multiple Generator Support: Prompts optimized for different AI generators",
+      "Style Extraction: Identify and describe artistic style elements",
+      "Composition Analysis: Describe spatial arrangement and focal elements",
+      "Technical Parameters: Include relevant technical prompt parameters",
+      "Iteration Support: Refine generated prompts for better results",
+      "Free to Try: Basic prompt generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Image To Prompt Pro",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Reference Image", description: "Go to the Image to Prompt Pro platform and upload the image whose style you want to recreate or understand." },
+        { title: "Review Generated Prompt", description: "The AI analyzes your image and generates a detailed prompt describing its visual characteristics, style, and composition." },
+        { title: "Use in Your Generator", description: "Copy the generated prompt into your AI image generator. Adjust and refine the prompt based on the results you get." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Reverse Engineering Value", description: "Understanding what prompt produces a specific visual result is difficult without systematic analysis. AI that reverse-engineers prompts from images makes this learning accessible" },
+      { title: "Style Replication", description: "Artists who want to generate images in a specific style they have encountered can use image-to-prompt to capture that style systematically rather than through guessing" },
+      { title: "Prompt Learning", description: "Examining what prompts AI generates for admired images teaches prompt engineering principles more effectively than abstract descriptions" },
+      { title: "Workflow Integration", description: "Using real images as style references rather than trying to describe styles in words produces more accurate results in AI image generation workflows" }
+    ],
+    useCases: [
+      { title: "AI Artists and Image Creators", description: "People who generate AI images use Image to Prompt Pro to understand and replicate specific visual styles" },
+      { title: "Midjourney and Stable Diffusion Users", description: "Regular AI image generator users use prompt reverse-engineering to learn from examples and improve their prompt writing" },
+      { title: "Creative Directors", description: "Design professionals use image analysis to generate prompts that capture reference aesthetics for creative projects" }
+    ]
+  },
+  "segment-anything": {
+    whatIs: "Segment Anything Model (SAM) is Meta AI foundational image segmentation model that can segment any object in any image with a simple prompt. SAM represents a major advance in AI segmentation by demonstrating zero-shot generalization - the ability to segment objects it was never specifically trained on based only on a prompt click or bounding box. Released as open source, SAM has become the foundation for numerous computer vision applications and research projects.",
+    features: [
+      "Universal Segmentation: Segment any object in any image",
+      "Zero-Shot Capability: Works on unseen objects without specific training",
+      "Multiple Prompt Types: Click, box, or text prompts for segmentation",
+      "Automatic Segmentation: Segment everything in an image automatically",
+      "High Quality Masks: Precise pixel-level segmentation masks",
+      "Open Source: Freely available model weights",
+      "Research Foundation: Foundation for many downstream applications",
+      "Python Integration: Easy integration through Python library"
+    ],
+    howToUse: {
+      title: "How to Use Segment Anything",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Library", description: "Install the SAM Python library from Meta AI GitHub repository. Download the model weights appropriate for your use case." },
+        { title: "Load Your Image", description: "Load the image you want to segment into SAM. The model accepts standard image formats." },
+        { title: "Prompt and Segment", description: "Click on an object, draw a bounding box, or let SAM segment everything automatically. Receive precise segmentation masks for your target objects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Foundation Model Impact", description: "A model that segments any object without task-specific training creates a foundation that accelerates development of the entire computer vision application ecosystem" },
+      { title: "Research Acceleration", description: "Segmentation that previously required task-specific model training can now be accomplished with SAM prompts, dramatically reducing research iteration time" },
+      { title: "Application Building", description: "Applications that need to isolate specific objects from images can use SAM as a segmentation backbone rather than building custom segmentation from scratch" },
+      { title: "Open Source Value", description: "Free access to a state-of-the-art segmentation model that can be used commercially removes a significant barrier to computer vision application development" }
+    ],
+    useCases: [
+      { title: "Computer Vision Researchers", description: "AI researchers use SAM as a segmentation tool in their research and as a baseline for segmentation research" },
+      { title: "Application Developers", description: "Engineers building applications that require object isolation use SAM as the segmentation component of their vision pipeline" },
+      { title: "Data Labelers", description: "Teams creating training datasets for AI use SAM to accelerate the segmentation annotation process" }
+    ]
+  },
+  "pdnob-image": {
+    whatIs: "PDNob Image Translator is an AI-powered tool that translates text within images, photos, and screenshots from one language to another. It uses OCR to extract text from images and then applies AI translation to convert the content into the target language, making foreign-language visual content accessible. For users who encounter images with text in languages they do not understand, PDNob Image Translator provides instant visual content translation.",
+    features: [
+      "Image Text Translation: Translate text within images between languages",
+      "OCR Integration: Extract and translate text from any image",
+      "Multiple Languages: Translation across many language pairs",
+      "Screenshot Translation: Translate text in screenshots instantly",
+      "Photo Translation: Handle photos of documents, signs, and menus",
+      "Preserve Layout: Maintain original image layout where possible",
+      "Multiple Formats: Process JPG, PNG, and other image formats",
+      "Free to Use: Basic image translation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Pdnob Image",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to the PDNob Image Translator and upload the image containing foreign-language text you want translated." },
+        { title: "Select Your Languages", description: "Choose the source language or let the AI detect it automatically. Select your target language for the translation." },
+        { title: "Review Translation", description: "The tool extracts the text from your image and provides the translation. Review the translated content for your understanding." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Content Accessibility", description: "Text in images is inaccessible to translation tools that only handle plain text. Image translation that processes visual text makes foreign-language image content accessible" },
+      { title: "Travel Utility", description: "Encountering foreign-language menus, signs, and documents while traveling is a common challenge. Photo translation that provides instant understanding is practically valuable" },
+      { title: "Document Processing", description: "Scanned documents in foreign languages that need to be understood by non-speakers require both OCR and translation. Combined tools that handle both steps in one operation save time" },
+      { title: "Global Content Consumption", description: "Social media images and content from other countries that contain foreign text become accessible through image translation" }
+    ],
+    useCases: [
+      { title: "International Travelers", description: "Travelers who encounter foreign-language menus, signs, and documents use image translation for instant understanding" },
+      { title: "Business Professionals", description: "Workers who receive foreign-language documents as images use image translation for quick content understanding" },
+      { title: "Language Learners", description: "People learning languages use image translation to understand foreign-language visual content they encounter" }
+    ]
+  },
+  "describe-image": {
+    whatIs: "Describe Image is an AI tool that generates detailed text descriptions of images for various purposes including accessibility, content documentation, SEO alt text, and creative writing prompts. Users upload any image and receive comprehensive written descriptions covering the visual content, composition, colors, mood, and relevant details. For content creators, accessibility professionals, and anyone who needs accurate image descriptions, this tool provides AI-powered image-to-text description.",
+    features: [
+      "Image Description: Generate detailed written descriptions of any image",
+      "Accessibility Alt Text: Create screen reader-friendly image descriptions",
+      "SEO Optimization: Generate SEO-appropriate alt text for web images",
+      "Content Documentation: Describe images for content management",
+      "Markdown Output: Descriptions formatted for different use cases",
+      "Multiple Detail Levels: Brief or comprehensive description options",
+      "Batch Processing: Describe multiple images efficiently",
+      "Free to Use: Basic image description without payment"
+    ],
+    howToUse: {
+      title: "How to Use Describe Image",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to the Describe Image platform and upload the image you want described. The tool accepts all common image formats." },
+        { title: "Select Description Type", description: "Choose whether you want a brief accessibility description, comprehensive content description, or SEO-optimized alt text." },
+        { title: "Use Your Description", description: "Copy the generated description for your intended use. Add it as alt text, use it for documentation, or incorporate it into your content workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessibility Requirement", description: "Images without alt text descriptions are inaccessible to screen reader users. AI description generation that produces accurate alt text makes visual content accessible to visually impaired users" },
+      { title: "Scale Challenge", description: "Content teams with thousands of images that need alt text cannot write descriptions manually at reasonable cost. Automated description generation makes comprehensive alt text achievable" },
+      { title: "SEO Value", description: "Descriptive alt text that accurately describes image content improves search engine understanding of page content, contributing to better search performance" },
+      { title: "Documentation Efficiency", description: "Describing images for content management systems and documentation is time-consuming when done manually. AI description that handles this work automatically improves documentation quality and speed" }
+    ],
+    useCases: [
+      { title: "Web Developers and Content Teams", description: "Development and content teams use image description AI for bulk alt text generation on websites and applications" },
+      { title: "Accessibility Specialists", description: "Professionals responsible for digital accessibility use image description tools to ensure visual content meets accessibility standards" },
+      { title: "SEO Professionals", description: "Search engine optimization teams use AI image description for comprehensive alt text that improves page SEO" }
+    ]
+  },
+  "sam-model": {
+    whatIs: "The Segment Anything Model (SAM) by Meta AI is a promptable image segmentation system designed to be a foundational model for computer vision. It can produce high-quality segmentation masks for any object in any image based on simple prompts, demonstrating remarkable generalization to novel objects and scenarios. SAM has been integrated into numerous professional image editing tools, medical imaging systems, and computer vision research pipelines since its release.",
+    features: [
+      "Promptable Segmentation: Segment objects from clicks, boxes, or text",
+      "Any Object: Generalizes to novel objects without specific training",
+      "Precise Masks: High-quality pixel-accurate segmentation outputs",
+      "Multiple Granularities: Segment parts, wholes, or groups of objects",
+      "Automatic Mode: Generate all possible masks in an image",
+      "Open Weights: Downloadable model for local deployment",
+      "Tool Integration: Available in many third-party applications",
+      "Research Ready: Designed for computer vision research use"
+    ],
+    howToUse: {
+      title: "How to Use Sam Model",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Interface", description: "Access SAM through Meta AI demo, integrated tools like Adobe Firefly or GIMP plugins, or directly through the Python library." },
+        { title: "Select Your Objects", description: "Click on objects you want to segment or use automatic mode to generate segments for everything in the image." },
+        { title: "Export Your Masks", description: "Export segmentation masks in your required format for use in your image editing, computer vision pipeline, or research workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Generalization Achievement", description: "Previous segmentation models that required training on specific categories were limited in practical utility. A model that generalizes to any object represents a qualitative capability improvement" },
+      { title: "Interactive Efficiency", description: "Segmentation that requires only a single click to isolate complex objects is dramatically faster than manual masking workflows that take minutes per object" },
+      { title: "Integration Breadth", description: "A model integrated into professional image editing tools and computer vision libraries is accessible to users with diverse technical backgrounds" },
+      { title: "Research Standard", description: "SAM adoption as a baseline and component in computer vision research creates a common reference point that improves comparability across research" }
+    ],
+    useCases: [
+      { title: "Image Editors and Retouchers", description: "Photo editing professionals use SAM-powered tools for quick and precise object isolation and background removal" },
+      { title: "Computer Vision Researchers", description: "AI researchers use SAM in their research pipelines and as a baseline for segmentation studies" },
+      { title: "Medical Imaging Specialists", description: "Radiologists and medical image analysts use SAM-integrated tools for organ and lesion segmentation" }
+    ]
+  },
+  "image-to-text": {
+    whatIs: "Image to Text is an AI optical character recognition tool that extracts written and printed text from images and converts it into editable digital text. It handles various image sources including scanned documents, photos of text, screenshots, and handwritten notes, applying AI to accurately recognize and extract the text content. For users who need to digitize text from any visual source quickly, Image to Text provides accessible OCR that works on any image.",
+    features: [
+      "Universal OCR: Extract text from any image source",
+      "Document Scanning: Process scanned documents into editable text",
+      "Photo Text Recognition: Extract text from photos taken with a camera",
+      "Screenshot Text: Extract text from screen captures",
+      "Handwriting Recognition: Process handwritten text from images",
+      "Multiple Languages: Text recognition across many languages and scripts",
+      "Fast Processing: Text extraction in seconds",
+      "Free to Use: Basic OCR without payment"
+    ],
+    howToUse: {
+      title: "How to Use Image To Text",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to the Image to Text platform and upload your image. The tool accepts photos, scans, and screenshots in standard image formats." },
+        { title: "Extract Your Text", description: "The AI processes your image and extracts all recognizable text. Review the output for accuracy." },
+        { title: "Copy and Edit", description: "Copy the extracted text to any application where you need editable text. Make any corrections needed for OCR errors." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Digitization at Scale", description: "Converting physical documents to digital text manually through retyping is slow and error-prone. OCR automation makes digitization fast and accurate" },
+      { title: "Universal Applicability", description: "Text appears in many visual contexts - photos, scans, screenshots, handwritten notes. Universal OCR that handles all these sources is more useful than specialized tools" },
+      { title: "Searchability", description: "Text locked in images cannot be searched. Digital text that OCR produces becomes searchable, enabling information retrieval that was previously impossible" },
+      { title: "Workflow Integration", description: "Extracting text from images as part of document processing workflows automates steps that previously required manual intervention" }
+    ],
+    useCases: [
+      { title: "Office Workers", description: "Business professionals use image-to-text OCR to digitize paper documents, business cards, and photographed information" },
+      { title: "Students and Researchers", description: "Academics use OCR to digitize text from books, articles, and handwritten notes" },
+      { title: "Developers", description: "Software developers use OCR as a component in document processing applications and data pipelines" }
+    ]
+  },
   "framed-ai": {
     whatIs: "Framed is an AI audio guide for art museums and galleries that provides intelligent, conversational descriptions and context for artworks. Visitors point their phone camera at any artwork and Framed identifies it and delivers rich audio commentary covering the artist, historical context, technique, and meaning. Unlike static audio guides with fixed scripts, Framed uses AI to answer follow-up questions and have genuine conversations about the art. For museum visitors who want deeper engagement with art beyond wall labels, Framed provides an intelligent art companion that transforms the gallery experience.",
     features: [
