@@ -2894,8 +2894,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-sports-predictions": [
       { id: "nerdytips", name: "NerdyTips", description: "AI sports predictions and betting tips", url: "", upvotes: 2654, verified: true, rating: 4.6, icon: "🤓", category: "research-data-analysis", subcategory: "ai-sports-predictions" },
       { id: "best-bike-split", name: "Best Bike Split", description: "AI cycling performance predictions", url: "", upvotes: 2432, verified: true, rating: 4.5, icon: "🚴", category: "research-data-analysis", subcategory: "ai-sports-predictions" },
-      { id: "sports-ai-predictions", name: "Sports AI", description: "AI sports outcome predictions platform", url: "", upvotes: 2298, verified: true, rating: 4.4, icon: "⚽", category: "research-data-analysis", subcategory: "ai-sports-predictions" },
-      { id: "rithmm-predictions", name: "Rithmm", description: "AI sports betting predictions and analytics", url: "", upvotes: 1876, verified: true, rating: 4.3, icon: "📊", category: "research-data-analysis", subcategory: "ai-sports-predictions" },
       { id: "xaslarbet", name: "Xaslarbet", description: "AI sports predictions and match analysis", url: "", upvotes: 1654, verified: true, rating: 4.2, icon: "🎰", category: "research-data-analysis", subcategory: "ai-sports-predictions" }
     ]
   },
