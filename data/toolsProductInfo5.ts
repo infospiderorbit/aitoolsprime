@@ -1,4 +1,268 @@
 export const toolsProductInfo5: { [key: string]: any } = {
+  "rithmm": {
+    whatIs: "Rithmm is an AI sports betting analytics platform that provides data-driven predictions and insights for sports bettors. It analyzes historical data, player statistics, team performance, and situational factors to generate probability estimates for different betting outcomes. For sports bettors who want to move beyond gut feeling and make more informed wagering decisions, Rithmm provides the analytical foundation that professional bettors rely on.",
+    features: [
+      "AI Predictions: Data-driven probability estimates for sports outcomes",
+      "Player Props: Analytics for individual player performance bets",
+      "Game Analysis: Comprehensive game-level prediction and analysis",
+      "Historical Data: Deep historical performance data for context",
+      "Value Identification: Find bets where odds may undervalue true probability",
+      "Multiple Sports: Coverage across major American sports leagues",
+      "Performance Tracking: Monitor your betting performance over time",
+      "Free Plan: Basic predictions without payment"
+    ],
+    howToUse: {
+      title: "How to Use Rithmm",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Account", description: "Sign up at rithmm.com and select the sports and bet types you are most interested in." },
+        { title: "Review Predictions", description: "Browse AI predictions for upcoming games and player props. Review the probability estimates and the data behind each prediction." },
+        { title: "Track and Evaluate", description: "Record your bets and track performance over time. Use the data to understand which prediction types are most valuable for your betting approach." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Probability vs Odds", description: "Successful sports betting requires finding cases where your probability estimate exceeds what the odds imply. AI that estimates true probabilities helps identify these value opportunities" },
+      { title: "Data Volume", description: "Relevant sports betting factors span thousands of games and statistical categories. AI that processes this volume produces more complete analysis than any human can manage manually" },
+      { title: "Emotional Discipline", description: "Data-driven analysis that removes emotional attachment to favorite teams produces more objective betting decisions" },
+      { title: "Performance Tracking", description: "Bettors who track their results objectively understand which bet types produce positive expected value for them and which do not" }
+    ],
+    useCases: [
+      { title: "Recreational Sports Bettors", description: "Casual sports bettors use Rithmm for data-driven insights that improve their wagering decisions" },
+      { title: "Fantasy Sports Players", description: "Fantasy sports participants use player prop analytics for draft and lineup decisions" },
+      { title: "Sports Analytics Enthusiasts", description: "People interested in sports analytics use Rithmm for data exploration beyond betting applications" }
+    ]
+  },
+  "betharmony": {
+    whatIs: "BetHarmony is an AI sports betting assistant that helps bettors analyze matchups, understand betting lines, and make more informed wagering decisions. It provides personalized betting recommendations based on your preferences and risk tolerance, tracks your betting history, and helps you understand why certain bets represent good or poor value. For sports bettors who want a conversational AI companion for their betting decisions, BetHarmony provides intelligent betting assistance.",
+    features: [
+      "Matchup Analysis: AI analysis of upcoming game matchups",
+      "Line Movement Tracking: Monitor how betting lines move over time",
+      "Personalized Recommendations: Suggestions matched to your betting style",
+      "Bet Tracking: Log and analyze your betting history",
+      "Value Assessment: Evaluate whether specific bets represent good value",
+      "Multiple Sports: Coverage across different sport types",
+      "Conversational Interface: Chat with AI about your betting decisions",
+      "Free to Try: Basic betting assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Betharmony",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Approach", description: "Sign up at betharmony.ai and tell the platform about your betting preferences, favorite sports, and typical bet sizes." },
+        { title: "Analyze Your Bets", description: "Before placing bets discuss them with the AI. Get analysis of the matchup and assessment of whether the bet represents value at current odds." },
+        { title: "Track and Improve", description: "Log your bets and review your historical performance. Use the tracking data to identify patterns in your winning and losing bets." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversational Analysis", description: "Discussing a potential bet with an AI that can reason about the matchup and odds is more interactive and educational than reading a static prediction" },
+      { title: "Personalization Value", description: "Generic betting tips apply to everyone equally. Personalized recommendations that match your specific betting style and risk tolerance are more practically useful" },
+      { title: "Line Movement Intelligence", description: "Understanding why lines move and what the movement implies about sharp money and public action gives bettors context for timing their bets" },
+      { title: "Accountability", description: "Logging and reviewing all bets creates accountability that improves betting discipline over time" }
+    ],
+    useCases: [
+      { title: "Recreational Sports Bettors", description: "Casual bettors use BetHarmony for conversational betting analysis that improves their wagering decisions" },
+      { title: "New Sports Bettors", description: "People new to sports betting use BetHarmony to learn how to analyze bets and understand betting concepts" },
+      { title: "Multi-Sport Bettors", description: "Bettors who wager across multiple sports use BetHarmony for analysis across different sports they follow" }
+    ]
+  },
+  "numbers-game": {
+    whatIs: "Numbers Game is an AI sports analytics and prediction platform that provides statistical analysis and probability models for sports betting and fantasy sports. It delivers detailed game previews, statistical breakdowns, and AI-generated predictions backed by quantitative models. For data-oriented sports fans and bettors who want rigorous statistical analysis rather than subjective opinion, Numbers Game provides the quantitative sports intelligence that informs smarter decisions.",
+    features: [
+      "Statistical Models: Quantitative probability models for game outcomes",
+      "Game Previews: Detailed pre-game statistical analysis",
+      "Player Performance: Statistical projections for individual players",
+      "Historical Trends: Data on how teams and players perform in similar situations",
+      "Betting Market Analysis: How statistical models compare to betting lines",
+      "Fantasy Projections: Statistical projections for fantasy sports",
+      "Multiple Sports: Coverage across major sports leagues",
+      "Free Access: Basic analytics without payment"
+    ],
+    howToUse: {
+      title: "How to Use Numbers Game",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse Upcoming Games", description: "Sign up at numbersgame.ai and browse the upcoming games for the sports you follow. Review the statistical previews for games you are interested in." },
+        { title: "Review the Models", description: "Examine the quantitative model predictions and understand the key statistical factors driving each prediction." },
+        { title: "Apply to Your Decisions", description: "Use the statistical analysis as input for your betting or fantasy sports decisions. Compare model probabilities to available odds to identify potential value." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Quantitative Foundation", description: "Sports opinions and gut feelings are inconsistent guides to outcomes. Quantitative models that process historical data systematically produce more reliable probability estimates" },
+      { title: "Situation Analysis", description: "Teams and players perform differently in different situations. Historical trend analysis that identifies these patterns provides context that aggregate statistics miss" },
+      { title: "Market Comparison", description: "Comparing model probabilities to betting market odds reveals whether the market has priced games accurately or left value opportunities" },
+      { title: "Fantasy Edge", description: "Fantasy sports decisions informed by statistical projections perform better than decisions based on name recognition and recent memory" }
+    ],
+    useCases: [
+      { title: "Data-Oriented Sports Bettors", description: "Bettors who prefer statistical analysis use Numbers Game for quantitative backing for their wagering decisions" },
+      { title: "Fantasy Sports Enthusiasts", description: "Fantasy players use statistical projections to make more informed lineup and draft decisions" },
+      { title: "Sports Analytics Fans", description: "People interested in sports statistics use Numbers Game for data exploration and analytical engagement with sports" }
+    ]
+  },
+  "mysports-ai": {
+    whatIs: "MySports AI is an AI-powered sports performance and coaching platform that provides personalized training recommendations, performance analysis, and coaching insights for amateur and semi-professional athletes. It analyzes athlete performance data from wearables and training logs to generate training recommendations, identify performance trends, and provide the kind of data-driven coaching insights that were previously available only to professional athletes.",
+    features: [
+      "Performance Analysis: AI analysis of your athletic performance data",
+      "Personalized Training: Training recommendations based on your data",
+      "Wearable Integration: Connect fitness trackers and sports devices",
+      "Progress Tracking: Monitor athletic improvement over time",
+      "Recovery Insights: Guidance on recovery and injury prevention",
+      "Goal Setting: Structured goal setting and progress measurement",
+      "Multiple Sports: Support for different sport types and activities",
+      "Free Plan: Basic performance analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Mysports Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Devices", description: "Sign up at mysports.ai and connect your fitness wearables and training tracking apps. Your performance data begins flowing in immediately." },
+        { title: "Review Your Analysis", description: "Access your AI-generated performance analysis. See trends in your data and understand which aspects of your performance are improving or declining." },
+        { title: "Follow Your Recommendations", description: "Apply the personalized training recommendations to your practice schedule. Track how your performance responds to the recommended training adjustments." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data-Driven Training", description: "Training based on feel and intuition produces inconsistent improvement. Training informed by objective performance data targets the specific aspects that need development" },
+      { title: "Professional Methods Democratized", description: "Elite sports performance analysis was previously available only to professional athletes with coaching staffs. AI that provides similar analysis makes professional-grade insights available to serious amateurs" },
+      { title: "Recovery Intelligence", description: "Training without adequate recovery produces diminishing returns and injury risk. AI that analyzes recovery data and recommends appropriate rest prevents overtraining" },
+      { title: "Progress Visibility", description: "Seeing objective evidence of athletic improvement provides motivation and confirms that training approaches are working" }
+    ],
+    useCases: [
+      { title: "Serious Amateur Athletes", description: "Dedicated amateur athletes who train regularly use MySports AI for data-driven performance improvement" },
+      { title: "Youth Athletes", description: "Young athletes developing their skills use the platform for structured performance tracking and development guidance" },
+      { title: "Adult Recreational Athletes", description: "Adults returning to sport or pursuing fitness goals use MySports AI for personalized training guidance" }
+    ]
+  },
+  "nerdytips": {
+    whatIs: "NerdyTips is an AI sports prediction platform that generates statistical tips and predictions for sports betting across football, basketball, tennis, and other major sports. It combines machine learning models with sports data to produce probability estimates and betting recommendations. For recreational sports bettors who want AI-powered predictions to inform their wagering, NerdyTips provides accessible sports prediction intelligence.",
+    features: [
+      "AI Predictions: Machine learning predictions for sports outcomes",
+      "Multiple Sports: Predictions across football, basketball, tennis, and more",
+      "Daily Tips: Fresh predictions for each day sporting events",
+      "Confidence Ratings: Confidence scores for each prediction",
+      "Form Analysis: Recent team and player form incorporated in predictions",
+      "Statistics: Underlying statistical data supporting predictions",
+      "Track Record: Historical prediction accuracy tracking",
+      "Free Predictions: Basic tips without payment"
+    ],
+    howToUse: {
+      title: "How to Use Nerdytips",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse Today Tips", description: "Go to nerdytips.com and browse the day predictions across the sports you follow." },
+        { title: "Review Prediction Basis", description: "Click on predictions that interest you to see the statistical basis and recent form data supporting the prediction." },
+        { title: "Apply Selectively", description: "Use predictions as one input in your betting decisions. Focus on predictions with high confidence ratings and strong statistical backing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data Processing Scale", description: "Relevant prediction factors across many sports events exceed what any individual can research manually. AI that processes this data systematically produces more complete predictions" },
+      { title: "Consistency", description: "Human tipsters have biases toward favorite teams and recency effects that distort their predictions. AI models apply consistent methodology regardless of emotional factors" },
+      { title: "Confidence Calibration", description: "Predictions with confidence ratings help bettors understand which tips the model finds strongest and which are more uncertain" },
+      { title: "Track Record Transparency", description: "Historical accuracy tracking that shows how predictions have performed builds trust and helps bettors evaluate which prediction types to follow" }
+    ],
+    useCases: [
+      { title: "Recreational Football Bettors", description: "Casual football bettors use NerdyTips for AI-backed predictions to inform their match betting" },
+      { title: "Multi-Sport Bettors", description: "People who bet across different sports use NerdyTips for predictions across the sports they follow" },
+      { title: "Fantasy Sports Players", description: "Fantasy sports participants use sports predictions for informed lineup and draft decisions" }
+    ]
+  },
+  "best-bike-split": {
+    whatIs: "Best Bike Split is an AI-powered cycling race planning platform that creates optimized pacing strategies for cyclists competing in time trials, triathlons, and road races. It analyzes course data, weather conditions, and athlete power output to generate precise pacing plans that maximize performance across the full race distance. For competitive cyclists who want to race smarter rather than just harder, Best Bike Split provides the analytical edge that proper pacing delivers.",
+    features: [
+      "Race Pacing Plans: Optimized power targets for every section of your race",
+      "Course Analysis: Detailed analysis of elevation, terrain, and wind",
+      "Weather Integration: Real-time weather data incorporated in plans",
+      "Power Modeling: Personalized power modeling based on your fitness",
+      "Multiple Race Types: Time trials, triathlons, and road races",
+      "Device Export: Export plans to cycling computers and GPS devices",
+      "Scenario Comparison: Compare different pacing strategies",
+      "Free Plan: Basic race planning without payment"
+    ],
+    howToUse: {
+      title: "How to Use Best Bike Split",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Race Details", description: "Sign up at bestbikesplit.com and enter your race course, expected conditions, and your power data from recent fitness tests." },
+        { title: "Generate Your Plan", description: "Best Bike Split calculates your optimal pacing strategy with specific power targets for each section of the course." },
+        { title: "Export and Race", description: "Export your pacing plan to your cycling computer. Execute the plan on race day and trust the data rather than racing by feel." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Pacing Optimization Value", description: "Cycling performance is highly sensitive to pacing. Going too hard early produces dramatic late-race deterioration. Optimal pacing that matches effort to terrain produces significantly better finishing times" },
+      { title: "Course Specificity", description: "Generic power targets that ignore course terrain are suboptimal. Section-by-section targets that account for hills, wind, and descent allow much more precise race execution" },
+      { title: "Weather Adjustment", description: "Wind conditions dramatically affect cycling power requirements. Plans that incorporate weather produce more accurate targets than those that ignore conditions" },
+      { title: "Data Over Feel", description: "Race day adrenaline leads most athletes to go too hard early. Following a data-based plan overrides this instinct and produces better outcomes" }
+    ],
+    useCases: [
+      { title: "Competitive Cyclists", description: "Cyclists racing time trials and triathlons use Best Bike Split for optimized pacing strategies that improve their performance" },
+      { title: "Triathlon Athletes", description: "Triathletes planning their bike segment use the platform to optimize pacing within the context of the full race" },
+      { title: "Cycling Coaches", description: "Coaches use Best Bike Split to develop race plans for their athletes based on physiological data" }
+    ]
+  },
+  "sports-ai": {
+    whatIs: "Sports AI is an artificial intelligence platform that provides predictions, analysis, and insights across multiple professional sports leagues. It uses machine learning models trained on extensive historical data to generate predictions for game outcomes, player performance, and season-long trends. For sports enthusiasts who want data-driven analysis to supplement their sports knowledge, Sports AI provides the analytical intelligence that goes beyond traditional sports commentary.",
+    features: [
+      "Game Predictions: AI probability estimates for game outcomes",
+      "Player Analytics: Individual player performance predictions",
+      "Season Projections: Long-range team and player performance forecasting",
+      "Historical Analysis: Deep historical data and trend analysis",
+      "League Coverage: Multiple professional sports leagues covered",
+      "Injury Impact: Analysis of how injuries affect team performance",
+      "Head-to-Head Analysis: Detailed comparison of competing teams",
+      "Free Access: Basic predictions without payment"
+    ],
+    howToUse: {
+      title: "How to Use Sports Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Sport", description: "Sign up at sports-ai.com and choose the sports and leagues you want predictions for." },
+        { title: "Review Predictions", description: "Browse AI predictions for upcoming games and review the analytical basis for each prediction." },
+        { title: "Track Performance", description: "Follow prediction accuracy over time and understand which types of predictions the model handles most reliably." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data-Driven Analysis", description: "Sports analysis based on intuition and narrative produces inconsistent results. Systematic analysis of historical data produces more reliable probability estimates" },
+      { title: "Injury Modeling", description: "Player injuries affect team performance in complex ways that are difficult to quantify manually. AI that models these effects produces more accurate game predictions" },
+      { title: "Season-Long Perspective", description: "Understanding long-range trends and playoff probabilities requires analysis across an entire season of data that AI processes more efficiently than human analysts" },
+      { title: "Supplementary Intelligence", description: "AI predictions used alongside traditional sports knowledge and fan intuition provide a more complete picture than either alone" }
+    ],
+    useCases: [
+      { title: "Sports Bettors", description: "Bettors use Sports AI for data-driven probability estimates that inform their wagering decisions" },
+      { title: "Fantasy Sports Players", description: "Fantasy participants use player analytics and projections for roster decisions" },
+      { title: "Sports Enthusiasts", description: "Fans who enjoy data and analytics use Sports AI for a quantitative perspective on the sports they follow" }
+    ]
+  },
+  "xaslarbet": {
+    whatIs: "Xaslarbet is a sports betting platform that provides betting markets across football, basketball, tennis, and other sports with competitive odds and a straightforward betting interface. It offers pre-match and live betting options, various bet types from simple match outcomes to complex combinations, and tools for managing your betting activity. For sports bettors looking for a platform with competitive odds and a clean betting experience, Xaslarbet provides accessible sports wagering.",
+    features: [
+      "Sports Betting Markets: Extensive betting markets across major sports",
+      "Live Betting: In-play betting as games unfold",
+      "Competitive Odds: Odds designed to provide value to bettors",
+      "Multiple Bet Types: Singles, accumulators, and combination bets",
+      "Football Coverage: Extensive football leagues and competitions",
+      "Cash Out: Option to settle bets before events conclude",
+      "Mobile Betting: Full betting functionality on mobile devices",
+      "Account Management: Tools for managing your betting activity"
+    ],
+    howToUse: {
+      title: "How to Use Xaslarbet",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up at xaslarbet.com and complete the account verification process required for sports betting platforms." },
+        { title: "Deposit Funds", description: "Add funds to your betting account using the available payment methods. Set deposit limits that match your intended betting budget." },
+        { title: "Place Your Bets", description: "Browse available betting markets and place bets on the sports and events you want to wager on. Use the live betting feature for in-play wagering." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Market Breadth", description: "Bettors who follow multiple sports and leagues need a platform that covers the events they want to bet on rather than being limited to mainstream competitions" },
+      { title: "Live Betting Engagement", description: "In-play betting that reacts to how games unfold provides a more dynamic betting experience than pre-match only wagering" },
+      { title: "Odds Competitiveness", description: "Small differences in odds compound significantly over many bets. Competitive odds that offer better value make a meaningful difference to long-term betting results" },
+      { title: "Cash Out Flexibility", description: "The ability to settle bets before events conclude gives bettors control over their exposure when games develop in unexpected ways" }
+    ],
+    useCases: [
+      { title: "Sports Bettors", description: "People who bet on sports use Xaslarbet for access to betting markets across the sports they follow" },
+      { title: "Football Betting Enthusiasts", description: "Football fans who bet on matches use the platform for extensive football market coverage" },
+      { title: "Live Betting Fans", description: "Bettors who enjoy in-play wagering use Xaslarbet for live betting across multiple sports" }
+    ]
+  },
   "blainy": {
     whatIs: "Blainy is an AI writing assistant built specifically for academic writing that helps students write essays, research papers, and academic documents with proper structure, citations, and academic tone. It provides AI-powered writing suggestions, helps organize arguments, and assists with the citation process to make academic writing less daunting. For students who struggle with the demands of academic writing, Blainy provides the intelligent writing companion that guides them through producing quality academic work.",
     features: [
