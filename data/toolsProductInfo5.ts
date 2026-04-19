@@ -1,4 +1,532 @@
 export const toolsProductInfo5: { [key: string]: any } = {
+  "framed-ai": {
+    whatIs: "Framed is an AI audio guide for art museums and galleries that provides intelligent, conversational descriptions and context for artworks. Visitors point their phone camera at any artwork and Framed identifies it and delivers rich audio commentary covering the artist, historical context, technique, and meaning. Unlike static audio guides with fixed scripts, Framed uses AI to answer follow-up questions and have genuine conversations about the art. For museum visitors who want deeper engagement with art beyond wall labels, Framed provides an intelligent art companion that transforms the gallery experience.",
+    features: [
+      "Artwork Recognition: Identify artworks instantly with your phone camera",
+      "Audio Commentary: Rich spoken descriptions and context for each piece",
+      "Conversational AI: Ask follow-up questions about any artwork",
+      "Artist Information: Detailed background on artists and their careers",
+      "Historical Context: Understand the period and movement each work belongs to",
+      "Technique Explanation: Learn how artworks were made and why",
+      "Multiple Languages: Audio guides in many languages",
+      "Free to Try: Basic artwork recognition without payment"
+    ],
+    howToUse: {
+      title: "How to Use Framed Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open the App at the Museum", description: "Download Framed and open it when you arrive at the museum. No pre-loading or downloading of specific museum content required." },
+        { title: "Point at Any Artwork", description: "Point your camera at any painting, sculpture, or artwork. Framed identifies it within seconds and begins the audio commentary." },
+        { title: "Ask Your Questions", description: "After listening to the initial commentary, ask Framed anything about the artwork. The AI answers conversationally and goes deeper on topics that interest you." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Beyond Static Audio Guides", description: "Traditional museum audio guides deliver fixed scripts that cannot respond to what visitors actually want to know. Conversational AI that answers genuine questions makes museum visits more personally meaningful" },
+      { title: "Accessibility", description: "Art context that was previously available only to people with art history education becomes accessible to everyone through AI explanation" },
+      { title: "Language Flexibility", description: "International visitors who cannot access commentary in their language miss significant museum content. Multi-language AI removes this barrier" },
+      { title: "Depth on Demand", description: "Visitors who want to spend five minutes on one piece and thirty minutes on another can get commentary that matches their interest level rather than a fixed script for everyone" }
+    ],
+    useCases: [
+      { title: "Museum Visitors", description: "People visiting art museums use Framed for richer context and understanding of the artworks they encounter" },
+      { title: "Art Educators", description: "Teachers bringing students to museums use Framed to provide accessible art education that engages young visitors" },
+      { title: "International Tourists", description: "Visitors from other countries use Framed for commentary in their native language" }
+    ]
+  },
+  "ai-scientific-figure": {
+    whatIs: "AI-Driven Scientific Figure Understanding is a tool that uses AI to analyze and explain scientific figures, charts, graphs, and diagrams from research papers. It helps researchers and students understand complex visual data representations by providing plain-language explanations of what figures show, what the data means, and how it supports the research conclusions. For people engaging with scientific literature who struggle to interpret complex data visualizations, this tool provides the AI explanation that makes figures comprehensible.",
+    features: [
+      "Figure Analysis: AI interpretation of scientific charts, graphs, and diagrams",
+      "Plain Language Explanation: Convert complex visual data into understandable description",
+      "Statistical Interpretation: Explain what statistical results and error bars mean",
+      "Research Context: Connect figure findings to the broader paper conclusions",
+      "Multiple Figure Types: Handle bar charts, scatter plots, microscopy images, and more",
+      "Upload Support: Analyze figures from uploaded paper PDFs",
+      "Question Answering: Ask specific questions about any figure element",
+      "Free to Use: Basic figure analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Scientific Figure",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Figure", description: "Go to the platform and upload the scientific figure or the paper containing it that you want to understand." },
+        { title: "Review the Explanation", description: "The AI provides a plain-language explanation of what the figure shows, what the data patterns mean, and how to interpret the results." },
+        { title: "Ask Follow-Up Questions", description: "If anything in the explanation is still unclear, ask specific questions about elements of the figure for more detailed explanation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Data Complexity", description: "Scientific figures use conventions and visual languages that non-specialists find opaque. AI that translates these conventions into plain language makes research findings accessible" },
+      { title: "Cross-Discipline Research", description: "Researchers engaging with literature from adjacent fields often find their data visualization conventions unfamiliar. AI explanation bridges this gap" },
+      { title: "Student Support", description: "Students learning to read primary research often find figures more confusing than text. Explanation support that clarifies figures builds research literacy" },
+      { title: "Efficiency", description: "Struggling to interpret a figure slows reading and comprehension. Instant explanation that resolves confusion keeps research engagement productive" }
+    ],
+    useCases: [
+      { title: "Graduate Students", description: "PhD and masters students reading outside their immediate specialization use figure analysis AI to understand unfamiliar data presentations" },
+      { title: "Interdisciplinary Researchers", description: "Researchers who engage with adjacent fields use the tool to interpret data visualization conventions they are less familiar with" },
+      { title: "Science Communicators", description: "Journalists and writers explaining science to general audiences use figure analysis to accurately interpret research findings" }
+    ]
+  },
+  "youcam-app": {
+    whatIs: "YouCam is a suite of AI-powered camera and beauty apps from Perfect Corp that provides real-time makeup try-on, skin analysis, photo editing, and beauty AR features. The apps use AI and augmented reality to let users virtually try on makeup products, analyze their skin condition, and enhance photos with beauty filters. For consumers who want to try beauty products virtually before purchasing or enhance their photos and video calls with AI beauty features, YouCam provides the most established AI beauty technology platform.",
+    features: [
+      "Virtual Makeup Try-On: See how makeup products look on your face in real time",
+      "Skin Analysis: AI evaluation of skin condition and concerns",
+      "Photo Editing: AI-powered beauty enhancement for photos",
+      "Video Call Enhancement: Real-time beauty filters for video calls",
+      "Product Shopping: Try on and purchase beauty products through the app",
+      "AR Beauty: Augmented reality beauty features",
+      "Multiple Apps: Specialized apps for different beauty use cases",
+      "Free to Use: Basic beauty features without payment"
+    ],
+    howToUse: {
+      title: "How to Use Youcam App",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open the Camera", description: "Download YouCam and open the camera feature. The AI immediately begins analyzing your face for AR feature placement." },
+        { title: "Try On Products", description: "Browse the virtual try-on catalog and select makeup products to see how they look on your face in real time before purchasing." },
+        { title: "Enhance Your Photos", description: "Use the photo editing features to apply beauty enhancements to your photos. Adjust the level of enhancement to match your preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Purchase Confidence", description: "Trying makeup products virtually before buying reduces the risk of purchasing colors and styles that do not work for your complexion" },
+      { title: "Convenience", description: "Virtual try-on that works from home is more convenient than visiting a store and trying physical samples on your skin" },
+      { title: "AR Technology Quality", description: "AI face tracking that places virtual makeup accurately and realistically requires sophisticated computer vision that YouCam has refined over many years" },
+      { title: "Beauty Accessibility", description: "Professional makeup looks that require skill to achieve physically can be previewed and understood through virtual try-on" }
+    ],
+    useCases: [
+      { title: "Beauty Consumers", description: "People who buy makeup use YouCam to virtually try products before purchasing online or in store" },
+      { title: "Content Creators", description: "Beauty influencers and content creators use YouCam for enhanced photo and video content" },
+      { title: "Video Call Users", description: "Professionals and individuals use beauty filters on video calls for enhanced appearance" }
+    ]
+  },
+  "faceflow": {
+    whatIs: "FaceFlow is a free video chat platform that uses AI to enhance video communication with features including face filters, background replacement, and video effects. It provides browser-based video calling without requiring app downloads and adds AI-powered visual enhancements that make video calls more engaging. For users who want feature-rich video chat without the complexity of major video platforms, FaceFlow provides accessible AI-enhanced video communication.",
+    features: [
+      "Browser-Based Video Chat: Video calling without app downloads",
+      "AI Face Filters: Real-time face effects and filters during calls",
+      "Background Replacement: Change your video background with AI",
+      "Video Effects: Visual enhancements for more engaging calls",
+      "Group Calls: Multi-person video calling support",
+      "Screen Sharing: Share your screen during video calls",
+      "No Account Required: Start calls without registration",
+      "Free to Use: Full video chat without payment"
+    ],
+    howToUse: {
+      title: "How to Use Faceflow",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open in Browser", description: "Go to faceflow.com in any modern browser. No download or account creation required for basic video calls." },
+        { title: "Start or Join a Call", description: "Create a new call and share the link, or join an existing call with a shared link. The call begins immediately in your browser." },
+        { title: "Apply Your Effects", description: "Enable face filters, background replacement, or other visual effects during your call using the effects panel." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessibility", description: "Video chat that requires no download or account creation is accessible to anyone with a browser, making it practical for calls with less tech-savvy contacts" },
+      { title: "Visual Enhancement", description: "AI filters and effects that make video calls more engaging and fun differentiate FaceFlow from plain video calling tools" },
+      { title: "Privacy", description: "Calls without mandatory account creation provide more privacy than platforms that require personal information before connecting" },
+      { title: "Background Flexibility", description: "Background replacement that works in any environment allows professional-looking calls regardless of physical surroundings" }
+    ],
+    useCases: [
+      { title: "Casual Video Callers", description: "People who want quick video calls without app installation use FaceFlow for accessible browser-based calling" },
+      { title: "Creative Users", description: "People who enjoy visual effects and filters use FaceFlow for more engaging and expressive video communication" },
+      { title: "Privacy-Conscious Users", description: "People who prefer video chat without account creation use FaceFlow for more private video calling" }
+    ]
+  },
+  "facesymai": {
+    whatIs: "FaceSymAI is an AI facial symmetry analysis tool that evaluates face photos for symmetry, proportions, and aesthetic balance. It uses computer vision to measure facial symmetry across different regions of the face and provides detailed analysis of how facial features relate to each other. For people curious about their facial symmetry or exploring aesthetic considerations, FaceSymAI provides objective AI measurement of facial characteristics.",
+    features: [
+      "Facial Symmetry Analysis: Measure symmetry across different facial regions",
+      "Proportion Assessment: Evaluate facial proportions and balance",
+      "Feature Analysis: Detailed analysis of individual facial features",
+      "Comparison Metrics: How your symmetry compares to measurements",
+      "Visual Overlay: Symmetry visualization on your face photo",
+      "Detailed Report: Comprehensive symmetry analysis report",
+      "Photo Upload: Analysis from uploaded photos",
+      "Free to Use: Basic symmetry analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Facesymai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to facesymai.com and upload a clear front-facing photo. Good lighting and a neutral expression produce the most accurate symmetry analysis." },
+        { title: "Review Your Analysis", description: "FaceSymAI generates a detailed symmetry report showing measurements across different facial regions and an overall symmetry assessment." },
+        { title: "Explore the Details", description: "Review the specific symmetry measurements for different facial features. Use the visual overlay to see exactly where symmetry variations exist." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Objective Measurement", description: "Perceiving your own facial symmetry accurately is difficult. Objective measurement provides information that self-observation cannot reliably deliver" },
+      { title: "Aesthetic Curiosity", description: "Facial symmetry is a widely discussed aspect of appearance that many people are curious to understand about themselves" },
+      { title: "Educational Value", description: "Understanding how facial symmetry is measured and what it means is interesting from an aesthetic and biological perspective" },
+      { title: "Accessibility", description: "Professional facial analysis has traditionally required specialist consultation. AI analysis that provides similar measurements instantly makes this information accessible" }
+    ],
+    useCases: [
+      { title: "Curious Individuals", description: "People interested in understanding their facial characteristics use FaceSymAI for objective symmetry measurement" },
+      { title: "Aesthetic Explorers", description: "Individuals exploring aesthetic considerations use the tool for baseline facial analysis" },
+      { title: "Beauty and Wellness Enthusiasts", description: "People interested in appearance and aesthetics use FaceSymAI as part of their self-knowledge" }
+    ]
+  },
+  "face-age-ai": {
+    whatIs: "Face Age AI is an AI tool that estimates a person's age from a facial photo using computer vision and machine learning. It analyzes facial features, skin texture, and other visual indicators to provide age estimates. The tool is used for curiosity, entertainment, and in some cases for research into aging indicators. For people curious about how their appearance relates to age or for entertainment purposes, Face Age AI provides instant AI age estimation from photos.",
+    features: [
+      "Age Estimation: AI estimate of apparent age from facial photos",
+      "Accuracy Range: Age estimate with confidence range",
+      "Multiple Photos: Analyze several photos for comparison",
+      "Instant Results: Age estimate delivered immediately",
+      "Entertainment Use: Fun age estimation for curiosity and sharing",
+      "No Account Required: Get results without registration",
+      "Photo Upload: Works with uploaded photos",
+      "Free to Use: Basic age estimation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Face Age Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to the Face Age AI platform and upload the photo you want to analyze. Clear front-facing photos in good lighting produce the most accurate estimates." },
+        { title: "Get Your Estimate", description: "The AI analyzes your photo and delivers an estimated age with a confidence range. Results are typically available within seconds." },
+        { title: "Compare and Explore", description: "Try multiple photos or compare estimates across different photos to see how factors like lighting and expression affect the estimated age." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Curiosity Satisfaction", description: "Many people are curious about how their apparent age compares to their actual age. AI estimation satisfies this curiosity with objective measurement" },
+      { title: "Entertainment Value", description: "Age estimation tools that produce surprising results are entertaining to use and share with friends and family" },
+      { title: "Aging Research Interest", description: "The science of visible aging indicators is genuinely interesting from biological and medical perspectives" },
+      { title: "Accessibility", description: "Professional age estimation analysis has been available only in specialized contexts. AI that delivers similar analysis instantly makes it accessible for casual curiosity" }
+    ],
+    useCases: [
+      { title: "Curious Individuals", description: "People curious about their apparent age use Face Age AI for entertaining AI age estimation" },
+      { title: "Social Media Users", description: "People who share interesting content use age estimation tools for engaging posts" },
+      { title: "Researchers", description: "People studying aging and appearance use AI age estimation tools for data collection" }
+    ]
+  },
+  "eye-shape-ai": {
+    whatIs: "Eye Shape AI is an AI tool that analyzes eye photos to identify eye shape type and provide personalized makeup and styling recommendations based on your specific eye shape. It uses computer vision to classify eye shapes into categories like almond, round, hooded, monolid, and others, then provides tailored advice for enhancing each shape. For beauty enthusiasts who want makeup recommendations that actually match their eye shape rather than generic tutorials, Eye Shape AI provides personalized eye beauty guidance.",
+    features: [
+      "Eye Shape Detection: AI identification of your specific eye shape type",
+      "Shape Classification: Classify eyes into established shape categories",
+      "Makeup Recommendations: Personalized eye makeup advice for your shape",
+      "Tutorial Guidance: Step-by-step application guidance for your eye type",
+      "Product Suggestions: Recommended products suited to your eye shape",
+      "Before and After: See how recommended techniques would look",
+      "Multiple Shapes: Expertise across all eye shape categories",
+      "Free to Use: Basic eye shape analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Eye Shape Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Eye Photo", description: "Go to the Eye Shape AI platform and upload a clear close-up photo of your eyes with neutral makeup for accurate shape analysis." },
+        { title: "Review Your Shape Analysis", description: "The AI identifies your eye shape and explains the characteristics that define it. Understand what makes your eye shape unique." },
+        { title: "Apply the Recommendations", description: "Follow the personalized makeup and styling recommendations for your eye shape. The techniques are specifically designed for your eye type." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization Value", description: "Generic eye makeup tutorials designed for one eye shape produce poor results on different shapes. Shape-specific advice that matches your actual eye type produces better results" },
+      { title: "Shape Awareness", description: "Many people do not know their eye shape or how to identify it. AI analysis that identifies and explains your shape builds understanding that improves all future makeup decisions" },
+      { title: "Tutorial Relevance", description: "Makeup tutorials are most useful when they match your actual features. Eye shape classification that directs you to relevant tutorials improves tutorial value" },
+      { title: "Confidence Building", description: "Understanding how to work with your specific eye shape rather than fighting against it produces more consistent and satisfying makeup results" }
+    ],
+    useCases: [
+      { title: "Beauty Enthusiasts", description: "People who enjoy makeup use Eye Shape AI for personalized eye makeup guidance tailored to their specific eye shape" },
+      { title: "Makeup Beginners", description: "People new to eye makeup use shape analysis to understand the techniques most appropriate for their eyes" },
+      { title: "Beauty Content Consumers", description: "People who watch makeup tutorials use eye shape identification to find tutorials relevant to their specific eye type" }
+    ]
+  },
+  "shufti": {
+    whatIs: "Shufti Pro is an AI-powered identity verification platform that provides KYC and AML compliance solutions for businesses that need to verify customer identities digitally. It uses AI to verify identity documents, perform facial recognition matching, and conduct background screening to help businesses meet regulatory requirements. For financial services, fintech companies, and any regulated business that needs to verify customer identities online, Shufti Pro provides the compliance infrastructure that makes digital onboarding secure and regulatory-compliant.",
+    features: [
+      "Identity Document Verification: AI verification of passports, licenses, and ID cards",
+      "Facial Recognition: Match selfies to identity document photos",
+      "KYC Compliance: Know Your Customer verification workflows",
+      "AML Screening: Anti-money laundering background checks",
+      "Liveness Detection: Ensure real person verification not photos",
+      "Global Coverage: Document verification across many countries",
+      "API Integration: Integrate verification into your onboarding flow",
+      "Free Trial: Test verification before committing"
+    ],
+    howToUse: {
+      title: "How to Use Shufti",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Integrate the API", description: "Sign up at shuftipro.com and integrate the verification API into your customer onboarding flow. Comprehensive documentation guides the integration." },
+        { title: "Configure Your Checks", description: "Set up the specific verification checks your compliance requirements demand - document verification, facial matching, liveness, and background screening." },
+        { title: "Verify Your Customers", description: "Customers complete verification through your interface. Shufti Pro processes the verification in seconds and returns a compliance decision." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Regulatory Requirement", description: "Financial and regulated businesses are legally required to verify customer identities. AI verification that meets these requirements enables digital onboarding that manual processes cannot scale to" },
+      { title: "Fraud Prevention", description: "Identity fraud that damages businesses and customers is prevented by verification that confirms documents are genuine and match the person presenting them" },
+      { title: "Speed vs Manual", description: "Manual identity document review takes days. AI verification that completes in seconds enables the instant onboarding that digital customers expect" },
+      { title: "Global Scalability", description: "Verifying identity documents from many different countries requires expertise in each country document format. AI trained on global documents handles this breadth automatically" }
+    ],
+    useCases: [
+      { title: "Fintech and Banking", description: "Digital financial services use Shufti Pro for KYC-compliant customer onboarding that meets regulatory requirements" },
+      { title: "Cryptocurrency Exchanges", description: "Crypto platforms use identity verification to comply with AML regulations and prevent fraud" },
+      { title: "Online Marketplaces", description: "Platforms that require seller identity verification use Shufti Pro for trust and safety compliance" }
+    ]
+  },
+  "ultralytics": {
+    whatIs: "Ultralytics is the company behind YOLO, the most widely used real-time object detection model in computer vision. Their YOLOv8 and subsequent models are the industry standard for detecting, classifying, and segmenting objects in images and video at production speed. The Ultralytics platform provides pre-trained models, training tools, and deployment infrastructure that makes production-grade computer vision accessible to developers without deep ML expertise. For developers building computer vision applications, Ultralytics provides the models and tools that power the majority of real-world object detection deployments.",
+    features: [
+      "YOLO Models: Industry-leading object detection models",
+      "Real-Time Detection: Object detection at production speeds",
+      "Pre-Trained Models: Models ready to use without training",
+      "Custom Training: Fine-tune models on your specific objects",
+      "Multiple Tasks: Detection, classification, segmentation, and pose estimation",
+      "Edge Deployment: Models optimized for edge devices",
+      "Python SDK: Simple Python interface for all model capabilities",
+      "Free and Open Source: Core models available without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ultralytics",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Ultralytics", description: "Install the Ultralytics Python package with pip. The library downloads and runs YOLO models with a few lines of code." },
+        { title: "Run Your First Detection", description: "Point a YOLO model at an image or video and get instant object detection results. Pre-trained models work immediately on common objects." },
+        { title: "Fine-Tune for Your Use Case", description: "Train or fine-tune a YOLO model on your specific objects using your own labeled dataset. The training pipeline handles the complexity." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Performance Standard", description: "YOLO models that set the benchmark for real-time object detection speed and accuracy are the natural choice for production computer vision applications" },
+      { title: "Accessibility", description: "Computer vision that previously required deep ML expertise to implement is accessible to any developer through the Ultralytics Python SDK" },
+      { title: "Production Readiness", description: "Models that have been deployed in thousands of production applications are more reliable than experimental alternatives" },
+      { title: "Community and Support", description: "The largest computer vision community around YOLO models produces extensive tutorials, examples, and support resources" }
+    ],
+    useCases: [
+      { title: "Computer Vision Developers", description: "Engineers building object detection applications use Ultralytics YOLO models as the foundation for their computer vision systems" },
+      { title: "Robotics Teams", description: "Robotics developers use YOLO for real-time object detection in autonomous systems" },
+      { title: "Security and Surveillance", description: "Security applications use YOLO for real-time detection of people, vehicles, and objects in video feeds" }
+    ]
+  },
+  "plantnet": {
+    whatIs: "PlantNet is a citizen science application and AI plant identification platform that identifies plant species from photos. Developed by a consortium of botanical organizations, it uses AI trained on millions of plant observations submitted by its global community to accurately identify plants from photos of leaves, flowers, fruits, and bark. For nature enthusiasts, hikers, gardeners, and botanists who want to identify unknown plants, PlantNet provides reliable AI plant identification backed by botanical expertise.",
+    features: [
+      "Plant Identification: Identify plant species from photos",
+      "Multiple Plant Parts: Identify from leaves, flowers, fruits, or bark photos",
+      "Species Information: Detailed information about identified species",
+      "Citizen Science: Your observations contribute to botanical research",
+      "Global Coverage: Plant species from around the world",
+      "Botanical Accuracy: Backed by professional botanical organizations",
+      "Offline Mode: Basic identification without internet connection",
+      "Free to Use: Full plant identification without payment"
+    ],
+    howToUse: {
+      title: "How to Use Plantnet",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Photograph the Plant", description: "Open PlantNet and photograph the plant you want to identify. Take multiple photos of different plant parts for better accuracy." },
+        { title: "Submit for Identification", description: "Submit your photos and PlantNet returns the most likely species matches with confidence scores." },
+        { title: "Learn and Contribute", description: "Review the species information for your identified plant. Your observation is automatically contributed to the PlantNet citizen science database." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Botanical Expertise Access", description: "Plant identification that previously required a botanist or field guide is available to anyone with a smartphone. AI backed by botanical organizations provides reliable identification" },
+      { title: "Safety Applications", description: "Identifying whether a plant is edible, medicinal, or toxic is important for foragers and anyone who encounters unknown plants. Reliable identification supports these safety-relevant decisions" },
+      { title: "Citizen Science Value", description: "Millions of plant observations submitted by users create a valuable dataset for botanical research and conservation monitoring" },
+      { title: "Nature Education", description: "Learning plant species while exploring nature builds environmental literacy and appreciation for biodiversity" }
+    ],
+    useCases: [
+      { title: "Nature Enthusiasts and Hikers", description: "People who explore natural environments use PlantNet to identify plants they encounter on trails and in the wild" },
+      { title: "Gardeners", description: "Home gardeners use PlantNet to identify unknown plants in their garden or at nurseries" },
+      { title: "Students and Educators", description: "Biology students and teachers use PlantNet for plant identification in field studies and nature education" }
+    ]
+  },
+  "frigate-nvr": {
+    whatIs: "Frigate is an open source Network Video Recorder with AI object detection built in, designed to run locally on your own hardware. It uses real-time AI object detection to identify people, vehicles, and other objects in security camera feeds, sending alerts only for meaningful events rather than motion-triggered false alarms. For home automation enthusiasts and privacy-conscious users who want intelligent security camera monitoring without cloud subscriptions, Frigate provides local AI video monitoring that keeps all footage on your own hardware.",
+    features: [
+      "Local AI Detection: Object detection running entirely on your hardware",
+      "Person Detection: Identify people specifically rather than all motion",
+      "Vehicle Detection: Detect vehicles entering your property",
+      "Home Assistant Integration: Deep integration with Home Assistant",
+      "MQTT Support: Send detection events to home automation systems",
+      "Multiple Cameras: Monitor many camera feeds simultaneously",
+      "No Cloud Required: All processing and storage happens locally",
+      "Open Source: Free and fully transparent code"
+    ],
+    howToUse: {
+      title: "How to Use Frigate Nvr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Frigate", description: "Deploy Frigate using Docker on your home server or NAS. Configure your camera streams in the Frigate configuration file." },
+        { title: "Configure Your Zones", description: "Define zones in your camera views where you want detection. Set which object types trigger alerts in each zone." },
+        { title: "Connect to Home Automation", description: "Integrate Frigate with Home Assistant or other home automation systems to trigger automations based on detection events." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Privacy First", description: "Cloud-based security cameras send footage to vendor servers that are outside your control. Local processing that never leaves your network provides complete privacy" },
+      { title: "False Alarm Reduction", description: "Motion-triggered alerts that fire for every blowing leaf or passing shadow are useless. AI object detection that triggers only for people and vehicles produces actionable alerts" },
+      { title: "No Subscription Costs", description: "Cloud camera services charge monthly fees that accumulate significantly over time. Local processing with no cloud dependency eliminates these ongoing costs" },
+      { title: "Home Automation Integration", description: "Security detection events that trigger home automation actions create smart home capabilities that cloud cameras cannot provide without vendor-specific integrations" }
+    ],
+    useCases: [
+      { title: "Home Automation Enthusiasts", description: "Smart home builders use Frigate for AI security monitoring that integrates with their Home Assistant setup" },
+      { title: "Privacy-Conscious Homeowners", description: "People who want security monitoring without cloud data sharing use Frigate for completely local processing" },
+      { title: "Self-Hosted Technology Users", description: "People who prefer to own their technology infrastructure use Frigate for open source security monitoring" }
+    ]
+  },
+  "allerwell": {
+    whatIs: "Allerwell is an AI-powered allergy management platform that helps people with allergies track their symptoms, identify triggers, and manage their condition more effectively. It correlates symptom data with environmental factors like pollen counts, air quality, and weather to help users understand what is causing their allergic reactions. For allergy sufferers who want to move beyond guessing about their triggers to having data-backed understanding of their condition, Allerwell provides the systematic allergy intelligence that improves day-to-day management.",
+    features: [
+      "Symptom Tracking: Log allergy symptoms and severity over time",
+      "Trigger Identification: AI correlation of symptoms with environmental factors",
+      "Pollen Monitoring: Real-time pollen count data for your location",
+      "Air Quality Integration: Air quality index data and alerts",
+      "Medication Tracking: Monitor medication effectiveness",
+      "Forecast Alerts: Advance warning of high-risk allergy days",
+      "Doctor Reports: Generate symptom reports for healthcare appointments",
+      "Free to Use: Basic allergy tracking without payment"
+    ],
+    howToUse: {
+      title: "How to Use Allerwell",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Download Allerwell and create your profile with your known allergies, typical symptoms, and current medications." },
+        { title: "Track Daily", description: "Log your symptoms each day along with any medications taken. The app automatically pulls in environmental data for your location." },
+        { title: "Review Your Patterns", description: "Analyze the correlation between your symptoms and environmental factors to identify your most significant triggers. Use high-risk day forecasts to prepare in advance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Trigger Identification", description: "Identifying personal allergy triggers is difficult because reactions often occur hours after exposure. AI correlation across weeks of data finds patterns that self-observation misses" },
+      { title: "Environmental Data Integration", description: "Combining personal symptom data with objective environmental measurements produces more accurate trigger identification than symptom tracking alone" },
+      { title: "Proactive Management", description: "High-pollen day forecasts that allow advance preparation with medication or activity adjustment prevent severe reactions rather than just treating them" },
+      { title: "Medical Communication", description: "Organized symptom data that shows patterns over time produces more productive allergy appointments than trying to remember how you felt over the past months" }
+    ],
+    useCases: [
+      { title: "Seasonal Allergy Sufferers", description: "People with hay fever and seasonal allergies use Allerwell for trigger identification and high-pollen day preparation" },
+      { title: "People with Multiple Allergies", description: "Individuals with complex allergy profiles use the tracking to understand which triggers are most significant" },
+      { title: "Parents Managing Children Allergies", description: "Parents tracking their children allergy patterns use Allerwell to communicate effectively with pediatric allergists" }
+    ]
+  },
+  "loti-ai": {
+    whatIs: "Loti AI is an AI-powered image monitoring and protection service that scans the internet to find where your personal photos have been posted without your permission. It uses facial recognition technology to search across websites, social media platforms, and other online locations to identify unauthorized uses of your images. For individuals concerned about non-consensual image sharing and privacy violations, Loti AI provides the monitoring that surfaces unauthorized photo usage so you can take action.",
+    features: [
+      "Image Monitoring: Scan the internet for unauthorized uses of your photos",
+      "Facial Recognition Search: Find your face across online platforms",
+      "Alert System: Notifications when new unauthorized uses are found",
+      "Takedown Support: Assistance with removing found unauthorized content",
+      "Regular Scanning: Ongoing monitoring rather than one-time search",
+      "Privacy Protection: Tools for protecting your online image rights",
+      "Evidence Collection: Document found violations for legal purposes",
+      "Subscription Service: Ongoing monitoring through subscription"
+    ],
+    howToUse: {
+      title: "How to Use Loti Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Photos", description: "Sign up at loti.ai and submit photos of yourself that you want to monitor. The service uses these as reference images for facial recognition search." },
+        { title: "Review Found Results", description: "Loti scans across the internet and presents any found instances of your photos being used without your knowledge. Review each found result." },
+        { title: "Take Action", description: "For unauthorized uses you want removed, use Loti takedown support to request removal. Document violations that may require legal follow-up." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Non-Consensual Sharing Problem", description: "Personal photos shared without permission cause real harm to individuals. Monitoring that finds these violations enables action before wider spread occurs" },
+      { title: "Scale of the Internet", description: "Manually searching the internet for your own photos is practically impossible. AI that automates this search across vast online content makes protection achievable" },
+      { title: "Ongoing Threat", description: "New unauthorized sharing can happen at any time. Continuous monitoring that catches violations as they occur is more protective than periodic manual checks" },
+      { title: "Evidence Value", description: "Having documented evidence of where and when unauthorized images appeared supports both platform removal requests and potential legal action" }
+    ],
+    useCases: [
+      { title: "Individuals Concerned About Image Privacy", description: "People worried about unauthorized photo sharing use Loti for proactive monitoring and early detection" },
+      { title: "Public Figures and Influencers", description: "People with significant online presence use Loti to monitor for unauthorized use of their photos across the internet" },
+      { title: "Victims of Previous Privacy Violations", description: "People who have previously experienced non-consensual image sharing use Loti for ongoing monitoring to prevent recurrence" }
+    ]
+  },
+  "breed-dog": {
+    whatIs: "Breed.dog is an AI dog breed identification app that identifies dog breeds from photos using computer vision. Users photograph any dog and the AI identifies the breed or mix of breeds with confidence scores. The app also provides detailed information about identified breeds including temperament, care requirements, and characteristics. For dog lovers who encounter unfamiliar dogs or want to learn about their own mixed-breed dog's heritage, Breed.dog provides instant AI breed identification.",
+    features: [
+      "Breed Identification: Identify dog breeds from photos instantly",
+      "Mixed Breed Detection: Identify multiple breeds in mixed-breed dogs",
+      "Confidence Scores: Probability scores for each identified breed",
+      "Breed Information: Detailed information about identified breeds",
+      "Temperament Data: Learn about breed personality and behavior tendencies",
+      "Care Requirements: Breed-specific care and exercise needs",
+      "Health Information: Common health considerations for identified breeds",
+      "Free to Use: Basic breed identification without payment"
+    ],
+    howToUse: {
+      title: "How to Use Breed Dog",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Photograph the Dog", description: "Open Breed.dog and photograph the dog you want to identify. Clear photos showing the full dog produce the most accurate identification." },
+        { title: "Review Breed Results", description: "The AI returns the most likely breed or breed combination with confidence scores. Review the results and explore the breed information." },
+        { title: "Learn About the Breed", description: "Read the detailed breed profile for your identified breed. Understand the temperament, care needs, and characteristics specific to that breed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Breed Curiosity", description: "Encountering an attractive or unusual dog and not knowing the breed is a common experience for dog lovers. Instant AI identification satisfies this curiosity" },
+      { title: "Mixed Breed Understanding", description: "Owners of mixed-breed dogs often want to understand what breeds make up their dog. AI identification that detects multiple breeds in mixes provides this insight" },
+      { title: "Care Information Value", description: "Breed-specific care requirements that owners of newly identified dogs receive helps them provide appropriate exercise, nutrition, and medical care" },
+      { title: "Adoption Decisions", description: "People considering adopting a dog use breed identification to understand the temperament and care requirements of the dog they are considering" }
+    ],
+    useCases: [
+      { title: "Dog Lovers and Enthusiasts", description: "People who love dogs use Breed.dog to identify unfamiliar breeds they encounter" },
+      { title: "New Dog Owners", description: "People who have adopted mixed-breed dogs use the app to understand their dog breed composition" },
+      { title: "Dog Walkers and Pet Sitters", description: "Professionals who work with many dogs use breed identification to understand the dogs in their care" }
+    ]
+  },
+  "mealsnap": {
+    whatIs: "MealSnap is an AI food logging app that identifies meals from photos and automatically logs their nutritional information. Users photograph their food and the AI recognizes the meal, estimates portion sizes, and records the nutritional content including calories, macronutrients, and key nutrients. For people who want to track their nutrition without the tedium of manual food logging, MealSnap provides photo-based meal tracking that removes the biggest friction point in dietary monitoring.",
+    features: [
+      "Photo Meal Recognition: Identify foods from smartphone photos",
+      "Automatic Nutrition Logging: Record nutritional data without manual entry",
+      "Calorie Tracking: Accurate calorie counts for photographed meals",
+      "Macro Tracking: Protein, carbohydrate, and fat breakdown for each meal",
+      "Meal History: Review your complete food log over time",
+      "Nutritional Insights: Understand patterns in your dietary habits",
+      "Goal Tracking: Monitor progress toward nutritional goals",
+      "Free to Try: Basic food logging without payment"
+    ],
+    howToUse: {
+      title: "How to Use Mealsnap",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Photograph Your Meal", description: "Download MealSnap and photograph your meal before eating. The app works best with clear photos that show all the food components." },
+        { title: "Review the Log Entry", description: "MealSnap identifies your meal and logs the nutritional information automatically. Review and adjust any items the AI did not recognize correctly." },
+        { title: "Track Your Progress", description: "Review your daily and weekly nutritional data in the app dashboard. Use the insights to understand your eating patterns and make adjustments toward your goals." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Friction Removal", description: "Manual food logging that requires searching databases and estimating weights is tedious enough that most people abandon it within weeks. Photo logging that takes seconds removes this barrier" },
+      { title: "Accuracy Improvement", description: "Estimating nutritional content from memory after eating is less accurate than logging from a photo taken at the meal. Visual logging improves the accuracy of nutritional records" },
+      { title: "Behavior Change Support", description: "The act of photographing food before eating creates a moment of mindfulness that research shows influences food choices positively" },
+      { title: "Insight Generation", description: "Accumulated food photos that the AI has analyzed reveal patterns in eating habits that people often do not perceive when eating individual meals" }
+    ],
+    useCases: [
+      { title: "People Tracking Nutrition", description: "Individuals monitoring their diet for health or weight management use MealSnap for frictionless food logging" },
+      { title: "Fitness Enthusiasts", description: "People optimizing nutrition for athletic performance use photo logging for accurate macro tracking" },
+      { title: "Health Condition Managers", description: "People managing diabetes or other diet-sensitive conditions use MealSnap for detailed nutritional monitoring" }
+    ]
+  },
+  "caralyze": {
+    whatIs: "Caralyze is an AI-powered used car analysis platform that helps buyers evaluate used vehicles before purchase. It analyzes vehicle history reports, market pricing data, and condition information to provide comprehensive car assessments that reveal problems and fair market value. For used car buyers who want to avoid costly mistakes, Caralyze provides the AI vehicle intelligence that levels the information asymmetry between buyers and experienced sellers.",
+    features: [
+      "Vehicle History Analysis: AI analysis of vehicle history reports",
+      "Market Value Assessment: Fair market price evaluation for specific vehicles",
+      "Problem Detection: Identify potential issues from history and data",
+      "Comparison Tool: Compare multiple vehicles under consideration",
+      "Negotiation Support: Data to support price negotiation",
+      "Recall Checking: Identify any open safety recalls",
+      "Ownership Cost Projection: Estimate future ownership costs",
+      "Free to Try: Basic vehicle analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Caralyze",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Vehicle Details", description: "Sign up at caralyze.com and enter the VIN or details of the vehicle you are considering purchasing." },
+        { title: "Review the Analysis", description: "Caralyze generates a comprehensive assessment covering history, pricing, potential concerns, and fair market value for the specific vehicle." },
+        { title: "Use for Negotiation", description: "Bring the analysis data into your negotiation with the seller. Data about market value and identified concerns supports informed price negotiation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Information Asymmetry", description: "Used car sellers know far more about vehicle history than buyers. AI analysis that processes all available data reduces this information gap significantly" },
+      { title: "Overpayment Prevention", description: "Buyers who do not know fair market value regularly overpay for used vehicles. Pricing analysis that shows what a vehicle is actually worth prevents this" },
+      { title: "Problem Discovery", description: "Vehicle history records contain information about accidents, flood damage, and title issues that buyers miss without systematic analysis" },
+      { title: "Negotiation Confidence", description: "Buyers who come to negotiations with objective data about vehicle value and condition negotiate more effectively than those relying on intuition" }
+    ],
+    useCases: [
+      { title: "Used Car Buyers", description: "People shopping for used vehicles use Caralyze for objective vehicle assessment before committing to purchase" },
+      { title: "First-Time Car Buyers", description: "People buying their first car who lack experience evaluating used vehicles use Caralyze for expert-level vehicle analysis" },
+      { title: "Fleet Buyers", description: "Organizations purchasing multiple used vehicles use Caralyze for systematic vehicle evaluation across their purchases" }
+    ]
+  },
   "eosda": {
     whatIs: "EOSDA (EOS Data Analytics) is a satellite imagery analysis and precision agriculture platform that provides AI-powered insights from satellite data for farming, forestry, and land management. It analyzes multispectral satellite imagery to monitor crop health, detect vegetation stress, measure field productivity, and support precision agriculture decisions. For farmers, agronomists, and land managers who want to make data-driven decisions about their fields and forests, EOSDA provides the satellite intelligence that reveals what ground-level observation misses.",
     features: [
