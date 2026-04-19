@@ -1,4 +1,136 @@
 export const toolsProductInfo5: { [key: string]: any } = {
+  "eosda": {
+    whatIs: "EOSDA (EOS Data Analytics) is a satellite imagery analysis and precision agriculture platform that provides AI-powered insights from satellite data for farming, forestry, and land management. It analyzes multispectral satellite imagery to monitor crop health, detect vegetation stress, measure field productivity, and support precision agriculture decisions. For farmers, agronomists, and land managers who want to make data-driven decisions about their fields and forests, EOSDA provides the satellite intelligence that reveals what ground-level observation misses.",
+    features: [
+      "Crop Monitoring: Satellite-based crop health and stress detection",
+      "NDVI Analysis: Vegetation index tracking for field productivity",
+      "Field Analytics: Detailed per-field performance data and trends",
+      "Precision Agriculture: Data-driven recommendations for field management",
+      "Forestry Monitoring: Forest health and change detection from satellite data",
+      "Historical Analysis: Long-term vegetation and land use trend analysis",
+      "Weather Integration: Combine satellite data with weather information",
+      "Free Plan: Basic satellite imagery access without payment"
+    ],
+    howToUse: {
+      title: "How to Use Eosda",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Add Your Fields", description: "Sign up at eos.com and add your field boundaries by drawing on the map or importing field data. EOSDA begins pulling satellite imagery for your locations." },
+        { title: "Monitor Crop Health", description: "Review vegetation index maps and crop health indicators for your fields. Identify areas of stress or underperformance that need attention." },
+        { title: "Act on Insights", description: "Use the field-level data to make targeted management decisions. Apply inputs only where needed based on satellite-identified problem areas." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Coverage Scale", description: "Walking fields to check crop health is time-consuming and misses subtle early-stage stress. Satellite coverage that monitors every field simultaneously provides complete visibility" },
+      { title: "Early Detection", description: "Crop stress detected early when intervention is still effective produces better outcomes than stress identified after damage has progressed significantly" },
+      { title: "Precision Application", description: "Inputs applied uniformly across variable fields waste money in productive areas and under-serve stressed areas. Satellite data that guides variable rate application improves efficiency" },
+      { title: "Historical Context", description: "Multi-year satellite data that shows how fields have performed over time provides context for understanding current season performance" }
+    ],
+    useCases: [
+      { title: "Commercial Farmers", description: "Large-scale crop farmers use EOSDA for satellite-based field monitoring across their entire operation" },
+      { title: "Agronomists and Crop Consultants", description: "Agricultural consultants use satellite data to monitor client fields and make evidence-based management recommendations" },
+      { title: "Forestry and Land Management", description: "Forest managers and conservation organizations use EOSDA for large-scale vegetation monitoring and change detection" }
+    ]
+  },
+  "veo": {
+    whatIs: "Veo is Google most advanced AI video generation model that creates high-quality video content from text and image prompts. It generates cinematic video clips with sophisticated understanding of cinematography, lighting, and motion, producing results that approach professional production quality. Veo represents a significant advance in AI video generation and is available through Google Vertex AI for developers and through select creative tools. For content creators and developers who need high-quality AI video generation, Veo provides Google most capable video creation technology.",
+    features: [
+      "High-Quality Video Generation: Cinematic video from text descriptions",
+      "Image-to-Video: Animate still images into video sequences",
+      "Cinematography Understanding: AI grasp of camera angles and lighting",
+      "Long Clips: Generate longer video sequences than earlier AI models",
+      "Style Control: Direct the visual style and aesthetic of generated video",
+      "Motion Quality: Realistic and natural motion in generated content",
+      "Professional Output: Quality approaching professional video production",
+      "API Access: Available through Google Vertex AI for developers"
+    ],
+    howToUse: {
+      title: "How to Use Veo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Through Vertex AI", description: "Set up a Google Cloud project and access Veo through the Vertex AI API. Review the documentation for prompt guidelines and capabilities." },
+        { title: "Craft Your Prompt", description: "Write detailed prompts that describe the scene, camera movement, lighting, and action you want in your video. Specific prompts produce better results." },
+        { title: "Generate and Refine", description: "Generate your video and review the output. Iterate on your prompt based on what needs adjustment in the generated clip." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Quality Advancement", description: "Earlier AI video models produced obvious artifacts and unnatural motion. Veo quality that approaches professional production opens practical creative applications that earlier models could not support" },
+      { title: "Cinematography Intelligence", description: "AI that understands cinematic conventions like camera angles, depth of field, and lighting produces more visually compelling content than AI that simply generates moving images" },
+      { title: "Content Creation Economics", description: "Professional video production is expensive and time-consuming. AI video generation that produces quality footage changes the economics of video content creation" },
+      { title: "Developer Integration", description: "API access that lets developers integrate video generation into their applications creates new product possibilities for software teams" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Video creators use Veo for AI-generated footage that supplements or replaces expensive production elements" },
+      { title: "Developers Building Video Products", description: "Software teams use the Veo API to add video generation capabilities to their creative applications" },
+      { title: "Marketing and Advertising", description: "Marketing teams use AI video generation for rapid content production across campaigns" }
+    ]
+  },
+  "scholar-ai": {
+    whatIs: "Scholar AI is an AI research assistant that provides access to scientific papers and helps users understand and synthesize academic research through conversational AI. It searches across millions of peer-reviewed papers, summarizes findings, answers questions about specific research, and helps users navigate scientific literature without needing specialist expertise. For students, professionals, and curious learners who want to engage with scientific research, Scholar AI provides the AI intermediary that makes academic knowledge accessible.",
+    features: [
+      "Scientific Paper Search: Access to millions of peer-reviewed research papers",
+      "Research Summarization: Plain-language summaries of complex scientific papers",
+      "Question Answering: Ask specific questions about scientific topics and findings",
+      "Citation Generation: Properly formatted citations for found papers",
+      "Literature Review Support: Help synthesizing research across multiple papers",
+      "Hypothesis Exploration: Investigate research questions across the literature",
+      "Open Access Links: Find freely available versions of papers where possible",
+      "Free to Use: Basic research assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Scholar Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Research Question", description: "Go to scholarai.io and ask your research question in plain language. Scholar AI searches the scientific literature for relevant papers." },
+        { title: "Review the Findings", description: "Read the AI-generated summaries of relevant papers. Ask follow-up questions to understand specific aspects of the research more deeply." },
+        { title: "Cite Your Sources", description: "Use the citation generation feature to get properly formatted references for papers you want to use in your own writing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Scientific Accessibility", description: "Peer-reviewed research written for expert audiences is inaccessible to most people without specialist training. AI that translates scientific findings into plain language democratizes access to knowledge" },
+      { title: "Literature Navigation", description: "The volume of scientific literature is overwhelming even for specialists. AI search and synthesis that navigates this volume efficiently makes research engagement practical" },
+      { title: "Question-Based Discovery", description: "Searching for papers that answer specific questions rather than matching keywords produces more relevant results for practical research needs" },
+      { title: "Citation Accuracy", description: "Properly formatted citations that researchers and students need are tedious to create manually. Automated citation generation removes this administrative burden" }
+    ],
+    useCases: [
+      { title: "Students Engaging with Research", description: "University students who need to engage with primary research use Scholar AI for accessible understanding of academic papers" },
+      { title: "Professionals Staying Current", description: "Practitioners in medicine, law, and other evidence-based fields use Scholar AI to understand research relevant to their work" },
+      { title: "Curious Learners", description: "People who want to understand the science behind topics they care about use Scholar AI for accessible research exploration" }
+    ]
+  },
+  "hint": {
+    whatIs: "Hint is an AI-powered personal CRM and relationship management tool that helps professionals maintain and strengthen their personal and professional relationships. It enriches contact information automatically from public sources, reminds users to follow up with important contacts, and helps track the history and context of professional relationships. For professionals who want to be more intentional about maintaining their network without spending hours on manual relationship management, Hint provides the AI assistance that keeps important relationships active.",
+    features: [
+      "Contact Enrichment: Automatically fill in contact details from public sources",
+      "Relationship Reminders: Prompts to follow up with contacts you have not spoken to recently",
+      "Interaction History: Track your history with each contact",
+      "Network Insights: Understand the strength and activity of your relationships",
+      "Email Integration: Works with your existing email for relationship tracking",
+      "Priority Contacts: Identify and focus on your most important relationships",
+      "Meeting Preparation: Context about contacts before meetings",
+      "Free Plan: Basic relationship management without payment"
+    ],
+    howToUse: {
+      title: "How to Use Hint",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Contacts", description: "Sign up at hint.com and import your contacts from email, LinkedIn, or other sources. Hint enriches each contact with additional information automatically." },
+        { title: "Review Your Network", description: "Explore your enriched contact database and understand the strength of different relationships. Identify contacts you have not spoken with in too long." },
+        { title: "Act on Reminders", description: "Follow the relationship reminders to reconnect with important contacts. Use the interaction history to make reconnection conversations more personal and relevant." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Relationship Decay Prevention", description: "Professional relationships that go unmaintained gradually decay. Systematic reminders that prompt reconnection before relationships go cold maintain network health" },
+      { title: "Contact Intelligence", description: "Remembering context about contacts before meetings and conversations makes interactions more personal and productive" },
+      { title: "Network Intentionality", description: "Most professionals have many contacts but maintain only a small fraction actively. Tools that surface neglected important relationships enable more intentional network cultivation" },
+      { title: "Enrichment Value", description: "Contact records that automatically fill in current company, role, and other details remain accurate without manual updating effort" }
+    ],
+    useCases: [
+      { title: "Sales Professionals", description: "Salespeople use Hint for systematic relationship maintenance across their customer and prospect network" },
+      { title: "Business Development Professionals", description: "BD professionals use the tool for intentional relationship cultivation that supports partnership and deal development" },
+      { title: "Senior Executives", description: "Leaders with large networks use Hint to maintain the relationships that matter most without losing track of important contacts" }
+    ]
+  },
   "rithmm": {
     whatIs: "Rithmm is an AI sports betting analytics platform that provides data-driven predictions and insights for sports bettors. It analyzes historical data, player statistics, team performance, and situational factors to generate probability estimates for different betting outcomes. For sports bettors who want to move beyond gut feeling and make more informed wagering decisions, Rithmm provides the analytical foundation that professional bettors rely on.",
     features: [
