@@ -1,4 +1,268 @@
 export const toolsProductInfo5: { [key: string]: any } = {
+  "firecrawl": {
+    whatIs: "Firecrawl is a web scraping and crawling API that converts any website into clean, structured data ready for use in AI applications and data pipelines. It handles JavaScript rendering, pagination, and complex website structures automatically, delivering clean markdown or structured JSON output without the mess of raw HTML. For developers building AI applications that need web data, Firecrawl removes the painful engineering work of building and maintaining web scrapers.",
+    features: [
+      "Web Scraping API: Extract clean data from any website through simple API calls",
+      "JavaScript Rendering: Handles dynamic websites that require browser execution",
+      "Markdown Output: Converts web pages into clean markdown for AI ingestion",
+      "Batch Crawling: Crawl entire websites and domains systematically",
+      "Structured Data: Extract specific data fields in JSON format",
+      "Rate Limiting Handling: Manages crawl rates to avoid blocking",
+      "Authentication Support: Access pages behind login walls",
+      "Free Tier: Generous free credits for getting started"
+    ],
+    howToUse: {
+      title: "How to Use Firecrawl",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Get Your API Key", description: "Sign up at firecrawl.dev and get your API key. The setup takes under two minutes with no configuration required." },
+        { title: "Make Your First Request", description: "Send a URL to the Firecrawl API and receive clean markdown or JSON back. A single API call handles all the complexity of rendering and extraction." },
+        { title: "Build Your Pipeline", description: "Integrate Firecrawl into your AI application or data pipeline. Use the crawl endpoint to systematically process entire websites." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Clean Data for AI", description: "Raw HTML is full of navigation, ads, and boilerplate that confuses AI models. Firecrawl strips this away and delivers only the meaningful content" },
+      { title: "JavaScript Complexity", description: "Most modern websites require a browser to render their content. Firecrawl handles this server-side so developers do not need to manage headless browsers" },
+      { title: "Maintenance Elimination", description: "Custom web scrapers break constantly as websites update their structure. A managed API that handles these changes removes ongoing maintenance burden" },
+      { title: "Speed to Production", description: "Building a reliable web scraper from scratch takes days or weeks. Firecrawl reduces this to an afternoon of integration work" }
+    ],
+    useCases: [
+      { title: "AI Application Developers", description: "Teams building RAG systems and AI agents use Firecrawl to feed their applications with fresh web data" },
+      { title: "Data Engineers", description: "Engineers building data pipelines use Firecrawl for reliable web data extraction at scale" },
+      { title: "Researchers", description: "Academics and analysts use Firecrawl to collect web data for research without writing custom scraping code" }
+    ]
+  },
+  "idox-ai": {
+    whatIs: "iDox.ai is an AI document intelligence platform that extracts, analyzes, and organizes information from unstructured documents including PDFs, contracts, invoices, and forms. It uses AI to understand document context and structure, pulling out specific fields and data points that businesses need without manual data entry. For organizations drowning in document processing work, iDox.ai automates the tedious extraction that consumes enormous staff time.",
+    features: [
+      "Document Extraction: Pull specific data fields from any document type",
+      "Contract Analysis: Understand and extract key terms from legal documents",
+      "Invoice Processing: Automate invoice data capture and validation",
+      "Form Recognition: Extract data from structured and semi-structured forms",
+      "Batch Processing: Handle large volumes of documents simultaneously",
+      "Integration API: Connect with existing business systems",
+      "Custom Templates: Train extraction for your specific document types",
+      "Free Trial: Process sample documents before committing"
+    ],
+    howToUse: {
+      title: "How to Use Idox Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Documents", description: "Sign up at idox.ai and upload a sample of the documents you need to process. The platform supports PDFs, images, and most document formats." },
+        { title: "Configure Your Extraction", description: "Define the fields you need to extract or select from existing templates for common document types like invoices and contracts." },
+        { title: "Process and Export", description: "Run your documents through the extraction pipeline and export the structured data to your business systems or download as CSV or JSON." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Manual Entry Elimination", description: "Document data entry is expensive, slow, and error-prone. AI extraction that processes documents automatically produces faster and more consistent results" },
+      { title: "Volume Handling", description: "Organizations that receive thousands of documents monthly cannot process them manually at reasonable cost. Automated extraction scales to any volume" },
+      { title: "Accuracy at Scale", description: "Human data entry accuracy degrades with volume and fatigue. AI extraction maintains consistent accuracy regardless of document count" },
+      { title: "System Integration", description: "Extracted data that flows directly into business systems eliminates the re-entry step that creates errors and delays" }
+    ],
+    useCases: [
+      { title: "Finance and Accounting Teams", description: "Finance departments use iDox.ai for automated invoice and receipt processing that eliminates manual data entry" },
+      { title: "Legal Teams", description: "Legal professionals use the platform for contract data extraction and analysis" },
+      { title: "Operations Teams", description: "Business operations teams use iDox.ai for processing any high-volume document type their work requires" }
+    ]
+  },
+  "infranodus": {
+    whatIs: "InfraNodus is a text network analysis tool that visualizes ideas, topics, and their connections as interactive network graphs. It helps researchers, writers, and analysts understand the structure of knowledge within texts, find gaps in thinking, and discover non-obvious connections between concepts. By turning text into networks, InfraNodus reveals the relationships between ideas that linear reading obscures.",
+    features: [
+      "Text Network Visualization: Turn any text into an interactive idea network",
+      "Gap Analysis: Find missing connections in your thinking or research",
+      "Topic Clustering: Automatically group related concepts",
+      "Insight Generation: AI-powered suggestions for unexplored connections",
+      "Multiple Input Types: Analyze books, articles, interview transcripts, or any text",
+      "Export Options: Download network graphs for presentations",
+      "Research Mode: Analyze multiple texts and compare their networks",
+      "Free Plan: Basic text analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Infranodus",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Text", description: "Sign up at infranodus.com and paste or upload the text you want to analyze. This can be an article, a collection of notes, or any body of text." },
+        { title: "Explore Your Network", description: "The platform generates an interactive network graph of concepts and their connections. Explore which ideas are central and which are peripheral." },
+        { title: "Find Your Gaps", description: "Use the gap analysis feature to identify areas your text does not cover that might be important given the surrounding concepts." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Structural Understanding", description: "Linear text hides the relational structure of ideas. Networks that show how concepts connect reveal patterns that reading alone does not surface" },
+      { title: "Research Gap Discovery", description: "Finding what is missing from a body of research requires understanding what is present and how it connects. Network gaps make these absences visible" },
+      { title: "Non-Obvious Connections", description: "Ideas from different parts of a text that share underlying connections are easy to miss when reading sequentially but obvious in a network view" },
+      { title: "Writing Improvement", description: "Writers who analyze their drafts as networks often discover they have been repeating certain concepts while neglecting others that would strengthen their argument" }
+    ],
+    useCases: [
+      { title: "Academic Researchers", description: "Researchers use InfraNodus to analyze literature and find gaps in existing knowledge" },
+      { title: "Writers and Content Creators", description: "Authors use the tool to analyze their drafts and ensure their writing covers ideas comprehensively" },
+      { title: "Knowledge Management Practitioners", description: "People building personal knowledge bases use InfraNodus to understand the structure of their accumulated notes" }
+    ]
+  },
+  "docugami": {
+    whatIs: "Docugami is an AI document engineering platform that transforms business documents into structured, reusable data. It learns the specific patterns in your organization documents and creates what they call Document Application Markup Language representations that make document knowledge accessible to business applications. For businesses where critical knowledge is locked inside unstructured documents, Docugami provides the deep document understanding that generic AI tools cannot match.",
+    features: [
+      "Document Engineering: Transform documents into structured business data",
+      "Pattern Learning: AI that learns your specific document types and formats",
+      "Knowledge Extraction: Surface business knowledge trapped in documents",
+      "Reusable Components: Create reusable document fragments and templates",
+      "Workflow Integration: Connect document intelligence to business workflows",
+      "Compliance Support: Ensure document consistency and completeness",
+      "Custom Models: AI trained on your specific document library",
+      "Enterprise Focus: Built for business-scale document operations"
+    ],
+    howToUse: {
+      title: "How to Use Docugami",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Documents", description: "Contact Docugami and submit samples of your key document types. Their team helps configure the AI for your specific document patterns." },
+        { title: "Review Extracted Knowledge", description: "Docugami processes your documents and surfaces the structured data and patterns it discovers. Review the extraction accuracy for your document types." },
+        { title: "Integrate with Workflows", description: "Connect Docugami extracted data to your business applications and workflows. Document knowledge becomes accessible throughout your organization." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Domain-Specific Learning", description: "Generic document AI applies the same approach to every document type. Docugami that learns your specific document patterns produces far more accurate extraction" },
+      { title: "Knowledge Accessibility", description: "Business knowledge locked in documents is inaccessible to people who have not read them. Structured extraction makes this knowledge searchable and reusable" },
+      { title: "Document Consistency", description: "Organizations that generate many similar documents often have inconsistencies. AI that understands your document standards helps enforce consistency" },
+      { title: "Workflow Automation", description: "Documents that trigger business processes but require manual data entry create bottlenecks. Automated extraction that feeds workflows eliminates these delays" }
+    ],
+    useCases: [
+      { title: "Legal and Professional Services", description: "Law firms and consulting organizations use Docugami for deep document understanding and knowledge extraction" },
+      { title: "Financial Institutions", description: "Banks and insurance companies use the platform for processing complex financial document types" },
+      { title: "Enterprise Operations Teams", description: "Large organizations with significant document volumes use Docugami for document intelligence at scale" }
+    ]
+  },
+  "graphite-note": {
+    whatIs: "Graphite Note is a no-code predictive analytics platform that allows business analysts and non-technical users to build machine learning models without writing code. It connects to business data sources and provides point-and-click model building for common business predictions including churn forecasting, revenue prediction, and customer segmentation. For business teams that need predictive insights but lack data science resources, Graphite Note puts machine learning within reach.",
+    features: [
+      "No-Code ML: Build predictive models without any coding",
+      "Churn Prediction: Forecast which customers are likely to leave",
+      "Revenue Forecasting: Predict future revenue with machine learning",
+      "Customer Segmentation: Group customers by behavior and characteristics",
+      "Data Connectors: Connect to databases, spreadsheets, and business tools",
+      "Automated Feature Engineering: AI handles data preparation automatically",
+      "Model Explanations: Understand why models make specific predictions",
+      "Free Trial: Build your first model before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Graphite Note",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Data", description: "Sign up at graphite-note.com and connect your data source. The platform accepts CSV uploads, database connections, and integrations with common business tools." },
+        { title: "Select Your Prediction Goal", description: "Choose what you want to predict from the template library or define your own target variable. The platform guides you through the model configuration." },
+        { title: "Deploy and Act", description: "Your model generates predictions on new data automatically. Export results or connect to your business tools to act on the insights." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data Science Democratization", description: "Machine learning expertise is expensive and scarce. No-code platforms that produce real predictive models put this capability in the hands of business analysts who understand the business problems" },
+      { title: "Speed to Insight", description: "Hiring a data scientist, scoping a project, and building a custom model takes months. No-code ML that produces results in hours changes the economics of predictive analytics" },
+      { title: "Business Context", description: "Data scientists often lack business context that makes their models practically useful. Business analysts who build their own models apply domain knowledge that improves real-world relevance" },
+      { title: "Continuous Prediction", description: "Business decisions that require updated predictions regularly benefit from automated model runs that refresh predictions without manual intervention" }
+    ],
+    useCases: [
+      { title: "Business Analysts", description: "Analysts who need predictive models but lack coding skills use Graphite Note for no-code machine learning" },
+      { title: "Marketing Teams", description: "Marketing professionals use the platform for customer churn prediction and segmentation models that inform campaigns" },
+      { title: "Sales Operations", description: "Sales teams use revenue forecasting models to set realistic targets and identify pipeline risk" }
+    ]
+  },
+  "julius-ai": {
+    whatIs: "Julius AI is an AI data analysis platform that lets users analyze data by asking questions in plain English. Users upload spreadsheets or connect data sources and then ask Julius questions about their data in natural language, receiving analysis, visualizations, and insights without needing to know SQL or Python. For anyone who works with data but lacks technical analysis skills, Julius provides the AI analyst that makes data genuinely accessible.",
+    features: [
+      "Natural Language Analysis: Ask data questions in plain English",
+      "Spreadsheet Upload: Analyze Excel and CSV files directly",
+      "Automatic Visualizations: Get charts and graphs alongside answers",
+      "Statistical Analysis: Perform complex statistical analysis through conversation",
+      "Data Cleaning: Identify and fix data quality issues through natural language",
+      "Python Generation: See the code behind every analysis",
+      "Multiple Data Sources: Connect databases and cloud data warehouses",
+      "Free Plan: Basic data analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Julius Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Data", description: "Sign up at julius.ai and upload your spreadsheet or connect your data source. Julius immediately understands your data structure." },
+        { title: "Ask Your Questions", description: "Type your analysis question in plain English. Ask anything from simple summaries to complex statistical comparisons." },
+        { title: "Explore and Export", description: "Review the analysis and visualizations Julius generates. Drill down with follow-up questions and export results for your reports." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Technical Barrier Removal", description: "Data analysis that requires SQL or Python excludes the business people who most need insights. Natural language analysis that anyone can use makes data genuinely accessible" },
+      { title: "Analysis Speed", description: "Writing analysis code takes time even for technical users. Natural language queries that produce instant results dramatically accelerate the analysis workflow" },
+      { title: "Visualization Automation", description: "Creating charts manually is tedious. Automatic visualization generation that accompanies every analysis saves significant time" },
+      { title: "Code Transparency", description: "Showing the underlying Python code for every analysis lets technical users verify correctness and learn from the generated code" }
+    ],
+    useCases: [
+      { title: "Business Analysts Without Coding Skills", description: "Non-technical analysts use Julius to perform sophisticated data analysis through natural language" },
+      { title: "Managers Needing Quick Insights", description: "Decision-makers who need data answers quickly use Julius without depending on data team availability" },
+      { title: "Researchers", description: "Academics use Julius for exploratory data analysis without writing analysis code" }
+    ]
+  },
+  "paperguide": {
+    whatIs: "Paperguide is an AI research assistant that helps academics and students find, read, and understand scientific papers more efficiently. It searches academic literature, summarizes papers, answers questions about specific research, and helps users build understanding of complex topics across multiple sources. For researchers who spend enormous time reading and synthesizing academic literature, Paperguide provides the AI assistance that makes literature review more manageable.",
+    features: [
+      "Literature Search: Find relevant academic papers across research databases",
+      "Paper Summarization: Get concise summaries of complex research papers",
+      "Q&A on Papers: Ask specific questions about paper content and findings",
+      "Citation Management: Organize and manage your paper library",
+      "Topic Synthesis: Understand a research area across multiple papers",
+      "Related Paper Discovery: Find papers related to ones you are already reading",
+      "Export Citations: Generate properly formatted academic citations",
+      "Free Plan: Basic research assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Paperguide",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Topic", description: "Sign up at paperguide.io and search for your research topic. Paperguide searches across academic databases and returns relevant papers." },
+        { title: "Read with AI Assistance", description: "Open a paper and use the AI to get a summary, ask questions about specific sections, or understand complex methodology." },
+        { title: "Build Your Library", description: "Save papers to your library and use the synthesis features to build understanding across multiple sources on your research topic." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Literature Volume", description: "Academic researchers must read hundreds of papers to understand a field. AI summarization that surfaces key findings quickly makes this volume manageable" },
+      { title: "Comprehension Support", description: "Papers outside your immediate specialty are often difficult to understand. AI that explains complex methodology and findings in accessible terms broadens research comprehension" },
+      { title: "Discovery Efficiency", description: "Finding the most relevant papers in a large literature is time-consuming. AI search that understands research context surfaces better results than keyword search" },
+      { title: "Synthesis Challenge", description: "Understanding how multiple papers relate to each other and build on one another is cognitively demanding. AI synthesis support that shows connections across papers accelerates this work" }
+    ],
+    useCases: [
+      { title: "Graduate Students", description: "PhD students and master's students use Paperguide for more efficient literature review during their research" },
+      { title: "Academic Researchers", description: "University researchers use the platform to stay current with literature in their field and adjacent areas" },
+      { title: "Research Professionals", description: "Industry researchers use Paperguide to quickly understand academic research relevant to their work" }
+    ]
+  },
+  "yomu-ai": {
+    whatIs: "Yomu AI is an AI writing assistant designed specifically for academic writing. It helps students and researchers write better essays, research papers, and academic documents by providing suggestions for clarity, structure, academic tone, and argumentation. Unlike general writing assistants, Yomu understands academic writing conventions and helps users meet the standards their institution expects.",
+    features: [
+      "Academic Writing Focus: Assistance tuned to academic writing conventions",
+      "Essay Structure: Guidance on argument structure and organization",
+      "Tone Improvement: Suggestions for maintaining appropriate academic register",
+      "Citation Assistance: Help with proper citation and reference formatting",
+      "Grammar and Clarity: Corrections for academic writing quality",
+      "Plagiarism Awareness: Guidance on proper paraphrasing and attribution",
+      "Feedback Mode: Receive detailed feedback on your writing",
+      "Free to Try: Basic writing assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Yomu Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Writing", description: "Sign up at yomu.ai and paste the academic writing you want to improve. This can be a draft essay, a paper section, or any academic text." },
+        { title: "Review Suggestions", description: "Yomu provides specific suggestions for improving your writing. Review each suggestion and understand why it improves your academic writing." },
+        { title: "Revise and Refine", description: "Apply the suggestions that improve your writing and refine your draft. Use Yomu throughout your writing process from outline to final draft." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Academic Convention Understanding", description: "General writing assistants do not understand academic writing norms. AI tuned specifically to academic standards provides more appropriate guidance for university work" },
+      { title: "Tone Calibration", description: "The formal academic register that essays and research papers require is different from everyday writing. Specific feedback that maintains this tone helps students meet institutional expectations" },
+      { title: "Argument Quality", description: "Academic writing requires logical argumentation that builds coherently. Structural feedback that identifies weak arguments helps writers strengthen their academic reasoning" },
+      { title: "Learning Through Feedback", description: "Detailed explanations of why suggestions improve writing teach academic writing skills rather than just fixing the current document" }
+    ],
+    useCases: [
+      { title: "University Students", description: "Students writing essays and research papers use Yomu AI for academic writing improvement" },
+      { title: "Non-Native English Speakers", description: "International students use Yomu to ensure their academic writing meets English academic writing standards" },
+      { title: "Graduate Researchers", description: "Masters and PhD students use Yomu for the elevated academic writing standards their graduate work requires" }
+    ]
+  },
   "mygirl-ai": {
     whatIs: "MyGirl AI is a dedicated AI girlfriend application focused on delivering a genuine virtual relationship experience through personalized daily conversations and emotional connection. The platform positions itself as more than a chatbot by emphasizing relationship depth, consistent companion personality and the feeling of having someone who genuinely cares about your life and wellbeing.",
     features: [
