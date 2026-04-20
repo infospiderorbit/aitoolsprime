@@ -840,10 +840,8 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "passport-maker-ai", name: "Passport Maker AI", description: "AI-powered passport photo service", url: "", upvotes: 234, verified: false, rating: 4.2, icon: "🤖", category: "image-generation-editing", subcategory: "ai-passport-photo" }
     ],
     "ai-person-generator": [
-      { id: "icons8-person", name: "Icons8", description: "AI person and avatar generation", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "👤", category: "image-generation-editing", subcategory: "ai-person-generator" },
       { id: "generated-photos", name: "Generated Photos", description: "Diverse AI-generated human faces", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "👥", category: "image-generation-editing", subcategory: "ai-person-generator" },
       { id: "this-person-not-exist", name: "This Person Does Not Exist", description: "Random AI-generated faces", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🎭", category: "image-generation-editing", subcategory: "ai-person-generator" },
-      { id: "generated-photos-2", name: "Generated Photos", description: "High-quality AI person generator", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "📸", category: "image-generation-editing", subcategory: "ai-person-generator" },
       { id: "thispersonnotexist", name: "ThisPersonNotExist.org", description: "AI-generated people that don't exist", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🌐", category: "image-generation-editing", subcategory: "ai-person-generator" }
     ],
     "ai-photo-editor": [
@@ -915,10 +913,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-unblur-image": [
       { id: "fotor", name: "Fotor", description: "Online photo editor with unblur features", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "📸", category: "image-generation-editing", subcategory: "ai-unblur-image" },
-      { id: "unblurimage-ai-unblur", name: "Unblurimage AI", description: "Specialized AI image deblurring", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "🔍", category: "image-generation-editing", subcategory: "ai-unblur-image" },
-      { id: "restorephotos-io-unblur", name: "restorePhotos.io", description: "Photo restoration with deblurring", url: "", upvotes: 567, verified: true, rating: 4.4, icon: "🔄", category: "image-generation-editing", subcategory: "ai-unblur-image" },
-      { id: "fix-blur-unblur", name: "Fix Blur", description: "Professional blur removal tool", url: "", upvotes: 432, verified: true, rating: 4.3, icon: "🔧", category: "image-generation-editing", subcategory: "ai-unblur-image" },
-      { id: "deblur-ai-unblur", name: "Deblur AI", description: "Advanced AI deblurring technology", url: "", upvotes: 345, verified: true, rating: 4.2, icon: "✨", category: "image-generation-editing", subcategory: "ai-unblur-image" }
     ],
     "ai-waifu-generator": [
       { id: "waifu-labs", name: "Waifu Labs", description: "AI anime character generator", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🎭", category: "image-generation-editing", subcategory: "ai-waifu-generator" },
@@ -956,20 +950,14 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "vivago-ai", name: "VIVAGO AI", description: "Creative AI image transformation", url: "", upvotes: 345, verified: false, rating: 4.3, icon: "🌟", category: "image-generation-editing", subcategory: "image-to-image" }
     ],
     "object-remover-ai": [
-      { id: "snapedit-remover", name: "SnapEdit", description: "AI object removal from photos", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "📸", category: "image-generation-editing", subcategory: "object-remover-ai" },
-      { id: "cleanup-pictures-remover", name: "Cleanup.pictures & Clipdrop", description: "Professional object removal tool", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🧹", category: "image-generation-editing", subcategory: "object-remover-ai" },
-      { id: "watermarkremover-io-obj", name: "WatermarkRemover.io", description: "Remove objects and watermarks", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "🔧", category: "image-generation-editing", subcategory: "object-remover-ai" },
       { id: "kittl", name: "Kittl", description: "Design tool with object removal", url: "", upvotes: 567, verified: true, rating: 4.4, icon: "🎨", category: "image-generation-editing", subcategory: "object-remover-ai" },
-      { id: "beautyplus-remover", name: "BeautyPlus", description: "Beauty app with object removal", url: "", upvotes: 432, verified: true, rating: 4.3, icon: "💄", category: "image-generation-editing", subcategory: "object-remover-ai" }
     ],
     "text-to-handwriting": [
       { id: "handtext-ai", name: "HandtextAI", description: "Convert text to handwriting", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "✍️", category: "image-generation-editing", subcategory: "text-to-handwriting" },
-      { id: "imgkits-handwriting", name: "Imgkits - Top AI Image & Video Processing Tools Online", description: "Text to handwriting conversion", url: "", upvotes: 567, verified: true, rating: 4.4, icon: "🛠️", category: "image-generation-editing", subcategory: "text-to-handwriting" },
       { id: "wishgram", name: "Wishgram", description: "Handwritten message generator", url: "", upvotes: 432, verified: true, rating: 4.3, icon: "💌", category: "image-generation-editing", subcategory: "text-to-handwriting" },
       { id: "xx-video-downloader", name: "XX Video Downloader All Social - indownio, instafinsta", description: "Multi-purpose tool with handwriting", url: "", upvotes: 234, verified: false, rating: 4.1, icon: "⬇️", category: "image-generation-editing", subcategory: "text-to-handwriting" },
     ],
     "text-to-image": [
-      { id: "kittl-text2img", name: "Kittl", description: "Design tool with text-to-image AI", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🎨", category: "image-generation-editing", subcategory: "text-to-image" },
       { id: "leonardo-ai", name: "Leonardo.Ai", description: "Advanced AI image generation", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🎭", category: "image-generation-editing", subcategory: "text-to-image" },
       { id: "pica-ai", name: "Pica AI", description: "AI-powered image creation", url: "", upvotes: 567, verified: false, rating: 4.4, icon: "🖼️", category: "image-generation-editing", subcategory: "ai-art-generator" }
     ]
@@ -1365,7 +1353,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "looka", name: "Looka", description: "Professional AI logo design", url: "", upvotes: 1890, verified: true, rating: 4.8, icon: "🏷️", category: "art-creative-design", subcategory: "ai-logo-generator" },
       { id: "brandcrowd", name: "BrandCrowd", description: "AI logo and brand creation", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "👑", category: "art-creative-design", subcategory: "ai-logo-generator" },
       { id: "logoai", name: "LogoAI", description: "Smart logo generation platform", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🤖", category: "art-creative-design", subcategory: "ai-logo-generator" },
-      { id: "kittl-logo", name: "Kittl", description: "Creative AI logo maker", url: "", upvotes: 1098, verified: true, rating: 4.5, icon: "🎨", category: "art-creative-design", subcategory: "ai-logo-generator" },
       { id: "creative-fabrica-font", name: "Creative Fabrica Font Generator", description: "Logo with custom fonts", url: "", upvotes: 876, verified: true, rating: 4.4, icon: "✍️", category: "art-creative-design", subcategory: "ai-logo-generator" }
     ],
     "ai-infographic-generator": [
@@ -1412,7 +1399,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "cat-gpt", name: "Cat-GPT", description: "AI cat conversation and images", url: "", upvotes: 321, verified: false, rating: 4.2, icon: "🤖", category: "art-creative-design", subcategory: "ai-cat" }
     ],
     "ai-clothing-generator": [
-      { id: "ifoto-clothing", name: "iFoto", description: "AI clothing design and generation", url: "", upvotes: 1456, verified: true, rating: 4.7, icon: "👗", category: "art-creative-design", subcategory: "ai-clothing-generator" },
       { id: "customuse", name: "Customuse", description: "Custom AI clothing designer", url: "", upvotes: 1098, verified: true, rating: 4.6, icon: "🎨", category: "art-creative-design", subcategory: "ai-clothing-generator" },
       { id: "new-black-ai", name: "The New Black AI", description: "AI fashion design platform", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🖤", category: "art-creative-design", subcategory: "ai-clothing-generator" },
       { id: "fashn-ai", name: "FASHN AI", description: "Fashion AI design tool", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "✨", category: "art-creative-design", subcategory: "ai-clothing-generator" },
@@ -1502,7 +1488,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-graphic-design": [
       { id: "adobe", name: "Adobe", description: "Professional AI graphic design", url: "", upvotes: 2567, verified: true, rating: 4.9, icon: "🏢", category: "art-creative-design", subcategory: "ai-graphic-design" },
-      { id: "kittl-graphic", name: "Kittl", description: "AI graphic design platform", url: "", upvotes: 1890, verified: true, rating: 4.8, icon: "🎨", category: "art-creative-design", subcategory: "ai-graphic-design" },
       { id: "microsoft-designer-graphic", name: "Microsoft Designer", description: "AI graphic design tool", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🏢", category: "art-creative-design", subcategory: "ai-graphic-design" },
       { id: "pixelied", name: "Pixelied", description: "Online AI graphic design", url: "", upvotes: 876, verified: false, rating: 4.5, icon: "📐", category: "art-creative-design", subcategory: "ai-graphic-design" }
     ],
@@ -1529,7 +1514,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-illustration-generator": [
       { id: "seaart-ai", name: "Seaart.ai", description: "AI illustration platform", url: "", upvotes: 1789, verified: true, rating: 4.8, icon: "🌊", category: "art-creative-design", subcategory: "ai-illustration-generator" },
       { id: "ai-illustration-generator", name: "AI Illustration Generator", description: "Professional illustration AI", url: "", upvotes: 1456, verified: true, rating: 4.7, icon: "🎨", category: "art-creative-design", subcategory: "ai-illustration-generator" },
-      { id: "icons8-illust", name: "Icons8", description: "Icon and illustration AI", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🎭", category: "art-creative-design", subcategory: "ai-illustration-generator" },
       { id: "iconscout-illust", name: "IconScout", description: "Illustration AI platform", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🎨", category: "art-creative-design", subcategory: "ai-illustration-generator" },
       { id: "chichi-pui", name: "chichi-pui", description: "Cute illustration AI", url: "", upvotes: 654, verified: false, rating: 4.4, icon: "🐾", category: "art-creative-design", subcategory: "ai-illustration-generator" }
     ],
@@ -1639,7 +1623,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "motiff-ux", name: "Motiff", description: "Motion UX design AI", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "🎬", category: "art-creative-design", subcategory: "ai-ux-design" }
     ],
     "ai-vector-graphics": [
-      { id: "kittl-vector", name: "Kittl", description: "AI vector graphics creator", url: "", upvotes: 1890, verified: true, rating: 4.9, icon: "🎨", category: "art-creative-design", subcategory: "ai-vector-graphics" },
       { id: "vectorizer-ai-graphics", name: "Vectorizer.AI", description: "Image to vector AI converter", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🔄", category: "art-creative-design", subcategory: "ai-vector-graphics" },
       { id: "vectorizer-io", name: "Vectorizer.io", description: "Online vector AI tool", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🌐", category: "art-creative-design", subcategory: "ai-vector-graphics" },
       { id: "blush", name: "Blush", description: "AI character vector graphics", url: "", upvotes: 654, verified: false, rating: 4.5, icon: "😊", category: "art-creative-design", subcategory: "ai-vector-graphics" }
