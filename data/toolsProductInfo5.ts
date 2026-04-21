@@ -1,4 +1,499 @@
 export const toolsProductInfo5: { [key: string]: any } = {
+  "imagecolorizer": {
+    whatIs: "ImageColorizer is an AI photo colorization tool that automatically adds realistic color to black and white photos. It uses deep learning trained on millions of images to determine appropriate colors for different elements in monochrome photos, producing colorized results that look natural and historically accurate. The web-based tool is popular for bringing old family photos, historical images, and vintage photographs to life with color. For anyone who wants to see black and white photos in color without manual colorization work, ImageColorizer provides fast and accurate AI colorization.",
+    features: [
+      "AI Colorization: Automatic color addition to black and white photos",
+      "Historical Accuracy: Colors appropriate to the era and content of each photo",
+      "Portrait Specialization: Particularly good results with face and skin colorization",
+      "High Resolution: Quality output that preserves original photo detail",
+      "Before and After: Easy comparison of original and colorized versions",
+      "Fast Processing: Colorization completed in seconds",
+      "Multiple Downloads: Save colorized results in different formats",
+      "Free Credits: Colorize photos with free monthly credits"
+    ],
+    howToUse: {
+      title: "How to Use Imagecolorizer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to imagecolorizer.com and upload your black and white photo. The tool accepts scanned photos, digital copies, and any monochrome image format." },
+        { title: "Generate Colorization", description: "The AI processes your photo and generates a colorized version automatically. Results typically appear within seconds." },
+        { title: "Review and Download", description: "Compare the colorized result with your original. Download the colorized version in high resolution for printing or sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Emotional Connection", description: "Seeing ancestors and historical figures in color creates stronger emotional connection than black and white photographs allow" },
+      { title: "Contextual Intelligence", description: "AI that applies colors appropriate to what objects actually looked like in the photographed era produces more accurate and believable results than random colorization" },
+      { title: "Speed vs Manual", description: "Manual photo colorization by a skilled artist takes hours per image and costs significantly. AI colorization that takes seconds makes this transformation accessible to everyone" },
+      { title: "Heritage Preservation", description: "Colorized family photos that look vivid and realistic help younger generations connect with family history in a more immediate way" }
+    ],
+    useCases: [
+      { title: "Family History Researchers", description: "People with old family photos use ImageColorizer to bring ancestors to life with realistic color" },
+      { title: "History Enthusiasts", description: "People interested in historical periods use colorization to make historical photos more vivid and relatable" },
+      { title: "Social Media Creators", description: "Content creators share colorized historical and vintage photos for educational and nostalgic engagement" }
+    ]
+  },
+  "avclabs": {
+    whatIs: "AVCLabs is an AI photo and video enhancement software suite that provides upscaling, colorization, background removal, and video enhancement tools powered by deep learning. Their products include specialized tools for photo restoration, video super-resolution, and AI image processing that improve the quality of existing media. For photographers, videographers, and media professionals who need to enhance or restore existing media, AVCLabs provides professional-grade AI enhancement tools.",
+    features: [
+      "Video Enhancement: AI upscaling and quality improvement for videos",
+      "Photo Colorization: Add color to black and white photos and videos",
+      "Background Removal: AI-powered background removal for photos",
+      "Photo Upscaling: Enlarge photos without quality loss",
+      "Noise Reduction: Clean up grainy photos and videos",
+      "Face Enhancement: AI facial detail enhancement",
+      "Batch Processing: Handle large numbers of files efficiently",
+      "Free Trial: Try enhancement tools before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Avclabs",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Your Tool", description: "Download the AVCLabs tool appropriate for your need - photo enhancement, video upscaling, or colorization - and install it on your computer." },
+        { title: "Import Your Media", description: "Open your photos or videos in the software. AVCLabs handles the file management and processing queue." },
+        { title: "Process and Export", description: "Select your enhancement settings and process your media. Export the enhanced files in your required format and quality settings." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Professional Quality Tools", description: "AI enhancement tools that produce professional-quality results make media improvement accessible to users without specialist retouching skills" },
+      { title: "Video Enhancement Capability", description: "Improving video quality through AI enhancement has applications in restoration, upscaling for larger screens, and improving older footage for modern use" },
+      { title: "Suite Value", description: "Having multiple enhancement capabilities in one product family reduces the need for separate specialized tools for each type of media improvement" },
+      { title: "Local Processing", description: "Desktop software that processes media locally without cloud upload maintains privacy for sensitive personal or professional media" }
+    ],
+    useCases: [
+      { title: "Photographers", description: "Photo professionals use AVCLabs for batch enhancement and restoration of large photo collections" },
+      { title: "Videographers", description: "Video creators use AVCLabs for upscaling and enhancing video footage for modern display standards" },
+      { title: "Media Archivists", description: "People restoring old photos and videos use AVCLabs for AI restoration that recovers quality from degraded media" }
+    ]
+  },
+  "photorestore-io": {
+    whatIs: "PhotoRestore.io is a free AI photo restoration service that repairs old, damaged, and degraded photographs. It automatically fixes scratches, tears, fading, and other damage commonly found in old printed photos that have been scanned. The service uses AI trained specifically on photo restoration to produce results that bring deteriorated photos back to their original quality. For families with damaged historical photos they want to preserve and share, PhotoRestore.io provides free professional-quality restoration.",
+    features: [
+      "Scratch Removal: AI repair of scratches and physical damage",
+      "Fading Correction: Restore color and contrast to faded photos",
+      "Tear Repair: Fix torn or missing sections of damaged photos",
+      "Automatic Processing: No manual selection of damaged areas needed",
+      "Black and White Enhancement: Improve clarity of monochrome photos",
+      "Color Photo Restoration: Restore color photos with degraded colors",
+      "Free Service: Full restoration without payment",
+      "High Resolution Output: Restored photos at full quality"
+    ],
+    howToUse: {
+      title: "How to Use Photorestore Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Scan Your Damaged Photo", description: "Scan your damaged physical photo at high resolution. Better scans produce better restoration results." },
+        { title: "Upload to PhotoRestore.io", description: "Go to photorestore.io and upload your scanned damaged photo. The AI begins restoration processing automatically." },
+        { title: "Download Your Restored Photo", description: "Review the AI restoration results and download your repaired photo. The restored version is ready for printing and sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Accessibility", description: "Professional photo restoration services charge significantly per image. Free AI restoration makes preserving family photo heritage accessible regardless of budget" },
+      { title: "Automation", description: "Manual photo restoration in Photoshop requires significant skill and time per image. Automated AI restoration handles common damage types without manual work" },
+      { title: "Heritage Preservation", description: "Damaged photos that families cannot afford to professionally restore are often lost or remain unusable. Free restoration tools save this visual heritage" },
+      { title: "Emotional Value", description: "Restoring photos of deceased relatives to a state where they can be printed and shared creates significant emotional value for families" }
+    ],
+    useCases: [
+      { title: "Families with Old Photos", description: "People with damaged historical family photos use PhotoRestore.io to repair and preserve visual memories" },
+      { title: "Genealogy Researchers", description: "Family history researchers restore old photos to improve their quality for sharing and archiving" },
+      { title: "Memorial Projects", description: "People creating memorial books or tribute videos use restored photos for better visual quality" }
+    ]
+  },
+  "recraft": {
+    whatIs: "Recraft is a professional AI design tool for creating and editing vector graphics, icons, illustrations, and brand assets. Unlike general AI image generators, Recraft specializes in the precise, scalable vector output that professional designers need for logos, icons, and brand materials. It generates SVG vector files that can be scaled to any size without quality loss and edited in standard design tools. For designers and brand teams who need AI assistance for vector design work, Recraft provides a purpose-built professional design AI.",
+    features: [
+      "Vector Generation: Create scalable SVG vector graphics with AI",
+      "Icon Design: Generate professional icon sets and individual icons",
+      "Illustration Creation: AI-generated illustrations for various uses",
+      "Brand Asset Creation: Logos, icons, and brand materials",
+      "Style Consistency: Maintain consistent visual style across generated assets",
+      "SVG Export: Download as editable vector files",
+      "Mockup Generation: See assets applied to product mockups",
+      "Free Plan: Basic vector generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Recraft",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Design Need", description: "Sign up at recraft.ai and describe the vector graphic, icon, or illustration you need. Specify style, colors, and any relevant design details." },
+        { title: "Generate and Iterate", description: "Recraft generates vector options based on your description. Explore different variations and refine your prompt to get closer to your vision." },
+        { title: "Export and Edit", description: "Download your chosen design as an SVG file. Open it in Illustrator, Figma, or any vector editing tool for further refinement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Vector Specificity", description: "General AI image generators produce raster images that cannot be scaled without quality loss. Vector output that scales perfectly is essential for professional design use" },
+      { title: "Designer Workflow", description: "Generating initial concepts quickly with AI that produces editable vector files fits into professional design workflows better than raster-only generators" },
+      { title: "Icon Set Consistency", description: "Creating consistent icon sets manually is time-consuming. AI that generates icons in a consistent style across a set saves significant design time" },
+      { title: "Brand Asset Production", description: "Brand teams that need many visual assets use AI vector generation to increase production capacity without proportionally increasing designer headcount" }
+    ],
+    useCases: [
+      { title: "Graphic Designers", description: "Professional designers use Recraft for AI-assisted vector design that produces editable files for further refinement" },
+      { title: "Brand and Marketing Teams", description: "Teams creating brand assets and marketing materials use Recraft for efficient visual asset production" },
+      { title: "Product Designers", description: "UI and product designers use Recraft for icon generation and illustration creation for their interfaces" }
+    ]
+  },
+  "pipiads": {
+    whatIs: "Pipiads is a TikTok and Facebook ad spy tool that provides access to a large database of winning ad creatives from successful advertisers. It allows marketers and e-commerce entrepreneurs to research what ad creatives, products, and strategies are working for competitors and successful sellers. The platform provides filtering by niche, engagement metrics, and ad type to help users find relevant successful ads they can learn from. For performance marketers who want competitive intelligence on what is working in their market, Pipiads provides the ad research database that informs better campaign decisions.",
+    features: [
+      "Ad Database: Millions of TikTok and Facebook ads available for research",
+      "Winning Ads: Filter for high-performing ads by engagement metrics",
+      "Product Research: Find trending products being successfully advertised",
+      "Competitor Analysis: See what competitors are running",
+      "Creative Inspiration: Discover effective ad formats and messaging",
+      "Niche Filtering: Find ads in your specific product category",
+      "Historical Data: See how long ads have been running",
+      "Free Trial: Access limited ad database before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Pipiads",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Niche", description: "Sign up at pipiads.com and search for ads in your product category or niche. Filter by engagement and recency to find currently successful ads." },
+        { title: "Analyze Winning Creatives", description: "Study the high-performing ads in your niche. Analyze the hooks, visuals, messaging, and offers that are generating engagement." },
+        { title: "Apply to Your Campaigns", description: "Use your research to inform your own ad creative strategy. Build on what is proven to work rather than starting from guesswork." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Intelligence", description: "Running ads without knowing what works in your market is expensive guesswork. Research that shows actual high-performing creatives provides a starting point for better campaigns" },
+      { title: "Product Validation", description: "Seeing products being successfully advertised at scale confirms market demand before you invest in inventory or development" },
+      { title: "Time to Market", description: "Analyzing successful competitors reduces the testing time to find effective creative approaches" },
+      { title: "Competitive Awareness", description: "Understanding what competitors are running keeps you informed about market dynamics and helps identify gaps in their approach" }
+    ],
+    useCases: [
+      { title: "E-commerce Entrepreneurs", description: "Online sellers use Pipiads to research successful products and ad creatives before launching their own campaigns" },
+      { title: "Performance Marketers", description: "Paid advertising specialists use the platform for competitive intelligence and creative research" },
+      { title: "Dropshippers", description: "Dropshipping entrepreneurs use Pipiads to find trending products with proven advertising success" }
+    ]
+  },
+  "ai-image-extender": {
+    whatIs: "AI Image Extender is a tool that uses AI to expand the borders of existing images, adding new realistic content beyond the original edges. It analyzes the existing image content and generates seamlessly blending extensions that match the style, lighting, and subject matter of the original. This outpainting capability is useful for changing image aspect ratios, extending landscapes, or adding context around tightly cropped photos. For designers and photographers who need to expand images beyond their original boundaries, AI Image Extender provides intelligent outpainting that maintains visual coherence.",
+    features: [
+      "Image Outpainting: Extend images beyond their original borders",
+      "Seamless Blending: Generated extensions match original image style",
+      "Aspect Ratio Adjustment: Change portrait to landscape or any ratio",
+      "Content Matching: AI generates content appropriate to the existing scene",
+      "Landscape Extension: Expand outdoor and scenic photos",
+      "Portrait Extension: Add context around tightly cropped portraits",
+      "Custom Extension: Specify how much to extend in each direction",
+      "Free to Try: Basic image extension without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Image Extender",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to the AI Image Extender platform and upload the image you want to expand beyond its current borders." },
+        { title: "Set Extension Parameters", description: "Specify how much you want to extend the image in each direction. Set the target aspect ratio or specific pixel dimensions." },
+        { title: "Generate and Download", description: "The AI generates the extension and blends it with your original image. Download the expanded image for your design or publishing use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Aspect Ratio Flexibility", description: "Photos taken in portrait orientation that need to be used in landscape format are often unusable without AI extension that adds appropriate content" },
+      { title: "Composition Improvement", description: "Tightly cropped images that need more breathing room around the subject are improved by AI extension that adds contextually appropriate surroundings" },
+      { title: "Stock Photo Adaptation", description: "Stock images that are close to what you need but have the wrong proportions can be adapted through AI extension rather than finding a different image" },
+      { title: "Creative Expansion", description: "Artists and designers use outpainting as a creative technique to extend the world of an image beyond its original boundaries" }
+    ],
+    useCases: [
+      { title: "Graphic Designers", description: "Designers use AI image extension to adapt photos to required aspect ratios and add compositional space" },
+      { title: "Social Media Managers", description: "Content creators use image extension to adapt photos for different platform format requirements" },
+      { title: "Photographers", description: "Photographers use outpainting to recover photos that were cropped too tightly or to create panoramic extensions" }
+    ]
+  },
+  "ai-expand-image": {
+    whatIs: "AI Expand Image is an outpainting tool that uses artificial intelligence to expand photos and images beyond their original edges. It generates new image content that naturally extends the scene in the original photo, maintaining consistent style, lighting, and perspective. The tool is particularly useful for creating wider landscape versions of portrait photos, extending backgrounds for product photography, and adapting images for different aspect ratio requirements.",
+    features: [
+      "Smart Outpainting: AI-generated image expansion beyond original borders",
+      "Style Matching: Extensions match the visual style of the original",
+      "Multiple Directions: Expand top, bottom, left, right, or all sides",
+      "Landscape Creation: Turn portrait photos into landscape orientation",
+      "Background Extension: Extend backgrounds for product photos",
+      "Perspective Consistency: Maintains correct perspective in extensions",
+      "High Quality Output: Professional-quality expanded images",
+      "Free to Try: Basic expansion without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Expand Image",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Image", description: "Upload the image you want to expand to the AI Expand Image platform. Clear images with identifiable content expand most naturally." },
+        { title: "Choose Your Expansion", description: "Select the direction and amount of expansion you need. The tool shows a preview of the canvas size before generating." },
+        { title: "Generate and Review", description: "The AI generates the expanded portions of your image. Review the result and download if the expansion meets your needs." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Format Flexibility", description: "Images that need to work in multiple format contexts benefit from expansion tools that adapt one photo to different requirements without reshooting" },
+      { title: "Background Extension", description: "Product photography where the background needs to extend further for design layout requirements is handled by AI expansion without reshooting" },
+      { title: "Social Platform Adaptation", description: "Different social media platforms require different aspect ratios. AI expansion that adapts one photo to multiple requirements reduces the need for platform-specific photography" },
+      { title: "Creative Freedom", description: "Photographers who captured a scene with insufficient foreground or sky can recover composition through AI expansion" }
+    ],
+    useCases: [
+      { title: "Photo Editors", description: "Photography editors use AI expansion to adapt images for different format requirements" },
+      { title: "E-commerce Photographers", description: "Product photographers use background extension for flexible product image use" },
+      { title: "Social Media Content Creators", description: "Creators adapt images for different platform format requirements using AI expansion" }
+    ]
+  },
+  "virtualfit": {
+    whatIs: "VirtualFit is an AI virtual try-on platform that lets shoppers see how clothing and fashion items will look on their own body before purchasing. Users upload a photo of themselves and select clothing items from supported retailer catalogs, and the AI realistically renders the garments on their body. This reduces purchase uncertainty and return rates for online fashion shopping. For online clothing shoppers who struggle with buying decisions without physically trying items on, VirtualFit provides the virtual fitting room experience.",
+    features: [
+      "Virtual Try-On: See clothing on your own body before buying",
+      "Realistic Rendering: AI that accurately shows how garments fit and drape",
+      "Multiple Items: Try different clothing combinations",
+      "Size Guidance: Understanding of how different sizes will look",
+      "Retailer Integration: Works with supported fashion retailer catalogs",
+      "Body Diversity: Works across different body types and sizes",
+      "Quick Preview: Try-on results generated rapidly",
+      "Free to Try: Basic virtual try-on without payment"
+    ],
+    howToUse: {
+      title: "How to Use Virtualfit",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Sign up at virtualfit.ai and upload a photo of yourself in fitting clothes. The AI uses this as the base for virtual try-on." },
+        { title: "Browse and Select Items", description: "Browse the supported clothing catalog and select items you want to try on virtually. The AI renders each item on your photo." },
+        { title: "Make Informed Decisions", description: "Use the virtual try-on results to make more confident purchasing decisions. Add items to cart directly when you find pieces you like." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Return Reduction", description: "Online clothing purchases that are returned because they do not look right in person cost retailers and frustrate customers. Virtual try-on that gives realistic previews reduces this problem" },
+      { title: "Purchase Confidence", description: "Seeing clothes on your actual body type rather than a model who may not match your proportions produces more accurate expectations" },
+      { title: "Shopping Efficiency", description: "Virtual try-on that eliminates the need to order multiple sizes or items to find what works saves time and reduces waste" },
+      { title: "Body Inclusive Shopping", description: "Virtual try-on that works across different body types makes online fashion accessible to shoppers who previously could not predict how garments would look on them" }
+    ],
+    useCases: [
+      { title: "Online Fashion Shoppers", description: "People who shop for clothing online use VirtualFit for more confident purchasing decisions" },
+      { title: "Return-Averse Shoppers", description: "Shoppers who dislike the hassle of returns use virtual try-on to get purchases right the first time" },
+      { title: "Fashion Enthusiasts", description: "Style-conscious shoppers use virtual try-on to experiment with different clothing combinations before buying" }
+    ]
+  },
+  "krut-ai": {
+    whatIs: "Krut AI is an AI-powered product photography platform that generates professional product images from basic phone photos. It places products in lifestyle settings, removes and replaces backgrounds with studio or contextual environments, and enhances product photos to the quality standard that major e-commerce platforms expect. For online sellers who cannot afford professional product photography, Krut AI provides AI-generated commercial-quality product imagery from any starting photo.",
+    features: [
+      "Product Photo Generation: Transform basic photos into professional product imagery",
+      "Lifestyle Settings: Place products in contextual lifestyle environments",
+      "Background Replacement: Professional studio and scene backgrounds",
+      "Photo Enhancement: Improve lighting, color, and overall image quality",
+      "E-commerce Ready: Output optimized for major marketplace requirements",
+      "Multiple Scenes: Generate the same product in different settings",
+      "Batch Processing: Handle product catalogs efficiently",
+      "Free Trial: Try product photo generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Krut Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Product Photo", description: "Sign up at krut.ai and upload a basic photo of your product. Any clear product photo works as input, even phone camera shots." },
+        { title: "Select Your Scene", description: "Choose from available lifestyle settings and background options for your product category. Select multiple scenes for variety." },
+        { title: "Download Professional Photos", description: "Krut AI generates professional-quality product photos in your selected settings. Download and use directly in your marketplace listings." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photography Cost Elimination", description: "Professional product photography sessions cost hundreds to thousands. AI that produces comparable quality from phone photos changes the economics of e-commerce photography" },
+      { title: "Lifestyle Context", description: "Products shown in realistic lifestyle settings where customers can imagine using them convert better than products on plain white backgrounds" },
+      { title: "Catalog Scale", description: "Producing lifestyle photography for hundreds of products manually is prohibitively expensive. AI generation that handles catalog volume makes comprehensive lifestyle imagery practical" },
+      { title: "Quality Consistency", description: "Applying consistent professional quality treatment to all products creates a cohesive catalog appearance that builds brand credibility" }
+    ],
+    useCases: [
+      { title: "E-commerce Sellers", description: "Online retailers use Krut AI for professional product photography without studio photography costs" },
+      { title: "Small Brand Owners", description: "Entrepreneurs building brands use lifestyle product photography to create professional brand imagery" },
+      { title: "Marketplace Sellers", description: "Amazon and other marketplace sellers use Krut AI for catalog-quality product imagery that improves listing performance" }
+    ]
+  },
+  "dreamvid": {
+    whatIs: "DreamVid is an AI video generation platform that creates videos from text descriptions and images. It generates short video clips with realistic motion, visual effects, and scene transitions based on user prompts. The platform is designed for content creators and marketers who need AI-generated video content for social media, presentations, and creative projects. For creators who want to produce video content without cameras, actors, or editing expertise, DreamVid provides accessible AI video generation.",
+    features: [
+      "Text to Video: Generate videos from written descriptions",
+      "Image to Video: Animate still images into video sequences",
+      "Motion Generation: Realistic motion and physics in generated video",
+      "Multiple Styles: Different visual styles for different content needs",
+      "Short Clip Generation: Focused on short-form video content",
+      "Scene Creation: Generate specific scenes and environments",
+      "Fast Processing: Video clips generated in minutes",
+      "Free Credits: Try video generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Dreamvid",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Sign up at dreamvid.ai and describe the video you want to create. Include details about the scene, action, style, and mood." },
+        { title: "Generate Your Video", description: "DreamVid generates a video clip based on your description. Review the result and refine your prompt for better alignment with your vision." },
+        { title: "Download and Use", description: "Download your generated video clip and incorporate it into your content. Use multiple generated clips to build longer video sequences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Production Without Equipment", description: "Creating video content traditionally requires cameras, lighting, and editing skills. AI generation that produces video from text removes all these requirements" },
+      { title: "Concept Visualization", description: "Quickly generating video representations of concepts enables faster creative iteration than production-based video creation" },
+      { title: "Content Volume", description: "Social media that requires regular video content benefits from AI generation that can produce clips quickly without production overhead" },
+      { title: "Creative Exploration", description: "Experimenting with different visual styles and concepts through AI generation is cheaper and faster than exploring through actual video production" }
+    ],
+    useCases: [
+      { title: "Social Media Content Creators", description: "Creators who need regular video content use DreamVid for AI-generated clips that fill their content calendar" },
+      { title: "Marketers", description: "Marketing teams use AI video generation for quick concept visualization and social media content" },
+      { title: "Independent Filmmakers", description: "Creative filmmakers use AI video generation for pre-visualization and experimental content" }
+    ]
+  },
+  "supawork-ai": {
+    whatIs: "Supawork AI is an AI professional headshot generator that creates polished business profile photos from casual selfies or everyday photos. It uses AI to apply professional studio lighting, appropriate business attire, and professional backgrounds to transform any photo into a headshot suitable for LinkedIn, company websites, and professional profiles. For professionals who need high-quality headshots without a photography session, Supawork AI provides instant AI professional photo generation.",
+    features: [
+      "Professional Headshot Generation: Transform casual photos into business headshots",
+      "Studio Lighting: AI-applied professional lighting to any photo",
+      "Business Attire: Generate appropriate professional clothing on your photo",
+      "Background Options: Professional and corporate background choices",
+      "Multiple Styles: Different professional looks for different industries",
+      "LinkedIn Ready: Output optimized for professional profile use",
+      "Fast Generation: Professional photos in minutes",
+      "Free to Try: Basic headshot generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Supawork Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Sign up at supawork.ai and upload a clear photo of yourself. Front-facing photos with your face visible produce the best results." },
+        { title: "Select Your Style", description: "Choose the professional style you want - business formal, business casual, or industry-specific options. Select your preferred background." },
+        { title: "Download Your Headshots", description: "Supawork AI generates multiple professional headshot variations. Download the ones that best represent your professional image." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photography Session Cost", description: "Professional headshot photography sessions cost hundreds of dollars and require scheduling. AI generation that produces professional results in minutes eliminates this cost and friction" },
+      { title: "Consistent Quality", description: "Professional AI-generated headshots with consistent studio lighting and professional appearance are often comparable to or better than casual photographer sessions" },
+      { title: "Immediate Availability", description: "Job seekers and professionals who need an updated headshot immediately rather than waiting for a photography appointment use AI generation for instant results" },
+      { title: "Multiple Variations", description: "Getting several different professional looks from one AI session provides variety for different professional contexts" }
+    ],
+    useCases: [
+      { title: "Job Seekers", description: "Professionals updating their LinkedIn profile and job applications use Supawork AI for professional headshots without photography costs" },
+      { title: "Remote Workers", description: "Distributed team members who need professional headshots for company directories use AI generation without access to photography resources" },
+      { title: "Professionals in Any Field", description: "Anyone who needs a professional online presence uses Supawork AI for affordable professional headshots" }
+    ]
+  },
+  "pixelbin-io": {
+    whatIs: "PixelBin.io is an AI image optimization and transformation platform that provides cloud-based image processing for websites and applications. It delivers real-time image resizing, format conversion, compression, background removal, and AI enhancement through a CDN-powered API. For development teams who need intelligent image processing integrated into their web applications, PixelBin provides the image transformation infrastructure that handles all image processing without custom backend development.",
+    features: [
+      "Real-Time Transformation: Process images on-the-fly through URL parameters",
+      "Background Removal: AI background removal integrated into image pipeline",
+      "Format Optimization: Automatic WebP and AVIF conversion for performance",
+      "Image Compression: Intelligent compression that maintains visual quality",
+      "AI Enhancement: Upscaling and quality improvement in the pipeline",
+      "CDN Delivery: Global image delivery through content delivery network",
+      "No-Code Interface: Image transformations without writing code",
+      "Free Tier: Process images with monthly free quota"
+    ],
+    howToUse: {
+      title: "How to Use Pixelbin Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Integrate the API", description: "Sign up at pixelbin.io and integrate the image URL API into your application. Images are processed through URL parameters without backend code changes." },
+        { title: "Configure Your Transformations", description: "Set up the image transformations you need - resize, compress, convert format, remove background - through URL parameters or the dashboard interface." },
+        { title: "Deliver Optimized Images", description: "Your application delivers images through PixelBin CDN with all transformations applied automatically. Site performance improves with optimized image delivery." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Developer Experience", description: "Image processing infrastructure that works through URL parameters without backend code reduces development work significantly" },
+      { title: "Performance Impact", description: "Images that are not optimized for web delivery slow page load times significantly. Automated optimization that serves correctly sized and formatted images improves performance" },
+      { title: "Background Removal at Scale", description: "Applications that need background removal for user-uploaded images integrate PixelBin rather than building this capability from scratch" },
+      { title: "CDN Integration", description: "Image optimization combined with CDN delivery provides both quality transformation and fast global delivery from one service" }
+    ],
+    useCases: [
+      { title: "Web Development Teams", description: "Frontend and full-stack developers use PixelBin for image optimization and transformation in their web applications" },
+      { title: "E-commerce Platforms", description: "Online stores use PixelBin for automated product image optimization across their catalog" },
+      { title: "Content Management Teams", description: "Teams managing large image libraries use PixelBin for automated image processing and delivery optimization" }
+    ]
+  },
+  "ai-ease": {
+    whatIs: "AI Ease is an AI image enhancement and editing platform that provides a suite of AI-powered tools for improving photo quality. It includes background removal, image upscaling, photo restoration, object removal, and other enhancement tools that use artificial intelligence to improve images without manual editing work. For users who need quick AI-powered image improvements without advanced editing skills, AI Ease provides accessible enhancement tools that deliver professional results.",
+    features: [
+      "Background Removal: AI-precise background removal from photos",
+      "Image Upscaling: Enlarge images without quality degradation",
+      "Object Removal: Remove unwanted objects from photos with AI",
+      "Photo Restoration: Repair and restore old or damaged photos",
+      "Photo Enhancement: Improve overall image quality automatically",
+      "Batch Processing: Process multiple images simultaneously",
+      "Multiple Formats: Support for all common image file types",
+      "Free to Try: Basic enhancement without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Ease",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to aiease.ai and upload the image you want to enhance. Select the enhancement tool appropriate for your specific need." },
+        { title: "Apply Enhancement", description: "The AI processes your image and applies the selected enhancement. Preview the result before downloading." },
+        { title: "Download Enhanced Image", description: "Download your enhanced image in your preferred format. The improved version is ready for use in your projects or applications." }
+      ]
+    },
+    coreFeatures: [
+      { title: "All-in-One Convenience", description: "Having multiple AI enhancement tools in one platform eliminates the need for separate specialized tools for each type of image improvement" },
+      { title: "Accessibility", description: "AI enhancement tools that produce professional results without editing skills make image improvement accessible to non-technical users" },
+      { title: "Speed", description: "AI processing that takes seconds instead of the minutes required for manual editing makes image enhancement practical for high-volume needs" },
+      { title: "Cost Efficiency", description: "Free or affordable AI enhancement that produces professional-quality results reduces the need for expensive photo editing software or retouching services" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Creators who need quick image improvements use AI Ease for fast professional-quality enhancement" },
+      { title: "Small Business Owners", description: "Business owners use AI enhancement for product photos and marketing images without photo editing expertise" },
+      { title: "General Users", description: "Anyone who needs to improve image quality uses AI Ease for accessible professional-quality enhancement" }
+    ]
+  },
+  "artguru-ai": {
+    whatIs: "Artguru AI is an AI art generation platform that creates original artwork from text descriptions using multiple AI image generation models. It provides text-to-image generation across different artistic styles including realistic, anime, oil painting, watercolor, and many others. The platform also offers image-to-image transformation that applies different styles to uploaded photos. For creative users who want to generate original artwork or transform photos into different artistic styles, Artguru AI provides accessible AI art creation.",
+    features: [
+      "Text to Image: Generate original artwork from text descriptions",
+      "Multiple Art Styles: Realistic, anime, oil painting, watercolor, and more",
+      "Image to Image: Transform photos into different artistic styles",
+      "Style Transfer: Apply specific artistic styles to any image",
+      "High Resolution: Quality artwork output for various uses",
+      "Fast Generation: Results in seconds",
+      "Multiple Models: Different AI models for different artistic effects",
+      "Free Credits: Generate art with free credits"
+    ],
+    howToUse: {
+      title: "How to Use Artguru Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Artwork", description: "Sign up at artguru.ai and enter a text description of the artwork you want to create. Include style, subject, mood, and any specific elements." },
+        { title: "Select Your Style", description: "Choose from available art styles or specify the style in your prompt. Different styles produce dramatically different results from the same description." },
+        { title: "Generate and Explore", description: "Generate your artwork and explore different variations. Refine your prompt based on what you like and what needs improvement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Democratization", description: "Creating high-quality original artwork in specific styles previously required years of artistic skill development. AI that generates comparable results instantly democratizes creative expression" },
+      { title: "Style Range", description: "Having access to many different artistic styles from one platform allows exploration of which aesthetic direction works best for any given concept" },
+      { title: "Commercial Applications", description: "AI-generated artwork for blog posts, social media, and marketing materials provides a cost-effective alternative to stock photography or commissioned illustration" },
+      { title: "Inspiration Generation", description: "Artists who use AI generation to explore concepts quickly gather more visual ideas than manual sketching would produce in the same time" }
+    ],
+    useCases: [
+      { title: "Content Creators and Bloggers", description: "Writers and content creators use Artguru AI for blog illustrations and social media images" },
+      { title: "Marketing Teams", description: "Marketing professionals use AI art generation for campaign visuals and brand content" },
+      { title: "Creative Enthusiasts", description: "People who enjoy creative expression use Artguru AI for exploring artistic ideas without drawing skills" }
+    ]
+  },
+  "emoji-combiner": {
+    whatIs: "Emoji Combiner is a tool that creates new unique emoji by combining two or more existing emojis into a single hybrid image. It uses Google Emoji Kitchen technology to blend emoji designs into creative combinations that express more complex emotions and concepts than individual emojis can convey. For emoji enthusiasts and messaging app users who want more expressive and unique emoji options, Emoji Combiner provides access to the vast library of possible emoji combinations.",
+    features: [
+      "Emoji Blending: Combine two emojis into a new unique hybrid",
+      "Google Emoji Kitchen: Access to Google official emoji combination technology",
+      "Thousands of Combinations: Explore the vast library of possible blends",
+      "High Quality: Clean high-resolution emoji output",
+      "Download Options: Save combined emoji as image files",
+      "Creative Expression: Find the perfect emoji for any emotion or situation",
+      "Easy Interface: Simple two-emoji selection interface",
+      "Free to Use: All emoji combinations without payment"
+    ],
+    howToUse: {
+      title: "How to Use Emoji Combiner",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your First Emoji", description: "Go to the Emoji Combiner platform and select the first emoji you want to combine from the emoji picker." },
+        { title: "Choose Your Second Emoji", description: "Select the second emoji to blend with your first selection. The platform shows the combined result immediately." },
+        { title: "Download Your Emoji", description: "Download your favorite emoji combinations as image files for use in messages, social media, or anywhere you want to use them." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Expressive Communication", description: "Single emojis cannot always capture the specific emotional nuance you want to express. Combinations that blend two feelings create more precise emotional communication" },
+      { title: "Creative Discovery", description: "Browsing emoji combinations reveals unexpected and delightful blends that inspire creative communication approaches" },
+      { title: "Uniqueness", description: "Custom emoji combinations that most people have not seen provide a more distinctive messaging experience than standard emoji use" },
+      { title: "Fun Factor", description: "Discovering surprising and amusing emoji combinations is inherently entertaining and drives exploration of the full combination library" }
+    ],
+    useCases: [
+      { title: "Heavy Emoji Users", description: "People who communicate extensively through emoji use Emoji Combiner for more expressive and unique emoji options" },
+      { title: "Social Media Content Creators", description: "Creators use unique emoji combinations for distinctive visual communication in their posts" },
+      { title: "Young Mobile Users", description: "Younger audiences who use emoji as primary communication currency use emoji blending for creative expression" }
+    ]
+  },
   "heyphoto": {
     whatIs: "HeyPhoto is an AI photo editing and age progression tool that transforms portraits using artificial intelligence. It applies realistic aging effects, de-aging filters, and other facial transformation features that show how a person might look at different ages. The app uses deep learning to analyze facial features and apply transformations that preserve the person identity while accurately modeling age-related changes. For people curious about aging, creating fun content, or exploring appearance at different life stages, HeyPhoto provides accessible AI portrait transformation.",
     features: [
