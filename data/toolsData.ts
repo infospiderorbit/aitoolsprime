@@ -666,7 +666,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-voice-cloning": [
       { id: "kits-ai", name: "Kits AI", description: "AI voice cloning for musicians", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🎵", category: "voice-generation-conversion", subcategory: "ai-voice-cloning" },
       { id: "topmediai", name: "TopMediai", description: "AI voice cloning and generation", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🎤", category: "voice-generation-conversion", subcategory: "ai-voice-cloning" },
-      { id: "fineshare-finevoice", name: "Fineshare FineVoice", description: "AI voice cloning and editing", url: "", upvotes: 432, verified: true, rating: 4.2, icon: "🎙️", category: "voice-generation-conversion", subcategory: "ai-voice-cloning" }
     ],
     "ai-voice-enhancer": [
       { id: "vocal-image", name: "Vocal Image", description: "AI voice enhancement and clarity", url: "", upvotes: 765, verified: true, rating: 4.5, icon: "🎤", category: "voice-generation-conversion", subcategory: "ai-voice-enhancer" },
@@ -680,10 +679,8 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "playai", name: "PlayAI", description: "AI voice generation and cloning", url: "", upvotes: 1890, verified: true, rating: 4.7, icon: "▶️", category: "voice-generation-conversion", subcategory: "ai-voice-generator" },
       { id: "fineshare", name: "FineShare", description: "AI voice generator and editor", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🎤", category: "voice-generation-conversion", subcategory: "ai-voice-generator" },
       { id: "fish-audio-generator", name: "Fish Audio", description: "Advanced AI voice synthesis", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🐟", category: "voice-generation-conversion", subcategory: "ai-voice-generator" },
-      { id: "fineshare-finevoice-generator", name: "Fineshare FineVoice", description: "Professional AI voice generation", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🎙️", category: "voice-generation-conversion", subcategory: "ai-voice-generator" }
     ],
     "ai-voice-over": [
-      { id: "topmediai-voiceover", name: "TopMediai", description: "AI voice over and dubbing", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🎤", category: "voice-generation-conversion", subcategory: "ai-voice-over" },
       { id: "easeus-voiceover", name: "EaseUS", description: "AI voice over software", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🛠️", category: "voice-generation-conversion", subcategory: "ai-voice-over" },
       { id: "speechify-voiceover", name: "Speechify", description: "AI voice over generation", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🗣️", category: "voice-generation-conversion", subcategory: "ai-voice-over" },
       { id: "playai-voiceover", name: "PlayAI", description: "Professional AI voice over", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "▶️", category: "voice-generation-conversion", subcategory: "ai-voice-over" },
@@ -1435,7 +1432,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "storynest-ai", name: "StoryNest.ai", description: "Story-driven comic AI", url: "", upvotes: 543, verified: false, rating: 4.3, icon: "🪺", category: "art-creative-design", subcategory: "ai-comic-generator" }
     ],
     "ai-cover-generator": [
-      { id: "topmediai-cover", name: "TopMediai", description: "AI cover generation tool", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🎤", category: "art-creative-design", subcategory: "ai-cover-generator" },
       { id: "musicfy-ai", name: "Musicfy AI", description: "Music cover AI creator", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🎵", category: "art-creative-design", subcategory: "ai-cover-generator" },
       { id: "audimee", name: "Audimee", description: "Audio cover AI platform", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🎧", category: "art-creative-design", subcategory: "ai-cover-generator" },
       { id: "singify-ai", name: "Singify AI", description: "Singing cover AI generator", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "🎙️", category: "art-creative-design", subcategory: "ai-cover-generator" },
@@ -2975,7 +2971,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-midi-generator": [
       { id: "tuneonmusic", name: "Tuneonmusic", description: "AI MIDI file generator", url: "", upvotes: 2156, verified: true, rating: 4.7, icon: "🎶", category: "music-audio", subcategory: "ai-midi-generator" },
-      { id: "polymath-midi", name: "Polymath", description: "Advanced MIDI generation tool", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🔷", category: "music-audio", subcategory: "ai-midi-generator" },
       { id: "klangio", name: "Klangio", description: "Convert audio to MIDI with AI", url: "", upvotes: 1765, verified: true, rating: 4.5, icon: "🎹", category: "music-audio", subcategory: "ai-midi-generator" },
       { id: "soundful-midi", name: "Soundful", description: "Create MIDI patterns instantly", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🎼", category: "music-audio", subcategory: "ai-midi-generator" },
       { id: "cassetteai", name: "CassetteAI", description: "AI-powered MIDI composition", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "📼", category: "music-audio", subcategory: "ai-midi-generator" }
@@ -3000,7 +2995,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "ae-studio-skunkworks", name: "AE Studio's Same Day Skunkworks", description: "Rapid AI rap prototyping", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "⚡", category: "music-audio", subcategory: "ai-rap-generator" }
     ],
     "ai-rap-lyrics-generator": [
-      { id: "ai-rap-generator-lyrics", name: "AI Rap Generator", description: "Generate rap lyrics with AI", url: "", upvotes: 2156, verified: true, rating: 4.7, icon: "📝", category: "music-audio", subcategory: "ai-rap-lyrics-generator" },
       { id: "rhyme-cool", name: "Rhyme.cool", description: "AI rhyme and rap lyrics generator", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🎤", category: "music-audio", subcategory: "ai-rap-lyrics-generator" },
       { id: "supreme-plans", name: "Supreme Plans", description: "Professional rap lyrics writing", url: "", upvotes: 1765, verified: true, rating: 4.5, icon: "👑", category: "music-audio", subcategory: "ai-rap-lyrics-generator" },
       { id: "barrs", name: "Barrs", description: "AI rap bars generator", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🎵", category: "music-audio", subcategory: "ai-rap-lyrics-generator" },
