@@ -1,4 +1,466 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "split-prompt": {
+    whatIs: "Split Prompt is an AI tool that helps users craft more effective AI prompts by breaking down complex requests into optimized component prompts. It analyzes your intended AI task and generates structured prompts that get better results from AI systems. For users who struggle to get the outputs they want from AI tools, Split Prompt provides prompt engineering assistance that improves AI interaction quality.",
+    features: [
+      "Prompt Optimization: Improve your AI prompts for better results",
+      "Complex Task Breaking: Divide complex requests into effective components",
+      "Prompt Analysis: Understand why prompts succeed or fail",
+      "Structure Guidance: Learn how to structure prompts effectively",
+      "Multiple AI Systems: Prompts optimized for different AI tools",
+      "Learning Tool: Understand prompt engineering principles",
+      "Quick Improvement: Fast prompt optimization suggestions",
+      "Free to Try: Basic prompt help without payment"
+    ],
+    howToUse: {
+      title: "How to Use Split Prompt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Goal", description: "Sign up at splitprompt.ai and describe what you want to accomplish with AI." },
+        { title: "Review Optimized Prompts", description: "Split Prompt analyzes your goal and generates optimized prompts structured for better AI results." },
+        { title: "Use and Iterate", description: "Use the optimized prompts with your AI tool and refine further based on results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Prompt Quality Impact", description: "The quality of AI outputs depends heavily on prompt quality. Better prompts that follow effective patterns produce dramatically better results" },
+      { title: "Learning Through Use", description: "Understanding why suggested prompts work teaches prompt engineering principles that improve all future AI interactions" },
+      { title: "Complex Task Handling", description: "Breaking complex requests into structured components that AI can handle systematically produces more complete and accurate results" },
+      { title: "Accessibility", description: "Prompt engineering expertise that produces better AI results is made accessible to users who have not studied prompt techniques" }
+    ],
+    useCases: [
+      { title: "AI Tool Users", description: "People who use AI tools regularly use Split Prompt for better results from their AI interactions" },
+      { title: "Content Creators", description: "Creators who use AI for content production use prompt optimization for more useful AI assistance" },
+      { title: "Business Professionals", description: "Knowledge workers who use AI for work tasks use optimized prompts for more accurate and useful AI outputs" }
+    ]
+  },
+  "gpt-splitter": {
+    whatIs: "GPT Splitter is a tool that divides long texts and documents into appropriately sized chunks for processing through AI language models with context window limitations. It intelligently splits content at logical breakpoints while maintaining context continuity across chunks. For users who need to process long documents through AI systems with token limits, GPT Splitter provides the chunking functionality that makes long document AI processing practical.",
+    features: [
+      "Intelligent Chunking: Split documents at logical breakpoints",
+      "Context Preservation: Maintain meaning across chunk boundaries",
+      "Token Counting: Calculate appropriate chunk sizes for AI models",
+      "Multiple AI Models: Size chunks appropriately for different models",
+      "Overlap Options: Add context overlap between chunks",
+      "Format Preservation: Maintain document formatting in chunks",
+      "Batch Processing: Split multiple documents simultaneously",
+      "Free to Use: Basic text splitting without payment"
+    ],
+    howToUse: {
+      title: "How to Use Gpt Splitter",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Document", description: "Go to GPT Splitter and upload or paste the long text you need to split for AI processing." },
+        { title: "Configure Your Chunks", description: "Set the target chunk size based on your AI model's context window and any overlap requirements." },
+        { title: "Process and Use Chunks", description: "GPT Splitter divides your document into appropriately sized chunks. Process each chunk through your AI system." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Context Window Reality", description: "AI language models that have token limits cannot process long documents in one pass. Intelligent chunking that enables processing of any length document solves this fundamental limitation" },
+      { title: "Logical Split Points", description: "Splitting at sentence and paragraph boundaries rather than arbitrary character counts preserves meaning and context across chunks" },
+      { title: "Model Flexibility", description: "Chunk sizing that can be configured for different AI models serves users who work with multiple AI systems with different context limits" },
+      { title: "Processing Efficiency", description: "Pre-split chunks that are ready for AI processing reduce the manual work of managing long document AI workflows" }
+    ],
+    useCases: [
+      { title: "Researchers and Academics", description: "Researchers processing long papers and documents through AI use GPT Splitter for document chunking" },
+      { title: "Business Analysts", description: "Professionals who analyze long reports and documents with AI use text splitting for complete document processing" },
+      { title: "Developers", description: "Software developers building AI document processing pipelines use GPT Splitter for document chunking functionality" }
+    ]
+  },
+  "moises": {
+    whatIs: "Moises is an AI music practice and production app that provides stem separation, pitch shifting, tempo adjustment, and chord detection for musicians and producers. It separates songs into individual stems for practice and production use, allows musicians to slow down tracks without changing pitch, and identifies chords in any song. For musicians who want to practice, learn, and produce with existing recordings, Moises provides comprehensive AI music tools.",
+    features: [
+      "Stem Separation: Split songs into vocals, drums, bass, and instruments",
+      "Tempo Control: Slow down music without changing pitch",
+      "Pitch Shifting: Change key of any song",
+      "Chord Detection: Identify chords in any recording",
+      "Practice Mode: Tools specifically designed for music practice",
+      "Loop Creation: Create practice loops from any section",
+      "Metronome: Built-in metronome for practice sessions",
+      "Free Plan: Basic music practice tools without payment"
+    ],
+    howToUse: {
+      title: "How to Use Moises",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload or Import Your Song", description: "Sign up at moises.ai and upload or import the song you want to practice with or analyze." },
+        { title: "Use Your Practice Tools", description: "Apply stem separation to isolate the part you want to learn. Use tempo control to slow difficult sections." },
+        { title: "Practice and Learn", description: "Practice along with isolated stems at your own pace. Use chord detection to understand the harmonic content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Practice Effectiveness", description: "Isolating specific instrument parts and slowing down difficult sections produces more effective practice than playing along with full-speed recordings" },
+      { title: "Song Learning", description: "Hearing the exact notes and chords in a recording through stem isolation and chord detection is more accurate than ear transcription alone" },
+      { title: "Tempo Flexibility", description: "Slowing music without pitch change preserves the musical content while making fast passages learnable at any skill level" },
+      { title: "Production Use", description: "Stem separation for production purposes that provides individual tracks from existing recordings enables remixing and sampling workflows" }
+    ],
+    useCases: [
+      { title: "Musicians Learning Songs", description: "Players use Moises to isolate their instrument's part and practice at appropriate speeds" },
+      { title: "Music Students", description: "Students use AI music tools for song analysis, chord learning, and controlled practice" },
+      { title: "Music Producers", description: "Producers use stem separation and analysis tools for production and remix work" }
+    ]
+  },
+  "loudly": {
+    whatIs: "Loudly is an AI music generation platform that creates original royalty-free music for content creators, games, and applications. It provides a large library of AI-generated tracks alongside tools for generating custom music from genre and mood parameters. Loudly emphasizes quality and musical authenticity in its AI music generation. For content creators who need background music that sounds genuinely musical rather than obviously machine-generated, Loudly provides quality-focused AI music.",
+    features: [
+      "AI Music Library: Large collection of AI-generated royalty-free tracks",
+      "Custom Generation: Create music matching specific parameters",
+      "Mood and Genre: Filter and generate by musical characteristics",
+      "Quality Focus: Musically authentic AI generation",
+      "Royalty-Free: All tracks without licensing concerns",
+      "Commercial Use: Cleared for commercial content use",
+      "Multiple Formats: Download in different audio formats",
+      "Free Plan: Access basic tracks without payment"
+    ],
+    howToUse: {
+      title: "How to Use Loudly",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse or Generate", description: "Sign up at loudly.com and browse the AI music library or use generation tools for custom music." },
+        { title: "Find Your Track", description: "Search by genre, mood, tempo, and energy to find music matching your content needs." },
+        { title: "Download and Use", description: "Download your chosen or generated track for use in your content without licensing concerns." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Musical Quality", description: "AI music that sounds like it was made by musicians rather than obviously computer-generated serves content that requires genuine musical quality" },
+      { title: "Library Breadth", description: "A large library of pre-generated tracks provides immediate options without waiting for custom generation" },
+      { title: "Commercial Clarity", description: "Clear commercial licensing for all generated tracks removes legal uncertainty from using AI music in monetized content" },
+      { title: "Content Creator Focus", description: "AI music specifically designed for content creator use cases produces better results than general-purpose music generation" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Video and podcast creators use Loudly for background music that enhances rather than distracts from their content" },
+      { title: "Game Developers", description: "Indie game makers use AI music for game soundtracks without music licensing costs" },
+      { title: "Marketing Professionals", description: "Marketers use royalty-free AI music for brand content and advertising without licensing concerns" }
+    ]
+  },
+  "musicfy-ai": {
+    whatIs: "Musicfy AI is an AI music creation platform that enables users to create AI covers of songs using different AI voices and generate original music from text descriptions. It provides tools for creating AI vocal covers with various voice styles and for generating complete original songs. For music enthusiasts and creators who want to explore AI music creation including covers and original generation, Musicfy AI provides accessible music creation tools.",
+    features: [
+      "AI Cover Creation: Generate covers using different AI voices",
+      "Original Music Generation: Create new songs from descriptions",
+      "Voice Library: Multiple AI voice options for covers",
+      "Multiple Genres: Various musical style options",
+      "Song Generation: Complete original song creation",
+      "Quality Output: Musically produced cover and original tracks",
+      "Download Options: Save generated music",
+      "Free Credits: Try music creation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Musicfy Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Creation Type", description: "Sign up at musicfy.lol and select whether you want to create an AI cover or generate original music." },
+        { title: "Configure Your Music", description: "For covers, select the song and AI voice. For originals, describe the music you want to create." },
+        { title: "Generate and Download", description: "Musicfy AI creates your music. Download the result for personal use or sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cover Entertainment", description: "AI covers that reinterpret songs with different voices create genuinely entertaining alternative versions of familiar music" },
+      { title: "Original Creation", description: "Complete original song generation from descriptions makes music creation accessible without any musical skills" },
+      { title: "Voice Variety", description: "Access to multiple AI voices for cover creation provides creative options beyond what a single vocalist could produce" },
+      { title: "Music Exploration", description: "Creating both covers and originals from one platform provides comprehensive AI music creation capabilities" }
+    ],
+    useCases: [
+      { title: "Music Enthusiasts", description: "People who love music create AI covers and original songs using Musicfy AI for entertainment" },
+      { title: "Content Creators", description: "Creators use AI music for original content and entertaining cover song content" },
+      { title: "Aspiring Musicians", description: "Developing artists use AI music tools for exploring musical creativity and hearing their ideas realized" }
+    ]
+  },
+  "aimusicgen-ai": {
+    whatIs: "AIMusicGen AI is an AI music generation platform that creates original music from text prompts using advanced generative AI models. It produces complete musical pieces with appropriate instrumentation, arrangement, and production quality across different genres and styles. For producers and creators who want AI-generated music with high fidelity to their text descriptions, AIMusicGen AI provides capable text-to-music generation.",
+    features: [
+      "Text to Music: Generate music from detailed text descriptions",
+      "High Fidelity: Accurate interpretation of style descriptions",
+      "Multiple Genres: Wide range of musical styles",
+      "Full Production: Complete arrangement and mixing",
+      "Instrumental Tracks: Generate music without vocals",
+      "Vocal Tracks: Generate music with AI vocals",
+      "Download Options: Export in standard audio formats",
+      "Free Credits: Try generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Aimusicgen Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Music Prompt", description: "Sign up at aimusicgen.ai and write a detailed description of the music you want to generate." },
+        { title: "Generate Your Music", description: "AIMusicGen AI creates music based on your prompt with appropriate style and production." },
+        { title: "Download and Use", description: "Download your generated music for use in content, projects, or personal listening." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Prompt Fidelity", description: "Music generation that accurately interprets detailed style descriptions produces results that match creative intent more reliably" },
+      { title: "Production Quality", description: "Complete musical production with appropriate arrangement and mixing produces more usable results than raw unprocessed generation" },
+      { title: "Genre Range", description: "Wide genre coverage from one generation platform serves creators who work across different musical styles" },
+      { title: "Content Applications", description: "Original AI-generated music for content creation that sounds genuinely musical serves the quality requirements of professional content" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Creators use AIMusicGen for original background music across their video and audio content" },
+      { title: "Music Producers", description: "Producers use AI generation for creative inspiration and quick production starting points" },
+      { title: "Game Developers", description: "Game makers use AI music generation for diverse game soundtracks" }
+    ]
+  },
+  "beatoven-ai": {
+    whatIs: "Beatoven AI is an AI music composition platform that creates custom royalty-free background music for videos and podcasts. It generates music that adapts to the mood and content of your project through simple mood and genre selection. Beatoven is designed specifically for content creators who need background music that enhances rather than competes with their content. For podcasters and video creators who want purpose-built background music generation, Beatoven AI provides content-creator focused music composition.",
+    features: [
+      "Mood-Based Composition: Generate music matching specific emotional tones",
+      "Content Creator Focus: Music designed for background use",
+      "Genre Selection: Various musical style options",
+      "Royalty-Free: Generated music without licensing concerns",
+      "Video Length Matching: Music timed to your content length",
+      "Podcast Ready: Audio optimized for speech accompaniment",
+      "Quality Production: Professional-sounding music output",
+      "Free Plan: Basic composition without payment"
+    ],
+    howToUse: {
+      title: "How to Use Beatoven Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Your Parameters", description: "Sign up at beatoven.ai and select the mood, genre, and length matching your content needs." },
+        { title: "Generate Your Background Music", description: "Beatoven composes original music based on your parameters. Preview and adjust if needed." },
+        { title: "Download for Your Content", description: "Download your generated background music and use it in your video or podcast without licensing concerns." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content Purpose", description: "Music designed specifically for background use that supports rather than distracts from spoken content serves creators better than general-purpose music" },
+      { title: "Mood Matching", description: "Background music that emotionally matches your content enhances the viewer experience rather than creating dissonance" },
+      { title: "Length Flexibility", description: "Music generated to match specific content lengths eliminates the awkward fades and loops of fixed-length tracks" },
+      { title: "Creator Economics", description: "Royalty-free AI-generated music eliminates the ongoing licensing costs that content monetization would otherwise require for background music" }
+    ],
+    useCases: [
+      { title: "Video Content Creators", description: "YouTubers and video producers use Beatoven for background music tailored to their content mood and length" },
+      { title: "Podcasters", description: "Podcast creators use Beatoven for intro, outro, and transitional music that fits their show's tone" },
+      { title: "Online Course Creators", description: "Educational content producers use AI background music for course videos that maintain appropriate academic tone" }
+    ]
+  },
+  "music-muse-ai": {
+    whatIs: "Music Muse AI is an AI music inspiration and generation platform that helps musicians overcome creative blocks and develop musical ideas. It generates melody suggestions, chord progressions, rhythm patterns, and complete musical snippets that serve as creative starting points. For musicians who experience creative blocks or want AI assistance in the composition process, Music Muse AI provides intelligent musical inspiration.",
+    features: [
+      "Melody Generation: Create melodic ideas and motifs",
+      "Chord Progressions: Generate harmonic chord sequences",
+      "Rhythm Patterns: Create rhythmic patterns and grooves",
+      "Musical Snippets: Complete short musical ideas",
+      "Style-Aware: Generation appropriate to different musical styles",
+      "MIDI Export: Export musical ideas to your DAW",
+      "Inspiration Focus: Designed to spark creative thinking",
+      "Free to Try: Basic generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Music Muse Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Creative Need", description: "Sign up at musicmuse.ai and describe the type of musical inspiration you need." },
+        { title: "Explore Generated Ideas", description: "Music Muse AI generates musical ideas including melodies, chords, and rhythms. Explore the suggestions for inspiration." },
+        { title: "Develop Your Favorites", description: "Take the generated musical ideas that resonate and develop them into complete compositions in your DAW." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Block Solution", description: "Musicians who encounter creative blocks benefit from external musical ideas that spark new directions in their thinking" },
+      { title: "Starting Point Efficiency", description: "Musical starting points that composers develop and refine are created faster with AI assistance than from complete imagination" },
+      { title: "Style Exploration", description: "AI-generated ideas in different styles help musicians explore approaches outside their comfort zone" },
+      { title: "Composition Learning", description: "Examining generated musical ideas that work teaches composers about effective melodic and harmonic construction" }
+    ],
+    useCases: [
+      { title: "Songwriters", description: "Songwriters use Music Muse AI for melodic and harmonic inspiration during the composition process" },
+      { title: "Film Composers", description: "Composers working on soundtracks use AI inspiration for quickly generating thematic ideas" },
+      { title: "Music Students", description: "Students learning composition use AI-generated examples for studying effective musical construction" }
+    ]
+  },
+  "melobytes": {
+    whatIs: "Melobytes is an AI music creation platform that transforms text, images, and other inputs into music and songs. It generates musical interpretations of non-musical inputs, creating unique songs from poems, quotes, or other text content. The platform also provides AI vocal generation and various music transformation tools. For creative users who want to explore unusual AI music creation approaches, Melobytes provides distinctive music generation from diverse inputs.",
+    features: [
+      "Text to Music: Transform written text into musical compositions",
+      "Image to Music: Generate music inspired by image inputs",
+      "AI Vocals: Generated vocal performances",
+      "Poem Musicalization: Turn poems and lyrics into songs",
+      "Creative Transformation: Unique music from various input types",
+      "Multiple Styles: Various musical approaches",
+      "Experimental: Distinctive creative AI music exploration",
+      "Free Credits: Try creation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Melobytes",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Input Type", description: "Sign up at melobytes.com and select whether you want to generate music from text, image, or other input." },
+        { title: "Provide Your Input", description: "Enter your text, upload your image, or provide the input you want transformed into music." },
+        { title: "Receive Your Music", description: "Melobytes generates a musical interpretation of your input. Download and explore the creative result." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Novelty", description: "Transforming non-musical inputs into music creates genuinely novel creative experiences that standard music generation cannot provide" },
+      { title: "Poem and Lyric Musicalization", description: "Converting written poetry and lyrics into actual music bridges the gap between written and musical creative expression" },
+      { title: "Unexpected Connections", description: "Music generated from images and visual inputs reveals unexpected connections between visual and musical aesthetics" },
+      { title: "Experimental Art", description: "Melobytes serves artists interested in exploring the boundaries of AI creative generation beyond conventional music prompts" }
+    ],
+    useCases: [
+      { title: "Creative Artists", description: "Experimental artists use Melobytes for distinctive AI music creation from unusual inputs" },
+      { title: "Poets and Writers", description: "Writers use Melobytes to hear musical interpretations of their written work" },
+      { title: "Music Technology Enthusiasts", description: "People fascinated by AI music generation use Melobytes for unique creative exploration" }
+    ]
+  },
+  "dubbing-ai": {
+    whatIs: "Dubbing AI is an AI-powered video dubbing and translation platform that translates spoken content in videos into other languages while maintaining the original speaker voice characteristics. It uses AI translation combined with voice synthesis to create dubbed versions of videos that sound natural in target languages. For businesses and creators who need to reach multilingual audiences with video content, Dubbing AI provides efficient AI-powered video localization.",
+    features: [
+      "AI Video Dubbing: Translate and dub videos automatically",
+      "Voice Preservation: Maintain speaker voice in translated version",
+      "Multiple Languages: Dubbing across many target languages",
+      "Lip Sync: Synchronized dubbed audio with video",
+      "Quality Translation: Accurate language translation",
+      "Fast Turnaround: Quick dubbing production",
+      "Download Output: Save dubbed video versions",
+      "Free to Try: Basic dubbing before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Dubbing Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Sign up at dubbing.ai and upload the video you want dubbed into another language." },
+        { title: "Select Target Language", description: "Choose the language for your dubbed version. Dubbing AI translates and generates the dubbed audio." },
+        { title: "Download Your Dubbed Video", description: "Preview and download your video with the new language audio track." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Global Reach", description: "Video content dubbed into multiple languages reaches audiences that cannot or prefer not to read subtitles" },
+      { title: "Voice Authenticity", description: "Maintaining original speaker voice characteristics in dubbed versions creates more authentic viewing experiences than generic dubbed voices" },
+      { title: "Production Speed", description: "AI dubbing that combines translation and voice synthesis automatically is dramatically faster than traditional dubbing workflows" },
+      { title: "Cost Efficiency", description: "AI dubbing at a fraction of traditional studio dubbing costs makes video localization economically accessible to independent creators" }
+    ],
+    useCases: [
+      { title: "Content Creators Globalizing", description: "Video creators expanding to international audiences use Dubbing AI for multilingual content" },
+      { title: "Businesses with Training Content", description: "Organizations dub training videos for international teams using AI dubbing" },
+      { title: "Educational Content Providers", description: "Online educators use AI dubbing to expand course access to non-English speaking students" }
+    ]
+  },
+  "chord-identifier": {
+    whatIs: "Chord Identifier is an AI tool that identifies musical chords from audio recordings, enabling musicians to quickly determine what chords are being played in any song or recording. It analyzes audio and provides accurate chord identification with timing information. For musicians learning songs by ear or analyzing music, Chord Identifier provides instant AI-powered chord analysis that replaces slow manual ear training.",
+    features: [
+      "Chord Detection: Identify chords in any audio recording",
+      "Real-Time Analysis: Live chord identification from audio",
+      "Timing Information: Know when each chord occurs",
+      "Complex Chords: Identify extended and altered chords",
+      "Multiple Instruments: Works with guitar, piano, and other sources",
+      "Export Options: Save chord analysis results",
+      "Learning Tool: Understand harmonic content of any song",
+      "Free to Use: Basic chord identification without payment"
+    ],
+    howToUse: {
+      title: "How to Use Chord Identifier",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Audio", description: "Go to the Chord Identifier platform and upload the audio you want analyzed for chord content." },
+        { title: "Review Chord Analysis", description: "The AI identifies and displays the chords in your audio with timing information showing when each chord occurs." },
+        { title: "Use Your Analysis", description: "Use the chord analysis to learn the song, understand its harmonic structure, or prepare for your own performance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Ear Training Supplement", description: "Chord identification AI that confirms what musicians hear trains the ear faster than struggling alone with difficult chord recognition" },
+      { title: "Song Learning", description: "Knowing exactly what chords are in a song rather than approximating through ear training produces more accurate learning" },
+      { title: "Harmony Education", description: "Understanding the chords in professional recordings teaches harmonic principles through practical musical examples" },
+      { title: "Speed", description: "Instant chord analysis that takes seconds replaces the hours of slow ear training that manual chord identification requires" }
+    ],
+    useCases: [
+      { title: "Guitarists and Pianists", description: "Instrumentalists learning songs by ear use Chord Identifier for accurate chord analysis" },
+      { title: "Music Students", description: "Students analyzing harmony and song structure use AI chord detection for accurate results" },
+      { title: "Music Teachers", description: "Educators use chord identification for demonstrating harmonic content in recordings to students" }
+    ]
+  },
+  "chordcreate": {
+    whatIs: "ChordCreate is an AI chord progression generator that creates original chord progressions for songwriters and music producers. It generates harmonically interesting chord sequences in specific keys, scales, and styles that serve as the harmonic foundation for new songs. For composers and songwriters who want diverse chord progressions beyond their habitual choices, ChordCreate provides AI-powered harmonic inspiration.",
+    features: [
+      "Chord Progression Generation: Create original harmonic sequences",
+      "Key and Scale: Generate in specific musical keys and modes",
+      "Style Awareness: Progressions appropriate to different genres",
+      "Harmonic Variety: Access diverse progressions beyond common choices",
+      "MIDI Export: Use progressions in your DAW",
+      "Theory Informed: Harmonically sound progressions",
+      "Variation Generation: Multiple different progressions per request",
+      "Free to Use: Basic generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Chordcreate",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Your Parameters", description: "Go to ChordCreate and select your key, scale, and style preferences for your chord progression." },
+        { title: "Generate Your Progression", description: "ChordCreate generates harmonically interesting chord progressions based on your parameters." },
+        { title: "Use in Your Song", description: "Export as MIDI or use the progression as the harmonic foundation for your composition." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Harmonic Diversity", description: "Chord progressions beyond habitual patterns that composers tend to repeat produce more harmonically interesting and varied songs" },
+      { title: "Theory Application", description: "AI-generated progressions that apply music theory produce sound harmonic sequences without requiring composers to know theory explicitly" },
+      { title: "Creative Starting Points", description: "Progressions that spark musical ideas provide faster starting points for composition than trying to develop harmony from scratch" },
+      { title: "Genre Awareness", description: "Progressions that fit the harmonic conventions of specific genres sound more authentic and appropriate in context" }
+    ],
+    useCases: [
+      { title: "Songwriters", description: "Composers use ChordCreate for harmonic inspiration that moves beyond their habitual chord choices" },
+      { title: "Music Producers", description: "Producers use generated progressions as harmonic starting points for new tracks" },
+      { title: "Music Students", description: "Students learning harmony use AI progressions for understanding how chords work together in different styles" }
+    ]
+  },
+  "lamucal": {
+    whatIs: "Lamucal is a music learning and chord discovery platform that helps musicians find chords, scales, and chord progressions for any song. It provides comprehensive chord libraries, fingering diagrams for guitar and piano, and tools for understanding music theory through practical application. For guitarists, pianists, and music students who want to understand the chords in songs they want to play, Lamucal provides the musical reference tools that make learning songs more accessible.",
+    features: [
+      "Chord Library: Comprehensive chord reference for guitar and piano",
+      "Fingering Diagrams: Visual chord fingering for multiple instruments",
+      "Song Chords: Find chords for specific songs",
+      "Scale Reference: Musical scale information and patterns",
+      "Theory Context: Understand why chords work together",
+      "Transposition: Adjust chords to different keys",
+      "Practice Tools: Apply chord knowledge to playing",
+      "Free Access: Basic chord reference without payment"
+    ],
+    howToUse: {
+      title: "How to Use Lamucal",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Song or Chord", description: "Go to lamucal.me and search for the song you want to learn or the chord you want to understand." },
+        { title: "Study the Chords", description: "Review the chord diagrams and fingerings for your instrument. Understand how the chords relate harmonically." },
+        { title: "Practice and Apply", description: "Use the chord information to practice the song. Use transposition tools if you need different keys." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Instrument-Specific Diagrams", description: "Visual fingering diagrams that show exactly where to place fingers on guitar or piano make chord learning more accessible than text descriptions" },
+      { title: "Song Chord Access", description: "Finding the chords for specific songs rather than figuring them out by ear gives musicians immediate access to the harmonic content they want to play" },
+      { title: "Theory Integration", description: "Understanding why chords work together rather than just knowing their fingerings builds musical knowledge that applies across many songs" },
+      { title: "Transposition Utility", description: "Adjusting chords to different keys for voice range or instrument capability makes songs playable in more contexts" }
+    ],
+    useCases: [
+      { title: "Guitarists", description: "Guitar players use Lamucal for chord fingerings and song chord references for songs they want to learn" },
+      { title: "Pianists", description: "Piano players use chord libraries and song references for repertoire development" },
+      { title: "Music Students", description: "Students learning music theory use chord reference tools to understand harmonic relationships practically" }
+    ]
+  },
+  "bunder": {
+    whatIs: "Bunder is an AI music collaboration platform that connects musicians and enables AI-assisted collaborative music creation. It provides tools for remote music collaboration, AI assistance in the composition and arrangement process, and a community for musicians to find collaborators. For musicians who want to collaborate remotely or get AI assistance in their music creation, Bunder provides the collaborative music platform.",
+    features: [
+      "Music Collaboration: Connect with other musicians for remote collaboration",
+      "AI Composition Assistance: AI help in the composition process",
+      "Remote Jamming: Collaborate on music from different locations",
+      "Project Management: Organize collaborative music projects",
+      "Community: Find musicians with complementary skills",
+      "AI Arrangement: AI assistance with musical arrangement",
+      "Feedback Tools: Share and get feedback on musical work",
+      "Free to Join: Basic collaboration without payment"
+    ],
+    howToUse: {
+      title: "How to Use Bunder",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Profile", description: "Sign up at bunder.io and create your musician profile with your instruments, skills, and collaboration interests." },
+        { title: "Find Collaborators", description: "Browse the musician community and connect with collaborators whose skills complement yours." },
+        { title: "Create Together", description: "Start collaborative music projects with AI assistance supporting the composition and arrangement process." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Geographic Freedom", description: "Remote collaboration tools that connect musicians regardless of location expand the pool of potential collaborators beyond local networks" },
+      { title: "Skill Complementarity", description: "Finding collaborators with specific skills that complement your own creates more complete musical teams than solo creation" },
+      { title: "AI Assistance Value", description: "AI support during collaboration that helps with composition and arrangement decisions reduces creative friction in collaborative workflows" },
+      { title: "Community Building", description: "A platform that connects musicians for collaboration builds the relationships and networks that sustain long-term musical creativity" }
+    ],
+    useCases: [
+      { title: "Independent Musicians", description: "Solo artists use Bunder to find collaborators for musical projects beyond their individual capabilities" },
+      { title: "Producers", description: "Music producers use the platform to connect with vocalists, instrumentalists, and other producers for collaborative tracks" },
+      { title: "Music Students", description: "Students developing their musicianship use collaborative platforms for peer learning and joint creative projects" }
+    ]
+  },
   "voice-swap": {
     whatIs: "Voice Swap is an AI voice conversion platform that transforms vocal recordings into different voice styles and timbres using AI. Musicians and producers upload their vocals and the AI converts them to sound like different voice types, styles, or even specific artist-inspired voices. For music producers who want diverse vocal options without hiring multiple singers, Voice Swap provides AI-powered vocal transformation.",
     features: [
