@@ -1,4 +1,433 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "riffusion": {
+    whatIs: "Riffusion is an AI music generation model that creates music from text descriptions using a diffusion model trained on spectrograms. It generates short musical clips in virtually any style by interpreting text prompts as visual spectrograms and generating corresponding audio. Riffusion gained significant attention as an innovative approach to AI music generation that produces diverse and sometimes surprising musical outputs. For music enthusiasts and creators who want to explore AI music generation with unique results, Riffusion provides an accessible and creative music generation experience.",
+    features: [
+      "Text to Music: Generate music clips from text descriptions",
+      "Spectrogram Approach: Unique diffusion-based music generation",
+      "Style Variety: Wide range of musical styles from prompts",
+      "Creative Outputs: Surprising and diverse musical results",
+      "Short Clips: Generate musical snippets and loops",
+      "Open Technology: Based on open research",
+      "Experimental: Cutting-edge AI music research application",
+      "Free to Use: Basic generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Riffusion",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Music Prompt", description: "Go to riffusion.com and enter a text description of the music you want to generate." },
+        { title: "Generate Your Clip", description: "Riffusion creates a musical clip from your text prompt. The results can be surprising and creative." },
+        { title: "Explore Variations", description: "Try different prompts and explore the range of musical outputs. The spectrogram approach produces unique variations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Unique Generation Approach", description: "Spectrogram-based diffusion that produces music differently from other AI approaches creates genuinely distinct sonic outputs" },
+      { title: "Style Range", description: "The ability to generate almost any musical style from text prompts makes Riffusion highly versatile for musical exploration" },
+      { title: "Research Interest", description: "As an application of image diffusion models to music, Riffusion demonstrates innovative approaches to AI audio generation" },
+      { title: "Creative Exploration", description: "Unexpected and creative outputs that result from the unique generation approach often produce interesting musical ideas" }
+    ],
+    useCases: [
+      { title: "Music Technology Enthusiasts", description: "People interested in AI music technology use Riffusion to explore the creative possibilities of diffusion-based music generation" },
+      { title: "Creative Musicians", description: "Musicians use Riffusion for creative inspiration and unexpected musical ideas from AI generation" },
+      { title: "Researchers and Educators", description: "People teaching or studying AI music generation use Riffusion as an example of innovative approaches to AI audio" }
+    ]
+  },
+  "udio": {
+    whatIs: "Udio is an AI music generation platform that creates high-quality original songs with vocals, lyrics, and full musical production from text prompts. It produces complete songs that sound remarkably close to professionally produced music, with coherent lyrics that relate to the prompt theme and appropriate musical arrangements. For creators who want to generate complete songs with genuine musical quality, Udio represents one of the most capable AI song generation tools available.",
+    features: [
+      "High-Quality Song Generation: Complete songs with vocals and production",
+      "Lyric Generation: AI-written lyrics coherent with song theme",
+      "Full Production: Complete musical arrangement and mixing",
+      "Multiple Genres: Wide range of musical styles",
+      "Vocal Quality: Realistic AI vocal performances",
+      "Long Form: Generate full-length songs not just short clips",
+      "Prompt Flexibility: Detailed style and content guidance",
+      "Free Credits: Generate songs with free credits"
+    ],
+    howToUse: {
+      title: "How to Use Udio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Song Prompt", description: "Sign up at udio.com and write a detailed prompt describing the song you want - genre, mood, theme, and style details." },
+        { title: "Generate Your Song", description: "Udio creates a complete song based on your prompt. The AI generates lyrics, melody, and full production." },
+        { title: "Download and Share", description: "Download your generated song and share it or use it in your creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Song Quality", description: "AI song generation that produces complete songs with coherent lyrics and professional-sounding production represents a significant capability advance over earlier music AI" },
+      { title: "Vocal Realism", description: "Realistic AI vocals that carry genuine musical expressiveness make generated songs more compelling than robotic or mechanical vocal output" },
+      { title: "Creative Democratization", description: "Anyone being able to generate a complete song from a text description represents a fundamental shift in who can create music" },
+      { title: "Commercial Potential", description: "Song quality approaching professional production opens genuine commercial applications for AI-generated music in content creation and beyond" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Creators use Udio for original songs for their content without music production skills or licensing costs" },
+      { title: "Music Enthusiasts", description: "People who love music use Udio to create personalized songs for entertainment and sharing" },
+      { title: "Marketers and Brands", description: "Marketing teams generate original branded songs for campaigns and content" }
+    ]
+  },
+  "mureka": {
+    whatIs: "Mureka is an AI music platform that creates original songs with high production quality from text prompts and style descriptions. It generates complete musical pieces with appropriate arrangements, mixing, and in some cases AI vocals that match the requested style. For creators and music lovers who want high-quality AI-generated music for their projects, Mureka provides capable music generation with attention to production quality.",
+    features: [
+      "Song Generation: Create complete songs from descriptions",
+      "Production Quality: Professional-sounding music output",
+      "Style Accuracy: Music that matches genre and mood requests",
+      "Multiple Genres: Various musical styles available",
+      "Full Arrangement: Complete musical arrangements",
+      "AI Vocals: Vocal tracks where appropriate to style",
+      "Royalty-Free: Generated music without licensing concerns",
+      "Free Credits: Try generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Mureka",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Song", description: "Sign up at mureka.ai and describe the song you want - genre, mood, instruments, and style references." },
+        { title: "Generate Your Track", description: "Mureka creates original music matching your description with full production quality." },
+        { title: "Download and Use", description: "Download your generated music for use in your content or creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Production Quality Focus", description: "Music generation that maintains consistent production quality across different styles produces more professionally usable results" },
+      { title: "Style Accuracy", description: "Generation that accurately interprets style and genre descriptions produces music that actually sounds like the requested genre" },
+      { title: "Commercial Usability", description: "High-quality AI-generated music that sounds professional is genuinely usable in commercial content and creative projects" },
+      { title: "Creative Access", description: "Professional-quality music creation without music production skills opens creative possibilities for non-musicians" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Video and podcast creators use Mureka for high-quality background music that enhances their content" },
+      { title: "Indie Game Developers", description: "Game makers use AI music generation for quality game soundtracks" },
+      { title: "Marketing Teams", description: "Marketers create original branded music for campaigns using quality-focused AI generation" }
+    ]
+  },
+  "fadr": {
+    whatIs: "Fadr is an AI music tool that provides stem separation and remixing capabilities for producers and musicians. It separates songs into individual stems including vocals, drums, bass, and other instruments, enabling remixing, sampling, and music production use of existing recordings. Fadr also provides AI-powered remix generation that creates new versions of songs in different styles. For producers and remixers who work with existing music, Fadr provides accessible stem separation and remixing tools.",
+    features: [
+      "Stem Separation: Split songs into vocals, drums, bass, and more",
+      "Remix Generation: AI-powered remix creation in different styles",
+      "Sampling Tools: Extract and use specific elements from recordings",
+      "Multiple Stems: Comprehensive stem separation output",
+      "Download Options: Save individual stems",
+      "Remix Export: Download generated remixes",
+      "Production Ready: High-quality stem output for production use",
+      "Free to Try: Basic separation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Fadr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Track", description: "Sign up at fadr.com and upload the song you want to separate into stems." },
+        { title: "Get Your Stems", description: "Fadr separates your track into individual stems. Download the specific elements you need for your production." },
+        { title: "Create Your Remix", description: "Use the remix generation feature to create AI-powered remixes of your separated tracks in different styles." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Stem Quality", description: "High-quality stem separation that cleanly isolates individual elements without bleed provides production-ready stems for music work" },
+      { title: "Remix Creativity", description: "AI remix generation in different styles creates new musical interpretations of existing songs that producers can build upon" },
+      { title: "Production Access", description: "Having individual stems from songs enables sampling and remixing applications that the full mixed recording cannot support" },
+      { title: "Workflow Integration", description: "Stem separation that fits into production workflows provides the building blocks for remix and production projects" }
+    ],
+    useCases: [
+      { title: "Music Producers and Remixers", description: "Producers use Fadr for stem separation that enables remixing and sampling work" },
+      { title: "DJs", description: "DJs use stem separation for more creative mixing and mashup creation" },
+      { title: "Music Educators", description: "Teachers use stem separation for demonstrating individual instrument parts in recordings" }
+    ]
+  },
+  "lalal-ai": {
+    whatIs: "LALAL.AI is a leading AI stem separation platform that splits audio and video files into individual instrument and vocal stems with high quality. It separates vocals, drums, bass, piano, guitar, and other stems from any recording with clean isolation and minimal bleed. LALAL.AI is known for producing some of the highest quality stem separation results available and supports both audio and video file processing. For musicians, producers, and content creators who need professional quality stem separation, LALAL.AI provides the most reliable and accurate AI stem splitting available.",
+    features: [
+      "High-Quality Separation: Industry-leading stem isolation quality",
+      "Multiple Stems: Vocals, drums, bass, piano, guitar, and more",
+      "Video Processing: Separate stems from video files with audio",
+      "Minimal Bleed: Clean isolation without instrument leakage",
+      "Multiple Formats: Process common audio and video formats",
+      "Batch Processing: Separate multiple files simultaneously",
+      "Preview Mode: Check quality before downloading",
+      "Free Credits: Process audio with monthly free stems"
+    ],
+    howToUse: {
+      title: "How to Use Lalal Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your File", description: "Go to lalal.ai and upload your audio or video file for stem separation." },
+        { title: "Select Your Stems", description: "Choose which stems you want to extract from your file. LALAL.AI processes the separation with high quality." },
+        { title: "Download Your Stems", description: "Preview and download your separated stems. The clean isolation is ready for production or practice use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Separation Quality", description: "LALAL.AI consistently produces some of the cleanest stem separation available, making it the professional choice for quality-critical stem work" },
+      { title: "Video File Support", description: "Separating stems from video files rather than only audio files serves creators who need isolated audio from video recordings" },
+      { title: "Minimal Bleed", description: "Clean stem isolation without significant bleed from other instruments makes stems genuinely usable in professional production" },
+      { title: "Reliability", description: "Consistent high-quality results across different types of music make LALAL.AI a reliable tool for professional stem separation work" }
+    ],
+    useCases: [
+      { title: "Music Producers", description: "Producers use LALAL.AI for professional quality stem separation for sampling and remixing" },
+      { title: "Musicians Learning Songs", description: "Players use stem separation to isolate specific instruments for learning and practice" },
+      { title: "Content Creators", description: "Creators use LALAL.AI to isolate vocals or music from recordings for their content projects" }
+    ]
+  },
+  "krisp": {
+    whatIs: "Krisp is an AI-powered noise cancellation application that removes background noise from audio during calls, recordings, and meetings. It works by filtering out background sounds in real time, ensuring that only your voice comes through clearly in any communication. Krisp works with any microphone and headset and integrates with all communication platforms including Zoom, Teams, and Slack. For remote workers, podcasters, and anyone who needs clear audio communication from any environment, Krisp provides the most widely used AI noise cancellation solution.",
+    features: [
+      "Real-Time Noise Cancellation: Remove background noise during calls",
+      "Works with Any App: Compatible with all communication platforms",
+      "Microphone Noise Removal: Clean your microphone input",
+      "Speaker Noise Removal: Clean incoming audio from others",
+      "No Hardware Required: Software-only solution",
+      "Meeting Transcription: Transcribe calls and meetings",
+      "Meeting Summaries: AI summaries of transcribed meetings",
+      "Free Plan: Basic noise cancellation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Krisp",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Krisp", description: "Download Krisp from krisp.ai and install it on your computer. Krisp creates a virtual microphone in your system." },
+        { title: "Select Krisp as Your Microphone", description: "In your communication app settings, select the Krisp microphone as your input device. Krisp filters noise from your actual microphone." },
+        { title: "Enable and Communicate", description: "Enable noise cancellation in the Krisp app and start your call or recording. Background noise is removed automatically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Environment Freedom", description: "Noise cancellation that removes background sounds from any environment enables professional-sounding calls from home, cafes, and noisy offices" },
+      { title: "Platform Universal", description: "A solution that works with every communication platform rather than requiring platform-specific features serves professionals who use multiple communication tools" },
+      { title: "Incoming Audio Cleaning", description: "Removing background noise from other call participants audio as well as your own creates a fully clean audio environment" },
+      { title: "Remote Work Essential", description: "For remote workers who cannot control their audio environment, AI noise cancellation is essential for maintaining professional communication quality" }
+    ],
+    useCases: [
+      { title: "Remote Workers", description: "People working from home or noisy environments use Krisp for professional call audio quality" },
+      { title: "Podcasters and Content Creators", description: "Audio content producers use Krisp for clean recordings in imperfect recording environments" },
+      { title: "Customer Service Teams", description: "Support teams in office environments use Krisp to prevent background noise from reaching customers" }
+    ]
+  },
+  "cleanvoice-ai": {
+    whatIs: "Cleanvoice AI is an AI podcast editing tool that automatically removes filler words, mouth sounds, dead air, and other audio imperfections from podcast recordings. It analyzes audio tracks and identifies and removes ums, ahs, stutters, lip smacks, and long pauses automatically, delivering a cleaner and more professional-sounding recording without manual editing. For podcasters who spend hours manually cleaning audio, Cleanvoice AI provides automatic cleanup that handles this tedious work in minutes.",
+    features: [
+      "Filler Word Removal: Automatically detect and remove ums and ahs",
+      "Mouth Sound Removal: Eliminate lip smacks and mouth noise",
+      "Dead Air Removal: Cut long pauses and silent gaps",
+      "Stutter Removal: Fix repeated words and stutters",
+      "Multi-Track Processing: Handle recordings with multiple speakers",
+      "Preview Mode: Review removals before applying",
+      "Export Options: Download cleaned audio in standard formats",
+      "Free to Try: Basic cleanup without payment"
+    ],
+    howToUse: {
+      title: "How to Use Cleanvoice Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Podcast Recording", description: "Sign up at cleanvoice.ai and upload your raw podcast audio file." },
+        { title: "Review Detected Issues", description: "Cleanvoice AI identifies all filler words, mouth sounds, and dead air in your recording. Preview what will be removed." },
+        { title: "Apply and Download", description: "Apply the automatic cleanup and download your polished podcast audio ready for editing or publishing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Time Savings", description: "Manual filler word removal that takes hours of careful editing is automated to minutes, enabling podcasters to publish more efficiently" },
+      { title: "Consistency", description: "AI that catches every instance of filler words and mouth sounds produces more consistently clean audio than manual editing that can miss occurrences" },
+      { title: "Quality Improvement", description: "Removing distracting audio imperfections that listeners notice creates a more professional and enjoyable listening experience" },
+      { title: "Podcast Production Efficiency", description: "Automating the most tedious part of podcast editing frees time for the creative aspects of content production" }
+    ],
+    useCases: [
+      { title: "Podcasters", description: "Podcast creators use Cleanvoice for efficient automatic audio cleanup of their recordings" },
+      { title: "Interview Hosts", description: "People who interview guests use automatic cleanup for recordings where they cannot control all speech patterns" },
+      { title: "Corporate Podcast Teams", description: "Business teams producing internal podcasts use Cleanvoice for efficient professional-quality audio production" }
+    ]
+  },
+  "rapli": {
+    whatIs: "Rapli is an AI rap and lyrics generation platform that creates original rap verses, hooks, and complete rap songs from topics and style descriptions. It generates rhyming lyrics with appropriate flow and wordplay in different rap styles from old school to trap and beyond. For aspiring rappers, songwriters, and content creators who need rap lyrics, Rapli provides AI-generated rap content.",
+    features: [
+      "Rap Verse Generation: Create rap verses from topics",
+      "Hook Writing: Generate catchy chorus hooks for rap songs",
+      "Rhyme Generation: AI that creates rhyming lyric flows",
+      "Style Options: Different rap styles from various eras",
+      "Complete Songs: Full rap song structure generation",
+      "Wordplay: AI that incorporates rap-appropriate wordplay",
+      "Customization: Adjust style and content direction",
+      "Free to Try: Basic rap generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Rapli",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Go to Rapli and enter the topic or theme you want your rap to be about." },
+        { title: "Select Your Style", description: "Choose the rap style that fits your vision - old school, trap, conscious rap, or other styles." },
+        { title: "Generate and Customize", description: "Rapli generates rap verses and hooks. Use them as starting points and customize to match your voice." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Lyric Starting Points", description: "Generated rap lyrics that artists customize and build upon provide faster creative starting points than writing from scratch" },
+      { title: "Rhyme Assistance", description: "AI that generates appropriate rhyme schemes helps developing rappers who struggle with rhyme construction" },
+      { title: "Style Range", description: "Generating rap in different established styles helps artists understand different approaches to rap composition" },
+      { title: "Creative Exploration", description: "Quickly generating many different rap verses on a topic explores lyrical possibilities that manual writing would take much longer to cover" }
+    ],
+    useCases: [
+      { title: "Aspiring Rappers", description: "Developing rap artists use Rapli for lyric inspiration and starting points for their songs" },
+      { title: "Songwriters", description: "Professional songwriters use AI rap generation for quick lyric brainstorming and drafts" },
+      { title: "Content Creators", description: "Creators use rap generation for entertaining content and freestyle inspiration" }
+    ]
+  },
+  "ai-rap-song-generator": {
+    whatIs: "AI Rap Song Generator is an AI tool that creates complete rap songs from topic descriptions, including verses, hooks, and bridges with appropriate rap structure and rhyme schemes. It generates full song structures rather than just individual verses, producing ready-to-use rap compositions. For anyone who needs complete rap songs quickly, AI Rap Song Generator provides full song creation from simple prompts.",
+    features: [
+      "Full Song Structure: Complete rap songs with verses, hooks, bridges",
+      "Rhyme Schemes: Appropriate rhyming throughout generated songs",
+      "Topic Flexibility: Generate songs about any subject",
+      "Song Format: Standard rap song structure",
+      "Style Options: Different rap aesthetics available",
+      "Quick Generation: Complete songs produced rapidly",
+      "Download Lyrics: Save generated song content",
+      "Free to Use: Basic song generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Rap Song Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Song Topic", description: "Go to the AI Rap Song Generator and enter the topic or theme for your rap song." },
+        { title: "Generate Your Song", description: "The AI creates a complete rap song with verses, hooks, and appropriate song structure." },
+        { title: "Use Your Generated Song", description: "Use the generated lyrics as your complete song or as a starting point to customize." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Structure", description: "Generating a full song with proper structure rather than individual verses provides more immediately usable creative content" },
+      { title: "Topic Flexibility", description: "The ability to generate rap about any topic makes the tool useful for a wide range of creative and content needs" },
+      { title: "Speed", description: "Getting a complete song structure in seconds rather than hours of writing work accelerates the creative process dramatically" },
+      { title: "Accessibility", description: "Complete rap song creation accessible to anyone regardless of rap writing experience democratizes the creation of this creative form" }
+    ],
+    useCases: [
+      { title: "Rap Enthusiasts", description: "People who enjoy rap music use AI generation to create personalized songs about topics they care about" },
+      { title: "Content Creators", description: "Creators use rap song generation for entertaining and engaging content" },
+      { title: "Songwriters", description: "Professional songwriters use AI rap generation for quick drafts and creative brainstorming" }
+    ]
+  },
+  "ai-rap-generator": {
+    whatIs: "AI Rap Generator is a tool that generates rap lyrics and verses from user-provided topics, keywords, and style preferences. It creates rhyming rap content with appropriate flow and structure in different rap styles. For users who need rap lyrics for personal or creative use, AI Rap Generator provides accessible rap content creation.",
+    features: [
+      "Rap Lyrics Generation: Create rap verses from topics and keywords",
+      "Rhyming Output: Lyrics with appropriate rhyme schemes",
+      "Style Selection: Different rap styles available",
+      "Keyword Integration: Incorporate specific words into lyrics",
+      "Flow Structure: Rhythmically appropriate lyric construction",
+      "Quick Results: Rap lyrics generated immediately",
+      "Free to Use: Basic rap generation without payment",
+      "No Registration: Generate lyrics without account creation"
+    ],
+    howToUse: {
+      title: "How to Use Ai Rap Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Keywords or Topic", description: "Go to the AI Rap Generator and enter your topic, keywords, or theme for the rap lyrics." },
+        { title: "Select Your Style", description: "Choose the rap style that fits your needs." },
+        { title: "Generate and Use", description: "The AI generates rap lyrics based on your input. Use them directly or as inspiration for your own writing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Immediate Results", description: "Rap lyrics generated immediately from any topic serve users who need quick creative content" },
+      { title: "Rhyme Assistance", description: "AI-generated rhyming lyrics help users who struggle with rap rhyme construction" },
+      { title: "No Barrier Entry", description: "No-registration access that works immediately removes all friction for casual use" },
+      { title: "Creative Inspiration", description: "Generated rap lyrics that users build upon provide creative starting points even when the AI output is not used verbatim" }
+    ],
+    useCases: [
+      { title: "Casual Rap Enthusiasts", description: "People who enjoy rap use the generator for fun personal rap creation" },
+      { title: "Content Creators", description: "Creators generate rap content for entertaining social media posts" },
+      { title: "Songwriting Students", description: "People learning songwriting use rap generation for practice and inspiration" }
+    ]
+  },
+  "rhyme-cool": {
+    whatIs: "Rhyme.cool is a rhyme finder and lyric writing assistant that helps songwriters and rap artists find rhymes, near-rhymes, and related words for their lyrics. It provides comprehensive rhyme databases and AI assistance for developing lyrical content. For lyricists and rappers who want help finding the right words to complete their rhyme schemes, Rhyme.cool provides the rhyme discovery tools that support better lyric writing.",
+    features: [
+      "Rhyme Finder: Find perfect and near rhymes for any word",
+      "Near Rhyme Discovery: Find imperfect rhymes and slant rhymes",
+      "Lyric Assistant: AI help developing lyrical content",
+      "Word Relationships: Discover semantically related words",
+      "Multi-Syllable Rhymes: Find rhymes for multiple syllables",
+      "Genre Context: Rhymes appropriate for different music styles",
+      "Writing Tools: Additional lyric development assistance",
+      "Free to Use: Basic rhyme finding without payment"
+    ],
+    howToUse: {
+      title: "How to Use Rhyme Cool",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Word", description: "Go to rhyme.cool and enter the word you need rhymes for." },
+        { title: "Explore Your Rhymes", description: "Browse perfect rhymes, near rhymes, and related words. Find options that work with your lyric's meaning and rhythm." },
+        { title: "Build Your Lyrics", description: "Use the discovered rhymes to complete your lyrics. The AI assistance helps develop complete lyric ideas around your rhyme choices." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Rhyme Discovery", description: "Finding rhymes that work both phonetically and semantically with lyric content is challenging. Comprehensive rhyme databases that surface many options improve lyric quality" },
+      { title: "Near Rhyme Value", description: "Perfect rhymes are not always the best choice for natural-sounding lyrics. Near rhymes and slant rhymes that sound intentional rather than forced often produce better results" },
+      { title: "Lyric Flow", description: "Multi-syllable rhyme finding that maintains rhythmic flow across multiple syllables serves writers working with more complex rhyme schemes" },
+      { title: "Creative Expansion", description: "Discovering related words and near rhymes often reveals lyric directions that writers had not considered, expanding creative possibilities" }
+    ],
+    useCases: [
+      { title: "Songwriters", description: "Lyric writers use rhyme finders for discovering options that complete their intended rhyme schemes" },
+      { title: "Rappers", description: "Rap artists use comprehensive rhyme databases for finding diverse rhyme options in their flow" },
+      { title: "Poetry Writers", description: "Poets use rhyme discovery for finding options in formal and near-rhyme poetry" }
+    ]
+  },
+  "supreme-plans": {
+    whatIs: "Supreme Plans is a music streaming and content platform that provides curated music plans, playlists, and audio content for different use cases including focus, relaxation, and workout. It offers organized music experiences designed for specific activities and moods. For listeners who want curated music experiences optimized for specific purposes rather than general streaming, Supreme Plans provides purpose-built music collections.",
+    features: [
+      "Curated Playlists: Purposefully designed music collections",
+      "Activity-Based Music: Playlists for focus, relaxation, workout",
+      "Mood Matching: Music selections aligned to emotional states",
+      "Quality Curation: Carefully selected tracks for each purpose",
+      "Streaming Access: Listen directly through the platform",
+      "Regular Updates: Fresh content added to maintain interest",
+      "Multiple Contexts: Coverage of different listening needs",
+      "Free to Try: Basic listening without payment"
+    ],
+    howToUse: {
+      title: "How to Use Supreme Plans",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Context", description: "Sign up at supremeplans.com and select the activity or mood you want music for." },
+        { title: "Start Listening", description: "Access the curated playlist designed for your selected context. The music is selected to support your intended activity." },
+        { title: "Explore Different Plans", description: "Try different music plans for different parts of your day - focus music for work, relaxation for evenings, workout music for exercise." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Purpose Optimization", description: "Music optimized for specific activities rather than general listening produces better results for each intended purpose" },
+      { title: "Curation Quality", description: "Carefully selected tracks that serve their stated purpose are more effective than algorithm-generated playlists" },
+      { title: "Context Switching", description: "Having different music plans for different daily activities enables intentional use of music to support different cognitive and physical states" },
+      { title: "Discovery Within Purpose", description: "Finding new music within a specific functional context adds freshness while maintaining the effectiveness of the listening experience" }
+    ],
+    useCases: [
+      { title: "Knowledge Workers", description: "People who use music to support focus and productivity use purposefully curated focus playlists" },
+      { title: "Fitness Enthusiasts", description: "People who exercise use workout-optimized playlists that maintain appropriate energy throughout training" },
+      { title: "Wellness-Oriented Listeners", description: "People who use music intentionally for relaxation and mood management use purpose-built music plans" }
+    ]
+  },
+  "barrs": {
+    whatIs: "Barrs is an AI rap and hip-hop lyric generation platform that creates rap lyrics, verses, and hooks with authentic hip-hop style and culture awareness. It generates rhyming content with appropriate slang, wordplay, and flow patterns that match genuine hip-hop culture rather than generic rap parody. For artists and creators who want culturally authentic rap content generation, Barrs provides AI rap writing with hip-hop authenticity.",
+    features: [
+      "Authentic Rap Generation: Culturally aware rap lyrics",
+      "Verse Creation: Complete rap verses with authentic flow",
+      "Hook Writing: Catchy hook generation for rap songs",
+      "Wordplay: AI that incorporates genuine rap wordplay techniques",
+      "Style Range: Different hip-hop sub-genre styles",
+      "Rhyme Quality: Sophisticated rhyme schemes",
+      "Cultural Awareness: Hip-hop culture informed generation",
+      "Free to Try: Basic rap generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Barrs",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Concept", description: "Sign up at barrs.ai and enter the concept or story you want your rap to convey." },
+        { title: "Choose Your Style", description: "Select the hip-hop style that matches your artistic direction." },
+        { title: "Generate Your Bars", description: "Barrs creates authentic rap verses and hooks. Use them as your final lyrics or build upon them with your own voice." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cultural Authenticity", description: "Rap generation that understands hip-hop culture and produces content that feels genuine rather than parodic is more useful to actual rap artists" },
+      { title: "Wordplay Quality", description: "AI that incorporates sophisticated wordplay techniques produces more interesting and artistic rap than simple rhyming generation" },
+      { title: "Style Specificity", description: "Different hip-hop sub-genres have distinct lyrical approaches. Style-aware generation produces more appropriate content for each context" },
+      { title: "Artist Tool", description: "Rap generation that works as an artist tool rather than a novelty produces content that professional and developing artists can actually use" }
+    ],
+    useCases: [
+      { title: "Rap Artists", description: "Hip-hop artists use Barrs for lyric development and creative inspiration with culturally authentic output" },
+      { title: "Music Producers", description: "Producers use rap generation for demo vocals and topline writing references" },
+      { title: "Content Creators", description: "Creators use authentic rap generation for hip-hop content that respects the culture" }
+    ]
+  },
   "song-demo-ai": {
     whatIs: "Song Demo AI is an AI music generation platform that creates complete song demos from lyrics and style descriptions. Musicians and songwriters input their lyrics and describe the musical style they want and Song Demo AI generates a complete demo with vocals, instruments, and production. For songwriters who want to hear their lyrics as a finished song demo without music production skills, Song Demo AI provides instant song creation.",
     features: [
