@@ -1,4 +1,367 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "aesthetic-wallpaper": {
+    whatIs: "Aesthetic Wallpaper AI is an AI wallpaper generator that creates beautiful aesthetic wallpapers in trendy styles including minimalist, cottagecore, dark academia, Y2K, and other popular aesthetics. It generates high-resolution wallpapers that match specific aesthetic vibes for phone and desktop customization. For people who want wallpapers that perfectly match their personal aesthetic style, Aesthetic Wallpaper AI provides on-demand generation in any aesthetic direction.",
+    features: [
+      "Aesthetic Styles: Generate wallpapers in specific aesthetic vibes",
+      "Trendy Categories: Cottagecore, dark academia, Y2K, and more",
+      "High Resolution: Phone and desktop quality output",
+      "Custom Generation: Describe your specific aesthetic vision",
+      "Multiple Devices: Sized for different screen types",
+      "Unique Designs: Every wallpaper is original",
+      "Fast Generation: Quick wallpaper creation",
+      "Free to Try: Basic wallpaper generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Aesthetic Wallpaper",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Aesthetic", description: "Go to the Aesthetic Wallpaper AI platform and select or describe your desired aesthetic style." },
+        { title: "Generate Your Wallpaper", description: "The AI generates a high-resolution wallpaper matching your chosen aesthetic. Try different prompts for variety." },
+        { title: "Download and Apply", description: "Download your generated wallpaper in the right size for your device and set it as your background." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Aesthetic Precision", description: "AI that understands specific aesthetic vibes produces wallpapers that genuinely match the desired style rather than generic pretty images" },
+      { title: "Trend Awareness", description: "Generation trained on current aesthetic trends produces wallpapers that feel contemporary and relevant" },
+      { title: "Personal Expression", description: "Device wallpapers are a form of personal expression. Custom AI-generated wallpapers that match your specific aesthetic communicate your style uniquely" },
+      { title: "Infinite Options", description: "AI generation provides unlimited wallpaper variety within any aesthetic style without repeating the same images" }
+    ],
+    useCases: [
+      { title: "Aesthetic-Conscious Phone Users", description: "People who carefully curate their phone aesthetic use AI wallpaper generation for perfectly matched backgrounds" },
+      { title: "Social Media Aesthetic Creators", description: "Creators who maintain a specific aesthetic use AI wallpapers for consistent visual identity" },
+      { title: "Frequent Wallpaper Changers", description: "People who change their wallpaper regularly use AI generation for unlimited fresh aesthetic options" }
+    ]
+  },
+  "ctrly-co": {
+    whatIs: "Ctrly is a link management and smart URL platform that provides custom short links, QR codes, link analytics, and bio link pages for creators and businesses. It allows users to create branded short links, track click performance, and build link-in-bio pages that consolidate multiple links into one shareable URL. For creators and marketers who need professional link management with detailed analytics, Ctrly provides the link infrastructure that makes every shared URL trackable and branded.",
+    features: [
+      "Custom Short Links: Create branded shortened URLs",
+      "Link Analytics: Track clicks, locations, and devices for each link",
+      "Bio Link Pages: Build link-in-bio pages for social media",
+      "QR Code Generation: Create QR codes for any link",
+      "Link Expiration: Set expiry dates for time-limited links",
+      "Password Protection: Secure links with passwords",
+      "Team Management: Share link management across teams",
+      "Free Plan: Basic link shortening without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ctrly Co",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Short Link", description: "Sign up at ctrly.co and create your first custom short link. Add your destination URL and customize the link slug." },
+        { title: "Set Up Your Bio Page", description: "Build your link-in-bio page by adding all your important links in one place. Customize the appearance to match your brand." },
+        { title: "Track and Optimize", description: "Monitor link performance through the analytics dashboard. Understand which links get the most clicks and from where." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brand Consistency", description: "Custom short links that use your brand name rather than generic shortener domains create more professional and trustworthy link appearances" },
+      { title: "Analytics Intelligence", description: "Understanding which links get clicked, from where, and on which devices provides marketing intelligence that plain URLs cannot deliver" },
+      { title: "Bio Link Value", description: "A single link-in-bio page that consolidates all your important links solves the social media single-link limitation effectively" },
+      { title: "Link Management", description: "Managing many short links from one dashboard rather than using separate tools for different link types simplifies the link management workflow" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Creators use Ctrly for branded short links and bio pages across their social media platforms" },
+      { title: "Marketers", description: "Marketing professionals use link tracking for campaign performance attribution" },
+      { title: "Small Businesses", description: "Business owners use branded links and bio pages for professional online presence" }
+    ]
+  },
+  "dewatermark-ai": {
+    whatIs: "Dewatermark AI is an AI tool that removes watermarks from images using deep learning. It analyzes image content beneath watermarks and reconstructs the underlying image to produce clean versions without the watermark overlay. The tool handles various watermark types including text, logo, and semi-transparent watermarks. For users who need to remove watermarks from images they own or have rights to use, Dewatermark AI provides AI-powered watermark removal.",
+    features: [
+      "Watermark Removal: AI removal of text and logo watermarks",
+      "Multiple Watermark Types: Handles text, logo, and transparent overlays",
+      "Image Reconstruction: AI fills in image content beneath watermarks",
+      "Automatic Detection: Identifies watermark regions automatically",
+      "High Quality Output: Clean results without visible artifacts",
+      "Batch Processing: Remove watermarks from multiple images",
+      "Fast Processing: Quick watermark removal results",
+      "Free to Try: Basic watermark removal without payment"
+    ],
+    howToUse: {
+      title: "How to Use Dewatermark Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to Dewatermark AI and upload the image with the watermark you want to remove." },
+        { title: "Apply Removal", description: "The AI detects and removes the watermark, reconstructing the underlying image content." },
+        { title: "Download Clean Image", description: "Review the watermark-free result and download your clean image." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Image Recovery", description: "Images that are otherwise perfect but have watermarks covering important areas are rescued by AI removal that reconstructs underlying content" },
+      { title: "AI Reconstruction Quality", description: "Deep learning that understands image content and fills in realistic detail beneath removed watermarks produces better results than simple inpainting" },
+      { title: "Automatic Detection", description: "Watermark detection that identifies the watermark region automatically without manual selection speeds the removal process" },
+      { title: "Multiple Types", description: "Handling different watermark styles from simple text to complex semi-transparent logos covers the variety of watermarks encountered in practice" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Creators who own licensed images use watermark removal to access clean versions of their purchased content" },
+      { title: "Designers", description: "Design professionals remove watermarks from images they have licensed for use in their projects" },
+      { title: "Researchers", description: "Researchers use watermark removal on images they have rights to use for academic purposes" }
+    ]
+  },
+  "dreampix": {
+    whatIs: "DreamPix is an AI image generation and art creation platform that produces artistic and creative images from text descriptions. It focuses on generating dreamlike, fantastical, and artistic imagery with a distinctive creative aesthetic. For users who want to create imaginative and visually striking AI art, DreamPix provides generation capabilities with a focus on artistic and creative output.",
+    features: [
+      "AI Art Generation: Create artistic images from text descriptions",
+      "Dreamlike Aesthetics: Fantastical and imaginative visual styles",
+      "Creative Focus: Generation oriented toward artistic expression",
+      "Multiple Styles: Various artistic approaches available",
+      "High Quality Output: Professional-quality creative imagery",
+      "Fast Generation: Quick creative results",
+      "Download Options: Save generated artwork",
+      "Free Credits: Try generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Dreampix",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Vision", description: "Sign up at dreampix.ai and describe the dreamlike or artistic image you want to create." },
+        { title: "Generate Your Art", description: "The AI generates your artistic image with creative interpretation of your description." },
+        { title: "Download Your Creation", description: "Download your generated artwork for use in creative projects or personal enjoyment." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Expression", description: "AI art generation that interprets prompts creatively rather than literally produces more interesting and unexpected results" },
+      { title: "Dreamlike Quality", description: "Images with a fantastical dreamlike quality that real photography cannot capture serve creative projects requiring imaginative visuals" },
+      { title: "Artistic Inspiration", description: "AI-generated dreamlike imagery provides creative inspiration and visual reference for artists and creators" },
+      { title: "Personal Creative Projects", description: "People who enjoy creative expression use DreamPix for personal art creation and exploration" }
+    ],
+    useCases: [
+      { title: "Creative Enthusiasts", description: "People who enjoy visual creativity use DreamPix for AI-assisted dreamlike art creation" },
+      { title: "Digital Artists", description: "Artists use dreamlike AI generation for creative inspiration and reference" },
+      { title: "Content Creators", description: "Creators use fantastical AI imagery for distinctive visual content" }
+    ]
+  },
+  "filterfly": {
+    whatIs: "Filterfly is an AI photo filter and effect platform that provides artistic filters, style transfers, and creative photo transformations. It applies AI-powered visual effects to photos to create artistic versions with various aesthetic styles. For users who want to transform their photos into artistic creations with distinctive visual styles, Filterfly provides accessible AI photo transformation.",
+    features: [
+      "AI Filters: Apply artistic filters to photos with AI",
+      "Style Transfer: Transform photos into different artistic styles",
+      "Creative Effects: Various visual transformations and effects",
+      "Multiple Aesthetics: Different artistic styles available",
+      "Fast Processing: Quick filter application",
+      "High Quality: Maintains image quality through transformation",
+      "Download Options: Save filtered photos",
+      "Free to Try: Basic filters without payment"
+    ],
+    howToUse: {
+      title: "How to Use Filterfly",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to Filterfly and upload the photo you want to transform with AI filters." },
+        { title: "Select Your Filter", description: "Choose from available AI filter styles and artistic effects for your photo." },
+        { title: "Download Transformed Photo", description: "Apply the filter and download your artistically transformed photo." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Filter Quality", description: "AI-powered filters that understand image content produce more contextually appropriate and higher quality artistic transformations than simple overlay filters" },
+      { title: "Style Variety", description: "Multiple distinct artistic styles provide creative variety for different photo types and aesthetic preferences" },
+      { title: "Accessibility", description: "Artistic photo transformation that produces genuine quality without manual editing skills democratizes creative photo expression" },
+      { title: "Social Content", description: "Artistically filtered photos create more distinctive social media content than standard photography" }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "People who share photos on social media use Filterfly for distinctive artistic effects" },
+      { title: "Photography Enthusiasts", description: "Photography lovers use AI filters for creative artistic interpretations of their photos" },
+      { title: "Content Creators", description: "Creators use artistic photo transformation for unique visual content across their channels" }
+    ]
+  },
+  "labubu-wallpaper": {
+    whatIs: "Labubu Live Wallpaper is an app that provides animated live wallpapers featuring Labubu characters, the popular collectible toy figures from Pop Mart. It creates engaging animated wallpaper experiences with the distinctive Labubu aesthetic for fans of the collectible toy brand. For Labubu fans who want to bring their love of the characters to their device screens, the app provides themed animated wallpaper content.",
+    features: [
+      "Labubu Animations: Animated wallpapers featuring Labubu characters",
+      "Live Wallpaper: Moving animated backgrounds for devices",
+      "Character Variety: Different Labubu character designs",
+      "Cute Aesthetic: The distinctive Labubu visual style",
+      "Mobile Optimized: Designed for smartphone screens",
+      "Battery Efficient: Optimized animations for battery life",
+      "Regular Updates: New Labubu wallpaper content added",
+      "Free to Download: Basic wallpapers without payment"
+    ],
+    howToUse: {
+      title: "How to Use Labubu Wallpaper",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Download the App", description: "Download the Labubu Live Wallpaper app on your mobile device." },
+        { title: "Choose Your Wallpaper", description: "Browse the available Labubu animated wallpaper designs and select your favorites." },
+        { title: "Set as Wallpaper", description: "Apply your chosen Labubu wallpaper as your device live wallpaper through your phone settings." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Fan Connection", description: "Labubu fans who collect the physical toys enjoy expressing their fandom through device personalization with themed wallpapers" },
+      { title: "Animated Appeal", description: "Live wallpapers with character animations create more engaging and delightful device experiences than static images" },
+      { title: "Collectible Culture", description: "The popularity of Labubu collectibles creates genuine demand for digital merchandise that extends the brand experience to devices" },
+      { title: "Character Expression", description: "Fans use themed device wallpapers as a form of identity expression connecting to communities around shared interests" }
+    ],
+    useCases: [
+      { title: "Labubu Collectors and Fans", description: "Pop Mart Labubu collectors use the app for themed device wallpapers that express their fandom" },
+      { title: "Cute Aesthetic Enthusiasts", description: "People who love cute character aesthetics use Labubu wallpapers for charming device customization" },
+      { title: "Pop Culture Enthusiasts", description: "People who follow collectible toy trends use themed wallpapers as digital extensions of their collecting hobby" }
+    ]
+  },
+  "max-studio": {
+    whatIs: "Max Studio is a creative platform and studio tool that provides AI-assisted creative production capabilities for content creators. It offers tools for creative project development, content production, and creative workflow management. For creators who need a comprehensive creative studio environment with AI assistance, Max Studio provides integrated creative production tools.",
+    features: [
+      "Creative Production: AI-assisted content creation tools",
+      "Studio Environment: Comprehensive creative workspace",
+      "Project Management: Organize creative projects and assets",
+      "AI Assistance: AI help throughout the creative process",
+      "Multiple Formats: Support for different content types",
+      "Collaboration: Work with team members on creative projects",
+      "Export Options: Output in various formats for different uses",
+      "Free to Try: Basic creative tools without payment"
+    ],
+    howToUse: {
+      title: "How to Use Max Studio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Project", description: "Sign up at max.studio and create a new creative project. Configure your project type and creative goals." },
+        { title: "Create with AI Assistance", description: "Use the AI-assisted tools to develop your creative content. The AI helps throughout the production process." },
+        { title: "Export Your Work", description: "Complete your creative project and export in the format required for your distribution channel." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Integrated Environment", description: "A comprehensive creative studio that handles multiple aspects of content production reduces the friction of switching between specialized tools" },
+      { title: "AI Throughout Workflow", description: "AI assistance integrated throughout the creative process rather than just at one stage provides more comprehensive creative support" },
+      { title: "Creator Focus", description: "Tools designed specifically for content creators rather than adapted from professional software serve creator workflows more naturally" },
+      { title: "Production Quality", description: "Studio-quality output that meets distribution requirements ensures creative work is ready for its intended platform" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Digital creators use Max Studio for AI-assisted creative production across their content channels" },
+      { title: "Creative Professionals", description: "Design and creative professionals use the studio environment for project development" },
+      { title: "Independent Producers", description: "Solo creators use Max Studio for comprehensive creative production without large team resources" }
+    ]
+  },
+  "ohmywall": {
+    whatIs: "OhMyWall is a wallpaper discovery and AI generation platform that provides both curated wallpaper collections and AI-generated custom wallpapers for desktop and mobile devices. It combines a library of high-quality wallpapers with AI generation capabilities for users who want either curated or custom wallpaper options. For people who care about their device aesthetics, OhMyWall provides comprehensive wallpaper options.",
+    features: [
+      "Wallpaper Library: Curated collection of high-quality wallpapers",
+      "AI Generation: Create custom wallpapers with AI",
+      "Multiple Categories: Landscapes, abstract, minimal, and more",
+      "High Resolution: 4K and retina quality wallpapers",
+      "Device Optimization: Sizes for desktop and mobile",
+      "Daily Updates: New wallpapers added regularly",
+      "Download Free: Access wallpapers without payment",
+      "Community: Share and discover wallpapers with other users"
+    ],
+    howToUse: {
+      title: "How to Use Ohmywall",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse or Generate", description: "Go to ohmywall.com and either browse the curated wallpaper library or use AI generation for a custom wallpaper." },
+        { title: "Find Your Wallpaper", description: "Search by category, color, or style to find wallpapers that match your aesthetic preferences." },
+        { title: "Download and Apply", description: "Download your chosen or generated wallpaper in the right resolution for your device." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Curated Plus Generated", description: "Combining a curated library with AI generation provides both immediate options and custom creation capability in one place" },
+      { title: "Quality Standard", description: "High-resolution wallpapers that look sharp on modern displays meet the quality expectation of users with premium devices" },
+      { title: "Variety", description: "Regular updates to the library combined with unlimited AI generation provide endless wallpaper variety for users who change frequently" },
+      { title: "Discovery", description: "Browsing curated collections exposes users to wallpaper styles and aesthetics they might not think to generate themselves" }
+    ],
+    useCases: [
+      { title: "Desktop Customization Enthusiasts", description: "People who care about their desktop aesthetic use OhMyWall for high-quality wallpaper options" },
+      { title: "Mobile Users", description: "Smartphone users who personalize their home screen use the platform for mobile-optimized wallpapers" },
+      { title: "Aesthetic-Focused Creators", description: "Creators who maintain consistent visual aesthetics use OhMyWall for device wallpapers that match their brand" }
+    ]
+  },
+  "pebberly": {
+    whatIs: "Pebberly is an AI brand name and identity generation platform that creates unique business names, taglines, and initial brand concepts from business descriptions. It uses AI to understand your business positioning and generate names that are memorable, available, and appropriate for your market. For entrepreneurs who need a distinctive brand name and initial brand direction, Pebberly provides AI-powered brand naming and identity creation.",
+    features: [
+      "Brand Name Generation: AI-created unique business names",
+      "Tagline Creation: Brand taglines alongside name options",
+      "Domain Checking: Availability verification for generated names",
+      "Brand Concepts: Initial visual brand direction suggestions",
+      "Industry Context: Names appropriate for your business type",
+      "Multiple Options: Several brand directions to choose from",
+      "Quick Generation: Brand concepts produced rapidly",
+      "Free to Try: Basic brand generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Pebberly",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Brand", description: "Sign up at pebberly.com and describe your business, target audience, and brand personality." },
+        { title: "Review Brand Concepts", description: "Pebberly generates brand names with taglines and initial identity direction. Compare the concepts for fit with your vision." },
+        { title: "Select and Develop", description: "Choose the brand direction that best represents your business and develop it further into a complete brand identity." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Naming Creativity", description: "AI that generates creative brand names beyond obvious keyword combinations produces more distinctive and memorable brand options" },
+      { title: "Tagline Integration", description: "Having taglines generated alongside names ensures the verbal brand identity works as a cohesive unit" },
+      { title: "Domain Reality", description: "Checking domain availability for generated names focuses selection on names that can actually be used" },
+      { title: "Quick Brand Foundation", description: "Getting a brand name, tagline, and initial direction quickly allows new businesses to start marketing without extended naming processes" }
+    ],
+    useCases: [
+      { title: "New Business Founders", description: "Entrepreneurs starting new ventures use Pebberly for creative brand naming and initial identity direction" },
+      { title: "Product Launchers", description: "People launching new products use Pebberly for distinctive brand names that stand out in their market" },
+      { title: "Startup Teams", description: "Early-stage teams use Pebberly to explore brand directions before committing to a final brand identity" }
+    ]
+  },
+  "sealdigital": {
+    whatIs: "Seal Digital is a digital signature and document authentication platform that provides legally binding electronic signatures, document verification, and secure document workflows for businesses. It enables organizations to sign, send, and manage important documents digitally with compliance and security. For businesses that need reliable electronic signature infrastructure for contracts and agreements, Seal Digital provides professional document authentication.",
+    features: [
+      "Electronic Signatures: Legally binding digital document signing",
+      "Document Authentication: Verify document authenticity and integrity",
+      "Signature Workflows: Multi-party signing sequences",
+      "Audit Trail: Complete signing history for compliance",
+      "Secure Storage: Encrypted document storage",
+      "Team Management: Manage signing across organizations",
+      "Integration: Connect with business document systems",
+      "Free Plan: Basic signing without payment"
+    ],
+    howToUse: {
+      title: "How to Use Sealdigital",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Document", description: "Sign up at sealdigital.com and upload the document that needs electronic signatures." },
+        { title: "Configure Signing Workflow", description: "Add signers, set signing order, and configure the document workflow for all required parties." },
+        { title: "Send and Track", description: "Send the document for signatures and track completion through the dashboard. Receive notification when all parties have signed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Legal Validity", description: "Electronic signatures meeting e-signature law requirements create legally binding agreements equivalent to handwritten signatures" },
+      { title: "Process Speed", description: "Document signing that previously required physical document handling completes digitally in minutes rather than days" },
+      { title: "Security and Compliance", description: "Encrypted documents with complete audit trails meet security and compliance requirements for regulated industries" },
+      { title: "Remote Accessibility", description: "Digital signatures that work from any location remove geographic barriers from document execution processes" }
+    ],
+    useCases: [
+      { title: "Business Owners", description: "Companies use Seal Digital for contract and agreement signing with clients and partners" },
+      { title: "Legal and Compliance Teams", description: "Professionals managing legal documents use electronic signatures for efficient document execution" },
+      { title: "HR Departments", description: "Human resources teams use digital signatures for employment contracts and onboarding documents" }
+    ]
+  },
+  "unwatermark-ai": {
+    whatIs: "Unwatermark AI is an AI-powered watermark removal tool that uses deep learning to identify and remove watermarks from images. It reconstructs the image content beneath watermarks to produce clean versions without visible removal artifacts. The tool handles text watermarks, logo watermarks, and semi-transparent overlays. For users who need to remove watermarks from images they have rights to use, Unwatermark AI provides effective AI-powered removal.",
+    features: [
+      "Watermark Detection: Automatic identification of watermark regions",
+      "AI Removal: Deep learning watermark elimination",
+      "Image Reconstruction: Natural fill beneath removed watermarks",
+      "Multiple Watermark Types: Text, logo, and transparent overlays",
+      "Artifact-Free Results: Clean removal without visible artifacts",
+      "Batch Processing: Remove watermarks from many images",
+      "Fast Processing: Quick watermark removal",
+      "Free to Try: Basic removal without payment"
+    ],
+    howToUse: {
+      title: "How to Use Unwatermark Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to Unwatermark AI and upload the image with the watermark you want to remove." },
+        { title: "Process Removal", description: "The AI automatically detects and removes the watermark, filling in the underlying image content naturally." },
+        { title: "Download Clean Image", description: "Review the clean result and download your watermark-free image." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Effective Removal", description: "AI that accurately detects watermark regions and reconstructs underlying content produces cleaner removal results than manual editing approaches" },
+      { title: "Automatic Detection", description: "Automatic watermark region identification without manual masking speeds the removal process and reduces required user skill" },
+      { title: "Natural Reconstruction", description: "Deep learning that fills in realistic image content beneath removed watermarks produces more natural-looking results than simple inpainting" },
+      { title: "Artifact Prevention", description: "Removal that avoids leaving visible artifacts where watermarks were produces professionally clean results" }
+    ],
+    useCases: [
+      { title: "Licensed Content Users", description: "People who have licensed images with watermarks use removal tools to access clean versions of content they own rights to" },
+      { title: "Design Professionals", description: "Designers remove watermarks from images they have purchased licenses for in their projects" },
+      { title: "Content Researchers", description: "Researchers working with images they have rights to use remove watermarks for academic and research purposes" }
+    ]
+  },
   "aieraser": {
     whatIs: "AiEraser is an AI object removal tool that erases unwanted elements from photos with a simple brush stroke. Users paint over objects they want removed and the AI intelligently fills the area with appropriate background content. It handles people, objects, text, and other unwanted elements in any photo quickly and effectively.",
     features: [
