@@ -1,4 +1,499 @@
 export const toolsProductInfo5: { [key: string]: any } = {
+  "heyphoto": {
+    whatIs: "HeyPhoto is an AI photo editing and age progression tool that transforms portraits using artificial intelligence. It applies realistic aging effects, de-aging filters, and other facial transformation features that show how a person might look at different ages. The app uses deep learning to analyze facial features and apply transformations that preserve the person identity while accurately modeling age-related changes. For people curious about aging, creating fun content, or exploring appearance at different life stages, HeyPhoto provides accessible AI portrait transformation.",
+    features: [
+      "Age Progression: See how you or others will look decades from now",
+      "De-Aging: Reverse aging effects to see a younger version",
+      "Facial Transformation: Multiple AI-powered face modification effects",
+      "Realistic Results: Deep learning that preserves identity while transforming age",
+      "Photo Enhancement: Improve photo quality alongside age effects",
+      "Quick Processing: Results delivered in seconds",
+      "Multiple Styles: Different aging and transformation options",
+      "Free to Try: Basic transformations without payment"
+    ],
+    howToUse: {
+      title: "How to Use Heyphoto",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Portrait", description: "Open HeyPhoto and upload a clear portrait photo. Front-facing photos with good lighting produce the most realistic transformations." },
+        { title: "Choose Your Effect", description: "Select the age progression, de-aging, or other transformation you want to apply. Preview different options before committing." },
+        { title: "Save and Share", description: "Download your transformed photo and share it. The realistic results make for compelling before-and-after comparisons." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Curiosity Satisfaction", description: "Seeing realistic aging progression satisfies genuine curiosity about future appearance that imagination alone cannot provide" },
+      { title: "Realistic Output", description: "Deep learning that maintains facial identity through transformation produces results that look like the same person at different ages rather than generic old-face filters" },
+      { title: "Entertainment Value", description: "Age transformation photos that look genuinely realistic are entertaining to create and share with family and friends" },
+      { title: "Memory Exploration", description: "De-aging effects that show what older photos subjects looked like when younger connect families across generations" }
+    ],
+    useCases: [
+      { title: "Curious Individuals", description: "People curious about future appearance use HeyPhoto for realistic age progression exploration" },
+      { title: "Social Media Content Creators", description: "Content creators use age transformation for engaging posts that get high engagement" },
+      { title: "Families", description: "People use de-aging to see what older relatives looked like when young or what young relatives will look like older" }
+    ]
+  },
+  "extrapolate": {
+    whatIs: "Extrapolate is a free AI age progression app that shows you what you will look like as you age. Upload a selfie and the AI generates realistic images of your face at different future ages, from middle age through old age. The app uses sophisticated deep learning to maintain your recognizable features while applying natural-looking aging effects. For anyone curious about their future appearance, Extrapolate provides a fun and surprisingly realistic glimpse.",
+    features: [
+      "Age Progression: See your face at multiple future ages",
+      "Realistic Aging: Deep learning that applies natural-looking age effects",
+      "Multiple Age Points: Preview appearance at different decades",
+      "Identity Preservation: Maintains recognizable features through transformation",
+      "Free to Use: Full age progression without payment",
+      "Fast Results: Transformations generated quickly",
+      "Selfie Friendly: Optimized for modern smartphone selfies",
+      "Shareable Output: Easy to download and share results"
+    ],
+    howToUse: {
+      title: "How to Use Extrapolate",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Take Your Selfie", description: "Go to extrapolate.app and upload a clear selfie. Good lighting and a neutral expression produce the most realistic aging results." },
+        { title: "View Your Future Ages", description: "Extrapolate generates your face at multiple future ages. Scroll through the different age points to see how your features evolve." },
+        { title: "Save and Share", description: "Download the age progression images you want to keep. Share with friends and family for reactions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Accessibility", description: "Age progression technology that costs nothing removes the barrier to satisfying a curiosity that many people share" },
+      { title: "Multiple Age Points", description: "Seeing progression across multiple decades rather than a single future age tells a more complete story of aging trajectory" },
+      { title: "Realistic Quality", description: "Results that look genuinely realistic rather than cartoonish make the experience meaningful rather than just a novelty filter" },
+      { title: "Conversation Starter", description: "Sharing age progression photos with family members who knew you young creates interesting conversation about resemblance and inheritance" }
+    ],
+    useCases: [
+      { title: "Curious Individuals", description: "People curious about their future appearance use Extrapolate for free realistic age progression" },
+      { title: "Young People", description: "Younger users use age progression to see what they will look like as adults and elderly" },
+      { title: "Social Media Users", description: "People who enjoy sharing interesting AI-generated content use Extrapolate for engaging age progression posts" }
+    ]
+  },
+  "ourbabyai": {
+    whatIs: "OurBabyAI is an AI tool that generates realistic photos of what a baby would look like based on photos of two parents. Users upload photos of themselves and a partner and the AI combines their facial features to generate images of their potential future child. The generated baby photos show plausible combinations of both parents features in a realistic infant face. For couples curious about what their children might look like, OurBabyAI provides a fun AI-powered glimpse into possible future family resemblance.",
+    features: [
+      "Baby Generation: Create realistic baby photos from parent photos",
+      "Feature Blending: AI combines both parents facial characteristics",
+      "Realistic Output: Photorealistic baby face generation",
+      "Multiple Results: Generate several different possible baby appearances",
+      "Gender Options: See potential boy or girl variations",
+      "Fast Processing: Baby photos generated in seconds",
+      "Privacy Conscious: Photos processed without permanent storage",
+      "Free to Try: Basic baby generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ourbabyai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Parent Photos", description: "Go to ourbabyai.com and upload clear portrait photos of both parents. Clear, well-lit photos produce better feature blending results." },
+        { title: "Generate Your Baby", description: "The AI analyzes both parent photos and generates realistic images of what your baby might look like, combining features from both parents." },
+        { title: "Save Your Favorites", description: "Browse the generated baby images and save the ones you like most. Share with family for fun reactions and comparisons." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Couple Curiosity", description: "Couples who wonder what their future children will look like find AI baby generation a fun way to explore this curiosity before or during family planning" },
+      { title: "Family Entertainment", description: "Sharing AI baby photos with extended family creates entertaining conversations about resemblance and feature inheritance" },
+      { title: "Emotional Connection", description: "For couples who have lost pregnancies or are struggling with fertility, seeing a possible future child can be emotionally meaningful" },
+      { title: "Technology Novelty", description: "The AI capability to plausibly combine two faces into a realistic third face is inherently impressive and worth experiencing" }
+    ],
+    useCases: [
+      { title: "Couples and Partners", description: "Romantic partners use OurBabyAI to see what their potential children might look like" },
+      { title: "Families and Friends", description: "People use the tool for entertaining family gatherings by generating babies from different family member combinations" },
+      { title: "Social Media Users", description: "Couples share AI baby photos on social media for engagement and fun reactions" }
+    ]
+  },
+  "heygen": {
+    whatIs: "HeyGen is a leading AI video generation platform that creates professional talking avatar videos from text scripts. Users choose from hundreds of AI avatars or create a custom avatar from their own video, type their script, and HeyGen generates a polished video of the avatar delivering the content. It supports over 300 languages and voices, making it the go-to platform for creating multilingual video content without filming. For businesses and creators who need professional video content at scale, HeyGen dramatically reduces the cost and time of video production.",
+    features: [
+      "AI Avatars: Hundreds of realistic digital presenters to choose from",
+      "Custom Avatar: Create a personalized avatar from your own video",
+      "Text to Video: Type a script and generate a polished talking video",
+      "300 Plus Languages: Generate videos in over 300 languages and voices",
+      "Video Translation: Translate existing videos into other languages",
+      "Lip Sync: Accurate lip synchronization for translated content",
+      "Templates: Professional video templates for different use cases",
+      "Free Plan: Create short videos without payment"
+    ],
+    howToUse: {
+      title: "How to Use Heygen",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Avatar", description: "Sign up at heygen.com and browse the avatar library. Select an avatar that matches your brand style or create a custom avatar from your own video." },
+        { title: "Write Your Script", description: "Type your video script in the text editor. HeyGen supports any language and will have your chosen avatar deliver the content." },
+        { title: "Generate and Download", description: "Generate your video and review the result. Download the finished video for use across your marketing channels, training programs, or social media." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Video Production Cost", description: "Professional video production with real presenters costs thousands per video. AI avatar videos that look professional cost a fraction of this and can be produced in minutes" },
+      { title: "Multilingual Scale", description: "Creating the same video in 20 languages with human presenters requires 20 separate productions. HeyGen generates all language versions from one script" },
+      { title: "Consistency", description: "AI avatars that deliver content consistently without variation in energy or presentation quality maintain brand standards across all videos" },
+      { title: "Scalability", description: "Organizations that need hundreds of personalized or localized videos use HeyGen to produce this volume without proportional production cost increases" }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "Marketing departments use HeyGen for product explainers, social media content, and personalized video campaigns" },
+      { title: "L&D and Training Teams", description: "Learning and development professionals use AI video for training content that can be updated quickly without reshooting" },
+      { title: "Content Creators", description: "Creators use HeyGen to produce professional video content without camera setup, lighting, or multiple takes" }
+    ]
+  },
+  "d-id": {
+    whatIs: "D-ID is an AI video generation platform that specializes in creating talking avatar videos and animating still photos. It can turn any portrait photo into a speaking video by animating the face to match audio or typed text. D-ID also offers a streaming avatar API that enables real-time interactive AI avatars for customer service, education, and other applications. For developers and businesses who want realistic animated video personas, D-ID provides the most established platform for photo animation and real-time AI avatar technology.",
+    features: [
+      "Photo Animation: Turn any portrait photo into a talking video",
+      "Text to Video: Generate talking head videos from text scripts",
+      "Real-Time Streaming: Live interactive AI avatars through API",
+      "Custom Avatars: Create talking avatars from your own photos",
+      "Multiple Languages: Voice and lip sync in many languages",
+      "Developer API: Integrate avatar technology into your applications",
+      "Presentation Mode: Create talking presentation videos",
+      "Free Credits: Try avatar creation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use D Id",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Sign up at d-id.com and upload the portrait photo you want to animate. Any clear portrait photo works as a base for animation." },
+        { title: "Add Your Script or Audio", description: "Type the text you want the avatar to speak or upload audio. D-ID generates precise lip sync to match the audio content." },
+        { title: "Generate and Use", description: "Generate your talking avatar video and download it. For developer use, access the API to integrate real-time avatar streaming into your application." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photo to Video", description: "Turning existing photos into speaking videos creates video content from assets that already exist without any additional filming" },
+      { title: "Language Flexibility", description: "Animating the same avatar to speak in different languages creates multilingual video content from a single source photo" },
+      { title: "Real-Time Capability", description: "Streaming avatar APIs that enable real-time interactive AI personas open applications in customer service and education that pre-recorded video cannot serve" },
+      { title: "Historical Content", description: "Animating photos of historical figures or deceased relatives for educational or memorial purposes creates experiences that static photos cannot provide" }
+    ],
+    useCases: [
+      { title: "Marketing and Communications Teams", description: "Teams use D-ID for talking presenter videos in marketing materials and internal communications" },
+      { title: "Developers Building Avatar Applications", description: "Software teams use the D-ID API for real-time interactive avatar features in their products" },
+      { title: "Educators and Trainers", description: "Educational content creators use photo animation for engaging instructional videos" }
+    ]
+  },
+  "vidyard": {
+    whatIs: "Vidyard is a video hosting and analytics platform built for business that helps sales, marketing, and customer success teams create, share, and track video content. It provides screen and webcam recording for personalized video messages, a video library for marketing assets, and detailed viewer analytics that show who watched what and for how long. For business teams that use video as part of their communication and sales strategy, Vidyard provides the professional video infrastructure that transforms video from content into a trackable business tool.",
+    features: [
+      "Video Recording: Screen and webcam recording for business videos",
+      "Personalized Video: Create personalized video messages for prospects",
+      "Video Hosting: Professional video library for business content",
+      "Viewer Analytics: Track who watched your videos and for how long",
+      "CRM Integration: Connect video engagement data to Salesforce and HubSpot",
+      "Video Email: Embed video thumbnails in email for higher open rates",
+      "AI Script Assistant: AI help writing video scripts",
+      "Free Plan: Basic video recording and sharing without payment"
+    ],
+    howToUse: {
+      title: "How to Use Vidyard",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record Your Video", description: "Sign up at vidyard.com and install the browser extension. Record your screen, webcam, or both for your video message or content." },
+        { title: "Share with Tracking", description: "Send your video via the Vidyard link. Every view is tracked so you know exactly who watched and how much they engaged." },
+        { title: "Connect to Your CRM", description: "Integrate Vidyard with your CRM to see video engagement alongside other prospect activity. Use viewing data to prioritize follow-up." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sales Video Effectiveness", description: "Personalized video messages that show a prospect face and their specific situation produce dramatically higher response rates than text email" },
+      { title: "Engagement Intelligence", description: "Knowing that a prospect watched your video three times or shared it with colleagues provides sales intelligence that email open tracking cannot deliver" },
+      { title: "Content Performance", description: "Marketing teams that know which videos prospects actually finish watching make better content investment decisions than those relying on view counts alone" },
+      { title: "CRM Integration Value", description: "Video engagement data alongside email, call, and meeting activity gives sales teams the complete prospect engagement picture they need for effective follow-up" }
+    ],
+    useCases: [
+      { title: "Sales Development Teams", description: "SDRs use Vidyard for personalized video prospecting that stands out in crowded inboxes" },
+      { title: "Marketing Teams", description: "Marketing professionals use Vidyard for video hosting and analytics on content marketing assets" },
+      { title: "Customer Success Teams", description: "CS professionals use personalized video for onboarding, check-ins, and relationship building at scale" }
+    ]
+  },
+  "insmind": {
+    whatIs: "insMind is an AI image editing platform that specializes in background removal, replacement, and product photo enhancement. It uses AI to precisely remove backgrounds from product photos, replace them with professional settings, and enhance images for e-commerce listings. The platform is designed for online sellers and marketers who need large volumes of professional product photos without expensive photography sessions. For e-commerce businesses that need consistent, professional product imagery, insMind provides the AI photo production pipeline.",
+    features: [
+      "Background Removal: AI-precise background removal from product photos",
+      "Background Replacement: Add professional or custom backgrounds",
+      "Product Enhancement: Improve lighting and quality of product photos",
+      "Batch Processing: Process many images simultaneously",
+      "E-commerce Ready: Output optimized for marketplace listings",
+      "Shadow Generation: Add realistic shadows to placed products",
+      "Color Correction: Automatic color and exposure adjustment",
+      "Free Credits: Try image processing before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Insmind",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Product Photos", description: "Sign up at insmind.com and upload your product photos. The AI immediately processes background removal on all uploaded images." },
+        { title: "Customize Your Backgrounds", description: "Select from professional background templates or upload custom backgrounds. Preview how your products look in different settings." },
+        { title: "Download and List", description: "Download your processed product photos optimized for your marketplace. Use them directly in your e-commerce listings without further editing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Professional Results at Scale", description: "Hiring a photographer for every product variation is expensive and slow. AI that produces professional results from any photo makes quality product imagery accessible" },
+      { title: "Consistency", description: "E-commerce catalogs with inconsistent photography look unprofessional. Batch AI processing that applies the same treatment to all product photos creates a consistent catalog look" },
+      { title: "Speed to Market", description: "New products that need photos before they can be listed benefit from AI processing that turns around results in minutes rather than days" },
+      { title: "Cost Reduction", description: "The cost per product image drops dramatically when AI handles background removal and enhancement instead of human photo editors" }
+    ],
+    useCases: [
+      { title: "E-commerce Sellers", description: "Online retailers use insMind for professional product photos that improve listing performance" },
+      { title: "Marketplace Sellers", description: "Amazon, eBay, and other marketplace sellers use insMind for catalog-quality product imagery" },
+      { title: "Small Brands", description: "Small brands without photography budgets use insMind to achieve professional-looking product photos from basic phone shots" }
+    ]
+  },
+  "pixelcut": {
+    whatIs: "Pixelcut is an AI photo editing app designed for product photos and social media content creation. It provides background removal, background replacement, magic eraser, and other AI editing tools in a mobile-first interface. The app is popular with small business owners who need professional-looking product photos and social media content without desktop photo editing software. For entrepreneurs and creators who edit photos on their phones, Pixelcut delivers professional editing capabilities in an accessible mobile app.",
+    features: [
+      "Background Removal: One-tap AI background removal from any photo",
+      "Magic Eraser: Remove unwanted objects from photos with AI",
+      "Background Templates: Professional and lifestyle background options",
+      "Product Photo Templates: Styled templates for e-commerce products",
+      "Batch Editing: Process multiple photos simultaneously",
+      "Social Media Sizing: Automatic sizing for different platforms",
+      "Text and Graphics: Add text and design elements to photos",
+      "Free to Use: Basic editing features without payment"
+    ],
+    howToUse: {
+      title: "How to Use Pixelcut",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Take or Upload Your Photo", description: "Open Pixelcut on your phone and take a product photo or upload an existing image." },
+        { title: "Apply AI Editing", description: "Use background removal, magic eraser, or other AI tools with a single tap. Preview the result and make any adjustments." },
+        { title: "Export for Your Use", description: "Download your edited photo in the right format and size for your intended use - product listing, social media, or marketing material." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Mobile First Design", description: "Desktop photo editing apps with complex interfaces are impractical for entrepreneurs who edit on their phones. Mobile-first design that works intuitively on a phone serves this large user group" },
+      { title: "One-Tap Simplicity", description: "Background removal that requires a single tap rather than manual masking makes professional photo editing accessible to anyone" },
+      { title: "E-commerce Integration", description: "Templates specifically designed for product photos produce marketplace-ready images without additional formatting work" },
+      { title: "Speed for Volume", description: "Small business owners who need to edit many product photos regularly benefit from fast mobile editing that fits into their workflow" }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Entrepreneurs use Pixelcut for professional product photos from their phone without desktop editing software" },
+      { title: "Social Media Managers", description: "Content creators use Pixelcut for quick social media image editing on mobile" },
+      { title: "E-commerce Sellers", description: "Online sellers use Pixelcut for product photo background removal and enhancement" }
+    ]
+  },
+  "ghibli-ai": {
+    whatIs: "Ghibli AI is an AI image generation tool that transforms photos and creates original artwork in the distinctive visual style of Studio Ghibli films. It applies the characteristic soft colors, detailed backgrounds, expressive characters, and dreamlike quality of Ghibli animation to any input photo or generates original scenes that capture the studio iconic aesthetic. For fans of Studio Ghibli who want to see their photos reimagined in this beloved art style or create original Ghibli-inspired artwork, Ghibli AI provides AI-powered style transfer.",
+    features: [
+      "Ghibli Style Transfer: Transform photos into Studio Ghibli aesthetic",
+      "Original Generation: Create new Ghibli-style scenes from descriptions",
+      "Character Style: Apply Ghibli character design to portrait photos",
+      "Background Creation: Generate Ghibli-style landscape backgrounds",
+      "Soft Color Palette: The characteristic warm, soft colors of Ghibli films",
+      "High Quality Output: Detailed artwork suitable for printing",
+      "Fast Generation: Results produced quickly",
+      "Free Credits: Try Ghibli style generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Ghibli Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo or Describe Your Scene", description: "Go to the Ghibli AI platform and either upload a photo to transform or describe the Ghibli-style scene you want to create." },
+        { title: "Generate Your Artwork", description: "The AI applies Ghibli visual style to your input, producing artwork with the characteristic soft colors and dreamlike quality of the studio's films." },
+        { title: "Download Your Art", description: "Download your Ghibli-style artwork in high resolution for personal use, sharing, or printing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Beloved Aesthetic", description: "Studio Ghibli visual style is one of the most beloved and distinctive in animation. AI that can apply this style creates images with immediate emotional resonance for the studio large fan base" },
+      { title: "Personal Photo Transformation", description: "Seeing your own photos reimagined in a beloved animation style creates personal connection to the artwork that generic style filters cannot match" },
+      { title: "Creative Inspiration", description: "Artists who want to create in a Ghibli-inspired style use AI generation as a starting point or reference for their own creative work" },
+      { title: "Fan Connection", description: "Ghibli fans who want to create content connected to films they love use AI generation for fan art and personal expression" }
+    ],
+    useCases: [
+      { title: "Studio Ghibli Fans", description: "People who love Ghibli films use the tool to see their photos and ideas in the studio iconic visual style" },
+      { title: "Digital Artists", description: "Artists use Ghibli-style generation as creative inspiration and reference for their own illustrations" },
+      { title: "Social Media Content Creators", description: "Creators use Ghibli-style transformed photos for distinctive social media content" }
+    ]
+  },
+  "remove-bg": {
+    whatIs: "Remove.bg is the leading AI background removal tool that removes image backgrounds instantly with a single click. It uses sophisticated AI to precisely detect the subject in any photo - people, products, animals, or objects - and removes the background with clean edges. The tool processes images in seconds and is used by millions of people for e-commerce product photos, profile pictures, graphic design projects, and any use case that requires a transparent background. For anyone who needs clean background removal quickly, remove.bg sets the standard for accuracy and speed.",
+    features: [
+      "Instant Background Removal: Remove any background in seconds",
+      "Precise Edge Detection: Clean edges around hair, fur, and complex subjects",
+      "People and Products: Works for portraits, product photos, and any subject",
+      "API Access: Integrate background removal into your applications",
+      "Bulk Processing: Remove backgrounds from many images simultaneously",
+      "High Resolution: Full-quality output for professional use",
+      "Photoshop Plugin: Background removal directly in Photoshop",
+      "Free Credits: Remove backgrounds with monthly free credits"
+    ],
+    howToUse: {
+      title: "How to Use Remove Bg",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to remove.bg and upload your image or paste an image URL. Background removal begins processing immediately." },
+        { title: "Review the Result", description: "The AI removes the background and presents the result with a transparent background. Review the edges for accuracy." },
+        { title: "Download and Use", description: "Download your image with a transparent background as PNG. Use it in your design projects, e-commerce listings, or wherever you need a clean cutout." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed and Quality", description: "Manual background removal in Photoshop takes minutes. Automated removal that takes seconds without sacrificing quality changes the economics of image editing" },
+      { title: "Edge Precision", description: "Complex edges like hair and fur that take significant manual work to mask accurately are handled automatically by AI trained specifically for this task" },
+      { title: "API Scale", description: "Applications that need background removal for user-uploaded images integrate the remove.bg API rather than building their own removal technology" },
+      { title: "Accessibility", description: "Background removal that previously required Photoshop skills is accessible to anyone who can upload a file" }
+    ],
+    useCases: [
+      { title: "E-commerce Sellers", description: "Online retailers use remove.bg for product photo background removal at the scale their catalog requires" },
+      { title: "Graphic Designers", description: "Designers use background removal for collages, compositions, and design projects that require isolated subjects" },
+      { title: "Developers", description: "Software teams integrate the remove.bg API for background removal features in their image-handling applications" }
+    ]
+  },
+  "photoroom": {
+    whatIs: "Photoroom is an AI photo editing app that makes professional product and portrait photo editing accessible on mobile. Its standout feature is instant background removal with smart replacement that places subjects in professional studio settings, lifestyle backgrounds, or custom environments. The app is widely used by e-commerce sellers who photograph products on their phones and need professional results without a studio. For mobile photographers who need professional-quality product photos quickly, Photoroom delivers studio results from a smartphone.",
+    features: [
+      "Instant Background Removal: One-tap subject isolation from any background",
+      "Studio Backgrounds: Professional studio and lifestyle background templates",
+      "Batch Editing: Process many product photos simultaneously",
+      "Magic Eraser: Remove unwanted objects and distractions",
+      "Shadow Effects: Add realistic shadows for natural-looking placement",
+      "Brand Kit: Save your brand colors and templates for consistent editing",
+      "Social Media Export: Size photos for different platforms automatically",
+      "Free to Use: Basic editing without payment"
+    ],
+    howToUse: {
+      title: "How to Use Photoroom",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Photograph Your Subject", description: "Take photos of your product or subject on any background. Photoroom works best with good lighting even on phone cameras." },
+        { title: "Remove and Replace Background", description: "Open your photo in Photoroom and tap to remove the background. Select a professional template or add a custom background." },
+        { title: "Export for Your Use", description: "Download your finished photo optimized for your intended platform. Use directly in your e-commerce listing or social media post." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Studio Results from Phone", description: "Professional product photography that requires a studio setup costs significantly. Photoroom that produces comparable results from a phone photo changes the economics for small sellers" },
+      { title: "Background Library Value", description: "Hundreds of professional background templates that fit different product categories and aesthetics are more useful than a blank transparent background" },
+      { title: "Batch Efficiency", description: "Processing an entire product catalog through batch editing is dramatically faster than editing photos individually" },
+      { title: "Consistency at Scale", description: "Applying the same background treatment to all products creates a consistent catalog appearance that individual photo editing rarely achieves" }
+    ],
+    useCases: [
+      { title: "E-commerce Sellers and Small Brands", description: "Online sellers use Photoroom for professional product photos from phone cameras" },
+      { title: "Social Media Managers", description: "Content creators use Photoroom for quick professional-looking social media photos" },
+      { title: "Marketplace Sellers", description: "Etsy, Amazon, and other marketplace sellers use Photoroom for catalog-quality product imagery" }
+    ]
+  },
+  "erase-bg": {
+    whatIs: "Erase.bg is a free AI background removal tool that automatically removes backgrounds from photos with one click. It handles portraits, product photos, and other images quickly, delivering transparent background results that are ready for use in design projects, e-commerce listings, and anywhere a clean cutout is needed. The completely free service makes professional background removal accessible without subscriptions or credits.",
+    features: [
+      "Free Background Removal: Remove backgrounds at no cost",
+      "Automatic Processing: AI handles the entire removal process",
+      "Transparent Output: Download as PNG with transparent background",
+      "Portrait and Product Support: Works for people and object photos",
+      "Fast Processing: Backgrounds removed in seconds",
+      "High Resolution: Quality output for professional use",
+      "No Registration Required: Remove backgrounds without an account",
+      "Bulk Download: Download multiple processed images"
+    ],
+    howToUse: {
+      title: "How to Use Erase Bg",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to erase.bg and upload the photo whose background you want to remove. No account creation is required." },
+        { title: "Review Automatic Removal", description: "Erase.bg processes your image automatically and shows the result. Check the edges for any areas that need attention." },
+        { title: "Download Your Cutout", description: "Download your image with a transparent background. The PNG file is ready for use in any design or photo project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Zero Cost", description: "Background removal tools that charge per image or require subscriptions create ongoing costs for businesses with high volume needs. Completely free removal makes this accessible regardless of volume" },
+      { title: "No Friction", description: "Tools that work without account creation are practically useful for quick one-off needs without any setup burden" },
+      { title: "Speed for Simple Needs", description: "Fast automatic removal that handles most images well serves the majority of background removal needs without manual refinement" },
+      { title: "Accessibility", description: "Making professional image editing accessible to anyone regardless of budget or technical skill democratizes visual content creation" }
+    ],
+    useCases: [
+      { title: "Budget-Conscious Creators", description: "People who need background removal without paying for premium tools use Erase.bg for free unlimited processing" },
+      { title: "Occasional Users", description: "People who occasionally need background removal use Erase.bg without committing to a subscription" },
+      { title: "Students and Hobbyists", description: "Non-professional users use Erase.bg for free background removal for personal projects" }
+    ]
+  },
+  "befunky": {
+    whatIs: "BeFunky is a comprehensive online photo editor, collage maker, and graphic design platform that provides professional-quality editing tools in an accessible web interface. It combines traditional photo editing features with AI enhancements, collage creation tools, and graphic design templates in one platform. BeFunky is particularly popular with non-professional users who want more capability than basic phone editors but find Photoshop too complex. For everyday users who want powerful but approachable photo editing and design tools, BeFunky delivers professional capabilities with a gentle learning curve.",
+    features: [
+      "Photo Editor: Full-featured online photo editing suite",
+      "Collage Maker: Create photo collages with many layout options",
+      "Graphic Designer: Design social media graphics and marketing materials",
+      "AI Enhancements: AI-powered photo enhancement and touch-up",
+      "Background Remover: AI background removal tool",
+      "Artsy Effects: Artistic filters and effects for creative photos",
+      "Templates: Ready-made templates for social media and marketing",
+      "Free Plan: Basic editing and design without payment"
+    ],
+    howToUse: {
+      title: "How to Use Befunky",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open Your Photo or Project", description: "Go to befunky.com and open the photo editor, collage maker, or graphic designer depending on your project type." },
+        { title: "Apply Your Edits", description: "Use the editing tools to enhance your photo, create your collage, or design your graphic. The interface is intuitive enough for beginners while offering professional features." },
+        { title: "Save and Share", description: "Download your finished project in your preferred format. BeFunky supports export in formats appropriate for web use, printing, and social media." }
+      ]
+    },
+    coreFeatures: [
+      { title: "All-in-One Value", description: "Having photo editing, collage making, and graphic design in one platform eliminates the need for multiple specialized tools for different creative needs" },
+      { title: "Approachable Complexity", description: "Professional photo editing tools that intimidate new users are not useful to them. BeFunky accessibility removes this barrier while maintaining genuine capability" },
+      { title: "Template Starting Points", description: "Ready-made templates that users customize rather than building from scratch produce better results faster for non-designers" },
+      { title: "Web-Based Convenience", description: "Browser-based editing that requires no software installation is practical for users who work across multiple devices" }
+    ],
+    useCases: [
+      { title: "Non-Professional Editors", description: "Everyday users who want more than basic phone editing use BeFunky for accessible professional-quality photo editing" },
+      { title: "Small Business Owners", description: "Business owners create marketing materials and social media graphics using BeFunky templates" },
+      { title: "Teachers and Students", description: "Educational users use BeFunky for creating visual presentations and educational materials" }
+    ]
+  },
+  "nero": {
+    whatIs: "Nero AI is an AI-powered image enhancement suite that provides upscaling, restoration, and enhancement tools for improving photo quality. It uses deep learning to sharpen blurry photos, remove noise, upscale low-resolution images to higher quality, and restore old or damaged photos. The Nero AI suite brings together multiple AI image improvement capabilities in professional-grade tools aimed at photographers, designers, and anyone who needs to improve existing photo quality.",
+    features: [
+      "AI Upscaling: Enlarge images without quality loss using AI",
+      "Photo Sharpening: Remove blur and sharpen detail in photos",
+      "Noise Reduction: Clean up grainy or noisy photos",
+      "Photo Restoration: Restore old, faded, or damaged photos",
+      "Batch Processing: Enhance many photos simultaneously",
+      "Before and After: Compare original and enhanced versions",
+      "Professional Quality: Output suitable for print and professional use",
+      "Free Trial: Try enhancement before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Nero",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Photos", description: "Open Nero AI and import the photos you want to enhance. The software accepts all standard image formats." },
+        { title: "Choose Your Enhancement", description: "Select the appropriate enhancement type - upscaling, sharpening, noise reduction, or restoration - based on your photo needs." },
+        { title: "Process and Export", description: "Process your photos and review the enhancement results. Export in your required format and resolution for your intended use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Quality Recovery", description: "Photos that are blurry, noisy, or low-resolution often cannot be used professionally as-is. AI enhancement that recovers usable quality from imperfect photos saves otherwise unusable images" },
+      { title: "Upscaling Without Artifacts", description: "Traditional image upscaling that stretches pixels produces blurry, artifact-filled results. AI upscaling that fills in realistic detail produces genuinely better images" },
+      { title: "Batch Efficiency", description: "Photographers and designers who need to enhance many photos benefit from batch processing that handles volume without individual editing" },
+      { title: "Historical Photo Value", description: "Restoring old family photos or historical images that have degraded over time recovers visual heritage that would otherwise be lost to poor quality" }
+    ],
+    useCases: [
+      { title: "Photographers", description: "Professional and amateur photographers use Nero AI to enhance and restore photos that need quality improvement" },
+      { title: "Graphic Designers", description: "Designers use AI upscaling to use smaller source images in high-resolution designs" },
+      { title: "Genealogy and History Enthusiasts", description: "People restoring old family photos use Nero for photo restoration that recovers detail from degraded historical images" }
+    ]
+  },
+  "palette-app": {
+    whatIs: "Palette is an AI photo colorization app that adds color to black and white photos automatically using deep learning. It analyzes the content of monochrome images and applies historically and contextually appropriate colors based on AI training on millions of colorized images. The app is particularly popular for colorizing historical family photos, bringing old portraits to life with realistic color. For anyone who wants to see old black and white photos in color, Palette provides accessible AI colorization that produces remarkably realistic results.",
+    features: [
+      "AI Colorization: Add realistic color to black and white photos",
+      "Historical Photos: Specialized for old portrait and family photo colorization",
+      "Contextual Color: AI applies appropriate colors based on image content",
+      "Multiple Styles: Different colorization approaches for different photo types",
+      "High Resolution: Quality output that preserves photo detail",
+      "Batch Processing: Colorize multiple photos simultaneously",
+      "Manual Adjustments: Fine-tune AI colorization results",
+      "Free Credits: Colorize photos with monthly free credits"
+    ],
+    howToUse: {
+      title: "How to Use Palette App",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Black and White Photo", description: "Go to palette.fm or the Palette app and upload the black and white photo you want to colorize." },
+        { title: "Generate Colorization", description: "The AI analyzes your photo and applies realistic colors. Review the colorization result and explore different style options if available." },
+        { title: "Adjust and Download", description: "Fine-tune any colors that need adjustment and download your colorized photo in high resolution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Historical Photo Revival", description: "Black and white family photos that feel distant and historical become more vivid and emotionally connecting when seen in realistic color" },
+      { title: "AI Color Intelligence", description: "Applying contextually appropriate colors that match what objects of that era actually looked like requires AI training that understands historical context" },
+      { title: "Accessibility of Technology", description: "Photo colorization that previously required skilled artists working for hours is available to anyone instantly through AI" },
+      { title: "Emotional Impact", description: "Seeing photographs of deceased relatives or historical figures in color creates stronger emotional connection than black and white allows" }
+    ],
+    useCases: [
+      { title: "Family History Enthusiasts", description: "People with old family photos use Palette to colorize portraits of ancestors and historical family moments" },
+      { title: "Historians and Researchers", description: "History enthusiasts use AI colorization to make historical photos more vivid and accessible" },
+      { title: "Social Media Creators", description: "Content creators share colorized historical photos for educational and entertainment content" }
+    ]
+  },
   "meta-sam2": {
     whatIs: "Meta Segment Anything Model 2 (SAM 2) is Meta AI most advanced image and video segmentation model that can identify and isolate any object in images and videos with remarkable precision. SAM 2 extends the original SAM capabilities to video, tracking objects across frames and allowing users to segment moving subjects throughout a video clip. For researchers, developers, and creative professionals who need precise object segmentation, SAM 2 provides state-of-the-art segmentation that works on virtually any object without task-specific training.",
     features: [
