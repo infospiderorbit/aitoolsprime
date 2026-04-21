@@ -1,4 +1,466 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "voice-swap": {
+    whatIs: "Voice Swap is an AI voice conversion platform that transforms vocal recordings into different voice styles and timbres using AI. Musicians and producers upload their vocals and the AI converts them to sound like different voice types, styles, or even specific artist-inspired voices. For music producers who want diverse vocal options without hiring multiple singers, Voice Swap provides AI-powered vocal transformation.",
+    features: [
+      "Voice Conversion: Transform vocals into different voice styles",
+      "Timbre Change: Alter the tonal quality of vocal recordings",
+      "Style Transfer: Apply different vocal characteristics",
+      "Multiple Voice Types: Access various converted voice options",
+      "Music Production Focus: Built for professional music use",
+      "Quality Output: High-quality converted vocal results",
+      "DAW Integration: Works with music production workflows",
+      "Free Trial: Try voice conversion before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Voice Swap",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Vocals", description: "Sign up at voiceswap.ai and upload the vocal recording you want to convert." },
+        { title: "Select Your Target Voice", description: "Choose the voice style or type you want to convert your vocals to." },
+        { title: "Download Converted Vocals", description: "Voice Swap processes your vocals and delivers the converted version ready for your production." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Vocal Diversity", description: "Access to multiple different voice styles from one vocal performance provides production flexibility without multiple recording sessions" },
+      { title: "Production Efficiency", description: "Converting existing vocals rather than re-recording with different singers saves significant recording time and costs" },
+      { title: "Creative Exploration", description: "Hearing your song's vocals in different voice styles reveals how different vocal approaches affect the feel of the track" },
+      { title: "Artist-Inspired Voices", description: "Voice styles inspired by different vocal approaches help producers understand what vocal direction fits their production best" }
+    ],
+    useCases: [
+      { title: "Music Producers", description: "Producers use Voice Swap for diverse vocal options in their productions without multiple recording sessions" },
+      { title: "Independent Artists", description: "Solo musicians experiment with different vocal approaches for their recordings using AI voice conversion" },
+      { title: "Beatmakers", description: "Beat producers use AI vocal conversion for demo vocals that preview how different voice types would suit their beats" }
+    ]
+  },
+  "revocalize-ai": {
+    whatIs: "Revocalize AI is an AI vocal processing and voice cloning platform that creates custom AI voice models from vocal recordings for music production. Musicians record their voice and Revocalize creates an AI model that can generate new vocal content in their voice. It also provides vocal transformation tools for applying different vocal characteristics to recordings. For artists who want to create AI versions of their own voice for music production efficiency, Revocalize AI provides personalized AI voice creation.",
+    features: [
+      "Voice Model Creation: Build AI models from your own voice",
+      "Custom AI Voice: Generate new content in your voice",
+      "Vocal Processing: Transform vocal recordings with AI",
+      "Pitch and Style Control: Adjust AI voice characteristics",
+      "Production Integration: Works with music production workflows",
+      "Voice Preservation: Maintain your unique vocal identity in AI form",
+      "Multiple Outputs: Generate various vocal performances",
+      "Free Trial: Try voice modeling before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Revocalize Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record Your Voice Samples", description: "Sign up at revocalize.ai and record the voice samples needed to train your personal AI voice model." },
+        { title: "Train Your Model", description: "Revocalize builds your AI voice model from your recordings. Training takes some time to complete." },
+        { title: "Generate New Vocals", description: "Use your AI voice model to generate new vocal content in your voice without re-recording." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personal Voice AI", description: "Having an AI model of your own voice enables generating new vocal content without needing to be available for every recording session" },
+      { title: "Creative Efficiency", description: "Generating demo vocals in your own AI voice rather than using placeholder voices maintains the intended vocal character through production" },
+      { title: "Voice Protection", description: "Artists who control their own AI voice model maintain ownership of their vocal identity in AI applications" },
+      { title: "Production Flexibility", description: "AI voice models that can generate content at any time remove the scheduling constraints of working with human vocalists for every production need" }
+    ],
+    useCases: [
+      { title: "Recording Artists", description: "Musicians create AI versions of their own voice for efficient vocal content generation in their productions" },
+      { title: "Music Producers", description: "Producers use artist AI voice models for more accurate demo vocals that represent the final intended performance" },
+      { title: "Vocal Session Artists", description: "Session singers create AI voice models for expanded service offerings to production clients" }
+    ]
+  },
+  "ai-singing": {
+    whatIs: "AI Singing is an AI vocal generation platform that creates singing performances from text and melody inputs. It generates AI vocal tracks that sing specified lyrics over provided or generated melodies in various vocal styles. For producers who need vocal demos, reference recordings, or complete AI vocal tracks, AI Singing provides accessible AI vocal performance generation.",
+    features: [
+      "AI Vocal Generation: Generate singing performances from lyrics",
+      "Melody Input: Provide or generate melodies for AI to sing",
+      "Style Options: Various vocal styles and character types",
+      "Lyric Input: Specify the exact lyrics to be sung",
+      "Complete Vocal Tracks: Full singing performance output",
+      "Demo Vocals: Reference recordings for production",
+      "Multiple Languages: Singing in various languages",
+      "Free to Try: Basic vocal generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Singing",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Lyrics and Melody", description: "Sign up at the AI Singing platform and enter the lyrics you want sung and provide or generate the melody." },
+        { title: "Select Your Vocal Style", description: "Choose the singing style and vocal character appropriate for your song." },
+        { title: "Generate and Download", description: "The AI generates a singing performance of your lyrics. Download the vocal track for your production." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Demo Accessibility", description: "AI-generated demo vocals that represent the intended singing performance help producers communicate song concepts without hiring session singers for every demo" },
+      { title: "Lyric Evaluation", description: "Hearing lyrics sung rather than read reveals how they work melodically in ways that reading cannot convey" },
+      { title: "Production Reference", description: "AI vocal tracks used as production references guide the arrangement and production before final vocals are recorded" },
+      { title: "Complete Tracks", description: "Full AI vocal performances that can serve as finished vocals in some production contexts enable complete song production without session recording" }
+    ],
+    useCases: [
+      { title: "Music Producers", description: "Producers use AI singing for demo vocals and production references during song development" },
+      { title: "Songwriters", description: "Lyric writers use AI vocals to hear how their lyrics work melodically before finalizing" },
+      { title: "Indie Artists", description: "Independent musicians use AI vocals for productions where hiring session singers is not feasible" }
+    ]
+  },
+  "myvocal-ai": {
+    whatIs: "MyVocal AI is an AI voice cloning platform that creates personalized AI voice models from audio samples. Users provide recordings of their voice and MyVocal builds an AI model that can generate new speech and singing content in their voice. For content creators and musicians who want an AI version of their own voice for efficient content production, MyVocal AI provides accessible personal voice AI creation.",
+    features: [
+      "Personal Voice Cloning: Create AI models from your voice samples",
+      "Speech Generation: Generate spoken content in your AI voice",
+      "Singing Voice: AI singing in your vocal style",
+      "Quick Training: Efficient voice model creation process",
+      "Voice Control: Adjust parameters of your AI voice output",
+      "Content Generation: Create new vocal content efficiently",
+      "Privacy Focus: Your voice model stays yours",
+      "Free to Try: Basic voice cloning without payment"
+    ],
+    howToUse: {
+      title: "How to Use Myvocal Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record Your Voice Samples", description: "Sign up at myvocal.ai and record the required voice samples for training your AI voice model." },
+        { title: "Create Your Voice Model", description: "MyVocal AI trains a model on your voice samples. Your personal AI voice is ready when training completes." },
+        { title: "Generate Your Content", description: "Use your AI voice model to generate new speech or singing content in your voice." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personal AI Voice", description: "Having an AI model of your own voice for content generation maintains authentic personal voice identity in AI-produced content" },
+      { title: "Content Efficiency", description: "Generating vocal content in your own AI voice without recording sessions enables faster content production workflows" },
+      { title: "Voice Preservation", description: "Creating an AI version of your voice preserves your vocal identity for content generation even when recording is not possible" },
+      { title: "Authentic Character", description: "Content generated in your own AI voice maintains the authenticity of your personal brand compared to generic AI voices" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Creators use personal AI voice for generating content in their own voice efficiently" },
+      { title: "Podcasters", description: "Podcast hosts use AI voice for short content pieces without full recording sessions" },
+      { title: "Musicians", description: "Artists use AI voice models for demos and production content in their own vocal style" }
+    ]
+  },
+  "topmediai": {
+    whatIs: "TopMediai is a comprehensive AI media platform that provides text-to-speech, AI voice generation, voice cloning, and AI cover song creation. It offers a wide range of AI voices for content creation, tools for creating AI covers of popular songs, and voice cloning capabilities. For content creators and musicians who need diverse AI voice and music capabilities in one platform, TopMediai provides a comprehensive AI media creation toolkit.",
+    features: [
+      "Text to Speech: Convert text to natural-sounding AI voices",
+      "Voice Cloning: Create AI models from voice samples",
+      "AI Cover Songs: Create AI covers of popular songs",
+      "Voice Variety: Large library of AI voice options",
+      "Multiple Languages: TTS in many languages",
+      "Music Creation: AI music and cover generation tools",
+      "Content Production: Tools for various content types",
+      "Free Credits: Try AI voice features before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Topmediai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Sign up at topmediai.com and select the AI voice or music tool you need." },
+        { title: "Create Your Content", description: "Use text-to-speech for narration, voice cloning for personalized content, or AI covers for music creation." },
+        { title: "Download Your Output", description: "Download your generated voice or music content for use in your projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Platform Comprehensiveness", description: "Having text-to-speech, voice cloning, and AI music in one platform serves creators with diverse AI audio needs without multiple subscriptions" },
+      { title: "Voice Library Range", description: "A large library of AI voices in many languages and styles provides diverse options for different content and audience contexts" },
+      { title: "AI Cover Accessibility", description: "Creating AI cover versions of popular songs provides entertainment content that attracts audiences familiar with the original songs" },
+      { title: "Production Efficiency", description: "Multiple AI audio capabilities from one platform streamline content production workflows that require different types of AI audio" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Creators use TopMediai for diverse AI audio content including TTS narration and AI cover songs" },
+      { title: "Podcast Producers", description: "Podcasters use AI voices for automated content and narrator creation" },
+      { title: "Music Enthusiasts", description: "Music fans create AI covers of their favorite songs for entertainment and sharing" }
+    ]
+  },
+  "voicedub": {
+    whatIs: "VoiceDub is an AI dubbing and voice translation platform that translates and dubs video content into different languages while maintaining the original speaker's voice character. It combines AI translation with voice cloning to create dubbed versions of videos that sound natural in the target language. For content creators and businesses who want to reach audiences in different languages, VoiceDub provides AI-powered video dubbing that maintains voice authenticity.",
+    features: [
+      "AI Dubbing: Translate and dub videos into other languages",
+      "Voice Preservation: Maintain speaker voice character in dubbed version",
+      "Multiple Languages: Dubbing across many target languages",
+      "Lip Sync: Synchronized audio with video",
+      "Quality Translation: Accurate language translation",
+      "Batch Processing: Dub multiple videos efficiently",
+      "Download Output: Save dubbed video versions",
+      "Free to Try: Basic dubbing before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Voicedub",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Sign up at voicedub.ai and upload the video you want dubbed into another language." },
+        { title: "Select Target Language", description: "Choose the language you want your video dubbed into. VoiceDub translates and generates dubbed audio." },
+        { title: "Review and Download", description: "Preview the dubbed version and download your video with the new language audio track." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Audience Expansion", description: "Video content dubbed into additional languages reaches audiences that subtitle-only content cannot fully engage" },
+      { title: "Voice Authenticity", description: "Dubbing that maintains the original speaker voice character rather than using generic AI voices creates more authentic viewing experiences" },
+      { title: "Content Localization", description: "AI dubbing that handles translation and voice generation simultaneously is dramatically faster than traditional dubbing workflows" },
+      { title: "Creator Accessibility", description: "Independent creators who cannot afford traditional dubbing services use AI dubbing to expand their content to global audiences" }
+    ],
+    useCases: [
+      { title: "Content Creators Expanding Globally", description: "YouTubers and video creators use VoiceDub to make their content accessible in multiple languages" },
+      { title: "Businesses with Training Content", description: "Organizations dub training and onboarding videos into multiple languages for international teams" },
+      { title: "Education Platforms", description: "Online educators use AI dubbing to expand course access to non-English speaking students" }
+    ]
+  },
+  "covers-ai": {
+    whatIs: "Covers.ai is an AI platform that creates AI cover versions of songs using different AI voices and styles. Users select a song and choose from available AI voices or upload a target voice to create a cover version of the original track. For music enthusiasts who want to hear their favorite songs performed in different vocal styles or by AI versions of different artists, Covers.ai provides accessible AI cover generation.",
+    features: [
+      "AI Cover Generation: Create covers of songs with different AI voices",
+      "Voice Selection: Choose from available AI voice options",
+      "Song Library: Access to songs available for AI cover creation",
+      "Voice Upload: Use custom voices for personalized covers",
+      "Quality Output: Musical covers with production quality",
+      "Multiple Styles: Different vocal interpretations available",
+      "Download Options: Save generated cover versions",
+      "Free Credits: Try cover generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Covers Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Song", description: "Sign up at covers.ai and select the song you want to create an AI cover of." },
+        { title: "Choose Your Voice", description: "Select from available AI voices or upload a target voice for your cover." },
+        { title: "Generate and Download", description: "Covers.ai generates your AI cover version. Download the finished cover for listening or sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Entertainment Value", description: "Hearing familiar songs performed in different vocal styles creates genuinely entertaining musical experiences" },
+      { title: "Musical Exploration", description: "AI covers that reinterpret songs in different vocal approaches reveal how vocal character affects song perception" },
+      { title: "Fan Creativity", description: "Music fans create AI covers as a form of creative engagement with songs and artists they love" },
+      { title: "Accessibility", description: "AI cover creation that is accessible without music production skills democratizes the creation of cover song content" }
+    ],
+    useCases: [
+      { title: "Music Enthusiasts", description: "People who love music create AI covers of favorite songs in different vocal styles for entertainment" },
+      { title: "Content Creators", description: "Creators produce AI cover content for entertainment and music discussion channels" },
+      { title: "Aspiring Artists", description: "Developing musicians use AI covers to hear how songs would sound in their own or target voice styles" }
+    ]
+  },
+  "songgenerator-io": {
+    whatIs: "SongGenerator.io is an AI song creation platform that generates complete original songs from text descriptions and genre selections. It produces songs with AI vocals, instruments, and production across different musical styles. For anyone who wants to create an original song without musical skills, SongGenerator.io provides accessible complete song generation.",
+    features: [
+      "Complete Song Generation: Create full songs from descriptions",
+      "AI Vocals: Generated vocal performances",
+      "Musical Production: Full instrumental arrangements",
+      "Genre Selection: Various musical style options",
+      "Lyric Generation: AI-written song lyrics",
+      "Quick Creation: Songs generated rapidly",
+      "Download Options: Save generated songs",
+      "Free Credits: Try song generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Songgenerator Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Song", description: "Go to songgenerator.io and describe the song you want - genre, mood, and theme." },
+        { title: "Generate Your Song", description: "The platform creates a complete song with vocals and production matching your description." },
+        { title: "Download and Share", description: "Download your generated song for personal use or sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Accessibility", description: "Complete song generation from a text description makes music creation accessible to everyone regardless of musical background" },
+      { title: "Entertainment", description: "Generating personalized songs for any occasion provides unique entertainment value beyond listening to existing music" },
+      { title: "Content Creation", description: "Original AI-generated songs for specific topics or themes serve content creators who need unique audio content" },
+      { title: "Gift Personalization", description: "Creating personalized songs as gifts for special occasions provides meaningful unique presents" }
+    ],
+    useCases: [
+      { title: "Music Enthusiasts", description: "People who love music create personalized songs using AI generation for entertainment and sharing" },
+      { title: "Content Creators", description: "Creators use AI song generation for unique original audio content for their channels" },
+      { title: "Gift Creators", description: "People generate personalized songs as unique gifts for birthdays, anniversaries, and other occasions" }
+    ]
+  },
+  "twoshot": {
+    whatIs: "TwoShot is an AI music and audio sample platform that provides AI-generated samples, loops, and musical elements for music production. It offers a library of AI-created sounds alongside tools for generating custom samples from text descriptions. For producers who want fresh sounds and samples without licensing concerns, TwoShot provides AI-generated production material.",
+    features: [
+      "AI Sample Library: Large collection of AI-generated sounds and loops",
+      "Custom Generation: Create samples from text descriptions",
+      "Royalty-Free: All samples without licensing concerns",
+      "Multiple Categories: Drums, melodics, atmospheres, and more",
+      "Quality Sounds: Production-ready sample quality",
+      "DAW Compatible: Samples formatted for production use",
+      "Search and Browse: Find samples by style and characteristic",
+      "Free Access: Browse and download basic samples without payment"
+    ],
+    howToUse: {
+      title: "How to Use Twoshot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Library", description: "Sign up at twoshot.fm and browse the AI-generated sample library for sounds that fit your production." },
+        { title: "Search Your Sound", description: "Use search to find specific types of samples or generate custom sounds from text descriptions." },
+        { title: "Download and Produce", description: "Download your chosen samples and use them in your DAW for music production." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Licensing Freedom", description: "AI-generated samples without licensing concerns simplify sample-based production and commercial release" },
+      { title: "Sound Freshness", description: "AI-generated sounds that have not been used in thousands of existing productions provide sonic freshness to new tracks" },
+      { title: "Custom Generation", description: "Generating specific sounds from descriptions that match exact production needs is more useful than searching for close matches in existing libraries" },
+      { title: "Production Access", description: "High-quality production samples accessible to independent producers without subscription libraries democratize sample-based music production" }
+    ],
+    useCases: [
+      { title: "Music Producers", description: "Beatmakers and producers use TwoShot for fresh AI-generated samples without licensing concerns" },
+      { title: "Electronic Music Artists", description: "Electronic producers use AI sample generation for unique sounds in their productions" },
+      { title: "Bedroom Producers", description: "Home studio artists use AI sample libraries for diverse production material without expensive sample library subscriptions" }
+    ]
+  },
+  "remixly-ai": {
+    whatIs: "Remixly AI is an AI music remixing platform that creates new remixed versions of songs by applying different styles, tempos, and genre transformations. It uses AI to generate creative remixes that reimagine songs in different musical contexts while maintaining recognizable elements of the original. For music enthusiasts and producers who want to explore different versions of songs, Remixly AI provides accessible AI-powered remixing.",
+    features: [
+      "AI Remixing: Generate new versions of songs in different styles",
+      "Style Transformation: Apply genre changes to existing songs",
+      "Tempo Adjustment: Change song tempo while maintaining feel",
+      "Creative Reinterpretation: New musical contexts for familiar songs",
+      "Multiple Outputs: Generate different remix variations",
+      "Quick Generation: Remixes created rapidly",
+      "Download Options: Save generated remixes",
+      "Free to Try: Basic remixing without payment"
+    ],
+    howToUse: {
+      title: "How to Use Remixly Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload or Select Your Song", description: "Sign up at remixly.ai and upload a song or select from available options for remixing." },
+        { title: "Choose Your Remix Style", description: "Select the genre, style, or transformation you want applied to create your remix." },
+        { title: "Generate and Download", description: "Remixly AI generates your remixed version. Download and enjoy your reinterpreted song." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Musical Exploration", description: "Hearing familiar songs in different genre contexts reveals new musical dimensions and appreciations in the original material" },
+      { title: "Creative Reinterpretation", description: "AI remixes that thoughtfully reinterpret songs rather than just adding effects create genuinely new musical experiences" },
+      { title: "Production Inspiration", description: "Remixes that explore different approaches to existing songs inspire producers with new arrangement and production ideas" },
+      { title: "Entertainment Value", description: "Creative remixes of popular songs provide fresh entertainment for music fans who know the original tracks well" }
+    ],
+    useCases: [
+      { title: "Music Enthusiasts", description: "People who love music use Remixly AI for creative reinterpretations of their favorite songs" },
+      { title: "Music Producers", description: "Producers use AI remixing for creative inspiration and exploration of different production approaches" },
+      { title: "Content Creators", description: "Creators use AI remixes for music content that explores different interpretations of popular songs" }
+    ]
+  },
+  "voicemod": {
+    whatIs: "Voicemod is a real-time AI voice changer and soundboard application that transforms your voice during gaming, streaming, and online communication. It provides hundreds of voice effects and AI-powered voice changers that work in real time during calls, games, and live streams. Voicemod has become the most popular voice changer for gaming and streaming communities with integrations across Discord, Twitch, and gaming platforms. For gamers and streamers who want to add voice effects and character voices to their online experience, Voicemod provides the most comprehensive real-time voice changing solution.",
+    features: [
+      "Real-Time Voice Changing: Transform your voice during live communication",
+      "Hundreds of Effects: Large library of voice transformation options",
+      "AI Voice Changers: AI-powered voice character options",
+      "Gaming Integration: Works with games and gaming platforms",
+      "Discord Integration: Voice changing in Discord calls",
+      "Streaming Support: Works with OBS and streaming software",
+      "Soundboard: Trigger sound effects during communication",
+      "Free Plan: Basic voice changing without payment"
+    ],
+    howToUse: {
+      title: "How to Use Voicemod",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Voicemod", description: "Download Voicemod from voicemod.net and install it on your computer." },
+        { title: "Select Voicemod as Your Microphone", description: "In your game, Discord, or streaming software, select the Voicemod virtual microphone as your audio input." },
+        { title: "Choose Your Voice Effect", description: "Select from available voice effects and AI voice changers in the Voicemod interface. Your voice is transformed in real time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Gaming Entertainment", description: "Voice effects during gaming create entertaining experiences for players and viewers that standard communication cannot provide" },
+      { title: "Streaming Personality", description: "Streamers use voice changers to create distinctive audio personalities that entertain and engage their audiences" },
+      { title: "Community Building", description: "Shared voice effect experiences during multiplayer gaming create memorable moments that build gaming communities" },
+      { title: "Accessibility", description: "Voice changing that works through simple software selection without any technical setup makes character voices accessible to all gamers" }
+    ],
+    useCases: [
+      { title: "Gamers", description: "Players use Voicemod for entertaining voice effects during multiplayer gaming sessions" },
+      { title: "Twitch and YouTube Streamers", description: "Content creators use voice changing for entertaining and distinctive streaming personalities" },
+      { title: "Discord Community Members", description: "People use Voicemod for fun voice effects in Discord server conversations" }
+    ]
+  },
+  "fineshare": {
+    whatIs: "FineShare is an AI audio and voice technology platform that provides voice changing, noise cancellation, text-to-speech, and audio enhancement tools. It offers multiple AI audio capabilities including real-time voice transformation, background noise removal, and AI voice generation in one platform. For users who need diverse AI audio capabilities for communication and content creation, FineShare provides a comprehensive AI audio toolkit.",
+    features: [
+      "Voice Changing: Real-time voice transformation effects",
+      "Noise Cancellation: AI background noise removal",
+      "Text to Speech: Convert text to AI voice narration",
+      "Audio Enhancement: Improve recording quality",
+      "Multiple Tools: Comprehensive AI audio capabilities",
+      "Real-Time Processing: Live audio transformation",
+      "Content Creation: Tools for audio content production",
+      "Free Plan: Basic audio tools without payment"
+    ],
+    howToUse: {
+      title: "How to Use Fineshare",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Sign up at fineshare.com and select the audio tool you need from the comprehensive toolkit." },
+        { title: "Configure Your Settings", description: "Set up the voice effect, noise cancellation level, or TTS voice that fits your need." },
+        { title: "Use Your Audio Tool", description: "Apply your chosen audio tool in your communication or content creation workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "All-in-One Audio", description: "Multiple AI audio capabilities in one platform serve users with diverse audio needs without subscribing to separate specialized tools" },
+      { title: "Communication Quality", description: "Combined noise cancellation and voice tools provide complete audio quality management for online communication" },
+      { title: "Content Production", description: "Text-to-speech and voice tools in one platform support diverse audio content production needs" },
+      { title: "Workflow Efficiency", description: "Multiple audio capabilities accessible from one interface reduce the friction of switching between specialized tools" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Creators use FineShare for diverse AI audio capabilities in their content production" },
+      { title: "Remote Workers", description: "Professionals use noise cancellation and voice tools for better quality remote communication" },
+      { title: "Streamers and Gamers", description: "Entertainment creators use voice changing and audio tools for engaging online experiences" }
+    ]
+  },
+  "devoice": {
+    whatIs: "DeVoice is an AI vocal removal and stem separation tool that removes vocals from songs to create instrumental and karaoke versions. It uses AI to cleanly separate vocal tracks from the musical backing, producing instrumental versions for karaoke, practice, and music production purposes. For musicians and karaoke enthusiasts who need vocal-free versions of songs, DeVoice provides accessible AI vocal removal.",
+    features: [
+      "Vocal Removal: AI separation of vocals from songs",
+      "Karaoke Creation: Produce karaoke versions of any song",
+      "Instrumental Extraction: Get the full instrumental track",
+      "Clean Separation: Minimal vocal bleed in removed tracks",
+      "Multiple Formats: Process common audio file types",
+      "Fast Processing: Quick vocal removal results",
+      "Free to Use: Basic vocal removal without payment",
+      "No Registration: Use without creating an account"
+    ],
+    howToUse: {
+      title: "How to Use Devoice",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Song", description: "Go to DeVoice and upload the song you want vocals removed from." },
+        { title: "Process Vocal Removal", description: "The AI separates and removes the vocal track from your song." },
+        { title: "Download Instrumental", description: "Download the instrumental version for karaoke, practice, or production use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Karaoke Access", description: "Creating karaoke versions of any song rather than being limited to available karaoke catalogs enables singing along to any music" },
+      { title: "Practice Tool", description: "Instrumental tracks without vocals give musicians clean backing for practice without competing vocal lines" },
+      { title: "Production Sampling", description: "Vocal-free instrumental tracks make it easier to sample musical elements without vocal interference" },
+      { title: "Free Access", description: "Free vocal removal without registration provides immediate access for casual karaoke and practice needs" }
+    ],
+    useCases: [
+      { title: "Karaoke Enthusiasts", description: "People who enjoy singing use DeVoice to create karaoke versions of songs they want to sing along to" },
+      { title: "Musicians", description: "Instrumentalists use vocal-removed tracks for practice accompaniment" },
+      { title: "Music Producers", description: "Producers use vocal removal for isolating instrumental elements from recorded tracks" }
+    ]
+  },
+  "autocropper": {
+    whatIs: "AutoCropper is an AI-powered image cropping tool that intelligently crops photos to focus on the most important visual elements. It uses AI to identify subjects, faces, and key visual content in images and applies smart cropping that maintains compositional quality. For photographers, designers, and content creators who need consistent professional crops, AutoCropper provides AI-assisted intelligent image cropping.",
+    features: [
+      "Smart Cropping: AI identifies and crops to key image elements",
+      "Face Detection: Automatic face-centered cropping for portraits",
+      "Composition Preservation: Maintains visual balance in crops",
+      "Multiple Aspect Ratios: Crop to any required dimensions",
+      "Batch Processing: Crop many images simultaneously",
+      "Quality Preservation: Maintains image quality through cropping",
+      "Social Media Sizes: Pre-set crops for platform requirements",
+      "Free to Try: Basic cropping without payment"
+    ],
+    howToUse: {
+      title: "How to Use Autocropper",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Images", description: "Sign up at autocropper.com and upload the images you want intelligently cropped." },
+        { title: "Select Your Crop Parameters", description: "Choose your target aspect ratio or select a social media preset for your platform." },
+        { title: "Review and Download", description: "AutoCropper generates intelligent crops focusing on key content. Review and download your cropped images." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Consistent Composition", description: "AI cropping that consistently maintains compositional quality produces better results than manual cropping under time pressure" },
+      { title: "Face Centering", description: "Portrait crops that automatically center on faces produce consistently professional headshot crops without manual adjustment" },
+      { title: "Batch Efficiency", description: "Processing many images with intelligent cropping simultaneously is dramatically faster than manual individual cropping" },
+      { title: "Platform Optimization", description: "Pre-set crops for social media platforms that meet each platform size requirements reduce the formatting work before posting" }
+    ],
+    useCases: [
+      { title: "Photographers", description: "Photography professionals use AutoCropper for efficient batch cropping of large photo sessions" },
+      { title: "Social Media Managers", description: "Content managers use smart cropping for consistent platform-optimized image formatting" },
+      { title: "E-commerce Teams", description: "Online retailers use intelligent cropping for consistent product image presentation across their catalog" }
+    ]
+  },
   "riffusion": {
     whatIs: "Riffusion is an AI music generation model that creates music from text descriptions using a diffusion model trained on spectrograms. It generates short musical clips in virtually any style by interpreting text prompts as visual spectrograms and generating corresponding audio. Riffusion gained significant attention as an innovative approach to AI music generation that produces diverse and sometimes surprising musical outputs. For music enthusiasts and creators who want to explore AI music generation with unique results, Riffusion provides an accessible and creative music generation experience.",
     features: [
