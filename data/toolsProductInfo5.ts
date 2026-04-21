@@ -1,4 +1,433 @@
 export const toolsProductInfo5: { [key: string]: any } = {
+  "qrbtf": {
+    whatIs: "QRBTF is a stylized QR code generator that creates beautiful and functional QR codes with artistic designs. It offers various QR code styles including parametric patterns, artistic shapes, and visually distinctive designs that maintain scanning reliability. The platform is popular with designers and tech enthusiasts who want QR codes that look as good as they function. For users who want QR codes with distinctive visual character beyond standard black and white squares, QRBTF provides creative QR code generation.",
+    features: [
+      "Artistic QR Styles: Multiple visually distinctive QR code designs",
+      "Parametric Patterns: Mathematically generated artistic QR patterns",
+      "Color Customization: Apply custom colors to QR code elements",
+      "Scan Reliability: Artistic designs that maintain reliable scanning",
+      "High Quality Export: Clean output for print and digital use",
+      "Style Variety: Multiple different artistic approaches",
+      "Open Design: Transparent and clean design philosophy",
+      "Free to Use: QR code generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Qrbtf",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your URL", description: "Go to qrbtf.com and enter the URL or content for your QR code." },
+        { title: "Select Your Style", description: "Browse the available QR code styles and select the design that appeals to you. Preview how your content looks in different styles." },
+        { title: "Download Your QR Code", description: "Download your styled QR code in high resolution. Test scanning before deploying to confirm reliable functionality." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Design Quality", description: "Parametric and artistic QR code designs that look genuinely beautiful represent a significant aesthetic improvement over standard QR squares" },
+      { title: "Scan Reliability", description: "Artistic designs that maintain the error correction and data density required for reliable scanning combine aesthetics with functionality" },
+      { title: "Designer Appeal", description: "QR codes used in design contexts benefit from generators that approach QR design with genuine design sensibility" },
+      { title: "Open Availability", description: "Free access to high-quality stylized QR codes makes professional-looking QR design accessible without cost barriers" }
+    ],
+    useCases: [
+      { title: "Designers and Creatives", description: "Design professionals use QRBTF for QR codes that fit naturally into designed materials" },
+      { title: "Tech Enthusiasts", description: "People interested in the aesthetic potential of QR technology use QRBTF for distinctive code generation" },
+      { title: "Brand Marketers", description: "Marketers use stylized QR codes for more visually engaging campaign materials" }
+    ]
+  },
+  "generated-photos": {
+    whatIs: "Generated Photos is a dataset and platform of fully AI-generated human faces for use in design, research, and commercial projects. Every face in the library is completely synthetic - no real people photographed - making the entire collection free from model releases, privacy concerns, and likeness rights. The platform provides diverse AI-generated faces across different ages, ethnicities, and expressions. For designers and researchers who need diverse human faces without model rights complications, Generated Photos provides the most comprehensive library of rights-free AI-generated portraits.",
+    features: [
+      "AI Generated Faces: Completely synthetic human portrait photos",
+      "Diverse Representation: Faces across different ages, ethnicities, and expressions",
+      "Rights Free: No model releases or privacy concerns",
+      "Controllable Attributes: Filter by age, emotion, hair color, and more",
+      "High Resolution: Professional-quality portrait images",
+      "Large Library: Thousands of diverse generated faces",
+      "Commercial License: Clear rights for commercial use",
+      "API Access: Integrate face generation into applications"
+    ],
+    howToUse: {
+      title: "How to Use Generated Photos",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Library", description: "Go to generated.photos and browse the library of AI-generated faces. Filter by attributes like age, ethnicity, and expression." },
+        { title: "Select Your Faces", description: "Choose the faces that match your design or research needs. Download individual images or access through API." },
+        { title: "Use Rights-Free", description: "Use downloaded faces in your projects without model release concerns. The AI-generated nature means no real person's privacy is at risk." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Model Rights Elimination", description: "Using real people's faces in commercial projects requires model releases that add complexity and cost. Fully AI-generated faces have no real person whose rights need to be managed" },
+      { title: "Diversity Representation", description: "Creating diverse representation in design with real photography requires finding and photographing diverse models. AI-generated faces provide controllable diversity without this logistical challenge" },
+      { title: "Privacy Safety", description: "AI-generated faces that are completely synthetic cannot violate anyone's privacy or likeness rights regardless of how they are used" },
+      { title: "Research Applications", description: "Computer vision research that needs large datasets of human faces benefits from generated faces that do not involve real people's privacy" }
+    ],
+    useCases: [
+      { title: "Graphic Designers", description: "Designers use AI-generated faces for placeholder content, UI mockups, and projects where real model photos are unavailable or impractical" },
+      { title: "UX Researchers", description: "Researchers conducting usability studies use generated faces for participant personas and research materials" },
+      { title: "AI and Computer Vision Researchers", description: "Researchers use generated face datasets for training and testing computer vision models" }
+    ]
+  },
+  "this-person-not-exist": {
+    whatIs: "This Person Does Not Exist is the original and most famous AI-generated face website that displays a new completely synthetic human face every time the page is refreshed. Using StyleGAN technology developed by NVIDIA, it generates photorealistic human faces that look completely real but belong to no actual person. The site popularized awareness of AI face generation and demonstrated the remarkable capability of generative adversarial networks to create convincing human likenesses.",
+    features: [
+      "Infinite Faces: A new AI-generated face every page refresh",
+      "Photorealistic Quality: Faces that look completely real",
+      "StyleGAN Technology: NVIDIA generative adversarial network",
+      "Instant Generation: New face appears immediately",
+      "Educational Demonstration: Shows AI generation capabilities",
+      "Free Access: Unlimited face viewing without payment",
+      "No Download Required: View faces directly in browser",
+      "Privacy Safe: No real people photographed"
+    ],
+    howToUse: {
+      title: "How to Use This Person Not Exist",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Visit the Site", description: "Go to thispersondoesnotexist.com in any browser." },
+        { title: "Refresh for New Faces", description: "Each page refresh generates and displays a completely new AI-generated human face. Explore the variety of generated faces." },
+        { title: "Learn About AI Generation", description: "Use the site as a demonstration of GAN-based face generation capabilities to understand what modern AI can create." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Public Education", description: "Demonstrating AI face generation capabilities to a general audience who may not follow AI research creates important public awareness about what AI can do" },
+      { title: "Capability Demonstration", description: "A single URL that anyone can visit to immediately experience AI face generation is more impactful than any written explanation of the technology" },
+      { title: "Research Awareness", description: "The site that made GAN-generated faces famous to a general audience played a significant role in public understanding of AI capabilities" },
+      { title: "Simple Concept Clarity", description: "The simple name and concept that requires no explanation immediately communicates what the site does and why it is remarkable" }
+    ],
+    useCases: [
+      { title: "General Public Learning About AI", description: "People learning about AI capabilities use the site as an accessible demonstration of generative AI" },
+      { title: "Educators and Presenters", description: "Teachers and presenters use the site for live demonstrations of AI face generation in classrooms and presentations" },
+      { title: "Media and Journalists", description: "Reporters covering AI use the site as the canonical example of AI-generated human faces" }
+    ]
+  },
+  "passport-photo-maker": {
+    whatIs: "Passport Photo Maker is an AI-powered tool that creates properly formatted passport and ID photos from regular selfies or portraits. It automatically crops, sizes, and adjusts photos to meet the specific requirements of different countries passport and visa photo standards. The tool handles background color, head size ratios, and technical specifications that official photo requirements demand. For travelers who need passport photos quickly without visiting a photo studio, Passport Photo Maker provides compliant photos at home.",
+    features: [
+      "Passport Photo Standards: Photos formatted to country-specific requirements",
+      "Automatic Cropping: AI crops and sizes photos correctly",
+      "Background Compliance: White or cream backgrounds as required",
+      "Head Size Ratio: Correct proportions for passport standards",
+      "Multiple Countries: Requirements for passports from different nations",
+      "Print Ready: Files formatted for home or professional printing",
+      "Instant Results: Compliant photos in seconds",
+      "Free to Try: Basic passport photo creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Passport Photo Maker",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Portrait", description: "Go to the Passport Photo Maker platform and upload a clear portrait photo with a plain background." },
+        { title: "Select Your Country", description: "Choose the country whose passport or visa photo requirements you need to meet. The tool applies the correct specifications." },
+        { title: "Download Your Photos", description: "Download your compliant passport photos formatted for printing at the correct dimensions for your application." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Compliance Accuracy", description: "Passport photo rejections due to incorrect specifications waste time and delay applications. AI tools that apply precise country-specific standards reduce rejection risk" },
+      { title: "Convenience vs Studio", description: "Visiting a photo studio for passport photos costs money and requires scheduling. Creating compliant photos at home from a selfie provides immediate convenience" },
+      { title: "Technical Precision", description: "Passport photo requirements involving specific head ratios, background colors, and print dimensions require precise technical application that AI handles accurately" },
+      { title: "Cost Savings", description: "Home passport photo creation at a fraction of studio costs represents meaningful savings particularly for families with multiple members needing photos" }
+    ],
+    useCases: [
+      { title: "International Travelers", description: "People applying for passports and visas use Passport Photo Maker for compliant photos without studio visits" },
+      { title: "Families", description: "Parents preparing passport applications for children use the tool for cost-effective compliant photo creation" },
+      { title: "Frequent International Travelers", description: "People who regularly need visa photos for different countries use the tool for quick compliant photo generation" }
+    ]
+  },
+  "snap2pass": {
+    whatIs: "Snap2Pass is an AI passport photo creator that generates properly formatted passport and ID photos from smartphone selfies. It uses AI to ensure correct head positioning, background removal, and size compliance with official passport photo requirements from many countries. The mobile-focused tool makes creating compliant passport photos as simple as taking a selfie. For mobile users who need passport photos without visiting a photo center, Snap2Pass provides quick compliant photo creation from any smartphone.",
+    features: [
+      "Selfie to Passport Photo: Create compliant photos from smartphone selfies",
+      "AI Head Positioning: Ensure correct head alignment and size",
+      "Background Removal: Replace backgrounds with required white or cream",
+      "Country Requirements: Apply correct specifications for different countries",
+      "Mobile Optimized: Designed for smartphone photo use",
+      "Instant Processing: Results in seconds",
+      "Print Ready: Correctly formatted for printing",
+      "Free to Try: Basic photo creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Snap2Pass",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Take Your Selfie", description: "Open Snap2Pass and take a selfie following the positioning guidance. Good lighting and a plain background improve results." },
+        { title: "Select Your Country", description: "Choose the country whose passport requirements you need to meet. Snap2Pass applies the correct specifications automatically." },
+        { title: "Download and Print", description: "Download your correctly formatted passport photo and print at home or at a photo printing service." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Mobile Convenience", description: "Creating passport photos from a smartphone that people always have with them is more convenient than any dedicated photo process" },
+      { title: "Selfie Accessibility", description: "Modern smartphone cameras that produce high-quality selfies are sufficient for passport photos when AI ensures correct formatting" },
+      { title: "Immediate Results", description: "Getting compliant passport photos in seconds from an existing selfie provides immediate results when photo needs are urgent" },
+      { title: "Cost Effectiveness", description: "Free or low-cost smartphone-based passport photo creation saves significantly compared to studio photo pricing" }
+    ],
+    useCases: [
+      { title: "Smartphone Users Needing Passport Photos", description: "Anyone with a smartphone who needs passport photos uses Snap2Pass for convenient quick creation" },
+      { title: "Last Minute Travelers", description: "People with urgent passport or visa applications use Snap2Pass for immediate compliant photo creation" },
+      { title: "Budget-Conscious Applicants", description: "People who want to avoid studio photo costs use Snap2Pass for affordable compliant photo creation" }
+    ]
+  },
+  "passport-maker-ai": {
+    whatIs: "Passport Maker AI is an AI-powered passport and ID photo generator that creates government-compliant passport photos from casual portraits and selfies. It applies intelligent cropping, background standardization, lighting normalization, and compliance checking to ensure photos meet official requirements. The tool covers passport photo standards for many countries and provides print-ready output. For individuals who need quick compliant passport photos without professional photography services, Passport Maker AI provides convenient at-home photo creation.",
+    features: [
+      "Government Compliance: Photos meeting official passport requirements",
+      "Intelligent Cropping: AI precisely crops to required dimensions",
+      "Background Standardization: Correct background color applied automatically",
+      "Lighting Normalization: Even lighting for compliance",
+      "Multi-Country Support: Standards for passports from many nations",
+      "Compliance Checking: Automatic verification against requirements",
+      "Print Ready: Formatted for printing at correct specifications",
+      "Free to Try: Basic photo creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Passport Maker Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to the Passport Maker AI platform and upload a portrait photo or selfie." },
+        { title: "Select Your Requirements", description: "Choose the country and document type for the passport photo you need to create." },
+        { title: "Download Compliant Photo", description: "The AI processes your photo to meet all requirements. Download your print-ready compliant passport photo." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated Compliance", description: "Manually cropping and formatting passport photos to precise specifications is error-prone. AI that applies exact requirements automatically reduces errors and rejection risk" },
+      { title: "Specification Knowledge", description: "Knowing the exact requirements for passport photos from different countries requires research. AI tools that encode this knowledge apply correct specifications automatically" },
+      { title: "Convenience Factor", description: "Creating passport photos at home rather than visiting a photo service saves time and provides flexibility to create photos at any time" },
+      { title: "Cost Reduction", description: "At-home AI passport photo creation at low or no cost versus studio fees provides meaningful savings across the application process" }
+    ],
+    useCases: [
+      { title: "Passport and Visa Applicants", description: "People applying for passports and visas use Passport Maker AI for convenient compliant photo creation" },
+      { title: "Immigration Applicants", description: "People navigating immigration processes use the tool for various ID photo requirements" },
+      { title: "International Students", description: "Students applying for study abroad programs use Passport Maker AI for required photos across different application requirements" }
+    ]
+  },
+  "icons8": {
+    whatIs: "Icons8 is a comprehensive design resource platform that provides a massive library of icons, illustrations, photos, and design assets alongside AI-powered tools including an AI photo generator, smart image upscaler, and face generation. The platform serves designers and developers who need high-quality design assets quickly, with a consistent design style across their icon and illustration libraries. For design professionals who need reliable visual assets and AI generation tools in one platform, Icons8 provides the most comprehensive design resource ecosystem.",
+    features: [
+      "Massive Icon Library: Hundreds of thousands of icons in multiple styles",
+      "Illustration Library: Professional illustrations for various use cases",
+      "AI Photo Generation: Generate custom photos with AI",
+      "Smart Upscaler: AI image enlargement tool",
+      "Design Consistency: Cohesive style across all assets",
+      "Multiple Formats: Icons in SVG, PNG, and various formats",
+      "API Access: Programmatic access to assets",
+      "Free Tier: Substantial free access to design assets"
+    ],
+    howToUse: {
+      title: "How to Use Icons8",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search for Assets", description: "Go to icons8.com and search for the icons or illustrations you need. Filter by style to find assets that match your design." },
+        { title: "Download Your Assets", description: "Download the assets you need in the appropriate format for your use case - SVG for web, PNG for various applications." },
+        { title: "Use AI Tools", description: "Access the AI photo generator or smart upscaler for AI-powered creative tasks alongside your icon and illustration downloads." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Asset Consistency", description: "Icon and illustration libraries with cohesive visual style across thousands of assets are more useful for maintaining design consistency than mixing assets from different sources" },
+      { title: "All-in-One Design Resources", description: "Having icons, illustrations, photos, and AI tools from one platform reduces the number of design resource subscriptions and maintains workflow coherence" },
+      { title: "Search Quality", description: "Finding the right icon among hundreds of thousands requires effective search and filtering. Good search that surfaces relevant results saves significant browsing time" },
+      { title: "Developer Friendly", description: "API access to design assets enables programmatic asset management in development workflows" }
+    ],
+    useCases: [
+      { title: "Graphic Designers", description: "Design professionals use Icons8 for a comprehensive source of consistent visual assets for their projects" },
+      { title: "UI and UX Designers", description: "Interface designers rely on Icons8 icon libraries for consistent iconography in their designs" },
+      { title: "Developers", description: "Software developers use Icons8 assets and API for programmatic access to design resources in their applications" }
+    ]
+  },
+  "this-person-not-exist-org": {
+    whatIs: "ThisPersonNotExist.org is an AI face generation platform that creates photorealistic synthetic human faces on demand. Building on the concept popularized by the original StyleGAN site, this platform provides on-demand generation of AI human faces for design projects, research, and demonstration of AI capabilities. All faces are completely AI-generated with no real people photographed. For designers and researchers who need synthetic human faces, the platform provides instant access to diverse AI-generated portraits.",
+    features: [
+      "On-Demand Face Generation: Generate synthetic human faces instantly",
+      "Diverse Faces: Variation across age, ethnicity, and expression",
+      "Photorealistic Quality: High-quality portrait generation",
+      "Rights Free: No real people means no privacy or model concerns",
+      "Instant Access: Generated faces available immediately",
+      "Free Service: Face generation without payment",
+      "Multiple Formats: Download in standard image formats",
+      "Educational Resource: Demonstrates AI generation capabilities"
+    ],
+    howToUse: {
+      title: "How to Use This Person Not Exist Org",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Visit the Platform", description: "Go to thispersonnotexist.org to access the face generation platform." },
+        { title: "Generate Your Faces", description: "Generate synthetic faces on demand for your design or research needs. Refresh or regenerate for different faces." },
+        { title: "Download and Use", description: "Download the generated faces you want to use in your project. Use freely without model release concerns." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Rights-Free Portraits", description: "Design projects that need human faces often struggle with model rights. Completely synthetic faces eliminate this concern entirely" },
+      { title: "Diversity Control", description: "Accessing diverse faces for inclusive design representation is easier with AI generation than sourcing diverse model photography" },
+      { title: "Instant Availability", description: "AI-generated faces available immediately without photo shoot scheduling serve design needs that arise on short timelines" },
+      { title: "Privacy Guarantee", description: "Faces that have no real person behind them cannot cause privacy violations regardless of how they are used in design projects" }
+    ],
+    useCases: [
+      { title: "Designers Needing Portrait Images", description: "Graphic and UX designers use synthetic faces for mockups and designs that need human portrait imagery" },
+      { title: "Researchers", description: "Computer vision and AI researchers use generated faces for dataset creation and model testing" },
+      { title: "Educators", description: "Teachers use AI face generation as a demonstration tool for explaining generative AI to students" }
+    ]
+  },
+  "photogrid": {
+    whatIs: "PhotoGrid is a mobile photo editing and collage making app that provides tools for creating photo collages, adding effects, making video slideshows, and editing individual photos. It offers a wide variety of collage layouts, frames, and sticker packs alongside basic photo editing features. The app is popular for creating visually organized photo collections for social media sharing. For mobile users who want to combine multiple photos into attractive collages and slideshows, PhotoGrid provides a comprehensive mobile collage creation tool.",
+    features: [
+      "Photo Collage: Create multi-photo collages with many layout options",
+      "Video Slideshow: Turn photos into video slideshows with music",
+      "Photo Editing: Basic editing tools for individual photos",
+      "Stickers and Frames: Decorative elements for photo enhancement",
+      "Social Media Sizing: Collages sized for different platforms",
+      "Filter Library: Photo filters and effects",
+      "Text Addition: Add captions and text to photos",
+      "Free to Use: Core collage features without payment"
+    ],
+    howToUse: {
+      title: "How to Use Photogrid",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Photos", description: "Download PhotoGrid and select the photos you want to include in your collage or slideshow." },
+        { title: "Choose Your Layout", description: "Browse the available collage layouts and select one that works well for your photos and platform." },
+        { title: "Customize and Share", description: "Add stickers, frames, filters, and text to personalize your collage. Share directly to social media or save to your device." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Layout Variety", description: "Many different collage layout options that organize photos differently serve the varied visual needs of different photo combinations" },
+      { title: "Video Slideshow Capability", description: "Converting photo collections into video slideshows with music creates more engaging social content than static collages" },
+      { title: "Social Platform Optimization", description: "Collages sized correctly for different social media platforms perform better than content that requires platform-side cropping" },
+      { title: "Ease of Use", description: "Intuitive collage creation that does not require design knowledge makes professional-looking photo organization accessible to everyone" }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "People who share photo content on Instagram, Facebook, and other platforms use PhotoGrid for organized visual collages" },
+      { title: "Memory Keepers", description: "People who want to organize photos from events and trips into visual collections use PhotoGrid for collage creation" },
+      { title: "Content Creators", description: "Creators who post photo content regularly use PhotoGrid for efficient multi-photo content creation" }
+    ]
+  },
+  "yearbook-photos": {
+    whatIs: "Yearbook Photos AI is an AI tool that transforms modern photos into vintage yearbook-style portraits with the distinctive aesthetic of school photos from different decades. It applies era-specific styling, color grading, and photographic characteristics to make current photos look like they were taken in the 1980s, 1990s, or other past decades. The nostalgic transformation creates entertaining before-and-after comparisons and fun content for social sharing.",
+    features: [
+      "Vintage Transformation: Convert modern photos into vintage yearbook style",
+      "Era Selection: Choose different decades for authentic period styling",
+      "Authentic Aesthetic: Period-accurate color grading and photo characteristics",
+      "Multiple Decades: 1980s, 1990s, and other era options",
+      "Nostalgic Results: Photos that genuinely look like the chosen era",
+      "Fun Content: Entertaining before-and-after comparisons",
+      "Fast Processing: Results generated quickly",
+      "Free Credits: Try yearbook transformations before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Yearbook Photos",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Modern Photo", description: "Go to the Yearbook Photos AI platform and upload a current portrait photo." },
+        { title: "Select Your Era", description: "Choose the decade and yearbook style you want applied to your photo." },
+        { title: "Download Your Yearbook Photo", description: "Review the transformed photo and download it for sharing with friends and family." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Nostalgia Appeal", description: "Photos that look authentically like they were taken in a specific past era trigger genuine nostalgia that resonates emotionally with people who lived through those times" },
+      { title: "Social Sharing Entertainment", description: "Before-and-after comparisons of modern photos transformed into vintage yearbook style create entertaining content that people enjoy sharing" },
+      { title: "Era Authenticity", description: "AI that applies accurate period-specific characteristics rather than generic vintage filters produces more convincing and interesting results" },
+      { title: "Fun Factor", description: "Yearbook-style photo transformation is inherently fun and generates positive reactions that drive social sharing" }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "People who share entertaining photo content use yearbook transformations for fun nostalgic posts" },
+      { title: "People Who Grew Up in Specific Decades", description: "Adults who attended school in particular eras use yearbook transformations to see themselves in the style they remember from that time" },
+      { title: "Content Creators", description: "Creators use yearbook photo transformations for engaging nostalgic content that connects with broad audiences" }
+    ]
+  },
+  "imgkits": {
+    whatIs: "Imgkits is an online AI image and video processing platform that provides a comprehensive suite of tools including background removal, image enhancement, video editing, watermark removal, and format conversion. It serves as an all-in-one visual media processing hub for users who need multiple image and video operations without subscribing to separate specialized tools. For users with diverse image and video processing needs, Imgkits provides accessible AI-powered processing across many media types.",
+    features: [
+      "Background Removal: AI subject isolation from photos",
+      "Image Enhancement: AI quality improvement for photos",
+      "Watermark Removal: Remove watermarks from images",
+      "Video Processing: Basic video editing and conversion",
+      "Format Conversion: Convert between image and video formats",
+      "Batch Processing: Handle multiple files simultaneously",
+      "Object Removal: Erase unwanted elements from photos",
+      "Free Plan: Basic processing without payment"
+    ],
+    howToUse: {
+      title: "How to Use Imgkits",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Tool", description: "Go to imgkits.com and select the processing tool you need from the comprehensive toolkit." },
+        { title: "Upload Your Media", description: "Upload your image or video for processing. The platform supports all common media formats." },
+        { title: "Process and Download", description: "Apply your chosen processing and download the result. Batch processing handles multiple files efficiently." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Tool Breadth", description: "Having many different image and video processing tools in one platform serves users with diverse needs without multiple subscriptions" },
+      { title: "Accessibility", description: "Web-based processing that requires no software installation makes media processing accessible from any device" },
+      { title: "All-in-One Value", description: "Combining image and video processing in one service provides more comprehensive value than image-only or video-only tools" },
+      { title: "Cost Efficiency", description: "Free tier access to multiple processing types provides significant utility without payment for users with moderate processing needs" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Creators with diverse image and video needs use Imgkits for varied media processing from one platform" },
+      { title: "Small Business Owners", description: "Business owners use multiple image processing tools for product photos and marketing materials" },
+      { title: "General Users", description: "Anyone with occasional image and video processing needs uses Imgkits for accessible free processing" }
+    ]
+  },
+  "ai-shots": {
+    whatIs: "AI Shots is an AI professional photo generator that creates high-quality professional photos including headshots, product photos, and lifestyle images from uploaded photos. It uses AI to generate polished professional photography from casual inputs, covering various professional photography types in one platform. For individuals and businesses that need professional photography across different categories, AI Shots provides AI-generated professional photos without traditional photography costs.",
+    features: [
+      "Professional Headshots: AI-generated business profile photos",
+      "Product Photography: Professional product photos from uploads",
+      "Lifestyle Photos: AI-generated lifestyle and contextual imagery",
+      "Multiple Photo Types: Various professional photography categories",
+      "High Quality Output: Professional-standard photo generation",
+      "Fast Generation: Photos produced quickly",
+      "Multiple Styles: Different professional aesthetics available",
+      "Free to Try: Basic photo generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Shots",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Source Photos", description: "Sign up at aishots.io and upload your photos as source material for AI professional photo generation." },
+        { title: "Select Photo Type and Style", description: "Choose the type of professional photography you need and the style preferences for your generated photos." },
+        { title: "Generate and Download", description: "AI Shots generates your professional photos. Review the results and download the images that meet your quality standards." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cost vs Traditional Photography", description: "Professional photography across headshots, products, and lifestyle requires multiple sessions and significant investment. AI generation provides comparable quality at dramatically lower cost" },
+      { title: "Variety from One Platform", description: "Getting different types of professional photography from one platform is more efficient than using separate specialized services for each type" },
+      { title: "Speed to Use", description: "AI-generated professional photos available in minutes rather than days from photography sessions serve time-sensitive professional needs" },
+      { title: "Quality Standard", description: "AI generation calibrated for professional photography standards produces results that meet the expectations of professional online profiles and business materials" }
+    ],
+    useCases: [
+      { title: "Professionals Needing Various Photos", description: "Business professionals who need headshots, speaking photos, and other professional imagery use AI Shots for diverse professional photo needs" },
+      { title: "Small Business Owners", description: "Entrepreneurs use AI Shots for professional headshots and product photos without multiple photography budgets" },
+      { title: "Freelancers Building Online Presence", description: "Independent professionals use AI professional photography for comprehensive online presence across different platforms" }
+    ]
+  },
+  "photoguru-ai": {
+    whatIs: "PhotoGuru AI is an AI photo enhancement and beautification platform that automatically improves portrait and general photos through intelligent enhancement algorithms. It analyzes photo characteristics and applies targeted improvements including exposure correction, color enhancement, skin retouching, and sharpening to produce better-looking photos without manual editing. For users who want quick automatic photo improvement without learning editing software, PhotoGuru AI provides accessible intelligent photo enhancement.",
+    features: [
+      "Automatic Enhancement: AI-powered photo improvement without manual work",
+      "Portrait Optimization: Specialized enhancement for portrait photos",
+      "Exposure Correction: Fix lighting issues automatically",
+      "Color Enhancement: Improve color vibrancy and accuracy",
+      "Skin Retouching: Subtle beauty enhancement for portraits",
+      "Sharpening: Improve image clarity and detail",
+      "Batch Processing: Enhance multiple photos simultaneously",
+      "Free to Try: Basic enhancement without payment"
+    ],
+    howToUse: {
+      title: "How to Use Photoguru Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photos", description: "Sign up at photoguru.ai and upload the photos you want enhanced. Batch upload handles multiple photos efficiently." },
+        { title: "Review Automatic Enhancement", description: "PhotoGuru AI analyzes and enhances your photos automatically. Review the before and after results for each image." },
+        { title: "Download Enhanced Photos", description: "Download your enhanced photos ready for sharing, printing, or professional use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Intelligence", description: "AI that analyzes each photo individually and applies targeted improvements performs better than uniform filters that apply the same treatment to every image" },
+      { title: "Portrait Specialization", description: "Dedicated portrait enhancement that understands skin tones and facial features produces more appropriate results for portrait photos than general enhancement" },
+      { title: "Time Efficiency", description: "Batch automatic enhancement that processes many photos without individual attention is dramatically faster than manual editing" },
+      { title: "Accessibility", description: "Professional-quality enhancement that does not require editing skills makes photo improvement accessible to everyone" }
+    ],
+    useCases: [
+      { title: "Amateur Photographers", description: "People who take many photos but lack editing skills use PhotoGuru AI for automatic quality improvement" },
+      { title: "Event Photographers", description: "Photographers who shoot events use batch enhancement for faster delivery of improved photos" },
+      { title: "Social Media Users", description: "People who share photos regularly use quick AI enhancement for consistently better-looking posts" }
+    ]
+  },
   "pixlr": {
     whatIs: "Pixlr is a comprehensive online photo editing suite that provides professional-level editing tools accessible through a web browser. It offers two main products - Pixlr E for advanced photo editing similar to Photoshop and Pixlr X for quick and simple edits - alongside AI-powered features including background removal, generative AI fill, and one-click enhancements. For users who want professional photo editing capabilities without installing expensive desktop software, Pixlr provides powerful browser-based editing that works on any device.",
     features: [
