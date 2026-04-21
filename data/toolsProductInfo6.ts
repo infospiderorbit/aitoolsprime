@@ -1,4 +1,466 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "song-demo-ai": {
+    whatIs: "Song Demo AI is an AI music generation platform that creates complete song demos from lyrics and style descriptions. Musicians and songwriters input their lyrics and describe the musical style they want and Song Demo AI generates a complete demo with vocals, instruments, and production. For songwriters who want to hear their lyrics as a finished song demo without music production skills, Song Demo AI provides instant song creation.",
+    features: [
+      "Complete Song Generation: Create full song demos from lyrics",
+      "Lyric Input: Use your own lyrics for personalized songs",
+      "Style Description: Specify genre and musical style",
+      "AI Vocals: Generated vocal performance of your lyrics",
+      "Instrument Arrangement: Full musical backing created by AI",
+      "Multiple Styles: Various genre options available",
+      "Download Demo: Save your generated song demo",
+      "Free Credits: Try song generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Song Demo Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Lyrics", description: "Sign up at songdemo.ai and enter the lyrics you want turned into a song demo." },
+        { title: "Describe Your Style", description: "Specify the musical genre, mood, and style you want for your song." },
+        { title: "Generate and Download", description: "Song Demo AI creates a complete demo with AI vocals and instrumentation. Download your song demo." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Songwriter Visualization", description: "Songwriters who can write lyrics but lack music production skills use AI song demos to hear how their lyrics work as finished songs" },
+      { title: "Demo Speed", description: "Creating professional-quality song demos that would take days in a studio happens in minutes with AI generation" },
+      { title: "Creative Evaluation", description: "Hearing lyrics performed in a complete song context reveals how they work musically in ways that reading them alone cannot" },
+      { title: "Collaboration Tool", description: "Song demos that communicate a complete vision help songwriters collaborate with producers and artists who can build on the concept" }
+    ],
+    useCases: [
+      { title: "Songwriters", description: "Lyric writers use Song Demo AI to create demos of their songs without music production skills" },
+      { title: "Music Publishers", description: "Publishers use song demos for pitching songs to artists and labels" },
+      { title: "Artists Developing Material", description: "Performers use AI demos to evaluate songs before committing to studio recording" }
+    ]
+  },
+  "brev-ai": {
+    whatIs: "Brev.ai is an AI audio transcription and summarization platform that converts audio recordings into accurate text transcripts and generates intelligent summaries. It handles podcasts, meetings, interviews, and any spoken audio with high accuracy transcription and provides AI-powered summaries that capture the key points. For anyone who needs to extract written content from audio recordings efficiently, Brev.ai provides fast and accurate audio-to-text conversion.",
+    features: [
+      "Audio Transcription: Convert spoken audio to accurate text",
+      "AI Summarization: Generate concise summaries of transcribed content",
+      "Podcast Transcription: Process podcast episodes for text content",
+      "Meeting Notes: Transcribe and summarize meeting recordings",
+      "Speaker Identification: Distinguish between different speakers",
+      "Multiple Languages: Transcription in various languages",
+      "Export Options: Download transcripts in different formats",
+      "Free to Try: Basic transcription without payment"
+    ],
+    howToUse: {
+      title: "How to Use Brev Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Audio", description: "Sign up at brev.ai and upload the audio file you want transcribed." },
+        { title: "Review Your Transcript", description: "Brev.ai generates an accurate transcript of your audio. Review and edit any corrections needed." },
+        { title: "Get Your Summary", description: "Access the AI-generated summary that captures the key points from your audio content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content Repurposing", description: "Audio content that exists only as recordings becomes searchable and usable written content through transcription" },
+      { title: "Meeting Documentation", description: "Meeting recordings converted to searchable transcripts with summaries create better documentation than manual note-taking" },
+      { title: "Podcast SEO", description: "Podcast episode transcripts that make audio content readable and searchable improve discoverability through search engines" },
+      { title: "Accessibility", description: "Transcripts of audio content make spoken material accessible to deaf and hard-of-hearing audiences" }
+    ],
+    useCases: [
+      { title: "Podcasters", description: "Podcast creators use transcription for show notes, accessibility, and content repurposing" },
+      { title: "Business Teams", description: "Organizations transcribe meeting recordings for documentation and action item tracking" },
+      { title: "Content Creators", description: "Creators repurpose audio content as blog posts and written articles using transcription" }
+    ]
+  },
+  "ai-song-maker": {
+    whatIs: "AI Song Maker is a tool that generates complete original songs from text prompts, including lyrics, melody, and musical accompaniment. Users describe the type of song they want - genre, mood, topic - and the AI creates a full song with all elements. For music enthusiasts and content creators who want original songs without musical skills, AI Song Maker provides accessible complete song creation.",
+    features: [
+      "Complete Song Creation: Generate full songs from descriptions",
+      "Lyric Generation: AI-written lyrics for your song",
+      "Melody Creation: AI-composed melodies and musical arrangements",
+      "Genre Selection: Choose from various musical styles",
+      "Mood Setting: Specify emotional tone for your song",
+      "Multiple Variations: Generate several different songs",
+      "Download Output: Save generated songs",
+      "Free to Try: Basic song creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Song Maker",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Song", description: "Go to the AI Song Maker platform and describe the song you want - genre, topic, mood, and any specific elements." },
+        { title: "Generate Your Song", description: "The AI creates a complete song with lyrics, melody, and accompaniment based on your description." },
+        { title: "Download and Use", description: "Download your generated song for personal use, social sharing, or content creation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Democratization", description: "Complete song creation from a text description makes music creation accessible to anyone regardless of musical training or instrument skills" },
+      { title: "Content Creation", description: "Creators who need original music for videos, presentations, or social content use AI song generation for unique custom tracks" },
+      { title: "Creative Exploration", description: "Generating many different song variations from different prompts explores musical possibilities faster than traditional composition" },
+      { title: "Novelty Factor", description: "The ability to create a personalized song from a description is genuinely impressive and creates engaging content for sharing" }
+    ],
+    useCases: [
+      { title: "Music Enthusiasts Without Skills", description: "People who love music but cannot play instruments use AI Song Maker for personal song creation" },
+      { title: "Content Creators", description: "Video and social media creators use AI songs for unique personalized content" },
+      { title: "Gift Creators", description: "People create personalized songs as gifts for special occasions using AI song generation" }
+    ]
+  },
+  "musichero-ai": {
+    whatIs: "MusicHero AI is an AI music generation platform that creates original songs, beats, and soundtracks from text descriptions. It generates complete musical pieces with vocals, instruments, and production across different genres. For creators who need original music content without production skills or expensive licensing, MusicHero AI provides on-demand music creation.",
+    features: [
+      "Song Generation: Create complete songs from text descriptions",
+      "Beat Creation: Generate backing beats and instrumentals",
+      "Vocal AI: AI vocal performance in generated songs",
+      "Multiple Genres: Various musical styles available",
+      "Royalty-Free Output: Generated music without licensing concerns",
+      "Text to Music: Convert descriptions to complete songs",
+      "Download Options: Export generated music",
+      "Free Credits: Try generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Musichero Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Music", description: "Sign up at musichero.ai and describe the music you want to create - genre, mood, and style details." },
+        { title: "Generate Your Track", description: "MusicHero AI creates original music based on your description. Preview and refine as needed." },
+        { title: "Download and Use", description: "Download your generated music for content creation, personal projects, or commercial use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Production Accessibility", description: "Complete song creation without music production skills or equipment makes original music accessible to content creators and music enthusiasts" },
+      { title: "Licensing Simplicity", description: "AI-generated original music without licensing complications simplifies the process of using music in commercial content" },
+      { title: "Creative Speed", description: "Music generated in minutes rather than recorded in studios over days dramatically accelerates content production timelines" },
+      { title: "Content Originality", description: "Original AI-generated music that no other creator has used differentiates content from creators who use the same licensed tracks" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "YouTube and social media creators use MusicHero AI for original background music without licensing concerns" },
+      { title: "Indie Game Developers", description: "Game makers use AI music generation for game soundtracks without music budget" },
+      { title: "Marketing Teams", description: "Marketers create original music for brand content and advertising without music licensing costs" }
+    ]
+  },
+  "soundverse-ai": {
+    whatIs: "SoundVerse AI is an AI music creation platform that generates original music, sound effects, and audio content from natural language descriptions. It provides tools for creating complete musical compositions, specific instrument sounds, and audio effects through conversational AI. For creators who want AI assistance throughout the music creation process, SoundVerse AI provides an interactive music generation experience.",
+    features: [
+      "Music Generation: Create complete compositions from descriptions",
+      "Sound Effects: Generate custom sound effects for any use",
+      "Instrument Sounds: Generate specific instrument recordings",
+      "Conversational Creation: Refine music through natural conversation",
+      "Multiple Styles: Various musical genres and styles",
+      "Audio Export: Download generated audio content",
+      "Iterative Refinement: Improve generated music through feedback",
+      "Free to Try: Basic generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Soundverse Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Audio Need", description: "Sign up at soundverse.ai and describe the music or sound you want to create." },
+        { title: "Refine Through Conversation", description: "Use conversational prompts to refine the generated audio. Describe changes you want and SoundVerse iterates." },
+        { title: "Download Your Audio", description: "Export your finalized audio in the appropriate format for your use case." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversational Creation", description: "Refining generated music through natural conversation is more intuitive than adjusting technical parameters in traditional music software" },
+      { title: "Sound Effect Generation", description: "Custom sound effects created on demand for specific scenarios are more precisely matched to needs than searching sound libraries" },
+      { title: "Instrument Recording Access", description: "Specific instrument sounds generated without recording real instruments make diverse sonic palettes accessible without session musicians" },
+      { title: "Iterative Quality", description: "Conversation-based refinement that improves music through multiple rounds produces better results than single-shot generation" }
+    ],
+    useCases: [
+      { title: "Game Developers", description: "Game makers use SoundVerse for custom sound effects and music without audio production resources" },
+      { title: "Film and Video Creators", description: "Filmmakers use AI-generated music and sound for independent productions" },
+      { title: "Interactive Media Creators", description: "Developers of interactive experiences use conversational music generation for adaptive audio content" }
+    ]
+  },
+  "landr": {
+    whatIs: "LANDR is a comprehensive music platform that provides AI mastering, sample packs, music distribution, and creative tools for independent musicians. Its AI mastering service was one of the first to make professional-quality automated mastering accessible, and the platform has expanded to provide distribution to streaming platforms, a sample library, and collaboration tools. For independent musicians who need a comprehensive platform for finishing, releasing, and promoting their music, LANDR provides the essential music production and distribution infrastructure.",
+    features: [
+      "AI Mastering: Automated professional audio mastering",
+      "Music Distribution: Release music to all streaming platforms",
+      "Sample Library: Access to professional samples and loops",
+      "Network: Connect with other musicians and collaborators",
+      "Plugin Store: Access to music production plugins",
+      "Stem Mastering: Individual stem mastering capabilities",
+      "Fast Turnaround: Masters delivered in minutes",
+      "Free Mastering: Basic mastering without payment"
+    ],
+    howToUse: {
+      title: "How to Use Landr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Mix", description: "Sign up at landr.com and upload your finished mix for mastering." },
+        { title: "Master Your Track", description: "LANDR analyzes your audio and applies professional mastering. Preview the result and adjust the mastering intensity." },
+        { title: "Distribute Your Music", description: "Use LANDR distribution to release your mastered track to Spotify, Apple Music, and other streaming platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "All-in-One Platform", description: "Mastering, distribution, samples, and networking in one platform eliminates the need for multiple separate services for different stages of music release" },
+      { title: "Mastering Accessibility", description: "Professional-quality AI mastering that costs a fraction of traditional mastering makes polished releases accessible to independent artists" },
+      { title: "Distribution Simplicity", description: "One-click distribution to all major streaming platforms from the same service used for mastering creates a streamlined release workflow" },
+      { title: "Community Value", description: "A network of musicians using the same platform creates collaboration and discovery opportunities that isolated tool use cannot provide" }
+    ],
+    useCases: [
+      { title: "Independent Musicians", description: "Solo artists and bands use LANDR for the complete workflow from mastering to streaming platform release" },
+      { title: "Home Studio Producers", description: "Bedroom producers finish and release tracks using LANDR's mastering and distribution services" },
+      { title: "Music Educators", description: "Teachers use LANDR as a platform for teaching students the full music release process" }
+    ]
+  },
+  "kits-ai": {
+    whatIs: "Kits AI is an AI voice platform for music that enables musicians and producers to create custom AI voice models, access royalty-free AI voices for music production, and convert their own vocals using different AI voice styles. It provides the infrastructure for AI voice in music creation, from training custom artist voice models to licensing official AI voices from established artists. For music producers who want AI vocal capabilities in their productions, Kits AI provides the most comprehensive AI voice platform for music.",
+    features: [
+      "Custom Voice Models: Train AI on your own voice for personalized models",
+      "Royalty-Free AI Voices: Access licensed AI voices for production use",
+      "Voice Conversion: Transform vocals using different AI voice styles",
+      "Artist Voice Licensing: Official AI voices from real artists",
+      "Stem Processing: Process vocal stems with AI voice technology",
+      "DAW Integration: Works with major digital audio workstations",
+      "API Access: Integrate AI voice into your applications",
+      "Free Plan: Basic voice conversion without payment"
+    ],
+    howToUse: {
+      title: "How to Use Kits Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Vocals", description: "Sign up at kits.ai and upload your vocal recordings or select from available AI voice models." },
+        { title: "Apply Voice Conversion", description: "Select the AI voice style you want to apply to your vocals. Preview the conversion before finalizing." },
+        { title: "Export Your Processed Vocals", description: "Download your AI-processed vocals ready for use in your music production." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Voice Diversity", description: "Access to many different AI voice styles from one platform provides vocal variety in productions without hiring multiple session singers" },
+      { title: "Custom Model Value", description: "Training an AI model on your own voice creates a personal vocal identity that can be used across many productions consistently" },
+      { title: "Artist Collaboration", description: "Licensed AI voices from real artists that producers can use legally opens new creative collaboration possibilities in music production" },
+      { title: "Production Flexibility", description: "Voice conversion that transforms any vocal recording into different styles enables creative experimentation that physical re-recording cannot match" }
+    ],
+    useCases: [
+      { title: "Music Producers", description: "Producers use Kits AI for diverse AI vocal options in their music productions" },
+      { title: "Independent Artists", description: "Solo musicians use voice conversion for creative vocal experimentation in their recordings" },
+      { title: "Beatmakers", description: "Beat producers use AI voices for demo vocals on instrumentals" }
+    ]
+  },
+  "midigen": {
+    whatIs: "MIDIGen is an AI MIDI generation tool that creates MIDI patterns, melodies, chord progressions, and complete musical arrangements from text descriptions or parameters. It generates MIDI files that musicians can import into their DAWs and use as starting points or complete arrangements. For producers and composers who want AI assistance generating MIDI content, MIDIGen provides intelligent musical pattern creation.",
+    features: [
+      "MIDI Generation: Create MIDI patterns from descriptions",
+      "Melody Creation: Generate melodic sequences",
+      "Chord Progressions: Create harmonic chord sequences",
+      "Rhythm Patterns: Generate rhythmic drum and percussion MIDI",
+      "Genre Awareness: MIDI appropriate to different musical styles",
+      "DAW Compatible: Export standard MIDI files",
+      "Parameter Control: Adjust key, scale, and tempo",
+      "Free to Try: Basic MIDI generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Midigen",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your MIDI", description: "Go to MIDIGen and describe the MIDI content you want - melody, chords, or rhythm, with genre and style details." },
+        { title: "Generate Your MIDI", description: "MIDIGen creates MIDI patterns based on your description. Preview the generated patterns." },
+        { title: "Import to Your DAW", description: "Download the MIDI file and import it into your digital audio workstation for use in your production." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Production Starting Points", description: "AI-generated MIDI that producers edit and build upon provides faster starting points than composing from scratch" },
+      { title: "Harmony Assistance", description: "Chord progression generation that creates interesting harmonic sequences helps producers who are less confident in music theory" },
+      { title: "Rhythmic Inspiration", description: "Generated drum patterns across different genres provide rhythmic starting points that producers can customize" },
+      { title: "Genre Authenticity", description: "MIDI patterns generated with genre-appropriate musical characteristics sound more authentic than generic patterns applied to any style" }
+    ],
+    useCases: [
+      { title: "Music Producers", description: "Beatmakers and producers use MIDIGen for MIDI starting points in their productions" },
+      { title: "Composers", description: "Music composers use AI MIDI generation for initial compositional ideas and themes" },
+      { title: "Electronic Music Producers", description: "Electronic artists use generated MIDI for melodic and harmonic content in their tracks" }
+    ]
+  },
+  "midi-agent": {
+    whatIs: "MIDI Agent is an AI-powered MIDI creation and editing assistant that helps musicians generate, modify, and arrange MIDI content through conversational AI. Users describe what they want in natural language and the AI creates or modifies MIDI patterns accordingly. It provides an intuitive interface for musicians who think musically rather than technically. For musicians who want AI assistance with MIDI composition without learning complex software, MIDI Agent provides a conversational approach to MIDI creation.",
+    features: [
+      "Conversational MIDI: Create MIDI through natural language",
+      "Pattern Generation: Generate melodies, chords, and rhythms",
+      "Pattern Modification: Edit and adjust existing MIDI patterns",
+      "Style Guidance: Create patterns in specific musical styles",
+      "Music Theory: AI that understands harmonic relationships",
+      "DAW Export: Export MIDI for use in production software",
+      "Iterative Creation: Refine patterns through conversation",
+      "Free to Try: Basic creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Midi Agent",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Musical Idea", description: "Access MIDI Agent and describe the musical idea you want to create in natural language." },
+        { title: "Receive and Refine", description: "The AI generates MIDI content matching your description. Describe adjustments to refine the result." },
+        { title: "Export Your MIDI", description: "Export the MIDI content to use in your DAW or music production software." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Natural Language Interface", description: "Describing musical ideas in natural language rather than using technical software parameters is more accessible to musicians who think musically" },
+      { title: "Music Theory Integration", description: "AI that understands music theory and can apply harmonic principles assists composers who want to explore musical concepts" },
+      { title: "Iterative Refinement", description: "Conversation-based MIDI development that refines patterns through multiple rounds produces more specific results than single-shot generation" },
+      { title: "Accessibility", description: "MIDI composition assistance that does not require DAW expertise makes music creation more accessible to musicians who play but do not produce" }
+    ],
+    useCases: [
+      { title: "Musicians Exploring Production", description: "Instrumentalists and vocalists who want to create productions use MIDI Agent for composition without technical production expertise" },
+      { title: "Composers", description: "Composers use conversational MIDI creation for exploring compositional ideas quickly" },
+      { title: "Music Educators", description: "Teachers use AI MIDI creation for demonstration and student learning activities" }
+    ]
+  },
+  "oniooo": {
+    whatIs: "Oniooo is an AI music analysis and recommendation platform that provides deep insights into musical characteristics, mood analysis, and personalized music discovery. It analyzes tracks for tempo, energy, danceability, and emotional characteristics to deliver detailed music profiles and recommendations. For music enthusiasts and curators who want deeper understanding of music and more accurate discovery, Oniooo provides comprehensive musical intelligence.",
+    features: [
+      "Music Analysis: Deep analysis of track characteristics and qualities",
+      "Mood Detection: Identify emotional qualities of music",
+      "Audio Features: Tempo, energy, and danceability metrics",
+      "Personalized Recommendations: Music discovery based on preferences",
+      "Playlist Curation: AI-assisted playlist creation",
+      "Track Profiling: Comprehensive musical profile for any track",
+      "Genre Intelligence: Deep genre and style classification",
+      "Free to Use: Basic music analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Oniooo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Analyze Your Music", description: "Sign up at oniooo.com and submit tracks for analysis. Get detailed profiles of musical characteristics." },
+        { title: "Explore Recommendations", description: "Use the analysis data to discover new music that matches the specific characteristics you enjoy." },
+        { title: "Curate Your Playlists", description: "Build playlists based on precise musical characteristics rather than just genre labels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Characteristic Precision", description: "Music recommendation based on specific acoustic and emotional characteristics rather than genre labels produces more accurate matches to individual taste" },
+      { title: "Curation Intelligence", description: "Playlist curation informed by detailed track analysis creates more cohesive and satisfying listening experiences" },
+      { title: "Music Discovery Depth", description: "Finding new music that shares the specific qualities you enjoy in existing favorites is more effective through characteristic analysis than genre browsing" },
+      { title: "DJ and Curator Tools", description: "Music professionals who curate playlists and DJ sets use detailed track analysis for better mix compatibility and flow" }
+    ],
+    useCases: [
+      { title: "Music Enthusiasts", description: "Passionate music listeners use Oniooo for deeper understanding and better discovery of music they will enjoy" },
+      { title: "DJs and Music Curators", description: "Professional music selectors use track analysis for more informed playlist building and mixing" },
+      { title: "Music Researchers", description: "People studying music characteristics use Oniooo for analytical insight into musical content" }
+    ]
+  },
+  "octavee": {
+    whatIs: "Octavee is an AI music education and ear training platform that helps musicians develop their musical ear through AI-powered exercises and personalized learning paths. It provides interval training, chord recognition, rhythm training, and melody dictation exercises adapted to each student's level and progress. For musicians who want to improve their musicianship and aural skills, Octavee provides systematic ear training with AI personalization.",
+    features: [
+      "Ear Training: Comprehensive aural skill development exercises",
+      "Interval Training: Recognize musical intervals by ear",
+      "Chord Recognition: Identify chord qualities and progressions",
+      "Rhythm Training: Develop rhythmic accuracy and recognition",
+      "Melody Dictation: Transcribe melodies by ear",
+      "Personalized Learning: AI adapts to your skill level",
+      "Progress Tracking: Monitor improvement over time",
+      "Free Plan: Basic ear training without payment"
+    ],
+    howToUse: {
+      title: "How to Use Octavee",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Assess Your Level", description: "Sign up at octavee.com and complete the initial assessment to establish your current ear training level." },
+        { title: "Follow Your Learning Path", description: "Complete daily ear training exercises tailored to your level and focused on your specific weaknesses." },
+        { title: "Track Your Progress", description: "Monitor your improvement across different ear training skills as your musical ear develops over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Ear Training Importance", description: "Aural skills that allow musicians to hear what they play and recognize musical elements are fundamental to musicianship but often underdeveloped" },
+      { title: "Personalized Progression", description: "Ear training that adapts to individual skill level and progress is more effective than one-size-fits-all exercises that are too easy or too difficult" },
+      { title: "Consistent Practice", description: "Daily exercises with AI guidance provide the regular practice that develops musical hearing over time" },
+      { title: "Comprehensive Coverage", description: "Training across intervals, chords, rhythm, and melody develops all aspects of musical ear rather than focusing on just one skill" }
+    ],
+    useCases: [
+      { title: "Music Students", description: "Students in music programs use Octavee for systematic ear training development" },
+      { title: "Self-Taught Musicians", description: "Independent musicians use ear training tools to develop the aural skills that formal education would have provided" },
+      { title: "Music Teachers", description: "Educators use ear training platforms for structured student practice between lessons" }
+    ]
+  },
+  "tuneonmusic": {
+    whatIs: "TuneOn Music is an AI music discovery and personalization platform that learns your musical preferences and delivers highly personalized music recommendations and radio stations. It analyzes listening patterns, mood preferences, and musical taste to create a constantly improving personalized music experience. For music listeners who find algorithm-driven streaming recommendations too generic, TuneOn Music provides more intelligent personalized music curation.",
+    features: [
+      "Personalized Radio: AI-curated radio stations for your taste",
+      "Music Discovery: Find new music matching your preferences",
+      "Mood-Based Listening: Music recommendations based on current mood",
+      "Taste Learning: AI improves recommendations over time",
+      "Playlist Generation: Create playlists based on taste profile",
+      "Artist and Genre Deep Dives: Explore specific musical interests deeply",
+      "Cross-Genre Discovery: Find connections across different styles",
+      "Free to Use: Basic personalization without payment"
+    ],
+    howToUse: {
+      title: "How to Use Tuneonmusic",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Sign up at tuneon.music and indicate your musical preferences and favorite artists to establish your taste profile." },
+        { title: "Discover Your Personalized Radio", description: "Listen to AI-curated radio stations built around your taste. Rate tracks to help the AI improve its understanding of your preferences." },
+        { title: "Explore and Expand", description: "Use the discovery features to find new music that extends your taste into new artists and areas you will enjoy." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Recommendation Quality", description: "Music recommendations that deeply understand individual taste through learning produce more satisfying discoveries than popularity-based algorithms" },
+      { title: "Mood Intelligence", description: "Music that matches current emotional state rather than just general taste preferences serves listeners more effectively" },
+      { title: "Discovery Beyond Genre", description: "Finding connections between musical elements across genre boundaries expands taste in ways that genre-based browsing cannot" },
+      { title: "Improving Over Time", description: "AI that continuously learns from listening behavior and feedback produces increasingly accurate recommendations over time" }
+    ],
+    useCases: [
+      { title: "Music Enthusiasts", description: "People who are passionate about music discovery use TuneOn for more sophisticated personalized recommendations" },
+      { title: "Listeners Dissatisfied with Streaming", description: "People who find mainstream streaming recommendations too generic use TuneOn for more intelligent music curation" },
+      { title: "Audiophiles", description: "People who care deeply about the quality of their listening experience use personalized radio for curated rather than algorithmic music" }
+    ]
+  },
+  "klangio": {
+    whatIs: "Klangio is an AI music transcription service that converts audio recordings into sheet music and MIDI files automatically. It listens to any audio input - recordings, YouTube videos, or uploaded files - and transcribes the music into readable notation and playable MIDI. For musicians who want to learn songs by reading notation or use audio as MIDI in their productions, Klangio provides AI-powered music transcription.",
+    features: [
+      "Audio to Sheet Music: Transcribe recordings into readable notation",
+      "Audio to MIDI: Convert audio to playable MIDI files",
+      "Multiple Instruments: Transcription for piano, guitar, and other instruments",
+      "YouTube Transcription: Transcribe directly from YouTube URLs",
+      "PDF Output: Download sheet music as PDF",
+      "MIDI Export: Use transcriptions in your DAW",
+      "Accuracy: AI trained for musical transcription quality",
+      "Free Credits: Try transcription before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Klangio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Audio", description: "Sign up at klangio.com and upload your audio file or paste a YouTube URL of the music you want transcribed." },
+        { title: "Review Your Transcription", description: "Klangio generates sheet music and MIDI from your audio. Review the transcription for accuracy." },
+        { title: "Download Your Score", description: "Download your transcription as PDF sheet music or MIDI file for learning or production use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Learning by Notation", description: "Musicians who learn from sheet music use audio transcription to get notation of songs they want to learn that are not available in published form" },
+      { title: "MIDI Production Use", description: "Producers who want to use melodic or harmonic content from audio recordings convert it to MIDI for editing and production use" },
+      { title: "Music Education", description: "Teachers and students use audio transcription for analyzing and learning from recordings" },
+      { title: "Arrangement Work", description: "Arrangers transcribe recordings to understand and build upon existing musical content" }
+    ],
+    useCases: [
+      { title: "Musicians Learning Songs", description: "Players use Klangio to get sheet music for songs they want to learn from recordings" },
+      { title: "Music Producers", description: "Producers convert audio to MIDI for sampling and production work" },
+      { title: "Music Students", description: "Students transcribe recordings for musical analysis and ear training" }
+    ]
+  },
+  "cassetteai": {
+    whatIs: "Cassette AI is an AI music generation platform that creates original music tracks from text prompts with a focus on producing music that feels authentic and emotionally resonant rather than obviously machine-generated. It generates beats, full songs, and instrumental tracks across diverse genres with attention to musical quality. For creators who want AI music that actually sounds good and fits naturally into content, Cassette AI provides quality-focused music generation.",
+    features: [
+      "Quality Music Generation: AI music focused on authentic sound quality",
+      "Full Track Creation: Complete songs and instrumentals",
+      "Beat Generation: Hip-hop and electronic beat creation",
+      "Multiple Genres: Diverse style options",
+      "Emotional Resonance: Music that conveys genuine feeling",
+      "Royalty-Free: Generated music without licensing concerns",
+      "Download Options: Export in standard formats",
+      "Free Credits: Try generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Cassetteai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Track", description: "Sign up at cassette.ai and describe the music you want to create with style, mood, and specific details." },
+        { title: "Generate and Preview", description: "Cassette AI generates your track. Preview the result and refine your description for better results." },
+        { title: "Download Your Music", description: "Download your generated music for use in your content or projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Quality Focus", description: "Music generation that prioritizes authentic sound quality over novelty produces tracks that are actually usable in professional content" },
+      { title: "Emotional Authenticity", description: "AI music that conveys genuine emotional character rather than sounding mechanical connects better with listeners" },
+      { title: "Content Creator Needs", description: "Creators who need background music that enhances rather than distracts from their content benefit from quality-focused generation" },
+      { title: "Licensing Freedom", description: "Original AI-generated music without licensing complications simplifies commercial content creation" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Video and podcast creators use Cassette AI for quality background music that enhances their content" },
+      { title: "Independent Artists", description: "Musicians use AI music generation for demo production and creative exploration" },
+      { title: "Marketing Professionals", description: "Marketers create original branded music for campaigns using quality-focused AI generation" }
+    ]
+  },
   "online-audio-converter": {
     whatIs: "Online Audio Converter is a free web-based tool that converts audio files between different formats including MP3, WAV, OGG, FLAC, AAC, and many others. It handles audio conversion directly in the browser without requiring software installation, making it accessible to anyone who needs to convert audio files quickly. For users who occasionally need to convert audio files between formats, Online Audio Converter provides fast and free conversion without downloading software.",
     features: [
