@@ -1,4 +1,499 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "online-audio-converter": {
+    whatIs: "Online Audio Converter is a free web-based tool that converts audio files between different formats including MP3, WAV, OGG, FLAC, AAC, and many others. It handles audio conversion directly in the browser without requiring software installation, making it accessible to anyone who needs to convert audio files quickly. For users who occasionally need to convert audio files between formats, Online Audio Converter provides fast and free conversion without downloading software.",
+    features: [
+      "Format Conversion: Convert audio between MP3, WAV, FLAC, OGG, and more",
+      "Browser-Based: No software download required",
+      "Multiple Input Formats: Accepts virtually any audio file format",
+      "Quality Settings: Adjust output quality and bitrate",
+      "Batch Conversion: Convert multiple files simultaneously",
+      "Fast Processing: Quick conversion for common formats",
+      "Free Service: Full conversion without payment",
+      "No Registration: Convert without creating an account"
+    ],
+    howToUse: {
+      title: "How to Use Online Audio Converter",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Audio", description: "Go to online-audio-converter.com and upload the audio file you want to convert. Drag and drop or browse to select your file." },
+        { title: "Select Output Format", description: "Choose your target format from the available options. Adjust quality settings if needed for your specific use case." },
+        { title: "Convert and Download", description: "Click convert and download your converted audio file. The process typically completes within seconds for most files." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Format Compatibility", description: "Audio files that will not play on specific devices or platforms are made compatible through format conversion without quality loss" },
+      { title: "No Installation", description: "Browser-based conversion that works without software installation is immediately accessible from any device with a browser" },
+      { title: "Free Access", description: "Free audio conversion without registration or payment removes all barriers to occasional format conversion needs" },
+      { title: "Speed", description: "Fast conversion that handles common audio formats quickly makes the tool practical for regular use" }
+    ],
+    useCases: [
+      { title: "Music Producers", description: "Producers convert audio files between formats for different production workflows and delivery requirements" },
+      { title: "Podcasters", description: "Podcast creators convert recordings to required formats for different distribution platforms" },
+      { title: "General Users", description: "Anyone who needs audio file format conversion uses the free browser-based tool for quick results" }
+    ]
+  },
+  "adobe-podcast": {
+    whatIs: "Adobe Podcast is an AI-powered audio recording and editing platform that provides professional-quality podcast production tools in a browser-based interface. Its standout feature is AI-powered speech enhancement that removes background noise and improves audio quality from any recording environment. Adobe Podcast also provides transcription, editing through text, and recording tools that make professional podcast production accessible. For podcasters and audio content creators who want broadcast-quality audio from any recording setup, Adobe Podcast provides the AI audio enhancement that levels the playing field.",
+    features: [
+      "AI Speech Enhancement: Remove background noise and improve audio quality with AI",
+      "Text-Based Editing: Edit audio by editing the transcript",
+      "Browser Recording: Record directly in the browser",
+      "Transcription: Automatic speech-to-text transcription",
+      "Mic Check: AI assessment of your recording setup",
+      "Collaboration: Share and collaborate on podcast projects",
+      "Professional Quality: Broadcast-quality output from any microphone",
+      "Free to Try: Basic features without payment"
+    ],
+    howToUse: {
+      title: "How to Use Adobe Podcast",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record Your Audio", description: "Sign up at podcast.adobe.com and record your podcast directly in the browser or upload existing recordings." },
+        { title: "Enhance Your Audio", description: "Apply AI speech enhancement to your recording. Adobe Podcast removes background noise and improves clarity automatically." },
+        { title: "Edit and Publish", description: "Edit your podcast by editing the transcript text. Remove filler words and mistakes by deleting them from the text view." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Enhancement Quality", description: "Background noise removal and audio enhancement that produces broadcast-quality output from any recording environment democratizes professional podcast production" },
+      { title: "Text Editing Innovation", description: "Editing audio by editing transcript text is dramatically faster and more intuitive than traditional timeline-based audio editing" },
+      { title: "Recording Environment Freedom", description: "AI that fixes poor recording acoustics removes the requirement for soundproofed recording spaces and expensive microphone setups" },
+      { title: "Adobe Integration", description: "For teams already using Adobe Creative Cloud, podcast production that integrates with the broader Adobe ecosystem maintains familiar workflow patterns" }
+    ],
+    useCases: [
+      { title: "Podcasters", description: "Podcast creators use Adobe Podcast for professional audio quality without expensive recording equipment or studios" },
+      { title: "Content Creators", description: "Video and audio content creators use AI enhancement for consistently clear audio across different recording environments" },
+      { title: "Corporate Communications Teams", description: "Business teams producing internal and external audio content use Adobe Podcast for professional quality from office environments" }
+    ]
+  },
+  "descript": {
+    whatIs: "Descript is a comprehensive audio and video editing platform that uses AI to enable editing through text transcription. Users record or import audio and video, Descript transcribes it automatically, and then editing the transcript edits the media. It also provides AI-powered features including Overdub for voice cloning corrections, background noise removal, Studio Sound for audio enhancement, and Screen Recording. For podcasters, video creators, and content professionals who want the most efficient media editing workflow, Descript provides a genuinely different editing paradigm.",
+    features: [
+      "Text-Based Editing: Edit audio and video by editing the transcript",
+      "Overdub: AI voice cloning for seamless audio corrections",
+      "Studio Sound: AI audio enhancement to broadcast quality",
+      "Screen Recording: Record screen and camera simultaneously",
+      "Filler Word Removal: Automatically remove ums and ahs",
+      "Collaboration: Multi-user project collaboration",
+      "Publishing: Direct publishing to podcast platforms",
+      "Free Plan: Basic editing without payment"
+    ],
+    howToUse: {
+      title: "How to Use Descript",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import or Record", description: "Sign up at descript.com and import your audio or video file or record directly in the application." },
+        { title: "Edit Through Text", description: "Descript transcribes your media automatically. Delete words from the transcript to remove them from the audio or video." },
+        { title: "Enhance and Export", description: "Apply Studio Sound for audio enhancement and Overdub for any corrections. Export your finished media for distribution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Editing Paradigm Shift", description: "Traditional audio and video editing that requires timeline manipulation skills is replaced by text editing that anyone who can type can do" },
+      { title: "Overdub Corrections", description: "Re-recording lines that need corrections without matching the original recording environment is solved by voice cloning that sounds identical to the original" },
+      { title: "Filler Word Efficiency", description: "Automatically removing filler words from transcripts that would take hours to find and cut manually is done in seconds" },
+      { title: "All-in-One Production", description: "Having recording, transcription, editing, enhancement, and publishing in one application eliminates the multi-tool friction of traditional podcast production" }
+    ],
+    useCases: [
+      { title: "Podcasters", description: "Podcast creators use Descript for the most efficient audio editing workflow available" },
+      { title: "Video Content Creators", description: "YouTubers and video producers use text-based video editing for faster content production" },
+      { title: "Corporate Media Teams", description: "Business content teams use Descript for efficient production of training videos, webinars, and corporate content" }
+    ]
+  },
+  "podcastle": {
+    whatIs: "Podcastle is an AI-powered podcast creation platform that provides browser-based recording, AI audio enhancement, editing tools, and distribution features. It offers studio-quality recording through any microphone with AI that removes background noise and improves audio clarity. Podcastle includes a text-to-speech feature for creating AI voices and tools for converting blog posts into podcast episodes. For podcasters who want professional audio quality and efficient production in one browser-based platform, Podcastle provides comprehensive podcast creation tools.",
+    features: [
+      "Browser Recording: Studio-quality recording without software",
+      "AI Noise Removal: Background noise elimination",
+      "Audio Enhancement: Improve recording quality with AI",
+      "Text to Speech: Convert text to AI voice narration",
+      "Blog to Podcast: Convert written content to audio",
+      "Editing Tools: Audio editing and arrangement",
+      "Distribution: Publish to podcast platforms",
+      "Free Plan: Basic recording without payment"
+    ],
+    howToUse: {
+      title: "How to Use Podcastle",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record Your Episode", description: "Sign up at podcastle.ai and start recording directly in your browser. Invite remote guests for multi-track recording." },
+        { title: "Enhance Your Audio", description: "Apply AI noise removal and audio enhancement to your recording. The AI improves audio quality automatically." },
+        { title: "Edit and Distribute", description: "Edit your episode, add music and effects, and publish directly to your preferred podcast platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser Convenience", description: "Professional podcast recording that works in any browser without software installation makes podcasting accessible from any computer" },
+      { title: "Remote Guest Quality", description: "Multi-track recording with remote guests that maintains separate audio tracks for each participant enables professional post-production editing" },
+      { title: "Blog to Podcast", description: "Converting existing written content into podcast audio extends the reach of content without creating entirely new material" },
+      { title: "AI Enhancement Value", description: "Consistent broadcast-quality audio achieved through AI enhancement regardless of recording environment removes the technical barrier to professional podcasting" }
+    ],
+    useCases: [
+      { title: "Independent Podcasters", description: "Solo podcast creators use Podcastle for professional audio quality without studio equipment" },
+      { title: "Content Creators Repurposing Content", description: "Bloggers and writers use Podcastle to convert their written content into podcast episodes" },
+      { title: "Interview Podcasters", description: "Podcasters who conduct remote interviews use Podcastle for professional multi-track remote recording" }
+    ]
+  },
+  "audeo-ai": {
+    whatIs: "Audeo AI is an AI music generation platform that creates original background music and soundtracks from text descriptions or mood parameters. It generates royalty-free music in various styles and genres for content creators who need background audio for videos, podcasts, games, and other media projects. For creators who need original music without licensing complications, Audeo AI provides on-demand AI music generation.",
+    features: [
+      "AI Music Generation: Create original music from text descriptions",
+      "Mood-Based Creation: Generate music matching specific emotional tones",
+      "Multiple Genres: Various musical styles and genre options",
+      "Royalty-Free: Generated music without licensing concerns",
+      "Video Sync: Music timed to video content length",
+      "Download Options: Export in standard audio formats",
+      "Fast Generation: Music created quickly",
+      "Free Credits: Try music generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Audeo Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Music", description: "Sign up at audeo.ai and describe the music you want - genre, mood, tempo, and intended use." },
+        { title: "Generate Your Track", description: "Audeo AI generates original music matching your description. Preview the result and regenerate if needed." },
+        { title: "Download and Use", description: "Download your generated music and use it in your videos, podcasts, or other content without licensing concerns." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Licensing Freedom", description: "Original AI-generated music without licensing restrictions removes the complex and costly process of licensing existing music for commercial content" },
+      { title: "On-Demand Creation", description: "Music created exactly for a specific project rather than adapted from existing tracks fits content needs more precisely" },
+      { title: "Content Creator Needs", description: "Video and podcast creators who need background music regularly benefit from on-demand generation that produces fresh tracks without subscription music library limitations" },
+      { title: "Mood Matching", description: "Music generated to match specific emotional tones fits content better than searching a library for something close enough" }
+    ],
+    useCases: [
+      { title: "Video Content Creators", description: "YouTubers and video producers use Audeo AI for custom background music without licensing concerns" },
+      { title: "Podcast Producers", description: "Podcast creators use AI music for intros, outros, and background music segments" },
+      { title: "Game Developers", description: "Indie game makers use AI music generation for game soundtracks without music licensing costs" }
+    ]
+  },
+  "ai-mastering": {
+    whatIs: "AI Mastering is an automated audio mastering service that uses artificial intelligence to professionally master audio tracks. Musicians and producers upload their mixed audio and the AI applies mastering processing including equalization, compression, limiting, and loudness normalization to produce release-ready masters. For independent musicians who cannot afford professional mastering engineers, AI Mastering provides automated professional-quality mastering at a fraction of the traditional cost.",
+    features: [
+      "Automated Mastering: AI applies professional mastering processing",
+      "Loudness Normalization: Master to streaming platform standards",
+      "EQ and Compression: Professional frequency and dynamics processing",
+      "Limiting: Transparent limiting for competitive loudness",
+      "Multiple Formats: Output in WAV and MP3 formats",
+      "Reference Track: Master to match a reference song",
+      "Instant Results: Mastered tracks in minutes",
+      "Free Masters: Basic mastering without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Mastering",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Mix", description: "Sign up at aimastering.com and upload your finished mix. The track should be properly mixed before mastering." },
+        { title: "Configure Your Master", description: "Set your target loudness, select a reference track if desired, and configure any specific mastering parameters." },
+        { title: "Download Your Master", description: "The AI processes your track and delivers a professionally mastered version ready for streaming platform distribution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessibility of Mastering", description: "Professional mastering by skilled engineers costs hundreds per track. AI mastering that produces comparable results at minimal cost makes professional-quality releases accessible to independent artists" },
+      { title: "Speed", description: "Traditional mastering turnaround of days is compressed to minutes, enabling faster release schedules" },
+      { title: "Streaming Standards", description: "Automated loudness normalization that meets the standards of Spotify, Apple Music, and other platforms ensures releases sound competitive" },
+      { title: "Reference Matching", description: "Mastering to match a specific reference track ensures the final master sits in the same sonic space as successful releases in your genre" }
+    ],
+    useCases: [
+      { title: "Independent Musicians", description: "Solo artists and bands without label budgets use AI mastering for professional-quality track releases" },
+      { title: "Home Studio Producers", description: "Bedroom producers use AI mastering to finish tracks to a professional standard without mastering engineering knowledge" },
+      { title: "Podcasters and Content Creators", description: "Audio content creators use AI mastering for polished audio output that sounds professional" }
+    ]
+  },
+  "hance-ai": {
+    whatIs: "Hance AI is an AI audio enhancement SDK and platform that provides noise reduction, speech clarity improvement, and audio quality enhancement for applications and devices. It offers developer tools for integrating AI audio enhancement into apps, games, and communication platforms. Hance also provides consumer-facing audio enhancement for improving the quality of recordings and voice communications. For developers building audio-dependent applications and for users wanting better audio quality, Hance AI provides the audio enhancement technology.",
+    features: [
+      "Noise Reduction: AI-powered background noise elimination",
+      "Speech Enhancement: Improve voice clarity in recordings",
+      "SDK Integration: Developer tools for app integration",
+      "Real-Time Processing: Audio enhancement during live communication",
+      "Multiple Platforms: Works across different operating systems",
+      "API Access: Programmatic audio enhancement",
+      "Game Audio: Specific tools for gaming communication",
+      "Free SDK: Basic developer access without payment"
+    ],
+    howToUse: {
+      title: "How to Use Hance Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Integrate the SDK", description: "Sign up at hance.ai and download the SDK for your target platform. Follow the documentation for integration into your application." },
+        { title: "Configure Enhancement", description: "Set up the noise reduction and enhancement parameters appropriate for your use case - voice communication, recording enhancement, or gaming." },
+        { title: "Deploy Your Application", description: "Deploy your application with Hance audio enhancement integrated. Users experience improved audio quality automatically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Developer Integration Focus", description: "AI audio enhancement available as an SDK that developers integrate into their products provides the technology where users actually need it rather than as a separate application" },
+      { title: "Real-Time Capability", description: "Audio enhancement that works in real time during live communication improves the experience of video calls and gaming voice chat" },
+      { title: "Application Value", description: "Apps and games with built-in AI audio enhancement provide better experiences than those that rely on users having good hardware" },
+      { title: "Scalable Technology", description: "SDK-based enhancement that scales with application user base provides audio improvement for many users without individual processing overhead" }
+    ],
+    useCases: [
+      { title: "App Developers", description: "Developers building communication, recording, or gaming applications integrate Hance for built-in audio quality improvement" },
+      { title: "Game Studios", description: "Game developers integrate Hance for better in-game voice communication quality" },
+      { title: "Enterprise Communication Tools", description: "Companies building internal communication tools use Hance for better audio quality in their platforms" }
+    ]
+  },
+  "xound-io": {
+    whatIs: "Xound is an AI audio enhancement and processing platform that improves the quality of audio recordings through intelligent noise reduction, clarity enhancement, and audio restoration. It processes audio files to remove unwanted background noise, improve speech intelligibility, and enhance overall audio quality. For podcasters, content creators, and audio professionals who need to improve recording quality, Xound provides AI-powered audio enhancement.",
+    features: [
+      "Noise Reduction: Remove background noise from recordings",
+      "Speech Clarity: Enhance voice intelligibility in audio",
+      "Audio Restoration: Improve degraded or poor quality recordings",
+      "Batch Processing: Enhance multiple audio files simultaneously",
+      "Multiple Formats: Process common audio file types",
+      "Fast Processing: Quick enhancement results",
+      "Before and After: Compare original and enhanced audio",
+      "Free to Try: Basic enhancement without payment"
+    ],
+    howToUse: {
+      title: "How to Use Xound Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Audio", description: "Sign up at xound.io and upload the audio file you want to enhance." },
+        { title: "Apply Enhancement", description: "Xound processes your audio with AI noise reduction and clarity enhancement. Preview the improved result." },
+        { title: "Download Enhanced Audio", description: "Download your enhanced audio file ready for use in your podcast, video, or other content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Recording Quality Recovery", description: "Recordings made in imperfect environments with background noise are significantly improved by AI enhancement that removes distracting noise" },
+      { title: "Consistency", description: "AI enhancement that applies consistent processing standards produces uniform audio quality across different recording sessions" },
+      { title: "Accessibility", description: "Professional audio enhancement that previously required expensive software and engineering knowledge is accessible to content creators without audio expertise" },
+      { title: "Time Efficiency", description: "Batch processing that enhances many files simultaneously is dramatically faster than manual audio cleaning in traditional editing software" }
+    ],
+    useCases: [
+      { title: "Podcasters", description: "Podcast creators enhance recordings from imperfect environments to achieve professional audio quality" },
+      { title: "Video Creators", description: "YouTube and video producers improve audio quality for better viewer experience" },
+      { title: "Online Meeting Recordings", description: "People who record online meetings use audio enhancement for clearer and more usable recordings" }
+    ]
+  },
+  "drumless": {
+    whatIs: "Drumless is an audio processing tool that removes drum tracks from songs, creating drum-free versions that musicians can use for practice. It uses AI stem separation technology to isolate and remove the percussion elements from any song, allowing musicians to play along with their favorite tracks. For drummers who want to practice along with songs without competing drum tracks, Drumless provides instant drum removal from any audio file.",
+    features: [
+      "Drum Removal: AI stem separation to isolate and remove drums",
+      "Practice Tracks: Create drum-free versions for playing along",
+      "Song Upload: Process any song file",
+      "Quality Separation: Clean removal without affecting other instruments",
+      "Download Result: Save drum-free versions for practice",
+      "Multiple Formats: Accept common audio file formats",
+      "Fast Processing: Quick drum stem removal",
+      "Free to Try: Basic drum removal without payment"
+    ],
+    howToUse: {
+      title: "How to Use Drumless",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Song", description: "Go to drumless.io and upload the song you want to remove drums from." },
+        { title: "Process Drum Removal", description: "The AI separates the drum stems from the rest of the audio and removes them, leaving the rest of the music intact." },
+        { title: "Download and Practice", description: "Download the drum-free version of the song and use it for practice or recording your own drum part over it." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Practice Value", description: "Drummers who practice along with songs improve more effectively when they can hear the rest of the music clearly without a competing drum track" },
+      { title: "Learning Tool", description: "Playing along with real songs rather than metronomes develops musicianship skills that isolated practice cannot provide" },
+      { title: "Recording Applications", description: "Musicians who want to record their own drum parts over existing songs need drum-free versions to layer their performance" },
+      { title: "Song Analysis", description: "Removing drums to hear the other instruments more clearly helps musicians understand song arrangement and composition" }
+    ],
+    useCases: [
+      { title: "Drummers", description: "Drum players use Drumless to create practice tracks from their favorite songs" },
+      { title: "Music Students", description: "Students learning drums use drum-free tracks for practice and lesson material" },
+      { title: "Recording Musicians", description: "Musicians recording drum covers or replacement tracks use Drumless for the base audio they play over" }
+    ]
+  },
+  "overtune": {
+    whatIs: "Overtune is an AI vocal tuning and pitch correction tool that automatically corrects pitch in vocal recordings. It applies real-time and post-recording pitch correction to make vocals sit more accurately in tune while preserving the natural character of the voice. For singers and producers who want accurate pitch correction without the obvious robotic sound of heavy-handed tuning, Overtune provides intelligent vocal correction.",
+    features: [
+      "Pitch Correction: AI automatic vocal pitch tuning",
+      "Natural Sound: Correction that preserves vocal character",
+      "Real-Time Processing: Pitch correction during recording",
+      "Subtle Correction: Options for transparent natural tuning",
+      "Extreme Effect: Heavy correction for stylistic autotune effect",
+      "Multiple Vocal Types: Handles different voice types",
+      "Plugin Format: Available as a DAW plugin",
+      "Free Trial: Try vocal tuning before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Overtune",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Insert on Your Vocal Track", description: "Install Overtune and insert it on your vocal track in your DAW after recording." },
+        { title: "Adjust Correction Strength", description: "Set the correction speed and strength to achieve your desired level of pitch correction from subtle to dramatic." },
+        { title: "Render Your Vocals", description: "Process your vocal track with Overtune and render the corrected vocals for your mix." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Natural Correction", description: "Pitch correction that sounds transparent and natural rather than obvious and robotic maintains the emotional authenticity of vocal performances" },
+      { title: "Workflow Speed", description: "Automatic pitch correction that handles tuning without manual note-by-note editing saves significant post-production time" },
+      { title: "Performance Flexibility", description: "Singers who know pitch correction will be applied can focus on emotional delivery during recording rather than technical accuracy" },
+      { title: "Style Range", description: "Correction from subtle transparency to heavy stylistic autotune effect from one tool covers different musical production approaches" }
+    ],
+    useCases: [
+      { title: "Music Producers", description: "Producers use Overtune for vocal pitch correction in their production workflow" },
+      { title: "Recording Engineers", description: "Studio engineers use pitch correction tools for professional vocal recordings" },
+      { title: "Home Studio Artists", description: "Independent artists use vocal tuning for polished vocal tracks in their home productions" }
+    ]
+  },
+  "ai-drum-generator": {
+    whatIs: "AI Drum Generator is an AI-powered tool that creates original drum patterns, beats, and rhythms from genre or style descriptions. Musicians and producers describe the drum pattern they want and the AI generates appropriate rhythmic patterns that can be exported as MIDI or audio. For producers and beatmakers who need custom drum patterns quickly, AI Drum Generator provides instant rhythm creation across any genre.",
+    features: [
+      "Drum Pattern Generation: Create beats from style descriptions",
+      "Genre Awareness: Patterns appropriate to different musical genres",
+      "MIDI Export: Export patterns for use in DAWs",
+      "Audio Export: Download as ready-to-use audio",
+      "Pattern Variation: Generate multiple variations of patterns",
+      "Tempo Control: Set BPM for generated patterns",
+      "Complexity Settings: Adjust beat complexity and density",
+      "Free to Try: Basic pattern generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Drum Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Beat", description: "Go to the AI Drum Generator and describe the drum pattern you want - genre, feel, tempo, and complexity." },
+        { title: "Generate Your Pattern", description: "The AI creates a drum pattern matching your description. Preview the rhythm and generate variations if needed." },
+        { title: "Export and Use", description: "Export your drum pattern as MIDI for use in your DAW or as audio for direct use in your production." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Beat Starting Points", description: "AI-generated drum patterns that producers modify and build upon provide faster starting points than building patterns from scratch" },
+      { title: "Genre Accuracy", description: "Patterns generated with genre-appropriate rhythmic characteristics sound more authentic than generic beats applied to any style" },
+      { title: "MIDI Flexibility", description: "MIDI export that allows editing individual drum hits gives producers full control over the generated pattern" },
+      { title: "Inspiration Tool", description: "Unexpected patterns generated by AI sometimes produce rhythmic ideas that musicians would not have considered independently" }
+    ],
+    useCases: [
+      { title: "Music Producers", description: "Beatmakers use AI drum generation for quick rhythm starting points across different genres" },
+      { title: "Bedroom Producers", description: "Home studio musicians use AI drum patterns when they lack live drumming capabilities" },
+      { title: "Songwriters", description: "Songwriters use generated drum patterns for demo arrangements to communicate song ideas" }
+    ]
+  },
+  "beatbuzz": {
+    whatIs: "BeatBuzz is an AI music production platform that generates original beats, instrumentals, and backing tracks for musicians and content creators. It provides AI-powered beat generation across different genres including hip-hop, electronic, pop, and more. For artists who need original backing tracks and beats without production skills, BeatBuzz provides accessible AI beat creation.",
+    features: [
+      "Beat Generation: Create original beats from genre descriptions",
+      "Multiple Genres: Hip-hop, electronic, pop, and more styles",
+      "Instrumental Tracks: Full backing track generation",
+      "Customization: Adjust tempo, style, and elements",
+      "Royalty-Free: Generated beats without licensing concerns",
+      "Download Options: Export in audio formats",
+      "Fast Creation: Beats generated quickly",
+      "Free Credits: Try beat generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Beatbuzz",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Style", description: "Sign up at beatbuzz.ai and select the genre and style for your beat." },
+        { title: "Generate Your Beat", description: "BeatBuzz creates an original beat in your chosen style. Preview and adjust parameters for different results." },
+        { title: "Download and Use", description: "Download your beat for use in your music production or content creation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Production Accessibility", description: "Original beat creation that previously required music production skills and equipment is accessible to artists who focus on performance rather than production" },
+      { title: "Royalty-Free Freedom", description: "AI-generated beats without licensing concerns simplify the process of using beats in commercial releases" },
+      { title: "Quick Iteration", description: "Fast beat generation that allows trying many different styles and feels accelerates the music creation process" },
+      { title: "Genre Range", description: "Beat generation across multiple genres from one platform serves artists who work across different musical styles" }
+    ],
+    useCases: [
+      { title: "Rappers and Vocalists", description: "Artists who focus on vocals and lyrics use BeatBuzz for backing tracks without production skills" },
+      { title: "Content Creators", description: "Video and social media creators use AI beats for background music without licensing issues" },
+      { title: "Music Students", description: "Students learning music composition use AI beats as backing tracks for practice and study" }
+    ]
+  },
+  "noteperformer": {
+    whatIs: "NotePerformer is a music notation playback engine that uses AI to interpret and perform sheet music with realistic orchestral and ensemble sound. It connects to notation software like Finale, Sibelius, and Dorico to provide dramatically better playback than standard notation software sounds. NotePerformer reads ahead in the score to interpret musical context and plays notes with appropriate dynamics, articulation, and expression that make notation playback sound like a real performance. For composers and arrangers who need realistic playback of their notation, NotePerformer provides the most musically intelligent playback engine available.",
+    features: [
+      "Intelligent Playback: AI reads ahead to interpret musical context",
+      "Realistic Sound: Orchestral and ensemble sounds that respond to notation",
+      "Notation Software Integration: Works with Finale, Sibelius, and Dorico",
+      "Musical Expression: Automatic dynamics, articulation, and phrasing",
+      "Large Sound Library: Comprehensive orchestral instrument coverage",
+      "Context Awareness: Understands musical phrases not just individual notes",
+      "Easy Setup: Simple installation and configuration",
+      "Trial Version: Try NotePerformer before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Noteperformer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install NotePerformer", description: "Purchase and download NotePerformer from noteperformer.com. Install it and it automatically integrates with your notation software." },
+        { title: "Open Your Score", description: "Open your existing notation file. NotePerformer appears as a playback option in your notation software." },
+        { title: "Play Back Your Score", description: "Play back your score and hear NotePerformer's intelligent interpretation with realistic orchestral sound." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Musical Intelligence", description: "Playback that reads musical context and interprets scores as a musician would rather than mechanically playing individual notes produces dramatically more musical results" },
+      { title: "Composer Communication", description: "Realistic playback that sounds like a real performance helps composers evaluate their work and communicate ideas to performers and collaborators" },
+      { title: "Notation Software Enhancement", description: "Dramatically improving the playback quality of notation software that composers already use rather than requiring a separate workflow is more practical" },
+      { title: "Orchestration Learning", description: "Realistic orchestral playback that reveals how different instrument combinations actually sound helps composers develop orchestration skills" }
+    ],
+    useCases: [
+      { title: "Composers and Arrangers", description: "Classical and film composers use NotePerformer for realistic orchestral playback of their notation scores" },
+      { title: "Music Educators", description: "Teachers use NotePerformer for demonstrating musical scores with realistic sound to students" },
+      { title: "Notation Software Users", description: "Anyone who uses Finale, Sibelius, or Dorico for serious composition benefits from NotePerformer playback quality" }
+    ]
+  },
+  "songcleaner": {
+    whatIs: "SongCleaner is an AI audio processing tool that removes vocals or specific stems from songs to create instrumental or karaoke versions. It uses stem separation technology to isolate different elements of a mixed song and produce clean separated versions. For musicians who want instrumentals for practice, karaoke, or remixing purposes, SongCleaner provides accessible AI stem separation.",
+    features: [
+      "Vocal Removal: Remove vocals to create instrumental versions",
+      "Karaoke Creation: Produce karaoke tracks from any song",
+      "Stem Separation: Isolate individual instrument groups",
+      "Clean Separation: Quality stem splitting without artifacts",
+      "Multiple Formats: Process common audio file types",
+      "Download Results: Save separated stems",
+      "Fast Processing: Quick stem separation",
+      "Free to Try: Basic separation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Songcleaner",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Song", description: "Go to SongCleaner and upload the song you want to process for vocal removal or stem separation." },
+        { title: "Select Your Output", description: "Choose whether you want vocals removed, instrumental only, or specific stem separation." },
+        { title: "Download Your Track", description: "Download the processed version ready for karaoke, practice, or remix use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Karaoke Accessibility", description: "Creating karaoke versions of any song rather than being limited to available karaoke catalog expands sing-along possibilities significantly" },
+      { title: "Practice Tool", description: "Instrumental versions without vocals allow musicians to practice arrangements and backing parts without vocal competition" },
+      { title: "Remix Capability", description: "Separated stems that provide individual instrument groups enable remixers and producers to work with the elements of existing songs" },
+      { title: "Quick Production", description: "Instant stem separation from uploads produces results in minutes that would take hours of manual audio work to achieve" }
+    ],
+    useCases: [
+      { title: "Karaoke Enthusiasts", description: "People who enjoy singing use SongCleaner to create karaoke versions of songs not available in karaoke format" },
+      { title: "Musicians and Instrumentalists", description: "Players use instrumental versions for practice backing tracks" },
+      { title: "Producers and Remixers", description: "Music producers use stem separation for remix and sampling work" }
+    ]
+  },
+  "choplab": {
+    whatIs: "ChopLab is an AI-powered audio chopping and sampling tool that breaks down audio files into usable samples, loops, and chops for music production. It analyzes audio and intelligently identifies the best sample points, creating organized libraries of chops from any audio source. For hip-hop producers and beatmakers who work extensively with samples, ChopLab provides AI-assisted sample creation and organization.",
+    features: [
+      "Audio Chopping: AI-assisted breaking of audio into samples",
+      "Sample Detection: Intelligent identification of good sample points",
+      "Loop Creation: Create seamless loops from audio material",
+      "Sample Organization: Organize chops into production-ready libraries",
+      "Transient Detection: Find rhythmic hit points automatically",
+      "Export Options: Save samples in standard audio formats",
+      "BPM Detection: Automatic tempo detection for accurate chopping",
+      "Free to Try: Basic chopping without payment"
+    ],
+    howToUse: {
+      title: "How to Use Choplab",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Audio", description: "Sign up at choplab.io and upload the audio you want to chop into samples." },
+        { title: "Review Detected Chops", description: "ChopLab analyzes your audio and suggests optimal chop points. Review and adjust the suggested sample regions." },
+        { title: "Export Your Samples", description: "Export your chops as individual samples organized for use in your sampler or DAW." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sample Discovery", description: "AI analysis that identifies interesting sample regions within longer recordings finds usable moments that manual listening might miss" },
+      { title: "Production Speed", description: "Automatic chop point detection that handles the initial sample identification is faster than manual listening and marking" },
+      { title: "Organized Output", description: "Samples organized and exported systematically rather than manually creates a usable library rather than a chaotic collection of clips" },
+      { title: "Creative Starting Points", description: "Chops from unexpected sources that AI identifies as interesting often lead to creative sample-based productions that artists would not have created otherwise" }
+    ],
+    useCases: [
+      { title: "Hip-Hop Producers", description: "Beatmakers who work with samples use ChopLab for efficient audio chopping and sample creation" },
+      { title: "Electronic Music Producers", description: "Producers who build tracks from samples use ChopLab for organized sample libraries from various audio sources" },
+      { title: "Sampling Artists", description: "Musicians who create sample-based music use ChopLab to efficiently process source material into usable production elements" }
+    ]
+  },
   "aesthetic-wallpaper": {
     whatIs: "Aesthetic Wallpaper AI is an AI wallpaper generator that creates beautiful aesthetic wallpapers in trendy styles including minimalist, cottagecore, dark academia, Y2K, and other popular aesthetics. It generates high-resolution wallpapers that match specific aesthetic vibes for phone and desktop customization. For people who want wallpapers that perfectly match their personal aesthetic style, Aesthetic Wallpaper AI provides on-demand generation in any aesthetic direction.",
     features: [
