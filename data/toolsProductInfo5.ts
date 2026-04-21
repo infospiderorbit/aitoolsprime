@@ -1,4 +1,499 @@
 export const toolsProductInfo5: { [key: string]: any } = {
+  "deepany-ai": {
+    whatIs: "DeepAny.AI is an AI image generation and editing platform that provides text-to-image generation, image editing, and various AI creative tools. It offers multiple AI models for different generation styles and use cases, making it a versatile platform for creating and modifying visual content. For creators who want access to multiple AI image capabilities in one place, DeepAny.AI provides a comprehensive AI visual creation toolkit.",
+    features: [
+      "Text to Image: Generate images from detailed text descriptions",
+      "Multiple AI Models: Different models for different visual styles",
+      "Image Editing: AI-powered editing and modification tools",
+      "Style Variety: Realistic, artistic, and illustrated generation options",
+      "High Resolution: Quality output suitable for professional use",
+      "Fast Generation: Quick results across different models",
+      "Creative Tools: Additional tools for visual content creation",
+      "Free Credits: Try generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Deepany Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Description", description: "Sign up at deepany.ai and enter a detailed description of the image you want to create. Include style, subject, lighting, and mood details." },
+        { title: "Select Your Model", description: "Choose the AI model that best matches your desired output style. Different models produce distinctly different visual results." },
+        { title: "Generate and Refine", description: "Generate your image and review the result. Adjust your prompt and model selection to get closer to your vision." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Model Variety Value", description: "Different AI generation models have different aesthetic tendencies and strengths. Access to multiple models from one platform allows selecting the best tool for each creative project" },
+      { title: "Creative Flexibility", description: "A platform that covers generation, editing, and creative tools provides more complete creative workflow support than single-function tools" },
+      { title: "Quality Range", description: "Different quality tiers for different use cases let users balance generation speed and quality for their specific needs" },
+      { title: "Exploration Opportunity", description: "Multiple models and tools in one place make it practical to explore different approaches to the same creative challenge" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Digital creators use DeepAny.AI for AI-generated images across their content platforms" },
+      { title: "Designers", description: "Design professionals use the platform for quick concept generation and visual ideation" },
+      { title: "AI Art Enthusiasts", description: "People exploring AI creative capabilities use DeepAny.AI for access to multiple generation models" }
+    ]
+  },
+  "pixel-art-ai": {
+    whatIs: "Pixel Art AI is a specialized AI tool that generates pixel art images from text descriptions or converts regular images into pixel art style. It creates game-ready pixel art assets, character sprites, and decorative pixel artwork using AI trained specifically on pixel art aesthetics. For game developers, retro art enthusiasts, and creators who want pixel art content without manual pixel-by-pixel creation, Pixel Art AI provides accessible AI-powered pixel art generation.",
+    features: [
+      "Pixel Art Generation: Create pixel art from text descriptions",
+      "Image to Pixel Art: Convert photos into pixel art style",
+      "Game Asset Creation: Generate sprites and game-ready pixel assets",
+      "Character Sprites: Create pixel art characters and animations",
+      "Retro Style: Authentic pixel art aesthetics",
+      "Custom Resolution: Different pixel densities for different uses",
+      "Color Palette Control: Classic and custom color palette options",
+      "Free to Try: Basic pixel art generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Pixel Art Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Pixel Art", description: "Go to the Pixel Art AI platform and describe the pixel art you want to create - character, item, scene, or pattern." },
+        { title: "Set Your Parameters", description: "Select pixel resolution, color palette, and style options to match your intended use and aesthetic preferences." },
+        { title: "Generate and Export", description: "Generate your pixel art and export it in formats suitable for game engines or graphic design use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Skill Accessibility", description: "Creating pixel art manually requires patience and specific artistic skills. AI generation makes pixel art creation accessible to people without these specific skills" },
+      { title: "Game Development Speed", description: "Indie game developers who need many pixel art assets use AI generation to produce sprites and tiles faster than manual creation" },
+      { title: "Retro Aesthetic Appeal", description: "Pixel art has genuine aesthetic appeal beyond nostalgia. AI that generates authentic pixel art serves creators who want this specific look" },
+      { title: "Asset Volume", description: "Games that need many different assets across characters, items, and environments benefit from AI generation that can produce this volume efficiently" }
+    ],
+    useCases: [
+      { title: "Indie Game Developers", description: "Game makers use Pixel Art AI for sprites, tiles, and other game assets without manual pixel creation" },
+      { title: "Retro Art Enthusiasts", description: "People who appreciate pixel art aesthetics use the tool for creating pixel art images and designs" },
+      { title: "Content Creators", description: "Streamers and content creators use pixel art for channel branding and overlay graphics" }
+    ]
+  },
+  "pixelfox-ai": {
+    whatIs: "Pixelfox AI is an AI image generation and creative platform that provides text-to-image generation with various artistic styles and creative tools. It offers accessible AI art creation with a focus on quality output and creative exploration. For users who want to create AI-generated artwork and explore different visual styles, Pixelfox AI provides a creative generation environment.",
+    features: [
+      "AI Image Generation: Create images from text descriptions",
+      "Style Options: Multiple artistic styles and aesthetics",
+      "Creative Exploration: Tools for exploring different visual directions",
+      "Quality Output: High-resolution generation results",
+      "Fast Processing: Quick generation turnaround",
+      "User-Friendly: Accessible interface for all skill levels",
+      "Download Options: Save generated images in standard formats",
+      "Free Credits: Generate images with free starting credits"
+    ],
+    howToUse: {
+      title: "How to Use Pixelfox Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Sign up at pixelfox.ai and enter a description of the image you want to create. Be specific about style and content for better results." },
+        { title: "Select Your Style", description: "Choose from available style options to guide the aesthetic direction of your generation." },
+        { title: "Generate and Download", description: "Generate your image and download the result for your creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Accessibility", description: "AI image generation that does not require artistic skills makes visual content creation accessible to anyone with a creative vision" },
+      { title: "Style Exploration", description: "Trying different artistic styles on the same concept quickly reveals which aesthetic direction works best" },
+      { title: "Content Production", description: "Regular content creators who need original images benefit from fast generation that produces usable results" },
+      { title: "Visual Ideation", description: "Using AI generation for rapid visual ideation produces more reference options than manual sketching in the same time" }
+    ],
+    useCases: [
+      { title: "Creative Enthusiasts", description: "People interested in AI art use Pixelfox AI for exploring different generation styles and creating artwork" },
+      { title: "Content Creators", description: "Bloggers and social media creators use AI generation for unique visual content" },
+      { title: "Hobbyist Artists", description: "People who enjoy creative exploration use Pixelfox AI for AI-assisted artwork creation" }
+    ]
+  },
+  "sih-ai": {
+    whatIs: "Sih.AI is an AI image processing and enhancement platform that provides tools for improving image quality, removing backgrounds, and enhancing photos using artificial intelligence. It offers multiple AI-powered image processing capabilities in one platform for users who need professional image treatment without desktop editing software.",
+    features: [
+      "Image Enhancement: AI-powered photo quality improvement",
+      "Background Removal: Clean subject isolation from backgrounds",
+      "Photo Restoration: Repair and improve degraded photos",
+      "Upscaling: Enlarge images without quality loss",
+      "Noise Reduction: Clean up grainy or noisy images",
+      "Multiple Tools: Various AI image processing capabilities",
+      "Web-Based: No software download required",
+      "Free to Try: Basic processing without payment"
+    ],
+    howToUse: {
+      title: "How to Use Sih Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to sih.ai and upload the image you want to process. Select the appropriate enhancement tool for your need." },
+        { title: "Apply Processing", description: "The AI processes your image with the selected enhancement. Preview the result before downloading." },
+        { title: "Download Result", description: "Download your processed image ready for use in your projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Convenience", description: "Multiple image processing tools in one web-based platform eliminate the need for multiple specialized tools or desktop software" },
+      { title: "Accessibility", description: "Professional image processing results without editing software expertise make image improvement accessible to all users" },
+      { title: "Speed", description: "AI processing that produces results quickly makes image enhancement practical for high-volume or time-sensitive needs" },
+      { title: "Quality", description: "AI-powered processing that produces professional-quality results from any starting image improves the usability of imperfect original photos" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Creators use AI image processing for improving photos used in their content" },
+      { title: "Small Business Owners", description: "Business owners improve product and marketing photos without photo editing expertise" },
+      { title: "General Users", description: "Anyone who needs to improve image quality uses Sih.AI for accessible professional enhancement" }
+    ]
+  },
+  "open-knowledge-maps": {
+    whatIs: "Open Knowledge Maps is a free visual interface for exploring scientific knowledge that creates graphical maps of research areas from search queries. It displays clusters of related papers as a visual landscape that helps researchers navigate large bodies of literature and discover relevant work they might not find through traditional search. For researchers who want to quickly understand the landscape of a research area and find the most relevant papers, Open Knowledge Maps provides a unique visual approach to literature discovery.",
+    features: [
+      "Visual Knowledge Maps: See research areas as interactive visual landscapes",
+      "Cluster Discovery: Find groups of related papers automatically",
+      "Instant Overview: Understand a research field at a glance",
+      "Paper Discovery: Find relevant papers through visual exploration",
+      "Free Service: Full access without payment",
+      "Multiple Databases: Search across different academic sources",
+      "Open Source: Transparent and community-supported platform",
+      "Download Maps: Save and share knowledge maps"
+    ],
+    howToUse: {
+      title: "How to Use Open Knowledge Maps",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Research Topic", description: "Go to openknowledgemaps.org and enter your research topic or keywords. The system generates a visual map of the research landscape." },
+        { title: "Explore the Map", description: "Navigate the visual knowledge map. Click on clusters to see the papers they contain and explore which areas of research are most relevant to you." },
+        { title: "Discover Papers", description: "Find papers through visual exploration that keyword search might not surface. Use the map to identify the most important clusters and papers in your area." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Orientation", description: "Understanding how a research area is structured is difficult from a linear list of search results. A visual map that shows clusters and relationships provides spatial understanding of the field" },
+      { title: "Discovery Beyond Search", description: "Papers that are topically relevant but use different terminology than your search terms are revealed through cluster-based exploration" },
+      { title: "Free Research Tool", description: "Academic researchers who need powerful literature tools but have limited tool budgets benefit from a completely free platform with genuine capabilities" },
+      { title: "Quick Orientation", description: "Researchers entering a new field use visual maps to quickly understand the major research clusters before diving into individual papers" }
+    ],
+    useCases: [
+      { title: "Academic Researchers", description: "University researchers use Open Knowledge Maps to navigate literature in their field and adjacent areas" },
+      { title: "Graduate Students", description: "Students entering new research areas use visual maps for quick orientation to the research landscape" },
+      { title: "Interdisciplinary Researchers", description: "Researchers who cross disciplinary boundaries use visual maps to understand unfamiliar fields quickly" }
+    ]
+  },
+  "conceptmap-ai": {
+    whatIs: "ConceptMap AI is an AI-powered concept mapping and knowledge visualization tool that helps students, educators, and researchers create visual representations of ideas and their relationships. It uses AI to suggest connections between concepts, help structure complex information, and generate concept map content from text input. For learners and educators who want to organize and understand complex information through visual mapping, ConceptMap AI provides AI-assisted knowledge structuring.",
+    features: [
+      "AI Concept Mapping: Create visual knowledge maps with AI assistance",
+      "Relationship Suggestion: AI identifies connections between concepts",
+      "Text to Map: Generate concept maps from written content",
+      "Collaborative Mapping: Multiple users building maps together",
+      "Export Options: Save maps in various formats for different uses",
+      "Template Library: Starting templates for different knowledge domains",
+      "Educational Focus: Tools designed for learning and teaching",
+      "Free Plan: Basic mapping without payment"
+    ],
+    howToUse: {
+      title: "How to Use Conceptmap Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Topic or Text", description: "Sign up at conceptmap.ai and enter your topic or paste text you want to map. The AI generates initial concept structure." },
+        { title: "Review and Expand", description: "Review the AI-generated map and add, remove, or modify concepts and relationships to better represent your understanding." },
+        { title: "Share and Use", description: "Export your concept map for use in presentations, study materials, or knowledge documentation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Learning Support", description: "Concept maps that show relationships between ideas support visual learners who understand information better through spatial representation than linear text" },
+      { title: "AI Assistance Value", description: "Generating relationship suggestions and initial map structures from text input reduces the blank-page problem in knowledge mapping" },
+      { title: "Study Effectiveness", description: "Research consistently shows that concept mapping improves learning retention compared to passive reading. AI that makes mapping faster encourages this effective study approach" },
+      { title: "Knowledge Documentation", description: "Teams and researchers use concept maps to document complex domain knowledge in formats that are easier to navigate than text documents" }
+    ],
+    useCases: [
+      { title: "Students", description: "Learners at all levels use ConceptMap AI for study tools that improve comprehension and retention" },
+      { title: "Educators", description: "Teachers use concept mapping for curriculum planning and student learning activities" },
+      { title: "Knowledge Workers", description: "Professionals use concept maps for organizing and communicating complex information in their work" }
+    ]
+  },
+  "ultimaps": {
+    whatIs: "Ultimaps is an AI-powered mind mapping and visual thinking platform that helps users organize ideas, plan projects, and structure knowledge through interactive visual maps. It provides intuitive tools for creating branching idea trees, with AI features that suggest related concepts and help expand thinking. For individuals and teams who think visually and need tools to organize complex information, Ultimaps provides the visual thinking environment that makes idea organization engaging and productive.",
+    features: [
+      "Mind Mapping: Create visual idea organization maps",
+      "AI Suggestions: Get AI-powered concept and branch suggestions",
+      "Collaboration: Multiple users working on shared maps",
+      "Project Planning: Use maps for project and task organization",
+      "Presentation Mode: Present your maps as visual walkthroughs",
+      "Template Library: Starting templates for common mapping needs",
+      "Export Options: Download maps in multiple formats",
+      "Free Plan: Basic mind mapping without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ultimaps",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Central Idea", description: "Sign up at ultimaps.io and create a new map with your central topic or project as the starting point." },
+        { title: "Branch and Expand", description: "Add branches for main subtopics and let AI suggest related ideas you might not have considered. Develop each branch with detail." },
+        { title: "Use and Share", description: "Use your completed map for planning, studying, or presenting. Share with collaborators or export for documentation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Thinking Support", description: "Some people think more effectively when ideas are arranged spatially rather than in linear lists. Mind mapping tools that support this cognitive style improve thinking quality" },
+      { title: "AI Expansion", description: "AI that suggests related concepts and ideas helps users think beyond their initial perspective, leading to more comprehensive maps" },
+      { title: "Collaboration Value", description: "Teams that think together using shared visual maps reach better solutions than those who work individually and then try to align" },
+      { title: "Versatility", description: "Mind maps that work for brainstorming, planning, studying, and presenting provide a single visual tool for multiple cognitive tasks" }
+    ],
+    useCases: [
+      { title: "Students and Learners", description: "Students use Ultimaps for note organization, study planning, and exam preparation through visual mapping" },
+      { title: "Project Managers", description: "Project professionals use mind mapping for project planning and team alignment" },
+      { title: "Creative Professionals", description: "Creators use visual mind mapping for brainstorming and idea development" }
+    ]
+  },
+  "mapsgpt": {
+    whatIs: "MapsGPT is an AI-powered map creation tool that generates custom maps from natural language descriptions. Users describe the map they want - a travel itinerary, a list of locations, a route between points - and MapsGPT creates an interactive map displaying those locations. For travelers, event planners, and anyone who needs to visualize locations without GIS expertise, MapsGPT provides AI-powered map creation from simple descriptions.",
+    features: [
+      "Natural Language Maps: Create maps from text descriptions",
+      "Location Plotting: AI identifies and plots described locations",
+      "Travel Itineraries: Map multi-stop travel routes from descriptions",
+      "Custom Markers: Different marker types for different location categories",
+      "Shareable Maps: Share created maps via link",
+      "Interactive Display: Click markers for location information",
+      "Multiple Location Types: Restaurants, attractions, addresses, and more",
+      "Free to Use: Basic map creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Mapsgpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Map", description: "Go to mapsgpt.com and describe the map you want to create. Include location names, city context, and any routing or organization preferences." },
+        { title: "Review Generated Map", description: "MapsGPT generates an interactive map with your described locations plotted. Review the placement and accuracy of each location." },
+        { title: "Share and Use", description: "Share your map via the generated link. Use it for trip planning, event coordination, or any location-based communication." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Natural Language Accessibility", description: "Creating maps through GIS tools requires technical knowledge that most people lack. Natural language map creation that anyone can use democratizes custom mapping" },
+      { title: "Itinerary Visualization", description: "Travel plans described in text are hard to share and understand spatially. Maps that visualize the full itinerary make travel planning more concrete" },
+      { title: "Quick Creation", description: "Generating a useful map in seconds from a description is dramatically faster than manually adding locations through traditional mapping interfaces" },
+      { title: "Sharing Simplicity", description: "Maps created from descriptions that can be shared via link are more practical than map files that require specific software to view" }
+    ],
+    useCases: [
+      { title: "Travelers and Trip Planners", description: "People planning trips use MapsGPT to visualize their itineraries and share them with travel companions" },
+      { title: "Event Organizers", description: "Event planners use AI map creation for venue directions and multi-location event coordination" },
+      { title: "Local Guides", description: "People sharing local recommendations use MapsGPT to create shareable maps of their favorite places" }
+    ]
+  },
+  "artbreeder": {
+    whatIs: "Artbreeder is a collaborative AI art platform that allows users to create and evolve images by blending existing images together and adjusting visual characteristics through sliders. It uses generative adversarial networks to create portraits, landscapes, anime characters, and other image types that can be infinitely varied through parameter adjustment. The platform has a large community of users who share their creations, which can then be used as starting points by others. For creative explorers who enjoy iterative visual experimentation, Artbreeder provides a unique collaborative AI art experience.",
+    features: [
+      "Image Breeding: Blend multiple images to create new combinations",
+      "Slider Controls: Adjust visual characteristics through intuitive sliders",
+      "Portrait Generation: Create diverse human faces and characters",
+      "Landscape Creation: Generate and blend landscape imagery",
+      "Anime Characters: Create anime-style character variations",
+      "Community Gallery: Browse and use community-created images as starting points",
+      "Collaborative Evolution: Build on others creations with attribution",
+      "Free Plan: Basic image creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Artbreeder",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Gallery", description: "Sign up at artbreeder.com and explore the community gallery. Find images in styles or subjects that interest you as starting points." },
+        { title: "Blend and Adjust", description: "Select images to blend together and adjust the sliders to shift visual characteristics. Watch your image evolve in real time as you adjust." },
+        { title: "Share Your Creations", description: "Save your creations to the Artbreeder community gallery. Your images can then be used as starting points by other creators." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Iterative Exploration", description: "Image evolution through blending and sliders creates an exploration experience fundamentally different from prompt-based generation. The iterative approach reveals unexpected creative directions" },
+      { title: "Community Collaboration", description: "Building on community-created images creates a genuinely collaborative creative ecosystem where each creator contributes to the creative resource pool" },
+      { title: "No Prompt Required", description: "Visual adjustment through sliders rather than text descriptions serves creative users who think visually rather than verbally" },
+      { title: "Unique Aesthetic", description: "The GAN-based generation and blending produces a distinctive aesthetic that differs from diffusion model outputs, giving Artbreeder a unique visual identity" }
+    ],
+    useCases: [
+      { title: "Visual Artists and Designers", description: "Artists use Artbreeder for creative exploration and generating visual inspiration through iterative blending" },
+      { title: "Character Designers", description: "Game and animation creators use portrait and character generation for character concept exploration" },
+      { title: "Creative Experimenters", description: "People who enjoy visual experimentation use Artbreeder for the unique iterative creation experience" }
+    ]
+  },
+  "retouchai": {
+    whatIs: "RetouchAI is an AI-powered photo retouching and beauty enhancement platform that automatically improves portrait photos. It applies skin smoothing, blemish removal, eye enhancement, teeth whitening, and other beauty retouching effects that traditionally require significant Photoshop expertise. For photographers and individuals who want professional-looking portrait retouching without manual editing skills, RetouchAI provides automated beauty enhancement that produces polished portrait results.",
+    features: [
+      "Skin Smoothing: AI-powered skin texture improvement and smoothing",
+      "Blemish Removal: Automatic spot and blemish correction",
+      "Eye Enhancement: Brighten and sharpen eye detail",
+      "Teeth Whitening: Natural-looking teeth brightness improvement",
+      "Portrait Optimization: Overall portrait quality enhancement",
+      "Realistic Results: Enhancement that looks natural not over-processed",
+      "Batch Processing: Retouch many portraits simultaneously",
+      "Free to Try: Basic retouching without payment"
+    ],
+    howToUse: {
+      title: "How to Use Retouchai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Portrait", description: "Sign up at retouchai.com and upload the portrait photo you want to retouch. The tool works best with clear front-facing portraits." },
+        { title: "Apply Retouching", description: "The AI automatically applies beauty retouching to your portrait. Review the enhancement level and adjust if options are available." },
+        { title: "Download Enhanced Portrait", description: "Download your retouched portrait. The enhanced version maintains natural-looking results while improving overall portrait quality." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Expertise Democratization", description: "Professional portrait retouching that requires significant Photoshare expertise is automated by AI that produces comparable results without manual skill" },
+      { title: "Speed for Volume", description: "Photographers who shoot large numbers of portraits cannot manually retouch every image. Batch AI retouching that handles volume makes comprehensive retouching practical" },
+      { title: "Natural Results", description: "Over-processed retouching that makes subjects look plastic and artificial is less desirable than subtle enhancement. AI calibrated for natural-looking results produces better portrait outcomes" },
+      { title: "Confidence Impact", description: "People who want their portrait photos to look their best use retouching to present themselves in the best light for professional and personal use" }
+    ],
+    useCases: [
+      { title: "Portrait Photographers", description: "Photography professionals use RetouchAI for efficient batch retouching of portrait sessions" },
+      { title: "Individuals for Professional Profiles", description: "People who need polished profile photos for LinkedIn and professional purposes use RetouchAI for affordable portrait enhancement" },
+      { title: "Social Media Users", description: "People who share portraits on social media use beauty retouching for more polished looking photos" }
+    ]
+  },
+  "vizcom": {
+    whatIs: "Vizcom is an AI design tool for industrial designers and product designers that transforms hand-drawn sketches into photorealistic product renderings instantly. Designers draw rough product concepts by hand or digitally and Vizcom renders them into professional product visualizations in seconds. This dramatically speeds up the concept exploration phase of product design by eliminating the time gap between sketching and seeing realistic results. For product designers who want to quickly communicate design concepts visually, Vizcom bridges the sketch-to-render gap.",
+    features: [
+      "Sketch to Render: Transform hand-drawn sketches into photorealistic product images",
+      "Real-Time Rendering: See renderings as you sketch",
+      "Multiple Styles: Different rendering aesthetics for different presentations",
+      "Material Application: Apply different materials and finishes to designs",
+      "Design Iteration: Quickly explore multiple design directions",
+      "Professional Output: High-quality renders for presentations",
+      "Multiple Inputs: Works with hand-drawn, tablet, and digital sketches",
+      "Free Trial: Try rendering before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Vizcom",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Draw Your Concept", description: "Sign up at vizcom.ai and draw your product concept sketch using the built-in drawing tools or upload an existing sketch." },
+        { title: "Generate Your Rendering", description: "Vizcom renders your sketch into a photorealistic product visualization. Review the result and adjust your sketch for different outcomes." },
+        { title: "Present and Iterate", description: "Use the generated rendering for client or team presentations. Iterate quickly by modifying your sketch and regenerating." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Concept Communication Speed", description: "Getting from sketch to realistic render traditionally takes hours of 3D modeling work. Sketch-to-render AI that takes seconds dramatically accelerates design communication" },
+      { title: "Design Iteration Rate", description: "Designers who can see realistic results instantly explore more concepts before committing to a direction, leading to better final designs" },
+      { title: "Sketch Preservation", description: "Keeping the sketching workflow that designers find natural while adding rendering quality combines the speed of sketching with the communication clarity of rendered visuals" },
+      { title: "Client Communication", description: "Clients who cannot interpret rough sketches understand design intent immediately when they see photorealistic renderings, improving design feedback quality" }
+    ],
+    useCases: [
+      { title: "Industrial Designers", description: "Product designers use Vizcom for rapid concept rendering during design exploration phases" },
+      { title: "Design Students", description: "Industrial design students use AI rendering to create professional-quality portfolio presentations" },
+      { title: "Design Consultancies", description: "Design firms use Vizcom for faster concept development and client presentations" }
+    ]
+  },
+  "zmo-ai": {
+    whatIs: "ZMO.AI is an AI image generation and editing platform focused on fashion, product, and portrait photography use cases. It provides AI tools for virtual try-on, background replacement, model generation, and product photo enhancement specifically designed for fashion and e-commerce applications. For fashion brands and e-commerce businesses that need professional visual content, ZMO.AI provides purpose-built AI tools that understand fashion and product photography requirements.",
+    features: [
+      "AI Model Generation: Create diverse AI fashion models for product photos",
+      "Virtual Try-On: Show clothing on AI models without physical photoshoots",
+      "Background Replacement: Professional backgrounds for fashion photos",
+      "Product Enhancement: Improve fashion and product photo quality",
+      "Diverse Models: Generate models of different ethnicities and body types",
+      "Commercial License: Content cleared for commercial use",
+      "Batch Processing: Handle large product catalogs efficiently",
+      "Free Credits: Try fashion AI tools before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Zmo Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Product", description: "Sign up at zmo.ai and upload your clothing or product photos. The platform accepts standard product photography as input." },
+        { title: "Configure Your Output", description: "Select the model type, background, and style for your generated fashion photos. Choose diversity options for inclusive product imagery." },
+        { title: "Generate and Download", description: "ZMO.AI generates professional fashion product photos. Download for use in your e-commerce listings and marketing materials." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Fashion Photography Cost", description: "Professional fashion photography with diverse models costs significantly per session. AI model generation that places products on diverse AI models dramatically reduces this cost" },
+      { title: "Diversity and Inclusion", description: "Showing products on diverse models of different ethnicities and body types makes brands more inclusive and helps all customers see themselves wearing the product" },
+      { title: "Speed to Market", description: "Getting products photographed and listed quickly gives businesses competitive advantage. AI photography that takes hours instead of days speeds time to market" },
+      { title: "Catalog Scale", description: "Fashion brands with large product catalogs cannot afford individual photo sessions for every item. AI photography that handles catalog volume makes comprehensive product imagery practical" }
+    ],
+    useCases: [
+      { title: "Fashion Brands and Retailers", description: "Clothing companies use ZMO.AI for professional product photography across their catalog" },
+      { title: "E-commerce Fashion Sellers", description: "Online fashion sellers use AI model photography for marketplace listings" },
+      { title: "Fashion Startups", description: "New fashion brands use ZMO.AI for professional product imagery without established photography resources" }
+    ]
+  },
+  "rendair": {
+    whatIs: "Rendair is an AI interior design rendering platform that transforms rough interior design sketches and floor plans into photorealistic room visualizations. Interior designers input their design concepts and Rendair generates professional-quality renderings that show how the finished space will look. This gives designers and clients a realistic preview of interior design projects before any physical work begins. For interior designers who want to show clients realistic space visualizations quickly, Rendair accelerates the design presentation process.",
+    features: [
+      "Sketch to Render: Convert design sketches into photorealistic interiors",
+      "Floor Plan Rendering: Generate 3D views from floor plan inputs",
+      "Material Visualization: Show different material and finish options",
+      "Lighting Simulation: Realistic lighting in generated renderings",
+      "Multiple Style Options: Different interior design aesthetics",
+      "Fast Turnaround: Renderings in minutes not days",
+      "Client Presentation: Professional quality output for client presentations",
+      "Free Trial: Try rendering before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Rendair",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Design", description: "Sign up at rendair.ai and upload your interior design sketch, floor plan, or concept images as starting points for rendering." },
+        { title: "Configure Your Rendering", description: "Select the design style, materials, lighting conditions, and other parameters for your rendering." },
+        { title: "Generate and Present", description: "Rendair generates photorealistic renderings of your interior design. Use them directly in client presentations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Client Communication", description: "Clients who cannot interpret technical drawings understand design intent immediately from photorealistic renderings, improving approval processes" },
+      { title: "Speed vs Traditional Rendering", description: "Traditional photorealistic interior rendering requires hours of 3D modeling and rendering time. AI that produces comparable results in minutes transforms the design presentation workflow" },
+      { title: "Design Iteration", description: "Quickly generating different material and style options shows clients alternatives without the time investment of manual rendering changes" },
+      { title: "Accessible Quality", description: "Professional rendering quality that previously required expensive 3D software and skills is accessible to all interior designers through AI rendering tools" }
+    ],
+    useCases: [
+      { title: "Interior Designers", description: "Design professionals use Rendair for client presentation renderings that communicate design concepts clearly" },
+      { title: "Architecture Students", description: "Design students use AI rendering for portfolio-quality project presentations" },
+      { title: "Home Renovation Consultants", description: "Renovation advisors use interior rendering to help clients visualize proposed changes before committing" }
+    ]
+  },
+  "try9-ai": {
+    whatIs: "Try9.ai is an AI virtual try-on platform that allows shoppers to see how clothing items will look on their body before purchasing. Using a photo of themselves, users can virtually try on garments from supported retailer catalogs to see realistic simulations of fit, drape, and appearance. This reduces the uncertainty of online clothing purchases and helps shoppers make more confident decisions. For online clothing shoppers who want to reduce purchase regret, Try9.ai provides the virtual fitting room experience.",
+    features: [
+      "Virtual Try-On: See clothes on your photo before buying",
+      "Realistic Simulation: AI accurately shows garment fit and drape",
+      "Multiple Items: Try different pieces and combinations",
+      "Size Visualization: Understand how different sizes look on your body",
+      "Fashion Discovery: Explore styles virtually before purchase",
+      "Quick Preview: Fast generation of try-on results",
+      "Mobile Friendly: Works on mobile devices",
+      "Free to Try: Basic virtual try-on without payment"
+    ],
+    howToUse: {
+      title: "How to Use Try9 Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Sign up at try9.ai and upload a clear full-body or upper-body photo of yourself for virtual try-on." },
+        { title: "Select Your Clothing", description: "Browse the available clothing catalog and select items you want to try on virtually. The AI renders them on your photo." },
+        { title: "Make Your Decision", description: "Use the virtual try-on results to decide which items to purchase. The realistic simulation helps identify what will actually look good on your body." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Purchase Confidence", description: "Seeing clothes on your specific body rather than a model of different proportions provides more accurate expectations about how garments will actually look" },
+      { title: "Return Reduction", description: "Online clothing purchases returned because they look different in person than expected waste time and money. Virtual try-on that gives realistic previews reduces these mismatched expectations" },
+      { title: "Size Decision", description: "Choosing between sizes when shopping online is difficult without trying items on. Virtual try-on in different sizes helps make the right size selection" },
+      { title: "Style Exploration", description: "Virtually trying styles you might not normally consider costs nothing and opens discovery of new fashion directions" }
+    ],
+    useCases: [
+      { title: "Online Clothing Shoppers", description: "Fashion consumers use Try9.ai for more confident online clothing purchases" },
+      { title: "Size-Uncertain Shoppers", description: "People who are between sizes or unsure how items will fit use virtual try-on for better size decisions" },
+      { title: "Fashion Explorers", description: "Style-curious shoppers use virtual try-on to experiment with different fashion directions risk-free" }
+    ]
+  },
+  "dropbox-sign": {
+    whatIs: "Dropbox Sign is an electronic signature platform that allows users to send, sign, and manage documents digitally. It provides legally binding e-signatures, document templates, signature workflows, and API integration for businesses that need to manage document signing at scale. Previously known as HelloSign, the platform offers one of the most established and trusted electronic signature experiences for both individual and business use. For businesses and professionals who need to collect signatures on contracts, agreements, and forms digitally, Dropbox Sign provides reliable e-signature infrastructure.",
+    features: [
+      "Electronic Signatures: Collect legally binding digital signatures",
+      "Document Templates: Reusable templates for frequently signed documents",
+      "Signature Workflows: Multi-party signing sequences",
+      "Audit Trail: Complete signing history for legal compliance",
+      "API Integration: Integrate signing into your applications",
+      "Mobile Signing: Sign documents from any device",
+      "Team Management: Manage signing across your organization",
+      "Free Plan: Basic signing without payment"
+    ],
+    howToUse: {
+      title: "How to Use Dropbox Sign",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Document", description: "Sign up at sign.dropbox.com and upload the document that needs signatures. Add signature fields where signers need to sign." },
+        { title: "Send for Signature", description: "Enter signer email addresses and send the document. Signers receive an email with a link to sign electronically from any device." },
+        { title: "Track and Complete", description: "Monitor signing progress through your dashboard. Receive notification when all parties have signed and download the completed document." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Legal Validity", description: "Electronic signatures that meet e-signature law requirements produce legally binding agreements equivalent to handwritten signatures" },
+      { title: "Speed vs Paper", description: "Document signing that previously required printing, signing, scanning, and emailing takes minutes digitally rather than days of back-and-forth" },
+      { title: "Remote Accessibility", description: "Signers who are not physically present can sign from anywhere on any device, removing geographical friction from agreement execution" },
+      { title: "Audit Trail Value", description: "Complete signing history that records who signed, when, and from where provides the audit trail that legal and compliance requirements demand" }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Business owners use Dropbox Sign for contracts, agreements, and other documents that need client signatures" },
+      { title: "HR Teams", description: "Human resources departments use e-signatures for employment contracts, onboarding forms, and policy acknowledgments" },
+      { title: "Legal Professionals", description: "Lawyers and legal staff use electronic signature platforms for client document execution" }
+    ]
+  },
   "imagefusion": {
     whatIs: "ImageFusion is an AI image blending and compositing tool that combines multiple images into seamless composite creations. It uses AI to intelligently merge photos, blend subjects from different images, and create composite artwork that looks naturally unified rather than obviously stitched together. For digital artists, photographers, and content creators who create composite images, ImageFusion provides AI-powered blending that produces more natural results than manual compositing.",
     features: [
