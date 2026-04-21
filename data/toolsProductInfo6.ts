@@ -1,4 +1,103 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "ager-fun": {
+    whatIs: "Ager.fun is a fun AI age transformation app that shows what you or anyone else will look like at different ages. Upload a photo and the AI applies realistic aging or de-aging effects to create entertaining before-and-after comparisons. The app is designed for fun and entertainment, producing surprisingly realistic age transformations that make for great social sharing content.",
+    features: [
+      "Age Transformation: See anyone at different ages with AI",
+      "Aging Effects: Realistic older age simulation",
+      "De-Aging: See younger versions of any face",
+      "Fun Results: Entertaining transformations for social sharing",
+      "Fast Processing: Age transformations in seconds",
+      "Multiple Age Points: See progression at different ages",
+      "Easy to Use: Simple upload and transform workflow",
+      "Free to Try: Basic age transformation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ager Fun",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to ager.fun and upload a clear portrait photo of the person you want to age transform." },
+        { title: "Apply Age Effect", description: "Select whether you want to see an older or younger version. The AI applies the transformation instantly." },
+        { title: "Share the Fun", description: "Download your age-transformed photo and share it with friends for entertaining reactions and comparisons." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Entertainment Value", description: "Seeing realistic age transformations of yourself and friends creates genuinely entertaining content that people enjoy sharing" },
+      { title: "Realistic Results", description: "Age effects that look genuinely convincing rather than cartoonish make the transformations more interesting and shareable" },
+      { title: "Curiosity Satisfaction", description: "People are naturally curious about how they will look as they age. AI that provides a realistic preview satisfies this curiosity" },
+      { title: "Social Content", description: "Age transformation before-and-after comparisons consistently generate strong engagement when shared on social media" }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "People who create entertaining content use Ager.fun for fun age transformation photos to share" },
+      { title: "Curious Individuals", description: "People curious about their future appearance use the app for entertaining age progression previews" },
+      { title: "Friend Groups", description: "Groups of friends use age transformation for fun comparisons and reactions at social gatherings" }
+    ]
+  },
+  "ai-face-ager": {
+    whatIs: "AI Face Ager is a professional AI age progression tool that applies realistic aging effects to portrait photos using deep learning. It simulates the natural aging process including skin texture changes, wrinkle development, and facial structure changes to produce convincing older versions of any face. The tool is used for entertainment, research into aging processes, and creative content creation.",
+    features: [
+      "Realistic Aging: Deep learning simulation of natural aging process",
+      "Skin Texture: Accurate skin aging including wrinkles and texture changes",
+      "Facial Structure: Models structural facial changes that occur with aging",
+      "Multiple Age Points: See aging at different future decades",
+      "High Quality Output: Professional-quality age transformation results",
+      "Portrait Optimization: Designed specifically for portrait photo processing",
+      "Before and After: Clear comparison of original and aged versions",
+      "Free to Try: Basic age progression without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Face Ager",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Portrait", description: "Go to the AI Face Ager platform and upload a clear front-facing portrait photo." },
+        { title: "Select Your Age Target", description: "Choose the age range or decade you want to see the aging simulation for." },
+        { title: "Download Your Result", description: "Review the realistic aging simulation and download the transformed photo for your intended use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Aging Simulation Realism", description: "Deep learning models trained on actual aging processes produce more realistic simulations than simple filter-based aging effects" },
+      { title: "Research Applications", description: "Researchers studying aging processes use AI face aging for simulation and visualization of aging trajectories" },
+      { title: "Medical Context", description: "Healthcare applications use facial aging simulation for patient education about the visible effects of health conditions and lifestyle choices" },
+      { title: "Entertainment Quality", description: "High-quality aging simulation that looks genuinely realistic creates more impressive and shareable entertainment content" }
+    ],
+    useCases: [
+      { title: "Entertainment and Social Media", description: "People create entertaining age transformation content for social media sharing using AI Face Ager" },
+      { title: "Researchers", description: "Scientists and researchers use facial aging simulation for academic and medical research purposes" },
+      { title: "Creative Professionals", description: "Filmmakers and content creators use age transformation for creative and practical production needs" }
+    ]
+  },
+  "pic-copilot": {
+    whatIs: "Pic Copilot is an AI-powered image editing assistant that helps users enhance, edit, and transform their photos through conversational AI guidance. It provides intelligent editing suggestions, applies AI enhancements, and assists with creative image transformations through an intuitive interface. For users who want AI assistance throughout the photo editing process rather than just automated one-click fixes, Pic Copilot provides intelligent editing guidance that helps achieve the desired results.",
+    features: [
+      "AI Editing Assistant: Conversational AI guidance for photo editing",
+      "Smart Suggestions: AI recommendations for improving photos",
+      "Enhancement Tools: AI-powered photo quality improvement",
+      "Creative Transformations: AI-assisted creative image modifications",
+      "Intuitive Interface: User-friendly editing experience",
+      "Before and After: Compare original and edited versions",
+      "Multiple Editing Types: Various photo enhancement capabilities",
+      "Free to Try: Basic editing assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Pic Copilot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Sign up at pic-copilot and upload the photo you want to edit or enhance." },
+        { title: "Describe What You Want", description: "Tell the AI assistant what improvements or changes you want to make to your photo." },
+        { title: "Apply and Download", description: "The AI applies your requested edits and enhancements. Review the result and download your improved photo." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Guided Editing", description: "AI assistance that responds to what users want to achieve produces more targeted results than automatic enhancement that applies the same treatment to every photo" },
+      { title: "Accessibility", description: "Conversational editing guidance that helps users achieve specific results without needing to know specific editing techniques makes photo editing more accessible" },
+      { title: "Creative Direction", description: "AI that understands creative intent and helps achieve specific visual goals serves as a genuine creative assistant rather than just an automated tool" },
+      { title: "Learning Through Use", description: "Users who receive guidance on achieving specific editing goals develop better understanding of photo editing principles over time" }
+    ],
+    useCases: [
+      { title: "Photo Editing Beginners", description: "People learning photo editing use Pic Copilot for guided assistance that helps them achieve their desired results" },
+      { title: "Casual Photographers", description: "People who take photos for personal use use AI editing assistance for quick improvements without editing expertise" },
+      { title: "Content Creators", description: "Creators use AI editing assistance for photo improvements that serve their content needs" }
+    ]
+  },
   "face-swapper": {
     whatIs: "Face Swapper is an AI tool that exchanges faces between photos with seamless blending and natural-looking results. It uses deep learning to detect faces in images and replace them with faces from other photos while maintaining consistent lighting, perspective, and skin tone. The tool serves entertainment, creative, and content creation purposes. For users who want to create face swap content for fun and creative projects, Face Swapper provides accessible AI-powered face exchange.",
     features: [
