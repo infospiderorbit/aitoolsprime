@@ -1,4 +1,499 @@
 export const toolsProductInfo5: { [key: string]: any } = {
+  "imagefusion": {
+    whatIs: "ImageFusion is an AI image blending and compositing tool that combines multiple images into seamless composite creations. It uses AI to intelligently merge photos, blend subjects from different images, and create composite artwork that looks naturally unified rather than obviously stitched together. For digital artists, photographers, and content creators who create composite images, ImageFusion provides AI-powered blending that produces more natural results than manual compositing.",
+    features: [
+      "Image Blending: Seamlessly merge multiple photos into composites",
+      "AI Compositing: Intelligent blending that creates natural-looking results",
+      "Subject Extraction: Pull subjects from images for compositing",
+      "Background Merging: Combine different background elements naturally",
+      "Style Matching: AI adjusts lighting and color for consistency",
+      "Creative Collage: Artistic image combination tools",
+      "High Resolution Output: Professional quality composite images",
+      "Free to Try: Basic image fusion without payment"
+    ],
+    howToUse: {
+      title: "How to Use Imagefusion",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Source Images", description: "Go to ImageFusion and upload the images you want to combine. Include the subject photos and background elements you want to merge." },
+        { title: "Configure Your Composite", description: "Use the blending tools to position and merge your image elements. The AI adjusts lighting and color to help elements look naturally combined." },
+        { title: "Refine and Export", description: "Review the composite result and make any adjustments. Export your finished composite in high resolution for your intended use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Natural Blending", description: "Manual photo compositing that looks natural requires significant Photoshop skill. AI blending that handles lighting and color matching automatically produces more natural results" },
+      { title: "Creative Possibilities", description: "Combining elements from multiple photos creates images that could not be captured in a single photograph" },
+      { title: "Time Efficiency", description: "Compositing workflows that take hours manually are significantly faster with AI assistance handling the technical blending work" },
+      { title: "Accessibility", description: "Photo compositing that previously required professional editing skills becomes accessible to creators without Photoshop expertise" }
+    ],
+    useCases: [
+      { title: "Digital Artists", description: "Artists create composite artwork by combining elements from multiple photos using ImageFusion" },
+      { title: "Photographers", description: "Photography professionals create composite images for client projects and creative portfolio work" },
+      { title: "Social Media Creators", description: "Content creators use image compositing for distinctive visual content that stands out" }
+    ]
+  },
+  "dzine-ai": {
+    whatIs: "Dzine AI is an AI-powered graphic design platform that helps non-designers create professional visual content for social media, marketing, and business purposes. It provides AI-assisted design tools, templates, and generation capabilities that make professional design accessible without design training. The platform combines traditional template-based design with AI generation to help users create everything from social media posts to presentations and marketing materials.",
+    features: [
+      "AI Design Generation: Create designs from text descriptions",
+      "Template Library: Professional templates for all design needs",
+      "Social Media Graphics: Platform-optimized social content creation",
+      "Brand Kit: Maintain consistent brand colors and fonts",
+      "Logo Design: AI-assisted logo creation tools",
+      "Presentation Design: Professional slide deck creation",
+      "Marketing Materials: Flyers, banners, and promotional design",
+      "Free Plan: Basic design creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Dzine Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Design Type", description: "Sign up at dzine.ai and select the type of design you need to create from the available categories." },
+        { title: "Use Templates or Generate", description: "Start from a professional template or describe what you want and let AI generate your design. Customize colors, fonts, and content to match your brand." },
+        { title: "Export Your Design", description: "Download your finished design in the appropriate format for your intended use - social media, print, or web." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Design Accessibility", description: "Professional graphic design requires skills most people do not have. AI-assisted design that produces professional results without training makes visual communication accessible" },
+      { title: "Template Starting Points", description: "Starting from professional templates that users customize produces better results faster than starting from scratch" },
+      { title: "Brand Consistency", description: "Brand kit features that apply consistent colors and fonts across all designs maintain visual identity without manual style application" },
+      { title: "Speed for Business", description: "Small businesses that need regular design content benefit from fast AI-assisted creation that fits into busy schedules" }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Business owners create marketing materials and social media content using Dzine AI without hiring designers" },
+      { title: "Social Media Managers", description: "Content managers use AI design tools for consistent professional social media graphics" },
+      { title: "Entrepreneurs and Startups", description: "Early-stage businesses use AI design for professional brand materials without design budget" }
+    ]
+  },
+  "wondershare-uniconverter": {
+    whatIs: "Wondershare UniConverter is a comprehensive video conversion and editing software that handles video format conversion, compression, editing, and enhancement in one application. It supports hundreds of video and audio formats and uses AI features for video enhancement, background removal, and subtitle generation. For users who regularly work with video files that need format conversion, compression, or editing, UniConverter provides an all-in-one solution that handles the full range of video processing needs.",
+    features: [
+      "Video Conversion: Convert between hundreds of video and audio formats",
+      "Video Compression: Reduce file sizes without significant quality loss",
+      "AI Enhancement: Improve video quality with AI upscaling",
+      "Subtitle Generation: AI automatic subtitle creation",
+      "Video Editing: Basic video editing and trimming tools",
+      "DVD Burning: Create DVD discs from video files",
+      "Screen Recording: Capture screen and webcam recordings",
+      "Free Trial: Try all features before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Wondershare Uniconverter",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Video", description: "Open UniConverter and import the video file you want to convert or process. The software supports drag and drop for easy file loading." },
+        { title: "Select Your Output", description: "Choose your target format, quality settings, and any enhancements you want to apply. UniConverter shows file size estimates for compression settings." },
+        { title: "Convert and Export", description: "Process your video and export to your selected format. Batch conversion handles multiple files simultaneously for efficient workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Format Compatibility", description: "Video files in formats that will not play on specific devices or platforms are made compatible through conversion that maintains quality" },
+      { title: "File Size Management", description: "Large video files that are too large to share or upload are compressed to practical sizes while maintaining acceptable visual quality" },
+      { title: "All-in-One Efficiency", description: "Having conversion, compression, editing, and enhancement in one application reduces the need for multiple specialized tools" },
+      { title: "Subtitle Accessibility", description: "AI-generated subtitles that make videos accessible to deaf audiences and non-native language viewers are created automatically without manual transcription" }
+    ],
+    useCases: [
+      { title: "Video Content Creators", description: "YouTubers and video creators use UniConverter for format conversion and compression for different distribution platforms" },
+      { title: "Business Professionals", description: "Office workers convert and compress video files for presentations and sharing through business systems" },
+      { title: "Home Users", description: "Individuals use UniConverter for converting personal video collections and compressing home videos for sharing" }
+    ]
+  },
+  "krea-ai": {
+    whatIs: "Krea AI is an AI creative studio that provides real-time AI image generation, enhancement, and video generation tools. It features a unique real-time generation canvas where AI updates the image as you draw or type, creating an interactive creative experience unlike traditional text-to-image tools. Krea also offers AI upscaling and video generation capabilities. For artists and designers who want an interactive AI creative partner that responds in real time, Krea provides a distinctive creative workflow.",
+    features: [
+      "Real-Time Generation: AI updates images as you draw or type",
+      "Interactive Canvas: Draw and watch AI interpret your sketches instantly",
+      "AI Upscaling: Enhance image quality and resolution",
+      "Video Generation: Create AI-generated video content",
+      "Style Training: Train AI on your own images for personalized style",
+      "Image Enhancement: AI-powered photo enhancement tools",
+      "Creative Exploration: Fast iteration through real-time feedback",
+      "Free Plan: Basic real-time generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Krea Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open the Canvas", description: "Sign up at krea.ai and open the real-time generation canvas. Begin typing or sketching to see AI interpretation immediately." },
+        { title: "Iterate in Real Time", description: "Refine your prompt or sketch as the AI generates. The real-time feedback lets you quickly understand what directions produce the results you want." },
+        { title: "Enhance and Export", description: "Use the upscaling tools to increase the resolution of your generated images. Export your finished artwork in high resolution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Feedback Loop", description: "Traditional AI image generation requires waiting after each prompt change. Real-time generation that shows changes immediately creates a fundamentally more interactive creative experience" },
+      { title: "Sketch to Image", description: "Artists who can sketch rough ideas but want AI to interpret them into finished images benefit from the real-time canvas that responds to drawn input" },
+      { title: "Iteration Speed", description: "Faster iteration through real-time feedback allows more creative exploration in the same amount of time" },
+      { title: "Unique Workflow", description: "The real-time generation approach creates a distinct creative workflow that feels more like collaboration with the AI than operating a generation tool" }
+    ],
+    useCases: [
+      { title: "Digital Artists", description: "Artists use Krea for an interactive AI creative process that feels more collaborative than standard generation tools" },
+      { title: "Designers", description: "Design professionals use real-time generation for rapid concept exploration and ideation" },
+      { title: "Creative Experimenters", description: "People who want to explore AI creative capabilities use Krea for the distinctive real-time generation experience" }
+    ]
+  },
+  "upscale-media": {
+    whatIs: "Upscale.media is a free AI image upscaling service that enlarges images up to 4x their original size without quality loss. It uses deep learning to fill in realistic detail when enlarging images rather than simply stretching pixels, producing sharper and cleaner results than traditional upscaling methods. The completely free service makes professional-quality image upscaling accessible to anyone who needs larger versions of existing images.",
+    features: [
+      "4x Upscaling: Enlarge images up to four times original size",
+      "AI Detail Generation: Deep learning fills in realistic detail",
+      "Quality Preservation: Sharp results without pixelation or blur",
+      "Multiple Formats: Supports JPG, PNG, and WebP input",
+      "Fast Processing: Upscaling completed in seconds",
+      "Batch Upload: Process multiple images at once",
+      "Free Service: Full upscaling without payment",
+      "No Registration: Upscale images without creating an account"
+    ],
+    howToUse: {
+      title: "How to Use Upscale Media",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to upscale.media and upload the image you want to enlarge. No account creation required for basic upscaling." },
+        { title: "Select Upscale Factor", description: "Choose your desired upscale factor - 2x or 4x. Larger factors produce bigger images but may take slightly longer to process." },
+        { title: "Download Upscaled Image", description: "Download your upscaled image. The enlarged version maintains sharpness and detail that traditional upscaling cannot achieve." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Professional Quality", description: "Professional AI upscaling tools charge per image or require subscriptions. Completely free upscaling that produces professional results removes cost barriers" },
+      { title: "Detail Generation vs Stretching", description: "Traditional enlargement that stretches pixels produces blurry results. AI that generates realistic detail when enlarging produces genuinely sharper images" },
+      { title: "Small Image Usability", description: "Small images from older cameras or web downloads that cannot be used at larger sizes become usable after AI upscaling" },
+      { title: "No Friction Access", description: "Upscaling without account creation serves users who need occasional enlargement without committing to a service" }
+    ],
+    useCases: [
+      { title: "Designers and Creatives", description: "Design professionals upscale small source images for use in high-resolution designs" },
+      { title: "E-commerce Sellers", description: "Online sellers upscale product photos that are too small for marketplace listing requirements" },
+      { title: "General Users", description: "Anyone who needs a larger version of an existing image uses Upscale.media for free professional upscaling" }
+    ]
+  },
+  "freepik-ai": {
+    whatIs: "Freepik AI Image Generator is an AI image creation tool integrated into the Freepik platform, one of the largest stock asset libraries. It allows users to generate original AI images alongside accessing millions of stock photos, vectors, and illustrations. The integration means users can generate custom images when stock options do not match their needs, all within a platform they may already use for design assets. For designers who use Freepik for stock assets and want AI generation as an additional option, the integrated generator extends what the platform can provide.",
+    features: [
+      "AI Image Generation: Create original images from text descriptions",
+      "Stock Integration: Generate images alongside millions of stock assets",
+      "Multiple Styles: Different artistic styles and aesthetics available",
+      "Commercial License: Generated images cleared for commercial use",
+      "High Resolution: Quality output for professional design use",
+      "Style Presets: Quick access to popular generation styles",
+      "Freepik Ecosystem: Integrated with the broader Freepik design asset library",
+      "Free Credits: Generate images with monthly free credits"
+    ],
+    howToUse: {
+      title: "How to Use Freepik Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search or Generate", description: "Sign up at freepik.com and use the AI generator when your stock search does not return what you need. Describe the image you want to create." },
+        { title: "Refine Your Results", description: "Browse generated options and refine your prompt to get closer to your vision. Try different style options for varied results." },
+        { title: "Download and Use", description: "Download your generated image with commercial license included. Use it in your design projects alongside other Freepik assets." }
+      ]
+    },
+    coreFeatures: [
+      { title: "When Stock Falls Short", description: "Stock photos cover common scenarios well but often lack the exact specific image a designer needs. AI generation fills this gap without leaving the platform" },
+      { title: "Commercial Clarity", description: "Generated images with clear commercial licenses eliminate the licensing uncertainty that complicates using AI-generated images from other sources" },
+      { title: "Platform Familiarity", description: "Designers who already use Freepik benefit from AI generation integrated into a tool they know rather than learning a separate generation platform" },
+      { title: "Stock Plus Custom", description: "Combining the reliability of stock assets with the flexibility of custom AI generation creates more complete design asset access than either provides alone" }
+    ],
+    useCases: [
+      { title: "Graphic Designers", description: "Designers who use Freepik for stock assets use the AI generator for custom images their stock searches cannot find" },
+      { title: "Marketing Teams", description: "Marketing professionals generate campaign-specific imagery when stock options are too generic for their needs" },
+      { title: "Content Creators", description: "Bloggers and content creators use AI generation for unique illustrative images alongside stock photos" }
+    ]
+  },
+  "depositphotos-ai": {
+    whatIs: "Depositphotos AI Image Generator is an AI image creation tool integrated into the Depositphotos stock photo platform. It enables users to generate custom images to complement the platform extensive stock library. Users who cannot find exactly what they need in stock can describe and generate a custom image, all within a platform that provides commercial licensing clarity. For designers and marketers who use Depositphotos for stock content, the AI generator extends the platform capability for custom image needs.",
+    features: [
+      "AI Generation: Create custom images from text descriptions",
+      "Stock Integration: Generate alongside millions of licensed stock images",
+      "Commercial License: Clear commercial use rights for generated content",
+      "Multiple Styles: Photorealistic, artistic, and illustrated outputs",
+      "High Quality: Professional resolution output",
+      "Platform Integration: Works within existing Depositphotos workflow",
+      "Style Options: Different generation approaches for different needs",
+      "Free Credits: Try generation with included credits"
+    ],
+    howToUse: {
+      title: "How to Use Depositphotos Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access the Generator", description: "Log in to your Depositphotos account and access the AI image generator from the main navigation." },
+        { title: "Describe Your Image", description: "Enter a detailed description of the image you need. Include subject, style, lighting, and any specific requirements." },
+        { title: "Generate and Download", description: "Generate your image and download with commercial license included. Use it alongside stock images in your projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Custom When Stock Insufficient", description: "Stock libraries with millions of images still cannot cover every specific scenario. AI generation that fills these gaps without switching platforms improves workflow efficiency" },
+      { title: "Licensing Confidence", description: "Commercial license clarity that comes with platform-generated images removes the uncertainty around using AI-generated content commercially" },
+      { title: "Workflow Continuity", description: "Staying within one platform for both stock and custom images maintains workflow continuity rather than context-switching between tools" },
+      { title: "Quality Standard", description: "AI generation within a professional stock platform maintains quality standards consistent with the platform premium stock offerings" }
+    ],
+    useCases: [
+      { title: "Design Professionals", description: "Designers who regularly use Depositphotos for stock images use AI generation for custom needs within the same workflow" },
+      { title: "Advertising Agencies", description: "Agencies use the integrated generator for campaign-specific imagery alongside licensed stock content" },
+      { title: "Marketing Teams", description: "Marketing professionals generate unique images for campaigns when stock photos feel too generic" }
+    ]
+  },
+  "openart": {
+    whatIs: "OpenArt is an AI image generation platform that provides access to multiple AI models including Stable Diffusion, DALL-E, and others through a unified creative interface. It also features a large community gallery of AI artworks and prompts that users can explore and build upon. The platform includes tools for training custom models on personal image collections and generating consistent characters. For AI artists who want access to multiple generation models and a creative community, OpenArt provides a comprehensive AI art platform.",
+    features: [
+      "Multi-Model Access: Generate with Stable Diffusion, DALL-E, and others",
+      "Community Gallery: Browse and get inspired by community AI artworks",
+      "Prompt Discovery: Find and adapt prompts from the community library",
+      "Custom Model Training: Train models on your own image collections",
+      "Consistent Characters: Generate the same character across different scenes",
+      "Workflow Tools: Image editing and enhancement alongside generation",
+      "Style Exploration: Discover different AI art styles and approaches",
+      "Free Credits: Generate images with free daily credits"
+    ],
+    howToUse: {
+      title: "How to Use Openart",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Explore the Gallery", description: "Sign up at openart.ai and browse the community gallery for inspiration. Find prompts and styles that interest you." },
+        { title: "Generate Your Images", description: "Use the generation interface to create your own images. Try different models to understand which produces the best results for your style." },
+        { title: "Build Your Portfolio", description: "Save your best generations to your profile and share with the community. Explore prompt variations to develop your unique AI art style." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Model Variety", description: "Different AI models have different strengths and aesthetic tendencies. Access to multiple models from one platform allows choosing the best tool for each creative vision" },
+      { title: "Community Learning", description: "A large gallery of community-created artworks and shared prompts provides enormous reference material for learning effective prompting techniques" },
+      { title: "Character Consistency", description: "Generating the same character consistently across different scenes and contexts requires specialized tools that standard generation does not provide" },
+      { title: "Custom Training", description: "Training models on personal image collections to capture a specific artistic style or subject enables highly personalized generation results" }
+    ],
+    useCases: [
+      { title: "AI Artists and Illustrators", description: "Digital artists use OpenArt for AI-assisted creative work across different generation models" },
+      { title: "Prompt Engineers", description: "People who specialize in crafting effective AI prompts use OpenArt for multi-model prompt testing and refinement" },
+      { title: "Creative Explorers", description: "People discovering AI art use OpenArt community gallery for inspiration and learning" }
+    ]
+  },
+  "deepai": {
+    whatIs: "DeepAI is one of the earliest AI image generation and tool platforms, offering text-to-image generation, image editing, and various AI tools through a web interface and API. It provides accessible AI image generation with straightforward tools, a generous free tier, and a simple API that developers use to integrate AI image generation into their applications. For users who want straightforward AI image generation without complex interfaces and for developers who need a simple image generation API, DeepAI provides accessible AI image capabilities.",
+    features: [
+      "Text to Image: Generate images from text descriptions",
+      "Image Editing: AI-powered image modification tools",
+      "Style Transfer: Apply artistic styles to images",
+      "Image Colorization: Add color to black and white images",
+      "Upscaling: Enhance image resolution with AI",
+      "Developer API: Simple API for application integration",
+      "Multiple Models: Different generation models for different styles",
+      "Free Tier: Generate images with free daily allowance"
+    ],
+    howToUse: {
+      title: "How to Use Deepai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Prompt", description: "Go to deepai.org and enter your text description in the image generator. No account required for basic generation." },
+        { title: "Generate and Review", description: "DeepAI generates your image quickly. Review the result and adjust your prompt for different results." },
+        { title: "Download or Integrate", description: "Download your generated image directly or use the API key to integrate generation into your own application." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Early Accessibility", description: "DeepAI was among the first platforms to make AI image generation publicly accessible, establishing the template for accessible AI creative tools" },
+      { title: "API Simplicity", description: "A simple, well-documented API that handles image generation without complex setup serves developers who need generation capabilities without extensive integration work" },
+      { title: "Free Tier Value", description: "Daily free image generation that does not require payment information makes the platform accessible for casual and experimental use" },
+      { title: "Tool Variety", description: "Multiple AI tools beyond image generation that handle colorization, style transfer, and upscaling provide a range of AI image processing capabilities" }
+    ],
+    useCases: [
+      { title: "Casual AI Art Experimenters", description: "People exploring AI image generation use DeepAI for free experimentation without commitment" },
+      { title: "Developers Building Applications", description: "Software developers integrate the DeepAI API for image generation features in their applications" },
+      { title: "Content Creators", description: "Bloggers and content creators use DeepAI for quick AI-generated illustrations for their content" }
+    ]
+  },
+  "unblurimage-ai": {
+    whatIs: "Unblur Image AI is a specialized tool that uses artificial intelligence to sharpen and clarify blurry photos. It analyzes blur patterns in images and applies AI deblurring algorithms to restore sharpness and detail that motion blur, out-of-focus blur, or camera shake has degraded. For photographers and users who have important photos that are too blurry to use, Unblur Image AI provides a recovery option that can save otherwise unusable images.",
+    features: [
+      "AI Deblurring: Remove blur from photos using deep learning",
+      "Motion Blur Correction: Fix blur caused by camera or subject movement",
+      "Focus Restoration: Improve out-of-focus photos",
+      "Detail Recovery: Restore fine detail obscured by blur",
+      "Before and After: Compare original and sharpened versions",
+      "Multiple Blur Types: Handles different types of image blur",
+      "Fast Processing: Results in seconds",
+      "Free to Try: Basic deblurring without payment"
+    ],
+    howToUse: {
+      title: "How to Use Unblurimage Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Blurry Photo", description: "Go to the Unblur Image AI platform and upload the blurry photo you want to sharpen." },
+        { title: "Apply Deblurring", description: "The AI analyzes the blur pattern in your image and applies the appropriate deblurring algorithm. Results appear quickly." },
+        { title: "Download Sharpened Image", description: "Review the before and after comparison and download your sharpened photo if the improvement meets your needs." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Image Recovery", description: "Important photos that are too blurry to use are worth attempting to recover. AI deblurring that restores significant sharpness saves otherwise unusable images" },
+      { title: "Blur Type Variety", description: "Different types of blur require different correction approaches. AI that identifies and applies appropriate correction for each blur type produces better results than one-size-fits-all sharpening" },
+      { title: "Memory Preservation", description: "Blurry photos of important life events that cannot be retaken are worth the attempt at AI recovery to preserve memories that would otherwise be lost to poor image quality" },
+      { title: "Expectation Management", description: "Not all blur can be fully corrected by AI, but partial improvement that makes a photo usable rather than discardable provides real value" }
+    ],
+    useCases: [
+      { title: "Photographers", description: "Photographers use deblurring tools to recover shots that would otherwise be discarded due to blur" },
+      { title: "General Users", description: "People with blurry photos of important moments use AI deblurring to recover memories that cannot be recaptured" },
+      { title: "Social Media Users", description: "People who want to share photos that came out blurry use deblurring to improve them before posting" }
+    ]
+  },
+  "fix-blur": {
+    whatIs: "Fix Blur is an AI photo sharpening tool that removes blur and improves image clarity through artificial intelligence. It applies deep learning-based deblurring to photos affected by camera shake, motion blur, or soft focus, recovering sharpness and detail that the original capture lost. For users who have photos they want to share or print but find too blurry for their purpose, Fix Blur provides AI-powered sharpening that can rescue images from the reject pile.",
+    features: [
+      "Blur Removal: AI sharpening for different types of photo blur",
+      "Camera Shake Fix: Correct blur from unsteady camera holding",
+      "Motion Blur Reduction: Improve photos blurred by subject movement",
+      "Sharpness Enhancement: Overall image clarity improvement",
+      "Detail Recovery: Restore fine textures and edges obscured by blur",
+      "Quick Results: Sharpening applied in seconds",
+      "Simple Interface: Easy upload and download process",
+      "Free to Use: Basic sharpening without payment"
+    ],
+    howToUse: {
+      title: "How to Use Fix Blur",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to the Fix Blur platform and upload the photo you want to sharpen. The tool works best on photos with clear blur rather than simply underexposed images." },
+        { title: "Process Your Image", description: "The AI applies deblurring algorithms to your photo automatically. Processing typically completes within seconds." },
+        { title: "Review and Download", description: "Compare the sharpened result with your original image. Download the improved version if the sharpening meets your needs." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Simple Rescue Tool", description: "A straightforward tool focused entirely on one job - fixing blur - serves users who just want their photo sharpened without navigating complex editing software" },
+      { title: "Important Moment Recovery", description: "Photos of events that cannot be repeated that came out blurry deserve a recovery attempt. Even partial improvement can make an unusable photo shareable" },
+      { title: "Accessibility", description: "Photo sharpening that works without editing software knowledge makes blur correction accessible to anyone with a blurry photo" },
+      { title: "Speed", description: "Instant AI sharpening that produces results in seconds is more practical for occasional use than learning photo editing software for this single task" }
+    ],
+    useCases: [
+      { title: "Casual Photographers", description: "People who take photos with phones and cameras use Fix Blur to sharpen important photos that came out blurry" },
+      { title: "Parents and Family Documenters", description: "People photographing children and family events use blur correction on shots that came out moving or out of focus" },
+      { title: "Event Photographers", description: "People who photograph events use Fix Blur to recover shots from difficult lighting or movement conditions" }
+    ]
+  },
+  "deblur-ai": {
+    whatIs: "Deblur AI is an artificial intelligence tool that specifically addresses photo blur through advanced deconvolution and deep learning algorithms. It analyzes the specific type and pattern of blur in each image to apply the most appropriate correction method, whether that is motion deblurring, defocus correction, or general sharpening. The specialized approach to blur correction produces better results on heavily blurred images than general sharpening tools.",
+    features: [
+      "Specialized Deblurring: Purpose-built AI for blur correction specifically",
+      "Blur Type Detection: Identifies and applies appropriate correction for each blur type",
+      "Heavy Blur Handling: Effective on severely blurred images",
+      "Motion Deblurring: Specialized algorithms for motion-caused blur",
+      "Defocus Correction: Restoration of out-of-focus photos",
+      "Algorithm Selection: AI selects the best correction approach automatically",
+      "High Quality Output: Professional-quality sharpening results",
+      "Free to Try: Basic deblurring without payment"
+    ],
+    howToUse: {
+      title: "How to Use Deblur Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Blurry Image", description: "Go to the Deblur AI platform and upload the blurry image you want to correct. Higher resolution originals produce better deblurring results." },
+        { title: "Let AI Analyze Your Blur", description: "Deblur AI analyzes the blur pattern in your image and selects the appropriate correction algorithm automatically." },
+        { title: "Download Your Result", description: "Review the deblurred image and download if the correction meets your needs. Severe blur may show partial improvement even when full correction is not possible." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Algorithmic Specialization", description: "Blur correction that identifies blur type and applies the appropriate algorithm produces better results than applying one-size-fits-all sharpening to all images" },
+      { title: "Severe Blur Recovery", description: "Images with heavy blur that general sharpening tools cannot significantly improve sometimes respond better to specialized deconvolution algorithms" },
+      { title: "Automatic Selection", description: "AI that automatically selects the best correction approach removes the need for users to understand different blur types and matching correction methods" },
+      { title: "Technical Foundation", description: "Deep learning deblurring that understands image formation physics produces more natural-looking results than simple sharpening filters" }
+    ],
+    useCases: [
+      { title: "Photographers", description: "Photography professionals use specialized deblurring for images with significant blur that need recovery" },
+      { title: "Technical Image Analysts", description: "People who work with scientific or surveillance imagery use deblurring to recover detail from blurred images" },
+      { title: "Photo Archivists", description: "People preserving historical photos use deblurring to improve the clarity of degraded historical images" }
+    ]
+  },
+  "imgupscaler": {
+    whatIs: "ImgUpscaler is a free AI image upscaling tool that enlarges photos and images up to 8x their original size while maintaining and enhancing image quality. It uses deep learning models trained specifically for image super-resolution to generate realistic detail when enlarging, producing results that are genuinely sharper rather than just larger. For users who need high-resolution versions of smaller images for printing, design, or display, ImgUpscaler provides free professional-quality upscaling.",
+    features: [
+      "8x Upscaling: Enlarge images up to eight times original resolution",
+      "AI Super-Resolution: Deep learning that generates realistic detail",
+      "Quality Enhancement: Improves image quality alongside size increase",
+      "Multiple Formats: Supports common image format inputs and outputs",
+      "Batch Processing: Upscale multiple images simultaneously",
+      "Fast Processing: Quick results even for large upscale factors",
+      "Free Service: Full upscaling without payment requirements",
+      "No Account Needed: Upscale immediately without registration"
+    ],
+    howToUse: {
+      title: "How to Use Imgupscaler",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to imgupscaler.com and upload the image you want to enlarge. No registration is required to start upscaling." },
+        { title: "Select Upscale Factor", description: "Choose your desired enlargement factor from available options. Higher factors produce larger images with more AI-generated detail." },
+        { title: "Download Your Result", description: "Download your upscaled image. The enlarged version is ready for printing, design use, or any application requiring higher resolution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Maximum Upscale Range", description: "Upscaling up to 8x covers the largest size increases needed even for images that start very small" },
+      { title: "Free High Quality", description: "Professional-quality upscaling that costs nothing makes high-resolution image enlargement accessible regardless of budget" },
+      { title: "Super-Resolution Quality", description: "AI super-resolution that generates realistic detail produces fundamentally better results than bicubic or other traditional upscaling interpolation methods" },
+      { title: "Immediate Access", description: "Upscaling without account creation provides immediate practical utility for occasional use without any setup friction" }
+    ],
+    useCases: [
+      { title: "Print Professionals", description: "People preparing images for large format printing use ImgUpscaler to reach required print resolutions" },
+      { title: "Designers", description: "Graphic designers upscale small source images to usable sizes for their design projects" },
+      { title: "General Users", description: "Anyone who needs a larger version of an image uses ImgUpscaler for free professional-quality enlargement" }
+    ]
+  },
+  "bigjpg": {
+    whatIs: "Bigjpg is an AI image enlargement tool specialized in upscaling anime, manga, and illustration-style images alongside regular photos. It uses AI super-resolution with specific training for different image types, offering dedicated modes for cartoon and anime images that preserve the clean lines and flat color regions of illustrated content better than photo-focused upscaling models. For fans and creators who work with anime and illustration content that needs enlargement, Bigjpg provides upscaling that understands the visual characteristics of illustrated art.",
+    features: [
+      "Anime Mode: Specialized upscaling for anime and illustrated content",
+      "Photo Mode: High-quality enlargement for photographic images",
+      "Up to 16x: Very large upscale factors available",
+      "Style Preservation: Maintains clean lines in illustrated content",
+      "Noise Reduction: Optional noise removal alongside upscaling",
+      "Multiple Formats: Input support for common image formats",
+      "Free Tier: Basic upscaling without payment",
+      "High Resolution Output: Large output sizes suitable for printing"
+    ],
+    howToUse: {
+      title: "How to Use Bigjpg",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Image Type", description: "Go to bigjpg.com and upload your image. Select whether your image is anime or illustration versus a regular photo to use the appropriate AI model." },
+        { title: "Choose Your Upscale Factor", description: "Select how much you want to enlarge your image. Higher factors are available for images that need to be significantly enlarged." },
+        { title: "Download Your Upscaled Image", description: "Process your image and download the enlarged version. Illustrated content maintains clean lines while photographic content gains realistic detail." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Anime Specialization", description: "Photo upscaling models applied to anime and illustration often produce blurry edges on the clean lines that characterize illustrated content. Specialized anime models that understand these visual characteristics produce better results" },
+      { title: "Community Demand", description: "The anime and manga fan community that creates and shares content regularly needs to enlarge small images from web sources. A tool purpose-built for their content type serves this community specifically" },
+      { title: "Very Large Upscaling", description: "Upscaling factors up to 16x cover the very large size increases needed when starting from very small image sources" },
+      { title: "Noise Removal Integration", description: "Combining upscaling with noise reduction in one step handles both the size and quality limitations of small internet-sourced images simultaneously" }
+    ],
+    useCases: [
+      { title: "Anime and Manga Fans", description: "People who collect and share anime artwork use Bigjpg to enlarge small images while maintaining line quality" },
+      { title: "Fan Artists", description: "Fan art creators use Bigjpg to upscale their artwork for sharing or printing" },
+      { title: "Illustration Collectors", description: "People with collections of illustrated artwork use Bigjpg for enlargement that respects the illustrated style" }
+    ]
+  },
+  "cleanup-pictures": {
+    whatIs: "Cleanup.pictures is a free AI object removal tool that erases unwanted elements from photos with a simple brush stroke. Users paint over the object they want to remove and the AI intelligently fills in the area with appropriate background content, making the removal look natural. The tool handles people, objects, text, watermarks, and other unwanted elements in any photo. For photographers and content creators who need to remove distracting elements from photos, Cleanup.pictures provides fast and surprisingly effective AI removal.",
+    features: [
+      "Object Removal: Erase any unwanted element from photos",
+      "Brush Tool: Paint over objects you want removed",
+      "Intelligent Fill: AI generates appropriate background to fill removed areas",
+      "Person Removal: Remove people and figures from scenes",
+      "Watermark Removal: Erase watermarks and text overlays",
+      "Text Removal: Remove text and signs from photos",
+      "Free Service: Full object removal without payment",
+      "No Registration: Remove objects without creating an account"
+    ],
+    howToUse: {
+      title: "How to Use Cleanup Pictures",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to cleanup.pictures and upload the photo containing the element you want to remove." },
+        { title: "Paint Over the Object", description: "Use the brush tool to paint over the element you want to erase. Larger brush sizes work faster for bigger objects." },
+        { title: "Download the Cleaned Photo", description: "The AI removes the painted element and fills in the background naturally. Download your cleaned photo." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Distraction Removal", description: "Photos with unwanted people, objects, or text in the background that distract from the main subject are improved dramatically by clean removal" },
+      { title: "Composition Recovery", description: "A photo with perfect composition ruined by a stray element in the corner can be rescued by AI removal that preserves the rest of the image" },
+      { title: "Free Professional Results", description: "Object removal that previously required Photoshop skills produces professional results through a free brush-based tool that anyone can use" },
+      { title: "Speed", description: "AI removal that fills in backgrounds naturally in seconds is dramatically faster than manual Photoshop cloning techniques" }
+    ],
+    useCases: [
+      { title: "Photographers", description: "Photography professionals use object removal for cleaning up shots that have distracting background elements" },
+      { title: "Social Media Users", description: "People who want clean photos for social sharing use Cleanup.pictures to remove photobombers and distracting elements" },
+      { title: "E-commerce Sellers", description: "Online sellers remove distracting elements from product photos using the free removal tool" }
+    ]
+  },
   "imagecolorizer": {
     whatIs: "ImageColorizer is an AI photo colorization tool that automatically adds realistic color to black and white photos. It uses deep learning trained on millions of images to determine appropriate colors for different elements in monochrome photos, producing colorized results that look natural and historically accurate. The web-based tool is popular for bringing old family photos, historical images, and vintage photographs to life with color. For anyone who wants to see black and white photos in color without manual colorization work, ImageColorizer provides fast and accurate AI colorization.",
     features: [
