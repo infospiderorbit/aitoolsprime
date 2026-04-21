@@ -1,4 +1,433 @@
 export const toolsProductInfo5: { [key: string]: any } = {
+  "letsenhance-io": {
+    whatIs: "LetsEnhance.io is an AI image upscaling and enhancement platform that enlarges photos up to 16x while improving quality through deep learning. It uses neural networks trained specifically for image super-resolution to generate realistic detail when enlarging, producing results that are genuinely sharper and more detailed than the original rather than just larger. The platform is popular with photographers, designers, and e-commerce businesses that need high-resolution versions of existing images.",
+    features: [
+      "AI Upscaling: Enlarge images up to 16x original size",
+      "Quality Enhancement: Improve image quality alongside size increase",
+      "Neural Network Processing: Deep learning for realistic detail generation",
+      "Multiple Enhancement Types: Smart, Magic, and other enhancement modes",
+      "Batch Processing: Upscale multiple images simultaneously",
+      "Professional Output: High-resolution results for print and display",
+      "API Access: Integrate upscaling into your applications",
+      "Free Credits: Try upscaling before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Letsenhance Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Sign up at letsenhance.io and upload the image you want to upscale. The platform accepts all standard image formats." },
+        { title: "Select Enhancement Mode", description: "Choose the enhancement mode appropriate for your image type - Smart Enhance for general photos, Magic Enhance for more aggressive improvement." },
+        { title: "Download Enhanced Image", description: "Process your image and download the upscaled version. The enhanced file is ready for print or high-resolution display use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Neural Upscaling Quality", description: "Traditional image enlargement that interpolates between existing pixels produces blurry results. Neural network upscaling that generates realistic detail produces genuinely sharper images" },
+      { title: "Print Resolution Requirements", description: "Images that are too small for print at required resolution are made print-ready through AI upscaling without requiring new photography" },
+      { title: "E-commerce Requirements", description: "Marketplace product images with minimum resolution requirements that existing photos do not meet are upscaled to compliance" },
+      { title: "API Integration Value", description: "Applications that handle user-uploaded images and need to ensure minimum resolution can integrate the upscaling API for automatic enhancement" }
+    ],
+    useCases: [
+      { title: "Photographers and Designers", description: "Creative professionals upscale small source images for high-resolution print and display use" },
+      { title: "E-commerce Businesses", description: "Online retailers upscale product images to meet marketplace resolution requirements" },
+      { title: "Developers", description: "Software teams integrate the upscaling API for automatic image quality improvement in their applications" }
+    ]
+  },
+  "icons8-smart": {
+    whatIs: "Icons8 Smart Upscaler is a free AI image upscaling tool from Icons8 that enlarges images up to 4x while preserving and enhancing quality. It uses machine learning to generate realistic detail when enlarging images, producing cleaner and sharper results than traditional upscaling methods. As part of the Icons8 ecosystem, the tool integrates with other Icons8 design resources. For users who need free professional-quality image upscaling, Icons8 Smart Upscaler provides accessible AI enlargement.",
+    features: [
+      "4x Upscaling: Enlarge images up to four times original size",
+      "AI Quality Enhancement: Machine learning that preserves quality when enlarging",
+      "Free Service: Full upscaling without payment",
+      "No Registration: Upscale without creating an account",
+      "Fast Processing: Quick upscaling results",
+      "Multiple Formats: Support for common image input formats",
+      "Icons8 Integration: Part of the broader Icons8 design ecosystem",
+      "High Quality Output: Professional-quality enlarged images"
+    ],
+    howToUse: {
+      title: "How to Use Icons8 Smart",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to icons8.com/upscaler and upload your image. No account is required for basic upscaling." },
+        { title: "Process Your Image", description: "The AI automatically processes your image. Upscaling typically completes within seconds regardless of image size." },
+        { title: "Download Result", description: "Download your upscaled image at the enlarged resolution. The file is ready for use in your design projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Professional Quality", description: "Professional AI upscaling that requires no payment makes high-quality image enlargement accessible to all users regardless of budget" },
+      { title: "No Registration Friction", description: "Upscaling that works without account creation serves users who need occasional enlargement without service commitment" },
+      { title: "Icons8 Ecosystem", description: "Users who already use Icons8 for icons and design assets benefit from integrated upscaling within the same ecosystem" },
+      { title: "Consistent Quality", description: "Machine learning upscaling that consistently produces professional results makes the tool reliable for regular use" }
+    ],
+    useCases: [
+      { title: "Designers", description: "Graphic designers use Icons8 Smart Upscaler for quick free upscaling of small source images" },
+      { title: "Developers", description: "Web and app developers use the free upscaler for image assets that need higher resolution" },
+      { title: "General Users", description: "Anyone who needs to enlarge an image uses the free no-registration service for quick upscaling" }
+    ]
+  },
+  "topaz-labs": {
+    whatIs: "Topaz Labs develops professional AI photo and video enhancement software used by photographers, filmmakers, and creative professionals worldwide. Their suite includes Topaz Photo AI for automatic photo enhancement, Topaz Gigapixel AI for extreme upscaling, Topaz Video AI for video enhancement and upscaling, and Topaz DeNoise AI for noise reduction. Topaz products set the standard for AI-powered media enhancement quality and are used in professional workflows across photography and filmmaking.",
+    features: [
+      "Topaz Photo AI: Automatic AI enhancement for photos",
+      "Gigapixel AI: Extreme upscaling up to 600 percent without quality loss",
+      "Video AI: AI upscaling and enhancement for video content",
+      "DeNoise AI: Professional noise reduction for photos",
+      "Sharpen AI: AI-powered image sharpening",
+      "Mask AI: Intelligent subject masking and selection",
+      "Batch Processing: Professional batch enhancement workflows",
+      "Free Trial: Try all products before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Topaz Labs",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Download the Topaz product appropriate for your enhancement need from topazlabs.com. Each tool specializes in a specific enhancement type." },
+        { title: "Import Your Media", description: "Open your photos or video in the Topaz tool. The AI automatically analyzes your media and suggests enhancement settings." },
+        { title: "Process and Export", description: "Apply the AI enhancement and export your media. Topaz products handle batch processing for professional workflows." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Professional Quality Standard", description: "Topaz products consistently produce the highest quality AI enhancement results in their respective categories, making them the industry standard for professional use" },
+      { title: "Specialized Tools", description: "Dedicated products for upscaling, noise reduction, sharpening, and video enhancement each optimized for their specific task produce better results than general-purpose editors" },
+      { title: "Video Enhancement Capability", description: "AI video upscaling that can increase video resolution to 4K and 8K opens new possibilities for archival footage and content repurposing" },
+      { title: "Batch Workflow", description: "Professional photographers and videographers who process large numbers of files benefit from efficient batch processing that handles volume without individual file attention" }
+    ],
+    useCases: [
+      { title: "Professional Photographers", description: "Photography professionals use Topaz tools for final image enhancement and upscaling in their editing workflows" },
+      { title: "Filmmakers and Videographers", description: "Video professionals use Topaz Video AI for footage upscaling and quality enhancement" },
+      { title: "Photo Archivists", description: "Professionals restoring historical photo and video collections use Topaz for AI-powered quality recovery" }
+    ]
+  },
+  "photiu-ai": {
+    whatIs: "Photiu.ai is an AI photo enhancement and editing platform that provides automatic photo improvement through artificial intelligence. It analyzes photos and applies targeted enhancements including exposure correction, color grading, sharpening, and noise reduction to produce better-looking photos without manual editing. For photographers and users who want their photos to look their best with minimal effort, Photiu.ai provides automatic AI enhancement that handles the technical editing work.",
+    features: [
+      "Automatic Enhancement: AI-powered photo improvement without manual editing",
+      "Exposure Correction: Fix underexposed and overexposed photos automatically",
+      "Color Grading: AI color enhancement for better visual impact",
+      "Sharpening: Improve image clarity and detail",
+      "Noise Reduction: Clean up grainy photos from low-light conditions",
+      "Batch Processing: Enhance multiple photos simultaneously",
+      "Before and After: Compare original and enhanced versions",
+      "Free to Try: Basic enhancement without payment"
+    ],
+    howToUse: {
+      title: "How to Use Photiu Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photos", description: "Sign up at photiu.ai and upload the photos you want to enhance. The platform accepts batch uploads for efficient processing." },
+        { title: "Review AI Enhancements", description: "Photiu.ai analyzes each photo and applies appropriate enhancements. Review the before and after comparisons for each image." },
+        { title: "Download Enhanced Photos", description: "Download your enhanced photos ready for sharing, printing, or publishing. The improved versions require no additional editing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Quality Improvement", description: "Photos that need editing but where users lack editing skills are significantly improved through automatic AI enhancement that handles the technical decisions" },
+      { title: "Batch Efficiency", description: "Photographers who shoot many photos benefit from batch enhancement that improves entire shoots without individual editing" },
+      { title: "Consistent Results", description: "AI enhancement that applies consistent criteria to all photos produces more uniform quality across a photo collection than manual editing with varying attention" },
+      { title: "Time Savings", description: "Professional-quality photo editing that normally takes minutes per photo is reduced to seconds through AI automation" }
+    ],
+    useCases: [
+      { title: "Amateur Photographers", description: "People who take many photos but lack editing skills use Photiu.ai for automatic quality improvement" },
+      { title: "Social Media Users", description: "People who want their photos to look great for social sharing use AI enhancement for quick improvement" },
+      { title: "Small Photography Businesses", description: "Photographers who shoot events use batch enhancement for faster delivery of edited photos to clients" }
+    ]
+  },
+  "autodraft-ai": {
+    whatIs: "AutoDraft AI is an AI-powered drawing and design assistance tool that helps architects, designers, and engineers create technical drawings and design concepts faster. It uses AI to generate draft designs from descriptions, assist with technical drawing tasks, and help iterate on design concepts. For design professionals who want AI assistance in their drafting and design workflow, AutoDraft AI provides intelligent design generation that accelerates the early stages of technical design work.",
+    features: [
+      "AI Design Generation: Create draft designs from descriptions",
+      "Technical Drawing Assistance: Help with architectural and engineering drawings",
+      "Concept Iteration: Quickly explore multiple design directions",
+      "Design Suggestions: AI recommendations for design improvements",
+      "Template Library: Starting templates for common design types",
+      "Export Options: Export designs in standard formats",
+      "Collaboration Tools: Share designs with team members",
+      "Free Trial: Try design assistance before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Autodraft Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Design Need", description: "Sign up at autodraft.ai and describe the design you need to create - building layout, product design, or other technical design." },
+        { title: "Review Generated Drafts", description: "AutoDraft AI generates initial design concepts from your description. Review the generated options and identify the most promising direction." },
+        { title: "Refine and Export", description: "Refine your chosen design direction and export in the format required for your workflow or client presentation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Concept Speed", description: "The early concept phase of design projects that involves exploring many directions is accelerated by AI that generates multiple concepts quickly" },
+      { title: "Technical Starting Points", description: "AI-generated drafts that serve as starting points are faster to refine into finished designs than starting from a blank canvas" },
+      { title: "Iteration Efficiency", description: "Quickly generating variations on a design direction allows more thorough exploration before committing to a final approach" },
+      { title: "Accessibility", description: "Design capabilities that previously required extensive technical training are made more accessible through AI assistance that handles initial generation" }
+    ],
+    useCases: [
+      { title: "Architects and Designers", description: "Design professionals use AutoDraft AI for faster concept development and design exploration" },
+      { title: "Engineering Teams", description: "Engineers use AI design assistance for initial concept generation in their design process" },
+      { title: "Design Students", description: "Students use AI drafting tools for learning and rapid concept development" }
+    ]
+  },
+  "hippist-ai": {
+    whatIs: "Hippist AI is an AI creative platform that generates artistic and stylized images with a focus on unique aesthetic styles and creative visual expression. It provides AI image generation with distinctive visual styles that differentiate it from mainstream generation tools. For creators who want AI-generated images with unique and interesting aesthetic qualities, Hippist AI provides creative generation with a distinctive visual identity.",
+    features: [
+      "Unique Style Generation: AI images with distinctive aesthetic qualities",
+      "Artistic Expression: Generation focused on creative visual output",
+      "Style Variety: Multiple unique artistic approaches",
+      "Text to Image: Generate images from text descriptions",
+      "High Quality Output: Professional-quality artistic generation",
+      "Creative Tools: Additional tools for creative image development",
+      "Fast Generation: Quick results for creative exploration",
+      "Free Credits: Try generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Hippist Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Vision", description: "Sign up at hippist.ai and describe the artistic image you want to create. Include aesthetic preferences and style references." },
+        { title: "Explore Styles", description: "Try different style options available on the platform to find the aesthetic that matches your creative vision." },
+        { title: "Generate and Refine", description: "Generate your image and refine your prompt based on the result. Explore variations to find your ideal creative output." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Aesthetic Differentiation", description: "Distinctive visual styles that differ from mainstream AI generation tools produce images with unique character that stand out" },
+      { title: "Creative Expression", description: "AI generation focused on artistic quality rather than photorealism serves creators who want expressive rather than documentary-style imagery" },
+      { title: "Style Discovery", description: "Exploring different aesthetic styles through AI generation helps creators discover visual directions they might not have considered" },
+      { title: "Creative Portfolio", description: "Unique AI-generated artwork adds variety and distinctive pieces to creative portfolios" }
+    ],
+    useCases: [
+      { title: "Digital Artists", description: "Artists use Hippist AI for distinctive AI-generated artwork with unique aesthetic qualities" },
+      { title: "Creative Professionals", description: "Designers and creatives use the platform for visually distinctive image generation" },
+      { title: "AI Art Enthusiasts", description: "People who collect and create AI art use Hippist AI for unique aesthetic styles" }
+    ]
+  },
+  "ai-face-swap": {
+    whatIs: "AI Face Swap is a face swapping tool that uses artificial intelligence to replace faces in photos and videos with other faces. Users select a target photo and a source face and the AI seamlessly blends the source face onto the target image with matched lighting, skin tone, and perspective. The tool is used for entertainment, creative projects, and content creation. For users who want to create fun face swap content for entertainment purposes, AI Face Swap provides accessible AI-powered face replacement.",
+    features: [
+      "Photo Face Swap: Replace faces in photos with AI precision",
+      "Video Face Swap: Swap faces in video content",
+      "Realistic Blending: AI matches lighting and skin tone for natural results",
+      "Multiple Faces: Swap multiple faces in group photos",
+      "Quick Processing: Fast face swap results",
+      "High Quality Output: Clean professional face swap results",
+      "Entertainment Focus: Designed for fun and creative use",
+      "Free to Try: Basic face swapping without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Face Swap",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photos", description: "Go to the AI Face Swap platform and upload the target photo and the source face photo you want to use." },
+        { title: "Apply the Swap", description: "The AI processes your images and applies the face swap with matched lighting and perspective. Review the result." },
+        { title: "Download Your Creation", description: "Download your face-swapped image for entertainment sharing or creative project use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Entertainment Value", description: "Face swap content that places your face in different scenarios is genuinely entertaining for personal and social sharing" },
+      { title: "Creative Projects", description: "Filmmakers and content creators use face swapping for creative projects and humorous content" },
+      { title: "Technical Quality", description: "AI face blending that matches lighting and skin tone produces more realistic results than simple overlay approaches" },
+      { title: "Accessibility", description: "Creating convincing face swaps previously required significant video editing expertise. AI tools that handle the technical blending make this accessible to anyone" }
+    ],
+    useCases: [
+      { title: "Entertainment and Social Media Users", description: "People creating fun content for personal sharing use face swap tools for entertaining photos and videos" },
+      { title: "Content Creators", description: "YouTube and social media creators use face swapping for comedy and creative content" },
+      { title: "Filmmakers", description: "Independent filmmakers use face swap technology for creative and practical production purposes" }
+    ]
+  },
+  "faceswapper": {
+    whatIs: "FaceSwapper is an AI face swapping platform that exchanges faces between photos with realistic blending and natural-looking results. It applies the source face to the target image with appropriate lighting adjustment, perspective matching, and seamless edge blending. The platform handles both still photos and video content. For users who want realistic face swaps for entertainment and creative purposes, FaceSwapper provides AI-powered face exchange with quality results.",
+    features: [
+      "Realistic Face Swap: AI-powered face exchange with natural blending",
+      "Photo Swapping: Swap faces in portrait and group photos",
+      "Video Support: Face swapping in video clips",
+      "Lighting Matching: AI adjusts for consistent lighting between faces",
+      "Multiple Face Support: Handle group photos with multiple faces",
+      "Quick Results: Fast processing for immediate results",
+      "Download Options: Save results in standard formats",
+      "Free to Try: Basic swapping without payment"
+    ],
+    howToUse: {
+      title: "How to Use Faceswapper",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Images", description: "Go to faceswapper.ai and upload the target image and source face image you want to swap." },
+        { title: "Generate Your Swap", description: "The AI performs the face swap with matched lighting and seamless blending. Review the result for quality." },
+        { title: "Download and Share", description: "Download your face-swapped image for entertainment or creative use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Quality Blending", description: "Face swaps that blend naturally with matched lighting and perspective look more convincing than simple overlay replacements" },
+      { title: "Entertainment Creation", description: "Creating entertaining face swap content for sharing with friends and family is one of the most popular uses of consumer AI image tools" },
+      { title: "Video Capability", description: "Face swapping in video that maintains consistency across frames requires AI processing that handles temporal consistency" },
+      { title: "Variety of Applications", description: "Face swapping serves entertainment, creative film projects, and various other legitimate content creation purposes" }
+    ],
+    useCases: [
+      { title: "Social Media Content Creators", description: "Creators use FaceSwapper for entertaining and engaging face swap content" },
+      { title: "Entertainment Users", description: "People use face swapping for fun personal content with friends and family" },
+      { title: "Creative Filmmakers", description: "Independent filmmakers use face swap technology for creative production work" }
+    ]
+  },
+  "deepfake-maker": {
+    whatIs: "Deepfake Maker is an AI video face swapping tool that replaces faces in videos with other faces using deep learning technology. It processes video content to swap faces frame by frame while maintaining temporal consistency and natural-looking results. The tool is used for entertainment content, creative projects, and video production. For video content creators who want AI face replacement capabilities, Deepfake Maker provides accessible video face swapping.",
+    features: [
+      "Video Face Swap: Replace faces in video content with AI",
+      "Deep Learning Processing: High-quality face replacement using neural networks",
+      "Temporal Consistency: Maintains natural appearance across video frames",
+      "Realistic Results: Natural-looking face replacement in video",
+      "Multiple Formats: Works with common video formats",
+      "Processing Quality: Prioritizes result quality in processing",
+      "Entertainment Focus: Designed for creative and entertainment use",
+      "Free to Try: Basic video face swapping without payment"
+    ],
+    howToUse: {
+      title: "How to Use Deepfake Maker",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Go to the Deepfake Maker platform and upload the video you want to process along with the source face image." },
+        { title: "Configure Your Swap", description: "Set the face swap parameters and processing quality settings for your video." },
+        { title: "Process and Download", description: "The AI processes your video and applies the face swap throughout. Download the completed video when processing finishes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Video Consistency", description: "Face swapping in video requires maintaining consistency across many frames where the subject moves and changes expression. AI that handles this temporal challenge produces more watchable results" },
+      { title: "Creative Production", description: "Video creators who need face replacement for creative projects benefit from accessible AI tools that handle the technical complexity" },
+      { title: "Entertainment Applications", description: "Placing different faces in video scenarios creates entertaining content that is one of the most recognizable applications of modern AI video technology" },
+      { title: "Technical Achievement", description: "Convincing video face replacement that maintains natural appearance demonstrates the significant capability advance in AI video processing" }
+    ],
+    useCases: [
+      { title: "Video Content Creators", description: "YouTube and social media creators use video face swapping for creative and entertaining content" },
+      { title: "Entertainment Users", description: "People create entertaining face swap videos for personal sharing and amusement" },
+      { title: "Independent Filmmakers", description: "Creative filmmakers use face replacement technology for practical and artistic production purposes" }
+    ]
+  },
+  "kittl": {
+    whatIs: "Kittl is a professional online design platform that provides a comprehensive suite of tools for creating logos, brand assets, merchandise designs, and marketing materials. It combines a large library of professional templates with powerful design tools including AI image generation, vector editing, and typography features. Kittl is particularly popular with small businesses, print-on-demand sellers, and brand designers who need professional design capabilities without advanced design software expertise.",
+    features: [
+      "Template Library: Thousands of professional design templates",
+      "AI Image Generation: Create custom images directly within Kittl",
+      "Logo Design: Professional logo creation tools and templates",
+      "Vector Editing: Edit and customize vector design elements",
+      "Typography Tools: Advanced font and text layout capabilities",
+      "Print-on-Demand Ready: Designs optimized for merchandise production",
+      "Brand Asset Creation: Complete brand kit development",
+      "Free Plan: Basic design access without payment"
+    ],
+    howToUse: {
+      title: "How to Use Kittl",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Sign up at kittl.com and browse the template library. Select a template that matches your design goal and brand aesthetic." },
+        { title: "Customize Your Design", description: "Edit the template with your brand colors, fonts, and content. Use the AI image generator for custom visual elements." },
+        { title: "Export Your Design", description: "Download your finished design in the format needed for your use - print production, web use, or brand asset files." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Template Quality", description: "Professional templates designed by skilled designers provide a quality starting point that individual users can customize rather than designing from scratch" },
+      { title: "Print Production Integration", description: "Designs optimized for print-on-demand merchandise production reduce the technical friction of getting designs into physical product form" },
+      { title: "AI Generation Integration", description: "Having AI image generation built into the design platform allows creating custom visual elements without leaving the design workflow" },
+      { title: "Accessible Professional Design", description: "Design capabilities that previously required Adobe Illustrator skills are accessible through Kittl more approachable interface" }
+    ],
+    useCases: [
+      { title: "Print-on-Demand Sellers", description: "Merchandise sellers use Kittl for product designs for t-shirts, mugs, and other print-on-demand items" },
+      { title: "Small Business Brand Designers", description: "Business owners use Kittl for logo design and brand asset creation without professional designer costs" },
+      { title: "Marketing Professionals", description: "Marketers create promotional materials and social media graphics using Kittl professional templates" }
+    ]
+  },
+  "beautyplus": {
+    whatIs: "BeautyPlus is an AI-powered beauty camera and photo editing app that provides real-time beauty filters, skin retouching, makeup application, and photo enhancement. It is one of the most popular beauty camera apps globally, offering sophisticated AI-powered face detection and enhancement features that make photos and videos look their best. For users who want professional-looking beauty enhancement for their selfies, video calls, and social media photos, BeautyPlus provides accessible AI beauty technology.",
+    features: [
+      "Real-Time Beauty Filters: Live beauty enhancement during photo and video capture",
+      "Skin Retouching: AI-powered blemish removal and skin smoothing",
+      "Makeup Application: Virtual makeup try-on and application",
+      "Body Retouch: AI body adjustment and enhancement tools",
+      "Background Tools: Background blur, replacement, and effects",
+      "Video Beautification: Real-time enhancement for video calls",
+      "Stickers and Effects: Creative photo decoration features",
+      "Free to Use: Basic beauty features without payment"
+    ],
+    howToUse: {
+      title: "How to Use Beautyplus",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open the Camera", description: "Download BeautyPlus and open the beauty camera. The AI immediately applies real-time enhancement through the live camera view." },
+        { title: "Adjust Your Settings", description: "Customize the enhancement intensity, makeup style, and other beauty settings to match your preferences." },
+        { title: "Capture and Share", description: "Take your photos or videos with beauty enhancement applied. Share directly to social media or save for later use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Enhancement", description: "Beauty filters that work in real time during capture rather than requiring post-processing allow sharing immediately without additional editing steps" },
+      { title: "Face Detection Sophistication", description: "Accurate face detection that places makeup and enhancement features precisely produces more natural-looking results than imprecise filters" },
+      { title: "Comprehensive Beauty", description: "Having skin retouching, makeup, body enhancement, and background tools in one app covers the full range of photo beauty needs" },
+      { title: "Global Popularity", description: "Wide adoption that reflects genuine user satisfaction and consistent quality across different face types and photo conditions" }
+    ],
+    useCases: [
+      { title: "Selfie and Social Media Users", description: "People who frequently take selfies use BeautyPlus for consistently flattering self-portraits" },
+      { title: "Video Call Users", description: "Professionals and individuals use BeautyPlus beauty filters for more polished video call appearances" },
+      { title: "Content Creators", description: "Social media creators use the app for consistently beautiful photos and videos across their content" }
+    ]
+  },
+  "fotor": {
+    whatIs: "Fotor is a comprehensive online photo editor and design tool that combines photo editing, collage making, graphic design, and AI-powered enhancement in a single platform. It provides a wide range of editing tools from basic adjustments to advanced retouching, alongside design templates for social media, marketing, and print. Fotor serves as an accessible alternative to Photoshop for everyday photo editing and design needs. For users who want a powerful all-in-one photo editing and design solution in a web browser, Fotor provides professional capabilities without software installation.",
+    features: [
+      "Photo Editing: Comprehensive photo editing tools and adjustments",
+      "AI Enhancement: One-click AI photo improvement",
+      "Design Templates: Social media and marketing templates",
+      "Collage Maker: Photo collage creation with many layouts",
+      "Background Remover: AI background removal tool",
+      "Portrait Retouching: Face and beauty enhancement tools",
+      "HDR Effects: High dynamic range photo processing",
+      "Free Plan: Basic editing and design without payment"
+    ],
+    howToUse: {
+      title: "How to Use Fotor",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open Your Photo or Project", description: "Go to fotor.com and upload a photo to edit or start a new design project from the template library." },
+        { title: "Apply Your Edits", description: "Use the comprehensive editing tools to enhance your photo. Try the AI one-click enhancement for automatic improvement." },
+        { title: "Save and Export", description: "Download your edited photo or design in the appropriate format for your intended use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "All-in-One Convenience", description: "Photo editing, collage making, and graphic design in one platform reduces the need for multiple specialized tools" },
+      { title: "Web Accessibility", description: "Browser-based editing that requires no software installation is practical for users who work across multiple devices or prefer not to install software" },
+      { title: "AI Enhancement Speed", description: "One-click AI enhancement that automatically improves photos provides quick results for users who want improvement without manual editing work" },
+      { title: "Template Quality", description: "Professional design templates that users customize produce better results faster than designing from scratch" }
+    ],
+    useCases: [
+      { title: "Everyday Photo Editors", description: "People who regularly edit personal and professional photos use Fotor for accessible photo enhancement" },
+      { title: "Small Business Owners", description: "Business owners create marketing materials using Fotor's design templates" },
+      { title: "Social Media Content Creators", description: "Content creators use Fotor for photo editing and social media graphic creation" }
+    ]
+  },
+  "vsco": {
+    whatIs: "VSCO is a photo editing app and creative community platform known for its sophisticated film-inspired filters and advanced editing tools. It provides a curated selection of high-quality presets that replicate the look of analog film photography alongside manual editing controls. VSCO also operates as a creative community where photographers share their work and discover inspiration. For photographers and visual creatives who want a refined, film-aesthetic photo editing experience, VSCO provides the most respected mobile photo editing platform in its category.",
+    features: [
+      "Film Presets: Curated film-inspired photo filters",
+      "Advanced Editing: Professional-level manual editing controls",
+      "Creative Community: Photo sharing and discovery platform",
+      "Video Editing: Video editing with VSCO aesthetic",
+      "VSCO X: Expanded preset library through subscription",
+      "Aesthetic Consistency: Maintain consistent visual style across photos",
+      "RAW Support: Edit RAW files from professional cameras",
+      "Free Plan: Core editing features without payment"
+    ],
+    howToUse: {
+      title: "How to Use Vsco",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Photo", description: "Download VSCO and import the photo you want to edit. VSCO works with both phone camera photos and imported images." },
+        { title: "Apply Your Preset", description: "Browse the preset library and apply the film-inspired filter that matches your desired aesthetic. Adjust intensity to taste." },
+        { title: "Fine-Tune Your Edit", description: "Use the manual editing controls to fine-tune exposure, contrast, skin tone, and other parameters. Save your edited photo to your VSCO journal." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Aesthetic Quality", description: "VSCO presets developed with attention to analog photography aesthetics produce more sophisticated and nuanced results than generic photo filters" },
+      { title: "Consistency Tool", description: "Photographers who apply the same preset approach to their work maintain a consistent visual style that defines their photographic identity" },
+      { title: "Community Value", description: "A curated creative community of photographers sharing quality work provides genuine creative inspiration and feedback" },
+      { title: "Film Photography Appreciation", description: "VSCO serves the significant community of photographers who appreciate the look of analog film in the context of digital photography" }
+    ],
+    useCases: [
+      { title: "Mobile Photographers", description: "Phone photographers who take their photography seriously use VSCO for sophisticated editing and aesthetic development" },
+      { title: "Instagram Content Creators", description: "Social media photographers use VSCO for consistent high-quality editing that maintains their visual brand" },
+      { title: "Photography Enthusiasts", description: "People who are passionate about photography use VSCO for the film-inspired aesthetic and creative community" }
+    ]
+  },
   "deepany-ai": {
     whatIs: "DeepAny.AI is an AI image generation and editing platform that provides text-to-image generation, image editing, and various AI creative tools. It offers multiple AI models for different generation styles and use cases, making it a versatile platform for creating and modifying visual content. For creators who want access to multiple AI image capabilities in one place, DeepAny.AI provides a comprehensive AI visual creation toolkit.",
     features: [
