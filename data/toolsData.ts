@@ -483,7 +483,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "movavi", name: "Movavi", description: "Professional AI video editing software", url: "", upvotes: 1089, verified: true, rating: 4.4, icon: "🎭", category: "video-animation", subcategory: "ai-video-editor" }
     ],
     "ai-video-enhancer": [
-      { id: "hitpaw-vikpea", name: "HitPaw VikPea", description: "AI video enhancement and upscaling", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "📈", category: "video-animation", subcategory: "ai-video-enhancer" },
       { id: "anyenhancer", name: "AnyEnhancer", description: "Universal AI video enhancement tool", url: "", upvotes: 1156, verified: true, rating: 4.5, icon: "✨", category: "video-animation", subcategory: "ai-video-enhancer" },
       { id: "wondershare-filmora", name: "Wondershare Filmora", description: "AI-powered video editing and enhancement", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "🎬", category: "video-animation", subcategory: "ai-video-enhancer" },
       { id: "topaz-labs", name: "Topaz Labs", description: "Professional AI video enhancement", url: "", upvotes: 876, verified: true, rating: 4.3, icon: "💎", category: "video-animation", subcategory: "ai-video-enhancer" },
@@ -519,7 +518,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "eightify", name: "Eightify", description: "AI YouTube video summarization", url: "", upvotes: 621, verified: true, rating: 4.2, icon: "8️⃣", category: "video-animation", subcategory: "ai-video-summarizer" }
     ],
     "ai-video-upscaler": [
-      { id: "hitpaw-vikpea-upscaler", name: "HitPaw VikPea", description: "AI video upscaling and enhancement", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "📈", category: "video-animation", subcategory: "ai-video-upscaler" },
       { id: "anyenhancer-upscaler", name: "AnyEnhancer", description: "Universal AI video upscaling", url: "", upvotes: 1156, verified: true, rating: 4.5, icon: "✨", category: "video-animation", subcategory: "ai-video-upscaler" },
       { id: "nero", name: "Nero", description: "Professional AI video upscaling", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "🔥", category: "video-animation", subcategory: "ai-video-upscaler" },
       { id: "avclabs", name: "AVCLabs", description: "Advanced AI video processing lab", url: "", upvotes: 754, verified: true, rating: 4.3, icon: "🧪", category: "video-animation", subcategory: "ai-video-upscaler" },
@@ -662,7 +660,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-voice-changer": [
       { id: "voicemod", name: "Voicemod", description: "Real-time voice changer and modulator", url: "", upvotes: 1890, verified: true, rating: 4.7, icon: "🎤", category: "voice-generation-conversion", subcategory: "ai-voice-changer" },
       { id: "voice-ai", name: "Voice.ai", description: "AI voice changer for gaming and streaming", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🎮", category: "voice-generation-conversion", subcategory: "ai-voice-changer" },
-      { id: "hitpaw-voicepea", name: "HitPaw VoicePea", description: "AI voice changer and effects", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🥒", category: "voice-generation-conversion", subcategory: "ai-voice-changer" },
       { id: "vozard", name: "Vozard", description: "Voice changer with AI effects", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🎭", category: "voice-generation-conversion", subcategory: "ai-voice-changer" },
       { id: "easeus-voice", name: "EaseUS", description: "AI voice changing software", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🛠️", category: "voice-generation-conversion", subcategory: "ai-voice-changer" }
     ],
@@ -852,7 +849,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "picsart", name: "Picsart", description: "Creative photo editing and design app", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🎭", category: "image-generation-editing", subcategory: "ai-photo-editor" }
     ],
     "ai-photo-enhancer": [
-      { id: "hitpaw-fotorpea", name: "HitPaw FotorPea", description: "AI photo enhancement software", url: "", upvotes: 789, verified: true, rating: 4.6, icon: "🌟", category: "image-generation-editing", subcategory: "ai-photo-enhancer" },
       { id: "remini", name: "Remini", description: "AI photo and video enhancer", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "✨", category: "image-generation-editing", subcategory: "ai-photo-enhancer" },
       { id: "vanceai", name: "VanceAI", description: "Professional AI photo enhancement suite", url: "", upvotes: 678, verified: true, rating: 4.5, icon: "🚀", category: "image-generation-editing", subcategory: "ai-photo-enhancer" },
     ],
@@ -2935,7 +2931,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-audio-enhancer": [
       { id: "audeo-ai", name: "audeo.ai", description: "AI-powered audio enhancement platform", url: "", upvotes: 2156, verified: true, rating: 4.7, icon: "✨", category: "music-audio", subcategory: "ai-audio-enhancer" },
       { id: "unifab", name: "UniFab", description: "Advanced audio enhancement suite", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🎚️", category: "music-audio", subcategory: "ai-audio-enhancer" },
-      { id: "ai-mastering-enhance", name: "AI Mastering", description: "Intelligent audio mastering service", url: "", upvotes: 1765, verified: true, rating: 4.5, icon: "🎛️", category: "music-audio", subcategory: "ai-audio-enhancer" },
       { id: "hance-ai", name: "Hance.ai", description: "Professional audio enhancement with AI", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🔊", category: "music-audio", subcategory: "ai-audio-enhancer" },
       { id: "xound-io", name: "Xound.io", description: "AI-powered sound enhancement", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "📢", category: "music-audio", subcategory: "ai-audio-enhancer" }
     ],
@@ -2995,7 +2990,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-noise-cancellation": [
       { id: "lalal-ai", name: "LALAL.AI", description: "AI-powered noise removal tool", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🔇", category: "music-audio", subcategory: "ai-noise-cancellation" },
       { id: "krisp", name: "Krisp", description: "Real-time noise cancellation", url: "", upvotes: 2156, verified: true, rating: 4.7, icon: "🎙️", category: "music-audio", subcategory: "ai-noise-cancellation" },
-      { id: "easeus-vocal-remover-nc", name: "EaseUS Vocal Remover", description: "Remove background noise from audio", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🔊", category: "music-audio", subcategory: "ai-noise-cancellation" },
       { id: "audio-enhancer-nc", name: "Audio Enhancer", description: "Enhance audio by removing noise", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "✨", category: "music-audio", subcategory: "ai-noise-cancellation" }
     ],
     "ai-rap-generator": [
@@ -3025,9 +3019,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "covers-ai", name: "Covers.ai", description: "Generate song covers with AI voices", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🎧", category: "music-audio", subcategory: "ai-song-cover" }
     ],
     "ai-song-generator": [
-      { id: "riffusion-song", name: "Riffusion", description: "Generate complete songs from text", url: "", upvotes: 2456, verified: true, rating: 4.9, icon: "🎸", category: "music-audio", subcategory: "ai-song-generator" },
       { id: "udio-song", name: "Udio", description: "AI-powered song creation", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🎵", category: "music-audio", subcategory: "ai-song-generator" },
-      { id: "mureka-song", name: "Mureka", description: "Create original songs with AI", url: "", upvotes: 2234, verified: true, rating: 4.7, icon: "🎶", category: "music-audio", subcategory: "ai-song-generator" },
       { id: "topmediai-song", name: "TopMediai", description: "AI song generation platform", url: "", upvotes: 2123, verified: true, rating: 4.6, icon: "🎼", category: "music-audio", subcategory: "ai-song-generator" },
       { id: "songgenerator-io", name: "SongGenerator.io", description: "Generate songs instantly", url: "", upvotes: 2012, verified: true, rating: 4.5, icon: "🎹", category: "music-audio", subcategory: "ai-song-generator" }
     ],
@@ -3035,12 +3027,9 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "polymath-remix", name: "Polymath", description: "AI music remixing tool", url: "", upvotes: 2156, verified: true, rating: 4.7, icon: "🎛️", category: "music-audio", subcategory: "ai-song-remixer" },
       { id: "twoshot", name: "TwoShot", description: "AI-powered music remixing", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🎵", category: "music-audio", subcategory: "ai-song-remixer" },
       { id: "remixly-ai", name: "Remixly AI", description: "Intelligent song remixing", url: "", upvotes: 1765, verified: true, rating: 4.5, icon: "🎶", category: "music-audio", subcategory: "ai-song-remixer" },
-      { id: "fadr-remix", name: "Fadr", description: "AI remix and mashup creator", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🎚️", category: "music-audio", subcategory: "ai-song-remixer" },
-      { id: "ai-song-maker-remix", name: "AI Song Maker", description: "Create remixes with AI", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🎧", category: "music-audio", subcategory: "ai-song-remixer" }
     ],
     "ai-sound-effect-generator": [
       { id: "fliflik-voice-changer", name: "FliFlik Voice Changer", description: "Voice and sound effect generator", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🎵", category: "music-audio", subcategory: "ai-sound-effect-generator" },
-      { id: "musichero-ai-sfx", name: "MusicHero.ai", description: "Generate sound effects with AI", url: "", upvotes: 1765, verified: true, rating: 4.5, icon: "🦸", category: "music-audio", subcategory: "ai-sound-effect-generator" },
       { id: "coverr-sounds", name: "Coverr", description: "Free sound effects library", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "📚", category: "music-audio", subcategory: "ai-sound-effect-generator" }
     ],
     "ai-splitter": [
@@ -3051,23 +3040,18 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-stems-splitter": [
       { id: "moises", name: "Moises", description: "AI-powered stems separation", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🎵", category: "music-audio", subcategory: "ai-stems-splitter" },
-      { id: "easeus-vocal-remover-stems", name: "EaseUS Vocal Remover", description: "Extract stems from tracks", url: "", upvotes: 2156, verified: true, rating: 4.7, icon: "🎶", category: "music-audio", subcategory: "ai-stems-splitter" },
-      { id: "fadr-stems", name: "Fadr", description: "Split songs into stems", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🎚️", category: "music-audio", subcategory: "ai-stems-splitter" },
       { id: "loudly", name: "Loudly", description: "AI stems extraction tool", url: "", upvotes: 1765, verified: true, rating: 4.5, icon: "🔊", category: "music-audio", subcategory: "ai-stems-splitter" },
       { id: "musicfy-ai", name: "Musicfy AI", description: "Separate music into stems", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🎧", category: "music-audio", subcategory: "ai-stems-splitter" }
     ],
     "ai-text-to-music": [
-      { id: "musichero-ai-ttm", name: "MusicHero.ai", description: "Convert text to music with AI", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🦸", category: "music-audio", subcategory: "ai-text-to-music" },
       { id: "aimusicgen-ai", name: "AIMusicGen.ai", description: "Generate music from text prompts", url: "", upvotes: 2156, verified: true, rating: 4.7, icon: "🎵", category: "music-audio", subcategory: "ai-text-to-music" },
       { id: "beatoven-ai", name: "Beatoven.ai", description: "Text-to-music generation platform", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🎶", category: "music-audio", subcategory: "ai-text-to-music" },
       { id: "music-muse-ai", name: "Music Muse AI", description: "Create music from text descriptions", url: "", upvotes: 1765, verified: true, rating: 4.5, icon: "🎼", category: "music-audio", subcategory: "ai-text-to-music" },
       { id: "melobytes", name: "Melobytes.com", description: "Text to music converter", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🎹", category: "music-audio", subcategory: "ai-text-to-music" }
     ],
     "ai-vocal-remover": [
-      { id: "easeus-vocal-remover-main", name: "EaseUS Vocal Remover", description: "Remove vocals from any song", url: "", upvotes: 2456, verified: true, rating: 4.9, icon: "🎤", category: "music-audio", subcategory: "ai-vocal-remover" },
       { id: "easeus-tools", name: "EaseUS", description: "Professional vocal removal tools", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🔧", category: "music-audio", subcategory: "ai-vocal-remover" },
       { id: "dubbing-ai", name: "Dubbing AI", description: "AI-powered vocal extraction", url: "", upvotes: 2123, verified: true, rating: 4.6, icon: "🎶", category: "music-audio", subcategory: "ai-vocal-remover" },
-      { id: "splitter-ai-vocal", name: "Splitter.ai", description: "Precise vocal removal", url: "", upvotes: 2012, verified: true, rating: 4.5, icon: "✂️", category: "music-audio", subcategory: "ai-vocal-remover" }
     ],
     "chord-ai": [
       { id: "chordchord", name: "ChordChord", description: "AI chord recognition and generation", url: "", upvotes: 2156, verified: true, rating: 4.7, icon: "🎸", category: "music-audio", subcategory: "chord-ai" },
