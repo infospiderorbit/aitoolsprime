@@ -1,4 +1,466 @@
 export const toolsProductInfo5: { [key: string]: any } = {
+  "pixlr": {
+    whatIs: "Pixlr is a comprehensive online photo editing suite that provides professional-level editing tools accessible through a web browser. It offers two main products - Pixlr E for advanced photo editing similar to Photoshop and Pixlr X for quick and simple edits - alongside AI-powered features including background removal, generative AI fill, and one-click enhancements. For users who want professional photo editing capabilities without installing expensive desktop software, Pixlr provides powerful browser-based editing that works on any device.",
+    features: [
+      "Advanced Photo Editor: Full-featured editing suite similar to desktop software",
+      "Quick Editor: Simple editing for fast results",
+      "AI Background Removal: One-click subject isolation",
+      "Generative AI Fill: AI-powered content generation for photo editing",
+      "Layer Support: Professional non-destructive editing with layers",
+      "Templates: Design templates for social media and marketing",
+      "Filter Library: Extensive collection of photo filters and effects",
+      "Free Plan: Substantial free editing without payment"
+    ],
+    howToUse: {
+      title: "How to Use Pixlr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Editor", description: "Go to pixlr.com and select Pixlr E for advanced editing or Pixlr X for quick simple edits based on your needs." },
+        { title: "Open Your Image", description: "Upload the photo you want to edit. Pixlr loads your image and presents the editing interface." },
+        { title: "Edit and Export", description: "Apply your edits using the available tools. Export your finished photo in your required format." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Desktop Software Replacement", description: "Professional photo editing that previously required expensive desktop software is accessible through a browser without any installation" },
+      { title: "Two-Level Approach", description: "Offering both advanced and simple editors serves users at different skill levels rather than forcing beginners into complex interfaces or limiting advanced users" },
+      { title: "AI Integration", description: "AI-powered features like generative fill and background removal integrated into a traditional photo editor modernize the editing workflow" },
+      { title: "Cross-Device Access", description: "Browser-based editing that works on any device allows editing from computers, tablets, or any device with a browser" }
+    ],
+    useCases: [
+      { title: "Photographers and Retouchers", description: "Photo editing professionals use Pixlr as a capable browser-based alternative to desktop editing software" },
+      { title: "Small Business Owners", description: "Business owners edit product and marketing photos using Pixlr without desktop software costs" },
+      { title: "Students and Learners", description: "People learning photo editing use Pixlr for accessible professional-level editing practice" }
+    ]
+  },
+  "picsart": {
+    whatIs: "PicsArt is one of the most popular mobile photo and video editing apps globally, providing an extensive suite of creative tools including photo editing, collage making, drawing tools, AI-powered effects, and a social creative community. The app offers professional-quality editing features alongside fun creative effects and a community where users share and remix each other's creations. For mobile creative users who want comprehensive photo editing and creative expression in one app, PicsArt provides the most feature-rich mobile creative platform.",
+    features: [
+      "Photo Editing: Professional editing tools on mobile",
+      "AI Effects: AI-powered creative effects and transformations",
+      "Collage Maker: Create multi-photo collages",
+      "Drawing Tools: Digital drawing and illustration features",
+      "Background Remover: AI subject isolation",
+      "Video Editing: Edit and enhance video content",
+      "Creative Community: Share and discover creations with millions of users",
+      "Free to Use: Core features without payment"
+    ],
+    howToUse: {
+      title: "How to Use Picsart",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open Your Photo or Project", description: "Download PicsArt and open a photo to edit or start a new creative project from scratch." },
+        { title: "Apply Your Creative Tools", description: "Use the editing tools, AI effects, and creative features to transform your photo. Explore the vast library of effects, stickers, and overlays." },
+        { title: "Share with the Community", description: "Save your creation and share it to the PicsArt community. Discover and remix other creators work for collaborative inspiration." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Feature Breadth", description: "Combining photo editing, video editing, drawing, and collage in one app eliminates the need for multiple creative apps on mobile" },
+      { title: "Community Creativity", description: "A large creative community that shares and remixes work creates a collaborative creative ecosystem that individual tools cannot match" },
+      { title: "AI Enhancement", description: "AI-powered effects that produce sophisticated creative transformations make advanced effects accessible without technical skill" },
+      { title: "Mobile First", description: "A mobile-first design philosophy that makes all features work intuitively on phone screens serves the majority of users who create primarily on mobile" }
+    ],
+    useCases: [
+      { title: "Mobile Creative Users", description: "People who create and edit content primarily on their phones use PicsArt for comprehensive creative capabilities" },
+      { title: "Social Media Content Creators", description: "Creators who produce visual content for social platforms use PicsArt for editing and creative enhancement" },
+      { title: "Young Creatives", description: "Younger audiences who grew up with mobile-first content creation use PicsArt as their primary creative platform" }
+    ]
+  },
+  "hitpaw-foto": {
+    whatIs: "HitPaw Photo AI is an AI-powered photo enhancement software suite that provides upscaling, face enhancement, denoising, and photo restoration capabilities through an easy-to-use desktop application. It uses deep learning models trained on millions of images to produce professional-quality photo enhancement results without requiring photo editing expertise. For users who want AI-powered photo enhancement in a straightforward desktop application, HitPaw Photo AI provides powerful capabilities with a simple workflow.",
+    features: [
+      "AI Upscaling: Enlarge photos up to 8x without quality loss",
+      "Face Enhancement: AI-powered portrait improvement",
+      "Photo Denoising: Remove grain and noise from photos",
+      "Photo Restoration: Repair old or damaged photos",
+      "Colorization: Add color to black and white photos",
+      "Batch Processing: Enhance multiple photos at once",
+      "Preview Mode: See enhancement results before applying",
+      "Free Trial: Try all features before purchasing"
+    ],
+    howToUse: {
+      title: "How to Use Hitpaw Foto",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Photos", description: "Download HitPaw Photo AI and import the photos you want to enhance. The software accepts all standard image formats." },
+        { title: "Choose Enhancement Type", description: "Select the appropriate enhancement - upscaling, face enhancement, denoising, or restoration - based on what your photos need." },
+        { title: "Process and Export", description: "Apply the enhancement and export your improved photos. Batch processing handles multiple files efficiently." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Suite Value", description: "Multiple enhancement types in one application eliminate the need for separate tools for upscaling, denoising, and restoration" },
+      { title: "Desktop Processing", description: "Local desktop processing that handles files without cloud upload maintains privacy for personal photo collections" },
+      { title: "Simple Interface", description: "AI enhancement tools with straightforward interfaces that do not require photo editing expertise make professional-quality enhancement accessible" },
+      { title: "Preview Capability", description: "Seeing enhancement results before applying allows users to evaluate the improvement before committing to processing time" }
+    ],
+    useCases: [
+      { title: "Home Users with Photo Collections", description: "People with personal photo collections use HitPaw Photo AI for batch enhancement and restoration" },
+      { title: "Photographers", description: "Photography enthusiasts use the enhancement suite for improving captured photos and preparing them for printing" },
+      { title: "Family Archivists", description: "People preserving family photo collections use the restoration features to repair and enhance old photographs" }
+    ]
+  },
+  "peakmii": {
+    whatIs: "Remini is an AI photo enhancement app that specializes in restoring and sharpening old, blurry, or low-resolution photos. It uses deep learning to analyze degraded photos and reconstruct missing detail, producing dramatically improved versions of photos that would otherwise be too poor quality to share or print. The app is particularly effective on old photos, childhood pictures, and any image that lacks the quality needed for modern use. For users who have important photos they wish looked better, Remini provides the AI restoration that recovers quality from degraded images.",
+    features: [
+      "Photo Enhancement: AI restoration of blurry and low-quality photos",
+      "Face Detail Recovery: Specialized enhancement for faces in degraded photos",
+      "Old Photo Restoration: Improve quality of historical and aged photos",
+      "Video Enhancement: Improve quality of low-resolution videos",
+      "Before and After: Easy comparison of original and enhanced versions",
+      "Batch Enhancement: Process multiple photos in sequence",
+      "Social Sharing: Share enhanced photos directly from the app",
+      "Free Credits: Enhance photos with daily free credits"
+    ],
+    howToUse: {
+      title: "How to Use Peakmii",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Download Remini and upload the blurry, low-quality, or old photo you want to enhance." },
+        { title: "Apply Enhancement", description: "Remini processes your photo with AI enhancement. The processing takes a few seconds to produce results." },
+        { title: "Compare and Save", description: "Review the before and after comparison and save your enhanced photo. Share directly or download for other uses." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Face Recovery Specialization", description: "Faces in low-resolution or blurry photos that are too indistinct to recognize are often significantly improved by face-specific AI enhancement" },
+      { title: "Sentimental Photo Value", description: "Old family photos that are precious but poor quality benefit enormously from enhancement that makes them suitable for sharing and printing" },
+      { title: "Mobile Accessibility", description: "A mobile app that handles photo enhancement without desktop software makes restoration accessible on the devices where photos are typically stored" },
+      { title: "Realistic Improvement", description: "AI enhancement that generates realistic detail rather than simply sharpening existing pixels produces more genuine-looking results" }
+    ],
+    useCases: [
+      { title: "People with Old Family Photos", description: "Users restore old family photos of ancestors and childhood memories using Remini" },
+      { title: "Social Media Users", description: "People who want to share old photos in better quality use Remini for quick enhancement" },
+      { title: "Genealogy Researchers", description: "Family history enthusiasts use photo enhancement to improve historical family photos for sharing and archiving" }
+    ]
+  },
+  "vanceai": {
+    whatIs: "VanceAI is a comprehensive AI image processing platform that provides upscaling, denoising, sharpening, background removal, and photo enhancement through both web interface and API. It uses specialized AI models for each enhancement type to produce professional-quality results across different image improvement needs. VanceAI is popular with both individual users and businesses that need reliable AI image processing with API integration capabilities.",
+    features: [
+      "AI Upscaling: Enlarge images up to 8x without quality loss",
+      "Image Denoising: Remove noise and grain from photos",
+      "AI Sharpening: Sharpen blurry and soft photos",
+      "Background Removal: Clean subject isolation from backgrounds",
+      "Photo Enhancement: Overall image quality improvement",
+      "API Access: Integrate processing into your applications",
+      "Batch Processing: Handle large image volumes efficiently",
+      "Free Credits: Process images with monthly free allowance"
+    ],
+    howToUse: {
+      title: "How to Use Vanceai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Sign up at vanceai.com and upload the image you want to process. Select the appropriate tool for your enhancement need." },
+        { title: "Apply Processing", description: "The AI model specialized for your chosen enhancement processes your image. Preview the result before downloading." },
+        { title: "Download or Integrate", description: "Download your enhanced image or use the API to integrate processing into your application or workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Specialized Models", description: "Dedicated AI models for each enhancement type that are optimized for their specific task produce better results than general-purpose enhancement approaches" },
+      { title: "API Value", description: "Businesses and developers who need image processing at scale integrate the VanceAI API rather than building their own AI enhancement infrastructure" },
+      { title: "Quality Consistency", description: "Reliable AI processing that produces consistent professional-quality results makes VanceAI suitable for business use cases where reliability matters" },
+      { title: "Comprehensive Coverage", description: "Multiple enhancement types from one platform with shared API access simplifies integration for applications that need various image processing capabilities" }
+    ],
+    useCases: [
+      { title: "Developers and Businesses", description: "Software teams integrate VanceAI API for image enhancement features in their applications and workflows" },
+      { title: "E-commerce Businesses", description: "Online retailers use VanceAI for product image enhancement and upscaling across their catalog" },
+      { title: "Photography Professionals", description: "Photographers use the comprehensive enhancement suite for post-processing workflows" }
+    ]
+  },
+  "a1-art": {
+    whatIs: "A1 Art is an AI art generation platform that creates original artwork and images from text descriptions across various artistic styles. It provides accessible AI image creation with multiple style options ranging from photorealistic to illustrated and abstract. The platform is designed for users who want to create original visual content through AI generation without needing artistic skills. For creators and individuals who want AI-generated artwork for personal and professional use, A1 Art provides a straightforward generation platform.",
+    features: [
+      "AI Art Generation: Create original images from text descriptions",
+      "Multiple Art Styles: Photorealistic, illustrated, and abstract options",
+      "High Quality Output: Professional-quality generated artwork",
+      "Fast Generation: Quick results for creative exploration",
+      "Commercial Use: Generated content suitable for professional use",
+      "Style Variety: Diverse aesthetic options for different needs",
+      "Download Options: Save in standard image formats",
+      "Free Credits: Generate artwork with starting credits"
+    ],
+    howToUse: {
+      title: "How to Use A1 Art",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Artwork", description: "Sign up at a1.art and enter a description of the artwork you want to create. Include style preferences, subject matter, and mood." },
+        { title: "Generate and Explore", description: "Generate your artwork and explore variations by adjusting your prompt. Try different style options for different results." },
+        { title: "Download and Use", description: "Download your generated artwork for use in your creative projects, content, or commercial applications." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Accessibility", description: "Generating original artwork from text descriptions makes visual content creation accessible to anyone regardless of artistic ability" },
+      { title: "Commercial Viability", description: "AI-generated content cleared for commercial use enables businesses and creators to use generated imagery in professional contexts" },
+      { title: "Style Exploration", description: "Trying different artistic styles on the same concept helps creators identify the aesthetic direction that works best for their project" },
+      { title: "Content Production", description: "Content creators who need regular original images benefit from AI generation that produces new artwork on demand" }
+    ],
+    useCases: [
+      { title: "Content Creators and Bloggers", description: "Writers and content producers use A1 Art for original blog illustrations and social media images" },
+      { title: "Marketing Teams", description: "Marketing professionals generate campaign visuals and brand imagery using AI art generation" },
+      { title: "Creative Individuals", description: "People who enjoy creative exploration use A1 Art for personal art projects" }
+    ]
+  },
+  "claid-ai": {
+    whatIs: "Claid.ai is an AI image enhancement API and platform designed for e-commerce and marketplace sellers who need automatic product photo improvement at scale. It provides automated background removal, image upscaling, quality enhancement, and marketplace compliance checking that ensures product photos meet the technical requirements of major e-commerce platforms. For e-commerce businesses that process large volumes of product photos, Claid.ai provides the automated image processing pipeline that maintains quality at scale.",
+    features: [
+      "Automated Enhancement: AI photo improvement without manual intervention",
+      "Marketplace Compliance: Check and fix photos to meet platform requirements",
+      "Background Removal: Automatic subject isolation for product photos",
+      "Image Upscaling: Enlarge product photos to required resolutions",
+      "Quality Scoring: Assess image quality against e-commerce standards",
+      "Batch Processing: Handle thousands of product images simultaneously",
+      "API First: Built for programmatic integration",
+      "Free Trial: Process sample images before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Claid Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Integrate the API", description: "Sign up at claid.ai and integrate the image processing API into your product management system or e-commerce workflow." },
+        { title: "Process Your Catalog", description: "Run your product images through the Claid.ai pipeline. The system automatically enhances, removes backgrounds, and checks compliance." },
+        { title: "Monitor and Scale", description: "Review processing results and monitor quality scores. Scale your image processing as your product catalog grows." }
+      ]
+    },
+    coreFeatures: [
+      { title: "E-commerce Scale", description: "Processing hundreds of product photos manually is impractical for growing e-commerce businesses. Automated enhancement that handles volume makes comprehensive photo quality achievable" },
+      { title: "Compliance Automation", description: "Major marketplaces have specific technical requirements for product images. Automated compliance checking that catches and fixes violations saves the manual work of reviewing each image" },
+      { title: "API-First Design", description: "E-commerce systems that integrate Claid.ai through API process images automatically as part of their product management workflow without manual steps" },
+      { title: "Consistency at Volume", description: "Applying consistent enhancement criteria to all product images through automation produces uniform catalog quality that manual processing cannot maintain" }
+    ],
+    useCases: [
+      { title: "E-commerce Businesses", description: "Online retailers use Claid.ai for automated product image enhancement across their catalog" },
+      { title: "Marketplace Sellers", description: "Amazon and other marketplace sellers use Claid.ai for compliant product photography at scale" },
+      { title: "E-commerce Platforms", description: "Online marketplace platforms use Claid.ai for processing seller-uploaded product images" }
+    ]
+  },
+  "flair-ai": {
+    whatIs: "Flair AI is an AI product photography platform that places products in professional lifestyle settings through generative AI. Designers and marketers upload product photos and Flair generates them placed naturally in various contextual scenes - coffee shops, homes, outdoor settings - creating lifestyle product photography without physical photoshoots. For brands that need lifestyle product imagery at scale, Flair AI provides the AI-generated commercial photography that contextualizes products in settings where customers imagine using them.",
+    features: [
+      "Lifestyle Photography: Place products in contextual scene settings",
+      "Scene Generation: Create diverse product placement environments",
+      "Product Isolation: Clean product extraction for scene placement",
+      "Multiple Environments: Indoor, outdoor, and lifestyle settings",
+      "Brand Customization: Control the aesthetic of generated scenes",
+      "High Resolution: Commercial-quality photography output",
+      "Fast Production: Generate many product photos quickly",
+      "Free Trial: Try product photography before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Flair Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Product", description: "Sign up at flair.ai and upload a clean photo of your product. The cleaner the product extraction the better the scene placement results." },
+        { title: "Choose Your Scene", description: "Select from available scene options or describe the lifestyle setting you want your product placed in." },
+        { title: "Generate Your Photos", description: "Flair AI generates your product in the chosen lifestyle settings. Review and download the commercial-quality results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Lifestyle Context Value", description: "Products shown in realistic lifestyle settings where customers can imagine using them engage buyers more effectively than plain product photos" },
+      { title: "Photography Cost Elimination", description: "Lifestyle photo shoots with models in real locations cost thousands per session. AI placement in generated scenes reduces this to a fraction of the cost" },
+      { title: "Scene Variety", description: "Creating the same product in many different lifestyle contexts for different marketing channels would require multiple photo shoots. AI generation makes this variety practical" },
+      { title: "Speed to Market", description: "Getting products into lifestyle photography quickly after launch maintains marketing momentum without waiting for photography scheduling" }
+    ],
+    useCases: [
+      { title: "Consumer Product Brands", description: "Product companies use Flair AI for lifestyle photography across their marketing channels" },
+      { title: "E-commerce Fashion and Lifestyle Brands", description: "Retailers selling lifestyle products use AI photography for contextual product presentation" },
+      { title: "Marketing Agencies", description: "Agencies creating product campaigns use Flair AI for quick professional lifestyle imagery production" }
+    ]
+  },
+  "pfpmaker": {
+    whatIs: "PFPMaker is a free AI profile picture maker that generates professional profile photos from uploaded selfies or casual photos. It applies professional backgrounds, appropriate framing, and quality enhancement to create polished profile pictures suitable for LinkedIn, Twitter, professional websites, and other platforms. For professionals who need a quality profile photo without scheduling a photography session, PFPMaker provides instant AI-generated professional headshots.",
+    features: [
+      "Profile Picture Generation: Create professional profile photos from casual shots",
+      "Background Options: Professional and creative background choices",
+      "Photo Enhancement: Quality improvement for uploaded photos",
+      "Multiple Styles: Different professional and creative photo styles",
+      "Platform Optimization: Sizes appropriate for different platforms",
+      "Instant Results: Profile pictures generated in seconds",
+      "Multiple Outputs: Several different style options from one upload",
+      "Free to Use: Basic profile picture generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Pfpmaker",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Go to pfpmaker.com and upload a clear photo of yourself. Front-facing photos with your face visible produce the best results." },
+        { title: "Choose Your Style", description: "Select from available background and style options for your profile picture. Try multiple options to find the best representation." },
+        { title: "Download Your Profile Picture", description: "Download your generated profile pictures and use them on your professional and social media profiles." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photography Alternative", description: "Professional headshot sessions require scheduling and payment. Instant AI generation from existing photos provides an immediate alternative" },
+      { title: "Multiple Platform Needs", description: "Having several profile picture options at different sizes and styles covers the varied requirements of different platforms from one generation session" },
+      { title: "Accessibility", description: "Professional-looking profile photos that anyone can create from a casual selfie democratize the professional online presence that quality profile photos support" },
+      { title: "Free Access", description: "Free profile picture generation without payment makes professional online presentation accessible regardless of budget" }
+    ],
+    useCases: [
+      { title: "Job Seekers", description: "People updating their professional profiles for job searching use PFPMaker for polished LinkedIn profile pictures" },
+      { title: "Professionals Updating Online Presence", description: "Anyone refreshing their professional online presence uses PFPMaker for a quick profile photo update" },
+      { title: "Freelancers and Entrepreneurs", description: "Independent professionals use PFPMaker for professional profile pictures across their various online platforms" }
+    ]
+  },
+  "genyou": {
+    whatIs: "GenYOU is an AI personalized avatar and image generation platform that creates custom AI versions of users in different styles, outfits, and scenarios. Users train the AI on a few photos of themselves and can then generate images of themselves in various settings, wearing different clothes, or in artistic styles. For individuals who want to create personalized AI images of themselves for creative and social purposes, GenYOU provides the personalized generation that standard AI image tools cannot offer.",
+    features: [
+      "Personal AI Model: Train AI on your photos for personalized generation",
+      "Outfit Generation: See yourself in different clothing styles",
+      "Scenario Generation: Place yourself in different settings and contexts",
+      "Art Style Transfer: See yourself in different artistic styles",
+      "Social Media Content: Create personalized content for sharing",
+      "Multiple Outputs: Generate many different personalized images",
+      "Style Variety: Professional, casual, fantasy, and other styles",
+      "Subscription Based: Access through monthly subscription"
+    ],
+    howToUse: {
+      title: "How to Use Genyou",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Training Photos", description: "Sign up at genyou.ai and upload 10-20 clear photos of yourself from different angles and lighting conditions." },
+        { title: "Train Your Model", description: "The AI trains on your photos to create a personalized model that captures your appearance. Training takes some time to complete." },
+        { title: "Generate Your Images", description: "Use your trained model to generate images of yourself in different styles, outfits, and scenarios. Download your favorites." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization Depth", description: "Generic AI image generators cannot produce images of specific individuals. Training on personal photos creates a model that generates images of you specifically" },
+      { title: "Creative Self-Expression", description: "Seeing yourself reimagined in different styles and scenarios enables creative self-expression that traditional photography cannot provide" },
+      { title: "Social Content Uniqueness", description: "Personalized AI images of yourself in unique scenarios create distinctive social media content that stands apart from typical photography" },
+      { title: "Avatar Creation", description: "Creating varied personalized avatars for different online contexts provides flexible digital representation across platforms" }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "People who want unique personalized content for social media use GenYOU for AI-generated images of themselves" },
+      { title: "Content Creators", description: "Creators use personalized AI images for channel branding and distinctive content" },
+      { title: "Individuals Exploring AI Creativity", description: "People curious about AI creative capabilities use GenYOU for the personalized generation experience" }
+    ]
+  },
+  "photoai-me": {
+    whatIs: "PhotoAI.me is an AI professional headshot and portrait generator that creates polished professional photos from uploaded selfies. It generates realistic studio-quality headshots with professional backgrounds, appropriate lighting, and business-appropriate presentation from casual photos. The service provides multiple headshot variations in different styles and backgrounds. For professionals who need quality headshots for their online profiles and business materials, PhotoAI.me delivers professional results without a photography session.",
+    features: [
+      "Professional Headshots: Generate studio-quality headshots from selfies",
+      "Multiple Backgrounds: Professional and contextual background options",
+      "Style Variety: Business formal, casual professional, and industry-specific looks",
+      "Lighting Enhancement: AI studio lighting applied to generated photos",
+      "Multiple Outputs: Several headshot variations from one upload",
+      "High Resolution: Print-quality output for professional use",
+      "Fast Generation: Professional photos in minutes",
+      "Subscription Access: Multiple generations through subscription"
+    ],
+    howToUse: {
+      title: "How to Use Photoai Me",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Selfies", description: "Sign up at photoai.me and upload several clear photos of yourself in good lighting. More variety in input photos produces better output." },
+        { title: "Select Your Style", description: "Choose the professional style and background options you want for your headshots." },
+        { title: "Download Your Headshots", description: "PhotoAI.me generates multiple professional headshot variations. Download the ones that best represent your professional image." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photography Cost Reduction", description: "Professional headshot photography sessions cost significantly. AI generation from selfies produces comparable professional results at a fraction of the cost" },
+      { title: "Immediate Availability", description: "Professionals who need updated headshots immediately without waiting for photography appointments get results in minutes" },
+      { title: "Multiple Variations", description: "Getting several different looks from one session provides variety for different professional contexts without multiple photography sessions" },
+      { title: "Quality Standard", description: "AI-generated headshots with proper studio lighting and professional backgrounds meet the quality expectations of professional online profiles" }
+    ],
+    useCases: [
+      { title: "Professionals Needing Headshots", description: "Business professionals who need updated LinkedIn and professional profile photos use PhotoAI.me for affordable headshot generation" },
+      { title: "Job Seekers", description: "People job searching use AI headshots for professional profile photos on applications and professional networks" },
+      { title: "Remote Workers", description: "Distributed team members without access to photography resources use AI headshot generation for company directories and professional profiles" }
+    ]
+  },
+  "my-qr-code": {
+    whatIs: "My QR Code is a QR code generator and management platform that creates customized QR codes for websites, contact information, social media, WiFi networks, and other use cases. It provides styled QR codes that maintain brand identity while functioning reliably, along with tracking analytics that show scan rates and locations. For businesses and individuals who want branded QR codes with performance data, My QR Code provides professional QR code creation and management.",
+    features: [
+      "Custom QR Codes: Create QR codes for any content type",
+      "Design Customization: Brand colors, logos, and styles in QR codes",
+      "Multiple Content Types: URLs, contacts, WiFi, social media, and more",
+      "Scan Analytics: Track QR code scan rates and locations",
+      "Dynamic QR Codes: Update destination without reprinting",
+      "Bulk Creation: Generate many QR codes simultaneously",
+      "Download Formats: SVG, PNG, and print-ready formats",
+      "Free Plan: Basic QR code creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use My Qr Code",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Content Type", description: "Go to myqrcode.com and select what your QR code will link to - website, contact card, WiFi network, or other content." },
+        { title: "Customize Your Design", description: "Apply your brand colors, add your logo, and select the QR code style that matches your visual identity." },
+        { title: "Download and Deploy", description: "Download your QR code in the appropriate format for your use - print materials, digital display, or online sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brand Consistency", description: "Generic black and white QR codes on branded materials look out of place. Styled QR codes that incorporate brand colors and logos maintain visual consistency" },
+      { title: "Dynamic Flexibility", description: "QR codes that can be updated to point to new destinations without reprinting save the cost of reprinting materials when destinations change" },
+      { title: "Performance Intelligence", description: "Scan analytics that show when and where QR codes are being used provide marketing intelligence about campaign performance" },
+      { title: "Professional Presentation", description: "Customized QR codes that look designed rather than generated increase confidence that they are legitimate and safe to scan" }
+    ],
+    useCases: [
+      { title: "Marketers and Brand Teams", description: "Marketing professionals use branded QR codes for campaigns and print materials" },
+      { title: "Small Business Owners", description: "Business owners use QR codes for menus, product information, and customer connections" },
+      { title: "Event Organizers", description: "Event planners use QR codes for registration, information sharing, and attendee engagement" }
+    ]
+  },
+  "quick-qr-art": {
+    whatIs: "Quick QR Art is a creative QR code generator that transforms standard QR codes into artistic images using AI. It generates QR codes that are embedded within visually appealing artwork, patterns, and designs while maintaining full scanning functionality. These artistic QR codes attract more attention and engagement than standard black and white QR codes. For brands and creators who want QR codes that stand out visually while functioning reliably, Quick QR Art provides AI-generated artistic QR code creation.",
+    features: [
+      "Artistic QR Codes: QR codes embedded in beautiful AI-generated artwork",
+      "Full Functionality: Artistic designs that still scan reliably",
+      "Multiple Art Styles: Different artistic approaches for QR code integration",
+      "Brand Customization: Incorporate brand colors and themes",
+      "High Resolution: Quality output for print and digital use",
+      "Fast Generation: Artistic QR codes created quickly",
+      "Download Options: Various formats for different applications",
+      "Free Credits: Create artistic QR codes with free credits"
+    ],
+    howToUse: {
+      title: "How to Use Quick Qr Art",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your URL or Content", description: "Sign up at quickqr.art and enter the URL or content your QR code will link to." },
+        { title: "Select Your Art Style", description: "Choose from available artistic styles for your QR code. Preview different options to find the most appealing design." },
+        { title: "Generate and Download", description: "Quick QR Art generates your artistic QR code. Test scanning functionality before downloading and deploying." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Attention and Engagement", description: "Artistic QR codes that look visually interesting attract more scans than standard plain QR codes because people notice and engage with them" },
+      { title: "Brand Differentiation", description: "Custom artistic QR codes that incorporate brand aesthetics create more cohesive branded experiences than generic QR codes" },
+      { title: "Curiosity Factor", description: "QR codes embedded in artwork create curiosity about the destination that plain QR codes do not generate" },
+      { title: "Marketing Effectiveness", description: "Higher scan rates from more attractive QR codes improve the return on investment from QR code marketing campaigns" }
+    ],
+    useCases: [
+      { title: "Marketers and Advertisers", description: "Marketing professionals use artistic QR codes for higher-engagement campaigns and promotional materials" },
+      { title: "Brands with Strong Visual Identity", description: "Companies with distinctive brand aesthetics use artistic QR codes for consistent brand presentation" },
+      { title: "Creative Professionals", description: "Designers and artists use artistic QR code generation for visually distinctive client deliverables" }
+    ]
+  },
+  "viralqr": {
+    whatIs: "ViralQR is a QR code generator focused on creating QR codes designed for maximum sharing and engagement on social media and marketing materials. It provides customization options that make QR codes more visually appealing and brand-appropriate, with analytics to track performance. For marketers who want QR codes optimized for social media sharing and campaign tracking, ViralQR provides QR code creation with engagement-focused features.",
+    features: [
+      "Social-Optimized QR Codes: QR codes designed for social media sharing",
+      "Brand Customization: Incorporate brand elements into QR codes",
+      "Campaign Analytics: Track QR code performance across campaigns",
+      "Dynamic Codes: Update destinations without reprinting",
+      "Multiple Formats: Download for digital and print applications",
+      "Easy Sharing: Optimized for social platform requirements",
+      "Bulk Generation: Create many QR codes for campaigns",
+      "Free Plan: Basic QR code creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Viralqr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Campaign QR", description: "Sign up at viralqr.io and create a QR code for your marketing campaign. Enter your destination URL and campaign details." },
+        { title: "Customize for Your Brand", description: "Apply brand colors, add your logo, and configure the visual style to match your campaign aesthetic." },
+        { title: "Deploy and Track", description: "Share your QR code across your marketing materials and track scan performance through the analytics dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Campaign Attribution", description: "QR codes with tracking that attributes scans to specific campaigns and materials provides marketing performance data that generic QR codes cannot deliver" },
+      { title: "Social Platform Optimization", description: "QR codes formatted and styled for social media platforms get more engagement than standard codes shared on social" },
+      { title: "Dynamic Campaign Management", description: "Updating QR code destinations to reflect campaign changes without reprinting materials saves both time and printing costs" },
+      { title: "Brand Cohesion", description: "Branded QR codes that incorporate visual identity elements create more professional and trustworthy impressions" }
+    ],
+    useCases: [
+      { title: "Digital Marketers", description: "Marketing professionals use ViralQR for campaign QR codes with performance tracking" },
+      { title: "Social Media Managers", description: "Social media teams use QR codes optimized for social platform sharing and engagement" },
+      { title: "Brand Managers", description: "Brand professionals use customized QR codes for consistent brand presentation across marketing materials" }
+    ]
+  },
   "letsenhance-io": {
     whatIs: "LetsEnhance.io is an AI image upscaling and enhancement platform that enlarges photos up to 16x while improving quality through deep learning. It uses neural networks trained specifically for image super-resolution to generate realistic detail when enlarging, producing results that are genuinely sharper and more detailed than the original rather than just larger. The platform is popular with photographers, designers, and e-commerce businesses that need high-resolution versions of existing images.",
     features: [
