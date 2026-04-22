@@ -1,4 +1,268 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "elevenlabs": {
+    whatIs: "ElevenLabs is the leading AI voice synthesis platform known for producing the most realistic and expressive AI voices available. It provides text-to-speech, voice cloning, and dubbing capabilities that have set the standard for AI voice quality. ElevenLabs voices are indistinguishable from human speech in many contexts and support emotional expression, multiple languages, and custom voice creation. For developers, creators, and businesses that need the highest quality AI voice synthesis, ElevenLabs provides the industry-leading voice technology.",
+    features: [
+      "Realistic Voice Synthesis: Industry-leading natural voice quality",
+      "Voice Cloning: Create AI voice models from audio samples",
+      "Emotional Expression: Voices that convey appropriate emotion",
+      "Multiple Languages: High-quality synthesis across many languages",
+      "Voice Library: Large collection of pre-made AI voices",
+      "Dubbing: AI dubbing for video content localization",
+      "Developer API: Integrate voice into applications",
+      "Free Plan: Monthly free characters without payment"
+    ],
+    howToUse: {
+      title: "How to Use Elevenlabs",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access ElevenLabs", description: "Sign up at elevenlabs.io and access the voice synthesis tools or API." },
+        { title: "Generate Your Audio", description: "Enter your text, select your voice, and generate natural-sounding speech." },
+        { title: "Use or Integrate", description: "Download your audio or integrate through the API for application use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Quality Leadership", description: "ElevenLabs voice quality that is indistinguishable from human speech in many contexts sets the standard that other TTS providers measure against" },
+      { title: "Emotional Authenticity", description: "AI voices that express appropriate emotion rather than monotone delivery create more engaging and convincing audio content" },
+      { title: "Cloning Capability", description: "Creating an AI version of any voice from a short audio sample enables personalized voice content at scale" },
+      { title: "Developer Ecosystem", description: "The most widely integrated TTS API in the developer ecosystem benefits from extensive documentation, community support, and third-party integrations" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Podcasters and video creators use ElevenLabs for the highest quality AI voice narration" },
+      { title: "Game Developers", description: "Game studios use ElevenLabs for realistic character voices without voice actor recording sessions" },
+      { title: "Enterprise Applications", description: "Companies integrate ElevenLabs API for voice features in their customer-facing products" }
+    ]
+  },
+  "playai": {
+    whatIs: "PlayAI is an AI voice platform that provides text-to-speech, voice agents, and conversational AI capabilities. It offers natural-sounding voices and tools for building voice-based AI applications and agents. PlayAI enables developers to create AI that can conduct natural voice conversations for customer service, companionship, and interactive applications. For developers building voice AI applications and for creators needing quality TTS, PlayAI provides comprehensive voice AI infrastructure.",
+    features: [
+      "Text to Speech: Natural-sounding AI voice generation",
+      "Voice Agents: Build conversational AI voice applications",
+      "Multiple Voices: Diverse voice library for different use cases",
+      "Real-Time Conversation: Low-latency voice interaction",
+      "API Access: Developer tools for voice AI integration",
+      "Custom Voices: Create personalized AI voice models",
+      "Multiple Languages: Voice synthesis across languages",
+      "Free Credits: Try voice generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Playai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access PlayAI", description: "Sign up at play.ai and access the TTS tools or voice agent builder." },
+        { title: "Generate or Build", description: "Use TTS for simple voice generation or configure a voice agent for conversational applications." },
+        { title: "Deploy and Use", description: "Download generated audio or deploy your voice agent for user interaction." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Voice Agent Capability", description: "Building AI that conducts natural voice conversations opens customer service and interactive application use cases beyond simple TTS" },
+      { title: "Quality Voices", description: "Natural-sounding voices that engage listeners produce better user experiences in voice applications" },
+      { title: "Developer Focus", description: "Comprehensive API and developer tools that make voice AI integration straightforward reduce time to deployment" },
+      { title: "Conversation Quality", description: "Low-latency real-time voice conversation that feels natural maintains user engagement in interactive voice applications" }
+    ],
+    useCases: [
+      { title: "Developers Building Voice Apps", description: "Software teams use PlayAI for voice agent and TTS features in their applications" },
+      { title: "Customer Service Teams", description: "Organizations build AI voice agents for handling customer interactions" },
+      { title: "Content Creators", description: "Creators use PlayAI for quality voice narration in their content" }
+    ]
+  },
+  "deepgram": {
+    whatIs: "Deepgram is an AI speech recognition platform that provides fast, accurate, and scalable speech-to-text APIs for developers and enterprises. It uses end-to-end deep learning for transcription that delivers better accuracy and significantly faster processing than traditional speech recognition approaches. Deepgram serves real-time and batch transcription use cases with models optimized for different domains including phone calls, meetings, and media. For developers who need reliable high-performance speech recognition at scale, Deepgram provides the most capable speech-to-text API infrastructure.",
+    features: [
+      "Fast Transcription: Among the fastest speech-to-text processing available",
+      "High Accuracy: Deep learning models for superior recognition",
+      "Real-Time STT: Live speech recognition for interactive applications",
+      "Domain Models: Specialized models for phone, meetings, and media",
+      "Multiple Languages: Speech recognition across many languages",
+      "Speaker Diarization: Identify and label different speakers",
+      "Custom Vocabulary: Add domain-specific terms for better accuracy",
+      "Pay Per Use: Pricing based on audio minutes processed"
+    ],
+    howToUse: {
+      title: "How to Use Deepgram",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Get API Access", description: "Sign up at deepgram.com and get your API credentials." },
+        { title: "Make Your API Call", description: "Send audio to the Deepgram API through their SDK or REST endpoint. Specify your model and features." },
+        { title: "Receive Your Transcript", description: "Deepgram returns accurate transcripts in seconds. Integrate the results into your application workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed Advantage", description: "Transcription that processes audio faster than real-time enables use cases that require immediate text output from audio input" },
+      { title: "Accuracy at Scale", description: "Deep learning models that produce better accuracy than traditional approaches make transcription reliable enough for production applications" },
+      { title: "Domain Specialization", description: "Models trained for specific audio domains like phone calls or meetings produce better results in those contexts than generic models" },
+      { title: "Developer Experience", description: "Clean APIs with comprehensive SDKs that make integration straightforward reduce developer time to production deployment" }
+    ],
+    useCases: [
+      { title: "Application Developers", description: "Software teams integrate Deepgram for speech recognition features in their products" },
+      { title: "Contact Center Technology", description: "Call center software uses Deepgram for real-time call transcription and analysis" },
+      { title: "Media Companies", description: "Broadcasting and media organizations use Deepgram for fast accurate media transcription" }
+    ]
+  },
+  "tiktok-voice-generator": {
+    whatIs: "TikTok Voice Generator is a tool that creates audio in TikTok's popular AI text-to-speech voices that have become iconic on the platform. It generates audio using the distinctive TikTok voice styles including the viral robot and other character voices for content creation. For TikTok creators who want to use the familiar TikTok voice styles in their content, this tool provides easy access to TikTok-style voice generation.",
+    features: [
+      "TikTok Voices: Generate audio in TikTok's iconic voice styles",
+      "Multiple Characters: Different TikTok voice options available",
+      "Text to Speech: Convert any text to TikTok voice audio",
+      "Content Creation: Audio for TikTok and social content",
+      "Fast Generation: Quick audio output",
+      "Download Options: Save generated audio",
+      "Free to Use: Basic generation without payment",
+      "No Registration: Generate without account creation"
+    ],
+    howToUse: {
+      title: "How to Use Tiktok Voice Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Text", description: "Go to the TikTok Voice Generator and enter the text you want in TikTok voice style." },
+        { title: "Select Your Voice", description: "Choose from available TikTok voice options." },
+        { title: "Generate and Download", description: "Generate your audio in the TikTok voice style and download for use in your content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Platform Recognition", description: "TikTok voices that viewers immediately recognize create instant familiarity and connection with content using these distinctive audio styles" },
+      { title: "Content Accessibility", description: "Creators who cannot or prefer not to use their own voice use TikTok voice generation for their content narration" },
+      { title: "Entertainment Value", description: "The distinctive TikTok voice styles that have become part of internet culture create entertaining content that resonates with platform audiences" },
+      { title: "Easy Creation", description: "Quick voice generation without registration makes TikTok voice audio immediately accessible for any creator" }
+    ],
+    useCases: [
+      { title: "TikTok Content Creators", description: "TikTok creators use voice generation for narrated content using the platform's iconic voice styles" },
+      { title: "Social Media Creators", description: "Content producers use TikTok voices for social media content across platforms" },
+      { title: "Meme Creators", description: "People creating meme content use TikTok voice generation for audio that fits the format" }
+    ]
+  },
+  "tiktok-voice-chrome": {
+    whatIs: "TikTok Voice Generator Chrome Extension is a browser extension that enables quick TikTok-style text-to-speech generation directly from any web page. Users can select text on any website and convert it to TikTok voice audio without leaving the page. For TikTok creators who want convenient voice generation integrated into their browser workflow, the Chrome extension provides the most accessible TikTok voice access.",
+    features: [
+      "Browser Integration: TikTok voice generation in Chrome",
+      "Select and Convert: Turn any web text into TikTok voice",
+      "Quick Access: Generate without visiting separate website",
+      "Multiple Voices: TikTok voice style options",
+      "Instant Generation: Fast audio creation",
+      "Download from Browser: Save audio without leaving current page",
+      "Free Extension: No payment required",
+      "Easy Installation: Simple Chrome Web Store installation"
+    ],
+    howToUse: {
+      title: "How to Use Tiktok Voice Chrome",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Find and install the TikTok Voice Generator extension from the Chrome Web Store." },
+        { title: "Select Your Text", description: "On any web page, select the text you want converted to TikTok voice audio." },
+        { title: "Generate and Download", description: "Use the extension to generate and download your TikTok voice audio from any web page." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Workflow Convenience", description: "Browser-integrated voice generation that works on any web page eliminates the need to switch between tabs for voice creation" },
+      { title: "Content Research Integration", description: "Creators who research content online can immediately convert interesting text to TikTok voice without interrupting their workflow" },
+      { title: "Accessibility", description: "Extension access that works anywhere in the browser makes TikTok voice generation available in any context" },
+      { title: "Speed", description: "Quick generation without navigating to a separate tool saves time in content creation workflows" }
+    ],
+    useCases: [
+      { title: "TikTok Creators", description: "Creators use the extension for convenient TikTok voice generation during their content creation workflow" },
+      { title: "Social Media Managers", description: "Social media professionals use the extension for quick voice content creation" },
+      { title: "Content Researchers", description: "People who research content online use the extension for immediate voice generation from found text" }
+    ]
+  },
+  "tiktok-ai-voice": {
+    whatIs: "TikTok AI Voice is an AI text-to-speech tool that generates audio in various TikTok platform voice styles for content creation. It provides access to TikTok's recognizable AI voice characters for generating narration and audio content. For creators who want TikTok-style voice audio for their social media content, TikTok AI Voice provides straightforward generation.",
+    features: [
+      "TikTok Style Voices: Generate audio in TikTok platform voice styles",
+      "Character Variety: Multiple TikTok voice character options",
+      "Text Input: Convert any text to TikTok voice",
+      "Social Content Focus: Audio designed for social media use",
+      "Fast Output: Quick voice generation",
+      "Download Ready: Save audio for content use",
+      "Free Access: Generation without payment",
+      "Simple Interface: Easy voice generation workflow"
+    ],
+    howToUse: {
+      title: "How to Use Tiktok Ai Voice",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Text", description: "Access TikTok AI Voice and enter the text you want generated in TikTok voice style." },
+        { title: "Choose Your Voice", description: "Select the TikTok voice character you want for your audio." },
+        { title: "Download Your Audio", description: "Generate and download your TikTok-style voice audio for content use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Familiar Aesthetic", description: "TikTok voice styles that platform users immediately recognize create content that fits naturally into the TikTok viewing experience" },
+      { title: "Creator Tools", description: "Tools that give creators access to platform-specific voice styles enable content that matches audience expectations" },
+      { title: "Content Differentiation", description: "Platform-specific voice styles create distinctive content identity within the TikTok content ecosystem" },
+      { title: "Accessibility", description: "Voice generation tools that provide creator access to audio formats they cannot produce themselves democratize content creation" }
+    ],
+    useCases: [
+      { title: "TikTok Content Creators", description: "Platform creators use TikTok AI Voice for recognizable voice narration in their videos" },
+      { title: "Social Media Content Producers", description: "Social media creators use TikTok voice styles for engaging content across platforms" },
+      { title: "Viral Content Creators", description: "People creating trend-based content use TikTok voice for format-appropriate audio" }
+    ]
+  },
+  "wasento": {
+    whatIs: "Wasento is an AI voice and audio platform that provides text-to-speech and voice generation capabilities for content creators and businesses. It offers natural-sounding voice synthesis for various content and communication needs. For users who need reliable AI voice generation for their projects, Wasento provides accessible voice synthesis tools.",
+    features: [
+      "Text to Speech: Convert text to natural AI voice audio",
+      "Multiple Voices: Various voice options available",
+      "Content Creation: Voice for different content types",
+      "Quality Output: Clear and natural voice synthesis",
+      "Multiple Languages: Voice generation in different languages",
+      "Download Options: Save generated audio",
+      "Fast Generation: Quick text to audio",
+      "Free to Try: Basic voice generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Wasento",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Text", description: "Sign up at wasento.com and enter the text you want converted to speech." },
+        { title: "Select Your Voice", description: "Choose a voice that matches your content needs." },
+        { title: "Generate and Download", description: "Generate your audio and download for your content use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Voice Accessibility", description: "AI voice generation that provides professional-quality narration without recording infrastructure makes audio content accessible to all creators" },
+      { title: "Content Production", description: "Voice synthesis that produces audio quickly enables faster content production timelines" },
+      { title: "Language Support", description: "Multiple language voice generation serves creators and businesses with diverse audience needs" },
+      { title: "Cost Efficiency", description: "AI voice at lower cost than professional voice actors makes quality narration economically practical" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Creators use Wasento for AI voice narration in their content" },
+      { title: "Businesses", description: "Companies use AI voice for communications and marketing content" },
+      { title: "Developers", description: "Software teams integrate voice synthesis for application features" }
+    ]
+  },
+  "crepal": {
+    whatIs: "CrePal is an AI content creation platform that helps creators produce various types of digital content including voice, video, and written material. It provides AI tools for efficient content production across different media types. For creators who need a versatile AI content creation toolkit, CrePal provides multiple AI capabilities in one platform.",
+    features: [
+      "Multi-Format Creation: AI tools for voice, video, and text content",
+      "Voice Generation: AI text-to-speech capabilities",
+      "Content Templates: Starting points for different content types",
+      "AI Writing: Text content generation assistance",
+      "Video Tools: Video content creation features",
+      "Fast Production: Efficient content creation workflow",
+      "Multiple Exports: Save content in appropriate formats",
+      "Free to Try: Basic creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Crepal",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Content Type", description: "Sign up at crepal.ai and select the type of content you want to create." },
+        { title: "Create Your Content", description: "Use the AI tools appropriate for your content type to produce your material." },
+        { title: "Export and Publish", description: "Download your content in the appropriate format for your distribution channel." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content Variety", description: "Multiple content types from one platform reduces the number of tools creators need to manage their content production" },
+      { title: "Production Efficiency", description: "AI assistance across different content types speeds production without sacrificing quality" },
+      { title: "Creator Accessibility", description: "AI tools that handle technical content production make professional-quality content accessible to creators without specialized skills" },
+      { title: "Workflow Integration", description: "Multiple content capabilities in one platform maintain a consistent workflow rather than switching between specialized tools" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Digital creators use CrePal for diverse AI-assisted content production" },
+      { title: "Small Business Owners", description: "Businesses use CrePal for marketing and communication content creation" },
+      { title: "Marketing Professionals", description: "Marketers produce varied content types using AI creation tools" }
+    ]
+  },
   "naturalreader": {
     whatIs: "NaturalReader is a text-to-speech application that converts written text into spoken audio for reading assistance and content consumption. It works with documents, web pages, PDFs, and ebooks, reading content aloud with natural-sounding AI voices. NaturalReader is widely used by people with dyslexia, visual impairments, and anyone who prefers listening to reading. For users who need text read aloud for accessibility or productivity, NaturalReader provides one of the most established and capable TTS reading tools available.",
     features: [
