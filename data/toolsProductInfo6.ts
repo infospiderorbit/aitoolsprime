@@ -1,4 +1,466 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "dubnote": {
+    whatIs: "DubNote is an AI meeting notes and transcription tool that automatically records, transcribes, and summarizes meetings across video conferencing platforms. It joins your meetings as an AI participant, captures everything discussed, and delivers organized notes with action items and key decisions. For professionals who want comprehensive meeting documentation without manual note-taking, DubNote provides automated meeting intelligence.",
+    features: [
+      "Meeting Recording: Automatic capture of virtual meetings",
+      "AI Transcription: Accurate speech-to-text for all participants",
+      "Meeting Summaries: Concise summaries of key discussion points",
+      "Action Items: Extract commitments and next steps",
+      "Multi-Platform: Works with Zoom, Teams, and Google Meet",
+      "Searchable Notes: Find information across all meeting records",
+      "Team Sharing: Share notes with meeting participants",
+      "Free Plan: Basic meeting notes without payment"
+    ],
+    howToUse: {
+      title: "How to Use Dubnote",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Calendar", description: "Sign up at dubnote.ai and connect your calendar. DubNote automatically joins meetings from your schedule." },
+        { title: "Attend Your Meeting", description: "Conduct your meeting normally. DubNote records and transcribes everything in real time." },
+        { title: "Review Your Notes", description: "After the meeting, access your AI-generated summary, action items, and full transcript. Share with participants as needed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Note-Taking Freedom", description: "Professionals who take notes during meetings divide their attention between listening and writing. Automated notes allow full presence in conversations" },
+      { title: "Meeting Documentation", description: "Accurate records of what was decided and committed to in meetings prevent the miscommunications that cost teams time and relationships" },
+      { title: "Searchable History", description: "Being able to search across all past meeting records for specific discussions or decisions creates institutional memory that improves organizational effectiveness" },
+      { title: "Action Item Accountability", description: "Explicitly captured action items with owners and deadlines have significantly higher completion rates than verbal commitments" }
+    ],
+    useCases: [
+      { title: "Business Professionals", description: "Knowledge workers who attend many meetings use DubNote for comprehensive meeting documentation" },
+      { title: "Project Managers", description: "PMs use meeting notes for tracking decisions and action items across multiple project meetings" },
+      { title: "Remote Teams", description: "Distributed teams use automated meeting notes for asynchronous access to meeting content by absent members" }
+    ]
+  },
+  "tldv": {
+    whatIs: "tl;dv is an AI meeting recorder and note-taker that records video calls, generates transcripts, and creates AI-powered summaries with timestamps. Its name stands for too long did not view, reflecting its focus on making long meeting recordings digestible. It integrates with Zoom, Google Meet, and Microsoft Teams. tl;dv allows users to clip specific moments from recordings for sharing and creates searchable meeting libraries. For professionals who want to record meetings and make their content easily accessible, tl;dv provides the meeting intelligence platform with strong clip and sharing features.",
+    features: [
+      "Meeting Recording: Record Zoom, Google Meet, and Teams calls",
+      "AI Transcription: Accurate transcripts with speaker identification",
+      "AI Summaries: Concise meeting summaries with key points",
+      "Timestamped Notes: Navigate recordings by specific moments",
+      "Clip Creation: Share specific meeting moments as clips",
+      "CRM Integration: Sync meeting notes to Salesforce and HubSpot",
+      "Searchable Library: Find information across all recordings",
+      "Free Plan: Generous free recording without payment"
+    ],
+    howToUse: {
+      title: "How to Use Tldv",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install and Connect", description: "Sign up at tldv.io and install the browser extension or desktop app. Connect your calendar for automatic meeting joining." },
+        { title: "Record Your Meetings", description: "tl;dv automatically joins and records your scheduled meetings. The AI generates transcripts and summaries after each call." },
+        { title: "Review and Share", description: "Access your meeting summary and full transcript. Create clips of important moments to share with stakeholders who were not present." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Meeting Accessibility", description: "Long meeting recordings that nobody wants to watch are made accessible through AI summaries that surface key information quickly" },
+      { title: "CRM Integration Value", description: "Sales meeting notes that sync automatically to CRM records eliminate manual data entry and ensure customer conversation history is maintained" },
+      { title: "Clip Sharing", description: "The ability to share specific moments from recordings rather than full recordings makes meeting content more shareable and actionable" },
+      { title: "Free Tier Generosity", description: "A generous free plan that covers many recording hours makes tl;dv accessible to individuals and small teams without budget commitment" }
+    ],
+    useCases: [
+      { title: "Sales Teams", description: "Salespeople use tl;dv for customer call recording and CRM integration that maintains conversation history" },
+      { title: "Product Teams", description: "Product managers use meeting recordings and clips for sharing customer feedback and research insights" },
+      { title: "Remote Teams", description: "Distributed teams use tl;dv for asynchronous meeting access and knowledge sharing" }
+    ]
+  },
+  "elsa-speak": {
+    whatIs: "ELSA Speak is an AI English pronunciation coaching app that provides real-time feedback on English pronunciation using speech recognition technology. It identifies specific pronunciation errors at the phoneme level and provides targeted exercises to improve pronunciation accuracy. ELSA stands for English Language Speech Assistant and focuses specifically on helping non-native English speakers speak with greater clarity and confidence. For non-native English speakers who want to improve their pronunciation, ELSA provides the most specialized AI pronunciation coaching available.",
+    features: [
+      "Pronunciation Analysis: AI assessment of English pronunciation accuracy",
+      "Phoneme-Level Feedback: Identify specific sounds that need improvement",
+      "Personalized Exercises: Targeted practice for your specific weaknesses",
+      "Real-Time Feedback: Instant pronunciation scoring",
+      "Progress Tracking: Monitor pronunciation improvement over time",
+      "Multiple Accents: Training for different English accent varieties",
+      "Vocabulary and Fluency: Practice beyond just pronunciation",
+      "Free Plan: Basic pronunciation practice without payment"
+    ],
+    howToUse: {
+      title: "How to Use Elsa Speak",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Complete Your Assessment", description: "Download ELSA and complete the initial pronunciation assessment to identify your specific areas for improvement." },
+        { title: "Practice Daily", description: "Complete your personalized daily pronunciation exercises. ELSA provides immediate feedback on each attempt." },
+        { title: "Track Your Progress", description: "Monitor your pronunciation scores over time. Focus additional practice on the sounds that show the slowest improvement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Phoneme Specificity", description: "Generic pronunciation feedback that says you need to improve is not as useful as specific identification of which sounds are incorrect and how to fix them" },
+      { title: "Real-Time Correction", description: "Immediate feedback that corrects pronunciation in the moment is more effective for habit formation than delayed correction after the fact" },
+      { title: "Systematic Approach", description: "Phoneme-level training that builds pronunciation systematically is more effective than random conversation practice for developing accurate pronunciation" },
+      { title: "Confidence Building", description: "Measurable pronunciation improvement that ELSA tracks builds confidence for English communication in professional and social contexts" }
+    ],
+    useCases: [
+      { title: "Non-Native English Speakers", description: "International professionals use ELSA to improve their English pronunciation for workplace communication" },
+      { title: "English Language Learners", description: "Students learning English use ELSA for pronunciation practice that complements their classroom or self-study learning" },
+      { title: "Job Seekers", description: "Non-native speakers preparing for English-language job interviews use ELSA for pronunciation confidence building" }
+    ]
+  },
+  "lingvanex": {
+    whatIs: "Lingvanex is an AI translation platform that provides text, document, and website translation across many languages with privacy-focused options including on-premise deployment. It offers translation APIs, desktop applications, and integrations that serve businesses and developers who need translation without sending data to public cloud services. For organizations that require translation capabilities with data privacy guarantees, Lingvanex provides translation technology that can be deployed privately.",
+    features: [
+      "Text Translation: Translate text between many language pairs",
+      "Document Translation: Translate full documents in various formats",
+      "Website Translation: Localize website content automatically",
+      "On-Premise Deployment: Private deployment for data security",
+      "API Access: Integrate translation into applications",
+      "Offline Translation: Translation without internet connectivity",
+      "Multiple Platforms: Desktop, web, and API access",
+      "Free Trial: Try translation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Lingvanex",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Deployment", description: "Sign up at lingvanex.com and select whether you want cloud translation or on-premise deployment for your privacy requirements." },
+        { title: "Translate Your Content", description: "Use the translation interface or API to translate your text, documents, or website content." },
+        { title: "Integrate and Scale", description: "Integrate Lingvanex translation into your workflow or application through the API. Scale translation as your needs grow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Privacy Differentiation", description: "Organizations in regulated industries that cannot send content to public translation services benefit from on-premise deployment that keeps all data within their own infrastructure" },
+      { title: "Offline Capability", description: "Translation that works without internet connectivity serves use cases in environments with limited or no internet access" },
+      { title: "Document Translation", description: "Complete document translation that preserves formatting is more practical than translating text segments individually" },
+      { title: "API Integration", description: "Translation API that developers integrate into applications provides translation features to users without exposing them to external services" }
+    ],
+    useCases: [
+      { title: "Enterprises with Data Privacy Requirements", description: "Companies in healthcare, legal, and finance use Lingvanex for translation without exposing sensitive content to public services" },
+      { title: "Government Organizations", description: "Government bodies use private translation deployment for confidential document translation" },
+      { title: "Developers", description: "Software teams integrate Lingvanex translation API for multilingual application features" }
+    ]
+  },
+  "boldvoice": {
+    whatIs: "BoldVoice is an AI accent and pronunciation coaching app for non-native English speakers that provides video lessons from accent coaches alongside AI-powered pronunciation analysis. It combines human expert instruction with AI feedback to deliver comprehensive American English pronunciation coaching. BoldVoice focuses specifically on helping professionals communicate with greater clarity and confidence in English-speaking workplaces. For non-native English speaking professionals who want structured pronunciation improvement, BoldVoice provides expert-led AI-enhanced coaching.",
+    features: [
+      "Expert Video Lessons: Pronunciation coaching from professional accent coaches",
+      "AI Pronunciation Analysis: Real-time feedback on your pronunciation",
+      "American English Focus: Specifically trained for American English clarity",
+      "Workplace Communication: Focus on professional communication contexts",
+      "Personalized Learning Path: Coaching tailored to your background",
+      "Progress Tracking: Monitor improvement over time",
+      "Daily Practice: Structured daily exercises for consistent improvement",
+      "Free Trial: Try BoldVoice before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Boldvoice",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Complete Your Assessment", description: "Download BoldVoice and complete the initial assessment. The app identifies your pronunciation patterns based on your native language background." },
+        { title: "Follow Your Learning Path", description: "Work through personalized video lessons and pronunciation exercises designed for your specific accent background." },
+        { title: "Practice with AI Feedback", description: "Use AI-powered pronunciation practice for real-time feedback on your progress between structured lessons." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Expert Plus AI Combination", description: "Human accent coaches who understand the specific pronunciation challenges of different language backgrounds combined with AI practice feedback is more effective than either alone" },
+      { title: "Professional Context", description: "Pronunciation coaching focused on workplace communication contexts produces improvements that matter most for professional advancement" },
+      { title: "Native Language Awareness", description: "Personalization that accounts for specific pronunciation patterns from different language backgrounds produces more targeted and effective coaching" },
+      { title: "Consistent Practice", description: "Daily structured practice that the app facilitates produces the repetition necessary for pronunciation habit change" }
+    ],
+    useCases: [
+      { title: "International Professionals", description: "Non-native English speakers in professional roles use BoldVoice for pronunciation improvement that supports career advancement" },
+      { title: "Recent Immigrants", description: "People who have moved to English-speaking countries use BoldVoice for faster pronunciation adaptation" },
+      { title: "Graduate Students", description: "International students in English-speaking universities use BoldVoice for clearer academic communication" }
+    ]
+  },
+  "tarteel-ai": {
+    whatIs: "Tarteel AI is an AI-powered Quran recitation assistant that helps Muslims learn and improve their Quran recitation. It listens to Quran recitation and provides real-time feedback on pronunciation, tajweed rules, and accuracy. Tarteel can follow along as users recite from memory and alerts them to errors. For Muslims who want to improve their Quran recitation with AI assistance that understands Islamic recitation rules, Tarteel AI provides specialized religious recitation coaching.",
+    features: [
+      "Real-Time Recitation Feedback: AI listens and corrects Quran recitation",
+      "Tajweed Rules: Feedback on proper Islamic recitation pronunciation rules",
+      "Memorization Mode: Follow along recitation from memory",
+      "Error Detection: Identify mistakes in recitation instantly",
+      "Multiple Reciters: Reference recitations from famous Quran reciters",
+      "Offline Mode: Recitation assistance without internet connection",
+      "Progress Tracking: Monitor recitation improvement",
+      "Free Access: Core Quran assistance without payment"
+    ],
+    howToUse: {
+      title: "How to Use Tarteel Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Reciting", description: "Download Tarteel and open the app. Select the Surah you want to recite and begin." },
+        { title: "Receive Feedback", description: "Tarteel listens to your recitation and provides instant feedback on accuracy and tajweed. The app highlights errors as you recite." },
+        { title: "Practice and Improve", description: "Practice the sections with errors repeatedly until your recitation meets accuracy standards. Track your improvement over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Religious Specificity", description: "General pronunciation AI does not understand tajweed rules specific to Quran recitation. Specialized AI trained on Islamic recitation conventions provides appropriate feedback" },
+      { title: "Real-Time Correction", description: "Immediate feedback during recitation corrects errors in the moment when they occur rather than after the fact" },
+      { title: "Memorization Support", description: "AI that follows along with recitation from memory and detects deviations supports the Quran memorization practice that millions of Muslims pursue" },
+      { title: "Accessibility", description: "AI recitation coaching that replaces the need for a human tajweed teacher for basic practice makes Quran learning more accessible globally" }
+    ],
+    useCases: [
+      { title: "Muslim Learners", description: "Muslims learning to recite the Quran use Tarteel for AI-assisted pronunciation and tajweed feedback" },
+      { title: "Quran Memorization Students", description: "People memorizing the Quran use Tarteel for practice feedback during their memorization journey" },
+      { title: "Islamic Schools", description: "Teachers use Tarteel as a practice tool for students between in-person lessons" }
+    ]
+  },
+  "ttsmaker": {
+    whatIs: "TTSMaker is a free online text-to-speech tool that converts written text into natural-sounding audio using AI voice synthesis. It provides access to hundreds of voices across many languages without requiring payment or account creation. TTSMaker is widely used for quick voice generation needs, content creation, and accessibility applications. For users who need reliable free text-to-speech without subscription commitments, TTSMaker provides the most accessible free TTS service available.",
+    features: [
+      "Free TTS: Text-to-speech without payment or registration",
+      "Hundreds of Voices: Large voice library across many languages",
+      "Multiple Languages: TTS support for many global languages",
+      "Fast Generation: Quick audio output from text input",
+      "Download Options: Save audio as MP3 or other formats",
+      "No Registration: Generate voice without account creation",
+      "Commercial Use: Generated audio usable in commercial projects",
+      "High Quality: Natural-sounding voice synthesis"
+    ],
+    howToUse: {
+      title: "How to Use Ttsmaker",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Text", description: "Go to ttsmaker.com and paste or type the text you want converted to speech. No registration required." },
+        { title: "Select Your Voice", description: "Choose from hundreds of available voices across different languages and styles." },
+        { title: "Generate and Download", description: "Generate your audio and download it in your preferred format for immediate use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Zero Cost", description: "Free text-to-speech without registration removes all barriers to quick voice generation for occasional needs" },
+      { title: "Voice Breadth", description: "Hundreds of voices across many languages serves diverse content needs without requiring separate tools for different languages" },
+      { title: "Commercial Permissions", description: "Free audio usable in commercial projects provides genuine value for creators and businesses without paid TTS subscriptions" },
+      { title: "Immediate Access", description: "No registration requirement means text-to-speech generation is immediately available without any setup friction" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Creators use TTSMaker for free narration of their content" },
+      { title: "Developers Testing TTS", description: "Developers use TTSMaker for quick TTS testing before integrating paid APIs" },
+      { title: "Accessibility Users", description: "People who need text read aloud use TTSMaker as a free accessible tool" }
+    ]
+  },
+  "text-to-speech-openai": {
+    whatIs: "OpenAI Text-to-Speech is OpenAI's neural text-to-speech API that generates natural and expressive speech from text using advanced AI voice models. It provides six distinct AI voices with different characters and styles, producing speech quality that is among the most natural available from any TTS provider. The API is used by developers building applications that need high-quality voice output. For developers who need the highest quality TTS API for their applications, OpenAI TTS provides frontier-level voice synthesis.",
+    features: [
+      "High Quality Voices: Six distinct neural voice options",
+      "Natural Expression: Among the most natural-sounding TTS available",
+      "Fast API: Quick response times for real-time applications",
+      "Multiple Formats: Output in MP3, Opus, AAC, and FLAC",
+      "Speed Control: Adjust speech rate from 0.25x to 4x",
+      "Simple API: Easy integration with standard API calls",
+      "Commercial Use: Full commercial rights for generated audio",
+      "Pay Per Use: Pricing based on characters generated"
+    ],
+    howToUse: {
+      title: "How to Use Text To Speech Openai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Get API Access", description: "Sign up at platform.openai.com and get API credentials for the TTS endpoint." },
+        { title: "Make Your API Call", description: "Call the TTS API with your text, chosen voice, and format parameters. The API returns audio in seconds." },
+        { title: "Integrate in Your Application", description: "Use the generated audio in your application. The straightforward API integrates easily into any development stack." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Voice Quality Standard", description: "OpenAI TTS voice quality that sounds more natural and expressive than most alternatives produces better user experiences in voice-enabled applications" },
+      { title: "Developer Simplicity", description: "A simple API that requires minimal setup and produces immediate high-quality results reduces integration time significantly" },
+      { title: "Speed for Applications", description: "Fast API response times that work for real-time applications serve use cases like voice assistants and interactive applications" },
+      { title: "Commercial Rights", description: "Full commercial rights for generated audio without additional licensing complexity makes the API practical for commercial application development" }
+    ],
+    useCases: [
+      { title: "Application Developers", description: "Software developers integrate OpenAI TTS for voice features in their apps and products" },
+      { title: "AI Application Builders", description: "Teams building AI assistants and agents use OpenAI TTS for natural voice output" },
+      { title: "Content Platforms", description: "Platforms that provide audio versions of text content use the API for high-quality narration generation" }
+    ]
+  },
+  "desivocal": {
+    whatIs: "DesiVocal is an AI text-to-speech platform focused on Indian language voices, providing natural-sounding TTS for Hindi, Tamil, Telugu, Bengali, and other Indian regional languages. It serves content creators, businesses, and developers who need high-quality voice synthesis specifically in Indian languages. For Indian content creators and businesses that need authentic Indian language voice synthesis, DesiVocal provides the specialized TTS solution.",
+    features: [
+      "Indian Language TTS: Specialized voice synthesis for Indian languages",
+      "Multiple Languages: Hindi, Tamil, Telugu, Bengali, and more",
+      "Natural Voices: Authentic-sounding Indian language voices",
+      "Regional Dialects: Different regional voice variations",
+      "Content Creation: Voice for videos and audio content",
+      "API Access: Integrate Indian language TTS into applications",
+      "Fast Generation: Quick audio output",
+      "Free to Try: Basic TTS without payment"
+    ],
+    howToUse: {
+      title: "How to Use Desivocal",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Language", description: "Sign up at desivocal.com and select the Indian language you need TTS for." },
+        { title: "Enter Your Text", description: "Type or paste your text in the selected language. DesiVocal handles the language script and pronunciation." },
+        { title: "Generate and Download", description: "Generate natural-sounding speech in your selected language and download for content use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Language Specificity", description: "Generic TTS platforms often provide poor quality for Indian languages. Specialized AI trained specifically on Indian language phonetics produces much more natural results" },
+      { title: "Regional Content", description: "The vast Indian content creator ecosystem that produces content in regional languages needs authentic-sounding voice synthesis for their specific language audience" },
+      { title: "Business Localization", description: "Companies serving Indian markets in regional languages use Indian language TTS for customer communication and content" },
+      { title: "Accessibility", description: "Indian language TTS that makes text content accessible as audio serves rural and less-literate audiences who prefer audio consumption" }
+    ],
+    useCases: [
+      { title: "Indian Language Content Creators", description: "Creators producing Hindi, Tamil, and other regional language content use DesiVocal for authentic voice narration" },
+      { title: "Indian Businesses", description: "Companies serving Indian regional markets use Indian language TTS for customer communication" },
+      { title: "EdTech Platforms", description: "Educational platforms serving Indian students use regional language TTS for accessible learning content" }
+    ]
+  },
+  "rev": {
+    whatIs: "Rev is a professional transcription and caption service that combines AI transcription with human review for high-accuracy results. It provides automated AI transcription for speed and economy alongside human transcription and captioning services for accuracy-critical needs. Rev serves content creators, legal professionals, media companies, and businesses that need reliable transcription and captioning. For organizations that need professional-grade transcription with guaranteed accuracy, Rev provides the combination of AI efficiency and human quality assurance.",
+    features: [
+      "AI Transcription: Fast automated speech-to-text conversion",
+      "Human Transcription: Professional human transcription for critical accuracy",
+      "Closed Captions: Caption files for video content compliance",
+      "Subtitles: Subtitle creation for international content",
+      "Zoom Transcription: Automatic meeting transcription",
+      "Multiple Formats: Output in SRT, VTT, Word, and other formats",
+      "Fast Turnaround: AI transcription in minutes, human in hours",
+      "Pay Per Use: Pay by the minute without subscription"
+    ],
+    howToUse: {
+      title: "How to Use Rev",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Audio or Video", description: "Go to rev.com and upload your audio or video file for transcription." },
+        { title: "Choose AI or Human", description: "Select AI transcription for quick affordable results or human transcription for accuracy-critical content." },
+        { title: "Receive and Download", description: "Download your completed transcript or caption file in your required format." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accuracy Tiers", description: "Different transcription needs have different accuracy requirements. AI that handles most content and humans that handle the rest provides appropriate quality for each use case" },
+      { title: "Caption Compliance", description: "Closed captions that meet FCC and ADA requirements for video content compliance require professional captioning quality that Rev's human service provides" },
+      { title: "Speed vs Accuracy", description: "AI transcription in minutes that is good enough for most needs and human transcription in hours that meets professional standards covers the full quality spectrum" },
+      { title: "Professional Trust", description: "A transcription provider trusted by major media companies and legal professionals provides the reliability that high-stakes transcription work requires" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "YouTubers and video creators use Rev for captions that improve accessibility and SEO performance" },
+      { title: "Legal Professionals", description: "Lawyers use human transcription for accurate legal proceeding documentation" },
+      { title: "Media Companies", description: "Broadcasters and media organizations use Rev for professional captioning compliance" }
+    ]
+  },
+  "vatis-tech": {
+    whatIs: "Vatis Tech is an AI speech recognition and transcription platform focused on high-accuracy transcription for multiple languages with particular strength in Romanian and other less-resourced languages. It provides automatic speech recognition, real-time transcription, and transcription APIs for developers and businesses. For organizations that need reliable speech recognition for languages where mainstream providers have weaker performance, Vatis Tech provides specialized multilingual transcription.",
+    features: [
+      "Speech Recognition: Accurate audio-to-text conversion",
+      "Romanian Language Focus: Strong performance in Romanian and Eastern European languages",
+      "Real-Time Transcription: Live speech-to-text processing",
+      "Multiple Languages: Support for many language options",
+      "API Access: Integrate transcription into applications",
+      "Batch Transcription: Process many audio files efficiently",
+      "Business Focus: Enterprise transcription workflows",
+      "Free Trial: Try transcription before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Vatis Tech",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Audio", description: "Sign up at vatis.tech and upload audio files or configure real-time transcription for your use case." },
+        { title: "Select Your Language", description: "Choose the language of your audio content. Vatis Tech applies the appropriate recognition model." },
+        { title: "Receive Your Transcript", description: "Download the transcribed text or access it through the API for integration into your workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Language Coverage", description: "Speech recognition systems trained specifically on less-commonly supported languages produce dramatically better accuracy than generic models applied to those languages" },
+      { title: "Regional Business Needs", description: "Companies in Eastern Europe and other regions where mainstream providers have weak language support need specialized transcription solutions" },
+      { title: "Real-Time Applications", description: "Live speech-to-text that processes audio in real time serves applications that need immediate transcription rather than batch processing" },
+      { title: "Developer API", description: "Transcription APIs that integrate into applications provide speech recognition features without building custom models" }
+    ],
+    useCases: [
+      { title: "Romanian and Eastern European Businesses", description: "Companies in these regions use Vatis Tech for accurate transcription in their native languages" },
+      { title: "Developers Building Multilingual Apps", description: "Software teams integrate Vatis Tech for speech recognition in languages where mainstream APIs underperform" },
+      { title: "Media Organizations", description: "News and media companies use specialized transcription for content in their regional languages" }
+    ]
+  },
+  "clipto-ai": {
+    whatIs: "Clipto AI is an AI transcription and note-taking tool that converts audio and video content into searchable text notes. It transcribes meetings, lectures, interviews, and any spoken content into organized text that can be searched and referenced. For students, researchers, and professionals who need to capture and retrieve spoken information efficiently, Clipto AI provides AI-powered audio-to-text note organization.",
+    features: [
+      "Audio Transcription: Convert spoken content to searchable text",
+      "Video Transcription: Extract text from video recordings",
+      "Meeting Notes: Transcribe meeting recordings automatically",
+      "Searchable Content: Find information across all transcribed content",
+      "Note Organization: Organize transcriptions into notebooks",
+      "Multiple Formats: Import audio and video from different sources",
+      "Export Options: Download transcripts in various formats",
+      "Free Plan: Basic transcription without payment"
+    ],
+    howToUse: {
+      title: "How to Use Clipto Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Content", description: "Sign up at clipto.ai and upload the audio or video you want transcribed." },
+        { title: "Review Your Transcript", description: "Clipto AI generates a transcript of your content. Review and edit any errors." },
+        { title: "Search and Reference", description: "Use the search feature to find specific information across all your transcribed content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Knowledge Retrieval", description: "Spoken content that exists only as audio or video becomes searchable knowledge through transcription, enabling information retrieval that listening alone cannot support" },
+      { title: "Student Note-Taking", description: "Lecture recordings transcribed into searchable notes are more useful for studying than audio files that require re-listening to find specific content" },
+      { title: "Research Organization", description: "Interview and research recordings organized as searchable text notes make qualitative research analysis more efficient" },
+      { title: "Meeting Reference", description: "Being able to search across all past meeting transcripts for specific discussions reduces the time spent re-listening to find decision context" }
+    ],
+    useCases: [
+      { title: "Students", description: "University students transcribe lecture recordings for searchable study notes" },
+      { title: "Researchers", description: "Qualitative researchers transcribe interviews for organized text data analysis" },
+      { title: "Business Professionals", description: "Workers transcribe meetings and calls for searchable reference documentation" }
+    ]
+  },
+  "turboscribe": {
+    whatIs: "TurboScribe is an AI audio and video transcription service that provides fast and accurate speech-to-text conversion with support for many languages. It handles transcription of meetings, interviews, podcasts, and any audio content with a focus on speed and accuracy. TurboScribe provides unlimited transcription on paid plans, making it cost-effective for high-volume transcription needs. For users and teams that need fast reliable transcription regularly, TurboScribe provides efficient speech-to-text at scale.",
+    features: [
+      "Fast Transcription: Quick audio and video to text conversion",
+      "High Accuracy: Reliable speech recognition across languages",
+      "Multiple Languages: Transcription in many languages",
+      "Unlimited Transcription: High-volume plans for regular users",
+      "Multiple Formats: Import MP3, MP4, WAV, and other formats",
+      "Export Options: Download in TXT, SRT, and other formats",
+      "Speaker Identification: Distinguish between different speakers",
+      "Free Plan: Basic transcription without payment"
+    ],
+    howToUse: {
+      title: "How to Use Turboscribe",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Audio or Video", description: "Sign up at turboscribe.ai and upload the file you want transcribed." },
+        { title: "Wait for Transcription", description: "TurboScribe processes your file quickly. Longer files take proportionally more time." },
+        { title: "Download Your Transcript", description: "Download your completed transcript in your preferred format." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed", description: "Fast transcription that delivers results quickly enables efficient content workflows that depend on text versions of audio content" },
+      { title: "Volume Economics", description: "Unlimited transcription plans that do not charge per minute make high-volume transcription economically predictable for regular users" },
+      { title: "Language Breadth", description: "Support for many languages from one service eliminates the need for separate transcription tools for multilingual content" },
+      { title: "Format Flexibility", description: "Multiple export formats including SRT for captions serve different downstream uses of transcribed content" }
+    ],
+    useCases: [
+      { title: "Podcasters", description: "Podcast creators transcribe episodes for show notes, blog posts, and searchable content" },
+      { title: "Content Creators", description: "Video creators transcribe content for captions and repurposed written content" },
+      { title: "Researchers and Journalists", description: "People who record interviews transcribe them for content creation and research analysis" }
+    ]
+  },
+  "transkriptor": {
+    whatIs: "Transkriptor is an AI transcription service that converts audio and video files into text with high accuracy across many languages. It provides meeting transcription, interview transcription, and general audio-to-text conversion with speaker detection and export options. Transkriptor integrates with Zoom and other meeting platforms for automatic recording transcription. For individuals and teams who need reliable multilingual transcription, Transkriptor provides capable and accessible speech-to-text.",
+    features: [
+      "Audio to Text: Convert audio files to accurate transcripts",
+      "Video Transcription: Transcribe video content automatically",
+      "Meeting Integration: Automatic Zoom and Teams transcription",
+      "Speaker Detection: Identify different speakers in recordings",
+      "Multiple Languages: Transcription in 100 plus languages",
+      "Export Formats: Download in Word, SRT, PDF, and more",
+      "Summarization: AI summaries of transcribed content",
+      "Free Credits: Try transcription before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Transkriptor",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload or Connect", description: "Sign up at transkriptor.com and upload audio or video files or connect your Zoom account for automatic meeting transcription." },
+        { title: "Review Your Transcript", description: "Transkriptor generates your transcript with speaker labels. Review and correct any recognition errors." },
+        { title: "Export and Use", description: "Export your transcript in the format that suits your needs - Word for editing, SRT for captions, or PDF for sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Language Coverage", description: "Transcription in 100 plus languages from one service makes Transkriptor practical for organizations with multilingual content needs" },
+      { title: "Meeting Platform Integration", description: "Automatic Zoom transcription that captures meetings without manual upload steps integrates naturally into existing workflows" },
+      { title: "Speaker Detection", description: "Identifying different speakers in multi-person recordings makes transcripts more useful for understanding who said what" },
+      { title: "Export Variety", description: "Multiple export formats that serve different downstream uses from captioning to document editing make transcripts immediately usable" }
+    ],
+    useCases: [
+      { title: "Business Teams", description: "Organizations use Transkriptor for meeting transcription and documentation across their communications" },
+      { title: "Content Creators", description: "Podcasters and video creators use transcription for captions and written content repurposing" },
+      { title: "Language Professionals", description: "Translators and interpreters use transcription to create text from audio for further language work" }
+    ]
+  },
   "fakeyou": {
     whatIs: "FakeYou is a text-to-speech platform that specializes in celebrity voices, fictional character voices, and famous personalities. It uses deep fake audio technology to generate speech in the voices of popular characters from movies, TV shows, video games, and internet culture. Users type any text and select from thousands of available voice models to generate audio in that character's voice. For fans and content creators who want to create entertaining voice content using beloved character voices, FakeYou provides the largest publicly available library of character voice models.",
     features: [
