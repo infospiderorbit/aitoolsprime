@@ -82,7 +82,7 @@ export default function ContactPage() {
             <div className="bg-card rounded-2xl border border-border p-6 shadow-card">
               <div className="flex items-center gap-2 font-bold mb-3"><Mail className="h-5 w-5" /> Email Support</div>
               <p className="text-muted-foreground text-sm mb-2">For general inquiries and support</p>
-              <a href="mailto:support@aitoolsprime.com" className="text-primary hover:underline font-medium text-sm">support@aitoolsprime.com</a>
+              <a href="mailto:hello@aitoolsprime.com" className="text-primary hover:underline font-medium text-sm">hello@aitoolsprime.com</a>
             </div>
 
             <div className="bg-card rounded-2xl border border-border p-6 shadow-card">
