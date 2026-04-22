@@ -435,7 +435,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-music-video-generator": [
       { id: "brev-ai", name: "Brev.ai", description: "AI music video creation platform", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "🎵", category: "video-animation", subcategory: "ai-music-video-generator" },
-      { id: "brev-ai-alt", name: "Brev AI", description: "Alternative AI music video generator", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "🎶", category: "video-animation", subcategory: "ai-music-video-generator" },
       { id: "kaiber", name: "Kaiber", description: "AI music video and animation creator", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🎨", category: "video-animation", subcategory: "ai-music-video-generator" },
       { id: "musichero-ai", name: "MusicHero.ai", description: "AI-powered music video generation", url: "", upvotes: 754, verified: true, rating: 4.2, icon: "🎸", category: "video-animation", subcategory: "ai-music-video-generator" },
       { id: "neural-frames", name: "Neural Frames", description: "AI video generation for music", url: "", upvotes: 621, verified: true, rating: 4.1, icon: "🧠", category: "video-animation", subcategory: "ai-music-video-generator" }
@@ -543,7 +542,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "long-video-to-short-video-ai": [
       { id: "vizard-ai-short", name: "Vizard.ai", description: "AI long-to-short video conversion", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🧙‍♂️", category: "video-animation", subcategory: "long-video-to-short-video-ai" },
-      { id: "riverside-fm-short", name: "Riverside.fm", description: "Podcast to short video AI", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🌊", category: "video-animation", subcategory: "long-video-to-short-video-ai" },
       { id: "opusclip-short", name: "OpusClip", description: "AI clip extraction from long videos", url: "", upvotes: 1089, verified: true, rating: 4.5, icon: "✂️", category: "video-animation", subcategory: "long-video-to-short-video-ai" },
       { id: "sendshort", name: "SendShort", description: "AI short video creation from long content", url: "", upvotes: 754, verified: true, rating: 4.3, icon: "📱", category: "video-animation", subcategory: "long-video-to-short-video-ai" }
     ],
@@ -599,7 +597,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-podcast-editing": [
       { id: "cleanvoice-ai", name: "Cleanvoice AI", description: "AI podcast audio cleaning and editing", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🧹", category: "voice-generation-conversion", subcategory: "ai-podcast-editing" },
-      { id: "autopod-edit", name: "AutoPod", description: "Automated podcast editing suite", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🎬", category: "voice-generation-conversion", subcategory: "ai-podcast-editing" },
       { id: "detail", name: "Detail", description: "AI-powered audio enhancement", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🔍", category: "voice-generation-conversion", subcategory: "ai-podcast-editing" },
       { id: "vocut", name: "VoCut", description: "AI voice editing and enhancement", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "🎤", category: "voice-generation-conversion", subcategory: "ai-podcast-editing" },
       { id: "shanda-studio", name: "Shanda Studio", description: "Professional AI podcast editing", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "🎭", category: "voice-generation-conversion", subcategory: "ai-podcast-editing" }
@@ -620,7 +617,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-speech-synthesis": [
       { id: "ttsmaker", name: "TTSMaker", description: "Free AI text-to-speech generator", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🔊", category: "voice-generation-conversion", subcategory: "ai-speech-synthesis" },
-      { id: "vbee-aivoice-synth", name: "Vbee AIVoice", description: "Professional AI speech synthesis", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🐝", category: "voice-generation-conversion", subcategory: "ai-speech-synthesis" },
       { id: "poppop-ai-tts", name: "PopPop AI Text to Speech", description: "AI voice synthesis platform", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🎈", category: "voice-generation-conversion", subcategory: "ai-speech-synthesis" },
       { id: "text-to-speech-openai", name: "Text To Speech OpenAI", description: "OpenAI powered text-to-speech", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🤖", category: "voice-generation-conversion", subcategory: "ai-speech-synthesis" },
       { id: "desivocal", name: "DesiVocal", description: "AI speech synthesis for Indian languages", url: "", upvotes: 432, verified: false, rating: 4.2, icon: "🇮🇳", category: "voice-generation-conversion", subcategory: "ai-speech-synthesis" }
@@ -637,19 +633,14 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "speechify", name: "Speechify", description: "AI text-to-speech reading app", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🗣️", category: "voice-generation-conversion", subcategory: "ai-text-to-speech" },
       { id: "minimax-audio", name: "MiniMax Audio", description: "Advanced AI text-to-speech engine", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🔊", category: "voice-generation-conversion", subcategory: "ai-text-to-speech" },
       { id: "luvvoice", name: "Luvvoice", description: "Free AI text-to-speech converter", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "💖", category: "voice-generation-conversion", subcategory: "ai-text-to-speech" },
-      { id: "ttsmaker-tts", name: "TTSMaker", description: "Online AI text-to-speech generator", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🔊", category: "voice-generation-conversion", subcategory: "ai-text-to-speech" }
     ],
     "ai-transcriber": [
       { id: "notta", name: "Notta", description: "AI meeting transcription and notes", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "📝", category: "voice-generation-conversion", subcategory: "ai-transcriber" },
-      { id: "riverside-fm-transcribe", name: "Riverside.fm", description: "High-quality transcription service", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🌊", category: "voice-generation-conversion", subcategory: "ai-transcriber" },
       { id: "turboscribe-transcribe", name: "TurboScribe", description: "Fast and accurate AI transcription", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "⚡", category: "voice-generation-conversion", subcategory: "ai-transcriber" },
       { id: "fathom", name: "Fathom", description: "AI meeting assistant and transcriber", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🧠", category: "voice-generation-conversion", subcategory: "ai-transcriber" }
     ],
     "ai-transcription": [
-      { id: "clipto-ai-transcription", name: "Clipto.AI", description: "AI video and audio transcription", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "✂️", category: "voice-generation-conversion", subcategory: "ai-transcription" },
-      { id: "transkriptor-transcription", name: "Transkriptor", description: "Automatic transcription service", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "📝", category: "voice-generation-conversion", subcategory: "ai-transcription" },
       { id: "happy-scribe", name: "Happy Scribe", description: "Professional transcription and subtitles", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "😊", category: "voice-generation-conversion", subcategory: "ai-transcription" },
-      { id: "maestra-ai-transcription", name: "Maestra AI", description: "AI transcription and translation service", url: "", upvotes: 765, verified: true, rating: 4.4, icon: "🎭", category: "voice-generation-conversion", subcategory: "ai-transcription" }
     ],
     "ai-voice-assistants": [
       { id: "roxy-ai", name: "Roxy - AI Voice companion", description: "Personal AI voice companion", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🎭", category: "voice-generation-conversion", subcategory: "ai-voice-assistants" },
@@ -678,20 +669,11 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "elevenlabs", name: "ElevenLabs", description: "Premium AI voice generation platform", url: "", upvotes: 3456, verified: true, rating: 4.9, icon: "🔊", category: "voice-generation-conversion", subcategory: "ai-voice-generator" },
       { id: "playai", name: "PlayAI", description: "AI voice generation and cloning", url: "", upvotes: 1890, verified: true, rating: 4.7, icon: "▶️", category: "voice-generation-conversion", subcategory: "ai-voice-generator" },
       { id: "fineshare", name: "FineShare", description: "AI voice generator and editor", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🎤", category: "voice-generation-conversion", subcategory: "ai-voice-generator" },
-      { id: "fish-audio-generator", name: "Fish Audio", description: "Advanced AI voice synthesis", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🐟", category: "voice-generation-conversion", subcategory: "ai-voice-generator" },
     ],
     "ai-voice-over": [
-      { id: "easeus-voiceover", name: "EaseUS", description: "AI voice over software", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🛠️", category: "voice-generation-conversion", subcategory: "ai-voice-over" },
-      { id: "speechify-voiceover", name: "Speechify", description: "AI voice over generation", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🗣️", category: "voice-generation-conversion", subcategory: "ai-voice-over" },
-      { id: "playai-voiceover", name: "PlayAI", description: "Professional AI voice over", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "▶️", category: "voice-generation-conversion", subcategory: "ai-voice-over" },
-      { id: "murf-ai-voiceover", name: "Murf AI", description: "AI voice over studio", url: "", upvotes: 432, verified: true, rating: 4.2, icon: "🎤", category: "voice-generation-conversion", subcategory: "ai-voice-over" }
     ],
     "audio-to-text-ai": [
-      { id: "turboscribe-audio", name: "TurboScribe", description: "Fast audio to text conversion", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "⚡", category: "voice-generation-conversion", subcategory: "audio-to-text-ai" },
-      { id: "notta-audio", name: "Notta", description: "AI audio transcription service", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "📝", category: "voice-generation-conversion", subcategory: "audio-to-text-ai" },
       { id: "deepgram", name: "Deepgram", description: "Speech recognition API platform", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🌊", category: "voice-generation-conversion", subcategory: "audio-to-text-ai" },
-      { id: "rev-audio", name: "Rev", description: "Professional audio transcription", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🔄", category: "voice-generation-conversion", subcategory: "audio-to-text-ai" },
-      { id: "vatis-tech-audio", name: "Vatis Tech", description: "AI audio to text technology", url: "", upvotes: 432, verified: true, rating: 4.2, icon: "🎤", category: "voice-generation-conversion", subcategory: "audio-to-text-ai" }
     ],
     "tiktok-ai-voice-generator": [
       { id: "tiktok-voice-generator", name: "TikTok Voice Generator", description: "Official TikTok AI voice synthesis", url: "", upvotes: 2345, verified: true, rating: 4.7, icon: "🎵", category: "voice-generation-conversion", subcategory: "tiktok-ai-voice-generator" },
@@ -1702,7 +1684,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "ai-suitup", name: "AI SuitUp", description: "AI professional photo generator", url: "", upvotes: 432, verified: true, rating: 4.3, icon: "👨‍💼", category: "social-media", subcategory: "ai-linkedin-headshot" }
     ],
     "ai-linkedin-photo-generator": [
-      { id: "vidnoz-ai-linkedin", name: "Vidnoz AI", description: "AI LinkedIn photo generator", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "🎬", category: "social-media", subcategory: "ai-linkedin-photo-generator" },
       { id: "picstudio-ai", name: "PicStudio.AI", description: "AI photo studio for LinkedIn", url: "", upvotes: 765, verified: true, rating: 4.5, icon: "📷", category: "social-media", subcategory: "ai-linkedin-photo-generator" },
       { id: "windybot", name: "WindyBot", description: "AI LinkedIn photo creation bot", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🤖", category: "social-media", subcategory: "ai-linkedin-photo-generator" },
       { id: "suitup", name: "SuitUp", description: "AI professional photo creator", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "👔", category: "social-media", subcategory: "ai-linkedin-photo-generator" },
@@ -3008,13 +2989,11 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "myvocal-ai", name: "MyVocal.ai", description: "Personal AI singing voice", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🎧", category: "music-audio", subcategory: "ai-singing-generator" }
     ],
     "ai-song-cover": [
-      { id: "easeus-vocal-remover-cover", name: "EaseUS Vocal Remover", description: "Vocal removal for song covers", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🎶", category: "music-audio", subcategory: "ai-song-cover" },
       { id: "voicedub", name: "VoiceDub", description: "AI-powered song cover dubbing", url: "", upvotes: 1765, verified: true, rating: 4.5, icon: "🎙️", category: "music-audio", subcategory: "ai-song-cover" },
       { id: "covers-ai", name: "Covers.ai", description: "Generate song covers with AI voices", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🎧", category: "music-audio", subcategory: "ai-song-cover" }
     ],
     "ai-song-generator": [
       { id: "udio-song", name: "Udio", description: "AI-powered song creation", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🎵", category: "music-audio", subcategory: "ai-song-generator" },
-      { id: "topmediai-song", name: "TopMediai", description: "AI song generation platform", url: "", upvotes: 2123, verified: true, rating: 4.6, icon: "🎼", category: "music-audio", subcategory: "ai-song-generator" },
       { id: "songgenerator-io", name: "SongGenerator.io", description: "Generate songs instantly", url: "", upvotes: 2012, verified: true, rating: 4.5, icon: "🎹", category: "music-audio", subcategory: "ai-song-generator" }
     ],
     "ai-song-remixer": [
@@ -3044,7 +3023,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "melobytes", name: "Melobytes.com", description: "Text to music converter", url: "", upvotes: 1654, verified: true, rating: 4.4, icon: "🎹", category: "music-audio", subcategory: "ai-text-to-music" }
     ],
     "ai-vocal-remover": [
-      { id: "easeus-tools", name: "EaseUS", description: "Professional vocal removal tools", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🔧", category: "music-audio", subcategory: "ai-vocal-remover" },
       { id: "dubbing-ai", name: "Dubbing AI", description: "AI-powered vocal extraction", url: "", upvotes: 2123, verified: true, rating: 4.6, icon: "🎶", category: "music-audio", subcategory: "ai-vocal-remover" },
     ],
     "chord-ai": [
