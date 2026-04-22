@@ -12,8 +12,20 @@ export default function ContactPage() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setSubmitting(true);
-    await new Promise((r) => setTimeout(r, 1000));
-    setSubmitted(true);
+    try {
+      const response = await fetch('https://formspree.io/f/mnjlgyeq', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      });
+      if (response.ok) {
+        setSubmitted(true);
+      } else {
+        alert('Something went wrong. Please email us directly at hello@aitoolsprime.com');
+      }
+    } catch {
+      alert('Something went wrong. Please email us directly at hello@aitoolsprime.com');
+    }
     setSubmitting(false);
   }
 
