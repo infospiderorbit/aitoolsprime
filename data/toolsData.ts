@@ -957,10 +957,10 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
   },
   "writing-editing": {
     "ai-blog-generator": [
-      { id: "supawrite", name: "Supawrite", description: "AI writing assistant for creating high-quality blog posts and marketing content with SEO optimization", url: "https://supawrite.ai", upvotes: 890, verified: false, rating: 4.2, icon: "✍️", category: "writing-editing", subcategory: "ai-blog-generator", addedDate: "2026-04-03" },
+      { id: "supawrite", name: "Supawrite", description: "AI writing assistant for blog posts and marketing content", url: "https://supawrite.ai", upvotes: 890, verified: false, rating: 4.2, icon: "✍️", category: "writing-editing", subcategory: "ai-blog-generator", addedDate: "2026-04-03" },
 
       { id: "junia-ai", name: "Junia AI", description: "AI-powered blog content generator with SEO optimization", url: "", upvotes: 245, verified: true, rating: 4.6, icon: "📝", category: "writing-editing", subcategory: "ai-blog-generator" },
-      { id: "writesonic", name: "Writesonic", description: "AI-powered content creation and SEO platform for blog posts, ad copy and marketing content", url: "https://writesonic.com/", upvotes: 623, verified: true, rating: 4.4, icon: "🚀", category: "writing-editing", subcategory: "ai-blog-generator" },
+      { id: "writesonic", name: "Writesonic", description: "AI content creation platform for blogs, ads and marketing", url: "https://writesonic.com/", upvotes: 623, verified: true, rating: 4.4, icon: "🚀", category: "writing-editing", subcategory: "ai-blog-generator" },
       { id: "aiktp", name: "Aiktp", description: "AI SEO content generator for long-form articles", url: "https://aiktp.com/", upvotes: 156, verified: true, rating: 4.3, icon: "✨", category: "writing-editing", subcategory: "ai-blog-generator" },
       { id: "durable", name: "Durable", description: "Fastest AI website builder for complete business sites", url: "https://durable.com/", upvotes: 189, verified: true, rating: 4.5, icon: "🔧", category: "writing-editing", subcategory: "ai-blog-generator" },
       { id: "gravitywrite", name: "GravityWrite", description: "All-in-one AI content platform with 250 plus templates", url: "https://gravitywrite.com/", upvotes: 312, verified: true, rating: 4.7, icon: "🌟", category: "writing-editing", subcategory: "ai-blog-generator" }
