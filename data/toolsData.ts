@@ -105,7 +105,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
   },
   "office-productivity": {
     "ai-agent": [
-      { id: "agnes-ai", name: "Agnes AI", description: "Agnes AI is an intelligent AI assistant platform helping users with research, writing, and task automation through conversational AI interactions", url: "https://agnes-ai.com", upvotes: 2500, verified: false, rating: 4.1, icon: "🤖", category: "office-productivity", subcategory: "ai-agent", addedDate: "2026-04-01" },
+      { id: "agnes-ai", name: "Agnes AI", description: "Intelligent AI assistant for research and writing tasks", url: "https://agnes-ai.com", upvotes: 2500, verified: false, rating: 4.1, icon: "🤖", category: "office-productivity", subcategory: "ai-agent", addedDate: "2026-04-01" },
       { id: "manus-ai", name: "Manus", description: "AI-powered productivity assistant", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "✋", category: "office-productivity", subcategory: "ai-agent" },
 
       { id: "jotform-ai-agents", name: "Jotform AI Agents", description: "AI-powered form automation and workflow agents", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🤖", category: "office-productivity", subcategory: "ai-agent" },
@@ -448,7 +448,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "aireelgenerator", name: "AiReelGenerator", description: "Simple AI reel creation tool", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🎬", category: "video-animation", subcategory: "ai-reel-generator" }
     ],
     "ai-short-video-generator": [
-      { id: "2short-ai", name: "2short AI", description: "2short AI automatically converts long YouTube videos into engaging short clips optimized for TikTok Instagram Reels and YouTube Shorts", url: "https://2short.ai", upvotes: 3400, verified: false, rating: 4.5, icon: "✂️", category: "video-animation", subcategory: "ai-short-video-generator", addedDate: "2026-04-01" },
+      { id: "2short-ai", name: "2short AI", description: "Converts long YouTube videos into engaging short clips", url: "https://2short.ai", upvotes: 3400, verified: false, rating: 4.5, icon: "✂️", category: "video-animation", subcategory: "ai-short-video-generator", addedDate: "2026-04-01" },
       { id: "opus-clip", name: "Opus Clip", description: "AI short video clips from long content", url: "", upvotes: 1789, verified: true, rating: 4.8, icon: "✂️", category: "video-animation", subcategory: "ai-short-video-generator" },
       { id: "luma-ai-dream", name: "Luma AI Dream Machine", description: "AI dream-to-video generation", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "💭", category: "video-animation", subcategory: "ai-short-video-generator" },
       { id: "vizard-ai", name: "Vizard.ai", description: "AI video editing and short clips", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "🧙‍♂️", category: "video-animation", subcategory: "ai-short-video-generator" },
@@ -489,7 +489,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "airbrush", name: "AirBrush", description: "AI video and photo enhancement", url: "", upvotes: 654, verified: true, rating: 4.2, icon: "🖌️", category: "video-animation", subcategory: "ai-video-enhancer" }
     ],
     "ai-video-generator": [
-      { id: "pixnova-ai", name: "Pixnova AI", description: "Pixnova AI creates AI-generated videos from text descriptions with multiple art styles and high-quality output", url: "https://pixnova.ai", upvotes: 2800, verified: false, rating: 4.2, icon: "🖼️", category: "video-animation", subcategory: "ai-video-generator", addedDate: "2026-04-01" },
+      { id: "pixnova-ai", name: "Pixnova AI", description: "AI video generation from text with multiple art styles", url: "https://pixnova.ai", upvotes: 2800, verified: false, rating: 4.2, icon: "🖼️", category: "video-animation", subcategory: "ai-video-generator", addedDate: "2026-04-01" },
       { id: "unlucid-ai", name: "Unlucid AI", description: "Unlucid AI is a creative AI image and video generation platform specializing in surreal dreamlike visuals", url: "https://unlucid.ai", upvotes: 2600, verified: false, rating: 4.1, icon: "🌙", category: "video-animation", subcategory: "ai-video-generator", addedDate: "2026-04-01" },
       { id: "sora", name: "Sora", description: "OpenAI's advanced text-to-video model", url: "", upvotes: 2456, verified: true, rating: 4.9, icon: "🌟", category: "video-animation", subcategory: "ai-video-generator" },
       { id: "heygen", name: "HeyGen", description: "AI avatar video generation platform", url: "", upvotes: 1789, verified: true, rating: 4.7, icon: "👋", category: "video-animation", subcategory: "ai-video-generator" },
@@ -839,7 +839,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "thispersonnotexist", name: "ThisPersonNotExist.org", description: "AI-generated people that don't exist", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🌐", category: "image-generation-editing", subcategory: "ai-person-generator" }
     ],
     "ai-photo-editor": [
-      { id: "beart-ai", name: "BeArt AI", description: "BeArt AI is an AI-powered portrait and photo enhancement platform specializing in face beautification art style transfers and professional photo editing", url: "https://beart.ai", upvotes: 2900, verified: false, rating: 4.3, icon: "🎭", category: "image-generation-editing", subcategory: "ai-photo-editor", addedDate: "2026-04-01" },
+      { id: "beart-ai", name: "BeArt AI", description: "AI-powered portrait and photo enhancement platform", url: "https://beart.ai", upvotes: 2900, verified: false, rating: 4.3, icon: "🎭", category: "image-generation-editing", subcategory: "ai-photo-editor", addedDate: "2026-04-01" },
       { id: "cutout-pro", name: "Cutout.Pro", description: "AI-powered photo editing suite", url: "https://www.cutout.pro/", upvotes: 1567, verified: true, rating: 4.7, icon: "✂️", category: "image-generation-editing", subcategory: "ai-photo-editor" },
       { id: "vsco", name: "VSCO", description: "Creative photo editing with AI features", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "📸", category: "image-generation-editing", subcategory: "ai-photo-editor" },
       { id: "fotor-pixlr", name: "FotorPixlr", description: "Online photo editor with AI tools", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "🖼️", category: "image-generation-editing", subcategory: "ai-photo-editor" },
@@ -961,9 +961,9 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
 
       { id: "junia-ai", name: "Junia AI", description: "AI-powered blog content generator with SEO optimization", url: "", upvotes: 245, verified: true, rating: 4.6, icon: "📝", category: "writing-editing", subcategory: "ai-blog-generator" },
       { id: "writesonic", name: "Writesonic", description: "AI-powered content creation and SEO platform for blog posts, ad copy and marketing content", url: "https://writesonic.com/", upvotes: 623, verified: true, rating: 4.4, icon: "🚀", category: "writing-editing", subcategory: "ai-blog-generator" },
-      { id: "aiktp", name: "Aiktp", description: "AIKTP is an AI SEO content generator that creates long-form articles over 2500 words from keywords and outlines with bulk generation, WordPress integration and built-in SEO optimization", url: "https://aiktp.com/", upvotes: 156, verified: true, rating: 4.3, icon: "✨", category: "writing-editing", subcategory: "ai-blog-generator" },
-      { id: "durable", name: "Durable", description: "Durable is the fastest AI website builder that generates a complete professional website in 30 seconds with built-in CRM invoicing AI marketing tools and analytics for small businesses", url: "https://durable.com/", upvotes: 189, verified: true, rating: 4.5, icon: "🔧", category: "writing-editing", subcategory: "ai-blog-generator" },
-      { id: "gravitywrite", name: "GravityWrite", description: "GravityWrite is an all-in-one AI content platform with 250 plus templates for blogs social media images videos and file summarization used by over 2 million users worldwide", url: "https://gravitywrite.com/", upvotes: 312, verified: true, rating: 4.7, icon: "🌟", category: "writing-editing", subcategory: "ai-blog-generator" }
+      { id: "aiktp", name: "Aiktp", description: "AI SEO content generator for long-form articles", url: "https://aiktp.com/", upvotes: 156, verified: true, rating: 4.3, icon: "✨", category: "writing-editing", subcategory: "ai-blog-generator" },
+      { id: "durable", name: "Durable", description: "Fastest AI website builder for complete business sites", url: "https://durable.com/", upvotes: 189, verified: true, rating: 4.5, icon: "🔧", category: "writing-editing", subcategory: "ai-blog-generator" },
+      { id: "gravitywrite", name: "GravityWrite", description: "All-in-one AI content platform with 250 plus templates", url: "https://gravitywrite.com/", upvotes: 312, verified: true, rating: 4.7, icon: "🌟", category: "writing-editing", subcategory: "ai-blog-generator" }
     ],
     "ai-book-writing": [
       { id: "squibler", name: "Squibler", description: "AI-powered writing tool for authors and screenwriters", url: "", upvotes: 456, verified: true, rating: 4.5, icon: "📚", category: "writing-editing", subcategory: "ai-book-writing" },
@@ -1242,7 +1242,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-text-generator": [
       { id: "venice-ai", name: "Venice AI", description: "AI text generation platform", url: "", upvotes: 1234, verified: true, rating: 4.5, icon: "🏛️", category: "writing-editing", subcategory: "ai-text-generator" },
-      { id: "hyperwrite", name: "HyperWrite", description: "AI-powered writing assistant that generates and improves content for emails, articles, and blog posts instantly.", url: "https://www.hyperwriteai.com/", upvotes: 789, verified: true, rating: 4.4, icon: "⚡", category: "writing-editing", subcategory: "ai-text-generator", addedDate: "Nov 04, 2025" },
+      { id: "hyperwrite", name: "HyperWrite", description: "AI writing assistant for emails, articles, and content", url: "https://www.hyperwriteai.com/", upvotes: 789, verified: true, rating: 4.4, icon: "⚡", category: "writing-editing", subcategory: "ai-text-generator", addedDate: "Nov 04, 2025" },
       { id: "toolsaday", name: "Toolsaday", description: "Daily AI tools including text generation", url: "", upvotes: 567, verified: false, rating: 4.3, icon: "🔧", category: "writing-editing", subcategory: "ai-text-generator" }
     ],
     "ai-text-message-generator": [
@@ -1319,8 +1319,8 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "ai-hentai-generator", name: "AI Hentai Generator", description: "Adult anime content generator", url: "", upvotes: 543, verified: false, rating: 4.3, icon: "🔞", category: "art-creative-design", subcategory: "ai-anime-generator" }
     ],
     "ai-art-generator": [
-      { id: "dreamina-ai", name: "Dreamina AI", description: "Dreamina AI by CapCut is a powerful AI image and video generation platform creating stunning visuals from text descriptions with professional quality output", url: "https://dreamina.capcut.com", upvotes: 4100, verified: false, rating: 4.6, icon: "✨", category: "image-generation-editing", subcategory: "ai-art-generator", addedDate: "2026-04-01" },
-      { id: "vheer-ai", name: "Vheer AI", description: "Vheer AI is an advanced AI image generation platform creating high-quality realistic and artistic images from text prompts with multiple style options", url: "https://vheer.com", upvotes: 3100, verified: false, rating: 4.3, icon: "🎨", category: "image-generation-editing", subcategory: "ai-art-generator", addedDate: "2026-04-01" },
+      { id: "dreamina-ai", name: "Dreamina AI", description: "AI image and video generation platform by CapCut", url: "https://dreamina.capcut.com", upvotes: 4100, verified: false, rating: 4.6, icon: "✨", category: "image-generation-editing", subcategory: "ai-art-generator", addedDate: "2026-04-01" },
+      { id: "vheer-ai", name: "Vheer AI", description: "Advanced AI image generation for realistic visuals", url: "https://vheer.com", upvotes: 3100, verified: false, rating: 4.3, icon: "🎨", category: "image-generation-editing", subcategory: "ai-art-generator", addedDate: "2026-04-01" },
       { id: "midjourney", name: "Midjourney", description: "Leading AI art generation platform", url: "", upvotes: 2567, verified: true, rating: 4.9, icon: "🎨", category: "art-creative-design", subcategory: "ai-art-generator" },
       { id: "pixai-art", name: "PixAI", description: "Versatile AI art creation tool", url: "", upvotes: 1890, verified: true, rating: 4.8, icon: "🎌", category: "art-creative-design", subcategory: "ai-art-generator" },
       { id: "pica-ai", name: "Pica AI", description: "Professional AI art generator", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🖼️", category: "art-creative-design", subcategory: "ai-art-generator" },
@@ -1627,7 +1627,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "image-to-3d-model": [
       { id: "planner-5d", name: "Planner 5D", description: "AI 2D to 3D model converter", url: "", upvotes: 1567, verified: true, rating: 4.8, icon: "🏠", category: "art-creative-design", subcategory: "image-to-3d-model" },
-      { id: "meshy-3d", name: "Meshy AI", description: "Meshy AI is the world leading AI-powered 3D model generator that transforms text prompts and images into fully textured game-ready 3D assets in under a minute, trusted by over 3 million creators worldwide.", url: "https://www.meshy.ai", upvotes: 1234, verified: true, rating: 4.7, icon: "🌟", category: "art-creative-design", subcategory: "image-to-3d-model" },
+      { id: "meshy-3d", name: "Meshy AI", description: "AI-powered 3D model generator from text and images", url: "https://www.meshy.ai", upvotes: 1234, verified: true, rating: 4.7, icon: "🌟", category: "art-creative-design", subcategory: "image-to-3d-model" },
       { id: "tripo-ai-3d", name: "Tripo AI", description: "Triple AI 3D model creator", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🔺", category: "art-creative-design", subcategory: "image-to-3d-model" },
       { id: "3d-ai-studio", name: "3D AI Studio", description: "Professional 3D AI platform", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🎭", category: "art-creative-design", subcategory: "image-to-3d-model" },
       { id: "alpha3d", name: "Alpha3D", description: "Advanced 3D AI converter", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "🚀", category: "art-creative-design", subcategory: "image-to-3d-model" }
@@ -1673,7 +1673,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "free-ai-wedding-hashtag", name: "Free AI Wedding Hashtag Generator", description: "AI wedding hashtag creator", url: "", upvotes: 321, verified: true, rating: 4.2, icon: "💒", category: "social-media", subcategory: "ai-hashtag" }
     ],
     "ai-influencer": [
-      { id: "celebify-ai", name: "Celebify AI", description: "Celebify AI is an AI face and image generation tool that creates celebrity-style photorealistic portraits and custom character images", url: "https://www.celebifyai.net", upvotes: 2900, verified: false, rating: 4.2, icon: "⭐", category: "image-generation-editing", subcategory: "ai-influencer", addedDate: "2026-04-01" },
+      { id: "celebify-ai", name: "Celebify AI", description: "AI tool for creating celebrity-style face images", url: "https://www.celebifyai.net", upvotes: 2900, verified: false, rating: 4.2, icon: "⭐", category: "image-generation-editing", subcategory: "ai-influencer", addedDate: "2026-04-01" },
       { id: "makeinfluencer-ai", name: "MakeInfluencer AI", description: "AI influencer creation platform", url: "", upvotes: 987, verified: true, rating: 4.7, icon: "⭐", category: "social-media", subcategory: "ai-influencer" },
       { id: "glambase", name: "Glambase", description: "AI virtual influencer platform", url: "", upvotes: 765, verified: true, rating: 4.6, icon: "✨", category: "social-media", subcategory: "ai-influencer" },
       { id: "celebmaker-ai", name: "CelebMakerAI", description: "AI celebrity and influencer creator", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🌟", category: "social-media", subcategory: "ai-influencer" },
@@ -2374,7 +2374,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
   },
   "health-wellness": {
     "ai-dermatology": [
-      { id: "daily-affirmations-ai", name: "Daily Affirmations AI", description: "AI-powered daily affirmation generator creating personalized positive statements for mental wellness and motivation", url: "https://dailyaffirmations.ai", upvotes: 723, verified: false, rating: 4.3, icon: "🌟", category: "health-wellness", subcategory: "ai-affirmations", addedDate: "2026-04-03" },
+      { id: "daily-affirmations-ai", name: "Daily Affirmations AI", description: "AI-powered daily affirmation generator for positivity", url: "https://dailyaffirmations.ai", upvotes: 723, verified: false, rating: 4.3, icon: "🌟", category: "health-wellness", subcategory: "ai-affirmations", addedDate: "2026-04-03" },
 
       { id: "skinive", name: "Skinive", description: "AI-powered skin analysis and dermatology assistant", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "🔬", category: "health-wellness", subcategory: "ai-dermatology" },
       { id: "eczemaless", name: "Eczemaless", description: "AI eczema management and treatment guidance", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🩹", category: "health-wellness", subcategory: "ai-dermatology" },
@@ -2419,7 +2419,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
   "education-translation": {
     "ai-course-creator": [],
     "ai-answer": [
-      { id: "learning-studio-ai", name: "Learning Studio AI", description: "Learning Studio AI is an AI-powered course creation platform that automatically generates educational content quizzes and lessons from any topic", url: "https://learningstudioai.com", upvotes: 3100, verified: false, rating: 4.4, icon: "📚", category: "education-translation", subcategory: "ai-course-creator", addedDate: "2026-04-01" },
+      { id: "learning-studio-ai", name: "Learning Studio AI", description: "AI-powered course creation platform for educators", url: "https://learningstudioai.com", upvotes: 3100, verified: false, rating: 4.4, icon: "📚", category: "education-translation", subcategory: "ai-course-creator", addedDate: "2026-04-01" },
 
       { id: "wolfram-alpha", name: "Wolfram|Alpha", description: "AI computational knowledge engine and answer platform", url: "", upvotes: 2456, verified: true, rating: 4.8, icon: "🔬", category: "education-translation", subcategory: "ai-answer" },
       { id: "hoi-dap-ai-hay", name: "Hỏi đáp AI Hay", description: "AI question answering platform in Vietnamese", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "❓", category: "education-translation", subcategory: "ai-answer" },
@@ -2521,7 +2521,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "quizbot-ai", name: "QuizBot.ai", description: "AI quiz bot and question generation tool", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "🤖", category: "education-translation", subcategory: "ai-question-generator" }
     ],
     "ai-quiz-generator": [
-      { id: "doctrina-ai", name: "Doctrina AI", description: "Doctrina AI is an AI education platform helping students with exam preparation essay writing note summarization and interactive learning", url: "https://doctrina.ai", upvotes: 3200, verified: false, rating: 4.4, icon: "🎓", category: "education-translation", subcategory: "ai-quiz-generator", addedDate: "2026-04-01" },
+      { id: "doctrina-ai", name: "Doctrina AI", description: "AI education platform for exam preparation and learning", url: "https://doctrina.ai", upvotes: 3200, verified: false, rating: 4.4, icon: "🎓", category: "education-translation", subcategory: "ai-quiz-generator", addedDate: "2026-04-01" },
       { id: "turbolearn-ai-quiz", name: "TurboLearn AI", description: "AI quiz creation and learning acceleration", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🚀", category: "education-translation", subcategory: "ai-quiz-generator" },
       { id: "scoreapp", name: "ScoreApp", description: "AI quiz marketing and lead generation", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🎯", category: "education-translation", subcategory: "ai-quiz-generator" },
       { id: "study-fetch-quiz", name: "Study Fetch", description: "AI study material quiz generation", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "📊", category: "education-translation", subcategory: "ai-quiz-generator" }
@@ -2848,7 +2848,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
 
   "other": {
     "ai-game-generator": [
-      { id: "stosh", name: "Stosh", description: "Stosh is an AI-powered TV show discovery and recommendation platform that helps users find their next favorite series based on their viewing history and preferences", url: "https://stosh.com", upvotes: 567, verified: false, rating: 4.1, icon: "📺", category: "other", subcategory: "ai-recommendation", addedDate: "2026-04-03" },
+      { id: "stosh", name: "Stosh", description: "AI-powered TV show discovery and recommendation platform", url: "https://stosh.com", upvotes: 567, verified: false, rating: 4.1, icon: "📺", category: "other", subcategory: "ai-recommendation", addedDate: "2026-04-03" },
       { id: "ludo-ai", name: "Ludo.ai", description: "AI game design and concept generator", url: "", upvotes: 1876, verified: true, rating: 4.7, icon: "🎮", category: "other", subcategory: "ai-game-generator" },
       { id: "websim", name: "Websim", description: "AI-powered web-based game simulator", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "🌐", category: "other", subcategory: "ai-game-generator" },
       { id: "ai-minecraft-game", name: "AI Minecraft", description: "AI-generated Minecraft game content", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "⛏️", category: "other", subcategory: "ai-game-generator" },
@@ -2899,7 +2899,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "nsfw": [
       { id: "ai-futanari", name: "AI Futanari", description: "AI Futanari is an adult AI image generation platform specializing in creating high-quality futanari and fantasy character artwork from text prompts with extensive customization options", url: "", upvotes: 1800, verified: false, rating: 4.1, icon: "🔞", category: "image-generation-editing", subcategory: "nsfw", addedDate: "2026-04-01" },
       { id: "generatorfuta-ai", name: "GeneratorFuta AI", description: "GeneratorFuta AI is a specialized adult AI art generator for creating custom futanari character illustrations with detailed style controls and high-quality image output", url: "", upvotes: 1600, verified: false, rating: 4.0, icon: "🔞", category: "image-generation-editing", subcategory: "nsfw", addedDate: "2026-04-01" },
-      { id: "motionmuse-ai", name: "MotionMuse AI", description: "MotionMuse AI is an AI-powered animation platform that generates smooth animated videos and motion graphics from text prompts", url: "https://motionmuse.ai", upvotes: 2700, verified: false, rating: 4.2, icon: "🎬", category: "video-animation", subcategory: "nsfw", addedDate: "2026-04-01" },
+      { id: "motionmuse-ai", name: "MotionMuse AI", description: "AI-powered animation platform for smooth animated content", url: "https://motionmuse.ai", upvotes: 2700, verified: false, rating: 4.2, icon: "🎬", category: "video-animation", subcategory: "nsfw", addedDate: "2026-04-01" },
       { id: "createporn", name: "CreatePorn", description: "CreatePorn is an adult AI image generation platform for creating explicit NSFW content with full customization and no content restrictions", url: "https://www.createporn.com", upvotes: 3200, verified: false, rating: 4.1, icon: "🔞", category: "image-generation-editing", subcategory: "nsfw", addedDate: "2026-04-01" },
       { id: "girlfriendgpt-nsfw", name: "GirlfriendGPT", description: "AI girlfriend with adult conversation features", url: "", upvotes: 4234, verified: true, rating: 4.7, icon: "💕", category: "other", subcategory: "nsfw" },
       { id: "sharesome-ai", name: "Sharesome AI", description: "AI adult content creation and sharing", url: "https://sharesome.com/ai/", upvotes: 3543, verified: true, rating: 4.4, icon: "🔞", category: "other", subcategory: "nsfw" }
