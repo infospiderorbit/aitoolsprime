@@ -185,7 +185,7 @@ if (!toolData) notFound();
           <div className="space-y-8">
             <div>
               <h3 className="text-xl font-semibold mb-3">{toolData.name} Overview</h3>
-              <p className="text-muted-foreground leading-relaxed">{info?.whatIs}</p>
+              <p className="text-muted-foreground leading-relaxed">{info?.whatIs?.substring(0, 300)}{info?.whatIs && info.whatIs.length > 300 ? "..." : ""}</p>
               {info?.features && (
                 <div className="mt-4">
                   <h4 className="font-medium mb-3">This product stands out with features such as:</h4>
