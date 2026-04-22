@@ -1,4 +1,499 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "naturalreader": {
+    whatIs: "NaturalReader is a text-to-speech application that converts written text into spoken audio for reading assistance and content consumption. It works with documents, web pages, PDFs, and ebooks, reading content aloud with natural-sounding AI voices. NaturalReader is widely used by people with dyslexia, visual impairments, and anyone who prefers listening to reading. For users who need text read aloud for accessibility or productivity, NaturalReader provides one of the most established and capable TTS reading tools available.",
+    features: [
+      "Document Reading: Read PDFs, Word files, and ebooks aloud",
+      "Web Page Reading: Listen to any web page content",
+      "Multiple Voices: Natural-sounding AI voice options",
+      "Speed Control: Adjust reading speed to preference",
+      "OCR Support: Read text from scanned documents and images",
+      "Mobile App: Read on iOS and Android devices",
+      "Chrome Extension: Read web content directly in browser",
+      "Free Plan: Basic reading without payment"
+    ],
+    howToUse: {
+      title: "How to Use Naturalreader",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Content", description: "Sign up at naturalreader.com and upload your document or paste text you want read aloud." },
+        { title: "Select Your Voice and Speed", description: "Choose your preferred voice and set your comfortable reading speed." },
+        { title: "Listen to Your Content", description: "NaturalReader reads your content aloud. Follow along or listen while doing other tasks." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Dyslexia Support", description: "People with dyslexia who find reading difficult use TTS to access written content through audio, which is often more accessible" },
+      { title: "Multitasking", description: "Listening to documents and articles while commuting or exercising makes productive use of time that screen reading cannot" },
+      { title: "Proofreading", description: "Hearing written content read aloud often reveals errors and awkward phrasing that visual reading misses" },
+      { title: "Visual Accessibility", description: "People with visual impairments use TTS as an accessibility tool for accessing written digital content" }
+    ],
+    useCases: [
+      { title: "People with Dyslexia", description: "Individuals with reading difficulties use NaturalReader for accessible text consumption through audio" },
+      { title: "Students", description: "Learners use TTS for studying by listening to textbooks and course materials" },
+      { title: "Productivity-Focused Professionals", description: "Workers listen to documents and reports while multitasking for more efficient information consumption" }
+    ]
+  },
+  "speechify": {
+    whatIs: "Speechify is an AI-powered text-to-speech and reading app that converts any text into audio at speeds up to 4.5x normal reading speed. It works with PDFs, emails, web articles, books, and any written content, allowing users to consume information significantly faster through audio than through visual reading. Speechify has become popular among students, executives, and knowledge workers who want to consume more information in less time. For anyone who wants to dramatically increase their information consumption rate, Speechify provides the fastest and most capable audio reading experience available.",
+    features: [
+      "Speed Reading Audio: Listen at up to 4.5x normal speed",
+      "Any Content: Read PDFs, web articles, emails, and books",
+      "AI Voices: High-quality natural-sounding voices",
+      "Chrome Extension: Read any web content with one click",
+      "Mobile App: Listen on iOS and Android anywhere",
+      "Summarization: AI summaries of long documents",
+      "OCR: Read text from photos and scanned documents",
+      "Free Plan: Basic listening without payment"
+    ],
+    howToUse: {
+      title: "How to Use Speechify",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Speechify", description: "Download Speechify on your device or install the Chrome extension from speechify.com." },
+        { title: "Import Your Content", description: "Upload documents, paste URLs, or use the Chrome extension to read web pages. Speechify handles any text format." },
+        { title: "Listen at Your Speed", description: "Start listening and gradually increase speed as your comprehension adapts. Most users reach 2-3x speed within weeks of regular use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Time Economics", description: "Consuming written information at 2-3x speed through audio rather than visual reading effectively multiplies the amount of content a person can process in a given time" },
+      { title: "Commute Productivity", description: "Listening to work documents, articles, and books during commutes converts unproductive travel time into productive information consumption" },
+      { title: "Comprehension Maintenance", description: "Most people maintain good comprehension up to 2x normal reading speed through audio, making speed listening genuinely productive rather than just faster" },
+      { title: "Content Volume", description: "Executives and students who need to consume large volumes of written material use Speechify to keep pace with information demands" }
+    ],
+    useCases: [
+      { title: "Students", description: "University students listen to textbooks and course materials at high speed for more efficient studying" },
+      { title: "Executives and Professionals", description: "Business leaders use Speechify for consuming reports, articles, and communications more efficiently" },
+      { title: "Entrepreneurs", description: "Busy founders use Speechify to stay current with industry reading despite limited time" }
+    ]
+  },
+  "minimax-audio": {
+    whatIs: "MiniMax Audio is an AI audio generation platform from MiniMax that provides text-to-speech, voice cloning, and audio generation capabilities. It offers high-quality voice synthesis across multiple languages with natural expression and prosody. MiniMax's audio models are known for their quality and are accessible through both API and consumer interfaces. For developers and creators who need high-quality AI audio generation, MiniMax Audio provides capable voice synthesis technology.",
+    features: [
+      "Text to Speech: High-quality AI voice generation from text",
+      "Voice Cloning: Create AI voices from audio samples",
+      "Multiple Languages: Voice synthesis across many languages",
+      "Natural Prosody: Expressive and natural-sounding output",
+      "API Access: Integrate audio generation into applications",
+      "Multiple Voices: Various voice styles and characters",
+      "Fast Generation: Quick audio output",
+      "Free Credits: Try audio generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Minimax Audio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access the Platform", description: "Sign up at minimaxi.com and access the audio generation tools." },
+        { title: "Generate Your Audio", description: "Enter your text and select your voice. MiniMax generates natural-sounding speech." },
+        { title: "Download or Integrate", description: "Download your audio or use the API to integrate MiniMax audio generation into your application." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Generation Quality", description: "High-quality voice synthesis that sounds natural and expressive produces better user experiences than robotic TTS alternatives" },
+      { title: "Language Coverage", description: "Voice generation across multiple languages serves global content and application needs from one provider" },
+      { title: "Developer API", description: "Clean API integration that developers use to add voice features to applications without building custom voice synthesis" },
+      { title: "Voice Cloning", description: "Creating custom voice models from audio samples enables personalized AI voices for content and application use" }
+    ],
+    useCases: [
+      { title: "Developers", description: "Software teams integrate MiniMax Audio API for voice features in their applications" },
+      { title: "Content Creators", description: "Creators use high-quality TTS for narration and audio content production" },
+      { title: "AI Application Builders", description: "Teams building AI assistants use MiniMax for natural voice output" }
+    ]
+  },
+  "luvvoice": {
+    whatIs: "LuvVoice is a free text-to-speech platform that provides natural-sounding voice synthesis in many languages without requiring payment or registration. It offers a clean interface for converting text to audio with multiple voice options. For users who need quick free text-to-speech without any barriers, LuvVoice provides immediate accessible voice generation.",
+    features: [
+      "Free TTS: Text-to-speech completely without payment",
+      "Multiple Languages: Voice synthesis in many languages",
+      "Voice Options: Different voice styles available",
+      "No Registration: Generate audio without account creation",
+      "Fast Generation: Quick text to audio conversion",
+      "Download Audio: Save generated speech as audio files",
+      "Clean Interface: Simple and easy to use",
+      "Immediate Access: No setup required"
+    ],
+    howToUse: {
+      title: "How to Use Luvvoice",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Text", description: "Go to luvvoice.com and type or paste the text you want converted to speech." },
+        { title: "Select Voice and Language", description: "Choose your preferred language and voice style." },
+        { title: "Generate and Download", description: "Generate your audio and download it for immediate use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Zero Barriers", description: "Free TTS without registration removes every barrier to quick voice generation for casual needs" },
+      { title: "Language Accessibility", description: "Multiple language support from a free tool makes voice synthesis accessible for global users regardless of budget" },
+      { title: "Simplicity", description: "A clean simple interface focused on the core TTS task serves users who want results without navigating complex features" },
+      { title: "Immediate Utility", description: "No setup or account creation means text-to-speech is available immediately for anyone who needs it" }
+    ],
+    useCases: [
+      { title: "Casual Users", description: "People who occasionally need TTS use LuvVoice for free immediate voice generation" },
+      { title: "Students", description: "Students use free TTS for studying and accessibility needs" },
+      { title: "Content Creators on Budget", description: "Creators who need occasional narration use LuvVoice for free voice generation without subscription costs" }
+    ]
+  },
+  "notta": {
+    whatIs: "Notta is an AI meeting assistant and transcription platform that records, transcribes, and summarizes meetings across video conferencing platforms and in-person conversations. It joins virtual meetings automatically, generates real-time transcripts, and produces AI summaries with action items. Notta also works for in-person meetings through its mobile app. For professionals who want comprehensive meeting capture across all their meetings regardless of format, Notta provides versatile meeting intelligence.",
+    features: [
+      "Meeting Recording: Capture virtual and in-person meetings",
+      "Real-Time Transcription: Live speech-to-text during meetings",
+      "AI Summaries: Concise meeting summaries and key points",
+      "Action Items: Extract tasks and commitments from meetings",
+      "Multi-Platform: Zoom, Teams, Google Meet support",
+      "Mobile Recording: In-person meeting capture through phone",
+      "Searchable Records: Find information across all meetings",
+      "Free Plan: Basic meeting notes without payment"
+    ],
+    howToUse: {
+      title: "How to Use Notta",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Notta", description: "Sign up at notta.ai and install the app. Connect your calendar for automatic meeting joining." },
+        { title: "Capture Your Meetings", description: "Notta joins your virtual meetings and records in-person conversations through the mobile app. Transcription happens in real time." },
+        { title: "Review and Search", description: "Access your meeting summaries and search across all your meeting records for specific information." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Versatile Capture", description: "Meeting capture that works for both virtual calls and in-person conversations covers the full range of professional meeting formats" },
+      { title: "Real-Time Access", description: "Live transcription that team members can access during meetings provides immediate value rather than waiting for post-meeting processing" },
+      { title: "Action Item Extraction", description: "Commitments captured automatically from meeting discussions ensure follow-through that verbal-only agreements often miss" },
+      { title: "Meeting Intelligence", description: "Searchable meeting history that covers all conversations creates organizational memory that improves decision-making and relationship management" }
+    ],
+    useCases: [
+      { title: "Business Professionals", description: "Knowledge workers use Notta for comprehensive meeting documentation across their professional communications" },
+      { title: "Sales Teams", description: "Salespeople use meeting capture for accurate customer conversation records and follow-up" },
+      { title: "Remote Teams", description: "Distributed teams use Notta for asynchronous meeting access and consistent documentation" }
+    ]
+  },
+  "fathom": {
+    whatIs: "Fathom is a free AI meeting recorder and note-taker that records, transcribes, and summarizes video calls with a generous free tier that has made it extremely popular among professionals. It integrates with Zoom, Google Meet, and Microsoft Teams, automatically joining meetings to capture everything discussed. Fathom highlights key moments during calls and generates summaries immediately after meetings end. For professionals who want powerful meeting capture without paying for it, Fathom provides exceptional value at no cost.",
+    features: [
+      "Free Meeting Recording: Generous free tier for meeting capture",
+      "AI Summaries: Immediate post-meeting summaries",
+      "Video Highlights: Mark and review key meeting moments",
+      "Transcription: Accurate speech-to-text for all participants",
+      "CRM Sync: Push meeting notes to Salesforce and HubSpot",
+      "Clip Sharing: Share specific meeting moments with stakeholders",
+      "Multi-Platform: Zoom, Google Meet, and Teams support",
+      "Completely Free: Core features at no cost"
+    ],
+    howToUse: {
+      title: "How to Use Fathom",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install and Connect", description: "Sign up at fathom.video and install the integration for your meeting platform. Connect your calendar." },
+        { title: "Record Your Meetings", description: "Fathom automatically joins your scheduled meetings. Use the highlight feature to mark important moments during calls." },
+        { title: "Review Summaries", description: "Access your AI-generated meeting summary immediately after each call. Share highlights and notes with relevant team members." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Value", description: "Comprehensive meeting recording and AI summarization at no cost makes Fathom accessible to every professional regardless of budget constraints" },
+      { title: "Immediate Summaries", description: "Post-meeting summaries available immediately after calls end rather than hours later serve the immediate follow-up needs that meetings generate" },
+      { title: "Highlight Marking", description: "The ability to mark key moments during a live call creates a curated record that surfaces the most important content without reviewing full recordings" },
+      { title: "CRM Integration", description: "Meeting notes that sync automatically to CRM systems maintain accurate customer interaction records without manual data entry" }
+    ],
+    useCases: [
+      { title: "Sales Professionals", description: "Salespeople use Fathom for free customer call recording and CRM synchronization" },
+      { title: "Consultants", description: "Consultants use meeting capture for accurate client conversation records" },
+      { title: "Remote Professionals", description: "Anyone working remotely uses Fathom for free comprehensive meeting documentation" }
+    ]
+  },
+  "roxy-ai": {
+    whatIs: "Roxy AI is an AI voice companion and assistant designed for natural voice-based interaction and conversation. It provides a voice-first AI experience where users interact through speech rather than typing. Roxy focuses on creating natural and engaging voice conversations for companionship, assistance, and information needs. For users who prefer voice interaction with AI over text-based chat, Roxy AI provides a voice-native AI companion experience.",
+    features: [
+      "Voice-First Interaction: Natural conversation through speech",
+      "AI Companion: Engaging conversational AI presence",
+      "Voice Recognition: Accurate speech understanding",
+      "Natural Responses: Conversational and natural reply style",
+      "Multiple Topics: Discussion across many subject areas",
+      "Emotional Intelligence: Contextually appropriate responses",
+      "Always Available: Voice AI accessible anytime",
+      "Free to Try: Basic voice interaction without payment"
+    ],
+    howToUse: {
+      title: "How to Use Roxy Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start a Conversation", description: "Access Roxy AI and begin speaking naturally. The AI listens and responds conversationally." },
+        { title: "Explore Topics", description: "Discuss any topic you want to explore. Roxy maintains context across the conversation." },
+        { title: "Continue Your Conversation", description: "Return to ongoing conversations or start new ones based on your needs." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Voice Preference", description: "Many people find voice interaction more natural and comfortable than typing for conversational AI use" },
+      { title: "Hands-Free Access", description: "Voice-first AI that works without hands enables AI assistance in situations where screen interaction is not practical" },
+      { title: "Natural Conversation", description: "Voice interaction that flows naturally like talking to a person creates a more comfortable and engaging AI experience" },
+      { title: "Accessibility", description: "Voice-based AI interaction makes AI assistance accessible to people who find typing difficult or uncomfortable" }
+    ],
+    useCases: [
+      { title: "Voice Interaction Preferrers", description: "People who prefer speaking to typing use Roxy AI for natural voice-based AI assistance" },
+      { title: "Hands-Free Users", description: "People who want AI help while their hands are busy use voice-first AI companions" },
+      { title: "Accessibility Users", description: "People with typing difficulties use voice interaction for more accessible AI assistance" }
+    ]
+  },
+  "vapi": {
+    whatIs: "Vapi is a developer platform for building AI voice agents and phone call automation. It provides the infrastructure for creating AI-powered phone agents that can handle inbound and outbound calls, conduct conversations, and integrate with business systems. Vapi handles the complex voice infrastructure including speech recognition, AI processing, and text-to-speech so developers can focus on building conversation logic. For developers building AI phone agents and voice automation, Vapi provides the most capable and developer-friendly voice agent platform.",
+    features: [
+      "AI Phone Agents: Build AI agents that handle phone calls",
+      "Inbound Calls: AI that answers and handles incoming calls",
+      "Outbound Calls: AI that makes and conducts outgoing calls",
+      "Speech Recognition: Accurate call transcription",
+      "TTS Integration: Multiple TTS providers supported",
+      "Business Logic: Integrate with your systems and workflows",
+      "Low Latency: Fast response times for natural conversations",
+      "Developer API: Comprehensive API for voice agent building"
+    ],
+    howToUse: {
+      title: "How to Use Vapi",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Agent", description: "Sign up at vapi.ai and configure your AI voice agent with conversation logic and business integrations." },
+        { title: "Deploy Your Phone Number", description: "Connect a phone number to your Vapi agent. The agent handles calls according to your configured logic." },
+        { title: "Monitor and Improve", description: "Review call recordings and transcripts to improve your agent's conversation quality and handling." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Voice Agent Infrastructure", description: "Building AI phone agents requires complex integration of telephony, speech recognition, AI, and TTS. Vapi that handles all infrastructure lets developers focus on business logic" },
+      { title: "Scalable Call Handling", description: "AI phone agents that scale to handle any call volume without proportional staffing costs transform the economics of phone-based customer service" },
+      { title: "Natural Conversation", description: "Low latency that enables natural back-and-forth conversation without awkward delays creates AI phone experiences that callers accept and engage with" },
+      { title: "Business Integration", description: "Voice agents that connect to business systems and databases handle complex calls that require real information rather than scripted responses" }
+    ],
+    useCases: [
+      { title: "Developers Building Voice AI", description: "Software teams use Vapi to build AI phone agents for customer service and automation" },
+      { title: "Customer Service Teams", description: "Organizations use AI phone agents to handle high call volumes without proportional staffing" },
+      { title: "Sales Teams", description: "Companies build outbound AI agents for lead qualification and appointment setting" }
+    ]
+  },
+  "voice-ai": {
+    whatIs: "Voice.ai is a real-time AI voice changer that transforms your voice during gaming, streaming, and online communication with a large library of voice effects and AI-powered voice cloning. It provides real-time voice transformation that works with any application and includes a free voice cloning feature that creates AI versions of any voice from audio samples. For gamers and streamers who want diverse voice transformation capabilities, Voice.ai provides powerful real-time voice changing with unique cloning features.",
+    features: [
+      "Real-Time Voice Changing: Transform voice during live communication",
+      "Voice Cloning: Clone any voice from audio samples",
+      "Large Effects Library: Many voice transformation options",
+      "Gaming Integration: Works with games and communication platforms",
+      "Free Voice Cloning: Clone voices without payment",
+      "Any App Compatible: Works with all audio applications",
+      "Low Latency: Real-time processing without delay",
+      "Free to Use: Core features without payment"
+    ],
+    howToUse: {
+      title: "How to Use Voice Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Voice.ai", description: "Download Voice.ai from voice.ai and install it on your computer." },
+        { title: "Select as Microphone", description: "Set Voice.ai as your default microphone in your game or communication app." },
+        { title: "Choose Your Voice", description: "Select a voice effect or use your cloned voice. Your voice transforms in real time during your session." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cloning Differentiation", description: "Free voice cloning that creates AI versions of any voice from samples provides unique capability that most voice changers do not offer" },
+      { title: "Real-Time Performance", description: "Low-latency processing that transforms voice without perceptible delay maintains natural conversation flow during gaming and streaming" },
+      { title: "Gaming Entertainment", description: "Diverse voice effects during gaming create entertaining experiences for both the player and viewers" },
+      { title: "Universal Compatibility", description: "Working with any audio application rather than only specific platforms makes the tool useful across the full range of gaming and communication software" }
+    ],
+    useCases: [
+      { title: "Gamers", description: "Players use Voice.ai for entertaining voice effects during multiplayer gaming" },
+      { title: "Streamers", description: "Content creators use voice changing for entertaining streaming personas" },
+      { title: "Voice Content Creators", description: "People use voice cloning for creative audio content production" }
+    ]
+  },
+  "vozard": {
+    whatIs: "Vozard is an AI voice changer and audio processing tool that transforms voice recordings and real-time audio with various effects and voice modifications. It provides tools for creating different voice characters, applying audio effects, and processing voice content for entertainment and creative purposes. For content creators and gamers who want voice transformation capabilities, Vozard provides accessible voice changing features.",
+    features: [
+      "Voice Changing: Transform recorded and live voice audio",
+      "Multiple Effects: Various voice modification options",
+      "Real-Time Processing: Live voice transformation",
+      "Audio Effects: Apply audio processing effects",
+      "Content Creation: Voice tools for creative projects",
+      "Easy Interface: Simple voice transformation workflow",
+      "Download Options: Save processed voice audio",
+      "Free to Try: Basic voice changing without payment"
+    ],
+    howToUse: {
+      title: "How to Use Vozard",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload or Record", description: "Access Vozard and either upload a voice recording or use real-time voice changing during communication." },
+        { title: "Apply Your Effect", description: "Select from available voice effects and modifications to transform your audio." },
+        { title: "Save or Use Live", description: "Download your processed audio or use real-time changing during your gaming or streaming session." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Flexibility", description: "Multiple voice effects that serve different creative purposes provide more creative options than single-effect voice changers" },
+      { title: "Real-Time and Recorded", description: "Voice changing that works both for live communication and recorded audio serves different use cases from gaming to content production" },
+      { title: "Accessibility", description: "Easy voice changing tools that do not require audio engineering knowledge make voice transformation accessible to any creator" },
+      { title: "Entertainment Value", description: "Voice effects that create entertaining character voices add fun to gaming and streaming experiences" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Creators use Vozard for voice transformation in their audio and video content" },
+      { title: "Gamers", description: "Players use voice effects for entertaining multiplayer gaming experiences" },
+      { title: "Podcast Creators", description: "Podcasters use voice effects for creative audio production" }
+    ]
+  },
+  "vocal-image": {
+    whatIs: "Vocal Image is an AI voice coaching and analysis platform that helps speakers improve their voice presence, clarity, and effectiveness for professional communication. It analyzes voice recordings for qualities like pace, clarity, filler words, and vocal variety, providing actionable feedback for improvement. For professionals who want to improve their speaking effectiveness for presentations, meetings, and public speaking, Vocal Image provides AI-powered voice coaching.",
+    features: [
+      "Voice Analysis: AI assessment of speaking voice qualities",
+      "Pace Analysis: Evaluate and optimize speaking speed",
+      "Clarity Feedback: Identify clarity and articulation issues",
+      "Filler Word Detection: Find and reduce ums and ahs",
+      "Vocal Variety: Improve expressiveness and pitch variation",
+      "Presentation Coaching: Feedback for presentation delivery",
+      "Progress Tracking: Monitor voice improvement over time",
+      "Free to Try: Basic voice analysis without payment"
+    ],
+    howToUse: {
+      title: "How to Use Vocal Image",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record Your Voice", description: "Sign up at vocalimage.ai and record yourself speaking for analysis." },
+        { title: "Review Your Analysis", description: "Vocal Image analyzes your recording and provides detailed feedback on pace, clarity, filler words, and vocal variety." },
+        { title: "Practice and Improve", description: "Use the specific feedback to practice targeted improvements. Record again to track your progress." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Professional Impact", description: "Voice qualities that project confidence, clarity, and authority significantly affect professional perception and effectiveness" },
+      { title: "Specific Feedback", description: "Analysis that identifies specific issues like filler word frequency and speaking pace is more actionable than general feedback to speak better" },
+      { title: "Consistent Practice", description: "AI coaching that provides objective feedback on every practice session maintains accountability and tracks improvement over time" },
+      { title: "Presentation Confidence", description: "Systematic voice improvement through coaching builds the confidence that makes public speaking and presentations more effective" }
+    ],
+    useCases: [
+      { title: "Business Professionals", description: "Executives and managers use Vocal Image for more effective presentation and meeting communication" },
+      { title: "Public Speakers", description: "Speakers use voice analysis for improving their delivery and stage presence" },
+      { title: "Job Seekers", description: "People preparing for interviews use voice coaching for more confident and effective interview communication" }
+    ]
+  },
+  "sanas": {
+    whatIs: "Sanas is an AI real-time accent translation technology that transforms accents during phone and video calls without changing voice identity. It works for call centers and customer service operations where accent differences create communication friction. Sanas technology modifies accent in real time to improve mutual intelligibility while preserving the natural voice character of the speaker. For customer service operations where accent-related miscommunication affects customer experience, Sanas provides the real-time accent technology that improves communication clarity.",
+    features: [
+      "Real-Time Accent Translation: Modify accent during live calls",
+      "Voice Identity Preservation: Maintain speaker voice character",
+      "Call Center Focus: Built for customer service operations",
+      "Reduced Miscommunication: Improve mutual intelligibility",
+      "Low Latency: Real-time processing without perceptible delay",
+      "Enterprise Integration: Connect with existing call center systems",
+      "Privacy Focused: On-device processing where possible",
+      "Enterprise Pricing: Business deployment pricing"
+    ],
+    howToUse: {
+      title: "How to Use Sanas",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Integrate with Your Call System", description: "Contact Sanas for enterprise deployment. The technology integrates with existing call center telephony systems." },
+        { title: "Enable for Your Agents", description: "Deploy Sanas for call center agents. The real-time accent translation activates during customer calls." },
+        { title: "Monitor Communication Quality", description: "Track call quality metrics and customer satisfaction to evaluate the impact of improved communication clarity." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Communication Clarity", description: "Accent differences that create miscommunication in customer service calls cost businesses in customer satisfaction and resolution time. Reducing this friction improves service quality" },
+      { title: "Agent Confidence", description: "Agents who communicate more clearly with customers experience less frustration and anxiety about accent-related misunderstandings" },
+      { title: "Customer Experience", description: "Customers who understand and are understood by service agents have more positive service experiences and higher satisfaction scores" },
+      { title: "Unique Technology", description: "Real-time accent modification that preserves voice identity rather than replacing it with a synthetic voice represents a genuinely novel approach to communication accessibility" }
+    ],
+    useCases: [
+      { title: "Call Centers and BPOs", description: "Customer service operations use Sanas for clearer agent-customer communication" },
+      { title: "Global Customer Service Teams", description: "Multinational companies use accent technology for more consistent customer service quality across diverse agent populations" },
+      { title: "Enterprise Communication Platforms", description: "Business communication tools integrate Sanas for improved clarity in diverse workforce communication" }
+    ]
+  },
+  "canvid": {
+    whatIs: "Canvid is an AI video creation and editing platform that helps users create professional videos from text scripts, images, and other content. It provides templates, AI voices, and editing tools for producing marketing videos, explainers, and social content. For businesses and creators who need professional video content without video production skills, Canvid provides accessible AI video creation.",
+    features: [
+      "Video Creation: Create professional videos from scripts and content",
+      "AI Voices: Natural-sounding narration for videos",
+      "Templates: Professional video templates for different use cases",
+      "Text to Video: Generate videos from written content",
+      "Editing Tools: Video editing and customization features",
+      "Export Options: Download in formats for different platforms",
+      "Brand Customization: Apply brand colors and elements",
+      "Free to Try: Basic video creation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Canvid",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Sign up at canvid.ai and select a video template matching your content type and goal." },
+        { title: "Add Your Content", description: "Input your script, upload images, and configure your video with AI voice narration." },
+        { title: "Export Your Video", description: "Generate and download your professional video ready for distribution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Production Accessibility", description: "Professional video creation without filming, editing skills, or expensive software makes video content accessible to any business or creator" },
+      { title: "Template Quality", description: "Professional templates designed for specific use cases produce better results than starting from scratch" },
+      { title: "AI Voice Integration", description: "Natural-sounding AI voices that narrate video content eliminate the need for voice recording infrastructure" },
+      { title: "Business Scale", description: "Creating many different videos for different purposes and audiences is practical with AI video creation that does not require per-video production investment" }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Businesses create marketing and explainer videos using AI video creation without production costs" },
+      { title: "Marketing Teams", description: "Marketers produce promotional video content quickly using templates and AI voices" },
+      { title: "Educators", description: "Teachers create educational video content using AI video production tools" }
+    ]
+  },
+  "tomato-ai": {
+    whatIs: "Tomato AI is an AI language learning platform focused on immersive conversation practice with AI tutors. It provides realistic conversation practice in foreign languages through AI-powered dialogue that adapts to learner level and provides correction and feedback. For language learners who want authentic conversation practice without needing a human conversation partner, Tomato AI provides accessible AI language conversation coaching.",
+    features: [
+      "AI Conversation Practice: Practice foreign language conversations with AI",
+      "Level Adaptation: Conversations that match your current proficiency",
+      "Real-Time Correction: Immediate feedback on language errors",
+      "Multiple Languages: Practice in various target languages",
+      "Topic Variety: Conversations across different subjects",
+      "Progress Tracking: Monitor language learning improvement",
+      "Pronunciation Feedback: Guidance on correct pronunciation",
+      "Free to Try: Basic conversation practice without payment"
+    ],
+    howToUse: {
+      title: "How to Use Tomato Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Language and Level", description: "Sign up at tomato.ai and select the language you want to practice and your current proficiency level." },
+        { title: "Start Your Conversation", description: "Begin a conversation with the AI tutor on a topic of your choice. Speak or type in your target language." },
+        { title: "Receive and Apply Feedback", description: "The AI provides corrections and suggestions during conversation. Apply the feedback in subsequent exchanges." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversation Access", description: "Finding human conversation partners for language practice is difficult and often expensive. AI conversation partners available anytime remove this barrier" },
+      { title: "Level Appropriateness", description: "Conversations that adapt to current proficiency level maintain appropriate challenge without overwhelming beginners or boring advanced learners" },
+      { title: "Error Correction", description: "Immediate correction during conversation is more effective for language habit formation than delayed feedback after practice ends" },
+      { title: "Topic Flexibility", description: "Practicing across many conversation topics develops versatile language skills rather than narrow proficiency in specific scenarios" }
+    ],
+    useCases: [
+      { title: "Language Learners", description: "People learning foreign languages use Tomato AI for accessible conversation practice between lessons" },
+      { title: "Business Language Learners", description: "Professionals learning languages for work use AI conversation practice for job-relevant language skills" },
+      { title: "Students", description: "Language students use AI conversation for additional practice beyond classroom instruction" }
+    ]
+  },
+  "micvoice-ai": {
+    whatIs: "MicVoice AI is an AI voice generation and text-to-speech platform that provides natural-sounding voice synthesis for content creation and professional use. It offers multiple AI voices across different languages and styles for generating narration, voiceovers, and audio content. For content creators and businesses that need quality AI voice generation, MicVoice AI provides accessible voice synthesis.",
+    features: [
+      "AI Voice Generation: Natural-sounding TTS for various uses",
+      "Multiple Voices: Diverse voice options across styles",
+      "Multiple Languages: Voice synthesis in different languages",
+      "Content Narration: Voice for video and audio content",
+      "Professional Quality: Clear and natural voice output",
+      "Fast Generation: Quick text to audio conversion",
+      "Download Options: Save audio in standard formats",
+      "Free to Try: Basic voice generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Micvoice Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Text", description: "Sign up at micvoice.ai and enter the text you want converted to speech." },
+        { title: "Select Your Voice", description: "Choose from available voices that match your content needs and language requirements." },
+        { title: "Generate and Download", description: "Generate your audio and download for use in your content projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Voice Quality", description: "Natural-sounding AI voices that do not sound robotic produce better experiences for listeners of generated audio content" },
+      { title: "Language Support", description: "Multiple language voice synthesis serves global content creators and businesses with diverse audience needs" },
+      { title: "Content Production Speed", description: "AI voice generation that produces narration quickly enables faster content production workflows" },
+      { title: "Cost Efficiency", description: "AI voice synthesis at lower cost than professional voice actors makes quality narration economically accessible" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Video and podcast creators use MicVoice AI for narration of their content" },
+      { title: "Businesses", description: "Companies use AI voice for customer communications and marketing content" },
+      { title: "Educators", description: "Teachers create audio educational content using AI voice synthesis" }
+    ]
+  },
   "dubnote": {
     whatIs: "DubNote is an AI meeting notes and transcription tool that automatically records, transcribes, and summarizes meetings across video conferencing platforms. It joins your meetings as an AI participant, captures everything discussed, and delivers organized notes with action items and key decisions. For professionals who want comprehensive meeting documentation without manual note-taking, DubNote provides automated meeting intelligence.",
     features: [
