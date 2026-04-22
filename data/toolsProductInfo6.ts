@@ -1,4 +1,466 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "fakeyou": {
+    whatIs: "FakeYou is a text-to-speech platform that specializes in celebrity voices, fictional character voices, and famous personalities. It uses deep fake audio technology to generate speech in the voices of popular characters from movies, TV shows, video games, and internet culture. Users type any text and select from thousands of available voice models to generate audio in that character's voice. For fans and content creators who want to create entertaining voice content using beloved character voices, FakeYou provides the largest publicly available library of character voice models.",
+    features: [
+      "Celebrity Voice Library: Thousands of character and celebrity voice models",
+      "Text to Speech: Generate audio in any available voice",
+      "Fan Content Creation: Create entertainment using beloved character voices",
+      "Community Models: Community-uploaded voice models from various sources",
+      "Video Game Characters: Voices from popular gaming franchises",
+      "Cartoon Characters: Animated show character voices",
+      "Internet Personalities: Popular online creator voice models",
+      "Free to Use: Basic voice generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Fakeyou",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse Voice Models", description: "Go to fakeyou.com and browse or search the voice model library for the character or celebrity voice you want to use." },
+        { title: "Type Your Text", description: "Enter the text you want generated in your chosen voice. Keep it concise for best results." },
+        { title: "Generate and Download", description: "Generate your audio and download the result for your entertainment or content creation use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Character Voice Accessibility", description: "Hearing beloved characters say custom text creates entertainment experiences that resonate deeply with fans of those characters" },
+      { title: "Community Size", description: "The largest publicly available character voice library represents years of community model creation that no single organization could produce" },
+      { title: "Fan Content Creation", description: "FakeYou enables fans to create creative content featuring characters they love in ways that traditional media cannot provide" },
+      { title: "Entertainment Value", description: "Character voice generation that sounds convincing produces genuinely entertaining and shareable content for fan communities" }
+    ],
+    useCases: [
+      { title: "Fan Content Creators", description: "Enthusiasts create entertaining character voice content for sharing with fan communities" },
+      { title: "Podcast and Video Creators", description: "Content creators use character voices for comedic and creative content" },
+      { title: "Game and Media Fans", description: "People use FakeYou to hear their favorite characters say custom dialogue for personal entertainment" }
+    ]
+  },
+  "fish-audio": {
+    whatIs: "Fish Audio is an AI voice cloning and text-to-speech platform that provides high-quality voice synthesis and custom voice model creation. It offers a marketplace of community-created voice models and tools for creating personalized AI voices from audio samples. Fish Audio is known for its high-quality voice output and the diversity of available voices across different languages and styles. For content creators and developers who need quality AI voice synthesis with diverse voice options, Fish Audio provides capable TTS and voice cloning technology.",
+    features: [
+      "Voice Cloning: Create AI voice models from audio samples",
+      "TTS Marketplace: Community voice models for text-to-speech",
+      "Multiple Languages: Voice synthesis across many languages",
+      "High Quality Output: Natural-sounding voice generation",
+      "API Access: Integrate voice synthesis into applications",
+      "Custom Voices: Build personalized voice models",
+      "Voice Diversity: Wide range of voice styles and characters",
+      "Free Credits: Try voice generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Fish Audio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse or Create Voices", description: "Sign up at fish.audio and browse the voice marketplace or upload samples to create your own voice model." },
+        { title: "Generate Your Audio", description: "Enter your text and select your preferred voice. Fish Audio generates natural-sounding speech." },
+        { title: "Download or Integrate", description: "Download your generated audio or use the API to integrate voice synthesis into your application." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Voice Quality", description: "High-quality voice synthesis that sounds natural and expressive produces more engaging audio than robotic TTS alternatives" },
+      { title: "Community Marketplace", description: "A large community-created voice library provides diverse options that commercial voice libraries cannot match" },
+      { title: "Cloning Accessibility", description: "Creating custom voice models from audio samples enables personalized AI voices without extensive technical expertise" },
+      { title: "Language Range", description: "Voice synthesis across many languages serves global content creators and multilingual applications" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Podcasters and video creators use Fish Audio for diverse voice narration options" },
+      { title: "Developers", description: "Software teams integrate Fish Audio API for voice features in their applications" },
+      { title: "Language Learners", description: "People use diverse language voice models for pronunciation reference and language learning" }
+    ]
+  },
+  "starvoiceai": {
+    whatIs: "StarVoice AI is an AI voice generation platform that creates realistic text-to-speech audio using advanced neural voice synthesis. It provides natural-sounding voices for content creation, narration, and various audio production needs. The platform offers multiple voice styles and languages for diverse content requirements. For creators who need quality AI voice narration for their projects, StarVoice AI provides accessible neural voice generation.",
+    features: [
+      "Neural Voice Synthesis: Natural-sounding AI voice generation",
+      "Multiple Voices: Various voice styles and characters",
+      "Multiple Languages: TTS in different languages",
+      "Content Narration: Voice for videos and podcasts",
+      "Fast Generation: Quick audio output",
+      "Download Options: Save generated audio",
+      "Quality Output: Clear and natural voice results",
+      "Free to Try: Basic voice generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Starvoiceai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Text", description: "Sign up at starvoice.ai and enter the text you want converted to speech." },
+        { title: "Select Your Voice", description: "Choose from available voices that match your content style and language needs." },
+        { title: "Generate and Download", description: "Generate your audio and download for use in your content projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Natural Sound Quality", description: "Neural voice synthesis that produces natural-sounding speech is more engaging for listeners than obviously robotic TTS" },
+      { title: "Content Production", description: "AI voice narration that handles text-to-speech quickly enables faster content production workflows" },
+      { title: "Voice Variety", description: "Multiple voice options serving different content types and audience expectations provide creative flexibility" },
+      { title: "Accessibility", description: "Quality AI voice generation accessible without professional voice recording infrastructure democratizes audio content creation" }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Video and podcast creators use StarVoice AI for narration and voice content" },
+      { title: "Educators", description: "Teachers create audio educational content using AI voice synthesis" },
+      { title: "Marketers", description: "Marketing teams produce promotional audio content using AI narration" }
+    ]
+  },
+  "rask-ai": {
+    whatIs: "Rask AI is an AI-powered video localization platform that translates and dubs video content into multiple languages automatically. It handles the complete video translation workflow including speech recognition, translation, lip-sync dubbing, and subtitle generation. Rask AI maintains the original speaker's voice characteristics in translated versions, creating more authentic dubbed content than generic TTS dubbing. For content creators and businesses expanding their video content to global audiences, Rask AI provides efficient AI video localization.",
+    features: [
+      "Video Translation: Translate video content into multiple languages",
+      "AI Dubbing: Replace original audio with translated dubbed version",
+      "Voice Preservation: Maintain speaker voice in translated versions",
+      "Lip Sync: Synchronized dubbed audio matching video",
+      "Subtitle Generation: Automatic subtitles in target languages",
+      "Multiple Languages: Localization across many language pairs",
+      "Batch Processing: Translate multiple videos efficiently",
+      "Free Trial: Try video localization before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Rask Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Sign up at rask.ai and upload the video you want to translate and dub into other languages." },
+        { title: "Select Target Languages", description: "Choose the languages you want your video localized into. Rask AI processes translation and dubbing." },
+        { title: "Download Localized Videos", description: "Review and download your videos with dubbed audio and subtitles in each target language." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Localization Workflow", description: "Handling translation, dubbing, lip sync, and subtitles in one workflow eliminates the coordination of multiple separate localization tools" },
+      { title: "Voice Preservation Value", description: "Dubbed content that maintains original speaker voice characteristics creates more authentic and trustworthy localized content" },
+      { title: "Global Reach", description: "Video content localized into multiple languages reaches audiences that subtitle-only or unlocalized content cannot fully engage" },
+      { title: "Creator Economics", description: "AI localization at a fraction of traditional dubbing studio costs makes global content distribution economically viable for independent creators" }
+    ],
+    useCases: [
+      { title: "Content Creators Going Global", description: "YouTubers and video creators use Rask AI to expand their content to international language audiences" },
+      { title: "Businesses with Training Content", description: "Organizations use Rask AI to localize training and onboarding videos for global teams" },
+      { title: "Educational Content Providers", description: "Online educators expand course access to non-English speaking students through AI video localization" }
+    ]
+  },
+  "riverside-fm": {
+    whatIs: "Riverside.fm is a professional remote recording platform designed for podcasters and video content creators who need studio-quality audio and video recordings of remote interviews and conversations. It records each participant locally on their device at full quality rather than through the internet connection, eliminating the audio quality degradation that video call recordings suffer from. Riverside also provides AI-powered editing tools including transcription, clip creation, and automatic audio enhancement. For podcasters and interview-based content creators who want broadcast-quality remote recordings, Riverside.fm provides the professional infrastructure that makes remote recording match in-person studio quality.",
+    features: [
+      "Local Recording: Each participant records locally for maximum quality",
+      "4K Video: High-resolution video recording for video podcasts",
+      "Separate Tracks: Individual audio tracks per participant for editing",
+      "AI Transcription: Automatic transcript generation",
+      "Magic Clips: AI-generated short clips from longer recordings",
+      "Screen Recording: Include screen share in recordings",
+      "Live Streaming: Stream directly from Riverside to platforms",
+      "Free Plan: Basic recording without payment"
+    ],
+    howToUse: {
+      title: "How to Use Riverside Fm",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Recording", description: "Sign up at riverside.fm and create a recording session. Share the link with your guests." },
+        { title: "Record Your Session", description: "Guests join through their browser without installing software. Riverside records each person locally at full quality." },
+        { title: "Edit and Export", description: "Use the AI transcription and clip tools to edit your recording. Export high-quality audio and video files." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Local Recording Quality", description: "Recording each participant on their own device rather than through internet streaming eliminates the compression and quality loss that affects video call recordings" },
+      { title: "Separate Tracks", description: "Individual audio tracks for each participant that allow independent editing produce much better post-production results than mixed recordings" },
+      { title: "Remote Podcast Production", description: "Professional-quality remote recording that matches in-person studio quality enables podcast production without geographic limitations" },
+      { title: "AI Production Tools", description: "Transcription and clip generation tools that handle post-production work automatically reduce the time between recording and publishing" }
+    ],
+    useCases: [
+      { title: "Podcasters", description: "Podcast hosts use Riverside.fm for professional-quality remote guest interviews" },
+      { title: "Video Podcast Creators", description: "Video podcasters use Riverside for high-quality remote video recording with separate tracks" },
+      { title: "Content Teams", description: "Media companies use Riverside for professional remote interview and content recording" }
+    ]
+  },
+  "wondercraft": {
+    whatIs: "Wondercraft is an AI audio production platform that creates professional podcast episodes, audio ads, and audio content from text using AI voices and production tools. It generates complete audio productions with multiple voice characters, background music, and sound effects from scripts. For brands, agencies, and creators who need professional audio content without recording studios or voice actors, Wondercraft provides AI-powered audio production.",
+    features: [
+      "AI Audio Production: Create complete audio productions from scripts",
+      "Multiple AI Voices: Different voice characters for different speakers",
+      "Background Music: Add music to audio productions automatically",
+      "Sound Effects: Incorporate sound effects into productions",
+      "Podcast Creation: Generate complete podcast episodes",
+      "Audio Ads: Create professional audio advertisements",
+      "Script to Audio: Complete production from written content",
+      "Free Trial: Try audio production before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Wondercraft",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Script", description: "Sign up at wondercraft.ai and write or paste the script for your audio production." },
+        { title: "Configure Your Production", description: "Assign voices to different speakers, select background music, and set production parameters." },
+        { title: "Generate and Download", description: "Wondercraft generates your complete audio production. Download the finished audio for distribution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Production Without Infrastructure", description: "Complete audio productions without recording studios, voice actors, or audio engineers dramatically reduce production costs" },
+      { title: "Multiple Voice Characters", description: "AI productions with different voices for different speakers create more engaging and professional-sounding audio than single-voice narration" },
+      { title: "Speed to Production", description: "Generating complete audio productions from scripts in minutes rather than days enables faster content publishing schedules" },
+      { title: "Scalability", description: "AI audio production that scales to any volume without proportional cost increases enables high-volume audio content strategies" }
+    ],
+    useCases: [
+      { title: "Podcast Creators", description: "Podcasters use Wondercraft for AI-generated episodes when traditional recording is not possible" },
+      { title: "Marketing Teams", description: "Brands use AI audio production for podcast sponsorships and audio advertisements" },
+      { title: "Content Agencies", description: "Agencies producing audio content for multiple clients use Wondercraft for efficient AI-powered production" }
+    ]
+  },
+  "autopod": {
+    whatIs: "AutoPod is an AI-powered podcast editing tool that automatically edits multi-camera and multi-track podcast recordings. It uses AI to detect who is speaking and switch to the appropriate camera or focus on the active speaker, handling the video editing work that would otherwise require manual review of entire recordings. AutoPod integrates directly with Adobe Premiere Pro as a plugin. For video podcast editors who spend hours manually cutting between camera angles, AutoPod provides the automation that handles routine editing decisions.",
+    features: [
+      "Auto Multicam Editing: AI detects speakers and switches cameras automatically",
+      "Jump Cut Creation: Remove silences and pauses automatically",
+      "Adobe Premiere Integration: Works directly as a Premiere Pro plugin",
+      "Social Clip Creation: Generate social media clips from longer recordings",
+      "Multi-Speaker Detection: Handles recordings with multiple participants",
+      "Silence Removal: Automatic dead air elimination",
+      "Fast Processing: Edit hours of footage in minutes",
+      "Subscription Access: Monthly subscription for regular use"
+    ],
+    howToUse: {
+      title: "How to Use Autopod",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Plugin", description: "Purchase AutoPod and install it as an Adobe Premiere Pro plugin." },
+        { title: "Import Your Footage", description: "Import your multi-camera podcast recording into Premiere Pro. Sync your tracks if needed." },
+        { title: "Run AutoPod", description: "Run the AutoPod plugin on your sequence. It automatically creates multicam edits, removes silences, and generates cut sequences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Editing Time Compression", description: "Multi-camera podcast editing that takes hours of manual work is reduced to minutes with AI that handles camera switching decisions automatically" },
+      { title: "Premiere Pro Integration", description: "A plugin that works inside the editor that video podcasters already use fits naturally into existing workflows rather than requiring a separate application" },
+      { title: "Consistent Quality", description: "AI editing decisions that apply consistent criteria throughout long recordings produce more uniform results than manual editing attention that varies with fatigue" },
+      { title: "Creator Efficiency", description: "Podcast creators who spend less time on routine editing have more capacity for content development and audience engagement" }
+    ],
+    useCases: [
+      { title: "Video Podcast Editors", description: "Editors who cut multi-camera podcast recordings use AutoPod for automated camera switching" },
+      { title: "Podcast Production Companies", description: "Production agencies editing many podcasts use AutoPod for efficient multi-camera editing at scale" },
+      { title: "Individual Podcast Creators", description: "Solo video podcasters who edit their own content use AutoPod to reduce their editing time commitment" }
+    ]
+  },
+  "clipgen": {
+    whatIs: "ClipGen is an AI tool that automatically generates short video clips from longer video content for social media distribution. It analyzes longer videos to identify the most engaging moments, adds captions, and formats clips appropriately for platforms like TikTok, Instagram Reels, and YouTube Shorts. For content creators who produce long-form video and want to maximize their reach through short-form content, ClipGen provides automated clip extraction that saves significant editing time.",
+    features: [
+      "Auto Clip Generation: AI identifies and extracts engaging moments",
+      "Caption Generation: Automatic captions for all clips",
+      "Platform Formatting: Clips sized for TikTok, Reels, and Shorts",
+      "Engagement Detection: AI finds the most shareable moments",
+      "Batch Processing: Generate multiple clips from one video",
+      "Customization: Adjust clip selection and formatting",
+      "Direct Export: Download clips ready for posting",
+      "Free Credits: Try clip generation before subscribing"
+    ],
+    howToUse: {
+      title: "How to Use Clipgen",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Sign up at clipgen.ai and upload the long-form video you want to turn into short clips." },
+        { title: "Review Generated Clips", description: "ClipGen analyzes your video and presents the clips it identified as most engaging. Review and select your favorites." },
+        { title: "Download and Post", description: "Download your formatted clips with captions and post them directly to your social media platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Short Form Demand", description: "Social media platforms that prioritize short-form content reward creators who post consistently across TikTok, Reels, and Shorts. AI clip generation that produces many clips from one recording meets this demand efficiently" },
+      { title: "Engagement Intelligence", description: "AI that identifies the most engaging moments from long recordings surfaces clips that are more likely to perform well than randomly selected segments" },
+      { title: "Caption Requirement", description: "Short-form video that performs on social media almost always includes captions. Automatic caption generation removes this time-consuming step" },
+      { title: "Content Multiplication", description: "One long-form recording that generates many short clips multiplies content output without proportionally increasing production time" }
+    ],
+    useCases: [
+      { title: "YouTubers", description: "Long-form YouTube creators use ClipGen to generate short-form content from their existing videos" },
+      { title: "Podcasters with Video", description: "Video podcasters use clip generation to distribute engaging moments across social platforms" },
+      { title: "Course Creators", description: "Online educators use clip generation to create promotional content from their course recordings" }
+    ]
+  },
+  "podclips": {
+    whatIs: "PodClips is a podcast discovery and short-form audio platform that curates and surfaces the most insightful moments from popular podcasts as short audio clips. It helps podcast listeners discover new shows and interesting perspectives by making the best moments from conversations accessible in short form. For podcast enthusiasts who want to discover new content efficiently and for podcast creators who want their best moments to reach new audiences, PodClips provides podcast highlight distribution.",
+    features: [
+      "Podcast Clip Discovery: Find interesting moments from popular podcasts",
+      "Curated Highlights: Best moments surfaced from many shows",
+      "Podcast Discovery: Find new shows through their best clips",
+      "Short Form Audio: Audio clips formatted for quick consumption",
+      "Creator Platform: Submit your podcast clips for distribution",
+      "Topic Browsing: Find clips by topic and interest area",
+      "Follow Creators: Subscribe to specific podcast clip feeds",
+      "Free Access: Browse clips without payment"
+    ],
+    howToUse: {
+      title: "How to Use Podclips",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse Clip Feed", description: "Go to podclips.com and browse the curated feed of podcast highlights across different topics." },
+        { title: "Discover New Shows", description: "When you find clips you enjoy, explore the full podcast episodes and subscribe to shows you want to follow." },
+        { title: "Submit Your Podcast", description: "Podcast creators submit their best moments to reach new audiences through PodClips discovery." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Discovery Efficiency", description: "Finding interesting podcasts through their best moments is more efficient than listening to full episodes of shows you might not enjoy" },
+      { title: "Attention Economy", description: "Short audio clips that surface the most valuable insights from long conversations serve listeners who want knowledge without time commitment" },
+      { title: "Creator Reach", description: "Podcast creators whose best moments appear in discovery feeds reach audiences who would not find their full episodes through traditional discovery" },
+      { title: "Quality Signal", description: "Clips that perform well in short form indicate episodes worth listening to in full, helping listeners prioritize their podcast time" }
+    ],
+    useCases: [
+      { title: "Podcast Listeners", description: "People who enjoy podcasts use PodClips for efficient discovery of new shows and topics" },
+      { title: "Knowledge Seekers", description: "People who want insights without full episode commitment use podcast clips for efficient learning" },
+      { title: "Podcast Creators", description: "Podcasters use PodClips to distribute their best moments and grow their audience" }
+    ]
+  },
+  "fame-clips": {
+    whatIs: "Fame Clips is an AI video clipping and social media content creation tool that automatically extracts the most engaging moments from longer videos and formats them for social media distribution. It adds captions, applies formatting, and prepares clips for immediate posting across different platforms. For content creators who want to maximize their social media presence from their existing long-form content, Fame Clips provides automated clip creation.",
+    features: [
+      "Auto Clip Extraction: AI identifies shareable moments from long videos",
+      "Caption Addition: Automatic captions for all generated clips",
+      "Social Media Formatting: Platform-specific formatting for each network",
+      "Multiple Clips: Generate many clips from one source video",
+      "Engagement Optimization: AI selects moments likely to perform well",
+      "Quick Export: Download clips ready for immediate posting",
+      "Customization: Adjust clip selection and style",
+      "Free to Try: Basic clip generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Fame Clips",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Sign up at fameclips.ai and upload the long-form video you want to clip." },
+        { title: "Get Your Clips", description: "Fame Clips generates multiple short clips from your video with captions and platform formatting applied." },
+        { title: "Download and Share", description: "Download your clips and post them across your social media platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content Repurposing", description: "Long-form content that is repurposed into many short clips extends the reach and lifespan of each piece of content produced" },
+      { title: "Platform Diversity", description: "Posting consistently across multiple short-form platforms requires volume that manual clipping cannot efficiently produce" },
+      { title: "Caption Necessity", description: "Captions that make videos accessible and performant on social media without sound are added automatically to every clip" },
+      { title: "Creator Economics", description: "More content distributed across more platforms from the same recording investment improves the return on content production time" }
+    ],
+    useCases: [
+      { title: "YouTube Creators", description: "Video creators repurpose long YouTube content into short-form clips for TikTok and Instagram" },
+      { title: "Podcast Video Creators", description: "Video podcasters distribute the best moments across social platforms using AI clip generation" },
+      { title: "Business Video Content", description: "Companies repurpose webinars and presentations into social media content using clip generation" }
+    ]
+  },
+  "goodlisten": {
+    whatIs: "GoodListen is an AI audio content platform that converts text articles, blog posts, and written content into high-quality audio for podcast-style listening. It enables content creators and publishers to offer audio versions of their written content, extending reach to listeners who prefer audio consumption. For publishers and writers who want to make their content accessible through audio without recording infrastructure, GoodListen provides text-to-audio content conversion.",
+    features: [
+      "Text to Audio: Convert articles and blog posts to audio",
+      "Natural Voice: High-quality AI narration of written content",
+      "Podcast Distribution: Distribute converted audio as podcast content",
+      "Multiple Voices: Different narration voice options",
+      "Batch Conversion: Convert many articles simultaneously",
+      "Player Widget: Embed audio players on websites",
+      "Analytics: Track audio listening engagement",
+      "Free Plan: Basic conversion without payment"
+    ],
+    howToUse: {
+      title: "How to Use Goodlisten",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Content", description: "Sign up at goodlisten.io and import your articles or blog posts for audio conversion." },
+        { title: "Select Your Voice", description: "Choose a narration voice that matches your brand and content style." },
+        { title: "Publish and Distribute", description: "GoodListen converts your content to audio and provides distribution options including podcast feeds and embeddable players." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Audio Content Demand", description: "Significant audiences prefer listening to reading. Text content without audio versions misses these listeners entirely" },
+      { title: "Publishing Efficiency", description: "Converting existing written content to audio extends its reach without creating entirely new material" },
+      { title: "Podcast Growth", description: "Publishers who add audio versions of their articles expand their content to podcast audiences who do not read their written content" },
+      { title: "Accessibility", description: "Audio versions of written content make information accessible to people with reading difficulties or visual impairments" }
+    ],
+    useCases: [
+      { title: "Blog Publishers", description: "Website publishers convert their articles to audio to reach listener audiences" },
+      { title: "Newsletter Creators", description: "Email newsletter publishers add audio versions for subscribers who prefer listening" },
+      { title: "Content Marketing Teams", description: "Marketing departments extend the reach of their written content through audio distribution" }
+    ]
+  },
+  "limitless": {
+    whatIs: "Limitless is an AI-powered meeting and conversation capture platform that records, transcribes, and summarizes meetings, calls, and in-person conversations using a wearable device. It creates searchable records of all your conversations and uses AI to surface relevant information from past discussions when needed. For professionals who have many meetings and conversations and need to recall specific information from them, Limitless provides comprehensive conversation capture and intelligence.",
+    features: [
+      "Meeting Recording: Capture all your meetings and conversations",
+      "AI Transcription: Accurate speech-to-text for all recordings",
+      "Meeting Summaries: AI-generated summaries of key points",
+      "Wearable Device: Pendant that captures in-person conversations",
+      "Searchable Memory: Find information from past conversations",
+      "Action Items: Extract commitments and follow-ups",
+      "Privacy Controls: Manage what gets recorded and stored",
+      "Free Plan: Basic capture without payment"
+    ],
+    howToUse: {
+      title: "How to Use Limitless",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Device", description: "Sign up at limitless.ai and configure your recording setup - app for virtual meetings and wearable pendant for in-person conversations." },
+        { title: "Capture Your Conversations", description: "Attend meetings normally. Limitless captures and transcribes everything automatically." },
+        { title: "Search and Recall", description: "Use the search feature to find information from any past conversation. Review summaries and action items from recent meetings." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversation Memory", description: "Professionals who have many meetings daily cannot remember everything discussed. AI that captures and makes conversations searchable creates a reliable external memory" },
+      { title: "Follow-Through", description: "Action items explicitly captured from meetings have much higher completion rates than commitments mentioned verbally and not documented" },
+      { title: "In-Person Coverage", description: "Wearable devices that capture in-person conversations extend meeting capture beyond just video calls where software recording is standard" },
+      { title: "Context Recall", description: "Being able to recall exactly what was discussed in past meetings before follow-up conversations improves the quality and continuity of professional relationships" }
+    ],
+    useCases: [
+      { title: "Executive and Senior Professionals", description: "Leaders with many high-stakes meetings use Limitless for reliable meeting capture and recall" },
+      { title: "Sales Professionals", description: "Salespeople use meeting capture for accurate follow-up on customer conversations" },
+      { title: "Consultants", description: "Professionals who bill for their time use meeting records for accurate time documentation and client communication recall" }
+    ]
+  },
+  "wizardshot": {
+    whatIs: "WizardShot is an AI screenshot and visual documentation tool that automatically creates step-by-step guides, tutorials, and documentation from recorded screen activity. It captures screenshots as users perform tasks and uses AI to annotate them, add explanations, and format them into professional guides. For teams and individuals who create process documentation and tutorials, WizardShot provides automated visual guide creation that turns any workflow into shareable documentation.",
+    features: [
+      "Auto Screenshot Capture: Record screen activity as screenshots",
+      "AI Annotation: Automatic callouts and highlights on screenshots",
+      "Step by Step Guides: Format captures into tutorial documents",
+      "Written Explanations: AI-generated text descriptions for each step",
+      "Multiple Export Formats: Export as PDF, HTML, or other formats",
+      "Team Sharing: Share guides with team members",
+      "Template Options: Professional formatting templates",
+      "Free Plan: Basic documentation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Wizardshot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Recording", description: "Sign up at wizardshot.com and start a recording session. Perform the task or workflow you want to document." },
+        { title: "Review Generated Guide", description: "WizardShot automatically creates a step-by-step guide from your recorded activity with annotations and explanations." },
+        { title: "Edit and Share", description: "Review the generated guide, make any corrections, and share with your team or publish as documentation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Documentation Time", description: "Creating step-by-step process documentation manually takes significant time per guide. Automated capture that generates guides from actual workflow reduces this dramatically" },
+      { title: "Accuracy", description: "Documentation created from actual screen capture is more accurate than documentation written from memory or described without visual reference" },
+      { title: "Maintenance", description: "Updated processes documented by re-recording rather than manually editing existing guides are easier to keep current" },
+      { title: "Onboarding Value", description: "Visual step-by-step guides that show exactly what to do are more effective for onboarding than text descriptions that require interpretation" }
+    ],
+    useCases: [
+      { title: "Operations and Process Teams", description: "Teams documenting business processes use WizardShot for accurate visual process documentation" },
+      { title: "IT and Help Desk Teams", description: "Technical support teams create how-to guides for common tasks using automated screenshot documentation" },
+      { title: "Trainers and Educators", description: "People creating training materials use WizardShot for visual tutorials of software and digital workflows" }
+    ]
+  },
+  "speechzap": {
+    whatIs: "SpeechZap is a voice-to-text and speech recognition tool that converts spoken audio to text quickly and accurately. It provides real-time transcription and audio file transcription for notes, dictation, and content creation. For users who prefer speaking their thoughts rather than typing, SpeechZap provides reliable speech-to-text conversion that makes voice-based note-taking and content creation efficient.",
+    features: [
+      "Speech to Text: Convert spoken audio to accurate text",
+      "Real-Time Transcription: Live speech recognition as you speak",
+      "Audio File Upload: Transcribe pre-recorded audio files",
+      "Multiple Languages: Speech recognition in many languages",
+      "Note Taking: Voice-based note creation and capture",
+      "Dictation: Convert dictated content to text documents",
+      "Quick Export: Download transcribed text",
+      "Free to Use: Basic transcription without payment"
+    ],
+    howToUse: {
+      title: "How to Use Speechzap",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Speaking or Upload", description: "Go to speechzap.com and either speak directly into your microphone or upload an audio file for transcription." },
+        { title: "Review Your Transcript", description: "SpeechZap generates text from your speech or audio. Review and edit any recognition errors." },
+        { title: "Use Your Text", description: "Copy or download your transcribed text for use in your notes, documents, or content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Thinking Speed", description: "Speaking is faster than typing for most people. Voice dictation that converts speech to text accurately enables faster content capture" },
+      { title: "Hands-Free Operation", description: "Speech-to-text that works while hands are busy enables note-taking and content creation in situations where typing is not possible" },
+      { title: "Natural Expression", description: "Dictated content often feels more natural and conversational than typed content because speech follows natural thought patterns" },
+      { title: "Accessibility", description: "Voice input that converts to text enables people with typing difficulties to create written content through speech" }
+    ],
+    useCases: [
+      { title: "Writers and Content Creators", description: "People who prefer dictating to typing use SpeechZap for voice-based content creation" },
+      { title: "Students", description: "Students use voice-to-text for faster note-taking during lectures and study sessions" },
+      { title: "Busy Professionals", description: "Workers who capture notes and ideas while on the go use speech transcription for hands-free content capture" }
+    ]
+  },
   "split-prompt": {
     whatIs: "Split Prompt is an AI tool that helps users craft more effective AI prompts by breaking down complex requests into optimized component prompts. It analyzes your intended AI task and generates structured prompts that get better results from AI systems. For users who struggle to get the outputs they want from AI tools, Split Prompt provides prompt engineering assistance that improves AI interaction quality.",
     features: [
