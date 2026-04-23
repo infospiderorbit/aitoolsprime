@@ -678,7 +678,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "tiktok-ai-voice-generator": [
       { id: "tiktok-voice-generator", name: "TikTok Voice Generator", description: "Official TikTok AI voice synthesis", url: "", upvotes: 2345, verified: true, rating: 4.7, icon: "🎵", category: "voice-generation-conversion", subcategory: "tiktok-ai-voice-generator" },
       { id: "tiktok-voice-chrome", name: "Tiktok Voice Generator Chrome Extension", description: "Browser extension for TikTok voices", url: "", upvotes: 1234, verified: true, rating: 4.5, icon: "🔧", category: "voice-generation-conversion", subcategory: "tiktok-ai-voice-generator" },
-      { id: "tiktok-ai-voice", name: "Tiktok AI Voice", description: "TikTok style AI voice generator", url: "", upvotes: 876, verified: true, rating: 4.4, icon: "🎤", category: "voice-generation-conversion", subcategory: "tiktok-ai-voice-generator" },
       { id: "wasento", name: "Wasento", description: "TikTok voice cloning and generation", url: "", upvotes: 654, verified: false, rating: 4.3, icon: "🎭", category: "voice-generation-conversion", subcategory: "tiktok-ai-voice-generator" },
       { id: "crepal", name: "CrePal", description: "Creative TikTok voice generator", url: "", upvotes: 543, verified: true, rating: 4.2, icon: "🎨", category: "voice-generation-conversion", subcategory: "tiktok-ai-voice-generator" }
     ]
