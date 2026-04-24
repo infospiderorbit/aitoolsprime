@@ -141,8 +141,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "monica-ai", name: "Monica", description: "AI copilot for everyday tasks", url: "", upvotes: 987, verified: true, rating: 4.2, icon: "👩", category: "office-productivity", subcategory: "ai-copilot" }
     ],
     "ai-diagram-generator": [
-      { id: "mermaid-chart-gen", name: "Mermaid Chart", description: "Generate flowcharts and diagrams with AI", url: "", upvotes: 1789, verified: true, rating: 4.7, icon: "🧜‍♀️", category: "office-productivity", subcategory: "ai-diagram-generator" },
-      { id: "napkin-ai-gen", name: "Napkin AI", description: "Convert text to visual diagrams instantly", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "📊", category: "office-productivity", subcategory: "ai-diagram-generator" },
       { id: "edraw-software", name: "Edraw Software", description: "Professional diagramming with AI assistance", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "📐", category: "office-productivity", subcategory: "ai-diagram-generator" },
       { id: "eraser", name: "Eraser", description: "AI-powered technical diagram creation", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "🔧", category: "office-productivity", subcategory: "ai-diagram-generator" },
       { id: "whimsical", name: "Whimsical", description: "Visual collaboration with AI diagram generation", url: "", upvotes: 1156, verified: true, rating: 4.3, icon: "🎨", category: "office-productivity", subcategory: "ai-diagram-generator" }
@@ -195,7 +193,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-jobs": [
       { id: "outlier-ai", name: "Outlier AI", description: "AI training and freelance platform", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "🎯", category: "office-productivity", subcategory: "ai-jobs" },
       { id: "simplify-jobs", name: "Simplify", description: "AI-powered job application tracking", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "✅", category: "office-productivity", subcategory: "ai-jobs" },
-      { id: "jobright-jobs", name: "Jobright", description: "AI job search and career guidance", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "💼", category: "office-productivity", subcategory: "ai-jobs" },
       { id: "mercor", name: "Mercor", description: "AI talent matching platform", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "🤝", category: "office-productivity", subcategory: "ai-jobs" },
       { id: "grabjobs", name: "GrabJobs", description: "Quick job matching with AI", url: "", upvotes: 1156, verified: true, rating: 4.3, icon: "🚀", category: "office-productivity", subcategory: "ai-jobs" }
     ],
@@ -214,17 +211,14 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "screenapp", name: "ScreenApp", description: "AI screen recorder and meeting assistant", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "📺", category: "office-productivity", subcategory: "ai-meeting-assistant" }
     ],
     "ai-monitor": [
-      { id: "aura-monitor", name: "Aura", description: "AI-powered security and monitoring", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "🛡️", category: "office-productivity", subcategory: "ai-monitor" },
       { id: "bark", name: "Bark", description: "AI monitoring for online safety", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "🐕", category: "office-productivity", subcategory: "ai-monitor" },
       { id: "canopy", name: "Canopy", description: "AI website monitoring and analysis", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "🌳", category: "office-productivity", subcategory: "ai-monitor" },
-      { id: "gamma-ai", name: "Gamma.AI", description: "AI data loss prevention and monitoring", url: "", upvotes: 1156, verified: true, rating: 4.3, icon: "γ", category: "office-productivity", subcategory: "ai-monitor" },
       { id: "examonline", name: "ExamOnline", description: "AI proctoring and exam monitoring", url: "", upvotes: 987, verified: true, rating: 4.2, icon: "🎓", category: "office-productivity", subcategory: "ai-monitor" }
     ],
     "ai-note-taker": [
       { id: "fathom", name: "Fathom", description: "AI meeting recorder and note taker", url: "", upvotes: 2134, verified: true, rating: 4.8, icon: "📊", category: "office-productivity", subcategory: "ai-note-taker" },
       { id: "goodnotes", name: "Goodnotes", description: "Digital note-taking with AI features", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "📝", category: "office-productivity", subcategory: "ai-note-taker" },
       { id: "tldv", name: "tl;dv", description: "AI meeting recorder for remote teams", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "📹", category: "office-productivity", subcategory: "ai-note-taker" },
-      { id: "fireflies-notes", name: "Fireflies.ai", description: "Automatic meeting notes and summaries", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "🔥", category: "office-productivity", subcategory: "ai-note-taker" },
     ],
     "ai-notes-generator": [
       { id: "studocu", name: "Studocu", description: "AI-powered study notes and summaries", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "📚", category: "office-productivity", subcategory: "ai-notes-generator" },
@@ -249,7 +243,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-pdf-summarizer": [
       { id: "pdf-guru", name: "PDF Guru", description: "AI PDF summarization and analysis", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "🧙‍♂️", category: "office-productivity", subcategory: "ai-pdf-summarizer" },
-      { id: "chatpdf-summarizer", name: "ChatPDF", description: "Summarize PDFs with AI conversation", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "💬", category: "office-productivity", subcategory: "ai-pdf-summarizer" },
       { id: "lilys-ai", name: "Lilys AI", description: "AI-powered document summarization", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "🌸", category: "office-productivity", subcategory: "ai-pdf-summarizer" },
       { id: "noiz", name: "Noiz", description: "Smart PDF content extraction and summary", url: "", upvotes: 1156, verified: true, rating: 4.3, icon: "🎵", category: "office-productivity", subcategory: "ai-pdf-summarizer" }
     ],
@@ -261,7 +254,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "presentations-ai", name: "Presentations.AI", description: "Smart presentation design with AI", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "🎨", category: "office-productivity", subcategory: "ai-ppt-maker" }
     ],
     "ai-presentation-generator": [
-      { id: "gamma-presentations", name: "Gamma", description: "Create beautiful presentations with AI", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "📊", category: "office-productivity", subcategory: "ai-presentation-generator" },
       { id: "prezi", name: "Prezi", description: "Dynamic presentations with AI assistance", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "🌀", category: "office-productivity", subcategory: "ai-presentation-generator" },
       { id: "pitch", name: "Pitch", description: "Collaborative presentation platform with AI", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "⚾", category: "office-productivity", subcategory: "ai-presentation-generator" },
       { id: "beautiful-ai", name: "Beautiful.ai", description: "Smart presentation design automation", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "🎨", category: "office-productivity", subcategory: "ai-presentation-generator" },
@@ -316,9 +308,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "trevor-ai", name: "Trevor AI", description: "AI-powered daily schedule planner", url: "", upvotes: 987, verified: true, rating: 4.2, icon: "📅", category: "office-productivity", subcategory: "ai-schedule-maker" }
     ],
     "ai-scheduling": [
-      { id: "reclaim-ai-scheduling", name: "Reclaim.ai", description: "Smart calendar scheduling optimization", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "📅", category: "office-productivity", subcategory: "ai-scheduling" },
       { id: "carepatron", name: "Carepatron", description: "Healthcare practice management and scheduling", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "👩‍⚕️", category: "office-productivity", subcategory: "ai-scheduling" },
-      { id: "toki-scheduling", name: "Toki", description: "AI meeting and appointment scheduling", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "⏰", category: "office-productivity", subcategory: "ai-scheduling" },
       { id: "tweet-hunter", name: "Tweet Hunter", description: "Twitter content scheduling with AI", url: "", upvotes: 1156, verified: true, rating: 4.3, icon: "🐦", category: "office-productivity", subcategory: "ai-scheduling" }
     ],
     "ai-search-engine": [
@@ -332,14 +322,9 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "quadratic", name: "Quadratic", description: "Next-generation spreadsheet with AI", url: "", upvotes: 2134, verified: true, rating: 4.8, icon: "📊", category: "office-productivity", subcategory: "ai-spreadsheet" },
       { id: "numerous-ai", name: "Numerous.ai", description: "AI-powered spreadsheet automation", url: "", upvotes: 1789, verified: true, rating: 4.7, icon: "🔢", category: "office-productivity", subcategory: "ai-spreadsheet" },
       { id: "sheetai", name: "SheetAI", description: "Google Sheets with AI superpowers", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "📋", category: "office-productivity", subcategory: "ai-spreadsheet" },
-      { id: "sourcetable-spreadsheet", name: "Sourcetable", description: "AI spreadsheet with natural language", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "🔗", category: "office-productivity", subcategory: "ai-spreadsheet" },
-      { id: "ajelix-spreadsheet", name: "Ajelix", description: "Excel and Google Sheets AI tools", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "⚡", category: "office-productivity", subcategory: "ai-spreadsheet" }
     ],
     "ai-task-management": [
-      { id: "motion-tasks", name: "Motion", description: "AI calendar and task management system", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🔄", category: "office-productivity", subcategory: "ai-task-management" },
-      { id: "akiflow-tasks", name: "Akiflow", description: "Unified task management with AI scheduling", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "⚡", category: "office-productivity", subcategory: "ai-task-management" },
       { id: "omi-ai", name: "Omi AI", description: "AI-powered personal task assistant", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "🎯", category: "office-productivity", subcategory: "ai-task-management" },
-      { id: "tiimo-tasks", name: "Tiimo", description: "Visual task management with AI", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "⏰", category: "office-productivity", subcategory: "ai-task-management" },
       { id: "nifty", name: "Nifty", description: "Project management with AI insights", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "🎨", category: "office-productivity", subcategory: "ai-task-management" }
     ],
     "ai-word": [
@@ -350,10 +335,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "legalgraph-ai", name: "LegalGraph AI", description: "AI legal document creation", url: "", upvotes: 987, verified: true, rating: 4.2, icon: "⚖️", category: "office-productivity", subcategory: "ai-word" }
     ],
     "excel-ai": [
-      { id: "formula-bot-excel", name: "Formula Bot", description: "AI Excel formula generator and helper", url: "", upvotes: 2134, verified: true, rating: 4.8, icon: "🤖", category: "office-productivity", subcategory: "excel-ai" },
       { id: "datarails", name: "Datarails", description: "AI-powered Excel automation platform", url: "", upvotes: 1789, verified: true, rating: 4.7, icon: "📊", category: "office-productivity", subcategory: "excel-ai" },
-      { id: "numerous-ai-excel", name: "Numerous.ai", description: "Excel automation with AI", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "🔢", category: "office-productivity", subcategory: "excel-ai" },
-      { id: "ai-excel-bot-excel", name: "AI Excel Bot", description: "Smart Excel assistant and formula generator", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "📈", category: "office-productivity", subcategory: "excel-ai" },
       { id: "formulas-hq", name: "Formulas HQ", description: "Excel and Google Sheets formula AI", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "🏢", category: "office-productivity", subcategory: "excel-ai" }
     ],
     "graph-ai": [
@@ -1427,7 +1409,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "miricanvas", name: "MiriCanvas", description: "AI design generation platform", url: "", upvotes: 1890, verified: true, rating: 4.8, icon: "🎨", category: "art-creative-design", subcategory: "ai-design-generator" },
       { id: "v0-dev", name: "v0.dev", description: "AI web design generator", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🌐", category: "art-creative-design", subcategory: "ai-design-generator" },
       { id: "microsoft-designer", name: "Microsoft Designer", description: "Microsoft's AI design tool", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🏢", category: "art-creative-design", subcategory: "ai-design-generator" },
-      { id: "napkin-ai-design", name: "Napkin AI", description: "Quick design AI generator", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🎨", category: "art-creative-design", subcategory: "ai-design-generator" },
       { id: "stitch", name: "Stitch", description: "Design stitching AI platform", url: "", upvotes: 654, verified: false, rating: 4.4, icon: "🧵", category: "art-creative-design", subcategory: "ai-design-generator" }
     ],
     "ai-disney-poster": [
@@ -1591,7 +1572,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "uizard-ux", name: "Uizard", description: "AI-powered UX design tool", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "📱", category: "art-creative-design", subcategory: "ai-ux-design" },
       { id: "stitch-ux", name: "Stitch", description: "UX design AI platform", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🧵", category: "art-creative-design", subcategory: "ai-ux-design" },
       { id: "visily-ux", name: "Visily", description: "Visual UX design AI", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "👁️", category: "art-creative-design", subcategory: "ai-ux-design" },
-      { id: "motiff-ux", name: "Motiff", description: "Motion UX design AI", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "🎬", category: "art-creative-design", subcategory: "ai-ux-design" }
     ],
     "ai-vector-graphics": [
       { id: "vectorizer-ai-graphics", name: "Vectorizer.AI", description: "Image to vector AI converter", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🔄", category: "art-creative-design", subcategory: "ai-vector-graphics" },
