@@ -1,4 +1,454 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "styldo": {
+    whatIs: "Styldo is an AI-powered fashion discovery platform that helps users find outfits, get personalized style recommendations, and shop curated looks tailored to their preferences and body type.",
+    features: [
+      "Style Quiz: Personalized onboarding to match your fashion taste",
+      "Outfit Discovery: Browse AI-curated looks across categories",
+      "AI Recommendations: Suggestions based on your style profile",
+      "Shop The Look: Direct purchase links for featured items",
+      "Trend Alerts: Stay updated with what is trending in fashion"
+    ],
+    howToUse: {
+      title: "How to Use Styldo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Take the Style Quiz", description: "Answer questions about your fashion preferences and lifestyle to build your personal style profile." },
+        { title: "Browse Recommendations", description: "Explore AI-curated outfit ideas tailored to your taste and body type." },
+        { title: "Save Your Favorites", description: "Bookmark looks you love and build your own style collection for future reference." },
+        { title: "Shop Directly", description: "Click through to purchase individual items or complete outfits from partnered retailers." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalized Style Feed", description: "An ever-refreshing feed of outfits and fashion inspiration matched to your unique taste profile." },
+      { title: "Multi-Retailer Shopping", description: "Shop items from multiple brands and retailers without leaving the platform." },
+      { title: "Trend Tracking", description: "Discover what styles are gaining popularity and stay ahead of seasonal fashion shifts." }
+    ],
+    useCases: [
+      { title: "Daily Outfit Planning", description: "Get quick inspiration for what to wear each day without the mental effort of starting from scratch." },
+      { title: "Wardrobe Refresh", description: "Identify new pieces that complement your existing wardrobe and fill style gaps." },
+      { title: "Occasion Dressing", description: "Find the perfect look for specific events like weddings, job interviews, or casual weekends." }
+    ]
+  },
+  "biography-studio": {
+    whatIs: "Biography Studio is an AI writing tool that crafts professional, engaging biographies for individuals and brands across multiple formats — from LinkedIn summaries to speaker bios and personal About pages.",
+    features: [
+      "Multi-Format Bios: Generate short, medium, and long-form versions instantly",
+      "Tone Customization: Choose professional, casual, creative, or formal tones",
+      "Platform Optimization: Tailored bios for LinkedIn, Twitter, Instagram, and more",
+      "Instant Drafts: Get a full bio in seconds from basic input",
+      "Edit and Refine: Tweak generated content to match your voice precisely"
+    ],
+    howToUse: {
+      title: "How to Use Biography Studio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Details", description: "Input your name, profession, key achievements, and highlights you want featured in your bio." },
+        { title: "Choose Your Format", description: "Select the bio length and platform — LinkedIn, speaker profile, website, or press kit." },
+        { title: "Pick a Tone", description: "Decide whether you want the bio to sound professional, warm, creative, or authoritative." },
+        { title: "Generate and Edit", description: "Get your AI-drafted bio instantly and make personal tweaks before publishing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Platform-Specific Output", description: "Generates bios optimized for character limits and conventions of different platforms and contexts." },
+      { title: "Multiple Variations", description: "Produces several bio drafts at once so you can choose the version that fits best." },
+      { title: "Professional Tone Control", description: "Fine-tunes the language register so your bio sounds exactly how you want to come across." }
+    ],
+    useCases: [
+      { title: "LinkedIn Profile Update", description: "Write a compelling About section that attracts recruiters and professional connections effectively." },
+      { title: "Speaker Profiles", description: "Generate clean authoritative bios for conference submissions and event programs quickly." },
+      { title: "Brand Storytelling", description: "Craft founder or team bios that communicate credibility and personality for company websites." }
+    ]
+  },
+  "ai-love-genius": {
+    whatIs: "AILoveGenius is a relationship assistant that helps users craft romantic messages, plan meaningful dates, and navigate conversations with partners using personalized AI-powered guidance.",
+    features: [
+      "Message Composer: Write heartfelt texts and love notes effortlessly",
+      "Date Planner: Get personalized date ideas based on shared interests",
+      "Conversation Starters: Never run out of things to say to your partner",
+      "Apology Helper: Craft sincere thoughtful apologies for difficult moments",
+      "Anniversary Ideas: Plan memorable celebrations for special occasions"
+    ],
+    howToUse: {
+      title: "How to Use Ai Love Genius",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Situation", description: "Share context about your relationship, the occasion, or what you are trying to communicate." },
+        { title: "Choose a Category", description: "Pick from messages, date ideas, conversation starters, or special occasion planning." },
+        { title: "Personalize the Output", description: "Add specific details like your partner's name, shared memories, or personal references." },
+        { title: "Use and Adapt", description: "Take the AI suggestion as a starting point and make it fully your own before sending." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Romantic Message Writing", description: "Generates thoughtful personalized messages for any relationship moment from first dates to anniversaries." },
+      { title: "Date Idea Generator", description: "Provides creative unique date suggestions tailored to your partner's interests and your budget." },
+      { title: "Conflict Resolution Guidance", description: "Helps navigate difficult conversations with suggested language that stays respectful and productive." }
+    ],
+    useCases: [
+      { title: "Long Distance Relationships", description: "Keep the connection alive with meaningful messages when you cannot be together in person." },
+      { title: "Special Occasions", description: "Plan anniversaries, Valentine's Day, or surprise gestures that feel genuinely thoughtful." },
+      { title: "Early Dating Stage", description: "Build confidence in conversations and avoid awkward silences when getting to know someone new." }
+    ]
+  },
+  "ai-social-bio": {
+    whatIs: "AI Social Bio is a quick bio generator that creates optimized social media profiles for Instagram, TikTok, Twitter, and LinkedIn using smart AI suggestions tailored to each platform.",
+    features: [
+      "Platform-Specific Bios: Optimized output for each social network style",
+      "Emoji Integration: Adds relevant emojis in a natural way",
+      "Keyword Suggestions: Improves discoverability in platform searches",
+      "Multiple Variations: Get several bio options at once to compare",
+      "Character Count Aware: Stays within each platform's limits automatically"
+    ],
+    howToUse: {
+      title: "How to Use Ai Social Bio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Platform", description: "Choose which social network you are writing a bio for to get format-appropriate suggestions." },
+        { title: "Describe Yourself", description: "Enter your name, niche, profession, or key things you want people to know about you." },
+        { title: "Generate Options", description: "Get multiple bio variations instantly and pick the one that resonates most with your brand." },
+        { title: "Copy and Publish", description: "Paste your chosen bio directly into your profile and start attracting the right audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Platform Support", description: "Generates bios formatted correctly for Instagram, TikTok, Twitter, LinkedIn, and more simultaneously." },
+      { title: "Tone Matching", description: "Adjusts writing style to match the culture of each platform — casual for TikTok, professional for LinkedIn." },
+      { title: "Instant Variations", description: "Produces multiple bio drafts at once so you always have strong options to compare and choose from." }
+    ],
+    useCases: [
+      { title: "New Account Setup", description: "Launch a new social profile with a polished professional bio from day one confidently." },
+      { title: "Personal Branding", description: "Define and communicate your niche clearly to attract the right audience and collaborators." },
+      { title: "Business Profiles", description: "Create concise compelling brand bios that communicate value and drive profile visits and follows." }
+    ]
+  },
+  "gpt-twitter-bot": {
+    whatIs: "GPT Twitter Bot is an AI-powered automation tool that generates and schedules tweets, replies to mentions, and maintains an active Twitter presence on your behalf without losing your voice.",
+    features: [
+      "Auto Tweet Generation: Creates on-brand tweets from your chosen topics",
+      "Reply Automation: Responds to mentions with context-aware replies",
+      "Schedule Management: Posts at optimal engagement times automatically",
+      "Tone Customization: Matches your personal or brand voice closely",
+      "Hashtag Suggestions: Adds relevant tags to boost content reach"
+    ],
+    howToUse: {
+      title: "How to Use Gpt Twitter Bot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Account", description: "Link your Twitter account securely through OAuth authorization on the platform." },
+        { title: "Set Your Topics", description: "Define the subjects, keywords, and themes you want to tweet about regularly." },
+        { title: "Configure Your Voice", description: "Provide sample tweets or describe your tone so the AI can match your style accurately." },
+        { title: "Activate and Monitor", description: "Turn on automation and review the activity dashboard to track performance and adjust settings." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Voice Cloning", description: "Analyzes your existing tweets to replicate your writing style and vocabulary with strong accuracy." },
+      { title: "Smart Scheduling", description: "Posts content at times when your specific audience is most active for maximum engagement and reach." },
+      { title: "Engagement Monitoring", description: "Tracks likes, replies, and retweets to continuously improve the content it generates for you." }
+    ],
+    useCases: [
+      { title: "Thought Leadership", description: "Maintain a consistent insightful Twitter presence even during your busiest weeks without going silent." },
+      { title: "Brand Accounts", description: "Keep company profiles active and responsive without needing a dedicated social media manager." },
+      { title: "Content Creators", description: "Cross-promote content and engage followers automatically while focusing on your core creative work." }
+    ]
+  },
+  "ginix": {
+    whatIs: "GINIX is an AI review management platform that monitors, analyzes, and helps businesses respond to customer reviews across multiple platforms from a single organized dashboard.",
+    features: [
+      "Review Monitoring: Track reviews across Google, Yelp, TripAdvisor, and more",
+      "AI Response Generator: Craft professional replies to reviews instantly",
+      "Sentiment Analysis: Understand the emotional tone of all customer feedback",
+      "Competitor Tracking: See how your reviews compare against competitors",
+      "Alert System: Get notified the moment a new review appears anywhere"
+    ],
+    howToUse: {
+      title: "How to Use Ginix",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Listings", description: "Link your business profiles from Google, Yelp, and other review platforms to GINIX." },
+        { title: "Monitor Incoming Reviews", description: "View all new reviews from every platform in a single unified inbox daily." },
+        { title: "Generate Responses", description: "Use the AI to draft personalized professional replies to both positive and negative reviews." },
+        { title: "Analyze Trends", description: "Study sentiment data and recurring themes to identify what customers love and what needs fixing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Unified Review Inbox", description: "Consolidates reviews from all major platforms so nothing slips through the cracks unnoticed." },
+      { title: "AI-Powered Replies", description: "Generates thoughtful brand-appropriate responses in seconds that feel human and genuinely caring." },
+      { title: "Reputation Analytics", description: "Tracks your rating trends, response rates, and sentiment scores over time clearly." }
+    ],
+    useCases: [
+      { title: "Local Businesses", description: "Manage Google and Yelp reviews proactively to protect and build your local reputation effectively." },
+      { title: "Hospitality Industry", description: "Respond to hotel and restaurant reviews quickly to show guests their feedback truly matters." },
+      { title: "Multi-Location Brands", description: "Oversee reviews for every branch from one place without logging into multiple separate accounts." }
+    ]
+  },
+  "friendflow": {
+    whatIs: "FriendFlow is an AI-powered social connection app that helps people find, nurture, and maintain meaningful friendships through smart conversation prompts and personalized activity suggestions.",
+    features: [
+      "Friend Matching: Connect with people who share your genuine interests",
+      "Conversation Starters: Break the ice with AI-generated natural prompts",
+      "Activity Ideas: Get suggestions for fun things to do with friends",
+      "Check-In Reminders: Never let an important friendship go cold",
+      "Group Planning: Coordinate hangouts with multiple friends easily"
+    ],
+    howToUse: {
+      title: "How to Use Friendflow",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Profile", description: "Share your interests, hobbies, and what you are looking for in meaningful friendships." },
+        { title: "Discover Connections", description: "Browse AI-suggested profiles of people with compatible interests near you." },
+        { title: "Start Conversations", description: "Use provided icebreakers to make the first message feel natural and comfortable." },
+        { title: "Plan Activities", description: "Get personalized activity ideas to take friendships from online to real life experiences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Interest-Based Matching", description: "Connects you with people who genuinely share your hobbies and lifestyle preferences authentically." },
+      { title: "Friendship Maintenance Tools", description: "Sends reminders and suggests check-ins so you stay connected with people who truly matter." },
+      { title: "Group Coordination", description: "Simplifies planning group activities with scheduling tools and shared activity suggestions for everyone." }
+    ],
+    useCases: [
+      { title: "New to a City", description: "Build a social circle quickly when you have relocated and do not know many people yet." },
+      { title: "Introverts", description: "Ease into social situations with structured prompts that make initiating contact less intimidating and natural." },
+      { title: "Hobby Communities", description: "Find others who share niche interests and turn online connections into real lasting friendships." }
+    ]
+  },
+  "facebook-prospecting-ai": {
+    whatIs: "Facebook Prospecting AI is a lead generation tool that uses AI to identify, filter, and engage potential customers within Facebook groups and communities automatically and at scale.",
+    features: [
+      "Group Prospecting: Scan Facebook groups for your ideal leads efficiently",
+      "AI Filtering: Qualify prospects based on fully custom criteria",
+      "Message Templates: Send personalized outreach messages at scale",
+      "Lead Tracking: Monitor prospect status through a built-in CRM",
+      "Engagement Automation: Like, comment, and connect with prospects automatically"
+    ],
+    howToUse: {
+      title: "How to Use Facebook Prospecting Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Target", description: "Specify your ideal customer profile including industry, interests, pain points, and demographics." },
+        { title: "Select Groups", description: "Choose the Facebook groups where your target audience is most active and engaged." },
+        { title: "Run Prospecting", description: "Let the AI scan posts and profiles to identify members who match your defined criteria." },
+        { title: "Launch Outreach", description: "Send personalized messages to qualified prospects using AI-generated outreach templates." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Smart Lead Filtering", description: "Automatically qualifies prospects based on their posts, engagement patterns, and profile information." },
+      { title: "Personalized Messaging", description: "Generates outreach messages that reference specific details about each individual prospect." },
+      { title: "Pipeline Management", description: "Tracks every prospect from first contact through conversion in an integrated visual dashboard." }
+    ],
+    useCases: [
+      { title: "B2C Sales Teams", description: "Find warm leads in niche communities and reach out before competitors even notice them." },
+      { title: "Coaches and Consultants", description: "Identify people actively seeking solutions you offer inside relevant Facebook groups daily." },
+      { title: "E-commerce Brands", description: "Prospect within interest-based groups to find buyers who are already in the market for your product." }
+    ]
+  },
+  "gpt-for-facebook": {
+    whatIs: "GPT For Facebook is a browser extension that brings AI writing assistance directly into Facebook, helping users craft posts, comments, and messages faster and smarter without leaving the platform.",
+    features: [
+      "In-App Writing Assistant: Write posts without leaving Facebook at all",
+      "Comment Helper: Generate thoughtful relevant replies to any post",
+      "Message Composer: Draft DMs with exactly the right tone",
+      "Post Optimizer: Improve existing drafts for better engagement",
+      "One-Click Insert: Add AI text directly into any Facebook field"
+    ],
+    howToUse: {
+      title: "How to Use Gpt For Facebook",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Add GPT For Facebook to your browser from the Chrome Web Store in one click." },
+        { title: "Open Facebook", description: "Navigate to Facebook normally — the AI assistant appears within the interface automatically." },
+        { title: "Activate on Any Field", description: "Click the AI icon next to any post, comment, or message field to get writing suggestions instantly." },
+        { title: "Insert and Post", description: "Accept the suggestion, make any edits you want, and post directly without switching tabs." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Contextual Suggestions", description: "Reads the post or conversation you are responding to and generates relevant on-topic replies accurately." },
+      { title: "Tone Adjustment", description: "Switches between friendly, professional, humorous, or empathetic tones depending on your situation." },
+      { title: "Zero Tab Switching", description: "Everything happens inside Facebook itself — no copying and pasting from external AI tools needed." }
+    ],
+    useCases: [
+      { title: "Community Managers", description: "Respond to group posts and member comments quickly without sacrificing quality or personality." },
+      { title: "Small Business Owners", description: "Write engaging Facebook page posts consistently even without a dedicated copywriter on staff." },
+      { title: "Power Users", description: "Stay active across multiple groups and pages without spending hours writing content manually every day." }
+    ]
+  },
+  "planable": {
+    whatIs: "Planable is a social media collaboration and scheduling platform where teams can create, review, approve, and publish content across multiple channels in one clean shared workspace.",
+    features: [
+      "Visual Content Calendar: See all scheduled posts at a glance clearly",
+      "Team Collaboration: Comment, tag, and approve content together seamlessly",
+      "Multi-Platform Publishing: Post to all major social networks from one place",
+      "Approval Workflows: Set up review chains before anything goes live",
+      "Client Workspaces: Manage multiple brands cleanly from one account"
+    ],
+    howToUse: {
+      title: "How to Use Planable",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create a Workspace", description: "Set up a workspace for your brand or client and invite team members to collaborate freely." },
+        { title: "Draft Your Content", description: "Create posts for any social network with a real-time preview of exactly how they will look when published." },
+        { title: "Collect Feedback", description: "Share drafts with teammates or clients for comments and approval without long email chains." },
+        { title: "Schedule and Publish", description: "Once approved, schedule posts to go live at the right time across every connected channel automatically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Preview", description: "Shows exactly how posts will appear on each platform before they go live so there are no surprises." },
+      { title: "Approval Workflows", description: "Builds multi-step review processes so content is always properly checked before it is published." },
+      { title: "Universal Inbox", description: "Manages comments and messages from all connected social accounts in one consolidated place." }
+    ],
+    useCases: [
+      { title: "Marketing Agencies", description: "Manage content creation and client approvals for dozens of brands without chaos or confusion." },
+      { title: "In-House Marketing Teams", description: "Align on content strategy and maintain brand consistency across all departments effortlessly." },
+      { title: "Freelance Social Managers", description: "Handle multiple client accounts professionally from a single organized and intuitive dashboard." }
+    ]
+  },
+  "iq-hashtags": {
+    whatIs: "IQ Hashtags is an Instagram hashtag research and analytics tool that helps creators and brands find the best hashtags to maximize reach and grow their audience completely organically.",
+    features: [
+      "Hashtag Search: Find relevant tags by keyword or niche instantly",
+      "Performance Analytics: See reach potential and competition level clearly",
+      "Banned Hashtag Checker: Avoid tags that suppress your posts silently",
+      "Saved Sets: Store your favorite hashtag groups for quick reuse",
+      "Competitor Analysis: Discover which hashtags your rivals are using successfully"
+    ],
+    howToUse: {
+      title: "How to Use Iq Hashtags",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Niche", description: "Enter a keyword related to your content and get a full list of related hashtags with detailed stats." },
+        { title: "Filter by Difficulty", description: "Sort results by competition level to find hashtags where your content can realistically rank well." },
+        { title: "Check for Bans", description: "Run your planned hashtags through the banned hashtag checker before every post you publish." },
+        { title: "Save Your Sets", description: "Group your best hashtags into reusable sets you can copy and paste quickly when posting content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Reach Potential Score", description: "Rates each hashtag on how likely it is to get your post discovered by new audiences organically." },
+      { title: "Banned Hashtag Detection", description: "Flags hashtags that Instagram has restricted, protecting your posts from shadow banning penalties." },
+      { title: "Hashtag Set Manager", description: "Organizes your researched hashtags into reusable collections for much faster and easier posting." }
+    ],
+    useCases: [
+      { title: "Instagram Creators", description: "Grow reach organically by targeting hashtags where your content stands a real chance of ranking high." },
+      { title: "Brand Accounts", description: "Maintain a consistent hashtag strategy across posts to build niche authority steadily over time." },
+      { title: "Social Media Managers", description: "Research and organize hashtag sets for multiple client accounts from one efficient central tool." }
+    ]
+  },
+  "reachifyme": {
+    whatIs: "ReachifyMe is an AI-powered influencer marketing and personal branding platform that helps creators and professionals grow their reach, find brand collaborations, and build an impactful online presence.",
+    features: [
+      "Brand Deal Finder: Connect with brands looking for influencer collaborations",
+      "Profile Optimizer: AI suggestions to improve your social media presence",
+      "Reach Analytics: Track your audience growth and engagement metrics",
+      "Collaboration Tools: Manage brand partnerships from proposal to payment",
+      "Niche Matching: Get matched with brands that fit your content style"
+    ],
+    howToUse: {
+      title: "How to Use Reachifyme",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Creator Profile", description: "Create your profile with your niche, platforms, audience size, and content style details." },
+        { title: "Get Matched With Brands", description: "Browse AI-matched brand collaboration opportunities that suit your audience and content type." },
+        { title: "Pitch and Negotiate", description: "Use built-in tools to send proposals, negotiate terms, and finalize partnership agreements." },
+        { title: "Track Your Growth", description: "Monitor your reach, engagement trends, and collaboration performance from your dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Brand Matching", description: "Matches creators with relevant brand opportunities based on niche, audience demographics, and content style." },
+      { title: "Portfolio Management", description: "Maintains a professional creator portfolio that brands can review before reaching out to collaborate." },
+      { title: "Campaign Tracking", description: "Tracks active and past brand collaborations including deliverables, deadlines, and payment status." }
+    ],
+    useCases: [
+      { title: "Micro-Influencers", description: "Find paid brand deals even with a smaller but highly engaged niche audience and grow from there." },
+      { title: "Content Creators Monetizing", description: "Turn your social media following into a reliable income stream through relevant brand partnerships." },
+      { title: "Personal Brand Builders", description: "Establish credibility and visibility in your industry through strategic collaborations and profile optimization." }
+    ]
+  },
+  "hashtag-expert": {
+    whatIs: "Hashtag Expert is a mobile-first hashtag generator that provides smart hashtag recommendations for Instagram, TikTok, and other platforms to help creators maximize content visibility and reach.",
+    features: [
+      "Smart Hashtag Generator: Get relevant hashtags from any keyword",
+      "Platform Selection: Optimized sets for Instagram, TikTok, and more",
+      "Copy in One Tap: Instantly copy full hashtag sets for posting",
+      "Category Browse: Explore hashtags by popular content categories",
+      "Trending Tags: Discover what hashtags are gaining momentum now"
+    ],
+    howToUse: {
+      title: "How to Use Hashtag Expert",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Type a keyword or describe your content to get an instant list of relevant hashtag suggestions." },
+        { title: "Choose Your Platform", description: "Select Instagram, TikTok, or your target platform to get appropriately sized and styled hashtag sets." },
+        { title: "Copy Your Set", description: "Tap to copy the full recommended hashtag set and paste it directly into your post caption." },
+        { title: "Explore Categories", description: "Browse hashtag recommendations by content category to discover tags you might not have considered." }
+      ]
+    },
+    coreFeatures: [
+      { title: "One-Tap Copy", description: "Copies entire hashtag sets instantly so creators can go from research to posting without any friction." },
+      { title: "Platform Optimization", description: "Generates hashtag quantities and styles appropriate for each specific social platform's best practices." },
+      { title: "Category Discovery", description: "Browsable content categories help creators find relevant hashtag sets even without a specific keyword in mind." }
+    ],
+    useCases: [
+      { title: "Daily Content Posting", description: "Speed up your posting workflow by getting a full hashtag set in seconds rather than researching manually." },
+      { title: "New Content Niches", description: "Explore hashtag sets for content topics outside your usual niche when experimenting with new formats." },
+      { title: "Mobile-First Creators", description: "Perfect for creators who manage their entire social media presence directly from their smartphone." }
+    ]
+  },
+  "free-ai-wedding-hashtag-generator": {
+    whatIs: "Free AI Wedding Hashtag Generator is a specialized tool that creates unique, personalized wedding hashtags for couples to use across their wedding social media posts, invitations, and signage.",
+    features: [
+      "Personalized Hashtags: Custom tags using couple names and wedding details",
+      "Multiple Suggestions: Get dozens of unique hashtag options at once",
+      "Pun and Wordplay: Creative fun hashtag variations for memorable results",
+      "Instant Generation: Get your wedding hashtag ideas in seconds",
+      "Free to Use: No payment or signup required to generate hashtags"
+    ],
+    howToUse: {
+      title: "How to Use Free Ai Wedding Hashtag Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Names", description: "Input both partner names and optionally your wedding date or theme for personalization." },
+        { title: "Generate Your Options", description: "Get an instant list of unique personalized wedding hashtag suggestions based on your details." },
+        { title: "Pick Your Favorite", description: "Browse through the creative options and select the hashtag that feels most you as a couple." },
+        { title: "Share Everywhere", description: "Add your chosen hashtag to invitations, wedding website, signage, and social media profiles." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Name Combination Engine", description: "Creatively combines partner names using puns, alliteration, and wordplay to produce unique memorable hashtags." },
+      { title: "Volume of Options", description: "Generates a large number of variations at once so couples always find something they genuinely love." },
+      { title: "Instant Free Access", description: "No account creation or payment required means couples can generate hashtags in seconds effortlessly." }
+    ],
+    useCases: [
+      { title: "Engaged Couples", description: "Find the perfect wedding hashtag that captures your relationship and makes your photos easy to find online." },
+      { title: "Wedding Planners", description: "Quickly generate hashtag options for client couples as part of your wedding planning services." },
+      { title: "Bridal Parties", description: "Help the bride or groom find a hashtag that the whole wedding party will actually remember and use." }
+    ]
+  },
+  "makeinfluencer-ai": {
+    whatIs: "MakeInfluencer AI is an AI platform that helps users create and manage virtual AI influencer personas for social media, enabling brands and individuals to build automated digital influencer presences.",
+    features: [
+      "AI Persona Creation: Design a unique virtual influencer character",
+      "Content Generation: Produce posts and captions for your AI influencer",
+      "Visual Consistency: Maintain a coherent look across all content",
+      "Social Strategy: Get AI guidance on posting schedule and engagement",
+      "Brand Alignment: Tailor your influencer persona to specific niches"
+    ],
+    howToUse: {
+      title: "How to Use Makeinfluencer Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Design Your Persona", description: "Define your virtual influencer's name, personality, appearance style, niche, and target audience." },
+        { title: "Generate Content", description: "Use AI to create posts, captions, and content ideas that match your influencer persona consistently." },
+        { title: "Build Your Presence", description: "Post content across social platforms and grow your virtual influencer's following over time." },
+        { title: "Monetize Your Influencer", description: "Partner with brands for sponsored content once your AI influencer has built an engaged audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Persona Builder", description: "Creates a detailed AI influencer character with defined personality traits, aesthetic, and content niche." },
+      { title: "Content Automation", description: "Generates on-brand posts and captions automatically so your virtual influencer stays consistently active." },
+      { title: "Brand Partnership Tools", description: "Facilitates connecting your AI influencer with relevant brands for sponsored content opportunities." }
+    ],
+    useCases: [
+      { title: "Brands Without Spokespeople", description: "Create a virtual brand ambassador that represents your company without the complexity of working with human talent." },
+      { title: "Entrepreneurs", description: "Build an AI influencer as a standalone business asset that generates brand partnership income autonomously." },
+      { title: "Content Experimenters", description: "Test different influencer personas and content styles without the commitment of building a personal brand yourself." }
+    ]
+  },
   "elevenlabs": {
     whatIs: "ElevenLabs is the leading AI voice synthesis platform known for producing the most realistic and expressive AI voices available. It provides text-to-speech, voice cloning, and dubbing capabilities that have set the standard for AI voice quality. ElevenLabs voices are indistinguishable from human speech in many contexts and support emotional expression, multiple languages, and custom voice creation. For developers, creators, and businesses that need the highest quality AI voice synthesis, ElevenLabs provides the industry-leading voice technology.",
     features: [
