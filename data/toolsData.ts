@@ -99,7 +99,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "company-name-generator", name: "Company Name Generator", description: "AI-generated company names with availability", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "🏢", category: "business-research", subcategory: "ai-company-name-generator" },
       { id: "looka-name-generator", name: "Looka Name Generator", description: "Company name generator with logo design", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "🎨", category: "business-research", subcategory: "ai-company-name-generator" },
       { id: "squadhelp", name: "SquadHelp", description: "Crowdsourced company naming platform", url: "", upvotes: 1156, verified: true, rating: 4.3, icon: "👥", category: "business-research", subcategory: "ai-company-name-generator" },
-      { id: "brandcrowd-names", name: "BrandCrowd Names", description: "Company name generator with branding", url: "", upvotes: 987, verified: true, rating: 4.2, icon: "👑", category: "business-research", subcategory: "ai-company-name-generator" },
       { id: "novanym", name: "Novanym", description: "Creative company and brand name generator", url: "", upvotes: 876, verified: true, rating: 4.1, icon: "✨", category: "business-research", subcategory: "ai-company-name-generator" }
     ]
   },
@@ -1355,7 +1354,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-business-card-generator": [
       { id: "popl", name: "Popl", description: "Digital business card AI creator", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "💼", category: "art-creative-design", subcategory: "ai-business-card-generator" },
-      { id: "brandcrowd-card", name: "BrandCrowd", description: "AI business card design", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "👑", category: "art-creative-design", subcategory: "ai-business-card-generator" },
       { id: "brandmark-logo", name: "Brandmark Logo Maker", description: "Business card and logo AI", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🏷️", category: "art-creative-design", subcategory: "ai-business-card-generator" },
       { id: "logome", name: "Logome", description: "Business card and branding AI", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "📇", category: "art-creative-design", subcategory: "ai-business-card-generator" }
     ],
@@ -1644,10 +1642,8 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "friendflow", name: "FriendFlow", description: "AI Facebook friend management", url: "", upvotes: 567, verified: true, rating: 4.4, icon: "🤝", category: "social-media", subcategory: "ai-facebook" },
       { id: "facebook-prospecting-ai", name: "Facebook Prospecting AI", description: "AI-powered Facebook lead generation", url: "", upvotes: 654, verified: true, rating: 4.6, icon: "🎯", category: "social-media", subcategory: "ai-facebook" },
       { id: "gpt-for-facebook", name: "GPT-For-Facebook", description: "GPT integration for Facebook", url: "", upvotes: 432, verified: true, rating: 4.3, icon: "🤖", category: "social-media", subcategory: "ai-facebook" },
-      { id: "facebook-prospecting-ai-2", name: "Facebook Prospecting AI", description: "Advanced Facebook prospecting tool", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "📊", category: "social-media", subcategory: "ai-facebook" }
     ],
     "ai-hashtag": [
-      { id: "planable-hashtag", name: "Planable", description: "AI hashtag generator and scheduler", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "📅", category: "social-media", subcategory: "ai-hashtag" },
       { id: "iq-hashtags", name: "IQ Hashtags", description: "Smart hashtag analytics and suggestions", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🧠", category: "social-media", subcategory: "ai-hashtag" },
       { id: "reachifyme", name: "ReachifyMe", description: "AI hashtag reach optimizer", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "📈", category: "social-media", subcategory: "ai-hashtag" },
       { id: "hashtag-expert", name: "Hashtag Expert", description: "Professional hashtag research tool", url: "", upvotes: 432, verified: true, rating: 4.3, icon: "#️⃣", category: "social-media", subcategory: "ai-hashtag" },
@@ -1731,12 +1727,10 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "simplified-social", name: "Simplified", description: "AI social media management platform", url: "", upvotes: 1456, verified: true, rating: 4.8, icon: "📱", category: "social-media", subcategory: "ai-social-media" },
       { id: "quso-ai", name: "quso.ai", description: "AI social media automation", url: "", upvotes: 1098, verified: true, rating: 4.7, icon: "🤖", category: "social-media", subcategory: "ai-social-media" },
       { id: "contentstudio", name: "ContentStudio", description: "AI social media content creation", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🎨", category: "social-media", subcategory: "ai-social-media" },
-      { id: "planable-social", name: "Planable", description: "AI social media planning tool", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "📅", category: "social-media", subcategory: "ai-social-media" },
       { id: "taplio", name: "Taplio", description: "AI LinkedIn content automation", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "💼", category: "social-media", subcategory: "ai-social-media" }
     ],
     "ai-social-media-post-generator": [
       { id: "flick-post", name: "Flick", description: "AI social media post generator", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "📝", category: "social-media", subcategory: "ai-social-media-post-generator" },
-      { id: "contentstudio-post", name: "ContentStudio", description: "AI post creation platform", url: "", upvotes: 765, verified: true, rating: 4.5, icon: "🎨", category: "social-media", subcategory: "ai-social-media-post-generator" },
       { id: "circleboom", name: "Circleboom", description: "AI social media post creator", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "💥", category: "social-media", subcategory: "ai-social-media-post-generator" },
       { id: "predis-ai", name: "Predis.ai", description: "AI predictive post generator", url: "", upvotes: 432, verified: true, rating: 4.2, icon: "🔮", category: "social-media", subcategory: "ai-social-media-post-generator" }
     ],
@@ -1755,7 +1749,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "snowball", name: "Snowball", description: "AI Twitter growth tool", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "❄️", category: "social-media", subcategory: "ai-tweet-generator" }
     ],
     "ai-twitter": [
-      { id: "tweet-hunter-twitter", name: "Tweet Hunter", description: "AI Twitter growth platform", url: "", upvotes: 1567, verified: true, rating: 4.8, icon: "🏹", category: "social-media", subcategory: "ai-twitter" },
       { id: "owlead", name: "Owlead", description: "AI Twitter follower growth", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🦉", category: "social-media", subcategory: "ai-twitter" },
       { id: "postwise", name: "Postwise", description: "AI Twitter content optimization", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🧠", category: "social-media", subcategory: "ai-twitter" },
       { id: "drippi-ai", name: "Drippi.ai", description: "AI Twitter DM automation", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "💧", category: "social-media", subcategory: "ai-twitter" },
