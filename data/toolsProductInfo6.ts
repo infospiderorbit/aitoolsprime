@@ -1,4 +1,304 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "formulas-hq": {
+    whatIs: "Formulas HQ is an AI formula generator for Excel and Google Sheets that converts plain English descriptions into working spreadsheet formulas instantly, helping users work with data more confidently.",
+    features: [
+      "Formula Generation: Create spreadsheet formulas from plain text",
+      "Excel and Sheets: Works for both major spreadsheet platforms",
+      "Formula Explanation: Understand what any formula does clearly",
+      "Error Fixing: Diagnose and repair broken formulas quickly",
+      "Free Access: Basic formula generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Formulas Hq",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Need", description: "Type what you want your formula to calculate or do in plain everyday English language." },
+        { title: "Get Your Formula", description: "Receive the correct Excel or Google Sheets formula instantly ready to paste into your spreadsheet." },
+        { title: "Understand the Logic", description: "Read the plain English explanation of how your formula works to learn as you use it." },
+        { title: "Fix Broken Formulas", description: "Paste any formula that is not working to get a diagnosis and a corrected working version." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Plain English Input", description: "Accepts natural language descriptions and returns correct formulas without requiring syntax knowledge." },
+      { title: "Dual Platform Support", description: "Generates formulas for both Excel and Google Sheets handling syntax differences automatically." },
+      { title: "Learning Integration", description: "Explains every generated formula so users build genuine spreadsheet knowledge while solving problems." }
+    ],
+    useCases: [
+      { title: "Excel Beginners", description: "Get the exact formulas you need without learning complex syntax by simply describing what you want." },
+      { title: "Business Analysts", description: "Speed up spreadsheet work by generating complex formulas instantly rather than researching functions manually." },
+      { title: "Office Professionals", description: "Handle any spreadsheet formula challenge quickly without frustration or time-consuming online research." }
+    ]
+  },
+  "graphy": {
+    whatIs: "Graphy is an online course and community platform that helps creators build, sell, and deliver educational content with AI-powered tools for course creation, landing pages, and audience monetization.",
+    features: [
+      "Course Builder: Create and sell online courses easily",
+      "Community Tools: Build engaged learner communities",
+      "AI Content Help: Generate course content with AI assistance",
+      "Payment Processing: Accept payments and manage subscriptions",
+      "Custom Branding: White-label platform with your brand identity"
+    ],
+    howToUse: {
+      title: "How to Use Graphy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your School", description: "Create your Graphy account and customize your learning platform with your brand, colors, and domain." },
+        { title: "Build Your Course", description: "Use the course builder to add lessons, videos, quizzes, and downloadable materials for your students." },
+        { title: "Configure Pricing", description: "Set your course price, create bundles, or offer subscription access to your content library." },
+        { title: "Launch and Grow", description: "Publish your course, promote it to your audience, and manage your growing student community." }
+      ]
+    },
+    coreFeatures: [
+      { title: "White-Label Platform", description: "Creates a fully branded learning experience under your own brand without Graphy branding visible anywhere." },
+      { title: "Community Integration", description: "Combines course delivery with community features so learners engage with each other alongside content." },
+      { title: "Complete Monetization", description: "Handles payments, subscriptions, and revenue management so creators focus on content not infrastructure." }
+    ],
+    useCases: [
+      { title: "Online Educators", description: "Launch a professional course platform without technical complexity or high platform fees eating into revenue." },
+      { title: "Content Creators Monetizing", description: "Turn your expertise into structured courses with a platform that handles delivery and payments completely." },
+      { title: "Coaches and Consultants", description: "Package your knowledge into scalable course products that generate income beyond one-to-one client work." }
+    ]
+  },
+  "ai-graph-maker": {
+    whatIs: "AI Graph Maker is a free online tool that generates charts and graphs from your data or text descriptions instantly using AI, making data visualization accessible without design or coding skills.",
+    features: [
+      "Instant Charts: Generate graphs from data or descriptions",
+      "Multiple Chart Types: Bar line pie scatter and more",
+      "Free to Use: Chart creation without payment required",
+      "Easy Customization: Adjust colors labels and styling",
+      "Export Ready: Download charts for presentations and reports"
+    ],
+    howToUse: {
+      title: "How to Use Ai Graph Maker",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Data", description: "Paste your data or describe the chart you want to create in plain English for AI generation." },
+        { title: "Choose Your Type", description: "Select your preferred chart type or let the AI recommend the most appropriate visualization format." },
+        { title: "Customize Your Chart", description: "Adjust colors, labels, titles, and styling to match your presentation or brand requirements." },
+        { title: "Download and Use", description: "Export your finished chart as an image file ready to insert into presentations, reports, or documents." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Text to Chart", description: "Generates appropriate visualizations from plain English data descriptions without requiring formatted data input." },
+      { title: "Chart Type Variety", description: "Supports all major chart formats including bar, line, pie, scatter, and more for diverse visualization needs." },
+      { title: "Free Instant Access", description: "Creates professional charts immediately without payment or account creation for maximum accessibility." }
+    ],
+    useCases: [
+      { title: "Business Professionals", description: "Create clear data visualizations for presentations and reports quickly without design software skills." },
+      { title: "Students", description: "Generate charts for academic papers and presentations without learning complex data visualization tools." },
+      { title: "Analysts", description: "Quickly visualize datasets for exploratory analysis and stakeholder communication without coding required." }
+    ]
+  },
+  "github": {
+    whatIs: "GitHub is the world's leading software development platform that provides Git-based version control, collaboration tools, CI/CD pipelines, and AI coding assistance through Copilot for development teams.",
+    features: [
+      "Version Control: Git-based code management and history",
+      "Collaboration: Pull requests code review and team workflows",
+      "GitHub Actions: Automated CI/CD pipelines and workflows",
+      "GitHub Copilot: AI pair programmer for code suggestions",
+      "Project Management: Issues milestones and project boards"
+    ],
+    howToUse: {
+      title: "How to Use Github",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Repository", description: "Set up a new GitHub repository for your project and initialize it with your code or documentation." },
+        { title: "Commit Your Code", description: "Push code changes to your repository with descriptive commits that track your development history." },
+        { title: "Open Pull Requests", description: "Create pull requests for code review and collaborative discussion before merging changes to main branches." },
+        { title: "Automate With Actions", description: "Set up GitHub Actions workflows to automatically test, build, and deploy your code on every push." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Distributed Version Control", description: "Tracks every code change with full history enabling teams to collaborate without overwriting each other's work." },
+      { title: "Pull Request Workflow", description: "Structures code review through pull requests ensuring quality control before changes reach production code." },
+      { title: "GitHub Copilot AI", description: "Provides AI-powered code suggestions and completions that significantly accelerate developer productivity." }
+    ],
+    useCases: [
+      { title: "Software Development Teams", description: "Collaborate on code effectively with version control, code review, and automated workflows in one platform." },
+      { title: "Open Source Projects", description: "Host and manage open source projects with tools for community contribution, issue tracking, and releases." },
+      { title: "DevOps Teams", description: "Automate entire software delivery pipelines from testing through deployment using GitHub Actions workflows." }
+    ]
+  },
+  "chatgpt-conversation-tree": {
+    whatIs: "ChatGPT Conversation Tree Extension is a browser extension that visualizes your ChatGPT conversation history as an interactive tree structure, making it easy to navigate complex branching AI conversations.",
+    features: [
+      "Tree Visualization: View conversation branches as visual tree",
+      "Branch Navigation: Jump between conversation branches easily",
+      "History Overview: See your full conversation structure clearly",
+      "Branch Comparison: Compare different conversation paths",
+      "Export Options: Save conversation trees for reference"
+    ],
+    howToUse: {
+      title: "How to Use Chatgpt Conversation Tree",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Add the ChatGPT Conversation Tree extension to your Chrome browser from the Web Store." },
+        { title: "Open ChatGPT", description: "Navigate to ChatGPT and start or open an existing conversation with multiple branches." },
+        { title: "View Your Tree", description: "Activate the extension to see your conversation displayed as an interactive visual tree structure." },
+        { title: "Navigate Branches", description: "Click on any node in the tree to jump directly to that point in your conversation history." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Conversation Map", description: "Displays complex branching ChatGPT conversations as a clear visual tree for easy orientation and navigation." },
+      { title: "Branch Comparison", description: "Makes it straightforward to compare different conversation paths and responses side by side." },
+      { title: "History Navigation", description: "Enables jumping to any point in a long branching conversation without scrolling through the linear interface." }
+    ],
+    useCases: [
+      { title: "ChatGPT Power Users", description: "Navigate complex multi-branch conversations efficiently with a visual overview of your entire conversation structure." },
+      { title: "Researchers", description: "Compare different AI response branches and track your prompting experiments with clear visual organization." },
+      { title: "Prompt Engineers", description: "Visualize and navigate complex prompt testing conversations to identify the most effective interaction paths." }
+    ]
+  },
+  "calcgen-ai": {
+    whatIs: "CalcGen AI is an AI-powered calculator and computation tool that solves complex mathematical problems, generates step-by-step solutions, and creates custom calculators from plain English descriptions.",
+    features: [
+      "Problem Solving: Solve complex math problems with AI",
+      "Step-by-Step: Detailed solution walkthroughs for every problem",
+      "Custom Calculators: Generate specific calculators from descriptions",
+      "Multiple Math Types: Algebra calculus statistics and more",
+      "Free Access: Basic calculations without payment required"
+    ],
+    howToUse: {
+      title: "How to Use Calcgen Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Problem", description: "Type your math problem or describe the calculator you need in plain English for AI processing." },
+        { title: "Get Your Solution", description: "Receive a complete solution with step-by-step working so you understand the full calculation process." },
+        { title: "Generate Custom Calculator", description: "Describe a specific calculation you need repeatedly and get a custom calculator built for that purpose." },
+        { title: "Learn From Steps", description: "Study the detailed step-by-step breakdown to understand the mathematical concepts and methods used." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Step-by-Step Solutions", description: "Provides complete solution walkthroughs that show every calculation step for learning and verification." },
+      { title: "Custom Calculator Generation", description: "Creates purpose-built calculators for specific repeated calculation needs from plain language descriptions." },
+      { title: "Broad Math Coverage", description: "Handles diverse mathematical domains from basic arithmetic through calculus and statistical analysis." }
+    ],
+    useCases: [
+      { title: "Students", description: "Solve math problems with detailed steps that help you understand the method not just get the answer." },
+      { title: "Professionals", description: "Generate custom calculators for specific business calculations you perform repeatedly and consistently." },
+      { title: "Educators", description: "Create worked examples and step-by-step solutions for teaching mathematical concepts and problem-solving methods." }
+    ]
+  },
+  "boardmix": {
+    whatIs: "Boardmix is an AI-powered online whiteboard and collaboration platform that helps teams brainstorm, plan, and create visual content together with intelligent design assistance and extensive template libraries.",
+    features: [
+      "Infinite Canvas: Unlimited workspace for any project size",
+      "AI Generation: Create diagrams and visuals with AI assistance",
+      "Team Collaboration: Real-time multi-user whiteboard editing",
+      "Template Library: Hundreds of templates for every use case",
+      "Mind Mapping: Visual mind maps and brainstorming tools"
+    ],
+    howToUse: {
+      title: "How to Use Boardmix",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Board", description: "Open a new Boardmix board and invite your team members to collaborate in real time." },
+        { title: "Choose Your Template", description: "Select from the template library or start with a blank canvas for your brainstorming session." },
+        { title: "Add Your Content", description: "Place sticky notes, shapes, images, and text across your infinite canvas to build your ideas." },
+        { title: "Use AI Features", description: "Leverage AI generation tools to create diagrams, summarize content, and enhance your visual work." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Visual Generation", description: "Creates diagrams, flowcharts, and visual frameworks from text descriptions with AI assistance throughout." },
+      { title: "Infinite Canvas", description: "Provides unlimited workspace that never constrains the scope of brainstorming or planning sessions." },
+      { title: "Real-Time Collaboration", description: "Enables multiple team members to work simultaneously on the same board with live cursor visibility." }
+    ],
+    useCases: [
+      { title: "Product Teams", description: "Run brainstorming sessions, user story mapping, and roadmap planning on a shared visual canvas together." },
+      { title: "Design Teams", description: "Collaborate on wireframes, design concepts, and creative briefs with real-time visual editing tools." },
+      { title: "Remote Teams", description: "Conduct engaging virtual workshops and planning sessions with rich visual collaboration tools online." }
+    ]
+  },
+  "jeda-ai": {
+    whatIs: "Jeda.ai is an AI visual workspace that generates diagrams, flowcharts, and business canvases from text prompts, helping teams create professional visual content without manual drawing or design skills.",
+    features: [
+      "AI Canvas Generation: Create visuals from text descriptions",
+      "Business Frameworks: Generate business model canvases instantly",
+      "Flowchart Creation: Diagrams from simple text descriptions",
+      "Team Collaboration: Work together on visual content in real time",
+      "Template Library: Professional starting points for every need"
+    ],
+    howToUse: {
+      title: "How to Use Jeda Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Visual", description: "Type a description of the diagram, canvas, or visual framework you want to create with AI." },
+        { title: "Generate Instantly", description: "Let Jeda.ai produce your visual content from your description in seconds automatically." },
+        { title: "Customize the Output", description: "Edit generated visuals by adjusting content, styling, and layout to match your exact needs." },
+        { title: "Share and Collaborate", description: "Invite team members to view and edit your visual workspace together in real time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Text to Visual", description: "Generates professional diagrams and business canvases from plain text descriptions without manual drawing." },
+      { title: "Business Canvas Support", description: "Creates business model canvases, SWOT analyses, and strategic frameworks from simple prompts instantly." },
+      { title: "Collaborative Workspace", description: "Enables teams to work together on AI-generated visuals with real-time editing and sharing capabilities." }
+    ],
+    useCases: [
+      { title: "Strategy Teams", description: "Generate business frameworks and strategic canvases instantly to accelerate planning and strategy sessions." },
+      { title: "Consultants", description: "Create professional visual deliverables quickly using AI generation that reduces manual diagram building time." },
+      { title: "Educators", description: "Build visual teaching materials and conceptual frameworks from text descriptions without design expertise." }
+    ]
+  },
+  "fabrie": {
+    whatIs: "Fabrie is an online design collaboration platform that combines whiteboards, design files, and prototyping tools in one workspace, helping design teams collaborate more efficiently across their entire design process.",
+    features: [
+      "Design Whiteboard: Collaborative design space for teams",
+      "File Management: Organize design assets and files centrally",
+      "Prototyping: Create interactive prototypes for user testing",
+      "Team Collaboration: Real-time design collaboration features",
+      "Asset Library: Centralized design system and asset management"
+    ],
+    howToUse: {
+      title: "How to Use Fabrie",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Space", description: "Create your Fabrie workspace and invite your design team members to collaborate on projects." },
+        { title: "Import Your Files", description: "Upload existing design files and assets to organize them in your centralized team workspace." },
+        { title: "Collaborate in Real Time", description: "Work together on design whiteboards and files with live editing and commenting features." },
+        { title: "Build Prototypes", description: "Create interactive prototypes from your designs for user testing and stakeholder presentations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Design-First Workspace", description: "Built specifically for design teams with tools and conventions appropriate for professional design workflows." },
+      { title: "Centralized Asset Management", description: "Keeps all design files, components, and assets organized in one accessible team workspace." },
+      { title: "Prototype Integration", description: "Combines design creation with prototyping tools so teams move from concept to testable prototype efficiently." }
+    ],
+    useCases: [
+      { title: "UX Design Teams", description: "Collaborate on user experience design from research through prototyping in one integrated workspace." },
+      { title: "Product Design Teams", description: "Manage the full product design process with shared files, collaborative editing, and prototype testing tools." },
+      { title: "Creative Agencies", description: "Run client design projects with organized file management and collaborative tools for distributed teams." }
+    ]
+  },
+  "bloxgpt": {
+    whatIs: "BloxGPT is an AI assistant for Roblox game development that helps creators write Lua scripts, debug code, and build game mechanics using natural language prompts without advanced programming knowledge.",
+    features: [
+      "Lua Script Generation: Write Roblox scripts from descriptions",
+      "Code Debugging: Find and fix errors in your Roblox code",
+      "Game Mechanic Help: AI guidance on building game features",
+      "Natural Language: Describe what you want in plain English",
+      "Roblox Specific: Trained on Roblox platform conventions"
+    ],
+    howToUse: {
+      title: "How to Use Bloxgpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Feature", description: "Explain the game mechanic or script you want to create in plain English to BloxGPT." },
+        { title: "Get Your Script", description: "Receive ready-to-use Lua code for Roblox that implements your described game feature or mechanic." },
+        { title: "Test in Roblox Studio", description: "Copy the generated script into Roblox Studio and test it in your game environment." },
+        { title: "Debug With AI", description: "Paste any broken script to get an explanation of the error and a corrected working version." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Roblox-Specific Knowledge", description: "Trained on Roblox platform conventions and Lua scripting patterns for accurate game development output." },
+      { title: "Natural Language to Code", description: "Converts plain English game feature descriptions into working Lua scripts for Roblox Studio." },
+      { title: "Debugging Assistance", description: "Identifies errors in Roblox scripts and provides corrected code with explanations of what went wrong." }
+    ],
+    useCases: [
+      { title: "Roblox Developers", description: "Build game features and mechanics faster with AI that writes and debugs Lua scripts on demand." },
+      { title: "Young Game Creators", description: "Create your first Roblox game scripts without needing advanced programming knowledge or experience." },
+      { title: "Experienced Developers", description: "Accelerate development by using AI to handle boilerplate scripting and quickly prototype new game mechanics." }
+    ]
+  },
   "trevor-ai": {
     whatIs: "Trevor AI is an intelligent daily planner that automatically schedules your tasks into available time slots on your calendar using time blocking to give you a realistic and achievable plan every day.",
     features: [
