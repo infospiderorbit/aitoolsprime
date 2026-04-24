@@ -1,4 +1,304 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "reclaim-ai": {
+    whatIs: "Reclaim.ai is an AI calendar management tool that automatically schedules tasks, habits, and meetings into your calendar by finding the best available time slots to protect your focus and productivity.",
+    features: [
+      "Smart Scheduling: AI finds the best time for every task automatically",
+      "Habit Scheduling: Block time for recurring habits consistently",
+      "Meeting Optimization: Minimize context switching between meetings",
+      "Task Integration: Sync tasks from Asana, Todoist, and more",
+      "Buffer Time: Automatic breaks scheduled between meetings"
+    ],
+    howToUse: {
+      title: "How to Use Reclaim Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Calendar", description: "Link your Google Calendar to Reclaim and grant access to your schedule and availability." },
+        { title: "Add Your Tasks", description: "Import tasks from your project tools or add them directly with estimated durations and deadlines." },
+        { title: "Set Your Priorities", description: "Define your working hours, focus time preferences, and which tasks matter most to you." },
+        { title: "Let It Schedule", description: "Reclaim automatically finds the best times for everything and fills your calendar intelligently." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Intelligent Time Blocking", description: "Analyzes your calendar and automatically places tasks in optimal time slots based on your priorities and energy." },
+      { title: "Habit Protection", description: "Reserves recurring time blocks for personal habits and routines so they never get squeezed out by meetings." },
+      { title: "Dynamic Rescheduling", description: "Automatically moves tasks when meetings are added or schedules change to keep your calendar balanced." }
+    ],
+    useCases: [
+      { title: "Knowledge Workers", description: "Protect deep focus time and ensure important tasks get scheduled alongside a busy meeting calendar." },
+      { title: "Managers", description: "Balance team meetings with individual work time automatically without manual calendar juggling every week." },
+      { title: "Freelancers", description: "Manage client work, deadlines, and personal habits across a flexible schedule without losing track of priorities." }
+    ]
+  },
+  "motion": {
+    whatIs: "Motion is an AI-powered project and task management tool that automatically schedules your to-do list into your calendar each day, prioritizing work intelligently so you always know what to do next.",
+    features: [
+      "Auto Scheduling: Tasks placed into your calendar automatically daily",
+      "Priority Management: AI decides what to work on based on deadlines",
+      "Project Planning: Manage projects and individual tasks together",
+      "Meeting Scheduling: Built-in meeting booking and management",
+      "Daily Planner: A clear optimized plan built every morning for you"
+    ],
+    howToUse: {
+      title: "How to Use Motion",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Add Your Tasks", description: "Enter all your tasks and projects with deadlines and time estimates into the Motion workspace." },
+        { title: "Connect Your Calendar", description: "Link your calendar so Motion can see your meetings and available time slots for scheduling." },
+        { title: "Let Motion Plan", description: "Motion automatically builds your daily schedule each morning placing tasks in optimal time slots." },
+        { title: "Follow Your Plan", description: "Work through your Motion-generated schedule and let the AI adjust automatically when things change." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Daily Planning", description: "Rebuilds your optimized daily schedule every morning based on deadlines, priorities, and available time." },
+      { title: "Deadline Intelligence", description: "Monitors all your deadlines and works backward to ensure everything gets scheduled with enough time." },
+      { title: "Dynamic Adjustment", description: "Instantly reschedules remaining tasks when meetings run long or new urgent work gets added to your list." }
+    ],
+    useCases: [
+      { title: "Overwhelmed Professionals", description: "Stop spending mental energy deciding what to work on and let Motion build your optimal daily plan automatically." },
+      { title: "Project Managers", description: "Keep projects on track by ensuring all tasks get scheduled realistically against your actual available time." },
+      { title: "Entrepreneurs", description: "Balance multiple business priorities and personal tasks with an AI that plans your entire workday for you." }
+    ]
+  },
+  "akiflow": {
+    whatIs: "Akiflow is a task management and calendar tool that consolidates tasks from all your apps into one place and lets you plan your day by scheduling tasks directly into time blocks on your calendar.",
+    features: [
+      "Universal Inbox: Collect tasks from all your tools in one place",
+      "Time Blocking: Schedule tasks directly into calendar time slots",
+      "Daily Planning: Structured morning ritual to plan your workday",
+      "App Integrations: Connect Slack, Gmail, Asana, Notion, and more",
+      "Keyboard Shortcuts: Fast task capture and management workflow"
+    ],
+    howToUse: {
+      title: "How to Use Akiflow",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Apps", description: "Link Akiflow to your existing tools so all tasks flow into your unified task inbox automatically." },
+        { title: "Plan Your Morning", description: "Use the daily planning ritual to review your tasks and schedule them into specific time blocks on your calendar." },
+        { title: "Work Your Blocks", description: "Follow your time-blocked calendar throughout the day and check off tasks as you complete them." },
+        { title: "Review and Improve", description: "Use end-of-day review to reflect on what you accomplished and carry forward anything unfinished." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Universal Task Inbox", description: "Pulls tasks from every connected app into one place so nothing gets missed across your tool ecosystem." },
+      { title: "Calendar Integration", description: "Schedules tasks as time blocks directly on your calendar for a realistic view of your actual workday." },
+      { title: "Daily Planning Ritual", description: "Structures a focused morning planning session that sets clear intentions for what you will accomplish each day." }
+    ],
+    useCases: [
+      { title: "Busy Professionals", description: "Stop losing tasks across multiple apps and plan your day with full visibility of everything on your plate." },
+      { title: "Remote Workers", description: "Manage distributed work across many tools from one central hub with calendar-based time blocking." },
+      { title: "Productivity Enthusiasts", description: "Build a structured daily planning practice with powerful tools that make time blocking fast and sustainable." }
+    ]
+  },
+  "toki": {
+    whatIs: "Toki is an AI scheduling and time management app that helps users plan their day intelligently by combining tasks, habits, and calendar events into one unified daily schedule.",
+    features: [
+      "Daily Schedule Builder: Combines tasks and events into one view",
+      "Habit Tracking: Build and maintain consistent daily habits",
+      "AI Suggestions: Smart recommendations for when to do each task",
+      "Calendar Sync: Connects with your existing calendar accounts",
+      "Focus Sessions: Structured work blocks with built-in timers"
+    ],
+    howToUse: {
+      title: "How to Use Toki",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Enter your working hours, priorities, and the habits you want to build into your daily routine." },
+        { title: "Add Your Tasks", description: "Input your tasks with deadlines and time estimates so Toki can schedule them appropriately." },
+        { title: "Review Your Schedule", description: "See your AI-generated daily plan combining tasks, habits, and calendar events in one clear view." },
+        { title: "Work and Track", description: "Follow your schedule through the day and track habit completions and task progress as you go." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Unified Daily View", description: "Combines calendar events, tasks, and habits into one clean schedule so your entire day is visible at once." },
+      { title: "Habit Integration", description: "Weaves habit time blocks into your schedule alongside work tasks to ensure consistency over time." },
+      { title: "AI Time Suggestions", description: "Recommends the best times for different types of tasks based on your preferences and energy patterns." }
+    ],
+    useCases: [
+      { title: "Habit Builders", description: "Integrate new habits into your daily schedule alongside work commitments without sacrificing either one." },
+      { title: "Students", description: "Balance study sessions, classes, assignments, and personal routines with an intelligent daily planner." },
+      { title: "Professionals", description: "Get a clear structured daily plan that accounts for meetings, focused work, and personal priorities together." }
+    ]
+  },
+  "clockwise": {
+    whatIs: "Clockwise is an AI calendar optimization tool that automatically reorganizes meetings and protects focus time blocks to create longer uninterrupted work periods in your team's schedules.",
+    features: [
+      "Focus Time Protection: AI creates uninterrupted deep work blocks",
+      "Meeting Optimization: Moves meetings to minimize schedule fragmentation",
+      "Team Scheduling: Coordinates availability across entire teams",
+      "Flexible Meetings: Marks meetings that can be moved for optimization",
+      "Calendar Analytics: Insights into how your time is actually spent"
+    ],
+    howToUse: {
+      title: "How to Use Clockwise",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Calendar", description: "Link your Google Calendar and invite your team members to join your Clockwise workspace." },
+        { title: "Mark Flexible Meetings", description: "Tag meetings that can be moved so Clockwise knows which events it can reorganize for optimization." },
+        { title: "Set Focus Preferences", description: "Define when you prefer focus time and how many hours of deep work you want protected each day." },
+        { title: "Let Clockwise Optimize", description: "The AI automatically reorganizes your schedule to create longer focus blocks and better meeting clusters." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Focus Time Creation", description: "Intelligently moves flexible meetings to create longer continuous blocks of uninterrupted deep work time." },
+      { title: "Team Coordination", description: "Finds optimal meeting times across entire teams that minimize individual schedule fragmentation for everyone." },
+      { title: "Schedule Analytics", description: "Provides clear data on how you actually spend your time to identify patterns and improvement opportunities." }
+    ],
+    useCases: [
+      { title: "Engineering Teams", description: "Protect developer focus time by clustering meetings and creating long uninterrupted coding blocks daily." },
+      { title: "Knowledge Workers", description: "Recover deep work time that gets lost to scattered meetings by letting AI optimize your calendar automatically." },
+      { title: "Team Leads", description: "Schedule team meetings efficiently without destroying individual focus time across your entire team." }
+    ]
+  },
+  "hint": {
+    whatIs: "Hint is an AI productivity and task management tool that helps users capture, organize, and prioritize their work intelligently with smart suggestions and seamless calendar integration for better daily planning.",
+    features: [
+      "Smart Task Capture: Quick and easy task input with AI parsing",
+      "Priority Intelligence: AI helps identify what matters most today",
+      "Calendar Integration: Tasks scheduled alongside your calendar events",
+      "Natural Language Input: Add tasks using everyday conversational language",
+      "Daily Focus: Clear view of your most important work each day"
+    ],
+    howToUse: {
+      title: "How to Use Hint",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Capture Your Tasks", description: "Add tasks quickly using natural language and let Hint parse the details, deadlines, and priorities automatically." },
+        { title: "Review Priorities", description: "Check your AI-prioritized task list to understand what needs your attention most urgently today." },
+        { title: "Plan Your Day", description: "Schedule your highest priority tasks into your calendar alongside existing meetings and commitments." },
+        { title: "Work and Complete", description: "Work through your planned tasks and mark them complete as you progress through your day." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Natural Language Parsing", description: "Understands tasks written in everyday language and automatically extracts deadlines, priorities, and categories." },
+      { title: "Smart Prioritization", description: "Analyzes your tasks and deadlines to surface what genuinely needs your attention today versus later." },
+      { title: "Calendar Harmony", description: "Integrates task scheduling with your existing calendar for a complete picture of your available time." }
+    ],
+    useCases: [
+      { title: "Busy Professionals", description: "Capture tasks as they come without slowing down and trust AI to help you prioritize what matters most." },
+      { title: "Project Contributors", description: "Stay on top of your individual responsibilities within larger projects without complex project management tools." },
+      { title: "Daily Planners", description: "Build a consistent daily planning practice with smart tools that make prioritization fast and clear." }
+    ]
+  },
+  "napkin-ai": {
+    whatIs: "Napkin AI is an AI visual thinking tool that automatically transforms text notes and ideas into diagrams, flowcharts, and visual frameworks to make complex concepts easier to understand and communicate.",
+    features: [
+      "Text to Visual: Convert written ideas into diagrams automatically",
+      "Multiple Formats: Flowcharts, mind maps, frameworks, and more",
+      "One-Click Generation: Visuals created from your existing text",
+      "Edit and Refine: Customize generated visuals to your preference",
+      "Export Options: Download visuals for presentations and documents"
+    ],
+    howToUse: {
+      title: "How to Use Napkin Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Text", description: "Copy any written content — notes, ideas, or explanations — and paste it into Napkin AI." },
+        { title: "Generate Visuals", description: "Click generate and watch Napkin automatically create relevant diagrams and visual frameworks from your text." },
+        { title: "Choose Your Format", description: "Select the type of visual that best represents your content from the generated options." },
+        { title: "Customize and Export", description: "Edit colors, labels, and layout then export your visual for use in presentations or documents." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Diagram Creation", description: "Reads your text content and generates appropriate visual representations without manual diagram building." },
+      { title: "Format Intelligence", description: "Selects the most suitable visual format for your specific content whether flowchart, matrix, or mind map." },
+      { title: "Edit Flexibility", description: "Allows full customization of generated visuals so the output matches your exact communication needs." }
+    ],
+    useCases: [
+      { title: "Consultants", description: "Turn written analysis and recommendations into clear visual frameworks that clients understand immediately." },
+      { title: "Educators", description: "Transform lesson content and explanations into engaging visual diagrams that improve student comprehension." },
+      { title: "Product Managers", description: "Convert strategy documents and process descriptions into clear visuals for stakeholder presentations quickly." }
+    ]
+  },
+  "mermaid-chart": {
+    whatIs: "Mermaid Chart is a collaborative diagramming platform built on the Mermaid.js open-source standard that lets teams create, share, and edit technical diagrams using simple text-based syntax in a visual editor.",
+    features: [
+      "Text-Based Diagrams: Create diagrams using simple markdown-like syntax",
+      "Multiple Diagram Types: Flowcharts, sequence diagrams, Gantt charts, and more",
+      "Real-Time Collaboration: Work on diagrams together with your team",
+      "Version Control: Track changes and maintain diagram history",
+      "Integrations: Connect with GitHub, GitLab, and documentation tools"
+    ],
+    howToUse: {
+      title: "How to Use Mermaid Chart",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Syntax", description: "Use Mermaid's simple text syntax to describe your diagram structure and relationships." },
+        { title: "Preview Instantly", description: "See your diagram render in real time as you type so you can refine the structure immediately." },
+        { title: "Collaborate With Team", description: "Share your diagram with teammates for collaborative editing and feedback in the same workspace." },
+        { title: "Export and Embed", description: "Download your finished diagram or embed it directly in GitHub, documentation, or presentations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Text-Based Creation", description: "Creates diagrams from simple text syntax making version control and collaboration with code tools natural." },
+      { title: "Wide Diagram Support", description: "Handles flowcharts, sequence diagrams, class diagrams, Gantt charts, and many other technical diagram types." },
+      { title: "Developer-Friendly", description: "Integrates naturally with developer workflows through GitHub support and markdown compatibility." }
+    ],
+    useCases: [
+      { title: "Software Developers", description: "Document system architecture and code flows using diagrams that live alongside your code in version control." },
+      { title: "Technical Writers", description: "Create accurate technical diagrams for documentation without needing dedicated diagramming software skills." },
+      { title: "Engineering Teams", description: "Collaborate on system design diagrams using a shared text-based format everyone on the team can edit." }
+    ]
+  },
+  "julius-ai": {
+    whatIs: "Julius AI is an AI data analysis tool that lets users upload datasets and ask questions in plain English to get instant charts, statistical analysis, and data insights without needing to write code.",
+    features: [
+      "Natural Language Analysis: Ask questions about your data in plain English",
+      "Instant Charts: Visualizations generated automatically from your data",
+      "Statistical Analysis: Get detailed stats and correlations quickly",
+      "Multiple File Formats: Works with CSV, Excel, and other data files",
+      "Code Generation: See the underlying Python code for every analysis"
+    ],
+    howToUse: {
+      title: "How to Use Julius Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Data", description: "Import your CSV, Excel, or other data file into Julius AI for analysis." },
+        { title: "Ask Your Question", description: "Type a question about your data in plain English like you would ask a human data analyst." },
+        { title: "Get Your Analysis", description: "Receive instant charts, statistics, and written insights generated directly from your actual data." },
+        { title: "Explore Further", description: "Ask follow-up questions to dig deeper into specific patterns, segments, or correlations you want to understand." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Plain English Queries", description: "Accepts natural language questions about data making analysis accessible to non-technical business users." },
+      { title: "Automatic Visualization", description: "Generates the most appropriate chart type for your specific question and data without manual configuration." },
+      { title: "Code Transparency", description: "Shows the Python code behind every analysis so technical users can verify, learn from, or extend the work." }
+    ],
+    useCases: [
+      { title: "Business Analysts", description: "Analyze data and generate insights without writing SQL or Python, saving hours on every analysis task." },
+      { title: "Researchers", description: "Quickly explore datasets and generate statistical analyses for academic or market research projects." },
+      { title: "Non-Technical Managers", description: "Get clear data-driven answers to business questions without depending on a data team for every report." }
+    ]
+  },
+  "edraw-ai": {
+    whatIs: "Edraw.AI is an AI-powered diagramming and visual communication platform that helps users create flowcharts, org charts, mind maps, and business diagrams quickly with intelligent design assistance.",
+    features: [
+      "AI Diagram Generation: Create diagrams from text descriptions",
+      "Template Library: Thousands of professional diagram templates",
+      "Multiple Diagram Types: Flowcharts, org charts, mind maps, and more",
+      "Team Collaboration: Work on diagrams together in real time",
+      "Multi-Format Export: Download in PDF, PNG, SVG, and more"
+    ],
+    howToUse: {
+      title: "How to Use Edraw Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Diagram Type", description: "Select from the extensive template library or start from scratch with your preferred diagram format." },
+        { title: "Use AI Generation", description: "Describe your diagram in text and let the AI build the initial structure and layout for you." },
+        { title: "Customize Your Design", description: "Edit shapes, colors, connections, and labels to match your specific content and brand style." },
+        { title: "Export and Share", description: "Download in your required format or share a live link with teammates and stakeholders directly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI-Assisted Creation", description: "Generates diagram structures from text descriptions so you start with a relevant framework rather than blank canvas." },
+      { title: "Comprehensive Template Library", description: "Provides thousands of professionally designed templates across every business and technical diagram category." },
+      { title: "Real-Time Collaboration", description: "Allows multiple team members to edit the same diagram simultaneously with live cursor visibility." }
+    ],
+    useCases: [
+      { title: "Business Teams", description: "Create professional process diagrams, org charts, and strategic frameworks for presentations and documentation." },
+      { title: "Project Managers", description: "Map workflows, project plans, and team structures visually to communicate clearly with all stakeholders." },
+      { title: "Educators", description: "Build clear instructional diagrams, concept maps, and visual frameworks for teaching complex subjects effectively." }
+    ]
+  },
   "jotform-ai-agents": {
     whatIs: "Jotform AI Agents are intelligent conversational agents built on top of Jotform that automate data collection, answer questions, and guide users through forms using natural language rather than static form fields.",
     features: [
