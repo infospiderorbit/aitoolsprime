@@ -1,4 +1,454 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "crayo-ai": {
+    whatIs: "Crayo AI is a viral short-form video creation platform that helps creators produce TikTok, Reels, and Shorts content at speed using AI-generated scripts, voiceovers, captions, and backgrounds.",
+    features: [
+      "Instant Video Creation: Full short-form videos generated in minutes",
+      "AI Scripts: Engaging video scripts written automatically",
+      "Voiceover Generation: AI voice narration for every video",
+      "Auto Captions: Subtitles added to every video automatically",
+      "Background Library: Trending background footage built in"
+    ],
+    howToUse: {
+      title: "How to Use Crayo Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Idea", description: "Type your video topic or niche and let Crayo AI build the content structure for you." },
+        { title: "Customize Your Video", description: "Choose your preferred voiceover, background style, caption font, and visual theme." },
+        { title: "Generate Your Video", description: "Crayo produces a complete short-form video with script, voice, captions, and visuals ready to post." },
+        { title: "Download and Publish", description: "Export your finished video and upload it directly to TikTok, Reels, or YouTube Shorts." }
+      ]
+    },
+    coreFeatures: [
+      { title: "End-to-End Production", description: "Handles every element of short-form video production from script to final export in one workflow." },
+      { title: "Trending Backgrounds", description: "Includes a library of popular background footage styles that perform well in short-form video feeds." },
+      { title: "Speed of Output", description: "Produces complete publishable videos in minutes rather than hours of traditional editing work." }
+    ],
+    useCases: [
+      { title: "Faceless Content Creators", description: "Build a successful short-form video channel without ever appearing on camera using AI-generated content." },
+      { title: "High-Volume Creators", description: "Produce multiple videos daily to feed the algorithm and grow your channel faster than manual creation allows." },
+      { title: "Niche Content Channels", description: "Launch and scale a themed content channel with consistent AI-produced videos in any niche quickly." }
+    ]
+  },
+  "reelfarm": {
+    whatIs: "ReelFarm is an AI video content platform that automates the creation of short-form video content for Instagram Reels, helping creators maintain a consistent posting schedule with minimal effort.",
+    features: [
+      "Automated Reels: AI-produced Instagram Reels content consistently",
+      "Script Generation: Video scripts written for your chosen niche",
+      "Voiceover Options: Multiple AI voice styles for narration",
+      "Caption Automation: Subtitles generated for every reel",
+      "Niche Targeting: Content tailored to your specific audience"
+    ],
+    howToUse: {
+      title: "How to Use Reelfarm",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Niche", description: "Define your content niche so ReelFarm produces videos relevant to your specific audience." },
+        { title: "Choose Your Style", description: "Pick your preferred video format, voiceover style, and visual aesthetic for your Reels." },
+        { title: "Generate Your Reels", description: "Let the AI produce complete Instagram Reels with scripts, voice, captions, and visuals ready to post." },
+        { title: "Post Consistently", description: "Download and post your AI-generated Reels on a consistent schedule to grow your Instagram presence." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Niche Specialization", description: "Tailors all generated content to your defined niche for an audience-relevant and consistent content feed." },
+      { title: "Full Automation", description: "Handles scripting, voiceover, captions, and visuals so creators can post Reels without manual production." },
+      { title: "Consistency Engine", description: "Makes it possible to maintain a daily posting schedule without the time investment of manual video creation." }
+    ],
+    useCases: [
+      { title: "Instagram Growth Seekers", description: "Post Reels consistently every day to maximize algorithmic reach and grow your following faster." },
+      { title: "Faceless Account Creators", description: "Build a profitable Instagram niche account without needing to film yourself or appear on camera." },
+      { title: "Busy Creators", description: "Maintain an active Reels presence even during periods when you have no time for manual content creation." }
+    ]
+  },
+  "glodatop": {
+    whatIs: "Glodatop is a social media analytics and competitor tracking platform that provides detailed performance insights to help creators and brands make smarter content and growth decisions.",
+    features: [
+      "Competitor Analysis: Track and compare competitor social performance",
+      "Content Analytics: See which posts drive the most engagement",
+      "Audience Insights: Understand your follower demographics and behavior",
+      "Growth Tracking: Monitor follower and reach trends over time",
+      "Benchmark Reports: Compare your metrics against industry standards"
+    ],
+    howToUse: {
+      title: "How to Use Glodatop",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Accounts", description: "Link your social media profiles to Glodatop for full analytics and competitor tracking access." },
+        { title: "Add Competitors", description: "Enter competitor accounts you want to monitor and track alongside your own performance data." },
+        { title: "Review Your Analytics", description: "Explore detailed metrics on your content performance, audience behavior, and growth trends." },
+        { title: "Act on Insights", description: "Use the data to identify what content works, when to post, and where your strategy needs adjustment." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Competitor Intelligence", description: "Tracks competitor accounts continuously and surfaces insights on their best-performing content and growth patterns." },
+      { title: "Content Performance Data", description: "Provides post-level analytics showing exactly which content formats and topics resonate most with your audience." },
+      { title: "Growth Benchmarking", description: "Compares your performance metrics against industry standards to contextualize your progress accurately." }
+    ],
+    useCases: [
+      { title: "Content Strategists", description: "Make data-backed content decisions by understanding exactly what works in your niche and market." },
+      { title: "Brand Marketers", description: "Monitor competitor social activity and benchmark your brand's performance against key rivals consistently." },
+      { title: "Creators Scaling Up", description: "Identify the content patterns driving your growth and double down on what your audience responds to most." }
+    ]
+  },
+  "yappers": {
+    whatIs: "Yappers is an AI-powered podcast and audio content creation tool that helps creators produce, edit, and distribute engaging audio content with minimal technical experience required.",
+    features: [
+      "AI Podcast Production: Create podcast episodes with AI assistance",
+      "Audio Editing: Clean and enhance recordings automatically",
+      "Script Writing: AI-generated podcast scripts and show notes",
+      "Distribution Tools: Publish to major podcast platforms easily",
+      "Transcript Generation: Automatic transcripts for every episode"
+    ],
+    howToUse: {
+      title: "How to Use Yappers",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Plan Your Episode", description: "Define your podcast topic, format, and key points you want to cover in the episode." },
+        { title: "Generate Your Script", description: "Use AI to write a full podcast script or outline based on your topic and target audience." },
+        { title: "Record and Edit", description: "Record your episode and use AI audio tools to clean, enhance, and edit your recording automatically." },
+        { title: "Publish and Distribute", description: "Upload your finished episode and distribute it to major podcast platforms with one click." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Script Writing", description: "Generates complete podcast scripts and episode outlines based on your topic and audience preferences." },
+      { title: "Automatic Audio Enhancement", description: "Cleans up recordings by removing background noise, improving clarity, and balancing audio levels." },
+      { title: "One-Click Distribution", description: "Publishes finished episodes to Spotify, Apple Podcasts, and other platforms simultaneously with ease." }
+    ],
+    useCases: [
+      { title: "New Podcasters", description: "Launch a professional-sounding podcast without needing expensive equipment or advanced audio editing skills." },
+      { title: "Content Creators Expanding to Audio", description: "Add a podcast to your content mix without the steep learning curve of traditional audio production." },
+      { title: "Businesses with Podcasts", description: "Produce consistent high-quality podcast content that represents your brand professionally and reliably." }
+    ]
+  },
+  "influensly": {
+    whatIs: "Influensly is an influencer marketing platform that connects brands with relevant social media creators for campaigns, using data-driven matching to identify the right influencers for each marketing objective.",
+    features: [
+      "Influencer Discovery: Find creators that match your brand perfectly",
+      "Campaign Management: Run influencer campaigns from start to finish",
+      "Performance Tracking: Measure real campaign results and ROI",
+      "Audience Verification: Confirm influencer audience authenticity",
+      "Contract Management: Handle agreements within the platform"
+    ],
+    howToUse: {
+      title: "How to Use Influensly",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Campaign", description: "Set your campaign goals, target audience, budget, and ideal influencer profile for AI matching." },
+        { title: "Discover Influencers", description: "Browse AI-matched creator recommendations that align with your brand values and campaign objectives." },
+        { title: "Launch Your Campaign", description: "Reach out, agree on terms, and activate your influencer campaign through the platform tools." },
+        { title: "Measure Results", description: "Track campaign performance metrics and calculate real ROI from your influencer marketing investment." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data-Driven Matching", description: "Uses audience demographics, engagement data, and content analysis to recommend the most relevant creators." },
+      { title: "Authenticity Verification", description: "Checks influencer audience quality to ensure brands invest only in creators with genuine engaged followers." },
+      { title: "End-to-End Management", description: "Handles discovery, outreach, contracts, content approval, and reporting in one integrated platform." }
+    ],
+    useCases: [
+      { title: "E-commerce Brands", description: "Find influencers whose audiences match your ideal customer profile and drive measurable sales results." },
+      { title: "Product Launch Campaigns", description: "Activate multiple relevant influencers simultaneously to maximize reach and awareness for new launches." },
+      { title: "Marketing Agencies", description: "Manage influencer campaigns for multiple brand clients efficiently with comprehensive platform tools." }
+    ]
+  },
+  "tweetstorm-ai": {
+    whatIs: "TweetStorm.ai is an AI tool that generates engaging Twitter thread ideas and full thread content from any topic or URL, helping creators build authority and grow their following on Twitter.",
+    features: [
+      "Thread Generation: Complete Twitter threads from any topic",
+      "URL to Thread: Convert articles and content into Twitter threads",
+      "Hook Writing: Attention-grabbing first tweets that drive engagement",
+      "Formatting Tools: Properly structured threads ready to post",
+      "Niche Targeting: Threads tailored to your audience and expertise"
+    ],
+    howToUse: {
+      title: "How to Use Tweetstorm Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic or URL", description: "Type a topic you want to thread about or paste a URL to convert existing content into a thread." },
+        { title: "Generate Your Thread", description: "Get a complete Twitter thread with a strong hook, structured content, and an engaging closing tweet." },
+        { title: "Edit and Refine", description: "Review each tweet in the thread and adjust wording, tone, or length to match your voice." },
+        { title: "Post Your Thread", description: "Copy your finalized thread and post it on Twitter to build authority and grow your audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Hook Optimization", description: "Focuses on crafting the first tweet with maximum stopping power to drive impressions and engagement." },
+      { title: "Content Repurposing", description: "Transforms existing articles, blog posts, and web content into well-structured Twitter thread format." },
+      { title: "Niche Authority Building", description: "Generates threads that position creators as knowledgeable experts in their specific field or industry." }
+    ],
+    useCases: [
+      { title: "Twitter Thought Leaders", description: "Build authority in your niche by consistently posting insightful well-structured threads on relevant topics." },
+      { title: "Content Repurposers", description: "Turn your existing blog posts and articles into Twitter threads to maximize content value and reach." },
+      { title: "Growing Twitter Accounts", description: "Accelerate follower growth by posting high-value threads that get shared across the Twitter community." }
+    ]
+  },
+  "ai-tweet-generator-roast": {
+    whatIs: "AI Tweet Generator and Roast Tool is a dual-purpose Twitter tool that both generates engaging tweets and creates humorous roasts of any Twitter profile for entertainment and content creation.",
+    features: [
+      "Tweet Generation: Create engaging tweets on any topic instantly",
+      "Profile Roasting: Generate funny roasts of any Twitter account",
+      "Multiple Tones: Serious, witty, bold, or humorous tweet styles",
+      "Hashtag Suggestions: Relevant tags included with every tweet",
+      "Entertainment Content: Shareable roast content for social fun"
+    ],
+    howToUse: {
+      title: "How to Use Ai Tweet Generator Roast",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Mode", description: "Select whether you want to generate a tweet or create a roast of a Twitter profile." },
+        { title: "Enter Your Input", description: "Type your tweet topic or enter the Twitter handle of the profile you want to roast." },
+        { title: "Generate Your Content", description: "Get your AI-written tweet or entertaining profile roast ready to share immediately." },
+        { title: "Post and Engage", description: "Share your generated tweet or roast and enjoy the engagement it drives from your audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Dual Functionality", description: "Combines serious tweet generation with entertaining roast content in one versatile Twitter tool." },
+      { title: "Humor Engine", description: "Creates genuinely funny roasts that reference specific profile details for relevant and entertaining content." },
+      { title: "Engagement Optimization", description: "Generates tweets designed to maximize replies, retweets, and likes through compelling hooks and content." }
+    ],
+    useCases: [
+      { title: "Twitter Content Creators", description: "Keep your Twitter feed active with a mix of valuable tweets and entertaining content that drives engagement." },
+      { title: "Entertainment Accounts", description: "Use profile roasts as a format for funny shareable content that attracts attention and followers." },
+      { title: "Social Media Managers", description: "Generate tweet ideas quickly and add humor to brand accounts to increase personality and relatability." }
+    ]
+  },
+  "tweet-ai": {
+    whatIs: "Tweet AI is an AI writing assistant specialized for Twitter that generates high-performing tweets, thread ideas, and replies to help creators and professionals grow their presence on the platform.",
+    features: [
+      "Tweet Writing: Generate engaging tweets on any topic fast",
+      "Thread Ideas: Full Twitter thread concepts and content",
+      "Reply Generation: Smart contextual replies to any tweet",
+      "Tone Options: Professional, casual, bold, or witty tweet styles",
+      "Viral Hooks: First lines engineered for maximum engagement"
+    ],
+    howToUse: {
+      title: "How to Use Tweet Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Type what you want to tweet about and select the tone and style you want for your content." },
+        { title: "Generate Your Tweet", description: "Get several tweet options crafted for engagement with strong hooks and clear messaging." },
+        { title: "Choose and Refine", description: "Select the tweet that fits best and make any personal adjustments before posting to Twitter." },
+        { title: "Post and Grow", description: "Publish your AI-assisted tweet and use the thread and reply tools to maximize your overall engagement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Engagement Optimization", description: "Writes tweets using formats and hooks that are proven to generate higher engagement on the platform." },
+      { title: "Tone Flexibility", description: "Produces tweets across multiple styles so every creator finds an output that matches their natural voice." },
+      { title: "Reply Intelligence", description: "Generates contextually relevant replies that add value to conversations and increase profile visibility." }
+    ],
+    useCases: [
+      { title: "Personal Brand Builders", description: "Maintain a consistent high-quality Twitter presence that grows your following and establishes your expertise." },
+      { title: "Professionals on Twitter", description: "Share insights and engage with your industry community more effectively with AI writing support." },
+      { title: "Marketers", description: "Keep brand Twitter accounts active and engaging with a steady stream of AI-assisted content ideas." }
+    ]
+  },
+  "snowball": {
+    whatIs: "Snowball is a Twitter growth tool that helps creators find relevant accounts to engage with, identify growth opportunities, and build a targeted following through strategic network expansion.",
+    features: [
+      "Account Discovery: Find relevant Twitter accounts in your niche",
+      "Engagement Opportunities: Identify tweets to engage with strategically",
+      "Growth Analytics: Track your Twitter follower and reach growth",
+      "Network Mapping: Understand connections in your Twitter community",
+      "Outreach Tools: Build relationships with key accounts in your space"
+    ],
+    howToUse: {
+      title: "How to Use Snowball",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Niche", description: "Set up your Snowball profile with your content focus and the type of Twitter community you want to build." },
+        { title: "Discover Opportunities", description: "Find relevant accounts and tweets to engage with strategically to grow your visibility in your niche." },
+        { title: "Engage Strategically", description: "Like, reply, and connect with identified accounts to build genuine relationships in your community." },
+        { title: "Track Your Growth", description: "Monitor how your follower count, engagement rate, and network size evolve as your strategy compounds." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Strategic Discovery", description: "Identifies the most relevant accounts and conversations in your niche for targeted and effective engagement." },
+      { title: "Compounding Growth", description: "Builds growth through strategic relationship development that creates compounding network effects over time." },
+      { title: "Community Mapping", description: "Reveals the key players and conversation hubs in your Twitter niche for smarter engagement targeting." }
+    ],
+    useCases: [
+      { title: "Niche Twitter Creators", description: "Build a highly targeted following in your specific niche through strategic engagement rather than random posting." },
+      { title: "Thought Leaders", description: "Connect with key voices in your industry and build relationships that amplify your reach and credibility." },
+      { title: "New Twitter Accounts", description: "Accelerate early growth by identifying and engaging with the right community from the very beginning." }
+    ]
+  },
+  "tweet-hunter": {
+    whatIs: "Tweet Hunter is an AI-powered Twitter growth platform that helps creators write better tweets, build an audience, and monetize their Twitter following with comprehensive creation and analytics tools.",
+    features: [
+      "AI Tweet Writing: Generate high-performing tweets with AI assistance",
+      "Content Inspiration: Library of viral tweets for ideas and formats",
+      "Auto Plug: Automatically promote your offers at peak engagement",
+      "CRM Tools: Manage and nurture your Twitter relationships",
+      "Full Analytics: Deep performance data on all your Twitter activity"
+    ],
+    howToUse: {
+      title: "How to Use Tweet Hunter",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Twitter", description: "Link your Twitter account to Tweet Hunter and set up your content and growth preferences." },
+        { title: "Get Inspired and Create", description: "Browse the viral tweet library for inspiration and use AI to write your own high-performing content." },
+        { title: "Schedule and Automate", description: "Schedule your tweets and threads and set up automated engagement features to maximize reach." },
+        { title: "Analyze and Optimize", description: "Review detailed analytics on your tweet performance and refine your strategy based on real data." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Viral Tweet Library", description: "Provides a searchable library of high-performing tweets across niches for inspiration and format reference." },
+      { title: "Auto Plug Feature", description: "Automatically adds promotional content to your most engaging tweets when they reach peak viral moments." },
+      { title: "Twitter CRM", description: "Manages relationship building with followers and key accounts systematically for strategic network growth." }
+    ],
+    useCases: [
+      { title: "Twitter Monetizers", description: "Turn your Twitter following into revenue through systematic audience building and automated promotion tools." },
+      { title: "Professional Creators", description: "Grow a large engaged Twitter following with data-backed content strategy and AI writing assistance." },
+      { title: "Business Developers", description: "Use Twitter strategically for lead generation and business development with CRM and analytics tools." }
+    ]
+  },
+  "owlead": {
+    whatIs: "Owlead is a Twitter growth service that attracts real targeted followers to your account through intelligent audience targeting based on competitor followers, hashtags, and relevant interests.",
+    features: [
+      "Targeted Growth: Attract followers matching your ideal audience",
+      "Competitor Targeting: Reach followers of similar accounts in your niche",
+      "Hashtag Targeting: Find users engaging with relevant hashtags",
+      "Real Followers: Growth focused on genuine human accounts only",
+      "Autopilot Mode: Set it up and let it run continuously"
+    ],
+    howToUse: {
+      title: "How to Use Owlead",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Your Targets", description: "Define your ideal audience using competitor accounts, relevant hashtags, and interest categories." },
+        { title: "Configure Your Campaign", description: "Set up your targeting parameters and growth preferences in the Owlead dashboard." },
+        { title: "Activate Autopilot", description: "Turn on your growth campaign and let Owlead work continuously to attract targeted followers." },
+        { title: "Monitor Your Growth", description: "Track your follower growth and audience quality from your analytics dashboard regularly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Competitor Audience Targeting", description: "Reaches followers of similar accounts in your niche who are already interested in your type of content." },
+      { title: "Authentic Growth Focus", description: "Prioritizes attracting real human followers rather than bot accounts that inflate numbers without value." },
+      { title: "Continuous Operation", description: "Runs growth campaigns on autopilot so your account gains followers consistently without manual effort." }
+    ],
+    useCases: [
+      { title: "Twitter Creators", description: "Build a targeted following in your niche of real people who are genuinely interested in your content." },
+      { title: "Brands on Twitter", description: "Grow a relevant Twitter audience of potential customers interested in your industry and offerings." },
+      { title: "Thought Leaders", description: "Attract followers who are already engaged with your topic area and likely to engage with your content." }
+    ]
+  },
+  "postwise": {
+    whatIs: "Postwise is an AI Twitter ghostwriting and growth tool that generates viral tweets and threads, schedules content, and uses AI to help creators build a large engaged Twitter audience faster.",
+    features: [
+      "AI Ghostwriting: High-quality tweets generated in your voice",
+      "Viral Thread Creation: Full Twitter threads engineered for sharing",
+      "Smart Scheduling: Posts go live at optimal engagement windows",
+      "Growth Analytics: Track what content drives your follower growth",
+      "Inspiration Library: Top-performing tweet formats for reference"
+    ],
+    howToUse: {
+      title: "How to Use Postwise",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Voice", description: "Configure Postwise with details about your niche, tone, and the topics you want to tweet about." },
+        { title: "Generate Your Content", description: "Use AI to write tweets and threads that sound like you and are optimized for Twitter engagement." },
+        { title: "Schedule Strategically", description: "Set your content to post at the times when your specific audience is most active on the platform." },
+        { title: "Track and Improve", description: "Review your growth analytics and use the data to continuously refine your Twitter content strategy." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Voice Matching AI", description: "Generates tweets that match your established writing style and tone rather than sounding generically AI-written." },
+      { title: "Engagement Engineering", description: "Writes content using formats and structures proven to generate higher engagement on the Twitter platform." },
+      { title: "Growth Attribution", description: "Shows which specific tweets and formats are driving your follower growth for smarter content decisions." }
+    ],
+    useCases: [
+      { title: "Twitter Growth Seekers", description: "Build a large engaged Twitter following faster with consistent AI-assisted content that performs well." },
+      { title: "Busy Professionals", description: "Maintain an active high-quality Twitter presence without spending significant time writing content manually." },
+      { title: "Monetizing Creators", description: "Grow the audience you need to monetize your Twitter presence through products, services, and partnerships." }
+    ]
+  },
+  "drippi-ai": {
+    whatIs: "Drippi.ai is an AI-powered Twitter DM automation tool that helps businesses and creators send personalized outreach messages at scale to generate leads and build relationships on Twitter.",
+    features: [
+      "DM Automation: Send personalized Twitter DMs at scale efficiently",
+      "Lead Generation: Find and reach potential customers on Twitter",
+      "Personalization Engine: Messages tailored to each recipient's profile",
+      "Campaign Management: Organize and track your DM outreach efforts",
+      "Reply Management: Handle responses from your outreach campaigns"
+    ],
+    howToUse: {
+      title: "How to Use Drippi Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Target Audience", description: "Set up your ideal prospect profile using Twitter account characteristics and engagement patterns." },
+        { title: "Build Your Campaign", description: "Create your personalized message templates and configure your outreach campaign settings." },
+        { title: "Launch Your Outreach", description: "Activate your DM campaign and let Drippi send personalized messages to your targeted prospects." },
+        { title: "Manage Responses", description: "Handle incoming replies from your outreach and move interested prospects toward your desired outcome." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization at Scale", description: "Creates messages that reference specific details about each recipient to avoid generic spam-like outreach." },
+      { title: "Prospect Targeting", description: "Identifies Twitter users who match your ideal customer or collaboration profile for relevant outreach." },
+      { title: "Campaign Analytics", description: "Tracks message delivery, response rates, and conversion metrics for each outreach campaign you run." }
+    ],
+    useCases: [
+      { title: "B2B Sales Teams", description: "Generate Twitter leads by reaching potential clients with personalized outreach that stands out in DMs." },
+      { title: "Consultants", description: "Build a pipeline of potential clients through strategic personalized Twitter DM campaigns at scale." },
+      { title: "Partnership Builders", description: "Reach potential collaborators and partners on Twitter with personalized messages that get responses." }
+    ]
+  },
+  "xreacher": {
+    whatIs: "Xreacher is a Twitter outreach and engagement automation tool that helps creators and businesses expand their reach, engage with target audiences, and grow their presence on Twitter systematically.",
+    features: [
+      "Targeted Engagement: Interact with your ideal audience automatically",
+      "Outreach Automation: Scale your Twitter engagement systematically",
+      "Audience Building: Attract relevant followers through strategic activity",
+      "Campaign Tracking: Monitor the performance of your outreach efforts",
+      "Safe Automation: Growth tools that operate within platform limits"
+    ],
+    howToUse: {
+      title: "How to Use Xreacher",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Your Parameters", description: "Define your target audience and the type of engagement you want to automate on Twitter." },
+        { title: "Configure Your Campaign", description: "Set up your engagement preferences and outreach campaign with your chosen targeting criteria." },
+        { title: "Activate and Run", description: "Launch your campaign and let Xreacher handle automated engagement with your target audience." },
+        { title: "Review Your Results", description: "Track follower growth, engagement increases, and overall campaign performance from your dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Systematic Reach Expansion", description: "Grows your Twitter reach through consistent strategic engagement that compounds over time." },
+      { title: "Audience Relevance", description: "Targets engagement toward users who are most likely to be genuinely interested in your content." },
+      { title: "Platform-Safe Operation", description: "Implements growth automation within safe limits to protect your account from platform restrictions." }
+    ],
+    useCases: [
+      { title: "Twitter Growth Seekers", description: "Systematically expand your reach and attract relevant followers without manual engagement all day." },
+      { title: "Content Creators", description: "Build the audience you need to monetize your content through strategic automated Twitter growth." },
+      { title: "Businesses on Twitter", description: "Grow a relevant Twitter following of potential customers through targeted engagement automation." }
+    ]
+  },
+  "usernamegenerator-io": {
+    whatIs: "UsernameGenerator.IO is an AI username and handle generator that creates unique, available, and memorable usernames for social media platforms, gaming, and online communities instantly.",
+    features: [
+      "Username Generation: Create unique handles for any platform",
+      "Availability Check: Verify username availability across platforms",
+      "Style Options: Professional, creative, gaming, or personal styles",
+      "Keyword Based: Generate names from your interests or name",
+      "Bulk Options: Get dozens of username suggestions at once"
+    ],
+    howToUse: {
+      title: "How to Use Usernamegenerator Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Keywords", description: "Input your name, interests, or preferred style to give the AI a starting point for generation." },
+        { title: "Choose Your Style", description: "Select whether you want a professional, creative, gaming, cute, or personal username style." },
+        { title: "Browse Your Options", description: "Review dozens of generated username suggestions and filter by availability and personal preference." },
+        { title: "Claim Your Username", description: "Pick your favorite available username and register it across your chosen platforms immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Keyword Personalization", description: "Generates usernames based on your specific inputs making them personally relevant rather than completely random." },
+      { title: "Cross-Platform Availability", description: "Checks username availability across multiple platforms so you can use the same handle everywhere." },
+      { title: "Volume of Suggestions", description: "Produces large numbers of options in one session ensuring you always find something you genuinely like." }
+    ],
+    useCases: [
+      { title: "New Social Media Users", description: "Find a unique memorable username for your new social media accounts that represents your personality." },
+      { title: "Gamers", description: "Get creative gaming handles that are unique, memorable, and available on your preferred gaming platforms." },
+      { title: "Personal Brand Builders", description: "Secure a consistent professional username across all platforms to build a recognizable online identity." }
+    ]
+  },
   "smoothrizz-com": {
     whatIs: "Smoothrizz.com is an AI conversation assistant that generates smooth, charming, and witty messages for dating apps and social media to help users communicate with more confidence and get better results.",
     features: [
