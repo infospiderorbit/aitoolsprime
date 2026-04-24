@@ -1,4 +1,424 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "smoothrizz-com": {
+    whatIs: "Smoothrizz.com is an AI conversation assistant that generates smooth, charming, and witty messages for dating apps and social media to help users communicate with more confidence and get better results.",
+    features: [
+      "Smooth Message Generation: Charming openers and replies instantly",
+      "Style Options: Funny, flirty, genuine, and bold tones available",
+      "Profile-Based Lines: Personalized messages using match details",
+      "Reply Helper: Keep conversations flowing with smart responses",
+      "Free Access: Generate messages without payment or signup"
+    ],
+    howToUse: {
+      title: "How to Use Smoothrizz Com",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Match", description: "Share details about who you are messaging and what kind of impression you want to make." },
+        { title: "Pick Your Style", description: "Choose the tone that fits your personality — smooth, funny, genuine, bold, or flirty." },
+        { title: "Get Your Messages", description: "Receive multiple polished message options tailored to your match and chosen style immediately." },
+        { title: "Send and Follow Up", description: "Send your chosen message and return for reply suggestions as the conversation continues." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Instant Personalization", description: "Creates messages referencing specific match details so openers feel genuine rather than copy-pasted." },
+      { title: "Multi-Tone Output", description: "Generates messages across multiple styles so users always find an option matching their natural voice." },
+      { title: "Reply Continuity", description: "Helps beyond the opener by suggesting follow-up responses that keep conversations engaging and moving forward." }
+    ],
+    useCases: [
+      { title: "Dating App Users", description: "Stand out in crowded inboxes with personalized charming messages that actually get responses from matches." },
+      { title: "Socially Anxious Users", description: "Find the right words in social situations with AI assistance that builds messaging confidence gradually." },
+      { title: "Active Daters", description: "Manage multiple conversations simultaneously with quick AI-generated replies that maintain quality throughout." }
+    ]
+  },
+  "super-prompts": {
+    whatIs: "Super Prompts is an AI prompt library and generator that helps users craft highly effective prompts for ChatGPT, Midjourney, and other AI tools to get dramatically better outputs.",
+    features: [
+      "Prompt Library: Thousands of tested high-performing prompts",
+      "Prompt Generator: Build custom prompts for any AI tool",
+      "Category Browse: Find prompts by use case and AI platform",
+      "Prompt Optimizer: Improve your existing prompts for better results",
+      "Community Prompts: Access prompts shared by other power users"
+    ],
+    howToUse: {
+      title: "How to Use Super Prompts",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search or Browse", description: "Search the prompt library by keyword or browse categories to find prompts relevant to your task." },
+        { title: "Use or Customize", description: "Use a library prompt directly or customize it with your specific details and requirements." },
+        { title: "Generate Custom Prompts", description: "Use the prompt builder to create highly structured prompts from scratch for any AI tool or task." },
+        { title: "Save Your Favorites", description: "Bookmark the prompts that work best for your workflow for quick access in future sessions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Curated Prompt Library", description: "Provides thousands of tested prompts that have been proven to generate high-quality outputs across AI tools." },
+      { title: "Universal AI Support", description: "Covers prompts for ChatGPT, Midjourney, Claude, Stable Diffusion, and other major AI platforms." },
+      { title: "Prompt Building Framework", description: "Teaches effective prompt structure so users improve their own prompt writing skills over time." }
+    ],
+    useCases: [
+      { title: "AI Power Users", description: "Get consistently better outputs from every AI tool you use with prompts optimized for each platform." },
+      { title: "Content Creators", description: "Access proven creative prompts for image generation, writing, and ideation that save hours of trial and error." },
+      { title: "Business Professionals", description: "Find effective prompts for business writing, analysis, and productivity tasks across AI tools." }
+    ]
+  },
+  "linkable": {
+    whatIs: "Linkable is an AI-powered link in bio tool that helps creators and brands build a beautiful, conversion-optimized landing page for their social media profile link with smart analytics.",
+    features: [
+      "Link in Bio Page: Build a beautiful profile landing page easily",
+      "Multiple Links: Add unlimited links to products, content, and more",
+      "Analytics Tracking: See which links get the most clicks daily",
+      "Custom Branding: Match your page to your brand colors and style",
+      "Mobile Optimized: Perfect display on any device automatically"
+    ],
+    howToUse: {
+      title: "How to Use Linkable",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Page", description: "Sign up and build your Linkable page by adding your links, photos, and brand elements." },
+        { title: "Customize Your Design", description: "Adjust colors, fonts, and layout to match your personal or brand aesthetic perfectly." },
+        { title: "Share Your Link", description: "Add your Linkable URL to your Instagram, TikTok, and other social media profile bios." },
+        { title: "Track Your Clicks", description: "Review analytics to see which links perform best and optimize your page based on real data." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Customization", description: "Offers deep design control so your link in bio page feels like a natural extension of your brand." },
+      { title: "Click Analytics", description: "Tracks individual link performance so you know exactly what your audience clicks and cares about." },
+      { title: "Conversion Optimization", description: "Designed with layout and UX best practices that maximize the percentage of visitors who click through." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Direct followers to your latest content, products, and collaborations from one beautifully designed page." },
+      { title: "E-commerce Brands", description: "Drive social traffic to your most important product pages, promotions, and store with tracked links." },
+      { title: "Personal Brands", description: "Create a professional hub that showcases everything you do and makes it easy for visitors to explore." }
+    ]
+  },
+  "arco": {
+    whatIs: "Arco is an AI social media management tool that helps creators and teams plan, create, schedule, and analyze content across multiple platforms from one streamlined workspace.",
+    features: [
+      "Content Planning: Organize your social media strategy visually",
+      "AI Content Creation: Generate post ideas and captions with AI",
+      "Multi-Platform Scheduling: Schedule posts across all major networks",
+      "Performance Analytics: Track engagement and growth over time",
+      "Team Collaboration: Work with your team on content seamlessly"
+    ],
+    howToUse: {
+      title: "How to Use Arco",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Accounts", description: "Link all your social media profiles to Arco for unified management from one dashboard." },
+        { title: "Plan Your Content", description: "Use the visual content calendar to map out your posting schedule across all connected platforms." },
+        { title: "Create With AI", description: "Generate post ideas, captions, and content variations using the built-in AI writing tools." },
+        { title: "Schedule and Analyze", description: "Schedule your content to post automatically and track performance metrics to refine your strategy." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Unified Management", description: "Controls all social media accounts from a single dashboard eliminating the need to switch between platforms." },
+      { title: "AI Content Assistance", description: "Generates captions and content ideas on demand so your content calendar never runs empty." },
+      { title: "Data-Driven Insights", description: "Provides actionable analytics on what content resonates with your audience across every platform." }
+    ],
+    useCases: [
+      { title: "Social Media Managers", description: "Manage all client accounts and content workflows from one organized and efficient platform." },
+      { title: "Small Business Owners", description: "Maintain an active consistent social presence across platforms without a large time investment." },
+      { title: "Content Teams", description: "Collaborate on content creation, review, and scheduling with team tools that keep everyone aligned." }
+    ]
+  },
+  "blynkkr": {
+    whatIs: "Blynkkr is a smart link in bio platform that helps creators and businesses build customizable profile landing pages with built-in analytics to maximize the value of their social media traffic.",
+    features: [
+      "Custom Landing Page: Build a personalized link in bio hub",
+      "Unlimited Links: Add as many links as your audience needs",
+      "Real-Time Analytics: Track traffic and click performance live",
+      "Brand Customization: Full control over colors, fonts, and layout",
+      "Fast Setup: Live page in minutes with no technical skills needed"
+    ],
+    howToUse: {
+      title: "How to Use Blynkkr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Sign Up and Create", description: "Create your Blynkkr account and start building your profile landing page immediately." },
+        { title: "Add Your Links", description: "Input all the links you want to share — products, content, social profiles, and more." },
+        { title: "Design Your Page", description: "Customize the appearance to match your brand identity with colors, images, and layout options." },
+        { title: "Go Live and Share", description: "Publish your page, add the URL to your social bios, and start tracking traffic and clicks." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Quick Launch", description: "Gets your link in bio page live within minutes without any design or technical experience required." },
+      { title: "Full Brand Control", description: "Allows complete visual customization so your landing page feels consistent with your overall brand identity." },
+      { title: "Live Analytics", description: "Shows real-time traffic and click data so you can optimize your page based on current audience behavior." }
+    ],
+    useCases: [
+      { title: "Instagram Creators", description: "Give followers one clean destination for all your content, products, and important links from your bio." },
+      { title: "Online Businesses", description: "Convert social traffic into sales by directing followers to your most important commercial pages." },
+      { title: "Influencers", description: "Showcase brand partnerships, affiliate links, and content in one professionally designed hub page." }
+    ]
+  },
+  "gleans": {
+    whatIs: "Gleans is an AI content curation and discovery tool that finds and organizes the most relevant content from across the web for your niche, helping creators and marketers stay informed and inspired.",
+    features: [
+      "Content Discovery: Find relevant articles and posts for your niche",
+      "AI Curation: Smart filtering of the most valuable content daily",
+      "Topic Monitoring: Track specific subjects and keywords consistently",
+      "Content Inspiration: Use curated content as ideas for your own posts",
+      "Newsletter Integration: Share curated content with your audience easily"
+    ],
+    howToUse: {
+      title: "How to Use Gleans",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Your Topics", description: "Define the subjects, keywords, and niches you want Gleans to monitor and curate content around." },
+        { title: "Review Your Feed", description: "Check your personalized curated feed of the most relevant and high-quality content from your topics." },
+        { title: "Save and Organize", description: "Bookmark articles and content that inspire you or that you want to share with your audience." },
+        { title: "Share and Create", description: "Use curated content for your newsletter, social sharing, or as inspiration for your own original content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Smart Filtering", description: "Uses AI to identify the most valuable and relevant content from across the web for your specific topics." },
+      { title: "Consistent Monitoring", description: "Tracks your defined topics continuously so you never miss important content in your niche." },
+      { title: "Inspiration Engine", description: "Turns curated external content into a reliable source of ideas for your own original content creation." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Stay current in your niche and find inspiration for your own content without hours of manual research." },
+      { title: "Newsletter Curators", description: "Build engaging newsletters filled with the best content from your industry without exhaustive searching." },
+      { title: "Marketing Teams", description: "Monitor industry trends and competitor content to stay informed and strategically ahead in your market." }
+    ]
+  },
+  "simplified": {
+    whatIs: "Simplified is an all-in-one AI content creation platform that combines graphic design, video editing, social media scheduling, and AI writing in one workspace for creators and marketing teams.",
+    features: [
+      "AI Writing: Generate marketing copy, captions, and content",
+      "Graphic Design: Create visuals with easy drag-and-drop tools",
+      "Video Editing: Edit and produce video content for social media",
+      "Social Scheduling: Plan and publish posts across all platforms",
+      "Team Collaboration: Work together on all content types in one place"
+    ],
+    howToUse: {
+      title: "How to Use Simplified",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Content Type", description: "Select whether you need written content, graphics, video, or social media posts to get started." },
+        { title: "Create With AI", description: "Use the AI writing, design, or video tools to produce your content quickly and efficiently." },
+        { title: "Collaborate and Review", description: "Invite team members to review, comment, and approve content before it goes live." },
+        { title: "Schedule and Publish", description: "Schedule your finished content to post across all connected social media platforms automatically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "All-in-One Workspace", description: "Combines writing, design, video, and scheduling tools so your entire content workflow lives in one place." },
+      { title: "AI-Powered Creation", description: "Accelerates every content format with AI assistance that reduces production time significantly." },
+      { title: "Team Workflow", description: "Built-in collaboration and approval tools keep teams aligned without external project management tools." }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "Produce and manage all content types from one platform without juggling multiple specialized subscriptions." },
+      { title: "Solo Creators", description: "Access professional design, writing, and video tools in one affordable platform built for individual creators." },
+      { title: "Agencies", description: "Manage content production and client approvals for multiple brands efficiently from one unified workspace." }
+    ]
+  },
+  "quso-ai": {
+    whatIs: "quso.ai is an AI social media content tool that repurposes long-form videos and podcasts into short clips, captions, and social posts, maximizing content value across multiple platforms.",
+    features: [
+      "Video Repurposing: Turn long videos into short social media clips",
+      "Auto Captions: AI-generated subtitles for every clip produced",
+      "Social Post Generation: Create captions and posts from video content",
+      "Multi-Platform Export: Clips formatted for TikTok, Reels, and Shorts",
+      "Viral Moment Detection: AI finds the most engaging parts of videos"
+    ],
+    howToUse: {
+      title: "How to Use Quso Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Upload your long-form video, podcast, or webinar recording to the quso.ai platform." },
+        { title: "AI Finds Key Moments", description: "The AI analyzes your content and identifies the most engaging and shareable clips automatically." },
+        { title: "Review and Edit Clips", description: "Preview the suggested clips, trim as needed, and add captions or text overlays to each one." },
+        { title: "Export and Distribute", description: "Download your clips in formats optimized for each platform and publish across your social channels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Viral Moment Detection", description: "Identifies the most engaging segments of long videos that have the highest potential for social media performance." },
+      { title: "Auto Caption Generation", description: "Automatically adds accurate subtitles to every clip for accessibility and silent viewing on social feeds." },
+      { title: "Multi-Format Export", description: "Produces clips in the correct dimensions and formats for TikTok, Instagram Reels, and YouTube Shorts simultaneously." }
+    ],
+    useCases: [
+      { title: "Podcasters", description: "Repurpose every podcast episode into multiple shareable clips that promote your show across social media." },
+      { title: "YouTubers", description: "Extract the best moments from long videos and distribute them as Shorts and Reels to reach new audiences." },
+      { title: "Webinar Hosts", description: "Turn valuable webinar content into a library of educational social clips that continue driving value long-term." }
+    ]
+  },
+  "taplio": {
+    whatIs: "Taplio is an AI-powered LinkedIn growth tool that helps professionals create content, schedule posts, analyze performance, and build meaningful connections on LinkedIn consistently.",
+    features: [
+      "AI Content Creation: Generate LinkedIn posts and carousels with AI",
+      "Content Scheduling: Plan and schedule your LinkedIn posting calendar",
+      "Inspiration Feed: Discover top-performing LinkedIn content in your niche",
+      "Analytics Dashboard: Track your LinkedIn growth and engagement metrics",
+      "Relationship Management: Build and nurture your LinkedIn network strategically"
+    ],
+    howToUse: {
+      title: "How to Use Taplio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your LinkedIn", description: "Link your LinkedIn account to Taplio and set up your profile and content preferences." },
+        { title: "Get Content Ideas", description: "Browse the inspiration feed and use AI to generate LinkedIn post ideas relevant to your expertise." },
+        { title: "Create and Schedule", description: "Write your posts with AI assistance and schedule them for optimal posting times on LinkedIn." },
+        { title: "Track Your Growth", description: "Monitor your follower growth, post performance, and engagement trends from your Taplio dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "LinkedIn-Specific AI", description: "Built exclusively for LinkedIn content with AI trained on what performs well on the professional platform." },
+      { title: "Inspiration Library", description: "Curates top-performing LinkedIn posts from your niche so you always have fresh ideas and formats to reference." },
+      { title: "Network Growth Tools", description: "Identifies relevant profiles to connect with and helps manage relationship building systematically." }
+    ],
+    useCases: [
+      { title: "Professionals Building Personal Brands", description: "Grow your LinkedIn presence and establish thought leadership in your industry with consistent quality content." },
+      { title: "B2B Marketers", description: "Use LinkedIn content strategically to generate leads and build brand awareness in professional circles." },
+      { title: "Executives and Founders", description: "Maintain an active professional LinkedIn presence that builds credibility and attracts opportunities consistently." }
+    ]
+  },
+  "flick": {
+    whatIs: "Flick is an AI social media assistant and hashtag tool that helps creators write captions, find the best hashtags, schedule content, and grow their Instagram and TikTok presence.",
+    features: [
+      "AI Caption Writer: Generate engaging captions for any post",
+      "Hashtag Research: Find the best hashtags for your niche and content",
+      "Content Scheduler: Plan and automate posting across platforms",
+      "Analytics: Track hashtag and post performance over time",
+      "Content Ideas: AI brainstorming for your social media strategy"
+    ],
+    howToUse: {
+      title: "How to Use Flick",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Account", description: "Link your Instagram or TikTok account to Flick and set up your content preferences." },
+        { title: "Write Your Caption", description: "Use the AI caption writer to generate engaging post captions tailored to your content and audience." },
+        { title: "Research Your Hashtags", description: "Find the best performing hashtags for your niche using Flick's detailed hashtag analytics tools." },
+        { title: "Schedule and Track", description: "Schedule your post with caption and hashtags and monitor performance from your analytics dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Hashtag Intelligence", description: "Provides detailed analytics on hashtag reach, competition, and performance to guide smarter hashtag choices." },
+      { title: "AI Caption Writing", description: "Generates platform-native captions that match Instagram and TikTok conventions and engagement patterns." },
+      { title: "Integrated Workflow", description: "Combines caption writing, hashtag research, and scheduling in one seamless workflow for efficient posting." }
+    ],
+    useCases: [
+      { title: "Instagram Creators", description: "Grow your reach with data-backed hashtag strategy and AI captions that drive genuine engagement." },
+      { title: "TikTok Creators", description: "Create consistently engaging content with AI writing and performance analytics in one platform." },
+      { title: "Social Media Managers", description: "Manage content creation and scheduling for multiple client accounts efficiently from one organized tool." }
+    ]
+  },
+  "contentstudio": {
+    whatIs: "ContentStudio is a comprehensive social media management platform that uses AI to help teams discover content, plan campaigns, create posts, and analyze performance across all major networks.",
+    features: [
+      "Content Discovery: Find trending content in your industry daily",
+      "AI Writing: Generate social posts and blog content with AI",
+      "Multi-Platform Scheduling: Manage posting across all social networks",
+      "Campaign Planning: Organize content into structured campaigns",
+      "Detailed Analytics: Track performance metrics across every channel"
+    ],
+    howToUse: {
+      title: "How to Use Contentstudio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Workspace", description: "Create your ContentStudio workspace and connect all your social media and blog channels." },
+        { title: "Discover and Plan", description: "Use the content discovery feed to find trending topics and plan your content calendar around them." },
+        { title: "Create With AI", description: "Generate social posts, captions, and blog content using the built-in AI writing assistant." },
+        { title: "Publish and Analyze", description: "Schedule content across all platforms and track performance with detailed channel analytics." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content Discovery Engine", description: "Finds trending content from across the web in your industry to inspire and inform your content strategy." },
+      { title: "Multi-Channel Management", description: "Manages posting and analytics across all social networks and blogs from one unified platform." },
+      { title: "AI Content Production", description: "Generates written content for social posts and blogs reducing production time across all channels significantly." }
+    ],
+    useCases: [
+      { title: "Marketing Agencies", description: "Manage content strategy, creation, and reporting for multiple client brands from one professional platform." },
+      { title: "Content Marketing Teams", description: "Streamline the full content lifecycle from discovery and creation through publishing and performance analysis." },
+      { title: "Growing Businesses", description: "Build a consistent multi-channel content presence without the overhead of multiple specialized content tools." }
+    ]
+  },
+  "brandcrowd": {
+    whatIs: "BrandCrowd is an AI-powered logo maker and brand identity platform that generates professional logos, business cards, and brand assets for businesses and creators in minutes.",
+    features: [
+      "AI Logo Generation: Create professional logos from your business name",
+      "Brand Identity: Generate matching business cards and brand assets",
+      "Icon Library: Thousands of customizable logo templates available",
+      "Color Customization: Adjust colors to match your brand palette",
+      "Instant Download: Get print and web ready files immediately"
+    ],
+    howToUse: {
+      title: "How to Use Brandcrowd",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Business Name", description: "Type your business or brand name and optionally add your industry or style preferences." },
+        { title: "Browse Logo Options", description: "Review dozens of AI-generated logo options and find designs that match your brand vision." },
+        { title: "Customize Your Logo", description: "Adjust colors, fonts, icons, and layout until your logo looks exactly right for your brand." },
+        { title: "Download Your Files", description: "Purchase and download your logo in all formats needed for print, web, and social media use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Design Generation", description: "Generates dozens of professional logo options instantly based on your business name and industry." },
+      { title: "Full Customization", description: "Allows detailed editing of every logo element so the final design is uniquely yours." },
+      { title: "Complete Brand Package", description: "Extends beyond logos to generate matching business cards, social headers, and brand asset collections." }
+    ],
+    useCases: [
+      { title: "New Businesses", description: "Get a professional logo and brand identity launched quickly without hiring a graphic designer." },
+      { title: "Entrepreneurs", description: "Create a polished brand presence for your venture at a fraction of traditional design agency costs." },
+      { title: "Rebranding Projects", description: "Explore fresh logo directions quickly and affordably when refreshing an existing brand identity." }
+    ]
+  },
+  "circleboom": {
+    whatIs: "Circleboom is a Twitter and social media management tool that helps users manage followers, schedule content, analyze accounts, and maintain a healthy and growing social presence.",
+    features: [
+      "Follower Management: Analyze and clean up your Twitter following",
+      "Content Scheduling: Schedule tweets and posts across platforms",
+      "Account Analytics: Deep insights into your social account health",
+      "Fake Follower Detection: Identify and remove inauthentic accounts",
+      "Multi-Account Support: Manage multiple social profiles in one place"
+    ],
+    howToUse: {
+      title: "How to Use Circleboom",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Account", description: "Link your Twitter or other social media accounts to Circleboom for full management access." },
+        { title: "Analyze Your Following", description: "Review your follower quality analytics to identify inactive, fake, or irrelevant accounts to unfollow." },
+        { title: "Schedule Your Content", description: "Plan and schedule tweets and social posts in advance using the content calendar tools." },
+        { title: "Monitor Your Health", description: "Track your account growth, engagement trends, and follower quality metrics over time from your dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Follower Quality Tools", description: "Identifies and helps remove fake, inactive, and irrelevant followers that hurt engagement rate metrics." },
+      { title: "Multi-Platform Scheduling", description: "Manages content scheduling across Twitter and other social networks from one unified calendar view." },
+      { title: "Account Health Monitoring", description: "Tracks key account metrics over time to give a clear picture of growth, engagement, and audience quality." }
+    ],
+    useCases: [
+      { title: "Twitter Power Users", description: "Maintain a clean high-quality follower base and manage your Twitter presence more strategically and efficiently." },
+      { title: "Social Media Managers", description: "Handle multiple client Twitter accounts and social profiles from one organized management platform." },
+      { title: "Brand Accounts", description: "Keep your social following healthy and your content consistent with scheduling and analytics tools." }
+    ]
+  },
+  "predis-ai": {
+    whatIs: "Predis.ai is an AI social media content generator that creates complete posts including visuals, captions, and hashtags for any platform from a single text prompt or product description.",
+    features: [
+      "Complete Post Generation: Visuals, captions, and hashtags from one prompt",
+      "Multi-Platform Content: Posts optimized for Instagram, Facebook, LinkedIn, and more",
+      "Video Creation: Generate short social media videos automatically",
+      "Competitor Analysis: See what content is working for competitors",
+      "Brand Consistency: Maintain your visual style across all generated content"
+    ],
+    howToUse: {
+      title: "How to Use Predis Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Prompt", description: "Describe your product, topic, or campaign and let Predis.ai know which platform you are creating for." },
+        { title: "Review Generated Content", description: "Get a complete post with AI-generated visual, caption, and hashtags ready for review immediately." },
+        { title: "Customize Your Post", description: "Adjust the visual design, edit the caption, and modify hashtags to match your brand preferences." },
+        { title: "Schedule or Download", description: "Post directly to your social accounts or download the content for manual publishing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "One-Prompt Creation", description: "Generates a complete social post with visual, copy, and hashtags from a single input prompt." },
+      { title: "Video Generation", description: "Creates short social media videos automatically for platforms that prioritize video content in their algorithms." },
+      { title: "Competitor Insights", description: "Analyzes competitor social content to reveal what formats and topics perform best in your market." }
+    ],
+    useCases: [
+      { title: "E-commerce Brands", description: "Generate product posts with visuals and copy at scale to maintain an active social presence across all platforms." },
+      { title: "Marketing Teams", description: "Produce a high volume of varied social content quickly without a large design and copywriting team." },
+      { title: "Solo Entrepreneurs", description: "Create professional-quality social media content independently without design skills or large time investments." }
+    ]
+  },
   "the-influencer-ai": {
     whatIs: "The Influencer AI is a platform that helps creators build, grow, and monetize their social media influence using AI-powered content strategies, caption generation, and audience growth tools.",
     features: [
