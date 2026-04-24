@@ -1,4 +1,454 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "the-influencer-ai": {
+    whatIs: "The Influencer AI is a platform that helps creators build, grow, and monetize their social media influence using AI-powered content strategies, caption generation, and audience growth tools.",
+    features: [
+      "Content Strategy: AI-driven posting plans tailored to your niche",
+      "Caption Generation: Engaging captions for every post instantly",
+      "Growth Tools: Tactics to attract and retain targeted followers",
+      "Monetization Guidance: Strategies to turn influence into income",
+      "Analytics Insights: Track what content drives the best results"
+    ],
+    howToUse: {
+      title: "How to Use The Influencer Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Enter your niche, platforms, and current follower count to personalize your AI growth strategy." },
+        { title: "Get Your Content Plan", description: "Receive a tailored content calendar and posting strategy built for your specific audience and goals." },
+        { title: "Generate Content", description: "Use AI caption and content tools to produce posts that align with your strategy consistently." },
+        { title: "Track and Optimize", description: "Monitor your analytics and refine your approach based on what your audience responds to most." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalized Strategy", description: "Builds content and growth strategies specific to your niche, platform, and audience rather than generic advice." },
+      { title: "Content Automation", description: "Generates captions, hooks, and post ideas automatically so you never run out of quality content." },
+      { title: "Monetization Roadmap", description: "Provides actionable steps to convert your growing following into real income through partnerships and products." }
+    ],
+    useCases: [
+      { title: "Aspiring Influencers", description: "Get a structured path to building genuine influence in your niche without guessing what to post next." },
+      { title: "Mid-Level Creators", description: "Break through growth plateaus with data-backed strategy adjustments and better content consistency." },
+      { title: "Creator Entrepreneurs", description: "Turn your existing audience into a sustainable business with clear monetization guidance and tools." }
+    ]
+  },
+  "genfluencer-ai": {
+    whatIs: "GenFluencer.ai is an AI influencer generation platform that creates fully autonomous virtual influencer personas complete with generated photos, captions, and content strategies for social media.",
+    features: [
+      "Virtual Influencer Creation: Build a complete AI influencer persona",
+      "AI Photo Generation: Produce consistent visual content for your persona",
+      "Caption and Copy: Generate on-brand captions for every post",
+      "Content Calendar: Plan your virtual influencer's posting schedule",
+      "Audience Strategy: Build a following around your AI persona"
+    ],
+    howToUse: {
+      title: "How to Use Genfluencer Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Design Your Influencer", description: "Define your virtual influencer's name, appearance, personality, niche, and target audience." },
+        { title: "Generate Visual Content", description: "Use AI image generation to produce a consistent visual feed for your influencer across posts." },
+        { title: "Create Your Captions", description: "Generate captions and copy that match your influencer's established voice and personality." },
+        { title: "Publish and Grow", description: "Post consistently across platforms and engage with your growing audience to build real influence." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Persona System", description: "Creates a fully realized virtual influencer with consistent appearance, personality, and content voice." },
+      { title: "Visual Consistency Engine", description: "Generates photos that maintain a coherent aesthetic and recognizable look across all content." },
+      { title: "Content Automation", description: "Produces captions, stories, and post ideas automatically to keep your influencer active without manual effort." }
+    ],
+    useCases: [
+      { title: "Brand Marketers", description: "Create a branded virtual influencer that represents your company without the costs of working with human talent." },
+      { title: "Digital Entrepreneurs", description: "Build an AI influencer as a revenue-generating business asset through brand deals and audience monetization." },
+      { title: "Creative Experimenters", description: "Explore virtual influencer creation as a creative project and learn the mechanics of building digital personalities." }
+    ]
+  },
+  "supercreator": {
+    whatIs: "Supercreator is an AI content creation tool designed specifically for short-form video creators, generating scripts, hooks, and ideas optimized for TikTok, Reels, and YouTube Shorts performance.",
+    features: [
+      "Script Generation: Full short-form video scripts in seconds",
+      "Hook Writing: Attention-grabbing openers that stop the scroll",
+      "Idea Generation: Fresh video concepts tailored to your niche",
+      "Trend Integration: Scripts aligned with current platform trends",
+      "Multi-Platform: Content optimized for TikTok, Reels, and Shorts"
+    ],
+    howToUse: {
+      title: "How to Use Supercreator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Niche", description: "Tell Supercreator your content niche and the platform you primarily create for." },
+        { title: "Generate Ideas", description: "Get a list of fresh video concepts relevant to your niche and current trending topics." },
+        { title: "Create Your Script", description: "Choose an idea and generate a complete script with a strong hook and engaging structure." },
+        { title: "Film and Publish", description: "Use your script to record your video and publish it to maximize algorithmic performance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Hook Specialization", description: "Focuses heavily on crafting the critical opening seconds that determine watch time and algorithmic reach." },
+      { title: "Niche Relevance", description: "Tailors video ideas and scripts to your specific content niche rather than producing generic suggestions." },
+      { title: "Platform Optimization", description: "Adjusts script length, pacing, and format to match the specific conventions of each short-form platform." }
+    ],
+    useCases: [
+      { title: "TikTok Creators", description: "Post more consistently with better scripts that hook viewers and keep them watching through to the end." },
+      { title: "Reels Producers", description: "Generate Reels content ideas and scripts that align with what the Instagram algorithm currently rewards." },
+      { title: "YouTube Shorts Creators", description: "Produce punchy well-structured Shorts content that competes effectively in a crowded discovery feed." }
+    ]
+  },
+  "botly": {
+    whatIs: "Botly is an AI chat assistant designed for content creators on subscription platforms, helping generate personalized, engaging responses to fan messages at scale without losing the personal touch.",
+    features: [
+      "AI Message Responses: Generate personalized fan message replies",
+      "Tone Matching: Responses that sound like your authentic voice",
+      "Scale Management: Handle high message volumes without burnout",
+      "Context Awareness: Replies that reference conversation history",
+      "Quick Suggestions: One-tap response options for common messages"
+    ],
+    howToUse: {
+      title: "How to Use Botly",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Platform", description: "Link Botly to your subscription platform account to start managing your message inbox." },
+        { title: "Train Your Voice", description: "Provide sample messages and responses so the AI learns to match your personal communication style." },
+        { title: "Review Suggestions", description: "Get AI-generated response suggestions for incoming messages and approve or edit before sending." },
+        { title: "Scale Your Replies", description: "Handle significantly more fan messages per day without spending all your time manually typing responses." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Voice Personalization", description: "Learns your specific communication style, phrases, and personality to generate responses that genuinely sound like you." },
+      { title: "Context Memory", description: "References previous messages in a conversation to keep replies relevant and personally connected." },
+      { title: "Volume Management", description: "Handles the scaling challenge of large message inboxes without sacrificing the personal quality of responses." }
+    ],
+    useCases: [
+      { title: "Subscription Platform Creators", description: "Manage fan messaging at scale while maintaining the personal connection that drives subscriber loyalty and retention." },
+      { title: "High-Volume Creators", description: "Keep up with large message inboxes without spending hours each day on manual response writing." },
+      { title: "Growing Creators", description: "Maintain message response quality and speed as your subscriber base grows beyond what you can handle manually." }
+    ]
+  },
+  "onley-ai": {
+    whatIs: "Onley AI is an AI assistant built for content creators on adult subscription platforms, generating personalized chat responses and content ideas to help creators manage fan interactions more efficiently.",
+    features: [
+      "Fan Chat Assistance: AI-generated responses for subscriber messages",
+      "Content Ideas: Fresh content concepts for your subscriber feed",
+      "Voice Consistency: Responses matching your established tone",
+      "Efficiency Tools: Handle more conversations in less time",
+      "Privacy Focused: Secure handling of creator account data"
+    ],
+    howToUse: {
+      title: "How to Use Onley Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Configure Onley AI with details about your content style and communication preferences." },
+        { title: "Receive Message Suggestions", description: "Get AI-generated response suggestions for incoming fan messages ready to review and send." },
+        { title: "Generate Content Ideas", description: "Use AI to brainstorm new content concepts that keep your subscriber feed fresh and engaging." },
+        { title: "Manage Efficiently", description: "Handle a significantly larger volume of fan interactions without proportionally increasing your time investment." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalized Response Engine", description: "Generates fan replies that reflect your individual voice and communication style authentically." },
+      { title: "Content Ideation", description: "Produces fresh content ideas tailored to your niche and subscriber preferences consistently." },
+      { title: "Time Efficiency", description: "Dramatically reduces the time required to manage fan communications while maintaining interaction quality." }
+    ],
+    useCases: [
+      { title: "Subscription Platform Creators", description: "Scale your fan interactions and maintain engagement quality as your subscriber base grows larger." },
+      { title: "Busy Creators", description: "Free up time spent on messaging to invest more in content creation and platform growth activities." },
+      { title: "New Creators", description: "Establish a consistent communication style with fans from the beginning using AI guidance and suggestions." }
+    ]
+  },
+  "ofhelper-pro": {
+    whatIs: "OfHelper Pro is an AI productivity tool for subscription platform creators that automates and enhances fan messaging, content scheduling, and subscriber engagement management.",
+    features: [
+      "Message Automation: AI responses for fan messages at scale",
+      "Content Scheduling: Plan and automate your content posting",
+      "Subscriber Management: Organize and track your subscriber base",
+      "Engagement Analytics: See which content and messages perform best",
+      "Revenue Optimization: Tools to maximize subscriber value"
+    ],
+    howToUse: {
+      title: "How to Use Ofhelper Pro",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Account", description: "Link OfHelper Pro to your subscription platform for full inbox and content management access." },
+        { title: "Configure Automation", description: "Set up your messaging automation preferences and content scheduling workflow." },
+        { title: "Manage Your Inbox", description: "Use AI suggestions to handle fan messages efficiently without manual typing for every response." },
+        { title: "Review Analytics", description: "Track your engagement metrics and revenue data to optimize your content and messaging strategy." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Inbox Automation", description: "Manages high-volume fan message inboxes with AI-generated responses that maintain personal quality." },
+      { title: "Content Management", description: "Schedules and organizes content posting to maintain a consistent and well-planned subscriber feed." },
+      { title: "Revenue Intelligence", description: "Provides analytics on subscriber behavior and content performance to help maximize platform earnings." }
+    ],
+    useCases: [
+      { title: "Full-Time Creators", description: "Run your subscription platform like a professional business with proper automation and analytics tools." },
+      { title: "High-Volume Creators", description: "Manage thousands of subscriber interactions without hiring additional help or sacrificing quality." },
+      { title: "Growth-Focused Creators", description: "Use analytics insights to understand what drives subscriber retention and optimize your strategy accordingly." }
+    ]
+  },
+  "chathelper": {
+    whatIs: "ChatHelper is an AI messaging assistant that helps users craft better messages, replies, and conversations across social media, dating apps, and professional platforms with smart suggestions.",
+    features: [
+      "Message Drafting: Write better messages for any platform or context",
+      "Reply Suggestions: Get smart response options for incoming messages",
+      "Tone Adjustment: Match your message tone to the situation",
+      "Conversation Starters: Break the ice in any chat context",
+      "Multi-Platform: Works for social media, dating apps, and more"
+    ],
+    howToUse: {
+      title: "How to Use Chathelper",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Situation", description: "Share the context of the conversation and what you are trying to communicate or achieve." },
+        { title: "Get Message Options", description: "Receive several AI-crafted message options suited to your context and communication goal." },
+        { title: "Choose and Customize", description: "Select the message that fits best and personalize it with your own details before sending." },
+        { title: "Send With Confidence", description: "Send your polished message knowing it communicates clearly and appropriately for the situation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Contextual Intelligence", description: "Generates messages that are genuinely relevant to the specific conversation context you provide." },
+      { title: "Tone Variety", description: "Offers messages across multiple tones so you can match the register to your relationship and situation." },
+      { title: "Multi-Platform Versatility", description: "Helps with messaging across social platforms, dating apps, professional networks, and direct messages." }
+    ],
+    useCases: [
+      { title: "Dating App Users", description: "Craft engaging opening messages and replies that stand out and keep conversations moving forward." },
+      { title: "Professionals", description: "Write polished professional messages for LinkedIn, email, and business communications confidently." },
+      { title: "Social Media Users", description: "Respond to comments and messages more effectively with AI assistance for better engagement." }
+    ]
+  },
+  "ai-rizz-generator": {
+    whatIs: "AI Rizz Generator is a tool that creates charming, witty, and engaging conversation starters and replies for dating apps and social media to help users make memorable first impressions.",
+    features: [
+      "Rizz Generation: Create charming openers for dating apps instantly",
+      "Reply Crafting: Get witty responses to keep conversations alive",
+      "Personalization: Tailor openers to specific profile details",
+      "Multiple Styles: Funny, smooth, bold, or genuine tone options",
+      "Instant Results: Get your opener in seconds not minutes"
+    ],
+    howToUse: {
+      title: "How to Use Ai Rizz Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Match", description: "Share details from the person's profile to help the AI personalize your opener specifically for them." },
+        { title: "Choose Your Style", description: "Select the vibe you want — funny, smooth, genuine, bold, or a creative mix of styles." },
+        { title: "Generate Your Opener", description: "Get several personalized conversation starter options tailored to your match and chosen style." },
+        { title: "Send and Connect", description: "Choose your favorite opener, send it, and use the reply tools to keep the conversation going strong." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Profile-Based Personalization", description: "References specific details from match profiles to create openers that feel personal rather than generic." },
+      { title: "Style Range", description: "Offers multiple conversation tones so users can choose an approach that matches their personality." },
+      { title: "Reply Assistance", description: "Continues helping beyond the opener by generating witty and engaging responses throughout the conversation." }
+    ],
+    useCases: [
+      { title: "Dating App Users", description: "Make stronger first impressions and get more responses with personalized openers that stand out in crowded inboxes." },
+      { title: "Shy Communicators", description: "Build confidence in digital conversations with AI assistance that helps you find the right words." },
+      { title: "Active Daters", description: "Manage multiple conversations simultaneously with AI help crafting thoughtful replies across all your matches." }
+    ]
+  },
+  "wingmanx": {
+    whatIs: "WingmanX is an AI dating coach and conversation assistant that analyzes your dating app conversations and provides real-time suggestions to help you connect better and get more dates.",
+    features: [
+      "Conversation Analysis: AI reviews your chat and spots improvements",
+      "Real-Time Suggestions: Get reply ideas as conversations unfold",
+      "Profile Review: Feedback on optimizing your dating profile",
+      "Opening Lines: Personalized openers based on match profiles",
+      "Date Planning: Suggestions for first date ideas and logistics"
+    ],
+    howToUse: {
+      title: "How to Use Wingmanx",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Share Your Conversation", description: "Paste your dating app conversation into WingmanX for AI analysis and improvement suggestions." },
+        { title: "Get Your Suggestions", description: "Receive specific reply recommendations and conversation strategy tips based on your chat context." },
+        { title: "Apply the Advice", description: "Use the suggested responses or adapt them to your voice before sending to your match." },
+        { title: "Improve Over Time", description: "Learn from the feedback patterns to become a stronger conversationalist without needing AI assistance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversation Intelligence", description: "Analyzes the full conversation context to provide suggestions that are genuinely relevant and timely." },
+      { title: "Profile Optimization", description: "Reviews dating profiles and provides specific actionable feedback to improve match rates and quality." },
+      { title: "Learning Component", description: "Explains why certain approaches work so users develop real conversational skills alongside AI assistance." }
+    ],
+    useCases: [
+      { title: "Dating App Users", description: "Stop leaving good matches go cold and start converting conversations into actual dates more consistently." },
+      { title: "People Re-entering Dating", description: "Get up to speed with modern dating app dynamics with AI coaching that builds your confidence quickly." },
+      { title: "Introverts", description: "Navigate dating conversations more comfortably with a supportive AI suggesting approaches that feel natural to you." }
+    ]
+  },
+  "tinder-ice-breakers-ai": {
+    whatIs: "Tinder Ice Breakers AI generates creative, personalized opening messages for Tinder matches, helping users start conversations that get responses and stand out from generic opening lines.",
+    features: [
+      "Personalized Openers: Match-specific ice breakers from profile details",
+      "Creative Options: Funny, flirty, genuine, and unique styles",
+      "Photo-Based Suggestions: Openers inspired by match photos",
+      "Bio References: Ice breakers that mention specific bio details",
+      "Instant Generation: Multiple opener options in seconds"
+    ],
+    howToUse: {
+      title: "How to Use Tinder Ice Breakers Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Match Details", description: "Share details from your match's profile including bio, interests, and any photos that stand out." },
+        { title: "Select Your Style", description: "Choose from funny, flirty, genuine, witty, or bold opener styles that fit your personality." },
+        { title: "Get Your Ice Breakers", description: "Receive several personalized opening message options crafted specifically for your match." },
+        { title: "Send the Best One", description: "Pick the opener that feels most natural, optionally tweak it, and send it to start your conversation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Deep Personalization", description: "Creates openers that reference specific profile details making matches feel genuinely noticed and not spammed." },
+      { title: "Style Flexibility", description: "Generates openers across multiple tones so users can pick what fits their natural personality best." },
+      { title: "Volume of Options", description: "Produces multiple ice breaker choices per session so you always have a great opening line ready." }
+    ],
+    useCases: [
+      { title: "Tinder Users", description: "Get more replies by sending personalized openers that show you actually read your match's profile." },
+      { title: "People with Low Match Response Rates", description: "Improve your conversation start rate with creative openers that generate genuine curiosity and interest." },
+      { title: "Confident Daters", description: "Add variety to your opening approach and keep your conversation starters fresh and creative always." }
+    ]
+  },
+  "pickmyline-online": {
+    whatIs: "Pickmyline.online is a pick-up line and conversation starter generator that creates funny, clever, and charming opening lines for dating apps and social situations using AI.",
+    features: [
+      "Pick-Up Line Generator: Funny and clever lines for any situation",
+      "Category Options: Cheesy, smooth, nerdy, romantic, or bold styles",
+      "Custom Input: Lines based on specific interests or profile details",
+      "Instant Results: Get multiple line options immediately",
+      "Free to Use: Generate lines without payment or signup"
+    ],
+    howToUse: {
+      title: "How to Use Pickmyline Online",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Style", description: "Select the type of pick-up line you want — cheesy, smooth, intellectual, romantic, or boldly funny." },
+        { title: "Add Personal Details", description: "Optionally enter details about your match to get more personalized and relevant line suggestions." },
+        { title: "Get Your Lines", description: "Receive multiple pick-up line options instantly across your chosen style category." },
+        { title: "Pick and Send", description: "Choose the line that makes you smile and send it to break the ice with your match or crush." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Style Variety", description: "Covers a wide range of pick-up line styles from classic cheesy to clever wordplay and romantic sincerity." },
+      { title: "Personalization Option", description: "Incorporates specific interests or profile details to create lines that feel tailored rather than generic." },
+      { title: "Free Access", description: "Provides pick-up line generation without requiring payment or account creation for immediate use." }
+    ],
+    useCases: [
+      { title: "Dating App Users", description: "Find a fun creative opener that breaks the ice and shows personality beyond a basic hello message." },
+      { title: "Social Situations", description: "Use clever lines to introduce humor and charm when meeting someone interesting in real life settings." },
+      { title: "Fun Seekers", description: "Generate entertaining pick-up lines for laughs with friends or to lighten the mood in social situations." }
+    ]
+  },
+  "tiramisu": {
+    whatIs: "Tiramisu is an AI relationship and conversation assistant that helps users navigate dating, friendships, and social interactions with personalized advice, message drafting, and communication coaching.",
+    features: [
+      "Message Drafting: Write better texts and messages for any relationship",
+      "Relationship Advice: Personalized guidance for your specific situation",
+      "Conversation Coaching: Improve your communication skills over time",
+      "Social Navigation: Handle tricky social situations with confidence",
+      "Dating Support: Help with every stage from matching to dating"
+    ],
+    howToUse: {
+      title: "How to Use Tiramisu",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Share Your Situation", description: "Describe the relationship context, the person involved, and what you are trying to communicate or achieve." },
+        { title: "Get Personalized Advice", description: "Receive specific guidance tailored to your unique situation rather than generic relationship tips." },
+        { title: "Draft Your Message", description: "Use AI assistance to write the message that communicates exactly what you mean in the right tone." },
+        { title: "Build Your Skills", description: "Apply the advice and observe results to develop stronger social and communication abilities over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Situational Personalization", description: "Provides advice and message drafts specific to your unique relationship situation rather than generic guidance." },
+      { title: "Communication Coaching", description: "Explains the reasoning behind suggestions so users genuinely improve their interpersonal communication skills." },
+      { title: "Multi-Relationship Support", description: "Helps with romantic relationships, friendships, family dynamics, and professional social situations equally." }
+    ],
+    useCases: [
+      { title: "Dating App Users", description: "Navigate every stage of modern dating with AI guidance from first message through planning a first date." },
+      { title: "People in Complex Situations", description: "Get thoughtful personalized advice when navigating difficult relationship conversations or social dynamics." },
+      { title: "Communication Skill Builders", description: "Use AI coaching to become more confident and effective in all your personal and social interactions." }
+    ]
+  },
+  "rizz-ai": {
+    whatIs: "RIZZ AI is a conversation and charm assistant that generates smooth, witty, and engaging messages for dating apps and social media to help users communicate with more confidence and personality.",
+    features: [
+      "Smooth Openers: Charming conversation starters for any platform",
+      "Witty Replies: Quick clever responses to keep chats engaging",
+      "Personality Matching: Messages that reflect your natural style",
+      "Situation Adaptability: Responses for different social contexts",
+      "Confidence Building: Tools to improve your natural communication"
+    ],
+    howToUse: {
+      title: "How to Use Rizz Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Goal", description: "Share who you are messaging and what impression or outcome you want to achieve in the conversation." },
+        { title: "Choose Your Vibe", description: "Select the tone — smooth and charming, witty and funny, genuine and warm, or boldly confident." },
+        { title: "Get Your Messages", description: "Receive several polished message options tailored to your goal and chosen conversational style." },
+        { title: "Send and Connect", description: "Use your chosen message and return for reply help as the conversation develops naturally." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Style Personalization", description: "Adapts generated messages to reflect your natural personality rather than producing one-size-fits-all responses." },
+      { title: "Contextual Replies", description: "Generates follow-up messages that are relevant to how the conversation has developed so far." },
+      { title: "Confidence Development", description: "Provides messaging frameworks and language patterns that help users develop genuine social confidence over time." }
+    ],
+    useCases: [
+      { title: "Dating App Users", description: "Show more personality and charm in your conversations and turn more matches into real connections." },
+      { title: "Social Networkers", description: "Engage more confidently and effectively with new people across social media platforms and communities." },
+      { title: "Shy Personalities", description: "Build the confidence to initiate and maintain engaging conversations with AI support and messaging guidance." }
+    ]
+  },
+  "resume-rizzler": {
+    whatIs: "Resume Rizzler is an AI resume writer that transforms your work history and skills into a polished, compelling resume optimized for applicant tracking systems and recruiter attention.",
+    features: [
+      "AI Resume Writing: Generate a professional resume from your details",
+      "ATS Optimization: Keywords and formatting that pass automated screening",
+      "Multiple Formats: Clean professional resume templates included",
+      "Cover Letter: Matching cover letter generation alongside resume",
+      "Job Tailoring: Customize your resume for specific job descriptions"
+    ],
+    howToUse: {
+      title: "How to Use Resume Rizzler",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Details", description: "Provide your work history, education, skills, and achievements to give the AI material to work with." },
+        { title: "Choose Your Format", description: "Select a professional resume template that suits your industry and career level." },
+        { title: "Generate Your Resume", description: "Get a polished AI-written resume with optimized language, clear structure, and ATS-friendly formatting." },
+        { title: "Tailor for Each Job", description: "Paste a job description to get a customized version of your resume optimized for that specific role." }
+      ]
+    },
+    coreFeatures: [
+      { title: "ATS Optimization", description: "Incorporates relevant keywords and formatting standards that help resumes pass automated applicant tracking systems." },
+      { title: "Professional Writing", description: "Transforms basic job history into compelling achievement-focused descriptions that impress hiring managers." },
+      { title: "Job-Specific Tailoring", description: "Customizes resume content and keywords for each specific job application to maximize relevance and impact." }
+    ],
+    useCases: [
+      { title: "Job Seekers", description: "Get a professionally written ATS-optimized resume that gets past automated screening and into recruiter hands." },
+      { title: "Career Changers", description: "Reframe your existing experience compellingly for a new industry or role with AI writing assistance." },
+      { title: "Recent Graduates", description: "Transform limited work experience into a polished professional resume that highlights your strongest assets." }
+    ]
+  },
+  "winggg": {
+    whatIs: "Winggg is an AI dating assistant that helps users craft better dating app messages, analyze conversations, and improve their overall dating communication to get more matches and dates.",
+    features: [
+      "Message Crafting: AI-written openers and replies for dating apps",
+      "Conversation Analysis: Review your chats and get improvement tips",
+      "Profile Feedback: Suggestions to improve your dating profile",
+      "Match Insights: Understand what your match responds well to",
+      "Confidence Building: Learn better communication through AI guidance"
+    ],
+    howToUse: {
+      title: "How to Use Winggg",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Share Your Profile or Chat", description: "Upload your dating profile or paste a conversation for AI analysis and personalized feedback." },
+        { title: "Get Your Recommendations", description: "Receive specific suggestions for improving your profile, opening messages, or ongoing conversations." },
+        { title: "Craft Better Messages", description: "Use AI assistance to write openers and replies that are more engaging and likely to get responses." },
+        { title: "Learn and Improve", description: "Apply the feedback patterns consistently to develop genuinely better dating communication skills over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversation Analysis", description: "Reviews your actual dating app conversations to identify specific patterns that are helping or hurting your results." },
+      { title: "Profile Optimization", description: "Provides detailed actionable feedback on profile photos, bio, and prompts to improve your match rate." },
+      { title: "Message Quality", description: "Generates dating messages that are personalized, engaging, and significantly better than generic alternatives." }
+    ],
+    useCases: [
+      { title: "Dating App Users", description: "Get more responses, better conversations, and more actual dates through smarter AI-assisted communication." },
+      { title: "Profile Optimizers", description: "Improve your match rate before even sending a message with data-backed profile feedback and suggestions." },
+      { title: "People Struggling with Dating Apps", description: "Identify exactly what is not working in your current approach and get clear guidance on how to fix it." }
+    ]
+  },
   "headshotpro": {
     whatIs: "HeadshotPro is an AI headshot generator that creates professional corporate portrait photos from your selfies, delivering polished LinkedIn-ready headshots without a photography studio or session.",
     features: [
