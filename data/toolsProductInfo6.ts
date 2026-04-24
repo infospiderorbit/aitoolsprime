@@ -1,4 +1,454 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "glambase": {
+    whatIs: "Glambase is an AI platform that enables creators to build and monetize virtual AI influencer models, generating income through digital content without requiring a personal social media presence.",
+    features: [
+      "AI Model Creation: Design a unique virtual influencer with custom appearance",
+      "Content Monetization: Earn income from your AI model's digital content",
+      "Automated Posting: Keep your virtual influencer consistently active",
+      "Audience Building: Grow a following around your AI persona organically",
+      "Brand Collaboration: Connect your AI model with relevant sponsorship deals"
+    ],
+    howToUse: {
+      title: "How to Use Glambase",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Design Your AI Model", description: "Define your virtual influencer's appearance, personality, content niche, and target audience demographic." },
+        { title: "Generate Content", description: "Use AI tools to produce photos, captions, and posts that keep your model's feed active and engaging." },
+        { title: "Publish and Grow", description: "Post consistently across platforms and engage with followers to build your AI model's audience." },
+        { title: "Monetize Your Asset", description: "Unlock income streams through subscriptions, brand deals, and exclusive content as your following grows." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Virtual Model Builder", description: "Creates detailed AI influencer personas with consistent visual identity and defined personality traits." },
+      { title: "Passive Income Engine", description: "Enables creators to earn from AI-generated content without being personally present or on camera." },
+      { title: "Content Pipeline", description: "Automates the content creation process so your virtual influencer stays active without constant manual effort." }
+    ],
+    useCases: [
+      { title: "Privacy-Conscious Creators", description: "Build a profitable influencer presence without putting your own face or personal life on public display." },
+      { title: "Entrepreneurs", description: "Treat your AI influencer as a business asset that generates revenue through digital content and brand deals." },
+      { title: "Agencies", description: "Manage multiple AI influencer models as a portfolio of digital assets generating diversified income streams." }
+    ]
+  },
+  "celebmakerAI": {
+    whatIs: "CelebMakerAI is an AI tool that transforms ordinary photos into celebrity-style glamour shots using advanced image generation, giving users a high-fashion editorial look without a professional photoshoot.",
+    features: [
+      "Celebrity Transformation: Turn selfies into glamorous editorial-style photos",
+      "Style Variety: Choose from different celebrity aesthetics and looks",
+      "High-Resolution Output: Get sharp detailed transformed images",
+      "Fast Processing: Get your celebrity-style photo in seconds",
+      "No Photoshoot Needed: Professional results from any casual photo"
+    ],
+    howToUse: {
+      title: "How to Use Celebmakerai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Select a clear photo of yourself to use as the base for your celebrity-style transformation." },
+        { title: "Choose Your Style", description: "Pick the celebrity aesthetic or glamour style you want your transformed photo to reflect." },
+        { title: "Generate Your Look", description: "Let the AI process your photo and produce a high-quality celebrity-style version of your image." },
+        { title: "Download and Share", description: "Save your glamorous transformed photo and share it across your social media profiles." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Style Transfer", description: "Applies celebrity-grade styling, lighting, and aesthetic to ordinary photos with impressive visual accuracy." },
+      { title: "Multiple Aesthetics", description: "Offers a range of celebrity-inspired looks from red carpet elegance to high-fashion editorial styles." },
+      { title: "Quick Turnaround", description: "Delivers transformed images in seconds so users can experiment with multiple looks rapidly." }
+    ],
+    useCases: [
+      { title: "Social Media Content", description: "Create eye-catching profile photos and posts that stand out with a professional glamorous aesthetic." },
+      { title: "Fun and Entertainment", description: "Enjoy experimenting with different celebrity looks as a creative and entertaining personal project." },
+      { title: "Special Occasions", description: "Generate a memorable glamorous image for birthdays, events, or milestone social media announcements." }
+    ]
+  },
+  "influencerfarm": {
+    whatIs: "InfluencerFarm is a platform that connects brands with relevant social media influencers for marketing campaigns, using AI matching to identify the right creators for each specific brand and campaign goal.",
+    features: [
+      "AI Influencer Matching: Find creators that fit your brand perfectly",
+      "Campaign Management: Run and track influencer campaigns end to end",
+      "Performance Analytics: Measure reach, engagement, and conversion results",
+      "Influencer Database: Access a large searchable creator directory",
+      "Contract Tools: Manage agreements and payments within the platform"
+    ],
+    howToUse: {
+      title: "How to Use Influencerfarm",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Campaign", description: "Set your campaign goals, target audience, budget, and the type of influencer you are looking for." },
+        { title: "Get AI Matches", description: "Review AI-recommended influencer profiles that align with your brand values and campaign objectives." },
+        { title: "Launch Your Campaign", description: "Reach out to selected influencers, agree on terms, and activate your campaign through the platform." },
+        { title: "Track Performance", description: "Monitor live campaign metrics and measure results against your original goals and KPIs." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Smart Creator Matching", description: "AI analyzes brand values, audience demographics, and content style to recommend the most relevant influencers." },
+      { title: "End-to-End Campaign Tools", description: "Handles everything from influencer discovery through content approval, posting, and performance reporting." },
+      { title: "Verified Creator Profiles", description: "Provides vetted influencer profiles with authentic engagement data to help brands avoid fraudulent accounts." }
+    ],
+    useCases: [
+      { title: "E-commerce Brands", description: "Drive product awareness and sales through influencers whose audiences match your ideal customer profile." },
+      { title: "Product Launches", description: "Generate buzz and reach new audiences quickly by activating multiple relevant influencers simultaneously." },
+      { title: "Small Businesses", description: "Access influencer marketing at a manageable scale with tools designed for brands without large marketing teams." }
+    ]
+  },
+  "infludata": {
+    whatIs: "influData is an influencer analytics and discovery platform that provides deep data insights on Instagram and TikTok creators, helping brands make smarter influencer marketing decisions.",
+    features: [
+      "Creator Search: Find influencers by niche, location, and audience size",
+      "Audience Analysis: Understand the demographics of any influencer's followers",
+      "Engagement Metrics: See real engagement rates beyond just follower counts",
+      "Fake Follower Detection: Identify accounts with inflated or inauthentic audiences",
+      "Competitor Tracking: Monitor which influencers your competitors are working with"
+    ],
+    howToUse: {
+      title: "How to Use Infludata",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search for Creators", description: "Use filters like niche, follower count, location, and engagement rate to find relevant influencers." },
+        { title: "Analyze Their Audience", description: "Dive into detailed audience demographics to confirm the creator reaches your target customer." },
+        { title: "Check Authenticity", description: "Run the fake follower detection to verify the influencer has a genuine engaged audience." },
+        { title: "Export Your List", description: "Save your shortlisted influencer profiles and export data for campaign planning and outreach." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Deep Audience Insights", description: "Provides detailed breakdowns of follower demographics including age, location, gender, and interests." },
+      { title: "Authenticity Scoring", description: "Detects fake followers and bot engagement so brands invest only in genuinely influential creators." },
+      { title: "Competitive Intelligence", description: "Reveals which influencers competitors are partnering with to inform your own influencer strategy." }
+    ],
+    useCases: [
+      { title: "Brand Marketing Teams", description: "Build influencer shortlists backed by real data rather than surface-level follower counts alone." },
+      { title: "Influencer Agencies", description: "Deliver smarter creator recommendations to clients with verified audience and engagement data." },
+      { title: "Campaign Strategists", description: "Validate influencer choices before committing budget to ensure authentic reach and alignment." }
+    ]
+  },
+  "upgrow": {
+    whatIs: "UpGrow is an AI-powered Instagram growth service that helps creators and brands gain real, targeted followers through intelligent audience targeting and automated engagement strategies.",
+    features: [
+      "Targeted Growth: Attract followers who match your ideal audience profile",
+      "AI Engagement: Automated interactions to increase profile visibility",
+      "Real Followers: Growth focused on genuine accounts not bots",
+      "Audience Filters: Target by location, interest, age, and competitors",
+      "Growth Analytics: Track follower gains and engagement improvements"
+    ],
+    howToUse: {
+      title: "How to Use Upgrow",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Connect your Instagram account and define your target audience using detailed demographic and interest filters." },
+        { title: "Configure Growth Settings", description: "Set your targeting parameters including competitor accounts, relevant hashtags, and audience location." },
+        { title: "Activate Growth", description: "Turn on the AI growth engine and let it work to attract real targeted followers to your profile." },
+        { title: "Monitor Your Progress", description: "Check your growth dashboard regularly to track follower gains and adjust targeting as needed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Precision Targeting", description: "Identifies and engages with users who match your defined audience profile for highly relevant follower growth." },
+      { title: "Safety-First Approach", description: "Operates within Instagram's guidelines to protect your account while delivering consistent growth results." },
+      { title: "Performance Dashboard", description: "Provides clear analytics on follower growth rate, engagement changes, and targeting effectiveness over time." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Grow a targeted Instagram following in your niche to increase your influence and brand deal opportunities." },
+      { title: "Small Businesses", description: "Build a local or niche Instagram audience of potential customers without running paid advertising campaigns." },
+      { title: "Personal Brands", description: "Accelerate Instagram growth to establish credibility and reach in your professional field or industry." }
+    ]
+  },
+  "grumgains": {
+    whatIs: "GrumGains is an Instagram growth and engagement tool that helps creators increase their follower count and engagement through targeted audience interaction and smart automation strategies.",
+    features: [
+      "Follower Growth: Increase your Instagram following with targeted users",
+      "Engagement Boost: Improve likes and comments on your content",
+      "Audience Targeting: Reach users interested in your specific niche",
+      "Automation Tools: Streamline repetitive engagement tasks efficiently",
+      "Progress Tracking: Monitor your growth metrics over time"
+    ],
+    howToUse: {
+      title: "How to Use Grumgains",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Account", description: "Link your Instagram account to GrumGains and set up your profile and niche information." },
+        { title: "Define Your Audience", description: "Specify the type of followers you want to attract using interest, hashtag, and competitor filters." },
+        { title: "Start Growing", description: "Activate the growth tools and let the automation work to bring relevant users to your profile." },
+        { title: "Track Your Results", description: "Review your analytics dashboard to see follower growth, engagement changes, and overall progress." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Niche Targeting", description: "Focuses growth efforts on users within your specific content niche for more relevant and engaged followers." },
+      { title: "Engagement Automation", description: "Handles repetitive engagement tasks at scale so you can focus on creating great content instead." },
+      { title: "Growth Analytics", description: "Tracks key metrics over time so you can see exactly what is working and optimize your strategy." }
+    ],
+    useCases: [
+      { title: "Instagram Creators", description: "Build a larger engaged following in your content niche without spending all your time on manual engagement." },
+      { title: "Brands on Instagram", description: "Grow your brand's Instagram presence with followers who are genuinely interested in your products." },
+      { title: "Marketers", description: "Manage Instagram growth for multiple client accounts efficiently using automated targeting tools." }
+    ]
+  },
+  "tylinktodm": {
+    whatIs: "tyLinktoDM is a tool that converts your social media link clicks into direct message conversations, turning passive profile visitors into active leads through automated DM triggers.",
+    features: [
+      "Link to DM Conversion: Turn link clicks into instant DM conversations",
+      "Auto DM Triggers: Send automated messages when users engage with your link",
+      "Lead Capture: Collect contact details from interested visitors automatically",
+      "Custom Messages: Personalize the automated DM content for your audience",
+      "Multi-Platform Support: Works across major social media platforms"
+    ],
+    howToUse: {
+      title: "How to Use Tylinktodm",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Link", description: "Create your tyLinktoDM link and configure the automated message that triggers when someone clicks it." },
+        { title: "Share Your Link", description: "Post your link in bio, stories, posts, or anywhere your audience will see and click on it." },
+        { title: "Capture Leads", description: "Watch as link clicks automatically trigger DM conversations with interested visitors and followers." },
+        { title: "Nurture Conversations", description: "Follow up with captured leads through continued DM conversations to convert them into customers." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated DM Triggering", description: "Instantly initiates DM conversations when users click your link, catching their interest at peak engagement." },
+      { title: "Lead Qualification", description: "Captures details from people who clicked through, indicating genuine interest in what you offer." },
+      { title: "Conversion Optimization", description: "Moves social media visitors from passive browsing into active two-way conversations that convert better." }
+    ],
+    useCases: [
+      { title: "Coaches and Consultants", description: "Convert profile visitors into discovery call bookings through automated DM conversations that qualify leads." },
+      { title: "E-commerce Sellers", description: "Engage potential customers the moment they show interest by clicking your product or store link." },
+      { title: "Content Creators", description: "Turn audience curiosity from your link in bio into meaningful conversations about collaborations or offerings." }
+    ]
+  },
+  "inro": {
+    whatIs: "Inrō is an Instagram DM automation tool that helps creators and businesses manage, automate, and scale their direct message conversations to convert followers into customers efficiently.",
+    features: [
+      "DM Automation: Send automated replies to Instagram messages",
+      "Keyword Triggers: Set up auto-responses based on specific keywords",
+      "Lead Nurturing: Guide followers through a conversation funnel via DM",
+      "Broadcast Messages: Send bulk DMs to your follower list",
+      "Conversation Management: Organize and track all DM interactions"
+    ],
+    howToUse: {
+      title: "How to Use Inro",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Instagram", description: "Link your Instagram account to Inrō and configure your automation preferences and settings." },
+        { title: "Set Up Triggers", description: "Define keyword triggers and the automated responses that activate when followers message those words." },
+        { title: "Create Your Funnel", description: "Build a DM conversation sequence that guides followers toward your desired action or conversion." },
+        { title: "Monitor and Optimize", description: "Track your DM performance metrics and refine your automation sequences based on actual results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Keyword Automation", description: "Detects specific words in incoming DMs and instantly sends the appropriate pre-configured automated response." },
+      { title: "Conversation Funnels", description: "Creates structured DM sequences that guide followers step by step toward a conversion or desired action." },
+      { title: "Broadcast Capability", description: "Sends targeted DM campaigns to segmented follower lists for announcements, launches, or promotions." }
+    ],
+    useCases: [
+      { title: "Online Coaches", description: "Automate initial DM conversations to qualify leads and book discovery calls without manual back and forth." },
+      { title: "E-commerce Brands", description: "Send product links and promotional offers automatically when followers express buying intent via DM." },
+      { title: "Content Creators", description: "Manage high DM volume from large followings without spending hours responding to every message manually." }
+    ]
+  },
+  "cool-caption-ideas": {
+    whatIs: "Cool Caption Ideas is an AI caption generator that provides creative, engaging captions for social media posts across Instagram, TikTok, and other platforms to boost engagement and save time.",
+    features: [
+      "Instant Captions: Generate creative captions from photo descriptions",
+      "Mood Selection: Choose caption tone from fun, inspirational, or witty",
+      "Hashtag Suggestions: Get relevant hashtags alongside your caption",
+      "Platform Optimization: Captions styled for each specific social network",
+      "Multiple Options: Get several caption choices for every post"
+    ],
+    howToUse: {
+      title: "How to Use Cool Caption Ideas",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Post", description: "Enter a brief description of your photo or video content to give the AI context for caption generation." },
+        { title: "Select Your Mood", description: "Choose the tone you want — funny, inspirational, romantic, adventurous, or professional." },
+        { title: "Get Your Captions", description: "Receive multiple caption options instantly and choose the one that fits your post best." },
+        { title: "Add and Publish", description: "Copy your chosen caption, add any finishing touches, and paste it into your post before publishing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Tone Variety", description: "Offers a wide range of caption moods so every post gets a caption that matches its energy and message." },
+      { title: "Multi-Platform Styling", description: "Adjusts caption length and style based on the social platform you are posting to." },
+      { title: "Hashtag Integration", description: "Includes relevant hashtag suggestions with each caption to help extend your content's reach organically." }
+    ],
+    useCases: [
+      { title: "Daily Instagram Posters", description: "Never stare at a blank caption box again — get creative options in seconds for every post you make." },
+      { title: "Travel Content Creators", description: "Find the perfect caption for stunning travel photos without spending more time writing than exploring." },
+      { title: "Brand Accounts", description: "Maintain a consistent and engaging brand voice across all social media posts without a dedicated copywriter." }
+    ]
+  },
+  "captionit": {
+    whatIs: "Captionit is an AI-powered caption generator that analyzes your uploaded images and automatically creates relevant, engaging social media captions tailored to your content and platform.",
+    features: [
+      "Image Analysis: AI reads your photo and generates relevant captions",
+      "Auto-Relevance: Captions match your actual image content precisely",
+      "Platform Tailoring: Optimized output for Instagram, TikTok, and more",
+      "Tone Options: Select caption style from casual to professional",
+      "Hashtag Generator: Relevant tags included with every caption"
+    ],
+    howToUse: {
+      title: "How to Use Captionit",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Upload the photo or video thumbnail you want to create a social media caption for." },
+        { title: "Choose Your Platform", description: "Select the social network you are posting to so captions are formatted and styled appropriately." },
+        { title: "Pick Your Tone", description: "Select how you want the caption to sound — playful, inspirational, informative, or professional." },
+        { title: "Generate and Copy", description: "Get AI-generated captions based on your actual image content and copy your favorite to post." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Content Recognition", description: "Analyzes the actual content of uploaded images to generate captions that are genuinely relevant and accurate." },
+      { title: "Platform Formatting", description: "Produces captions with appropriate length, emoji use, and style for each specific social media platform." },
+      { title: "Contextual Hashtags", description: "Generates hashtags that match both the image content and the platform for maximum discoverability." }
+    ],
+    useCases: [
+      { title: "Instagram Creators", description: "Upload your photos and get perfectly matched captions without having to describe your content manually." },
+      { title: "Product Photographers", description: "Generate professional product captions that highlight key visual details captured in your photos." },
+      { title: "Travel Bloggers", description: "Turn stunning travel photography into engaging captioned posts quickly without struggling for the right words." }
+    ]
+  },
+  "instacaptain": {
+    whatIs: "InstaCaptain is an Instagram caption and content tool that helps creators write better captions, find trending hashtags, and optimize their posts for maximum reach and engagement.",
+    features: [
+      "Caption Generator: Write engaging Instagram captions instantly",
+      "Hashtag Research: Find trending and niche hashtags for your posts",
+      "Bio Writer: Create an optimized Instagram bio with AI assistance",
+      "Post Optimizer: Improve existing captions for better engagement",
+      "Content Ideas: Get inspiration for your next Instagram posts"
+    ],
+    howToUse: {
+      title: "How to Use Instacaptain",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Describe your post topic or paste your draft caption to get AI-powered suggestions and improvements." },
+        { title: "Generate Your Caption", description: "Get multiple caption options crafted for Instagram's style and engagement patterns." },
+        { title: "Find Your Hashtags", description: "Search for relevant hashtags and get recommendations tailored to your content and niche." },
+        { title: "Optimize and Post", description: "Finalize your caption and hashtag set and publish your fully optimized Instagram post." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Instagram-Specific Optimization", description: "Built specifically for Instagram conventions including caption length, emoji usage, and engagement triggers." },
+      { title: "Hashtag Intelligence", description: "Provides hashtag recommendations balanced between popular reach and niche discoverability for each post." },
+      { title: "Caption Improvement", description: "Rewrites and enhances existing captions rather than just generating from scratch for more flexibility." }
+    ],
+    useCases: [
+      { title: "Instagram Influencers", description: "Consistently post optimized captions and hashtags that grow your reach and keep your engagement rate strong." },
+      { title: "Business Accounts", description: "Maintain a professional engaging Instagram presence that attracts customers and builds brand awareness." },
+      { title: "New Creators", description: "Learn what makes Instagram captions effective while getting AI assistance that improves with every post." }
+    ]
+  },
+  "captionmaster": {
+    whatIs: "CaptionMaster is an AI caption writing tool that generates high-quality social media captions for any platform, helping creators and brands maintain a consistent and engaging content voice.",
+    features: [
+      "Multi-Platform Captions: Generate captions for any social network",
+      "Brand Voice Matching: Captions that sound like your established tone",
+      "Bulk Generation: Create captions for multiple posts at once",
+      "CTA Integration: Include calls to action naturally in captions",
+      "Emoji Suggestions: Get relevant emoji recommendations with captions"
+    ],
+    howToUse: {
+      title: "How to Use Captionmaster",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Content", description: "Provide a brief description of your post, your brand, and the message you want to communicate." },
+        { title: "Set Your Preferences", description: "Choose your platform, tone, and whether you want CTAs or emojis included in your caption." },
+        { title: "Generate Your Caption", description: "Get professional caption options that match your content and brand voice immediately." },
+        { title: "Edit and Publish", description: "Make any final adjustments and copy your caption directly into your social media post." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brand Voice Consistency", description: "Learns and maintains your brand's established tone so every caption sounds like it came from the same voice." },
+      { title: "Call-to-Action Builder", description: "Naturally integrates effective CTAs into captions to drive clicks, comments, saves, and follows." },
+      { title: "Bulk Production", description: "Generates captions for multiple posts in one session to support batch content creation workflows." }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "Produce consistent on-brand captions for all social channels without multiple rounds of edits and revisions." },
+      { title: "Content Schedulers", description: "Batch-create captions for a full week or month of content in one efficient working session." },
+      { title: "Brand Managers", description: "Maintain voice consistency across social accounts managed by multiple team members simultaneously." }
+    ]
+  },
+  "copywritergpt": {
+    whatIs: "CopywriterGPT is an AI copywriting assistant that generates persuasive, conversion-focused copy for ads, landing pages, emails, and social media using proven marketing frameworks.",
+    features: [
+      "Ad Copy: Write compelling paid ad copy for any platform",
+      "Landing Page Copy: Generate conversion-focused page content",
+      "Email Campaigns: Draft persuasive email sequences that convert",
+      "Social Media Copy: Create engaging posts across all networks",
+      "Marketing Frameworks: Uses proven formulas like AIDA and PAS"
+    ],
+    howToUse: {
+      title: "How to Use Copywritergpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Copy Type", description: "Select what you need — ad copy, email, landing page, social post, or other marketing content." },
+        { title: "Describe Your Offer", description: "Enter details about your product, target audience, key benefits, and desired action from readers." },
+        { title: "Select a Framework", description: "Choose a copywriting framework like AIDA, PAS, or FAB to structure your persuasive copy." },
+        { title: "Generate and Refine", description: "Get your AI-written copy instantly and refine it with follow-up prompts until it is exactly right." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Framework-Based Writing", description: "Applies proven copywriting formulas that are built on decades of marketing psychology and conversion research." },
+      { title: "Multi-Format Output", description: "Produces copy for every marketing format from short ad headlines to long-form sales page content." },
+      { title: "Conversion Focus", description: "Every piece of copy is written with a clear goal of persuading readers to take a specific desired action." }
+    ],
+    useCases: [
+      { title: "Digital Marketers", description: "Write high-converting ad copy and landing page content faster without sacrificing persuasive quality." },
+      { title: "E-commerce Businesses", description: "Generate product descriptions, ad copy, and email campaigns that drive sales and repeat purchases." },
+      { title: "Startup Founders", description: "Create professional marketing copy for launches and campaigns without hiring an expensive copywriter." }
+    ]
+  },
+  "photoai-me": {
+    whatIs: "PhotoAI.me is an AI headshot and portrait generator that creates professional, studio-quality photos from your selfies without needing a photographer, studio, or expensive photo session.",
+    features: [
+      "AI Headshots: Generate professional headshots from casual selfies",
+      "Multiple Styles: Corporate, creative, casual, and LinkedIn-ready options",
+      "Background Variety: Choose from professional background options",
+      "High Resolution: Download sharp print-ready portrait images",
+      "Fast Turnaround: Get professional photos in minutes not days"
+    ],
+    howToUse: {
+      title: "How to Use Photoai Me",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Selfies", description: "Submit a set of casual selfies from different angles to give the AI enough reference material to work with." },
+        { title: "Choose Your Style", description: "Select the headshot style you need — professional corporate, creative industry, casual business, or LinkedIn." },
+        { title: "Pick Your Background", description: "Choose from a range of professional background options that suit your industry and intended use." },
+        { title: "Download Your Photos", description: "Receive your AI-generated professional headshots and download in high resolution for immediate use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Studio-Quality Results", description: "Produces headshots that match the quality of professional photography studios without the associated cost." },
+      { title: "Style Flexibility", description: "Offers multiple professional aesthetics so your headshot fits perfectly in any professional context." },
+      { title: "Quick Processing", description: "Delivers a full set of professional headshot options in minutes rather than waiting days for a photographer." }
+    ],
+    useCases: [
+      { title: "Job Seekers", description: "Get a polished professional headshot for your LinkedIn profile and job applications without a photography session." },
+      { title: "Remote Workers", description: "Update your professional photo for video calls, email signatures, and company directories affordably." },
+      { title: "Entrepreneurs", description: "Create a credible professional image for your website, press kit, and speaking profiles quickly and easily." }
+    ]
+  },
+  "betterpic": {
+    whatIs: "BetterPic is an AI professional headshot generator that creates high-quality, realistic portrait photos from your selfies, delivering studio-grade results at a fraction of traditional photography costs.",
+    features: [
+      "Realistic Headshots: AI portraits indistinguishable from real photography",
+      "Style Selection: Multiple professional looks and settings",
+      "Outfit Options: Virtual outfit changes for different professional contexts",
+      "Bulk Headshots: Get dozens of professional photo variations",
+      "Fast Delivery: Professional headshots ready in under an hour"
+    ],
+    howToUse: {
+      title: "How to Use Betterpic",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Reference Photos", description: "Submit fifteen to twenty photos of yourself in good lighting from various angles for best results." },
+        { title: "Select Your Preferences", description: "Choose your preferred style, background setting, and any specific professional context you need." },
+        { title: "AI Generates Your Headshots", description: "The AI processes your photos and generates dozens of professional headshot variations for you to review." },
+        { title: "Download Your Favorites", description: "Select your best headshots from the generated options and download in high resolution for professional use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photorealistic Quality", description: "Generates headshots of a quality that is consistently mistaken for real professional photography by viewers." },
+      { title: "High Volume Output", description: "Produces dozens of headshot variations in one session giving you plenty of options to choose the best ones." },
+      { title: "Cost Efficiency", description: "Delivers results comparable to a professional photography session at a significantly lower price point." }
+    ],
+    useCases: [
+      { title: "Professionals Updating Headshots", description: "Refresh your professional photo across LinkedIn, company profiles, and speaking bios without booking a photographer." },
+      { title: "Teams and Companies", description: "Get consistent professional headshots for entire teams quickly and affordably for websites and directories." },
+      { title: "Freelancers and Consultants", description: "Present a polished professional image to potential clients without the expense of a professional photoshoot." }
+    ]
+  },
   "styldo": {
     whatIs: "Styldo is an AI-powered fashion discovery platform that helps users find outfits, get personalized style recommendations, and shop curated looks tailored to their preferences and body type.",
     features: [
