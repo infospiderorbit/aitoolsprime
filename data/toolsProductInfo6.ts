@@ -1,4 +1,604 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "resume-worded": {
+    whatIs: "Resume Worded is an AI resume and LinkedIn profile optimizer that provides instant detailed feedback on your resume scored against recruiter expectations and ATS requirements to improve your job application success rate.",
+    features: [
+      "Resume Scoring: Instant AI score with detailed improvement feedback",
+      "LinkedIn Optimization: Profile review and improvement suggestions",
+      "ATS Compatibility: Ensure your resume passes automated screening",
+      "Line-by-Line Feedback: Specific suggestions for every section",
+      "Job Tailoring: Match your resume to target job descriptions"
+    ],
+    howToUse: {
+      title: "How to Use Resume Worded",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Resume", description: "Submit your resume to Resume Worded for instant AI-powered scoring and detailed feedback analysis." },
+        { title: "Review Your Score", description: "See your overall resume score and understand which areas need the most improvement work." },
+        { title: "Apply Feedback", description: "Work through the line-by-line suggestions and implement improvements section by section." },
+        { title: "Optimize for Jobs", description: "Use the job tailoring feature to customize your resume for specific target roles and descriptions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Detailed Scoring", description: "Provides granular feedback on every resume section with specific actionable improvement suggestions." },
+      { title: "LinkedIn Integration", description: "Analyzes and scores your LinkedIn profile with the same depth as your resume for consistent branding." },
+      { title: "Recruiter Perspective", description: "Scores resumes against criteria based on what actual recruiters look for when reviewing applications." }
+    ],
+    useCases: [
+      { title: "Job Seekers", description: "Get specific actionable resume improvements that meaningfully increase your chances of getting interviews." },
+      { title: "Career Changers", description: "Understand exactly what your resume is missing for your target industry and fix those gaps efficiently." },
+      { title: "Professionals Refreshing Resumes", description: "Get an objective AI assessment of your current resume and implement targeted improvements quickly." }
+    ]
+  },
+  "careerflow": {
+    whatIs: "Careerflow is an AI job search management platform that helps users track applications, optimize their LinkedIn profile, and organize their entire job search from one structured dashboard.",
+    features: [
+      "Job Tracker: Organize all applications in one visual board",
+      "LinkedIn Optimizer: AI review and improvement of your profile",
+      "Resume Builder: Create and manage resume versions easily",
+      "Job Board Integration: Import jobs from major platforms",
+      "Application Analytics: Insights on your job search progress"
+    ],
+    howToUse: {
+      title: "How to Use Careerflow",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Board", description: "Create your Careerflow account and set up your job search kanban board for tracking applications." },
+        { title: "Import Your Jobs", description: "Add jobs you are interested in or have applied to from major job boards directly into your tracker." },
+        { title: "Optimize Your LinkedIn", description: "Run the LinkedIn optimizer to get specific suggestions for improving your profile visibility and appeal." },
+        { title: "Track Your Progress", description: "Move applications through stages and use analytics to understand your job search performance patterns." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Job Tracking", description: "Organizes your entire job search on a kanban board so you always know the status of every application." },
+      { title: "LinkedIn AI Review", description: "Analyzes your LinkedIn profile and provides specific recommendations to improve recruiter visibility." },
+      { title: "Search Analytics", description: "Tracks application volumes, response rates, and pipeline stages to reveal job search performance insights." }
+    ],
+    useCases: [
+      { title: "Active Job Seekers", description: "Stay organized across a high-volume job search without losing track of applications or follow-up timing." },
+      { title: "Strategic Job Searchers", description: "Manage your search deliberately with visual tracking and analytics that reveal what is and is not working." },
+      { title: "LinkedIn Users", description: "Improve your LinkedIn profile with AI feedback that increases visibility to recruiters searching your field." }
+    ]
+  },
+  "vmock": {
+    whatIs: "VMock is an AI-powered resume and career document review platform used by universities and professionals that provides instant smart feedback on resumes, cover letters, and LinkedIn profiles.",
+    features: [
+      "Smart Resume Review: Instant AI feedback on your resume",
+      "Cover Letter Analysis: Feedback on your cover letter quality",
+      "LinkedIn Review: Profile optimization recommendations",
+      "Industry Benchmarking: Compare against top performers in your field",
+      "University Partnerships: Widely used by top business schools"
+    ],
+    howToUse: {
+      title: "How to Use Vmock",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Document", description: "Submit your resume, cover letter, or LinkedIn profile export to VMock for instant AI analysis." },
+        { title: "Review Smart Feedback", description: "Read through the detailed feedback organized by section with specific improvement recommendations." },
+        { title: "Benchmark Your Resume", description: "See how your resume compares to top performers in your target industry or role category." },
+        { title: "Implement and Resubmit", description: "Make the suggested improvements and resubmit to VMock to verify your score has improved meaningfully." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Benchmarking Intelligence", description: "Compares your resume against high-performing examples in your target field for contextualized feedback." },
+      { title: "Multi-Document Coverage", description: "Reviews resumes, cover letters, and LinkedIn profiles providing comprehensive career document feedback." },
+      { title: "University Integration", description: "Partners with leading universities making it a trusted tool across top MBA and undergraduate programs." }
+    ],
+    useCases: [
+      { title: "University Students", description: "Access professional-grade resume feedback through your university's VMock partnership before entering the job market." },
+      { title: "MBA Candidates", description: "Polish your career documents to the standard expected by top employers recruiting from business schools." },
+      { title: "Career Service Teams", description: "Provide scalable AI-powered resume feedback to students without overwhelming human career advisors." }
+    ]
+  },
+  "huntr": {
+    whatIs: "Huntr is a job search organizer and career management tool that helps job seekers track applications, save job listings, manage contacts, and stay organized throughout the entire job hunting process.",
+    features: [
+      "Job Board: Save and organize interesting job listings",
+      "Application Tracker: Monitor every application's status",
+      "Contact Management: Track recruiter and hiring manager contacts",
+      "Resume Storage: Keep resume versions organized and accessible",
+      "Activity Timeline: See your complete job search history"
+    ],
+    howToUse: {
+      title: "How to Use Huntr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Add the Huntr browser extension to save jobs from any job board directly into your tracker." },
+        { title: "Build Your Board", description: "Organize saved jobs into columns representing different stages of your application process." },
+        { title: "Track Every Application", description: "Update job statuses as you apply, interview, and receive decisions to maintain an accurate pipeline." },
+        { title: "Manage Your Contacts", description: "Log recruiter and hiring manager contacts for each opportunity to stay organized for follow-ups." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser Extension Saving", description: "Saves job listings from any website directly into your Huntr board with one click while browsing." },
+      { title: "Pipeline Visualization", description: "Displays your entire job search as a visual kanban pipeline for clear status tracking at a glance." },
+      { title: "Contact Organization", description: "Maintains a contact log for each job opportunity so you never lose track of who to follow up with." }
+    ],
+    useCases: [
+      { title: "Organized Job Seekers", description: "Never lose track of an application or contact again with a dedicated job search management system." },
+      { title: "High-Volume Applicants", description: "Manage dozens of simultaneous applications without confusion about where each opportunity stands." },
+      { title: "Systematic Searchers", description: "Run your job search like a project with clear tracking, contacts, and activity history for every role." }
+    ]
+  },
+  "loopcv": {
+    whatIs: "LoopCV is an automated job application platform that automatically applies to relevant jobs on your behalf based on your profile and preferences, dramatically scaling the number of applications you submit daily.",
+    features: [
+      "Auto Apply: Automatically submit applications to matching jobs",
+      "Job Matching: AI finds relevant opportunities based on your profile",
+      "Application Scaling: Apply to dozens of jobs daily automatically",
+      "CV Management: Manage and deploy resume versions strategically",
+      "Application Tracking: Monitor all auto-submitted applications"
+    ],
+    howToUse: {
+      title: "How to Use Loopcv",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Profile", description: "Set up your LoopCV profile with your skills, experience, target roles, and job search preferences." },
+        { title: "Configure Your Criteria", description: "Define the types of roles, locations, and companies you want LoopCV to target with auto-applications." },
+        { title: "Activate Auto-Apply", description: "Turn on automation and let LoopCV identify and apply to matching jobs on your behalf daily." },
+        { title: "Monitor Your Applications", description: "Track all auto-submitted applications and respond promptly to any interview invitations you receive." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Application Automation", description: "Submits job applications automatically at a scale impossible to achieve through manual effort alone." },
+      { title: "Smart Job Matching", description: "Identifies relevant opportunities based on your profile to ensure applications go to appropriate roles." },
+      { title: "Scale Advantage", description: "Dramatically increases your application volume which statistically improves your chances of getting interviews." }
+    ],
+    useCases: [
+      { title: "Passive Job Seekers", description: "Let automation handle applications while you continue working so opportunities come to you more effortlessly." },
+      { title: "Efficiency-Focused Applicants", description: "Maximize your job search reach without spending hours manually applying to individual positions each day." },
+      { title: "Career Transitioners", description: "Apply broadly across your target industry to accelerate your transition with higher application volume." }
+    ]
+  },
+  "pyjamaHR": {
+    whatIs: "PyjamaHR is a free applicant tracking system that helps small and medium businesses manage their entire recruitment process from job posting through hiring with AI-powered candidate screening tools.",
+    features: [
+      "Free ATS: Complete applicant tracking at no cost",
+      "Job Posting: Publish openings to multiple job boards",
+      "AI Screening: Automated candidate ranking and filtering",
+      "Pipeline Management: Track candidates through hiring stages",
+      "Team Collaboration: Multiple recruiters managing roles together"
+    ],
+    howToUse: {
+      title: "How to Use Pyjamahr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up for PyjamaHR and set up your company profile and recruitment team access." },
+        { title: "Post Your Job", description: "Create job listings and publish them to your career page and connected job boards simultaneously." },
+        { title: "Receive Applications", description: "Let candidates apply and have PyjamaHR organize them automatically in your hiring pipeline." },
+        { title: "Screen and Hire", description: "Use AI screening to prioritize candidates and move the best ones through your interview process." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Full Access", description: "Provides complete ATS functionality without payment making professional recruitment tools accessible to all businesses." },
+      { title: "Multi-Board Posting", description: "Publishes job listings to multiple job boards simultaneously to maximize candidate reach and applications." },
+      { title: "AI Candidate Ranking", description: "Automatically scores and ranks applicants based on job requirements to surface the most qualified candidates." }
+    ],
+    useCases: [
+      { title: "Small Businesses", description: "Manage professional recruitment processes without paying for expensive enterprise ATS software subscriptions." },
+      { title: "Growing Startups", description: "Build a scalable hiring process from early stages with a free ATS that grows with your team." },
+      { title: "HR Generalists", description: "Handle recruitment alongside other HR responsibilities with an efficient ATS that saves significant time." }
+    ]
+  },
+  "komodo": {
+    whatIs: "Komodo is a screen recording and visual communication tool that helps teams create step-by-step video guides, tutorials, and process documentation quickly with automatic transcription and sharing features.",
+    features: [
+      "Screen Recording: Capture screen with audio and webcam",
+      "Step Detection: Automatically identifies process steps",
+      "Auto Transcription: Speech to text for every recording",
+      "Easy Sharing: Instant shareable links for every recording",
+      "Team Library: Organized collection of team recordings"
+    ],
+    howToUse: {
+      title: "How to Use Komodo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Recording", description: "Launch Komodo and begin capturing your screen with audio to document your process or tutorial." },
+        { title: "Walk Through Your Steps", description: "Perform the process naturally while Komodo records and automatically detects individual steps." },
+        { title: "Review Your Recording", description: "Check the recorded content and transcript for accuracy before sharing with your audience." },
+        { title: "Share Instantly", description: "Generate a shareable link and send your recording to teammates or embed it in documentation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Step Auto-Detection", description: "Identifies and labels individual process steps automatically making tutorial navigation clear and organized." },
+      { title: "Instant Sharing", description: "Creates shareable links immediately after recording without upload delays or processing waiting time." },
+      { title: "Team Organization", description: "Maintains a shared library of team recordings for consistent process documentation and training materials." }
+    ],
+    useCases: [
+      { title: "Operations Teams", description: "Document processes and procedures quickly with screen recordings that are immediately shareable across teams." },
+      { title: "Onboarding Teams", description: "Create step-by-step video guides for new employee training without professional video production effort." },
+      { title: "Customer Support", description: "Record quick visual answers to customer questions and share instantly instead of writing long instructions." }
+    ]
+  },
+  "document360": {
+    whatIs: "Document360 is a knowledge base and documentation platform that helps teams create, manage, and publish self-service documentation portals with AI-powered search and content management tools.",
+    features: [
+      "Knowledge Base: Build comprehensive self-service documentation",
+      "AI Search: Intelligent search across all documentation content",
+      "Version Control: Track changes and maintain document history",
+      "Analytics: Understand which docs get read and what users search",
+      "Team Collaboration: Multiple authors managing content together"
+    ],
+    howToUse: {
+      title: "How to Use Document360",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Portal", description: "Create your Document360 knowledge base and configure your branding, categories, and navigation structure." },
+        { title: "Create Your Articles", description: "Write and publish documentation articles using the rich text editor with media and formatting support." },
+        { title: "Organize Your Content", description: "Structure your knowledge base with categories and subcategories that make navigation intuitive for users." },
+        { title: "Monitor and Improve", description: "Use analytics to see which articles get the most traffic and what searches return no results to guide improvements." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI-Powered Search", description: "Provides intelligent search that understands user intent and surfaces the most relevant documentation accurately." },
+      { title: "Content Analytics", description: "Tracks article views, search terms, and failed searches to reveal documentation gaps and improvement priorities." },
+      { title: "Version Management", description: "Maintains complete history of document changes so teams can track edits and restore previous versions." }
+    ],
+    useCases: [
+      { title: "SaaS Companies", description: "Build comprehensive product documentation that reduces support burden and improves user onboarding success." },
+      { title: "Customer Support Teams", description: "Create self-service knowledge bases that deflect common support tickets and empower customers to help themselves." },
+      { title: "Internal Teams", description: "Document internal processes and procedures in an organized searchable portal everyone can access and trust." }
+    ]
+  },
+  "dubble": {
+    whatIs: "Dubble is an AI-powered process documentation tool that automatically creates step-by-step guides and tutorials by watching you work and capturing your actions into illustrated written documentation.",
+    features: [
+      "Auto Documentation: Captures your actions into written guides",
+      "Screenshot Capture: Automatic screenshots at every step",
+      "Step-by-Step Guides: Professional how-to documentation generated",
+      "Easy Editing: Refine auto-generated docs before sharing",
+      "Instant Export: Download as PDF or share as web page"
+    ],
+    howToUse: {
+      title: "How to Use Dubble",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Dubble", description: "Add the Dubble browser extension to Chrome to enable automatic process capture while you work." },
+        { title: "Start Your Recording", description: "Click record and begin performing the process you want to document naturally in your browser." },
+        { title: "Let Dubble Capture", description: "Dubble automatically takes screenshots and records your actions as you complete each step of the process." },
+        { title: "Edit and Share", description: "Review the auto-generated documentation, make any refinements, and share as a PDF or web link." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Capture", description: "Records your browser actions and screenshots automatically without requiring manual documentation effort." },
+      { title: "Illustrated Guides", description: "Creates professional step-by-step guides with automatic screenshots that show exactly what to click." },
+      { title: "Instant Generation", description: "Produces complete process documentation immediately after you finish performing the workflow being captured." }
+    ],
+    useCases: [
+      { title: "Operations Teams", description: "Document recurring processes and workflows automatically without spending time writing instructions manually." },
+      { title: "Trainers and Onboarders", description: "Create visual step-by-step guides for new employee training quickly by simply performing the process once." },
+      { title: "Customer Success Teams", description: "Build product how-to guides instantly by recording yourself completing common customer tasks and workflows." }
+    ]
+  },
+  "manifestly-checklists": {
+    whatIs: "Manifestly Checklists is a team checklist and workflow management platform that helps businesses create, run, and track recurring process checklists to ensure consistent execution across their operations.",
+    features: [
+      "Recurring Checklists: Schedule and automate checklist runs",
+      "Team Assignment: Assign checklist tasks to specific team members",
+      "Progress Tracking: Monitor checklist completion in real time",
+      "Workflow Templates: Pre-built checklists for common processes",
+      "Integrations: Connect with Slack, email, and other tools"
+    ],
+    howToUse: {
+      title: "How to Use Manifestly Checklists",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Checklist", description: "Build your process checklist by adding all required steps and assigning them to responsible team members." },
+        { title: "Schedule Recurrence", description: "Set up automatic scheduling so your checklist runs daily, weekly, or at whatever frequency your process requires." },
+        { title: "Run and Complete", description: "Team members receive their assigned tasks and mark them complete as they work through the checklist." },
+        { title: "Track and Verify", description: "Monitor completion status in real time and verify all steps were completed on schedule and correctly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated Scheduling", description: "Runs checklists automatically on defined schedules without manual triggering for recurring operational processes." },
+      { title: "Team Accountability", description: "Assigns specific checklist items to named team members creating clear ownership and accountability for each step." },
+      { title: "Completion Tracking", description: "Provides real-time visibility into checklist progress so managers can verify processes are being followed correctly." }
+    ],
+    useCases: [
+      { title: "Operations Managers", description: "Ensure recurring operational processes are completed consistently without relying on memory or informal habits." },
+      { title: "Quality Teams", description: "Standardize quality control processes with structured checklists that create auditable completion records." },
+      { title: "Franchise Operations", description: "Maintain consistent process execution across multiple locations with standardized checklists and completion tracking." }
+    ]
+  },
+  "checklist-gg": {
+    whatIs: "Checklist.gg is a simple and flexible online checklist tool that helps individuals and teams create, share, and track checklists for projects, processes, and recurring tasks with minimal setup required.",
+    features: [
+      "Simple Checklists: Create and manage checklists instantly",
+      "Team Sharing: Share checklists with teammates easily",
+      "Progress Tracking: Monitor completion across all items",
+      "Recurring Tasks: Set up repeating checklist schedules",
+      "Template Library: Start from proven checklist templates"
+    ],
+    howToUse: {
+      title: "How to Use Checklist Gg",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Checklist", description: "Open checklist.gg and create a new checklist by adding your items quickly without complex setup." },
+        { title: "Invite Your Team", description: "Share your checklist with team members so everyone can see and update the same list together." },
+        { title: "Work Through Items", description: "Check off items as they are completed and track overall progress toward finishing the full list." },
+        { title: "Set Up Recurrence", description: "Configure checklists to repeat automatically for processes that need to run on a regular schedule." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Simplicity First", description: "Provides a clean frictionless checklist experience without unnecessary complexity or feature overload." },
+      { title: "Instant Sharing", description: "Makes checklists shareable with a simple link so collaboration requires no setup or account creation." },
+      { title: "Template Availability", description: "Offers proven checklist templates for common use cases so you start with a relevant structure immediately." }
+    ],
+    useCases: [
+      { title: "Small Teams", description: "Coordinate simple recurring processes with shared checklists that keep everyone on the same page easily." },
+      { title: "Individuals", description: "Manage personal projects and recurring tasks with simple checklists that are quick to create and use." },
+      { title: "Process Starters", description: "Begin formalizing business processes with lightweight checklists before investing in more complex workflow tools." }
+    ]
+  },
+  "card-scanner": {
+    whatIs: "Card Scanner is an AI-powered business card scanning app that digitizes physical business cards by extracting contact information automatically and importing it directly into your contacts or CRM.",
+    features: [
+      "Instant Scanning: Capture business card data with your camera",
+      "AI Extraction: Automatically reads name email phone and company",
+      "CRM Integration: Export contacts to Salesforce HubSpot and more",
+      "Digital Storage: Keep all scanned cards in one organized place",
+      "Bulk Scanning: Process multiple cards quickly at events"
+    ],
+    howToUse: {
+      title: "How to Use Card Scanner",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open the App", description: "Launch Card Scanner on your smartphone and point your camera at the business card you want to digitize." },
+        { title: "Scan the Card", description: "Capture the card image and let the AI automatically extract all contact information from the card." },
+        { title: "Review the Data", description: "Check the extracted information for accuracy and make any minor corrections before saving." },
+        { title: "Save or Export", description: "Add the contact to your phone's address book or export directly to your CRM with one tap." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Data Extraction", description: "Reads and extracts contact details from business cards accurately including names, emails, and phone numbers." },
+      { title: "CRM Synchronization", description: "Exports scanned contacts directly to popular CRM platforms eliminating manual contact entry after events." },
+      { title: "Bulk Processing", description: "Handles scanning multiple cards quickly making it practical to digitize large collections from conferences." }
+    ],
+    useCases: [
+      { title: "Sales Professionals", description: "Digitize business cards collected at meetings and conferences instantly without manual contact entry later." },
+      { title: "Networkers", description: "Convert your physical card collection into a searchable digital contact database quickly and accurately." },
+      { title: "Event Attendees", description: "Process the business cards you collect at industry events immediately so contacts never get lost or forgotten." }
+    ]
+  },
+  "ludex": {
+    whatIs: "Ludex is an AI-powered sports card and collectible scanner that identifies trading cards from photos and provides instant pricing, valuation, and market data for collectors and traders.",
+    features: [
+      "Card Identification: Scan any sports card for instant recognition",
+      "Real-Time Pricing: Current market values from active listings",
+      "Collection Management: Track and value your entire collection",
+      "Market Trends: Price history and trend data for any card",
+      "Condition Assessment: Grading guidance for card condition"
+    ],
+    howToUse: {
+      title: "How to Use Ludex",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Scan Your Card", description: "Open Ludex and use your camera to photograph the sports card you want to identify and value." },
+        { title: "Get Identification", description: "Receive instant AI identification of the card including player, year, set, and specific variation details." },
+        { title: "Check Market Value", description: "See current pricing data from active marketplace listings for the exact card you scanned." },
+        { title: "Track Your Collection", description: "Add scanned cards to your collection to monitor total value and individual card price movements." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Instant Identification", description: "Recognizes sports cards from photos accurately including specific parallels, variations, and print runs." },
+      { title: "Real-Time Market Data", description: "Pulls current pricing from active sales and listings for accurate up-to-date valuation of any card." },
+      { title: "Collection Valuation", description: "Tracks the total value of your card collection with automatic price updates as market values change." }
+    ],
+    useCases: [
+      { title: "Sports Card Collectors", description: "Know exactly what any card is worth instantly before buying, selling, or trading in any situation." },
+      { title: "Card Traders", description: "Price cards accurately and quickly at card shows, shops, and online marketplaces without manual research." },
+      { title: "Collection Managers", description: "Maintain an accurate valuation of your entire collection with automatic market price tracking over time." }
+    ]
+  },
+  "arbitragescanner-io": {
+    whatIs: "ArbitrageScanner.io is a crypto arbitrage tool that monitors price differences across cryptocurrency exchanges in real time and identifies profitable trading opportunities automatically for traders.",
+    features: [
+      "Real-Time Scanning: Monitor price differences across exchanges",
+      "Opportunity Alerts: Instant notifications for profitable spreads",
+      "Multiple Exchanges: Covers all major crypto trading platforms",
+      "Profit Calculator: Estimate returns after fees automatically",
+      "Historical Data: Track past arbitrage opportunities and results"
+    ],
+    howToUse: {
+      title: "How to Use Arbitragescanner Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Account", description: "Set up your ArbitrageScanner account and configure which exchanges and trading pairs to monitor." },
+        { title: "Set Your Parameters", description: "Define minimum spread thresholds and profit requirements for the opportunities you want to be alerted about." },
+        { title: "Receive Opportunities", description: "Get real-time alerts when the scanner identifies price differences that meet your defined criteria." },
+        { title: "Execute Your Trade", description: "Act on identified opportunities quickly through your exchange accounts before the spread closes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Detection", description: "Monitors price differences across exchanges continuously identifying opportunities as they appear in milliseconds." },
+      { title: "Fee-Adjusted Calculations", description: "Calculates actual profit potential after accounting for trading fees, withdrawal costs, and transfer times." },
+      { title: "Multi-Exchange Coverage", description: "Tracks price discrepancies across all major cryptocurrency exchanges for comprehensive opportunity discovery." }
+    ],
+    useCases: [
+      { title: "Crypto Traders", description: "Find and act on price discrepancy opportunities across exchanges that would be impossible to spot manually." },
+      { title: "Active Investors", description: "Supplement your trading strategy with arbitrage opportunities that profit from market inefficiencies." },
+      { title: "Algorithmic Traders", description: "Use scanner data to inform automated trading strategies that capture arbitrage spreads systematically." }
+    ]
+  },
+  "zerothreat": {
+    whatIs: "ZeroThreat is a cybersecurity platform that provides automated vulnerability scanning, threat detection, and security monitoring to help businesses identify and address security weaknesses before they are exploited.",
+    features: [
+      "Vulnerability Scanning: Automated detection of security weaknesses",
+      "Threat Monitoring: Continuous surveillance for active threats",
+      "Risk Assessment: Prioritized security risk scoring and reporting",
+      "Compliance Tools: Support for security compliance requirements",
+      "Incident Response: Guided steps for addressing detected threats"
+    ],
+    howToUse: {
+      title: "How to Use Zerothreat",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Scanning", description: "Configure ZeroThreat with your systems and infrastructure details to begin automated security scanning." },
+        { title: "Run Your Assessment", description: "Let ZeroThreat scan your environment for vulnerabilities and generate your initial security risk report." },
+        { title: "Review Findings", description: "Examine identified vulnerabilities prioritized by risk level with detailed descriptions and impact assessments." },
+        { title: "Remediate Issues", description: "Follow the guided remediation steps to address discovered vulnerabilities and improve your security posture." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated Scanning", description: "Continuously scans your systems for vulnerabilities without requiring manual security testing efforts." },
+      { title: "Risk Prioritization", description: "Scores and ranks identified vulnerabilities by severity so security teams focus on the most critical issues first." },
+      { title: "Compliance Support", description: "Helps organizations meet common security compliance frameworks with documentation and control verification tools." }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Identify security vulnerabilities in your systems without hiring a dedicated cybersecurity team or consultant." },
+      { title: "IT Teams", description: "Automate vulnerability discovery and maintain continuous security monitoring across your infrastructure." },
+      { title: "Compliance Managers", description: "Demonstrate security due diligence and maintain compliance documentation with automated scanning records." }
+    ]
+  },
+  "reach-cards": {
+    whatIs: "Reach Cards is a digital business card platform that lets professionals create and share interactive digital business cards with analytics on who views and engages with their contact information.",
+    features: [
+      "Digital Business Cards: Create beautiful interactive contact cards",
+      "Easy Sharing: Share via QR code link NFC or social media",
+      "View Analytics: See who opened your card and when",
+      "Contact Exchange: Recipients can save your details instantly",
+      "Custom Branding: Match your card to your personal brand"
+    ],
+    howToUse: {
+      title: "How to Use Reach Cards",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Card", description: "Build your Reach Card by adding your contact details, links, photo, and professional information." },
+        { title: "Customize Your Design", description: "Choose colors, layout, and branding elements that reflect your professional identity and style." },
+        { title: "Share Your Card", description: "Distribute via QR code at meetings, link in email signature, or tap via NFC with compatible devices." },
+        { title: "Track Engagement", description: "Review analytics showing who viewed your card and use insights to follow up with interested contacts." }
+      ]
+    },
+    coreFeatures: [
+      { title: "View Analytics", description: "Shows exactly who opened your digital card and when providing valuable follow-up intelligence after meetings." },
+      { title: "Multiple Sharing Methods", description: "Shares via QR code, direct link, NFC tap, and social media for maximum flexibility in any situation." },
+      { title: "Instant Contact Saving", description: "Allows recipients to save your contact details directly to their phone with one tap on your card." }
+    ],
+    useCases: [
+      { title: "Sales Professionals", description: "Know which prospects engaged with your contact card after meetings to prioritize timely and relevant follow-ups." },
+      { title: "Networkers", description: "Make a memorable impression with a beautiful interactive digital card that stands out from paper alternatives." },
+      { title: "Executives", description: "Share contact information professionally at events without carrying physical cards or worrying about running out." }
+    ]
+  },
+  "tiimo": {
+    whatIs: "Tiimo is an AI daily planning and routine management app designed for neurodivergent individuals that uses visual schedules, timers, and gentle reminders to support time awareness and daily structure.",
+    features: [
+      "Visual Schedules: Daily routines displayed as clear visual timelines",
+      "Gentle Reminders: Supportive notifications for upcoming tasks",
+      "Time Awareness: Visual timers that make time passing tangible",
+      "Routine Building: Create and maintain consistent daily routines",
+      "ADHD Friendly: Designed specifically for neurodivergent needs"
+    ],
+    howToUse: {
+      title: "How to Use Tiimo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Routines", description: "Create your daily routines by adding activities with time estimates and choosing visual icons for each." },
+        { title: "Customize Reminders", description: "Configure notification timing and style so reminders feel supportive rather than intrusive or stressful." },
+        { title: "Follow Your Visual Schedule", description: "Use the visual timeline throughout your day to see what comes next and how much time you have." },
+        { title: "Build Consistency", description: "Repeat your routines daily and use Tiimo's gentle system to build the structure and consistency you need." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Time Representation", description: "Makes abstract time concepts concrete and visible through timeline displays that neurodivergent users find helpful." },
+      { title: "Neurodivergent Design", description: "Built specifically around the needs of people with ADHD, autism, and other neurodivergent conditions." },
+      { title: "Gentle Notification System", description: "Provides reminders in a supportive non-overwhelming style that helps rather than adds to daily stress." }
+    ],
+    useCases: [
+      { title: "People with ADHD", description: "Build daily structure and improve time awareness with visual schedules designed for how your brain works." },
+      { title: "Autistic Individuals", description: "Maintain predictable routines with visual schedules that reduce uncertainty and support daily functioning." },
+      { title: "Parents of Neurodivergent Children", description: "Help children build daily routines and time awareness with visual tools designed for their specific needs." }
+    ]
+  },
+  "morgen": {
+    whatIs: "Morgen is a unified calendar and task management app that brings together all your calendars, tasks, and scheduling tools into one intelligent daily planning interface for better time management.",
+    features: [
+      "Unified Calendar: All calendars merged into one clear view",
+      "Task Integration: Tasks and events on one combined timeline",
+      "Scheduling Assistant: AI helps find optimal meeting times",
+      "Time Blocking: Schedule focused work time alongside meetings",
+      "Multi-Calendar Sync: Google Outlook and Apple calendar support"
+    ],
+    howToUse: {
+      title: "How to Use Morgen",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Calendars", description: "Link all your calendar accounts to Morgen for a unified view of your entire schedule in one place." },
+        { title: "Add Your Tasks", description: "Import tasks from your task management tools or add them directly with time estimates and priorities." },
+        { title: "Plan Your Day", description: "Use the daily planning view to schedule tasks into available time blocks alongside your existing meetings." },
+        { title: "Schedule Meetings", description: "Use the scheduling assistant to find optimal meeting times that work for all participants efficiently." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Calendar Unification", description: "Merges all connected calendars into one comprehensive view eliminating the need to check multiple apps." },
+      { title: "Task-Calendar Integration", description: "Combines tasks and calendar events on one timeline for a complete picture of your actual available time." },
+      { title: "Scheduling Intelligence", description: "Finds optimal meeting times across multiple participants and calendars automatically for efficient coordination." }
+    ],
+    useCases: [
+      { title: "Professionals with Multiple Calendars", description: "Get one clear view of your entire schedule across work, personal, and other calendar accounts simultaneously." },
+      { title: "Busy Managers", description: "Balance meetings and focused work time effectively with a unified planning interface and time blocking tools." },
+      { title: "Remote Workers", description: "Coordinate across time zones and multiple tools with a unified calendar that brings everything together clearly." }
+    ]
+  },
+  "rotageek": {
+    whatIs: "Rotageek is an AI-powered workforce scheduling platform that helps businesses create optimized staff rotas automatically, matching employee availability, skills, and demand forecasts for efficient operations.",
+    features: [
+      "AI Scheduling: Automated rota creation based on demand forecasts",
+      "Demand Forecasting: Predict staffing needs from historical data",
+      "Employee App: Staff view and manage their schedules mobile",
+      "Compliance Tools: Ensure schedules meet labor law requirements",
+      "Integration Ready: Connects with HR and payroll systems"
+    ],
+    howToUse: {
+      title: "How to Use Rotageek",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Team", description: "Add your employees with their skills, availability, and contract details to the Rotageek system." },
+        { title: "Input Demand Data", description: "Provide historical demand data so Rotageek can forecast your staffing requirements accurately by period." },
+        { title: "Generate Your Rota", description: "Let the AI create an optimized schedule that matches staff availability and skills to forecasted demand." },
+        { title: "Publish and Manage", description: "Publish the rota to your team through the employee app and handle any swap or change requests easily." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Demand-Driven Scheduling", description: "Creates staff schedules optimized against demand forecasts rather than just filling available hours arbitrarily." },
+      { title: "Compliance Automation", description: "Checks generated schedules against labor law requirements to prevent violations before they occur." },
+      { title: "Employee Self-Service", description: "Gives staff visibility and limited control over their schedules through a dedicated mobile application." }
+    ],
+    useCases: [
+      { title: "Retail Businesses", description: "Schedule staff efficiently against customer demand patterns to optimize labor costs and service quality." },
+      { title: "Hospitality Operations", description: "Create rotas for complex shift patterns across multiple roles and locations automatically and accurately." },
+      { title: "Healthcare Facilities", description: "Ensure appropriate staffing levels and skill coverage across all shifts with AI-optimized schedule generation." }
+    ]
+  },
+  "flowsavvy": {
+    whatIs: "FlowSavvy is an AI calendar and task scheduling tool that automatically time blocks your tasks into available calendar slots based on deadlines and priorities so you always have a realistic daily plan.",
+    features: [
+      "Auto Time Blocking: Tasks scheduled into calendar gaps automatically",
+      "Deadline Awareness: Schedules backward from deadlines intelligently",
+      "Priority Handling: Higher priority tasks get scheduled first",
+      "Calendar Sync: Works with Google Calendar seamlessly",
+      "Flexible Rescheduling: Adjusts automatically when plans change"
+    ],
+    howToUse: {
+      title: "How to Use Flowsavvy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Calendar", description: "Link FlowSavvy to your Google Calendar so it can see your existing events and available time slots." },
+        { title: "Add Your Tasks", description: "Enter your tasks with deadlines, time estimates, and priority levels for the AI to schedule intelligently." },
+        { title: "Review Your Plan", description: "See your tasks automatically placed into available calendar slots with a realistic daily and weekly view." },
+        { title: "Adjust as Needed", description: "Reschedule individual tasks manually or let FlowSavvy automatically reorganize when your schedule changes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Time Blocking", description: "Places tasks into available calendar gaps automatically without requiring manual scheduling decisions." },
+      { title: "Deadline Intelligence", description: "Works backward from task deadlines to ensure everything gets scheduled with sufficient time to complete." },
+      { title: "Dynamic Rescheduling", description: "Automatically moves tasks when calendar changes occur keeping your plan realistic and up to date." }
+    ],
+    useCases: [
+      { title: "Deadline-Driven Professionals", description: "Ensure every task gets scheduled realistically against your actual calendar availability before deadlines arrive." },
+      { title: "Overwhelmed Planners", description: "Stop manually figuring out when to do everything and let AI build your realistic daily plan automatically." },
+      { title: "Project-Focused Workers", description: "Keep multiple project tasks on track by having them automatically scheduled into your available working time." }
+    ]
+  },
   "turbolearn-ai": {
     whatIs: "TurboLearn AI is an AI study tool that transforms lectures, videos, and documents into flashcards, summaries, and quizzes automatically to help students learn faster and retain information more effectively.",
     features: [
