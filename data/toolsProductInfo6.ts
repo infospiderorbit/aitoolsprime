@@ -1,4 +1,544 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "turbolearn-ai": {
+    whatIs: "TurboLearn AI is an AI study tool that transforms lectures, videos, and documents into flashcards, summaries, and quizzes automatically to help students learn faster and retain information more effectively.",
+    features: [
+      "Auto Flashcards: Generate flashcards from any study material",
+      "Video to Notes: Convert lecture videos into structured notes",
+      "AI Quizzes: Practice quizzes created from your content",
+      "Smart Summaries: Concise summaries of complex material",
+      "Multi-Format Input: Works with PDFs, videos, and audio"
+    ],
+    howToUse: {
+      title: "How to Use Turbolearn Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Material", description: "Import your lecture recording, PDF, or document into TurboLearn AI for automatic processing." },
+        { title: "Generate Study Tools", description: "Let the AI create flashcards, summaries, and practice quizzes from your uploaded content automatically." },
+        { title: "Study and Practice", description: "Use your generated flashcards and quizzes to actively review and test your understanding of the material." },
+        { title: "Track Your Progress", description: "Monitor which concepts you have mastered and which need more review based on your quiz performance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Format Processing", description: "Accepts lectures, videos, PDFs, and audio files making it versatile for all types of study material." },
+      { title: "Automatic Flashcard Creation", description: "Generates high-quality flashcards from content without manual card creation saving hours of study prep." },
+      { title: "Active Recall Tools", description: "Creates practice quizzes that use active recall principles proven to improve long-term memory retention." }
+    ],
+    useCases: [
+      { title: "University Students", description: "Convert hours of lecture content into organized study materials in minutes before exam season." },
+      { title: "Professional Learners", description: "Quickly absorb training materials and professional development content with AI-generated study tools." },
+      { title: "Busy Students", description: "Make the most of limited study time by using AI to prepare materials so you can focus on actual learning." }
+    ]
+  },
+  "notegpt": {
+    whatIs: "NoteGPT is an AI note-taking and summarization tool that helps users summarize YouTube videos, web articles, and uploaded documents into structured notes with key takeaways and mind maps.",
+    features: [
+      "YouTube Summarization: Get notes from any YouTube video",
+      "Article Summary: Condense web articles into key points",
+      "Mind Maps: Visual mind maps generated from content",
+      "AI Chat: Ask questions about your summarized content",
+      "Note Organization: Keep all summaries organized in one place"
+    ],
+    howToUse: {
+      title: "How to Use Notegpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Link", description: "Enter a YouTube URL or web article link and let NoteGPT fetch and analyze the content automatically." },
+        { title: "Get Your Summary", description: "Receive a structured summary with key points, timestamps, and main takeaways from your content." },
+        { title: "Generate Mind Map", description: "Convert your summary into a visual mind map for better understanding and memory of the content." },
+        { title: "Chat With Content", description: "Ask specific questions about the summarized material to dig deeper into any topic or detail." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Video Intelligence", description: "Extracts key information from YouTube videos including timestamps for easy reference to specific moments." },
+      { title: "Mind Map Generation", description: "Converts text summaries into visual mind maps that make complex information easier to understand." },
+      { title: "Content Chat", description: "Allows users to ask specific questions about summarized content for deeper exploration of any topic." }
+    ],
+    useCases: [
+      { title: "Students", description: "Summarize educational YouTube videos and articles quickly to build study notes without watching everything." },
+      { title: "Researchers", description: "Extract key information from large volumes of online content efficiently for literature reviews." },
+      { title: "Content Consumers", description: "Stay informed by getting concise summaries of long videos and articles in a fraction of the time." }
+    ]
+  },
+  "knowt": {
+    whatIs: "Knowt is a free AI study platform that automatically converts class notes and study materials into flashcards, practice tests, and study guides to help students prepare for exams more efficiently.",
+    features: [
+      "Auto Flashcards: Notes converted to flashcards instantly",
+      "Practice Tests: AI-generated tests from your study materials",
+      "Study Guides: Organized guides created from uploaded content",
+      "Free to Use: Full features without payment required",
+      "Import Friendly: Works with notes from any format"
+    ],
+    howToUse: {
+      title: "How to Use Knowt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Notes", description: "Import your class notes, textbook pages, or study materials into Knowt for automatic processing." },
+        { title: "Generate Flashcards", description: "Let Knowt automatically create a comprehensive flashcard set from your uploaded study content." },
+        { title: "Take Practice Tests", description: "Use AI-generated practice tests to assess your knowledge and identify gaps before your real exam." },
+        { title: "Study Efficiently", description: "Focus your study time on the areas where practice tests show you need the most improvement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Conversion", description: "Transforms uploaded notes into flashcards and tests without any manual card creation work required." },
+      { title: "Free Full Access", description: "Provides complete study tool generation without payment making it accessible to all students everywhere." },
+      { title: "Test Generation", description: "Creates practice tests that mirror exam-style questions from your actual class materials and notes." }
+    ],
+    useCases: [
+      { title: "High School Students", description: "Turn class notes into study tools automatically and prepare for exams more effectively with less effort." },
+      { title: "College Students", description: "Convert lecture slides and reading notes into comprehensive study sets quickly before exam periods." },
+      { title: "Budget-Conscious Learners", description: "Access professional-quality AI study tools completely free without any subscription or payment required." }
+    ]
+  },
+  "study-fetch": {
+    whatIs: "Study Fetch is an AI learning platform that transforms study materials into interactive study experiences including flashcards, practice exams, and an AI tutor that answers questions about your content.",
+    features: [
+      "AI Tutor: Chat with an AI that knows your study material",
+      "Smart Flashcards: Auto-generated from your uploaded content",
+      "Practice Exams: AI creates tests based on your materials",
+      "Multiple Formats: Accepts PDFs, notes, and textbook content",
+      "Personalized Learning: Adapts to your knowledge gaps"
+    ],
+    howToUse: {
+      title: "How to Use Study Fetch",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Materials", description: "Import your study content including PDFs, notes, slides, and textbook chapters into Study Fetch." },
+        { title: "Generate Study Tools", description: "Let the AI create flashcards and practice exams tailored to your specific uploaded materials." },
+        { title: "Chat With Your AI Tutor", description: "Ask the AI tutor questions about your content and get detailed explanations based on your materials." },
+        { title: "Focus on Weak Areas", description: "Use practice exam results to identify knowledge gaps and target your remaining study time effectively." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalized AI Tutor", description: "Answers questions specifically about your uploaded materials rather than giving generic subject explanations." },
+      { title: "Adaptive Learning", description: "Identifies areas where you struggle based on practice performance and focuses review accordingly." },
+      { title: "Material-Specific Tests", description: "Generates practice exams from your actual study materials so tests directly reflect what you need to know." }
+    ],
+    useCases: [
+      { title: "Exam Preppers", description: "Get personalized practice tests and AI tutoring based on your exact study materials for targeted preparation." },
+      { title: "Self-Directed Learners", description: "Study independently with an AI tutor that answers your specific questions about your course content." },
+      { title: "Students with Dense Material", description: "Break down complex textbook content with an AI that explains concepts from your actual readings clearly." }
+    ]
+  },
+  "chatpdf": {
+    whatIs: "ChatPDF is an AI tool that lets users upload PDF documents and have natural conversations with them, asking questions and getting instant accurate answers pulled directly from the document content.",
+    features: [
+      "PDF Chat: Have conversations with any PDF document",
+      "Instant Answers: Get information from documents immediately",
+      "Multi-Document: Upload and query multiple PDFs at once",
+      "Citation References: Answers linked to specific document pages",
+      "Free Access: Basic PDF chat without payment required"
+    ],
+    howToUse: {
+      title: "How to Use Chatpdf",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your PDF", description: "Drag and drop your PDF document into ChatPDF to start the analysis and indexing process." },
+        { title: "Ask Your Questions", description: "Type any question about the document content and get an accurate answer drawn from the PDF." },
+        { title: "Follow Up Naturally", description: "Continue the conversation with follow-up questions to dig deeper into specific topics or sections." },
+        { title: "Check Citations", description: "Review the page references provided with each answer to verify accuracy in the original document." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Natural Conversation Interface", description: "Allows users to ask questions in plain English rather than manually searching through document pages." },
+      { title: "Citation Accuracy", description: "Provides page-level references with every answer so users can verify information in the source document." },
+      { title: "Multi-Document Support", description: "Queries across multiple uploaded PDFs simultaneously for comprehensive cross-document research." }
+    ],
+    useCases: [
+      { title: "Students", description: "Get answers from textbooks and academic papers instantly without reading every page of dense content." },
+      { title: "Professionals", description: "Extract specific information from lengthy reports and contracts quickly without manual document review." },
+      { title: "Researchers", description: "Query large collections of academic PDFs to find relevant information efficiently across multiple sources." }
+    ]
+  },
+  "pdfgear": {
+    whatIs: "PDFgear is a free all-in-one PDF editor that lets users edit, convert, annotate, compress, and sign PDF documents with AI-powered features without any subscription or hidden costs.",
+    features: [
+      "Free PDF Editing: Edit text and images in PDFs at no cost",
+      "Format Conversion: Convert PDFs to Word, Excel, and more",
+      "AI Assistant: Chat with your PDF and get instant summaries",
+      "Annotation Tools: Highlight, comment, and mark up documents",
+      "Compression: Reduce PDF file size without quality loss"
+    ],
+    howToUse: {
+      title: "How to Use Pdfgear",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open Your PDF", description: "Launch PDFgear and open your PDF document for editing, conversion, or AI-powered analysis." },
+        { title: "Edit Your Content", description: "Modify text, images, and layout directly within your PDF using the full suite of editing tools." },
+        { title: "Use AI Features", description: "Chat with your document, generate summaries, or ask specific questions about the PDF content." },
+        { title: "Save or Convert", description: "Export your edited PDF or convert it to your required format and download the finished file." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Completely Free", description: "Provides comprehensive PDF editing and AI features without any subscription fees or usage limits." },
+      { title: "AI Document Chat", description: "Enables natural language conversations with PDF content for instant information extraction and summarization." },
+      { title: "Full Editing Suite", description: "Covers editing, conversion, annotation, compression, and signing in one integrated free application." }
+    ],
+    useCases: [
+      { title: "Students", description: "Edit and annotate academic PDFs, convert formats, and chat with documents completely free of charge." },
+      { title: "Office Workers", description: "Handle all PDF tasks from editing to conversion without paying for expensive PDF software subscriptions." },
+      { title: "Small Business Owners", description: "Manage PDF documents professionally across all common tasks without software licensing costs." }
+    ]
+  },
+  "updf": {
+    whatIs: "UPDF is a modern AI-powered PDF editor that combines comprehensive editing tools with an integrated AI assistant for summarizing, translating, and chatting with PDF documents across all devices.",
+    features: [
+      "AI PDF Chat: Converse with your documents naturally",
+      "Full PDF Editing: Edit text, images, and pages completely",
+      "Translation: Translate PDF content into multiple languages",
+      "Cloud Sync: Access your documents across all your devices",
+      "Annotation: Rich markup and annotation tools included"
+    ],
+    howToUse: {
+      title: "How to Use Updf",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open Your Document", description: "Launch UPDF and import your PDF for editing or AI-powered document analysis and conversation." },
+        { title: "Edit Comprehensively", description: "Use the full editing toolkit to modify text, replace images, reorganize pages, and format content." },
+        { title: "Chat With AI", description: "Ask the integrated AI assistant questions about your document or request summaries and translations." },
+        { title: "Sync and Access", description: "Save to the cloud and access your documents seamlessly across your desktop, tablet, and mobile devices." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Integrated AI Assistant", description: "Combines a powerful PDF editor with a built-in AI that summarizes, translates, and answers document questions." },
+      { title: "Cross-Device Sync", description: "Keeps documents synchronized across all your devices through cloud storage for seamless workflow continuity." },
+      { title: "Comprehensive Editing", description: "Handles all PDF editing needs from simple text changes to complex page reorganization in one application." }
+    ],
+    useCases: [
+      { title: "Mobile Professionals", description: "Edit and manage PDFs across devices with cloud sync that keeps your work accessible everywhere you go." },
+      { title: "International Teams", description: "Translate PDF content between languages instantly to facilitate communication across language barriers." },
+      { title: "Document-Heavy Workers", description: "Handle all PDF tasks including editing, annotation, and AI analysis from one modern unified application." }
+    ]
+  },
+  "toppdf": {
+    whatIs: "TopPDF is an online PDF management tool that provides essential PDF operations including conversion, compression, merging, splitting, and editing through a simple browser-based interface without software installation.",
+    features: [
+      "PDF Conversion: Convert to and from PDF format easily",
+      "Compression: Reduce file sizes while maintaining quality",
+      "Merge and Split: Combine or divide PDF documents quickly",
+      "Online Access: Works entirely in your web browser",
+      "Multiple Formats: Convert between PDF and Office formats"
+    ],
+    howToUse: {
+      title: "How to Use Toppdf",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your File", description: "Go to TopPDF and upload the PDF or document you want to process through the browser interface." },
+        { title: "Choose Your Operation", description: "Select the operation you need — convert, compress, merge, split, or edit your document." },
+        { title: "Process Your File", description: "Let TopPDF handle the operation and wait for the processing to complete automatically." },
+        { title: "Download Your Result", description: "Download your processed file in the required format immediately after processing completes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser Convenience", description: "Handles all common PDF operations directly in the browser without requiring any software installation." },
+      { title: "Format Versatility", description: "Converts between PDF and multiple Office formats including Word, Excel, and PowerPoint accurately." },
+      { title: "File Size Management", description: "Compresses PDFs to reduce file size while preserving document quality for easier sharing and storage." }
+    ],
+    useCases: [
+      { title: "Office Workers", description: "Handle routine PDF tasks quickly without needing dedicated PDF software installed on your work computer." },
+      { title: "Students", description: "Convert, compress, and manage PDF assignments and study materials easily from any computer or device." },
+      { title: "General Users", description: "Perform occasional PDF operations without committing to a paid PDF software subscription." }
+    ]
+  },
+  "offline-chat": {
+    whatIs: "Offline Chat is a private AI chat application that runs language models entirely on your local device without any internet connection, ensuring complete privacy and data security for sensitive conversations.",
+    features: [
+      "Fully Offline: AI runs locally without internet connection",
+      "Complete Privacy: No data leaves your device ever",
+      "Multiple Models: Choose from various local AI models",
+      "Free to Run: No API costs after initial model download",
+      "Fast Response: Local processing without server latency"
+    ],
+    howToUse: {
+      title: "How to Use Offline Chat",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Download the App", description: "Install Offline Chat on your device and download your preferred local AI language model." },
+        { title: "Configure Your Model", description: "Set up your chosen model and adjust parameters to match your performance and quality preferences." },
+        { title: "Start Chatting", description: "Open the app and begin conversing with the AI entirely on your device without any internet connection." },
+        { title: "Use Privately", description: "Handle sensitive topics, confidential work, and private conversations with complete data security guaranteed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Local Processing", description: "Runs AI models entirely on your device so absolutely no conversation data is transmitted anywhere." },
+      { title: "Zero Ongoing Cost", description: "Eliminates API fees after initial setup making unlimited private AI conversations completely free to run." },
+      { title: "Model Selection", description: "Supports multiple local AI models letting users choose the best balance of quality and performance." }
+    ],
+    useCases: [
+      { title: "Privacy-Conscious Users", description: "Have completely private AI conversations without any concern about data collection or server logging." },
+      { title: "Security Professionals", description: "Discuss sensitive technical and security topics with AI without any risk of data interception or exposure." },
+      { title: "Remote Workers", description: "Use AI assistance in locations without reliable internet while maintaining productivity and access to AI tools." }
+    ]
+  },
+  "pdnob-pdf-editor": {
+    whatIs: "PDNob PDF Editor is a desktop PDF editing application that provides comprehensive tools for editing, annotating, converting, and managing PDF documents with an intuitive interface and AI-powered features.",
+    features: [
+      "Complete PDF Editing: Modify text images and layout fully",
+      "AI Features: Smart summarization and content analysis",
+      "Format Conversion: Convert PDFs to multiple file formats",
+      "Annotation Tools: Highlight comment and mark up documents",
+      "Batch Processing: Handle multiple PDFs simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Pdnob Pdf Editor",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install PDNob", description: "Download and install PDNob PDF Editor on your Windows or Mac computer." },
+        { title: "Open Your PDF", description: "Launch the application and open the PDF document you need to edit or process." },
+        { title: "Edit and Annotate", description: "Use the comprehensive editing tools to modify content, add annotations, and make all required changes." },
+        { title: "Convert or Save", description: "Export your finished document in PDF or convert to your required format and save the result." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Full Desktop Editing", description: "Provides comprehensive PDF editing capabilities in a dedicated desktop application for reliable performance." },
+      { title: "Batch Capabilities", description: "Processes multiple PDF files simultaneously saving time when handling large document collections." },
+      { title: "AI Document Analysis", description: "Adds intelligent summarization and content analysis capabilities alongside traditional editing tools." }
+    ],
+    useCases: [
+      { title: "Business Professionals", description: "Edit and manage PDF documents professionally with a full-featured desktop application for daily document work." },
+      { title: "Administrative Staff", description: "Handle document editing, conversion, and annotation tasks efficiently without complex software learning curves." },
+      { title: "Content Editors", description: "Make precise edits to PDF content including text, images, and formatting with comprehensive desktop tools." }
+    ]
+  },
+  "tinywow": {
+    whatIs: "TinyWow is a free online toolkit that provides hundreds of file conversion, editing, and AI tools for PDFs, images, videos, and documents all accessible from your browser without any account required.",
+    features: [
+      "Hundreds of Tools: Massive collection of free online utilities",
+      "PDF Tools: Edit, convert, compress, and manage PDFs free",
+      "Image Tools: Resize, convert, and edit images online",
+      "AI Writing: Text generation and editing tools included",
+      "No Account Needed: Use all tools without registration"
+    ],
+    howToUse: {
+      title: "How to Use Tinywow",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Visit TinyWow", description: "Go to tinywow.com and browse the extensive library of free tools organized by category." },
+        { title: "Select Your Tool", description: "Choose the specific tool you need for your PDF, image, video, or document task." },
+        { title: "Upload Your File", description: "Import the file you want to process into your selected TinyWow tool." },
+        { title: "Download Your Result", description: "Process your file and download the result immediately without creating an account or paying anything." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Tool Breadth", description: "Offers hundreds of tools across file types making it a comprehensive free utility for almost any task." },
+      { title: "Zero Friction Access", description: "Requires no account creation or payment for any tool making it instantly usable by anyone." },
+      { title: "Regular Expansion", description: "Continuously adds new tools and AI features keeping the platform relevant and increasingly capable." }
+    ],
+    useCases: [
+      { title: "General Users", description: "Access any file conversion or editing tool you need occasionally without paying for specialized software." },
+      { title: "Students", description: "Handle all file format tasks for assignments and projects without needing multiple paid applications." },
+      { title: "Small Business Teams", description: "Perform occasional file operations across formats without software licensing costs or subscriptions." }
+    ]
+  },
+  "apowersoft": {
+    whatIs: "Apowersoft is a multimedia software company offering a comprehensive suite of online and desktop tools for screen recording, video editing, PDF management, and file conversion across all platforms.",
+    features: [
+      "Screen Recording: Capture screen and webcam simultaneously",
+      "Video Editing: Edit and produce videos with professional tools",
+      "PDF Management: Edit convert and manage PDF documents",
+      "File Conversion: Convert between hundreds of file formats",
+      "Cross-Platform: Tools available for Windows Mac and online"
+    ],
+    howToUse: {
+      title: "How to Use Apowersoft",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Visit Apowersoft and select the specific tool you need from their comprehensive software suite." },
+        { title: "Download or Use Online", description: "Either install the desktop application or use the browser-based version depending on your preference." },
+        { title: "Process Your Content", description: "Use the selected tool to record, edit, convert, or manage your files according to your needs." },
+        { title: "Save and Export", description: "Export your finished content in your required format and save it locally or to cloud storage." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Comprehensive Suite", description: "Covers screen recording, video editing, PDF tools, and file conversion in one unified software ecosystem." },
+      { title: "Dual Delivery", description: "Offers both desktop applications and online tools giving users flexibility based on their situation." },
+      { title: "Format Coverage", description: "Handles conversion between an extensive range of file formats covering virtually every common use case." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Use screen recording and video editing tools to produce professional tutorial and demonstration content." },
+      { title: "Business Teams", description: "Handle diverse file management tasks across recording, conversion, and PDF work from one software family." },
+      { title: "Remote Educators", description: "Record lessons and presentations with screen capture tools designed for clear educational content production." }
+    ]
+  },
+  "gopdf": {
+    whatIs: "GoPDF is an online PDF tool that provides essential document operations including PDF editing, compression, conversion, and merging through a straightforward browser interface with no software required.",
+    features: [
+      "PDF Editing: Make changes to PDF content online easily",
+      "Compression: Shrink PDF file sizes for easier sharing",
+      "Format Conversion: Switch between PDF and Office formats",
+      "Document Merging: Combine multiple PDFs into one file",
+      "Free Access: Basic operations without payment required"
+    ],
+    howToUse: {
+      title: "How to Use Gopdf",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your PDF", description: "Navigate to GoPDF and upload the document you need to edit, compress, convert, or merge." },
+        { title: "Select Your Operation", description: "Choose from the available PDF operations based on what you need to accomplish with your document." },
+        { title: "Process and Wait", description: "Let GoPDF handle the operation and process your document through their online service." },
+        { title: "Download Your File", description: "Save your processed PDF or converted document to your device immediately after completion." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Online Convenience", description: "Processes PDF documents entirely in the browser without any software download or installation needed." },
+      { title: "Core Operation Coverage", description: "Handles the most commonly needed PDF tasks including editing, compression, conversion, and merging reliably." },
+      { title: "Free Baseline Access", description: "Provides essential PDF operations without payment making it accessible for occasional document needs." }
+    ],
+    useCases: [
+      { title: "Occasional PDF Users", description: "Handle infrequent PDF tasks without paying for dedicated software you would rarely use fully." },
+      { title: "Students", description: "Convert and compress PDF assignments and documents quickly from any computer without software installation." },
+      { title: "Remote Workers", description: "Access PDF tools from any device or location through the browser without needing installed applications." }
+    ]
+  },
+  "pdf-guru": {
+    whatIs: "PDF Guru is a desktop PDF editing and management application that provides a complete set of tools for editing, converting, signing, and organizing PDF documents with a clean intuitive interface.",
+    features: [
+      "Complete PDF Suite: All essential PDF tools in one app",
+      "Text Editing: Modify PDF text content directly and precisely",
+      "Digital Signatures: Sign documents electronically and securely",
+      "Page Management: Reorder delete and insert pages easily",
+      "Batch Operations: Process multiple documents at once efficiently"
+    ],
+    howToUse: {
+      title: "How to Use Pdf Guru",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open PDF Guru", description: "Launch the PDF Guru application and import the PDF document you need to work with." },
+        { title: "Select Your Task", description: "Choose from editing, converting, signing, compressing, or organizing based on your document need." },
+        { title: "Work on Your Document", description: "Use the relevant tools to make your edits, additions, or transformations to the document content." },
+        { title: "Save Your Changes", description: "Export your modified document in PDF or your required format with all changes preserved correctly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Comprehensive Toolset", description: "Provides all essential PDF operations in one clean application without needing multiple specialized tools." },
+      { title: "Direct Text Editing", description: "Allows precise modification of existing PDF text content without converting to another format first." },
+      { title: "Electronic Signing", description: "Adds legally valid digital signatures to documents securely without printing and scanning required." }
+    ],
+    useCases: [
+      { title: "Professionals", description: "Handle all PDF document needs from editing to signing in one reliable desktop application daily." },
+      { title: "Legal and Finance Teams", description: "Edit, sign, and manage sensitive documents securely with a comprehensive PDF management solution." },
+      { title: "Administrative Professionals", description: "Process PDF documents efficiently across all common tasks without switching between multiple applications." }
+    ]
+  },
+  "lightpdf": {
+    whatIs: "LightPDF is an online PDF processing platform that offers AI-powered document analysis, conversion, editing, and chat features for PDFs through a browser-based interface with no installation required.",
+    features: [
+      "AI PDF Chat: Ask questions about your PDF content",
+      "Format Conversion: Convert PDFs to and from many formats",
+      "Online Editing: Edit PDF content directly in your browser",
+      "OCR Technology: Extract text from scanned documents",
+      "Cloud Processing: Handle documents without local storage"
+    ],
+    howToUse: {
+      title: "How to Use Lightpdf",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access LightPDF", description: "Visit the LightPDF website and choose the tool or AI feature you want to use for your document." },
+        { title: "Upload Your Document", description: "Import your PDF or other document file into the selected LightPDF tool for processing." },
+        { title: "Use AI or Edit", description: "Chat with your document using AI or use editing and conversion tools based on your specific need." },
+        { title: "Download Results", description: "Save your processed, converted, or AI-analyzed document results directly to your device." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Document Intelligence", description: "Enables natural language conversations with PDF content for instant information retrieval and summarization." },
+      { title: "OCR Capability", description: "Extracts searchable editable text from scanned documents and image-based PDFs accurately." },
+      { title: "Browser-Based Processing", description: "Handles document operations entirely online without requiring software installation on your device." }
+    ],
+    useCases: [
+      { title: "Remote Workers", description: "Access PDF tools and AI document analysis from any device through the browser without local software." },
+      { title: "Students", description: "Extract text from scanned materials, convert formats, and chat with academic PDFs for faster studying." },
+      { title: "Business Users", description: "Process documents online with AI features that go beyond basic PDF tools for smarter document work." }
+    ]
+  },
+  "aippt": {
+    whatIs: "AiPPT is an AI presentation generator that creates complete PowerPoint presentations from text prompts or outlines in seconds with professional design templates applied automatically.",
+    features: [
+      "Instant PPT Generation: Full presentations from text prompts",
+      "Professional Templates: Beautiful designs applied automatically",
+      "Content Creation: AI writes slide content from your topic",
+      "One-Click Themes: Change the entire presentation design fast",
+      "Export to PowerPoint: Download as editable PPTX files"
+    ],
+    howToUse: {
+      title: "How to Use Aippt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Type your presentation topic or paste an outline and let AiPPT generate your complete slide deck." },
+        { title: "Review Generated Slides", description: "Browse through your AI-created presentation checking content accuracy and design quality." },
+        { title: "Customize Your Deck", description: "Edit individual slides, change themes, and refine content to match your specific requirements." },
+        { title: "Export Your Presentation", description: "Download your finished presentation as a PowerPoint file ready to present or share immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Rapid Generation", description: "Creates complete slide decks with content and professional design from a single text input." },
+      { title: "Template Variety", description: "Applies professionally designed templates that make presentations look polished without design work." },
+      { title: "PowerPoint Compatibility", description: "Exports to standard PPTX format ensuring compatibility with Microsoft PowerPoint and Google Slides." }
+    ],
+    useCases: [
+      { title: "Business Professionals", description: "Create client presentations and internal decks quickly without spending hours building slides manually." },
+      { title: "Educators", description: "Build visual lesson materials fast without design skills or expensive presentation software subscriptions." },
+      { title: "Students", description: "Produce professional-looking presentations for class assignments without struggling with design and layout." }
+    ]
+  },
+  "pi-presentation": {
+    whatIs: "Pi (Presentation Intelligence) is an AI-powered presentation tool that helps users create, design, and enhance slide decks with intelligent content suggestions, design automation, and storytelling guidance.",
+    features: [
+      "AI Content Suggestions: Smart recommendations for slide content",
+      "Design Automation: Professional layouts applied intelligently",
+      "Storytelling Structure: Guidance on narrative flow and structure",
+      "Visual Enhancement: AI improves the look of your slides",
+      "Collaboration Tools: Work with your team on presentations"
+    ],
+    howToUse: {
+      title: "How to Use Pi Presentation",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Presentation", description: "Create a new presentation in Pi and enter your topic or upload an existing deck to enhance." },
+        { title: "Get Content Suggestions", description: "Use AI recommendations to improve your slide content, messaging, and overall narrative structure." },
+        { title: "Apply Design Intelligence", description: "Let Pi automatically apply professional design principles to your slides for a polished visual result." },
+        { title: "Collaborate and Finalize", description: "Work with teammates on refinements and finalize your presentation for delivery or sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Narrative Intelligence", description: "Guides users toward stronger presentation storytelling with structural recommendations and flow improvements." },
+      { title: "Automated Design", description: "Applies professional design principles automatically so presentations look polished without design expertise." },
+      { title: "Content Enhancement", description: "Suggests improvements to existing slide content making messages clearer and more impactful for audiences." }
+    ],
+    useCases: [
+      { title: "Business Presenters", description: "Improve the quality and impact of presentations with AI design and content guidance throughout the process." },
+      { title: "Sales Teams", description: "Create compelling pitch decks with strong narrative structure and professional design applied automatically." },
+      { title: "Non-Designers", description: "Produce visually professional presentations without graphic design skills using AI design automation tools." }
+    ]
+  },
+  "slidesgpt": {
+    whatIs: "SlidesGPT is an AI presentation generator that creates complete Google Slides and PowerPoint presentations from text prompts, delivering ready-to-use slide decks with content and design in seconds.",
+    features: [
+      "Instant Slide Generation: Complete decks from text descriptions",
+      "Google Slides Output: Direct creation in Google Slides format",
+      "PowerPoint Export: Download as editable PPTX immediately",
+      "Content Writing: AI writes all slide text from your topic",
+      "Design Application: Professional layouts chosen automatically"
+    ],
+    howToUse: {
+      title: "How to Use Slidesgpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Presentation", description: "Enter your topic, key points, or paste an outline into SlidesGPT to begin generation." },
+        { title: "Generate Your Deck", description: "Receive a complete presentation with AI-written content and design ready to review immediately." },
+        { title: "Customize the Slides", description: "Edit content, adjust design, and personalize slides to match your specific message and brand." },
+        { title: "Export and Present", description: "Download as PowerPoint or open directly in Google Slides and present to your audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Dual Format Output", description: "Creates presentations compatible with both Google Slides and Microsoft PowerPoint for maximum flexibility." },
+      { title: "Complete Content Writing", description: "Writes all slide text from your topic so you receive a fully populated deck not just empty templates." },
+      { title: "Instant Delivery", description: "Generates complete ready-to-use presentations in seconds rather than requiring hours of manual building." }
+    ],
+    useCases: [
+      { title: "Professionals", description: "Create complete presentation drafts in seconds and spend your time refining rather than building from scratch." },
+      { title: "Students", description: "Generate structured presentation frameworks for assignments and customize them with your own research." },
+      { title: "Frequent Presenters", description: "Maintain a high volume of quality presentations without the time burden of manual slide creation every time." }
+    ]
+  },
   "screenapp": {
     whatIs: "ScreenApp is an AI screen recording and video tool that records your screen, transcribes the audio, and generates summaries and shareable clips from your recordings without any editing experience needed.",
     features: [
