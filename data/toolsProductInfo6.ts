@@ -1,4 +1,424 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "slidespeak": {
+    whatIs: "SlideSpeak is an AI presentation tool that generates complete PowerPoint and Google Slides presentations from text prompts or uploaded documents, delivering polished slide decks in seconds without manual design work.",
+    features: [
+      "AI Deck Generation: Full presentations from text or documents",
+      "Document to Slides: Convert PDFs and docs into presentations",
+      "Professional Design: Templates applied automatically throughout",
+      "PowerPoint Export: Download as editable PPTX files",
+      "Google Slides: Direct output compatible with Google Slides"
+    ],
+    howToUse: {
+      title: "How to Use Slidespeak",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Input", description: "Type your presentation topic or upload a document you want converted into a slide deck." },
+        { title: "Generate Your Deck", description: "Let SlideSpeak create a complete presentation with content and professional design automatically." },
+        { title: "Review and Edit", description: "Browse through your generated slides and make any content or design adjustments you need." },
+        { title: "Export and Share", description: "Download as PowerPoint or Google Slides and share with your audience immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Document Conversion", description: "Transforms uploaded PDFs and documents directly into structured slide presentations automatically." },
+      { title: "Complete Content Writing", description: "Writes all slide text and talking points from your input so you receive a fully populated deck." },
+      { title: "Format Flexibility", description: "Outputs presentations in both PowerPoint and Google Slides formats for maximum compatibility." }
+    ],
+    useCases: [
+      { title: "Business Professionals", description: "Convert reports and documents into presentation format quickly without rebuilding content from scratch." },
+      { title: "Consultants", description: "Transform client deliverables and analysis documents into polished presentations in minutes not hours." },
+      { title: "Students", description: "Generate structured presentation frameworks from your research notes and customize for submission." }
+    ]
+  },
+  "presentations-ai": {
+    whatIs: "Presentations.AI is an AI-powered slide creation platform that generates beautiful branded presentations from text prompts with smart design automation and collaborative editing for teams.",
+    features: [
+      "AI Slide Generation: Complete decks from simple text prompts",
+      "Brand Consistency: Apply your brand colors and fonts throughout",
+      "Smart Design: AI chooses layouts and visuals intelligently",
+      "Team Collaboration: Work together on presentations in real time",
+      "Multiple Export Formats: Download in PPT PDF and more"
+    ],
+    howToUse: {
+      title: "How to Use Presentations Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Deck", description: "Enter your presentation topic, audience, and key messages to guide the AI generation process." },
+        { title: "Generate Your Slides", description: "Receive a complete AI-generated presentation with branded design and written content throughout." },
+        { title: "Customize and Brand", description: "Apply your brand identity, adjust layouts, and refine content to match your exact requirements." },
+        { title: "Collaborate and Export", description: "Invite teammates to refine the presentation and export in your required format when ready." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brand Application", description: "Applies your specific brand colors, fonts, and style guidelines consistently across every generated slide." },
+      { title: "Smart Layout Selection", description: "Chooses the most appropriate slide layouts for different content types throughout your presentation." },
+      { title: "Real-Time Collaboration", description: "Enables multiple team members to work on the same presentation simultaneously from any location." }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "Create on-brand presentations quickly with consistent visual identity applied automatically throughout." },
+      { title: "Sales Teams", description: "Build compelling pitch decks fast with AI-generated content and professional brand-consistent design." },
+      { title: "Agencies", description: "Produce client presentations with proper brand application without manual formatting for every slide." }
+    ]
+  },
+  "prezi": {
+    whatIs: "Prezi is a dynamic presentation platform that uses a zoomable canvas instead of linear slides, allowing presenters to create engaging non-linear presentations that keep audiences more attentive and interested.",
+    features: [
+      "Zoomable Canvas: Non-linear presentation on an infinite canvas",
+      "AI Content: Generate presentation content with AI assistance",
+      "Dynamic Animations: Smooth zooming and panning transitions",
+      "Video Integration: Present alongside your webcam feed",
+      "Templates: Professional starting points for every topic"
+    ],
+    howToUse: {
+      title: "How to Use Prezi",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose a Template", description: "Select a Prezi template that fits your topic or start with a blank canvas for full creative freedom." },
+        { title: "Add Your Content", description: "Place text, images, and media on your canvas and organize them in a logical spatial structure." },
+        { title: "Define Your Path", description: "Set the presentation path that determines how Prezi zooms and moves between content areas." },
+        { title: "Present Dynamically", description: "Deliver your presentation with smooth zooming transitions that keep your audience visually engaged." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Zoomable Canvas", description: "Replaces linear slides with a spatial canvas that lets presenters zoom between overview and detail naturally." },
+      { title: "Dynamic Transitions", description: "Uses smooth zooming and panning animations that create a more engaging visual flow than slide transitions." },
+      { title: "Video Presence", description: "Integrates webcam video alongside presentation content for more personal remote and hybrid presentations." }
+    ],
+    useCases: [
+      { title: "Keynote Speakers", description: "Deliver memorable presentations that stand out from standard slide-based formats with dynamic spatial storytelling." },
+      { title: "Educators", description: "Create engaging lessons with visual structures that help students see how concepts connect and relate." },
+      { title: "Sales Presenters", description: "Keep prospects engaged during pitches with dynamic presentations that feel more conversational and alive." }
+    ]
+  },
+  "beautiful-ai": {
+    whatIs: "Beautiful.ai is an AI-powered presentation tool that automatically applies smart design rules to your slides as you add content, ensuring every presentation looks professionally designed without manual formatting.",
+    features: [
+      "Smart Slide Design: AI applies design rules as you type",
+      "DesignerBot: Generate entire presentations with AI",
+      "Template Library: Hundreds of professionally designed templates",
+      "Brand Kit: Apply consistent branding across all presentations",
+      "Analytics: Track engagement with shared presentations"
+    ],
+    howToUse: {
+      title: "How to Use Beautiful Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Presentation", description: "Create a new deck in Beautiful.ai and choose a template or let DesignerBot generate your slides." },
+        { title: "Add Your Content", description: "Type your content into slides and watch Beautiful.ai automatically adjust design and layout in real time." },
+        { title: "Apply Your Brand", description: "Upload your brand kit so all slides use your colors, fonts, and logo consistently throughout." },
+        { title: "Share and Analyze", description: "Share your presentation link and review analytics on who viewed it and which slides got most attention." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Smart Design Engine", description: "Automatically adjusts slide layouts and design as content changes so slides always look polished." },
+      { title: "DesignerBot AI", description: "Generates complete presentations from text prompts for when you need a full deck created from scratch." },
+      { title: "Real-Time Formatting", description: "Applies professional design rules instantly as you type eliminating all manual formatting work." }
+    ],
+    useCases: [
+      { title: "Non-Designers", description: "Create professionally designed presentations without any graphic design knowledge or manual formatting effort." },
+      { title: "Business Teams", description: "Maintain consistent brand presentation quality across all team-created decks automatically." },
+      { title: "Frequent Presenters", description: "Spend time on content and messaging rather than wrestling with slide formatting and design decisions." }
+    ]
+  },
+  "miricanvas": {
+    whatIs: "MiriCanvas is a free online graphic design platform that provides thousands of templates for presentations, social media, posters, and marketing materials with an intuitive drag-and-drop editor.",
+    features: [
+      "Free Templates: Thousands of professionally designed starting points",
+      "Drag and Drop: Intuitive visual editor for easy customization",
+      "Presentation Design: Create beautiful slides and decks",
+      "Social Media Graphics: Content sized for every platform",
+      "Team Collaboration: Work together on designs in real time"
+    ],
+    howToUse: {
+      title: "How to Use Miricanvas",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose a Template", description: "Browse MiriCanvas's extensive template library and select one that fits your design project." },
+        { title: "Customize Your Design", description: "Use the drag-and-drop editor to adjust text, colors, images, and layout to match your needs." },
+        { title: "Add Your Content", description: "Replace template content with your own text, images, and brand elements throughout." },
+        { title: "Download or Share", description: "Export your finished design in your required format or share the live link directly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Template Variety", description: "Offers thousands of templates across presentations, social media, print, and marketing material formats." },
+      { title: "Free Access", description: "Provides extensive design capabilities and template access without requiring a paid subscription." },
+      { title: "Intuitive Editor", description: "Drag-and-drop interface makes professional design accessible to users without graphic design experience." }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Create professional marketing materials and social media graphics without hiring a graphic designer." },
+      { title: "Content Creators", description: "Design consistent social media graphics and presentation materials quickly with professional templates." },
+      { title: "Educators", description: "Build visually engaging classroom presentations and educational materials with easy customization tools." }
+    ]
+  },
+  "notion": {
+    whatIs: "Notion is an all-in-one workspace that combines notes, databases, wikis, and project management in one flexible platform, allowing individuals and teams to organize their entire work and knowledge in one place.",
+    features: [
+      "Flexible Pages: Create any type of document or database",
+      "AI Assistant: Write, summarize, and organize with AI help",
+      "Database Views: Switch between table, board, calendar, and gallery",
+      "Team Wiki: Centralized knowledge base for your organization",
+      "Templates: Hundreds of community templates for every use case"
+    ],
+    howToUse: {
+      title: "How to Use Notion",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Workspace", description: "Set up your Notion workspace and create your first page to start organizing your work and notes." },
+        { title: "Build Your Structure", description: "Create pages, databases, and nested documents that match how you think and work naturally." },
+        { title: "Use AI Features", description: "Ask Notion AI to write, summarize, translate, or organize content within any page instantly." },
+        { title: "Collaborate and Share", description: "Invite teammates and share specific pages or entire workspaces for collaborative knowledge building." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Flexible Architecture", description: "Adapts to any organizational system because pages can contain any combination of text, databases, and media." },
+      { title: "AI Integration", description: "Provides native AI assistance throughout the workspace for writing, summarizing, and content generation." },
+      { title: "All-in-One Consolidation", description: "Replaces multiple tools by combining notes, project management, wikis, and databases in one workspace." }
+    ],
+    useCases: [
+      { title: "Knowledge Workers", description: "Organize all your work, notes, and projects in one flexible system that adapts to how you think." },
+      { title: "Teams", description: "Build a shared knowledge base and project management system that keeps everyone aligned and informed." },
+      { title: "Startups", description: "Run your entire company from one Notion workspace covering everything from strategy to daily tasks." }
+    ]
+  },
+  "wondershare": {
+    whatIs: "Wondershare is a software company offering a comprehensive ecosystem of creative and productivity tools including video editing, PDF management, data recovery, and screen recording applications.",
+    features: [
+      "Video Editing: Professional video production with Filmora",
+      "PDF Tools: Edit and manage documents with PDFelement",
+      "Screen Recording: Capture content with DemoCreator",
+      "Data Recovery: Recover lost files with Recoverit",
+      "Creative Suite: Comprehensive tools for digital content work"
+    ],
+    howToUse: {
+      title: "How to Use Wondershare",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Visit Wondershare and select the specific application that matches your current project need." },
+        { title: "Download and Install", description: "Install your chosen Wondershare application on your Windows or Mac computer." },
+        { title: "Create Your Project", description: "Open the application and start your video, document, or creative project with the full tool suite." },
+        { title: "Export and Share", description: "Produce your finished output in the required format and share or publish your completed work." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Comprehensive Ecosystem", description: "Covers video editing, PDF management, screen recording, and data recovery under one trusted software brand." },
+      { title: "Cross-Platform Tools", description: "Offers applications for both Windows and Mac with consistent interfaces across the product family." },
+      { title: "Consumer to Pro Range", description: "Provides tools suitable for beginners through to professional-level users across all product categories." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Use Filmora for professional video editing that balances powerful features with an accessible learning curve." },
+      { title: "Business Professionals", description: "Handle PDF editing and document management with PDFelement as a comprehensive Adobe alternative." },
+      { title: "IT Professionals", description: "Recover critical lost data and manage screen recording for documentation and training content needs." }
+    ]
+  },
+  "liner-ai": {
+    whatIs: "LINER is an AI-powered research and highlighting tool that helps users highlight web content, get AI summaries, and build a personal knowledge library from articles, PDFs, and YouTube videos.",
+    features: [
+      "Web Highlighting: Save highlights from any webpage instantly",
+      "AI Summaries: Get concise summaries of web content",
+      "YouTube Notes: Highlight and save moments from videos",
+      "Knowledge Library: All highlights organized in one place",
+      "AI Search: Find information across your saved highlights"
+    ],
+    howToUse: {
+      title: "How to Use Liner Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install LINER", description: "Add the LINER browser extension to Chrome and create your account for cloud-synchronized highlights." },
+        { title: "Highlight as You Browse", description: "Select important text on any webpage and highlight it with LINER to save it to your library." },
+        { title: "Get AI Summaries", description: "Use LINER's AI to summarize articles and web pages for quick understanding of key content." },
+        { title: "Search Your Library", description: "Use AI-powered search to find specific information across all your saved highlights and notes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Contextual Highlighting", description: "Saves highlights with surrounding context and source information for accurate future reference." },
+      { title: "AI Summarization", description: "Generates concise summaries of web content so you understand key points without reading everything." },
+      { title: "Personal Knowledge Base", description: "Accumulates all your highlights into a searchable library that grows more valuable over time." }
+    ],
+    useCases: [
+      { title: "Researchers", description: "Build a curated research library by highlighting and saving key information from across the web." },
+      { title: "Students", description: "Collect important quotes and information from online sources for essays and research projects." },
+      { title: "Knowledge Curators", description: "Develop a personal knowledge base of highlighted insights from your regular reading and research." }
+    ]
+  },
+  "coda": {
+    whatIs: "Coda is a powerful all-in-one document platform that combines the flexibility of documents with the structure of spreadsheets and the automation of apps, allowing teams to build custom workflows without code.",
+    features: [
+      "Doc and Spreadsheet Hybrid: Combines writing and data in one",
+      "Custom Apps: Build workflow tools without coding",
+      "Automations: Trigger actions based on data and events",
+      "AI Assistant: Write, summarize, and build with AI help",
+      "Integrations: Connect with Slack, Google, and hundreds more"
+    ],
+    howToUse: {
+      title: "How to Use Coda",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Doc", description: "Start a new Coda doc and choose whether to begin from a template or a blank canvas." },
+        { title: "Add Tables and Text", description: "Mix written content with structured tables to create a document that handles both prose and data." },
+        { title: "Build Automations", description: "Set up automated workflows that trigger actions when specific conditions in your doc are met." },
+        { title: "Share and Collaborate", description: "Invite team members to your doc and build shared workflows that your whole team can use and update." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Doc-App Hybrid", description: "Combines documents, spreadsheets, and applications in one flexible format that adapts to any workflow need." },
+      { title: "No-Code Automation", description: "Builds sophisticated automated workflows triggered by data changes without requiring programming knowledge." },
+      { title: "AI Throughout", description: "Integrates AI assistance for writing, summarizing, and building throughout the document creation process." }
+    ],
+    useCases: [
+      { title: "Operations Teams", description: "Build custom workflow tools and process documentation that your team actually uses and updates regularly." },
+      { title: "Product Teams", description: "Create living product specs and roadmaps that combine written context with structured data and tracking." },
+      { title: "Startups", description: "Run core business processes from Coda docs without investing in multiple specialized software tools yet." }
+    ]
+  },
+  "medisphere": {
+    whatIs: "MediSphere is an AI healthcare information platform that helps patients and healthcare professionals access medical information, understand diagnoses, and navigate healthcare decisions with AI-powered guidance.",
+    features: [
+      "Medical Information: Comprehensive health and medical knowledge",
+      "Symptom Analysis: AI guidance on symptoms and conditions",
+      "Medication Info: Detailed drug information and interactions",
+      "Healthcare Navigation: Help understanding medical systems",
+      "Professional Tools: Resources for healthcare practitioners"
+    ],
+    howToUse: {
+      title: "How to Use Medisphere",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Query", description: "Enter your medical question, symptom, or health topic to get AI-powered information and guidance." },
+        { title: "Review Information", description: "Read through the comprehensive medical information provided with relevant context and clarity." },
+        { title: "Explore Related Topics", description: "Follow suggested related topics to build a more complete understanding of your health question." },
+        { title: "Consult a Professional", description: "Use MediSphere information as a starting point and always follow up with a qualified healthcare provider." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Comprehensive Coverage", description: "Provides detailed information across a wide range of medical conditions, treatments, and health topics." },
+      { title: "Plain Language Output", description: "Translates complex medical information into clear understandable language for non-medical audiences." },
+      { title: "Professional Resources", description: "Offers additional depth and clinical detail appropriate for healthcare professionals needing reference information." }
+    ],
+    useCases: [
+      { title: "Patients", description: "Understand medical conditions and treatment options better before and after healthcare appointments." },
+      { title: "Caregivers", description: "Access reliable health information to better support family members navigating medical conditions and care." },
+      { title: "Healthcare Students", description: "Supplement medical education with an accessible AI-powered reference for conditions and clinical information." }
+    ]
+  },
+  "goover": {
+    whatIs: "Goover is an AI research and news aggregation tool that collects, summarizes, and organizes information from across the web on any topic to keep users informed without spending hours reading multiple sources.",
+    features: [
+      "Topic Monitoring: Track any subject with continuous updates",
+      "AI Summaries: Concise digests of the latest information",
+      "Multi-Source Aggregation: Information from across the web",
+      "Personalized Feed: Content tailored to your interests",
+      "Daily Briefings: Regular summaries delivered to you"
+    ],
+    howToUse: {
+      title: "How to Use Goover",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Your Topics", description: "Define the subjects, industries, and topics you want Goover to monitor and aggregate for you." },
+        { title: "Receive Your Briefing", description: "Get your daily or regular AI-summarized digest of the most important information from your topics." },
+        { title: "Dive Deeper", description: "Click through to full sources on any story or topic that warrants more detailed reading and research." },
+        { title: "Adjust Your Feed", description: "Refine your topic preferences based on the relevance and quality of content you are receiving." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Continuous Monitoring", description: "Tracks your defined topics across multiple sources continuously so you never miss important developments." },
+      { title: "AI Digest Creation", description: "Summarizes the most important information from multiple sources into concise readable briefings." },
+      { title: "Personalization Engine", description: "Learns your interests and refines content selection to deliver increasingly relevant information over time." }
+    ],
+    useCases: [
+      { title: "Business Professionals", description: "Stay informed on industry trends and competitive developments without spending hours reading news sources." },
+      { title: "Researchers", description: "Monitor specific topics across multiple sources and receive AI summaries that surface the most relevant content." },
+      { title: "Executives", description: "Receive daily briefings on the topics most relevant to your business without manual news monitoring effort." }
+    ]
+  },
+  "june-ai": {
+    whatIs: "June AI is a product analytics platform that automatically generates insights and reports about how users interact with your product, helping product teams understand user behavior without complex data analysis.",
+    features: [
+      "Automated Reports: Product insights generated automatically",
+      "User Behavior Analysis: Understand how people use your product",
+      "Cohort Analysis: Track user groups and retention patterns",
+      "Feature Adoption: See which features drive the most engagement",
+      "AI Insights: Natural language summaries of product data"
+    ],
+    howToUse: {
+      title: "How to Use June Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Product", description: "Integrate June AI with your product by adding the tracking SDK or connecting your data source." },
+        { title: "Set Up Your Events", description: "Define the user actions and events you want June to track and analyze in your product." },
+        { title: "Review Automated Reports", description: "Access automatically generated reports on user behavior, retention, and feature adoption immediately." },
+        { title: "Act on Insights", description: "Use the AI-generated insights to prioritize product improvements and understand what drives user value." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated Analysis", description: "Generates product insights and reports automatically without requiring manual data analysis or SQL queries." },
+      { title: "Retention Intelligence", description: "Tracks cohort retention patterns to reveal what keeps users coming back and what causes churn." },
+      { title: "Feature Adoption Tracking", description: "Measures which product features are adopted by users to guide development prioritization decisions." }
+    ],
+    useCases: [
+      { title: "Product Managers", description: "Understand user behavior and product performance without needing data science support for every question." },
+      { title: "Early-Stage Startups", description: "Get product analytics intelligence from day one without building a dedicated data infrastructure." },
+      { title: "Growth Teams", description: "Identify the user behaviors and features that correlate with retention and expansion for growth optimization." }
+    ]
+  },
+  "resumebuilder-com": {
+    whatIs: "ResumeBuilder.com is an online resume creation platform that guides users through building a professional resume with easy-to-use templates, AI writing suggestions, and instant download options.",
+    features: [
+      "Guided Builder: Step-by-step resume creation process",
+      "AI Suggestions: Smart content recommendations as you build",
+      "Template Variety: Multiple professional designs available",
+      "Instant Download: Get your resume immediately in PDF",
+      "Free to Start: Build your resume without initial payment"
+    ],
+    howToUse: {
+      title: "How to Use Resumebuilder Com",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Resume", description: "Go to ResumeBuilder.com and begin the guided resume creation process by selecting your template." },
+        { title: "Fill Each Section", description: "Work through each resume section with AI suggestions helping you write strong professional content." },
+        { title: "Review and Refine", description: "Preview your complete resume and make adjustments to content and formatting before downloading." },
+        { title: "Download and Submit", description: "Export your finished resume in PDF format and start submitting it to job applications immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Guided Process", description: "Walks users through resume creation section by section so nothing important gets overlooked or forgotten." },
+      { title: "AI Content Help", description: "Provides intelligent suggestions for resume content making it easier to describe experience effectively." },
+      { title: "Instant Availability", description: "Delivers your completed resume immediately as a downloadable PDF without processing delays." }
+    ],
+    useCases: [
+      { title: "First-Time Resume Writers", description: "Build a professional resume with step-by-step guidance that ensures all important sections are included." },
+      { title: "Job Seekers in a Hurry", description: "Create a complete professional resume quickly when you need to apply to opportunities without delay." },
+      { title: "Career Starters", description: "Get your first professional resume built correctly with guided assistance and AI content suggestions throughout." }
+    ]
+  },
+  "rezi": {
+    whatIs: "Rezi is an AI resume builder that specializes in ATS optimization, using AI to write and score your resume against job descriptions to maximize your chances of passing automated hiring systems.",
+    features: [
+      "ATS Scoring: Real-time score of your resume's ATS performance",
+      "AI Writing: Generate resume content optimized for screening",
+      "Job Tailoring: Match your resume to specific job descriptions",
+      "Keyword Optimization: Ensure critical keywords are included",
+      "Resume Analysis: Detailed feedback on resume improvements"
+    ],
+    howToUse: {
+      title: "How to Use Rezi",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Resume", description: "Start building your resume in Rezi and input your professional history and target role information." },
+        { title: "Get Your ATS Score", description: "Receive a real-time ATS compatibility score showing how well your resume will perform in automated screening." },
+        { title: "Apply AI Improvements", description: "Use AI writing tools to improve your resume content and increase your ATS score significantly." },
+        { title: "Tailor for Each Job", description: "Paste a job description to get specific recommendations for tailoring your resume to that exact role." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time ATS Scoring", description: "Provides an instant score showing how well your resume performs against ATS systems as you make changes." },
+      { title: "Job-Specific Tailoring", description: "Analyzes job descriptions and recommends specific changes to maximize relevance for each application." },
+      { title: "Keyword Intelligence", description: "Identifies and suggests critical keywords from job descriptions that should appear in your resume content." }
+    ],
+    useCases: [
+      { title: "ATS-Focused Job Seekers", description: "Maximize your resume's performance in automated screening systems with data-driven optimization tools." },
+      { title: "High-Volume Applicants", description: "Efficiently tailor your resume for many different job applications with AI assistance for each customization." },
+      { title: "Career Professionals", description: "Ensure your resume consistently passes automated screening so your qualifications actually reach human reviewers." }
+    ]
+  },
   "formulas-hq": {
     whatIs: "Formulas HQ is an AI formula generator for Excel and Google Sheets that converts plain English descriptions into working spreadsheet formulas instantly, helping users work with data more confidently.",
     features: [
