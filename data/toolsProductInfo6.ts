@@ -1,4 +1,304 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "jpgtotext-com": {
+    whatIs: "jpgtotext.com is a free online tool that converts text within JPG images and photos into editable digital text using AI-powered OCR technology without requiring any software or account creation.",
+    features: [
+      "JPG Text Extraction: Convert text in JPG images to editable format",
+      "AI OCR Engine: High accuracy text recognition technology",
+      "Completely Free: No payment or signup ever required",
+      "Fast Conversion: Results delivered in seconds",
+      "Copy Ready Output: Extracted text ready to paste anywhere"
+    ],
+    howToUse: {
+      title: "How to Use Jpgtotext Com",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your JPG", description: "Visit jpgtotext.com and upload your JPG image containing the text you want to extract." },
+        { title: "Start Conversion", description: "Click convert and let the AI OCR engine analyze your image and recognize all text within it." },
+        { title: "Review Accuracy", description: "Check the extracted text output for accuracy before using it in your work or documents." },
+        { title: "Copy and Use", description: "Copy the extracted text and paste it directly into any document, form, or application you need." }
+      ]
+    },
+    coreFeatures: [
+      { title: "JPG Specialization", description: "Optimized specifically for JPG format images delivering reliable text extraction from photos and scanned documents." },
+      { title: "Zero Barrier Access", description: "Requires no account creation or payment providing instant text extraction for anyone who needs it." },
+      { title: "Speed of Extraction", description: "Processes images and returns extracted text within seconds for a fast and efficient conversion workflow." }
+    ],
+    useCases: [
+      { title: "Office Workers", description: "Extract text from JPG scans of documents and forms without needing dedicated scanning or OCR software." },
+      { title: "Students", description: "Pull text from JPG screenshots of textbooks and study materials for easier digital note-taking." },
+      { title: "General Users", description: "Quickly convert any JPG containing text into editable format without installing anything on your device." }
+    ]
+  },
+  "v7": {
+    whatIs: "V7 is an AI training data platform that helps machine learning teams build, label, and manage high-quality datasets for computer vision models with automation tools that dramatically reduce annotation time.",
+    features: [
+      "Auto-Annotation: AI automatically labels images and videos",
+      "Dataset Management: Organize and version control your training data",
+      "Model Training: Train and iterate on computer vision models",
+      "Label Automation: Smart tools that learn from your corrections",
+      "Team Collaboration: Work across annotation teams at scale"
+    ],
+    howToUse: {
+      title: "How to Use V7",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Data", description: "Import your images or video datasets into V7 for annotation and management." },
+        { title: "Configure Auto-Annotation", description: "Set up V7's AI to automatically label your data using pre-trained models as a starting point." },
+        { title: "Review and Correct", description: "Spot-check auto-labeled data and correct errors so the AI learns your specific labeling standards." },
+        { title: "Export for Training", description: "Download your completed annotated dataset in the format your ML framework requires for model training." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI-Assisted Annotation", description: "Uses pre-trained models to auto-label data reducing manual annotation time by a significant factor." },
+      { title: "Learning from Corrections", description: "Improves auto-annotation accuracy over time by learning from the corrections your team makes to its labels." },
+      { title: "Version Control", description: "Maintains full version history of datasets so teams can track changes and revert to previous states easily." }
+    ],
+    useCases: [
+      { title: "ML Engineering Teams", description: "Build training datasets faster and maintain data quality at scale without proportionally growing annotation teams." },
+      { title: "Computer Vision Startups", description: "Accelerate model development with automated annotation tools that make data preparation dramatically faster." },
+      { title: "Research Teams", description: "Manage complex multi-annotator datasets with version control and quality tools built for rigorous research standards." }
+    ]
+  },
+  "gamma": {
+    whatIs: "Gamma is an AI presentation and document creation tool that generates beautiful slides, documents, and web pages from a text prompt or outline in seconds without any design experience required.",
+    features: [
+      "AI Generation: Create full presentations from text prompts",
+      "Beautiful Templates: Professional designs applied automatically",
+      "One-Click Theming: Change your entire deck's look instantly",
+      "Interactive Elements: Embed videos, links, and live content",
+      "Web Publishing: Share presentations as live web pages"
+    ],
+    howToUse: {
+      title: "How to Use Gamma",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Prompt", description: "Type your presentation topic or paste an outline and let Gamma generate your complete slide deck." },
+        { title: "Review the Output", description: "Browse through your AI-generated presentation and assess the structure, content, and design choices." },
+        { title: "Customize Your Deck", description: "Edit individual slides, swap themes, add your branding, and refine content to match your exact needs." },
+        { title: "Share or Export", description: "Publish as a live web page, share a link, or export to PDF or PowerPoint for different use cases." }
+      ]
+    },
+    coreFeatures: [
+      { title: "One-Prompt Creation", description: "Generates a complete structured presentation with content and design from a single text prompt or outline." },
+      { title: "Flexible Output Formats", description: "Publishes as interactive web pages or exports to traditional formats giving maximum flexibility for sharing." },
+      { title: "Real-Time Theming", description: "Changes the visual design of your entire presentation with one click across all slides simultaneously." }
+    ],
+    useCases: [
+      { title: "Business Professionals", description: "Create polished client presentations and internal decks in minutes rather than spending hours in PowerPoint." },
+      { title: "Educators", description: "Build engaging visual lesson materials quickly without design skills or expensive presentation software." },
+      { title: "Startup Founders", description: "Produce investor pitch decks and product presentations rapidly with professional design applied automatically." }
+    ]
+  },
+  "gitbook": {
+    whatIs: "GitBook is a modern documentation platform that helps teams create, manage, and publish beautiful technical documentation and knowledge bases with AI-powered writing assistance and seamless Git integration.",
+    features: [
+      "AI Writing Assistant: Get help writing and improving documentation",
+      "Git Integration: Sync docs with your GitHub or GitLab repository",
+      "Beautiful Output: Professional documentation sites automatically",
+      "Team Collaboration: Write and review docs together in real time",
+      "Search: Powerful search across all your documentation content"
+    ],
+    howToUse: {
+      title: "How to Use Gitbook",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Space", description: "Set up a GitBook space for your project and invite your team to collaborate on documentation." },
+        { title: "Write Your Docs", description: "Use the clean editor to write documentation with AI assistance for suggestions and improvements." },
+        { title: "Connect Your Repo", description: "Sync with your GitHub repository so documentation stays in version control alongside your code." },
+        { title: "Publish and Share", description: "Publish your documentation as a beautiful public or private site accessible to your intended audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Git Synchronization", description: "Keeps documentation in sync with your code repository so docs and code versions always match accurately." },
+      { title: "AI Documentation Help", description: "Assists with writing, summarizing, and improving documentation quality throughout the creation process." },
+      { title: "Professional Publishing", description: "Transforms your written content into a polished searchable documentation site without any design work required." }
+    ],
+    useCases: [
+      { title: "Developer Teams", description: "Maintain accurate up-to-date technical documentation that lives alongside your code in version control." },
+      { title: "Open Source Projects", description: "Publish professional documentation for your project that helps users understand and adopt your software." },
+      { title: "Product Companies", description: "Create comprehensive user documentation and knowledge bases that reduce support burden significantly." }
+    ]
+  },
+  "mathpix": {
+    whatIs: "Mathpix is an AI tool that converts handwritten and printed math equations, scientific notation, and chemistry formulas from images into editable digital formats like LaTeX, MathML, and plain text instantly.",
+    features: [
+      "Math OCR: Convert handwritten equations to LaTeX instantly",
+      "Chemistry Support: Recognize chemical formulas and structures",
+      "PDF Conversion: Extract math from PDF documents accurately",
+      "Multiple Output Formats: LaTeX, MathML, Word, and more",
+      "Snip Tool: Screenshot any equation for instant conversion"
+    ],
+    howToUse: {
+      title: "How to Use Mathpix",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Capture Your Equation", description: "Use the Mathpix Snip app to screenshot any handwritten or printed math equation from your screen." },
+        { title: "Get Your LaTeX", description: "Receive the converted LaTeX or other format output within seconds of capturing your equation." },
+        { title: "Copy and Paste", description: "Copy the converted equation directly into your LaTeX editor, Word document, or math software." },
+        { title: "Process Documents", description: "Upload full PDFs with math content to extract all equations and convert them to editable formats." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Handwriting Recognition", description: "Accurately reads handwritten mathematical notation and converts it to clean digital format reliably." },
+      { title: "Multi-Format Output", description: "Exports recognized math in LaTeX, MathML, plain text, and Word formats for any downstream use case." },
+      { title: "Full Document Processing", description: "Extracts and converts all mathematical content from entire PDF documents in one batch operation." }
+    ],
+    useCases: [
+      { title: "Students", description: "Convert handwritten homework and notes into digital LaTeX for cleaner submissions and easier editing." },
+      { title: "Researchers", description: "Extract equations from papers and convert handwritten derivations to LaTeX for academic writing." },
+      { title: "Educators", description: "Digitize handwritten math content quickly for use in digital course materials and online assessments." }
+    ]
+  },
+  "aidocmaker-com": {
+    whatIs: "Aidocmaker.com is a free AI document generator that creates professional Word documents, reports, and structured content from simple text prompts without requiring any design or formatting skills.",
+    features: [
+      "Document Generation: Create Word docs from text descriptions",
+      "Professional Formatting: Proper structure and layout applied automatically",
+      "Multiple Doc Types: Reports, letters, proposals, and more",
+      "Free to Use: Generate documents without payment",
+      "Instant Download: Get your document immediately after generation"
+    ],
+    howToUse: {
+      title: "How to Use Aidocmaker Com",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Document", description: "Enter a description of the document you need including type, topic, and any specific content requirements." },
+        { title: "Generate Your Doc", description: "Let the AI create a fully formatted professional document based on your description immediately." },
+        { title: "Review the Content", description: "Read through your generated document and identify any sections that need adjustment or personalization." },
+        { title: "Download and Use", description: "Download your finished document in Word format ready to share, print, or edit further as needed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Instant Generation", description: "Creates complete professionally formatted documents from text descriptions without any manual formatting work." },
+      { title: "Format Variety", description: "Handles multiple document types from formal reports to business letters with appropriate structure for each." },
+      { title: "Free Access", description: "Provides document generation without payment making professional document creation accessible to everyone." }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Generate professional business documents quickly without hiring writers or spending time on formatting." },
+      { title: "Students", description: "Create structured reports and academic documents with proper formatting as a starting framework to build on." },
+      { title: "Professionals", description: "Produce routine business documents like proposals and memos quickly using AI as a drafting assistant." }
+    ]
+  },
+  "mintlify": {
+    whatIs: "Mintlify is a modern documentation platform that helps developer teams create beautiful, interactive API documentation and technical docs with AI-powered writing tools and automatic code syncing.",
+    features: [
+      "Beautiful Docs: Professional documentation sites that look great",
+      "AI Writing: Generate and improve documentation with AI assistance",
+      "API Reference: Automatic API documentation from your code",
+      "Component Library: Interactive elements for richer documentation",
+      "Analytics: Understand how users engage with your documentation"
+    ],
+    howToUse: {
+      title: "How to Use Mintlify",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Docs", description: "Connect Mintlify to your repository and configure your documentation structure and navigation." },
+        { title: "Write Your Content", description: "Use the editor with AI assistance to write clear accurate documentation for your product or API." },
+        { title: "Add Interactive Elements", description: "Enhance your docs with code playgrounds, API explorers, and other interactive components." },
+        { title: "Publish and Analyze", description: "Deploy your documentation site and use analytics to understand which pages users visit and where they struggle." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Developer Experience Focus", description: "Designed specifically for developer-facing documentation with components and conventions that technical audiences expect." },
+      { title: "AI Documentation Assistant", description: "Helps write, improve, and maintain documentation quality with AI suggestions throughout the process." },
+      { title: "Usage Analytics", description: "Tracks which documentation pages are most visited and where users drop off to guide improvement priorities." }
+    ],
+    useCases: [
+      { title: "Developer Tool Companies", description: "Create documentation that developers actually enjoy using and that makes adoption of your API faster." },
+      { title: "API-First Startups", description: "Launch with professional interactive API documentation that matches the quality of your actual product." },
+      { title: "Developer Relations Teams", description: "Maintain comprehensive accurate documentation that reduces support burden and improves developer experience significantly." }
+    ]
+  },
+  "superhuman": {
+    whatIs: "Superhuman is a premium AI-powered email client designed for speed that uses keyboard shortcuts, AI triage, and intelligent features to help professionals reach inbox zero and manage email dramatically faster.",
+    features: [
+      "AI Triage: Automatically prioritize your most important emails",
+      "Speed Focus: Keyboard-driven workflow for ultra-fast email handling",
+      "Inbox Zero: Tools and workflows designed to clear your inbox",
+      "Split Inbox: Separate email streams by priority and type",
+      "AI Summaries: Instant summaries of long email threads"
+    ],
+    howToUse: {
+      title: "How to Use Superhuman",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Get Onboarded", description: "Complete Superhuman's personalized onboarding call where a specialist sets up your account optimally." },
+        { title: "Learn the Shortcuts", description: "Master the keyboard shortcuts that make Superhuman dramatically faster than any standard email client." },
+        { title: "Set Up Your Split Inbox", description: "Configure your inbox splits to separate important emails from newsletters and notifications automatically." },
+        { title: "Work Through Your Email", description: "Use Superhuman's workflow and AI features to triage, respond, and reach inbox zero faster than before." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed Architecture", description: "Built from the ground up for keyboard-driven speed making every common email action faster than alternatives." },
+      { title: "AI Email Triage", description: "Automatically identifies your most important emails so you focus attention where it genuinely matters first." },
+      { title: "Inbox Zero System", description: "Provides a complete methodology and toolset specifically designed to help users achieve and maintain inbox zero." }
+    ],
+    useCases: [
+      { title: "Executives", description: "Manage extremely high email volumes efficiently without email consuming disproportionate time in your day." },
+      { title: "Founders", description: "Stay on top of critical communications while spending the minimum necessary time actually in your inbox." },
+      { title: "High-Volume Professionals", description: "Handle large numbers of daily emails faster and more systematically than any standard email client allows." }
+    ]
+  },
+  "spark-mail": {
+    whatIs: "Spark Mail is an intelligent email client that uses AI to prioritize important emails, enable team email collaboration, and provide smart writing assistance to help individuals and teams manage email more effectively.",
+    features: [
+      "Smart Inbox: AI separates important emails from noise automatically",
+      "Team Email: Collaborate on emails with teammates before sending",
+      "AI Writing: Draft and improve emails with AI assistance",
+      "Email Templates: Save and reuse effective email formats",
+      "Unified Inbox: Manage multiple email accounts in one place"
+    ],
+    howToUse: {
+      title: "How to Use Spark Mail",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Accounts", description: "Add all your email accounts to Spark for unified management from one intelligent inbox." },
+        { title: "Let AI Sort Your Mail", description: "Allow Spark's AI to prioritize your inbox separating important emails from newsletters and notifications." },
+        { title: "Collaborate on Emails", description: "Invite teammates to discuss and edit important emails together before anyone sends them." },
+        { title: "Use AI Writing Help", description: "Draft new emails with AI assistance or improve existing drafts for clarity and professionalism." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Smart Priority Inbox", description: "Uses AI to identify genuinely important emails and separate them from lower-priority messages automatically." },
+      { title: "Team Collaboration", description: "Enables teammates to comment on and co-write emails before sending for better team communication." },
+      { title: "AI Writing Assistant", description: "Helps draft, rewrite, and improve email content making professional communication faster and easier." }
+    ],
+    useCases: [
+      { title: "Professionals Managing Multiple Accounts", description: "Handle personal and work email from multiple accounts in one organized intelligent inbox efficiently." },
+      { title: "Remote Teams", description: "Collaborate on important client and partner emails together before sending for better team alignment." },
+      { title: "Busy Individuals", description: "Spend less time managing email by letting AI prioritize what genuinely needs your attention each day." }
+    ]
+  },
+  "shortwave": {
+    whatIs: "Shortwave is an AI-powered email client that uses machine learning to organize your inbox, summarize email threads, draft replies, and help you process email faster with intelligent automation.",
+    features: [
+      "AI Summaries: Instantly summarize long email threads",
+      "Smart Bundling: Group related emails automatically by topic",
+      "AI Drafting: Write email replies with AI assistance quickly",
+      "Inbox Organization: Automatic sorting and categorization of mail",
+      "Search Intelligence: Find any email quickly with smart search"
+    ],
+    howToUse: {
+      title: "How to Use Shortwave",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Shortwave", description: "Connect your Gmail account to Shortwave and let it analyze and organize your existing inbox." },
+        { title: "Review Your Bundles", description: "See your emails automatically grouped into bundles by sender and topic for easier processing." },
+        { title: "Use AI Summaries", description: "Click any thread to get an instant AI summary so you understand the context without reading every message." },
+        { title: "Draft with AI", description: "Use the AI drafting tool to write replies faster and handle your inbox more efficiently than before." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Thread Summarization", description: "Instantly summarizes long email threads so you understand the full context without reading every individual message." },
+      { title: "Automatic Bundling", description: "Groups related emails by sender and topic automatically creating a naturally organized inbox structure." },
+      { title: "AI Reply Drafting", description: "Generates contextually appropriate reply drafts based on the email thread content for faster response writing." }
+    ],
+    useCases: [
+      { title: "Gmail Power Users", description: "Process your Gmail inbox faster with AI summaries, smart bundling, and reply assistance built into one client." },
+      { title: "Busy Professionals", description: "Reduce time spent in email by quickly understanding thread context through summaries and drafting replies with AI." },
+      { title: "Inbox Zero Seekers", description: "Work through your inbox more efficiently with organizational tools that make email processing systematic and fast." }
+    ]
+  },
   "jobright": {
     whatIs: "Jobright is an AI-powered job search platform that matches candidates with relevant job opportunities, provides resume optimization, and offers personalized career guidance to accelerate the job hunting process.",
     features: [
