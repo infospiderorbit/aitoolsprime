@@ -1,4 +1,454 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "atyou": {
+    whatIs: "AtYou is an AI social media mention and engagement tracking tool that monitors when your brand, name, or keywords are mentioned across social platforms so you never miss an important conversation.",
+    features: [
+      "Mention Monitoring: Track brand and keyword mentions across platforms",
+      "Real-Time Alerts: Get notified instantly when mentions appear",
+      "Sentiment Analysis: Understand the tone of each mention",
+      "Engagement Tools: Respond to mentions directly from the dashboard",
+      "Competitor Mentions: Track what people say about competitors too"
+    ],
+    howToUse: {
+      title: "How to Use Atyou",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Your Keywords", description: "Enter your brand name, personal handle, products, and any keywords you want monitored across platforms." },
+        { title: "Receive Alerts", description: "Get real-time notifications whenever your tracked keywords appear in social media conversations." },
+        { title: "Review Mentions", description: "See all mentions in one dashboard with sentiment indicators and context for each conversation." },
+        { title: "Respond and Engage", description: "Reply to relevant mentions directly from the platform to manage your reputation and build relationships." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Detection", description: "Catches mentions as they happen across social platforms so you can respond while conversations are still active." },
+      { title: "Sentiment Scoring", description: "Automatically categorizes each mention as positive, negative, or neutral to prioritize your response efforts." },
+      { title: "Competitor Intelligence", description: "Tracks competitor mentions alongside your own giving you market context and competitive awareness." }
+    ],
+    useCases: [
+      { title: "Brand Managers", description: "Stay on top of every conversation about your brand and respond before issues escalate or go unnoticed." },
+      { title: "PR Professionals", description: "Monitor brand reputation in real time and identify potential PR situations before they become problems." },
+      { title: "Creators and Public Figures", description: "Track when your name or content gets mentioned and engage with your community across all platforms." }
+    ]
+  },
+  "plano": {
+    whatIs: "Plano is a social media content planning and scheduling tool that helps creators and teams organize their content calendar, collaborate on posts, and maintain a consistent publishing schedule effortlessly.",
+    features: [
+      "Content Calendar: Visual planning for all your social posts",
+      "Team Collaboration: Work together on content creation and approval",
+      "Multi-Platform Scheduling: Post to all major networks automatically",
+      "Draft Management: Organize content in various stages of completion",
+      "Publishing Automation: Posts go live at your scheduled times"
+    ],
+    howToUse: {
+      title: "How to Use Plano",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Calendar", description: "Create your Plano workspace and connect your social media accounts to the content calendar." },
+        { title: "Plan Your Content", description: "Add your post ideas, drafts, and scheduled content to the visual calendar for a clear overview." },
+        { title: "Collaborate With Your Team", description: "Invite team members to create, edit, and approve content before it gets scheduled to publish." },
+        { title: "Automate Publishing", description: "Set your finalized posts to publish automatically at the right times across all connected platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Calendar Interface", description: "Provides a clear bird's-eye view of all planned content across platforms so nothing overlaps or gets missed." },
+      { title: "Approval Workflows", description: "Manages content review and approval between team members before any post goes live publicly." },
+      { title: "Multi-Platform Automation", description: "Publishes to all connected social networks simultaneously on the schedule you define in advance." }
+    ],
+    useCases: [
+      { title: "Content Teams", description: "Keep your entire team aligned on what is being posted, when, and on which platform at all times." },
+      { title: "Social Media Managers", description: "Manage content calendars for multiple clients or brand accounts from one organized central workspace." },
+      { title: "Solo Creators", description: "Plan your content in advance and post consistently without scrambling for ideas at the last minute." }
+    ]
+  },
+  "voc-ai": {
+    whatIs: "VOC AI is a customer feedback and review analysis platform that uses AI to extract actionable insights from customer reviews, support tickets, and feedback data to improve products and experiences.",
+    features: [
+      "Review Analysis: Extract insights from customer reviews automatically",
+      "Sentiment Tracking: Monitor customer sentiment trends over time",
+      "Feedback Categorization: Organize feedback by theme and topic",
+      "Competitive Analysis: Compare your feedback against competitors",
+      "Actionable Reports: Clear recommendations based on customer data"
+    ],
+    howToUse: {
+      title: "How to Use Voc Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Data Sources", description: "Import customer reviews, support tickets, and feedback from your platforms into VOC AI." },
+        { title: "Run Your Analysis", description: "Let the AI process your feedback data and identify key themes, sentiments, and recurring issues." },
+        { title: "Review Your Insights", description: "Explore the dashboard to see what customers love, what frustrates them, and what they request most." },
+        { title: "Take Action", description: "Use the prioritized recommendations to improve your product, service, or customer experience meaningfully." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated Theme Extraction", description: "Identifies recurring topics and themes across thousands of reviews without manual reading and categorization." },
+      { title: "Trend Monitoring", description: "Tracks how customer sentiment and feedback topics change over time to catch emerging issues early." },
+      { title: "Competitive Benchmarking", description: "Compares your customer feedback patterns against competitor reviews for strategic market insight." }
+    ],
+    useCases: [
+      { title: "Product Teams", description: "Understand exactly what customers want improved and prioritize your roadmap based on real feedback data." },
+      { title: "E-commerce Businesses", description: "Turn Amazon and marketplace reviews into actionable product and listing improvement insights." },
+      { title: "Customer Experience Teams", description: "Identify the root causes of customer dissatisfaction and address them systematically with data backing." }
+    ]
+  },
+  "shortimize": {
+    whatIs: "Shortimize is an AI analytics and optimization tool for YouTube Shorts creators that provides detailed performance insights and content recommendations to grow your Shorts channel faster.",
+    features: [
+      "Shorts Analytics: Deep performance data for your YouTube Shorts",
+      "Content Optimization: AI recommendations to improve each video",
+      "Growth Tracking: Monitor your Shorts channel growth over time",
+      "Trend Discovery: Find trending topics in your niche for Shorts",
+      "Competitor Analysis: See how your Shorts compare to rivals"
+    ],
+    howToUse: {
+      title: "How to Use Shortimize",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Channel", description: "Link your YouTube channel to Shortimize for full Shorts analytics and optimization access." },
+        { title: "Review Your Performance", description: "Explore detailed metrics on your Shorts including views, retention, click-through rates, and growth trends." },
+        { title: "Get Optimization Tips", description: "Receive AI-generated recommendations for improving your titles, thumbnails, hooks, and content structure." },
+        { title: "Track Your Growth", description: "Monitor how your Shorts channel grows over time and identify which videos drive the most subscriber gains." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Shorts-Specific Analytics", description: "Provides metrics and insights specifically designed for the YouTube Shorts format and algorithm behavior." },
+      { title: "Content Recommendations", description: "Delivers specific actionable suggestions for improving individual Shorts based on performance data analysis." },
+      { title: "Trend Intelligence", description: "Identifies rising topics and formats in your niche before they peak for maximum early-mover advantage." }
+    ],
+    useCases: [
+      { title: "YouTube Shorts Creators", description: "Grow your Shorts channel faster by understanding exactly what works and optimizing every video you post." },
+      { title: "Creators Expanding to Shorts", description: "Get data-backed guidance on how to adapt your content strategy for the Shorts format effectively." },
+      { title: "Channel Growth Strategists", description: "Use detailed analytics to build a systematic Shorts growth strategy grounded in real performance data." }
+    ]
+  },
+  "vidiq": {
+    whatIs: "VidIQ is a YouTube growth platform that provides keyword research, competitor analysis, AI coaching, and video optimization tools to help creators grow their channels faster and smarter.",
+    features: [
+      "Keyword Research: Find high-opportunity YouTube search terms",
+      "AI Coach: Personalized daily video ideas and growth advice",
+      "Competitor Tracking: Monitor competitor channel performance",
+      "Video Scorecard: Optimization checklist for every upload",
+      "Trending Alerts: Get notified about trending topics in your niche"
+    ],
+    howToUse: {
+      title: "How to Use Vidiq",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install VidIQ", description: "Add the VidIQ browser extension and connect your YouTube channel to the dashboard." },
+        { title: "Research Your Keywords", description: "Use the keyword tool to find search terms with high views and low competition in your niche." },
+        { title: "Optimize Your Videos", description: "Follow the video scorecard checklist to optimize titles, descriptions, tags, and thumbnails before publishing." },
+        { title: "Track and Improve", description: "Monitor your channel analytics and competitor performance to refine your content strategy continuously." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Keyword Opportunity Scoring", description: "Rates keywords by search volume and competition to help creators find terms they can realistically rank for." },
+      { title: "AI Daily Ideas", description: "Delivers personalized video idea suggestions every day based on your channel, niche, and growth patterns." },
+      { title: "Competitor Intelligence", description: "Tracks competitor channels and reveals their best-performing videos, keywords, and growth strategies." }
+    ],
+    useCases: [
+      { title: "YouTube Creators", description: "Grow your channel faster with data-backed keyword research and optimization that improves every video's reach." },
+      { title: "New YouTubers", description: "Start your channel with a strategic advantage by finding low-competition keywords from day one." },
+      { title: "Established Channels", description: "Break through growth plateaus by identifying new keyword opportunities and content gaps in your niche." }
+    ]
+  },
+  "tubebuddy": {
+    whatIs: "TubeBuddy is a YouTube-certified browser extension and channel management platform that provides SEO tools, bulk processing, and optimization features to help creators manage and grow their channels.",
+    features: [
+      "SEO Tools: Keyword research and tag suggestions for every video",
+      "Bulk Processing: Update multiple videos simultaneously at scale",
+      "A/B Testing: Test thumbnails and titles to find what converts best",
+      "Best Time to Publish: Data on when your audience is most active",
+      "Comment Filters: Manage and moderate video comments efficiently"
+    ],
+    howToUse: {
+      title: "How to Use Tubebuddy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install TubeBuddy", description: "Add the TubeBuddy extension to your browser and connect it to your YouTube account." },
+        { title: "Research Before Uploading", description: "Use keyword tools and tag suggestions to optimize your video before it goes live on the platform." },
+        { title: "Run A/B Tests", description: "Set up thumbnail and title tests to discover which versions drive higher click-through rates." },
+        { title: "Manage Your Channel", description: "Use bulk processing tools to update old videos, manage comments, and maintain your channel at scale." }
+      ]
+    },
+    coreFeatures: [
+      { title: "YouTube Certification", description: "Official YouTube-certified tool that integrates directly into YouTube Studio for seamless channel management." },
+      { title: "A/B Testing Engine", description: "Tests multiple thumbnail and title variations to identify which combinations generate the most clicks." },
+      { title: "Bulk Management Tools", description: "Updates tags, descriptions, cards, and end screens across multiple videos simultaneously saving hours of work." }
+    ],
+    useCases: [
+      { title: "Active YouTube Creators", description: "Optimize every video for search and manage your growing channel efficiently with professional grade tools." },
+      { title: "Channel Managers", description: "Handle large YouTube channels with bulk editing tools that make mass updates fast and straightforward." },
+      { title: "Growth-Focused Creators", description: "Use A/B testing and SEO tools to systematically improve click-through rates and search rankings over time." }
+    ]
+  },
+  "nexlev": {
+    whatIs: "NexLev is an AI YouTube niche research tool that helps creators find profitable, low-competition YouTube niches and content opportunities with detailed market analysis and revenue potential data.",
+    features: [
+      "Niche Discovery: Find profitable YouTube niches with low competition",
+      "Revenue Estimates: See potential earnings for any YouTube niche",
+      "Competition Analysis: Evaluate how crowded each niche truly is",
+      "Keyword Opportunities: Find search terms with strong growth potential",
+      "Market Validation: Confirm niche viability before committing to it"
+    ],
+    howToUse: {
+      title: "How to Use Nexlev",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse or Search Niches", description: "Explore NexLev's niche database or search specific topics to find profitable YouTube content opportunities." },
+        { title: "Analyze the Market", description: "Review competition levels, revenue estimates, and growth trends for any niche you are considering." },
+        { title: "Find Keywords", description: "Identify the specific search terms within your chosen niche that offer the best ranking opportunities." },
+        { title: "Validate and Launch", description: "Confirm your niche has strong potential and start your channel with data-backed confidence." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Revenue Intelligence", description: "Provides estimated CPM and earnings data for niches so creators can assess financial potential before starting." },
+      { title: "Competition Scoring", description: "Rates how saturated each niche is so creators can find gaps where new channels can realistically succeed." },
+      { title: "Opportunity Mapping", description: "Identifies underserved content areas within broader niches where new creators can establish authority quickly." }
+    ],
+    useCases: [
+      { title: "Aspiring YouTubers", description: "Find the right niche to start your channel in based on data rather than guesswork or random inspiration." },
+      { title: "Creators Considering Pivots", description: "Evaluate new content directions with market data before committing to a full channel strategy change." },
+      { title: "Faceless Channel Builders", description: "Identify profitable niches for automated or faceless YouTube channels with strong revenue potential." }
+    ]
+  },
+  "futurepedia": {
+    whatIs: "Futurepedia is the largest AI tools directory that helps users discover, compare, and find the best AI tools for any task across hundreds of categories updated daily with new releases.",
+    features: [
+      "Comprehensive Directory: Thousands of AI tools across all categories",
+      "Daily Updates: New tools added every day as they launch",
+      "Category Filtering: Browse tools by use case and industry",
+      "Tool Comparison: Evaluate multiple tools side by side easily",
+      "Community Reviews: Real user ratings and feedback on tools"
+    ],
+    howToUse: {
+      title: "How to Use Futurepedia",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search or Browse", description: "Search for a specific AI tool by name or browse categories to discover tools for your specific need." },
+        { title: "Filter Your Results", description: "Narrow results by category, pricing model, features, or platform to find the most relevant options." },
+        { title: "Compare Options", description: "Review multiple tools side by side to evaluate features, pricing, and community ratings before deciding." },
+        { title: "Stay Updated", description: "Check back daily or subscribe to updates to discover newly launched AI tools in your areas of interest." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Comprehensive Coverage", description: "Maintains the largest curated database of AI tools across every category updated continuously with new additions." },
+      { title: "Community Intelligence", description: "Aggregates real user reviews and ratings to provide authentic feedback beyond marketing descriptions." },
+      { title: "Discovery Engine", description: "Makes finding the right AI tool for any specific task fast and reliable through smart search and filtering." }
+    ],
+    useCases: [
+      { title: "AI Enthusiasts", description: "Stay current with the latest AI tool releases and discoveries across every category and use case." },
+      { title: "Professionals Adopting AI", description: "Find the best AI tools for your specific workflow and professional needs without hours of independent research." },
+      { title: "Developers and Founders", description: "Research the competitive landscape of AI tools in your category before building or positioning your product." }
+    ]
+  },
+  "subscribr": {
+    whatIs: "Subscribr is an AI YouTube content strategy tool that analyzes trending topics, generates video ideas, and writes scripts to help creators produce content that grows their subscriber count.",
+    features: [
+      "Trend Analysis: Discover what topics are growing on YouTube now",
+      "Video Idea Generation: AI-generated ideas tailored to your channel",
+      "Script Writing: Full YouTube video scripts written by AI",
+      "Title Optimization: Compelling titles engineered for clicks",
+      "Thumbnail Concepts: Visual ideas for high click-through thumbnails"
+    ],
+    howToUse: {
+      title: "How to Use Subscribr",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Channel", description: "Link your YouTube channel so Subscribr can personalize ideas and strategies to your specific audience." },
+        { title: "Discover Trending Topics", description: "Explore what topics are currently growing in your niche and have strong subscriber-driving potential." },
+        { title: "Generate Your Ideas", description: "Get a list of personalized video ideas based on trends, your channel history, and audience preferences." },
+        { title: "Write Your Script", description: "Use AI to write a complete video script for your chosen idea ready to record and produce." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Trend Detection", description: "Identifies topics gaining momentum in your niche before they peak for maximum early content advantage." },
+      { title: "Subscriber Growth Focus", description: "Prioritizes content ideas specifically for their potential to attract new subscribers rather than just views." },
+      { title: "Full Script Output", description: "Writes complete video scripts rather than just outlines so creators can go from idea to recording faster." }
+    ],
+    useCases: [
+      { title: "YouTube Creators", description: "Grow your subscriber count faster by creating content strategically aligned with what viewers actually want." },
+      { title: "New Channels", description: "Launch with a data-backed content strategy that targets topics with real subscriber growth potential." },
+      { title: "Established Creators", description: "Identify new content directions that can attract fresh audiences and reignite channel growth momentum." }
+    ]
+  },
+  "lilys-ai": {
+    whatIs: "Lilys AI is an AI summarization and note-taking tool that condenses long YouTube videos, PDFs, and web pages into clear concise summaries and structured notes for faster learning.",
+    features: [
+      "Video Summarization: Condense YouTube videos into key points",
+      "PDF Summary: Extract main ideas from long documents quickly",
+      "Web Page Digest: Summarize any article or webpage instantly",
+      "Structured Notes: Organized summaries with headers and bullets",
+      "Key Takeaways: Highlighted most important points from any content"
+    ],
+    howToUse: {
+      title: "How to Use Lilys Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Link or Upload", description: "Enter a YouTube URL, paste a web link, or upload a PDF document to start the summarization process." },
+        { title: "Generate Your Summary", description: "Let Lilys AI process the content and produce a clear structured summary of the key information." },
+        { title: "Review Key Points", description: "Read through the organized summary and highlighted takeaways to quickly grasp the essential content." },
+        { title: "Save and Reference", description: "Keep your summaries organized in your Lilys AI library for future reference and review." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Format Support", description: "Summarizes YouTube videos, PDFs, web articles, and other content types from one unified tool." },
+      { title: "Structured Output", description: "Organizes summaries with clear headers, bullet points, and highlighted takeaways for easy navigation." },
+      { title: "Speed of Comprehension", description: "Reduces hours of reading and watching into minutes of focused review without losing essential information." }
+    ],
+    useCases: [
+      { title: "Students", description: "Summarize lecture videos and academic papers quickly to study more material in less available time." },
+      { title: "Researchers", description: "Extract key insights from long papers and articles without reading every word of dense academic content." },
+      { title: "Busy Professionals", description: "Stay informed on industry content and reports by consuming concise AI summaries instead of full documents." }
+    ]
+  },
+  "noiz": {
+    whatIs: "Noiz is an AI audio enhancement and noise removal tool that cleans up recordings by eliminating background noise, improving voice clarity, and producing professional-quality audio from any microphone.",
+    features: [
+      "Noise Removal: Eliminate background noise from any recording",
+      "Voice Enhancement: Improve clarity and presence of vocal audio",
+      "Real-Time Processing: Clean audio during live calls and recordings",
+      "Batch Processing: Enhance multiple audio files simultaneously",
+      "Multi-Format Support: Works with all common audio file formats"
+    ],
+    howToUse: {
+      title: "How to Use Noiz",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Audio", description: "Import your audio file or connect Noiz to your microphone for real-time noise removal processing." },
+        { title: "Apply Enhancement", description: "Select your enhancement level and let the AI remove background noise and improve vocal clarity." },
+        { title: "Preview Your Result", description: "Listen to the enhanced audio to confirm the improvement meets your quality requirements." },
+        { title: "Export Clean Audio", description: "Download your enhanced audio file in your preferred format ready for use in your content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Noise Cancellation", description: "Removes background noise including fans, traffic, keyboard sounds, and room echo with impressive accuracy." },
+      { title: "Voice Presence Boost", description: "Enhances the natural presence and warmth of vocal recordings to sound more professional and broadcast-ready." },
+      { title: "Real-Time Capability", description: "Processes audio in real time during live recordings and video calls without perceptible latency." }
+    ],
+    useCases: [
+      { title: "Podcasters", description: "Record in any environment and still produce professional-quality audio without a treated recording space." },
+      { title: "Remote Workers", description: "Sound clear and professional on every video call regardless of your home office background noise level." },
+      { title: "Content Creators", description: "Improve voiceover and narration quality without investing in expensive microphones or soundproofing equipment." }
+    ]
+  },
+  "glarity": {
+    whatIs: "Glarity is a browser extension that uses AI to summarize YouTube videos, Google search results, and web pages alongside the original content so you can understand information faster without switching tabs.",
+    features: [
+      "YouTube Summaries: Get video summaries without watching fully",
+      "Search Summaries: AI digests of Google search results",
+      "Web Page Summary: Instant summaries of any page you visit",
+      "Side-by-Side Display: Summaries appear next to original content",
+      "Multi-Language: Summaries available in your preferred language"
+    ],
+    howToUse: {
+      title: "How to Use Glarity",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Add Glarity to your Chrome browser from the Chrome Web Store in one click." },
+        { title: "Browse Normally", description: "Visit YouTube, Google, or any web page and Glarity automatically generates summaries alongside the content." },
+        { title: "Read Your Summary", description: "Review the AI-generated summary in the sidebar to quickly grasp the key information from any content." },
+        { title: "Adjust Your Settings", description: "Configure summary language, length preferences, and which content types you want summarized automatically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Contextual Display", description: "Shows summaries alongside original content without requiring tab switching or copying links to other tools." },
+      { title: "Automatic Activation", description: "Generates summaries automatically as you browse without requiring manual input for each page you visit." },
+      { title: "Search Integration", description: "Summarizes Google search results directly in the search page helping you evaluate sources before clicking." }
+    ],
+    useCases: [
+      { title: "Researchers", description: "Quickly evaluate YouTube videos and web pages for relevance without investing time watching or reading fully." },
+      { title: "Students", description: "Accelerate research by getting instant summaries of educational videos and academic web content." },
+      { title: "Busy Professionals", description: "Stay informed across more content in less time by consuming AI summaries during your regular browsing." }
+    ]
+  },
+  "kome-ai": {
+    whatIs: "Kome AI is a browser extension that provides AI-powered web summarization, bookmarking, and productivity tools to help users save, organize, and understand online content more efficiently.",
+    features: [
+      "Page Summarization: Instant AI summaries of any web page",
+      "Smart Bookmarking: Save and organize content with AI tagging",
+      "YouTube Summary: Condense videos into key points quickly",
+      "Search Enhancement: AI insights added to search results",
+      "Content Organization: Keep your saved content structured and searchable"
+    ],
+    howToUse: {
+      title: "How to Use Kome Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Kome", description: "Add the Kome AI extension to your Chrome browser and create your free account." },
+        { title: "Browse and Summarize", description: "Visit any web page or YouTube video and use Kome to generate an instant AI summary of the content." },
+        { title: "Save and Tag", description: "Bookmark important content with AI-generated tags that make it easy to find and organize later." },
+        { title: "Review Your Library", description: "Access your organized collection of saved content and summaries from your Kome dashboard anytime." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Smart Summarization", description: "Generates clear concise summaries of web pages and videos that capture essential information accurately." },
+      { title: "Intelligent Bookmarking", description: "Automatically tags and categorizes saved content so your bookmark library stays organized without manual effort." },
+      { title: "Search Augmentation", description: "Adds AI-generated insights and summaries directly to search results for faster information evaluation." }
+    ],
+    useCases: [
+      { title: "Knowledge Workers", description: "Save and organize research from across the web with AI summaries that make reviewing your library effortless." },
+      { title: "Students", description: "Build a well-organized research library with AI-tagged bookmarks and instant page summaries for any topic." },
+      { title: "Avid Readers", description: "Manage the overwhelming volume of online content you want to read with smart summarization and bookmarking." }
+    ]
+  },
+  "eightify": {
+    whatIs: "Eightify is an AI YouTube summary tool that condenses any YouTube video into eight key ideas, giving you the essential insights from long videos in a fraction of the watching time.",
+    features: [
+      "8-Point Summaries: Every video distilled into eight key ideas",
+      "Timestamp Links: Jump to specific moments in the original video",
+      "Multi-Language: Summaries in your preferred language",
+      "Chrome Extension: Summaries appear directly on YouTube pages",
+      "Fast Generation: Get your summary in seconds after clicking"
+    ],
+    howToUse: {
+      title: "How to Use Eightify",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Eightify", description: "Add the Eightify Chrome extension from the Web Store and visit YouTube to activate it." },
+        { title: "Open Any Video", description: "Navigate to any YouTube video and Eightify automatically generates an eight-point summary for you." },
+        { title: "Read Your Summary", description: "Review the eight key ideas extracted from the video to quickly understand the core content." },
+        { title: "Jump to Moments", description: "Click any timestamp in the summary to jump directly to that part of the video for more context." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Eight-Point Format", description: "Consistently distills every video into exactly eight key ideas creating a predictable and scannable summary format." },
+      { title: "Timestamp Navigation", description: "Links each summary point to the exact video timestamp so you can verify or explore any point instantly." },
+      { title: "Automatic Generation", description: "Appears automatically on YouTube pages without requiring manual input making it frictionless to use daily." }
+    ],
+    useCases: [
+      { title: "YouTube Power Users", description: "Decide quickly whether a video is worth watching in full by scanning its eight key ideas first." },
+      { title: "Learners", description: "Extract the essential lessons from educational YouTube videos without watching hours of content." },
+      { title: "Researchers", description: "Rapidly evaluate the relevance and value of YouTube content before investing time in full viewings." }
+    ]
+  },
+  "pikzels": {
+    whatIs: "Pikzels is an AI YouTube thumbnail generator that creates eye-catching, click-worthy thumbnails from text prompts or video titles to help creators improve their click-through rates and channel growth.",
+    features: [
+      "AI Thumbnail Generation: Create thumbnails from text descriptions",
+      "Title-Based Design: Generate thumbnails from your video title",
+      "Style Templates: Multiple thumbnail styles for different content types",
+      "Text Overlay: Add compelling text to thumbnails automatically",
+      "High Resolution: Download thumbnails in YouTube-ready dimensions"
+    ],
+    howToUse: {
+      title: "How to Use Pikzels",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Video Title", description: "Type your video title or describe the thumbnail concept you want the AI to create for your video." },
+        { title: "Choose Your Style", description: "Select a thumbnail style that matches your channel aesthetic and the content type of your video." },
+        { title: "Generate Options", description: "Get multiple AI-generated thumbnail options based on your input to choose from or combine." },
+        { title: "Download and Upload", description: "Download your chosen thumbnail in the correct YouTube dimensions and upload it to your video." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Title-to-Thumbnail", description: "Transforms your video title directly into a relevant compelling thumbnail concept without manual design work." },
+      { title: "Style Consistency", description: "Maintains consistent visual styles across thumbnails to build a recognizable channel aesthetic over time." },
+      { title: "Click-Through Optimization", description: "Designs thumbnails using visual principles that are proven to attract clicks in competitive YouTube feeds." }
+    ],
+    useCases: [
+      { title: "YouTube Creators", description: "Improve your click-through rate with professionally designed AI thumbnails that stand out in search results." },
+      { title: "New YouTubers", description: "Create great thumbnails from day one without graphic design skills or expensive design software." },
+      { title: "High-Volume Creators", description: "Generate thumbnails quickly for every video without spending significant time on design for each upload." }
+    ]
+  },
   "crayo-ai": {
     whatIs: "Crayo AI is a viral short-form video creation platform that helps creators produce TikTok, Reels, and Shorts content at speed using AI-generated scripts, voiceovers, captions, and backgrounds.",
     features: [
