@@ -1,4 +1,274 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "riffo": {
+    whatIs: "Riffo is an AI resume screening and recruitment tool that helps hiring teams automatically filter, rank, and shortlist candidates from large applicant pools based on job requirements and qualifications.",
+    features: [
+      "AI Resume Screening: Automatically filter and rank applicants",
+      "Custom Criteria: Set specific requirements for each role",
+      "Bulk Processing: Screen hundreds of resumes simultaneously",
+      "Candidate Ranking: Prioritized shortlist based on fit score",
+      "Bias Reduction: Consistent objective evaluation of all applicants"
+    ],
+    howToUse: {
+      title: "How to Use Riffo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Job Requirements", description: "Define the role requirements, must-have skills, and preferred qualifications for the position you are hiring for." },
+        { title: "Import Applications", description: "Upload your applicant resumes in bulk and let Riffo process and analyze each one automatically." },
+        { title: "Review Rankings", description: "See your candidates ranked by fit score and review the AI assessment for each shortlisted applicant." },
+        { title: "Proceed With Interviews", description: "Take your prioritized shortlist into the interview stage with confidence in the quality of your candidates." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Consistent Evaluation", description: "Applies the same criteria to every applicant eliminating inconsistency that comes from manual resume review." },
+      { title: "Bulk Processing Speed", description: "Screens large volumes of applications simultaneously reducing days of manual review to minutes of AI analysis." },
+      { title: "Fit Score Ranking", description: "Produces a ranked candidate list with fit scores that make prioritizing interviews fast and defensible." }
+    ],
+    useCases: [
+      { title: "HR Teams", description: "Process high-volume job applications quickly and consistently without manual resume screening bottlenecks." },
+      { title: "Recruitment Agencies", description: "Screen large candidate pools for multiple clients simultaneously with consistent objective evaluation criteria." },
+      { title: "Startup Hiring Managers", description: "Make smarter hiring decisions faster without a dedicated HR team by using AI to filter applicants effectively." }
+    ]
+  },
+  "the-drive-ai": {
+    whatIs: "The Drive AI is an AI document management and knowledge base tool that lets teams upload, organize, and chat with their documents to find information instantly without manual searching through files.",
+    features: [
+      "Document Chat: Ask questions about your uploaded documents",
+      "AI Organization: Intelligent filing and categorization of files",
+      "Instant Search: Find any information across your document library",
+      "Team Knowledge Base: Shared document intelligence for your team",
+      "Multi-Format Support: Works with PDFs, Word docs, and more"
+    ],
+    howToUse: {
+      title: "How to Use The Drive Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Documents", description: "Import your files, reports, manuals, and documents into The Drive AI for intelligent organization." },
+        { title: "Ask Your Questions", description: "Type questions about your document collection and get accurate answers pulled from the right files." },
+        { title: "Search Your Knowledge", description: "Use natural language search to find specific information across your entire document library instantly." },
+        { title: "Share With Team", description: "Give your team access to the shared knowledge base so everyone gets answers from company documents quickly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Document Intelligence", description: "Reads and understands all uploaded documents so users can query the full library in plain English." },
+      { title: "Instant Retrieval", description: "Finds specific information across large document collections in seconds rather than manual searching through files." },
+      { title: "Team Knowledge Sharing", description: "Creates a shared intelligent knowledge base that gives the whole team access to collective document intelligence." }
+    ],
+    useCases: [
+      { title: "Operations Teams", description: "Access policies, procedures, and reference documents instantly without digging through shared drive folders." },
+      { title: "Customer Support Teams", description: "Find answers in product documentation and knowledge bases quickly to resolve customer queries faster." },
+      { title: "Research Teams", description: "Query large collections of research documents and reports to surface relevant information efficiently." }
+    ]
+  },
+  "forms-app": {
+    whatIs: "forms.app is an AI-powered online form builder that helps users create surveys, quizzes, and data collection forms quickly with AI generation, conditional logic, and extensive customization options.",
+    features: [
+      "AI Form Generation: Create complete forms from text descriptions",
+      "Survey Builder: Professional surveys with multiple question types",
+      "Quiz Mode: Interactive quizzes with scoring and feedback",
+      "Conditional Logic: Smart forms that adapt to responses",
+      "Custom Branding: Match forms to your visual identity"
+    ],
+    howToUse: {
+      title: "How to Use Forms App",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe or Build", description: "Use AI to generate your form from a description or build manually using the drag-and-drop form editor." },
+        { title: "Add Your Questions", description: "Include various question types from multiple choice to file uploads depending on your data needs." },
+        { title: "Set Up Logic", description: "Configure conditional logic so your form adapts intelligently based on how respondents answer questions." },
+        { title: "Share and Analyze", description: "Distribute your form and review responses with built-in analytics and reporting tools." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Form Creation", description: "Generates complete ready-to-use forms from plain text descriptions eliminating the need to build from scratch." },
+      { title: "Question Type Variety", description: "Supports a wide range of question formats from simple text inputs to ratings, rankings, and file uploads." },
+      { title: "Response Analytics", description: "Provides built-in analytics on form responses so you understand patterns and insights from your collected data." }
+    ],
+    useCases: [
+      { title: "HR Teams", description: "Create employee surveys, feedback forms, and onboarding questionnaires quickly with professional results." },
+      { title: "Educators", description: "Build quizzes and assessments with automatic scoring that saves time on manual grading and feedback." },
+      { title: "Marketers", description: "Collect customer feedback, run market research surveys, and build lead capture forms with AI assistance." }
+    ]
+  },
+  "voiceform": {
+    whatIs: "Voiceform is a voice-powered survey and data collection tool that lets respondents answer questions by speaking rather than typing, resulting in richer more authentic responses and higher completion rates.",
+    features: [
+      "Voice Responses: Collect spoken answers instead of typed text",
+      "AI Transcription: Automatic transcription of all voice responses",
+      "Sentiment Analysis: Understand emotional tone of responses",
+      "Higher Completion: Voice surveys get better response rates",
+      "Insight Generation: AI summaries of collected voice feedback"
+    ],
+    howToUse: {
+      title: "How to Use Voiceform",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Survey", description: "Build your Voiceform survey by adding your questions in the familiar form builder interface." },
+        { title: "Enable Voice Mode", description: "Configure your survey to accept voice responses and set up any follow-up questions you want included." },
+        { title: "Share With Respondents", description: "Send your voice survey link to participants and let them respond naturally by speaking their answers." },
+        { title: "Analyze Responses", description: "Review AI-transcribed responses and sentiment analysis to extract meaningful insights from voice feedback." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Voice Collection Engine", description: "Records spoken responses and automatically transcribes them for easy analysis and reporting." },
+      { title: "Sentiment Intelligence", description: "Analyzes the emotional tone of voice responses to surface feelings that text responses often miss." },
+      { title: "Completion Rate Improvement", description: "Achieves higher survey completion rates because speaking is faster and more natural than typing for most people." }
+    ],
+    useCases: [
+      { title: "UX Researchers", description: "Collect richer qualitative feedback through voice responses that reveal nuance difficult to capture in text surveys." },
+      { title: "Customer Experience Teams", description: "Gather authentic customer sentiment through voice feedback that feels more natural and personal than typing." },
+      { title: "Market Researchers", description: "Run voice-based research studies that produce richer qualitative data than traditional text survey formats." }
+    ]
+  },
+  "blocksurvey": {
+    whatIs: "BlockSurvey is a privacy-first survey and form tool built on blockchain technology that ensures complete data ownership, end-to-end encryption, and anonymous response collection for sensitive research.",
+    features: [
+      "End-to-End Encryption: All data encrypted and fully private",
+      "Anonymous Responses: Collect feedback without identifying respondents",
+      "Data Ownership: You own your data completely with blockchain",
+      "No Ads or Tracking: Zero third-party data access ever",
+      "AI Analysis: Insights from your encrypted survey responses"
+    ],
+    howToUse: {
+      title: "How to Use Blocksurvey",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Survey", description: "Build your survey in BlockSurvey's editor with the confidence that all data will be fully encrypted." },
+        { title: "Configure Privacy Settings", description: "Set your anonymity and encryption preferences based on the sensitivity of your data collection needs." },
+        { title: "Share Securely", description: "Distribute your survey link knowing that all responses are protected by end-to-end encryption." },
+        { title: "Analyze Privately", description: "Review your responses and AI-generated insights with complete confidence in your data privacy." }
+      ]
+    },
+    coreFeatures: [
+      { title: "End-to-End Encryption", description: "Encrypts all survey data so neither BlockSurvey nor any third party can access your respondent information." },
+      { title: "True Anonymity", description: "Collects responses without any identifying information attached making genuinely anonymous research possible." },
+      { title: "Blockchain Ownership", description: "Uses blockchain technology to establish verifiable data ownership that cannot be revoked or accessed by others." }
+    ],
+    useCases: [
+      { title: "Healthcare Researchers", description: "Collect sensitive patient and health data with encryption that meets privacy requirements and builds respondent trust." },
+      { title: "Privacy Advocates", description: "Run surveys and collect feedback without exposing respondent data to advertising networks or third parties." },
+      { title: "Academic Researchers", description: "Conduct sensitive research studies with genuine anonymity guarantees that traditional survey tools cannot provide." }
+    ]
+  },
+  "opinion-stage": {
+    whatIs: "Opinion Stage is an interactive content platform that helps marketers and publishers create quizzes, polls, surveys, and personality tests that drive engagement, collect leads, and generate audience insights.",
+    features: [
+      "Interactive Quizzes: Personality and knowledge quizzes that engage",
+      "Polls and Surveys: Quick audience opinion collection tools",
+      "Lead Generation: Capture emails through interactive content",
+      "Embeddable Widgets: Add interactive content to any website",
+      "Audience Insights: Understand your audience through their responses"
+    ],
+    howToUse: {
+      title: "How to Use Opinion Stage",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Format", description: "Select from quizzes, polls, surveys, or personality tests based on your engagement and data goals." },
+        { title: "Build Your Content", description: "Create your questions, answer options, and result pages using the intuitive content builder." },
+        { title: "Configure Lead Capture", description: "Set up optional email capture so engaged respondents can share their contact information with you." },
+        { title: "Embed and Promote", description: "Add your interactive content to your website or share it across social media to drive engagement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Engagement Optimization", description: "Creates interactive content formats that generate significantly higher engagement than static content alternatives." },
+      { title: "Lead Capture Integration", description: "Converts high-engagement quiz and poll completions into lead generation opportunities naturally." },
+      { title: "Audience Intelligence", description: "Aggregates response data to reveal genuine audience preferences, knowledge gaps, and demographic insights." }
+    ],
+    useCases: [
+      { title: "Content Marketers", description: "Create shareable interactive content that drives traffic, engagement, and lead capture simultaneously." },
+      { title: "Publishers and Media", description: "Add polls and quizzes to articles to increase time on page and reader engagement with your content." },
+      { title: "E-commerce Brands", description: "Run product recommendation quizzes that help customers find the right product while capturing their preferences." }
+    ]
+  },
+  "outlier-ai": {
+    whatIs: "Outlier AI is a business intelligence tool that automatically monitors your data and proactively alerts you to significant changes, anomalies, and trends without requiring manual analysis or dashboard checking.",
+    features: [
+      "Automated Monitoring: Continuous watching of your business metrics",
+      "Anomaly Detection: Instant alerts when something unusual happens",
+      "Root Cause Analysis: Understand why metrics changed automatically",
+      "Natural Language Insights: Plain English explanations of findings",
+      "No Dashboard Required: Insights delivered proactively to you"
+    ],
+    howToUse: {
+      title: "How to Use Outlier Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Data", description: "Link Outlier AI to your data sources including databases, data warehouses, and business intelligence tools." },
+        { title: "Define Your Metrics", description: "Specify which business metrics and KPIs you want Outlier to monitor continuously for changes." },
+        { title: "Receive Alerts", description: "Get proactive notifications when Outlier detects significant changes, anomalies, or emerging trends in your data." },
+        { title: "Understand the Why", description: "Review the root cause analysis provided with each alert to understand what drove the metric change." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Proactive Alerting", description: "Monitors data continuously and delivers insights before problems escalate rather than waiting for manual discovery." },
+      { title: "Root Cause Intelligence", description: "Goes beyond flagging anomalies to explain what factors contributed to each significant metric change found." },
+      { title: "Plain Language Output", description: "Communicates data insights in clear business language that non-technical stakeholders can understand immediately." }
+    ],
+    useCases: [
+      { title: "Business Leaders", description: "Stay informed about significant changes in your key metrics without spending time manually reviewing dashboards." },
+      { title: "Data Teams", description: "Automate anomaly detection across your data infrastructure and focus human analysis on the most important findings." },
+      { title: "Marketing Teams", description: "Get instant alerts when campaign metrics change significantly so you can react and optimize in real time." }
+    ]
+  },
+  "simplify": {
+    whatIs: "Simplify is an AI job application tool that auto-fills job applications with one click, tracks your applications automatically, and helps job seekers manage their entire job search from one organized hub.",
+    features: [
+      "One-Click Apply: Auto-fill applications across job boards instantly",
+      "Application Tracking: Automatic logging of every application",
+      "Resume Management: Store and switch between resume versions",
+      "Job Discovery: Find relevant opportunities across multiple boards",
+      "Interview Prep: Resources and tracking for your interview pipeline"
+    ],
+    howToUse: {
+      title: "How to Use Simplify",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Add the Simplify browser extension to Chrome for one-click application filling across job sites." },
+        { title: "Build Your Profile", description: "Enter your work history, education, and skills once so Simplify can fill any application form automatically." },
+        { title: "Apply With One Click", description: "Visit any job posting and use Simplify to fill the entire application form in seconds with your saved information." },
+        { title: "Track Your Pipeline", description: "Review your automatically logged applications and manage your job search pipeline from your Simplify dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Universal Auto-Fill", description: "Fills application forms across virtually every major job board and company career page with one click." },
+      { title: "Automatic Tracking", description: "Logs every application you submit automatically so your job search history is always complete and organized." },
+      { title: "Multi-Resume Support", description: "Stores multiple resume versions and lets you choose the most relevant one for each specific application." }
+    ],
+    useCases: [
+      { title: "Active Job Seekers", description: "Apply to more jobs in less time and stay organized across a high-volume job search without manual tracking." },
+      { title: "Career Changers", description: "Manage applications to roles across different industries simultaneously with organized tracking and auto-fill." },
+      { title: "Recent Graduates", description: "Apply quickly and confidently to many opportunities while keeping your search organized from day one." }
+    ]
+  },
+  "mercor": {
+    whatIs: "Mercor is an AI-powered talent marketplace that matches companies with pre-vetted technical talent using AI interviews and assessments to identify the best candidates quickly and efficiently.",
+    features: [
+      "AI Interviews: Automated technical screening and assessment",
+      "Pre-Vetted Talent: Access candidates already screened by AI",
+      "Fast Matching: Find qualified candidates in hours not weeks",
+      "Skill Verification: Confirmed technical abilities before introduction",
+      "Global Talent: Access engineers and specialists worldwide"
+    ],
+    howToUse: {
+      title: "How to Use Mercor",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Post Your Role", description: "Describe the technical role you are hiring for with required skills, experience level, and team context." },
+        { title: "Review AI Matches", description: "Browse candidates who have been pre-screened by Mercor's AI interviews and matched to your requirements." },
+        { title: "Conduct Your Interviews", description: "Interview your shortlisted candidates knowing their technical skills have already been verified by AI assessment." },
+        { title: "Make Your Hire", description: "Select your candidate and complete the hiring process with confidence in their verified technical abilities." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Technical Screening", description: "Conducts thorough technical interviews and assessments before candidates ever reach your hiring team." },
+      { title: "Speed of Matching", description: "Delivers qualified pre-screened candidates within hours of posting a role rather than waiting weeks." },
+      { title: "Skill Verification", description: "Confirms actual technical abilities through AI assessment rather than relying on resume claims alone." }
+    ],
+    useCases: [
+      { title: "Tech Startups", description: "Hire qualified engineers quickly without a large recruiting team or extensive manual screening process." },
+      { title: "Engineering Managers", description: "Fill technical roles faster with candidates whose skills have already been objectively verified by AI." },
+      { title: "Growing Companies", description: "Scale your technical team rapidly with access to pre-vetted global talent matched to your specific requirements." }
+    ]
+  },
   "stripo": {
     whatIs: "Stripo is a professional email template builder that helps marketers and designers create responsive, visually rich email templates with a drag-and-drop editor and AI-powered content tools without coding.",
     features: [
