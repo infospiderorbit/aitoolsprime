@@ -1,4 +1,214 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "screenapp": {
+    whatIs: "ScreenApp is an AI screen recording and video tool that records your screen, transcribes the audio, and generates summaries and shareable clips from your recordings without any editing experience needed.",
+    features: [
+      "Screen Recording: Capture your screen with audio instantly",
+      "AI Transcription: Automatic transcript of every recording",
+      "Auto Summaries: Key points extracted from recordings",
+      "Shareable Clips: Create short clips from longer recordings",
+      "No Software: Works entirely in your browser"
+    ],
+    howToUse: {
+      title: "How to Use Screenapp",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Recording", description: "Open ScreenApp in your browser and click record to begin capturing your screen with audio immediately." },
+        { title: "Record Your Content", description: "Walk through your tutorial, presentation, or workflow while ScreenApp captures everything clearly." },
+        { title: "Get Your Transcript", description: "Receive an automatic transcription of all spoken audio from your recording within minutes of finishing." },
+        { title: "Share Your Content", description: "Share the full recording or create shorter clips from key moments for easier distribution to your audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser-Based Recording", description: "Captures screen and audio directly in the browser without requiring software downloads or installations." },
+      { title: "Automatic Transcription", description: "Transcribes all spoken content from recordings making them searchable and accessible immediately." },
+      { title: "Smart Clipping", description: "Extracts shorter shareable clips from longer recordings for easy sharing of specific moments or sections." }
+    ],
+    useCases: [
+      { title: "Educators", description: "Record and share tutorials and lesson walkthroughs with automatic transcripts for accessible learning content." },
+      { title: "Product Teams", description: "Document features and workflows with screen recordings that include automatic transcription and summaries." },
+      { title: "Support Teams", description: "Create quick screen recording answers to customer questions and share them as shareable links instantly." }
+    ]
+  },
+  "bark": {
+    whatIs: "Bark is an AI parental monitoring tool that analyzes children's digital communications across texts, emails, and social media to detect potential issues like bullying, depression, and inappropriate content proactively.",
+    features: [
+      "Smart Monitoring: AI analysis of digital communications for issues",
+      "Multi-Platform: Monitors texts, email, and social media",
+      "Alert System: Notifications when concerning content is detected",
+      "Privacy Balanced: Monitors for issues without reading every message",
+      "Activity Reports: Regular summaries of your child's online activity"
+    ],
+    howToUse: {
+      title: "How to Use Bark",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up for Bark and create profiles for each child you want to monitor across their devices." },
+        { title: "Connect Their Accounts", description: "Link your child's email, social media, and messaging accounts to Bark for monitoring access." },
+        { title: "Let Bark Monitor", description: "Bark analyzes communications in the background and only alerts you when something concerning is detected." },
+        { title: "Review Alerts", description: "When Bark sends an alert review the flagged content and decide how to address it with your child." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Issue Detection", description: "Analyzes communication patterns to identify warning signs of bullying, depression, and predatory behavior." },
+      { title: "Privacy-Respecting Approach", description: "Monitors for specific issues rather than giving parents access to every message preserving healthy trust." },
+      { title: "Multi-Platform Coverage", description: "Covers the major platforms children use including Instagram, Snapchat, TikTok, and messaging apps." }
+    ],
+    useCases: [
+      { title: "Parents of Tweens and Teens", description: "Stay informed about your child's digital safety without invasive monitoring that damages trust and openness." },
+      { title: "Families with Young Social Media Users", description: "Catch early warning signs of online dangers before they escalate into serious problems for your child." },
+      { title: "Concerned Parents", description: "Get peace of mind about your child's online activity with AI monitoring that flags only genuine concerns." }
+    ]
+  },
+  "canopy": {
+    whatIs: "Canopy is a family safety and parental control platform that provides content filtering, screen time management, and location sharing to help parents keep their children safe across all devices.",
+    features: [
+      "Content Filtering: Block inappropriate websites and content",
+      "Screen Time Controls: Set daily limits and schedules for device use",
+      "Location Sharing: Know where your children are in real time",
+      "App Management: Control which apps your children can access",
+      "Activity Reports: Detailed summaries of device usage patterns"
+    ],
+    howToUse: {
+      title: "How to Use Canopy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Family Accounts", description: "Create your Canopy family account and add profiles for each child with age-appropriate settings." },
+        { title: "Install on Devices", description: "Add Canopy to your children's phones, tablets, and computers for comprehensive coverage." },
+        { title: "Configure Settings", description: "Set content filters, screen time limits, and app restrictions appropriate for each child's age." },
+        { title: "Monitor and Adjust", description: "Review activity reports regularly and adjust settings as your children grow and their needs change." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Smart Content Filtering", description: "Blocks inappropriate content across websites and apps while allowing age-appropriate browsing freely." },
+      { title: "Flexible Screen Time", description: "Sets daily limits and specific schedules for device use that parents can adjust for weekends and school days." },
+      { title: "Real-Time Location", description: "Provides live location sharing so parents always know where their children are safely and conveniently." }
+    ],
+    useCases: [
+      { title: "Parents of School-Age Children", description: "Manage your children's device use and online exposure with tools that grow with their increasing independence." },
+      { title: "Families with Multiple Children", description: "Set different rules and limits for each child based on their age and maturity level from one account." },
+      { title: "Safety-Conscious Parents", description: "Create a safer digital environment for your family without having to monitor every interaction manually." }
+    ]
+  },
+  "gamma-ai": {
+    whatIs: "Gamma AI is an intelligent presentation and document creation platform that generates visually polished slides, documents, and web pages from simple text prompts with beautiful design applied automatically.",
+    features: [
+      "AI Presentation Generation: Full decks from text prompts instantly",
+      "Document Creation: Beautiful documents with AI-applied design",
+      "Web Pages: Publish content as interactive web pages easily",
+      "One-Click Themes: Change your entire deck's design instantly",
+      "Collaborative Editing: Work with your team on presentations"
+    ],
+    howToUse: {
+      title: "How to Use Gamma Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Type your presentation topic, paste an outline, or describe your document and let Gamma generate it." },
+        { title: "Review the Output", description: "Browse your AI-generated presentation checking structure, content accuracy, and design quality." },
+        { title: "Customize Your Content", description: "Edit slides, adjust the theme, add your branding, and refine any content that needs personalization." },
+        { title: "Share or Export", description: "Publish as a live web page, share a direct link, or export to PDF or PowerPoint as needed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Instant Generation", description: "Creates complete presentations and documents with content and professional design from a single prompt." },
+      { title: "Theme Flexibility", description: "Changes the visual design across your entire presentation with one click without manual reformatting." },
+      { title: "Web Publishing", description: "Publishes presentations as interactive web pages that look great on any device without extra steps." }
+    ],
+    useCases: [
+      { title: "Business Professionals", description: "Produce polished presentations for clients and stakeholders in minutes without spending hours in design tools." },
+      { title: "Educators", description: "Create visually engaging lesson materials and course content quickly without graphic design expertise." },
+      { title: "Startup Founders", description: "Build investor decks and pitch materials fast with professional design applied automatically throughout." }
+    ]
+  },
+  "examonline": {
+    whatIs: "ExamOnline is an AI-powered online examination platform that helps educators create, administer, and grade assessments securely with proctoring tools, question generation, and detailed performance analytics.",
+    features: [
+      "AI Question Generation: Create exam questions automatically",
+      "Secure Proctoring: Monitor exam integrity during online tests",
+      "Auto Grading: Instant grading for objective question types",
+      "Performance Analytics: Detailed insights on student results",
+      "Question Bank: Build and reuse a library of exam questions"
+    ],
+    howToUse: {
+      title: "How to Use Examonline",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Exam", description: "Set up your exam in ExamOnline by adding questions manually or using AI generation for your topic." },
+        { title: "Configure Settings", description: "Set time limits, proctoring requirements, and access controls appropriate for your assessment." },
+        { title: "Distribute to Students", description: "Share the exam link with your students and let them complete it within your specified window." },
+        { title: "Review Results", description: "Access auto-graded results and detailed analytics on individual and class performance immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Question Creation", description: "Generates exam questions across difficulty levels from your subject matter automatically saving preparation time." },
+      { title: "Proctoring Tools", description: "Monitors students during online exams to maintain academic integrity without in-person supervision." },
+      { title: "Instant Analytics", description: "Provides detailed performance data on every student and question immediately after exam completion." }
+    ],
+    useCases: [
+      { title: "Educators", description: "Create and administer secure online assessments without the complexity of traditional exam management tools." },
+      { title: "Training Organizations", description: "Run certification and knowledge assessments at scale with automated grading and instant result reporting." },
+      { title: "Universities", description: "Deliver online exams securely to large student cohorts with proctoring and analytics built in." }
+    ]
+  },
+  "goodnotes": {
+    whatIs: "Goodnotes is a digital note-taking app for iPad that combines handwriting recognition, AI-powered organization, and beautiful notebooks to give users the feel of writing on paper with the power of digital search.",
+    features: [
+      "Handwriting Recognition: Convert handwritten notes to text",
+      "AI Organization: Smart categorization of your notes",
+      "Digital Notebooks: Beautiful customizable notebook templates",
+      "Universal Search: Find anything across all your handwritten notes",
+      "Apple Pencil: Optimized for natural handwriting experience"
+    ],
+    howToUse: {
+      title: "How to Use Goodnotes",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Notebook", description: "Open Goodnotes and create a new notebook choosing your preferred paper style and cover design." },
+        { title: "Write Your Notes", description: "Use your Apple Pencil to write naturally on the digital page just as you would on real paper." },
+        { title: "Search Your Handwriting", description: "Use the universal search to find any word or phrase across all your handwritten notes instantly." },
+        { title: "Organize Your Library", description: "Use AI-powered organization tools to keep your growing notebook library structured and accessible." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Handwriting Search", description: "Indexes all handwritten content making every word you write fully searchable across your entire library." },
+      { title: "Natural Writing Feel", description: "Optimized for Apple Pencil with paper textures and writing responses that closely mimic real paper." },
+      { title: "AI Organization", description: "Automatically categorizes and organizes notes to keep your library manageable as it grows over time." }
+    ],
+    useCases: [
+      { title: "Students", description: "Take handwritten notes in class with the natural feel of paper while keeping everything searchable and organized." },
+      { title: "Professionals", description: "Capture meeting notes, sketches, and ideas by hand while maintaining the searchability of digital notes." },
+      { title: "Creative Thinkers", description: "Sketch ideas, annotate documents, and brainstorm freely with a digital notebook that feels genuinely natural." }
+    ]
+  },
+  "studocu": {
+    whatIs: "Studocu is a collaborative study platform where students share and access study documents, summaries, lecture notes, and past exam papers to supplement their learning and prepare more effectively for exams.",
+    features: [
+      "Study Document Sharing: Access notes shared by other students",
+      "AI Summaries: Condensed summaries of uploaded study materials",
+      "Past Exams: Large library of previous exam papers by subject",
+      "Course Organization: Materials organized by university and course",
+      "Study Groups: Collaborate with classmates on shared materials"
+    ],
+    howToUse: {
+      title: "How to Use Studocu",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Course", description: "Enter your university and course to find relevant study materials shared by students in your program." },
+        { title: "Browse and Download", description: "Access lecture notes, summaries, and past papers uploaded by other students in your subject area." },
+        { title: "Upload Your Materials", description: "Contribute your own notes and summaries to the community and earn credits for premium content access." },
+        { title: "Use AI Summaries", description: "Get condensed AI summaries of lengthy study documents to review key points quickly before exams." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Peer Study Library", description: "Provides access to a massive library of student-created study materials organized by institution and course." },
+      { title: "Past Exam Access", description: "Offers previous exam papers that help students understand question formats and practice effectively." },
+      { title: "AI Summarization", description: "Condenses lengthy uploaded documents into concise summaries for efficient last-minute exam review." }
+    ],
+    useCases: [
+      { title: "University Students", description: "Supplement your own notes with materials from classmates and previous students in your exact course." },
+      { title: "Exam Preppers", description: "Access past papers and condensed summaries to prepare efficiently for upcoming assessments and tests." },
+      { title: "Note Sharers", description: "Contribute your study materials to the community and gain access to premium content in return." }
+    ]
+  },
   "grabjobs": {
     whatIs: "GrabJobs is an AI-powered job platform that automates hiring by matching candidates with relevant jobs, conducting automated interviews, and helping employers fill roles faster with less manual effort.",
     features: [
