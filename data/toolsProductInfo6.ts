@@ -1,4 +1,304 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "jotform-ai-agents": {
+    whatIs: "Jotform AI Agents are intelligent conversational agents built on top of Jotform that automate data collection, answer questions, and guide users through forms using natural language rather than static form fields.",
+    features: [
+      "Conversational Forms: Replace static forms with AI chat interactions",
+      "Custom Training: Train agents on your own data and documents",
+      "Multi-Channel Deploy: Embed agents on websites, apps, and more",
+      "Lead Capture: Collect information naturally through conversation",
+      "No Code Setup: Build and deploy agents without any coding"
+    ],
+    howToUse: {
+      title: "How to Use Jotform Ai Agents",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Agent", description: "Go to Jotform and create a new AI Agent, choosing a template or starting from scratch." },
+        { title: "Train on Your Data", description: "Upload documents, FAQs, or connect your knowledge base to give the agent accurate information." },
+        { title: "Customize the Flow", description: "Define how the agent greets users, what questions it asks, and how it handles different responses." },
+        { title: "Embed and Deploy", description: "Add your agent to your website or share the link and start collecting data through conversation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Natural Language Collection", description: "Gathers information through friendly conversation instead of rigid form fields for higher completion rates." },
+      { title: "Custom Knowledge Base", description: "Trains on your specific documents and data so the agent gives accurate relevant answers every time." },
+      { title: "Seamless Jotform Integration", description: "Connects directly with Jotform's ecosystem including submissions, notifications, and third-party integrations." }
+    ],
+    useCases: [
+      { title: "Customer Support", description: "Handle common customer inquiries and collect support ticket information automatically without human agents." },
+      { title: "Lead Generation", description: "Qualify leads conversationally and capture contact details in a natural engaging way that converts better." },
+      { title: "Event Registration", description: "Guide attendees through registration questions conversationally reducing drop-off on complex sign-up forms." }
+    ]
+  },
+  "blackbox-ai": {
+    whatIs: "BLACKBOX.AI is an AI coding assistant and developer tool that provides real-time code suggestions, code search, and AI chat capabilities directly inside your code editor to accelerate software development.",
+    features: [
+      "Real-Time Code Suggestions: AI autocomplete as you type code",
+      "Code Search: Find code snippets from millions of repositories",
+      "AI Chat: Ask coding questions and get instant answers",
+      "Multi-Language Support: Works across all major programming languages",
+      "VS Code Integration: Seamless plugin for your existing editor"
+    ],
+    howToUse: {
+      title: "How to Use Blackbox Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Add BLACKBOX.AI to your VS Code or preferred editor from the extension marketplace." },
+        { title: "Start Coding", description: "Open any file and BLACKBOX.AI begins providing real-time suggestions as you write your code." },
+        { title: "Search for Code", description: "Use the code search feature to find relevant snippets and implementations from across the web." },
+        { title: "Chat for Help", description: "Ask the AI assistant coding questions in plain English and get accurate code-based answers instantly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Autocomplete", description: "Provides context-aware code completions that understand your current file and project structure accurately." },
+      { title: "Universal Code Search", description: "Searches millions of public repositories to find relevant implementations for any coding challenge you face." },
+      { title: "In-Editor AI Chat", description: "Answers coding questions without leaving your editor keeping your development flow uninterrupted and fast." }
+    ],
+    useCases: [
+      { title: "Software Developers", description: "Write code faster with AI suggestions and find solutions to complex problems without leaving your editor." },
+      { title: "New Programmers", description: "Learn coding patterns and get real-time guidance that accelerates your development skill growth significantly." },
+      { title: "Freelancers", description: "Deliver projects faster and handle a wider variety of technical challenges with AI coding assistance." }
+    ]
+  },
+  "coze": {
+    whatIs: "Coze is an AI bot and agent development platform by ByteDance that lets users build, configure, and deploy custom AI chatbots and agents without writing code using a visual workflow builder.",
+    features: [
+      "No-Code Bot Builder: Create AI bots without any programming",
+      "Plugin System: Extend bots with web search, image generation, and more",
+      "Workflow Builder: Design multi-step AI agent workflows visually",
+      "Multi-Platform Deploy: Publish bots to Discord, Telegram, and more",
+      "Knowledge Base: Upload documents for bots to reference accurately"
+    ],
+    howToUse: {
+      title: "How to Use Coze",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Bot", description: "Sign up on Coze and start a new bot by defining its name, persona, and core purpose." },
+        { title: "Add Plugins", description: "Enhance your bot with plugins for web browsing, image generation, code execution, and external APIs." },
+        { title: "Build Your Workflow", description: "Design multi-step workflows that define how your bot processes requests and takes actions." },
+        { title: "Deploy Everywhere", description: "Publish your finished bot to messaging platforms, websites, or access it via API immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Workflow Engine", description: "Designs complex multi-step agent behaviors through a drag-and-drop interface without requiring any code." },
+      { title: "Rich Plugin Ecosystem", description: "Extends bot capabilities with a growing library of plugins covering search, media, productivity, and APIs." },
+      { title: "Multi-Platform Publishing", description: "Deploys finished bots across Discord, Telegram, Slack, and web with minimal configuration required." }
+    ],
+    useCases: [
+      { title: "Product Teams", description: "Build internal AI tools and customer-facing chatbots without waiting on engineering resources or timelines." },
+      { title: "Community Managers", description: "Deploy AI bots in Discord and Telegram communities to answer questions and engage members automatically." },
+      { title: "Entrepreneurs", description: "Create AI-powered products and services quickly without needing a technical co-founder or development team." }
+    ]
+  },
+  "intercom": {
+    whatIs: "Intercom is a customer communications platform that combines AI-powered chat, help desk, and customer support tools to help businesses deliver faster, more personalized support at scale.",
+    features: [
+      "AI Chatbot: Fin AI resolves customer questions automatically",
+      "Shared Inbox: Team inbox for managing all customer conversations",
+      "Help Center: Self-service knowledge base for common questions",
+      "Proactive Messaging: Reach customers at the right moment automatically",
+      "Analytics: Track support performance and customer satisfaction"
+    ],
+    howToUse: {
+      title: "How to Use Intercom",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Workspace", description: "Create your Intercom workspace and install the chat widget on your website or app." },
+        { title: "Configure Fin AI", description: "Train your AI chatbot with your help center content so it can resolve common questions automatically." },
+        { title: "Manage Your Inbox", description: "Use the shared team inbox to handle conversations that need human attention efficiently." },
+        { title: "Analyze and Improve", description: "Review support analytics to identify common issues, response times, and customer satisfaction trends." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Fin AI Resolution", description: "Resolves a significant portion of customer questions automatically using your existing help center content." },
+      { title: "Unified Inbox", description: "Brings all customer conversations from chat, email, and social into one shared team workspace." },
+      { title: "Proactive Engagement", description: "Sends targeted messages to customers based on their behavior, plan, or stage in the customer journey." }
+    ],
+    useCases: [
+      { title: "SaaS Companies", description: "Reduce support volume and improve response times with AI that handles common questions around the clock." },
+      { title: "E-commerce Businesses", description: "Support customers through purchase decisions and post-sale issues with fast personalized messaging." },
+      { title: "Customer Success Teams", description: "Proactively engage at-risk customers and drive product adoption with targeted in-app messaging campaigns." }
+    ]
+  },
+  "pippit-ai": {
+    whatIs: "Pippit AI is an all-in-one AI video and content creation platform by CapCut that helps creators and businesses produce short-form videos, product ads, and social media content with minimal effort.",
+    features: [
+      "AI Video Generation: Create videos from product links or descriptions",
+      "Auto Captions: Subtitles added to every video automatically",
+      "Digital Avatars: AI presenters for product and brand videos",
+      "One-Click Editing: Smart editing tools that work automatically",
+      "Multi-Format Export: Videos sized for every social platform"
+    ],
+    howToUse: {
+      title: "How to Use Pippit Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Product Link", description: "Paste your product URL or describe your offering and let Pippit AI analyze it for content creation." },
+        { title: "Generate Your Video", description: "Choose your video style and let the AI produce a complete video with visuals, script, and captions." },
+        { title: "Customize the Output", description: "Edit the generated video using the smart editing tools to match your brand style and preferences." },
+        { title: "Export and Publish", description: "Download your video in the right format for your target platform and publish it immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Product-to-Video Engine", description: "Transforms product links and descriptions into complete marketing videos without manual production work." },
+      { title: "Avatar Presenters", description: "Creates professional product videos with realistic AI avatars that present your offering convincingly." },
+      { title: "Platform Optimization", description: "Exports content in dimensions and formats optimized for TikTok, Instagram, YouTube, and other platforms." }
+    ],
+    useCases: [
+      { title: "E-commerce Sellers", description: "Create professional product marketing videos quickly without hiring videographers or production teams." },
+      { title: "Social Media Marketers", description: "Produce high volumes of short-form video content consistently to feed multiple platform algorithms." },
+      { title: "Small Business Owners", description: "Make polished brand videos and product ads independently without video production experience or budget." }
+    ]
+  },
+  "grok": {
+    whatIs: "Grok is an AI assistant developed by xAI that provides real-time information access through X integration, offers witty and direct responses, and handles complex reasoning tasks with fewer restrictions than competing models.",
+    features: [
+      "Real-Time Information: Access to current events through X platform",
+      "Direct Responses: Honest straightforward answers without excessive hedging",
+      "Complex Reasoning: Strong performance on difficult analytical tasks",
+      "Image Understanding: Analyze and discuss image content accurately",
+      "X Integration: Seamlessly embedded in the X social media platform"
+    ],
+    howToUse: {
+      title: "How to Use Grok",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Grok", description: "Find Grok through your X premium subscription or at grok.x.ai on any device." },
+        { title: "Ask Your Question", description: "Type any question including current events, analysis tasks, or creative requests directly to Grok." },
+        { title: "Use Real-Time Data", description: "Ask about current news, trending topics, or recent events and get answers with up-to-date information." },
+        { title: "Explore Capabilities", description: "Try complex reasoning, image analysis, and creative tasks to discover the full range of what Grok handles." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time X Integration", description: "Accesses current information from the X platform giving it an edge on recent events over competitors." },
+      { title: "Reduced Restrictions", description: "Handles a wider range of topics and questions with fewer refusals than many competing AI assistants." },
+      { title: "Strong Reasoning", description: "Performs well on complex analytical and mathematical reasoning tasks requiring multi-step thinking." }
+    ],
+    useCases: [
+      { title: "X Power Users", description: "Get AI assistance enhanced with real-time social and news context directly within the platform you already use." },
+      { title: "Researchers and Analysts", description: "Access current information and strong reasoning for analysis tasks that require up-to-date knowledge." },
+      { title: "Direct Communication Fans", description: "Get honest direct answers without the excessive caveats and hedging common in other AI assistants." }
+    ]
+  },
+  "claude": {
+    whatIs: "Claude is an AI assistant developed by Anthropic that excels at nuanced writing, complex analysis, coding, and thoughtful conversation while prioritizing safety, honesty, and helpfulness in every interaction.",
+    features: [
+      "Advanced Writing: Exceptional quality across all writing formats",
+      "Deep Analysis: Thorough and nuanced analytical reasoning",
+      "Coding Assistance: Strong support across all programming languages",
+      "Long Context: Handles very long documents and conversations",
+      "Safety Focus: Built with Constitutional AI for responsible outputs"
+    ],
+    howToUse: {
+      title: "How to Use Claude",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start a Conversation", description: "Visit claude.ai or access Claude through the API and begin with any question or task." },
+        { title: "Share Your Context", description: "Provide relevant background information, documents, or files to help Claude give the most accurate response." },
+        { title: "Iterate and Refine", description: "Follow up with clarifications or additional requests to refine outputs until they meet your needs exactly." },
+        { title: "Apply the Output", description: "Use Claude's responses for writing, analysis, coding, research, or whatever task you brought to it." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Constitutional AI", description: "Built using Anthropic's Constitutional AI approach that makes Claude reliably helpful, harmless, and honest." },
+      { title: "Extended Context Window", description: "Handles extremely long documents and conversations without losing track of earlier context or details." },
+      { title: "Writing Excellence", description: "Produces exceptionally high-quality writing across formats from creative fiction to technical documentation." }
+    ],
+    useCases: [
+      { title: "Writers and Editors", description: "Get a skilled writing collaborator that understands nuance, tone, and style for any content project." },
+      { title: "Developers", description: "Use Claude for coding assistance, code review, debugging, and technical documentation across all languages." },
+      { title: "Researchers and Analysts", description: "Process large documents, synthesize information, and get thorough analytical support for complex projects." }
+    ]
+  },
+  "airtable": {
+    whatIs: "Airtable is a flexible cloud-based platform that combines the simplicity of a spreadsheet with the power of a database, enabling teams to build custom apps, workflows, and data management systems without code.",
+    features: [
+      "Flexible Database: Spreadsheet-style interface with database power",
+      "Multiple Views: Grid, calendar, kanban, gallery, and Gantt views",
+      "Automations: Trigger automated workflows based on data changes",
+      "App Building: Create custom interfaces on top of your data",
+      "Integrations: Connect with hundreds of popular business tools"
+    ],
+    howToUse: {
+      title: "How to Use Airtable",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Base", description: "Start a new Airtable base from a template or blank canvas and define your table structure." },
+        { title: "Add Your Data", description: "Enter records manually, import from CSV, or connect data sources to populate your base." },
+        { title: "Switch Your View", description: "Toggle between grid, kanban, calendar, or gallery views to see your data the way that helps most." },
+        { title: "Build Automations", description: "Set up triggers and actions to automate repetitive tasks and keep your workflows running smoothly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "View Flexibility", description: "Transforms the same underlying data into multiple views so every team member sees information their preferred way." },
+      { title: "No-Code App Building", description: "Lets teams create custom interfaces and portals on top of their data without any programming knowledge." },
+      { title: "Powerful Automations", description: "Triggers automated actions based on data changes reducing manual work across connected business workflows." }
+    ],
+    useCases: [
+      { title: "Project Management Teams", description: "Track projects, tasks, and deadlines with flexible views that adapt to how each team member works best." },
+      { title: "Marketing Teams", description: "Manage campaigns, content calendars, and asset tracking in a customizable visual workspace." },
+      { title: "Operations Teams", description: "Build custom workflow tools and databases that fit unique business processes without waiting on developers." }
+    ]
+  },
+  "manus": {
+    whatIs: "Manus is an autonomous AI agent developed in China that independently completes complex multi-step tasks by browsing the web, writing code, managing files, and using computer tools without constant human guidance.",
+    features: [
+      "Autonomous Task Completion: Handles complex tasks end to end independently",
+      "Web Browsing: Searches and extracts information from the internet",
+      "Code Execution: Writes and runs code to solve technical problems",
+      "File Management: Creates, edits, and organizes files and documents",
+      "Multi-Step Planning: Breaks complex goals into executable action plans"
+    ],
+    howToUse: {
+      title: "How to Use Manus",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Task", description: "Give Manus a clear description of the complex task or goal you want it to accomplish autonomously." },
+        { title: "Let It Work", description: "Manus independently plans its approach, uses tools, browses the web, and executes steps without interruption." },
+        { title: "Review Progress", description: "Monitor what Manus is doing through its transparent action log showing every step it takes." },
+        { title: "Receive Your Output", description: "Get the completed result — whether a report, code, organized files, or research — delivered to you directly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "True Autonomy", description: "Operates independently through multi-step tasks without requiring constant guidance or approval at each step." },
+      { title: "Tool Integration", description: "Uses web browsing, code execution, and file management together to accomplish real-world complex tasks." },
+      { title: "Transparent Operation", description: "Shows its reasoning and actions clearly so users understand exactly what the agent is doing and why." }
+    ],
+    useCases: [
+      { title: "Researchers", description: "Delegate complex research tasks that require browsing multiple sources and synthesizing findings into reports." },
+      { title: "Developers", description: "Hand off repetitive technical tasks like data processing, file organization, and automated testing workflows." },
+      { title: "Business Professionals", description: "Complete time-consuming analytical tasks autonomously while focusing your attention on higher-value work." }
+    ]
+  },
+  "anthropic": {
+    whatIs: "Anthropic is an AI safety company that develops Claude and conducts frontier AI research focused on building reliable, interpretable, and steerable AI systems that are safe and beneficial for humanity.",
+    features: [
+      "Claude AI: Industry-leading AI assistant for diverse tasks",
+      "Safety Research: Pioneering work in AI alignment and interpretability",
+      "Constitutional AI: Novel training approach for safer AI behavior",
+      "API Access: Developer platform for building Claude-powered applications",
+      "Enterprise Solutions: Secure Claude deployment for business use"
+    ],
+    howToUse: {
+      title: "How to Use Anthropic",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Claude", description: "Use Anthropic's products by visiting claude.ai or signing up for API access at console.anthropic.com." },
+        { title: "Explore the API", description: "Integrate Claude into your applications using the Anthropic API with comprehensive documentation and SDKs." },
+        { title: "Read the Research", description: "Explore Anthropic's published safety research and model cards to understand how Claude is built and trained." },
+        { title: "Deploy for Enterprise", description: "Contact Anthropic for enterprise solutions with enhanced security, compliance, and customization options." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Safety-First Development", description: "Builds AI systems with safety as a core priority rather than an afterthought, influencing the entire industry." },
+      { title: "Constitutional AI Method", description: "Developed a novel training approach that makes AI systems reliably helpful, harmless, and honest at scale." },
+      { title: "Research Publication", description: "Openly publishes AI safety research that advances the broader field and informs responsible AI development globally." }
+    ],
+    useCases: [
+      { title: "Developers", description: "Build AI-powered applications using Claude's API with best-in-class capabilities and comprehensive developer tools." },
+      { title: "Enterprises", description: "Deploy Claude securely within your organization with the compliance, control, and support enterprise needs require." },
+      { title: "AI Researchers", description: "Access cutting-edge safety research and collaborate on the most important problems in AI alignment today." }
+    ]
+  },
   "sivi-ai": {
     whatIs: "Sivi AI is an AI graphic design tool that generates professional social media visuals, banners, and marketing graphics from text prompts without requiring any design skills or software.",
     features: [
