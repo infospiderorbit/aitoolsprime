@@ -1727,7 +1727,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "simplified-social", name: "Simplified", description: "AI social media management platform", url: "", upvotes: 1456, verified: true, rating: 4.8, icon: "📱", category: "social-media", subcategory: "ai-social-media" },
       { id: "quso-ai", name: "quso.ai", description: "AI social media automation", url: "", upvotes: 1098, verified: true, rating: 4.7, icon: "🤖", category: "social-media", subcategory: "ai-social-media" },
       { id: "contentstudio", name: "ContentStudio", description: "AI social media content creation", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🎨", category: "social-media", subcategory: "ai-social-media" },
-      { id: "taplio", name: "Taplio", description: "AI LinkedIn content automation", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "💼", category: "social-media", subcategory: "ai-social-media" }
     ],
     "ai-social-media-post-generator": [
       { id: "flick-post", name: "Flick", description: "AI social media post generator", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "📝", category: "social-media", subcategory: "ai-social-media-post-generator" },
