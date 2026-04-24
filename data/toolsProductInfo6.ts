@@ -1,4 +1,304 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "stripo": {
+    whatIs: "Stripo is a professional email template builder that helps marketers and designers create responsive, visually rich email templates with a drag-and-drop editor and AI-powered content tools without coding.",
+    features: [
+      "Drag-and-Drop Editor: Build email templates visually without code",
+      "AI Content Tools: Generate email copy and subject lines with AI",
+      "Responsive Design: Templates that look great on every device",
+      "ESP Integration: Export directly to 80+ email service providers",
+      "Template Library: Hundreds of professional starting templates"
+    ],
+    howToUse: {
+      title: "How to Use Stripo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose a Template", description: "Browse Stripo's library and select a professional template that fits your campaign type and brand." },
+        { title: "Customize Your Design", description: "Use the drag-and-drop editor to adjust layout, colors, fonts, images, and content blocks to match your brand." },
+        { title: "Add Your Content", description: "Write your email copy directly or use AI content tools to generate and refine your message." },
+        { title: "Export to Your ESP", description: "Send your finished template directly to your email service provider with one click integration." }
+      ]
+    },
+    coreFeatures: [
+      { title: "ESP Compatibility", description: "Exports finished templates to over 80 email service providers without compatibility issues or reformatting." },
+      { title: "Responsive Framework", description: "Ensures every template renders correctly across all email clients and screen sizes automatically." },
+      { title: "AI Content Generation", description: "Generates email subject lines and body copy with AI to speed up campaign production significantly." }
+    ],
+    useCases: [
+      { title: "Email Marketers", description: "Build professional responsive email campaigns faster without depending on developers for every template change." },
+      { title: "Marketing Agencies", description: "Create and manage email templates for multiple client brands from one organized professional platform." },
+      { title: "E-commerce Brands", description: "Design product announcement and promotional emails quickly with professional templates and AI copy tools." }
+    ]
+  },
+  "spike": {
+    whatIs: "Spike is a conversational email client that transforms your inbox into a chat-like messaging experience, making email faster and more collaborative by displaying threads as real-time conversations.",
+    features: [
+      "Conversational Email: Email displayed as chat-style threads",
+      "Unified Inbox: All email accounts in one place",
+      "Team Collaboration: Shared inboxes and collaborative notes",
+      "Video Calls: Built-in video calling within the email interface",
+      "AI Assistant: AI writing and summarization built in"
+    ],
+    howToUse: {
+      title: "How to Use Spike",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Email", description: "Add your email accounts to Spike and let it transform your inbox into a conversational interface." },
+        { title: "Experience Chat Email", description: "See your email threads displayed as clean chat conversations that are faster to read and respond to." },
+        { title: "Collaborate With Team", description: "Set up shared team inboxes and use collaborative notes alongside email threads for better teamwork." },
+        { title: "Use AI Features", description: "Access the built-in AI assistant for writing help, summaries, and faster email processing throughout your day." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Chat Interface", description: "Reimagines email as a messaging experience making communication faster and more natural to navigate." },
+      { title: "Unified Communication", description: "Combines email, notes, video calls, and team collaboration in one interface reducing tool switching." },
+      { title: "Team Features", description: "Provides shared inboxes and collaborative tools that make email a team sport rather than individual siloed work." }
+    ],
+    useCases: [
+      { title: "Remote Teams", description: "Communicate more naturally through email with a chat-like interface that feels faster than traditional clients." },
+      { title: "Small Business Owners", description: "Manage customer and team communications from one unified inbox with collaboration tools built right in." },
+      { title: "Productivity Seekers", description: "Process email faster with a conversational interface that makes reading and replying more efficient daily." }
+    ]
+  },
+  "gpt-excel": {
+    whatIs: "GPT Excel is an AI tool that generates Excel and Google Sheets formulas from plain English descriptions, explains complex formulas in simple terms, and helps users work with spreadsheets more confidently.",
+    features: [
+      "Formula Generation: Create Excel formulas from plain English",
+      "Formula Explanation: Understand any complex formula simply",
+      "Google Sheets Support: Works for both Excel and Sheets",
+      "VBA Scripts: Generate automation scripts for Excel",
+      "Instant Results: Formulas ready in seconds from descriptions"
+    ],
+    howToUse: {
+      title: "How to Use Gpt Excel",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Formula", description: "Type what you want your formula to do in plain English without any technical spreadsheet knowledge required." },
+        { title: "Get Your Formula", description: "Receive the exact Excel or Google Sheets formula you need ready to copy and paste into your spreadsheet." },
+        { title: "Understand Any Formula", description: "Paste any confusing formula you encounter and get a plain English explanation of exactly what it does." },
+        { title: "Generate VBA Scripts", description: "Describe an automation task and get a ready-to-use VBA script for automating repetitive Excel workflows." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Plain English Input", description: "Accepts natural language descriptions of what you want to calculate and returns the correct formula immediately." },
+      { title: "Formula Explanation", description: "Breaks down any complex formula into simple understandable language so users learn while they work." },
+      { title: "VBA Generation", description: "Creates Excel automation scripts from plain descriptions enabling powerful automation without programming knowledge." }
+    ],
+    useCases: [
+      { title: "Excel Beginners", description: "Work confidently with spreadsheets by getting the exact formulas you need without needing to learn syntax." },
+      { title: "Business Analysts", description: "Speed up spreadsheet work by generating complex formulas instantly rather than researching syntax manually." },
+      { title: "Office Workers", description: "Handle any spreadsheet formula challenge quickly without frustration or time-consuming formula research online." }
+    ]
+  },
+  "formula-bot": {
+    whatIs: "Formula Bot is an AI-powered spreadsheet assistant that converts text instructions into Excel and Google Sheets formulas, generates data analysis scripts, and explains spreadsheet functions in plain language.",
+    features: [
+      "Text to Formula: Convert instructions to spreadsheet formulas",
+      "Data Analysis: AI-generated analysis scripts for your data",
+      "Formula Debugging: Fix broken formulas with AI assistance",
+      "Multi-Platform: Supports Excel, Google Sheets, and more",
+      "Script Generation: Create Python and SQL scripts from descriptions"
+    ],
+    howToUse: {
+      title: "How to Use Formula Bot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Type Your Request", description: "Describe what you want your formula or script to do in plain everyday language without technical jargon." },
+        { title: "Receive Your Formula", description: "Get the exact formula, function, or script generated and ready to use in your spreadsheet immediately." },
+        { title: "Debug Problems", description: "Paste any broken or confusing formula to get an explanation of the issue and a corrected version." },
+        { title: "Expand to Scripts", description: "Request Python or SQL scripts for more advanced data analysis tasks beyond standard spreadsheet formulas." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Language Output", description: "Generates formulas for Excel and Google Sheets as well as Python and SQL scripts for advanced analysis needs." },
+      { title: "Debugging Capability", description: "Identifies errors in broken formulas and provides corrected versions with explanations of what went wrong." },
+      { title: "Analysis Automation", description: "Creates data analysis scripts that automate repetitive data processing tasks beyond what formulas can handle alone." }
+    ],
+    useCases: [
+      { title: "Data Analysts", description: "Generate complex analysis formulas and scripts faster without spending time looking up syntax and functions." },
+      { title: "Finance Professionals", description: "Create sophisticated financial models and calculations using AI to handle the formula complexity for you." },
+      { title: "Non-Technical Users", description: "Work with spreadsheet data confidently by converting your analytical questions into working formulas instantly." }
+    ]
+  },
+  "ai-excel-bot": {
+    whatIs: "AI Excel Bot is an AI assistant that helps users create, understand, and fix Excel formulas and spreadsheet functions by converting plain English descriptions into working formulas instantly.",
+    features: [
+      "Instant Formula Creation: Get Excel formulas from plain text",
+      "Formula Explanation: Understand what any formula does clearly",
+      "Error Fixing: Identify and correct formula errors quickly",
+      "Function Discovery: Find the right Excel function for any task",
+      "Free to Use: Basic formula generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Excel Bot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe What You Need", description: "Explain in plain English what calculation or function you want your Excel formula to perform." },
+        { title: "Get Your Formula", description: "Receive the correct Excel formula instantly ready to copy and paste into your spreadsheet cell." },
+        { title: "Fix Broken Formulas", description: "Paste any formula that is not working correctly and get a diagnosis and corrected version immediately." },
+        { title: "Learn as You Go", description: "Read the explanations provided with each formula to understand how it works and improve your Excel skills." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Instant Generation", description: "Produces working Excel formulas from plain English descriptions without requiring any formula syntax knowledge." },
+      { title: "Error Diagnosis", description: "Analyzes broken formulas to identify exactly what is wrong and provides a corrected working version." },
+      { title: "Learning Support", description: "Explains each generated formula in plain language helping users build genuine Excel knowledge over time." }
+    ],
+    useCases: [
+      { title: "Excel Beginners", description: "Stop struggling with formula syntax and get the exact formulas you need by simply describing what you want." },
+      { title: "Administrative Professionals", description: "Handle any Excel task confidently with AI assistance that eliminates formula-related frustration entirely." },
+      { title: "Small Business Owners", description: "Build useful spreadsheet tools for your business without needing advanced Excel training or expertise." }
+    ]
+  },
+  "ajelix": {
+    whatIs: "Ajelix is an AI productivity platform for spreadsheets that generates Excel and Google Sheets formulas, creates VBA scripts, translates formulas between platforms, and provides data visualization tools.",
+    features: [
+      "Formula Generator: AI formulas for Excel and Google Sheets",
+      "VBA Script Creator: Automation scripts generated from descriptions",
+      "Formula Translation: Convert formulas between Excel and Sheets",
+      "Data Visualization: Create charts and visuals from your data",
+      "Formula Explainer: Plain English explanations of any formula"
+    ],
+    howToUse: {
+      title: "How to Use Ajelix",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Select from Ajelix's suite of spreadsheet tools based on your specific need — formula, script, or visualization." },
+        { title: "Enter Your Request", description: "Describe your formula need or paste an existing formula for translation or explanation." },
+        { title: "Get Your Output", description: "Receive your generated formula, script, or visualization ready to implement in your spreadsheet immediately." },
+        { title: "Apply and Iterate", description: "Use the output in your spreadsheet and return to Ajelix for refinements or additional assistance as needed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Platform Translation", description: "Converts formulas between Excel and Google Sheets handling syntax differences automatically and accurately." },
+      { title: "VBA Automation", description: "Generates Visual Basic for Applications scripts from plain descriptions enabling powerful Excel automation." },
+      { title: "Comprehensive Suite", description: "Covers formula generation, explanation, translation, scripting, and visualization in one integrated platform." }
+    ],
+    useCases: [
+      { title: "Spreadsheet Power Users", description: "Accelerate complex spreadsheet work across Excel and Google Sheets with AI assistance for every formula challenge." },
+      { title: "Teams Switching Platforms", description: "Translate entire formula sets between Excel and Google Sheets when migrating or standardizing tools." },
+      { title: "Business Analysts", description: "Generate complex analytical formulas and automation scripts without deep Excel or VBA programming knowledge." }
+    ]
+  },
+  "sourcetable": {
+    whatIs: "Sourcetable is an AI-powered spreadsheet platform that connects to your databases and data sources, letting you query, analyze, and visualize data using natural language without writing SQL or complex formulas.",
+    features: [
+      "Natural Language Queries: Ask questions about your data in plain English",
+      "Database Connections: Connect to MySQL, PostgreSQL, and more",
+      "AI Analysis: Automatic insights and analysis from your data",
+      "Spreadsheet Interface: Familiar grid format for viewing results",
+      "Chart Generation: Visualizations created automatically from queries"
+    ],
+    howToUse: {
+      title: "How to Use Sourcetable",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Data Source", description: "Link Sourcetable to your database, data warehouse, or upload a CSV file to get started." },
+        { title: "Ask Your Question", description: "Type a plain English question about your data and let the AI translate it into the right query." },
+        { title: "Review Your Results", description: "See your query results displayed in a familiar spreadsheet format alongside AI-generated insights." },
+        { title: "Create Visualizations", description: "Generate charts and visual summaries of your data with natural language requests for any chart type." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Natural Language Interface", description: "Accepts plain English data questions and automatically generates the appropriate database queries behind the scenes." },
+      { title: "Multi-Source Connectivity", description: "Connects to popular databases, data warehouses, and file formats for flexible data access from one place." },
+      { title: "Automatic Insight Generation", description: "Produces written summaries and insights alongside raw query results to help users understand their data faster." }
+    ],
+    useCases: [
+      { title: "Business Analysts", description: "Query databases and generate data insights without writing SQL or depending on engineering teams for every report." },
+      { title: "Startup Founders", description: "Understand your product and business data quickly with natural language queries that require no technical setup." },
+      { title: "Operations Teams", description: "Access and analyze operational data from connected databases without needing data engineering skills or support." }
+    ]
+  },
+  "humata-ai": {
+    whatIs: "Humata AI is a document intelligence tool that lets users upload PDFs and research papers to ask questions, get summaries, and extract specific information using AI-powered document analysis.",
+    features: [
+      "PDF Q&A: Ask questions about any uploaded document",
+      "Instant Summaries: Get concise document summaries immediately",
+      "Multi-Document: Query across multiple documents simultaneously",
+      "Citation Tracking: Answers include references to source locations",
+      "Research Acceleration: Extract insights from papers in minutes"
+    ],
+    howToUse: {
+      title: "How to Use Humata Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Document", description: "Import your PDF, research paper, or document into Humata AI for analysis and questioning." },
+        { title: "Ask Your Questions", description: "Type specific questions about the document content and get accurate AI-generated answers instantly." },
+        { title: "Get Your Summary", description: "Request a concise summary of the entire document or specific sections you want to understand quickly." },
+        { title: "Review Citations", description: "Check the source references provided with each answer to verify accuracy and find relevant passages." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cited Answers", description: "Provides answers with citations pointing to the specific document locations where the information was found." },
+      { title: "Multi-Document Querying", description: "Allows questions that draw on information across multiple uploaded documents simultaneously for comprehensive answers." },
+      { title: "Research Acceleration", description: "Reduces document review time dramatically by letting users ask targeted questions rather than reading everything." }
+    ],
+    useCases: [
+      { title: "Researchers", description: "Process large volumes of academic papers and extract relevant information without reading every document fully." },
+      { title: "Legal Professionals", description: "Review contracts and legal documents quickly by asking specific questions about key terms and clauses." },
+      { title: "Students", description: "Understand complex academic papers and textbooks faster by asking questions about content you find confusing." }
+    ]
+  },
+  "drop": {
+    whatIs: "DROP is an AI writing and content creation tool that helps users generate high-quality written content quickly across multiple formats including blogs, social posts, and marketing copy with minimal input.",
+    features: [
+      "Quick Content Generation: High-quality content from brief prompts",
+      "Multiple Formats: Blog posts, social content, and marketing copy",
+      "Tone Control: Adjust writing style to match your brand voice",
+      "Fast Turnaround: Content ready in seconds not minutes",
+      "Free Access: Basic content generation without payment required"
+    ],
+    howToUse: {
+      title: "How to Use Drop",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Prompt", description: "Describe the content you need including format, topic, tone, and any specific details to include." },
+        { title: "Generate Your Content", description: "Let the AI produce your written content based on your prompt and review the initial output." },
+        { title: "Refine the Output", description: "Request adjustments to tone, length, or specific sections until the content meets your requirements." },
+        { title: "Copy and Publish", description: "Copy your finalized content and publish it across your chosen channels or use it in your workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed of Output", description: "Generates complete written content pieces in seconds making high-volume content production genuinely feasible." },
+      { title: "Format Versatility", description: "Handles multiple content formats from short social captions to long-form blog articles from one tool." },
+      { title: "Tone Customization", description: "Adjusts writing style and tone based on your preferences to produce content that matches your brand voice." }
+    ],
+    useCases: [
+      { title: "Content Marketers", description: "Produce large volumes of written content across formats quickly without proportionally scaling your writing team." },
+      { title: "Social Media Managers", description: "Generate captions, posts, and copy for multiple platforms rapidly to maintain consistent content output." },
+      { title: "Entrepreneurs", description: "Create marketing copy and business content independently without hiring writers for every content need." }
+    ]
+  },
+  "poly": {
+    whatIs: "Poly is an AI image and creative asset management tool that helps teams organize, search, and manage large collections of visual assets using AI-powered tagging, search, and organization features.",
+    features: [
+      "AI Asset Tagging: Automatically tag and categorize images with AI",
+      "Smart Search: Find any asset using natural language descriptions",
+      "Team Library: Centralized visual asset library for your team",
+      "Version Management: Track changes to assets over time",
+      "Integration Ready: Connect with design and creative tools"
+    ],
+    howToUse: {
+      title: "How to Use Poly",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Assets", description: "Import your image library and creative assets into Poly for AI-powered organization and tagging." },
+        { title: "Let AI Tag Everything", description: "Allow Poly's AI to automatically analyze and tag every asset with relevant descriptive labels." },
+        { title: "Search Naturally", description: "Find any asset by describing what you are looking for in plain English rather than exact file names." },
+        { title: "Share With Team", description: "Give team members access to the organized library so everyone finds and uses the right assets consistently." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Tagging", description: "Analyzes every uploaded image and applies descriptive tags automatically without manual categorization work." },
+      { title: "Natural Language Search", description: "Finds assets based on descriptive searches so users locate what they need without knowing exact file names." },
+      { title: "Centralized Library", description: "Creates one organized source of truth for all visual assets that the entire team can access and use." }
+    ],
+    useCases: [
+      { title: "Design Teams", description: "Find the right asset instantly from large libraries without spending time manually searching through folders." },
+      { title: "Marketing Teams", description: "Maintain an organized shared library of brand assets that everyone can search and access efficiently." },
+      { title: "Creative Agencies", description: "Manage large client asset libraries with AI organization that makes finding specific visuals fast and reliable." }
+    ]
+  },
   "jpgtotext-com": {
     whatIs: "jpgtotext.com is a free online tool that converts text within JPG images and photos into editable digital text using AI-powered OCR technology without requiring any software or account creation.",
     features: [
