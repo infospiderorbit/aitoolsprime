@@ -1,4 +1,544 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "trevor-ai": {
+    whatIs: "Trevor AI is an intelligent daily planner that automatically schedules your tasks into available time slots on your calendar using time blocking to give you a realistic and achievable plan every day.",
+    features: [
+      "Auto Time Blocking: Tasks placed into calendar slots automatically",
+      "Priority Scheduling: Important tasks get scheduled first",
+      "Calendar Integration: Syncs with Google and Outlook calendars",
+      "Drag and Drop: Manually adjust scheduled tasks easily",
+      "Daily Planning: Clear view of your tasks and schedule together"
+    ],
+    howToUse: {
+      title: "How to Use Trevor Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Calendar", description: "Link your Google or Outlook calendar to Trevor AI so it can see your availability and schedule tasks." },
+        { title: "Add Your Tasks", description: "Enter your tasks with time estimates and priority levels for Trevor to schedule intelligently." },
+        { title: "Review Your Plan", description: "See your tasks automatically placed into available calendar gaps for a realistic daily plan." },
+        { title: "Adjust as Needed", description: "Drag and drop tasks to different time slots if you want to override the AI scheduling decisions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Intelligent Time Blocking", description: "Automatically places tasks into available calendar gaps based on priority and estimated duration." },
+      { title: "Calendar Awareness", description: "Reads your existing events and schedules tasks only into genuinely available time slots." },
+      { title: "Visual Daily Plan", description: "Combines tasks and calendar events into one clear view of your entire day at a glance." }
+    ],
+    useCases: [
+      { title: "Knowledge Workers", description: "Get a realistic daily plan that accounts for meetings and ensures important tasks actually get done." },
+      { title: "Busy Professionals", description: "Stop manually figuring out when to do tasks and let AI build your optimized daily schedule automatically." },
+      { title: "Productivity Seekers", description: "Build a consistent time blocking habit with AI assistance that makes daily planning fast and sustainable." }
+    ]
+  },
+  "carepatron": {
+    whatIs: "Carepatron is an all-in-one healthcare practice management platform that helps clinicians manage appointments, clinical notes, billing, and client communication from one integrated workspace.",
+    features: [
+      "Appointment Scheduling: Online booking and calendar management",
+      "Clinical Notes: AI-assisted documentation and note templates",
+      "Billing Management: Invoicing and payment processing tools",
+      "Client Portal: Secure client communication and file sharing",
+      "Telehealth: Built-in video consultation capabilities"
+    ],
+    howToUse: {
+      title: "How to Use Carepatron",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Practice", description: "Create your Carepatron workspace and configure your services, availability, and client portal settings." },
+        { title: "Enable Online Booking", description: "Activate online scheduling so clients can book appointments directly through your booking page." },
+        { title: "Document Your Sessions", description: "Use AI-assisted note templates to document clinical sessions quickly and accurately after appointments." },
+        { title: "Manage Billing", description: "Send invoices, process payments, and track outstanding balances through the integrated billing tools." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Clinical Notes", description: "Provides intelligent note templates and AI assistance that speeds up clinical documentation significantly." },
+      { title: "Integrated Platform", description: "Combines scheduling, notes, billing, and telehealth in one workspace eliminating multiple tool subscriptions." },
+      { title: "Client Portal", description: "Gives clients secure access to book appointments, complete forms, and communicate with their practitioner." }
+    ],
+    useCases: [
+      { title: "Therapists and Counselors", description: "Manage your entire private practice from one platform without juggling multiple specialized software tools." },
+      { title: "Healthcare Practitioners", description: "Streamline administrative work so more time goes toward client care rather than practice management tasks." },
+      { title: "Allied Health Professionals", description: "Run a professional practice with enterprise-grade tools at a cost suitable for individual and small group practices." }
+    ]
+  },
+  "perplexity-ai": {
+    whatIs: "Perplexity AI is an AI-powered answer engine that provides direct cited answers to questions by searching the web in real time, combining search and AI to deliver accurate up-to-date information with sources.",
+    features: [
+      "Real-Time Search: Searches the web for current information",
+      "Cited Answers: Every response includes source references",
+      "Follow-Up Questions: Continue conversations with context",
+      "File Analysis: Upload documents for AI-powered analysis",
+      "Pro Search: Deep research mode for complex questions"
+    ],
+    howToUse: {
+      title: "How to Use Perplexity Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Question", description: "Type any question into Perplexity and receive an AI-generated answer with real-time web search backing." },
+        { title: "Review Your Sources", description: "Check the cited sources provided with your answer to verify accuracy and explore topics further." },
+        { title: "Follow Up Naturally", description: "Ask follow-up questions and Perplexity maintains context for a coherent multi-turn research conversation." },
+        { title: "Use Pro Search", description: "Enable Pro Search mode for deeper research on complex topics requiring more comprehensive investigation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Web Search", description: "Searches the live web for every query ensuring answers reflect current information rather than training data." },
+      { title: "Source Citations", description: "Provides references for every factual claim so users can verify information and explore primary sources." },
+      { title: "Conversational Research", description: "Maintains conversation context across follow-up questions for coherent multi-step research sessions." }
+    ],
+    useCases: [
+      { title: "Researchers", description: "Get cited accurate answers to complex questions with real-time web search backing every response." },
+      { title: "Students", description: "Research topics with an AI that provides sourced answers you can verify and cite in your own work." },
+      { title: "Professionals", description: "Find current accurate information quickly with an answer engine that combines AI reasoning and live search." }
+    ]
+  },
+  "genspark": {
+    whatIs: "Genspark is an AI search and research platform that generates comprehensive Sparkpages — custom AI-written research summaries on any topic combining information from multiple sources into one organized document.",
+    features: [
+      "Sparkpages: Custom AI research documents on any topic",
+      "Multi-Source Synthesis: Combines information from many sources",
+      "Real-Time Research: Current information from web search",
+      "Organized Output: Well-structured comprehensive summaries",
+      "Follow-Up Chat: Dig deeper with follow-up questions"
+    ],
+    howToUse: {
+      title: "How to Use Genspark",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Type your research question or topic into Genspark to begin generating your custom Sparkpage." },
+        { title: "Review Your Sparkpage", description: "Read through your AI-generated research document that synthesizes information from multiple sources." },
+        { title: "Explore Sources", description: "Check the underlying sources that contributed to your Sparkpage for verification and deeper reading." },
+        { title: "Ask Follow-Ups", description: "Use the chat interface to ask follow-up questions and refine your understanding of specific aspects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sparkpage Generation", description: "Creates comprehensive well-organized research documents that synthesize information from multiple web sources." },
+      { title: "Multi-Source Synthesis", description: "Combines information from numerous sources into one coherent document rather than returning a list of links." },
+      { title: "Real-Time Currency", description: "Accesses current web information ensuring research documents reflect the latest available knowledge." }
+    ],
+    useCases: [
+      { title: "Researchers", description: "Get comprehensive multi-source research summaries on complex topics faster than manual literature review." },
+      { title: "Business Professionals", description: "Research markets, competitors, and topics quickly with AI-generated documents that synthesize multiple sources." },
+      { title: "Students", description: "Build research understanding rapidly with AI-synthesized topic overviews that draw from multiple credible sources." }
+    ]
+  },
+  "chub-ai": {
+    whatIs: "Chub AI is an AI character and roleplay platform that lets users create, customize, and interact with AI characters for creative writing, storytelling, and character-based conversations.",
+    features: [
+      "Character Creation: Build detailed AI personas and characters",
+      "Roleplay Chat: Engage in character-based conversations",
+      "Character Library: Browse thousands of community characters",
+      "Custom Scenarios: Set up specific roleplay situations",
+      "Creative Writing: Use characters for story development"
+    ],
+    howToUse: {
+      title: "How to Use Chub Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse or Create", description: "Explore the community character library or create your own custom AI character with detailed traits." },
+        { title: "Set Your Scenario", description: "Define the setting and context for your interaction or choose from available scenario templates." },
+        { title: "Start Your Conversation", description: "Begin chatting with your chosen character and engage in creative roleplay or storytelling." },
+        { title: "Develop Your Story", description: "Use ongoing conversations to develop characters, explore narratives, and build your creative writing projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Character Depth", description: "Creates AI characters with detailed personalities, backstories, and consistent behavioral traits throughout interactions." },
+      { title: "Community Library", description: "Provides access to thousands of community-created characters across every genre and creative style." },
+      { title: "Creative Flexibility", description: "Supports diverse creative writing and storytelling use cases from fantasy roleplay to character development." }
+    ],
+    useCases: [
+      { title: "Creative Writers", description: "Develop characters and explore story ideas through interactive conversations with AI personas you create." },
+      { title: "Storytellers", description: "Test narrative ideas and character dynamics by roleplaying scenes and interactions before writing them." },
+      { title: "Roleplay Enthusiasts", description: "Engage in immersive character-based interactions across creative scenarios and fictional worlds." }
+    ]
+  },
+  "kagi-search": {
+    whatIs: "Kagi is a premium ad-free search engine that delivers high-quality search results without tracking, advertising, or algorithmic manipulation, giving users a faster cleaner search experience.",
+    features: [
+      "Ad-Free Results: No advertisements in any search results",
+      "No Tracking: Zero user data collection or profiling",
+      "Quality Focus: Results ranked by relevance not ad revenue",
+      "Personal Filters: Block or boost specific domains yourself",
+      "AI Assistant: Built-in AI for summarization and answers"
+    ],
+    howToUse: {
+      title: "How to Use Kagi Search",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up for Kagi and choose your subscription plan for ad-free premium search access." },
+        { title: "Set Your Preferences", description: "Configure domain boosts, blocks, and search preferences to personalize your results quality." },
+        { title: "Search Freely", description: "Use Kagi as your default search engine and experience clean unmanipulated results immediately." },
+        { title: "Use AI Features", description: "Access the built-in AI summarization and answer features for quick insights alongside search results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Ad-Free Experience", description: "Delivers completely advertisement-free search results focused entirely on relevance and user value." },
+      { title: "Privacy Protection", description: "Collects zero user data and performs no tracking making every search genuinely private." },
+      { title: "Result Quality Control", description: "Allows users to personally boost or block specific domains for a fully customized result experience." }
+    ],
+    useCases: [
+      { title: "Privacy-Conscious Users", description: "Search the web without being tracked, profiled, or served algorithmically manipulated advertising-driven results." },
+      { title: "Quality-Focused Researchers", description: "Get search results ranked purely by relevance rather than by advertiser relationships or SEO manipulation." },
+      { title: "Power Users", description: "Customize your search experience with personal domain preferences that improve result quality over time." }
+    ]
+  },
+  "consensus": {
+    whatIs: "Consensus is an AI-powered academic search engine that searches scientific research papers and provides evidence-based answers with citations, helping users find what the science actually says on any topic.",
+    features: [
+      "Scientific Search: Search millions of research papers instantly",
+      "Evidence-Based Answers: Responses grounded in peer-reviewed research",
+      "Paper Citations: Direct links to source research papers",
+      "Consensus Meter: See how much research agrees on a topic",
+      "AI Summaries: Plain language summaries of complex research"
+    ],
+    howToUse: {
+      title: "How to Use Consensus",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Question", description: "Enter a research question or topic into Consensus to search across millions of scientific papers." },
+        { title: "Review the Evidence", description: "See AI-synthesized answers based on actual peer-reviewed research with paper citations included." },
+        { title: "Check the Consensus Meter", description: "See what percentage of relevant studies support or contradict the main claim being researched." },
+        { title: "Explore Source Papers", description: "Click through to the original research papers to read the full studies behind any finding." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Scientific Database Search", description: "Searches across millions of peer-reviewed papers to find relevant research on any topic or question." },
+      { title: "Consensus Meter", description: "Visualizes how much scientific agreement exists on a topic across the body of available research." },
+      { title: "Evidence Synthesis", description: "Summarizes findings from multiple papers into coherent answers grounded in actual scientific literature." }
+    ],
+    useCases: [
+      { title: "Researchers", description: "Find relevant peer-reviewed evidence for any research question faster than traditional academic database searching." },
+      { title: "Healthcare Professionals", description: "Access evidence-based answers about treatments and interventions backed by actual clinical research papers." },
+      { title: "Curious Learners", description: "Understand what the scientific evidence actually says on any topic rather than relying on popular media claims." }
+    ]
+  },
+  "quadratic": {
+    whatIs: "Quadratic is an AI-powered spreadsheet that lets users write Python, SQL, and formulas in cells alongside traditional spreadsheet functions, combining the power of code with the familiarity of a grid interface.",
+    features: [
+      "Python in Cells: Write Python code directly in spreadsheet cells",
+      "SQL Support: Query databases from within your spreadsheet",
+      "AI Assistance: AI helps write code and formulas for your data",
+      "Collaborative: Work with teammates on the same spreadsheet",
+      "Data Visualization: Create charts directly from your data"
+    ],
+    howToUse: {
+      title: "How to Use Quadratic",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open Your Spreadsheet", description: "Create a new Quadratic spreadsheet and import your data or connect to your data source." },
+        { title: "Write Your Code", description: "Type Python or SQL directly into cells alongside standard spreadsheet formulas and functions." },
+        { title: "Use AI Help", description: "Ask the AI assistant to write code or formulas for specific data tasks you want to accomplish." },
+        { title: "Visualize and Share", description: "Create charts from your data and share your spreadsheet with teammates for collaborative analysis." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Code in Cells", description: "Enables Python and SQL directly within spreadsheet cells combining programming power with grid familiarity." },
+      { title: "AI Code Generation", description: "Writes Python and SQL code for data tasks in plain English reducing the barrier to code-powered analysis." },
+      { title: "Familiar Interface", description: "Maintains the spreadsheet grid format so users get programming power without abandoning familiar workflows." }
+    ],
+    useCases: [
+      { title: "Data Analysts", description: "Combine the familiarity of spreadsheets with the power of Python and SQL for more sophisticated analysis." },
+      { title: "Business Analysts", description: "Perform complex data operations without switching between spreadsheets and separate coding environments." },
+      { title: "Teams Sharing Analysis", description: "Collaborate on code-powered spreadsheet analysis in a shared environment without complex setup requirements." }
+    ]
+  },
+  "numerous-ai": {
+    whatIs: "Numerous.ai is an AI spreadsheet tool that brings ChatGPT-powered capabilities directly into Google Sheets and Excel, letting users write AI formulas that generate text, categorize data, and extract information at scale.",
+    features: [
+      "AI Formulas: ChatGPT functions usable in any spreadsheet cell",
+      "Bulk Processing: Run AI on thousands of rows simultaneously",
+      "Text Generation: Generate content from spreadsheet data",
+      "Data Categorization: Classify and tag data with AI automatically",
+      "Google Sheets Add-on: Works inside your existing spreadsheets"
+    ],
+    howToUse: {
+      title: "How to Use Numerous Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Add-on", description: "Add Numerous.ai to your Google Sheets or Excel from the respective add-on marketplace." },
+        { title: "Write Your AI Formula", description: "Use Numerous AI formula functions in any cell just like standard spreadsheet formulas." },
+        { title: "Apply to Your Data", description: "Reference your data cells in the AI formula to process rows of information with AI at scale." },
+        { title: "Scale Your Processing", description: "Apply the formula to thousands of rows and let AI process all your data automatically and quickly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Native Spreadsheet Integration", description: "Works inside your existing Google Sheets and Excel without requiring data export to external tools." },
+      { title: "Bulk AI Processing", description: "Processes thousands of rows with AI simultaneously making large-scale data enrichment practical and fast." },
+      { title: "Formula Familiarity", description: "Uses standard spreadsheet formula syntax so users familiar with Excel functions learn the tool instantly." }
+    ],
+    useCases: [
+      { title: "Data Teams", description: "Enrich, categorize, and analyze large datasets with AI directly in your existing spreadsheet workflow." },
+      { title: "Marketing Teams", description: "Generate personalized content variations, categorize leads, and extract insights from data at scale in sheets." },
+      { title: "Operations Teams", description: "Automate data classification, tagging, and enrichment tasks across large spreadsheet datasets efficiently." }
+    ]
+  },
+  "sheetai": {
+    whatIs: "SheetAI is an AI-powered Google Sheets add-on that brings the power of large language models into your spreadsheets with custom AI functions for generating text, extracting data, and automating tasks.",
+    features: [
+      "AI Functions: Custom AI formulas for Google Sheets",
+      "Text Generation: Create content from cell data with AI",
+      "Data Extraction: Pull specific information from text cells",
+      "Translation: Translate cell content between languages",
+      "Sentiment Analysis: Analyze tone and sentiment of text data"
+    ],
+    howToUse: {
+      title: "How to Use Sheetai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install SheetAI", description: "Add the SheetAI add-on to your Google Sheets from the Google Workspace Marketplace." },
+        { title: "Enable API Access", description: "Connect your AI API key to activate the AI functions within your SheetAI installation." },
+        { title: "Use AI Functions", description: "Write SheetAI functions in cells to generate text, extract data, or analyze content from your sheet." },
+        { title: "Scale Your Analysis", description: "Apply AI functions across entire columns to process large datasets automatically and efficiently." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Google Sheets Native", description: "Operates entirely within Google Sheets so your AI-powered workflow stays in your existing environment." },
+      { title: "Custom AI Functions", description: "Provides a library of AI formula functions covering generation, extraction, translation, and analysis tasks." },
+      { title: "Column-Scale Processing", description: "Applies AI functions across entire data columns enabling batch processing of large text datasets quickly." }
+    ],
+    useCases: [
+      { title: "Google Sheets Power Users", description: "Add AI capabilities to your existing spreadsheet workflows without leaving the Google Sheets environment." },
+      { title: "Content Teams", description: "Generate, improve, and analyze text content at scale directly within your spreadsheet data workflows." },
+      { title: "Data Analysts", description: "Extract structured information from unstructured text data and perform sentiment analysis across large datasets." }
+    ]
+  },
+  "omi-ai": {
+    whatIs: "Omi AI is a wearable AI memory device and app that continuously captures your conversations and experiences, creating a searchable personal memory that you can query to recall anything from your day.",
+    features: [
+      "Continuous Capture: Records conversations and experiences automatically",
+      "Personal Memory: Searchable database of your captured moments",
+      "AI Recall: Ask questions about anything from your past conversations",
+      "Privacy Controls: Full control over what gets stored and deleted",
+      "App Integration: Syncs with your phone for easy access"
+    ],
+    howToUse: {
+      title: "How to Use Omi Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Device", description: "Pair your Omi wearable with the smartphone app and configure your capture and privacy preferences." },
+        { title: "Wear and Capture", description: "Wear the device throughout your day and let it automatically capture conversations and experiences." },
+        { title: "Search Your Memory", description: "Ask the AI to recall specific information, conversations, or details from any point in your captured history." },
+        { title: "Review and Delete", description: "Browse your personal memory library and delete any recordings you do not want retained permanently." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Continuous Capture", description: "Records experiences and conversations automatically throughout your day without requiring manual activation." },
+      { title: "Searchable Memory", description: "Creates a queryable database of your captured experiences so you can recall specific details on demand." },
+      { title: "Privacy Control", description: "Gives users complete control over stored content with easy deletion and granular privacy settings." }
+    ],
+    useCases: [
+      { title: "Memory-Challenged Individuals", description: "Supplement natural memory with AI capture that lets you recall conversations and details you might otherwise forget." },
+      { title: "Professionals", description: "Recall specific details from meetings and conversations accurately without relying on manual note-taking." },
+      { title: "Researchers and Learners", description: "Capture and query insights from conferences, lectures, and discussions for easier knowledge retention and review." }
+    ]
+  },
+  "nifty": {
+    whatIs: "Nifty is a project management platform that combines tasks, milestones, documents, and team communication in one workspace to help teams plan, track, and deliver projects without tool-switching overhead.",
+    features: [
+      "Milestone Tracking: Visual project milestone and goal management",
+      "Task Management: Detailed task tracking with assignments and deadlines",
+      "Document Hub: Project documents and wikis in one place",
+      "Team Chat: Built-in messaging alongside project work",
+      "Time Tracking: Log and monitor time spent on projects"
+    ],
+    howToUse: {
+      title: "How to Use Nifty",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Project", description: "Set up a new Nifty project and define your milestones, phases, and overall project goals." },
+        { title: "Add Your Tasks", description: "Break milestones into specific tasks with assignments, deadlines, and priority levels for your team." },
+        { title: "Collaborate in Context", description: "Use built-in chat and documents alongside tasks so all project communication stays in one place." },
+        { title: "Track and Deliver", description: "Monitor milestone progress, time logs, and task completion to keep your project on track to delivery." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Milestone Visualization", description: "Displays project progress through visual milestones that make high-level goals and timeline clear to all." },
+      { title: "All-in-One Workspace", description: "Combines tasks, docs, chat, and time tracking so teams never need to switch between separate tools." },
+      { title: "Cross-Functional Visibility", description: "Gives every team member and stakeholder a clear view of project status and individual responsibilities." }
+    ],
+    useCases: [
+      { title: "Project Managers", description: "Run complete projects from planning through delivery in one organized platform without tool fragmentation." },
+      { title: "Remote Teams", description: "Keep distributed teams aligned with shared project context, tasks, and communication in one workspace." },
+      { title: "Agencies", description: "Manage client projects with milestone tracking and deliverable organization that keeps work on schedule." }
+    ]
+  },
+  "doc2lang": {
+    whatIs: "Doc2Lang is an AI document translation tool that converts documents from one language to another while preserving the original formatting, layout, and structure of the source file accurately.",
+    features: [
+      "Document Translation: Translate files while keeping formatting intact",
+      "Multiple Languages: Support for dozens of language pairs",
+      "Format Preservation: Layout and structure maintained after translation",
+      "Multiple File Types: Supports PDF Word Excel and more",
+      "Fast Processing: Translated documents ready quickly"
+    ],
+    howToUse: {
+      title: "How to Use Doc2Lang",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Document", description: "Import the document you need translated into Doc2Lang supporting multiple common file formats." },
+        { title: "Select Languages", description: "Choose your source language and the target language you want the document translated into." },
+        { title: "Generate Translation", description: "Let the AI translate your document while preserving the original formatting and layout throughout." },
+        { title: "Download Your File", description: "Save the translated document in the same format as your original for immediate use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Format Preservation", description: "Maintains original document layout, formatting, and structure through the translation process accurately." },
+      { title: "Multi-Format Support", description: "Handles translation of PDFs, Word documents, Excel files, and other common business document formats." },
+      { title: "Language Coverage", description: "Supports a wide range of language pairs covering major world languages for global document translation needs." }
+    ],
+    useCases: [
+      { title: "International Businesses", description: "Translate contracts, reports, and business documents between languages while maintaining professional formatting." },
+      { title: "Translators", description: "Use AI translation as a starting point that preserves formatting and speeds up professional translation workflows." },
+      { title: "Global Teams", description: "Share documents across language barriers with translated versions that look identical to the originals." }
+    ]
+  },
+  "doco": {
+    whatIs: "Doco is an AI documentation assistant that helps software teams automatically generate, maintain, and improve technical documentation from their codebase keeping docs always accurate and up to date.",
+    features: [
+      "Auto Documentation: Generate docs from your code automatically",
+      "Code Analysis: AI reads and understands your codebase deeply",
+      "Always Current: Documentation updates when your code changes",
+      "Multiple Formats: API docs wikis and README generation",
+      "Team Collaboration: Work together on documentation quality"
+    ],
+    howToUse: {
+      title: "How to Use Doco",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Repository", description: "Link your code repository to Doco so it can analyze your codebase for documentation generation." },
+        { title: "Generate Initial Docs", description: "Let Doco analyze your code and produce initial documentation covering your APIs and key components." },
+        { title: "Review and Improve", description: "Check generated documentation for accuracy and completeness making improvements where needed." },
+        { title: "Keep Docs Updated", description: "Set up automatic documentation updates so your docs stay synchronized with code changes over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Code-Based Generation", description: "Reads and understands your actual codebase to generate documentation that accurately reflects implementation." },
+      { title: "Continuous Synchronization", description: "Updates documentation automatically when code changes ensuring docs never drift from reality." },
+      { title: "Format Variety", description: "Generates multiple documentation formats including API references, wikis, and README files from one tool." }
+    ],
+    useCases: [
+      { title: "Development Teams", description: "Maintain accurate technical documentation without the manual effort that causes docs to become outdated quickly." },
+      { title: "Open Source Projects", description: "Generate and maintain comprehensive documentation that helps contributors and users understand your project." },
+      { title: "API-First Companies", description: "Keep API documentation perfectly synchronized with your actual implementation automatically as code evolves." }
+    ]
+  },
+  "online-word-editor": {
+    whatIs: "Online Word Editor is a browser-based document editing tool that lets users create, edit, and format Word-compatible documents online without needing Microsoft Office or any software installation.",
+    features: [
+      "Browser-Based Editing: Full document editing in your browser",
+      "Word Compatible: Create and edit DOCX format documents",
+      "Formatting Tools: Complete text formatting and styling options",
+      "No Installation: Works on any device without software",
+      "Free to Use: Document editing without payment required"
+    ],
+    howToUse: {
+      title: "How to Use Online Word Editor",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open the Editor", description: "Navigate to the Online Word Editor in your browser and create a new document or upload an existing one." },
+        { title: "Write Your Content", description: "Use the full formatting toolbar to write, style, and structure your document content as needed." },
+        { title: "Format Your Document", description: "Apply headings, lists, tables, and other formatting to create a professional looking document." },
+        { title: "Download or Save", description: "Export your finished document as a DOCX file compatible with Microsoft Word and other editors." }
+      ]
+    },
+    coreFeatures: [
+      { title: "No-Install Access", description: "Provides complete word processing in a browser without requiring software download or installation." },
+      { title: "Word Compatibility", description: "Creates and edits DOCX files that open correctly in Microsoft Word and Google Docs without issues." },
+      { title: "Free Availability", description: "Offers full document editing capabilities without payment making it accessible from any device anywhere." }
+    ],
+    useCases: [
+      { title: "Occasional Document Users", description: "Edit Word documents without paying for Microsoft Office when you only need document editing occasionally." },
+      { title: "Students", description: "Create and edit documents for assignments from any computer or device without software installation." },
+      { title: "Remote Workers", description: "Access document editing from any device or location through the browser without software requirements." }
+    ]
+  },
+  "write-conch-ai": {
+    whatIs: "Write Conch AI is an AI writing assistant that helps students and professionals generate essays, articles, and written content with AI-powered suggestions, outlines, and full draft generation capabilities.",
+    features: [
+      "Essay Writing: Generate complete essays from prompts",
+      "Outline Creation: Structured outlines for any writing topic",
+      "AI Suggestions: Smart writing improvements and completions",
+      "Multiple Formats: Academic essays, articles, and more",
+      "Plagiarism Awareness: Original AI-generated content throughout"
+    ],
+    howToUse: {
+      title: "How to Use Write Conch Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Describe your writing topic, essay prompt, or article subject to get started with AI assistance." },
+        { title: "Generate Your Outline", description: "Get a structured outline with main points and supporting arguments for your chosen topic." },
+        { title: "Write With AI Help", description: "Use AI suggestions and completions to write your draft efficiently with intelligent assistance." },
+        { title: "Review and Finalize", description: "Edit the generated or AI-assisted content to add your voice and ensure it meets your requirements." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Full Draft Generation", description: "Produces complete written drafts from prompts giving users a strong starting point for any writing task." },
+      { title: "Structured Outlining", description: "Creates logical organized outlines that provide a solid framework for any essay or article topic." },
+      { title: "Writing Suggestions", description: "Offers intelligent completions and improvements that help writers produce better content more efficiently." }
+    ],
+    useCases: [
+      { title: "Students", description: "Get AI assistance with essay writing and academic content while maintaining your own voice and perspective." },
+      { title: "Content Writers", description: "Accelerate article and blog post production with AI-generated drafts that you refine and personalize." },
+      { title: "Professionals", description: "Draft reports, proposals, and professional documents faster with AI assistance for structure and content." }
+    ]
+  },
+  "legalgraph-ai": {
+    whatIs: "LegalGraph AI is an AI legal research and document analysis platform that helps lawyers and legal professionals search case law, analyze contracts, and extract key legal insights from documents efficiently.",
+    features: [
+      "Case Law Search: AI-powered legal research across case databases",
+      "Contract Analysis: Extract key terms and clauses automatically",
+      "Legal Summaries: Concise summaries of complex legal documents",
+      "Risk Identification: Flag potential issues in contracts",
+      "Precedent Finding: Discover relevant legal precedents quickly"
+    ],
+    howToUse: {
+      title: "How to Use Legalgraph Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Document", description: "Import contracts, legal briefs, or case documents for AI-powered analysis and information extraction." },
+        { title: "Run Your Analysis", description: "Let LegalGraph AI extract key clauses, identify risks, and summarize the essential content of your document." },
+        { title: "Search Case Law", description: "Use the legal research tools to find relevant cases and precedents for your matter or question." },
+        { title: "Review Insights", description: "Examine the AI-extracted insights, flagged issues, and research results to inform your legal work." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Contract Intelligence", description: "Extracts key terms, obligations, and risk clauses from contracts automatically for faster document review." },
+      { title: "Case Law Search", description: "Searches across legal databases to surface relevant precedents and cases for any legal question." },
+      { title: "Risk Flagging", description: "Identifies potentially problematic contract clauses and legal risks before they cause issues downstream." }
+    ],
+    useCases: [
+      { title: "Lawyers", description: "Accelerate legal research and contract review with AI assistance that handles time-consuming document analysis." },
+      { title: "Legal Teams", description: "Process larger volumes of contracts and legal documents without proportionally increasing review time." },
+      { title: "In-House Counsel", description: "Review contracts faster and catch potential risks more reliably with AI-powered contract analysis tools." }
+    ]
+  },
+  "datarails": {
+    whatIs: "Datarails is an AI-powered financial planning and analysis platform that connects to your existing Excel models and automates financial reporting, budgeting, and forecasting for finance teams.",
+    features: [
+      "Excel Integration: Works with your existing Excel financial models",
+      "Automated Reporting: Financial reports generated automatically",
+      "Budget Management: Streamlined budgeting and planning workflows",
+      "AI Insights: Intelligent analysis of your financial data",
+      "Data Consolidation: Combine data from multiple sources automatically"
+    ],
+    howToUse: {
+      title: "How to Use Datarails",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Excel", description: "Link your existing Excel financial models to Datarails for automated data consolidation and reporting." },
+        { title: "Set Up Data Sources", description: "Connect your ERP, CRM, and other data sources for automatic financial data aggregation." },
+        { title: "Automate Your Reports", description: "Configure your standard financial reports to generate automatically from consolidated data." },
+        { title: "Analyze With AI", description: "Use AI-powered insights to understand financial trends, variances, and performance drivers automatically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Excel Compatibility", description: "Works with your existing Excel models rather than requiring migration to a completely new platform." },
+      { title: "Automated Consolidation", description: "Pulls financial data from multiple sources automatically eliminating manual data gathering and entry." },
+      { title: "AI Financial Insights", description: "Generates intelligent analysis of financial data highlighting variances, trends, and planning implications." }
+    ],
+    useCases: [
+      { title: "Finance Teams", description: "Automate repetitive financial reporting and consolidation tasks to focus on analysis and strategic insights." },
+      { title: "CFOs", description: "Get accurate real-time financial visibility with automated reporting that reduces month-end close time." },
+      { title: "FP&A Professionals", description: "Spend less time gathering and consolidating data and more time on the analysis that drives business decisions." }
+    ]
+  },
   "resume-worded": {
     whatIs: "Resume Worded is an AI resume and LinkedIn profile optimizer that provides instant detailed feedback on your resume scored against recruiter expectations and ATS requirements to improve your job application success rate.",
     features: [
