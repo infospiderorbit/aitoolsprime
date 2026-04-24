@@ -1,4 +1,424 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "sivi-ai": {
+    whatIs: "Sivi AI is an AI graphic design tool that generates professional social media visuals, banners, and marketing graphics from text prompts without requiring any design skills or software.",
+    features: [
+      "Text to Design: Generate graphics from simple text descriptions",
+      "Social Media Formats: Designs sized for every platform automatically",
+      "Brand Customization: Apply your colors and fonts consistently",
+      "Multiple Variations: Get several design options per prompt",
+      "Instant Export: Download ready-to-use graphics immediately"
+    ],
+    howToUse: {
+      title: "How to Use Sivi Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Design", description: "Enter a text description of the graphic you need including style, purpose, and any brand details." },
+        { title: "Choose Your Format", description: "Select the platform and size you need — Instagram post, Facebook banner, Twitter header, and more." },
+        { title: "Generate Variations", description: "Get multiple design options instantly and pick the one that best fits your vision and brand." },
+        { title: "Download and Use", description: "Export your chosen design in high resolution and use it directly in your social media or marketing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Text-to-Visual Engine", description: "Transforms written descriptions into complete professional graphics without requiring any design knowledge." },
+      { title: "Platform Sizing", description: "Automatically produces designs in the correct dimensions for every major social media platform." },
+      { title: "Brand Consistency", description: "Applies your brand colors, fonts, and style across all generated designs for a cohesive visual identity." }
+    ],
+    useCases: [
+      { title: "Social Media Managers", description: "Produce professional graphics for every platform quickly without relying on a graphic designer for every post." },
+      { title: "Small Business Owners", description: "Create branded marketing visuals independently at a fraction of traditional design costs and timelines." },
+      { title: "Content Creators", description: "Generate eye-catching visuals that complement your content and maintain a consistent aesthetic across posts." }
+    ]
+  },
+  "thumblytics": {
+    whatIs: "Thumblytics is a YouTube thumbnail analytics and testing tool that helps creators understand which thumbnails drive the most clicks and optimize their visual strategy for better channel performance.",
+    features: [
+      "Thumbnail Testing: A/B test different thumbnails for the same video",
+      "Click-Through Analysis: See which designs generate more clicks",
+      "Competitor Thumbnails: Analyze what works for top channels",
+      "Performance Tracking: Monitor thumbnail metrics over time",
+      "Design Insights: Data-backed recommendations for better thumbnails"
+    ],
+    howToUse: {
+      title: "How to Use Thumblytics",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Channel", description: "Link your YouTube channel to Thumblytics for full thumbnail analytics and testing access." },
+        { title: "Set Up Your Test", description: "Upload two or more thumbnail variations for the same video to begin your A/B performance test." },
+        { title: "Collect Data", description: "Let the test run and gather click-through rate data across your different thumbnail variations." },
+        { title: "Apply Your Findings", description: "Use the winning thumbnail and apply the design insights to future videos for consistently better performance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "A/B Testing Engine", description: "Rotates thumbnail variations automatically and measures which version generates more clicks from real viewers." },
+      { title: "CTR Benchmarking", description: "Compares your click-through rates against channel averages and niche benchmarks for context." },
+      { title: "Design Pattern Recognition", description: "Identifies visual elements in high-performing thumbnails to guide your future design decisions with data." }
+    ],
+    useCases: [
+      { title: "YouTube Creators", description: "Stop guessing which thumbnails work and use real click data to make every video perform its best." },
+      { title: "Channel Optimizers", description: "Systematically improve your channel's click-through rate with ongoing thumbnail testing and analysis." },
+      { title: "Data-Driven Creators", description: "Build a thumbnail design strategy based on what your specific audience actually clicks on consistently." }
+    ]
+  },
+  "crazyfaceai": {
+    whatIs: "CrazyFace AI is a fun AI face transformation tool that applies creative, humorous, and artistic effects to photos, generating entertaining transformed images for social sharing and entertainment.",
+    features: [
+      "Face Transformation: Apply creative AI effects to any photo",
+      "Multiple Styles: Funny, artistic, cartoon, and fantasy effects",
+      "Instant Processing: Transformed images ready in seconds",
+      "Easy Sharing: Export images optimized for social media",
+      "Free to Try: Basic transformations without payment required"
+    ],
+    howToUse: {
+      title: "How to Use Crazyfaceai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Choose a clear photo with a visible face to use as your starting point for transformation." },
+        { title: "Select Your Effect", description: "Browse available transformation styles and pick the creative effect you want applied to your photo." },
+        { title: "Generate Your Image", description: "Let the AI apply your chosen effect and produce your creatively transformed photo instantly." },
+        { title: "Download and Share", description: "Save your transformed image and share it across your social media for entertainment and engagement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Effect Library", description: "Offers a wide range of transformation styles from humorous distortions to artistic and fantasy-inspired looks." },
+      { title: "Fast Processing", description: "Delivers transformed images within seconds so users can experiment with multiple effects rapidly." },
+      { title: "Social Optimization", description: "Exports images in formats and sizes that work perfectly for sharing across social media platforms." }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "Create funny and eye-catching transformed photos that entertain your followers and drive strong engagement." },
+      { title: "Content Creators", description: "Add creative AI-transformed images to your content mix for variety and entertainment value." },
+      { title: "Fun Seekers", description: "Experiment with creative face transformations purely for personal entertainment and sharing with friends." }
+    ]
+  },
+  "thumbnailcreator-com": {
+    whatIs: "ThumbnailCreator.com is an AI-powered YouTube thumbnail maker that generates compelling, click-worthy thumbnails from your video title or description to help creators improve their click-through rates.",
+    features: [
+      "AI Thumbnail Creation: Generate thumbnails from video titles",
+      "Style Templates: Multiple thumbnail styles for different niches",
+      "Text Integration: Bold engaging text overlays on every thumbnail",
+      "Color Optimization: High-contrast designs that stand out in feeds",
+      "YouTube Ready: Downloads in exact YouTube thumbnail dimensions"
+    ],
+    howToUse: {
+      title: "How to Use Thumbnailcreator Com",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Video Info", description: "Type your video title or paste a description to give the AI context for your thumbnail design." },
+        { title: "Pick Your Style", description: "Choose from available thumbnail templates that match your channel's niche and visual aesthetic." },
+        { title: "Generate Your Options", description: "Get multiple AI-designed thumbnail options to compare and choose the most compelling version." },
+        { title: "Download and Upload", description: "Save your thumbnail in YouTube-ready dimensions and upload it directly to your video." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Title-Driven Design", description: "Creates relevant thumbnail visuals directly from your video title without requiring manual creative direction." },
+      { title: "High-Contrast Output", description: "Produces thumbnails with bold colors and contrast designed to stand out in competitive YouTube search feeds." },
+      { title: "Niche Style Matching", description: "Offers template styles suited to different content categories from gaming to education to lifestyle content." }
+    ],
+    useCases: [
+      { title: "YouTube Creators", description: "Improve your video click-through rate with professional AI thumbnails that attract attention in search results." },
+      { title: "New Channels", description: "Create great-looking thumbnails from your very first video without graphic design skills or paid software." },
+      { title: "Busy Creators", description: "Generate quality thumbnails quickly for every upload without slowing down your content production schedule." }
+    ]
+  },
+  "beacons": {
+    whatIs: "Beacons is an all-in-one creator platform that combines a link in bio tool, media kit builder, brand deal management, and AI-powered tools to help creators run their business professionally.",
+    features: [
+      "Link in Bio: Beautiful customizable profile landing page",
+      "Media Kit: Professional creator media kit generation",
+      "Brand Deal Management: Track and manage sponsorship deals",
+      "AI Tools: Content and business assistance built in",
+      "Monetization: Multiple income stream tools in one place"
+    ],
+    howToUse: {
+      title: "How to Use Beacons",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Page", description: "Sign up and build your Beacons link in bio page with your links, content, and brand elements." },
+        { title: "Build Your Media Kit", description: "Use the media kit builder to create a professional pitch document for brand partnership outreach." },
+        { title: "Manage Your Deals", description: "Track incoming brand deal offers, negotiations, and active partnerships from your Beacons dashboard." },
+        { title: "Grow Your Income", description: "Explore additional monetization tools like digital products, bookings, and tipping built into the platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creator Business Hub", description: "Combines link in bio, media kit, brand deals, and monetization tools so creators run everything from one place." },
+      { title: "Professional Media Kit", description: "Generates polished media kits automatically from your profile data for credible brand partnership pitching." },
+      { title: "Deal Pipeline Management", description: "Tracks brand deals through every stage from initial inquiry through negotiation and final payment." }
+    ],
+    useCases: [
+      { title: "Full-Time Creators", description: "Run your creator business professionally with all the tools you need consolidated in one powerful platform." },
+      { title: "Influencers Seeking Brand Deals", description: "Pitch brands confidently with a professional media kit and manage all partnership conversations in one place." },
+      { title: "Monetizing Creators", description: "Access multiple revenue streams from digital products to brand deals without juggling multiple separate tools." }
+    ]
+  },
+  "glitch": {
+    whatIs: "Glitch is a collaborative online coding platform that lets developers build, host, and share web applications instantly without complex setup, making web development accessible and immediately deployable.",
+    features: [
+      "Instant Hosting: Apps go live immediately without deployment steps",
+      "Collaborative Coding: Multiple developers work together in real time",
+      "Starter Templates: Hundreds of project templates to begin from",
+      "No Setup Required: Start coding in the browser immediately",
+      "Remix Feature: Clone and modify any public project instantly"
+    ],
+    howToUse: {
+      title: "How to Use Glitch",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose a Template", description: "Browse Glitch's library of starter templates and pick one that matches your project type or goal." },
+        { title: "Start Coding", description: "Edit your project directly in the browser-based editor — changes appear live instantly without any build steps." },
+        { title: "Invite Collaborators", description: "Share your project link with teammates to code together in real time from anywhere in the world." },
+        { title: "Share Your App", description: "Your app is already live with a public URL — share it immediately without any deployment configuration." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Zero-Config Deployment", description: "Every project is instantly live with a public URL the moment you start without any deployment or hosting setup." },
+      { title: "Real-Time Collaboration", description: "Enables multiple developers to edit the same codebase simultaneously with changes visible to everyone instantly." },
+      { title: "Remix Ecosystem", description: "Allows any public project to be cloned and modified creating a collaborative community of shareable code." }
+    ],
+    useCases: [
+      { title: "Beginner Developers", description: "Build and deploy real web apps without wrestling with hosting, servers, or complex development environment setup." },
+      { title: "Educators", description: "Share live coding examples and let students remix projects to learn by doing in a real environment." },
+      { title: "Rapid Prototypers", description: "Launch functional app prototypes instantly to test ideas and share with stakeholders without deployment friction." }
+    ]
+  },
+  "onepage": {
+    whatIs: "Onepage is an AI website builder that creates beautiful single-page websites for creators, freelancers, and businesses from a simple profile setup with no coding or design experience needed.",
+    features: [
+      "AI Website Generation: Complete website from your profile details",
+      "Single Page Design: Clean focused layouts for maximum impact",
+      "Custom Domain: Connect your own domain name easily",
+      "Mobile Optimized: Perfect display on phones and tablets",
+      "Fast Setup: Live website in minutes not hours"
+    ],
+    howToUse: {
+      title: "How to Use Onepage",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Details", description: "Provide your name, profession, bio, links, and any other information you want on your website." },
+        { title: "Choose Your Style", description: "Select a design aesthetic that matches your personal or brand identity from available themes." },
+        { title: "Generate Your Site", description: "Let the AI build your complete single-page website from your provided information instantly." },
+        { title: "Publish and Share", description: "Connect your domain or use the provided URL and share your professional website with the world." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Generation", description: "Creates a complete professional website from your profile information without requiring any manual design work." },
+      { title: "Single Page Efficiency", description: "Focuses all your important information on one beautifully designed page for maximum clarity and impact." },
+      { title: "Instant Publishing", description: "Gets your professional website live within minutes of starting without any technical configuration required." }
+    ],
+    useCases: [
+      { title: "Freelancers", description: "Launch a professional portfolio website quickly to showcase your work and attract potential clients." },
+      { title: "Creators", description: "Build a clean personal site that serves as your central online hub for all your content and links." },
+      { title: "Small Businesses", description: "Get a professional web presence live quickly without the cost and complexity of a full website build." }
+    ]
+  },
+  "pillar": {
+    whatIs: "Pillar is a creator monetization and link in bio platform that helps influencers and content creators manage brand deals, sell digital products, and build their creator business from one hub.",
+    features: [
+      "Link in Bio: Customizable profile landing page for all links",
+      "Brand Deal CRM: Manage influencer partnerships end to end",
+      "Digital Products: Sell courses, presets, and downloads directly",
+      "Media Kit Builder: Professional pitch documents for brands",
+      "Analytics: Track traffic, clicks, and revenue performance"
+    ],
+    howToUse: {
+      title: "How to Use Pillar",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Create your Pillar page with your links, bio, and content to serve as your creator business hub." },
+        { title: "Build Your Media Kit", description: "Generate a professional media kit that showcases your audience stats and collaboration value to brands." },
+        { title: "Add Your Products", description: "Upload digital products like presets, templates, or courses to sell directly through your Pillar page." },
+        { title: "Track Your Performance", description: "Monitor your page traffic, product sales, and brand deal revenue from your analytics dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creator Business Tools", description: "Consolidates brand deal management, digital product sales, and link in bio into one creator-focused platform." },
+      { title: "Professional Media Kit", description: "Automatically generates polished media kits from your profile data for credible brand outreach and pitching." },
+      { title: "Revenue Dashboard", description: "Tracks all income streams including product sales and brand deals in one unified revenue view." }
+    ],
+    useCases: [
+      { title: "Influencers", description: "Manage your brand partnerships professionally and pitch new deals with a polished media kit from one platform." },
+      { title: "Creator Entrepreneurs", description: "Sell digital products and manage brand income streams without juggling multiple separate business tools." },
+      { title: "Growing Creators", description: "Build the professional infrastructure for your creator business before you need it and be ready for opportunities." }
+    ]
+  },
+  "postfity": {
+    whatIs: "Postfity is a social media scheduling and management tool that helps individuals and teams plan, schedule, and publish content across multiple social networks from one organized dashboard.",
+    features: [
+      "Multi-Platform Scheduling: Schedule posts across all major networks",
+      "Content Calendar: Visual overview of all planned social content",
+      "Team Collaboration: Manage content approval with your team",
+      "Post Recycling: Reschedule evergreen content automatically",
+      "Analytics: Track post performance across all connected channels"
+    ],
+    howToUse: {
+      title: "How to Use Postfity",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Accounts", description: "Link all your social media profiles to Postfity for unified scheduling and management." },
+        { title: "Create Your Posts", description: "Write and design your social media posts within the Postfity dashboard for each connected platform." },
+        { title: "Schedule Your Content", description: "Set your posts to publish at specific times across all platforms using the visual content calendar." },
+        { title: "Review Performance", description: "Track engagement metrics for your scheduled posts and refine your strategy based on the data." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Evergreen Recycling", description: "Automatically reschedules your best performing evergreen content so it continues reaching new audiences over time." },
+      { title: "Visual Calendar", description: "Provides a clear timeline view of all scheduled content across every platform for easy planning and oversight." },
+      { title: "Team Approval Tools", description: "Manages content review and sign-off workflows between team members before posts are published publicly." }
+    ],
+    useCases: [
+      { title: "Social Media Managers", description: "Handle scheduling for multiple client accounts efficiently from one organized and intuitive platform." },
+      { title: "Small Business Owners", description: "Maintain a consistent social presence across all platforms without spending time posting manually every day." },
+      { title: "Content Teams", description: "Coordinate content creation, approval, and scheduling across team members without communication chaos." }
+    ]
+  },
+  "taja-ai": {
+    whatIs: "Taja AI is a YouTube SEO optimization tool that automatically generates titles, descriptions, tags, and chapters for your videos using AI to maximize search visibility and viewer retention.",
+    features: [
+      "Auto Titles: AI-generated optimized YouTube video titles",
+      "Description Writing: SEO-rich video descriptions written automatically",
+      "Tag Generation: Relevant keyword tags for every video upload",
+      "Chapter Markers: Automatic timestamps and chapter creation",
+      "SEO Scoring: Rate your video optimization before publishing"
+    ],
+    howToUse: {
+      title: "How to Use Taja Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload or Connect", description: "Connect your YouTube channel or paste your video transcript for Taja to analyze and optimize." },
+        { title: "Generate Your Metadata", description: "Get AI-written titles, descriptions, tags, and chapter markers optimized for YouTube search in seconds." },
+        { title: "Review and Adjust", description: "Check your generated metadata, make any personal adjustments, and confirm it matches your video content." },
+        { title: "Apply and Publish", description: "Copy your optimized metadata into YouTube Studio and publish your video with full SEO coverage." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Metadata Generation", description: "Produces every piece of YouTube metadata including title, description, tags, and chapters in one workflow." },
+      { title: "SEO Optimization", description: "Writes metadata using YouTube SEO best practices and keyword targeting to maximize search discoverability." },
+      { title: "Chapter Automation", description: "Creates accurate timestamp chapters from your video content to improve viewer navigation and retention." }
+    ],
+    useCases: [
+      { title: "YouTube Creators", description: "Save hours of metadata work per video while improving your search rankings with AI-optimized content." },
+      { title: "High-Volume Uploaders", description: "Process metadata for multiple videos quickly to maintain a consistent upload schedule without bottlenecks." },
+      { title: "SEO-Focused Channels", description: "Maximize every video's search potential with comprehensive AI-generated metadata from the very first upload." }
+    ]
+  },
+  "tagifynow-com": {
+    whatIs: "TagifyNow.com is a free AI tag generator for YouTube that creates optimized keyword tags for any video to improve search rankings and help creators reach more viewers organically.",
+    features: [
+      "Instant Tag Generation: Relevant YouTube tags from your video topic",
+      "SEO Focused: Tags selected for search ranking potential",
+      "Free to Use: Generate tags without payment or account creation",
+      "Copy in One Click: Instantly copy all generated tags together",
+      "Broad and Specific Mix: Balanced tag sets for maximum coverage"
+    ],
+    howToUse: {
+      title: "How to Use Tagifynow Com",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Video Topic", description: "Type your video title or main topic to give the AI context for generating relevant tags." },
+        { title: "Generate Your Tags", description: "Get an instant list of optimized YouTube tags covering both broad and specific keyword variations." },
+        { title: "Review and Select", description: "Check the generated tags and remove any that are not relevant to your specific video content." },
+        { title: "Copy and Apply", description: "Copy your chosen tags in one click and paste them directly into your YouTube video tag field." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Instant Generation", description: "Produces a complete set of relevant YouTube tags in seconds from a simple topic or title input." },
+      { title: "SEO Balance", description: "Creates a mix of broad high-volume tags and specific niche tags for comprehensive search coverage." },
+      { title: "Zero Friction Access", description: "Requires no account creation or payment making it the fastest way to get YouTube tags for any video." }
+    ],
+    useCases: [
+      { title: "YouTube Creators", description: "Improve your video search rankings with a complete optimized tag set generated in seconds for every upload." },
+      { title: "New YouTubers", description: "Start every video with proper SEO tags from day one without spending hours researching keywords manually." },
+      { title: "Busy Creators", description: "Get your tags done in seconds and focus your remaining time on creating better video content." }
+    ]
+  },
+  "tagistaan": {
+    whatIs: "Tagistaan is a YouTube tag and keyword research tool that helps creators find the most effective tags for their videos to improve discoverability and organic search performance on the platform.",
+    features: [
+      "Tag Research: Find high-performing tags for any YouTube topic",
+      "Keyword Analysis: Evaluate search volume and competition data",
+      "Tag Suggestions: Related tag recommendations for every search",
+      "Competitor Tags: See which tags top-ranking videos are using",
+      "Bulk Tag Copy: Copy all recommended tags with a single click"
+    ],
+    howToUse: {
+      title: "How to Use Tagistaan",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Topic", description: "Enter your video topic or title to get a comprehensive list of relevant tag suggestions with data." },
+        { title: "Analyze Tag Performance", description: "Review search volume, competition level, and relevance scores for each suggested tag option." },
+        { title: "Check Competitor Tags", description: "Look up high-ranking videos in your niche to see which tags are driving their search performance." },
+        { title: "Copy and Apply", description: "Select your best tags and copy them to paste directly into your YouTube video upload settings." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data-Driven Tags", description: "Provides search volume and competition metrics for tags so creators make informed keyword decisions." },
+      { title: "Competitor Tag Analysis", description: "Reveals the exact tags used by top-performing videos in any niche for strategic tag inspiration." },
+      { title: "Comprehensive Coverage", description: "Generates both primary and secondary tag suggestions to maximize your video's search discoverability." }
+    ],
+    useCases: [
+      { title: "YouTube SEO Focused Creators", description: "Build smarter tag strategies based on real keyword data rather than guessing what terms might work." },
+      { title: "Competitive Niches", description: "Find the specific tags that top-ranking channels use and incorporate them into your own video strategy." },
+      { title: "Research-Oriented Creators", description: "Make data-backed tagging decisions that consistently improve your videos' search visibility over time." }
+    ]
+  },
+  "free-ai-tags-generator-youtube": {
+    whatIs: "Free AI Tags Generator for YouTube is a no-cost tool that instantly creates relevant, optimized keyword tags for YouTube videos to help creators improve their search rankings without any technical knowledge.",
+    features: [
+      "Free Tag Generation: Complete YouTube tag sets at no cost",
+      "Instant Results: Tags ready in seconds from any topic input",
+      "SEO Optimized: Tags chosen for YouTube search performance",
+      "No Signup Required: Generate tags without creating an account",
+      "Easy Copy: One-click copying of your complete tag set"
+    ],
+    howToUse: {
+      title: "How to Use Free Ai Tags Generator Youtube",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Type Your Video Topic", description: "Enter your video title or describe your content to get contextually relevant tag suggestions instantly." },
+        { title: "Get Your Tags", description: "Receive a complete set of AI-generated YouTube tags optimized for search discovery immediately." },
+        { title: "Review Your Tags", description: "Check that all suggested tags are relevant to your specific video before applying them." },
+        { title: "Copy and Paste", description: "Copy your tag set with one click and paste directly into the YouTube video upload tag field." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Zero Cost Access", description: "Provides complete YouTube tag generation completely free with no subscription or payment required ever." },
+      { title: "No Account Needed", description: "Works immediately without registration making it the fastest path to YouTube tags for any creator." },
+      { title: "SEO Relevance", description: "Generates tags that are relevant to your content and optimized for YouTube's search algorithm preferences." }
+    ],
+    useCases: [
+      { title: "Budget Creators", description: "Get professional-quality YouTube tag optimization without paying for expensive SEO tools or subscriptions." },
+      { title: "Occasional Uploaders", description: "Access tag generation on demand without committing to a monthly subscription for occasional video uploads." },
+      { title: "New YouTubers", description: "Start with proper SEO tagging from your very first video upload without any upfront tool investment." }
+    ]
+  },
+  "vidchapter": {
+    whatIs: "VidChapter is an AI tool that automatically generates YouTube chapter timestamps and descriptions from your video content, improving viewer experience and boosting your video's search performance.",
+    features: [
+      "Auto Chapter Generation: Timestamps created from video content automatically",
+      "Description Writing: Chapter titles and descriptions for every segment",
+      "SEO Enhancement: Chapters that improve search visibility and ranking",
+      "Time Saving: Eliminate manual timestamp creation entirely",
+      "YouTube Formatting: Output ready to paste directly into descriptions"
+    ],
+    howToUse: {
+      title: "How to Use Vidchapter",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload or Link Your Video", description: "Submit your video file or YouTube URL for VidChapter to analyze and process the content." },
+        { title: "AI Generates Chapters", description: "The AI watches and analyzes your video to identify natural content breaks and chapter points." },
+        { title: "Review Your Chapters", description: "Check the generated timestamps and chapter titles to ensure they accurately represent each segment." },
+        { title: "Copy and Apply", description: "Paste your formatted chapters directly into your YouTube video description and publish." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Detection", description: "Identifies natural content transitions in your video to place chapter breaks at the most logical points." },
+      { title: "SEO-Friendly Titles", description: "Writes chapter titles using relevant keywords that improve your video's discoverability in YouTube search." },
+      { title: "Ready-to-Use Format", description: "Outputs chapters in the exact format YouTube requires so you can paste directly without reformatting." }
+    ],
+    useCases: [
+      { title: "Long-Form YouTubers", description: "Add professional chapters to every long video to improve viewer navigation and reduce drop-off rates." },
+      { title: "Educational Creators", description: "Help students navigate tutorial and lesson videos easily with clearly labeled chapter sections." },
+      { title: "SEO-Focused Channels", description: "Use AI-generated keyword-rich chapter titles to improve your video's search performance automatically." }
+    ]
+  },
   "atyou": {
     whatIs: "AtYou is an AI social media mention and engagement tracking tool that monitors when your brand, name, or keywords are mentioned across social platforms so you never miss an important conversation.",
     features: [
