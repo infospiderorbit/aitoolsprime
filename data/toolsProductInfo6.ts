@@ -1,4 +1,304 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "grabjobs": {
+    whatIs: "GrabJobs is an AI-powered job platform that automates hiring by matching candidates with relevant jobs, conducting automated interviews, and helping employers fill roles faster with less manual effort.",
+    features: [
+      "AI Job Matching: Connect candidates with relevant opportunities",
+      "Automated Interviews: Chatbot screening interviews for applicants",
+      "Job Board: Thousands of live job listings across industries",
+      "Fast Hiring: Reduce time to hire with automated screening",
+      "Mobile Friendly: Apply and hire from any device easily"
+    ],
+    howToUse: {
+      title: "How to Use Grabjobs",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Profile", description: "Sign up and build your candidate profile with your skills, experience, and job preferences for accurate matching." },
+        { title: "Browse Matched Jobs", description: "Review AI-recommended job listings that align with your background and career goals specifically." },
+        { title: "Complete Screening", description: "Participate in the automated chatbot interview to move forward in the application process quickly." },
+        { title: "Get Hired Faster", description: "Connect directly with employers who have reviewed your automated interview and want to proceed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated Screening", description: "Conducts initial candidate interviews automatically through chatbot technology saving recruiters significant time." },
+      { title: "AI Matching Engine", description: "Connects candidates with the most relevant opportunities based on skills, experience, and preferences." },
+      { title: "Speed Optimization", description: "Reduces hiring timelines dramatically by automating early-stage screening and candidate qualification steps." }
+    ],
+    useCases: [
+      { title: "Job Seekers", description: "Find relevant opportunities faster and move through application processes more quickly with automated screening." },
+      { title: "SME Employers", description: "Fill roles faster without large HR teams by automating initial candidate screening and qualification." },
+      { title: "Recruitment Teams", description: "Handle higher application volumes efficiently with AI automation handling first-round candidate assessment." }
+    ]
+  },
+  "palmyst": {
+    whatIs: "Palmyst is an AI personal development and self-reflection tool that helps users journal, track their growth, set meaningful goals, and gain deeper self-awareness through guided AI conversations and insights.",
+    features: [
+      "AI Journaling: Guided reflection prompts and conversation",
+      "Goal Tracking: Set and monitor personal development goals",
+      "Self-Insight: AI patterns and observations about your entries",
+      "Mood Tracking: Monitor emotional patterns over time",
+      "Growth Reports: Regular summaries of your personal progress"
+    ],
+    howToUse: {
+      title: "How to Use Palmyst",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Journal", description: "Open Palmyst and begin your first journal entry with AI-guided reflection prompts tailored to you." },
+        { title: "Set Your Goals", description: "Define your personal development goals and let Palmyst help you break them into actionable steps." },
+        { title: "Journal Consistently", description: "Build a daily or weekly journaling habit with AI prompts that keep your reflection meaningful and deep." },
+        { title: "Review Your Growth", description: "Read your AI-generated insights and progress reports to understand your development patterns over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Guided Reflection", description: "Provides thoughtful personalized prompts that guide users toward deeper and more meaningful self-reflection." },
+      { title: "Pattern Recognition", description: "Identifies recurring themes, emotions, and patterns across your journal entries to surface meaningful insights." },
+      { title: "Progress Visualization", description: "Tracks your personal development journey over time with reports that make growth visible and motivating." }
+    ],
+    useCases: [
+      { title: "Personal Development Seekers", description: "Build a meaningful self-reflection practice with AI guidance that makes journaling more insightful and consistent." },
+      { title: "Goal-Oriented Individuals", description: "Track progress toward personal goals with a tool that keeps you accountable and reflective simultaneously." },
+      { title: "Mental Wellness Practitioners", description: "Supplement therapy or coaching with a daily AI journaling practice that deepens self-awareness steadily." }
+    ]
+  },
+  "okra-ai": {
+    whatIs: "OKRA.ai is an AI-powered OKR and goal management platform that helps teams set meaningful objectives, track key results, and align their work to company strategy with intelligent progress monitoring.",
+    features: [
+      "OKR Management: Set and track objectives and key results",
+      "AI Suggestions: Smart recommendations for goal setting",
+      "Team Alignment: Connect individual goals to company strategy",
+      "Progress Tracking: Monitor key result completion in real time",
+      "Performance Insights: Analytics on goal achievement patterns"
+    ],
+    howToUse: {
+      title: "How to Use Okra Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Your Objectives", description: "Define your team and company objectives using OKRA's structured framework with AI guidance on goal quality." },
+        { title: "Define Key Results", description: "Break each objective into measurable key results with clear metrics that define success." },
+        { title: "Track Progress", description: "Update key result progress regularly and monitor how your team is tracking toward each objective." },
+        { title: "Review and Adjust", description: "Use the analytics dashboard to review performance patterns and adjust goals for the next planning cycle." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Goal Quality", description: "Evaluates the quality of objectives and key results and suggests improvements to make goals more effective." },
+      { title: "Strategy Alignment", description: "Maps individual and team goals to company-level objectives for clear visibility of strategic alignment." },
+      { title: "Progress Intelligence", description: "Monitors goal completion trends and surfaces insights about what is on track and what needs attention." }
+    ],
+    useCases: [
+      { title: "Leadership Teams", description: "Align the entire organization around strategic objectives with visibility into how every team contributes." },
+      { title: "HR and People Teams", description: "Run structured goal-setting cycles that connect employee performance to company strategy meaningfully." },
+      { title: "Startups", description: "Implement a professional OKR framework from early stages to build a goal-oriented culture that scales." }
+    ]
+  },
+  "epictopia": {
+    whatIs: "EpicTopia is an AI gamified productivity and habit-building platform that turns your daily tasks and goals into an engaging game with rewards, achievements, and progress tracking to keep you motivated.",
+    features: [
+      "Gamified Tasks: Turn your to-do list into a rewarding game",
+      "Habit Building: Build and track positive habits with game mechanics",
+      "Achievement System: Earn rewards and badges for completing goals",
+      "Progress Visualization: See your growth in engaging visual formats",
+      "Motivation Engine: Stay engaged through game-like incentives"
+    ],
+    howToUse: {
+      title: "How to Use Epictopia",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Character", description: "Create your EpicTopia profile and define the habits and goals you want to build into your daily life." },
+        { title: "Add Your Quests", description: "Enter your tasks and habits as quests and challenges within the gamified interface." },
+        { title: "Complete Daily Quests", description: "Work through your tasks each day and earn experience points and rewards for every completion." },
+        { title: "Level Up and Grow", description: "Watch your character grow and unlock achievements as you build consistency and reach your goals." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Game Mechanics", description: "Applies proven game design principles like experience points, levels, and achievements to real-world productivity." },
+      { title: "Habit Consistency", description: "Makes building new habits more engaging and sustainable through the motivating power of game-like rewards." },
+      { title: "Visual Progress", description: "Shows personal growth in visually engaging formats that make progress feel tangible and rewarding." }
+    ],
+    useCases: [
+      { title: "Habit Builders", description: "Make the hard work of building new habits more enjoyable and sustainable through game-like motivation." },
+      { title: "Students", description: "Turn studying and assignment completion into a rewarding game that makes productivity more engaging daily." },
+      { title: "Productivity Enthusiasts", description: "Combine effective task management with the motivational power of game mechanics for better follow-through." }
+    ]
+  },
+  "fix-my-life-ai": {
+    whatIs: "Fix My Life AI is a personal coaching and life organization tool that uses AI to help users identify challenges, create action plans, and make meaningful improvements across different areas of their life.",
+    features: [
+      "Life Assessment: AI evaluation of different life areas",
+      "Action Planning: Personalized steps to improve your situation",
+      "Goal Setting: Clear achievable goals for life improvement",
+      "Progress Coaching: Ongoing guidance as you work toward goals",
+      "Holistic Approach: Covers career, relationships, health, and more"
+    ],
+    howToUse: {
+      title: "How to Use Fix My Life Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Share Your Situation", description: "Describe the areas of your life you want to improve and the specific challenges you are facing currently." },
+        { title: "Get Your Assessment", description: "Receive an AI analysis of your situation with honest observations and prioritized improvement areas." },
+        { title: "Build Your Plan", description: "Work with the AI to create a realistic action plan with specific steps toward your most important goals." },
+        { title: "Follow Through", description: "Implement your plan with ongoing AI coaching that keeps you accountable and adjusts guidance as you progress." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Life Area Coverage", description: "Addresses multiple life domains including career, relationships, health, finances, and personal growth holistically." },
+      { title: "Actionable Planning", description: "Produces specific concrete action steps rather than generic advice making improvement immediately actionable." },
+      { title: "Ongoing Coaching", description: "Provides continued guidance and accountability as you implement your plan and encounter new challenges." }
+    ],
+    useCases: [
+      { title: "People Feeling Stuck", description: "Get clear direction and a concrete plan when you know something needs to change but are unsure where to start." },
+      { title: "Goal Setters", description: "Translate broad life improvement desires into specific achievable action plans with AI coaching support." },
+      { title: "Life Transition Navigators", description: "Get guidance during major life changes like career shifts, relocations, or relationship transitions effectively." }
+    ]
+  },
+  "ikigai-quest": {
+    whatIs: "Ikigai Quest is an AI-powered self-discovery tool that guides users through the Japanese Ikigai framework to find their purpose by identifying the intersection of passion, mission, vocation, and profession.",
+    features: [
+      "Ikigai Framework: Guided journey through all four Ikigai elements",
+      "AI Reflection: Personalized questions to uncover your purpose",
+      "Purpose Mapping: Visual map of your Ikigai intersections",
+      "Career Alignment: Connect your Ikigai to career possibilities",
+      "Ongoing Discovery: Continue refining your purpose over time"
+    ],
+    howToUse: {
+      title: "How to Use Ikigai Quest",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Journey", description: "Begin the guided Ikigai Quest and answer thoughtful AI questions about your values, skills, and interests." },
+        { title: "Explore Each Element", description: "Work through what you love, what you are good at, what the world needs, and what you can be paid for." },
+        { title: "Find Your Intersections", description: "See your answers mapped visually to identify where the four Ikigai elements overlap for you personally." },
+        { title: "Discover Your Ikigai", description: "Receive your personalized Ikigai summary and explore how it connects to career paths and life direction." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Framework Guidance", description: "Structures the self-discovery process around the proven Ikigai methodology with AI-powered personalization." },
+      { title: "Reflective Questions", description: "Asks thoughtful probing questions that help users uncover genuine answers rather than surface-level responses." },
+      { title: "Visual Purpose Map", description: "Creates a clear visual representation of your Ikigai showing where your unique purpose intersection lies." }
+    ],
+    useCases: [
+      { title: "Career Explorers", description: "Find career paths that align with your genuine purpose rather than just following external expectations or trends." },
+      { title: "Life Transition Seekers", description: "Rediscover your direction during periods of change using a structured framework for purpose exploration." },
+      { title: "Personal Growth Practitioners", description: "Deepen your self-knowledge and clarify your life purpose through a meaningful guided reflection experience." }
+    ]
+  },
+  "otter-ai": {
+    whatIs: "Otter.ai is an AI meeting assistant that automatically transcribes conversations, identifies speakers, generates meeting summaries, and captures action items so teams can focus on discussions rather than note-taking.",
+    features: [
+      "Live Transcription: Real-time speech to text during meetings",
+      "Speaker Identification: Labels who said what throughout the call",
+      "Meeting Summaries: AI-generated summaries of key discussion points",
+      "Action Items: Automatic capture of tasks and next steps",
+      "Calendar Integration: Joins your meetings automatically"
+    ],
+    howToUse: {
+      title: "How to Use Otter Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Calendar", description: "Link Otter.ai to your Google or Outlook calendar so it joins your meetings automatically without manual setup." },
+        { title: "Start Your Meeting", description: "Begin your meeting and let Otter transcribe every word in real time with speaker identification." },
+        { title: "Review Your Summary", description: "After the meeting read the AI-generated summary and captured action items without reviewing the full transcript." },
+        { title: "Share With Team", description: "Send the meeting notes and action items to participants so everyone has the same record immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Transcription", description: "Captures every word spoken during meetings in real time with high accuracy across different accents and voices." },
+      { title: "Speaker Diarization", description: "Labels each part of the transcript with the correct speaker name for easy reference and accountability." },
+      { title: "Automatic Summarization", description: "Produces concise meeting summaries highlighting key decisions and action items without reading full transcripts." }
+    ],
+    useCases: [
+      { title: "Remote Teams", description: "Ensure every team member has access to accurate meeting records regardless of their time zone or attendance." },
+      { title: "Managers", description: "Capture action items and decisions automatically so nothing falls through the cracks after important meetings." },
+      { title: "Sales Teams", description: "Transcribe client calls automatically and review key moments and commitments without rewatching recordings." }
+    ]
+  },
+  "tactiq": {
+    whatIs: "Tactiq is an AI meeting transcription and note-taking tool that captures live transcripts from Google Meet, Zoom, and Teams and generates AI summaries and action items directly in your browser.",
+    features: [
+      "Live Transcripts: Real-time transcription for video calls",
+      "AI Summaries: Meeting summaries generated automatically after calls",
+      "Action Item Extraction: Key tasks identified from meeting content",
+      "Browser Extension: Works directly within your video call platform",
+      "Multi-Platform: Supports Google Meet, Zoom, and Microsoft Teams"
+    ],
+    howToUse: {
+      title: "How to Use Tactiq",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Tactiq", description: "Add the Tactiq browser extension to Chrome and connect it to your video conferencing accounts." },
+        { title: "Join Your Meeting", description: "Start or join your video call and Tactiq automatically begins transcribing the conversation in real time." },
+        { title: "Review During Call", description: "See the live transcript appearing in your browser as the meeting progresses for real-time reference." },
+        { title: "Get Your Summary", description: "After the call receive your AI-generated summary and action items ready to share with participants." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser Integration", description: "Works directly within your video call interface without switching tabs or running separate applications." },
+      { title: "Multi-Platform Support", description: "Transcribes meetings across Google Meet, Zoom, and Microsoft Teams from one consistent browser extension." },
+      { title: "Post-Call Intelligence", description: "Generates summaries and extracts action items automatically the moment your meeting ends." }
+    ],
+    useCases: [
+      { title: "Knowledge Workers", description: "Capture every meeting's content accurately without distraction so you can focus on the actual conversation." },
+      { title: "Project Managers", description: "Extract action items and decisions from every meeting automatically to keep projects moving forward." },
+      { title: "Consultants", description: "Maintain accurate records of client meetings and extract key commitments without manual note-taking effort." }
+    ]
+  },
+  "read-ai": {
+    whatIs: "Read AI is an AI meeting assistant that analyzes your meetings in real time to provide transcripts, summaries, engagement scores, and speaker insights that help teams run more effective meetings.",
+    features: [
+      "Meeting Transcription: Accurate real-time meeting transcripts",
+      "Engagement Scoring: AI measures participant engagement levels",
+      "Speaker Analytics: Insights on talk time and participation",
+      "AI Summaries: Concise post-meeting summaries automatically",
+      "Meeting Effectiveness: Data on how well your meetings run"
+    ],
+    howToUse: {
+      title: "How to Use Read Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Meetings", description: "Link Read AI to your calendar and video conferencing tools for automatic meeting analysis." },
+        { title: "Run Your Meeting", description: "Conduct your meeting normally while Read AI transcribes and analyzes engagement in real time." },
+        { title: "Review Analytics", description: "After the meeting review engagement scores, speaker analytics, and participation data for your team." },
+        { title: "Get Your Summary", description: "Read your AI-generated meeting summary and action items ready to share with all participants immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Engagement Intelligence", description: "Measures participant engagement levels throughout meetings to identify when attention drops or spikes." },
+      { title: "Speaker Analytics", description: "Tracks talk time distribution across participants to ensure balanced contribution in team meetings." },
+      { title: "Meeting Quality Data", description: "Provides objective data on meeting effectiveness helping teams continuously improve how they run discussions." }
+    ],
+    useCases: [
+      { title: "Team Leaders", description: "Understand how effectively your team meetings run and make data-backed improvements to meeting culture." },
+      { title: "HR Teams", description: "Use engagement and participation data to ensure all voices are heard in team and company meetings." },
+      { title: "Remote Teams", description: "Monitor and improve the quality and inclusivity of distributed team meetings with objective analytics." }
+    ]
+  },
+  "fireflies-ai": {
+    whatIs: "Fireflies.ai is an AI meeting assistant that automatically records, transcribes, and analyzes your meetings across video platforms, creating searchable notes and enabling teams to find any moment from past calls instantly.",
+    features: [
+      "Auto Recording: Join and record meetings automatically",
+      "Full Transcription: Complete accurate meeting transcripts",
+      "Smart Search: Find any moment from any past meeting",
+      "AI Summaries: Key points and action items after every call",
+      "CRM Integration: Push meeting notes to Salesforce and HubSpot"
+    ],
+    howToUse: {
+      title: "How to Use Fireflies Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Fireflies", description: "Link Fireflies.ai to your calendar and video conferencing tools for fully automatic meeting capture." },
+        { title: "Let It Join Automatically", description: "Fireflies joins your meetings as a participant and records and transcribes the full conversation." },
+        { title: "Search Past Meetings", description: "Use smart search to find specific topics, decisions, or quotes from any meeting in your history instantly." },
+        { title: "Sync to Your CRM", description: "Push meeting summaries and action items directly to your CRM to keep customer records always updated." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Universal Search", description: "Makes every past meeting fully searchable so teams can find specific moments and decisions in seconds." },
+      { title: "Automatic Participation", description: "Joins meetings as an AI participant without requiring hosts to manually start recording each time." },
+      { title: "CRM Synchronization", description: "Pushes meeting intelligence directly into sales CRMs keeping customer interaction records accurate and current." }
+    ],
+    useCases: [
+      { title: "Sales Teams", description: "Capture every client call automatically and sync notes to your CRM without manual data entry after meetings." },
+      { title: "Customer Success Teams", description: "Search past customer conversations instantly to recall commitments, feedback, and relationship history." },
+      { title: "Remote Organizations", description: "Build a searchable institutional memory of all meetings so knowledge is never lost when team members leave." }
+    ]
+  },
   "riffo": {
     whatIs: "Riffo is an AI resume screening and recruitment tool that helps hiring teams automatically filter, rank, and shortlist candidates from large applicant pools based on job requirements and qualifications.",
     features: [
