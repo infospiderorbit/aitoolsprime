@@ -1,4 +1,304 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "jobright": {
+    whatIs: "Jobright is an AI-powered job search platform that matches candidates with relevant job opportunities, provides resume optimization, and offers personalized career guidance to accelerate the job hunting process.",
+    features: [
+      "AI Job Matching: Find relevant jobs based on your skills and experience",
+      "Resume Optimization: AI feedback to improve your resume instantly",
+      "Application Tracking: Monitor all your job applications in one place",
+      "Company Insights: Research companies before applying or interviewing",
+      "Career Guidance: Personalized advice for your job search strategy"
+    ],
+    howToUse: {
+      title: "How to Use Jobright",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Profile", description: "Enter your skills, experience, and job preferences so Jobright can match you with relevant opportunities." },
+        { title: "Browse Matched Jobs", description: "Review AI-curated job listings that align with your background and career goals specifically." },
+        { title: "Optimize Your Resume", description: "Get AI feedback on your resume and implement suggestions to improve your chances of getting interviews." },
+        { title: "Track Your Applications", description: "Log every application you submit and monitor status updates from one organized dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Intelligent Matching", description: "Analyzes your full profile to surface job opportunities that genuinely fit your skills and experience level." },
+      { title: "Resume Intelligence", description: "Provides specific actionable feedback on your resume to improve both ATS compatibility and human appeal." },
+      { title: "Application Management", description: "Centralizes your entire job search with tracking tools that prevent applications from falling through the cracks." }
+    ],
+    useCases: [
+      { title: "Active Job Seekers", description: "Find better-matched opportunities faster and stay organized across a high-volume job search process." },
+      { title: "Career Changers", description: "Get guidance on transitioning to a new field with AI that identifies transferable skills and relevant roles." },
+      { title: "Recent Graduates", description: "Navigate your first serious job search with AI matching and resume help that levels the playing field." }
+    ]
+  },
+  "aura": {
+    whatIs: "Aura is a personal cybersecurity and identity protection platform that monitors your personal information across the web, alerts you to threats, and helps you stay safe from identity theft and online fraud.",
+    features: [
+      "Identity Monitoring: Track your personal info across the dark web",
+      "Fraud Alerts: Get notified of suspicious financial activity fast",
+      "VPN Protection: Secure your internet connection on any network",
+      "Password Manager: Store and generate strong passwords safely",
+      "Credit Monitoring: Watch your credit score and report changes"
+    ],
+    howToUse: {
+      title: "How to Use Aura",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Account", description: "Create your Aura account and enter your personal information for monitoring across data sources." },
+        { title: "Connect Financial Accounts", description: "Link your bank and credit accounts to enable fraud detection and financial monitoring alerts." },
+        { title: "Enable VPN", description: "Turn on Aura's VPN whenever you use public or untrusted networks to protect your connection." },
+        { title: "Review Your Alerts", description: "Check your dashboard regularly and respond quickly to any identity or financial threat alerts." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Dark Web Monitoring", description: "Continuously scans dark web sources for your personal information and alerts you immediately if found." },
+      { title: "Real-Time Fraud Detection", description: "Monitors financial accounts for suspicious transactions and sends instant alerts for unauthorized activity." },
+      { title: "Comprehensive Protection", description: "Combines identity monitoring, VPN, password management, and credit monitoring in one integrated platform." }
+    ],
+    useCases: [
+      { title: "Privacy-Conscious Individuals", description: "Protect your personal information proactively rather than waiting to discover identity theft after it happens." },
+      { title: "Families", description: "Monitor identity protection for every family member from one account with individual alerts and coverage." },
+      { title: "Frequent Travelers", description: "Stay protected on public WiFi networks abroad with VPN and maintain identity monitoring from anywhere." }
+    ]
+  },
+  "hix-ai": {
+    whatIs: "HIX.AI is a comprehensive AI writing platform that provides over 120 AI writing tools for content creation, including a long-form editor, browser extension, email writer, and specialized tools for every writing need.",
+    features: [
+      "120+ Writing Tools: Specialized AI tools for every content type",
+      "Long-Form Editor: Write full articles and blog posts with AI",
+      "Browser Extension: AI writing assistance on any website",
+      "Email Writer: Professional emails drafted in seconds",
+      "SEO Optimization: Content written to rank in search engines"
+    ],
+    howToUse: {
+      title: "How to Use Hix Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Browse HIX.AI's library of 120+ writing tools and select the one that matches your specific content need." },
+        { title: "Enter Your Details", description: "Provide the topic, keywords, tone, and any specific requirements for your content piece." },
+        { title: "Generate Your Content", description: "Let the AI produce your content and review the initial output for quality and accuracy." },
+        { title: "Refine and Publish", description: "Edit the generated content to add your personal touch and publish across your chosen channels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Tool Breadth", description: "Covers every writing format from social media posts to long-form articles with purpose-built specialized tools." },
+      { title: "SEO Integration", description: "Writes content with search engine optimization built in from the start rather than as an afterthought." },
+      { title: "Browser Extension", description: "Brings AI writing assistance to every website you visit so you can write better everywhere online." }
+    ],
+    useCases: [
+      { title: "Content Marketers", description: "Produce high volumes of SEO-optimized content across multiple formats without proportionally scaling your team." },
+      { title: "Bloggers", description: "Write full articles faster with AI assistance that handles research summaries, outlines, and drafts efficiently." },
+      { title: "Business Professionals", description: "Handle all professional writing needs from emails to reports with specialized AI tools for every format." }
+    ]
+  },
+  "final-round-ai": {
+    whatIs: "Final Round AI is an interview preparation and real-time assistance platform that helps job candidates practice interviews, get AI coaching, and receive live support during actual interview sessions.",
+    features: [
+      "Interview Practice: Realistic mock interviews with AI feedback",
+      "Real-Time Assistance: Live AI support during actual interviews",
+      "Question Bank: Thousands of role-specific interview questions",
+      "Answer Coaching: AI feedback on your responses and delivery",
+      "Industry Specific: Preparation tailored to your target role"
+    ],
+    howToUse: {
+      title: "How to Use Final Round Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Enter your target role, industry, and experience level so Final Round AI personalizes your preparation." },
+        { title: "Practice Mock Interviews", description: "Run through realistic interview simulations and receive detailed AI feedback on your answers." },
+        { title: "Review Your Performance", description: "Analyze your mock interview results to identify weak areas and improve your responses systematically." },
+        { title: "Use Real-Time Support", description: "During actual interviews, use the discreet real-time assistance feature for live answer suggestions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Realistic Simulation", description: "Conducts mock interviews that closely mirror real interview dynamics for genuine preparation experience." },
+      { title: "Personalized Feedback", description: "Provides specific constructive feedback on answer content, structure, and delivery for targeted improvement." },
+      { title: "Real-Time Assistance", description: "Offers live support during actual interviews helping candidates recall key points and structure answers clearly." }
+    ],
+    useCases: [
+      { title: "Job Seekers", description: "Build interview confidence through extensive practice and go into real interviews better prepared than ever." },
+      { title: "Career Changers", description: "Prepare thoroughly for interviews in a new industry with role-specific questions and tailored coaching." },
+      { title: "Anxious Interviewees", description: "Reduce interview anxiety through repeated practice and real-time support that builds genuine confidence." }
+    ]
+  },
+  "monica": {
+    whatIs: "Monica is an AI personal assistant browser extension powered by GPT-4 that provides chat, writing, translation, summarization, and search assistance directly within your browser on any website.",
+    features: [
+      "Universal AI Chat: GPT-4 powered assistant in your browser",
+      "Page Summarization: Summarize any webpage instantly",
+      "Writing Assistant: Improve and generate text on any site",
+      "Translation: Translate content in real time across languages",
+      "Search Enhancement: AI answers alongside search results"
+    ],
+    howToUse: {
+      title: "How to Use Monica",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Monica", description: "Add the Monica extension to your Chrome browser from the Web Store with one click." },
+        { title: "Activate Anywhere", description: "Press your shortcut key to open Monica on any webpage, Google search, or within any text field." },
+        { title: "Ask or Summarize", description: "Chat with the AI, summarize the current page, or get writing help without switching tabs at all." },
+        { title: "Use Daily", description: "Incorporate Monica into your regular browsing workflow for consistent AI assistance throughout your day." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser-Native AI", description: "Provides powerful AI assistance directly within your browser without interrupting your workflow or switching tabs." },
+      { title: "Page Intelligence", description: "Reads and summarizes the current webpage so you understand content faster without reading everything fully." },
+      { title: "Universal Writing Help", description: "Assists with writing in any text field across any website making AI writing support universally accessible." }
+    ],
+    useCases: [
+      { title: "Knowledge Workers", description: "Get AI assistance for research, writing, and summarization without ever leaving your browser workflow." },
+      { title: "Students", description: "Summarize academic content, get writing help, and translate materials directly while studying online." },
+      { title: "Professionals", description: "Handle emails, documents, and research more efficiently with AI assistance embedded in your daily browsing." }
+    ]
+  },
+  "eraser": {
+    whatIs: "Eraser is a collaborative technical diagramming and documentation tool designed for engineering teams that combines diagrams, code, and notes in one workspace for faster and clearer technical communication.",
+    features: [
+      "Technical Diagrams: Create system and architecture diagrams quickly",
+      "Code Integration: Embed code snippets alongside your diagrams",
+      "AI Generation: Generate diagrams from text descriptions with AI",
+      "Real-Time Collaboration: Work with engineering teams simultaneously",
+      "Documentation Hub: Combine diagrams and written docs in one place"
+    ],
+    howToUse: {
+      title: "How to Use Eraser",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Workspace", description: "Set up an Eraser workspace and invite your engineering team members to collaborate." },
+        { title: "Build Your Diagram", description: "Use the diagram tools or AI generation to create your system architecture or technical flow diagram." },
+        { title: "Add Code and Notes", description: "Embed relevant code snippets and written documentation alongside your diagrams in the same document." },
+        { title: "Share and Iterate", description: "Share with your team for collaborative editing and keep diagrams updated as your system evolves." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Engineering-Focused Design", description: "Built specifically for technical teams with diagram types and conventions that developers and architects need most." },
+      { title: "AI Diagram Generation", description: "Creates initial diagram structures from text descriptions so engineers start from a relevant framework instantly." },
+      { title: "Code and Diagram Unity", description: "Keeps code snippets and diagrams in the same document eliminating the disconnect between code and architecture docs." }
+    ],
+    useCases: [
+      { title: "Software Engineers", description: "Document system designs and architecture decisions clearly with diagrams that live close to your actual code." },
+      { title: "Engineering Managers", description: "Communicate technical decisions and system designs to stakeholders with clear professional diagrams quickly." },
+      { title: "DevOps Teams", description: "Map infrastructure, deployment pipelines, and system relationships in a format the whole team can edit together." }
+    ]
+  },
+  "whimsical": {
+    whatIs: "Whimsical is a visual workspace for teams that combines flowcharts, wireframes, mind maps, and sticky notes in one collaborative tool for brainstorming, planning, and communicating ideas visually.",
+    features: [
+      "Flowcharts: Create process and decision flow diagrams easily",
+      "Wireframes: Design app and website mockups quickly",
+      "Mind Maps: Brainstorm and organize ideas visually",
+      "Sticky Notes: Collaborative brainstorming on digital boards",
+      "Real-Time Collaboration: Work with your team simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Whimsical",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Canvas", description: "Select a flowchart, wireframe, mind map, or docs canvas based on what you need to create." },
+        { title: "Start Building", description: "Use the intuitive drag-and-drop tools to create your visual with shapes, connections, and text." },
+        { title: "Invite Your Team", description: "Share your workspace link and collaborate with teammates in real time on the same canvas." },
+        { title: "Export and Share", description: "Download your finished visual or share the live link with stakeholders for review and feedback." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Format Workspace", description: "Combines multiple visual thinking formats in one tool so teams never need to switch between specialized apps." },
+      { title: "Intuitive Interface", description: "Provides a clean drag-and-drop experience that makes creating professional visuals fast and frictionless." },
+      { title: "Seamless Collaboration", description: "Enables real-time multi-user editing with live cursors so teams can brainstorm and build together naturally." }
+    ],
+    useCases: [
+      { title: "Product Teams", description: "Wireframe new features, map user flows, and brainstorm product ideas all within one collaborative workspace." },
+      { title: "Designers", description: "Create quick wireframes and user flow diagrams to communicate interface ideas before moving to high-fidelity design." },
+      { title: "Strategy Teams", description: "Map complex business processes, strategic plans, and organizational structures visually for clear communication." }
+    ]
+  },
+  "pestle-recipe-manager": {
+    whatIs: "Pestle is a recipe management app that helps home cooks organize, scale, and access their recipe collection with a clean interface, grocery list generation, and seamless import from any website.",
+    features: [
+      "Recipe Import: Save recipes from any website with one tap",
+      "Smart Scaling: Adjust ingredient quantities for any serving size",
+      "Grocery Lists: Auto-generate shopping lists from selected recipes",
+      "Beautiful Organization: Clean visual recipe collection management",
+      "Offline Access: View recipes without an internet connection"
+    ],
+    howToUse: {
+      title: "How to Use Pestle Recipe Manager",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Recipes", description: "Use the browser extension or share button to save recipes from any cooking website directly into Pestle." },
+        { title: "Organize Your Collection", description: "Browse and search your saved recipes organized in a beautiful clean visual library on any device." },
+        { title: "Scale for Your Needs", description: "Adjust serving sizes and watch all ingredient quantities update automatically for your exact needs." },
+        { title: "Generate Your List", description: "Select the recipes you plan to cook and generate a consolidated grocery shopping list automatically." }
+      ]
+    },
+    coreFeatures: [
+      { title: "One-Tap Import", description: "Saves recipes from any website instantly without manual copying or reformatting of ingredients and instructions." },
+      { title: "Intelligent Scaling", description: "Recalculates every ingredient quantity proportionally when you adjust the number of servings needed." },
+      { title: "Automatic Grocery Lists", description: "Combines ingredients from multiple selected recipes into one consolidated shopping list for efficient grocery trips." }
+    ],
+    useCases: [
+      { title: "Home Cooks", description: "Build a personal recipe collection that is actually organized and accessible when you need it in the kitchen." },
+      { title: "Meal Planners", description: "Select your weekly recipes and generate a complete grocery list without manually compiling ingredients yourself." },
+      { title: "Cooking Enthusiasts", description: "Save recipes from across the web into one beautiful organized library you can access from any device anytime." }
+    ]
+  },
+  "imagetotext-info": {
+    whatIs: "ImageToText.info is a free online OCR tool that extracts text from images, screenshots, and scanned documents accurately using AI-powered optical character recognition technology.",
+    features: [
+      "OCR Technology: Extract text from any image accurately",
+      "Multiple Formats: Works with JPG, PNG, PDF, and more",
+      "Free to Use: Text extraction without payment or signup",
+      "Fast Processing: Text extracted in seconds from any image",
+      "Multi-Language: Recognizes text in multiple languages"
+    ],
+    howToUse: {
+      title: "How to Use Imagetotext Info",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Go to ImageToText.info and upload your image file or paste an image URL for text extraction." },
+        { title: "Process Your Image", description: "Click extract and let the AI OCR technology read and recognize all text in your image accurately." },
+        { title: "Review the Output", description: "Check the extracted text for accuracy and make any minor corrections needed for your use case." },
+        { title: "Copy and Use", description: "Copy your extracted text and paste it into any document, tool, or application you need it in." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accurate OCR Engine", description: "Uses advanced optical character recognition to extract text from images with high accuracy across fonts." },
+      { title: "Format Flexibility", description: "Accepts images in multiple formats including JPG, PNG, and PDF for versatile text extraction use cases." },
+      { title: "Zero-Friction Access", description: "Works immediately without account creation or payment making text extraction instantly available to anyone." }
+    ],
+    useCases: [
+      { title: "Students", description: "Extract text from screenshots of textbooks or lecture slides for easier note-taking and studying." },
+      { title: "Professionals", description: "Convert scanned documents and image-based text into editable digital format for editing and sharing." },
+      { title: "Researchers", description: "Extract text from image-based sources quickly for analysis, citation, and incorporation into written work." }
+    ]
+  },
+  "image-to-text-converter": {
+    whatIs: "Image to Text Converter is an AI-powered OCR tool that converts text within images and photos into editable digital text quickly and accurately for free without requiring any software installation.",
+    features: [
+      "Instant OCR: Convert image text to editable format immediately",
+      "High Accuracy: AI recognition for clear and accurate results",
+      "No Installation: Works entirely in your web browser",
+      "Multiple Languages: Extract text in various languages",
+      "Free Access: Use without payment or account creation"
+    ],
+    howToUse: {
+      title: "How to Use Image To Text Converter",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Image", description: "Upload a photo, screenshot, or scanned document containing the text you want to extract." },
+        { title: "Run Extraction", description: "Click the convert button and let the AI analyze your image and extract all readable text." },
+        { title: "Review Results", description: "Check the extracted text output and verify accuracy before using it in your work." },
+        { title: "Copy Your Text", description: "Select all extracted text and copy it to use in any document, email, or application you need." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser-Based Processing", description: "Runs entirely in your browser without requiring software downloads or installation on your device." },
+      { title: "Multi-Language Recognition", description: "Recognizes and extracts text in multiple languages making it useful for international content and documents." },
+      { title: "Immediate Availability", description: "Provides instant access without signup so you can extract text from images the moment you need to." }
+    ],
+    useCases: [
+      { title: "Office Workers", description: "Convert scanned paperwork and image attachments into editable text without specialized scanning software." },
+      { title: "Content Creators", description: "Extract text from screenshots and images to repurpose content without retyping everything manually." },
+      { title: "General Users", description: "Quickly pull text from any image for any purpose without installing software or creating accounts." }
+    ]
+  },
   "reclaim-ai": {
     whatIs: "Reclaim.ai is an AI calendar management tool that automatically schedules tasks, habits, and meetings into your calendar by finding the best available time slots to protect your focus and productivity.",
     features: [
