@@ -1,4 +1,454 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "headshotpro": {
+    whatIs: "HeadshotPro is an AI headshot generator that creates professional corporate portrait photos from your selfies, delivering polished LinkedIn-ready headshots without a photography studio or session.",
+    features: [
+      "Professional Headshots: Studio-quality portraits from casual selfies",
+      "Corporate Styles: Business-appropriate looks for any industry",
+      "Background Options: Clean professional backgrounds included",
+      "High Resolution Output: Print and web ready image downloads",
+      "Fast Processing: Headshots delivered within hours of upload"
+    ],
+    howToUse: {
+      title: "How to Use Headshotpro",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photos", description: "Submit a set of your selfies in good lighting from multiple angles for the AI to work with." },
+        { title: "Select Your Style", description: "Choose from corporate, business casual, or creative professional headshot styles." },
+        { title: "Receive Your Headshots", description: "Get a full set of AI-generated professional headshots delivered to your account within hours." },
+        { title: "Download and Use", description: "Pick your favorites and download in high resolution for LinkedIn, websites, and professional profiles." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Corporate Quality Output", description: "Produces headshots that meet the professional standards expected in corporate and business environments." },
+      { title: "Style Consistency", description: "Generates multiple headshots with consistent lighting, framing, and background for a cohesive professional look." },
+      { title: "Affordable Alternative", description: "Delivers professional photography quality at a fraction of what a traditional studio session would cost." }
+    ],
+    useCases: [
+      { title: "Corporate Professionals", description: "Update your LinkedIn and company directory photo with a polished headshot without booking a photographer." },
+      { title: "Job Applicants", description: "Make a strong first impression with a professional headshot on your resume and LinkedIn profile." },
+      { title: "Business Teams", description: "Get matching professional headshots for your entire team quickly for your company website and materials." }
+    ]
+  },
+  "instaheadshots": {
+    whatIs: "InstaHeadshots is an AI portrait generator that produces instant professional headshots from selfies, making it easy for anyone to get a polished profile photo without a professional photographer.",
+    features: [
+      "Instant Generation: Professional headshots ready in minutes",
+      "Selfie to Portrait: Transform casual photos into polished headshots",
+      "Multiple Variations: Get several headshot options from one upload",
+      "Clean Backgrounds: Professional background replacement included",
+      "Easy Download: Save your headshots immediately after generation"
+    ],
+    howToUse: {
+      title: "How to Use Instaheadshots",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Selfies", description: "Choose clear well-lit selfies from different angles to give the AI strong reference material." },
+        { title: "Choose Your Look", description: "Select from available professional styles and background options for your headshots." },
+        { title: "Generate Instantly", description: "Let the AI process your photos and generate professional headshot variations within minutes." },
+        { title: "Download Your Best", description: "Review all generated options and download your favorite professional headshots in high resolution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed of Delivery", description: "Generates professional headshot options within minutes rather than requiring days of scheduling and waiting." },
+      { title: "Multiple Outputs", description: "Creates several headshot variations per session so you always have the perfect photo for any context." },
+      { title: "Background Replacement", description: "Automatically replaces casual photo backgrounds with clean professional settings appropriate for business use." }
+    ],
+    useCases: [
+      { title: "Professionals Needing Quick Updates", description: "Refresh your professional headshot fast when you need it for a speaking opportunity or new job application." },
+      { title: "Social Media Users", description: "Upgrade your profile photo across all platforms with a genuinely professional-looking portrait image." },
+      { title: "Freelancers", description: "Present a credible professional image to potential clients on your website and professional profiles." }
+    ]
+  },
+  "ai-suitup": {
+    whatIs: "AI SuitUp is an AI photo tool that virtually dresses you in professional business attire, transforming casual selfies into formal business portraits without needing to own or wear a suit.",
+    features: [
+      "Virtual Suit Try-On: See yourself in professional business attire instantly",
+      "Multiple Styles: Choose from different suit colors and styles",
+      "Professional Portraits: Get business-ready photos from casual selfies",
+      "Gender Inclusive: Options for all professional dress styles",
+      "Instant Preview: See results immediately without waiting"
+    ],
+    howToUse: {
+      title: "How to Use Ai Suitup",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Take or upload a clear photo of yourself with your face and upper body visible." },
+        { title: "Choose Your Attire", description: "Browse available professional outfit options and select the business look you want to wear." },
+        { title: "Generate Your Portrait", description: "Let the AI dress you in your chosen attire and produce a professional-looking business portrait." },
+        { title: "Download and Share", description: "Save your professionally dressed portrait for use on LinkedIn, resumes, and professional profiles." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Virtual Wardrobe", description: "Applies realistic professional business attire to your photo without requiring you to own or wear the clothes." },
+      { title: "Variety of Looks", description: "Offers multiple suit styles, colors, and professional dress options to match different industries and contexts." },
+      { title: "Instant Results", description: "Delivers your professionally dressed portrait immediately so you can use it right away without delay." }
+    ],
+    useCases: [
+      { title: "Students Entering Workforce", description: "Create a professional business portrait for job applications without owning formal business attire yet." },
+      { title: "Remote Workers", description: "Update your professional profile photo to look polished for video calls and company directories." },
+      { title: "International Professionals", description: "Adapt your photo to match professional dress expectations in different business cultures and industries." }
+    ]
+  },
+  "vidnoz-ai": {
+    whatIs: "Vidnoz AI is an AI video creation platform that generates professional talking head videos, animations, and marketing content from text scripts using realistic AI avatars and voices.",
+    features: [
+      "AI Avatars: Choose from hundreds of realistic digital presenters",
+      "Text to Video: Convert scripts into professional talking head videos",
+      "Voice Selection: Multiple AI voice options in many languages",
+      "Custom Branding: Add logos, colors, and brand elements to videos",
+      "Fast Production: Create polished videos in minutes not days"
+    ],
+    howToUse: {
+      title: "How to Use Vidnoz Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Script", description: "Enter the text you want your AI avatar to present in your video content." },
+        { title: "Choose Your Avatar", description: "Select from a diverse library of realistic AI avatars that best represents your brand or message." },
+        { title: "Pick a Voice", description: "Choose an AI voice that matches your content tone and select your preferred language." },
+        { title: "Generate and Download", description: "Create your professional video in minutes and download it ready to publish anywhere." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Realistic Avatar Library", description: "Offers hundreds of diverse realistic AI presenters covering different ages, ethnicities, and professional styles." },
+      { title: "Multilingual Support", description: "Produces professional videos in multiple languages making global content production fast and affordable." },
+      { title: "Brand Customization", description: "Allows adding logos, brand colors, and custom elements so videos align with your visual identity." }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "Produce professional product explainer and promotional videos without expensive video production budgets." },
+      { title: "Online Educators", description: "Create engaging instructional video content at scale without being on camera for every lesson." },
+      { title: "Corporate Communications", description: "Generate consistent professional internal communications and training videos quickly and affordably." }
+    ]
+  },
+  "picstudio-ai": {
+    whatIs: "PicStudio.AI is an AI photo studio that generates professional portraits, headshots, and creative photos in dozens of styles from a simple set of selfie uploads.",
+    features: [
+      "Dozens of Styles: From corporate headshots to artistic portraits",
+      "High Quality Output: Sharp detailed professional photo results",
+      "Fast Generation: Full photo sets ready within hours",
+      "Style Variety: Explore professional, creative, and themed looks",
+      "Bulk Downloads: Get your entire photo set at once"
+    ],
+    howToUse: {
+      title: "How to Use Picstudio Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photos", description: "Submit fifteen to twenty selfies in varied lighting and angles for the AI to train on your likeness." },
+        { title: "Browse Style Packs", description: "Explore available style packs ranging from professional headshots to creative and themed portrait styles." },
+        { title: "Select Your Favorites", description: "Choose the styles you want generated and submit your order for processing." },
+        { title: "Download Your Set", description: "Receive and download your full set of AI-generated professional and creative portraits." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Wide Style Range", description: "Offers an unusually broad range of photo styles from strict corporate headshots to artistic creative portraits." },
+      { title: "Likeness Accuracy", description: "Trains on multiple uploaded photos to produce generated portraits that accurately reflect your appearance." },
+      { title: "Complete Photo Sets", description: "Delivers entire sets of photos across chosen styles rather than single images for maximum versatility." }
+    ],
+    useCases: [
+      { title: "Personal Branding", description: "Get a complete set of professional and creative photos to use across all your online presences at once." },
+      { title: "Content Creators", description: "Build a library of varied professional photos for consistent use across websites, media kits, and socials." },
+      { title: "Professionals", description: "Refresh your professional imagery across multiple contexts with one affordable AI photo studio session." }
+    ]
+  },
+  "windybot": {
+    whatIs: "WindyBot is an AI social media automation tool that helps creators and businesses schedule content, automate engagement, and manage their social media presence more efficiently across platforms.",
+    features: [
+      "Content Scheduling: Plan and automate posts across social platforms",
+      "Engagement Automation: Automate likes, follows, and interactions",
+      "Analytics Dashboard: Track performance metrics across channels",
+      "Content Calendar: Visualize your entire posting schedule clearly",
+      "Multi-Account Management: Handle multiple social profiles in one place"
+    ],
+    howToUse: {
+      title: "How to Use Windybot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Accounts", description: "Link your social media profiles to WindyBot through secure platform authorization." },
+        { title: "Plan Your Content", description: "Schedule posts across all connected platforms using the visual content calendar interface." },
+        { title: "Set Automation Rules", description: "Configure engagement automation settings to maintain activity between your manual posting sessions." },
+        { title: "Review Performance", description: "Check your analytics dashboard to see what content is performing and adjust your strategy accordingly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Unified Scheduling", description: "Manages posting schedules across multiple social platforms from one central calendar view." },
+      { title: "Smart Automation", description: "Handles routine engagement tasks automatically so your accounts stay active without constant manual attention." },
+      { title: "Cross-Platform Analytics", description: "Aggregates performance data from all connected accounts for a complete view of your social media results." }
+    ],
+    useCases: [
+      { title: "Solo Creators", description: "Maintain a consistent active presence across multiple social platforms without spending all day on social media." },
+      { title: "Small Business Owners", description: "Keep your brand's social accounts active and engaging without hiring a dedicated social media manager." },
+      { title: "Marketing Agencies", description: "Manage posting schedules and engagement across multiple client accounts from one efficient platform." }
+    ]
+  },
+  "suitup": {
+    whatIs: "SuitUp is an AI-powered virtual outfit tool that places professional business clothing on your photos, helping you create polished formal portraits from everyday casual selfies instantly.",
+    features: [
+      "Instant Outfit Change: Virtually dress in professional attire immediately",
+      "Suit Styles: Multiple business outfit options available",
+      "Portrait Enhancement: Improve overall photo quality alongside outfit",
+      "Quick Results: Get your professional photo in seconds",
+      "Free to Try: Basic outfit changes without payment required"
+    ],
+    howToUse: {
+      title: "How to Use Suitup",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload a Clear Photo", description: "Choose a well-lit photo showing your face and upper body clearly for best outfit placement results." },
+        { title: "Pick Your Outfit", description: "Select from available professional suit and business attire options in different colors and styles." },
+        { title: "Apply and Preview", description: "Generate your professionally dressed portrait and preview the result before downloading." },
+        { title: "Download Your Portrait", description: "Save your virtual suit photo for use on professional profiles and applications immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Instant Transformation", description: "Applies professional business attire to casual photos immediately without lengthy processing times." },
+      { title: "Outfit Variety", description: "Provides multiple professional clothing options so you can find the right look for your specific industry." },
+      { title: "Accessibility", description: "Makes professional portrait creation available to anyone regardless of whether they own formal business clothing." }
+    ],
+    useCases: [
+      { title: "Job Seekers", description: "Create a professionally dressed profile photo quickly when you need it for a job application or interview." },
+      { title: "Students", description: "Get a polished professional headshot for internship applications and early career networking profiles." },
+      { title: "Professionals", description: "Quickly update your professional photo to reflect a more formal appearance without a full photo session." }
+    ]
+  },
+  "quick-headshots": {
+    whatIs: "Quick Headshots is an AI headshot generator focused on delivering fast professional portrait photos from selfies, prioritizing speed and simplicity for users who need great headshots without delay.",
+    features: [
+      "Rapid Generation: Professional headshots delivered in record time",
+      "Simple Upload: Easy selfie submission process with no complexity",
+      "Professional Results: Business-ready portrait quality output",
+      "Multiple Options: Several headshot variations per session",
+      "Instant Download: Access your photos the moment they are ready"
+    ],
+    howToUse: {
+      title: "How to Use Quick Headshots",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Selfies", description: "Upload a selection of clear selfies through the simple and straightforward submission process." },
+        { title: "Choose Your Style", description: "Select your preferred professional headshot style from available options." },
+        { title: "Wait Briefly", description: "Your professional headshots are generated rapidly — often faster than competing services." },
+        { title: "Download Immediately", description: "Access and download your finished professional headshots as soon as they are ready." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed Priority", description: "Optimized specifically for fast turnaround so users get professional headshots faster than most AI alternatives." },
+      { title: "Simple Process", description: "Streamlined submission and generation process with minimal steps between uploading and receiving results." },
+      { title: "Consistent Quality", description: "Delivers reliable professional headshot quality across sessions without unpredictable results." }
+    ],
+    useCases: [
+      { title: "Last-Minute Needs", description: "Get a professional headshot quickly when you need one urgently for an unexpected opportunity or deadline." },
+      { title: "Busy Professionals", description: "Update your professional photo without the time investment of a traditional photography booking process." },
+      { title: "First-Time Users", description: "Try AI headshot generation with a straightforward process that requires no technical knowledge or experience." }
+    ]
+  },
+  "kapwing": {
+    whatIs: "Kapwing is a collaborative online video editing platform that makes it easy for creators and teams to edit videos, add subtitles, create memes, and produce social media content directly in the browser.",
+    features: [
+      "Online Video Editor: Full editing tools without software installation",
+      "Auto Subtitles: AI-generated captions for any video automatically",
+      "Meme Maker: Create image and video memes with text overlays",
+      "Team Collaboration: Work on video projects together in real time",
+      "Multi-Format Export: Download in formats optimized for every platform"
+    ],
+    howToUse: {
+      title: "How to Use Kapwing",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Media", description: "Import your video, image, or audio files directly into the Kapwing browser-based editor." },
+        { title: "Edit Your Content", description: "Use the full suite of editing tools to trim, add text, apply subtitles, and enhance your media." },
+        { title: "Collaborate if Needed", description: "Invite team members to review and edit the project together in real time from anywhere." },
+        { title: "Export and Share", description: "Download your finished content in the right format for your target social media platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser-Based Editing", description: "Full professional video editing capability accessible from any browser without downloading or installing software." },
+      { title: "AI Auto-Subtitles", description: "Automatically generates accurate subtitles for any video saving hours of manual captioning work." },
+      { title: "Real-Time Collaboration", description: "Multiple team members can work on the same video project simultaneously from different locations." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Edit and produce social media videos quickly using professional tools without expensive desktop software." },
+      { title: "Marketing Teams", description: "Collaborate on video content production and get feedback from stakeholders within the same platform." },
+      { title: "Educators", description: "Create captioned educational video content that is accessible to all students including those with hearing difficulties." }
+    ]
+  },
+  "supermeme-ai": {
+    whatIs: "Supermeme.ai is an AI meme generator that creates relevant, funny memes from text prompts, helping marketers and creators produce shareable meme content without needing design skills.",
+    features: [
+      "AI Meme Generation: Create memes from any text prompt instantly",
+      "Template Library: Thousands of popular meme formats available",
+      "Custom Text: Add your own captions to any meme template",
+      "Brand Memes: Generate on-brand meme content for marketing",
+      "Bulk Creation: Produce multiple memes quickly for campaigns"
+    ],
+    howToUse: {
+      title: "How to Use Supermeme Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Idea", description: "Type a text prompt describing the meme concept or the message you want to convey humorously." },
+        { title: "Browse AI Suggestions", description: "Review the AI-selected meme templates and captions that match your input concept best." },
+        { title: "Customize Your Meme", description: "Adjust the text, swap the template, or refine the caption until the meme feels exactly right." },
+        { title: "Download and Share", description: "Save your meme and share it across social media platforms for maximum engagement and reach." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Template Matching", description: "Automatically selects the most appropriate meme format from thousands of templates for your specific concept." },
+      { title: "Marketing-Friendly Output", description: "Generates memes that work for brand accounts by keeping humor appropriate and shareable for broad audiences." },
+      { title: "High Volume Production", description: "Produces memes quickly enough to support content strategies that require frequent meme posting." }
+    ],
+    useCases: [
+      { title: "Social Media Marketers", description: "Add meme content to your strategy to boost engagement and reach audiences who respond to humor and relatability." },
+      { title: "Community Managers", description: "Create timely relevant memes that keep your community engaged and entertained consistently." },
+      { title: "Content Creators", description: "Diversify your content mix with AI-generated memes that resonate with your audience and drive shares." }
+    ]
+  },
+  "memegen-ai": {
+    whatIs: "MemeGen AI is a meme creation tool that uses AI to generate funny, relevant memes from text descriptions, making meme creation accessible to anyone regardless of design experience.",
+    features: [
+      "Text to Meme: Generate memes from simple text descriptions",
+      "Popular Templates: Access widely recognized meme formats",
+      "Quick Generation: Get your meme ready in seconds flat",
+      "Caption Control: Fine-tune text placement and wording easily",
+      "Free Access: Create memes without paying or signing up"
+    ],
+    howToUse: {
+      title: "How to Use Memegen Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Meme", description: "Type what you want your meme to say or the humorous scenario you want to capture." },
+        { title: "Get Your Meme", description: "Receive AI-generated meme options using appropriate templates that match your description." },
+        { title: "Adjust if Needed", description: "Tweak the caption text or swap to a different template to get the meme exactly right." },
+        { title: "Download and Post", description: "Save your finished meme and share it wherever your audience will appreciate it most." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Instant Generation", description: "Produces finished memes within seconds from a simple text description with no design work required." },
+      { title: "Template Recognition", description: "Selects from widely recognized meme formats so your memes immediately connect with internet culture." },
+      { title: "No-Skill Access", description: "Makes meme creation possible for anyone without graphic design experience or specialized software knowledge." }
+    ],
+    useCases: [
+      { title: "Casual Users", description: "Create funny memes to share with friends and followers without needing any design tools or skills." },
+      { title: "Social Media Managers", description: "Quickly produce relevant meme content to keep brand accounts engaging, timely, and entertaining." },
+      { title: "Community Members", description: "Participate in meme culture and contribute original humor to your online communities easily." }
+    ]
+  },
+  "sludge-ai": {
+    whatIs: "Sludge AI is a content creation tool that generates engaging short-form video scripts and concepts optimized for the fast-paced attention-grabbing style of modern social media feeds.",
+    features: [
+      "Script Generation: Create short-form video scripts instantly",
+      "Hook Writing: Generate attention-grabbing video openers",
+      "Trend Awareness: Scripts optimized for current content trends",
+      "Platform Optimization: Content styled for TikTok, Reels, and Shorts",
+      "Concept Ideation: Get fresh video ideas when inspiration runs dry"
+    ],
+    howToUse: {
+      title: "How to Use Sludge Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Topic", description: "Enter the subject or niche you want to create short-form video content about." },
+        { title: "Generate Your Script", description: "Get a complete short-form video script with a strong hook and engaging structure." },
+        { title: "Refine the Content", description: "Adjust the script tone, length, and style to match your personal content voice." },
+        { title: "Film and Post", description: "Use your script to film your video and publish it to your chosen short-form video platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Hook Optimization", description: "Specializes in writing the critical first few seconds of video scripts that determine whether viewers keep watching." },
+      { title: "Trend Integration", description: "Incorporates current content trends and formats into scripts to maximize algorithmic reach and engagement." },
+      { title: "Platform Specificity", description: "Tailors script length, pacing, and style to the specific conventions of TikTok, Reels, or YouTube Shorts." }
+    ],
+    useCases: [
+      { title: "TikTok Creators", description: "Never run out of video ideas and always start with a script that hooks viewers from the very first second." },
+      { title: "Reels Producers", description: "Create Instagram Reels content consistently using scripts that match the fast-paced style the algorithm rewards." },
+      { title: "YouTube Shorts Creators", description: "Produce short punchy video content that competes effectively in the crowded YouTube Shorts feed." }
+    ]
+  },
+  "misgif": {
+    whatIs: "MisGIF is an AI GIF creation and personalization tool that generates custom animated GIFs for social media sharing, messaging, and digital communication from text prompts or images.",
+    features: [
+      "AI GIF Generation: Create custom animated GIFs from text prompts",
+      "Personalization: Make GIFs featuring your own likeness or style",
+      "Social Sharing: Export GIFs optimized for social media platforms",
+      "Reaction GIFs: Generate perfect reaction GIFs for any situation",
+      "Fast Creation: Animated GIFs ready in seconds"
+    ],
+    howToUse: {
+      title: "How to Use Misgif",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Prompt", description: "Describe the GIF you want to create or upload a reference image for personalized GIF generation." },
+        { title: "Generate Your GIF", description: "Let the AI create your custom animated GIF based on your description or uploaded image." },
+        { title: "Preview and Adjust", description: "Review your generated GIF and request adjustments if the animation needs refinement." },
+        { title: "Download and Share", description: "Save your finished GIF and share it in messages, social media, or wherever GIFs are welcome." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Custom Animation", description: "Generates unique animated GIFs that are not available in existing GIF libraries for truly original reactions." },
+      { title: "Personalization Engine", description: "Creates GIFs that incorporate your own likeness or specific personalized elements for unique digital expression." },
+      { title: "Platform Optimization", description: "Exports GIFs in formats and sizes optimized for sharing across different social media and messaging platforms." }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "Create unique reaction GIFs and shareable animations that stand out from overused standard GIF library options." },
+      { title: "Content Creators", description: "Add custom GIF content to your social media strategy for higher engagement and shareable moments." },
+      { title: "Digital Communicators", description: "Express yourself more precisely in chats and comments with personalized GIFs made for specific situations." }
+    ]
+  },
+  "ai-model-agency": {
+    whatIs: "AI Model Agency is a platform that creates and manages AI-generated virtual models for fashion, beauty, and lifestyle brands, enabling photorealistic product visualization without traditional modeling shoots.",
+    features: [
+      "Virtual Model Creation: Generate photorealistic AI models for your brand",
+      "Product Visualization: Show products on diverse AI models instantly",
+      "Style Customization: Adjust model appearance to match brand aesthetic",
+      "Diverse Representation: Access models of varied ages and backgrounds",
+      "Cost Efficient: Eliminate traditional modeling shoot expenses"
+    ],
+    howToUse: {
+      title: "How to Use Ai Model Agency",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Model", description: "Specify the appearance, style, and demographic characteristics you need for your virtual brand model." },
+        { title: "Generate Your Model", description: "Create a photorealistic AI model that matches your defined specifications and brand aesthetic." },
+        { title: "Apply Your Products", description: "Visualize your products on your AI model in different poses, settings, and styling combinations." },
+        { title: "Download for Use", description: "Export your product visualization images for use in marketing, e-commerce, and brand campaigns." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photorealistic Quality", description: "Generates AI models of a quality that meets professional fashion and beauty industry visual standards." },
+      { title: "Instant Diversity", description: "Creates models with varied appearances on demand without the logistics of diverse casting and multiple shoots." },
+      { title: "Product Integration", description: "Seamlessly visualizes brand products on AI models in realistic and commercially appropriate contexts." }
+    ],
+    useCases: [
+      { title: "Fashion Brands", description: "Visualize clothing and accessories on photorealistic AI models without organizing expensive traditional photo shoots." },
+      { title: "Beauty Companies", description: "Show makeup and skincare products on diverse AI models representing your full customer demographic range." },
+      { title: "E-commerce Businesses", description: "Produce high-quality product-on-model imagery at scale for large catalogs without per-shoot photography costs." }
+    ]
+  },
+  "genyou": {
+    whatIs: "GenYOU is an AI personal photo generator that creates stunning AI photos of you in different styles, outfits, and settings by training on your uploaded selfies to accurately capture your likeness.",
+    features: [
+      "Personal AI Photos: Generate photos of yourself in any style or setting",
+      "Likeness Training: AI trained on your selfies for accurate representation",
+      "Style Variety: From professional to fantasy and creative themes",
+      "Outfit Exploration: See yourself in different clothing and looks",
+      "High Quality Output: Sharp detailed generated photos throughout"
+    ],
+    howToUse: {
+      title: "How to Use Genyou",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Selfies", description: "Submit a collection of clear selfies from multiple angles to train the AI on your unique appearance." },
+        { title: "Choose Your Styles", description: "Browse available style packs and select the themes or settings you want photos generated in." },
+        { title: "Generate Your Photos", description: "The AI produces a full set of photos featuring your likeness in all your chosen styles and settings." },
+        { title: "Download Your Favorites", description: "Review your generated photos and download the ones you love for sharing or personal use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accurate Likeness", description: "Trains specifically on your uploaded photos to produce generated images that genuinely look like you." },
+      { title: "Creative Style Range", description: "Offers styles spanning from professional headshots to fantasy, travel, artistic, and seasonal themes." },
+      { title: "Personal Photo Library", description: "Creates a diverse library of high-quality personal photos for all your social media and creative needs." }
+    ],
+    useCases: [
+      { title: "Social Media Creators", description: "Generate a variety of eye-catching personal photos for your social feeds without organizing multiple photoshoots." },
+      { title: "Personal Branding", description: "Build a consistent and diverse photo library that represents your personality across different contexts." },
+      { title: "Fun and Self-Expression", description: "Explore creative versions of yourself in fantastical settings and styles purely for enjoyment and sharing." }
+    ]
+  },
   "glambase": {
     whatIs: "Glambase is an AI platform that enables creators to build and monetize virtual AI influencer models, generating income through digital content without requiring a personal social media presence.",
     features: [
