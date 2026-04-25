@@ -1,4 +1,334 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "streaks-66": {
+    whatIs: "Streaks 66 is an AI-powered habit tracking app that helps users build and maintain positive daily habits using the 66-day habit formation framework with smart reminders and progress visualization.",
+    features: [
+      "66 Day Framework: Science-backed habit formation timeline",
+      "AI Reminders: Smart notifications at your optimal times",
+      "Habit Tracking: Visual streak tracking for every habit",
+      "Progress Analytics: Detailed insights on your consistency",
+      "Multiple Habits: Track several habits simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Streaks 66",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Add Your Habits", description: "Create the habits you want to build and set your target frequency for each one." },
+        { title: "Set Your Reminders", description: "Configure smart reminders at times that fit naturally into your daily routine." },
+        { title: "Track Daily", description: "Check off completed habits each day and watch your streaks grow over time." },
+        { title: "Review Your Progress", description: "Analyze your consistency data to understand patterns and improve your habit adherence." }
+      ]
+    },
+    coreFeatures: [
+      { title: "66 Day Science", description: "Based on research showing 66 days as the average time needed to form a lasting automatic habit." },
+      { title: "Smart Reminders", description: "Sends notifications at personalized optimal times rather than generic fixed reminder schedules." },
+      { title: "Visual Streaks", description: "Makes progress tangible and motivating through clear visual streak displays for every tracked habit." }
+    ],
+    useCases: [
+      { title: "Habit Builders", description: "Build new positive routines systematically using a science-backed framework that actually works long term." },
+      { title: "Health Focused Users", description: "Establish consistent exercise, nutrition, sleep, and wellness habits with daily accountability tracking." },
+      { title: "Productivity Seekers", description: "Develop professional habits like reading, journaling, and skill practice with streak motivation." }
+    ]
+  },
+  "callhippo": {
+    whatIs: "CallHippo is a cloud-based business phone system that provides virtual phone numbers, call management, and AI-powered features to help sales and support teams communicate more effectively with customers.",
+    features: [
+      "Virtual Numbers: Local and international phone numbers instantly",
+      "Call Analytics: Detailed reporting on all call activity",
+      "AI Call Insights: Automatic transcription and call analysis",
+      "Team Management: Manage multiple agents and queues",
+      "CRM Integration: Connect with Salesforce HubSpot and more"
+    ],
+    howToUse: {
+      title: "How to Use Callhippo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Numbers", description: "Create your CallHippo account and purchase virtual phone numbers for your target markets." },
+        { title: "Configure Your Team", description: "Add team members, set up call routing rules, and configure your IVR and queue settings." },
+        { title: "Start Making Calls", description: "Begin making and receiving calls through the CallHippo app on any device from anywhere." },
+        { title: "Review Analytics", description: "Monitor call performance, agent productivity, and customer interaction data from your dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Virtual Number Flexibility", description: "Provides local numbers in dozens of countries so businesses appear local to international customers." },
+      { title: "AI Call Analysis", description: "Automatically transcribes calls and surfaces insights about conversation quality and outcomes." },
+      { title: "Deep CRM Integration", description: "Syncs call data and recordings directly with CRM platforms for complete customer interaction history." }
+    ],
+    useCases: [
+      { title: "Sales Teams", description: "Make more calls efficiently with virtual numbers, power dialing, and AI insights that improve conversion." },
+      { title: "Customer Support Teams", description: "Manage inbound support calls professionally with queuing, routing, and performance analytics built in." },
+      { title: "Remote Businesses", description: "Operate a professional phone presence from anywhere without physical office phone infrastructure." }
+    ]
+  },
+  "datacamp": {
+    whatIs: "DataCamp is an online learning platform focused on data science, analytics, and AI skills that teaches through hands-on coding exercises in Python, R, SQL, and machine learning without any prior experience needed.",
+    features: [
+      "Hands-On Learning: Code directly in the browser as you learn",
+      "Skill Tracks: Structured learning paths for specific data roles",
+      "Projects: Real-world data projects for portfolio building",
+      "Assessments: Test your knowledge and track skill levels",
+      "Career Tracks: Job-ready programs for data careers"
+    ],
+    howToUse: {
+      title: "How to Use Datacamp",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Track", description: "Select a skill track or career path aligned with your data learning goals and current experience level." },
+        { title: "Complete Courses", description: "Work through interactive courses combining short videos with immediate hands-on coding exercises." },
+        { title: "Build Projects", description: "Apply your skills to real-world data projects that demonstrate practical ability to employers." },
+        { title: "Earn Certifications", description: "Complete assessments and earn recognized certifications that validate your data skills professionally." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser-Based Coding", description: "Lets learners write and run real code directly in the browser without any local environment setup." },
+      { title: "Structured Skill Paths", description: "Organizes courses into logical progression tracks that build skills systematically toward job readiness." },
+      { title: "Portfolio Projects", description: "Provides real-world projects that produce tangible work samples for data job applications." }
+    ],
+    useCases: [
+      { title: "Career Changers", description: "Transition into data science and analytics roles with structured job-ready learning tracks and certifications." },
+      { title: "Data Professionals", description: "Upskill in new data tools, languages, and techniques to stay current in a fast-moving field." },
+      { title: "Students", description: "Build practical data science skills alongside academic study to stand out to employers after graduation." }
+    ]
+  },
+  "brilliant": {
+    whatIs: "Brilliant is an interactive learning platform that teaches mathematics, science, and computer science through guided problem solving and visual explorations rather than passive video watching.",
+    features: [
+      "Interactive Problems: Learn by solving not watching passively",
+      "Visual Explanations: Complex concepts shown through clear visuals",
+      "Math and Science: Calculus statistics physics and more covered",
+      "CS and Programming: Computer science and coding fundamentals",
+      "Daily Challenges: Short engaging daily problems to build habits"
+    ],
+    howToUse: {
+      title: "How to Use Brilliant",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Topic", description: "Select a course in math, science, data, or computer science that matches your learning interest." },
+        { title: "Learn Through Problems", description: "Work through guided interactive problems that build understanding step by step with immediate feedback." },
+        { title: "Explore Visually", description: "Engage with visual interactive explorations that make abstract concepts concrete and understandable." },
+        { title: "Build a Daily Habit", description: "Complete daily challenges to maintain consistent learning momentum across your chosen subjects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Problem-Based Learning", description: "Teaches through active problem solving which builds deeper understanding than passive video consumption." },
+      { title: "Visual Interactivity", description: "Uses interactive visuals and simulations that make abstract mathematical and scientific concepts tangible." },
+      { title: "Structured Progression", description: "Builds concepts incrementally so each lesson prepares you perfectly for the next level of complexity." }
+    ],
+    useCases: [
+      { title: "Math Learners", description: "Build genuine mathematical understanding through problem solving rather than memorizing formulas and procedures." },
+      { title: "Science Enthusiasts", description: "Explore physics, chemistry, and computer science with interactive visuals that make concepts click." },
+      { title: "Professional Upskilling", description: "Strengthen quantitative and analytical thinking skills relevant to data science and technical careers." }
+    ]
+  },
+  "skillsoft-percipio": {
+    whatIs: "Skillsoft Percipio is an AI-powered enterprise learning platform that delivers personalized skill development content including courses, books, and videos to help organizations upskill their workforce effectively.",
+    features: [
+      "AI Personalization: Learning paths tailored to each employee",
+      "Massive Content Library: Thousands of courses books and videos",
+      "Skill Benchmarking: Assess and track organizational skill levels",
+      "Compliance Training: Required compliance courses managed centrally",
+      "Manager Dashboards: Team learning progress visibility"
+    ],
+    howToUse: {
+      title: "How to Use Skillsoft Percipio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Create your Percipio profile and complete the skills assessment to personalize your learning experience." },
+        { title: "Follow Your Path", description: "Work through your AI-recommended learning path combining courses, books, and videos for your role." },
+        { title: "Complete Compliance", description: "Finish any assigned mandatory compliance training within your required completion deadlines." },
+        { title: "Track Your Progress", description: "Monitor your skill development and completed learning from your personal learning dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Learning Personalization", description: "Recommends content based on role, skills gaps, and learning behavior for highly relevant experiences." },
+      { title: "Content Format Variety", description: "Combines video courses, e-books, audiobooks, and practice labs for diverse learning preferences." },
+      { title: "Enterprise Management", description: "Provides administrator tools for assigning content, tracking completion, and reporting on workforce skills." }
+    ],
+    useCases: [
+      { title: "Enterprise Organizations", description: "Upskill large workforces efficiently with AI-personalized learning delivered at scale across the organization." },
+      { title: "HR and L&D Teams", description: "Manage compliance training, skill assessments, and learning programs from one centralized platform." },
+      { title: "Individual Employees", description: "Access thousands of learning resources to develop skills relevant to your current role and career goals." }
+    ]
+  },
+  "coddy": {
+    whatIs: "Coddy is an AI-powered coding education platform that teaches programming through interactive challenges, real-world projects, and gamified learning experiences designed for beginners and intermediate developers.",
+    features: [
+      "Interactive Challenges: Learn coding by solving real problems",
+      "Gamified Learning: Points badges and rewards for motivation",
+      "Multiple Languages: Python JavaScript HTML CSS and more",
+      "Project Based: Build real projects as you learn to code",
+      "AI Hints: Smart hints when you get stuck on challenges"
+    ],
+    howToUse: {
+      title: "How to Use Coddy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Pick Your Language", description: "Choose the programming language or technology you want to learn from the available options." },
+        { title: "Start Your Challenges", description: "Begin working through coding challenges starting from the basics appropriate for your current level." },
+        { title: "Use AI Hints", description: "Request intelligent hints when you get stuck rather than looking up complete solutions elsewhere." },
+        { title: "Build Your Projects", description: "Apply your growing skills to real project builds that produce tangible portfolio work as you progress." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Gamification System", description: "Uses points, badges, and rewards to maintain motivation through what can otherwise be a difficult learning journey." },
+      { title: "Challenge Progression", description: "Structures challenges in a logical progression that builds skills incrementally without overwhelming learners." },
+      { title: "AI Hint System", description: "Provides intelligent contextual hints that guide thinking without giving away complete solutions directly." }
+    ],
+    useCases: [
+      { title: "Coding Beginners", description: "Start your programming journey with an engaging gamified approach that makes learning to code enjoyable." },
+      { title: "Self-Taught Developers", description: "Fill knowledge gaps and build structured skills through challenges that test real programming understanding." },
+      { title: "Students", description: "Supplement classroom coding education with additional practice challenges and project-based learning experiences." }
+    ]
+  },
+  "openai-academy": {
+    whatIs: "OpenAI Academy is an educational initiative by OpenAI that provides free learning resources, courses, and guidance to help individuals and organizations understand and effectively use AI tools and technologies.",
+    features: [
+      "Free Learning: AI education resources at no cost",
+      "Practical Guides: How to use AI tools effectively",
+      "For Everyone: Resources for beginners through advanced users",
+      "Use Case Coverage: AI applications across many industries",
+      "Official Content: Authoritative guidance directly from OpenAI"
+    ],
+    howToUse: {
+      title: "How to Use Openai Academy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse Resources", description: "Explore the available learning materials, guides, and courses on the OpenAI Academy platform." },
+        { title: "Choose Your Level", description: "Select resources appropriate for your current AI knowledge level from beginner to advanced." },
+        { title: "Work Through Content", description: "Complete lessons and guides to build your understanding of AI concepts and practical applications." },
+        { title: "Apply Your Learning", description: "Use your new knowledge to implement AI tools more effectively in your work or personal projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Official Source", description: "Provides authoritative AI education directly from the creators of GPT and other leading AI technologies." },
+      { title: "Accessibility Focus", description: "Makes quality AI education freely available to democratize understanding of artificial intelligence broadly." },
+      { title: "Practical Orientation", description: "Focuses on practical application and real-world use cases rather than purely theoretical AI concepts." }
+    ],
+    useCases: [
+      { title: "AI Beginners", description: "Build a solid foundation in AI concepts and tools with free authoritative learning resources from OpenAI." },
+      { title: "Business Professionals", description: "Understand how to apply AI tools effectively in your industry and specific professional context." },
+      { title: "Educators", description: "Access reliable AI education resources to teach students and colleagues about artificial intelligence accurately." }
+    ]
+  },
+  "gizmo": {
+    whatIs: "Gizmo is an AI-powered flashcard and quiz platform that helps students create smart study sets, practice with spaced repetition, and test their knowledge with AI-generated questions from any study material.",
+    features: [
+      "AI Flashcard Creation: Generate cards from any uploaded content",
+      "Spaced Repetition: Smart scheduling for optimal memory retention",
+      "Quiz Generation: AI creates practice quizzes from your material",
+      "Progress Tracking: Monitor what you know and what needs review",
+      "Collaborative Sets: Share study sets with classmates easily"
+    ],
+    howToUse: {
+      title: "How to Use Gizmo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create or Import", description: "Build flashcard sets manually or upload notes and documents for automatic AI card generation." },
+        { title: "Study With Spaced Repetition", description: "Let Gizmo schedule your reviews using spaced repetition to maximize long-term memory retention." },
+        { title: "Take AI Quizzes", description: "Test your knowledge with AI-generated quiz questions based on your study set content." },
+        { title: "Track Your Mastery", description: "Monitor your progress across all cards to focus energy where your knowledge needs the most work." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Spaced Repetition Engine", description: "Schedules card reviews at scientifically optimal intervals to maximize retention while minimizing study time." },
+      { title: "AI Question Generation", description: "Creates diverse quiz questions from flashcard content testing knowledge in multiple formats simultaneously." },
+      { title: "Progress Analytics", description: "Shows mastery levels for individual cards and entire sets to guide efficient targeted study sessions." }
+    ],
+    useCases: [
+      { title: "Exam Preppers", description: "Maximize retention of study material with spaced repetition scheduling that makes memorization genuinely efficient." },
+      { title: "Medical Students", description: "Master large volumes of technical terminology and clinical knowledge with AI-assisted spaced repetition." },
+      { title: "Language Learners", description: "Build vocabulary and grammar knowledge systematically with smart flashcards and spaced review scheduling." }
+    ]
+  },
+  "studydrive": {
+    whatIs: "Studydrive is a student community platform where university students share and access lecture notes, summaries, and study materials for their specific courses to support each other's academic success.",
+    features: [
+      "Peer Notes: Access notes shared by students in your course",
+      "Course Specific: Materials organized by university and subject",
+      "Upload and Earn: Share your notes to access premium content",
+      "Search Function: Find specific materials by topic or keyword",
+      "Community: Connect with fellow students at your institution"
+    ],
+    howToUse: {
+      title: "How to Use Studydrive",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Find Your University", description: "Search for your university and course to access materials shared by students in your program." },
+        { title: "Browse Materials", description: "Explore available lecture notes, summaries, and study guides uploaded for your specific courses." },
+        { title: "Download Resources", description: "Access and download the most relevant study materials for your upcoming exams and assignments." },
+        { title: "Contribute Back", description: "Upload your own notes and summaries to earn credits and support other students in your community." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Course-Specific Organization", description: "Organizes all materials by university, course, and subject for highly targeted and relevant content discovery." },
+      { title: "Peer Knowledge Sharing", description: "Aggregates study materials created by students who have completed or are currently taking your exact courses." },
+      { title: "Contribution Incentives", description: "Rewards content contributors with credits that unlock premium materials encouraging active community participation." }
+    ],
+    useCases: [
+      { title: "University Students", description: "Access study materials from students who have taken your exact courses and know what matters for exams." },
+      { title: "Exam Preppers", description: "Find summaries and notes specifically tailored to your course curriculum and exam requirements." },
+      { title: "Note Sharers", description: "Contribute your study materials to help fellow students while earning access to premium content in return." }
+    ]
+  },
+  "gauth": {
+    whatIs: "Gauth is an AI homework helper that solves math problems, answers science questions, and provides step-by-step explanations across school subjects to help students understand their coursework better.",
+    features: [
+      "Math Solving: Step-by-step solutions to any math problem",
+      "Photo Input: Take a photo of your problem for instant solving",
+      "Multiple Subjects: Math science history and more covered",
+      "Step-by-Step: Full working shown for every solution",
+      "Free Access: Basic homework help without payment required"
+    ],
+    howToUse: {
+      title: "How to Use Gauth",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Take a Photo", description: "Photograph your homework problem with your phone camera for instant AI recognition and solving." },
+        { title: "Or Type Your Question", description: "Type out your question or problem if you prefer text input over photo capture." },
+        { title: "Get Your Solution", description: "Receive a complete step-by-step solution with all working clearly shown for your problem." },
+        { title: "Understand the Method", description: "Study the step-by-step explanation to understand how to solve similar problems independently." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photo Problem Solving", description: "Recognizes handwritten and printed math problems from photos for instant solution generation." },
+      { title: "Step-by-Step Working", description: "Shows complete solution working so students understand the method not just the final answer." },
+      { title: "Subject Breadth", description: "Covers mathematics, science, history, and other school subjects for comprehensive homework support." }
+    ],
+    useCases: [
+      { title: "High School Students", description: "Get step-by-step help with challenging homework problems across all your core school subjects." },
+      { title: "Math Strugglers", description: "Build math confidence by seeing complete worked solutions that explain every step of the process." },
+      { title: "Parents Helping Kids", description: "Access clear explanations of school-level problems to help your children with their homework effectively." }
+    ]
+  },
+  "unstuck-ai": {
+    whatIs: "Unstuck AI is an AI homework and studying assistant designed for students that provides hints, explanations, and guided help to get past learning blocks without simply giving away complete answers.",
+    features: [
+      "Guided Hints: Smart hints that guide thinking without giving answers",
+      "Subject Coverage: Help across math science English and more",
+      "Explanation Mode: Clear explanations of concepts and methods",
+      "Student Focused: Designed specifically for K-12 learning needs",
+      "Safe Platform: Age-appropriate content for student users"
+    ],
+    howToUse: {
+      title: "How to Use Unstuck Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Block", description: "Tell Unstuck AI what you are working on and specifically where you are getting stuck or confused." },
+        { title: "Get Your Hint", description: "Receive a thoughtful hint that guides your thinking in the right direction without revealing the answer." },
+        { title: "Ask for Explanation", description: "Request a clear explanation of the underlying concept if you need deeper understanding of the topic." },
+        { title: "Work Through It", description: "Use the guided hints to work through the problem yourself building genuine understanding as you go." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Hint-Based Guidance", description: "Provides strategic hints that push students toward solutions rather than simply providing complete answers." },
+      { title: "Learning Focus", description: "Prioritizes genuine student understanding and skill building over quick answer delivery." },
+      { title: "Age-Appropriate Design", description: "Built specifically for K-12 students with content and interaction style suitable for younger learners." }
+    ],
+    useCases: [
+      { title: "K-12 Students", description: "Get unstuck on homework without having answers handed to you so you actually learn the material properly." },
+      { title: "Parents", description: "Trust your children are getting appropriate educational support that promotes learning not just answer copying." },
+      { title: "Teachers", description: "Recommend a homework tool that genuinely supports student learning rather than enabling academic shortcuts." }
+    ]
+  },
   "wolfram-alpha": {
     whatIs: "Wolfram Alpha is a computational knowledge engine that answers factual questions and solves complex problems in mathematics, science, engineering, and data analysis by computing answers from curated knowledge rather than searching the web.",
     features: [
