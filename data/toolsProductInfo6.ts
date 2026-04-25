@@ -1,4 +1,485 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "viddo-veo3": {
+    whatIs: "Viddo is an AI video generation platform powered by Veo3 technology that creates high-quality cinematic videos from text prompts and images for content creators and businesses seeking premium AI video output.",
+    features: [
+      "Veo3 Powered: Google's advanced video generation technology",
+      "Text to Video: Generate cinematic videos from descriptions",
+      "High Quality Output: Premium video generation results",
+      "Image to Video: Animate images into video sequences",
+      "Fast Generation: Quick high-quality video production"
+    ],
+    howToUse: {
+      title: "How to Use Viddo Veo3",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Enter a detailed description of the video scene you want generated including visual and motion details." },
+        { title: "Upload Reference", description: "Optionally provide a reference image to guide your video generation visually." },
+        { title: "Generate Your Video", description: "Submit your prompt and receive your high-quality Veo3-powered video generation." },
+        { title: "Download and Use", description: "Save your generated video and incorporate it into your creative projects immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Veo3 Technology", description: "Leverages Google DeepMind's Veo3 model for premium quality AI video generation results." },
+      { title: "Cinematic Quality", description: "Produces video output with cinematic visual quality appropriate for professional content use." },
+      { title: "Prompt Accuracy", description: "Accurately interprets detailed text descriptions to generate relevant representative video content." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Access Veo3-powered video generation for premium quality AI video content production." },
+      { title: "Marketing Teams", description: "Generate high-quality video assets for campaigns using advanced AI video technology." },
+      { title: "Filmmakers", description: "Create cinematic prototype footage using cutting-edge AI video generation capabilities." }
+    ]
+  },
+  "revid-ai": {
+    whatIs: "Revid.ai is an AI faceless video creation platform that automatically generates engaging short-form videos from text topics and scripts with AI voiceover, stock footage, and captions for anonymous content creators.",
+    features: [
+      "Faceless Videos: Create videos without appearing on camera",
+      "Auto Script: AI generates scripts from topic input",
+      "Stock Footage: Relevant video clips added automatically",
+      "AI Voiceover: Natural narration for every video created",
+      "Caption Generation: Automatic subtitles on all videos"
+    ],
+    howToUse: {
+      title: "How to Use Revid Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Type your video topic or paste a script into revid.ai for automatic video creation." },
+        { title: "AI Generates Script", description: "Let the AI write an engaging script from your topic if you haven't provided one already." },
+        { title: "Video Assembles", description: "Watch as revid.ai combines stock footage, voiceover, and captions into a complete video." },
+        { title: "Download and Post", description: "Export your faceless video and post it to your chosen social media platforms directly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Faceless Creation", description: "Enables building successful video channels without ever appearing on camera personally." },
+      { title: "Full Automation", description: "Handles scripting, footage selection, voiceover, and captioning in one automated workflow." },
+      { title: "Topic to Video Speed", description: "Produces complete publishable videos from a simple topic input in minutes not hours." }
+    ],
+    useCases: [
+      { title: "Anonymous Creators", description: "Build profitable video channels without revealing your identity or appearing on camera ever." },
+      { title: "Busy Entrepreneurs", description: "Generate consistent video content for multiple channels without time-intensive manual production." },
+      { title: "Content Marketers", description: "Produce informational video content at scale for YouTube and social media marketing strategies." }
+    ]
+  },
+  "faceless-video": {
+    whatIs: "Faceless.video is an AI platform that creates automated faceless YouTube and social media videos from text topics, combining AI narration, stock footage, and captions for creators who prefer not to be on camera.",
+    features: [
+      "Faceless Content: Videos created without on-camera presence",
+      "YouTube Automation: Automated video creation for YouTube channels",
+      "AI Narration: Natural voiceover for every produced video",
+      "Stock Video: Relevant footage automatically sourced and added",
+      "Multiple Niches: Content for any topic or niche covered"
+    ],
+    howToUse: {
+      title: "How to Use Faceless Video",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Topic", description: "Enter your video topic or niche and let Faceless.video understand what content to create." },
+        { title: "AI Creates Script", description: "Receive an AI-generated script covering your topic with engaging structure and information." },
+        { title: "Video Assembles", description: "The platform combines relevant stock footage, AI narration, and captions into a complete video." },
+        { title: "Publish Your Content", description: "Download your finished faceless video and upload it to YouTube or your social platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Channel Automation", description: "Enables creating and running YouTube channels without filming or appearing on camera personally." },
+      { title: "Niche Versatility", description: "Produces faceless video content for virtually any content niche or topic area." },
+      { title: "Complete Production", description: "Handles the entire video production pipeline from script to finished publishable content." }
+    ],
+    useCases: [
+      { title: "YouTube Automators", description: "Build and grow faceless YouTube channels with consistent AI-produced video content at scale." },
+      { title: "Privacy-Conscious Creators", description: "Create and monetize video content without revealing your identity or personal appearance." },
+      { title: "Passive Income Seekers", description: "Generate consistent video content for monetized channels without active daily production effort." }
+    ]
+  },
+  "autoshorts-ai": {
+    whatIs: "AutoShorts.ai is an AI short-form video automation platform that creates TikTok and YouTube Shorts videos automatically from topics and scripts helping creators maintain consistent short-form content output.",
+    features: [
+      "Auto Short Creation: Shorts generated from topics automatically",
+      "TikTok and YouTube: Optimized for both major platforms",
+      "AI Script Writing: Scripts generated from simple topic input",
+      "Voiceover Addition: AI narration for all generated content",
+      "Consistent Output: Maintain regular posting without effort"
+    ],
+    howToUse: {
+      title: "How to Use Autoshorts Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Type your short-form video topic into AutoShorts.ai for automatic content generation." },
+        { title: "AI Writes Script", description: "Receive an AI-generated script appropriate for short-form video format and audience." },
+        { title: "Video Generates", description: "AutoShorts creates your complete video with visuals, narration, and captions automatically." },
+        { title: "Post Your Content", description: "Download and post your generated Short to TikTok or YouTube Shorts immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Platform Optimization", description: "Creates content specifically formatted and styled for TikTok and YouTube Shorts algorithms." },
+      { title: "Full Automation Pipeline", description: "Handles every production step from script writing through final video assembly automatically." },
+      { title: "Topic Flexibility", description: "Generates short-form video content for any topic making it suitable for diverse content niches." }
+    ],
+    useCases: [
+      { title: "Short-Form Creators", description: "Maintain consistent posting schedules on TikTok and YouTube Shorts without manual production effort." },
+      { title: "Channel Builders", description: "Grow short-form video channels systematically with automated daily content production." },
+      { title: "Marketers", description: "Create informational and promotional short-form video content for brand awareness campaigns." }
+    ]
+  },
+  "pdf-to-brainrot": {
+    whatIs: "PDF To Brainrot is an AI tool that converts PDF documents and long text into entertaining short-form brainrot-style videos with split-screen gameplay, AI narration, and trending video formats popular on TikTok.",
+    features: [
+      "PDF to Video: Convert documents into brainrot-style videos",
+      "Split Screen: Popular split-screen gameplay video format",
+      "AI Narration: Text converted to engaging voiced content",
+      "Brainrot Format: Trending entertainment video style created",
+      "TikTok Optimized: Content formatted for maximum virality"
+    ],
+    howToUse: {
+      title: "How to Use Pdf To Brainrot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your PDF", description: "Import the PDF document or long text you want converted into a brainrot-style video." },
+        { title: "Configure Format", description: "Select your preferred brainrot style, gameplay footage, and narration voice options." },
+        { title: "Generate Your Video", description: "Let the AI convert your PDF content into an entertaining split-screen brainrot video." },
+        { title: "Download and Post", description: "Export your brainrot video and post it to TikTok or YouTube Shorts for viral potential." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brainrot Format Generation", description: "Creates the specific split-screen brainrot video format that has become viral on TikTok and Shorts." },
+      { title: "PDF Content Conversion", description: "Transforms static document content into dynamic entertaining video format automatically." },
+      { title: "Viral Formatting", description: "Applies the trending visual and audio elements that drive engagement in short-form video feeds." }
+    ],
+    useCases: [
+      { title: "TikTok Creators", description: "Turn any document or article into viral brainrot content that resonates with short-form audiences." },
+      { title: "Educational Content Creators", description: "Make educational content more accessible and engaging by presenting it in trending video formats." },
+      { title: "Meme Content Producers", description: "Create high-volume entertaining content using the brainrot format that performs well algorithmically." }
+    ]
+  },
+  "aicut": {
+    whatIs: "AiCut is an AI video editing tool that automatically cuts, edits, and produces short-form video content from long footage by detecting the best moments and assembling them into polished social media videos.",
+    features: [
+      "Auto Cutting: AI identifies and cuts best video moments",
+      "Short-Form Output: Produces social media ready short clips",
+      "Scene Detection: Intelligent identification of key moments",
+      "Caption Addition: Automatic subtitles on all cut content",
+      "Multi-Platform: Formatted for various social platforms"
+    ],
+    howToUse: {
+      title: "How to Use Aicut",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Footage", description: "Import your long-form video recording into AiCut for AI-powered editing and processing." },
+        { title: "AI Analyzes Content", description: "Let AiCut detect the most engaging moments and natural cut points throughout your footage." },
+        { title: "Review Cuts", description: "Preview the AI-selected cuts and clips and make any adjustments to timing or selection." },
+        { title: "Export Your Content", description: "Download your automatically cut and edited short-form videos ready for social media posting." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Intelligent Cut Detection", description: "Identifies optimal cut points and highlight moments in footage using content analysis AI." },
+      { title: "Automatic Assembly", description: "Assembles selected clips into polished short-form videos without manual editing required." },
+      { title: "Caption Integration", description: "Adds synchronized captions to all cut content automatically for accessibility and engagement." }
+    ],
+    useCases: [
+      { title: "Video Creators", description: "Convert long recordings into multiple short social media clips efficiently with AI editing assistance." },
+      { title: "Streamers", description: "Turn long streaming sessions into highlight clips for social media promotion automatically." },
+      { title: "Businesses", description: "Extract the best moments from corporate videos and webinars for social media marketing use." }
+    ]
+  },
+  "arcads": {
+    whatIs: "Arcads is an AI UGC ad creation platform that generates authentic-looking user-generated content style video ads using AI actors, helping e-commerce brands create high-converting social media ad creative at scale.",
+    features: [
+      "AI Actor Videos: Realistic AI humans in UGC-style ads",
+      "UGC Authenticity: Ads that look like real user reviews",
+      "Script to Ad: Convert ad scripts into AI actor videos",
+      "Multiple Actors: Diverse AI actor selection available",
+      "Fast Production: Ads created in minutes not days"
+    ],
+    howToUse: {
+      title: "How to Use Arcads",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Script", description: "Create the ad script you want your AI actor to deliver for your product or brand." },
+        { title: "Choose Your Actor", description: "Select from diverse AI actors that best represent your target customer demographic." },
+        { title: "Generate Your Ad", description: "Let Arcads produce a realistic UGC-style video ad with your chosen actor and script." },
+        { title: "Download and Run", description: "Export your ad and launch it in your paid social media advertising campaigns directly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Actor Realism", description: "Generates realistic AI human presenters that look genuinely authentic in social media feeds." },
+      { title: "UGC Style Output", description: "Creates ad content that resembles authentic user reviews rather than traditional advertising." },
+      { title: "Scale Capability", description: "Produces large volumes of diverse UGC ad creative quickly for systematic testing and optimization." }
+    ],
+    useCases: [
+      { title: "E-commerce Brands", description: "Create high-converting UGC-style ads without recruiting real creators or managing productions." },
+      { title: "Performance Marketers", description: "Generate diverse UGC ad variations at scale for systematic creative testing and optimization." },
+      { title: "DTC Brands", description: "Produce authentic-looking product review ads that build trust and drive social commerce conversions." }
+    ]
+  },
+  "makeugc": {
+    whatIs: "MakeUGC is an AI platform that creates user-generated content style video ads using AI avatars and digital actors for brands wanting authentic-looking social media ad content without working with real influencers.",
+    features: [
+      "UGC Video Ads: Authentic-style video ads with AI avatars",
+      "Digital Actors: Diverse realistic AI human presenters",
+      "Ad Script Input: Your script delivered by AI actors",
+      "Multiple Languages: Ads in various languages available",
+      "Fast Delivery: UGC ads produced quickly at scale"
+    ],
+    howToUse: {
+      title: "How to Use Makeugc",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Script", description: "Provide the ad script or talking points you want your AI avatar to present in your ad." },
+        { title: "Select Your Avatar", description: "Choose from diverse AI digital actors that fit your brand and target audience profile." },
+        { title: "Generate Your Ad", description: "MakeUGC produces a realistic UGC-style video ad with your selected actor and content." },
+        { title: "Export and Advertise", description: "Download your UGC ad and run it across your paid social advertising platforms immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Avatar Diversity", description: "Offers a wide range of realistic AI digital actors representing different demographics and styles." },
+      { title: "Authenticity Output", description: "Creates video ads that look and feel like genuine user-generated content rather than polished ads." },
+      { title: "Production Speed", description: "Delivers finished UGC-style video ads in minutes rather than the days required for real productions." }
+    ],
+    useCases: [
+      { title: "E-commerce Advertisers", description: "Scale UGC ad production without the complexity and cost of working with real content creators." },
+      { title: "Social Media Advertisers", description: "Create authentic-looking ad creative that outperforms traditional polished advertisement formats." },
+      { title: "Startups", description: "Launch professional UGC ad campaigns from day one without influencer relationships or budgets." }
+    ]
+  },
+  "capcut": {
+    whatIs: "CapCut is a free all-in-one video editing application developed by ByteDance that provides professional editing tools, AI features, templates, and effects for creating polished social media video content on mobile and desktop.",
+    features: [
+      "Free Video Editing: Professional tools without cost",
+      "AI Features: AI-powered editing assistance and effects",
+      "Template Library: Trending templates for quick creation",
+      "Auto Captions: Accurate automatic subtitle generation",
+      "Multi-Platform: Mobile and desktop editing available"
+    ],
+    howToUse: {
+      title: "How to Use Capcut",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Footage", description: "Open CapCut and import your video clips, photos, and audio for editing." },
+        { title: "Use Templates or Edit Manually", description: "Apply a trending template for quick results or build your edit from scratch with full tools." },
+        { title: "Add AI Effects", description: "Apply AI features like background removal, auto captions, and smart enhancement to your video." },
+        { title: "Export and Share", description: "Export your finished video in your preferred quality and share directly to social platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Professional Tools", description: "Provides comprehensive video editing capabilities completely free with no watermark restrictions." },
+      { title: "Template Ecosystem", description: "Offers constantly updated trending templates that make professional-looking edits fast and easy." },
+      { title: "AI Integration", description: "Builds AI-powered features directly into the editing workflow for seamless enhanced production." }
+    ],
+    useCases: [
+      { title: "Social Media Creators", description: "Edit engaging TikTok, Reels, and Shorts content with professional tools available completely free." },
+      { title: "Beginners", description: "Start video editing with an intuitive interface that guides you from footage import to polished export." },
+      { title: "Content Marketers", description: "Produce consistent branded video content efficiently using templates and AI editing assistance." }
+    ]
+  },
+  "invideo": {
+    whatIs: "InVideo is an online AI video creation platform that enables anyone to create professional marketing videos, social media content, and business videos from text prompts and templates without editing experience.",
+    features: [
+      "AI Video Creation: Generate videos from text descriptions",
+      "Template Library: Thousands of professional templates",
+      "Stock Media: Extensive library of footage and music",
+      "Team Collaboration: Work together on video projects",
+      "Multi-Platform: Export for any social or business platform"
+    ],
+    howToUse: {
+      title: "How to Use Invideo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Creation Method", description: "Select AI generation from text or template-based creation depending on your preference." },
+        { title: "Enter Your Content", description: "Provide your script, topic, or text prompt for the AI or template system to work with." },
+        { title: "Customize Your Video", description: "Adjust visuals, text, music, and branding to personalize your generated or template video." },
+        { title: "Export and Share", description: "Download your finished video in the format and quality needed for your platform and audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Script to Video", description: "Converts text scripts and prompts directly into complete video productions automatically." },
+      { title: "Template Diversity", description: "Provides thousands of templates covering every business category and video purpose available." },
+      { title: "Stock Media Integration", description: "Includes access to extensive libraries of footage, images, and music for rich video production." }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Create professional marketing videos without video editing expertise or production budgets." },
+      { title: "Marketing Teams", description: "Produce diverse video content for campaigns efficiently using AI and templates together." },
+      { title: "Entrepreneurs", description: "Launch video marketing for your business quickly using AI video creation from text descriptions." }
+    ]
+  },
+  "veed-io": {
+    whatIs: "VEED.IO is a browser-based video editing platform with AI features that enables creators to edit, subtitle, translate, and enhance videos online without software installation for professional-quality results.",
+    features: [
+      "Online Editing: Full video editing in your browser",
+      "Auto Subtitles: AI-generated captions in 100+ languages",
+      "Video Translation: Translate video content automatically",
+      "Screen Recording: Record screen and webcam together",
+      "Team Features: Collaborative video editing for teams"
+    ],
+    howToUse: {
+      title: "How to Use Veed Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Import your video file into VEED.IO's browser-based editor from your device or cloud." },
+        { title: "Add Auto Subtitles", description: "Enable automatic subtitle generation and receive accurate captions for your entire video." },
+        { title: "Edit Your Content", description: "Use the full editing suite to cut, add text, apply effects, and enhance your video." },
+        { title: "Export and Share", description: "Download your finished video or share directly to social platforms from within VEED." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Subtitle Accuracy", description: "Generates highly accurate automatic subtitles in over 100 languages for diverse content needs." },
+      { title: "Browser Accessibility", description: "Provides professional editing tools without any software installation on any device." },
+      { title: "Translation Integration", description: "Translates video subtitles and content into multiple languages for international distribution." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Add professional subtitles and edit videos quickly using browser-based tools without software." },
+      { title: "Global Brands", description: "Translate and subtitle video content for international audiences across multiple languages." },
+      { title: "Teams", description: "Collaborate on video editing projects from different locations using shared browser-based editing." }
+    ]
+  },
+  "movavi": {
+    whatIs: "Movavi is a video editing software suite that provides user-friendly desktop video editors, screen recorders, and media converters for Windows and Mac users seeking professional results without steep learning curves.",
+    features: [
+      "Video Editing: Professional desktop video editing software",
+      "Screen Recording: Capture screen and webcam recordings",
+      "Media Conversion: Convert between video file formats",
+      "AI Enhancement: AI-powered video quality improvement",
+      "Easy Interface: Accessible editing for non-professionals"
+    ],
+    howToUse: {
+      title: "How to Use Movavi",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install Movavi", description: "Download and install your chosen Movavi product on your Windows or Mac computer." },
+        { title: "Import Your Media", description: "Add your video clips, photos, and audio files to the project timeline for editing." },
+        { title: "Edit Your Video", description: "Use Movavi's intuitive tools to cut, add effects, titles, transitions, and music to your video." },
+        { title: "Export Your Project", description: "Render and export your finished video in your preferred format and quality settings." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Intuitive Interface", description: "Provides professional editing capabilities with an interface accessible to non-professional users." },
+      { title: "AI Video Enhancement", description: "Improves video quality using AI upscaling and enhancement for better visual results." },
+      { title: "Comprehensive Suite", description: "Covers video editing, screen recording, and format conversion in one software family." }
+    ],
+    useCases: [
+      { title: "Home Video Creators", description: "Edit personal and family videos with professional-quality results using accessible software tools." },
+      { title: "Content Creators", description: "Produce polished video content for YouTube and social media with a capable desktop editor." },
+      { title: "Professionals", description: "Use Movavi for efficient video editing, screen recording, and media management workflows." }
+    ]
+  },
+  "hitpaw-anyenhancer": {
+    whatIs: "HitPaw AnyEnhancer is an AI video and image enhancement tool that upscales low-resolution content, removes noise, stabilizes shaky footage, and improves overall visual quality using AI processing technology.",
+    features: [
+      "AI Upscaling: Increase video and image resolution with AI",
+      "Noise Reduction: Remove grain and noise from footage",
+      "Video Stabilization: Smooth out shaky camera footage",
+      "Color Enhancement: Improve color accuracy and vibrancy",
+      "Batch Processing: Enhance multiple files simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Hitpaw Anyenhancer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Media", description: "Upload the low-quality video or image you want enhanced into HitPaw AnyEnhancer." },
+        { title: "Choose Enhancement Type", description: "Select the specific enhancement you need such as upscaling, denoising, or stabilization." },
+        { title: "Process Your Content", description: "Let the AI analyze and apply the selected enhancement to improve your media quality." },
+        { title: "Export Enhanced Media", description: "Download your enhanced video or image in improved quality for your intended use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Upscaling Technology", description: "Increases resolution of low-quality content using AI trained on high-resolution reference data." },
+      { title: "Noise Removal", description: "Identifies and removes visual noise and grain from footage for cleaner sharper results." },
+      { title: "Stabilization Algorithm", description: "Smooths shaky camera footage using AI motion analysis for more watchable stable video." }
+    ],
+    useCases: [
+      { title: "Video Editors", description: "Improve the quality of footage shot in poor conditions before using it in production projects." },
+      { title: "Content Creators", description: "Upscale older or lower quality content for use in modern high-resolution social media posts." },
+      { title: "Photographers", description: "Enhance image quality and resolution for prints and professional display requirements." }
+    ]
+  },
+  "wondershare-filmora": {
+    whatIs: "Wondershare Filmora is a popular video editing software that combines a user-friendly interface with powerful editing features and AI tools for creating professional-quality videos for social media and beyond.",
+    features: [
+      "Easy Editing: Intuitive timeline-based video editing",
+      "AI Tools: AI-powered features for faster production",
+      "Effects Library: Thousands of filters transitions and effects",
+      "Audio Editing: Music beat sync and audio enhancement",
+      "Export Options: Multiple format and platform export"
+    ],
+    howToUse: {
+      title: "How to Use Wondershare Filmora",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Project", description: "Open Filmora and create a new project with your desired resolution and frame rate settings." },
+        { title: "Import Your Media", description: "Add your video clips, images, and audio files to the media library for editing." },
+        { title: "Edit Your Timeline", description: "Arrange clips on the timeline and add transitions, effects, text, and music to your video." },
+        { title: "Apply AI Features", description: "Use Filmora's AI tools for background removal, color correction, and audio enhancement." },
+        { title: "Export Your Video", description: "Render and export your finished video in the format optimized for your target platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Intuitive Interface", description: "Combines powerful editing features with an accessible interface suitable for intermediate creators." },
+      { title: "AI Enhancement Suite", description: "Provides multiple AI-powered tools that speed up common editing tasks significantly." },
+      { title: "Effects Library Depth", description: "Offers thousands of professional effects, filters, and transitions for diverse creative styles." }
+    ],
+    useCases: [
+      { title: "YouTubers", description: "Create polished YouTube videos with professional effects and easy-to-use editing tools." },
+      { title: "Social Media Creators", description: "Produce high-quality social media content efficiently with AI-assisted editing features." },
+      { title: "Aspiring Filmmakers", description: "Learn video editing and produce quality short films using powerful but accessible tools." }
+    ]
+  },
+  "topaz-labs": {
+    whatIs: "Topaz Labs is an AI image and video enhancement software company whose products use deep learning to upscale, denoise, sharpen, and improve the quality of photos and videos beyond what traditional tools achieve.",
+    features: [
+      "AI Upscaling: Enhance resolution dramatically with AI",
+      "Noise Reduction: Remove noise while preserving sharp detail",
+      "Video Enhancement: Improve video quality frame by frame",
+      "Sharpening: Recover detail from blurry or soft images",
+      "Batch Processing: Process multiple files in one operation"
+    ],
+    howToUse: {
+      title: "How to Use Topaz Labs",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open Your Media", description: "Import your photo or video into your chosen Topaz Labs application for enhancement." },
+        { title: "Select Enhancement Type", description: "Choose the specific enhancement you need from upscaling, denoising, sharpening, or other options." },
+        { title: "Configure Settings", description: "Adjust the AI model and strength settings based on your specific content and desired results." },
+        { title: "Process and Export", description: "Run the enhancement processing and export your improved media in your required format." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Deep Learning Enhancement", description: "Uses AI trained on extensive image data to produce enhancement quality exceeding traditional methods." },
+      { title: "Detail Preservation", description: "Enhances image quality while maintaining and recovering fine detail lost in original capture." },
+      { title: "Professional Standards", description: "Produces results meeting professional photography and filmmaking quality expectations." }
+    ],
+    useCases: [
+      { title: "Professional Photographers", description: "Upscale and enhance images for large prints and commercial use with industry-leading AI quality." },
+      { title: "Filmmakers", description: "Improve footage quality for professional productions including archival restoration work." },
+      { title: "Content Creators", description: "Enhance video quality for YouTube and social media to stand out with superior visual production." }
+    ]
+  },
+  "airbrush": {
+    whatIs: "AirBrush is an AI photo editing app that provides portrait retouching, skin enhancement, filter application, and beauty editing tools for creating polished professional-looking selfies and portrait photos.",
+    features: [
+      "Portrait Retouching: AI-powered skin and face enhancement",
+      "Skin Smoothing: Natural-looking complexion improvement",
+      "Blemish Removal: Automatic spot and blemish correction",
+      "Filter Library: Artistic filters for diverse photo aesthetics",
+      "Teeth Whitening: AI enhancement of smile appearance"
+    ],
+    howToUse: {
+      title: "How to Use Airbrush",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open Your Photo", description: "Import your portrait or selfie photo into AirBrush for AI-powered beauty editing." },
+        { title: "Apply Enhancements", description: "Use the AI retouching tools to smooth skin, remove blemishes, and enhance facial features." },
+        { title: "Add Filters", description: "Browse the filter library and apply artistic effects that match your desired photo aesthetic." },
+        { title: "Save and Share", description: "Export your enhanced portrait and share it directly to your social media profiles." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Portrait Enhancement", description: "Applies intelligent retouching that looks natural rather than overdone or artificially processed." },
+      { title: "Automatic Correction", description: "Identifies and removes blemishes, dark spots, and imperfections without manual selection." },
+      { title: "Filter Variety", description: "Provides diverse artistic filters covering different moods and aesthetics for creative expression." }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "Create polished portrait photos for your profiles and posts with professional-looking enhancements." },
+      { title: "Selfie Enthusiasts", description: "Enhance your selfies with natural-looking AI retouching that improves without looking artificial." },
+      { title: "Content Creators", description: "Maintain a consistent polished visual aesthetic in portrait content shared across your platforms." }
+    ]
+  },
   "focal": {
     whatIs: "Focal is an AI video creation and editing platform that helps content creators produce professional short-form videos with AI-powered editing tools, automatic captions, and smart scene detection for faster production.",
     features: [
