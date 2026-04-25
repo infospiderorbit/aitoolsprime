@@ -1,4 +1,574 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "movieai": {
+    whatIs: "MovieAI is an AI movie poster and film visual creation platform that generates cinematic poster artwork, movie-style imagery, and film aesthetic visuals from text descriptions for creative and entertainment projects.",
+    features: [
+      "Movie Poster Generation: Cinematic poster artwork creation",
+      "Film Aesthetic: Professional movie visual style output",
+      "Character Scenes: Dramatic cinematic compositions",
+      "Text Integration: Title and credit text placement",
+      "High Resolution: Poster-quality image output"
+    ],
+    howToUse: {
+      title: "How to Use Movieai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Poster", description: "Enter the movie concept, genre, characters, and mood for your AI-generated movie poster." },
+        { title: "Generate Your Poster", description: "Receive a cinematic AI-generated movie poster image in professional film style." },
+        { title: "Review Composition", description: "Check the poster composition, character placement, and overall visual impact." },
+        { title: "Download Your Poster", description: "Save your AI movie poster for printing, sharing, or creative project use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cinematic Style", description: "Captures the dramatic lighting and composition conventions of professional movie posters." },
+      { title: "Genre Accuracy", description: "Understands visual conventions for different film genres for appropriate aesthetic output." },
+      { title: "High Resolution Output", description: "Generates images at quality suitable for poster printing and large display use." }
+    ],
+    useCases: [
+      { title: "Film Enthusiasts", description: "Create personalized movie-style posters for original story concepts and fan projects." },
+      { title: "Content Creators", description: "Generate cinematic poster aesthetic content for entertainment and social media sharing." },
+      { title: "Indie Filmmakers", description: "Create professional-looking promotional posters for independent film projects affordably." }
+    ]
+  },
+  "wombo-dream": {
+    whatIs: "WOMBO Dream is a free AI art generation app that creates stunning artwork from text prompts in various artistic styles, making AI art creation accessible and fun for everyone on mobile and web.",
+    features: [
+      "Free Art Generation: Create AI art at no cost",
+      "Multiple Art Styles: Dozens of artistic styles available",
+      "Mobile Friendly: Great experience on smartphone",
+      "NFT Creation: Generate and mint AI art as NFTs",
+      "Community Gallery: Share and discover AI artwork"
+    ],
+    howToUse: {
+      title: "How to Use Wombo Dream",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Prompt", description: "Type a description of the image you want to create in the WOMBO Dream app." },
+        { title: "Choose Your Style", description: "Select from dozens of artistic styles ranging from watercolor to fantasy and beyond." },
+        { title: "Generate Your Art", description: "Create your AI artwork and see the result generated in your chosen style." },
+        { title: "Save and Share", description: "Download your art to your device or share it to the WOMBO community gallery." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Access", description: "Provides complete AI art generation without payment making it accessible to everyone." },
+      { title: "Style Variety", description: "Offers dozens of distinct artistic styles for diverse creative expression options." },
+      { title: "Mobile Optimization", description: "Delivers excellent AI art generation experience on smartphones for on-the-go creativity." }
+    ],
+    useCases: [
+      { title: "Art Beginners", description: "Explore AI art creation for free without any technical knowledge or design experience." },
+      { title: "Mobile Creators", description: "Generate AI artwork conveniently from your smartphone whenever inspiration strikes." },
+      { title: "NFT Artists", description: "Create and mint unique AI-generated artwork as NFTs through the integrated creation workflow." }
+    ]
+  },
+  "the-pet-painting": {
+    whatIs: "The Pet Painting is an AI service that transforms photos of pets into beautiful painted portrait artwork in various artistic styles, creating unique and meaningful pet portraits as gifts and keepsakes.",
+    features: [
+      "Pet Portrait Creation: Transform pet photos into paintings",
+      "Multiple Art Styles: Oil watercolor and illustrated options",
+      "High Quality Output: Print-ready portrait artwork",
+      "Gift Ready: Perfect for pet lovers as meaningful presents",
+      "Various Pets: Works for dogs cats and other animals"
+    ],
+    howToUse: {
+      title: "How to Use The Pet Painting",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Pet Photo", description: "Submit a clear photo of your pet showing their face and personality for portrait creation." },
+        { title: "Choose Your Style", description: "Select from available painting styles such as oil portrait, watercolor, or illustrated." },
+        { title: "Generate Your Portrait", description: "Receive your pet's photo transformed into a beautiful painted portrait artwork." },
+        { title: "Download and Print", description: "Save your portrait in high resolution and print it as a cherished artwork or gift." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photo to Painting Transformation", description: "Converts pet photographs into convincing painted portrait artwork with artistic quality." },
+      { title: "Style Variety", description: "Offers multiple painting aesthetics from formal oil portraits to charming watercolor styles." },
+      { title: "Print Resolution", description: "Generates portraits at resolution suitable for printing and displaying as physical artwork." }
+    ],
+    useCases: [
+      { title: "Pet Owners", description: "Create a beautiful painted portrait of your beloved pet as a lasting artistic keepsake." },
+      { title: "Gift Givers", description: "Generate unique personalized pet portraits as thoughtful gifts for animal-loving friends." },
+      { title: "Animal Lovers", description: "Celebrate pets with professional-quality portrait artwork created easily from photos." }
+    ]
+  },
+  "aisnap": {
+    whatIs: "AiSnap is an AI photo enhancement and transformation app that applies artistic filters, style transfers, and creative effects to photos for generating unique and visually striking social media content.",
+    features: [
+      "Artistic Filters: AI-powered creative photo transformations",
+      "Style Transfer: Apply artistic styles to photographs",
+      "Social Optimization: Effects designed for social sharing",
+      "Real-Time Preview: See effects before applying them",
+      "Easy Interface: Simple filter application workflow"
+    ],
+    howToUse: {
+      title: "How to Use Aisnap",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open Your Photo", description: "Upload or take a photo within AiSnap for AI-powered artistic transformation." },
+        { title: "Browse Effects", description: "Explore the available artistic filters and style transfer options for your image." },
+        { title: "Apply Your Effect", description: "Select and apply your chosen AI effect to transform your photo artistically." },
+        { title: "Save and Share", description: "Download your transformed photo and share it across your social media platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Artistic Transformation Quality", description: "Applies sophisticated AI effects that produce genuinely artistic photo transformations." },
+      { title: "Effect Preview", description: "Shows realistic previews of effects before applying for informed creative decisions." },
+      { title: "Social Content Focus", description: "Optimizes transformations for the visual style that performs well in social media feeds." }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "Create distinctive artistic photo content that stands out beautifully in crowded feeds." },
+      { title: "Photography Enthusiasts", description: "Explore creative artistic transformations of your photography using AI style effects." },
+      { title: "Content Creators", description: "Diversify your visual content with AI artistic transformations for more engaging posts." }
+    ]
+  },
+  "speed-ai-painting": {
+    whatIs: "Speed AI Painting to Photo is an AI tool that converts quick sketches and rough paintings into realistic photographic images, bridging the gap between hand-drawn art and photorealistic output.",
+    features: [
+      "Sketch to Photo: Transform rough art into realistic images",
+      "Painting Enhancement: Elevate paintings to photo quality",
+      "Style Bridging: Connect hand-drawn and photorealistic worlds",
+      "Fast Conversion: Quick transformation processing time",
+      "Multiple Input Types: Sketches paintings and drawings accepted"
+    ],
+    howToUse: {
+      title: "How to Use Speed Ai Painting",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create or Upload Your Sketch", description: "Draw a rough sketch or upload an existing painting for photorealistic transformation." },
+        { title: "Apply Conversion", description: "Let the AI analyze your hand-drawn input and generate a photorealistic version." },
+        { title: "Review the Result", description: "Check how your sketch or painting has been transformed into photorealistic imagery." },
+        { title: "Download Your Image", description: "Save the photorealistic version of your original artwork for creative use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sketch Enhancement", description: "Converts rough sketches into photorealistic images preserving the original composition intent." },
+      { title: "Style Bridging Technology", description: "Translates hand-drawn artistic style into photographic realism convincingly." },
+      { title: "Speed of Processing", description: "Delivers photorealistic conversions quickly without lengthy processing wait times." }
+    ],
+    useCases: [
+      { title: "Artists", description: "See your sketches and paintings transformed into photorealistic versions for creative exploration." },
+      { title: "Concept Artists", description: "Convert quick concept sketches into photorealistic references for design development." },
+      { title: "Illustrators", description: "Explore how your illustrations translate into photorealistic imagery for style experimentation." }
+    ]
+  },
+  "chatpaint": {
+    whatIs: "ChatPaint is an AI art generation chatbot that creates paintings and artwork through conversational interaction, allowing users to guide image creation through natural dialogue rather than complex prompt engineering.",
+    features: [
+      "Conversational Art: Create art through natural dialogue",
+      "Iterative Creation: Refine artwork through conversation",
+      "No Prompt Engineering: Simple natural language input",
+      "Style Guidance: Direct artistic direction through chat",
+      "Multiple Art Types: Paintings illustrations and more"
+    ],
+    howToUse: {
+      title: "How to Use Chatpaint",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start a Conversation", description: "Begin chatting with ChatPaint about the artwork you want to create naturally." },
+        { title: "Describe Your Vision", description: "Explain your creative vision in plain language as you would to a human artist." },
+        { title: "Refine Through Chat", description: "Continue the conversation to adjust colors, style, composition, and other elements." },
+        { title: "Download Your Art", description: "Save your conversationally created artwork when you are satisfied with the result." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversational Interface", description: "Creates art through natural dialogue eliminating the need to learn complex prompt syntax." },
+      { title: "Iterative Refinement", description: "Allows progressive improvement of artwork through continued conversation and feedback." },
+      { title: "Accessibility", description: "Makes AI art creation accessible to anyone who can describe what they want in words." }
+    ],
+    useCases: [
+      { title: "Non-Technical Artists", description: "Create AI artwork without learning prompt engineering through simple natural conversation." },
+      { title: "Creative Explorers", description: "Experiment with AI art creation through an approachable conversational interface." },
+      { title: "Casual Creators", description: "Generate personalized artwork easily through friendly conversational interaction with AI." }
+    ]
+  },
+  "patterned-ai": {
+    whatIs: "Patterned AI is an AI pattern and texture generation platform that creates seamless repeating patterns for fabric, wallpaper, surface design, and digital backgrounds from text descriptions and style inputs.",
+    features: [
+      "Seamless Pattern Generation: Tileable patterns from descriptions",
+      "Multiple Pattern Types: Geometric floral abstract and more",
+      "Surface Design: Patterns for fabric wallpaper and products",
+      "Customization: Adjust colors scale and repeat settings",
+      "High Resolution: Print-quality pattern downloads available"
+    ],
+    howToUse: {
+      title: "How to Use Patterned Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Pattern", description: "Enter a description of the pattern style, motifs, and aesthetic you want generated." },
+        { title: "Select Pattern Type", description: "Choose the category such as geometric, floral, abstract, or cultural for your pattern." },
+        { title: "Generate Your Pattern", description: "Receive a seamless tileable pattern design based on your description and preferences." },
+        { title: "Download for Use", description: "Save your pattern in high resolution for fabric printing, wallpaper, or digital use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Seamless Tiling", description: "Creates patterns that tile perfectly without visible seams for professional surface design." },
+      { title: "Style Breadth", description: "Covers geometric, organic, cultural, abstract, and many other pattern style categories." },
+      { title: "Print Resolution", description: "Delivers patterns at resolution suitable for fabric printing and professional product use." }
+    ],
+    useCases: [
+      { title: "Surface Designers", description: "Generate diverse pattern concepts quickly for fabric, wallpaper, and product surface design." },
+      { title: "Fashion Designers", description: "Create unique textile patterns for clothing collections without traditional pattern drawing skills." },
+      { title: "Interior Designers", description: "Develop custom wallpaper and surface pattern concepts for unique interior design projects." }
+    ]
+  },
+  "myth-ai": {
+    whatIs: "Myth AI is an AI image generation platform focused on fantasy, mythological, and fantastical artwork creation, producing high-quality images of mythological creatures, fantasy scenes, and epic visual narratives.",
+    features: [
+      "Fantasy Art Generation: Mythological and fantasy imagery",
+      "Creature Creation: Mythological beings and fantasy creatures",
+      "Epic Scenes: Grand fantasy narrative compositions",
+      "Multiple Styles: Various fantasy art aesthetics available",
+      "High Quality: Detailed and atmospheric fantasy output"
+    ],
+    howToUse: {
+      title: "How to Use Myth Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Vision", description: "Enter a detailed description of your fantasy or mythological scene and subjects." },
+        { title: "Choose Your Style", description: "Select the fantasy art aesthetic from dark fantasy to high fantasy and beyond." },
+        { title: "Generate Your Image", description: "Create your fantasy artwork and review the mythological visual output produced." },
+        { title: "Download and Use", description: "Save your high-quality fantasy image for games, stories, or creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Fantasy Specialization", description: "Trained on fantasy and mythological imagery for superior thematic accuracy and quality." },
+      { title: "Creature Detail", description: "Generates detailed and visually compelling mythological creatures and fantasy beings." },
+      { title: "Atmospheric Quality", description: "Creates images with the epic atmosphere and dramatic lighting characteristic of fantasy art." }
+    ],
+    useCases: [
+      { title: "Fantasy Writers", description: "Generate visual references for story settings, characters, and creatures in your writing." },
+      { title: "Game Developers", description: "Create fantasy creature and environment concept art for game development projects." },
+      { title: "Fantasy Art Fans", description: "Explore and generate original fantasy artwork featuring mythological themes and imagery." }
+    ]
+  },
+  "monsterimage-ai": {
+    whatIs: "MonsterImage.AI is an AI creature and monster image generator that creates detailed and imaginative monster designs, creature concept art, and fantastical being illustrations from creative text descriptions.",
+    features: [
+      "Monster Generation: Detailed creature designs from descriptions",
+      "Creature Concept Art: Fantasy and sci-fi being creation",
+      "Multiple Styles: Horror fantasy and sci-fi aesthetics",
+      "Detailed Output: Intricate monster design generation",
+      "Creative Freedom: Unlimited creature imagination exploration"
+    ],
+    howToUse: {
+      title: "How to Use Monsterimage Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Monster", description: "Write a detailed description of your monster including physical features, size, and atmosphere." },
+        { title: "Select Your Style", description: "Choose between horror, fantasy, sci-fi, or other monster aesthetic directions." },
+        { title: "Generate Your Creature", description: "Receive a detailed AI-generated monster illustration from your creative description." },
+        { title: "Download and Use", description: "Save your monster design for games, stories, or creative art projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creature Design Specialization", description: "Focuses specifically on monster and creature generation for superior results in this domain." },
+      { title: "Detail Generation", description: "Produces highly detailed creature designs with complex features and textures." },
+      { title: "Style Flexibility", description: "Covers horror, fantasy, science fiction, and other creature aesthetic categories thoroughly." }
+    ],
+    useCases: [
+      { title: "Game Developers", description: "Create monster and enemy concept art for games without hiring dedicated concept artists." },
+      { title: "Writers", description: "Generate visual references for creatures in fantasy and horror stories being written." },
+      { title: "Artists", description: "Use AI monster generation as creative reference and inspiration for original creature artwork." }
+    ]
+  },
+  "papered": {
+    whatIs: "Papered is an AI wallpaper and background image generation platform that creates beautiful unique wallpapers for desktop and mobile devices from text descriptions and style preferences.",
+    features: [
+      "Custom Wallpapers: Generate unique device wallpapers",
+      "Desktop and Mobile: Sized for all screen dimensions",
+      "Multiple Aesthetics: Abstract nature minimalist and more",
+      "High Resolution: Sharp wallpapers for any screen size",
+      "Unlimited Creation: Generate as many wallpapers as desired"
+    ],
+    howToUse: {
+      title: "How to Use Papered",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Wallpaper", description: "Enter a description of the wallpaper style, subject, and mood you want for your device." },
+        { title: "Select Your Device", description: "Choose the target device and screen resolution for properly sized wallpaper output." },
+        { title: "Generate Your Wallpaper", description: "Receive a unique AI-generated wallpaper image suited to your description and device." },
+        { title: "Download and Apply", description: "Save your wallpaper and set it as your device background immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Resolution Optimization", description: "Generates wallpapers at the correct resolution for specific device screen sizes automatically." },
+      { title: "Style Range", description: "Covers abstract, nature, geometric, minimalist, and many other wallpaper aesthetic categories." },
+      { title: "Unique Generation", description: "Creates genuinely unique wallpapers rather than filtering stock photography collections." }
+    ],
+    useCases: [
+      { title: "Device Customizers", description: "Create unique personalized wallpapers that reflect your style rather than using generic options." },
+      { title: "Tech Enthusiasts", description: "Refresh your device aesthetic regularly with custom AI-generated wallpaper backgrounds." },
+      { title: "Design Lovers", description: "Express your design sensibility through beautiful custom AI-generated screen backgrounds." }
+    ]
+  },
+  "xinva-ai": {
+    whatIs: "Xinva AI is an AI design and image generation platform that creates diverse visual content including illustrations, patterns, and creative imagery for design projects and content creation needs.",
+    features: [
+      "AI Image Generation: Create diverse visual content",
+      "Pattern Creation: Seamless pattern and texture generation",
+      "Illustration Style: Various artistic illustration outputs",
+      "Design Assets: Content for diverse design applications",
+      "Fast Generation: Visual content created efficiently"
+    ],
+    howToUse: {
+      title: "How to Use Xinva Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Content", description: "Enter a description of the design asset or illustration you want generated with AI." },
+        { title: "Select Your Style", description: "Choose the visual style and aesthetic direction for your generated content." },
+        { title: "Generate Your Asset", description: "Receive your AI-generated design content based on your description and style choice." },
+        { title: "Download and Apply", description: "Save your generated visual asset for use in your design projects and creative work." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content Variety", description: "Generates diverse visual content types from illustrations to patterns and design assets." },
+      { title: "Style Flexibility", description: "Produces content across multiple artistic and design aesthetic directions." },
+      { title: "Generation Speed", description: "Creates visual content efficiently for fast design workflow integration." }
+    ],
+    useCases: [
+      { title: "Graphic Designers", description: "Generate diverse design assets and visual content for varied project requirements quickly." },
+      { title: "Content Creators", description: "Access AI-generated visual content for social media, blogs, and creative projects." },
+      { title: "Surface Designers", description: "Create seamless patterns and textures for product surface design applications." }
+    ]
+  },
+  "vsco": {
+    whatIs: "VSCO is a photography and creative community app that provides professional photo editing tools, film-inspired filters, and a creative platform for photographers to edit, share, and discover visual content.",
+    features: [
+      "Film Filters: Professional film-inspired photo filters",
+      "Advanced Editing: Professional photo editing tools",
+      "Creative Community: Discover and share photography",
+      "Video Editing: Apply VSCO aesthetics to video content",
+      "Mobile Focused: Premium mobile photography experience"
+    ],
+    howToUse: {
+      title: "How to Use Vsco",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Photo", description: "Upload your photo into VSCO for professional editing and filter application." },
+        { title: "Apply Your Filter", description: "Browse VSCO's iconic film-inspired filter collection and apply your preferred look." },
+        { title: "Fine-Tune Your Edit", description: "Use advanced editing controls to perfect exposure, color, grain, and other parameters." },
+        { title: "Share to Community", description: "Post your edited photo to the VSCO community or export to other social platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Film Filter Quality", description: "Provides the most respected film-emulation filters in mobile photography for authentic looks." },
+      { title: "Editing Depth", description: "Offers professional-grade editing controls beyond basic adjustments for serious photographers." },
+      { title: "Community Curation", description: "Creates a high-quality photography community focused on artistic vision over follower counts." }
+    ],
+    useCases: [
+      { title: "Photographers", description: "Edit photos with professional-quality film filters and advanced editing tools on mobile." },
+      { title: "Visual Artists", description: "Explore VSCO's aesthetic tools as a creative medium for expressing visual artistic vision." },
+      { title: "Content Creators", description: "Maintain a consistent and distinctive visual aesthetic across all content using VSCO presets." }
+    ]
+  },
+  "dronedeploy": {
+    whatIs: "DroneDeploy is an AI-powered drone mapping and aerial data platform that enables businesses to capture, process, and analyze aerial imagery for construction, agriculture, mining, and infrastructure inspection.",
+    features: [
+      "Aerial Mapping: Create maps from drone footage",
+      "AI Analysis: Automated insights from aerial imagery",
+      "Progress Tracking: Monitor construction and site progress",
+      "3D Modeling: Generate 3D models from drone captures",
+      "Industry Solutions: Tools for construction agriculture and mining"
+    ],
+    howToUse: {
+      title: "How to Use Dronedeploy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Plan Your Flight", description: "Set up your drone flight mission in DroneDeploy with the area and altitude parameters." },
+        { title: "Capture Your Imagery", description: "Fly your drone to capture systematic aerial imagery of your target area." },
+        { title: "Process Your Data", description: "Upload captured imagery for AI processing into maps, models, and analytical insights." },
+        { title: "Review Your Analysis", description: "Access your processed aerial maps and AI-generated insights for your project decisions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated Processing", description: "Converts raw drone imagery into professional maps and 3D models automatically." },
+      { title: "AI Insights", description: "Generates actionable intelligence from aerial data for informed business decision making." },
+      { title: "Industry Specialization", description: "Provides tools specifically designed for construction, agriculture, and mining requirements." }
+    ],
+    useCases: [
+      { title: "Construction Companies", description: "Monitor project progress and track site changes with regular aerial mapping and analysis." },
+      { title: "Agricultural Operations", description: "Analyze crop health and field conditions from aerial imagery for precision agriculture." },
+      { title: "Infrastructure Managers", description: "Inspect and monitor infrastructure assets efficiently using AI-powered aerial analysis tools." }
+    ]
+  },
+  "aftershoot": {
+    whatIs: "Aftershoot is an AI photo culling and editing software for photographers that automatically selects the best shots from large batches and applies consistent edits to dramatically speed up post-processing workflows.",
+    features: [
+      "AI Photo Culling: Automatically select best shots from batches",
+      "Auto Editing: Apply consistent AI-powered edits",
+      "Batch Processing: Handle thousands of photos efficiently",
+      "Style Learning: AI learns your personal editing preferences",
+      "Time Saving: Dramatically faster post-processing workflow"
+    ],
+    howToUse: {
+      title: "How to Use Aftershoot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Photos", description: "Upload your photo batch from a shoot into Aftershoot for AI culling and editing." },
+        { title: "AI Selects Best Shots", description: "Let the AI analyze all photos and automatically select the highest quality images." },
+        { title: "Apply AI Edits", description: "Use the AI editor to apply consistent edits based on your style preferences automatically." },
+        { title: "Review and Export", description: "Check the AI selections and edits, make any adjustments, and export your final photos." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Intelligent Culling", description: "Selects technically superior shots from large batches considering focus, exposure, and expression." },
+      { title: "Style Learning", description: "Adapts editing to match your personal aesthetic preferences from examples you provide." },
+      { title: "Batch Efficiency", description: "Processes thousands of photos simultaneously for dramatically faster post-production workflows." }
+    ],
+    useCases: [
+      { title: "Wedding Photographers", description: "Process thousands of wedding photos efficiently with AI culling and consistent batch editing." },
+      { title: "Event Photographers", description: "Handle large photo volumes from events quickly without sacrificing quality or consistency." },
+      { title: "Portrait Photographers", description: "Cull and edit large portrait sessions automatically while maintaining your distinctive style." }
+    ]
+  },
+  "artflow-ai": {
+    whatIs: "Artflow.ai is an AI character creation and storytelling platform that generates consistent original characters and enables creators to produce illustrated stories, comics, and visual narratives with persistent character identity.",
+    features: [
+      "Character Creation: Generate original consistent AI characters",
+      "Character Consistency: Maintain character across multiple images",
+      "Story Generation: Create visual stories with your characters",
+      "Scene Creation: Place characters in diverse situations",
+      "Comic Creation: Sequential storytelling with AI characters"
+    ],
+    howToUse: {
+      title: "How to Use Artflow Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Character", description: "Design an original character by describing their appearance, personality, and visual style." },
+        { title: "Generate Character Images", description: "Produce diverse images of your character in different poses, expressions, and contexts." },
+        { title: "Build Your Story", description: "Place your consistent character in various scenes to tell a visual story or narrative." },
+        { title: "Export Your Content", description: "Download your character images and story pages for sharing or creative publication." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Character Consistency Engine", description: "Maintains the same character appearance across unlimited generated images and scenes." },
+      { title: "Original Character Generation", description: "Creates genuinely original characters rather than derivatives of existing intellectual property." },
+      { title: "Narrative Capability", description: "Supports storytelling by enabling the same character to appear in diverse situations consistently." }
+    ],
+    useCases: [
+      { title: "Comic Creators", description: "Build consistent original characters for comics and visual stories without illustration skills." },
+      { title: "Writers", description: "Visualize story characters with consistent AI-generated imagery for development and pitching." },
+      { title: "Content Creators", description: "Create original character-based content series with persistent visual identity across posts." }
+    ]
+  },
+  "try-it-on-ai": {
+    whatIs: "Try it on AI is a virtual clothing try-on platform that uses AI to show how garments look on your photo, helping shoppers make more confident purchasing decisions before buying clothes online.",
+    features: [
+      "Virtual Try-On: See clothes on your own photo realistically",
+      "Multiple Garments: Try tops bottoms and full outfits",
+      "Realistic Display: Natural-looking clothing visualization",
+      "Shopping Integration: Works with e-commerce clothing items",
+      "Easy Process: Simple upload and try-on workflow"
+    ],
+    howToUse: {
+      title: "How to Use Try It On Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Provide a photo of yourself for the virtual clothing try-on experience." },
+        { title: "Select Your Garment", description: "Choose the clothing item you want to see displayed on your photo." },
+        { title: "Generate Try-On", description: "Receive a realistic visualization of the garment displayed on your uploaded photo." },
+        { title: "Make Your Decision", description: "Use the visualization to decide confidently whether to purchase the clothing item." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photorealistic Display", description: "Shows garments on photos with realistic fitting and draping for accurate visualization." },
+      { title: "Multi-Garment Support", description: "Handles tops, bottoms, dresses, and complete outfit combinations for versatile try-on." },
+      { title: "Shopping Confidence", description: "Improves purchase confidence through better visualization reducing returns for retailers." }
+    ],
+    useCases: [
+      { title: "Online Shoppers", description: "See how clothing actually looks on your body before purchasing to avoid costly returns." },
+      { title: "Fashion Retailers", description: "Reduce return rates by offering virtual try-on that helps customers choose correct items." },
+      { title: "Style Explorers", description: "Try diverse clothing styles virtually for personal style discovery without shopping risk." }
+    ]
+  },
+  "pixel-art-ai": {
+    whatIs: "Pixel-Art.ai is an AI pixel art generator that creates retro-style pixel art characters, scenes, and game assets from text descriptions, enabling game developers and artists to generate 8-bit and 16-bit style imagery.",
+    features: [
+      "Pixel Art Generation: Retro-style pixel imagery creation",
+      "Game Assets: Characters sprites and environment tiles",
+      "8-bit and 16-bit: Classic game aesthetic styles",
+      "Sprite Sheets: Generate animation frames for characters",
+      "Free to Use: Basic pixel art generation available"
+    ],
+    howToUse: {
+      title: "How to Use Pixel Art Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Pixel Art", description: "Enter a description of the pixel art character, scene, or game asset you want created." },
+        { title: "Select Your Style", description: "Choose your desired pixel art resolution style such as 8-bit or 16-bit aesthetics." },
+        { title: "Generate Your Art", description: "Receive your AI-generated pixel art image in the classic retro game visual style." },
+        { title: "Download Your Asset", description: "Save your pixel art for use in game development or retro-aesthetic creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Style Accuracy", description: "Generates authentic pixel art with correct color limitations and aesthetic of retro games." },
+      { title: "Game Asset Focus", description: "Creates game-ready sprites, characters, and tiles suitable for actual game development use." },
+      { title: "Resolution Variety", description: "Offers different pixel art resolutions matching different retro gaming era aesthetics." }
+    ],
+    useCases: [
+      { title: "Indie Game Developers", description: "Generate retro-style game assets quickly without pixel art illustration skills required." },
+      { title: "Pixel Art Enthusiasts", description: "Create original pixel art characters and scenes for personal creative projects and sharing." },
+      { title: "Retro Game Fans", description: "Generate custom pixel art in the style of your favorite classic video game eras." }
+    ]
+  },
+  "pixelfy": {
+    whatIs: "Pixelfy is an AI image-to-pixel-art converter that transforms regular photos and digital images into charming pixel art style versions, creating retro aesthetic content from modern imagery instantly.",
+    features: [
+      "Photo to Pixel Art: Transform images into pixel style",
+      "Retro Aesthetic: Classic game-inspired visual conversion",
+      "Customizable Resolution: Adjust pixel size and detail level",
+      "Fast Conversion: Quick image transformation processing",
+      "Download Ready: Pixel art images for immediate use"
+    ],
+    howToUse: {
+      title: "How to Use Pixelfy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Import the photo or digital image you want converted into pixel art style." },
+        { title: "Set Your Resolution", description: "Choose your preferred pixel size for coarser or more detailed pixel art conversion." },
+        { title: "Generate Pixel Art", description: "Let the AI transform your image into a charming pixel art version of the original." },
+        { title: "Download Your Art", description: "Save your pixel art conversion for sharing, games, or retro-themed creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photo Conversion", description: "Transforms real photographs into authentic-looking pixel art with appropriate color reduction." },
+      { title: "Adjustable Resolution", description: "Allows control over pixel size for different levels of detail and aesthetic coarseness." },
+      { title: "Retro Authenticity", description: "Applies color palettes and dithering typical of actual pixel art for genuine aesthetic accuracy." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Transform photos into retro pixel art for unique and nostalgic social media content." },
+      { title: "Game Developers", description: "Convert reference photos into pixel art style for use in retro-aesthetic game projects." },
+      { title: "Nostalgic Artists", description: "Explore the pixel art aesthetic by converting your own photos and images easily." }
+    ]
+  },
+  "pixelicious": {
+    whatIs: "Pixelicious is an online pixel art generator that converts images and photos into beautiful pixel art style artwork with customizable pixel sizes and color palettes for retro aesthetic creative projects.",
+    features: [
+      "Image Pixelization: Convert any image to pixel art style",
+      "Color Palette Options: Classic retro color scheme choices",
+      "Pixel Size Control: Adjust granularity of pixel art effect",
+      "Free Online Tool: Pixel art conversion without payment",
+      "Instant Results: Quick pixel art generation from images"
+    ],
+    howToUse: {
+      title: "How to Use Pixelicious",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Select the image or photo you want to convert into pixel art style." },
+        { title: "Customize Settings", description: "Adjust pixel size and select your preferred color palette for the conversion." },
+        { title: "Generate Pixel Art", description: "Process your image and receive your pixelated art version instantly." },
+        { title: "Download Your Creation", description: "Save your pixel art image for use in projects, games, or creative sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Color Palette Selection", description: "Offers classic retro gaming color palettes for authentic pixel art aesthetic creation." },
+      { title: "Pixel Size Flexibility", description: "Provides control over pixel granularity for different levels of abstraction and style." },
+      { title: "Free Accessibility", description: "Makes pixel art conversion freely available without payment barriers or registration." }
+    ],
+    useCases: [
+      { title: "Retro Aesthetic Creators", description: "Convert images into pixel art for nostalgic retro-themed content and creative projects." },
+      { title: "Game Asset Creators", description: "Generate pixel art game graphics from reference images for indie game development." },
+      { title: "Social Media Artists", description: "Create unique retro pixel art content that stands out with its nostalgic visual charm." }
+    ]
+  },
   "icons8": {
     whatIs: "Icons8 is a comprehensive design resource platform offering millions of icons, photos, illustrations, and AI tools including image generation, background removal, and face generation for designers and developers.",
     features: [
