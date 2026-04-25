@@ -1,4 +1,454 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "midjourney": {
+    whatIs: "Midjourney is a leading AI image generation system that creates stunning high-quality artwork and photorealistic images from text prompts, known for its exceptional aesthetic quality and artistic coherence across diverse styles.",
+    features: [
+      "Exceptional Quality: Industry-leading AI image generation",
+      "Diverse Styles: Photorealistic to abstract artistic outputs",
+      "Text Prompts: Describe any image concept for generation",
+      "Style Parameters: Fine-tune aesthetics with advanced commands",
+      "Active Community: Large Discord community of creators"
+    ],
+    howToUse: {
+      title: "How to Use Midjourney",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Join Midjourney", description: "Access Midjourney through their Discord server or web interface and set up your account." },
+        { title: "Write Your Prompt", description: "Craft a detailed text prompt describing your desired image including style, mood, and content." },
+        { title: "Generate Your Image", description: "Submit your prompt and receive four image variations to choose from and refine." },
+        { title: "Upscale or Vary", description: "Select your favorite variation to upscale for high resolution or create new variations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Image Quality Leadership", description: "Consistently produces some of the highest quality and most aesthetically coherent AI images available." },
+      { title: "Style Range", description: "Handles everything from photorealistic renders to painterly illustrations and abstract art." },
+      { title: "Parameter System", description: "Advanced parameter commands allow precise control over aspect ratio, style, and generation approach." }
+    ],
+    useCases: [
+      { title: "Digital Artists", description: "Use Midjourney as a powerful creative tool for concept art, illustration, and visual ideation." },
+      { title: "Marketing Designers", description: "Generate unique high-quality visual assets for campaigns and brand materials quickly." },
+      { title: "Creative Professionals", description: "Explore visual concepts rapidly and produce stunning imagery for diverse professional projects." }
+    ]
+  },
+  "nightcafe-creator": {
+    whatIs: "NightCafe Creator is an AI art generation platform that provides multiple generation algorithms including Stable Diffusion and DALL-E with a credit system, community features, and daily free generation credits.",
+    features: [
+      "Multiple AI Models: Access Stable Diffusion DALL-E and more",
+      "Daily Free Credits: Generate art without immediate payment",
+      "Community Gallery: Share and discover AI artwork globally",
+      "Style Presets: Quick style application for consistent results",
+      "Print on Demand: Order physical prints of your AI art"
+    ],
+    howToUse: {
+      title: "How to Use Nightcafe Creator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Get Your Free Credits", description: "Sign up for NightCafe and claim your daily free credits for art generation." },
+        { title: "Choose Your Algorithm", description: "Select from available AI models based on your desired art style and quality." },
+        { title: "Create Your Artwork", description: "Write your prompt, apply style presets, and generate your AI artwork." },
+        { title: "Share or Print", description: "Post your art to the community gallery or order a physical print of your favorite creation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Model Access", description: "Provides multiple AI generation models in one platform for versatile artistic exploration." },
+      { title: "Free Daily Credits", description: "Offers daily free generation credits making AI art accessible without subscription commitment." },
+      { title: "Print Service", description: "Enables ordering physical prints of generated AI artwork directly through the platform." }
+    ],
+    useCases: [
+      { title: "AI Art Beginners", description: "Start creating AI art without upfront payment using daily free credits across multiple models." },
+      { title: "Digital Artists", description: "Explore diverse generation algorithms and styles for creative experimentation and learning." },
+      { title: "Art Collectors", description: "Generate and order physical prints of unique AI artwork for home and office decoration." }
+    ]
+  },
+  "artguru-ai": {
+    whatIs: "Artguru AI is an AI art generation and photo transformation platform that creates anime-style artwork, applies artistic filters to photos, and generates creative illustrations from text and image inputs.",
+    features: [
+      "Anime Art Generation: Transform photos into anime style",
+      "AI Art Creation: Generate artwork from text prompts",
+      "Style Filters: Apply diverse artistic styles to photos",
+      "Portrait Enhancement: AI-powered face and portrait tools",
+      "Easy Interface: Simple and accessible creation workflow"
+    ],
+    howToUse: {
+      title: "How to Use Artguru Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload or Describe", description: "Either upload a photo for transformation or write a description for AI art generation." },
+        { title: "Choose Your Style", description: "Select the artistic style or anime aesthetic you want applied to your content." },
+        { title: "Generate Your Art", description: "Process your input through the AI for instant artistic transformation or creation." },
+        { title: "Download and Share", description: "Save your generated artwork and share it across your creative platforms and profiles." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photo to Anime", description: "Transforms regular photographs into high-quality anime-style illustrations with accurate style." },
+      { title: "Artistic Filter Range", description: "Offers diverse artistic styles from oil painting to watercolor and contemporary digital art." },
+      { title: "Accessibility Focus", description: "Provides a simple interface making AI art creation accessible to complete beginners." }
+    ],
+    useCases: [
+      { title: "Anime Fans", description: "Transform your photos into anime-style artwork for unique and personalized creative content." },
+      { title: "Social Media Users", description: "Create distinctive artistic versions of your photos for more engaging social media posts." },
+      { title: "Creative Hobbyists", description: "Explore AI art generation and photo transformation as a fun and rewarding creative activity." }
+    ]
+  },
+  "creatopy": {
+    whatIs: "Creatopy is an AI-powered design and ad creation platform that helps marketing teams produce animated banners, social media ads, and display advertising at scale with brand consistency automation.",
+    features: [
+      "AI Ad Generation: Create ads from text descriptions",
+      "Animated Banners: Professional animated display advertising",
+      "Brand Kit: Consistent branding applied across all designs",
+      "Bulk Export: Generate ads in multiple sizes simultaneously",
+      "Team Collaboration: Work with your team on designs together"
+    ],
+    howToUse: {
+      title: "How to Use Creatopy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Brand Kit", description: "Upload your brand colors, fonts, and logo for consistent application across all ad designs." },
+        { title: "Choose Your Format", description: "Select the ad format and sizes you need for your specific advertising campaign." },
+        { title: "Generate or Design", description: "Use AI generation or the design editor to create your advertising content." },
+        { title: "Export in Bulk", description: "Download your ads in all required sizes and formats for your advertising platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brand Consistency Automation", description: "Applies brand guidelines automatically across all created designs for consistent visual identity." },
+      { title: "Bulk Size Generation", description: "Produces ads in all required display advertising sizes simultaneously from one design." },
+      { title: "Animation Capability", description: "Creates professionally animated banner ads that capture attention in display advertising networks." }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "Produce consistent branded advertising across all formats efficiently without individual design work." },
+      { title: "Digital Advertisers", description: "Generate campaign ads in all required sizes and formats quickly for rapid campaign deployment." },
+      { title: "Brand Managers", description: "Maintain strict brand consistency across all advertising output with automated brand application." }
+    ]
+  },
+  "ai-linkedin-banners": {
+    whatIs: "AI LinkedIn Banners is a specialized tool that generates professional LinkedIn profile banners and background images tailored for personal branding, job seekers, and professional profile optimization.",
+    features: [
+      "LinkedIn Banners: Professional profile background generation",
+      "Personal Branding: Banners that communicate your expertise",
+      "Multiple Styles: Corporate creative and minimal options",
+      "Custom Text: Add your name title and key messages",
+      "Download Ready: LinkedIn-sized images for immediate upload"
+    ],
+    howToUse: {
+      title: "How to Use Ai Linkedin Banners",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Details", description: "Provide your name, job title, industry, and key professional message for your banner." },
+        { title: "Choose Your Style", description: "Select from professional, creative, minimal, or industry-specific banner design styles." },
+        { title: "Generate Your Banner", description: "Receive AI-generated LinkedIn banner options tailored to your professional profile." },
+        { title: "Download and Upload", description: "Save your chosen banner in LinkedIn's exact dimensions and upload to your profile immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "LinkedIn Optimization", description: "Creates banners specifically sized and designed for LinkedIn profile visual requirements." },
+      { title: "Personal Branding", description: "Generates banners that communicate professional identity and expertise clearly to profile visitors." },
+      { title: "Style Variety", description: "Offers multiple design aesthetics from corporate conservative to creative and personal styles." }
+    ],
+    useCases: [
+      { title: "Job Seekers", description: "Create a professional LinkedIn presence with a banner that supports your personal brand effectively." },
+      { title: "Professionals", description: "Update your LinkedIn profile with a polished banner that reinforces your professional identity." },
+      { title: "Entrepreneurs", description: "Showcase your business and expertise with a LinkedIn banner that attracts the right connections." }
+    ]
+  },
+  "product-hero": {
+    whatIs: "Product Hero is an AI product photography tool that generates professional studio-quality product images from simple photos, removing backgrounds and placing products in polished commercial photography settings.",
+    features: [
+      "AI Product Photography: Studio-quality product images instantly",
+      "Background Replacement: Place products in professional settings",
+      "Shadow and Lighting: Natural shadows and lighting added",
+      "Multiple Environments: Various studio and lifestyle backgrounds",
+      "E-commerce Ready: Images optimized for online store use"
+    ],
+    howToUse: {
+      title: "How to Use Product Hero",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Product Photo", description: "Take a simple photo of your product and upload it to Product Hero for transformation." },
+        { title: "Choose Your Background", description: "Select from studio white, lifestyle scenes, or contextual backgrounds for your product." },
+        { title: "Generate Professional Image", description: "Let AI remove the background and place your product in a professional photography setting." },
+        { title: "Download for Store", description: "Save your polished product image optimized for e-commerce listing use immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Background Intelligence", description: "Accurately removes product backgrounds and replaces with professional photography settings." },
+      { title: "Lighting Simulation", description: "Adds realistic shadows and lighting that make products look naturally photographed in scenes." },
+      { title: "E-commerce Optimization", description: "Produces images that meet the visual standards required by major e-commerce platforms." }
+    ],
+    useCases: [
+      { title: "E-commerce Sellers", description: "Create professional product photography without expensive studio sessions for your online store." },
+      { title: "Small Business Owners", description: "Showcase products with polished imagery that builds customer confidence and drives conversions." },
+      { title: "Product Marketers", description: "Generate diverse product imagery across multiple backgrounds for comprehensive marketing use." }
+    ]
+  },
+  "bannerify": {
+    whatIs: "Bannerify is an AI banner and display advertising creation tool that generates professional animated and static banners for digital advertising campaigns across all standard ad sizes quickly.",
+    features: [
+      "Banner Generation: Create display ads in all standard sizes",
+      "Animation Support: Animated banner ads created automatically",
+      "Campaign Scaling: Generate entire campaign sets at once",
+      "Brand Consistency: Apply brand elements across all banners",
+      "Export Ready: Download in formats for all ad platforms"
+    ],
+    howToUse: {
+      title: "How to Use Bannerify",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Campaign", description: "Input your campaign message, brand details, and the ad sizes you need for your campaign." },
+        { title: "Generate Your Banners", description: "Let Bannerify create professional banners in all your required sizes simultaneously." },
+        { title: "Review and Adjust", description: "Check all generated banners and make adjustments to any that need refinement." },
+        { title: "Export Your Campaign", description: "Download your complete banner set in the correct formats for your advertising platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Bulk Size Generation", description: "Produces banners in all standard ad sizes simultaneously from one campaign configuration." },
+      { title: "Animation Automation", description: "Creates animated banner variations automatically without separate animation production work." },
+      { title: "Campaign Completeness", description: "Delivers entire campaign banner sets ready for deployment across advertising networks." }
+    ],
+    useCases: [
+      { title: "Digital Advertisers", description: "Launch complete banner campaigns quickly without designing each size individually." },
+      { title: "Marketing Agencies", description: "Produce client banner campaigns efficiently at scale without excessive production time." },
+      { title: "E-commerce Brands", description: "Generate diverse banner advertising sets for product promotion campaigns across networks." }
+    ]
+  },
+  "youcam-app": {
+    whatIs: "YouCam is an AI-powered beauty and camera app suite that provides real-time makeup try-on, skin analysis, photo editing, and beauty enhancement tools for personal style exploration and social media content.",
+    features: [
+      "Real-Time Makeup Try-On: See makeup on your face live",
+      "Skin Analysis: AI assessment of your skin condition",
+      "Photo Beautification: Enhance selfies with AI beauty tools",
+      "Style Simulation: Try hairstyles and looks virtually",
+      "Beauty Filters: Diverse filters for creative photo content"
+    ],
+    howToUse: {
+      title: "How to Use Youcam App",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open YouCam", description: "Launch the YouCam app on your smartphone for beauty tools and camera features." },
+        { title: "Try Makeup Virtually", description: "Use the real-time try-on feature to see different makeup looks on your face live." },
+        { title: "Analyze Your Skin", description: "Run the skin analysis tool to understand your skin condition and get personalized advice." },
+        { title: "Edit and Enhance", description: "Apply beauty enhancement tools to your selfies and photos for polished results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Try-On", description: "Applies makeup simulations to your live camera feed for instant virtual beauty testing." },
+      { title: "Skin Intelligence", description: "Analyzes skin condition and provides personalized recommendations based on detected issues." },
+      { title: "Photo Enhancement", description: "Applies sophisticated beauty retouching that looks natural while improving photo quality." }
+    ],
+    useCases: [
+      { title: "Beauty Enthusiasts", description: "Try unlimited makeup looks virtually before purchasing products or committing to a new style." },
+      { title: "Social Media Creators", description: "Create polished beauty content with AI enhancement tools for consistent visual quality." },
+      { title: "Skincare Users", description: "Get AI skin analysis to better understand your skin and make informed product decisions." }
+    ]
+  },
+  "spoiledchild": {
+    whatIs: "Spoiled Child is a personalized haircare and skincare brand that uses AI-powered quizzes to match customers with customized products formulated specifically for their hair type, concerns, and beauty goals.",
+    features: [
+      "Personalized Quiz: AI matches products to your specific needs",
+      "Custom Formulations: Products tailored to individual profiles",
+      "Hair and Skin: Covers both haircare and skincare categories",
+      "Subscription Model: Ongoing personalized product delivery",
+      "Scientific Approach: Formulations based on your exact profile"
+    ],
+    howToUse: {
+      title: "How to Use Spoiledchild",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Take the Quiz", description: "Complete Spoiled Child's detailed quiz about your hair type, concerns, lifestyle, and goals." },
+        { title: "Review Your Recommendations", description: "See which specific product formulations the AI has matched to your unique profile." },
+        { title: "Subscribe to Your Products", description: "Set up your personalized product subscription for regular customized delivery." },
+        { title: "Track Your Progress", description: "Monitor your hair and skin improvements and update your profile as your needs change." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Personalization Engine", description: "Analyzes quiz responses to match customers with the most appropriate product formulations." },
+      { title: "Custom Formulation", description: "Creates products with specific ingredient combinations matched to individual customer profiles." },
+      { title: "Continuous Refinement", description: "Allows profile updates so recommendations evolve as your hair and skin needs change." }
+    ],
+    useCases: [
+      { title: "Hair Care Seekers", description: "Get hair products actually formulated for your specific hair type and concerns not generic solutions." },
+      { title: "Skincare Enthusiasts", description: "Receive personalized skincare matched to your actual skin profile for more effective results." },
+      { title: "Beauty Subscribers", description: "Enjoy convenient ongoing delivery of customized beauty products tailored to your personal needs." }
+    ]
+  },
+  "the-good-face-project": {
+    whatIs: "The Good Face Project is an AI-powered skincare ingredient analysis tool that evaluates cosmetic products for ingredient safety, potential irritants, and compatibility with different skin types and concerns.",
+    features: [
+      "Ingredient Analysis: AI evaluates product ingredient safety",
+      "Skin Type Compatibility: Check product fit for your skin",
+      "Irritant Detection: Identify potentially problematic ingredients",
+      "Product Comparison: Compare multiple products easily",
+      "Database Coverage: Large cosmetic product ingredient database"
+    ],
+    howToUse: {
+      title: "How to Use The Good Face Project",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Product", description: "Enter your skincare product name to find it in the Good Face Project database." },
+        { title: "Review Ingredient Analysis", description: "See the AI evaluation of each ingredient including safety ratings and potential concerns." },
+        { title: "Check Skin Compatibility", description: "Input your skin type and concerns to see how well the product matches your specific profile." },
+        { title: "Compare Alternatives", description: "Compare your product against alternatives to find the safest and most suitable option." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Ingredient Safety Scoring", description: "Rates every cosmetic ingredient for safety and potential irritation based on research data." },
+      { title: "Skin Compatibility Matching", description: "Checks product ingredient profiles against different skin types for personalized compatibility assessment." },
+      { title: "Large Product Database", description: "Covers thousands of skincare products enabling analysis without manual ingredient research." }
+    ],
+    useCases: [
+      { title: "Skincare Consumers", description: "Make informed purchasing decisions by understanding exactly what is in your skincare products." },
+      { title: "Sensitive Skin Users", description: "Identify and avoid ingredients that are known to cause reactions with your specific skin type." },
+      { title: "Clean Beauty Seekers", description: "Find products with safe and clean ingredient profiles that meet your personal standards." }
+    ]
+  },
+  "my-color-analysis-ai": {
+    whatIs: "My Color Analysis AI is a personalized color analysis tool that determines your seasonal color type from photos and provides recommendations for clothing, makeup, and accessory colors that complement your natural coloring.",
+    features: [
+      "Color Season Analysis: Determine your personal color season",
+      "Photo-Based Assessment: AI analyzes your natural coloring",
+      "Color Palette: Receive your personalized color palette",
+      "Fashion Guidance: Color recommendations for clothing choices",
+      "Makeup Colors: Suitable makeup shades for your season"
+    ],
+    howToUse: {
+      title: "How to Use My Color Analysis Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Provide a clear natural-light photo showing your skin, hair, and eye coloring accurately." },
+        { title: "AI Analyzes Your Coloring", description: "Let the AI assess your undertones, contrast level, and natural coloring characteristics." },
+        { title: "Receive Your Season", description: "Get your personal color season classification and understand your coloring profile." },
+        { title: "Apply Your Palette", description: "Use your personalized color palette to guide clothing, makeup, and accessory choices." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photo Color Analysis", description: "Analyzes skin undertones, hair color, and eye coloring from photos for accurate season determination." },
+      { title: "Personalized Palette", description: "Generates a specific color palette matched to your individual coloring characteristics." },
+      { title: "Practical Application", description: "Provides actionable guidance on applying your color season to real fashion and beauty decisions." }
+    ],
+    useCases: [
+      { title: "Fashion Enthusiasts", description: "Discover your personal color season and shop more confidently for flattering colors in clothing." },
+      { title: "Makeup Lovers", description: "Find the most flattering makeup shades that harmonize naturally with your unique coloring." },
+      { title: "Style Seekers", description: "Build a more cohesive and flattering wardrobe by understanding which colors truly suit you best." }
+    ]
+  },
+  "looksmaxx": {
+    whatIs: "LooksMaxx is an AI appearance analysis tool that evaluates facial features and provides personalized recommendations for grooming, skincare, fitness, and style improvements to optimize your physical appearance.",
+    features: [
+      "Facial Analysis: AI assessment of your facial features",
+      "Improvement Tips: Personalized appearance enhancement advice",
+      "Grooming Guidance: Specific grooming recommendations provided",
+      "Style Suggestions: Fashion and style advice for your features",
+      "Progress Tracking: Monitor appearance improvements over time"
+    ],
+    howToUse: {
+      title: "How to Use Looksmaxx",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Submit a clear front-facing photo for AI facial analysis and assessment." },
+        { title: "Receive Your Analysis", description: "Get a detailed breakdown of your facial features with specific observations noted." },
+        { title: "Review Recommendations", description: "Study the personalized advice for grooming, skincare, fitness, and style improvements." },
+        { title: "Implement and Track", description: "Apply the recommendations and track your appearance improvements over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Facial Feature Analysis", description: "Provides objective assessment of facial symmetry, features, and proportions from photos." },
+      { title: "Personalized Recommendations", description: "Generates specific actionable advice tailored to your individual facial characteristics." },
+      { title: "Holistic Approach", description: "Covers grooming, skincare, fitness, and style for comprehensive appearance optimization guidance." }
+    ],
+    useCases: [
+      { title: "Appearance-Conscious Individuals", description: "Receive objective feedback and actionable advice for improving your overall physical presentation." },
+      { title: "Grooming Enthusiasts", description: "Get specific personalized grooming recommendations suited to your facial features and type." },
+      { title: "Style Seekers", description: "Discover which fashion and style choices work best for your specific facial structure and features." }
+    ]
+  },
+  "reportins": {
+    whatIs: "Reportins is an AI report generation and data visualization tool that transforms raw data into professional reports, charts, and business intelligence documents for efficient data communication and presentation.",
+    features: [
+      "Auto Report Generation: Professional reports from data automatically",
+      "Data Visualization: Charts and graphs created automatically",
+      "Multiple Formats: Reports in PDF Word and other formats",
+      "AI Insights: Key findings highlighted by AI analysis",
+      "Template Library: Professional report templates available"
+    ],
+    howToUse: {
+      title: "How to Use Reportins",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Data", description: "Upload your data file or connect your data source to Reportins for report generation." },
+        { title: "Select Your Template", description: "Choose a professional report template appropriate for your industry and report type." },
+        { title: "Generate Your Report", description: "Let AI create your professional report with charts, insights, and organized data presentation." },
+        { title: "Export and Share", description: "Download your report in your required format and share with stakeholders immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Chart Creation", description: "Generates appropriate visualizations for your data without manual chart building required." },
+      { title: "AI Insight Extraction", description: "Identifies and highlights the most important findings in your data for the report." },
+      { title: "Format Flexibility", description: "Delivers reports in multiple document formats for different stakeholder and platform needs." }
+    ],
+    useCases: [
+      { title: "Business Analysts", description: "Transform data into professional reports quickly without spending hours on manual formatting." },
+      { title: "Managers", description: "Generate regular performance reports efficiently for team and stakeholder communication." },
+      { title: "Consultants", description: "Produce polished client reports from raw data quickly for professional service delivery." }
+    ]
+  },
+  "mindimage": {
+    whatIs: "MindImage is an AI image generation tool that creates visual representations of concepts, ideas, and mental imagery from descriptive text prompts for creative visualization and concept exploration.",
+    features: [
+      "Concept Visualization: Turn abstract ideas into images",
+      "Creative Exploration: Visual brainstorming and ideation",
+      "Text to Image: Descriptive prompts create unique visuals",
+      "Multiple Styles: Various artistic and realistic options",
+      "Fast Generation: Images created quickly from concepts"
+    ],
+    howToUse: {
+      title: "How to Use Mindimage",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Concept", description: "Write a detailed description of the idea, concept, or mental image you want visualized." },
+        { title: "Choose Your Style", description: "Select the visual style that best represents how you want your concept expressed visually." },
+        { title: "Generate Your Image", description: "Receive AI-generated visual representations of your described concept or idea." },
+        { title: "Explore and Iterate", description: "Refine your prompt to explore different visual interpretations of your core concept." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Concept Translation", description: "Accurately translates abstract conceptual descriptions into coherent visual representations." },
+      { title: "Ideation Support", description: "Serves as a visual brainstorming tool for exploring concepts through generated imagery." },
+      { title: "Style Flexibility", description: "Generates concept visuals across realistic, abstract, and artistic styles for diverse needs." }
+    ],
+    useCases: [
+      { title: "Creative Professionals", description: "Visualize concepts and ideas quickly for presentations, pitches, and creative development." },
+      { title: "Designers", description: "Explore visual directions for projects through AI-generated concept imagery rapidly." },
+      { title: "Educators", description: "Create visual representations of abstract concepts for more engaging educational materials." }
+    ]
+  },
+  "mover": {
+    whatIs: "Mover is an AI-powered image animation tool that adds realistic motion to still photographs and artwork, creating living images with natural movement for more engaging visual content on social media and beyond.",
+    features: [
+      "Image Animation: Add motion to still photos and artwork",
+      "Realistic Movement: Natural fluid animation generation",
+      "Multiple Effects: Various motion types and animation styles",
+      "Social Ready: Animated images for social media sharing",
+      "Easy Process: Simple upload and animate workflow"
+    ],
+    howToUse: {
+      title: "How to Use Mover",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Select the still photo or artwork you want to bring to life with AI animation." },
+        { title: "Choose Motion Type", description: "Select the type of animation and movement you want applied to your image content." },
+        { title: "Generate Animation", description: "Let the AI analyze your image and apply realistic natural movement throughout." },
+        { title: "Download and Share", description: "Save your animated image as a video file and share it across social media platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Motion Intelligence", description: "Applies natural-looking movement that respects the content and composition of the image." },
+      { title: "Effect Variety", description: "Offers multiple animation types from subtle parallax to more dramatic motion effects." },
+      { title: "Social Optimization", description: "Exports animated images in formats optimized for sharing on social media platforms." }
+    ],
+    useCases: [
+      { title: "Photographers", description: "Bring your best still photos to life with captivating animation for social media engagement." },
+      { title: "Artists", description: "Add motion dimension to your artwork creating living pieces that capture viewer attention." },
+      { title: "Social Media Creators", description: "Create eye-catching animated content that stands out in social media feeds and stories." }
+    ]
+  },
   "meshy": {
     whatIs: "Meshy is an AI 3D model generation platform that creates detailed 3D assets from text prompts and images in minutes, enabling game developers, designers, and creators to build 3D content without specialized modeling skills.",
     features: [
