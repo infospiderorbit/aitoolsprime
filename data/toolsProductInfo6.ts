@@ -1,4 +1,394 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "coverdesign-ai": {
+    whatIs: "CoverDesignAI is an AI book cover design tool that generates professional and eye-catching book covers for authors and publishers from genre, title, and style preferences without needing graphic design skills.",
+    features: [
+      "AI Cover Generation: Professional book covers from prompts",
+      "Genre Aware: Covers styled for specific book genres",
+      "Custom Text: Title author name and subtitle placement",
+      "Multiple Options: Several cover designs per request",
+      "High Resolution: Print-ready cover files included"
+    ],
+    howToUse: {
+      title: "How to Use Coverdesign Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Book Details", description: "Provide your book title, author name, genre, and any specific visual preferences for your cover." },
+        { title: "Select Your Style", description: "Choose the genre-specific style and aesthetic direction for your book cover design." },
+        { title: "Generate Your Covers", description: "Receive multiple AI-generated cover design options tailored to your book specifications." },
+        { title: "Download Print-Ready", description: "Save your chosen cover design in high resolution suitable for both print and digital publishing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Genre Intelligence", description: "Understands visual conventions for different book genres to produce market-appropriate cover designs." },
+      { title: "Text Integration", description: "Incorporates book title and author name into designs with professional typography and placement." },
+      { title: "Print Resolution", description: "Delivers cover files at the resolution required for both print-on-demand and traditional publishing." }
+    ],
+    useCases: [
+      { title: "Self-Published Authors", description: "Create professional book covers without hiring designers that compete visually with traditionally published books." },
+      { title: "Indie Publishers", description: "Produce diverse cover design options quickly for multiple titles across different genres." },
+      { title: "Authors on a Budget", description: "Get market-quality book covers at a fraction of professional graphic design service costs." }
+    ]
+  },
+  "book-ai-writer": {
+    whatIs: "Book AI Writer is an AI writing assistant that helps authors plan, draft, and complete books faster by generating chapter outlines, writing prose, overcoming writer's block, and maintaining consistent narrative voice.",
+    features: [
+      "Book Outlining: Generate complete book structure and chapters",
+      "Prose Generation: AI writes full chapters and sections",
+      "Writer's Block Help: Continue stories when stuck creatively",
+      "Voice Consistency: Maintain writing style throughout the book",
+      "Genre Support: Fiction non-fiction and all book types"
+    ],
+    howToUse: {
+      title: "How to Use Book Ai Writer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Book", description: "Enter your book concept, genre, target audience, and any existing ideas or outlines you have." },
+        { title: "Generate Your Outline", description: "Receive a complete chapter-by-chapter book outline to guide your writing process." },
+        { title: "Write With AI", description: "Use AI to draft chapters, scenes, or sections while maintaining your narrative voice." },
+        { title: "Review and Edit", description: "Read through AI-generated content and refine it to match your personal writing style exactly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Structural Planning", description: "Creates complete book outlines with logical chapter progression and narrative arc development." },
+      { title: "Prose Generation", description: "Writes actual book content rather than just outlines for truly accelerated writing production." },
+      { title: "Voice Preservation", description: "Learns and maintains your writing style across generated content for consistent voice throughout." }
+    ],
+    useCases: [
+      { title: "Aspiring Authors", description: "Complete your first book faster with AI assistance that helps overcome the challenges of long-form writing." },
+      { title: "Professional Writers", description: "Speed up book production timelines by using AI for first drafts that you then refine and improve." },
+      { title: "Non-Fiction Authors", description: "Structure and draft information-dense books more efficiently with AI writing assistance throughout." }
+    ]
+  },
+  "book-design-tool": {
+    whatIs: "Book Design Tool is an AI-powered interior book formatting and design platform that helps authors create professionally typeset book interiors for print-on-demand publishing without traditional layout software.",
+    features: [
+      "Interior Formatting: Professional book interior layout",
+      "Print-on-Demand Ready: Formatted for KDP IngramSpark and more",
+      "Chapter Styling: Consistent chapter heading and body formatting",
+      "Image Placement: Insert images into layouts correctly",
+      "Export Ready: Download in required publishing formats"
+    ],
+    howToUse: {
+      title: "How to Use Book Design Tool",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Manuscript", description: "Upload your finished manuscript file for professional interior formatting and layout." },
+        { title: "Choose Your Style", description: "Select from available formatting styles appropriate for your book genre and preferences." },
+        { title: "Review Your Layout", description: "Preview your professionally formatted book interior and check all pages for accuracy." },
+        { title: "Export for Publishing", description: "Download your formatted book interior in the exact file format required by your publisher." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Publishing Platform Compatibility", description: "Formats book interiors to meet the specific requirements of KDP, IngramSpark, and others." },
+      { title: "Consistent Styling", description: "Applies uniform professional formatting throughout the entire book interior automatically." },
+      { title: "Image Handling", description: "Correctly positions and formats images within book layouts for proper print reproduction." }
+    ],
+    useCases: [
+      { title: "Self-Published Authors", description: "Format your book interior professionally without learning complex desktop publishing software." },
+      { title: "Indie Authors", description: "Prepare print-ready manuscripts efficiently for multiple publishing platform requirements." },
+      { title: "Non-Fiction Writers", description: "Create professionally laid out books with proper image and text formatting for print publishing." }
+    ]
+  },
+  "amazonkdp-click": {
+    whatIs: "AmazonKDP.Click is a resource and tool platform that helps self-publishing authors navigate Kindle Direct Publishing, optimize their book listings, and improve their Amazon sales and discoverability.",
+    features: [
+      "KDP Guidance: Step-by-step self-publishing assistance",
+      "Listing Optimization: Improve your Amazon book page",
+      "Keyword Research: Find discoverable keywords for your book",
+      "Category Selection: Choose the best categories for ranking",
+      "Publishing Tools: Resources for the complete KDP process"
+    ],
+    howToUse: {
+      title: "How to Use Amazonkdp Click",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Research Your Market", description: "Use the platform tools to research successful books in your genre and target market." },
+        { title: "Find Your Keywords", description: "Identify high-traffic low-competition keywords for your book's Amazon listing optimization." },
+        { title: "Optimize Your Listing", description: "Apply recommendations to improve your book title, description, and metadata for discovery." },
+        { title: "Publish and Monitor", description: "Complete your KDP publishing process and track your book's performance and rankings." }
+      ]
+    },
+    coreFeatures: [
+      { title: "KDP-Specific Guidance", description: "Provides advice tailored to the specific mechanics and best practices of Amazon's KDP platform." },
+      { title: "Keyword Intelligence", description: "Identifies relevant keywords that help books get discovered by the right Amazon readers." },
+      { title: "Category Optimization", description: "Guides selection of book categories that offer the best ranking and visibility opportunities." }
+    ],
+    useCases: [
+      { title: "First-Time Self-Publishers", description: "Navigate the KDP publishing process confidently with expert guidance at every step." },
+      { title: "Existing KDP Authors", description: "Improve underperforming book listings with better keywords, categories, and optimization strategies." },
+      { title: "Prolific Self-Publishers", description: "Scale your Amazon publishing operation with efficient tools for listing optimization and research." }
+    ]
+  },
+  "my-real-estate-listing": {
+    whatIs: "My Real Estate Listing is an AI tool that helps real estate agents and homeowners create compelling property listing descriptions, optimize photos, and generate marketing content for faster and better property sales.",
+    features: [
+      "Listing Description: AI-written property descriptions",
+      "Photo Enhancement: Improve real estate photography with AI",
+      "Marketing Copy: Generate social media and ad content",
+      "SEO Optimization: Listings optimized for search visibility",
+      "Fast Creation: Professional listings generated quickly"
+    ],
+    howToUse: {
+      title: "How to Use My Real Estate Listing",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Property Details", description: "Provide your property specifications, features, location highlights, and any selling points." },
+        { title: "Generate Your Description", description: "Receive a compelling AI-written listing description that highlights your property's best features." },
+        { title: "Enhance Your Photos", description: "Upload property photos for AI enhancement that makes spaces look their absolute best." },
+        { title: "Create Marketing Content", description: "Generate social media posts and ad copy to promote your listing across all channels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Compelling Description Writing", description: "Creates engaging property descriptions that highlight key selling points and attract buyer interest." },
+      { title: "Photo Enhancement", description: "Improves real estate photography quality to make properties look more attractive to potential buyers." },
+      { title: "Marketing Content Generation", description: "Produces diverse marketing materials from one property input for comprehensive promotion." }
+    ],
+    useCases: [
+      { title: "Real Estate Agents", description: "Create professional listing content faster for more properties without sacrificing quality or detail." },
+      { title: "Homeowners Selling", description: "Write compelling listing descriptions for FSBO properties without real estate copywriting experience." },
+      { title: "Property Managers", description: "Generate rental listing content quickly for efficient property marketing and vacancy reduction." }
+    ]
+  },
+  "storydoc": {
+    whatIs: "Storydoc is an AI-powered presentation and proposal creation platform that helps sales and marketing teams build interactive decks that convert better than traditional PDF presentations through engaging digital formats.",
+    features: [
+      "Interactive Presentations: Engaging digital deck creation",
+      "AI Content Generation: Slides written by AI from your input",
+      "Sales Proposals: Convert-focused proposal templates",
+      "Analytics: Track who views your presentations and when",
+      "CRM Integration: Connect with your sales tools"
+    ],
+    howToUse: {
+      title: "How to Use Storydoc",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Deck", description: "Start a new Storydoc presentation and enter your core message and content requirements." },
+        { title: "AI Builds Your Slides", description: "Let the AI generate slide content and structure from your provided information and goals." },
+        { title: "Customize Design", description: "Adjust the visual design, branding, and layout to match your company and audience." },
+        { title: "Share and Track", description: "Send your interactive presentation and monitor engagement analytics in real time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Interactive Format", description: "Creates scrollable interactive presentations that engage readers more than static PDF slides." },
+      { title: "AI Slide Writing", description: "Generates complete slide content from your input rather than requiring manual writing for each slide." },
+      { title: "Engagement Analytics", description: "Tracks exactly who viewed your deck, how long, and which sections captured the most attention." }
+    ],
+    useCases: [
+      { title: "Sales Teams", description: "Create interactive proposals that stand out and convert better than traditional PDF presentations." },
+      { title: "Marketing Teams", description: "Build engaging marketing decks and one-pagers with interactive elements that captivate audiences." },
+      { title: "Startups", description: "Produce professional investor decks quickly with AI content generation and interactive design." }
+    ]
+  },
+  "clevopy-ai": {
+    whatIs: "Clevopy AI is an AI copywriting platform that generates high-quality marketing copy, social media content, email campaigns, and business writing across dozens of specialized templates for diverse needs.",
+    features: [
+      "Marketing Copy: Professional copy for all channels",
+      "70+ Templates: Specialized copy templates for every need",
+      "Social Media: Platform-specific content generation",
+      "Email Campaigns: Engaging email copy created instantly",
+      "Multiple Languages: Copy generated in many languages"
+    ],
+    howToUse: {
+      title: "How to Use Clevopy Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Select from 70+ specialized templates covering your specific copywriting need and format." },
+        { title: "Enter Your Details", description: "Provide your product, audience, tone, and key messages for the AI to work with." },
+        { title: "Generate Your Copy", description: "Receive professionally written copy tailored to your chosen template and specifications." },
+        { title: "Refine and Use", description: "Edit the generated copy to add your personal touch and deploy across your channels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Template Breadth", description: "Covers over 70 copy formats from social captions to long-form sales pages comprehensively." },
+      { title: "Quality Consistency", description: "Produces professional-quality copy across all templates without inconsistency or quality drops." },
+      { title: "Language Support", description: "Generates copy in multiple languages for international marketing and diverse audience reach." }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "Produce diverse high-quality copy across all channels efficiently without copywriting staff." },
+      { title: "Business Owners", description: "Create professional marketing materials independently without expensive copywriting services." },
+      { title: "Agencies", description: "Generate client copy across multiple formats quickly while maintaining quality standards." }
+    ]
+  },
+  "popl": {
+    whatIs: "Popl is a digital business card and networking platform that replaces physical cards with NFC-enabled digital profiles that can be shared instantly with a tap, including AI tools for follow-up and contact management.",
+    features: [
+      "Digital Business Cards: NFC-enabled contact sharing",
+      "Profile Creation: Professional digital profile pages",
+      "AI Follow-Up: Automated follow-up message generation",
+      "Contact Management: Organize connections from events",
+      "Analytics: Track who views your digital card"
+    ],
+    howToUse: {
+      title: "How to Use Popl",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Profile", description: "Set up your Popl digital profile with your contact details, social links, and professional information." },
+        { title: "Get Your Popl Device", description: "Activate your NFC card, band, or phone tag for instant contact sharing at meetings and events." },
+        { title: "Share Your Profile", description: "Tap your Popl device to any smartphone to instantly share your full digital profile." },
+        { title: "Manage Your Connections", description: "Review collected contacts from events and use AI follow-up tools to stay connected." }
+      ]
+    },
+    coreFeatures: [
+      { title: "NFC Technology", description: "Enables instant contact sharing with a simple tap to any NFC-enabled smartphone." },
+      { title: "Digital Profile Depth", description: "Creates comprehensive professional profiles beyond what physical business cards can contain." },
+      { title: "AI Follow-Up", description: "Generates personalized follow-up messages for connections made at networking events." }
+    ],
+    useCases: [
+      { title: "Sales Professionals", description: "Make memorable first impressions and follow up consistently with AI-assisted connection management." },
+      { title: "Networkers", description: "Share contact information effortlessly at events and conferences without running out of cards." },
+      { title: "Entrepreneurs", description: "Build a professional digital presence that communicates your brand when you make connections." }
+    ]
+  },
+  "brandmark-logo-maker": {
+    whatIs: "Brandmark is an AI logo design tool that creates unique professional logo designs from your business name and style preferences using machine learning to generate distinctive brand identities.",
+    features: [
+      "AI Logo Design: Unique logos from machine learning",
+      "Style Customization: Various logo aesthetics available",
+      "Color Intelligence: Smart color palette recommendations",
+      "Font Selection: Appropriate typography for your brand",
+      "Full Brand Kit: Logo variations and brand guidelines included"
+    ],
+    howToUse: {
+      title: "How to Use Brandmark Logo Maker",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Business Info", description: "Provide your business name, industry, and style keywords to guide the AI logo generation." },
+        { title: "Review Generated Logos", description: "Browse AI-generated logo concepts and explore the diverse design directions created." },
+        { title: "Customize Your Choice", description: "Adjust colors, fonts, icons, and sizing for the logo that best fits your vision." },
+        { title: "Download Your Brand Kit", description: "Purchase and download your logo with all variations and brand guideline documentation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Machine Learning Design", description: "Uses ML to generate logos that are genuinely unique rather than template-based combinations." },
+      { title: "Brand Kit Completeness", description: "Provides full brand documentation including color codes, font names, and usage guidelines." },
+      { title: "Color Intelligence", description: "Recommends color palettes based on your industry, style, and brand personality inputs." }
+    ],
+    useCases: [
+      { title: "Startups", description: "Launch with a distinctive brand identity that looks professionally designed from day one." },
+      { title: "Small Businesses", description: "Create a unique logo that stands out without paying premium design agency rates." },
+      { title: "Freelancers", description: "Build a personal brand identity with a professional logo for client-facing work." }
+    ]
+  },
+  "zoviz": {
+    whatIs: "Zoviz is an AI brand identity platform that generates complete brand packages including logos, color palettes, typography, and brand guidelines from simple business information for comprehensive brand creation.",
+    features: [
+      "Complete Brand Identity: Logo palette fonts and guidelines",
+      "AI Brand Generation: Full brand from business description",
+      "Brand Guidelines: Comprehensive documentation included",
+      "Multiple Logo Variations: Primary secondary and icon versions",
+      "Instant Download: Complete brand kit immediately available"
+    ],
+    howToUse: {
+      title: "How to Use Zoviz",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Brand", description: "Enter your business name, industry, values, and target audience for comprehensive brand generation." },
+        { title: "Review Your Brand", description: "See your complete AI-generated brand identity including logo, colors, and typography system." },
+        { title: "Customize Elements", description: "Adjust any brand elements that need refinement to perfectly match your vision." },
+        { title: "Download Your Kit", description: "Access your complete brand kit with all assets, files, and documentation included." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Brand Creation", description: "Generates an entire brand identity system rather than just a single logo file." },
+      { title: "Documentation Included", description: "Provides professional brand guidelines explaining how to use every brand element correctly." },
+      { title: "Variation Coverage", description: "Creates primary, secondary, and icon logo variations needed for diverse brand applications." }
+    ],
+    useCases: [
+      { title: "New Business Owners", description: "Launch with a complete professional brand identity without hiring a branding agency." },
+      { title: "Startups", description: "Establish comprehensive brand consistency from the start with full brand documentation." },
+      { title: "Solopreneurs", description: "Build a professional brand presence across all channels with a complete AI-generated kit." }
+    ]
+  },
+  "logome": {
+    whatIs: "Logome is an AI logo maker that creates professional business logos instantly from your company name and preferences, offering extensive customization and a complete brand asset package for new businesses.",
+    features: [
+      "Instant Logo Creation: Professional logos generated quickly",
+      "Extensive Customization: Adjust every design element freely",
+      "Brand Assets: Social media and business card templates",
+      "Multiple Formats: Download in SVG PNG and other formats",
+      "Free Preview: See logos before committing to purchase"
+    ],
+    howToUse: {
+      title: "How to Use Logome",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Company Name", description: "Type your business name and describe your industry and brand personality to start." },
+        { title: "Browse Logo Designs", description: "View your AI-generated logo options and explore different design directions." },
+        { title: "Customize Freely", description: "Modify colors, fonts, symbols, and layout until your logo feels perfectly right." },
+        { title: "Download Your Assets", description: "Purchase and download your logo with matching social media and business card templates." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Preview Access", description: "Shows full logo options before requiring payment for informed purchasing decisions." },
+      { title: "Asset Package", description: "Includes social media profile images, business card templates, and brand files together." },
+      { title: "Format Completeness", description: "Delivers logos in all formats needed for both digital use and professional printing." }
+    ],
+    useCases: [
+      { title: "New Entrepreneurs", description: "Create a professional logo and initial brand assets quickly when launching your business." },
+      { title: "Small Business Owners", description: "Get a complete visual identity package affordably for establishing brand consistency." },
+      { title: "Side Project Creators", description: "Design a professional logo for your project or venture without large upfront design costs." }
+    ]
+  },
+  "myimg-ai": {
+    whatIs: "Myimg AI is an AI image generation and editing platform that creates high-quality images from text prompts and provides editing tools for enhancing, transforming, and personalizing visual content.",
+    features: [
+      "Text to Image: Generate images from detailed descriptions",
+      "Image Editing: Enhance and transform existing images",
+      "Style Options: Multiple artistic and realistic styles",
+      "Fast Generation: Images created quickly from prompts",
+      "Download Ready: High-quality images for immediate use"
+    ],
+    howToUse: {
+      title: "How to Use Myimg Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Describe the image you want to create with specific visual details and style preferences." },
+        { title: "Select Your Style", description: "Choose the visual style from realistic to artistic that best fits your creative vision." },
+        { title: "Generate Your Image", description: "Submit your prompt and receive your AI-generated image for review." },
+        { title: "Edit if Needed", description: "Use editing tools to refine your generated image or upload existing images for enhancement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Prompt Interpretation", description: "Accurately translates detailed text descriptions into visually coherent and high-quality images." },
+      { title: "Editing Integration", description: "Combines generation and editing in one platform for complete image creation workflows." },
+      { title: "Style Versatility", description: "Produces images across realistic, artistic, illustrated, and other diverse visual styles." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Generate unique visual content for social media and projects without stock photo limitations." },
+      { title: "Designers", description: "Explore visual concepts quickly using AI image generation for creative ideation and prototyping." },
+      { title: "Marketers", description: "Create custom imagery for campaigns that perfectly matches your specific creative brief." }
+    ]
+  },
+  "colorcinch": {
+    whatIs: "Colorcinch is an online AI photo editor that transforms photos into artwork with artistic filters, cartoon effects, background removal, and creative effects for social media content and graphic design projects.",
+    features: [
+      "Cartoon Effects: Transform photos into cartoon artwork",
+      "AI Art Filters: Apply diverse artistic style filters",
+      "Background Removal: Clean background extraction tool",
+      "Photo Enhancement: Improve image quality automatically",
+      "Easy Editing: Simple interface for creative photo work"
+    ],
+    howToUse: {
+      title: "How to Use Colorcinch",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Import the photo you want to transform or edit using Colorcinch's creative tools." },
+        { title: "Apply Your Effect", description: "Choose from cartoon transformation, artistic filters, background removal, or enhancement tools." },
+        { title: "Customize Your Result", description: "Adjust the intensity and specific parameters of your chosen effect for the right look." },
+        { title: "Download Your Creation", description: "Save your artistically transformed photo for sharing on social media or using in projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cartoon Transformation", description: "Converts photographs into convincing cartoon and illustrated artwork with different style levels." },
+      { title: "Artistic Filter Range", description: "Offers diverse artistic style filters from oil painting to watercolor and digital illustration." },
+      { title: "Background Intelligence", description: "Removes photo backgrounds accurately for clean cutouts suitable for design use." }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "Transform selfies and photos into unique artistic content that stands out in feeds." },
+      { title: "Content Creators", description: "Create diverse visual styles from single photos for varied and engaging content output." },
+      { title: "Graphic Designers", description: "Use photo transformation and background removal for efficient design asset creation." }
+    ]
+  },
   "midjourney": {
     whatIs: "Midjourney is a leading AI image generation system that creates stunning high-quality artwork and photorealistic images from text prompts, known for its exceptional aesthetic quality and artistic coherence across diverse styles.",
     features: [
