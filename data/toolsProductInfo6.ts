@@ -1,4 +1,574 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "tiktok-emojis": {
+    whatIs: "TikTok Emojis is a reference and generator platform for TikTok's unique hidden emoji set that can be activated using special text codes in comments and captions on the TikTok platform.",
+    features: [
+      "Hidden Emoji Reference: Complete guide to TikTok secret emojis",
+      "Code Library: All TikTok emoji activation codes listed",
+      "Visual Preview: See exactly what each emoji looks like",
+      "Copy Function: One-click copy of emoji codes",
+      "Platform Specific: Exclusively for TikTok content use"
+    ],
+    howToUse: {
+      title: "How to Use Tiktok Emojis",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Library", description: "Explore the complete collection of TikTok's hidden emojis and their activation codes." },
+        { title: "Find Your Emoji", description: "Search or browse to find the specific TikTok secret emoji you want to use." },
+        { title: "Copy the Code", description: "Click to copy the text code that activates your chosen emoji on TikTok." },
+        { title: "Paste in TikTok", description: "Paste the code into your TikTok comment or caption to display the hidden emoji." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Code Reference", description: "Provides every TikTok hidden emoji code in one organized and searchable library." },
+      { title: "Visual Preview", description: "Shows exactly how each secret emoji appears when activated on the TikTok platform." },
+      { title: "One-Click Copy", description: "Copies emoji codes instantly for immediate pasting into TikTok content without typing." }
+    ],
+    useCases: [
+      { title: "TikTok Creators", description: "Add unique TikTok-exclusive emojis to your content to look platform-savvy and engaging." },
+      { title: "TikTok Users", description: "Discover and use the secret emoji codes that make your TikTok comments stand out." },
+      { title: "Social Media Managers", description: "Use TikTok-specific emojis in brand account content to demonstrate platform authenticity." }
+    ]
+  },
+  "emojifyer": {
+    whatIs: "Emojifyer is an AI tool that transforms text and selfie photos into custom emoji-style images, creating personalized emoji versions of faces and converting words into visual emoji representations.",
+    features: [
+      "Face to Emoji: Transform selfies into emoji-style images",
+      "Text to Emoji Art: Convert text into emoji visual representations",
+      "Custom Emoji Creation: Personalized emoji from your photo",
+      "Multiple Styles: Various emoji art styles available",
+      "Social Ready: Emojis perfect for messaging and social media"
+    ],
+    howToUse: {
+      title: "How to Use Emojifyer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Selfie", description: "Take or upload a clear selfie photo for transformation into a personalized emoji image." },
+        { title: "Choose Your Style", description: "Select the emoji art style you want applied to your photo for the conversion." },
+        { title: "Generate Your Emoji", description: "Let the AI transform your selfie into a charming personalized emoji-style image." },
+        { title: "Download and Use", description: "Save your custom emoji and use it in messaging apps and social media content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Face Recognition", description: "Accurately identifies facial features to create recognizable emoji versions of real people." },
+      { title: "Style Variety", description: "Offers multiple emoji aesthetic styles from classic round emojis to illustrated character versions." },
+      { title: "Personalization", description: "Creates genuinely personalized emojis that resemble the specific person photographed." }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "Create a personalized emoji version of yourself for unique and fun online expression." },
+      { title: "Content Creators", description: "Generate custom emoji avatars for branding your online presence with a distinctive identity." },
+      { title: "Groups and Teams", description: "Create matching emoji versions of team members for fun and cohesive group identity." }
+    ]
+  },
+  "creative-fabrica-font-gen": {
+    whatIs: "Creative Fabrica Font Generator is an AI tool that creates unique custom font designs and lettering styles from descriptions, helping designers and creators develop original typography for projects.",
+    features: [
+      "AI Font Generation: Create unique font designs from descriptions",
+      "Custom Lettering: Original typography style creation",
+      "Multiple Styles: Serif sans-serif script and decorative fonts",
+      "Design Export: Download font files for use in projects",
+      "Creative Variety: Wide range of typography aesthetics"
+    ],
+    howToUse: {
+      title: "How to Use Creative Fabrica Font Gen",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Font", description: "Enter a description of the typography style and aesthetic you want the AI to generate." },
+        { title: "Generate Your Font", description: "Receive AI-created font design options based on your style description and preferences." },
+        { title: "Review Typography", description: "Assess the generated font for readability, style accuracy, and design quality." },
+        { title: "Download and Install", description: "Save your custom font file and install it for use in your design software." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Style Range", description: "Generates fonts across serif, sans-serif, script, display, and decorative categories." },
+      { title: "Original Creation", description: "Creates genuinely unique typography rather than modifying existing font templates." },
+      { title: "Design Software Compatibility", description: "Exports fonts in standard formats compatible with Adobe, Canva, and other design tools." }
+    ],
+    useCases: [
+      { title: "Graphic Designers", description: "Create unique custom typography for branding and design projects without type design expertise." },
+      { title: "Brand Designers", description: "Develop original font styles that give brands distinctive and memorable typographic identities." },
+      { title: "Content Creators", description: "Generate custom lettering for social media graphics, thumbnails, and visual content." }
+    ]
+  },
+  "gentype": {
+    whatIs: "Gentype is an AI alphabet and type design tool by Google that generates unique decorative letter sets and illustrated alphabets from text prompts for creative typography and design projects.",
+    features: [
+      "Illustrated Alphabets: Complete alphabet sets from descriptions",
+      "Decorative Letters: Ornate and artistic typography creation",
+      "AI Generation: Unique letter designs from text prompts",
+      "Full Sets: Complete A-Z alphabet generation available",
+      "Download Options: Save letter sets for design use"
+    ],
+    howToUse: {
+      title: "How to Use Gentype",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Style", description: "Enter a description of the illustrated alphabet style you want the AI to generate." },
+        { title: "Generate Your Alphabet", description: "Receive a complete AI-generated illustrated letter set in your described aesthetic style." },
+        { title: "Review Individual Letters", description: "Check each generated letter for consistency and quality across the full alphabet." },
+        { title: "Download Your Set", description: "Save your illustrated alphabet for use in design projects and creative applications." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Alphabet Generation", description: "Creates full illustrated alphabet sets rather than individual letters for comprehensive use." },
+      { title: "Style Diversity", description: "Generates alphabets across wildly different aesthetic directions from floral to geometric." },
+      { title: "Google AI Foundation", description: "Powered by Google's generative AI for creative and coherent alphabet design output." }
+    ],
+    useCases: [
+      { title: "Typographic Designers", description: "Create unique illustrated alphabets for editorial, branding, and decorative design use." },
+      { title: "Illustrators", description: "Generate decorative letter sets as starting points or finished elements for design work." },
+      { title: "Content Creators", description: "Use unique AI-generated alphabets for visually distinctive social media and marketing content." }
+    ]
+  },
+  "font-vibes": {
+    whatIs: "Font Vibes is an online font discovery and preview platform that helps designers find the perfect typography by previewing fonts in real designs and discovering trending font combinations for projects.",
+    features: [
+      "Font Preview: See fonts in actual design contexts",
+      "Font Combinations: Discover perfect font pairing suggestions",
+      "Trending Fonts: Discover what typography is popular now",
+      "Search and Filter: Find fonts by style mood and category",
+      "Free Font Discovery: Access font recommendations for free"
+    ],
+    howToUse: {
+      title: "How to Use Font Vibes",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Style", description: "Enter keywords describing the font mood or style you need for your design project." },
+        { title: "Preview in Context", description: "See how fonts look in actual design layouts rather than just specimen text examples." },
+        { title: "Find Combinations", description: "Discover font pairing suggestions that work harmoniously with your primary font choice." },
+        { title: "Download or Link", description: "Access your chosen fonts through Google Fonts or other connected font sources." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Contextual Preview", description: "Shows fonts in real design contexts helping designers make more informed typography choices." },
+      { title: "Pairing Intelligence", description: "Suggests font combinations that work harmoniously together based on typographic principles." },
+      { title: "Trend Discovery", description: "Surfaces currently popular fonts helping designers stay current with typography trends." }
+    ],
+    useCases: [
+      { title: "Graphic Designers", description: "Discover the perfect fonts for projects by previewing in context rather than abstract specimens." },
+      { title: "Web Designers", description: "Find font combinations that create cohesive and readable digital design typography systems." },
+      { title: "Marketers", description: "Select on-trend typography for marketing materials that feel current and professionally designed." }
+    ]
+  },
+  "typiq": {
+    whatIs: "Typiq is an AI typography and font design tool that generates unique typeface designs and custom lettering from text descriptions enabling designers to create original fonts for branding and creative projects.",
+    features: [
+      "AI Typeface Design: Generate fonts from text descriptions",
+      "Custom Typography: Original lettering style creation",
+      "Branding Focus: Typography designed for brand applications",
+      "Multiple Weights: Generate complete font families",
+      "Export Ready: Download fonts for professional design use"
+    ],
+    howToUse: {
+      title: "How to Use Typiq",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Typeface", description: "Enter a detailed description of the typography style, weight, and personality you want." },
+        { title: "Generate Your Font", description: "Receive AI-generated typeface designs based on your descriptive input and preferences." },
+        { title: "Refine Your Design", description: "Adjust specific letters or overall style characteristics to perfect your custom font." },
+        { title: "Export for Use", description: "Download your custom typeface for use across your branding and design projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brand Typography", description: "Creates fonts specifically suited for brand identity applications and consistent visual systems." },
+      { title: "Family Generation", description: "Generates complete font families with multiple weights for comprehensive typographic systems." },
+      { title: "Original Design", description: "Produces genuinely original typeface designs rather than variations of existing fonts." }
+    ],
+    useCases: [
+      { title: "Brand Designers", description: "Create original proprietary typefaces that give brands distinctive and ownable typography identities." },
+      { title: "Graphic Designers", description: "Generate custom fonts for specific projects that standard font libraries cannot provide." },
+      { title: "Creative Directors", description: "Develop unique typographic systems that differentiate brands from competitors using original fonts." }
+    ]
+  },
+  "designs-ai": {
+    whatIs: "Designs AI is a comprehensive AI creative platform that generates logos, videos, social media graphics, mockups, and brand identity assets from simple descriptions for businesses and creators.",
+    features: [
+      "AI Logo Maker: Professional logos from business descriptions",
+      "Video Generator: Marketing videos created automatically",
+      "Social Media Graphics: Platform-optimized visual content",
+      "Brand Identity: Complete brand asset generation",
+      "Multiple Tools: Comprehensive creative suite in one platform"
+    ],
+    howToUse: {
+      title: "How to Use Designs Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Creation", description: "Select from logos, videos, graphics, or other creative assets you need generated." },
+        { title: "Enter Your Details", description: "Provide your business name, industry, style preferences, and specific requirements." },
+        { title: "Generate Your Assets", description: "Let Designs AI produce professional creative assets from your provided information." },
+        { title: "Download Your Content", description: "Save your generated creative assets in the formats needed for your business use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Asset Generation", description: "Creates logos, videos, graphics, and brand assets from one integrated platform." },
+      { title: "Business Focus", description: "Designed for business branding needs with appropriate professional aesthetic standards." },
+      { title: "Speed of Creation", description: "Delivers diverse creative assets quickly for efficient business marketing and branding." }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Create comprehensive brand assets without hiring multiple specialized creative professionals." },
+      { title: "Startups", description: "Launch with professional-quality creative assets across all formats from one platform." },
+      { title: "Marketing Teams", description: "Generate diverse visual content for campaigns efficiently from one creative AI suite." }
+    ]
+  },
+  "kittl": {
+    whatIs: "Kittl is an AI-powered graphic design platform that helps creators make professional designs, t-shirt graphics, logos, and illustrations with AI generation tools and a vast template and asset library.",
+    features: [
+      "AI Design Generation: Professional graphics from descriptions",
+      "T-Shirt Design: Custom apparel graphic creation tools",
+      "Template Library: Thousands of professional templates",
+      "Illustration Assets: Rich library of design elements",
+      "Print Ready: Designs formatted for print-on-demand"
+    ],
+    howToUse: {
+      title: "How to Use Kittl",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Project", description: "Select the type of design you need such as t-shirt, logo, poster, or social graphic." },
+        { title: "Use Templates or AI", description: "Start from a professional template or use AI to generate your design from a description." },
+        { title: "Customize Your Design", description: "Adjust all design elements including typography, colors, and illustrations as needed." },
+        { title: "Export for Use", description: "Download your design in the format needed for digital use or print production." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Generation Quality", description: "Produces professional-quality designs from text descriptions with appropriate aesthetic standards." },
+      { title: "Print Optimization", description: "Exports designs in formats suitable for direct use with print-on-demand services." },
+      { title: "Asset Library Depth", description: "Provides extensive illustration, font, and design element resources for creative customization." }
+    ],
+    useCases: [
+      { title: "Print on Demand Sellers", description: "Create professional t-shirt and merchandise designs without graphic design expertise." },
+      { title: "Graphic Designers", description: "Speed up design production with AI generation and extensive template and asset libraries." },
+      { title: "Brand Creators", description: "Develop comprehensive brand visual assets efficiently using AI-powered design tools." }
+    ]
+  },
+  "recraft": {
+    whatIs: "Recraft is an AI vector and image generation tool that creates high-quality illustrations, icons, brand assets, and consistent image sets from text prompts with professional design standards.",
+    features: [
+      "Vector Generation: Create scalable vector graphics with AI",
+      "Illustration Creation: Professional illustrations from prompts",
+      "Brand Asset Sets: Consistent visual asset generation",
+      "Icon Design: Professional icon creation from descriptions",
+      "Style Consistency: Maintain visual style across image sets"
+    ],
+    howToUse: {
+      title: "How to Use Recraft",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Asset", description: "Enter a description of the illustration, icon, or brand asset you want created." },
+        { title: "Select Your Style", description: "Choose the visual style that matches your brand aesthetic and design requirements." },
+        { title: "Generate Your Asset", description: "Receive professional-quality vector illustrations or images from your description." },
+        { title: "Export Your Files", description: "Download in SVG, PNG, or other formats needed for your design workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Vector Output", description: "Generates scalable vector graphics appropriate for professional brand and print use." },
+      { title: "Style Consistency", description: "Maintains consistent visual style across multiple generated assets for brand cohesion." },
+      { title: "Professional Standards", description: "Produces illustrations and icons at the quality level expected in professional design work." }
+    ],
+    useCases: [
+      { title: "Brand Designers", description: "Create consistent icon sets and brand illustrations with unified visual style efficiently." },
+      { title: "UI/UX Designers", description: "Generate professional interface icons and illustrations without traditional illustration skills." },
+      { title: "Startup Founders", description: "Develop complete brand visual asset libraries without expensive illustration commissions." }
+    ]
+  },
+  "pixelied": {
+    whatIs: "Pixelied is an online graphic design platform that provides professional design templates, AI image generation, and editing tools for creating social media graphics, banners, and marketing visuals.",
+    features: [
+      "Design Templates: Professional templates for all formats",
+      "AI Image Generation: Create images from text prompts",
+      "Background Removal: Clean background extraction tool",
+      "Brand Kit: Consistent branding application tools",
+      "Team Collaboration: Work together on design projects"
+    ],
+    howToUse: {
+      title: "How to Use Pixelied",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Browse templates by format or use case and select one that fits your project." },
+        { title: "Customize Your Design", description: "Edit text, colors, images, and layout elements to match your specific requirements." },
+        { title: "Use AI Tools", description: "Apply AI image generation or background removal to enhance your design content." },
+        { title: "Export and Share", description: "Download your design in the appropriate format or share directly to platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Template Library", description: "Provides professional templates across social media, marketing, and business design formats." },
+      { title: "AI Integration", description: "Incorporates AI image generation and background removal directly into the design workflow." },
+      { title: "Brand Consistency", description: "Applies consistent brand colors, fonts, and assets across all created design content." }
+    ],
+    useCases: [
+      { title: "Social Media Managers", description: "Create professional graphics for all platforms quickly using templates and AI tools." },
+      { title: "Marketing Teams", description: "Produce consistent branded visual content for campaigns efficiently in one platform." },
+      { title: "Small Business Owners", description: "Design marketing materials professionally without graphic design training or expensive software." }
+    ]
+  },
+  "hairstyle-ai": {
+    whatIs: "Hairstyle AI is an AI hair simulation tool that lets users try different hairstyles, colors, and cuts virtually on their own photos before making real hair change decisions at the salon.",
+    features: [
+      "Virtual Hairstyle Try-On: See styles on your actual photo",
+      "Hair Color Preview: Try different hair colors virtually",
+      "Cut Simulation: Preview haircut changes before committing",
+      "Multiple Styles: Hundreds of hairstyle options available",
+      "Salon Ready: Go to salon confident in your choice"
+    ],
+    howToUse: {
+      title: "How to Use Hairstyle Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Take or upload a clear photo with your hair and face visible for hairstyle simulation." },
+        { title: "Browse Hairstyles", description: "Explore available hairstyle options including cuts, lengths, and style categories." },
+        { title: "Try Your Style", description: "Apply your chosen hairstyle virtually to see how it looks on your actual features." },
+        { title: "Compare Options", description: "Try multiple styles side by side to find the one that best suits your face shape." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Realistic Simulation", description: "Applies hairstyles to photos with natural-looking results that accurately represent changes." },
+      { title: "Color Accuracy", description: "Shows hair color changes with realistic tone representation on your actual hair texture." },
+      { title: "Style Breadth", description: "Offers hundreds of style options covering current trends and classic looks for all hair types." }
+    ],
+    useCases: [
+      { title: "Anyone Considering a Hair Change", description: "See how a new hairstyle or color will look on you before committing to the real change." },
+      { title: "Salon Clients", description: "Arrive at your salon appointment with a clear visual reference for your desired new look." },
+      { title: "Style Experimenters", description: "Explore radical hair changes virtually without risk for creative self-expression exploration." }
+    ]
+  },
+  "haircutai": {
+    whatIs: "HaircutAI is an AI-powered hairstyle recommendation and simulation tool that analyzes your face shape and features to suggest the most flattering haircuts and virtually shows them on your photo.",
+    features: [
+      "Face Shape Analysis: AI determines your face shape accurately",
+      "Personalized Recommendations: Haircuts suited to your features",
+      "Virtual Try-On: See recommended cuts on your photo",
+      "Style Guidance: Advice on what works for your face type",
+      "Multiple Options: Several tailored recommendations provided"
+    ],
+    howToUse: {
+      title: "How to Use Haircutai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Provide a clear front-facing photo for face shape analysis and hairstyle recommendations." },
+        { title: "Get Your Analysis", description: "Receive an assessment of your face shape and features that guides style recommendations." },
+        { title: "See Recommendations", description: "Review personalized haircut suggestions specifically suited to your face shape and features." },
+        { title: "Try Styles Virtually", description: "Apply recommended haircuts to your photo to see how each would look on you." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Face Shape Intelligence", description: "Accurately determines face shape categories for genuinely personalized style recommendations." },
+      { title: "Personalized Guidance", description: "Provides haircut advice based on individual facial features rather than generic suggestions." },
+      { title: "Try-On Integration", description: "Combines face analysis with virtual try-on for a complete hairstyle discovery experience." }
+    ],
+    useCases: [
+      { title: "Hair Change Seekers", description: "Get personalized professional-level haircut recommendations based on your unique facial features." },
+      { title: "Salon First-Timers", description: "Find out which haircut styles actually suit your face type before your first consultation." },
+      { title: "Style Explorers", description: "Discover new hairstyle directions suited to your features that you might never have considered." }
+    ]
+  },
+  "creatie": {
+    whatIs: "Creatie is an AI-powered design platform that helps teams create UI designs, presentations, and marketing materials with AI generation and collaborative design tools for efficient creative production.",
+    features: [
+      "AI Design Generation: Create designs from descriptions",
+      "UI Design Tools: Professional interface design capabilities",
+      "Team Collaboration: Real-time multi-user design editing",
+      "Template Library: Professional starting templates",
+      "Export Options: Multiple format export for all use cases"
+    ],
+    howToUse: {
+      title: "How to Use Creatie",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Project", description: "Create a new design project and choose between AI generation or template-based starting point." },
+        { title: "Generate or Design", description: "Use AI to generate your design or build manually with professional design tools available." },
+        { title: "Collaborate with Team", description: "Invite teammates to work on the design together with real-time collaborative editing." },
+        { title: "Export Your Design", description: "Download your finished design in the format needed for your intended use and platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Generation", description: "Creates initial designs from text descriptions for rapid creative starting points." },
+      { title: "Real-Time Collaboration", description: "Enables multiple team members to edit simultaneously with live changes visible to all." },
+      { title: "Professional Tool Quality", description: "Provides design capabilities suitable for professional-grade UI and marketing design work." }
+    ],
+    useCases: [
+      { title: "Design Teams", description: "Collaborate on UI and marketing designs efficiently with AI assistance and real-time editing." },
+      { title: "Product Managers", description: "Create wireframes and design mockups quickly without waiting for dedicated designer availability." },
+      { title: "Marketing Teams", description: "Produce professional marketing design assets rapidly using AI generation and team collaboration." }
+    ]
+  },
+  "pixcap": {
+    whatIs: "Pixcap is an AI-powered 3D design platform that provides customizable 3D icons, illustrations, and characters for designers and developers to use in UI/UX design, presentations, and digital products.",
+    features: [
+      "3D Icons: Customizable 3D icon library for design use",
+      "3D Illustrations: Professional 3D scene and character assets",
+      "AI Generation: Generate 3D assets from text descriptions",
+      "Customization: Adjust colors materials and styles freely",
+      "Export Formats: Download in PNG GLB and other formats"
+    ],
+    howToUse: {
+      title: "How to Use Pixcap",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse or Generate", description: "Explore the 3D asset library or use AI generation to create custom 3D icons and illustrations." },
+        { title: "Customize Your Asset", description: "Adjust the colors, materials, lighting, and style of your chosen 3D element." },
+        { title: "Preview in Context", description: "See how your customized 3D asset looks in a design or interface context." },
+        { title: "Export Your Asset", description: "Download in PNG for static use or GLB format for 3D and interactive applications." }
+      ]
+    },
+    coreFeatures: [
+      { title: "3D Asset Quality", description: "Provides professionally designed 3D assets at the quality expected in modern digital product design." },
+      { title: "Deep Customization", description: "Allows extensive color, material, and style modification for brand-consistent asset creation." },
+      { title: "Format Flexibility", description: "Exports in formats suitable for both static design use and interactive 3D applications." }
+    ],
+    useCases: [
+      { title: "UI/UX Designers", description: "Enhance interface designs with high-quality customizable 3D icons and illustration elements." },
+      { title: "Presentation Designers", description: "Add impressive 3D visual elements to presentations and pitch decks for visual impact." },
+      { title: "App Developers", description: "Integrate professional 3D assets into mobile and web applications efficiently." }
+    ]
+  },
+  "iconai": {
+    whatIs: "IconAI is an AI icon generation platform that creates custom unique icons from text descriptions for apps, websites, and design projects with professional quality and multiple export format options.",
+    features: [
+      "AI Icon Generation: Custom icons from text descriptions",
+      "Multiple Styles: Various icon aesthetic directions",
+      "Consistent Sets: Generate matching icon families",
+      "App Ready: Icons sized for iOS and Android apps",
+      "Multiple Formats: SVG PNG and other export options"
+    ],
+    howToUse: {
+      title: "How to Use Iconai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Icon", description: "Enter a description of the icon concept including style, meaning, and visual requirements." },
+        { title: "Generate Icon Options", description: "Receive multiple AI-generated icon variations based on your description to choose from." },
+        { title: "Select Your Favorite", description: "Choose the icon design that best communicates your intended concept and matches your style." },
+        { title: "Export Your Icon", description: "Download in SVG, PNG, or other formats at the sizes needed for your application." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Concept Translation", description: "Accurately translates icon descriptions into clear visual symbols that communicate intended meaning." },
+      { title: "Set Consistency", description: "Generates multiple icons with consistent visual style for cohesive icon set creation." },
+      { title: "Multi-Platform Sizing", description: "Exports icons at correct sizes for iOS, Android, web, and other platform requirements." }
+    ],
+    useCases: [
+      { title: "App Developers", description: "Create custom app icons and interface icons without hiring professional icon designers." },
+      { title: "UI/UX Designers", description: "Generate unique icon sets for interface design projects with consistent style throughout." },
+      { title: "Startups", description: "Produce professional app and product icons quickly without specialist design expertise required." }
+    ]
+  },
+  "appicons-ai": {
+    whatIs: "Appicons.ai is an AI app icon generator that creates professional app store icons from text descriptions and images, helping developers and designers produce high-quality app icons for iOS and Android.",
+    features: [
+      "App Icon Generation: Professional store-ready icons created",
+      "Platform Compliance: Icons meeting iOS and Android standards",
+      "Multiple Sizes: All required app icon sizes generated",
+      "Style Variety: Different icon aesthetic directions available",
+      "Quick Turnaround: App icons ready in minutes not days"
+    ],
+    howToUse: {
+      title: "How to Use Appicons Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your App", description: "Enter your app name, category, and visual style preferences for icon generation." },
+        { title: "Generate Your Icon", description: "Receive professional app icon designs generated from your description and requirements." },
+        { title: "Review Options", description: "Compare different icon designs and select the one that best represents your app." },
+        { title: "Download All Sizes", description: "Get your icon in all required sizes for App Store and Google Play submission." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Platform Standards", description: "Generates icons meeting the specific technical requirements of iOS and Android app stores." },
+      { title: "Size Completeness", description: "Delivers all required icon sizes in one download for immediate app submission use." },
+      { title: "Professional Quality", description: "Produces icons at the visual quality standard expected by both major app store platforms." }
+    ],
+    useCases: [
+      { title: "iOS Developers", description: "Create professional App Store icons quickly without hiring dedicated icon designers." },
+      { title: "Android Developers", description: "Generate Google Play compliant icons that represent your app effectively in the store." },
+      { title: "Indie App Makers", description: "Produce high-quality app icons affordably without outsourcing to expensive design professionals." }
+    ]
+  },
+  "candyicons": {
+    whatIs: "CandyIcons is a platform offering thousands of high-quality pre-designed app icons and the ability to generate custom app icons using AI for iOS and Android applications and digital products.",
+    features: [
+      "Icon Library: Thousands of pre-designed app icons available",
+      "AI Generation: Custom icons from text descriptions",
+      "App Store Ready: Icons formatted for iOS and Android",
+      "Style Diversity: Multiple icon aesthetic categories",
+      "Bundle Options: Download icon sets and collections"
+    ],
+    howToUse: {
+      title: "How to Use Candyicons",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse or Generate", description: "Explore the existing icon library or use AI generation for a custom icon design." },
+        { title: "Customize Your Selection", description: "Adjust colors and style of chosen icons to match your app's visual identity." },
+        { title: "Download App Icons", description: "Save your selected or generated icons in all required sizes for app submission." },
+        { title: "Apply to Your App", description: "Integrate your downloaded icons into your iOS or Android application project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Extensive Library", description: "Provides thousands of ready-made icons covering diverse app categories and design styles." },
+      { title: "AI Custom Generation", description: "Creates unique custom icons for apps requiring something beyond the existing library." },
+      { title: "Submission Ready", description: "Formats all icons correctly for direct use in App Store and Google Play submissions." }
+    ],
+    useCases: [
+      { title: "App Developers", description: "Find or generate the perfect app icon quickly from a massive library or AI generation." },
+      { title: "Product Designers", description: "Access high-quality icons for interface design mockups and prototyping efficiently." },
+      { title: "Indie Developers", description: "Launch apps with professional icons without significant design budget investment required." }
+    ]
+  },
+  "seaart-ai": {
+    whatIs: "SeaArt.ai is an AI art generation platform offering access to multiple Stable Diffusion models and LoRA fine-tuning for creating anime, realistic, and diverse artistic imagery with advanced generation controls.",
+    features: [
+      "Multiple Models: Access various Stable Diffusion models",
+      "LoRA Support: Fine-tuned models for specific styles",
+      "Anime and Realistic: Both art style categories supported",
+      "Advanced Controls: ControlNet and other generation tools",
+      "Community Platform: Share and discover AI artwork"
+    ],
+    howToUse: {
+      title: "How to Use Seaart Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Model", description: "Select from available base models and LoRA fine-tunes for your desired art style." },
+        { title: "Write Your Prompt", description: "Craft a detailed prompt with positive and negative descriptions for your image." },
+        { title: "Apply Advanced Controls", description: "Use ControlNet or other advanced tools for more precise control over your generation." },
+        { title: "Generate and Share", description: "Create your artwork and optionally share it with the SeaArt community gallery." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Model Diversity", description: "Provides access to multiple specialized models covering anime, realistic, and other styles." },
+      { title: "LoRA Integration", description: "Supports LoRA fine-tuned models for highly specific character and style consistency." },
+      { title: "Advanced Generation", description: "Offers professional-level controls including ControlNet for precise image direction." }
+    ],
+    useCases: [
+      { title: "AI Art Enthusiasts", description: "Explore diverse generation models and advanced controls for sophisticated AI art creation." },
+      { title: "Anime Artists", description: "Use specialized anime LoRA models for consistent high-quality anime character generation." },
+      { title: "Digital Artists", description: "Access professional-grade generation controls for precise creative direction and output." }
+    ]
+  },
+  "ai-illustration-generator": {
+    whatIs: "AI Illustration Generator is a free online tool that creates professional vector and raster illustrations from text descriptions for designers, marketers, and creators needing custom illustration content.",
+    features: [
+      "Text to Illustration: Generate illustrations from descriptions",
+      "Vector Output: Scalable illustration format available",
+      "Multiple Styles: Various illustration aesthetics covered",
+      "Free to Use: Basic illustration generation without payment",
+      "Download Ready: Illustrations for immediate design use"
+    ],
+    howToUse: {
+      title: "How to Use Ai Illustration Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Illustration", description: "Enter a detailed description of the illustration subject, style, and composition you want." },
+        { title: "Generate Your Image", description: "Receive an AI-generated illustration matching your description and style preferences." },
+        { title: "Review for Quality", description: "Assess the illustration for style accuracy and professional quality before downloading." },
+        { title: "Download and Apply", description: "Save your illustration in the format needed for your design project or content use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Style Range", description: "Covers flat design, detailed illustration, minimal, and other diverse illustration aesthetics." },
+      { title: "Free Access", description: "Provides basic illustration generation without payment making it accessible to all creators." },
+      { title: "Design Compatibility", description: "Generates illustrations in formats compatible with standard graphic design workflows and tools." }
+    ],
+    useCases: [
+      { title: "Designers", description: "Generate custom illustrations for projects without illustration skills or commissioning artists." },
+      { title: "Marketers", description: "Create unique illustration content for campaigns and marketing materials quickly and affordably." },
+      { title: "Content Creators", description: "Produce original illustrated visuals for blog posts, social media, and creative projects." }
+    ]
+  },
   "visily": {
     whatIs: "Visily is an AI-powered UI design tool that converts screenshots, sketches, and text descriptions into editable wireframes and high-fidelity UI designs for product teams and designers.",
     features: [
