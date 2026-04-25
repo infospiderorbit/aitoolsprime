@@ -1,4 +1,514 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "visily": {
+    whatIs: "Visily is an AI-powered UI design tool that converts screenshots, sketches, and text descriptions into editable wireframes and high-fidelity UI designs for product teams and designers.",
+    features: [
+      "Screenshot to Design: Convert screenshots to editable UI",
+      "Sketch Import: Transform hand sketches into digital wireframes",
+      "AI UI Generation: Create interfaces from text descriptions",
+      "Component Library: Professional UI components included",
+      "Team Collaboration: Work together on designs in real time"
+    ],
+    howToUse: {
+      title: "How to Use Visily",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Input", description: "Upload a screenshot, photo of a sketch, or describe your desired UI in text." },
+        { title: "AI Generates Design", description: "Let Visily convert your input into an editable wireframe or high-fidelity design." },
+        { title: "Customize Elements", description: "Edit the generated UI components, colors, and layout to match your vision." },
+        { title: "Share With Team", description: "Collaborate with teammates on the design and iterate until it meets requirements." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Input Support", description: "Accepts screenshots, sketches, and text descriptions as starting points for design generation." },
+      { title: "Editable Output", description: "Produces fully editable designs rather than static images for continued design work." },
+      { title: "Component Integration", description: "Includes professional UI component libraries that speed up interface design production." }
+    ],
+    useCases: [
+      { title: "Product Designers", description: "Convert rough concepts into polished wireframes faster than traditional design software allows." },
+      { title: "Developers", description: "Quickly prototype UI ideas before investing time in actual frontend implementation work." },
+      { title: "Startup Teams", description: "Move from concept to visual prototype rapidly without dedicated design expertise required." }
+    ]
+  },
+  "motiff": {
+    whatIs: "Motiff is an AI-powered collaborative design tool that provides professional UI design capabilities with AI features for generating layouts, components, and design suggestions to speed up product design workflows.",
+    features: [
+      "AI Design Generation: Create UI layouts from descriptions",
+      "Professional Tools: Full UI design capabilities included",
+      "Component System: Build and maintain design systems",
+      "Team Collaboration: Real-time collaborative design editing",
+      "Developer Handoff: Clean code export for developers"
+    ],
+    howToUse: {
+      title: "How to Use Motiff",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Project", description: "Create a new design project in Motiff and set up your canvas and design system." },
+        { title: "Use AI Features", description: "Invoke AI to generate layout suggestions, component ideas, or design variations." },
+        { title: "Build Your Design", description: "Use professional design tools to create your UI with AI assistance throughout." },
+        { title: "Export for Development", description: "Hand off designs to developers with clean specifications and code output." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI-Assisted Design", description: "Provides AI suggestions and generation throughout the design process for faster production." },
+      { title: "Design System Support", description: "Builds and maintains consistent design systems across large product design projects." },
+      { title: "Developer Handoff", description: "Generates clean code and specifications that make the developer handoff process seamless." }
+    ],
+    useCases: [
+      { title: "UI/UX Designers", description: "Design product interfaces faster with AI assistance integrated into professional design tools." },
+      { title: "Design Teams", description: "Collaborate in real time with AI-powered suggestions that improve team design output." },
+      { title: "Product Companies", description: "Build consistent design systems that scale across large product portfolios efficiently." }
+    ]
+  },
+  "weavy": {
+    whatIs: "Weavy is a developer platform that provides pre-built UI components for in-app collaboration features including chat, feeds, and file sharing enabling developers to add social features to applications quickly.",
+    features: [
+      "In-App Chat: Add messaging to your application quickly",
+      "Activity Feeds: Social feed components for your product",
+      "File Sharing: Collaborative file sharing features built-in",
+      "Developer SDK: Easy integration for developers",
+      "Customizable UI: Style components to match your application"
+    ],
+    howToUse: {
+      title: "How to Use Weavy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Weavy", description: "Install the Weavy SDK in your application and configure your integration settings." },
+        { title: "Choose Your Components", description: "Select the collaboration components you want to add such as chat or activity feeds." },
+        { title: "Integrate Into App", description: "Implement the chosen components into your application following the documentation." },
+        { title: "Customize Styling", description: "Apply your application's visual style to the Weavy components for seamless appearance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Pre-Built Components", description: "Provides production-ready collaboration UI components that work immediately after integration." },
+      { title: "Developer Focus", description: "Designed for fast developer integration with clean APIs and comprehensive documentation." },
+      { title: "Customization Depth", description: "Allows styling components to match any application's existing visual design language." }
+    ],
+    useCases: [
+      { title: "App Developers", description: "Add collaboration features to your product quickly without building them from scratch." },
+      { title: "SaaS Companies", description: "Enhance your product with in-app communication features that improve user engagement." },
+      { title: "Startup Teams", description: "Ship social and collaboration features fast using pre-built components that just work." }
+    ]
+  },
+  "v0-dev": {
+    whatIs: "v0.dev is Vercel's AI-powered UI component generator that creates React and Tailwind CSS components from text descriptions, enabling developers to quickly generate production-ready frontend code from natural language.",
+    features: [
+      "React Component Generation: Create components from descriptions",
+      "Tailwind CSS: Styled with Tailwind utility classes automatically",
+      "Production Ready: Clean code ready for real applications",
+      "Iterative Refinement: Refine components through conversation",
+      "shadcn/ui: Built on popular component library standards"
+    ],
+    howToUse: {
+      title: "How to Use V0 Dev",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Component", description: "Enter a text description of the UI component or interface you want generated." },
+        { title: "Review Generated Code", description: "Examine the React and Tailwind CSS code produced from your description." },
+        { title: "Refine Through Chat", description: "Request specific changes through conversational follow-up to improve the component." },
+        { title: "Copy to Your Project", description: "Take the generated code and integrate it directly into your application codebase." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Code Quality", description: "Generates clean production-ready React and Tailwind code suitable for real projects." },
+      { title: "Conversational Refinement", description: "Allows iterative improvement through natural language rather than manual code editing." },
+      { title: "Component Standards", description: "Follows shadcn/ui conventions familiar to modern React developers working with Tailwind." }
+    ],
+    useCases: [
+      { title: "Frontend Developers", description: "Speed up UI development by generating component boilerplate from text descriptions." },
+      { title: "Full-Stack Developers", description: "Create professional frontend components without deep CSS expertise using AI generation." },
+      { title: "Rapid Prototypers", description: "Build UI prototypes quickly from descriptions before committing to production implementation." }
+    ]
+  },
+  "microsoft-designer": {
+    whatIs: "Microsoft Designer is an AI-powered graphic design app from Microsoft that generates professional designs, social media graphics, and visual content from text prompts integrated with Microsoft 365 ecosystem.",
+    features: [
+      "AI Design Generation: Professional graphics from text prompts",
+      "Social Media Templates: Sized correctly for every platform",
+      "Microsoft Integration: Works with Office 365 ecosystem",
+      "Brand Kit: Consistent branding across all designs",
+      "Image Generation: DALL-E powered image creation included"
+    ],
+    howToUse: {
+      title: "How to Use Microsoft Designer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Design", description: "Enter what you want to create and Microsoft Designer generates professional design options." },
+        { title: "Browse Generated Options", description: "Review multiple AI-generated design variations and select your preferred direction." },
+        { title: "Customize Your Design", description: "Edit text, colors, images, and layout using the design editor tools." },
+        { title: "Export or Share", description: "Download your design or share directly to social media from within the app." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Microsoft Ecosystem Integration", description: "Works seamlessly within Microsoft 365 for users already in the Microsoft productivity suite." },
+      { title: "DALL-E Image Generation", description: "Incorporates OpenAI's image generation for creating custom visuals within designs." },
+      { title: "Social Platform Sizing", description: "Automatically sizes designs correctly for each major social media platform's requirements." }
+    ],
+    useCases: [
+      { title: "Microsoft 365 Users", description: "Create professional graphics without leaving the Microsoft ecosystem you already use daily." },
+      { title: "Office Workers", description: "Design professional presentations and marketing materials efficiently within familiar tools." },
+      { title: "Social Media Managers", description: "Generate platform-optimized social graphics quickly with AI-powered design generation." }
+    ]
+  },
+  "stitch": {
+    whatIs: "Stitch is Google's AI-powered UI design and prototyping tool that generates interface designs from text prompts and images enabling designers and developers to quickly create and iterate on product designs.",
+    features: [
+      "AI UI Generation: Interface designs from text descriptions",
+      "Image to UI: Convert screenshots to editable designs",
+      "Prototyping: Interactive prototypes from generated designs",
+      "Google Integration: Works within Google's design ecosystem",
+      "Fast Iteration: Quick design exploration and refinement"
+    ],
+    howToUse: {
+      title: "How to Use Stitch",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Interface", description: "Enter a text description of the UI you want Stitch to generate for your project." },
+        { title: "Review Generated Design", description: "See the AI-created interface design and assess the layout and component choices." },
+        { title: "Refine Your Design", description: "Make adjustments to the generated design using the editing tools available." },
+        { title: "Export for Development", description: "Export your finalized design for handoff to development teams." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Google AI Foundation", description: "Powered by Google's AI for strong understanding of interface design patterns and conventions." },
+      { title: "Image Input Support", description: "Converts uploaded interface screenshots into editable designs for rapid redesign work." },
+      { title: "Prototype Generation", description: "Creates interactive prototypes from generated designs for user testing purposes." }
+    ],
+    useCases: [
+      { title: "Product Designers", description: "Generate and iterate on UI designs rapidly using AI to explore multiple directions quickly." },
+      { title: "Developers", description: "Prototype interface ideas visually before committing to frontend implementation work." },
+      { title: "Design Teams", description: "Explore design possibilities quickly with AI generation before detailed manual design work." }
+    ]
+  },
+  "pixar-ai": {
+    whatIs: "PixarAI is an AI image generator that creates Pixar animation studio style images from text prompts, transforming descriptions into charming and vibrant Pixar-inspired 3D animated visual content.",
+    features: [
+      "Pixar Style Generation: Images in Pixar animation aesthetic",
+      "3D Animation Look: Characteristic Pixar visual style output",
+      "Character Creation: Pixar-style character illustrations",
+      "Scene Generation: Complete Pixar-style scene creation",
+      "Vibrant Output: Colorful and expressive animated visuals"
+    ],
+    howToUse: {
+      title: "How to Use Pixar Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Image", description: "Write a description of the character, scene, or concept you want in Pixar animation style." },
+        { title: "Generate Your Image", description: "Receive an AI-generated image with the characteristic Pixar 3D animation aesthetic applied." },
+        { title: "Review the Style", description: "Check that your image captures the vibrant Pixar visual style accurately and appealingly." },
+        { title: "Download and Share", description: "Save your Pixar-style AI image for sharing or use in creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Style Accuracy", description: "Captures the distinctive lighting, textures, and visual warmth characteristic of Pixar films." },
+      { title: "Character Quality", description: "Generates character images with the appealing expressiveness found in Pixar animated films." },
+      { title: "Scene Composition", description: "Creates complete scenes with appropriate Pixar-style environmental and atmospheric elements." }
+    ],
+    useCases: [
+      { title: "Animation Fans", description: "Generate Pixar-style images of original characters and scenarios for creative enjoyment." },
+      { title: "Content Creators", description: "Produce Pixar-aesthetic content that resonates strongly with animation-loving audiences." },
+      { title: "Parents", description: "Create Pixar-style images of children or families as unique and charming personal keepsakes." }
+    ]
+  },
+  "disney-ai-pixar-generator": {
+    whatIs: "Disney AI Pixar Generator creates images in the iconic Pixar and Disney animation style from text descriptions and photo uploads transforming ordinary content into enchanting animated movie aesthetics.",
+    features: [
+      "Disney Pixar Style: Iconic animated film aesthetic generation",
+      "Photo to Pixar: Transform real photos into animated style",
+      "Character Animation: Disney-style character creation",
+      "Magical Aesthetic: Warm and enchanting visual output",
+      "Social Ready: Content perfect for social media sharing"
+    ],
+    howToUse: {
+      title: "How to Use Disney Ai Pixar Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload or Describe", description: "Provide a photo for transformation or describe what you want in Disney Pixar style." },
+        { title: "Apply Animation Style", description: "Let the AI apply the magical Disney Pixar visual aesthetic to your content." },
+        { title: "Review Your Image", description: "See your photo or description transformed into the beloved animated movie style." },
+        { title: "Download and Enjoy", description: "Save your Disney Pixar style image for personal use and social sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Style Transformation", description: "Converts real photographs into convincing Disney Pixar animation style artwork." },
+      { title: "Aesthetic Warmth", description: "Captures the warm inviting visual quality that makes Disney Pixar films universally beloved." },
+      { title: "Character Charm", description: "Generates characters with the expressive appeal characteristic of Disney Pixar productions." }
+    ],
+    useCases: [
+      { title: "Disney Fans", description: "Transform your photos into Disney Pixar style for a magical and memorable personal keepsake." },
+      { title: "Social Media Users", description: "Create enchanting Disney-style content that drives high engagement and positive responses." },
+      { title: "Parents", description: "Turn family photos into magical animated-style images that children and adults both love." }
+    ]
+  },
+  "disney-ai-poster": {
+    whatIs: "Disney AI Poster is an AI tool that generates Disney and Pixar movie poster style images from text descriptions, creating cinematic poster aesthetics for creative and entertainment purposes.",
+    features: [
+      "Movie Poster Style: Disney Pixar poster aesthetic generation",
+      "Cinematic Quality: Professional movie poster visual output",
+      "Character Scenes: Dramatic character poster compositions",
+      "Title Integration: Text and title elements in poster style",
+      "High Resolution: Poster-quality image output"
+    ],
+    howToUse: {
+      title: "How to Use Disney Ai Poster",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Poster", description: "Enter the characters, scene, and mood you want for your Disney-style movie poster." },
+        { title: "Generate Your Poster", description: "Receive an AI-generated image in the cinematic Disney movie poster aesthetic style." },
+        { title: "Review the Composition", description: "Check the poster composition, character placement, and overall visual impact." },
+        { title: "Download Your Poster", description: "Save your Disney-style AI poster for printing, sharing, or creative project use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cinematic Composition", description: "Creates poster-style compositions with dramatic framing typical of Disney movie marketing." },
+      { title: "Style Accuracy", description: "Reproduces the visual language of Disney movie posters with characteristic aesthetic elements." },
+      { title: "High Resolution Output", description: "Generates images at quality suitable for poster printing and high-resolution display use." }
+    ],
+    useCases: [
+      { title: "Disney Fans", description: "Create personalized Disney-style movie posters featuring original characters and scenarios." },
+      { title: "Creative Projects", description: "Use Disney poster aesthetics for fan projects, gifts, and creative entertainment content." },
+      { title: "Educators", description: "Generate Disney-style educational posters that engage students with appealing visual aesthetics." }
+    ]
+  },
+  "bing-image-creator": {
+    whatIs: "Bing Image Creator is Microsoft's free AI image generation tool powered by DALL-E that creates high-quality images from text descriptions, integrated into Microsoft's search and productivity ecosystem.",
+    features: [
+      "Free Image Generation: Create AI images at no cost",
+      "DALL-E Powered: Microsoft's implementation of OpenAI image AI",
+      "High Quality Output: Professional level image generation",
+      "Microsoft Integration: Works across Bing and Edge browser",
+      "Daily Free Boosts: Daily generation credits provided"
+    ],
+    howToUse: {
+      title: "How to Use Bing Image Creator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Bing Image Creator", description: "Visit Bing.com or use the Image Creator feature in Microsoft Edge browser." },
+        { title: "Write Your Prompt", description: "Describe the image you want to create with specific visual details and style preferences." },
+        { title: "Generate Your Images", description: "Submit your prompt and receive four AI-generated image options to choose from." },
+        { title: "Download Your Image", description: "Select your favorite generated image and download it for use in your projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Access", description: "Provides high-quality AI image generation completely free with daily boost credits." },
+      { title: "DALL-E Quality", description: "Leverages OpenAI's DALL-E model for industry-leading image generation quality." },
+      { title: "Microsoft Integration", description: "Seamlessly integrated into Bing search and Edge browser for convenient access." }
+    ],
+    useCases: [
+      { title: "General Users", description: "Generate AI images for free without subscribing to paid image generation services." },
+      { title: "Microsoft Users", description: "Access powerful AI image creation within the Microsoft ecosystem you already use." },
+      { title: "Content Creators", description: "Produce diverse AI-generated visuals for projects using Microsoft's free generation tool." }
+    ]
+  },
+  "autodraw": {
+    whatIs: "AutoDraw is Google's free AI drawing tool that recognizes rough sketches and suggests professional clip art alternatives, helping anyone create better-looking drawings regardless of artistic skill level.",
+    features: [
+      "Sketch Recognition: AI identifies what you are drawing",
+      "Clip Art Suggestions: Professional alternatives for your sketch",
+      "Free to Use: Complete drawing tool without payment",
+      "Simple Interface: Easy drawing canvas for everyone",
+      "Download Option: Save your finished drawings easily"
+    ],
+    howToUse: {
+      title: "How to Use Autodraw",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Drawing", description: "Use the AutoDraw canvas to sketch your rough drawing of any object or subject." },
+        { title: "See AI Suggestions", description: "Watch as AutoDraw recognizes your sketch and suggests professional clip art alternatives." },
+        { title: "Select Your Image", description: "Click the suggestion that best matches what you intended to draw originally." },
+        { title: "Complete and Download", description: "Add text or other elements and download your finished polished drawing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sketch Recognition AI", description: "Identifies the intent behind rough sketches to suggest appropriate professional alternatives." },
+      { title: "Universal Accessibility", description: "Makes decent drawing creation accessible to anyone regardless of artistic ability." },
+      { title: "Google Quality Assets", description: "Suggestions come from a library of professionally created clip art and illustrations." }
+    ],
+    useCases: [
+      { title: "Non-Artists", description: "Create decent-looking drawings and illustrations without any actual drawing skill required." },
+      { title: "Teachers", description: "Create simple visual materials quickly for classroom use without artistic expertise." },
+      { title: "Presenters", description: "Add clear simple visuals to presentations without needing design software or art skills." }
+    ]
+  },
+  "sketchar": {
+    whatIs: "Sketchar is an AI drawing learning and creation app that guides users through step-by-step drawing lessons using augmented reality overlays and AI feedback to help anyone learn to draw effectively.",
+    features: [
+      "AR Drawing Guidance: Augmented reality drawing assistance",
+      "Step-by-Step Lessons: Structured drawing tutorials for all levels",
+      "AI Feedback: Real-time feedback on your drawing technique",
+      "Skill Building: Progressive lessons that build drawing ability",
+      "Community Sharing: Share your drawings with other learners"
+    ],
+    howToUse: {
+      title: "How to Use Sketchar",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Lesson", description: "Select a drawing tutorial from Sketchar's library based on your skill level and interests." },
+        { title: "Follow AR Guidance", description: "Use your device camera with AR overlay to trace and practice drawing techniques." },
+        { title: "Receive AI Feedback", description: "Get real-time feedback on your drawing strokes and technique from the AI system." },
+        { title: "Build Your Skills", description: "Progress through lessons systematically and watch your drawing ability improve over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AR Learning System", description: "Uses augmented reality overlays to guide hand placement and stroke technique in real time." },
+      { title: "Progressive Curriculum", description: "Structures lessons in logical skill-building progression from basic to advanced drawing." },
+      { title: "Real-Time Feedback", description: "Provides immediate assessment of drawing technique to correct errors before they become habits." }
+    ],
+    useCases: [
+      { title: "Drawing Beginners", description: "Learn to draw from scratch with guided AR lessons that make skill building achievable." },
+      { title: "Art Students", description: "Supplement formal art education with accessible AR-guided practice sessions at home." },
+      { title: "Hobbyists", description: "Develop a new creative skill with fun progressive drawing lessons guided by AI feedback." }
+    ]
+  },
+  "draftaid": {
+    whatIs: "DraftAid is an AI-powered technical drawing and CAD assistance tool that helps engineers and designers create precise technical drawings, schematics, and engineering documentation more efficiently.",
+    features: [
+      "Technical Drawing Assistance: CAD and engineering drawing help",
+      "AI Drafting: Generate technical drawings from descriptions",
+      "Engineering Standards: Drawings following technical conventions",
+      "Annotation Tools: Proper technical annotation and labeling",
+      "Export Formats: CAD-compatible file export options"
+    ],
+    howToUse: {
+      title: "How to Use Draftaid",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Drawing", description: "Enter specifications for the technical drawing or schematic you need created." },
+        { title: "Generate Your Draft", description: "Let DraftAid produce a technical drawing based on your engineering specifications." },
+        { title: "Review and Annotate", description: "Check the generated drawing for accuracy and add technical annotations as needed." },
+        { title: "Export Your Drawing", description: "Save your technical drawing in the format required for your engineering workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Technical Accuracy", description: "Generates drawings that follow engineering and drafting conventions and standards." },
+      { title: "Annotation Support", description: "Adds proper technical labels, dimensions, and annotations to engineering drawings." },
+      { title: "CAD Compatibility", description: "Exports files in formats compatible with major CAD software for further editing." }
+    ],
+    useCases: [
+      { title: "Engineers", description: "Create technical drawings and schematics faster with AI assistance for drafting work." },
+      { title: "Architects", description: "Generate architectural drawing elements efficiently for building design documentation." },
+      { title: "Technical Illustrators", description: "Produce precise technical illustrations for manuals and engineering documentation projects." }
+    ]
+  },
+  "drawings-alive": {
+    whatIs: "Drawings Alive is an AI tool that animates hand-drawn sketches and children's drawings by adding movement and life to static illustrations for creative and educational entertainment purposes.",
+    features: [
+      "Sketch Animation: Bring hand-drawn art to life with motion",
+      "Children's Drawings: Perfect for animating kids' artwork",
+      "Easy Process: Simple upload and animate workflow",
+      "Fun Output: Entertaining animated versions of drawings",
+      "Social Sharing: Animated drawings for sharing with family"
+    ],
+    howToUse: {
+      title: "How to Use Drawings Alive",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Drawing", description: "Take a photo of your hand-drawn sketch or children's artwork for animation." },
+        { title: "Let AI Animate", description: "Allow the AI to analyze your drawing and add natural movement and life to it." },
+        { title: "Preview Your Animation", description: "Watch your static drawing come to life with AI-generated movement and animation." },
+        { title: "Download and Share", description: "Save your animated drawing to share with family, friends, and on social media." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Drawing Recognition", description: "Accurately identifies drawn subjects to apply appropriate and relevant movement types." },
+      { title: "Child Art Specialty", description: "Optimized for the distinctive style of children's artwork for charming results." },
+      { title: "Motion Quality", description: "Generates fluid natural-looking animations that genuinely make drawings feel alive." }
+    ],
+    useCases: [
+      { title: "Parents", description: "Delight your children by bringing their drawings to life with magical AI animation." },
+      { title: "Teachers", description: "Create engaging educational content by animating student artwork for classroom presentations." },
+      { title: "Artists", description: "Explore animation possibilities for your sketches without traditional animation software skills." }
+    ]
+  },
+  "patentdraw-ai": {
+    whatIs: "PatentDrawAI is an AI tool that helps inventors and patent attorneys create accurate technical patent drawings and illustrations that meet USPTO and international patent office requirements efficiently.",
+    features: [
+      "Patent Drawings: USPTO-compliant technical illustrations",
+      "Technical Accuracy: Precise engineering-style drawings",
+      "Patent Standards: Follows official patent drawing requirements",
+      "Multiple Views: Generate multiple required patent views",
+      "Attorney Support: Tools for patent professionals"
+    ],
+    howToUse: {
+      title: "How to Use Patentdraw Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Invention", description: "Enter detailed descriptions of your invention and the specific views required for your patent." },
+        { title: "Generate Patent Drawings", description: "Let PatentDrawAI create technical illustrations meeting patent office requirements." },
+        { title: "Review for Compliance", description: "Check generated drawings against patent office requirements for accuracy and compliance." },
+        { title: "Export for Filing", description: "Download your patent drawings in the format required for official patent application filing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Patent Compliance", description: "Generates drawings that meet the specific technical requirements of patent office standards." },
+      { title: "Multiple View Generation", description: "Creates all required patent views including front, side, top, and perspective as needed." },
+      { title: "Professional Quality", description: "Produces drawings at the professional standard expected in actual patent applications filed." }
+    ],
+    useCases: [
+      { title: "Inventors", description: "Create compliant patent drawings efficiently without hiring specialized technical illustrators." },
+      { title: "Patent Attorneys", description: "Streamline the patent drawing preparation process for clients with AI-assisted generation." },
+      { title: "Startups", description: "Prepare patent applications more affordably by generating compliant drawings independently." }
+    ]
+  },
+  "emoji-combiner": {
+    whatIs: "Emoji Combiner is a creative tool that merges two or more emojis together using AI to create unique hybrid emoji images that blend the visual elements of multiple emoji characters into new creative combinations.",
+    features: [
+      "Emoji Merging: Combine multiple emojis into one image",
+      "Creative Hybrids: Unique visual combinations generated",
+      "Instant Results: Merged emojis created immediately",
+      "Free to Use: Combine emojis without payment required",
+      "Download Option: Save your unique emoji creations"
+    ],
+    howToUse: {
+      title: "How to Use Emoji Combiner",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Emojis", description: "Choose two or more emojis you want to combine into a unique hybrid creation." },
+        { title: "Generate Combination", description: "Let the AI merge your selected emojis into a single unique combined emoji image." },
+        { title: "View Your Creation", description: "See your unique emoji hybrid and decide if you like the creative combination result." },
+        { title: "Download and Share", description: "Save your custom emoji combination and share it in messages or on social media." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Creative Merging", description: "Intelligently blends visual elements from multiple emojis into coherent hybrid combinations." },
+      { title: "Instant Generation", description: "Creates merged emoji images immediately without any waiting or processing delays." },
+      { title: "Unique Output", description: "Every combination produces a genuinely unique image not found in standard emoji sets." }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "Create unique emoji expressions that go beyond standard emoji sets for more creative messaging." },
+      { title: "Content Creators", description: "Generate novel emoji combinations for reaction content and entertaining social media posts." },
+      { title: "Messaging Enthusiasts", description: "Express yourself more creatively in chats with custom hybrid emoji combinations." }
+    ]
+  },
+  "ai-emoji-generator": {
+    whatIs: "AI Emoji Generator creates custom unique emoji images from text descriptions using AI generation, enabling users to express exactly what they mean with personalized emoji visuals beyond standard sets.",
+    features: [
+      "Custom Emoji Creation: Generate unique emojis from descriptions",
+      "Text to Emoji: Describe any concept as an emoji image",
+      "Unique Visuals: Emojis not found in standard sets created",
+      "Multiple Styles: Various emoji art styles available",
+      "Download Ready: Use in messaging and social media"
+    ],
+    howToUse: {
+      title: "How to Use Ai Emoji Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Emoji", description: "Enter a description of the emoji concept or expression you want generated." },
+        { title: "Generate Your Emoji", description: "Receive a unique AI-created emoji image based on your text description." },
+        { title: "Review Your Creation", description: "Check that your generated emoji captures the expression or concept you wanted." },
+        { title: "Download and Use", description: "Save your custom emoji for use in messaging apps and social media platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Custom Concept Generation", description: "Creates emojis for specific concepts and expressions not covered by standard emoji sets." },
+      { title: "Style Options", description: "Generates emojis across different visual styles matching various platform aesthetics." },
+      { title: "Unique Output", description: "Every generated emoji is original providing genuinely new expressive options for users." }
+    ],
+    useCases: [
+      { title: "Expressive Communicators", description: "Create the perfect emoji for exactly what you want to express beyond standard options." },
+      { title: "Community Managers", description: "Generate unique custom emojis for Discord servers and community platforms." },
+      { title: "Content Creators", description: "Design original emoji-style graphics for branded content and marketing materials." }
+    ]
+  },
   "color-pop": {
     whatIs: "Color Pop is an AI photo editing tool that selectively colorizes specific subjects in photos while keeping the background in black and white, creating dramatic and artistic selective color photography effects.",
     features: [
