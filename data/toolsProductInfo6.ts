@@ -1,4 +1,424 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "sora": {
+    whatIs: "Sora is OpenAI's AI video generation model that creates realistic and imaginative video scenes from text prompts, representing a major breakthrough in AI video generation with impressive visual quality and scene coherence.",
+    features: [
+      "Text to Video: Generate realistic videos from text descriptions",
+      "Long Duration: Create videos up to one minute in length",
+      "Scene Coherence: Consistent characters and environments throughout",
+      "Multiple Subjects: Complex scenes with multiple elements",
+      "High Realism: Photorealistic video generation capability"
+    ],
+    howToUse: {
+      title: "How to Use Sora",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Sora", description: "Use Sora through OpenAI's available platforms and products that provide model access." },
+        { title: "Write Your Prompt", description: "Craft a detailed descriptive prompt of the video scene including characters, action, setting, and mood." },
+        { title: "Generate Your Video", description: "Submit your prompt and allow Sora to generate your video with full scene coherence." },
+        { title: "Review and Download", description: "Assess the quality and accuracy of your generated video and download for your intended use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Scene Consistency", description: "Maintains consistent characters, environments, and visual elements throughout generated videos." },
+      { title: "Duration Capability", description: "Generates video sequences of up to one minute which exceeds many competing AI video models." },
+      { title: "Photorealistic Quality", description: "Produces video content approaching photorealistic quality for a wide range of scene types." }
+    ],
+    useCases: [
+      { title: "Creative Professionals", description: "Generate high-quality video content for creative projects using OpenAI's flagship video model." },
+      { title: "Filmmakers", description: "Prototype cinematic scenes and visualize narrative concepts with impressive AI video generation." },
+      { title: "Advertisers", description: "Create realistic lifestyle and product video content using state-of-the-art AI generation technology." }
+    ]
+  },
+  "kling-ai": {
+    whatIs: "Kling AI is a powerful Chinese AI video generation model developed by Kuaishou that creates high-quality realistic videos from text prompts and images with impressive motion quality and physical simulation.",
+    features: [
+      "High-Quality Generation: Impressive realistic video output",
+      "Text to Video: Generate from detailed text descriptions",
+      "Image to Video: Animate images into video sequences",
+      "Physical Simulation: Realistic physics in generated content",
+      "Long Duration: Generate longer video sequences"
+    ],
+    howToUse: {
+      title: "How to Use Kling Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Describe your video scene in detail including subjects, actions, environment, and visual style." },
+        { title: "Or Upload Image", description: "Provide a reference image as a visual starting point for your video generation." },
+        { title: "Generate Video", description: "Submit your input and let Kling AI produce your high-quality video with realistic motion." },
+        { title: "Download Result", description: "Save your generated video and use it in your creative or commercial productions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Motion Realism", description: "Generates natural fluid motion that closely resembles real-world physical movement patterns." },
+      { title: "Physical Accuracy", description: "Simulates realistic physics including fluid dynamics and object interaction in generated scenes." },
+      { title: "Generation Quality", description: "Produces video at a quality level that competes with the leading AI video generation models globally." }
+    ],
+    useCases: [
+      { title: "Video Producers", description: "Generate high-quality video footage for productions without traditional filming requirements." },
+      { title: "Creative Professionals", description: "Access one of the most capable AI video models for demanding creative project requirements." },
+      { title: "Filmmakers", description: "Prototype and visualize cinematic concepts with impressive realistic AI video generation." }
+    ]
+  },
+  "higgsfield": {
+    whatIs: "Higgsfield is an AI video generation platform focused on creating cinematic social media content with realistic human motion, character consistency, and high visual quality for content creators and brands.",
+    features: [
+      "Cinematic Social Content: High-quality video for social platforms",
+      "Human Motion: Realistic character movement generation",
+      "Character Consistency: Maintain characters across video scenes",
+      "Social Formats: Optimized output for social media platforms",
+      "Creative Tools: Additional creative enhancement features"
+    ],
+    howToUse: {
+      title: "How to Use Higgsfield",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Video", description: "Write a detailed prompt describing your desired video scene including characters and action." },
+        { title: "Configure Style", description: "Select the visual style and cinematic aesthetic that fits your content goals." },
+        { title: "Generate Content", description: "Let Higgsfield produce your high-quality video with realistic human motion and character consistency." },
+        { title: "Export for Social", description: "Download your video in the format optimized for your target social media platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Human Motion Realism", description: "Specializes in generating realistic human movement that looks natural and convincing in social content." },
+      { title: "Character Consistency", description: "Maintains visual consistency of characters across different scenes and video segments." },
+      { title: "Social Optimization", description: "Produces content specifically designed for performance in social media feeds and algorithms." }
+    ],
+    useCases: [
+      { title: "Social Media Creators", description: "Produce cinematic quality social media videos with realistic characters and motion." },
+      { title: "Brand Marketers", description: "Create high-quality branded video content featuring consistent character representation." },
+      { title: "Influencer Agencies", description: "Generate diverse content variations with realistic human presenters for social campaigns." }
+    ]
+  },
+  "camtasia": {
+    whatIs: "Camtasia is a professional screen recording and video editing software by TechSmith that enables educators, trainers, and content creators to produce polished tutorial and training videos with advanced editing tools.",
+    features: [
+      "Screen Recording: Capture screen with audio and webcam",
+      "Video Editing: Full timeline editing for recorded content",
+      "Annotations: Callouts arrows and zoom effects",
+      "Interactivity: Add quizzes and interactive elements",
+      "Templates: Professional pre-built video templates"
+    ],
+    howToUse: {
+      title: "How to Use Camtasia",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Recording", description: "Open Camtasia and configure your recording area, webcam, and audio before capturing." },
+        { title: "Record Your Content", description: "Perform your tutorial or presentation while Camtasia captures every action clearly." },
+        { title: "Edit Your Video", description: "Use the timeline editor to add callouts, zoom effects, captions, and transitions." },
+        { title: "Export Your Project", description: "Render and export your finished tutorial video in the format needed for your audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Screen Capture Quality", description: "Records high-quality screen content with synchronized webcam and microphone audio." },
+      { title: "Annotation Tools", description: "Provides rich callouts, arrows, and zoom features specifically designed for tutorial content." },
+      { title: "Interactive Elements", description: "Adds quiz questions and interactive elements that engage viewers in training content." }
+    ],
+    useCases: [
+      { title: "Educators", description: "Create professional tutorial videos and online course content with polished production quality." },
+      { title: "Corporate Trainers", description: "Produce high-quality training and onboarding videos for employee learning programs." },
+      { title: "YouTubers", description: "Record and edit tutorial and how-to video content with professional annotation tools." }
+    ]
+  },
+  "focusee": {
+    whatIs: "FocuSee is an AI screen recording and presentation tool that automatically creates engaging product demos and tutorials by intelligently zooming, highlighting, and focusing on important screen areas during recording.",
+    features: [
+      "Smart Zoom: AI automatically zooms to important screen areas",
+      "Auto Focus: Highlights cursor and key interactions",
+      "Demo Creation: Perfect for product demos and tutorials",
+      "Background Blur: Professional background for recordings",
+      "Easy Sharing: Instant shareable links for recordings"
+    ],
+    howToUse: {
+      title: "How to Use Focusee",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Recording", description: "Open FocuSee and begin your screen recording with automatic intelligent zoom tracking enabled." },
+        { title: "Perform Your Demo", description: "Walk through your product or tutorial naturally while FocuSee tracks and focuses automatically." },
+        { title: "Review Recording", description: "Check your automatically enhanced recording with AI zoom and focus applied throughout." },
+        { title: "Share Instantly", description: "Generate a shareable link and send your polished demo to your audience or customers directly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Zoom Intelligence", description: "Tracks cursor movement and interactions to zoom into important areas without manual configuration." },
+      { title: "Demo Polish", description: "Creates professional-looking product demonstrations without any manual editing or post-production." },
+      { title: "Instant Sharing", description: "Generates shareable links immediately after recording for fast distribution to viewers." }
+    ],
+    useCases: [
+      { title: "Product Teams", description: "Create polished product demos that automatically highlight key features without manual editing." },
+      { title: "Sales Teams", description: "Record compelling product demonstrations that impress prospects with professional visual quality." },
+      { title: "Support Teams", description: "Produce clear tutorial recordings with automatic focus on the relevant screen areas shown." }
+    ]
+  },
+  "muse-ai": {
+    whatIs: "Muse.ai is a video hosting and AI-powered video intelligence platform that helps teams organize, search, and analyze their video libraries with AI transcription, search, and content understanding capabilities.",
+    features: [
+      "Video Hosting: Professional video storage and delivery",
+      "AI Search: Search video content by spoken words",
+      "Transcription: Automatic transcript generation for all videos",
+      "Team Organization: Manage video libraries for teams",
+      "Analytics: Understand how your videos perform"
+    ],
+    howToUse: {
+      title: "How to Use Muse Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Videos", description: "Import your video files into Muse.ai for AI-powered transcription and intelligent organization." },
+        { title: "Search Your Library", description: "Use AI-powered search to find specific moments, topics, or spoken words across all your videos." },
+        { title: "Organize Collections", description: "Group and organize your video library into collections for efficient team management." },
+        { title: "Share and Analyze", description: "Share specific videos or collections with team members and track viewing analytics." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Video Search", description: "Searches through spoken content in videos making every word findable across your entire library." },
+      { title: "Automatic Transcription", description: "Generates accurate transcripts for all uploaded videos enabling text-based video content discovery." },
+      { title: "Team Library Management", description: "Organizes video libraries for teams with shared access and structured collection management." }
+    ],
+    useCases: [
+      { title: "Corporate Teams", description: "Build searchable video libraries for training and communication content accessible to all team members." },
+      { title: "Media Organizations", description: "Manage large video archives with AI-powered search that makes finding specific content instant." },
+      { title: "Content Teams", description: "Organize and search video assets efficiently for streamlined content production workflows." }
+    ]
+  },
+  "twelvelabs": {
+    whatIs: "TwelveLabs is an AI video understanding platform that enables developers to build applications that can search, analyze, and understand video content by indexing and making video semantically searchable.",
+    features: [
+      "Video Understanding: AI comprehends video content deeply",
+      "Semantic Search: Search videos by meaning and context",
+      "Video Indexing: Make entire video libraries searchable",
+      "API Platform: Build video intelligence into applications",
+      "Multi-Modal: Understands visual audio and text in video"
+    ],
+    howToUse: {
+      title: "How to Use Twelvelabs",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Index Your Videos", description: "Upload and index your video content through the TwelveLabs API for AI understanding." },
+        { title: "Build Your Search", description: "Implement semantic video search in your application using TwelveLabs API capabilities." },
+        { title: "Query Your Library", description: "Search your indexed videos using natural language queries about content, objects, and events." },
+        { title: "Integrate Results", description: "Use the returned video intelligence data to power your application's video features." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Semantic Understanding", description: "Comprehends video content meaning rather than just matching keywords for accurate search results." },
+      { title: "Multi-Modal Analysis", description: "Analyzes visual content, spoken audio, and on-screen text together for complete video understanding." },
+      { title: "Developer API", description: "Provides clean API access for building custom video intelligence applications and features." }
+    ],
+    useCases: [
+      { title: "Video Platform Developers", description: "Build searchable video applications with AI understanding that makes content genuinely discoverable." },
+      { title: "Media Companies", description: "Make large video archives searchable by content rather than just manually applied metadata tags." },
+      { title: "Enterprise Teams", description: "Enable AI-powered video search across corporate training, meeting, and communication video libraries." }
+    ]
+  },
+  "anyclip": {
+    whatIs: "AnyClip is an AI-powered video platform that uses computer vision and AI to analyze, index, and make video content searchable enabling publishers and brands to unlock the value in their video libraries.",
+    features: [
+      "AI Video Analysis: Automatic content recognition and tagging",
+      "Searchable Video: Make video libraries fully searchable",
+      "Content Monetization: Unlock revenue from video archives",
+      "Publisher Tools: Features for media and content publishers",
+      "Analytics: Deep insights into video content and performance"
+    ],
+    howToUse: {
+      title: "How to Use Anyclip",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Library", description: "Import your video content into AnyClip for AI analysis, indexing, and content recognition." },
+        { title: "AI Analyzes Content", description: "Let AnyClip's computer vision automatically identify people, objects, topics, and scenes in videos." },
+        { title: "Search Your Content", description: "Use AI-powered search to find specific moments or topics across your entire video library." },
+        { title: "Monetize Your Archive", description: "Leverage AnyClip's tools to generate revenue from your indexed and organized video content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Computer Vision Analysis", description: "Automatically identifies and tags people, objects, brands, and topics in video content accurately." },
+      { title: "Library Searchability", description: "Makes entire video archives searchable by content without manual tagging of individual videos." },
+      { title: "Publisher Monetization", description: "Provides tools specifically for media publishers to generate revenue from their video content assets." }
+    ],
+    useCases: [
+      { title: "Media Publishers", description: "Make your video archives searchable and monetizable using AI content analysis and indexing." },
+      { title: "Broadcast Companies", description: "Unlock the value of historical video libraries with AI that makes every moment discoverable." },
+      { title: "Content Networks", description: "Manage and monetize large video content libraries efficiently with AI-powered organization tools." }
+    ]
+  },
+  "memories-ai": {
+    whatIs: "Memories.ai is an AI-powered personal video and photo memory platform that organizes your visual memories, creates highlight videos, and helps you relive and share your most meaningful moments automatically.",
+    features: [
+      "Auto Organization: AI organizes photos and videos by event",
+      "Highlight Videos: Automatic memory compilation videos",
+      "Smart Albums: AI creates themed collections automatically",
+      "Face Recognition: Group memories by people detected",
+      "Memory Sharing: Easy sharing of compiled memories"
+    ],
+    howToUse: {
+      title: "How to Use Memories Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Photos", description: "Import your photo and video library from your device or cloud storage into Memories.ai." },
+        { title: "Let AI Organize", description: "Allow the AI to automatically sort your memories by date, event, location, and people." },
+        { title: "View Highlights", description: "Watch automatically created highlight videos that compile your best moments beautifully." },
+        { title: "Share Your Memories", description: "Share specific memory albums or highlight videos with family and friends easily." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Organization", description: "Sorts large photo and video libraries by event and context without manual album creation work." },
+      { title: "Highlight Compilation", description: "Creates engaging memory highlight videos from your best moments automatically and thoughtfully." },
+      { title: "Face Grouping", description: "Recognizes faces across your library to create albums grouped by specific people in your life." }
+    ],
+    useCases: [
+      { title: "Families", description: "Organize years of family photos and videos automatically and create beautiful memory compilations." },
+      { title: "Event Photographers", description: "Organize client photos by event automatically for efficient delivery and album creation." },
+      { title: "Personal Users", description: "Rediscover and share cherished memories with automatic AI organization of your photo library." }
+    ]
+  },
+  "imaginario-ai": {
+    whatIs: "Imaginario.ai is an AI video intelligence and search platform that helps content teams find, organize, and utilize video assets efficiently through AI-powered content recognition and semantic search capabilities.",
+    features: [
+      "AI Video Search: Find video content by describing what you want",
+      "Content Recognition: Automatic scene and object identification",
+      "Asset Organization: AI-powered video library management",
+      "Team Collaboration: Share and manage video assets together",
+      "API Integration: Connect to your existing video workflows"
+    ],
+    howToUse: {
+      title: "How to Use Imaginario Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Videos", description: "Import your video content library into Imaginario.ai for AI analysis and indexing." },
+        { title: "Let AI Analyze", description: "Allow the AI to automatically recognize content, scenes, objects, and topics in every video." },
+        { title: "Search Your Library", description: "Describe what you are looking for and find exactly the right video moments instantly." },
+        { title: "Organize and Share", description: "Manage your organized video library and share specific assets with team members easily." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content Recognition", description: "Automatically identifies scenes, objects, people, and topics across your entire video library." },
+      { title: "Semantic Video Search", description: "Finds video content based on descriptive meaning rather than exact keyword matching." },
+      { title: "Team Asset Management", description: "Provides collaborative tools for teams to organize and access shared video asset libraries." }
+    ],
+    useCases: [
+      { title: "Content Production Teams", description: "Find the exact video assets you need instantly without manual searching through entire libraries." },
+      { title: "Media Companies", description: "Organize and make searchable large video archives with AI content recognition and indexing." },
+      { title: "Marketing Teams", description: "Locate specific video assets for campaigns efficiently using AI-powered semantic search tools." }
+    ]
+  },
+  "veedoai": {
+    whatIs: "VeedoAI is an AI video analytics and intelligence platform that provides deep analysis of video content for sports, media, and enterprise applications through computer vision and AI understanding.",
+    features: [
+      "Video Analytics: Deep AI analysis of video content",
+      "Sports Analysis: Performance tracking for sports applications",
+      "Computer Vision: Automatic scene and event detection",
+      "Enterprise Tools: Business video intelligence features",
+      "API Access: Integrate video analytics into applications"
+    ],
+    howToUse: {
+      title: "How to Use Veedoai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Video Source", description: "Link your video content source or upload footage for AI analytics and analysis processing." },
+        { title: "Configure Analysis Type", description: "Set up the specific analytics and insights you need for your sport or business application." },
+        { title: "Run Your Analysis", description: "Let VeedoAI's computer vision analyze your video content and generate detailed insights." },
+        { title: "Review Insights", description: "Access your video analytics dashboard and use the generated insights for your specific application." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sports Analytics", description: "Provides detailed performance tracking and event detection for sports video analysis applications." },
+      { title: "Computer Vision Engine", description: "Detects and analyzes scenes, events, and actions automatically across video content." },
+      { title: "Enterprise Application", description: "Scales video intelligence for business applications requiring analysis of large video datasets." }
+    ],
+    useCases: [
+      { title: "Sports Teams", description: "Analyze game footage with AI to gain competitive insights and improve player performance coaching." },
+      { title: "Broadcasters", description: "Extract automatic highlights and analytical data from sports and event video content." },
+      { title: "Enterprise Organizations", description: "Apply video analytics to business operations including security, retail, and operations monitoring." }
+    ]
+  },
+  "revisely": {
+    whatIs: "Revisely is an AI revision and exam preparation platform that generates personalized study materials including flashcards, quizzes, and study notes from your uploaded course content for effective exam preparation.",
+    features: [
+      "AI Flashcards: Generate study cards from your materials",
+      "Practice Quizzes: AI-created tests from your content",
+      "Study Notes: Organized notes from uploaded materials",
+      "Exam Focus: Content targeted at exam preparation",
+      "Progress Tracking: Monitor your revision progress"
+    ],
+    howToUse: {
+      title: "How to Use Revisely",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Content", description: "Import your course notes, textbooks, and study materials into Revisely for processing." },
+        { title: "Generate Study Materials", description: "Let the AI create flashcards, quizzes, and organized notes from your uploaded content." },
+        { title: "Revise Actively", description: "Use your generated flashcards and quizzes to actively test and reinforce your knowledge." },
+        { title: "Track Your Progress", description: "Monitor your revision progress and focus remaining time on areas needing most improvement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content-Based Generation", description: "Creates study materials directly from your specific course content for maximum exam relevance." },
+      { title: "Active Learning Tools", description: "Produces flashcards and quizzes that engage active recall rather than passive reading alone." },
+      { title: "Progress Monitoring", description: "Tracks your revision activity and performance to guide efficient exam preparation efforts." }
+    ],
+    useCases: [
+      { title: "Students Preparing for Exams", description: "Generate targeted revision materials from your actual course content for more effective preparation." },
+      { title: "University Students", description: "Convert lecture notes and readings into active revision tools quickly before assessment periods." },
+      { title: "Secondary School Students", description: "Create engaging revision materials from class content to prepare confidently for important exams." }
+    ]
+  },
+  "makefilm": {
+    whatIs: "Makefilm is an AI film and video creation platform that helps users produce short films, video stories, and cinematic content from scripts and ideas using AI generation and automated production tools.",
+    features: [
+      "Short Film Creation: AI-assisted short film production",
+      "Script to Video: Convert scripts into visual film content",
+      "Scene Generation: AI creates individual film scenes",
+      "Character Consistency: Maintain characters across your film",
+      "Cinematic Output: High production value video generation"
+    ],
+    howToUse: {
+      title: "How to Use Makefilm",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Script", description: "Input your film script or story outline for AI-powered visual film production." },
+        { title: "Generate Your Scenes", description: "Let Makefilm create individual scenes from your script with consistent visual style." },
+        { title: "Review and Adjust", description: "Check generated scenes for quality and narrative consistency across your short film." },
+        { title: "Compile and Export", description: "Assemble your scenes into a complete short film and export for sharing and distribution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Script Processing", description: "Converts written scripts into appropriate visual representations for each described scene." },
+      { title: "Visual Consistency", description: "Maintains consistent visual style and character appearance throughout generated film content." },
+      { title: "Production Automation", description: "Handles video generation and assembly automatically reducing manual production workload significantly." }
+    ],
+    useCases: [
+      { title: "Independent Filmmakers", description: "Produce short film content using AI generation without traditional equipment and crew requirements." },
+      { title: "Film Students", description: "Create cinematic projects and learn visual storytelling through AI-assisted film production tools." },
+      { title: "Creative Writers", description: "See your written stories realized as visual film content using AI video generation capabilities." }
+    ]
+  },
+  "avclabs": {
+    whatIs: "AVCLabs is an AI video enhancement software suite that upscales video resolution, removes noise, improves color, and restores old footage using deep learning technology for dramatically better visual quality.",
+    features: [
+      "AI Video Upscaling: Increase resolution to 4K and beyond",
+      "Noise Reduction: Clean grainy and noisy video footage",
+      "Color Enhancement: Improve color accuracy and saturation",
+      "Old Film Restoration: Restore and enhance archival footage",
+      "Batch Processing: Enhance multiple video files at once"
+    ],
+    howToUse: {
+      title: "How to Use Avclabs",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Video", description: "Open AVCLabs and import the video file you want to enhance and upscale with AI." },
+        { title: "Choose Enhancement Options", description: "Select your target resolution and the specific enhancement types you want applied." },
+        { title: "Preview Enhancement", description: "Preview the enhancement results on a sample section before processing the entire video." },
+        { title: "Process and Export", description: "Run the full AI enhancement and export your significantly improved video file." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Upscaling Technology", description: "Uses deep learning to increase video resolution with natural-looking detail enhancement." },
+      { title: "Noise Removal", description: "Identifies and removes visual noise from footage while preserving important image sharpness." },
+      { title: "Archival Restoration", description: "Enhances and restores old film footage making historical content clearer and more watchable." }
+    ],
+    useCases: [
+      { title: "Video Editors", description: "Improve the quality of footage shot in challenging conditions before using in production." },
+      { title: "Archivists", description: "Restore and enhance historical video footage for preservation and public viewing purposes." },
+      { title: "Content Creators", description: "Upscale older content for modern high-resolution platforms and improved audience experience." }
+    ]
+  },
   "viddo-veo3": {
     whatIs: "Viddo is an AI video generation platform powered by Veo3 technology that creates high-quality cinematic videos from text prompts and images for content creators and businesses seeking premium AI video output.",
     features: [
