@@ -1410,12 +1410,10 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-emoji-generator": [
       { id: "ai-emoji-generator", name: "AI Emoji Generator", description: "Custom emoji AI creator", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "😀", category: "art-creative-design", subcategory: "ai-emoji-generator" },
-      { id: "ai-emoji-generator-2", name: "AI Emoji Generator", description: "Alternative emoji AI tool", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🤖", category: "art-creative-design", subcategory: "ai-emoji-generator" },
       { id: "tiktok-emojis", name: "TikTok Emojis", description: "TikTok style emoji AI", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "🎵", category: "art-creative-design", subcategory: "ai-emoji-generator" },
       { id: "emojifyer", name: "Emojifyer", description: "Text to emoji AI converter", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "🔄", category: "art-creative-design", subcategory: "ai-emoji-generator" }
     ],
     "ai-font-generator": [
-      { id: "creative-fabrica-font-gen", name: "Creative Fabrica Font Generator", description: "AI font creation platform", url: "", upvotes: 1456, verified: true, rating: 4.8, icon: "✍️", category: "art-creative-design", subcategory: "ai-font-generator" },
       { id: "gentype", name: "Gentype", description: "AI typography generator", url: "", upvotes: 1098, verified: true, rating: 4.7, icon: "🔤", category: "art-creative-design", subcategory: "ai-font-generator" },
       { id: "font-vibes", name: "Font Vibes", description: "AI font mood generator", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "✨", category: "art-creative-design", subcategory: "ai-font-generator" },
       { id: "typiq", name: "Typiq", description: "Smart AI font creator", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🎨", category: "art-creative-design", subcategory: "ai-font-generator" },
@@ -1426,7 +1424,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "pixelied", name: "Pixelied", description: "Online AI graphic design", url: "", upvotes: 876, verified: false, rating: 4.5, icon: "📐", category: "art-creative-design", subcategory: "ai-graphic-design" }
     ],
     "ai-hair-color-changer": [
-      { id: "hairstyle-ai-color", name: "Hairstyle AI", description: "AI hair color transformation", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "💇", category: "art-creative-design", subcategory: "ai-hair-color-changer" },
       { id: "ai-hairstyle-color", name: "AI Hairstyle", description: "Hair color AI changer", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "💄", category: "art-creative-design", subcategory: "ai-hair-color-changer" },
       { id: "ai-hairstyle-changer", name: "AI HairStyle Changer", description: "Complete hair color AI tool", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "✨", category: "art-creative-design", subcategory: "ai-hair-color-changer" },
       { id: "haircutai", name: "HaircutAI", description: "AI haircut and color tool", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "✂️", category: "art-creative-design", subcategory: "ai-hair-color-changer" },
@@ -1434,9 +1431,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-hairstyle": [
       { id: "hairstyle-ai", name: "Hairstyle AI", description: "AI hairstyle generator", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "💇", category: "art-creative-design", subcategory: "ai-hairstyle" },
-      { id: "ai-hairstyle", name: "AI Hairstyle", description: "Smart hairstyle AI tool", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "💄", category: "art-creative-design", subcategory: "ai-hairstyle" },
-      { id: "ai-hairstyle-changer-main", name: "AI HairStyle Changer", description: "Professional hairstyle AI", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "✨", category: "art-creative-design", subcategory: "ai-hairstyle" },
-      { id: "haircutai-style", name: "HaircutAI", description: "AI haircut style generator", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "✂️", category: "art-creative-design", subcategory: "ai-hairstyle" }
     ],
     "ai-icon-generator": [
       { id: "creatie", name: "Creatie", description: "AI icon creation platform", url: "", upvotes: 1456, verified: true, rating: 4.8, icon: "🎨", category: "art-creative-design", subcategory: "ai-icon-generator" },
@@ -1500,7 +1494,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-poster-generator": [
       { id: "ai-poster-generator", name: "AI Poster Generator", description: "Professional poster AI tool", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🎨", category: "art-creative-design", subcategory: "ai-poster-generator" },
       { id: "ai-pixar-posters", name: "AI Pixar Posters", description: "Pixar style poster creator", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🎭", category: "art-creative-design", subcategory: "ai-poster-generator" },
-      { id: "ai-poster-generator-2", name: "AI Poster Generator", description: "Alternative poster AI", url: "", upvotes: 543, verified: false, rating: 4.3, icon: "📊", category: "art-creative-design", subcategory: "ai-poster-generator" }
     ],
     "ai-svg-generator": [
       { id: "vectorizer-ai", name: "Vectorizer.AI", description: "AI SVG vectorization tool", url: "", upvotes: 1567, verified: true, rating: 4.8, icon: "🔄", category: "art-creative-design", subcategory: "ai-svg-generator" },
@@ -1543,17 +1536,14 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-ux-design": [
       { id: "ux-pilot", name: "UX Pilot", description: "AI UX design assistant", url: "", upvotes: 1567, verified: true, rating: 4.8, icon: "✈️", category: "art-creative-design", subcategory: "ai-ux-design" },
-      { id: "uizard-ux", name: "Uizard", description: "AI-powered UX design tool", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "📱", category: "art-creative-design", subcategory: "ai-ux-design" },
     ],
     "ai-vector-graphics": [
-      { id: "vectorizer-ai-graphics", name: "Vectorizer.AI", description: "Image to vector AI converter", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🔄", category: "art-creative-design", subcategory: "ai-vector-graphics" },
       { id: "vectorizer-io", name: "Vectorizer.io", description: "Online vector AI tool", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🌐", category: "art-creative-design", subcategory: "ai-vector-graphics" },
       { id: "blush", name: "Blush", description: "AI character vector graphics", url: "", upvotes: 654, verified: false, rating: 4.5, icon: "😊", category: "art-creative-design", subcategory: "ai-vector-graphics" }
     ],
     "fashion-ai": [
       { id: "pic-copilot", name: "Pic Copilot", description: "AI fashion photography", url: "", upvotes: 1456, verified: true, rating: 4.7, icon: "📸", category: "art-creative-design", subcategory: "fashion-ai" },
       { id: "botika", name: "Botika", description: "AI fashion model platform", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🤖", category: "art-creative-design", subcategory: "fashion-ai" },
-      { id: "fashn-ai-fashion", name: "FASHN AI", description: "AI fashion design platform", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "✨", category: "art-creative-design", subcategory: "fashion-ai" },
       { id: "resleeve", name: "Resleeve", description: "AI fashion design tool", url: "", upvotes: 654, verified: false, rating: 4.4, icon: "👗", category: "art-creative-design", subcategory: "fashion-ai" }
     ],
     "image-to-3d-model": [
@@ -1569,9 +1559,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "story-boards-ai", name: "story-boards.ai", description: "AI storyboard generator", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "📖", category: "art-creative-design", subcategory: "storyboard-ai" }
     ],
     "text-to-3d": [
-      { id: "hyper3d-text", name: "Hyper3D", description: "Hyper 3D text generator", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🚀", category: "art-creative-design", subcategory: "text-to-3d" },
-      { id: "3d-ai-studio-text", name: "3D AI Studio", description: "Text to 3D AI platform", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🎭", category: "art-creative-design", subcategory: "text-to-3d" },
-      { id: "alpha3d-text", name: "Alpha3D", description: "Advanced text to 3D AI", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "🚀", category: "art-creative-design", subcategory: "text-to-3d" }
     ]
   },
   "social-media": {
