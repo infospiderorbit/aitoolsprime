@@ -1,4 +1,574 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "krikey-ai": {
+    whatIs: "Krikey AI is an AI animation platform that enables creators to generate animated avatars, 3D character animations, and animated video content from text prompts and motion capture for games and social media.",
+    features: [
+      "AI Avatar Animation: Generate animated 3D characters",
+      "Motion Capture: Record and apply body movements",
+      "Text to Animation: Describe motion for AI generation",
+      "Game Ready: Export animations for game engines",
+      "Social Content: Create animated videos for sharing"
+    ],
+    howToUse: {
+      title: "How to Use Krikey Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Avatar", description: "Design or import your 3D character avatar for animation in the Krikey AI platform." },
+        { title: "Describe Your Motion", description: "Enter text describing the animation or movement you want your character to perform." },
+        { title: "Generate Animation", description: "Let the AI create your character animation from the text description provided." },
+        { title: "Export Your Content", description: "Download your animated character for game engines or export as video for social sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Text to Motion", description: "Converts text descriptions of movements into actual 3D character animations automatically." },
+      { title: "Motion Capture Integration", description: "Records real body movements and applies them to 3D character animations accurately." },
+      { title: "Multi-Platform Export", description: "Exports animations in formats compatible with Unity, Unreal, and social video platforms." }
+    ],
+    useCases: [
+      { title: "Game Developers", description: "Generate character animations quickly without professional animators for indie game projects." },
+      { title: "Content Creators", description: "Produce animated avatar content for social media using AI motion generation tools." },
+      { title: "Educators", description: "Create animated educational content with expressive characters for engaging lesson delivery." }
+    ]
+  },
+  "catting": {
+    whatIs: "Catting is a fun AI-powered app that lets users have text conversations with a virtual AI cat companion, providing entertainment and lighthearted interaction through playful cat-like responses and personality.",
+    features: [
+      "Cat Personality: Conversational AI with feline character",
+      "Playful Responses: Entertaining cat-like dialogue and reactions",
+      "Companionship: Virtual cat companion for entertainment",
+      "Interactive Chat: Back-and-forth cat conversation experience",
+      "Fun Content: Amusing and lighthearted cat interactions"
+    ],
+    howToUse: {
+      title: "How to Use Catting",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Chat", description: "Open Catting and begin a conversation with your virtual AI cat companion." },
+        { title: "Talk to Your Cat", description: "Type messages and receive entertaining cat-like responses with feline personality." },
+        { title: "Enjoy the Interaction", description: "Experience playful and humorous cat dialogue for lighthearted digital companionship." },
+        { title: "Share Your Chats", description: "Screenshot or share funny conversations with friends for social media entertainment." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Feline Personality", description: "Delivers responses with authentic cat personality traits including aloofness and playfulness." },
+      { title: "Entertainment Focus", description: "Prioritizes fun and humor in all interactions for maximum entertainment value." },
+      { title: "Companion Experience", description: "Creates a sense of virtual pet companionship through consistent character personality." }
+    ],
+    useCases: [
+      { title: "Cat Lovers", description: "Enjoy entertaining conversations with a virtual cat companion whenever you want feline interaction." },
+      { title: "Boredom Relief Seekers", description: "Access lighthearted entertainment through amusing cat dialogue during downtime and breaks." },
+      { title: "Social Media Users", description: "Generate funny cat conversation screenshots for sharing and engagement with followers." }
+    ]
+  },
+  "catsme": {
+    whatIs: "CatsMe is an AI cat image generation and transformation tool that creates cute and stylized cat artwork, transforms your pets into illustrated versions, and generates creative cat-themed visual content.",
+    features: [
+      "Cat Art Generation: Create unique cat illustrations with AI",
+      "Pet Transformation: Turn your cat photos into artwork",
+      "Multiple Art Styles: Various cute and artistic cat styles",
+      "Custom Cats: Generate cats with specific traits and looks",
+      "Social Sharing: Cat content optimized for social media"
+    ],
+    howToUse: {
+      title: "How to Use Catsme",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload or Describe", description: "Either upload your cat's photo for transformation or describe your ideal cat illustration." },
+        { title: "Choose Your Style", description: "Select the artistic style for your cat artwork from cute cartoon to realistic illustration." },
+        { title: "Generate Your Cat Art", description: "Receive your AI-generated cat illustration or stylized version of your pet photo." },
+        { title: "Download and Share", description: "Save your cat artwork and share it with fellow cat lovers on social media platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Pet Photo Transformation", description: "Converts photos of real cats into stylized artwork while preserving recognizable features." },
+      { title: "Custom Cat Generation", description: "Creates original cat characters from descriptions with specific colors, patterns, and traits." },
+      { title: "Style Variety", description: "Offers multiple artistic styles from kawaii cute to painterly illustration for diverse aesthetics." }
+    ],
+    useCases: [
+      { title: "Cat Owners", description: "Transform your beloved cat into beautiful artwork as a unique keepsake or gift idea." },
+      { title: "Cat Content Creators", description: "Generate diverse cat-themed visual content for social media accounts and communities." },
+      { title: "Artists", description: "Use AI cat generation as creative inspiration or reference for your own cat artwork projects." }
+    ]
+  },
+  "skeptical-tom": {
+    whatIs: "Skeptical Tom is an AI chatbot persona featuring the famous skeptical cat meme, providing humorous and doubtful responses to statements and claims in the entertaining style of the viral internet cat meme.",
+    features: [
+      "Meme Personality: Famous skeptical cat meme AI chatbot",
+      "Humorous Responses: Entertaining doubtful cat reactions",
+      "Claim Evaluation: Skeptical takes on any statement made",
+      "Meme Culture: Celebrates viral internet cat meme history",
+      "Entertainment Focus: Fun and lighthearted interaction"
+    ],
+    howToUse: {
+      title: "How to Use Skeptical Tom",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Make a Claim", description: "Tell Skeptical Tom something you want to receive a hilariously doubtful cat response to." },
+        { title: "Enjoy the Skepticism", description: "Read the entertaining skeptical cat reactions delivered in true meme personality style." },
+        { title: "Keep the Conversation Going", description: "Continue making claims and statements for more amusing doubtful feline responses." },
+        { title: "Share for Laughs", description: "Screenshot the funniest exchanges and share them with friends for social entertainment." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Meme Authenticity", description: "Captures the specific personality and humor style of the famous skeptical cat meme accurately." },
+      { title: "Humor Generation", description: "Produces genuinely funny responses that land with people familiar with internet meme culture." },
+      { title: "Entertainment Value", description: "Delivers consistent comedic value through the skeptical cat persona in every interaction." }
+    ],
+    useCases: [
+      { title: "Meme Enthusiasts", description: "Interact with your favorite skeptical cat meme brought to life as an entertaining AI chatbot." },
+      { title: "Social Media Users", description: "Generate funny skeptical cat exchanges for sharing with followers and friends online." },
+      { title: "Comedy Content Creators", description: "Use the skeptical cat persona for humorous content ideas and entertainment inspiration." }
+    ]
+  },
+  "cute-cat-pictures-ai": {
+    whatIs: "Cute Cat Pictures AI Generator is a free tool that creates adorable AI-generated cat images in various cute styles, breeds, and scenarios for cat lovers and social media content creators.",
+    features: [
+      "Cute Cat Generation: Create adorable AI cat images",
+      "Multiple Breeds: Generate various cat breeds and types",
+      "Scenario Options: Cats in fun and cute situations",
+      "Free to Use: Generate cat images without payment",
+      "Social Ready: Perfect images for social media sharing"
+    ],
+    howToUse: {
+      title: "How to Use Cute Cat Pictures Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Cat", description: "Enter a description of the cute cat you want generated including breed, color, and scenario." },
+        { title: "Generate Your Image", description: "Receive your AI-generated adorable cat image based on your described preferences." },
+        { title: "Browse Results", description: "Look through your generated cat images and select your favorite for downloading." },
+        { title: "Share the Cuteness", description: "Post your AI-generated cat images on social media to spread cat-related joy online." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Breed Variety", description: "Generates cats of diverse breeds and coat patterns from descriptive text input." },
+      { title: "Scenario Generation", description: "Creates cats in charming and cute scenarios beyond simple portrait-style images." },
+      { title: "Free Access", description: "Provides unlimited cute cat image generation without payment barriers or subscriptions." }
+    ],
+    useCases: [
+      { title: "Cat Lovers", description: "Generate endless adorable cat imagery for personal enjoyment and social media sharing." },
+      { title: "Social Media Creators", description: "Produce cute cat content that reliably drives engagement and positive reactions from audiences." },
+      { title: "Pet Brands", description: "Create diverse cat imagery for marketing materials without expensive pet photography sessions." }
+    ]
+  },
+  "cat-gpt": {
+    whatIs: "Cat-GPT is an AI chatbot that responds to all messages exclusively in cat language including meows, purrs, and cat sounds, providing a uniquely entertaining and humorous twist on AI conversation.",
+    features: [
+      "Cat Language Only: All responses in meows and cat sounds",
+      "Personality Simulation: Authentic cat behavior and moods",
+      "Humorous Interaction: Entertainment through cat communication",
+      "Mood Variety: Happy purring to grumpy hissing responses",
+      "Shareable Conversations: Screenshot-worthy cat exchanges"
+    ],
+    howToUse: {
+      title: "How to Use Cat Gpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Talking", description: "Send any message to Cat-GPT and receive a response entirely in cat language." },
+        { title: "Interpret the Meows", description: "Try to understand what your AI cat is communicating through its meows and sounds." },
+        { title: "Enjoy the Humor", description: "Appreciate the consistently entertaining absurdity of full cat language conversation." },
+        { title: "Share With Friends", description: "Screenshot your funniest cat conversations and share them for social media laughs." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Consistent Cat Language", description: "Responds exclusively in cat sounds without ever breaking character into human language." },
+      { title: "Mood Simulation", description: "Varies responses to simulate different cat moods from affectionate to aloof and grumpy." },
+      { title: "Entertainment Consistency", description: "Delivers reliable humor through the committed cat language interaction concept throughout." }
+    ],
+    useCases: [
+      { title: "Humor Seekers", description: "Enjoy the consistently funny experience of trying to have a conversation entirely in cat." },
+      { title: "Cat Owners", description: "Experience what it might be like if your actual cat could have a conversation with you." },
+      { title: "Social Media Entertainers", description: "Create amusing cat conversation content that resonates with cat lover communities online." }
+    ]
+  },
+  "ifoto": {
+    whatIs: "iFoto is an AI photo editing and enhancement platform that provides background removal, image upscaling, object removal, and creative editing tools for product photographers and content creators.",
+    features: [
+      "Background Removal: Clean automatic background extraction",
+      "Image Upscaling: Enhance photo resolution with AI",
+      "Object Removal: Remove unwanted elements from photos",
+      "Product Photography: E-commerce photo enhancement tools",
+      "Batch Processing: Process multiple images simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Ifoto",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Import the image you want to edit or enhance into iFoto for AI processing." },
+        { title: "Choose Your Tool", description: "Select from background removal, upscaling, object removal, or enhancement options." },
+        { title: "Apply Processing", description: "Let the AI tool process your image for the selected enhancement or editing effect." },
+        { title: "Download Result", description: "Save your edited photo in high quality for your intended e-commerce or content use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "E-commerce Focus", description: "Provides tools specifically useful for product photography and online store image preparation." },
+      { title: "Background Precision", description: "Removes backgrounds with accurate edge detection for professional product cutout images." },
+      { title: "Batch Efficiency", description: "Processes multiple photos simultaneously for high-volume product photography workflows." }
+    ],
+    useCases: [
+      { title: "E-commerce Sellers", description: "Prepare professional product photos for online store listings efficiently and affordably." },
+      { title: "Product Photographers", description: "Streamline photo editing workflows with AI tools that handle repetitive processing tasks." },
+      { title: "Content Creators", description: "Edit and enhance images quickly for social media and marketing content production." }
+    ]
+  },
+  "customuse": {
+    whatIs: "Customuse is an AI-powered fashion and virtual try-on platform that lets users design custom clothing, try on outfits virtually, and explore personalized fashion through AI-generated wearable designs.",
+    features: [
+      "Virtual Try-On: See clothing on yourself before buying",
+      "Custom Design: Create personalized clothing designs with AI",
+      "Style Exploration: Try diverse fashion styles virtually",
+      "AI Fashion: Generate unique clothing designs from prompts",
+      "Wearable Art: Create fashion as personal artistic expression"
+    ],
+    howToUse: {
+      title: "How to Use Customuse",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Provide a photo of yourself for the virtual try-on and personalized fashion experience." },
+        { title: "Browse or Design", description: "Explore available designs or create custom clothing using AI design generation tools." },
+        { title: "Try On Virtually", description: "See your selected or custom-designed clothing realistically displayed on your photo." },
+        { title: "Save Your Looks", description: "Capture your favorite virtual outfits and share them for feedback or social content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Virtual Try-On Technology", description: "Realistically displays clothing on your actual photo for accurate style visualization." },
+      { title: "AI Design Generation", description: "Creates unique custom clothing designs from creative text descriptions and preferences." },
+      { title: "Fashion Exploration", description: "Enables trying unlimited style directions virtually without purchasing or commitment." }
+    ],
+    useCases: [
+      { title: "Fashion Enthusiasts", description: "Explore personal style and try unlimited looks without physical shopping or purchasing." },
+      { title: "Clothing Designers", description: "Use AI design generation to rapidly prototype and visualize new clothing concepts." },
+      { title: "Social Media Creators", description: "Generate diverse fashion content for style accounts using virtual try-on capabilities." }
+    ]
+  },
+  "the-new-black-ai": {
+    whatIs: "The New Black AI is an AI fashion design platform that generates unique clothing designs, streetwear concepts, and wearable art from text prompts for fashion designers, brands, and creative entrepreneurs.",
+    features: [
+      "Fashion Design Generation: Unique clothing concepts from prompts",
+      "Streetwear Focus: Urban and contemporary fashion aesthetics",
+      "Design Exploration: Rapid fashion concept ideation tool",
+      "Multiple Styles: Various fashion aesthetics and genres",
+      "Creative Freedom: Unrestricted fashion design exploration"
+    ],
+    howToUse: {
+      title: "How to Use The New Black Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Design", description: "Enter a detailed description of the clothing concept, style, and aesthetic you want generated." },
+        { title: "Generate Your Design", description: "Receive AI-generated fashion design concepts based on your creative description." },
+        { title: "Explore Variations", description: "Create multiple design variations to explore different directions for your fashion concept." },
+        { title: "Use for Development", description: "Apply generated designs as inspiration or references for your actual fashion production." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Fashion-Specific Generation", description: "Trained on fashion imagery to understand clothing design conventions and wearable aesthetics." },
+      { title: "Streetwear Expertise", description: "Particularly strong at generating contemporary urban and streetwear-inspired clothing concepts." },
+      { title: "Rapid Ideation", description: "Produces multiple design concepts quickly for efficient creative exploration and development." }
+    ],
+    useCases: [
+      { title: "Fashion Designers", description: "Generate rapid concept designs for collection development and creative direction exploration." },
+      { title: "Streetwear Brands", description: "Explore new design directions and seasonal concepts with AI-assisted fashion ideation tools." },
+      { title: "Fashion Students", description: "Practice design thinking and generate concepts for portfolio and educational projects." }
+    ]
+  },
+  "fashn-ai": {
+    whatIs: "FASHN AI is an AI virtual try-on platform that lets shoppers see clothing items on their own photos, helping e-commerce brands reduce returns and improve purchase confidence through realistic outfit visualization.",
+    features: [
+      "Virtual Try-On: See clothes on your actual photo",
+      "E-commerce Integration: Works with online store products",
+      "Return Reduction: Better purchase decisions through visualization",
+      "Realistic Output: Natural-looking outfit display on photos",
+      "Multiple Garments: Try tops bottoms and full outfits"
+    ],
+    howToUse: {
+      title: "How to Use Fashn Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Provide a full-body or upper-body photo for realistic clothing try-on visualization." },
+        { title: "Select Your Garment", description: "Choose the clothing item you want to see displayed on your photo realistically." },
+        { title: "Generate Try-On", description: "Receive a realistic visualization of the selected garment displayed on your uploaded photo." },
+        { title: "Make Your Decision", description: "Use the try-on visualization to make a more confident purchasing decision for the item." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photorealistic Try-On", description: "Displays garments on photos with realistic draping, fit, and lighting for accurate visualization." },
+      { title: "E-commerce Optimization", description: "Integrates with online stores to enable try-on directly within the shopping experience." },
+      { title: "Return Rate Reduction", description: "Improves purchase confidence through better visualization leading to fewer returns from customers." }
+    ],
+    useCases: [
+      { title: "Online Shoppers", description: "See how clothing actually looks on your body before purchasing to make better decisions." },
+      { title: "E-commerce Brands", description: "Reduce return rates by offering virtual try-on that improves customer purchase confidence." },
+      { title: "Fashion Retailers", description: "Differentiate your shopping experience with AI try-on that helps customers commit to purchases." }
+    ]
+  },
+  "outfit-changer": {
+    whatIs: "Outfit Changer is an AI clothing swap and virtual try-on tool that replaces the clothing in photos with different outfits, enabling creative fashion exploration and content creation through AI image editing.",
+    features: [
+      "Outfit Swapping: Replace clothing in photos with AI",
+      "Style Exploration: Try unlimited outfits on your photos",
+      "Creative Content: Fashion content through AI clothing change",
+      "Multiple Styles: Various outfit styles and aesthetics",
+      "Easy Process: Simple photo upload and outfit selection"
+    ],
+    howToUse: {
+      title: "How to Use Outfit Changer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Select a photo where you want to change or swap the clothing using AI technology." },
+        { title: "Choose Your Outfit", description: "Select the new clothing style or outfit you want to see displayed in your photo." },
+        { title: "Generate the Swap", description: "Let the AI replace the existing clothing with your chosen outfit in the photo." },
+        { title: "Download Your Image", description: "Save your outfit-swapped photo for fashion exploration or social media content use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Clothing Replacement", description: "Accurately replaces existing clothing in photos with new outfit selections realistically." },
+      { title: "Style Flexibility", description: "Enables trying unlimited different outfit styles on any photo for exploration." },
+      { title: "Content Creation", description: "Produces diverse fashion content from single photos through AI outfit variation." }
+    ],
+    useCases: [
+      { title: "Fashion Lovers", description: "Explore unlimited outfit combinations on your own photos for personal style discovery." },
+      { title: "Content Creators", description: "Generate diverse fashion content variations from single photos for social media posting." },
+      { title: "Shoppers", description: "Visualize how different clothing items might look on you before making purchasing decisions." }
+    ]
+  },
+  "colormagic": {
+    whatIs: "ColorMagic is an AI color palette generator that creates beautiful harmonious color palettes from text descriptions, keywords, and moods for designers, artists, and brand identity projects.",
+    features: [
+      "AI Palette Generation: Color palettes from text descriptions",
+      "Mood-Based Colors: Palettes matching specific moods and themes",
+      "Harmony Algorithms: Scientifically harmonious color combinations",
+      "Export Options: Download in various color code formats",
+      "Inspiration Library: Browse palettes created by community"
+    ],
+    howToUse: {
+      title: "How to Use Colormagic",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Palette", description: "Enter keywords, moods, or themes that describe the color palette you need for your project." },
+        { title: "Generate Your Colors", description: "Receive an AI-generated harmonious color palette matching your described aesthetic direction." },
+        { title: "Explore Variations", description: "Generate multiple palette variations to compare different color direction options." },
+        { title: "Export Your Palette", description: "Download your chosen palette in HEX, RGB, or other formats for design tool use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Text to Palette", description: "Translates descriptive words and moods into specific color combinations accurately." },
+      { title: "Color Harmony", description: "Applies color theory principles to ensure generated palettes are visually harmonious." },
+      { title: "Format Export", description: "Delivers palettes in multiple color code formats compatible with all design software tools." }
+    ],
+    useCases: [
+      { title: "Graphic Designers", description: "Generate color palettes for design projects quickly from mood and theme descriptions." },
+      { title: "Brand Identity Designers", description: "Create harmonious brand color systems from brand personality and value descriptions." },
+      { title: "Web Developers", description: "Find perfectly harmonious color schemes for UI design projects efficiently." }
+    ]
+  },
+  "palettemaker": {
+    whatIs: "PaletteMaker is an AI tool that generates customized color palettes for design projects, allowing designers to create, adjust, and export professional color schemes from multiple input methods.",
+    features: [
+      "Custom Palette Creation: Build palettes from various inputs",
+      "Color Harmony: Automatic harmony rule application",
+      "Palette Adjustment: Fine-tune generated color schemes",
+      "Multiple Inputs: Image color extraction and text generation",
+      "Export Ready: Download palettes for design software"
+    ],
+    howToUse: {
+      title: "How to Use Palettemaker",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Input Method", description: "Select from text description, image color extraction, or base color selection to start." },
+        { title: "Generate Your Palette", description: "Receive your AI-generated color palette based on your chosen input method and preferences." },
+        { title: "Adjust Your Colors", description: "Fine-tune individual colors and the overall palette until it perfectly matches your vision." },
+        { title: "Export for Design", description: "Download your finalized palette in the color formats needed for your design tools." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multiple Input Methods", description: "Accepts text, images, and base colors as starting points for flexible palette creation." },
+      { title: "Harmony Rules", description: "Automatically applies color theory harmony rules to all generated palettes for visual cohesion." },
+      { title: "Fine-Tuning Tools", description: "Provides adjustment controls for refining generated palettes to achieve the exact look needed." }
+    ],
+    useCases: [
+      { title: "UI/UX Designers", description: "Create cohesive interface color schemes for digital products and applications efficiently." },
+      { title: "Illustrators", description: "Develop harmonious color palettes for artwork and illustration projects quickly." },
+      { title: "Brand Designers", description: "Build consistent brand color systems with professional harmony and aesthetic appeal." }
+    ]
+  },
+  "hue-hive": {
+    whatIs: "HueHive is an AI color palette tool that helps designers and creators generate, save, and organize beautiful color palettes for design projects with community sharing and inspiration features.",
+    features: [
+      "Palette Generation: AI-created color palettes instantly",
+      "Community Inspiration: Browse palettes shared by designers",
+      "Save and Organize: Build your personal palette library",
+      "Color Exploration: Discover new color combinations easily",
+      "Export Formats: Download in design-ready color formats"
+    ],
+    howToUse: {
+      title: "How to Use Hue Hive",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Generate a Palette", description: "Use AI generation or browse the community library for color palette inspiration." },
+        { title: "Customize Colors", description: "Adjust and refine your palette to achieve exactly the right color combination needed." },
+        { title: "Save to Library", description: "Store your favorite palettes in your personal organized library for future access." },
+        { title: "Export and Apply", description: "Download your palette in the color format needed for your design software and projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Generation", description: "Creates new color palettes from prompts and preferences for quick creative starting points." },
+      { title: "Community Library", description: "Provides access to palettes created by designers for broad inspiration and reference." },
+      { title: "Personal Organization", description: "Maintains a searchable personal library of saved palettes for efficient project management." }
+    ],
+    useCases: [
+      { title: "Designers", description: "Build a personal library of go-to color palettes for consistent and efficient project work." },
+      { title: "Creative Teams", description: "Share color palettes across team members for consistent color usage in collaborative projects." },
+      { title: "Students", description: "Learn color theory by exploring AI-generated palettes and studying design community examples." }
+    ]
+  },
+  "perception": {
+    whatIs: "Perception is an AI color and design analysis tool that evaluates how design choices including colors, typography, and layout affect viewer perception and emotional response for more effective visual communication.",
+    features: [
+      "Color Psychology: Analyze emotional impact of color choices",
+      "Design Feedback: AI evaluation of visual design decisions",
+      "Perception Analysis: How viewers respond to your designs",
+      "Improvement Suggestions: Actionable design enhancement advice",
+      "Brand Alignment: Check if design matches brand values"
+    ],
+    howToUse: {
+      title: "How to Use Perception",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Design", description: "Submit your design file or image for AI perception and emotional impact analysis." },
+        { title: "Receive Analysis", description: "Get a detailed breakdown of how your color and design choices affect viewer perception." },
+        { title: "Review Suggestions", description: "Study the specific improvement recommendations for stronger emotional and visual impact." },
+        { title: "Refine Your Design", description: "Apply the insights to update your design for more effective visual communication goals." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Color Psychology Analysis", description: "Evaluates the psychological and emotional impact of color choices on target audiences." },
+      { title: "Actionable Feedback", description: "Provides specific and implementable suggestions rather than vague general design observations." },
+      { title: "Brand Consistency Check", description: "Verifies that design choices align with intended brand values and emotional associations." }
+    ],
+    useCases: [
+      { title: "Graphic Designers", description: "Validate design decisions with AI analysis of how choices will actually be perceived by viewers." },
+      { title: "Brand Managers", description: "Ensure visual materials create the intended emotional response and brand association intended." },
+      { title: "Marketing Teams", description: "Optimize visual campaign materials for maximum emotional impact on target audiences." }
+    ]
+  },
+  "coloringbook-ai": {
+    whatIs: "ColoringBook AI is an AI tool that generates custom coloring book pages from text descriptions, creating printable line art illustrations for children, adults, and therapeutic coloring activities.",
+    features: [
+      "Custom Page Generation: Coloring pages from text descriptions",
+      "Various Themes: Nature animals mandalas and more available",
+      "Print Ready: Clean line art suitable for printing",
+      "Adult and Child Options: Complexity levels for all ages",
+      "Unlimited Creation: Generate as many pages as desired"
+    ],
+    howToUse: {
+      title: "How to Use Coloringbook Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Page", description: "Enter a description of the coloring page theme, subject, and complexity level you want." },
+        { title: "Generate Your Page", description: "Receive a clean AI-generated line art coloring page based on your description." },
+        { title: "Preview Your Design", description: "Check the generated coloring page for detail quality and printability before saving." },
+        { title: "Print and Color", description: "Download and print your custom coloring page for an enjoyable coloring activity." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Custom Subject Generation", description: "Creates coloring pages on any topic or theme rather than being limited to preset designs." },
+      { title: "Age-Appropriate Complexity", description: "Adjusts line art complexity to suit different age groups from children through adults." },
+      { title: "Print Optimization", description: "Generates clean crisp line art that prints clearly without digital artifacts or smudging." }
+    ],
+    useCases: [
+      { title: "Parents", description: "Create personalized coloring pages featuring your children's favorite subjects and characters." },
+      { title: "Teachers", description: "Generate curriculum-relevant coloring pages that support educational themes and topics." },
+      { title: "Therapeutic Users", description: "Access unlimited custom coloring pages for mindfulness, stress relief, and art therapy activities." }
+    ]
+  },
+  "colorify-ai": {
+    whatIs: "Colorify AI is an AI colorization tool that automatically adds color to black and white photos and illustrations, bringing historical images and monochrome artwork to life with realistic and vibrant color.",
+    features: [
+      "Photo Colorization: Add color to black and white images",
+      "Realistic Colors: AI applies historically accurate color tones",
+      "Illustration Coloring: Colorize line art and drawings",
+      "Fast Processing: Color added quickly to any image",
+      "Download Ready: Colorized images for immediate use"
+    ],
+    howToUse: {
+      title: "How to Use Colorify Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Import your black and white photo or illustration for AI colorization processing." },
+        { title: "Let AI Colorize", description: "Allow the AI to analyze your image and apply realistic color to all elements automatically." },
+        { title: "Review the Colors", description: "Check the AI-applied colorization for accuracy and natural-looking color balance." },
+        { title: "Download Your Image", description: "Save your colorized photo or illustration in full color for sharing and use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Realistic Color Application", description: "Applies historically plausible and contextually appropriate colors to black and white content." },
+      { title: "Automatic Processing", description: "Colorizes images entirely automatically without manual color selection for each element." },
+      { title: "Illustration Support", description: "Handles both photographic content and drawn illustrations for diverse colorization needs." }
+    ],
+    useCases: [
+      { title: "History Enthusiasts", description: "See historical photographs in full color for a more personal and vivid connection to the past." },
+      { title: "Family Archivists", description: "Colorize old family photos to share with relatives and preserve memories more vividly." },
+      { title: "Artists", description: "Quickly colorize line art and sketches to explore color options for artwork development." }
+    ]
+  },
+  "colorin-ai": {
+    whatIs: "Colorin AI is an AI-powered image colorization and enhancement platform that transforms grayscale images into vibrant full-color versions with natural-looking color application for photos and artwork.",
+    features: [
+      "Image Colorization: Transform grayscale to full color",
+      "Natural Color Output: Realistic and believable color results",
+      "Enhancement Tools: Additional image quality improvement",
+      "Multiple Image Types: Photos illustrations and artwork supported",
+      "Batch Processing: Colorize multiple images at once"
+    ],
+    howToUse: {
+      title: "How to Use Colorin Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Import the grayscale or black and white image you want colorized with AI." },
+        { title: "Apply Colorization", description: "Let Colorin AI analyze and apply natural-looking colors to your image automatically." },
+        { title: "Adjust if Needed", description: "Fine-tune the colorization output if any colors need adjustment for your satisfaction." },
+        { title: "Download Your Result", description: "Save your fully colorized image in the quality you need for your intended use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Color Accuracy", description: "Applies colors that look natural and believable rather than artificial or oversaturated." },
+      { title: "Multi-Type Support", description: "Works effectively across photographs, illustrations, and hand-drawn artwork inputs." },
+      { title: "Batch Processing", description: "Colorizes multiple images simultaneously for efficient high-volume colorization workflows." }
+    ],
+    useCases: [
+      { title: "Photographers", description: "Colorize archival black and white photography for exhibitions and historical documentation projects." },
+      { title: "Genealogists", description: "Bring old family photographs to life with color for meaningful family history presentations." },
+      { title: "Artists", description: "Explore color variations for grayscale artwork efficiently using AI colorization as reference." }
+    ]
+  },
+  "best-coloring-pages-ai": {
+    whatIs: "Best Coloring Pages AI is a platform that uses AI to generate high-quality printable coloring pages across diverse themes for children and adults, providing unlimited custom coloring content on demand.",
+    features: [
+      "Diverse Themes: Animals nature fantasy and much more",
+      "Print Quality: High-resolution printable line art output",
+      "Custom Requests: Generate specific subjects on demand",
+      "Age Appropriate: Options for children and adult coloring",
+      "Free Access: Basic coloring page generation available"
+    ],
+    howToUse: {
+      title: "How to Use Best Coloring Pages Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Theme", description: "Select a theme category or describe the specific coloring page subject you want." },
+        { title: "Generate Your Page", description: "Receive a high-quality AI-generated coloring page line art for your chosen subject." },
+        { title: "Print Your Page", description: "Download and print your coloring page at home or at a print shop for coloring." },
+        { title: "Color and Enjoy", description: "Use your favorite coloring tools to bring your custom AI-generated page to life." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Theme Breadth", description: "Covers an exceptionally wide range of subjects ensuring relevant pages for any interest." },
+      { title: "Print Resolution", description: "Generates coloring pages at resolution high enough for quality home and professional printing." },
+      { title: "Custom Generation", description: "Creates pages for specific subjects that may not exist in traditional coloring book collections." }
+    ],
+    useCases: [
+      { title: "Parents", description: "Generate endless custom coloring pages matching your children's current interests and obsessions." },
+      { title: "Teachers", description: "Create subject-relevant coloring activities that reinforce classroom learning themes effectively." },
+      { title: "Coloring Enthusiasts", description: "Access unlimited custom adult coloring pages for relaxation and creative artistic expression." }
+    ]
+  },
   "coverdesign-ai": {
     whatIs: "CoverDesignAI is an AI book cover design tool that generates professional and eye-catching book covers for authors and publishers from genre, title, and style preferences without needing graphic design skills.",
     features: [
