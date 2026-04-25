@@ -1,4 +1,334 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "scoreapp": {
+    whatIs: "ScoreApp is an AI-powered quiz and scorecard funnel builder that helps businesses generate qualified leads by creating interactive assessments that deliver personalized results and recommendations to respondents.",
+    features: [
+      "Quiz Funnels: Build lead-generating quiz and scorecard funnels",
+      "Personalized Results: Custom outcomes based on respondent answers",
+      "Lead Capture: Collect contact details through engaging assessments",
+      "Analytics Dashboard: Understand your audience from quiz data",
+      "CRM Integration: Connect results to your marketing tools"
+    ],
+    howToUse: {
+      title: "How to Use Scoreapp",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Design Your Quiz", description: "Build your scorecard or quiz by adding questions that reveal important information about your audience." },
+        { title: "Set Up Results Pages", description: "Create personalized result pages that deliver value based on how respondents score their answers." },
+        { title: "Configure Lead Capture", description: "Set up the lead capture form that respondents complete to receive their personalized results." },
+        { title: "Launch and Analyze", description: "Publish your quiz funnel and review analytics on completion rates and lead quality from respondents." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalized Results Engine", description: "Delivers customized outcome pages based on individual respondent answers for high perceived value." },
+      { title: "Lead Qualification", description: "Collects valuable data about leads through quiz answers revealing their needs and situation clearly." },
+      { title: "Funnel Analytics", description: "Tracks completion rates, answer patterns, and lead quality metrics for continuous funnel optimization." }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "Generate and qualify leads through engaging quiz funnels that deliver genuine value to respondents." },
+      { title: "Coaches and Consultants", description: "Use assessments to identify prospect needs and demonstrate expertise before sales conversations." },
+      { title: "E-commerce Brands", description: "Help customers find the right products through recommendation quizzes while capturing their contact details." }
+    ]
+  },
+  "achievable": {
+    whatIs: "Achievable is an AI-powered exam prep platform that uses adaptive learning and spaced repetition to help students prepare for professional certification exams including FINRA, real estate, and insurance licensing.",
+    features: [
+      "Adaptive Learning: Adjusts to your knowledge gaps automatically",
+      "Spaced Repetition: Optimized review scheduling for retention",
+      "Exam Specific: Targeted prep for professional certification exams",
+      "Progress Analytics: Detailed tracking of exam readiness",
+      "Practice Questions: Thousands of exam-style practice questions"
+    ],
+    howToUse: {
+      title: "How to Use Achievable",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Exam", description: "Select the professional certification exam you are preparing for from Achievable's exam library." },
+        { title: "Take Diagnostic Assessment", description: "Complete an initial assessment so Achievable can identify your current knowledge level and gaps." },
+        { title: "Follow Adaptive Study Plan", description: "Work through your personalized study plan that adjusts based on your ongoing performance data." },
+        { title: "Track Your Readiness", description: "Monitor your exam readiness score and practice question performance as your test date approaches." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Adaptive Algorithm", description: "Continuously adjusts study content and question difficulty based on your demonstrated knowledge levels." },
+      { title: "Spaced Repetition Scheduling", description: "Optimizes when you review material to maximize retention using proven memory science principles." },
+      { title: "Exam-Specific Content", description: "Provides content and questions specifically calibrated to the exact professional exam you are taking." }
+    ],
+    useCases: [
+      { title: "Professional License Seekers", description: "Prepare efficiently for licensing exams with adaptive study that focuses your time where it matters most." },
+      { title: "Career Changers", description: "Enter new professional fields by preparing thoroughly for required licensing exams with targeted study." },
+      { title: "Exam Retakers", description: "Identify the specific knowledge gaps that caused previous failures and address them systematically." }
+    ]
+  },
+  "octane-ai": {
+    whatIs: "Octane AI is a Shopify quiz and zero-party data platform that helps e-commerce brands collect customer preferences through product recommendation quizzes to personalize shopping and increase conversions.",
+    features: [
+      "Product Recommendation Quizzes: Match customers to ideal products",
+      "Zero-Party Data: Collect preference data directly from customers",
+      "Shopify Integration: Native connection to your Shopify store",
+      "Personalization Engine: Tailored recommendations for each shopper",
+      "Email Integration: Sync quiz data to your email marketing tools"
+    ],
+    howToUse: {
+      title: "How to Use Octane Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Quiz", description: "Create a product recommendation quiz that asks shoppers about their preferences and needs." },
+        { title: "Connect Your Products", description: "Link quiz answer combinations to specific product recommendations from your Shopify catalog." },
+        { title: "Embed in Your Store", description: "Add the quiz to your homepage, product pages, or as a pop-up to engage incoming shoppers." },
+        { title: "Use the Data", description: "Sync collected preference data to your email platform for personalized follow-up marketing campaigns." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Product Matching Engine", description: "Maps customer quiz answers to the most appropriate products from your catalog for relevant recommendations." },
+      { title: "Zero-Party Data Collection", description: "Gathers customer preference data directly and transparently improving targeting without privacy concerns." },
+      { title: "Shopify Native Integration", description: "Connects seamlessly with Shopify stores for smooth product syncing and purchase tracking." }
+    ],
+    useCases: [
+      { title: "Shopify Store Owners", description: "Increase conversions by helping shoppers find the perfect product through personalized quiz recommendations." },
+      { title: "Beauty and Skincare Brands", description: "Match customers to the right products for their specific skin type, concerns, and preferences." },
+      { title: "Fashion Retailers", description: "Guide shoppers to style-matched products while collecting valuable preference data for future marketing." }
+    ]
+  },
+  "educato": {
+    whatIs: "Educato is an AI educational platform that helps teachers create personalized learning materials, lesson plans, and assessments quickly while providing students with adaptive practice and AI tutoring support.",
+    features: [
+      "Teacher Tools: AI lesson planning and material creation",
+      "Student Tutoring: Personalized AI support for learners",
+      "Adaptive Practice: Questions adjust to student performance",
+      "Assessment Creation: Quizzes and tests generated by AI",
+      "Progress Monitoring: Track student performance over time"
+    ],
+    howToUse: {
+      title: "How to Use Educato",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Classroom", description: "Create your Educato account and configure your class with subject, grade level, and student information." },
+        { title: "Generate Materials", description: "Use AI tools to create lesson plans, worksheets, and assessments tailored to your curriculum." },
+        { title: "Assign to Students", description: "Share generated materials with students through the platform for personalized adaptive practice." },
+        { title: "Monitor Progress", description: "Review student performance data and adjust your teaching approach based on the analytics provided." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Dual-Sided Platform", description: "Serves both teachers creating content and students consuming it in one integrated educational ecosystem." },
+      { title: "Adaptive Student Practice", description: "Adjusts question difficulty for each student based on their ongoing performance for optimal challenge." },
+      { title: "Teacher Time Savings", description: "Dramatically reduces time spent creating materials so educators focus more energy on actual teaching." }
+    ],
+    useCases: [
+      { title: "Classroom Teachers", description: "Create quality lesson materials and assessments faster while providing students with personalized AI support." },
+      { title: "School Administrators", description: "Give teachers AI tools that improve both instructional quality and student learning outcomes across subjects." },
+      { title: "Private Tutors", description: "Generate customized practice materials for individual students targeting their specific learning gaps." }
+    ]
+  },
+  "quizbot-ai": {
+    whatIs: "QuizBot.ai is an AI quiz generation tool that creates engaging quizzes, flashcards, and practice tests from any uploaded document, URL, or text making assessment creation fast and effortless for educators.",
+    features: [
+      "Instant Quiz Generation: Create quizzes from any content",
+      "Multiple Input Types: Documents URLs and pasted text",
+      "Various Question Formats: MCQ fill-in-the-blank and more",
+      "Flashcard Creation: Auto-generated study flashcards",
+      "Share and Assign: Distribute quizzes to students easily"
+    ],
+    howToUse: {
+      title: "How to Use Quizbot Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Content", description: "Import a document, paste a URL, or enter text that you want to create a quiz from." },
+        { title: "Generate Your Quiz", description: "Let QuizBot AI analyze your content and produce a comprehensive quiz with varied question types." },
+        { title: "Review and Edit", description: "Check all generated questions for accuracy and make any corrections before sharing with students." },
+        { title: "Share With Students", description: "Distribute your quiz via link and collect responses from your class for grading and review." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Format Input", description: "Accepts documents, web URLs, and pasted text for maximum flexibility in content sourcing." },
+      { title: "Question Variety", description: "Generates multiple question types including multiple choice, true/false, and fill-in-the-blank formats." },
+      { title: "Instant Generation", description: "Creates complete quizzes from your content in seconds rather than hours of manual writing." }
+    ],
+    useCases: [
+      { title: "Teachers", description: "Generate professional assessments from your course content without spending hours writing questions manually." },
+      { title: "Trainers", description: "Create knowledge checks for training materials quickly to verify participant learning and comprehension." },
+      { title: "Students", description: "Generate self-study quizzes from your own notes to test your knowledge before real exams effectively." }
+    ]
+  },
+  "magicform-app": {
+    whatIs: "MagicForm.app is an AI conversational form builder that replaces static forms with engaging chat-style interactions, improving completion rates and collecting richer data through natural conversation flows.",
+    features: [
+      "Conversational Forms: Chat-style forms instead of static fields",
+      "AI Powered: Intelligent responses based on previous answers",
+      "Higher Completion: Conversational format improves form completion",
+      "Lead Generation: Capture leads through engaging conversations",
+      "Easy Builder: Build conversational forms without coding"
+    ],
+    howToUse: {
+      title: "How to Use Magicform App",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Design Your Conversation", description: "Map out the questions and flow for your conversational form including branching logic paths." },
+        { title: "Configure AI Responses", description: "Set up intelligent responses that adapt based on what users have already answered in the conversation." },
+        { title: "Embed Your Form", description: "Add the conversational form to your website or share it as a standalone link for visitors." },
+        { title: "Review Submissions", description: "Collect and analyze responses from your conversational form interactions in your dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversational Interface", description: "Presents forms as natural chat conversations that feel engaging rather than like bureaucratic form filling." },
+      { title: "Adaptive Flow", description: "Adjusts subsequent questions based on previous answers for a personalized and relevant experience." },
+      { title: "Completion Rate Improvement", description: "Achieves higher form completion than static alternatives because the conversational format feels more natural." }
+    ],
+    useCases: [
+      { title: "Lead Generation Teams", description: "Capture more leads by replacing boring static forms with engaging conversational interactions on your website." },
+      { title: "Customer Research Teams", description: "Collect richer qualitative data through conversational surveys that encourage more thoughtful responses." },
+      { title: "Service Businesses", description: "Qualify and onboard new clients through friendly conversational intake forms instead of intimidating questionnaires." }
+    ]
+  },
+  "elevenreader": {
+    whatIs: "ElevenReader is an AI text-to-speech reading app that converts any text, document, or web article into high-quality audio narration using realistic ElevenLabs voices for listening on the go.",
+    features: [
+      "High-Quality Audio: ElevenLabs voices for natural narration",
+      "Document Reading: Convert PDFs and documents to audio",
+      "Web Article Audio: Listen to any article hands-free",
+      "Multiple Voices: Choose from diverse realistic AI voices",
+      "Mobile Listening: Listen anywhere on your mobile device"
+    ],
+    howToUse: {
+      title: "How to Use Elevenreader",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Content", description: "Upload a document, paste text, or share a web article URL into ElevenReader for conversion." },
+        { title: "Choose Your Voice", description: "Select from the available realistic ElevenLabs voices for your preferred listening experience." },
+        { title: "Start Listening", description: "Play your converted audio and listen to your content while commuting, exercising, or relaxing." },
+        { title: "Manage Your Library", description: "Organize your converted content in your personal library for easy access to past audio files." }
+      ]
+    },
+    coreFeatures: [
+      { title: "ElevenLabs Voice Quality", description: "Uses ElevenLabs voices which are among the most realistic AI voices available for a natural listening experience." },
+      { title: "Multi-Format Support", description: "Converts PDFs, documents, web articles, and pasted text into audio from one unified application." },
+      { title: "Mobile Accessibility", description: "Makes any text content consumable as audio enabling productive listening in any situation or location." }
+    ],
+    useCases: [
+      { title: "Commuters", description: "Convert your reading list to audio and stay productive during commutes without needing to look at a screen." },
+      { title: "Busy Professionals", description: "Consume articles and documents as audio while multitasking to stay informed without dedicated reading time." },
+      { title: "Accessibility Users", description: "Access written content as audio for vision impairment or reading difficulties with high-quality realistic voices." }
+    ]
+  },
+  "peech": {
+    whatIs: "Peech is an AI video repurposing platform that automatically edits long-form video content into multiple short clips optimized for social media with captions, highlights, and platform-specific formatting.",
+    features: [
+      "Auto Clip Creation: Extract engaging clips from long videos",
+      "AI Captions: Accurate subtitles added to every clip",
+      "Brand Templates: Apply consistent visual branding to clips",
+      "Multi-Platform: Format clips for TikTok Reels and Shorts",
+      "Team Collaboration: Work with your team on video content"
+    ],
+    howToUse: {
+      title: "How to Use Peech",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Import your long-form video recording, webinar, or podcast episode into Peech for processing." },
+        { title: "Let AI Find Clips", description: "Peech analyzes your video and identifies the most engaging and shareable moments automatically." },
+        { title: "Review and Edit", description: "Preview the suggested clips and make any adjustments to timing, captions, or branding elements." },
+        { title: "Export for Platforms", description: "Download clips formatted and sized correctly for your target social media platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Intelligent Clip Detection", description: "Identifies the most engaging moments in long videos using AI analysis of content and speaking patterns." },
+      { title: "Automatic Captioning", description: "Adds accurate subtitles to every clip for silent viewing and accessibility requirements." },
+      { title: "Brand Consistency", description: "Applies your visual branding including colors, logos, and fonts consistently across all generated clips." }
+    ],
+    useCases: [
+      { title: "Content Marketers", description: "Repurpose webinars and long videos into social clips that extend content value across multiple platforms." },
+      { title: "Podcasters", description: "Extract compelling audio-visual clips from podcast recordings to promote episodes on social media." },
+      { title: "Corporate Communications", description: "Turn internal presentations and town halls into shareable clips for employee social media sharing." }
+    ]
+  },
+  "audeus": {
+    whatIs: "Audeus is an AI audio content platform that converts written articles, newsletters, and documents into podcast-quality audio making text content accessible and consumable in audio format for busy audiences.",
+    features: [
+      "Article to Audio: Convert any article into quality audio",
+      "Newsletter Audio: Transform email newsletters into listenable content",
+      "Natural Voices: High-quality AI narration for all content",
+      "RSS Feed: Publish audio content as a podcast feed",
+      "Embed Player: Add audio player to your website easily"
+    ],
+    howToUse: {
+      title: "How to Use Audeus",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Content", description: "Link your blog, newsletter, or upload documents you want converted to audio format." },
+        { title: "Choose Your Voice", description: "Select the AI voice style that best represents your brand and content personality." },
+        { title: "Generate Your Audio", description: "Let Audeus convert your written content into professional quality audio narration automatically." },
+        { title: "Distribute Your Audio", description: "Publish via RSS as a podcast feed or embed the audio player directly on your website." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Conversion", description: "Transforms written content into audio automatically without manual recording or production work." },
+      { title: "RSS Publishing", description: "Creates podcast-compatible RSS feeds allowing distribution to all major podcast platforms easily." },
+      { title: "Embeddable Player", description: "Provides a simple embed code for adding audio players to any website or blog platform." }
+    ],
+    useCases: [
+      { title: "Bloggers and Publishers", description: "Offer your written content as audio to reach audiences who prefer listening over reading articles." },
+      { title: "Newsletter Creators", description: "Give your subscribers the option to listen to your newsletters during their commute or workout." },
+      { title: "Content Marketers", description: "Extend the reach of written content by making it accessible to the growing podcast-listening audience." }
+    ]
+  },
+  "clearly-reader": {
+    whatIs: "Clearly Reader is a browser extension that transforms cluttered web pages into clean distraction-free reading views with AI summarization, text-to-speech, and vocabulary tools for focused reading.",
+    features: [
+      "Clean Reading Mode: Strip away ads and distractions instantly",
+      "AI Summary: Get a quick summary before reading fully",
+      "Text to Speech: Listen to articles read aloud clearly",
+      "Vocabulary Tools: Look up words while reading easily",
+      "Reading Progress: Track your reading speed and progress"
+    ],
+    howToUse: {
+      title: "How to Use Clearly Reader",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Add Clearly Reader to your Chrome browser from the Web Store in one click." },
+        { title: "Visit Any Article", description: "Navigate to any web article and click the Clearly Reader icon for an instant clean view." },
+        { title: "Read or Listen", description: "Read in the clean distraction-free layout or activate text-to-speech to listen to the content." },
+        { title: "Use AI Summary", description: "Get a quick AI summary of the article to decide if you want to read the full piece in depth." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Distraction Removal", description: "Strips away all ads, popups, sidebars, and clutter to present just the article content clearly." },
+      { title: "AI Summarization", description: "Generates quick summaries so readers can preview content relevance before committing to full reading." },
+      { title: "Text-to-Speech", description: "Reads articles aloud with clear AI narration for multitasking or accessibility needs." }
+    ],
+    useCases: [
+      { title: "Avid Readers", description: "Enjoy a clean focused reading experience free from the distractions that make modern web pages frustrating." },
+      { title: "Researchers", description: "Quickly scan article summaries and switch to clean reading mode for deep focused content consumption." },
+      { title: "Accessibility Users", description: "Use text-to-speech and clean layouts to access web content more comfortably and effectively." }
+    ]
+  },
+  "thread-navigator": {
+    whatIs: "Thread Navigator is a browser tool that helps users navigate and visualize long Twitter and X threads more effectively by organizing thread content into a clear readable structure for easier consumption.",
+    features: [
+      "Thread Visualization: See entire threads in organized format",
+      "Easy Navigation: Jump between thread posts quickly",
+      "Thread Saving: Save important threads for later reading",
+      "Clean Display: Distraction-free thread reading experience",
+      "Long Thread Support: Handle very long thread chains easily"
+    ],
+    howToUse: {
+      title: "How to Use Thread Navigator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Find Your Thread", description: "Navigate to any Twitter or X thread you want to read more effectively using the tool." },
+        { title: "Activate Navigation", description: "Enable Thread Navigator to reorganize the thread into a clear structured readable format." },
+        { title: "Read and Navigate", description: "Move through the thread content easily using the organized navigation interface provided." },
+        { title: "Save for Later", description: "Bookmark important threads to your saved collection for convenient future reference and rereading." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Thread Organization", description: "Presents long Twitter threads in a logical structured format that is significantly easier to follow." },
+      { title: "Navigation Tools", description: "Enables jumping between specific thread posts without scrolling through the entire conversation linearly." },
+      { title: "Save Functionality", description: "Allows saving valuable threads for future reference rather than losing them in the Twitter feed." }
+    ],
+    useCases: [
+      { title: "Twitter Power Users", description: "Read long informative threads more comfortably with organized navigation that makes structure clear." },
+      { title: "Knowledge Seekers", description: "Follow complex educational and analytical Twitter threads without losing your place or missing posts." },
+      { title: "Content Curators", description: "Save and organize valuable Twitter threads for future reference and sharing with your audience." }
+    ]
+  },
   "amazy-uk": {
     whatIs: "Amazy.uk is an AI learning and educational content platform that helps students and lifelong learners access personalized study materials, explanations, and interactive learning experiences across a wide range of subjects.",
     features: [
