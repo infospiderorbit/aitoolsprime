@@ -1,4 +1,514 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "color-pop": {
+    whatIs: "Color Pop is an AI photo editing tool that selectively colorizes specific subjects in photos while keeping the background in black and white, creating dramatic and artistic selective color photography effects.",
+    features: [
+      "Selective Colorization: Color specific subjects in grayscale photos",
+      "Dramatic Effect: Eye-catching selective color photography",
+      "Easy Selection: AI automatically identifies subjects",
+      "Multiple Subjects: Colorize people objects or elements",
+      "Download Ready: Share-ready images instantly"
+    ],
+    howToUse: {
+      title: "How to Use Color Pop",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Import a color or black and white photo where you want to apply selective colorization effect." },
+        { title: "Select Your Subject", description: "Let the AI identify subjects or manually select what you want to remain in color." },
+        { title: "Apply the Effect", description: "Generate your selective color photo with the chosen subject in color and background in black and white." },
+        { title: "Download and Share", description: "Save your dramatic selective color photo for social media and creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Intelligent Subject Detection", description: "Automatically identifies and isolates subjects in photos for accurate selective colorization." },
+      { title: "Dramatic Visual Impact", description: "Creates striking artistic images through the contrast between colorized subjects and monochrome backgrounds." },
+      { title: "Creative Flexibility", description: "Allows selection of any element as the color subject for diverse artistic expression options." }
+    ],
+    useCases: [
+      { title: "Photographers", description: "Create artistic selective color effects for portraits and creative photography projects." },
+      { title: "Social Media Creators", description: "Produce visually striking content that stands out in feeds with the dramatic selective color effect." },
+      { title: "Artists", description: "Use selective colorization as a creative technique for digital art and visual storytelling projects." }
+    ]
+  },
+  "omniparser": {
+    whatIs: "OmniParser is an AI tool that parses and extracts structured data from diverse document types including invoices, receipts, forms, and PDFs, converting unstructured visual content into organized usable data.",
+    features: [
+      "Document Parsing: Extract data from any document type",
+      "Invoice Processing: Automatic invoice data extraction",
+      "Receipt Reading: Pull data from receipt images",
+      "Form Extraction: Extract filled form field data",
+      "Structured Output: Data delivered in organized formats"
+    ],
+    howToUse: {
+      title: "How to Use Omniparser",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Document", description: "Import your invoice, receipt, form, or PDF for AI-powered data extraction processing." },
+        { title: "AI Parses Content", description: "Let OmniParser identify and extract all relevant data fields from your uploaded document." },
+        { title: "Review Extracted Data", description: "Check the structured data output for accuracy and completeness of extraction." },
+        { title: "Export Your Data", description: "Download your extracted data in CSV, JSON, or other structured formats for use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Universal Document Support", description: "Handles diverse document types from invoices to forms with consistent extraction accuracy." },
+      { title: "Structured Output", description: "Delivers extracted data in organized formats ready for database or spreadsheet import." },
+      { title: "Automatic Field Detection", description: "Identifies relevant data fields automatically without manual field mapping configuration." }
+    ],
+    useCases: [
+      { title: "Finance Teams", description: "Automate invoice and receipt processing for faster and more accurate accounting workflows." },
+      { title: "Operations Teams", description: "Extract form and document data efficiently without manual data entry requirements." },
+      { title: "Developers", description: "Integrate document parsing into applications using OmniParser's extraction capabilities." }
+    ]
+  },
+  "octocomics": {
+    whatIs: "OctoComics is an AI comic creation platform that enables users to generate original comic strips and graphic novel pages from story descriptions using AI-powered panel generation and consistent character art.",
+    features: [
+      "Comic Strip Generation: Multi-panel comic from story descriptions",
+      "Character Consistency: Maintained character appearance across panels",
+      "Multiple Art Styles: Various comic and manga aesthetics",
+      "Story to Comic: Narrative text becomes visual sequential art",
+      "Download Ready: Comics ready for sharing or printing"
+    ],
+    howToUse: {
+      title: "How to Use Octocomics",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Story", description: "Describe your comic story, characters, setting, and the scenes you want visualized." },
+        { title: "Generate Your Panels", description: "Let OctoComics create sequential comic panels with consistent characters and art style." },
+        { title: "Review Panel Flow", description: "Check that panels tell your story logically and that characters remain consistent." },
+        { title: "Download Your Comic", description: "Export your completed comic strip or page for sharing or further publication." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sequential Storytelling", description: "Creates panels that work together as a coherent visual narrative rather than isolated images." },
+      { title: "Character Consistency Engine", description: "Maintains the same character appearance across multiple panels for professional comic quality." },
+      { title: "Style Flexibility", description: "Offers multiple comic art styles from western comics to manga for diverse creative projects." }
+    ],
+    useCases: [
+      { title: "Comic Creators", description: "Produce original comic content without traditional illustration skills using AI generation." },
+      { title: "Storytellers", description: "Transform written narratives into engaging sequential visual comic art formats." },
+      { title: "Content Creators", description: "Generate unique comic strip content for social media that stands out from standard posts." }
+    ]
+  },
+  "prompt-to-comic": {
+    whatIs: "PromptToComic is an AI tool that converts text prompts and story descriptions directly into complete comic panels and pages with AI-generated artwork and dialogue for instant comic creation.",
+    features: [
+      "Instant Comic Generation: Text prompts become comic panels",
+      "Dialogue Integration: Speech bubbles and text placement",
+      "Panel Layout: Automatic comic page layout arrangement",
+      "Multiple Styles: Various comic art aesthetics available",
+      "Fast Creation: Comics generated quickly from descriptions"
+    ],
+    howToUse: {
+      title: "How to Use Prompt To Comic",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Prompt", description: "Write the comic scene or story segment you want converted into visual comic panels." },
+        { title: "Add Dialogue", description: "Include character dialogue that will be placed in speech bubbles in your comic panels." },
+        { title: "Generate Your Comic", description: "Receive AI-generated comic panels with artwork, layout, and dialogue integrated." },
+        { title: "Download and Share", description: "Save your generated comic page and share it with readers or on social media." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Prompt Understanding", description: "Accurately interprets story descriptions to generate relevant and coherent comic panel content." },
+      { title: "Dialogue Placement", description: "Integrates written dialogue into speech bubbles with appropriate placement within panels." },
+      { title: "Layout Automation", description: "Arranges multiple panels into proper comic page layouts automatically without manual design." }
+    ],
+    useCases: [
+      { title: "Writers", description: "Visualize story scenes as comic art quickly for creative projects and storytelling experiments." },
+      { title: "Comic Enthusiasts", description: "Create original comics from your story ideas without needing drawing skills or software." },
+      { title: "Educators", description: "Generate educational comic content that makes learning material more engaging for students." }
+    ]
+  },
+  "aicomic": {
+    whatIs: "AIComic is an AI-powered comic and manga creation platform that helps artists and storytellers generate professional-quality comic pages, character designs, and sequential art from detailed story prompts.",
+    features: [
+      "Professional Comic Pages: High-quality sequential art generation",
+      "Character Design: AI-created character artwork and designs",
+      "Manga Style: Authentic manga art generation capability",
+      "Story Adaptation: Convert narratives into visual comic form",
+      "Export Options: Comics ready for digital and print use"
+    ],
+    howToUse: {
+      title: "How to Use Aicomic",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Scene", description: "Write detailed descriptions of your comic scene including characters, action, and setting." },
+        { title: "Generate Your Page", description: "Let AIComic create a professional comic page from your described scene and characters." },
+        { title: "Review and Refine", description: "Check the generated page for quality, consistency, and narrative clarity." },
+        { title: "Export Your Comic", description: "Download your completed comic pages for digital publishing or print production." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Page Quality", description: "Produces comic pages at a quality level suitable for actual comic publication and distribution." },
+      { title: "Character Design Generation", description: "Creates original character designs that remain consistent across multiple generated pages." },
+      { title: "Format Versatility", description: "Generates content in both western comic and manga styles for diverse creative needs." }
+    ],
+    useCases: [
+      { title: "Comic Artists", description: "Accelerate comic production with AI assistance for backgrounds and secondary scene elements." },
+      { title: "Indie Comic Creators", description: "Produce professional-quality comics independently without a full artistic team." },
+      { title: "Manga Creators", description: "Generate manga pages efficiently for serialized online or print publication projects." }
+    ]
+  },
+  "aifantoons": {
+    whatIs: "aiFantoons is an AI cartoon and animated character creation platform that generates fun illustrated characters, cartoon scenes, and animated-style artwork from text descriptions for creative and entertainment purposes.",
+    features: [
+      "Cartoon Character Creation: Fun illustrated characters from prompts",
+      "Scene Generation: Complete cartoon scenes with characters",
+      "Animation Style: Cartoon and animated aesthetic output",
+      "Custom Characters: Design original cartoon personalities",
+      "Social Content: Cartoon images for social media sharing"
+    ],
+    howToUse: {
+      title: "How to Use Aifantoons",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Character", description: "Enter a description of your cartoon character including personality, appearance, and style." },
+        { title: "Generate Your Cartoon", description: "Receive AI-generated cartoon character artwork based on your creative description." },
+        { title: "Create Scenes", description: "Generate complete cartoon scenes featuring your characters in various situations." },
+        { title: "Download and Use", description: "Save your cartoon artwork for storytelling, social media, or creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Character Generation", description: "Creates original cartoon characters with distinct personalities and visual identities from descriptions." },
+      { title: "Scene Creation", description: "Generates complete cartoon scenes with characters, backgrounds, and situational context." },
+      { title: "Animated Aesthetic", description: "Produces artwork in authentic cartoon and animated styles appropriate for entertainment use." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Generate fun cartoon characters and scenes for social media content and entertainment." },
+      { title: "Children's Content Makers", description: "Create engaging cartoon artwork for educational and entertainment content for young audiences." },
+      { title: "Storytellers", description: "Visualize cartoon story concepts through AI-generated character and scene artwork." }
+    ]
+  },
+  "ai-comic-generator": {
+    whatIs: "AI Comic Generator is a free web tool that creates complete comic strips from text prompts with AI-generated panels, dialogue, and artwork for instant comic creation without drawing skills.",
+    features: [
+      "Free Comic Creation: Generate comics without payment",
+      "Multi-Panel Strips: Complete comic strips generated instantly",
+      "Dialogue Support: Speech bubbles added automatically",
+      "Various Styles: Multiple comic art aesthetics available",
+      "Instant Output: Comics ready within seconds of prompting"
+    ],
+    howToUse: {
+      title: "How to Use Ai Comic Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Story", description: "Enter your comic strip concept including characters, plot, and any specific dialogue you want included." },
+        { title: "Generate Your Strip", description: "Receive a complete multi-panel comic strip with AI artwork and integrated dialogue bubbles." },
+        { title: "Review Your Comic", description: "Check the generated strip for story coherence and visual quality before saving." },
+        { title: "Download and Share", description: "Save your free AI-generated comic strip and share it online or with friends." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Access", description: "Provides complete comic strip generation without any payment requirement or subscription." },
+      { title: "Speed of Generation", description: "Creates complete comic strips within seconds of submitting your story description." },
+      { title: "Dialogue Integration", description: "Automatically adds speech bubbles with appropriate dialogue placement throughout panels." }
+    ],
+    useCases: [
+      { title: "Comic Enthusiasts", description: "Create original comic strips for free without any artistic skill or drawing ability required." },
+      { title: "Students", description: "Generate comics for creative writing projects and educational assignments quickly." },
+      { title: "Social Media Users", description: "Create shareable comic strip content that entertains and engages your online audience." }
+    ]
+  },
+  "ai-comic-factory": {
+    whatIs: "AI Comic Factory is an open-source AI comic creation tool that generates comic strips from text prompts using various AI models, offering creators flexibility and creative control over their comic generation.",
+    features: [
+      "Open Source: Transparent and freely available comic tool",
+      "Multiple AI Models: Choose different generation models",
+      "Style Flexibility: Various comic aesthetics available",
+      "Text to Comic: Story descriptions become visual strips",
+      "Creative Control: Customize generation parameters"
+    ],
+    howToUse: {
+      title: "How to Use Ai Comic Factory",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access the Tool", description: "Open AI Comic Factory through the web interface or deploy your own instance from the source." },
+        { title: "Select Your Model", description: "Choose the AI generation model you want to use for creating your comic panels." },
+        { title: "Enter Your Prompt", description: "Write your comic story description with character and scene details for generation." },
+        { title: "Generate and Download", description: "Create your comic strip and download the generated panels for your creative use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Open Source Transparency", description: "Provides fully transparent and auditable code for creators who value open development." },
+      { title: "Model Flexibility", description: "Supports multiple AI generation models giving creators options for different aesthetic results." },
+      { title: "Community Driven", description: "Benefits from open-source community contributions and improvements over time." }
+    ],
+    useCases: [
+      { title: "Developer Creators", description: "Use or customize the open-source tool for specific comic generation workflow needs." },
+      { title: "AI Enthusiasts", description: "Experiment with different AI models for comic generation through the flexible interface." },
+      { title: "Independent Creators", description: "Generate comics with creative control and transparency through the open-source platform." }
+    ]
+  },
+  "tooning": {
+    whatIs: "Tooning is an AI cartoon and webtoon creation platform that helps creators make professional webtoon-style comics, animated content, and storytelling comics with AI-assisted artwork and character tools.",
+    features: [
+      "Webtoon Creation: Professional webtoon-style comic making",
+      "AI Character Tools: Generate and customize comic characters",
+      "Story Templates: Structured templates for storytelling",
+      "Animation Features: Animated comic elements available",
+      "Publishing Ready: Content formatted for webtoon platforms"
+    ],
+    howToUse: {
+      title: "How to Use Tooning",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Characters", description: "Design your webtoon characters using Tooning's AI character creation and customization tools." },
+        { title: "Set Up Your Story", description: "Choose your story template and organize your narrative structure for your webtoon." },
+        { title: "Build Your Panels", description: "Create individual panels using your characters and AI-assisted background and scene generation." },
+        { title: "Publish Your Webtoon", description: "Export your finished webtoon in the format required for publishing on major webtoon platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Webtoon Specialization", description: "Designed specifically for the vertical scrolling webtoon format popular in Korean comics culture." },
+      { title: "Character Customization", description: "Provides extensive character design tools for creating unique protagonists and supporting cast." },
+      { title: "Platform Publishing", description: "Formats content correctly for publication on major webtoon platforms directly." }
+    ],
+    useCases: [
+      { title: "Webtoon Creators", description: "Produce professional webtoon series with AI assistance for art and character consistency." },
+      { title: "Story Artists", description: "Create visual stories in the webtoon format without traditional illustration expertise." },
+      { title: "Comics Enthusiasts", description: "Start your own webtoon series with accessible AI tools that handle the artistic heavy lifting." }
+    ]
+  },
+  "anifusion": {
+    whatIs: "Anifusion is an AI manga and anime artwork generation platform that creates high-quality manga panels, character illustrations, and anime-style artwork from text descriptions with authentic style accuracy.",
+    features: [
+      "Manga Generation: Authentic manga-style artwork creation",
+      "Anime Illustrations: High-quality anime character art",
+      "Panel Creation: Sequential manga panels from descriptions",
+      "Style Accuracy: True-to-genre anime and manga aesthetics",
+      "Character Art: Detailed anime character illustrations"
+    ],
+    howToUse: {
+      title: "How to Use Anifusion",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Scene", description: "Write detailed descriptions of your manga panel or anime illustration requirements." },
+        { title: "Select Your Style", description: "Choose the specific manga or anime art style that best matches your creative vision." },
+        { title: "Generate Your Art", description: "Receive high-quality manga or anime artwork generated from your provided description." },
+        { title: "Download Your Illustration", description: "Save your generated manga or anime artwork for your creative projects and publications." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Authentic Style", description: "Produces manga and anime artwork with genuine aesthetic accuracy to genre conventions." },
+      { title: "Panel Sequential Support", description: "Creates sequential manga panels that work together as a coherent visual narrative." },
+      { title: "Character Detail", description: "Generates detailed anime characters with consistent features and appropriate styling throughout." }
+    ],
+    useCases: [
+      { title: "Manga Artists", description: "Accelerate manga production with AI assistance for panels, backgrounds, and character art." },
+      { title: "Anime Fans", description: "Create original anime-style artwork featuring custom characters and scenarios." },
+      { title: "Indie Manga Creators", description: "Produce manga series independently with AI art assistance for consistent quality output." }
+    ]
+  },
+  "storynest-ai": {
+    whatIs: "StoryNest.ai is an AI interactive storytelling platform that creates personalized branching narrative stories where readers make choices that shape the story direction for immersive reading experiences.",
+    features: [
+      "Interactive Stories: Choose-your-own-adventure narratives",
+      "AI Story Generation: Personalized story creation from prompts",
+      "Branching Narratives: Multiple story paths and outcomes",
+      "Personalization: Stories adapted to reader preferences",
+      "Immersive Experience: Engaging interactive reading format"
+    ],
+    howToUse: {
+      title: "How to Use Storynest Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Start Your Story", description: "Enter your story premise, genre, and character preferences to begin your interactive narrative." },
+        { title: "Make Story Choices", description: "Read the AI-generated story and make decisions that determine how the narrative progresses." },
+        { title: "Explore Different Paths", description: "Restart or choose differently to explore alternative story branches and outcomes." },
+        { title: "Share Your Experience", description: "Share particularly compelling story paths with friends for shared reading discussions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Branching Narrative Engine", description: "Creates multiple diverging story paths that respond meaningfully to reader decisions made." },
+      { title: "AI Story Generation", description: "Generates coherent and engaging narrative content for each branch based on choices." },
+      { title: "Personalization", description: "Adapts story elements to match reader preferences for a more personally resonant experience." }
+    ],
+    useCases: [
+      { title: "Readers", description: "Experience immersive choose-your-own-adventure stories personalized to your preferences." },
+      { title: "Writers", description: "Explore interactive narrative structures and branching story possibilities through AI assistance." },
+      { title: "Educators", description: "Use interactive AI stories as engaging tools for literacy and creative thinking development." }
+    ]
+  },
+  "topmedia": {
+    whatIs: "TopMedia is an AI media creation platform offering diverse tools for video generation, image creation, and audio production to help content creators produce diverse digital media efficiently.",
+    features: [
+      "Video Generation: AI video creation from text and images",
+      "Image Creation: AI image generation capabilities",
+      "Audio Tools: AI audio and music creation features",
+      "Multi-Media: Comprehensive creative media production suite",
+      "Fast Production: Quick media creation across formats"
+    ],
+    howToUse: {
+      title: "How to Use Topmedia",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Your Media Type", description: "Choose whether you need video, image, or audio content from TopMedia's creation suite." },
+        { title: "Input Your Content", description: "Provide text prompts, reference images, or descriptions for your desired media output." },
+        { title: "Generate Your Media", description: "Let TopMedia's AI tools produce your chosen media format from your provided input." },
+        { title: "Download and Publish", description: "Save your generated media and distribute it across your chosen platforms and channels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Media Coverage", description: "Addresses video, image, and audio creation needs from one integrated platform." },
+      { title: "Production Speed", description: "Generates diverse media types quickly for efficient content production workflows." },
+      { title: "Creator Accessibility", description: "Makes professional media creation accessible without specialized skills in each media type." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Produce diverse media formats efficiently from one platform without multiple tool subscriptions." },
+      { title: "Marketing Teams", description: "Generate varied media assets for campaigns across video, image, and audio formats." },
+      { title: "Social Media Managers", description: "Create diverse content types for multiple platform requirements from one efficient source." }
+    ]
+  },
+  "imusicfy-ai": {
+    whatIs: "iMusicfy AI is an AI music generation platform that creates original songs, instrumentals, and music tracks from text prompts and style descriptions for content creators, musicians, and multimedia projects.",
+    features: [
+      "AI Music Generation: Original songs from text descriptions",
+      "Style Matching: Music in specific genres and styles",
+      "Instrumental Creation: Background music without vocals",
+      "Lyric Generation: Original song lyrics created by AI",
+      "Multiple Formats: Various audio export format options"
+    ],
+    howToUse: {
+      title: "How to Use Imusicfy Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Music", description: "Enter a description of the music you want including genre, mood, instruments, and tempo." },
+        { title: "Generate Your Track", description: "Receive an original AI-generated music track based on your style description." },
+        { title: "Review Your Music", description: "Listen to your generated track and assess quality and style accuracy." },
+        { title: "Download Your Audio", description: "Save your AI-generated music in the format needed for your creative project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Style Accuracy", description: "Generates music that authentically represents described genres and musical styles." },
+      { title: "Original Creation", description: "Produces genuinely original music rather than remixing or sampling existing tracks." },
+      { title: "Format Flexibility", description: "Exports music in multiple audio formats suitable for different media and platform needs." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Generate background music for videos and podcasts without copyright licensing concerns." },
+      { title: "Indie Musicians", description: "Create demos and musical ideas quickly using AI generation as a creative starting point." },
+      { title: "Game Developers", description: "Produce original background music for games without expensive music composition commissions." }
+    ]
+  },
+  "audimee": {
+    whatIs: "Audimee is an AI audio and music creation tool that helps creators generate original background music, sound effects, and audio content for videos, podcasts, and multimedia projects from simple descriptions.",
+    features: [
+      "Background Music: Original audio for video content",
+      "Sound Effects: Custom sound effects generation",
+      "Style Selection: Music in various genres and moods",
+      "Royalty Free: Generated audio for commercial use",
+      "Fast Creation: Audio ready quickly from descriptions"
+    ],
+    howToUse: {
+      title: "How to Use Audimee",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Audio", description: "Enter the mood, genre, tempo, and use case for the audio content you need created." },
+        { title: "Generate Your Music", description: "Receive original AI-created audio matching your described style and requirements." },
+        { title: "Preview and Adjust", description: "Listen to your generated audio and request adjustments if the style needs refinement." },
+        { title: "Download Royalty Free", description: "Save your audio for commercial use in your videos, podcasts, and projects freely." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Original Generation", description: "Creates genuinely original audio compositions rather than licensing existing music tracks." },
+      { title: "Commercial Licensing", description: "Provides royalty-free audio that can be used commercially without licensing complications." },
+      { title: "Rapid Production", description: "Generates complete audio tracks quickly to keep content creation workflows moving efficiently." }
+    ],
+    useCases: [
+      { title: "YouTubers", description: "Add original background music to videos without copyright strikes or expensive licensing fees." },
+      { title: "Podcasters", description: "Create custom intro music and background audio that perfectly matches your show's personality." },
+      { title: "Video Producers", description: "Generate original soundtracks for commercial video projects at a fraction of traditional costs." }
+    ]
+  },
+  "singify-ai": {
+    whatIs: "Singify AI is an AI song creation platform that generates complete original songs with vocals, lyrics, and music from text prompts and style descriptions for musicians and creative content producers.",
+    features: [
+      "Complete Songs: Vocals lyrics and music all generated",
+      "Style Variety: Songs in diverse musical genres",
+      "Lyric Generation: Original song words created by AI",
+      "Vocal Synthesis: AI-generated singing vocals included",
+      "Download Ready: Complete songs for immediate use"
+    ],
+    howToUse: {
+      title: "How to Use Singify Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Song", description: "Enter the genre, mood, theme, and any specific lyrics or style elements you want included." },
+        { title: "Generate Your Song", description: "Receive a complete AI-generated song with vocals, lyrics, and instrumental accompaniment." },
+        { title: "Review the Result", description: "Listen to your generated song and evaluate the vocal performance and musical quality." },
+        { title: "Download Your Track", description: "Save your complete AI song for your creative projects and content production use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Song Output", description: "Generates finished songs with integrated vocals, lyrics, and music rather than separate elements." },
+      { title: "Genre Range", description: "Produces songs across diverse musical genres from pop and rock to classical and electronic." },
+      { title: "Vocal Quality", description: "Synthesizes singing vocals that sound natural within the generated musical compositions." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Add original complete songs to creative projects without licensing costs or hiring musicians." },
+      { title: "Social Media Musicians", description: "Generate original music content for platforms that reward musical creativity and output." },
+      { title: "Aspiring Songwriters", description: "Explore song concepts and get complete musical references using AI song generation tools." }
+    ]
+  },
+  "ls-graphics": {
+    whatIs: "ls.graphics is a curated design resource platform offering high-quality mockups, UI kits, illustrations, and design assets for product designers and creative professionals seeking premium design materials.",
+    features: [
+      "Premium Mockups: High-quality product and device mockups",
+      "UI Kits: Professional interface design component kits",
+      "Illustrations: Curated illustration sets for design projects",
+      "Design Assets: Comprehensive design resource collection",
+      "Free and Premium: Both free and paid resource tiers"
+    ],
+    howToUse: {
+      title: "How to Use Ls Graphics",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Library", description: "Explore ls.graphics' curated collection of premium design resources and assets." },
+        { title: "Find Your Resource", description: "Search for specific mockups, UI kits, or illustration sets that fit your project needs." },
+        { title: "Download Your Asset", description: "Access free resources directly or purchase premium assets for your design project." },
+        { title: "Apply to Your Design", description: "Integrate the downloaded resources into your design workflow and project files." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Curation Quality", description: "Maintains high standards for all listed resources ensuring professional quality throughout." },
+      { title: "Resource Variety", description: "Covers mockups, UI kits, illustrations, and other design assets in one curated library." },
+      { title: "Tiered Access", description: "Provides both free and premium resources making quality design assets accessible to all." }
+    ],
+    useCases: [
+      { title: "Product Designers", description: "Access high-quality mockups for professional product presentation and client showcase work." },
+      { title: "UI/UX Designers", description: "Find premium UI kits and interface components that accelerate professional design workflows." },
+      { title: "Freelance Designers", description: "Build a library of high-quality design resources for efficient client project delivery." }
+    ]
+  },
+  "mnml-ai": {
+    whatIs: "mnml.ai is a minimalist AI image generation platform focused on producing clean, minimal, and aesthetically refined visual content for designers and creators who value simplicity and visual clarity.",
+    features: [
+      "Minimalist Generation: Clean minimal AI image creation",
+      "Aesthetic Focus: Refined visual quality and composition",
+      "Simple Interface: Streamlined creation workflow",
+      "Design Oriented: Outputs suited for design use cases",
+      "Style Consistency: Consistently minimal aesthetic output"
+    ],
+    howToUse: {
+      title: "How to Use Mnml Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Minimally", description: "Write a concise description focusing on the essential visual elements you want generated." },
+        { title: "Generate Your Image", description: "Receive an AI image with the clean minimal aesthetic that defines the platform." },
+        { title: "Review for Clarity", description: "Assess the generated image for visual clarity and minimal aesthetic quality." },
+        { title: "Download for Design", description: "Save your minimal AI image for use in design projects and creative applications." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Minimalist Aesthetic", description: "Consistently produces images with clean composition and minimal visual complexity." },
+      { title: "Design Appropriateness", description: "Generates outputs that integrate naturally into professional design contexts and workflows." },
+      { title: "Quality Focus", description: "Prioritizes aesthetic refinement and visual quality over quantity of generated options." }
+    ],
+    useCases: [
+      { title: "Graphic Designers", description: "Generate clean minimal visual assets that integrate seamlessly into professional design projects." },
+      { title: "Brand Designers", description: "Create minimal brand imagery that communicates clarity and sophisticated aesthetic values." },
+      { title: "UI Designers", description: "Produce minimal visual assets appropriate for modern clean interface design aesthetics." }
+    ]
+  },
   "krikey-ai": {
     whatIs: "Krikey AI is an AI animation platform that enables creators to generate animated avatars, 3D character animations, and animated video content from text prompts and motion capture for games and social media.",
     features: [
