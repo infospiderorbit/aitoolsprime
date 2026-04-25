@@ -370,7 +370,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-avatar-video-generator": [
       { id: "vidyard", name: "Vidyard", description: "AI avatar video creation for business", url: "", upvotes: 1687, verified: true, rating: 4.7, icon: "👨‍💼", category: "video-animation", subcategory: "ai-avatar-video-generator" },
       { id: "virbo", name: "Virbo", description: "AI spokesperson video generator", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "🎤", category: "video-animation", subcategory: "ai-avatar-video-generator" },
-      { id: "captions-avatar", name: "Captions", description: "AI-powered video captions and avatars", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "💬", category: "video-animation", subcategory: "ai-avatar-video-generator" },
       { id: "elai-io", name: "Elai.io", description: "AI video generation with digital avatars", url: "", upvotes: 1156, verified: true, rating: 4.4, icon: "🤖", category: "video-animation", subcategory: "ai-avatar-video-generator" },
       { id: "jogg-ai", name: "Jogg.ai", description: "AI avatar video creation platform", url: "", upvotes: 987, verified: true, rating: 4.3, icon: "🏃‍♂️", category: "video-animation", subcategory: "ai-avatar-video-generator" }
     ],
@@ -402,7 +401,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-lip-sync-generator": [
       { id: "veo-3", name: "Veo 3", description: "Advanced AI lip sync technology", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "👄", category: "video-animation", subcategory: "ai-lip-sync-generator" },
-      { id: "magic-hour-lipsync", name: "Magic Hour", description: "AI lip sync video generation", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🌅", category: "video-animation", subcategory: "ai-lip-sync-generator" },
       { id: "sync-so", name: "sync.so", description: "Professional AI lip synchronization", url: "", upvotes: 987, verified: true, rating: 4.5, icon: "🎤", category: "video-animation", subcategory: "ai-lip-sync-generator" },
       { id: "vozo", name: "Vozo", description: "AI-powered lip sync and dubbing", url: "", upvotes: 754, verified: true, rating: 4.4, icon: "🗣️", category: "video-animation", subcategory: "ai-lip-sync-generator" },
       { id: "blipcut-ai", name: "BlipCut AI Video Translator", description: "AI video translation with lip sync", url: "", upvotes: 621, verified: true, rating: 4.3, icon: "🌐", category: "video-animation", subcategory: "ai-lip-sync-generator" }
@@ -449,10 +447,8 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "aicut", name: "aicut", description: "AI video cutting and TikTok creation", url: "", upvotes: 621, verified: true, rating: 4.2, icon: "✂️", category: "video-animation", subcategory: "ai-tiktok-video-generator" }
     ],
     "ai-ugc-video-generator": [
-      { id: "captions-ugc", name: "Captions", description: "AI UGC video with captions", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "💬", category: "video-animation", subcategory: "ai-ugc-video-generator" },
       { id: "arcads", name: "Arcads", description: "AI user-generated content platform", url: "", upvotes: 1089, verified: true, rating: 4.4, icon: "🎯", category: "video-animation", subcategory: "ai-ugc-video-generator" },
       { id: "makeugc", name: "MakeUGC", description: "AI UGC video creation tool", url: "", upvotes: 876, verified: true, rating: 4.3, icon: "📹", category: "video-animation", subcategory: "ai-ugc-video-generator" },
-      { id: "vidau-ai-ugc", name: "VidAU AI", description: "AI UGC video generation platform", url: "", upvotes: 654, verified: true, rating: 4.2, icon: "📺", category: "video-animation", subcategory: "ai-ugc-video-generator" },
       { id: "influee", name: "Influee", description: "AI influencer content generation", url: "", upvotes: 432, verified: false, rating: 4.1, icon: "👑", category: "video-animation", subcategory: "ai-ugc-video-generator" }
     ],
     "ai-video-editor": [
@@ -498,7 +494,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "eightify", name: "Eightify", description: "AI YouTube video summarization", url: "", upvotes: 621, verified: true, rating: 4.2, icon: "8️⃣", category: "video-animation", subcategory: "ai-video-summarizer" }
     ],
     "ai-video-upscaler": [
-      { id: "anyenhancer-upscaler", name: "AnyEnhancer", description: "Universal AI video upscaling", url: "", upvotes: 1156, verified: true, rating: 4.5, icon: "✨", category: "video-animation", subcategory: "ai-video-upscaler" },
       { id: "nero", name: "Nero", description: "Professional AI video upscaling", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "🔥", category: "video-animation", subcategory: "ai-video-upscaler" },
       { id: "avclabs", name: "AVCLabs", description: "Advanced AI video processing lab", url: "", upvotes: 754, verified: true, rating: 4.3, icon: "🧪", category: "video-animation", subcategory: "ai-video-upscaler" },
       { id: "vancei-video-ai", name: "VanceAI Video AI", description: "AI video enhancement and upscaling", url: "", upvotes: 621, verified: true, rating: 4.2, icon: "🎯", category: "video-animation", subcategory: "ai-video-upscaler" }
@@ -511,7 +506,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "virtual-you", name: "Virtual You", description: "AI-powered virtual avatar creator", url: "", upvotes: 432, verified: false, rating: 4.1, icon: "👤", category: "video-animation", subcategory: "ai-vtuber" }
     ],
     "ai-youtube-video-maker": [
-      { id: "aicut-youtube", name: "aicut", description: "AI YouTube video creation tool", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "✂️", category: "video-animation", subcategory: "ai-youtube-video-maker" },
       { id: "subscribr", name: "Subscribr", description: "AI YouTube content optimization", url: "", upvotes: 1156, verified: true, rating: 4.5, icon: "📺", category: "video-animation", subcategory: "ai-youtube-video-maker" },
       { id: "jupitrr-ai", name: "Jupitrr AI", description: "AI video creation for YouTube", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "🪐", category: "video-animation", subcategory: "ai-youtube-video-maker" },
       { id: "autoae", name: "AutoAE", description: "Automated After Effects for YouTube", url: "", upvotes: 754, verified: true, rating: 4.3, icon: "🎬", category: "video-animation", subcategory: "ai-youtube-video-maker" },
@@ -519,7 +513,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "image-to-video": [
       { id: "pixverse", name: "PixVerse", description: "AI image-to-video generation", url: "", upvotes: 1789, verified: true, rating: 4.7, icon: "🎨", category: "video-animation", subcategory: "image-to-video" },
-      { id: "magic-hour-image", name: "Magic Hour", description: "AI image animation platform", url: "", upvotes: 1234, verified: true, rating: 4.5, icon: "🌅", category: "video-animation", subcategory: "image-to-video" },
     ],
     "long-video-to-short-video-ai": [
       { id: "vizard-ai-short", name: "Vizard.ai", description: "AI long-to-short video conversion", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🧙‍♂️", category: "video-animation", subcategory: "long-video-to-short-video-ai" },
@@ -531,13 +524,9 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "pictory", name: "Pictory", description: "AI video creation from scripts", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "🎬", category: "video-animation", subcategory: "script-to-video-ai-generator" },
       { id: "ltx-studio", name: "LTX Studio", description: "Professional script-to-video AI", url: "", upvotes: 987, verified: true, rating: 4.4, icon: "🎭", category: "video-animation", subcategory: "script-to-video-ai-generator" },
       { id: "zebracat", name: "Zebracat", description: "AI script visualization platform", url: "", upvotes: 754, verified: true, rating: 4.3, icon: "🦓", category: "video-animation", subcategory: "script-to-video-ai-generator" },
-      { id: "aicut-script", name: "AICUT", description: "AI script-to-video converter", url: "", upvotes: 621, verified: true, rating: 4.2, icon: "✂️", category: "video-animation", subcategory: "script-to-video-ai-generator" }
     ],
     "text-to-video": [
       { id: "runway", name: "Runway", description: "Advanced AI text-to-video platform", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "🛬", category: "video-animation", subcategory: "text-to-video" },
-      { id: "pixverse-text", name: "PixVerse", description: "AI text-to-video generation", url: "", upvotes: 1789, verified: true, rating: 4.7, icon: "🎨", category: "video-animation", subcategory: "text-to-video" },
-      { id: "luma-ai-text", name: "Luma AI Dream Machine", description: "Dream-like text-to-video AI", url: "", upvotes: 1567, verified: true, rating: 4.6, icon: "💭", category: "video-animation", subcategory: "text-to-video" },
-      { id: "invideo-text", name: "InVideo", description: "Text-to-video creation platform", url: "", upvotes: 1234, verified: true, rating: 4.5, icon: "🎬", category: "video-animation", subcategory: "text-to-video" },
     ],
     "video-to-video": [
       { id: "deevid-ai", name: "DeeVid AI", description: "AI video-to-video transformation", url: "", upvotes: 1234, verified: true, rating: 4.5, icon: "🔄", category: "video-animation", subcategory: "video-to-video" },
@@ -1487,7 +1476,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "movieaiposter", name: "MovieAIPoster", description: "Professional movie poster AI", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🎭", category: "art-creative-design", subcategory: "ai-movie-poster" },
       { id: "disney-ai-poster-movie", name: "Disney AI Poster", description: "Disney style movie poster", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🏰", category: "art-creative-design", subcategory: "ai-movie-poster" },
       { id: "bing-image-creator-movie", name: "Bing Image Creator", description: "Microsoft movie poster AI", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "🔍", category: "art-creative-design", subcategory: "ai-movie-poster" },
-      { id: "neural-frames-movie", name: "Neural Frames", description: "AI movie poster frames", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "🎬", category: "art-creative-design", subcategory: "ai-movie-poster" }
     ],
     "ai-painting-generator": [
       { id: "wombo-dream", name: "WOMBO Dream", description: "AI painting creation app", url: "", upvotes: 1890, verified: true, rating: 4.8, icon: "🎨", category: "art-creative-design", subcategory: "ai-painting-generator" },
