@@ -1,4 +1,394 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "sciphi": {
+    whatIs: "SciPhi is an AI research and knowledge management platform that helps researchers and knowledge workers retrieve, organize, and synthesize information from large document collections using retrieval augmented generation.",
+    features: [
+      "RAG System: Retrieval augmented generation for accurate answers",
+      "Document Ingestion: Upload and index large document collections",
+      "Knowledge Retrieval: Find specific information across all your docs",
+      "AI Synthesis: Combine insights from multiple sources automatically",
+      "API Access: Integrate knowledge retrieval into your applications"
+    ],
+    howToUse: {
+      title: "How to Use Sciphi",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Documents", description: "Import your research papers, reports, and documents into SciPhi for indexing and retrieval." },
+        { title: "Ask Your Questions", description: "Query your document collection in plain English to retrieve precise relevant information." },
+        { title: "Get Synthesized Answers", description: "Receive answers that combine information from multiple relevant documents intelligently." },
+        { title: "Integrate Via API", description: "Use the SciPhi API to add knowledge retrieval capabilities to your own applications and workflows." }
+      ]
+    },
+    coreFeatures: [
+      { title: "RAG Architecture", description: "Uses retrieval augmented generation to produce accurate answers grounded in your actual document content." },
+      { title: "Large Collection Handling", description: "Indexes and retrieves information from large document collections efficiently without losing accuracy." },
+      { title: "API Integration", description: "Provides developer-friendly API access for building knowledge retrieval into custom applications." }
+    ],
+    useCases: [
+      { title: "Researchers", description: "Query large literature collections accurately and synthesize findings from multiple papers simultaneously." },
+      { title: "Knowledge Management Teams", description: "Build searchable organizational knowledge bases that answer employee questions from internal documents." },
+      { title: "AI Developers", description: "Use SciPhi as the knowledge retrieval backbone for RAG-powered AI applications and chatbots." }
+    ]
+  },
+  "infranodus": {
+    whatIs: "InfraNodus is a text network analysis tool that visualizes relationships between concepts in any text or dataset, helping researchers, writers, and analysts discover hidden connections and knowledge gaps.",
+    features: [
+      "Text Network Analysis: Visualize concept relationships as networks",
+      "Knowledge Gap Detection: Find missing connections in your thinking",
+      "Topic Modeling: Identify key themes across any text collection",
+      "AI Insights: GPT-powered recommendations based on your network",
+      "Multiple Input Types: Analyze text notes URLs and databases"
+    ],
+    howToUse: {
+      title: "How to Use Infranodus",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Text", description: "Paste your text, notes, or connect a data source into InfraNodus for network analysis." },
+        { title: "View Your Network", description: "Explore the visual network graph showing how concepts and ideas connect to each other." },
+        { title: "Identify Gaps", description: "Look for missing connections and knowledge gaps that your analysis reveals in your thinking." },
+        { title: "Get AI Recommendations", description: "Use GPT-powered suggestions to fill gaps and explore new directions your network suggests." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Network Visualization", description: "Transforms text into visual networks that reveal structural relationships between ideas and concepts." },
+      { title: "Gap Detection", description: "Identifies areas of your thinking or research where connections are missing or underexplored." },
+      { title: "AI Integration", description: "Combines network analysis with GPT insights to suggest new directions based on identified patterns." }
+    ],
+    useCases: [
+      { title: "Researchers", description: "Map the conceptual landscape of your research area and identify gaps worth exploring further." },
+      { title: "Writers", description: "Analyze your own writing to discover thematic gaps and strengthen the coherence of your arguments." },
+      { title: "Knowledge Workers", description: "Visualize complex information relationships to improve your understanding and communication of ideas." }
+    ]
+  },
+  "gleanmymind": {
+    whatIs: "Gleanmymind is an AI knowledge capture and organization tool that helps users collect insights from their reading, conversations, and thinking into a structured personal knowledge base they can search and build upon.",
+    features: [
+      "Insight Capture: Save ideas and insights from any source quickly",
+      "AI Organization: Automatic categorization of captured knowledge",
+      "Searchable Library: Find any captured insight instantly",
+      "Connection Discovery: AI finds links between your saved ideas",
+      "Knowledge Building: Build a growing personal knowledge base"
+    ],
+    howToUse: {
+      title: "How to Use Gleanmymind",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Capture Your Insights", description: "Save ideas, quotes, and insights from your reading and thinking into Gleanmymind quickly." },
+        { title: "Let AI Organize", description: "Allow the AI to automatically categorize and tag your captured knowledge for easy future retrieval." },
+        { title: "Search Your Library", description: "Find any captured insight using natural language search across your entire knowledge collection." },
+        { title: "Discover Connections", description: "Explore AI-identified connections between ideas you have saved across different topics and times." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Frictionless Capture", description: "Makes saving insights fast and easy so valuable ideas are never lost to forgetting or distraction." },
+      { title: "Automatic Organization", description: "Categorizes and tags captured knowledge automatically removing the burden of manual organization." },
+      { title: "Connection Intelligence", description: "Finds non-obvious links between saved ideas helping users synthesize knowledge across topics." }
+    ],
+    useCases: [
+      { title: "Avid Readers", description: "Build a lasting personal library of insights from books, articles, and other reading materials over time." },
+      { title: "Researchers", description: "Capture and connect research insights across topics to support synthesis and creative thinking." },
+      { title: "Knowledge Workers", description: "Maintain a growing searchable collection of professional insights and ideas for reference and application." }
+    ]
+  },
+  "flowith": {
+    whatIs: "Flowith 2.0 is an AI-powered visual thinking and workflow canvas that helps users brainstorm, plan, and build complex ideas using an infinite canvas with integrated AI assistance throughout the creative process.",
+    features: [
+      "Infinite Canvas: Unlimited visual workspace for any project",
+      "AI Integration: AI assistance embedded directly in the canvas",
+      "Multi-Modal: Text images code and diagrams on one canvas",
+      "Workflow Building: Design complex processes visually",
+      "Collaboration: Work with teammates on shared canvases"
+    ],
+    howToUse: {
+      title: "How to Use Flowith",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open Your Canvas", description: "Create a new Flowith canvas and begin placing your ideas, notes, and content on the infinite workspace." },
+        { title: "Use AI Assistance", description: "Invoke AI help directly within the canvas to generate content, expand ideas, or answer questions." },
+        { title: "Build Your Workflow", description: "Connect ideas and elements to design workflows, plans, and complex thought structures visually." },
+        { title: "Collaborate With Others", description: "Share your canvas with teammates and work together on the same visual workspace in real time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Embedded AI", description: "Integrates AI assistance directly into the canvas so you never need to leave your thinking environment." },
+      { title: "Multi-Modal Canvas", description: "Supports text, images, code blocks, and diagrams together on one unified creative workspace." },
+      { title: "Visual Workflow Design", description: "Enables designing complex workflows and processes as clear visual structures rather than written lists." }
+    ],
+    useCases: [
+      { title: "Creative Thinkers", description: "Develop complex ideas visually with AI assistance embedded in an infinite creative workspace." },
+      { title: "Product Managers", description: "Plan features, map user flows, and design processes on a flexible visual canvas with AI support." },
+      { title: "Researchers", description: "Organize research findings, connections, and insights visually with AI help for synthesis and analysis." }
+    ]
+  },
+  "llamaindex": {
+    whatIs: "LlamaIndex is an open-source data framework for building AI applications that connects large language models to external data sources enabling developers to create powerful retrieval augmented generation systems.",
+    features: [
+      "Data Connectors: Connect LLMs to any external data source",
+      "RAG Framework: Build retrieval augmented generation pipelines",
+      "Index Types: Multiple indexing strategies for different use cases",
+      "Query Engine: Flexible querying over indexed data collections",
+      "Open Source: Free to use with active community support"
+    ],
+    howToUse: {
+      title: "How to Use Llamaindex",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install LlamaIndex", description: "Install LlamaIndex in your Python environment using pip and import it into your project." },
+        { title: "Connect Your Data", description: "Use data connectors to load documents from files, databases, APIs, or other external sources." },
+        { title: "Build Your Index", description: "Create an appropriate index type for your use case to make your data queryable by LLMs." },
+        { title: "Query Your Data", description: "Use the query engine to ask natural language questions and receive answers from your indexed data." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data Connector Library", description: "Provides connectors for hundreds of data sources making it easy to integrate any external data with LLMs." },
+      { title: "Flexible Indexing", description: "Offers multiple index types optimized for different retrieval patterns and use case requirements." },
+      { title: "Active Community", description: "Benefits from a large active open source community continuously adding connectors and improving capabilities." }
+    ],
+    useCases: [
+      { title: "AI Developers", description: "Build RAG-powered applications that ground LLM responses in your specific proprietary data sources." },
+      { title: "Data Engineers", description: "Create pipelines that connect organizational data to AI systems for intelligent retrieval and question answering." },
+      { title: "Researchers", description: "Experiment with advanced retrieval and indexing strategies for AI systems using a flexible open framework." }
+    ]
+  },
+  "slite": {
+    whatIs: "Slite is an AI-powered team knowledge base and documentation tool that helps organizations create, organize, and access company knowledge with an AI assistant that answers questions from your documentation.",
+    features: [
+      "AI Knowledge Assistant: Ask questions and get answers from your docs",
+      "Team Knowledge Base: Organize company knowledge collaboratively",
+      "Doc Editor: Clean writing experience for creating documentation",
+      "Smart Search: Find any information across your knowledge base",
+      "Template Library: Start documentation with proven templates"
+    ],
+    howToUse: {
+      title: "How to Use Slite",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Workspace", description: "Create your Slite workspace and invite team members to start building your shared knowledge base." },
+        { title: "Create Your Docs", description: "Write and organize documentation using the clean editor with support for rich formatting and media." },
+        { title: "Ask the AI", description: "Use the AI assistant to ask questions and get instant answers drawn from your team's documentation." },
+        { title: "Search and Retrieve", description: "Use smart search to find any piece of information across your entire knowledge base instantly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Documentation Assistant", description: "Answers team questions instantly by retrieving relevant information from your existing documentation." },
+      { title: "Clean Editor", description: "Provides a distraction-free writing environment that makes creating quality documentation enjoyable." },
+      { title: "Smart Organization", description: "Helps structure and organize knowledge bases so information remains findable as content grows." }
+    ],
+    useCases: [
+      { title: "Remote Teams", description: "Build a shared knowledge hub that keeps distributed team members informed and aligned without constant questions." },
+      { title: "Startups", description: "Document processes, decisions, and knowledge from early stages to build organizational memory that scales." },
+      { title: "Operations Teams", description: "Maintain accurate accessible documentation for processes and procedures that everyone can reference easily." }
+    ]
+  },
+  "language-reactor": {
+    whatIs: "Language Reactor is a browser extension that enhances Netflix and YouTube for language learning by showing dual subtitles, instant word translations, and vocabulary tools while you watch your favorite content.",
+    features: [
+      "Dual Subtitles: Show subtitles in two languages simultaneously",
+      "Instant Translation: Click any word for immediate translation",
+      "Vocabulary Saving: Save new words for later review and study",
+      "Netflix and YouTube: Works on your favorite streaming platforms",
+      "Grammar Help: Explanations of grammar structures while watching"
+    ],
+    howToUse: {
+      title: "How to Use Language Reactor",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Add Language Reactor to your Chrome browser from the Web Store to get started immediately." },
+        { title: "Open Netflix or YouTube", description: "Navigate to your preferred streaming platform and find content in your target language to watch." },
+        { title: "Enable Dual Subtitles", description: "Turn on dual subtitles to see both your native language and target language text simultaneously." },
+        { title: "Click and Learn", description: "Click any unfamiliar word for an instant translation and save new vocabulary for later review." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Dual Subtitle Display", description: "Shows native and target language subtitles together making comprehension and language acquisition simultaneous." },
+      { title: "Instant Word Lookup", description: "Provides immediate translation and definition for any clicked word without interrupting your viewing." },
+      { title: "Vocabulary Integration", description: "Saves clicked words to a personal vocabulary list for systematic review and long-term retention." }
+    ],
+    useCases: [
+      { title: "Language Learners", description: "Accelerate language acquisition by watching content you enjoy with intelligent language learning support." },
+      { title: "Intermediate Learners", description: "Move beyond textbooks and learn authentic natural language from real native speaker content." },
+      { title: "Polyglots", description: "Efficiently study multiple languages using content platforms you already subscribe to and enjoy." }
+    ]
+  },
+  "pte-ape": {
+    whatIs: "PTE APE is an AI-powered practice platform specifically designed for the Pearson Test of English Academic exam, providing realistic practice tests, AI scoring, and targeted feedback for test preparation.",
+    features: [
+      "Realistic Practice Tests: Exam-format practice for all PTE sections",
+      "AI Scoring: Instant automated scoring like the real exam",
+      "Detailed Feedback: Specific guidance on improving each section",
+      "Speaking Practice: AI assessment of your spoken English responses",
+      "Score Prediction: Estimate your likely score before test day"
+    ],
+    howToUse: {
+      title: "How to Use Pte Ape",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Account", description: "Create your PTE APE account and complete an initial assessment to understand your starting score level." },
+        { title: "Practice by Section", description: "Work through speaking, writing, reading, and listening practice tests targeting your weakest areas." },
+        { title: "Get AI Scores", description: "Receive instant AI-generated scores that closely mirror how the real PTE exam would assess your responses." },
+        { title: "Review Your Feedback", description: "Study the detailed feedback for each response to understand exactly what improvements will raise your score." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Exam-Accurate Scoring", description: "Scores practice responses using AI trained to match the actual PTE Academic scoring system closely." },
+      { title: "Section-Specific Practice", description: "Covers all PTE sections including speaking, writing, reading, and listening with targeted practice content." },
+      { title: "Score Prediction", description: "Estimates your likely real exam score based on practice performance to guide your preparation focus." }
+    ],
+    useCases: [
+      { title: "PTE Test Takers", description: "Prepare thoroughly for the PTE Academic with realistic practice that mirrors the actual exam experience." },
+      { title: "International Students", description: "Meet university English requirements by preparing effectively for PTE with AI-scored practice tests." },
+      { title: "Visa Applicants", description: "Achieve required PTE scores for visa applications with structured AI-guided exam preparation." }
+    ]
+  },
+  "uni": {
+    whatIs: "Uni is an AI study assistant designed for university students that helps with essay writing, research, exam preparation, and understanding complex academic concepts through intelligent tutoring and guidance.",
+    features: [
+      "Essay Assistance: Help structuring and writing academic essays",
+      "Research Support: Find and synthesize relevant academic sources",
+      "Exam Prep: Study guides and practice questions for exams",
+      "Concept Explanation: Clear explanations of complex academic topics",
+      "Citation Help: Assistance with academic referencing formats"
+    ],
+    howToUse: {
+      title: "How to Use Uni",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Task", description: "Tell Uni what academic task you need help with whether essay, research, or exam preparation." },
+        { title: "Get Structured Help", description: "Receive structured guidance on how to approach your specific academic challenge effectively." },
+        { title: "Write With Support", description: "Use Uni's assistance to develop your essay or research with appropriate academic depth and structure." },
+        { title: "Prepare for Exams", description: "Generate practice questions and study guides from your course material for effective exam preparation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Academic Focus", description: "Designed specifically for university-level academic tasks with appropriate depth and scholarly standards." },
+      { title: "Essay Structuring", description: "Helps students develop well-structured academic essays with logical argument progression and evidence." },
+      { title: "Source Synthesis", description: "Assists with finding and incorporating relevant academic sources into research and written work." }
+    ],
+    useCases: [
+      { title: "University Students", description: "Get intelligent academic support for essays, research, and exam preparation throughout your degree." },
+      { title: "International Students", description: "Navigate academic writing conventions in English with AI guidance on structure and expression." },
+      { title: "Struggling Students", description: "Access additional support for understanding complex concepts and completing challenging academic tasks." }
+    ]
+  },
+  "talkpal": {
+    whatIs: "Talkpal is an AI language learning app that lets users practice conversational skills through realistic AI-powered dialogue in over 57 languages, making speaking practice available anytime without a human partner.",
+    features: [
+      "57+ Languages: Practice conversation in over 57 languages",
+      "AI Conversation: Realistic dialogue with an AI language partner",
+      "Grammar Correction: Instant feedback on your language errors",
+      "Role-Play Scenarios: Practice specific real-world conversations",
+      "Pronunciation Feedback: Assessment of your spoken language"
+    ],
+    howToUse: {
+      title: "How to Use Talkpal",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Language", description: "Select the language you want to practice from Talkpal's extensive library of over 57 options." },
+        { title: "Start a Conversation", description: "Begin talking with your AI language partner in a topic or scenario of your choosing." },
+        { title: "Get Instant Corrections", description: "Receive immediate feedback on grammar and vocabulary errors with clear explanations of improvements." },
+        { title: "Practice Daily", description: "Build a consistent speaking practice habit with an always-available AI partner for maximum progress." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversational Focus", description: "Prioritizes actual speaking practice which is often the hardest skill to develop without a native partner." },
+      { title: "Instant Error Correction", description: "Provides immediate feedback on mistakes so learners correct errors before they become ingrained habits." },
+      { title: "Scenario Variety", description: "Offers role-play scenarios covering real-world situations like travel, business, and social interactions." }
+    ],
+    useCases: [
+      { title: "Language Learners", description: "Practice speaking your target language daily with an AI partner available any time you want to practice." },
+      { title: "Busy Professionals", description: "Fit conversational language practice into any schedule without coordinating with human language partners." },
+      { title: "Travel Preppers", description: "Build conversational confidence in a new language before traveling to a country where it is spoken." }
+    ]
+  },
+  "magicschool": {
+    whatIs: "MagicSchool is an AI platform built specifically for educators that provides over 60 AI tools for lesson planning, differentiation, assessment creation, and student communication to save teachers significant time.",
+    features: [
+      "Lesson Planning: AI-generated lesson plans for any topic",
+      "Differentiation: Adapt content for different learning levels",
+      "Assessment Creation: Quizzes and rubrics generated automatically",
+      "Parent Communication: Professional parent messages drafted by AI",
+      "60+ Teacher Tools: Comprehensive toolkit for all teaching tasks"
+    ],
+    howToUse: {
+      title: "How to Use Magicschool",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Browse MagicSchool's library of 60+ teacher-specific tools and select the one matching your current need." },
+        { title: "Enter Your Details", description: "Input your grade level, subject, topic, and any specific requirements for your task." },
+        { title: "Generate Your Content", description: "Receive AI-generated lesson plans, assessments, or communications tailored to your specifications." },
+        { title: "Customize and Use", description: "Edit the generated content to match your specific students and classroom context before using." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Teacher-Specific Design", description: "Built exclusively for educators with tools addressing the actual tasks teachers spend time on daily." },
+      { title: "Tool Breadth", description: "Covers over 60 different teacher tasks from lesson planning through parent communication comprehensively." },
+      { title: "Time Efficiency", description: "Dramatically reduces time spent on administrative and planning tasks so more time goes toward teaching." }
+    ],
+    useCases: [
+      { title: "Classroom Teachers", description: "Reclaim hours of planning and administrative time weekly using AI tools built for your specific needs." },
+      { title: "Curriculum Developers", description: "Create differentiated content and assessments across grade levels and subjects quickly with AI assistance." },
+      { title: "New Teachers", description: "Build professional-quality lesson plans and materials faster while developing your teaching expertise." }
+    ]
+  },
+  "curipod": {
+    whatIs: "Curipod is an AI-powered interactive lesson creation tool that helps teachers build engaging classroom presentations with polls, word clouds, drawings, and Q&A activities in minutes rather than hours.",
+    features: [
+      "Interactive Lessons: Build engaging activities not just slides",
+      "AI Generation: Complete lessons created from simple prompts",
+      "Student Participation: Live polls word clouds and responses",
+      "Drawing Activities: Student sketch and drawing exercises",
+      "Real-Time Engagement: See student responses as they happen"
+    ],
+    howToUse: {
+      title: "How to Use Curipod",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Type your lesson topic and grade level and let Curipod generate a complete interactive lesson." },
+        { title: "Review Your Lesson", description: "Check through the AI-generated slides and interactive activities for accuracy and appropriateness." },
+        { title: "Customize Activities", description: "Adjust polls, questions, and drawing prompts to match your specific learning objectives." },
+        { title: "Launch With Students", description: "Share the lesson code with students and watch their responses appear in real time during class." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Lesson Generation", description: "Creates complete interactive lessons from a simple topic prompt saving teachers significant preparation time." },
+      { title: "Live Interaction Tools", description: "Provides real-time polls, word clouds, and Q&A that make lessons genuinely participatory for students." },
+      { title: "Instant Feedback", description: "Shows student responses as they happen giving teachers immediate insight into understanding levels." }
+    ],
+    useCases: [
+      { title: "Classroom Teachers", description: "Create engaging interactive lessons quickly without spending hours building activities from scratch manually." },
+      { title: "Substitute Teachers", description: "Access ready-made interactive lessons on any topic that engage students effectively without preparation." },
+      { title: "Educational Trainers", description: "Design interactive professional development sessions that keep adult learners engaged and participating actively." }
+    ]
+  },
+  "to-teach": {
+    whatIs: "To Teach is an AI educational content creation platform that helps educators and trainers generate lesson materials, quizzes, worksheets, and course content from any topic or document quickly and easily.",
+    features: [
+      "Lesson Materials: Generate complete lesson content from prompts",
+      "Quiz Creation: AI-produced quizzes for any subject or topic",
+      "Worksheet Generation: Printable student worksheets created fast",
+      "Course Building: Structured course content developed with AI",
+      "Multiple Formats: Content for different learning environments"
+    ],
+    howToUse: {
+      title: "How to Use To Teach",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Input your teaching topic, grade level, and specific learning objectives for content generation." },
+        { title: "Generate Your Materials", description: "Receive AI-created lesson content, quizzes, or worksheets tailored to your specifications immediately." },
+        { title: "Review for Accuracy", description: "Check all generated content for factual accuracy and age-appropriateness before using with students." },
+        { title: "Customize and Distribute", description: "Edit materials to match your specific classroom needs and distribute to students in your preferred format." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Rapid Content Generation", description: "Creates complete lesson materials and assessments in minutes rather than the hours manual creation requires." },
+      { title: "Format Variety", description: "Produces content in multiple formats including lessons, quizzes, worksheets, and course structures." },
+      { title: "Educator Focus", description: "Designed for teachers and trainers with output calibrated for educational contexts and learning goals." }
+    ],
+    useCases: [
+      { title: "Teachers", description: "Generate lesson materials, quizzes, and worksheets quickly to reduce planning time and increase teaching time." },
+      { title: "Corporate Trainers", description: "Create training content and assessments for employee development programs efficiently with AI assistance." },
+      { title: "Tutors", description: "Develop personalized practice materials for individual students tailored to their specific learning needs." }
+    ]
+  },
   "bartleby": {
     whatIs: "Bartleby is an online homework help platform that connects students with expert tutors and provides AI-powered textbook solutions, writing assistance, and step-by-step explanations across all major subjects.",
     features: [
