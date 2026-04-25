@@ -1,4 +1,154 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "d-id": {
+    whatIs: "D-ID is an AI creative platform that generates realistic talking avatar videos from photos and text scripts, enabling anyone to create professional video content with photorealistic digital presenters without filming.",
+    features: [
+      "Talking Avatars: Animate any photo into a speaking video",
+      "Text to Video: Type a script and generate a presenter video",
+      "Realistic Output: Photorealistic digital human video generation",
+      "Multiple Languages: Avatars speak in many languages",
+      "API Access: Integrate avatar video into your applications"
+    ],
+    howToUse: {
+      title: "How to Use D Id",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Choose a photo to use as your avatar or select from D-ID's library of available digital presenters." },
+        { title: "Write Your Script", description: "Type the text you want your avatar to speak or paste your prepared script into the input field." },
+        { title: "Select Voice and Language", description: "Choose the voice style and language for your avatar's narration from available options." },
+        { title: "Generate and Download", description: "Create your talking avatar video and download it for use in presentations, training, or marketing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photo Animation", description: "Brings still photos to life as realistic speaking video presenters with natural facial movement." },
+      { title: "Script to Video", description: "Converts typed text scripts directly into complete presenter videos without filming or recording." },
+      { title: "Multilingual Avatars", description: "Generates avatar videos speaking in multiple languages for international content distribution needs." }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "Create professional spokesperson videos quickly without organizing filming sessions or hiring talent." },
+      { title: "Online Educators", description: "Produce engaging video lessons with realistic AI presenters without appearing on camera yourself." },
+      { title: "Corporate Communicators", description: "Generate consistent professional video messages from digital avatars for internal and external communications." }
+    ]
+  },
+  "ai-phone": {
+    whatIs: "AI Phone is an AI-powered call assistant that joins your phone calls to provide real-time transcription, translation, and conversation assistance helping you communicate more confidently in any language.",
+    features: [
+      "Real-Time Transcription: Live speech to text during phone calls",
+      "Live Translation: Translate conversations as they happen",
+      "Call Assistance: AI suggestions during live conversations",
+      "Call Recording: Record and save important phone calls",
+      "Multiple Languages: Support for many language combinations"
+    ],
+    howToUse: {
+      title: "How to Use Ai Phone",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up AI Phone", description: "Install AI Phone and configure your language preferences and call assistance settings." },
+        { title: "Start Your Call", description: "Make or receive your phone call and activate AI Phone for real-time transcription and assistance." },
+        { title: "Read Live Transcript", description: "Follow the real-time transcription appearing on your screen during the conversation." },
+        { title: "Use Translation", description: "Enable live translation to understand and communicate across language barriers during the call." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Transcription", description: "Captures every word spoken during calls as live text for reference during and after conversations." },
+      { title: "Live Translation", description: "Translates conversation in real time enabling communication across different native languages." },
+      { title: "In-Call Assistance", description: "Provides AI-powered suggestions and help during live calls for more confident communication." }
+    ],
+    useCases: [
+      { title: "International Business Callers", description: "Communicate confidently across language barriers during important business calls with live translation." },
+      { title: "Non-Native English Speakers", description: "Follow English conversations more easily with real-time transcription and translation assistance." },
+      { title: "Professionals", description: "Capture important call details through live transcription for accurate record keeping and follow-up." }
+    ]
+  },
+  "verbalate": {
+    whatIs: "Verbalate is an AI video dubbing and translation platform that converts video content into multiple languages with synchronized audio dubbing making international video distribution fast and affordable.",
+    features: [
+      "Video Dubbing: Replace audio with translated speech automatically",
+      "Multiple Languages: Dub into dozens of target languages",
+      "Synchronized Audio: Translated speech timed to original video",
+      "Subtitle Export: Generate translated subtitle files too",
+      "Fast Turnaround: Dubbed videos processed quickly at scale"
+    ],
+    howToUse: {
+      title: "How to Use Verbalate",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Import the video content you want dubbed into a different language for international distribution." },
+        { title: "Select Your Language", description: "Choose the target language you want your video dubbed into from available language options." },
+        { title: "Process Your Dub", description: "Let Verbalate generate your dubbed video with translated audio synchronized to the original footage." },
+        { title: "Download and Publish", description: "Export your dubbed video and publish it to reach audiences in your target language market." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Synchronization", description: "Times translated dubbed audio to match the original video pacing for natural viewing experience." },
+      { title: "Multi-Language Output", description: "Processes video into multiple target languages simultaneously for efficient international distribution." },
+      { title: "Subtitle Integration", description: "Generates translated subtitle files alongside dubbed audio for flexible viewing format options." }
+    ],
+    useCases: [
+      { title: "Video Creators", description: "Expand your audience internationally by dubbing your content into multiple languages affordably." },
+      { title: "Business Marketing Teams", description: "Localize video marketing campaigns for different regional markets without traditional dubbing costs." },
+      { title: "Online Course Creators", description: "Make educational video courses accessible to international students in their native languages." }
+    ]
+  },
+  "audeering": {
+    whatIs: "audEERING is an AI audio intelligence company that provides emotion recognition, speech analysis, and audio understanding technology for applications requiring deep understanding of human vocal expression.",
+    features: [
+      "Emotion Recognition: Detect emotions from voice and audio",
+      "Speech Analysis: Analyze vocal characteristics and patterns",
+      "Audio Intelligence: Deep understanding of human speech content",
+      "Enterprise API: Integrate audio intelligence into applications",
+      "Research Grade: Technology used in academic and clinical research"
+    ],
+    howToUse: {
+      title: "How to Use Audeering",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access the API", description: "Contact audEERING to get API access for integrating audio intelligence into your application." },
+        { title: "Send Your Audio", description: "Submit audio recordings or live speech streams to the API for analysis and emotion detection." },
+        { title: "Receive Analysis", description: "Get detailed results including detected emotions, sentiment, and vocal characteristic measurements." },
+        { title: "Integrate Results", description: "Use the returned analysis data within your application to enhance user experience or gather insights." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Emotion Detection Accuracy", description: "Provides research-grade emotion recognition from voice that outperforms simpler sentiment analysis approaches." },
+      { title: "Clinical Research Quality", description: "Meets the standards required for use in academic research and clinical psychology applications." },
+      { title: "Enterprise API Design", description: "Delivers audio intelligence through a clean API that integrates into diverse application architectures." }
+    ],
+    useCases: [
+      { title: "Healthcare Applications", description: "Detect patient emotional states and mental health indicators from voice for clinical support tools." },
+      { title: "Customer Experience Teams", description: "Analyze customer call emotions to identify satisfaction levels and escalation risks automatically." },
+      { title: "Research Institutions", description: "Use research-grade voice emotion analysis for psychology, linguistics, and human behavior studies." }
+    ]
+  },
+  "translinguist": {
+    whatIs: "TransLinguist is an AI-powered interpretation and translation platform that provides real-time spoken language interpretation for meetings, events, and conferences connecting speakers and listeners across language barriers.",
+    features: [
+      "Real-Time Interpretation: Live spoken language interpretation",
+      "Remote Interpreting: Professional interpretation without physical presence",
+      "Conference Support: Multilingual support for large events",
+      "Multiple Languages: Interpretation across many language pairs",
+      "Quality Assurance: Professional grade interpretation accuracy"
+    ],
+    howToUse: {
+      title: "How to Use Translinguist",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Event", description: "Configure your TransLinguist session with your required language pairs and number of participants." },
+        { title: "Connect Your Interpreters", description: "Bring in professional interpreters or use AI interpretation for your required language combinations." },
+        { title: "Start Your Meeting", description: "Begin your meeting or event with real-time interpretation flowing to participants in their language." },
+        { title: "Monitor Quality", description: "Oversee interpretation quality through the platform and make adjustments if needed during your event." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Delivery", description: "Provides simultaneous interpretation with minimal delay for natural multilingual meeting experiences." },
+      { title: "Remote Capability", description: "Enables professional interpretation services for events without requiring interpreters to be physically present." },
+      { title: "Event Scalability", description: "Supports multilingual interpretation for events ranging from small meetings to large international conferences." }
+    ],
+    useCases: [
+      { title: "International Conference Organizers", description: "Deliver professional multilingual interpretation for global events without the logistics of on-site interpreters." },
+      { title: "Multinational Businesses", description: "Conduct multilingual meetings and negotiations with real-time interpretation connecting all participants." },
+      { title: "Government and Diplomatic Organizations", description: "Facilitate multilingual communication in official meetings with professional-grade interpretation services." }
+    ]
+  },
   "youlearn-ai": {
     whatIs: "YouLearn AI is an intelligent study platform that lets students upload any learning material and interact with it through AI-powered chat, generating summaries, flashcards, and quizzes from their own content.",
     features: [
