@@ -2387,7 +2387,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "sobrief", name: "SoBrief", description: "AI book summarizer for quick insights", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "📚", category: "education-translation", subcategory: "ai-book-summarizer" },
       { id: "summarist-ai", name: "Summarist.ai", description: "AI book summary generation platform", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "📖", category: "education-translation", subcategory: "ai-book-summarizer" },
       { id: "booksai", name: "BooksAI", description: "AI book analysis and summarization tool", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "🤖", category: "education-translation", subcategory: "ai-book-summarizer" },
-      { id: "booksai-com", name: "BooksAI.com", description: "AI-powered book summary platform", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "📚", category: "education-translation", subcategory: "ai-book-summarizer" },
       { id: "chunker-ai", name: "Chunker AI", description: "AI text chunking and book summarization", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "🔗", category: "education-translation", subcategory: "ai-book-summarizer" }
     ],
     "ai-coaching": [
@@ -2398,7 +2397,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-course": [
       { id: "datacamp", name: "DataCamp", description: "AI-powered data science learning platform", url: "", upvotes: 2134, verified: true, rating: 4.7, icon: "📊", category: "education-translation", subcategory: "ai-course" },
       { id: "brilliant", name: "Brilliant", description: "AI interactive learning for STEM subjects", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "💡", category: "education-translation", subcategory: "ai-course" },
-      { id: "skillsoft-percipio-course", name: "Skillsoft Percipio", description: "AI corporate learning and course platform", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🎓", category: "education-translation", subcategory: "ai-course" },
       { id: "coddy", name: "Coddy", description: "AI coding courses and programming education", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "💻", category: "education-translation", subcategory: "ai-course" },
       { id: "openai-academy", name: "OpenAI Academy", description: "AI education and training platform", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🤖", category: "education-translation", subcategory: "ai-course" }
     ],
@@ -2409,10 +2407,8 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-homework-helper": [
       { id: "gauth", name: "Gauth", description: "AI homework solver and math problem assistant", url: "", upvotes: 2234, verified: true, rating: 4.7, icon: "🔢", category: "education-translation", subcategory: "ai-homework-helper" },
-      { id: "course-hero-homework", name: "Course Hero", description: "AI homework help and tutoring platform", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🎓", category: "education-translation", subcategory: "ai-homework-helper" },
       { id: "unstuck-ai", name: "Unstuck AI", description: "AI homework assistance and problem solving", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🔓", category: "education-translation", subcategory: "ai-homework-helper" },
       { id: "bartleby", name: "bartleby", description: "AI textbook solutions and homework help", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "📖", category: "education-translation", subcategory: "ai-homework-helper" },
-      { id: "study-fetch-homework", name: "Study Fetch", description: "AI homework assistance and study support", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "📝", category: "education-translation", subcategory: "ai-homework-helper" }
     ],
     "ai-image-translator": [
       { id: "pdnob-image-translator", name: "PDNob Image Translator", description: "AI image text translation and OCR", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "🖼️", category: "education-translation", subcategory: "ai-image-translator" },
@@ -2442,7 +2438,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-language-learning": [
       { id: "language-reactor", name: "Language Reactor", description: "AI language learning through media consumption", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "⚛️", category: "education-translation", subcategory: "ai-language-learning" },
-      { id: "elsa-speak-learning", name: "ELSA Speak", description: "AI English pronunciation and speaking coach", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🗣️", category: "education-translation", subcategory: "ai-language-learning" },
       { id: "talkpal", name: "Talkpal", description: "AI language learning conversation partner", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "👥", category: "education-translation", subcategory: "ai-language-learning" }
     ],
     "ai-lesson-plan-generator": [
@@ -2454,7 +2449,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-math": [
       { id: "mathgpt", name: "MathGPT", description: "AI mathematics problem solver and tutor", url: "", upvotes: 2134, verified: true, rating: 4.7, icon: "🔢", category: "education-translation", subcategory: "ai-math" },
-      { id: "gauth-math", name: "Gauth", description: "AI math problem solver with step-by-step solutions", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "📐", category: "education-translation", subcategory: "ai-math" },
       { id: "mathos-ai", name: "Mathos AI", description: "AI mathematical analysis and problem solving", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "📊", category: "education-translation", subcategory: "ai-math" },
       { id: "thetawise", name: "Thetawise", description: "AI mathematics education and tutoring", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "θ", category: "education-translation", subcategory: "ai-math" },
       { id: "math-ai", name: "Math AI", description: "AI mathematical computation and learning tool", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "∑", category: "education-translation", subcategory: "ai-math" }
@@ -2476,13 +2470,11 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "doctrina-ai", name: "Doctrina AI", description: "AI education platform for exam preparation and learning", url: "https://doctrina.ai", upvotes: 3200, verified: false, rating: 4.4, icon: "🎓", category: "education-translation", subcategory: "ai-quiz-generator", addedDate: "2026-04-01" },
       { id: "turbolearn-ai-quiz", name: "TurboLearn AI", description: "AI quiz creation and learning acceleration", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🚀", category: "education-translation", subcategory: "ai-quiz-generator" },
       { id: "scoreapp", name: "ScoreApp", description: "AI quiz marketing and lead generation", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🎯", category: "education-translation", subcategory: "ai-quiz-generator" },
-      { id: "study-fetch-quiz", name: "Study Fetch", description: "AI study material quiz generation", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "📊", category: "education-translation", subcategory: "ai-quiz-generator" }
     ],
     "ai-quizzes": [
       { id: "achievable", name: "Achievable", description: "AI adaptive quiz platform for exam preparation", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🏆", category: "education-translation", subcategory: "ai-quizzes" },
       { id: "octane-ai", name: "Octane AI", description: "AI quiz platform for ecommerce and marketing", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "⚡", category: "education-translation", subcategory: "ai-quizzes" },
       { id: "educato", name: "Educato", description: "AI educational quiz and assessment platform", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "🎓", category: "education-translation", subcategory: "ai-quizzes" },
-      { id: "quizbot-ai-quizzes", name: "QuizBot.ai", description: "AI quiz creation and management platform", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "🤖", category: "education-translation", subcategory: "ai-quizzes" },
       { id: "magicform-app", name: "MagicForm.app", description: "AI form and quiz creation platform", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "✨", category: "education-translation", subcategory: "ai-quizzes" }
     ],
     "ai-reader": [
@@ -2493,8 +2485,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "thread-navigator", name: "Thread Navigator", description: "AI content navigation and reading assistant", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "🧭", category: "education-translation", subcategory: "ai-reader" }
     ],
     "ai-teachers": [
-      { id: "talkpal-teacher", name: "Talkpal", description: "AI language teaching and conversation partner", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "👩‍🏫", category: "education-translation", subcategory: "ai-teachers" },
-      { id: "magic-school-teacher", name: "MagicSchool", description: "AI teaching assistant and lesson planner", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🏫", category: "education-translation", subcategory: "ai-teachers" },
       { id: "youlearn-ai", name: "YouLearn AI", description: "AI personalized learning and teaching platform", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "🎓", category: "education-translation", subcategory: "ai-teachers" },
       { id: "readtheory", name: "ReadTheory", description: "AI reading comprehension teaching platform", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "📚", category: "education-translation", subcategory: "ai-teachers" },
       { id: "schoolai", name: "SchoolAI", description: "AI teaching and educational assistance platform", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "🤖", category: "education-translation", subcategory: "ai-teachers" }
@@ -2506,7 +2496,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "machinetranslation-com", name: "MachineTranslation.com", description: "AI machine translation services and tools", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "⚙️", category: "education-translation", subcategory: "ai-translate" }
     ],
     "ai-tutorial": [
-      { id: "brilliant-tutorial", name: "Brilliant", description: "AI interactive tutorials for STEM learning", url: "", upvotes: 1876, verified: true, rating: 4.6, icon: "💡", category: "education-translation", subcategory: "ai-tutorial" },
       { id: "midlibrary", name: "Midlibrary", description: "AI tutorial and learning resource library", url: "", upvotes: 1432, verified: true, rating: 4.3, icon: "📚", category: "education-translation", subcategory: "ai-tutorial" },
       { id: "projectai", name: "ProjectAI", description: "AI project-based learning and tutorials", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "🚀", category: "education-translation", subcategory: "ai-tutorial" }
     ],
