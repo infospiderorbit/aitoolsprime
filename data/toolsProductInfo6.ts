@@ -1,4 +1,514 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "vidau-ai": {
+    whatIs: "VidAU AI is an AI video creation platform that generates professional marketing videos, product ads, and social media content from URLs, images, and text with AI avatars and automated production workflows.",
+    features: [
+      "URL to Video: Generate videos from product page links",
+      "AI Avatars: Realistic presenters for your video content",
+      "UGC Style Videos: Authentic user-generated content creation",
+      "Multi-Platform: Videos for TikTok Instagram and YouTube",
+      "Fast Production: Marketing videos ready in minutes"
+    ],
+    howToUse: {
+      title: "How to Use Vidau Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Content", description: "Paste a product URL, upload images, or describe your video content for AI analysis." },
+        { title: "Select Your Format", description: "Choose the video style, avatar, and platform format that fits your marketing goals." },
+        { title: "Customize Your Video", description: "Adjust scripts, visuals, and branding elements to match your campaign requirements." },
+        { title: "Export and Publish", description: "Download your finished video and deploy it across your marketing channels immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Product URL Analysis", description: "Automatically extracts product information from URLs to generate relevant and accurate video content." },
+      { title: "UGC Authenticity", description: "Creates videos that look like authentic user-generated content which performs better in social feeds." },
+      { title: "Avatar Integration", description: "Combines realistic AI presenters with product visuals for professional spokesperson-style videos." }
+    ],
+    useCases: [
+      { title: "E-commerce Marketers", description: "Create high-converting product video ads at scale without production teams or filming equipment." },
+      { title: "Social Media Managers", description: "Generate diverse video content formats for multiple platforms from one AI production workflow." },
+      { title: "Performance Advertisers", description: "Produce large volumes of video creative variations for systematic paid social media testing." }
+    ]
+  },
+  "waymark": {
+    whatIs: "Waymark is an AI-powered video creation platform that helps businesses produce professional broadcast-quality TV and digital video ads quickly by using AI to customize templates with your brand information automatically.",
+    features: [
+      "AI Brand Customization: AI fills templates with your business info",
+      "Broadcast Quality: Professional TV-ready video production",
+      "Template Library: Thousands of industry-specific templates",
+      "Fast Creation: Professional ads created in minutes",
+      "Multi-Platform: TV digital and social video formats"
+    ],
+    howToUse: {
+      title: "How to Use Waymark",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Find Your Template", description: "Search Waymark's library for templates specific to your industry and intended video purpose." },
+        { title: "Enter Your Business", description: "Provide your business name and website so AI can automatically populate your brand information." },
+        { title: "Review and Customize", description: "Check the AI-populated video and make any adjustments to text, music, or visual elements." },
+        { title: "Download Your Ad", description: "Export your finished professional video ad ready for TV broadcast or digital campaign use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Auto-Population", description: "Reads your website and business information to automatically fill video templates with relevant content." },
+      { title: "Broadcast Standards", description: "Produces videos meeting broadcast quality specifications for legitimate TV advertising use." },
+      { title: "Industry Templates", description: "Offers templates specifically designed for different business categories and advertising contexts." }
+    ],
+    useCases: [
+      { title: "Local Businesses", description: "Create professional TV-quality video ads without the cost and complexity of traditional video production." },
+      { title: "Marketing Agencies", description: "Produce customized video ads for multiple clients rapidly using AI brand population technology." },
+      { title: "Franchise Operations", description: "Generate consistent branded video content across multiple locations from one centralized platform." }
+    ]
+  },
+  "fancytech": {
+    whatIs: "FancyTech is an AI product video and 3D visualization platform that creates stunning product demonstrations and marketing videos from product images using AI-powered animation and visual effects technology.",
+    features: [
+      "3D Product Visualization: Animate product images in 3D space",
+      "AI Product Video: Generate marketing videos from product photos",
+      "Visual Effects: Professional effects applied automatically",
+      "E-commerce Focus: Optimized for product marketing content",
+      "Fast Generation: Product videos created quickly from images"
+    ],
+    howToUse: {
+      title: "How to Use Fancytech",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Product Images", description: "Import high-quality photos of your product from multiple angles for 3D visualization processing." },
+        { title: "Select Animation Style", description: "Choose the animation and visual effect style that best showcases your product's features." },
+        { title: "Generate Your Video", description: "Let FancyTech create a professional 3D product demonstration video from your uploaded images." },
+        { title: "Download and Deploy", description: "Export your product video for use in e-commerce listings, ads, and marketing materials." }
+      ]
+    },
+    coreFeatures: [
+      { title: "3D Animation Engine", description: "Creates three-dimensional product animations from flat photographs for impressive visual presentations." },
+      { title: "E-commerce Optimization", description: "Produces product videos specifically designed for driving conversions in online shopping contexts." },
+      { title: "Automatic Effects", description: "Applies professional visual effects and transitions automatically without manual post-production work." }
+    ],
+    useCases: [
+      { title: "E-commerce Brands", description: "Showcase products with stunning 3D video that dramatically increases engagement and conversion rates." },
+      { title: "Product Marketers", description: "Create impressive product demonstration videos from simple photos without 3D modeling expertise." },
+      { title: "Online Retailers", description: "Produce professional product showcase videos for every SKU without individual production sessions." }
+    ]
+  },
+  "streamr-ai": {
+    whatIs: "Streamr.ai is an AI live streaming enhancement platform that provides real-time AI tools for streamers including background removal, scene enhancement, and automated stream management features.",
+    features: [
+      "AI Background Removal: Clean backgrounds during live streams",
+      "Scene Enhancement: Real-time video quality improvement",
+      "Stream Automation: Automate repetitive streaming tasks",
+      "Low Latency: Real-time processing without stream delay",
+      "Platform Integration: Works with major streaming platforms"
+    ],
+    howToUse: {
+      title: "How to Use Streamr Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Stream", description: "Link Streamr.ai to your streaming setup through your preferred broadcasting software." },
+        { title: "Configure AI Tools", description: "Set up the AI features you want active during your stream such as background removal or enhancement." },
+        { title: "Go Live", description: "Start your stream with Streamr.ai processing your video in real time with your chosen AI enhancements." },
+        { title: "Monitor and Adjust", description: "Manage your AI settings during the live stream and adjust based on your current streaming needs." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Processing", description: "Applies AI video enhancements during live streams without adding perceptible latency to the broadcast." },
+      { title: "Background Intelligence", description: "Removes and replaces backgrounds accurately without requiring a physical green screen setup." },
+      { title: "Automation Tools", description: "Handles repetitive stream management tasks automatically so streamers focus on content and audience." }
+    ],
+    useCases: [
+      { title: "Live Streamers", description: "Improve your stream quality with AI background removal and enhancement without expensive equipment." },
+      { title: "Gaming Content Creators", description: "Present yourself professionally on stream with clean backgrounds and improved video quality automatically." },
+      { title: "Business Streamers", description: "Maintain a professional appearance during live business presentations and webinar broadcasts easily." }
+    ]
+  },
+  "clip-studio-ai": {
+    whatIs: "Clip Studio AI refers to the AI-powered features integrated into Clip Studio Paint, providing manga and comic artists with AI-assisted drawing tools, auto-coloring, line refinement, and creative assistance.",
+    features: [
+      "AI Auto-Color: Automatically color line art with AI",
+      "Line Refinement: AI smooths and improves hand-drawn lines",
+      "Background Generation: AI-assisted background creation",
+      "Reference Pose: AI figure pose reference generation",
+      "Drawing Assistance: Smart tools for manga and comic creation"
+    ],
+    howToUse: {
+      title: "How to Use Clip Studio Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open Your Project", description: "Start a new illustration or comic project in Clip Studio Paint with your usual workflow." },
+        { title: "Use AI Coloring", description: "Apply the AI auto-color feature to your line art for automatic intelligent color suggestions." },
+        { title: "Refine Your Lines", description: "Use AI line refinement to smooth hand-drawn strokes and improve their quality automatically." },
+        { title: "Generate References", description: "Request AI-generated pose references to use when drawing character figures and scenes." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Colorization", description: "Automatically applies appropriate colors to manga line art based on context and artistic conventions." },
+      { title: "Line Quality Enhancement", description: "Smooths and refines hand-drawn lines to improve the overall quality of illustrated artwork." },
+      { title: "Reference Generation", description: "Creates pose reference images on demand eliminating the need to search for external references." }
+    ],
+    useCases: [
+      { title: "Manga Artists", description: "Speed up your manga creation workflow with AI coloring and line refinement that handles tedious tasks." },
+      { title: "Comic Illustrators", description: "Use AI assistance for coloring and background creation to focus more time on character and story." },
+      { title: "Digital Artists", description: "Enhance your illustration workflow with AI tools built natively into your preferred drawing software." }
+    ]
+  },
+  "swapfaces-ai": {
+    whatIs: "Swapfaces AI is an online face swap tool that uses AI to seamlessly replace faces in photos and videos with another person's face, creating realistic and entertaining face-swapped visual content.",
+    features: [
+      "Photo Face Swap: Replace faces in images realistically",
+      "Video Face Swap: Swap faces in video content",
+      "Real-Time Processing: Fast face swap generation",
+      "Multiple Faces: Swap multiple faces in one image",
+      "Easy to Use: Simple upload and swap workflow"
+    ],
+    howToUse: {
+      title: "How to Use Swapfaces Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Content", description: "Import the photo or video where you want to perform the face swap operation." },
+        { title: "Provide Face Reference", description: "Upload a clear photo of the face you want to place onto your target image or video." },
+        { title: "Generate Swap", description: "Let the AI process your content and apply the realistic face replacement automatically." },
+        { title: "Download Result", description: "Save your face-swapped photo or video and use it for entertainment or creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Realistic Blending", description: "Seamlessly integrates swapped faces with natural skin tone matching and lighting adjustment." },
+      { title: "Video Processing", description: "Applies consistent face swapping across video frames for smooth and believable video results." },
+      { title: "Multi-Face Support", description: "Handles images with multiple faces allowing selective swapping of any faces in the content." }
+    ],
+    useCases: [
+      { title: "Entertainment Creators", description: "Create funny and engaging face swap content for social media entertainment and sharing." },
+      { title: "Filmmakers", description: "Use face swapping for creative visual effects shots in indie film and video production projects." },
+      { title: "Content Creators", description: "Generate unique face swap content that entertains audiences and drives social media engagement." }
+    ]
+  },
+  "ai-face-swap": {
+    whatIs: "AI Face Swap is a web-based face swapping tool that replaces faces in photos and videos with AI precision, enabling users to create realistic face swap content for entertainment and creative purposes easily.",
+    features: [
+      "Instant Face Swap: Swap faces in photos immediately",
+      "Video Support: Face swap capability for video files",
+      "Realistic Results: AI ensures natural-looking swaps",
+      "Free to Try: Basic face swapping without payment",
+      "No Download: Works entirely in your web browser"
+    ],
+    howToUse: {
+      title: "How to Use Ai Face Swap",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Select and upload the photo or video where you want to apply the face swap effect." },
+        { title: "Choose Your Face", description: "Upload a clear photo of the face you want to use as the replacement in your content." },
+        { title: "Apply the Swap", description: "Click process and let the AI apply the realistic face replacement to your uploaded content." },
+        { title: "Save Your Result", description: "Download your face-swapped image or video for sharing or further creative use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser-Based Tool", description: "Runs entirely in your web browser without requiring any software download or installation." },
+      { title: "AI Precision", description: "Uses AI face detection and blending for natural-looking results that avoid obvious artificiality." },
+      { title: "Free Access", description: "Provides basic face swap functionality without payment for users exploring the technology." }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "Create entertaining face swap content to share with friends and followers for laughs and engagement." },
+      { title: "Creative Hobbyists", description: "Experiment with face swapping as a fun creative project without needing professional tools." },
+      { title: "Content Creators", description: "Generate unique and entertaining visual content that drives social sharing and audience engagement." }
+    ]
+  },
+  "magic-hour": {
+    whatIs: "Magic Hour is an AI creative video platform that provides a suite of AI video tools including face swap, video-to-video transformation, image animation, and lip sync for diverse creative video production needs.",
+    features: [
+      "Face Swap Video: Realistic face swapping in video content",
+      "Video to Video: Transform video style and aesthetics",
+      "Image Animation: Bring still images to motion",
+      "Lip Sync: Synchronize speech to video characters",
+      "Creative Suite: Multiple AI video tools in one place"
+    ],
+    howToUse: {
+      title: "How to Use Magic Hour",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Select from Magic Hour's suite of AI video tools based on your specific creative project need." },
+        { title: "Upload Your Content", description: "Import the video, image, or face reference material required for your chosen tool." },
+        { title: "Configure Settings", description: "Adjust the tool-specific settings to match your creative vision and desired output quality." },
+        { title: "Generate and Download", description: "Process your content with the AI tool and download your finished creative video result." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Tool Platform", description: "Provides diverse AI video capabilities in one place reducing the need for multiple specialized services." },
+      { title: "Face Swap Quality", description: "Delivers realistic video face swapping with natural blending for convincing creative results." },
+      { title: "Creative Flexibility", description: "Combines multiple transformation types allowing complex creative video projects from one platform." }
+    ],
+    useCases: [
+      { title: "Video Creators", description: "Access multiple AI video tools from one platform for diverse creative video production projects." },
+      { title: "Social Media Artists", description: "Create unique AI-transformed video content that stands out with distinctive visual creativity." },
+      { title: "Filmmakers", description: "Use AI video tools for creative visual effects and transformations in independent film projects." }
+    ]
+  },
+  "pixnova-ai": {
+    whatIs: "PixNova AI is an AI image and video generation platform that creates high-quality visual content from text prompts across multiple generation models for diverse creative and commercial content needs.",
+    features: [
+      "Multi-Model Generation: Access various AI generation models",
+      "Text to Image: Generate images from text descriptions",
+      "Text to Video: Create videos from text prompts",
+      "High Quality Output: Detailed and precise generation results",
+      "Free Credits: Start generating without immediate payment"
+    ],
+    howToUse: {
+      title: "How to Use Pixnova Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Describe the image or video you want to create with detailed text for best generation results." },
+        { title: "Select Your Model", description: "Choose the AI generation model that best suits your specific creative style and content needs." },
+        { title: "Generate Content", description: "Submit your prompt and receive your AI-generated visual content from the selected model." },
+        { title: "Download and Use", description: "Save your generated images or videos and use them in your creative or commercial projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Model Variety", description: "Provides access to multiple generation models for finding the best fit for each creative project." },
+      { title: "Combined Generation", description: "Handles both image and video generation in one platform for complete visual content creation." },
+      { title: "Prompt Responsiveness", description: "Accurately interprets detailed text descriptions to generate relevant and high-quality visual outputs." }
+    ],
+    useCases: [
+      { title: "Creative Professionals", description: "Access diverse AI generation models to find the perfect tool for each specific creative requirement." },
+      { title: "Content Creators", description: "Generate original visual content efficiently across image and video formats from one platform." },
+      { title: "Marketing Teams", description: "Create unique visual assets for campaigns using AI generation across multiple creative styles." }
+    ]
+  },
+  "deepfakes-web": {
+    whatIs: "Deepfakes Web is an online face swap service that creates realistic deepfake videos by replacing faces in video footage using cloud-based AI processing for entertainment and creative video projects.",
+    features: [
+      "Cloud Processing: No local hardware requirements needed",
+      "Video Face Swap: Replace faces in video content",
+      "Realistic Output: AI-powered natural face replacement",
+      "Simple Interface: Easy upload and process workflow",
+      "Web Based: Accessible from any browser easily"
+    ],
+    howToUse: {
+      title: "How to Use Deepfakes Web",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Videos", description: "Import the target video where you want the face replaced and a reference video of the source face." },
+        { title: "Start Processing", description: "Submit your videos for cloud-based AI processing which handles the computationally intensive work." },
+        { title: "Wait for Results", description: "Allow processing time for the AI to generate your realistic face-swapped video in the cloud." },
+        { title: "Download Your Video", description: "Retrieve your completed face swap video and download it for your entertainment or creative use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cloud Infrastructure", description: "Handles computationally intensive deepfake processing in the cloud without requiring local GPU hardware." },
+      { title: "Realistic Blending", description: "Applies sophisticated face replacement that matches lighting and skin tones for natural results." },
+      { title: "Accessibility", description: "Makes deepfake video creation accessible through a browser without specialized technical knowledge." }
+    ],
+    useCases: [
+      { title: "Entertainment Creators", description: "Create fun and engaging face swap video content for social sharing and entertainment purposes." },
+      { title: "Creative Filmmakers", description: "Explore face swap as a creative visual effect for experimental and artistic video projects." },
+      { title: "Tech Enthusiasts", description: "Experience AI face replacement technology without needing expensive local computing hardware." }
+    ]
+  },
+  "aigify": {
+    whatIs: "AIGIFY is an AI GIF creation platform that generates custom animated GIFs from text prompts and images, enabling creators to produce unique animated content for messaging, social media, and digital communication.",
+    features: [
+      "Text to GIF: Generate animated GIFs from descriptions",
+      "Image to GIF: Animate static images into GIF format",
+      "Custom Animations: Unique GIFs not found in libraries",
+      "Fast Generation: Animated GIFs ready quickly",
+      "Multiple Styles: Various animation styles available"
+    ],
+    howToUse: {
+      title: "How to Use Aigify",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your GIF", description: "Write a description of the animated GIF you want to create including action, style, and mood." },
+        { title: "Or Upload an Image", description: "Provide a static image you want animated into GIF format for personalized content creation." },
+        { title: "Generate Your GIF", description: "Let the AI create your custom animated GIF from your description or uploaded image." },
+        { title: "Download and Share", description: "Save your GIF and share it in messages, social media, or wherever GIFs fit your communication." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Custom Animation", description: "Creates unique GIFs that are genuinely original rather than repurposed from existing GIF libraries." },
+      { title: "Text Understanding", description: "Accurately interprets text descriptions to generate relevant and appropriate animated content." },
+      { title: "Format Optimization", description: "Produces GIFs optimized for sharing across messaging platforms and social media feeds." }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "Create unique custom GIFs for expressing yourself online beyond what existing GIF libraries offer." },
+      { title: "Content Creators", description: "Generate original animated content for your social media presence that stands out from stock GIFs." },
+      { title: "Marketers", description: "Create branded animated GIFs for marketing campaigns and digital communication with audiences." }
+    ]
+  },
+  "datagif": {
+    whatIs: "DataGIF is an AI data visualization and animated GIF creation tool that turns data and statistics into engaging animated GIF visualizations for more compelling and shareable data storytelling content.",
+    features: [
+      "Data Visualization GIFs: Animate data into shareable GIFs",
+      "Chart Animation: Transform static charts into animated content",
+      "Statistics Storytelling: Make data engaging and shareable",
+      "Multiple Chart Types: Bar line pie and other formats animated",
+      "Easy Creation: Simple data input to animated GIF workflow"
+    ],
+    howToUse: {
+      title: "How to Use Datagif",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Data", description: "Enter your statistics, chart data, or import a data file into DataGIF for visualization." },
+        { title: "Choose Chart Type", description: "Select the chart format that best represents your data story in animated GIF format." },
+        { title: "Customize Animation", description: "Adjust colors, timing, and visual style to match your brand or presentation requirements." },
+        { title: "Export Your GIF", description: "Download your animated data visualization GIF for sharing in reports, social media, and presentations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data Animation Engine", description: "Transforms static numerical data into engaging animated visualizations that capture audience attention." },
+      { title: "Shareable Format", description: "Produces data stories as GIFs which are natively shareable across every digital communication platform." },
+      { title: "Multiple Visualization Types", description: "Supports diverse chart formats ensuring the right visual representation for any data story told." }
+    ],
+    useCases: [
+      { title: "Data Journalists", description: "Create shareable animated data visualizations that make statistics engaging for general audiences." },
+      { title: "Marketing Analysts", description: "Present performance data in animated GIF format that gets attention in reports and social posts." },
+      { title: "Researchers", description: "Communicate research findings through animated visualizations that are more compelling than static charts." }
+    ]
+  },
+  "veo3": {
+    whatIs: "Veo 3 is Google DeepMind's latest and most advanced AI video generation model that produces high-quality realistic videos with synchronized audio from text prompts, representing a major leap in AI video technology.",
+    features: [
+      "Highest Quality Generation: State-of-the-art AI video output",
+      "Audio Synchronization: Generates matching audio with video",
+      "Text to Video: Detailed prompts produce realistic content",
+      "Long Duration: Extended video generation capability",
+      "Google Technology: Backed by DeepMind research excellence"
+    ],
+    howToUse: {
+      title: "How to Use Veo3",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Veo 3", description: "Access Veo 3 through Google's available platforms and products that provide the model." },
+        { title: "Write Your Prompt", description: "Craft a detailed descriptive prompt of the video scene you want generated including audio elements." },
+        { title: "Generate Your Video", description: "Submit your prompt and allow Veo 3 to generate your high-quality video with synchronized audio." },
+        { title: "Review and Download", description: "Review your generated video and audio combination and download for your intended use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Audio-Video Synchronization", description: "Generates matching audio including dialogue, sound effects, and music synchronized with video content." },
+      { title: "Generation Quality", description: "Produces video quality that represents the current state of the art in AI video generation technology." },
+      { title: "Prompt Understanding", description: "Interprets complex detailed prompts to generate videos that accurately reflect described scenes." }
+    ],
+    useCases: [
+      { title: "Filmmakers", description: "Prototype cinematic concepts and generate high-quality reference footage with Google's leading AI video model." },
+      { title: "Creative Professionals", description: "Access the highest quality AI video generation available for demanding creative production projects." },
+      { title: "Researchers", description: "Explore the frontier of AI video generation capability through Google DeepMind's most advanced model." }
+    ]
+  },
+  "sync-so": {
+    whatIs: "Sync.so is an AI lip sync platform that synchronizes mouth movements in videos to match any audio track, enabling creators to easily dub, translate, and animate video content with accurate lip synchronization.",
+    features: [
+      "AI Lip Sync: Synchronize mouth movements to any audio",
+      "Video Dubbing: Replace audio with accurate lip sync",
+      "Translation Ready: Sync translated audio to original video",
+      "Realistic Results: Natural-looking lip movement generation",
+      "API Access: Integrate lip sync into your applications"
+    ],
+    howToUse: {
+      title: "How to Use Sync So",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Import the video you want to apply lip sync to for audio synchronization processing." },
+        { title: "Add Your Audio", description: "Upload the audio track you want synchronized to the video's mouth movements." },
+        { title: "Generate Lip Sync", description: "Let the AI process both inputs and generate accurate lip synchronization throughout the video." },
+        { title: "Download Synced Video", description: "Save your lip-synced video with natural mouth movements matching your audio track." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Lip Sync Accuracy", description: "Produces realistic mouth movements that convincingly match the rhythm and phonemes of the audio." },
+      { title: "Dubbing Workflow", description: "Streamlines the video dubbing process for translating content into other languages naturally." },
+      { title: "API Integration", description: "Provides developer access for building lip sync capabilities into larger video production workflows." }
+    ],
+    useCases: [
+      { title: "Video Producers", description: "Dub and localize video content into multiple languages with accurate AI lip synchronization." },
+      { title: "Content Creators", description: "Add lip sync to animated characters and AI avatars for more realistic video content." },
+      { title: "Developers", description: "Integrate professional lip sync capabilities into video applications through the Sync.so API." }
+    ]
+  },
+  "vozo": {
+    whatIs: "Vozo is an AI voice and video dubbing platform that translates and dubs video content into multiple languages with natural AI voices, making video localization fast and accessible for global content distribution.",
+    features: [
+      "Video Dubbing: Translate and dub videos automatically",
+      "Natural AI Voices: High-quality voice synthesis for dubbing",
+      "Multiple Languages: Support for many target language pairs",
+      "Subtitle Export: Generate translated subtitles alongside dubs",
+      "Fast Processing: Dubbed videos produced efficiently"
+    ],
+    howToUse: {
+      title: "How to Use Vozo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Import the video content you want dubbed into another language for global distribution." },
+        { title: "Select Target Language", description: "Choose the language you want your video dubbed into from available language options." },
+        { title: "Generate Your Dub", description: "Let Vozo translate and generate natural AI voice dubbing synchronized to your video content." },
+        { title: "Download and Distribute", description: "Export your dubbed video and publish it to reach audiences in your target language market." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Natural Voice Quality", description: "Synthesizes high-quality natural-sounding voices for dubbed content that sounds genuinely authentic." },
+      { title: "Automatic Translation", description: "Handles both translation and voice synthesis in one workflow for efficient localization production." },
+      { title: "Subtitle Integration", description: "Generates translated subtitle files alongside dubbed audio for flexible viewing format support." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Reach international audiences by dubbing your videos into multiple languages affordably and quickly." },
+      { title: "Educational Publishers", description: "Localize course videos for international learners in their native languages efficiently at scale." },
+      { title: "Marketing Teams", description: "Adapt video campaigns for different regional markets with natural AI dubbing in target languages." }
+    ]
+  },
+  "blipcut-video-translator": {
+    whatIs: "BlipCut AI Video Translator translates video content into multiple languages through AI transcription and dubbing or subtitle generation making international video distribution accessible to any creator.",
+    features: [
+      "Video Translation: Translate videos into dozens of languages",
+      "AI Dubbing: Replace audio with translated AI voice",
+      "Subtitle Generation: Create accurate translated subtitle files",
+      "Multiple Languages: Wide target language selection",
+      "Fast Processing: Translated videos ready quickly"
+    ],
+    howToUse: {
+      title: "How to Use Blipcut Video Translator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Import the video you want translated into BlipCut for processing and language conversion." },
+        { title: "Select Target Language", description: "Choose the language you want your video translated and delivered in for your audience." },
+        { title: "Choose Output Format", description: "Select AI dubbing for replaced audio or subtitle generation for text-based translation." },
+        { title: "Download Translated Video", description: "Receive your translated video with dubbed audio or subtitles ready for publishing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Dubbing Technology", description: "Replaces original audio with natural AI voice in the target language synchronized to video content." },
+      { title: "Subtitle Accuracy", description: "Generates accurately translated subtitle files timed correctly to the original video content." },
+      { title: "Language Coverage", description: "Supports translation into a wide range of languages for truly international content distribution." }
+    ],
+    useCases: [
+      { title: "YouTubers", description: "Reach global audiences by translating your video content into multiple languages efficiently." },
+      { title: "Businesses", description: "Localize corporate and marketing videos for different regional markets without traditional dubbing costs." },
+      { title: "Educators", description: "Make educational content accessible to international students by translating into their native languages." }
+    ]
+  },
+  "story-com": {
+    whatIs: "Story.com is an AI storytelling and video creation platform that helps creators produce cinematic short films, animated stories, and narrative video content from scripts and text prompts using AI generation.",
+    features: [
+      "Cinematic Generation: Movie-quality AI video from scripts",
+      "Story to Video: Convert narrative scripts to visual content",
+      "Character Consistency: Maintain characters across scenes",
+      "Scene Generation: AI creates individual story scenes",
+      "Film Quality: High production value AI video output"
+    ],
+    howToUse: {
+      title: "How to Use Story Com",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Story", description: "Input your script, story outline, or narrative description for AI video production." },
+        { title: "Generate Your Scenes", description: "Let Story.com create individual scenes from your script with consistent characters and settings." },
+        { title: "Review and Refine", description: "Check each generated scene for consistency and quality and request adjustments as needed." },
+        { title: "Compile Your Film", description: "Assemble your generated scenes into a complete short film for sharing and distribution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Character Consistency", description: "Maintains the same character appearance across multiple generated scenes for narrative coherence." },
+      { title: "Script Understanding", description: "Interprets written scripts and converts narrative elements into appropriate visual representations." },
+      { title: "Cinematic Quality", description: "Produces video content with production values approaching short film quality for storytelling projects." }
+    ],
+    useCases: [
+      { title: "Independent Filmmakers", description: "Prototype and produce short film concepts using AI video generation without traditional production costs." },
+      { title: "Storytellers", description: "Bring written stories to life as visual cinematic content without filmmaking equipment or expertise." },
+      { title: "Creative Writers", description: "Visualize your narrative concepts as AI-generated video to see your stories come alive visually." }
+    ]
+  },
   "animaker": {
     whatIs: "Animaker is a cloud-based animation and video making platform that lets anyone create professional animated videos, presentations, and infographics using drag-and-drop tools without any design experience.",
     features: [
