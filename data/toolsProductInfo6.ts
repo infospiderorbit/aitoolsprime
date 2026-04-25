@@ -1,4 +1,394 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "bartleby": {
+    whatIs: "Bartleby is an online homework help platform that connects students with expert tutors and provides AI-powered textbook solutions, writing assistance, and step-by-step explanations across all major subjects.",
+    features: [
+      "Textbook Solutions: Step-by-step answers to textbook problems",
+      "Expert Tutors: Connect with subject matter specialists live",
+      "Writing Help: Essay and paper assistance with AI support",
+      "24/7 Availability: Help available any time day or night",
+      "Multiple Subjects: Math science literature and more covered"
+    ],
+    howToUse: {
+      title: "How to Use Bartleby",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Question", description: "Enter your homework question or find your specific textbook to access relevant solutions." },
+        { title: "Get Step-by-Step Help", description: "Review detailed step-by-step solutions that explain the method behind every answer clearly." },
+        { title: "Connect With a Tutor", description: "Request live expert tutor help for problems that need personalized real-time explanation and support." },
+        { title: "Use Writing Tools", description: "Access AI writing assistance for essays, papers, and written assignments across your courses." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Textbook Coverage", description: "Provides solutions for thousands of popular textbooks across subjects used in schools and universities." },
+      { title: "Expert Tutor Network", description: "Connects students with verified subject experts for live personalized academic support on demand." },
+      { title: "Writing Assistance", description: "Offers AI-powered writing help that supports essay development, grammar, and structure improvement." }
+    ],
+    useCases: [
+      { title: "College Students", description: "Access textbook solutions and expert help for challenging coursework across all your enrolled subjects." },
+      { title: "High School Students", description: "Get step-by-step homework explanations that help you understand material rather than just copy answers." },
+      { title: "Struggling Learners", description: "Find personalized tutor support for subjects where you need additional targeted academic assistance." }
+    ]
+  },
+  "pdnob-image-translator": {
+    whatIs: "PDNob Image Translator is an AI tool that extracts and translates text from images, photos, and screenshots instantly, making it easy to understand foreign language content captured in any image format.",
+    features: [
+      "Image Text Extraction: Read text from any image accurately",
+      "Instant Translation: Translate extracted text into your language",
+      "Multiple Languages: Supports dozens of language pairs",
+      "Photo Translation: Translate text in real-world photos",
+      "Free to Use: Basic translation without payment required"
+    ],
+    howToUse: {
+      title: "How to Use Pdnob Image Translator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Import the photo, screenshot, or image containing the foreign language text you want translated." },
+        { title: "Extract the Text", description: "Let the AI OCR engine read and extract all text visible within your uploaded image." },
+        { title: "Get Your Translation", description: "Receive the extracted text translated into your chosen target language immediately." },
+        { title: "Copy and Use", description: "Copy the translated text and use it in your documents, messages, or research as needed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "OCR Accuracy", description: "Reads text from images with high accuracy across different fonts, sizes, and image quality levels." },
+      { title: "Translation Quality", description: "Delivers natural fluent translations that preserve the meaning of extracted text accurately." },
+      { title: "Format Flexibility", description: "Handles photos, screenshots, scanned documents, and other image formats containing text content." }
+    ],
+    useCases: [
+      { title: "Travelers", description: "Translate menus, signs, and documents in foreign countries by photographing and translating them instantly." },
+      { title: "Students", description: "Translate foreign language textbook images and academic materials without manual retyping of text." },
+      { title: "Researchers", description: "Extract and translate text from foreign language research images and document scans efficiently." }
+    ]
+  },
+  "pipiads": {
+    whatIs: "Pipiads is a TikTok and Facebook ad intelligence platform that lets advertisers research competitor ads, find winning creatives, and discover product opportunities through a massive searchable ad database.",
+    features: [
+      "Ad Spy Tool: Research competitor advertisements across platforms",
+      "TikTok Ads: Largest TikTok ad creative database available",
+      "Winning Products: Discover products performing well in ads",
+      "Creative Analysis: Study what makes top ads perform well",
+      "Competitor Research: Monitor rival brands ad strategies"
+    ],
+    howToUse: {
+      title: "How to Use Pipiads",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Niche", description: "Enter keywords, competitors, or product categories to find relevant ads in the database." },
+        { title: "Analyze Top Ads", description: "Study the highest performing creatives in your niche to understand what resonates with audiences." },
+        { title: "Find Winning Products", description: "Identify products that are currently performing well in paid social advertising campaigns." },
+        { title: "Apply Your Insights", description: "Use competitive intelligence to inform your own ad creative strategy and product selection decisions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Massive Ad Database", description: "Provides access to millions of TikTok and Facebook ads for comprehensive competitive research." },
+      { title: "Performance Indicators", description: "Shows engagement metrics and run duration data that indicate which ads are genuinely performing well." },
+      { title: "Product Discovery", description: "Surfaces trending products being successfully advertised so sellers can identify market opportunities early." }
+    ],
+    useCases: [
+      { title: "E-commerce Sellers", description: "Find winning products and study successful ad creatives before investing in your own campaigns." },
+      { title: "Media Buyers", description: "Research what ad formats and creatives are working in your niche before launching client campaigns." },
+      { title: "Dropshippers", description: "Discover trending products being profitably advertised and model your own approach on proven winners." }
+    ]
+  },
+  "transmonkey": {
+    whatIs: "Transmonkey is an AI-powered browser extension that translates web pages, selected text, and online content in real time, making foreign language websites fully accessible in your native language.",
+    features: [
+      "Real-Time Translation: Translate web pages as you browse",
+      "Text Selection: Translate any selected text instantly",
+      "Multiple Languages: Support for dozens of language pairs",
+      "Browser Integration: Works directly within your browser",
+      "Hover Translation: Translate words by hovering over them"
+    ],
+    howToUse: {
+      title: "How to Use Transmonkey",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Add Transmonkey to your browser from the extension marketplace in one click." },
+        { title: "Browse Foreign Sites", description: "Visit any foreign language website and Transmonkey translates the content automatically." },
+        { title: "Select Text to Translate", description: "Highlight any text on any page to get an instant translation of just that selected portion." },
+        { title: "Hover for Words", description: "Hover over individual words to see quick translations without selecting or clicking anything." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Page Translation", description: "Translates entire web pages automatically as you browse without requiring manual translation requests." },
+      { title: "Selection Translation", description: "Translates highlighted text snippets instantly for quick understanding of specific phrases or passages." },
+      { title: "Hover Functionality", description: "Provides instant word translations on mouse hover for seamless reading of mixed language content." }
+    ],
+    useCases: [
+      { title: "Language Learners", description: "Read foreign language content with hover translations that support immersive language learning experiences." },
+      { title: "Researchers", description: "Access foreign language research, news, and websites without language barriers slowing your work." },
+      { title: "International Business Users", description: "Navigate foreign language business websites and communications comfortably in your working language." }
+    ]
+  },
+  "ai-translator-suite": {
+    whatIs: "AI Translator Suite is a comprehensive AI translation toolkit that provides document translation, text translation, and website translation across multiple languages with high accuracy and format preservation.",
+    features: [
+      "Document Translation: Translate full documents preserving formatting",
+      "Text Translation: Quick translation of any text input",
+      "Website Translation: Translate web content into your language",
+      "Multiple Languages: Wide language pair coverage available",
+      "Format Preservation: Layout maintained through translation"
+    ],
+    howToUse: {
+      title: "How to Use Ai Translator Suite",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Select from document, text, or website translation based on your specific translation need." },
+        { title: "Input Your Content", description: "Upload your document, paste your text, or enter a URL for website translation processing." },
+        { title: "Select Languages", description: "Choose your source and target languages from the available language pair options." },
+        { title: "Get Your Translation", description: "Receive your translated content with formatting and layout preserved as closely as possible." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Comprehensive Toolkit", description: "Covers document, text, and website translation needs in one integrated suite of translation tools." },
+      { title: "Format Retention", description: "Maintains original document formatting and layout through the translation process for professional output." },
+      { title: "Language Coverage", description: "Supports a wide range of language pairs covering major world languages for diverse translation needs." }
+    ],
+    useCases: [
+      { title: "Business Teams", description: "Translate business documents, contracts, and communications across language barriers professionally." },
+      { title: "Content Managers", description: "Translate website content and marketing materials for international audience reach and accessibility." },
+      { title: "Individual Users", description: "Handle personal translation needs across documents, text, and web content from one convenient toolkit." }
+    ]
+  },
+  "ai-manga-translator": {
+    whatIs: "AI Manga Translator is a specialized AI tool that detects and translates text within manga and comic panels, making Japanese and other foreign language manga accessible to readers worldwide.",
+    features: [
+      "Manga OCR: Reads text within manga speech bubbles accurately",
+      "Panel Detection: Identifies and processes individual comic panels",
+      "Multiple Languages: Translate manga into your native language",
+      "Image Processing: Handles various manga image formats",
+      "Fast Translation: Quick processing of manga pages"
+    ],
+    howToUse: {
+      title: "How to Use Ai Manga Translator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Manga", description: "Import your manga image file or page for the AI to analyze and process for translation." },
+        { title: "AI Detects Text", description: "The system automatically identifies speech bubbles and text areas within your manga panels." },
+        { title: "Get Your Translation", description: "Receive translated text for all detected dialogue and text elements in your manga page." },
+        { title: "Read and Enjoy", description: "Use the translated content to read and understand manga originally published in foreign languages." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Manga-Specific OCR", description: "Reads text within stylized manga speech bubbles and panels with accuracy built for comic formats." },
+      { title: "Panel Processing", description: "Identifies and processes individual comic panels separately for organized translation output." },
+      { title: "Comic Format Support", description: "Handles the unique visual layouts and text presentation styles found in manga and comic formats." }
+    ],
+    useCases: [
+      { title: "Manga Fans", description: "Read manga titles not yet officially translated into your language with AI-powered translation assistance." },
+      { title: "Language Learners", description: "Study Japanese or other languages through manga content with translation support for comprehension." },
+      { title: "Translators", description: "Use AI translation as a starting point for professional manga localization and translation projects." }
+    ]
+  },
+  "ai-image-translator": {
+    whatIs: "AI Image Translator is an online tool that uses AI to detect, extract, and translate text found within images making foreign language visual content accessible in your preferred language instantly.",
+    features: [
+      "Image Text Detection: Find all text within any image",
+      "Multi-Language Translation: Translate to dozens of languages",
+      "Instant Processing: Fast translation of image text content",
+      "Multiple Image Types: Photos screenshots and documents",
+      "Free Access: Basic image translation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Image Translator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Select and upload the image containing foreign language text you want translated." },
+        { title: "AI Processes Image", description: "The AI scans your image to detect and extract all readable text from the visual content." },
+        { title: "Select Target Language", description: "Choose the language you want the extracted text translated into for your use." },
+        { title: "Get Your Translation", description: "Receive the translated text from your image ready to copy and use immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Text Detection Engine", description: "Accurately identifies and extracts text from images regardless of font style or background complexity." },
+      { title: "Broad Language Support", description: "Translates extracted image text across a wide range of source and target language combinations." },
+      { title: "Instant Availability", description: "Processes and returns translations quickly without lengthy processing waits or account requirements." }
+    ],
+    useCases: [
+      { title: "Travelers", description: "Translate foreign text in photos of signs, menus, and documents taken during international travel." },
+      { title: "Students", description: "Access foreign language educational images and visual materials in your native language easily." },
+      { title: "General Users", description: "Understand text in any image from any language without manual retyping or separate translation steps." }
+    ]
+  },
+  "textcortex": {
+    whatIs: "TextCortex is an AI writing assistant and content creation platform that helps users write better content faster across emails, articles, social posts, and more with context-aware AI suggestions.",
+    features: [
+      "AI Writing: Generate and improve content across all formats",
+      "Browser Extension: AI assistance on any website you visit",
+      "70+ Templates: Specialized templates for every content type",
+      "Tone Adjustment: Match writing style to your specific context",
+      "Knowledge Base: Train AI on your own documents and content"
+    ],
+    howToUse: {
+      title: "How to Use Textcortex",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Add TextCortex to your browser for AI writing assistance across every website and platform." },
+        { title: "Choose Your Template", description: "Select from 70+ templates designed for specific content types like emails, blogs, or social posts." },
+        { title: "Generate Your Content", description: "Enter your topic or details and let TextCortex produce a draft tailored to your chosen format." },
+        { title: "Refine and Publish", description: "Edit the generated content to add your personal voice and publish across your chosen channels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Template Breadth", description: "Offers over 70 specialized templates covering every content format from cold emails to long articles." },
+      { title: "Browser Integration", description: "Provides AI writing assistance directly on any website making help available wherever you write." },
+      { title: "Custom Knowledge Base", description: "Trains on your own documents to generate content that reflects your specific brand and style." }
+    ],
+    useCases: [
+      { title: "Content Marketers", description: "Produce diverse content formats efficiently with specialized templates that maintain consistent quality." },
+      { title: "Sales Professionals", description: "Write personalized outreach emails and follow-ups faster with AI assistance for every message." },
+      { title: "Business Owners", description: "Create professional content across all channels without a dedicated writing team or agency." }
+    ]
+  },
+  "crisp": {
+    whatIs: "Crisp is a customer messaging platform that combines live chat, chatbot automation, and AI-powered support tools to help businesses deliver fast personalized customer service across multiple channels.",
+    features: [
+      "Live Chat: Real-time customer conversations on your website",
+      "AI Chatbot: Automated responses to common questions",
+      "Shared Inbox: Team inbox for all customer conversations",
+      "Knowledge Base: Self-service help center for customers",
+      "Multi-Channel: Chat email and social in one platform"
+    ],
+    howToUse: {
+      title: "How to Use Crisp",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Chat Widget", description: "Add the Crisp chat widget to your website by copying a simple code snippet into your site." },
+        { title: "Set Up Your Chatbot", description: "Configure automated responses for common customer questions to handle volume without manual effort." },
+        { title: "Manage Your Inbox", description: "Handle all customer conversations from chat, email, and social media in one shared team inbox." },
+        { title: "Build Your Knowledge Base", description: "Create self-service help articles so customers can find answers without contacting your team." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Unified Inbox", description: "Consolidates customer messages from all channels into one shared workspace for efficient team management." },
+      { title: "Chatbot Automation", description: "Handles routine customer questions automatically reducing the volume requiring human agent response." },
+      { title: "Knowledge Base Integration", description: "Links your help center content to chat so customers and bots can surface relevant articles automatically." }
+    ],
+    useCases: [
+      { title: "E-commerce Businesses", description: "Provide fast customer support for orders, returns, and product questions across all communication channels." },
+      { title: "SaaS Companies", description: "Support users with in-app chat, automated onboarding flows, and self-service documentation resources." },
+      { title: "Small Business Owners", description: "Deliver professional customer service without a large support team using automation and shared inbox tools." }
+    ]
+  },
+  "helpjuice": {
+    whatIs: "Helpjuice is a knowledge base software platform that helps businesses create, organize, and publish internal and external help documentation with AI-powered search and analytics to improve self-service support.",
+    features: [
+      "Knowledge Base Builder: Create professional help documentation",
+      "AI Search: Intelligent search that understands user intent",
+      "Analytics: Track which articles get read and what people search",
+      "Customization: Brand your knowledge base to match your identity",
+      "Team Collaboration: Multiple authors managing content together"
+    ],
+    howToUse: {
+      title: "How to Use Helpjuice",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Knowledge Base", description: "Set up your Helpjuice account and start building your documentation structure and navigation." },
+        { title: "Write Your Articles", description: "Create help articles using the rich text editor with images, videos, and formatting support." },
+        { title: "Customize Your Design", description: "Apply your brand colors, logo, and domain to create a knowledge base that matches your identity." },
+        { title: "Monitor Performance", description: "Use analytics to see which articles get the most traffic and what searches return no useful results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI-Powered Search", description: "Understands user intent and surfaces the most relevant articles even when search terms are imprecise." },
+      { title: "Usage Analytics", description: "Tracks article views and failed searches to reveal content gaps and improvement opportunities clearly." },
+      { title: "Brand Customization", description: "Applies full white-label customization so your knowledge base feels like a natural part of your product." }
+    ],
+    useCases: [
+      { title: "Customer Support Teams", description: "Reduce ticket volume by publishing comprehensive self-service documentation customers can search independently." },
+      { title: "SaaS Companies", description: "Build product documentation that helps users succeed and reduces onboarding-related support burden significantly." },
+      { title: "HR Teams", description: "Create internal knowledge bases for company policies, procedures, and employee reference materials." }
+    ]
+  },
+  "connected-papers": {
+    whatIs: "Connected Papers is a visual research tool that generates interactive graphs of academic papers related to any research topic, helping researchers discover relevant literature and understand field connections.",
+    features: [
+      "Visual Paper Graph: See how papers connect and relate visually",
+      "Related Paper Discovery: Find relevant research you might miss",
+      "Field Overview: Understand the landscape of any research area",
+      "Citation Mapping: See how papers cite and influence each other",
+      "Free Access: Basic graph generation without payment required"
+    ],
+    howToUse: {
+      title: "How to Use Connected Papers",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter a Seed Paper", description: "Input the title or DOI of a paper central to your research topic to generate your connected graph." },
+        { title: "Explore Your Graph", description: "Browse the visual graph of related papers with node size and color indicating relevance and recency." },
+        { title: "Discover New Papers", description: "Identify important papers in your field you might not have found through traditional search methods." },
+        { title: "Build Your Reading List", description: "Select the most relevant papers from your graph and add them to your research reading list." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Relationship Mapping", description: "Displays connections between papers visually making it easy to see how research in a field relates." },
+      { title: "Serendipitous Discovery", description: "Surfaces relevant papers you would likely miss when searching databases with specific keywords alone." },
+      { title: "Field Landscape View", description: "Shows the broader structure of a research field revealing influential works and emerging directions." }
+    ],
+    useCases: [
+      { title: "Academic Researchers", description: "Discover relevant literature quickly and understand how your research fits into the broader field landscape." },
+      { title: "PhD Students", description: "Map the literature in your research area comprehensively to ensure your review covers key works." },
+      { title: "Science Writers", description: "Understand the connections between papers in a field to write more informed and accurate science content." }
+    ]
+  },
+  "writer": {
+    whatIs: "Writer is an enterprise AI writing platform that helps organizations maintain brand voice consistency across all content by training on company guidelines, style, and terminology for every team member.",
+    features: [
+      "Brand Voice Training: AI trained on your specific brand guidelines",
+      "Style Enforcement: Consistent terminology across all content",
+      "Team Platform: Multiple writers sharing one AI writing tool",
+      "Content Generation: Draft content aligned to your brand voice",
+      "Grammar and Style: Real-time writing improvement suggestions"
+    ],
+    howToUse: {
+      title: "How to Use Writer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Brand", description: "Upload your brand guidelines, style guide, and terminology so Writer learns your specific voice." },
+        { title: "Invite Your Team", description: "Add team members so everyone writes with the same AI assistance trained on your brand standards." },
+        { title: "Generate Content", description: "Use Writer to draft content knowing it will automatically align with your brand voice and style." },
+        { title: "Review and Publish", description: "Edit AI-generated drafts with real-time suggestions and publish content that is consistently on brand." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brand Voice Training", description: "Learns your specific brand personality, tone, and style from uploaded guidelines for consistent output." },
+      { title: "Terminology Management", description: "Enforces approved company terminology across all content preventing off-brand language from appearing." },
+      { title: "Team Consistency", description: "Ensures every team member produces content that sounds consistently on brand regardless of individual style." }
+    ],
+    useCases: [
+      { title: "Enterprise Marketing Teams", description: "Maintain consistent brand voice across all content produced by large distributed marketing teams." },
+      { title: "Content Operations", description: "Scale content production without sacrificing brand consistency as your team and output volume grows." },
+      { title: "Brand Managers", description: "Enforce brand standards automatically rather than manually reviewing every piece of content produced." }
+    ]
+  },
+  "open-knowledge-maps": {
+    whatIs: "Open Knowledge Maps is a free visual search interface for scientific literature that creates knowledge maps showing the main topics and papers in any research area to help researchers navigate literature efficiently.",
+    features: [
+      "Visual Knowledge Maps: Research topics displayed as interactive maps",
+      "Literature Discovery: Find relevant papers across research areas",
+      "Topic Clustering: Related papers grouped by subject automatically",
+      "Free and Open: Completely free with open source commitment",
+      "Broad Coverage: Searches across major academic databases"
+    ],
+    howToUse: {
+      title: "How to Use Open Knowledge Maps",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Type your research topic or question into Open Knowledge Maps to generate your visual literature map." },
+        { title: "Explore Your Map", description: "Browse the interactive map showing clusters of related papers and topics in your research area." },
+        { title: "Click to Discover", description: "Select any cluster or paper to see more details and related works in that specific area." },
+        { title: "Export Your Findings", description: "Save your map and selected papers for your research workflow and literature review process." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Topic Clustering", description: "Groups related papers into visual clusters making the structure of a research field immediately comprehensible." },
+      { title: "Free and Open Source", description: "Provides completely free access to visual literature mapping with a commitment to open science principles." },
+      { title: "Multi-Database Search", description: "Searches across major academic databases simultaneously for comprehensive literature coverage in one place." }
+    ],
+    useCases: [
+      { title: "Researchers", description: "Navigate unfamiliar research areas quickly with visual maps that show the field structure at a glance." },
+      { title: "Students Starting Literature Reviews", description: "Get an overview of your research topic's landscape before diving into detailed individual paper reading." },
+      { title: "Interdisciplinary Researchers", description: "Discover how different fields connect and find relevant literature outside your primary discipline easily." }
+    ]
+  },
   "streaks-66": {
     whatIs: "Streaks 66 is an AI-powered habit tracking app that helps users build and maintain positive daily habits using the 66-day habit formation framework with smart reminders and progress visualization.",
     features: [
