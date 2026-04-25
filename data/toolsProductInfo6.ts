@@ -1,4 +1,574 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "meshy": {
+    whatIs: "Meshy is an AI 3D model generation platform that creates detailed 3D assets from text prompts and images in minutes, enabling game developers, designers, and creators to build 3D content without specialized modeling skills.",
+    features: [
+      "Text to 3D: Generate 3D models from text descriptions",
+      "Image to 3D: Convert images into full 3D models",
+      "Game Ready Assets: Export in formats for Unity and Unreal",
+      "Texture Generation: AI creates textures for every model",
+      "Fast Creation: 3D models ready in minutes not days"
+    ],
+    howToUse: {
+      title: "How to Use Meshy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Model", description: "Enter a detailed text description of the 3D object or character you want created." },
+        { title: "Or Upload an Image", description: "Provide a reference image for the AI to use as the basis for 3D model generation." },
+        { title: "Generate and Preview", description: "Review your AI-generated 3D model from all angles and assess quality and detail." },
+        { title: "Export Your Asset", description: "Download in your required format such as OBJ, FBX, or GLB for your project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Text to 3D Generation", description: "Creates detailed 3D models from descriptive text without any 3D modeling software knowledge." },
+      { title: "Game Asset Ready", description: "Exports models in industry-standard formats compatible with major game engines directly." },
+      { title: "Texture Intelligence", description: "Generates appropriate textures automatically for every 3D model produced by the platform." }
+    ],
+    useCases: [
+      { title: "Game Developers", description: "Create 3D game assets quickly without dedicated 3D artists or lengthy modeling sessions." },
+      { title: "Product Designers", description: "Visualize product concepts as 3D models for presentations and client reviews efficiently." },
+      { title: "Content Creators", description: "Generate 3D assets for AR filters, virtual environments, and digital creative projects." }
+    ]
+  },
+  "luma-ai": {
+    whatIs: "Luma AI is a 3D capture and AI video generation company that provides tools for creating photorealistic 3D scenes from video and generating high-quality AI video content through its Dream Machine model.",
+    features: [
+      "3D Scene Capture: Create photorealistic 3D from video",
+      "NeRF Technology: Neural radiance field 3D reconstruction",
+      "Dream Machine: AI video generation from text and images",
+      "Photorealistic Output: Studio-quality 3D and video results",
+      "API Access: Integrate capabilities into applications"
+    ],
+    howToUse: {
+      title: "How to Use Luma Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Capture Your Scene", description: "Record a video walking around the object or space you want to reconstruct in 3D." },
+        { title: "Upload for Processing", description: "Submit your video to Luma AI for neural radiance field processing and 3D reconstruction." },
+        { title: "Explore Your 3D Scene", description: "View and interact with your photorealistic 3D reconstruction from any angle." },
+        { title: "Export or Share", description: "Download your 3D asset or share your interactive 3D scene with others online." }
+      ]
+    },
+    coreFeatures: [
+      { title: "NeRF Reconstruction", description: "Uses neural radiance fields to create photorealistic 3D scenes from regular video footage." },
+      { title: "Photorealistic Quality", description: "Produces 3D outputs with visual quality that closely matches the original photographed subject." },
+      { title: "Dream Machine Video", description: "Generates high-quality AI video content alongside 3D capabilities in one platform." }
+    ],
+    useCases: [
+      { title: "Product Photographers", description: "Create interactive 3D product visualizations from simple video recordings for e-commerce." },
+      { title: "Architects", description: "Capture and share photorealistic 3D walkthroughs of spaces and buildings digitally." },
+      { title: "Game Developers", description: "Generate high-quality 3D assets from real-world captures for game environment building." }
+    ]
+  },
+  "iconscout": {
+    whatIs: "IconScout is a comprehensive design asset marketplace and AI generation platform offering millions of icons, illustrations, 3D assets, and Lottie animations alongside AI tools for generating custom design elements.",
+    features: [
+      "Massive Asset Library: Millions of icons and illustrations",
+      "AI Icon Generation: Create custom icons from text prompts",
+      "3D Assets: High-quality 3D illustrations available",
+      "Lottie Animations: Ready-to-use animated assets",
+      "Design Integration: Plugins for Figma and other tools"
+    ],
+    howToUse: {
+      title: "How to Use Iconscout",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search or Generate", description: "Browse the library by keyword or use AI generation to create custom design assets." },
+        { title: "Customize Your Asset", description: "Adjust colors, styles, and sizes to match your specific design requirements." },
+        { title: "Download Your Files", description: "Export assets in SVG, PNG, or other formats needed for your design project." },
+        { title: "Use Design Plugins", description: "Access IconScout directly within Figma or other design tools through available plugins." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Asset Library Scale", description: "Provides access to millions of design assets covering icons, illustrations, 3D, and animations." },
+      { title: "AI Generation", description: "Creates unique custom icons and illustrations from text descriptions for specific project needs." },
+      { title: "Design Tool Integration", description: "Integrates directly into popular design software through plugins for seamless workflow." }
+    ],
+    useCases: [
+      { title: "UI/UX Designers", description: "Find and generate the perfect icons and illustrations for interface design projects instantly." },
+      { title: "Web Developers", description: "Access high-quality scalable icon sets and animated assets for web and app development." },
+      { title: "Marketing Designers", description: "Source diverse visual assets for campaigns and brand materials from one comprehensive library." }
+    ]
+  },
+  "tripo-ai": {
+    whatIs: "Tripo AI is an AI 3D model generation platform that creates high-quality 3D assets from text prompts and reference images in seconds, making professional 3D content creation accessible to everyone.",
+    features: [
+      "Text to 3D: Instant 3D models from text descriptions",
+      "Image to 3D: Generate 3D from reference photographs",
+      "High Quality Mesh: Professional-grade 3D model output",
+      "Multiple Formats: Export in OBJ FBX GLB and more",
+      "Fast Generation: 3D assets created in seconds"
+    ],
+    howToUse: {
+      title: "How to Use Tripo Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Prompt", description: "Describe the 3D model you want created with as much visual detail as possible." },
+        { title: "Upload Reference Image", description: "Optionally provide a photo reference to guide the AI toward your intended design." },
+        { title: "Generate and Review", description: "Receive your 3D model and inspect it from multiple angles for quality assessment." },
+        { title: "Download Your Model", description: "Export your generated 3D asset in the file format required for your project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Speed of Generation", description: "Produces complete 3D models in seconds rather than the hours required for manual modeling." },
+      { title: "Mesh Quality", description: "Generates clean professional-grade 3D meshes suitable for use in real production workflows." },
+      { title: "Format Versatility", description: "Exports in multiple standard formats ensuring compatibility with all major 3D software tools." }
+    ],
+    useCases: [
+      { title: "Game Studios", description: "Generate 3D character and environment assets rapidly for game development pipelines." },
+      { title: "Product Teams", description: "Visualize product designs in 3D quickly for presentations and development iterations." },
+      { title: "Independent Creators", description: "Create 3D content for games, AR, and digital art without traditional 3D modeling expertise." }
+    ]
+  },
+  "hyper3d": {
+    whatIs: "Hyper3D is an AI-powered 3D model generation platform that creates detailed production-ready 3D assets from text and image inputs with impressive mesh quality for game development and design applications.",
+    features: [
+      "AI 3D Generation: Create models from text and images",
+      "Production Ready: High-quality meshes for real workflows",
+      "Texture Mapping: Automatic texture generation included",
+      "Game Engine Compatible: Export for Unity and Unreal",
+      "Rapid Creation: Professional 3D assets in minutes"
+    ],
+    howToUse: {
+      title: "How to Use Hyper3D",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Asset", description: "Enter a detailed text description or upload a reference image for your 3D model." },
+        { title: "Generate Your Model", description: "Let Hyper3D process your input and create a detailed 3D model with textures." },
+        { title: "Review Quality", description: "Inspect your generated model from all angles and assess mesh and texture quality." },
+        { title: "Export for Production", description: "Download in your required format for immediate use in your game or design project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Production Mesh Quality", description: "Generates 3D models with the mesh quality and structure required for actual production use." },
+      { title: "Integrated Texturing", description: "Automatically creates appropriate texture maps for every generated 3D model." },
+      { title: "Engine Compatibility", description: "Exports models in formats that work directly with Unity, Unreal, and other major engines." }
+    ],
+    useCases: [
+      { title: "Game Developers", description: "Generate production-quality 3D assets faster than traditional modeling workflows allow." },
+      { title: "3D Artists", description: "Use AI generation as a starting point that dramatically speeds up the 3D creation process." },
+      { title: "Product Visualizers", description: "Create photorealistic 3D product models for presentations without 3D modeling expertise." }
+    ]
+  },
+  "brat-generator": {
+    whatIs: "Brat Generator is a fun online tool that creates images in the iconic minimalist aesthetic of Charli XCX's viral Brat album cover with lime green background and blurry text for social media content.",
+    features: [
+      "Brat Aesthetic: Recreate the viral Charli XCX album style",
+      "Custom Text: Add your own words in the brat style",
+      "Instant Generation: Brat-style images created immediately",
+      "Social Ready: Perfect format for sharing on social media",
+      "Free to Use: Create brat images without payment"
+    ],
+    howToUse: {
+      title: "How to Use Brat Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Text", description: "Type the word or phrase you want displayed in the iconic brat aesthetic style." },
+        { title: "Generate Your Image", description: "Get your instant brat-style image with lime green background and blurry text effect." },
+        { title: "Download and Share", description: "Save your brat image and share it across your social media platforms immediately." },
+        { title: "Create Variations", description: "Try different words and phrases to create multiple brat-style images for your content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Authentic Aesthetic", description: "Accurately recreates the specific lime green and blurry text style that made the brat album iconic." },
+      { title: "Instant Output", description: "Generates brat-style images immediately without any design or editing process required." },
+      { title: "Trend Participation", description: "Enables anyone to participate in the viral brat aesthetic trend with their own custom content." }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "Join the viral brat trend by creating your own brat-style images for posts and stories." },
+      { title: "Content Creators", description: "Generate brat aesthetic content that resonates with audiences following the cultural moment." },
+      { title: "Fans", description: "Create personalized brat-style graphics celebrating the iconic album aesthetic and cultural impact." }
+    ]
+  },
+  "immersity-ai": {
+    whatIs: "Immersity AI is an AI platform that converts regular 2D photos and images into immersive 3D parallax animations and spatial content, bringing depth and life to flat images for more engaging visual experiences.",
+    features: [
+      "2D to 3D Conversion: Add depth to flat photographs",
+      "Parallax Animation: Create moving 3D depth effects",
+      "Spatial Content: Generate content for 3D displays",
+      "Easy Conversion: Simple upload and convert workflow",
+      "Multiple Output Formats: Various 3D format options"
+    ],
+    howToUse: {
+      title: "How to Use Immersity Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Select and import the 2D photo or image you want to convert into a 3D parallax animation." },
+        { title: "Process for Depth", description: "Let Immersity AI analyze your image and generate realistic depth information automatically." },
+        { title: "Preview Your Animation", description: "View your converted image as an interactive 3D parallax animation with depth effect." },
+        { title: "Export Your Content", description: "Download your 3D animated content in the format that works for your intended use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Depth Estimation AI", description: "Accurately estimates depth information in 2D images to create convincing 3D parallax effects." },
+      { title: "Parallax Quality", description: "Generates smooth and natural-looking parallax animations that enhance image visual appeal." },
+      { title: "Format Flexibility", description: "Exports in multiple formats suitable for different 3D display and sharing platforms." }
+    ],
+    useCases: [
+      { title: "Photographers", description: "Bring your best still photos to life with immersive 3D parallax animation effects easily." },
+      { title: "Social Media Creators", description: "Create eye-catching 3D animated content from regular photos for higher feed engagement." },
+      { title: "Visual Artists", description: "Explore new dimensions of your artwork by converting flat pieces into immersive 3D experiences." }
+    ]
+  },
+  "albumcover-ai": {
+    whatIs: "AlbumCover AI is a specialized AI image generation tool that creates professional and artistic album artwork for musicians and content creators by generating custom cover designs from text descriptions.",
+    features: [
+      "Custom Album Art: Generate unique cover designs from prompts",
+      "Music Genre Styles: Artwork suited to different music genres",
+      "Multiple Styles: Realistic abstract and artistic options",
+      "High Resolution: Print-quality artwork output",
+      "Fast Creation: Album covers designed in seconds"
+    ],
+    howToUse: {
+      title: "How to Use Albumcover Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Vision", description: "Enter a detailed description of the album art style, mood, and visual elements you want." },
+        { title: "Select Your Genre", description: "Choose a music genre or aesthetic direction to help guide the AI's artistic interpretation." },
+        { title: "Generate Options", description: "Receive multiple album cover variations to review and choose from for your release." },
+        { title: "Download Your Art", description: "Save your chosen album cover in high resolution suitable for digital and physical release." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Music-Specific Generation", description: "Trained on music artwork to understand genre conventions and artistic styles for albums." },
+      { title: "Style Diversity", description: "Offers realistic, abstract, illustrated, and photographic album art styles in one tool." },
+      { title: "Resolution Quality", description: "Generates artwork at resolutions suitable for both digital streaming and physical printing needs." }
+    ],
+    useCases: [
+      { title: "Independent Musicians", description: "Create professional album artwork for releases without hiring graphic designers or illustrators." },
+      { title: "Podcasters", description: "Design eye-catching show artwork that communicates your content style to potential listeners." },
+      { title: "Music Producers", description: "Generate diverse cover art options for projects quickly during the creative development process." }
+    ]
+  },
+  "coverartist": {
+    whatIs: "CoverArtist is an AI tool that generates unique and visually striking music cover artwork from text prompts, helping musicians and producers create professional album and single cover designs instantly.",
+    features: [
+      "AI Cover Generation: Create unique music artwork instantly",
+      "Text to Art: Describe your vision for cover creation",
+      "Multiple Genres: Artwork for any music style created",
+      "Download Ready: High-quality files for immediate use",
+      "Unlimited Options: Generate as many variations as needed"
+    ],
+    howToUse: {
+      title: "How to Use Coverartist",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Cover", description: "Write a detailed description of the visual concept you want for your music cover art." },
+        { title: "Generate Variations", description: "Receive multiple AI-generated cover art options based on your creative description." },
+        { title: "Select Your Favorite", description: "Choose the cover design that best represents your music and artistic vision." },
+        { title: "Download and Use", description: "Export your chosen cover in high quality and use it for your music release immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Generative Art Quality", description: "Produces visually striking unique artwork that stands out in music streaming platform feeds." },
+      { title: "Creative Interpretation", description: "Translates music concepts and emotional descriptions into compelling visual representations." },
+      { title: "Unlimited Generation", description: "Creates as many cover art variations as needed until you find the perfect match for your music." }
+    ],
+    useCases: [
+      { title: "Musicians", description: "Design professional album and single covers without graphic design skills or expensive designers." },
+      { title: "Music Producers", description: "Create diverse artwork options for client projects quickly during the production process." },
+      { title: "Indie Artists", description: "Launch releases with striking visual identity at no cost using AI cover art generation." }
+    ]
+  },
+  "daft-art": {
+    whatIs: "Daft Art is an AI album cover generator that creates stunning and unique artwork for music releases by combining AI image generation with music-specific aesthetic understanding for professional results.",
+    features: [
+      "Album Cover Generation: AI creates music-specific artwork",
+      "Style Customization: Various artistic styles available",
+      "Genre Awareness: Visuals suited to your music type",
+      "High Quality Output: Professional resolution artwork",
+      "Easy Workflow: Fast from description to finished artwork"
+    ],
+    howToUse: {
+      title: "How to Use Daft Art",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Details", description: "Describe your music genre, mood, themes, and visual preferences for your album cover." },
+        { title: "Generate Your Art", description: "Let Daft Art create album cover options using AI trained on music artwork aesthetics." },
+        { title: "Review and Refine", description: "Look through generated options and request variations if you want to explore different directions." },
+        { title: "Download Your Cover", description: "Save your chosen album artwork in professional quality for your music release." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Music Aesthetic Understanding", description: "Generates artwork that fits music industry visual conventions while remaining genuinely unique." },
+      { title: "Artistic Style Range", description: "Covers diverse artistic styles from photographic to illustrated and abstract album aesthetics." },
+      { title: "Professional Output", description: "Produces artwork at the quality standard expected for professional music releases." }
+    ],
+    useCases: [
+      { title: "Bands and Artists", description: "Create visually compelling album and EP covers that represent your music's identity strongly." },
+      { title: "Record Labels", description: "Generate diverse cover art concepts quickly for multiple artists across different genres." },
+      { title: "Bedroom Producers", description: "Design professional covers for self-released music that compete visually with major releases." }
+    ]
+  },
+  "pixai": {
+    whatIs: "PixAI is an AI art generation platform specializing in anime and illustrated art styles that enables creators to generate high-quality character art, scene illustrations, and stylized images from text prompts.",
+    features: [
+      "Anime Art Generation: High-quality anime-style AI art",
+      "Character Creation: Generate detailed anime characters",
+      "Multiple Art Styles: Various anime and illustration aesthetics",
+      "ControlNet Support: Advanced generation control options",
+      "Community Platform: Share and discover AI artwork"
+    ],
+    howToUse: {
+      title: "How to Use Pixai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Describe your anime character or scene with detailed visual attributes and art style references." },
+        { title: "Select Your Model", description: "Choose an AI model optimized for your preferred anime or illustration style direction." },
+        { title: "Generate Your Art", description: "Create your AI artwork and review the results for quality and prompt accuracy." },
+        { title: "Share or Download", description: "Save your generated artwork and optionally share it with the PixAI community." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Anime Specialization", description: "Uses models specifically trained on anime artwork for authentic and high-quality results." },
+      { title: "Character Detail", description: "Generates detailed anime characters with consistent features and artistic styling." },
+      { title: "Community Integration", description: "Provides a platform for sharing and discovering AI anime artwork with other creators." }
+    ],
+    useCases: [
+      { title: "Anime Artists", description: "Generate reference art and explore character design concepts using AI-assisted creation tools." },
+      { title: "Content Creators", description: "Produce unique anime-style illustrations for social media, games, and creative projects." },
+      { title: "Manga Creators", description: "Create character designs and scene references efficiently for manga and comic projects." }
+    ]
+  },
+  "yodayo": {
+    whatIs: "Yodayo is an AI anime art platform and creative community where artists and fans generate, share, and explore high-quality anime-style artwork using AI models with a strong focus on character illustration.",
+    features: [
+      "Anime Art Creation: High-quality anime character generation",
+      "Community Sharing: Discover and share anime AI artwork",
+      "Multiple Models: Various anime art style models available",
+      "Character Focus: Detailed anime character illustration",
+      "Creative Tools: Additional creation and editing features"
+    ],
+    howToUse: {
+      title: "How to Use Yodayo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Character", description: "Write a detailed prompt describing your anime character's appearance, style, and expression." },
+        { title: "Select Your Model", description: "Choose from available AI models optimized for different anime art aesthetics and styles." },
+        { title: "Generate Your Art", description: "Produce your anime artwork and review the quality and accuracy of the generation." },
+        { title: "Share With Community", description: "Post your creations to the Yodayo community and explore artwork from other creators." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Anime Art Quality", description: "Generates anime artwork at a quality level that satisfies dedicated anime art enthusiasts." },
+      { title: "Model Variety", description: "Provides multiple specialized models for different anime subgenres and artistic conventions." },
+      { title: "Community Features", description: "Creates a social environment for sharing, discovering, and engaging with AI anime artwork." }
+    ],
+    useCases: [
+      { title: "Anime Fans", description: "Create personalized anime character art and explore diverse styles within the community." },
+      { title: "Anime Artists", description: "Use AI generation as a creative tool for concept art and character design exploration." },
+      { title: "Game Developers", description: "Generate anime-style character concepts and artwork for games and visual novel projects." }
+    ]
+  },
+  "animegenius": {
+    whatIs: "AnimeGenius is an AI anime image generator that creates high-quality anime character art and illustrations from text prompts, making professional-level anime artwork accessible to creators of all skill levels.",
+    features: [
+      "Anime Generation: High-quality anime art from text prompts",
+      "Character Creation: Detailed anime character illustrations",
+      "Multiple Styles: Various anime art styles and aesthetics",
+      "Easy to Use: Simple prompt to image workflow",
+      "Free to Try: Basic generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Animegenius",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Describe your desired anime character or scene including visual details, style, and mood." },
+        { title: "Generate Your Image", description: "Submit your prompt and receive high-quality anime artwork generated from your description." },
+        { title: "Review and Iterate", description: "Assess your generated art and refine your prompt for improved results on next generation." },
+        { title: "Download Your Art", description: "Save your favorite generated anime artwork for use in your creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Anime Art Quality", description: "Produces anime artwork that meets the visual quality standards of the anime art community." },
+      { title: "Style Accuracy", description: "Accurately recreates various anime art conventions and aesthetics from descriptive prompts." },
+      { title: "Accessibility", description: "Makes professional-quality anime art creation possible for anyone regardless of drawing ability." }
+    ],
+    useCases: [
+      { title: "Anime Fans", description: "Create custom anime character art and illustrations matching your personal aesthetic preferences." },
+      { title: "Content Creators", description: "Generate anime-style artwork for social media content and creative project visual needs." },
+      { title: "Developers", description: "Create anime character assets for games, apps, and interactive media projects efficiently." }
+    ]
+  },
+  "niji-journey": {
+    whatIs: "Niji Journey is an AI image generation model specialized for anime and illustrated art styles developed in collaboration with Midjourney, producing exceptionally high-quality anime-specific artwork from text prompts.",
+    features: [
+      "Anime Specialization: Purpose-built for anime art generation",
+      "Exceptional Quality: Among the best anime AI art available",
+      "Style Variety: Multiple anime aesthetic directions",
+      "Midjourney Integration: Accessible through Midjourney platform",
+      "Character Consistency: Strong character illustration quality"
+    ],
+    howToUse: {
+      title: "How to Use Niji Journey",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Niji Journey", description: "Use Niji Journey through the Midjourney Discord bot or web app with the niji mode." },
+        { title: "Write Your Anime Prompt", description: "Craft a detailed prompt describing your anime scene or character with style references." },
+        { title: "Add Niji Parameters", description: "Include the --niji parameter or select niji mode to activate the anime-specialized model." },
+        { title: "Generate and Refine", description: "Create your anime artwork and use variation and upscaling commands for refinement." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Anime-Specific Training", description: "Trained exclusively on anime and illustrated art for superior results over general-purpose models." },
+      { title: "Art Quality Leadership", description: "Produces anime artwork quality that is considered among the best available from AI systems." },
+      { title: "Style Command", description: "Understands anime-specific style descriptors and artist references for accurate aesthetic targeting." }
+    ],
+    useCases: [
+      { title: "Anime Artists", description: "Generate reference artwork and explore creative directions with the highest quality anime AI model." },
+      { title: "Manga Creators", description: "Create character designs and scene compositions with professional-grade anime illustration quality." },
+      { title: "Anime Fans", description: "Produce custom high-quality anime artwork featuring original characters and creative scenarios." }
+    ]
+  },
+  "dzine-ghibli-ai": {
+    whatIs: "Dzine Ghibli AI is a Studio Ghibli-style image generator that transforms photos and creates original artwork in the beloved hand-drawn aesthetic of Studio Ghibli films with warmth and artistic charm.",
+    features: [
+      "Ghibli Style Transfer: Apply Studio Ghibli aesthetics to photos",
+      "Original Ghibli Art: Create new Ghibli-style illustrations",
+      "Warm Aesthetic: Captures the emotional warmth of Ghibli films",
+      "Scene Creation: Generate Ghibli-style landscapes and characters",
+      "Easy Transformation: Simple photo to Ghibli artwork workflow"
+    ],
+    howToUse: {
+      title: "How to Use Dzine Ghibli Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo or Describe", description: "Either upload a photo for Ghibli style transformation or describe a scene you want created." },
+        { title: "Apply Ghibli Style", description: "Let the AI apply the distinctive warm hand-drawn Studio Ghibli visual aesthetic to your content." },
+        { title: "Review Your Art", description: "See your image transformed into or created in the signature Ghibli film illustration style." },
+        { title: "Download and Share", description: "Save your Ghibli-style artwork and share it with fellow fans and on social media." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Ghibli Aesthetic Accuracy", description: "Captures the distinctive warm color palette, hand-drawn quality, and emotional style of Ghibli films." },
+      { title: "Photo Transformation", description: "Converts regular photographs into artwork that looks authentically Ghibli-animated in style." },
+      { title: "Scene Generation", description: "Creates original Ghibli-style environments and characters from descriptive text prompts." }
+    ],
+    useCases: [
+      { title: "Ghibli Fans", description: "Transform your photos into artwork with the beloved aesthetic of your favorite Studio Ghibli films." },
+      { title: "Artists", description: "Explore the Ghibli art style as a creative reference and inspiration for your own artistic work." },
+      { title: "Social Media Creators", description: "Generate Ghibli-style content that resonates deeply with anime and animation fan communities." }
+    ]
+  },
+  "openart": {
+    whatIs: "OpenArt is an AI art generation platform that provides access to multiple AI models including Stable Diffusion for creating diverse artwork styles with advanced controls, training capabilities, and a creative community.",
+    features: [
+      "Multiple AI Models: Access Stable Diffusion and other models",
+      "ControlNet: Advanced image generation control tools",
+      "Model Training: Train custom AI art models on your style",
+      "Community Gallery: Discover and share AI artwork",
+      "Creative Tools: Inpainting editing and enhancement features"
+    ],
+    howToUse: {
+      title: "How to Use Openart",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Model", description: "Select from available AI models based on your desired art style and generation approach." },
+        { title: "Write Your Prompt", description: "Craft a detailed prompt describing your desired artwork including style, content, and mood." },
+        { title: "Use Advanced Controls", description: "Apply ControlNet or other advanced tools for more precise control over generation output." },
+        { title: "Generate and Share", description: "Create your artwork and optionally share it with the OpenArt creative community." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Model Diversity", description: "Provides access to multiple AI generation models for versatile artwork style exploration." },
+      { title: "Advanced Controls", description: "Offers ControlNet and other advanced tools for precise control over generated image output." },
+      { title: "Custom Training", description: "Allows training personalized AI models on your own artwork for unique style generation." }
+    ],
+    useCases: [
+      { title: "Digital Artists", description: "Explore diverse AI art generation with advanced controls that give professional creative flexibility." },
+      { title: "AI Art Enthusiasts", description: "Experiment with multiple models and advanced generation techniques for creative exploration." },
+      { title: "Developers", description: "Access AI art generation capabilities through the platform for creative application development." }
+    ]
+  },
+  "feetgen": {
+    whatIs: "FeetGen is an AI image generation tool that creates foot photography and imagery for creators working in foot-focused content niches, providing AI-generated alternatives to traditional photography approaches.",
+    features: [
+      "AI Foot Photography: Generate foot images with AI",
+      "Multiple Styles: Various photography styles available",
+      "Fast Generation: Images created quickly from prompts",
+      "Custom Requests: Specific visual requirements handled",
+      "Platform Access: Available through web interface"
+    ],
+    howToUse: {
+      title: "How to Use Feetgen",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Image", description: "Enter a description of the foot image style and context you want to generate." },
+        { title: "Generate Your Content", description: "Let the AI create foot photography images based on your described requirements." },
+        { title: "Review Results", description: "Check the generated images for quality and relevance to your requirements." },
+        { title: "Download and Use", description: "Save your generated images for use in your content creation projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Niche Specialization", description: "Specifically designed for foot photography content with appropriate generation optimization." },
+      { title: "Style Variety", description: "Generates images across different photography styles and contexts for diverse needs." },
+      { title: "Quick Production", description: "Creates images rapidly without traditional photography setup or session requirements." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Generate foot photography content for niche platforms without traditional photo production." },
+      { title: "Digital Artists", description: "Create reference imagery for artistic projects focusing on foot and lower body subjects." },
+      { title: "Platform Sellers", description: "Produce AI-generated content alternatives for foot photography content marketplaces." }
+    ]
+  },
+  "komiko": {
+    whatIs: "Komiko is an AI comic and manga creation platform that helps artists and storytellers generate comic panels, manga-style artwork, and sequential visual narratives from text prompts and story descriptions.",
+    features: [
+      "Comic Panel Generation: Create sequential comic panels",
+      "Manga Style: Authentic manga art style options",
+      "Story to Comic: Convert narratives into visual sequences",
+      "Character Design: AI-generated comic characters",
+      "Panel Layout: Automatic comic panel arrangement"
+    ],
+    howToUse: {
+      title: "How to Use Komiko",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Story", description: "Write out your comic story, scene descriptions, and character details for generation." },
+        { title: "Generate Your Panels", description: "Let Komiko create sequential comic panels that tell your visual story with consistent style." },
+        { title: "Review Panel Flow", description: "Check that your generated panels flow logically and tell the story clearly and compellingly." },
+        { title: "Download Your Comic", description: "Export your completed comic panels for sharing or further editing and publishing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sequential Narrative", description: "Creates comic panels that work together as a visual story rather than isolated images." },
+      { title: "Manga Art Quality", description: "Produces authentic manga-style artwork appropriate for the format and storytelling conventions." },
+      { title: "Character Consistency", description: "Maintains consistent character appearance across multiple panels for narrative coherence." }
+    ],
+    useCases: [
+      { title: "Comic Creators", description: "Produce manga and comic content without advanced illustration skills using AI generation." },
+      { title: "Storytellers", description: "Visualize written stories as sequential comic art to communicate narratives visually." },
+      { title: "Manga Fans", description: "Create original manga stories and characters through AI-powered comic generation tools." }
+    ]
+  },
+  "ai-hentai-generator": {
+    whatIs: "AI Hentai Generator is an AI image generation platform that creates adult anime-style artwork for adults on appropriate platforms, serving users who want AI-generated adult illustrated content in anime aesthetics.",
+    features: [
+      "Adult Anime Art: AI-generated adult anime illustrations",
+      "Multiple Styles: Various anime art style options",
+      "Custom Requests: Specific visual content creation",
+      "Platform Specific: Available on appropriate adult platforms",
+      "Fast Generation: Quick image creation from prompts"
+    ],
+    howToUse: {
+      title: "How to Use Ai Hentai Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access the Platform", description: "Visit the appropriate adult platform where this AI generation tool is available." },
+        { title: "Describe Your Request", description: "Enter your detailed description of the adult anime artwork you want generated." },
+        { title: "Generate Your Content", description: "Let the AI create your requested adult anime-style illustration from your description." },
+        { title: "Download Your Image", description: "Save your generated artwork for personal use on appropriate platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Adult Content Specialization", description: "Designed specifically for adult anime content with appropriate model training." },
+      { title: "Anime Art Style", description: "Produces artwork in authentic anime illustration styles for the intended content type." },
+      { title: "Platform Compliance", description: "Available through platforms that verify user age and comply with content regulations." }
+    ],
+    useCases: [
+      { title: "Adult Content Consumers", description: "Access AI-generated adult anime artwork on appropriate age-verified platforms legally." },
+      { title: "Adult Platform Users", description: "Generate personalized adult anime content matching specific visual preferences and styles." },
+      { title: "Digital Content Collectors", description: "Create custom adult anime artwork as an alternative to traditional adult content sources." }
+    ]
+  },
   "vanceai": {
     whatIs: "VanceAI is an AI image and video processing platform that provides upscaling, denoising, sharpening, and background removal tools powered by deep learning for dramatically improved visual content quality.",
     features: [
