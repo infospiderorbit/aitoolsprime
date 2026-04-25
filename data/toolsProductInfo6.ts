@@ -1,4 +1,484 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "icons8": {
+    whatIs: "Icons8 is a comprehensive design resource platform offering millions of icons, photos, illustrations, and AI tools including image generation, background removal, and face generation for designers and developers.",
+    features: [
+      "Massive Icon Library: Millions of icons in all styles",
+      "AI Image Generation: Create images from text prompts",
+      "Background Removal: Automatic background extraction tool",
+      "Stock Photos: Extensive royalty-free photo library",
+      "Design Tools: Multiple AI-powered creative utilities"
+    ],
+    howToUse: {
+      title: "How to Use Icons8",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Library", description: "Explore Icons8's vast collection of icons, photos, and illustrations for your project needs." },
+        { title: "Search Your Asset", description: "Use the search to find specific icons, photos, or illustrations matching your requirements." },
+        { title: "Use AI Tools", description: "Access background removal, image generation, and other AI tools for creative work." },
+        { title: "Download Your Assets", description: "Export icons in SVG, PNG, or other formats at the sizes needed for your project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Library Scale", description: "Provides access to millions of design assets across icons, photos, and illustrations." },
+      { title: "AI Tool Integration", description: "Combines traditional asset library with AI generation and editing tools in one platform." },
+      { title: "Format Flexibility", description: "Delivers assets in diverse formats and sizes for web, mobile, and print design use." }
+    ],
+    useCases: [
+      { title: "Web Developers", description: "Access consistent icon sets and design assets that speed up interface development significantly." },
+      { title: "Graphic Designers", description: "Find and use diverse design assets alongside AI tools for efficient creative project production." },
+      { title: "App Developers", description: "Source professional icons and illustrations for mobile applications across all required sizes." }
+    ]
+  },
+  "chichi-pui": {
+    whatIs: "chichi-pui is a Japanese AI art community platform where artists share and discover anime and illustrated AI-generated artwork created with Stable Diffusion and other AI generation tools.",
+    features: [
+      "Anime Art Community: Japanese AI art sharing platform",
+      "Artwork Discovery: Browse diverse anime AI creations",
+      "Artist Profiles: Follow and discover AI artists",
+      "Tag System: Find art by style character and theme",
+      "Community Interaction: Like save and engage with art"
+    ],
+    howToUse: {
+      title: "How to Use Chichi Pui",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Gallery", description: "Explore the chichi-pui community gallery of anime and illustrated AI artwork." },
+        { title: "Search by Tags", description: "Use the tag system to find specific styles, characters, or themes you enjoy." },
+        { title: "Follow Artists", description: "Follow your favorite AI artists to stay updated on their latest creations." },
+        { title: "Share Your Art", description: "Upload your own AI-generated anime artwork to share with the community." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Anime Art Focus", description: "Curates specifically anime and Japanese illustration style AI artwork for targeted discovery." },
+      { title: "Community Features", description: "Provides social features for connecting with other anime AI art creators and enthusiasts." },
+      { title: "Tag Discovery", description: "Extensive tagging system makes finding specific art styles and subjects highly efficient." }
+    ],
+    useCases: [
+      { title: "Anime Art Fans", description: "Discover diverse anime AI artwork and connect with creators in the Japanese art community." },
+      { title: "AI Artists", description: "Share your anime AI creations and build an audience within a passionate community." },
+      { title: "Researchers", description: "Explore the landscape of anime AI art and understand current generation capabilities." }
+    ]
+  },
+  "venngage": {
+    whatIs: "Venngage is an online infographic and visual content creation platform that helps businesses and educators create professional infographics, reports, presentations, and data visualizations with easy-to-use templates.",
+    features: [
+      "Infographic Templates: Hundreds of professional templates",
+      "Data Visualization: Charts and graphs made beautifully",
+      "Team Collaboration: Work together on visual content",
+      "Brand Kit: Consistent branding across all designs",
+      "Export Options: Download in PNG PDF and other formats"
+    ],
+    howToUse: {
+      title: "How to Use Venngage",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Browse Venngage's infographic and data visualization templates by category and style." },
+        { title: "Enter Your Data", description: "Add your information, statistics, and content to the selected template structure." },
+        { title: "Customize Your Design", description: "Adjust colors, fonts, icons, and layout to match your brand and preferences." },
+        { title: "Export and Share", description: "Download your infographic or share it directly from Venngage to your audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Template Quality", description: "Provides professionally designed templates that make complex data visually compelling." },
+      { title: "Data Integration", description: "Supports importing data directly into chart and graph templates for accurate visualization." },
+      { title: "Brand Consistency", description: "Applies consistent branding across all visual content through the brand kit feature." }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "Create compelling data-driven visual content for campaigns and content marketing strategies." },
+      { title: "Educators", description: "Build informative infographics that explain complex topics engagingly for students." },
+      { title: "Business Analysts", description: "Transform data reports into beautiful visual presentations for stakeholder communication." }
+    ]
+  },
+  "piktochart": {
+    whatIs: "Piktochart is an AI-powered visual storytelling platform that helps teams create infographics, presentations, reports, and social media graphics with AI writing assistance and professional templates.",
+    features: [
+      "AI Content Writing: AI generates text content for designs",
+      "Infographic Creation: Professional data visualization templates",
+      "Presentation Builder: Slide decks created from content",
+      "Report Generation: Business reports designed beautifully",
+      "Social Graphics: Platform-optimized social media visuals"
+    ],
+    howToUse: {
+      title: "How to Use Piktochart",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Describe your content topic and let Piktochart's AI help structure and write your visual." },
+        { title: "Choose Your Format", description: "Select infographic, presentation, report, or social graphic based on your output need." },
+        { title: "Customize Design", description: "Edit the AI-generated content and visual design to match your requirements precisely." },
+        { title: "Export and Share", description: "Download in your required format or share directly to your intended audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Writing Assistance", description: "Generates appropriate text content for visual designs reducing the writing burden significantly." },
+      { title: "Format Versatility", description: "Covers infographics, presentations, reports, and social graphics in one integrated platform." },
+      { title: "Professional Standards", description: "Produces visual content at professional quality suitable for business and educational use." }
+    ],
+    useCases: [
+      { title: "Business Teams", description: "Create professional data visualizations and reports without dedicated design expertise required." },
+      { title: "Content Marketers", description: "Produce engaging infographics and social graphics that communicate data compellingly." },
+      { title: "Educators", description: "Build visual educational materials that present information in accessible engaging formats." }
+    ]
+  },
+  "infografix": {
+    whatIs: "Infografix is an AI-powered infographic creation tool that transforms data, statistics, and information into professional visual infographics automatically for marketing, education, and business communication.",
+    features: [
+      "Auto Infographic: Data transformed into visuals automatically",
+      "Template Library: Professional infographic starting templates",
+      "Data Input: Simple data entry for automatic chart creation",
+      "Multiple Styles: Various infographic design aesthetics",
+      "Export Ready: Download for web and print use"
+    ],
+    howToUse: {
+      title: "How to Use Infografix",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Data", description: "Enter your statistics, information, or data points for infographic visualization." },
+        { title: "Select Your Style", description: "Choose from available infographic templates and design styles for your content." },
+        { title: "Generate Your Infographic", description: "Let Infografix automatically create a professional infographic from your data." },
+        { title: "Download and Publish", description: "Export your finished infographic for use in presentations, blogs, and social media." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Creation", description: "Transforms raw data into visually polished infographics without manual design work." },
+      { title: "Template Variety", description: "Provides diverse infographic styles appropriate for different data types and industries." },
+      { title: "Professional Output", description: "Delivers infographics at professional quality suitable for business and marketing use." }
+    ],
+    useCases: [
+      { title: "Marketers", description: "Turn campaign data and statistics into shareable visual infographics for content marketing." },
+      { title: "Educators", description: "Create informative educational infographics that make complex information accessible." },
+      { title: "Business Professionals", description: "Present business data and reports visually for more impactful stakeholder communication." }
+    ]
+  },
+  "infography": {
+    whatIs: "Infography is an online infographic maker that helps users create beautiful and professional infographics from templates with easy data visualization tools for sharing information visually.",
+    features: [
+      "Easy Infographic Creation: Professional visuals from templates",
+      "Data Visualization: Charts and graphs integrated smoothly",
+      "Custom Branding: Apply your colors and identity",
+      "Multiple Layouts: Various infographic structure options",
+      "Share and Download: Export or share directly online"
+    ],
+    howToUse: {
+      title: "How to Use Infography",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Select an infographic template that fits your data type and presentation style." },
+        { title: "Add Your Content", description: "Input your data, text, and supporting information into the template structure." },
+        { title: "Customize the Design", description: "Adjust colors, fonts, and layout to reflect your brand and visual preferences." },
+        { title: "Export and Distribute", description: "Download your finished infographic or share it directly through the platform link." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Template Foundation", description: "Starts creation from professionally designed templates ensuring strong visual foundation." },
+      { title: "Integrated Charts", description: "Builds charts and graphs directly within the infographic for seamless data visualization." },
+      { title: "Flexible Layout", description: "Offers multiple structural layouts appropriate for different types of information presentation." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Create shareable infographic content that drives engagement and social sharing effectively." },
+      { title: "Small Businesses", description: "Communicate business information and statistics visually without graphic design expertise." },
+      { title: "Journalists", description: "Present research and data findings visually for more accessible and engaging news content." }
+    ]
+  },
+  "looka": {
+    whatIs: "Looka is an AI-powered logo maker and brand identity platform that generates professional logos from your business name and industry with full brand kit creation and extensive customization options.",
+    features: [
+      "AI Logo Generation: Professional logos from business details",
+      "Brand Kit: Complete brand identity package creation",
+      "Extensive Customization: Full control over every design element",
+      "Business Card Design: Matching stationery created automatically",
+      "Social Media Assets: Profile images and cover graphics included"
+    ],
+    howToUse: {
+      title: "How to Use Looka",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Business Details", description: "Provide your business name, industry, and style preferences to start logo generation." },
+        { title: "Browse Logo Options", description: "Review AI-generated logo concepts and explore different design directions created." },
+        { title: "Customize Your Logo", description: "Adjust colors, fonts, icons, and layouts until your logo is exactly right." },
+        { title: "Download Your Brand Kit", description: "Purchase your complete brand kit with all logo files and brand asset package." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Concept Generation", description: "Creates diverse logo concepts from business information for genuine design direction exploration." },
+      { title: "Complete Brand Package", description: "Delivers full brand identity including stationery, social assets, and brand guidelines." },
+      { title: "Customization Depth", description: "Allows modification of every design element for a truly personalized brand identity." }
+    ],
+    useCases: [
+      { title: "New Business Owners", description: "Launch with a professional complete brand identity created quickly and affordably." },
+      { title: "Entrepreneurs", description: "Get a full brand kit that covers everything from business cards to social media assets." },
+      { title: "Rebranding Companies", description: "Explore fresh brand directions quickly with AI generation and extensive customization tools." }
+    ]
+  },
+  "logoai": {
+    whatIs: "LogoAI is an AI logo design platform that creates professional business logos with matching brand identity materials including business cards, email signatures, and social media assets from simple input.",
+    features: [
+      "Smart Logo Creation: AI generates logos from business info",
+      "Brand Identity Package: Complete visual identity creation",
+      "Email Signatures: Professional email signature designs",
+      "Business Cards: Matching stationery automatically generated",
+      "Social Media Assets: Profile and cover image creation"
+    ],
+    howToUse: {
+      title: "How to Use Logoai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Business", description: "Enter your company name, tagline, industry, and color preferences for AI logo creation." },
+        { title: "Review Logo Options", description: "Browse AI-generated logo designs and select the concept that best fits your vision." },
+        { title: "Customize and Refine", description: "Adjust colors, fonts, and icons until your logo perfectly represents your brand." },
+        { title: "Download Complete Kit", description: "Access your logo with all file formats plus matching brand identity materials." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Identity Creation", description: "Generates the full brand identity package alongside the primary logo design automatically." },
+      { title: "Business Card Integration", description: "Creates matching business card designs that maintain consistent brand visual language." },
+      { title: "Email Signature Design", description: "Produces professional email signature templates matching your new brand identity system." }
+    ],
+    useCases: [
+      { title: "Freelancers", description: "Create a professional personal brand identity quickly for client-facing work and proposals." },
+      { title: "Small Business Owners", description: "Launch with a complete brand identity covering all essential business touchpoints professionally." },
+      { title: "Consultants", description: "Establish credible professional branding with a complete identity kit produced efficiently." }
+    ]
+  },
+  "toona": {
+    whatIs: "Toona is an AI-powered cartoon and webtoon creation platform that enables content creators to produce original webtoon-style comics and illustrated stories with AI-assisted character creation and panel generation.",
+    features: [
+      "Webtoon Style Comics: Vertical scrolling comic creation",
+      "AI Character Tools: Design unique comic characters easily",
+      "Panel Generation: AI assists with individual comic panels",
+      "Story Templates: Narrative frameworks for storytelling",
+      "Publishing Format: Content ready for webtoon platforms"
+    ],
+    howToUse: {
+      title: "How to Use Toona",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Characters", description: "Design your webtoon characters using Toona's AI character creation tools." },
+        { title: "Plan Your Story", description: "Use story templates to organize your narrative structure and chapter planning." },
+        { title: "Generate Your Panels", description: "Build individual panels with AI assistance for artwork and scene composition." },
+        { title: "Export for Publishing", description: "Format and export your webtoon for publishing on major digital comic platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Webtoon Format Specialization", description: "Designed specifically for the vertical scrolling webtoon format popular in online comics." },
+      { title: "Character Design System", description: "Provides AI tools for creating and maintaining consistent character appearances throughout." },
+      { title: "Platform Publishing", description: "Prepares content in the correct format for major webtoon platform submission requirements." }
+    ],
+    useCases: [
+      { title: "Webtoon Creators", description: "Start your webtoon series with AI tools handling complex art production challenges." },
+      { title: "Story Artists", description: "Tell visual stories in webtoon format using accessible AI creation assistance." },
+      { title: "Aspiring Comic Artists", description: "Enter the webtoon creator space using AI tools that handle artistic complexity." }
+    ]
+  },
+  "mangaka-app": {
+    whatIs: "Mangaka.app is an AI manga creation application that helps aspiring manga artists generate authentic manga panels, character designs, and full manga pages from story descriptions and dialogue inputs.",
+    features: [
+      "Manga Panel Creation: Authentic manga panels from prompts",
+      "Character Design: AI manga character creation tools",
+      "Dialogue Integration: Speech bubbles with your dialogue",
+      "Page Layout: Professional manga page composition",
+      "Art Style: Authentic Japanese manga aesthetic output"
+    ],
+    howToUse: {
+      title: "How to Use Mangaka App",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Scene", description: "Describe your manga scene including character actions, emotions, and setting details." },
+        { title: "Add Your Dialogue", description: "Include character dialogue that will be placed in speech bubbles in your panels." },
+        { title: "Generate Manga Panels", description: "Receive authentic manga-style panels with artwork, layout, and integrated dialogue." },
+        { title: "Download Your Pages", description: "Save your completed manga pages for sharing, printing, or digital publication." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Manga Authenticity", description: "Produces panels with genuine Japanese manga visual conventions and artistic style." },
+      { title: "Dialogue Integration", description: "Places character dialogue naturally within speech bubbles with appropriate positioning." },
+      { title: "Page Composition", description: "Arranges panels into professional manga page layouts automatically without manual design." }
+    ],
+    useCases: [
+      { title: "Manga Enthusiasts", description: "Create original manga stories without traditional drawing skills using AI assistance." },
+      { title: "Writers", description: "Visualize manga stories as actual illustrated panels for pitching and development." },
+      { title: "Manga Students", description: "Practice manga creation and storytelling using AI generation as a learning tool." }
+    ]
+  },
+  "neural-canvas": {
+    whatIs: "Neural Canvas is an AI-powered comic and graphic novel creation platform that generates illustrated story panels, character art, and complete comic pages from narrative descriptions with multiple art style options.",
+    features: [
+      "Comic Page Generation: Complete illustrated comic pages",
+      "Character Art: Consistent character illustrations throughout",
+      "Multiple Art Styles: Western manga and indie comic aesthetics",
+      "Story to Comic: Narrative text becomes visual panels",
+      "Professional Output: Publication-ready comic content"
+    ],
+    howToUse: {
+      title: "How to Use Neural Canvas",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Story", description: "Write your comic story, scene descriptions, and character details for AI generation." },
+        { title: "Choose Art Style", description: "Select your preferred comic art style from available aesthetic directions." },
+        { title: "Generate Your Pages", description: "Receive complete comic pages with consistent characters and professional composition." },
+        { title: "Export Your Comic", description: "Download your pages for digital publishing or print comic production." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Story Translation", description: "Accurately converts written narratives into coherent and engaging visual comic sequences." },
+      { title: "Style Flexibility", description: "Offers diverse comic art styles spanning western superhero to manga and indie comics." },
+      { title: "Character Consistency", description: "Maintains recognizable character appearance across multiple generated comic pages." }
+    ],
+    useCases: [
+      { title: "Comic Creators", description: "Produce original comics without illustration skills using AI for consistent artwork." },
+      { title: "Graphic Novelists", description: "Generate complete graphic novel pages efficiently for independent publishing projects." },
+      { title: "Storytellers", description: "Bring written stories to visual comic life without requiring traditional illustration expertise." }
+    ]
+  },
+  "manga-tv": {
+    whatIs: "Manga TV is a platform and AI tool for manga readers and creators that provides manga reading, discovery, and AI-assisted manga creation tools for the global manga enthusiast community.",
+    features: [
+      "Manga Reading: Digital manga library for reading",
+      "AI Creation Tools: Manga generation and creation assistance",
+      "Community Features: Connect with manga fans and creators",
+      "Discovery: Find new manga titles and series",
+      "Creator Support: Tools for aspiring manga artists"
+    ],
+    howToUse: {
+      title: "How to Use Manga Tv",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse Manga Library", description: "Explore the available manga titles and series in the Manga TV reading library." },
+        { title: "Discover New Series", description: "Use discovery features to find new manga that matches your genre and style preferences." },
+        { title: "Use Creation Tools", description: "Access AI manga creation tools to start or assist with your own manga projects." },
+        { title: "Join the Community", description: "Connect with other manga fans and creators in the Manga TV community space." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Reading Platform", description: "Provides digital manga reading with comfortable interface for extended reading sessions." },
+      { title: "AI Creation Integration", description: "Combines manga consumption with creation tools in one manga-focused platform." },
+      { title: "Community Building", description: "Creates social connections between manga readers and creators for engaged community." }
+    ],
+    useCases: [
+      { title: "Manga Readers", description: "Discover and read diverse manga titles while accessing AI tools for creative projects." },
+      { title: "Aspiring Manga Creators", description: "Get inspired by reading manga and use integrated AI tools to start creating your own." },
+      { title: "Manga Community Members", description: "Connect with fellow enthusiasts and share your passion for manga culture and creation." }
+    ]
+  },
+  "mockey-ai": {
+    whatIs: "Mockey.ai is a free AI mockup generator that creates professional product mockups from uploaded designs instantly, helping designers and marketers showcase their work in realistic real-world contexts.",
+    features: [
+      "Free Mockup Generation: Product mockups at no cost",
+      "Instant Creation: Mockups generated in seconds",
+      "Diverse Templates: Thousands of mockup styles available",
+      "Design Upload: Apply your designs to any mockup template",
+      "Download Ready: High-quality mockup images for immediate use"
+    ],
+    howToUse: {
+      title: "How to Use Mockey Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse Mockup Templates", description: "Explore thousands of available mockup templates across product categories and styles." },
+        { title: "Upload Your Design", description: "Import your design artwork for application to your chosen mockup template." },
+        { title: "Generate Your Mockup", description: "Apply your design to the template and receive a professional product mockup instantly." },
+        { title: "Download Your Image", description: "Save your high-quality mockup image for presentations, portfolios, and marketing use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Access", description: "Provides complete professional mockup generation without any payment requirement." },
+      { title: "Instant Generation", description: "Creates finished mockups within seconds of uploading your design artwork." },
+      { title: "Template Breadth", description: "Covers thousands of product mockup types from t-shirts to devices and packaging." }
+    ],
+    useCases: [
+      { title: "Designers", description: "Showcase design work in realistic contexts for client presentations and portfolio displays." },
+      { title: "E-commerce Sellers", description: "Create professional product imagery without expensive physical photo shoots." },
+      { title: "Marketers", description: "Generate diverse product mockup imagery for campaign visuals and promotional materials." }
+    ]
+  },
+  "magic-patterns": {
+    whatIs: "Magic Patterns is an AI UI component and pattern generator that creates React components, design patterns, and interface elements from text descriptions for rapid frontend development and prototyping.",
+    features: [
+      "React Component Generation: UI components from descriptions",
+      "Design Patterns: Common UI pattern implementation",
+      "Code Output: Clean React and Tailwind code produced",
+      "Pattern Library: Access to common interface patterns",
+      "Iterative Refinement: Improve components through conversation"
+    ],
+    howToUse: {
+      title: "How to Use Magic Patterns",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Component", description: "Enter a text description of the UI component or pattern you need generated." },
+        { title: "Review Generated Code", description: "Examine the React component code produced from your description for quality." },
+        { title: "Request Refinements", description: "Ask for specific changes through follow-up conversation to improve the component." },
+        { title: "Use in Your Project", description: "Copy the generated component code directly into your React application codebase." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Pattern Recognition", description: "Understands common UI patterns and generates appropriate implementations reliably." },
+      { title: "Code Quality", description: "Produces clean and readable React and Tailwind code suitable for production use." },
+      { title: "Conversational Improvement", description: "Allows iterative component refinement through natural language follow-up requests." }
+    ],
+    useCases: [
+      { title: "Frontend Developers", description: "Generate UI component boilerplate quickly from descriptions to speed development." },
+      { title: "Designers Coding", description: "Bridge design and development by generating code from visual component descriptions." },
+      { title: "Rapid Prototypers", description: "Build functional UI prototypes quickly from text descriptions before production implementation." }
+    ]
+  },
+  "aigf": {
+    whatIs: "aigf is an AI girlfriend and companion chatbot platform that provides personalized AI companion experiences with customizable personalities for entertainment and social interaction purposes.",
+    features: [
+      "AI Companion: Personalized virtual companion experience",
+      "Custom Personality: Adjustable companion characteristics",
+      "Conversation Memory: Remembers context across chats",
+      "Entertainment Focus: Engaging and fun interaction design",
+      "Multiple Characters: Various companion personalities available"
+    ],
+    howToUse: {
+      title: "How to Use Aigf",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Companion", description: "Set up your AI companion with your preferred personality traits and interaction style." },
+        { title: "Start Chatting", description: "Begin your conversation with your personalized AI companion character." },
+        { title: "Build Your Relationship", description: "Continue interacting with your companion as it remembers and builds on past conversations." },
+        { title: "Explore Features", description: "Discover additional companion customization and interaction features available on the platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization Engine", description: "Customizes companion personality and interaction style to match individual user preferences." },
+      { title: "Conversation Memory", description: "Maintains context across multiple conversation sessions for a more continuous experience." },
+      { title: "Character Variety", description: "Offers diverse companion personalities for different interaction preferences and styles." }
+    ],
+    useCases: [
+      { title: "Social Entertainment Seekers", description: "Enjoy personalized AI companion interactions for entertainment and casual conversation." },
+      { title: "Loneliness Relief", description: "Access friendly AI conversation as a supplement to real-world social connections and interactions." },
+      { title: "Interactive Fiction Fans", description: "Engage with AI characters in an immersive companion experience format for entertainment." }
+    ]
+  },
+  "aigf-art": {
+    whatIs: "aigf.art is an AI art and companion platform that combines AI image generation with virtual companion features, creating a space where users can generate artwork and interact with AI personas.",
+    features: [
+      "AI Art Generation: Create images with AI tools",
+      "Companion Features: Virtual AI companion interaction",
+      "Community Gallery: Share and discover AI artwork",
+      "Custom Content: Personalized AI interaction and art",
+      "Creative Platform: Combined art and companion experience"
+    ],
+    howToUse: {
+      title: "How to Use Aigf Art",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Explore the Platform", description: "Browse aigf.art to discover the combined art generation and companion features available." },
+        { title: "Generate Artwork", description: "Use the AI art tools to create images and visual content matching your preferences." },
+        { title: "Interact With Companions", description: "Engage with the platform's AI companion features alongside your art creation." },
+        { title: "Share Your Creations", description: "Post your generated artwork to the community gallery for others to discover and enjoy." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Combined Platform", description: "Integrates AI art generation with companion interaction features in one creative space." },
+      { title: "Community Gallery", description: "Creates a social environment for sharing and discovering AI-generated artwork." },
+      { title: "Personalization", description: "Tailors both art generation and companion interaction to individual user preferences." }
+    ],
+    useCases: [
+      { title: "Creative Users", description: "Explore a platform that combines AI art generation with interactive companion experiences." },
+      { title: "AI Art Enthusiasts", description: "Generate and share diverse AI artwork within a community of like-minded creators." },
+      { title: "Entertainment Seekers", description: "Enjoy a multifaceted platform combining creative tools with interactive AI companion features." }
+    ]
+  },
   "tiktok-emojis": {
     whatIs: "TikTok Emojis is a reference and generator platform for TikTok's unique hidden emoji set that can be activated using special text codes in comments and captions on the TikTok platform.",
     features: [
