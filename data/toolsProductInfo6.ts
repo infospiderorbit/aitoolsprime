@@ -1,4 +1,634 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "vanceai": {
+    whatIs: "VanceAI is an AI image and video processing platform that provides upscaling, denoising, sharpening, and background removal tools powered by deep learning for dramatically improved visual content quality.",
+    features: [
+      "AI Image Upscaling: Enhance image resolution significantly",
+      "Video Enhancement: Improve video quality with AI processing",
+      "Background Removal: Automatic background extraction",
+      "Noise Reduction: Clean grainy photos and footage",
+      "Batch Processing: Process multiple files simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Vanceai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Media", description: "Import your photo or video file into VanceAI for AI-powered quality enhancement." },
+        { title: "Select Enhancement", description: "Choose the specific enhancement type you need from upscaling, denoising, or sharpening options." },
+        { title: "Configure Settings", description: "Adjust AI model intensity and output settings based on your content and quality goals." },
+        { title: "Download Result", description: "Export your enhanced media in high quality for immediate use in your projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Deep Learning Enhancement", description: "Uses AI trained on large datasets to produce enhancement quality beyond traditional processing methods." },
+      { title: "Comprehensive Tools", description: "Covers upscaling, denoising, background removal, and sharpening in one integrated platform." },
+      { title: "Batch Efficiency", description: "Processes multiple images or video files simultaneously for high-volume enhancement workflows." }
+    ],
+    useCases: [
+      { title: "Photographers", description: "Enhance image resolution and quality for prints and professional commercial photography use." },
+      { title: "Video Creators", description: "Improve footage quality for YouTube and social media with AI-powered video enhancement tools." },
+      { title: "Designers", description: "Clean up and upscale visual assets for projects requiring high-resolution output quality." }
+    ]
+  },
+  "video-ai": {
+    whatIs: "Video AI is an AI video enhancement platform that upscales video resolution, improves frame rate, reduces noise, and restores old footage using advanced deep learning for dramatically better video quality.",
+    features: [
+      "Video Upscaling: Increase resolution to 4K and 8K",
+      "Frame Rate Enhancement: Smooth video with additional frames",
+      "Noise Removal: Clean grainy footage automatically",
+      "Old Video Restoration: Restore archival video content",
+      "AI Processing: Deep learning video quality improvement"
+    ],
+    howToUse: {
+      title: "How to Use Video Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Video", description: "Load your video file into Video AI for AI-powered enhancement and quality improvement." },
+        { title: "Choose Your Enhancement", description: "Select upscaling, frame rate enhancement, noise reduction, or restoration based on your needs." },
+        { title: "Configure AI Model", description: "Choose the appropriate AI model and settings for your specific video content type." },
+        { title: "Process and Export", description: "Run your enhancement and export significantly improved video in your required format." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Upscaling Technology", description: "Increases video resolution using AI trained to add realistic detail to lower resolution content." },
+      { title: "Frame Interpolation", description: "Generates smooth additional frames between existing ones for higher frame rate video output." },
+      { title: "Restoration Capability", description: "Enhances and restores old degraded video footage making it clearer and more watchable." }
+    ],
+    useCases: [
+      { title: "Video Editors", description: "Upscale and enhance footage for professional productions needing higher resolution output." },
+      { title: "Archivists", description: "Restore historical video footage with AI enhancement for preservation and public viewing." },
+      { title: "Content Creators", description: "Improve older video content quality for re-publishing on modern high-resolution platforms." }
+    ]
+  },
+  "live3d": {
+    whatIs: "Live3D is a VTubing and virtual avatar platform that enables content creators to use real-time 3D anime and cartoon avatars during live streams and video calls with face tracking and motion capture technology.",
+    features: [
+      "VTuber Avatars: Real-time 3D anime avatar streaming",
+      "Face Tracking: Facial expression capture and mirroring",
+      "Motion Capture: Body movement tracking for avatars",
+      "Custom Avatars: Create personalized 3D character avatars",
+      "OBS Integration: Works with streaming software directly"
+    ],
+    howToUse: {
+      title: "How to Use Live3D",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Avatar", description: "Create or import your 3D avatar character in Live3D and customize its appearance." },
+        { title: "Enable Face Tracking", description: "Activate your webcam for real-time facial expression tracking and avatar mirroring." },
+        { title: "Connect to OBS", description: "Link Live3D to your streaming software for seamless avatar overlay during your stream." },
+        { title: "Go Live", description: "Start streaming with your 3D avatar representing you in real time for your audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Face Tracking", description: "Mirrors your facial expressions onto your 3D avatar instantly with minimal latency." },
+      { title: "VTuber Workflow", description: "Provides a complete VTubing setup from avatar creation through streaming integration." },
+      { title: "OBS Compatibility", description: "Integrates directly with OBS and other streaming software for professional broadcast setups." }
+    ],
+    useCases: [
+      { title: "VTubers", description: "Create and stream with a professional 3D anime avatar that mirrors your real expressions." },
+      { title: "Privacy-Conscious Streamers", description: "Stream content without showing your face using an expressive 3D avatar instead." },
+      { title: "Content Creators", description: "Add a unique visual identity to your streams and videos with a personalized 3D avatar character." }
+    ]
+  },
+  "webcam-motion-capture": {
+    whatIs: "Webcam Motion Capture is a tool that uses your standard webcam to capture body and facial motion data for use in 3D animation, VTubing, and virtual avatar applications without expensive motion capture equipment.",
+    features: [
+      "Webcam Based: Motion capture using standard webcam only",
+      "Body Tracking: Full body movement detection and capture",
+      "Facial Capture: Detailed facial expression recognition",
+      "3D Animation Data: Export motion data for animation use",
+      "No Special Hardware: Works with any standard webcam"
+    ],
+    howToUse: {
+      title: "How to Use Webcam Motion Capture",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Position Your Webcam", description: "Set up your webcam in a position that captures your body and face clearly for tracking." },
+        { title: "Calibrate the System", description: "Complete the calibration process so the software accurately maps your body proportions." },
+        { title: "Start Capturing", description: "Begin your motion capture session and move naturally while the system records your motion data." },
+        { title: "Export Your Data", description: "Save your captured motion data in the appropriate format for your animation software." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Accessibility", description: "Makes motion capture technology accessible without expensive specialized hardware or suits." },
+      { title: "Body and Face Combined", description: "Captures both body movement and facial expressions simultaneously from one webcam source." },
+      { title: "Data Export", description: "Provides motion capture data in formats compatible with popular 3D animation software." }
+    ],
+    useCases: [
+      { title: "Independent Animators", description: "Create character animations with real motion data without expensive mocap studio equipment." },
+      { title: "VTubers", description: "Use full body tracking for more expressive avatar movement during live streaming content." },
+      { title: "Game Developers", description: "Prototype character animations using webcam motion capture as a low-cost development tool." }
+    ]
+  },
+  "hyperv": {
+    whatIs: "HyperV is an AI virtual avatar and VTubing platform that provides high-quality 3D virtual characters with real-time motion capture and facial tracking for live streaming and video content creation.",
+    features: [
+      "High Quality Avatars: Premium 3D virtual character models",
+      "Real-Time Tracking: Live facial and body motion capture",
+      "VTubing Ready: Complete setup for virtual content creation",
+      "Custom Characters: Personalize your virtual avatar design",
+      "Low Latency: Real-time avatar response without delay"
+    ],
+    howToUse: {
+      title: "How to Use Hyperv",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Avatar", description: "Browse HyperV's avatar library and select or customize a virtual character for your content." },
+        { title: "Set Up Tracking", description: "Configure your webcam and optional tracking hardware for real-time motion capture." },
+        { title: "Connect to Stream", description: "Integrate HyperV with your streaming software for live avatar-based content creation." },
+        { title: "Create Your Content", description: "Start creating content with your high-quality virtual avatar representing you in real time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Avatar Quality", description: "Provides high-quality 3D character models with detailed visual fidelity for professional streams." },
+      { title: "Low Latency Tracking", description: "Delivers real-time avatar response to your movements without noticeable delay or lag." },
+      { title: "Complete VTubing Solution", description: "Offers everything needed for virtual content creation from avatar design through streaming integration." }
+    ],
+    useCases: [
+      { title: "Professional VTubers", description: "Use high-quality avatars for professional-grade virtual content creation and live streaming." },
+      { title: "Content Creators", description: "Add a distinctive virtual identity to your content without appearing on camera yourself." },
+      { title: "Entertainers", description: "Create engaging virtual performance content using expressive high-quality 3D avatar technology." }
+    ]
+  },
+  "tube-studio": {
+    whatIs: "Tube Studio is a VTubing application for iPhone and iPad that uses the TrueDepth camera for precise facial tracking, enabling creators to animate 2D and 3D avatars for live streaming and video content.",
+    features: [
+      "iPhone Face Tracking: Precise tracking using TrueDepth camera",
+      "2D and 3D Avatars: Support for both avatar types",
+      "VTubing App: Complete mobile VTubing solution",
+      "OBS Integration: Connect to PC streaming via plugins",
+      "Free to Use: Basic VTubing without payment required"
+    ],
+    howToUse: {
+      title: "How to Use Tube Studio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Download Tube Studio", description: "Install Tube Studio on your iPhone or iPad from the App Store for free." },
+        { title: "Import Your Avatar", description: "Add your 2D or 3D avatar character to Tube Studio for facial tracking animation." },
+        { title: "Connect to PC", description: "Use the OBS plugin to connect your iPhone's tracking to your PC streaming setup." },
+        { title: "Start Streaming", description: "Begin creating VTubing content with precise iPhone facial tracking animating your avatar." }
+      ]
+    },
+    coreFeatures: [
+      { title: "TrueDepth Precision", description: "Uses iPhone's TrueDepth camera for highly accurate 52-point facial tracking quality." },
+      { title: "Free Accessibility", description: "Provides complete VTubing capability without payment making it accessible to all creators." },
+      { title: "Cross-Device Workflow", description: "Bridges iPhone tracking to PC streaming software for a flexible multi-device VTubing setup." }
+    ],
+    useCases: [
+      { title: "VTubers", description: "Use your iPhone as a precise face tracker for professional-quality avatar animation during streams." },
+      { title: "New VTubers", description: "Start VTubing without expensive dedicated tracking hardware using your existing iPhone." },
+      { title: "Content Creators", description: "Create avatar-based video content using your iPhone for convenient flexible recording setups." }
+    ]
+  },
+  "virtual-you": {
+    whatIs: "Virtual You is an AI avatar creation and animation platform that generates personalized digital avatars from photos and enables creators to produce avatar-based video content for social media and virtual presence.",
+    features: [
+      "AI Avatar Creation: Generate avatars from your photos",
+      "Animation Tools: Animate your avatar for video content",
+      "Social Media Ready: Content optimized for social platforms",
+      "Customization: Personalize avatar appearance extensively",
+      "Video Generation: Produce avatar-based video content"
+    ],
+    howToUse: {
+      title: "How to Use Virtual You",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Provide a clear photo of yourself for the AI to use as the basis for your avatar creation." },
+        { title: "Generate Your Avatar", description: "Let Virtual You create a personalized digital avatar based on your uploaded photo reference." },
+        { title: "Customize Appearance", description: "Adjust your avatar's features, style, and appearance to match your desired digital identity." },
+        { title: "Create Content", description: "Animate your avatar and produce video content for sharing across your social media platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photo-Based Generation", description: "Creates personalized avatars from your actual photos for a recognizable digital representation." },
+      { title: "Animation Capability", description: "Provides tools for animating your generated avatar for engaging video content production." },
+      { title: "Social Optimization", description: "Produces avatar content formatted and styled for social media platform performance." }
+    ],
+    useCases: [
+      { title: "Social Media Creators", description: "Build a unique digital presence with a personalized avatar for consistent social media content." },
+      { title: "Privacy-Conscious Users", description: "Create content using an avatar representation without showing your actual face online." },
+      { title: "Personal Brand Builders", description: "Develop a distinctive visual identity through a personalized AI-generated avatar character." }
+    ]
+  },
+  "jupitrr-ai": {
+    whatIs: "Jupitrr AI is an AI B-roll generator that automatically creates and adds relevant stock footage, images, and visual content to your talking head videos eliminating the need to manually source supplementary footage.",
+    features: [
+      "Auto B-Roll: AI generates relevant supplementary footage",
+      "Talking Head Enhancement: Upgrade basic videos with visuals",
+      "Stock Footage: Access to relevant video clips automatically",
+      "Time Saving: Eliminates manual B-roll sourcing completely",
+      "One-Click Addition: B-roll added with minimal effort"
+    ],
+    howToUse: {
+      title: "How to Use Jupitrr Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Import your talking head or narration video into Jupitrr AI for B-roll generation." },
+        { title: "AI Analyzes Content", description: "Let Jupitrr AI analyze your spoken content to understand what B-roll visuals are relevant." },
+        { title: "Review B-Roll Suggestions", description: "Check the automatically selected footage and images suggested for each section of your video." },
+        { title: "Export Enhanced Video", description: "Download your upgraded video with AI-added B-roll footage integrated throughout." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Relevance", description: "Analyzes spoken content to select B-roll footage that genuinely matches what you are discussing." },
+      { title: "Time Elimination", description: "Removes the time-consuming process of manually searching and sourcing B-roll footage." },
+      { title: "Quality Enhancement", description: "Upgrades basic talking head videos into more professional and visually engaging productions." }
+    ],
+    useCases: [
+      { title: "YouTubers", description: "Transform basic talking head videos into professionally produced content with relevant B-roll automatically." },
+      { title: "Course Creators", description: "Enhance educational video content with relevant visual support without manual footage sourcing." },
+      { title: "Business Video Makers", description: "Upgrade corporate talking head videos with supplementary footage for more engaging presentations." }
+    ]
+  },
+  "autoae": {
+    whatIs: "AutoAE is an AI-powered After Effects automation tool that generates motion graphics, animations, and visual effects automatically from templates and AI prompts reducing manual After Effects production time.",
+    features: [
+      "AE Automation: Automate After Effects workflows with AI",
+      "Motion Graphics: Generate animations from templates automatically",
+      "Template System: Professional motion graphic templates",
+      "AI Generation: Create graphics from text descriptions",
+      "Time Reduction: Dramatically faster visual effects production"
+    ],
+    howToUse: {
+      title: "How to Use Autoae",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Select a motion graphic template that matches your project type and visual style needs." },
+        { title: "Input Your Content", description: "Provide your text, footage, or AI prompt for the automated After Effects generation." },
+        { title: "Generate Animation", description: "Let AutoAE produce your motion graphics and animations automatically within After Effects." },
+        { title: "Refine and Export", description: "Make any final adjustments and export your finished motion graphics for your project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AE Integration", description: "Works directly within After Effects for seamless integration into existing professional workflows." },
+      { title: "Template Automation", description: "Generates complex motion graphics from templates automatically without manual keyframing work." },
+      { title: "Production Speed", description: "Dramatically reduces the time required to produce professional motion graphics and animations." }
+    ],
+    useCases: [
+      { title: "Motion Designers", description: "Automate repetitive After Effects tasks and produce graphics faster with AI-powered template generation." },
+      { title: "Video Editors", description: "Add professional motion graphics to productions without deep After Effects expertise or time investment." },
+      { title: "Marketing Teams", description: "Generate branded motion graphic content efficiently for campaigns without animation specialists." }
+    ]
+  },
+  "woxo": {
+    whatIs: "WOXO is an AI video creation platform that generates short-form video content from prompts and topics with automated production including voiceover, visuals, and captions for efficient social media content creation.",
+    features: [
+      "AI Video Generation: Create videos from topics automatically",
+      "Auto Voiceover: AI narration for all generated content",
+      "Caption Generation: Automatic subtitles on every video",
+      "Social Formats: Videos optimized for social platforms",
+      "Batch Creation: Generate multiple videos simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Woxo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Type your video topic or content idea into WOXO for automated video production." },
+        { title: "Configure Options", description: "Select your preferred voiceover style, visual theme, and target platform for generation." },
+        { title: "Generate Your Video", description: "Let WOXO automatically produce a complete video with narration, visuals, and captions." },
+        { title: "Download and Share", description: "Export your generated video and post it to your chosen social media platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Full Automation", description: "Handles every aspect of video production from script through voiceover and captioning automatically." },
+      { title: "Batch Generation", description: "Creates multiple videos simultaneously for high-volume content production efficiency." },
+      { title: "Platform Optimization", description: "Produces videos formatted specifically for different social media platform requirements." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Produce consistent social media video content without spending hours on manual production." },
+      { title: "Marketers", description: "Generate diverse video content variations for testing and optimization across campaigns." },
+      { title: "Agencies", description: "Create high volumes of social video content for multiple clients efficiently using automation." }
+    ]
+  },
+  "pixverse": {
+    whatIs: "PixVerse is an AI video generation platform that creates high-quality video content from text prompts and images with diverse style options and impressive visual quality for creative video production needs.",
+    features: [
+      "Text to Video: Generate videos from descriptive text",
+      "Image to Video: Animate images into video sequences",
+      "Multiple Styles: Diverse visual styles and aesthetics",
+      "High Quality: Detailed and visually impressive output",
+      "Fast Generation: Quick video production from prompts"
+    ],
+    howToUse: {
+      title: "How to Use Pixverse",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Enter a detailed description of the video content you want the AI to generate." },
+        { title: "Upload Reference", description: "Optionally provide an image to guide the visual style and content of your generation." },
+        { title: "Choose Your Style", description: "Select from available visual styles that match your creative vision and project needs." },
+        { title: "Generate and Download", description: "Create your video and download the high-quality output for your creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Prompt Accuracy", description: "Generates video content that accurately represents detailed text descriptions provided." },
+      { title: "Style Diversity", description: "Offers multiple visual styles enabling diverse creative video production from one platform." },
+      { title: "Visual Quality", description: "Produces video output with impressive visual detail and quality across different content types." }
+    ],
+    useCases: [
+      { title: "Creative Professionals", description: "Generate diverse high-quality video content for artistic and commercial creative projects." },
+      { title: "Content Creators", description: "Produce original video content from text ideas without filming or traditional production resources." },
+      { title: "Advertisers", description: "Create visually impressive video assets for marketing campaigns using AI generation technology." }
+    ]
+  },
+  "sendshort": {
+    whatIs: "SendShort is an AI short-form video creation and distribution tool that helps creators generate, schedule, and send short videos across multiple platforms from one automated content workflow.",
+    features: [
+      "Short Video Creation: Generate short-form video content automatically",
+      "Multi-Platform Distribution: Send videos to multiple platforms",
+      "Scheduling: Automate video publishing across channels",
+      "AI Production: Automated video assembly and production",
+      "Analytics: Track performance across distributed content"
+    ],
+    howToUse: {
+      title: "How to Use Sendshort",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Video", description: "Generate your short-form video using SendShort's AI production tools for your content." },
+        { title: "Configure Distribution", description: "Set up which platforms you want your video published to and schedule timing." },
+        { title: "Automate Sending", description: "Let SendShort automatically distribute your video across all configured platforms simultaneously." },
+        { title: "Monitor Performance", description: "Track how your distributed video performs across different platforms from your analytics dashboard." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated Distribution", description: "Publishes videos to multiple platforms simultaneously without manual posting to each one." },
+      { title: "Production Integration", description: "Combines video creation with distribution in one workflow for complete content automation." },
+      { title: "Performance Tracking", description: "Monitors video performance across all distributed platforms from a centralized analytics view." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Create and distribute short-form videos across all platforms automatically from one workflow." },
+      { title: "Marketing Teams", description: "Automate short video content distribution across brand social media channels simultaneously." },
+      { title: "Agencies", description: "Manage video creation and multi-platform distribution for multiple clients efficiently." }
+    ]
+  },
+  "novi-ai": {
+    whatIs: "Novi AI is an AI video creation and automation platform that helps creators and businesses produce professional video content with AI-generated scripts, voiceovers, and automated video assembly for efficient content production.",
+    features: [
+      "AI Script Generation: Scripts created from topics automatically",
+      "Voiceover Production: Natural AI narration for videos",
+      "Automated Assembly: Video production handled automatically",
+      "Template System: Professional video templates available",
+      "Multi-Format Output: Videos for different platforms"
+    ],
+    howToUse: {
+      title: "How to Use Novi Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Input your video topic or content idea for AI script generation and production." },
+        { title: "Review Generated Script", description: "Check your AI-written script and make any adjustments before video production begins." },
+        { title: "Generate Your Video", description: "Let Novi AI assemble your complete video with voiceover, visuals, and formatting automatically." },
+        { title: "Export and Publish", description: "Download your finished video and publish it to your chosen platforms and channels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Script Automation", description: "Generates complete video scripts from simple topic inputs for fast content production starts." },
+      { title: "Voiceover Quality", description: "Produces natural-sounding AI narration that makes videos engaging and professional sounding." },
+      { title: "Assembly Automation", description: "Handles complete video assembly including all production elements without manual editing work." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Produce consistent video content at scale with automated script and production workflows." },
+      { title: "Business Owners", description: "Create professional video content independently without video production expertise or teams." },
+      { title: "Marketing Professionals", description: "Generate diverse video content for campaigns quickly using automated AI production tools." }
+    ]
+  },
+  "pictory": {
+    whatIs: "Pictory is an AI video creation platform that transforms long-form content including blog posts, scripts, and articles into professional short videos automatically for efficient content repurposing across platforms.",
+    features: [
+      "Blog to Video: Convert articles into professional videos",
+      "Script to Video: Transform scripts into visual content",
+      "Auto Highlights: Extract key moments from long videos",
+      "AI Voiceover: Natural narration for all created videos",
+      "Brand Kit: Apply consistent branding to all content"
+    ],
+    howToUse: {
+      title: "How to Use Pictory",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Content", description: "Paste your blog post, article, or script into Pictory for automatic video creation." },
+        { title: "Review AI Selection", description: "Check which key points and visuals the AI has selected for your video content." },
+        { title: "Customize Your Video", description: "Adjust the selected clips, voiceover, and branding elements to match your preferences." },
+        { title: "Export and Share", description: "Download your professional video and share it across your social media and marketing channels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content Repurposing", description: "Transforms existing written content into video format automatically for extended content value." },
+      { title: "AI Voiceover", description: "Adds natural-sounding narration to all created videos without manual recording requirements." },
+      { title: "Brand Consistency", description: "Applies consistent branding elements across all video content produced through the platform." }
+    ],
+    useCases: [
+      { title: "Content Marketers", description: "Repurpose blog content as video automatically to reach audiences who prefer video over text." },
+      { title: "Podcasters", description: "Convert episode transcripts into visual video content for social media audience growth." },
+      { title: "Businesses", description: "Transform existing written marketing content into video format for broader audience reach." }
+    ]
+  },
+  "ltx-studio": {
+    whatIs: "LTX Studio is an AI film production platform that enables creators to produce complete short films and video stories from scripts using AI-generated scenes, characters, and cinematic video content.",
+    features: [
+      "AI Film Production: Create films from scripts automatically",
+      "Scene Generation: AI produces individual film scenes",
+      "Character Consistency: Maintain characters across all scenes",
+      "Cinematic Quality: High production value AI video output",
+      "Story Structure: Narrative-aware video generation"
+    ],
+    howToUse: {
+      title: "How to Use Ltx Studio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Script", description: "Input your film script or story outline for AI-powered cinematic video production." },
+        { title: "Generate Your Scenes", description: "Let LTX Studio produce individual scenes from your script with consistent visual style." },
+        { title: "Review Scene Quality", description: "Check each generated scene for visual quality and narrative consistency." },
+        { title: "Compile Your Film", description: "Assemble your scenes into a complete short film and export for distribution and sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Script Processing", description: "Interprets film scripts and converts narrative elements into appropriate visual representations." },
+      { title: "Character Consistency", description: "Maintains consistent character appearance across multiple generated film scenes." },
+      { title: "Cinematic Standards", description: "Produces video quality meeting expectations for short film and professional content production." }
+    ],
+    useCases: [
+      { title: "Independent Filmmakers", description: "Create short film content using AI generation without traditional crew and equipment costs." },
+      { title: "Storytellers", description: "Bring written stories to visual life as AI-generated cinematic content without filmmaking background." },
+      { title: "Film Students", description: "Produce creative film projects using AI tools to learn visual storytelling principles practically." }
+    ]
+  },
+  "zebracat": {
+    whatIs: "Zebracat is an AI video creation platform that generates marketing and social media videos from text prompts, blog posts, and product information with automated production and AI avatars for business content.",
+    features: [
+      "Marketing Video Creation: Professional business videos automatically",
+      "Blog to Video: Convert content into marketing video format",
+      "AI Avatars: Realistic presenters for business videos",
+      "Social Formats: Videos optimized for marketing platforms",
+      "Brand Consistency: Apply branding across all content"
+    ],
+    howToUse: {
+      title: "How to Use Zebracat",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Content", description: "Enter your topic, paste your blog post, or provide product information for video creation." },
+        { title: "Select Your Style", description: "Choose your video format, avatar presenter, and visual style for your marketing video." },
+        { title: "Generate Your Video", description: "Let Zebracat automatically produce a professional marketing video from your content." },
+        { title: "Export and Market", description: "Download your video and deploy it across your marketing and social media channels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content to Video", description: "Transforms diverse input types including blogs and product information into video automatically." },
+      { title: "AI Avatar Integration", description: "Incorporates realistic AI presenters for professional spokesperson-style business videos." },
+      { title: "Marketing Optimization", description: "Creates videos specifically designed for performance in business marketing contexts." }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "Create professional marketing videos efficiently from existing content without production resources." },
+      { title: "E-commerce Brands", description: "Generate product videos and promotional content at scale for social media advertising." },
+      { title: "Content Marketers", description: "Repurpose written content as video automatically to maximize content reach and engagement." }
+    ]
+  },
+  "runway": {
+    whatIs: "Runway is a professional AI video generation and editing platform used by filmmakers and creators that provides cutting-edge AI tools including video generation, inpainting, motion brush, and advanced creative video features.",
+    features: [
+      "AI Video Generation: Create videos from text and images",
+      "Video Inpainting: Edit and remove objects from video",
+      "Motion Brush: Add controlled motion to still images",
+      "Green Screen: AI-powered background replacement",
+      "Professional Tools: Advanced features for serious creators"
+    ],
+    howToUse: {
+      title: "How to Use Runway",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Select from Runway's suite of AI video tools based on your specific creative project need." },
+        { title: "Upload Your Content", description: "Import your video, image, or reference material for the chosen AI tool to process." },
+        { title: "Configure Your Effect", description: "Adjust the specific settings and parameters for your chosen AI video feature or effect." },
+        { title: "Generate and Export", description: "Process your content with the selected AI tool and export your finished creative result." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Video Inpainting", description: "Removes or replaces objects and elements within existing video footage using AI processing." },
+      { title: "Motion Control", description: "Provides precise control over AI-generated motion in images and video sequences." },
+      { title: "Professional Quality", description: "Delivers output quality suitable for professional film production and commercial creative use." }
+    ],
+    useCases: [
+      { title: "Filmmakers", description: "Use professional AI video tools for creative effects, generation, and editing in productions." },
+      { title: "Visual Effects Artists", description: "Apply AI-powered video inpainting and object removal for efficient VFX production workflows." },
+      { title: "Creative Professionals", description: "Access cutting-edge AI video tools used by leading creators and production studios worldwide." }
+    ]
+  },
+  "deepvid-ai": {
+    whatIs: "DeeVid AI is an AI video enhancement and upscaling tool that improves video quality through resolution enhancement, noise reduction, and visual restoration using deep learning for better-looking video content.",
+    features: [
+      "AI Upscaling: Increase video resolution significantly",
+      "Noise Reduction: Remove visual noise from footage",
+      "Visual Restoration: Restore degraded video content",
+      "Quality Enhancement: Overall video quality improvement",
+      "Fast Processing: Efficient AI video enhancement"
+    ],
+    howToUse: {
+      title: "How to Use Deepvid Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Video", description: "Upload the video file you want enhanced into DeeVid AI for processing." },
+        { title: "Select Enhancement", description: "Choose the type of enhancement needed such as upscaling, denoising, or restoration." },
+        { title: "Process Your Video", description: "Let the AI apply your selected enhancement to improve your video quality." },
+        { title: "Export Enhanced Video", description: "Download your significantly improved video in your required format and resolution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Resolution Enhancement", description: "Increases video resolution using AI to add realistic detail to lower quality footage." },
+      { title: "Noise Elimination", description: "Removes visual noise and grain from footage while preserving important image sharpness." },
+      { title: "Processing Efficiency", description: "Delivers quality enhancements in reasonable timeframes for practical video production use." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Improve video quality for YouTube and social media with AI enhancement tools." },
+      { title: "Video Editors", description: "Upscale and clean up footage for professional productions requiring higher quality output." },
+      { title: "Archive Restorers", description: "Enhance and restore old degraded video content for preservation and improved viewing." }
+    ]
+  },
+  "goenhance-ai": {
+    whatIs: "GoEnhance AI is an AI video and image enhancement platform that upscales resolution, removes noise, and improves visual quality for photos and videos using advanced deep learning enhancement technology.",
+    features: [
+      "Resolution Upscaling: Enhance image and video resolution",
+      "Noise Reduction: Clean visual noise from content",
+      "Video Enhancement: Improve overall video quality",
+      "Image Processing: AI photo quality enhancement",
+      "Batch Processing: Handle multiple files efficiently"
+    ],
+    howToUse: {
+      title: "How to Use Goenhance Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Content", description: "Import your image or video file into GoEnhance AI for quality enhancement processing." },
+        { title: "Choose Enhancement Type", description: "Select upscaling, noise reduction, or other enhancement based on your content needs." },
+        { title: "Process With AI", description: "Let the deep learning AI analyze and enhance your content for significantly better quality." },
+        { title: "Download Enhanced Result", description: "Export your improved image or video file for use in your projects and platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Deep Learning Quality", description: "Uses advanced AI models to produce enhancement results exceeding traditional processing methods." },
+      { title: "Dual Format Support", description: "Handles both image and video enhancement in one integrated platform for complete media support." },
+      { title: "Batch Efficiency", description: "Processes multiple files simultaneously making it suitable for high-volume enhancement workflows." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Enhance image and video quality for social media and YouTube with AI-powered processing tools." },
+      { title: "Photographers", description: "Upscale and improve photo quality for professional use, prints, and commercial applications." },
+      { title: "Video Producers", description: "Improve footage quality for productions needing higher resolution or cleaner visual output." }
+    ]
+  },
+  "lanta-ai": {
+    whatIs: "Lanta AI is an AI video creation and automation platform that helps businesses and creators produce professional video content efficiently using AI generation, templates, and automated production workflows.",
+    features: [
+      "Business Video Creation: Professional content for businesses",
+      "AI Generation: Video creation from text and prompts",
+      "Template System: Ready-made professional video templates",
+      "Automated Production: Streamlined video creation workflow",
+      "Multi-Format: Videos for different platforms and purposes"
+    ],
+    howToUse: {
+      title: "How to Use Lanta Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Method", description: "Select AI generation or template-based creation for your video production needs." },
+        { title: "Input Your Content", description: "Provide your script, topic, or business information for video production processing." },
+        { title: "Customize Your Video", description: "Adjust visuals, text, and branding to match your specific business requirements." },
+        { title: "Export and Deploy", description: "Download your finished professional video and publish it across your business channels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Business Focus", description: "Designed specifically for professional business video production requirements and standards." },
+      { title: "Template Quality", description: "Provides professional templates that produce business-appropriate video content quickly." },
+      { title: "Production Automation", description: "Streamlines video production workflows to reduce time from concept to finished video." }
+    ],
+    useCases: [
+      { title: "Small Businesses", description: "Create professional video content for marketing and communication without production resources." },
+      { title: "Marketing Professionals", description: "Generate consistent branded video content efficiently for business marketing campaigns." },
+      { title: "Entrepreneurs", description: "Produce polished promotional videos independently using AI production automation tools." }
+    ]
+  },
+  "warpvideo-ai": {
+    whatIs: "WarpVideo AI is an AI video style transformation tool that applies artistic styles, visual effects, and aesthetic transformations to existing video footage for creative stylized video content production.",
+    features: [
+      "Video Style Transfer: Apply artistic styles to footage",
+      "Visual Effects: Add creative effects to video content",
+      "Aesthetic Transformation: Change video look and feel",
+      "Multiple Styles: Various artistic transformation options",
+      "Creative Output: Uniquely stylized video production"
+    ],
+    howToUse: {
+      title: "How to Use Warpvideo Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Import the video footage you want to transform with AI style and aesthetic effects." },
+        { title: "Choose Your Style", description: "Select from available artistic styles and visual transformation options for your video." },
+        { title: "Apply Transformation", description: "Let WarpVideo AI process your footage and apply the selected style throughout." },
+        { title: "Download Styled Video", description: "Export your stylized video with the creative transformation applied for sharing and use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Style Application", description: "Applies consistent artistic styles across entire video sequences for cohesive visual transformation." },
+      { title: "Effect Variety", description: "Offers multiple transformation styles enabling diverse creative video aesthetic exploration." },
+      { title: "Creative Freedom", description: "Enables unique visual experimentation with AI-powered style and effect application to footage." }
+    ],
+    useCases: [
+      { title: "Creative Video Artists", description: "Transform footage with artistic styles for unique visual content that stands out from standard video." },
+      { title: "Social Media Creators", description: "Apply distinctive visual styles to your video content for a recognizable and eye-catching aesthetic." },
+      { title: "Experimental Filmmakers", description: "Explore new visual aesthetics by applying AI style transformation to your existing footage." }
+    ]
+  },
   "sora": {
     whatIs: "Sora is OpenAI's AI video generation model that creates realistic and imaginative video scenes from text prompts, representing a major breakthrough in AI video generation with impressive visual quality and scene coherence.",
     features: [
