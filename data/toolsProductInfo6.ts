@@ -1,4 +1,544 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "focal": {
+    whatIs: "Focal is an AI video creation and editing platform that helps content creators produce professional short-form videos with AI-powered editing tools, automatic captions, and smart scene detection for faster production.",
+    features: [
+      "AI Video Editing: Automated editing for short-form content",
+      "Auto Captions: Accurate captions added automatically",
+      "Scene Detection: AI identifies best moments to highlight",
+      "Social Formats: Videos sized for every platform",
+      "Fast Production: Professional videos created quickly"
+    ],
+    howToUse: {
+      title: "How to Use Focal",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Footage", description: "Import your raw video footage into Focal for AI-powered editing and production." },
+        { title: "Let AI Edit", description: "Allow the AI to analyze your footage and automatically select the best moments and scenes." },
+        { title: "Add Captions", description: "Enable automatic captioning to add synchronized text to your video content." },
+        { title: "Export Your Video", description: "Download your edited video in the format optimized for your target social media platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Smart Scene Selection", description: "Identifies the most engaging moments in raw footage for automatic highlight video creation." },
+      { title: "Automatic Captioning", description: "Adds accurate synchronized captions to videos for accessibility and silent viewing audiences." },
+      { title: "Platform Formatting", description: "Exports videos in correct dimensions and formats for each major social media platform." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Turn raw footage into polished social media videos quickly with AI editing assistance." },
+      { title: "Social Media Managers", description: "Produce consistent short-form video content across platforms without extensive editing time." },
+      { title: "Podcasters", description: "Convert long-form recordings into engaging short video clips for social media promotion." }
+    ]
+  },
+  "melies-ai": {
+    whatIs: "Melies AI is an AI cinematic video generation platform named after film pioneer Georges Méliès that creates imaginative high-quality video content from text prompts with a focus on creative and artistic output.",
+    features: [
+      "Cinematic Generation: High-quality artistic video creation",
+      "Text to Video: Detailed prompts produce cinematic results",
+      "Creative Focus: Optimized for imaginative visual storytelling",
+      "Artistic Styles: Various cinematic and artistic aesthetics",
+      "High Resolution: Premium quality video output"
+    ],
+    howToUse: {
+      title: "How to Use Melies Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Vision", description: "Describe your cinematic video idea with rich detail including mood, setting, characters, and action." },
+        { title: "Select Your Style", description: "Choose the cinematic aesthetic and visual style that best fits your creative vision." },
+        { title: "Generate Your Video", description: "Submit your prompt and let Melies AI produce your cinematic video interpretation." },
+        { title: "Review and Refine", description: "Assess your generated video and adjust your prompt for refinements on subsequent generations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cinematic Aesthetic", description: "Produces videos with a distinctly cinematic quality appropriate for artistic and film-inspired projects." },
+      { title: "Creative Interpretation", description: "Interprets imaginative and artistic prompts in visually compelling and unexpected ways." },
+      { title: "Quality Standards", description: "Generates video output at a quality level suitable for serious creative and artistic production work." }
+    ],
+    useCases: [
+      { title: "Filmmakers", description: "Generate cinematic reference footage and visual concepts for film projects and pitches." },
+      { title: "Creative Directors", description: "Visualize campaign concepts with cinematic AI video that communicates artistic direction clearly." },
+      { title: "Visual Artists", description: "Explore moving image art creation using AI video generation as a creative medium and tool." }
+    ]
+  },
+  "supermaker-ai": {
+    whatIs: "SuperMaker AI is an AI video generation platform that creates professional marketing and social media videos from text prompts and product information with automated production workflows for business content creation.",
+    features: [
+      "Business Video Creation: Professional marketing videos from prompts",
+      "Product Videos: Generate product showcase content automatically",
+      "Social Optimization: Videos formatted for social platforms",
+      "AI Production: Automated video assembly and editing",
+      "Brand Consistency: Apply branding to generated videos"
+    ],
+    howToUse: {
+      title: "How to Use Supermaker Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Video", description: "Enter your video concept, product details, or marketing message for AI production." },
+        { title: "Configure Branding", description: "Set your brand colors, logo, and style preferences for consistent brand application." },
+        { title: "Generate Your Video", description: "Let SuperMaker AI produce a professional marketing video from your specifications." },
+        { title: "Download and Deploy", description: "Export your finished business video and publish it across your marketing channels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Business Focus", description: "Designed specifically for professional marketing and business video production requirements." },
+      { title: "Brand Integration", description: "Applies consistent branding elements throughout generated videos for professional presentation." },
+      { title: "Automated Assembly", description: "Handles complete video production including editing and composition from minimal input." }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "Create professional business videos efficiently without video production expertise or resources." },
+      { title: "Entrepreneurs", description: "Produce polished promotional content independently without hiring video production agencies." },
+      { title: "E-commerce Brands", description: "Generate product showcase videos at scale for comprehensive marketing across all channels." }
+    ]
+  },
+  "zero1cine": {
+    whatIs: "Zero1cine is an AI film and cinematic video generation platform that creates high-quality short films and cinematic sequences from text scripts using advanced AI video generation technology.",
+    features: [
+      "Short Film Generation: AI creates cinematic short film content",
+      "Script to Video: Convert film scripts to visual sequences",
+      "Cinematic Quality: High production value AI video output",
+      "Scene Consistency: Coherent visual storytelling across scenes",
+      "Creative Tools: Additional creative enhancement features"
+    ],
+    howToUse: {
+      title: "How to Use Zero1Cine",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Script", description: "Input your film script or narrative description for cinematic video generation." },
+        { title: "Generate Scenes", description: "Let zero1cine create individual cinematic scenes from your script content." },
+        { title: "Review Output", description: "Check each generated scene for quality and narrative consistency across your film." },
+        { title: "Compile Your Film", description: "Assemble your generated scenes into a complete short film narrative for sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Script Interpretation", description: "Converts written film scripts into appropriate visual representations for each scene described." },
+      { title: "Cinematic Standards", description: "Produces video content meeting the aesthetic standards expected in short film production." },
+      { title: "Scene Coherence", description: "Maintains visual and narrative consistency across multiple generated scenes in a film." }
+    ],
+    useCases: [
+      { title: "Independent Filmmakers", description: "Create short film content using AI generation without traditional production equipment or crew." },
+      { title: "Film Students", description: "Produce cinematic projects and explore visual storytelling using AI video generation tools." },
+      { title: "Screenwriters", description: "Visualize your scripts as AI-generated video to communicate your cinematic vision effectively." }
+    ]
+  },
+  "kaiber": {
+    whatIs: "Kaiber is an AI video generation platform that creates music videos, animations, and artistic video content from images and audio by generating visually reactive video that responds to musical input.",
+    features: [
+      "Music Video Generation: AI creates videos synchronized to music",
+      "Image Animation: Animate still images into flowing video",
+      "Audio Reactive: Video visuals respond to music and sound",
+      "Artistic Styles: Various visual styles and aesthetics available",
+      "Loop Creation: Seamless looping video content generation"
+    ],
+    howToUse: {
+      title: "How to Use Kaiber",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Audio", description: "Import your music track or audio file that you want the AI to generate video content for." },
+        { title: "Provide Reference Image", description: "Upload an image to guide the visual style and starting point of your video generation." },
+        { title: "Choose Your Style", description: "Select the artistic visual style you want applied to your music-reactive video content." },
+        { title: "Generate and Download", description: "Create your music video and download the finished visually-reactive video content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Audio Reactivity", description: "Generates video content that visually responds and synchronizes to the rhythm and energy of music." },
+      { title: "Music Video Specialty", description: "Specifically designed for creating compelling music video content from audio input." },
+      { title: "Style Variety", description: "Offers multiple artistic visual styles for diverse music video aesthetic directions." }
+    ],
+    useCases: [
+      { title: "Musicians and Artists", description: "Create professional music videos for your tracks without hiring video directors or production crews." },
+      { title: "DJs and Producers", description: "Generate visually compelling video content for music releases and live performance visuals." },
+      { title: "Content Creators", description: "Produce unique music-reactive video content that stands out in social media feeds and platforms." }
+    ]
+  },
+  "neural-frames": {
+    whatIs: "Neural Frames is an AI music video and animation generator that creates psychedelic and artistic video animations from text prompts synchronized to music for unique visual music video experiences.",
+    features: [
+      "Music Video Creation: AI animations synchronized to your music",
+      "Text Prompts: Describe your visual style and content",
+      "Psychedelic Visuals: Unique artistic animation styles",
+      "Audio Sync: Video reacts to your uploaded music",
+      "Loop Animation: Smooth looping video for continuous play"
+    ],
+    howToUse: {
+      title: "How to Use Neural Frames",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Music", description: "Import your music track into Neural Frames for audio-synchronized video generation." },
+        { title: "Write Your Prompts", description: "Describe the visual scenes, styles, and imagery you want for each section of your video." },
+        { title: "Configure Settings", description: "Adjust animation speed, style intensity, and other parameters for your desired output." },
+        { title: "Generate Your Video", description: "Process your music and prompts to receive your unique AI-animated music video." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Music Synchronization", description: "Generates animations that pulse and react to the energy and rhythm of your uploaded music." },
+      { title: "Prompt-Driven Visuals", description: "Creates diverse visual content from descriptive text prompts for personalized music video aesthetics." },
+      { title: "Artistic Style Range", description: "Offers distinctive psychedelic and artistic animation styles not available in standard video tools." }
+    ],
+    useCases: [
+      { title: "Musicians", description: "Create visually unique music videos for releases without video production budgets or teams." },
+      { title: "Visual Artists", description: "Explore AI animation as a creative medium for producing unique moving image artwork." },
+      { title: "Content Creators", description: "Generate eye-catching animated video content for music-driven social media posts and stories." }
+    ]
+  },
+  "veo": {
+    whatIs: "Veo is Google DeepMind's AI video generation model that produces high-quality realistic videos from text and image prompts, representing Google's flagship entry into the AI video generation space.",
+    features: [
+      "High Quality Generation: Google-backed premium video quality",
+      "Text to Video: Generate from detailed text descriptions",
+      "Image to Video: Animate images into video sequences",
+      "Realistic Output: Natural-looking generated video content",
+      "Google Research: Backed by DeepMind AI expertise"
+    ],
+    howToUse: {
+      title: "How to Use Veo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Veo", description: "Use Veo through Google's platforms and products that provide access to the model." },
+        { title: "Write Your Prompt", description: "Craft a detailed text description of the video content you want the AI to generate." },
+        { title: "Generate Your Video", description: "Submit your prompt and receive your high-quality AI-generated video from Veo." },
+        { title: "Download and Use", description: "Save your generated video and incorporate it into your creative projects and productions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Google Research Foundation", description: "Built on Google DeepMind's extensive AI research for superior video generation quality." },
+      { title: "Prompt Accuracy", description: "Interprets detailed text and image prompts to generate accurately representative video content." },
+      { title: "Output Realism", description: "Produces video content with natural-looking motion and visual quality for diverse use cases." }
+    ],
+    useCases: [
+      { title: "Creative Professionals", description: "Access Google's flagship AI video model for high-quality video generation in professional projects." },
+      { title: "Filmmakers", description: "Generate reference footage and cinematic sequences using one of the most capable AI video models." },
+      { title: "Researchers", description: "Explore the capabilities of Google DeepMind's video generation research in practical applications." }
+    ]
+  },
+  "deciphr-ai": {
+    whatIs: "Deciphr AI is an AI podcast and long-form audio content platform that automatically transcribes, summarizes, and repurposes podcast episodes into show notes, social media posts, timestamps, and marketing content.",
+    features: [
+      "Podcast Transcription: Accurate automatic episode transcription",
+      "Show Notes: AI-generated comprehensive show notes",
+      "Timestamps: Automatic chapter markers for episodes",
+      "Social Content: Repurpose audio into social media posts",
+      "Content Repurposing: One episode becomes multiple content pieces"
+    ],
+    howToUse: {
+      title: "How to Use Deciphr Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Episode", description: "Import your podcast audio file into Deciphr AI for transcription and content generation." },
+        { title: "Get Your Transcript", description: "Receive an accurate automatic transcription of your entire podcast episode." },
+        { title: "Generate Show Notes", description: "Let Deciphr AI create comprehensive show notes from your episode content automatically." },
+        { title: "Export All Content", description: "Download your timestamps, social posts, and show notes for immediate publishing use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Transcription", description: "Accurately transcribes podcast audio for searchable text content and show note creation." },
+      { title: "Content Multiplication", description: "Transforms a single podcast episode into multiple content pieces across different formats." },
+      { title: "Time Efficiency", description: "Reduces post-production content work dramatically for podcast creators and their teams." }
+    ],
+    useCases: [
+      { title: "Podcasters", description: "Turn every episode into a full suite of written content without spending hours on post-production." },
+      { title: "Podcast Networks", description: "Scale content production across multiple shows efficiently with AI-powered content generation." },
+      { title: "Content Marketers", description: "Repurpose podcast content into social media, blog posts, and email newsletter content systematically." }
+    ]
+  },
+  "autoreels": {
+    whatIs: "AutoReels is an AI short-form video creation tool that automatically generates Instagram Reels and TikTok videos from text topics, blog posts, and scripts for content creators seeking consistent posting schedules.",
+    features: [
+      "Auto Reel Creation: Generate Reels from topics automatically",
+      "Blog to Video: Convert articles into short-form video",
+      "Script Input: Use your scripts for video generation",
+      "Voiceover Addition: AI narration for every generated reel",
+      "Caption Generation: Automatic subtitles for all content"
+    ],
+    howToUse: {
+      title: "How to Use Autoreels",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Input", description: "Enter your topic, paste your blog post, or input your script for Reel generation." },
+        { title: "Configure Your Video", description: "Select video style, voiceover preferences, and visual theme for your generated content." },
+        { title: "Generate Your Reel", description: "Let AutoReels produce a complete short-form video from your provided input content." },
+        { title: "Download and Post", description: "Export your Reel and post it directly to Instagram or TikTok for your audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multiple Input Types", description: "Accepts topics, articles, and scripts as starting points for flexible content generation." },
+      { title: "Voiceover Integration", description: "Adds AI narration automatically to all generated Reels for engaging audio content." },
+      { title: "Platform Optimization", description: "Creates videos specifically formatted and styled for Instagram Reels and TikTok performance." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Maintain consistent Reel posting schedules without spending hours creating every video manually." },
+      { title: "Bloggers", description: "Repurpose existing blog content as engaging short-form video for social media audiences." },
+      { title: "Marketers", description: "Generate consistent short-form video content for brand accounts across Instagram and TikTok." }
+    ]
+  },
+  "reeler-ai": {
+    whatIs: "Reeler AI is an AI video creation platform that helps creators and businesses produce Instagram Reels and short-form social media videos automatically from scripts, text, and product information.",
+    features: [
+      "Reel Generation: Create Instagram Reels automatically",
+      "Script to Video: Convert scripts into short-form content",
+      "Product Videos: Generate product showcase Reels",
+      "AI Voiceover: Natural narration for every video",
+      "Fast Creation: Reels produced in minutes not hours"
+    ],
+    howToUse: {
+      title: "How to Use Reeler Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Content", description: "Input your script, product description, or video topic for Reel generation processing." },
+        { title: "Select Your Style", description: "Choose the visual style and template that fits your brand aesthetic and content goals." },
+        { title: "Generate Your Reel", description: "Let Reeler AI create a complete Instagram Reel from your provided content and preferences." },
+        { title: "Download and Share", description: "Export your finished Reel and post it to Instagram for your audience immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Reel Specialization", description: "Specifically designed for Instagram Reel creation with appropriate format and style conventions." },
+      { title: "Script Processing", description: "Converts written scripts into engaging visual Reel content with synchronized narration." },
+      { title: "Brand Consistency", description: "Applies consistent visual styling and branding across all generated Reel content." }
+    ],
+    useCases: [
+      { title: "Instagram Creators", description: "Produce consistent high-quality Reels regularly without spending hours on video production." },
+      { title: "Small Businesses", description: "Create professional Instagram Reel content to grow your brand without video expertise." },
+      { title: "Social Media Agencies", description: "Generate Reel content for multiple clients efficiently using AI production automation." }
+    ]
+  },
+  "aireelgenerator": {
+    whatIs: "AiReelGenerator is an AI tool that automatically creates short-form video Reels for Instagram and TikTok from text prompts, topics, and scripts helping creators maintain consistent content output.",
+    features: [
+      "Auto Reel Creation: Generate Reels from text input",
+      "Topic to Video: Enter topics for automatic Reel generation",
+      "AI Voiceover: Narration added to every generated Reel",
+      "Multiple Styles: Various visual styles available",
+      "Platform Ready: Formatted for Instagram and TikTok"
+    ],
+    howToUse: {
+      title: "How to Use Aireelgenerator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Type your Reel topic or paste your script into AiReelGenerator for video creation." },
+        { title: "Select Visual Style", description: "Choose your preferred visual style and aesthetic from the available template options." },
+        { title: "Generate Your Reel", description: "Process your input and receive a complete short-form video Reel automatically." },
+        { title: "Download and Post", description: "Save your generated Reel and upload it to your Instagram or TikTok account directly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Topic Generation", description: "Creates complete Reels from simple topic descriptions without requiring detailed script input." },
+      { title: "Auto Narration", description: "Adds AI voiceover automatically to all generated content for engaging audio presentation." },
+      { title: "Platform Formatting", description: "Produces videos in the correct dimensions and duration for Instagram Reels and TikTok." }
+    ],
+    useCases: [
+      { title: "New Creators", description: "Start producing consistent Reel content without video production skills or expensive equipment." },
+      { title: "Busy Creators", description: "Maintain regular posting schedules during busy periods with fast AI Reel generation." },
+      { title: "Brand Accounts", description: "Generate consistent branded short-form video content without a dedicated content team." }
+    ]
+  },
+  "opus-clip": {
+    whatIs: "Opus Clip is an AI video repurposing tool that automatically extracts the most engaging clips from long-form videos and reformats them as viral short-form content for TikTok, Reels, and YouTube Shorts.",
+    features: [
+      "AI Clip Extraction: Find the best moments automatically",
+      "Viral Score: Rates each clip on virality potential",
+      "Auto Captions: Accurate subtitles on every clip",
+      "Multi-Platform: Format for TikTok Reels and Shorts",
+      "Batch Processing: Handle multiple videos simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Opus Clip",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Import your long-form video, podcast, webinar, or stream recording into Opus Clip." },
+        { title: "AI Finds Best Clips", description: "Let the AI analyze your content and identify the most engaging and shareable moments." },
+        { title: "Review Viral Scores", description: "See each suggested clip rated by its virality potential and select your favorites to use." },
+        { title: "Export for Platforms", description: "Download your clips formatted correctly for TikTok, Instagram Reels, and YouTube Shorts." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Virality Scoring", description: "Rates extracted clips by their estimated viral potential to help creators choose their best content." },
+      { title: "Automatic Captioning", description: "Adds synchronized captions to every clip for improved engagement and accessibility." },
+      { title: "Batch Efficiency", description: "Processes multiple long-form videos simultaneously for high-volume content repurposing workflows." }
+    ],
+    useCases: [
+      { title: "YouTubers", description: "Repurpose long YouTube videos into multiple short clips that promote your channel across platforms." },
+      { title: "Podcasters", description: "Extract the best podcast moments as short video clips for social media audience growth." },
+      { title: "Course Creators", description: "Turn webinar and course recordings into educational short clips for social media marketing." }
+    ]
+  },
+  "opusclip": {
+    whatIs: "OpusClip is an AI-powered video clipping tool that identifies highlight moments in long videos and automatically creates short viral clips with captions, b-roll, and optimized formatting for social media distribution.",
+    features: [
+      "Smart Clip Detection: AI finds highlight moments automatically",
+      "Curation AI: Selects most engaging content segments",
+      "Caption Generation: Accurate captions on every clip created",
+      "B-Roll Addition: AI adds relevant supplementary footage",
+      "Social Optimization: Clips formatted for each platform"
+    ],
+    howToUse: {
+      title: "How to Use Opusclip",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Video", description: "Upload your long-form video content to OpusClip for AI analysis and clip extraction." },
+        { title: "Review AI Selections", description: "See the clips the AI has identified as most engaging with virality scores for each." },
+        { title: "Customize Your Clips", description: "Edit clip timing, adjust captions, and modify any elements before finalizing your content." },
+        { title: "Export and Distribute", description: "Download your clips in platform-optimized formats and distribute across your social channels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Highlight Detection", description: "Identifies the most engaging and shareable moments in long videos using AI content analysis." },
+      { title: "Caption Accuracy", description: "Generates highly accurate captions that remain synchronized throughout each extracted clip." },
+      { title: "B-Roll Integration", description: "Automatically adds relevant supplementary footage to enhance the visual interest of clips." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Maximize the value of every long-form video by repurposing into multiple social media clips." },
+      { title: "Video Marketers", description: "Extract testimonials and key moments from long videos for targeted social media campaigns." },
+      { title: "Streamers", description: "Turn long streaming sessions into multiple highlight clips for social media promotion and growth." }
+    ]
+  },
+  "luma-ai-dream-machine": {
+    whatIs: "Luma AI Dream Machine is an AI video generation model that creates high-quality realistic videos from text prompts and images with impressive motion quality and physical realism for creative video production.",
+    features: [
+      "Realistic Video Generation: High-quality physics-aware video",
+      "Text to Video: Generate from detailed text prompts",
+      "Image to Video: Animate reference images into video",
+      "Physical Realism: Natural motion and physics simulation",
+      "Fast Generation: Videos produced relatively quickly"
+    ],
+    howToUse: {
+      title: "How to Use Luma Ai Dream Machine",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Prompt", description: "Write a detailed description of the video scene including motion, lighting, and environmental details." },
+        { title: "Or Upload an Image", description: "Provide a reference image as a starting point for video generation and animation." },
+        { title: "Generate Your Video", description: "Submit your input and let Dream Machine produce your high-quality realistic video." },
+        { title: "Review and Iterate", description: "Assess your generated video and refine your prompt for subsequent improved generations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Physical Realism", description: "Simulates natural physics and realistic motion for generated video content credibility." },
+      { title: "Image Animation", description: "Creates compelling video sequences from still images with natural and believable motion." },
+      { title: "Generation Speed", description: "Produces high-quality video outputs in reasonable timeframes for practical creative use." }
+    ],
+    useCases: [
+      { title: "Creative Professionals", description: "Generate high-quality realistic video content for creative and commercial production projects." },
+      { title: "Filmmakers", description: "Create realistic prototype footage and visual concepts for film development and pitching." },
+      { title: "Advertisers", description: "Produce realistic product and lifestyle video content using AI generation for campaigns." }
+    ]
+  },
+  "ssemble": {
+    whatIs: "Ssemble is a browser-based collaborative video editing platform that provides professional editing tools, AI features, and team collaboration capabilities for creating polished video content without software installation.",
+    features: [
+      "Browser Editing: Full video editing in your web browser",
+      "Team Collaboration: Real-time collaborative video editing",
+      "AI Features: AI-powered editing assistance and tools",
+      "Template Library: Professional starting templates available",
+      "Export Options: Multiple format and quality export options"
+    ],
+    howToUse: {
+      title: "How to Use Ssemble",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Project", description: "Start a new video project in Ssemble and import your footage from device or cloud storage." },
+        { title: "Edit Your Video", description: "Use the comprehensive browser-based editing tools to cut, arrange, and enhance your footage." },
+        { title: "Collaborate With Team", description: "Invite team members to review and edit the project together in real time from any location." },
+        { title: "Export Your Video", description: "Download your finished video in your required format and quality for distribution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser-Based Access", description: "Provides complete professional video editing without any software download or installation." },
+      { title: "Real-Time Collaboration", description: "Enables multiple editors to work on the same project simultaneously with live updates." },
+      { title: "AI Editing Assistance", description: "Incorporates AI tools that speed up common editing tasks and improve workflow efficiency." }
+    ],
+    useCases: [
+      { title: "Content Teams", description: "Collaborate on video projects efficiently with shared browser-based editing and real-time feedback." },
+      { title: "Remote Teams", description: "Edit video projects together from different locations without sharing files or software licenses." },
+      { title: "Creators Without Editing Software", description: "Access professional video editing tools without purchasing or installing desktop applications." }
+    ]
+  },
+  "imgkits": {
+    whatIs: "Imgkits is an online AI image and video processing platform that provides a comprehensive suite of tools for image enhancement, background removal, video editing, and AI-powered visual content creation.",
+    features: [
+      "Image Enhancement: AI-powered image quality improvement",
+      "Background Removal: Automatic background extraction from images",
+      "Video Tools: Various video editing and processing features",
+      "AI Processing: Multiple AI-powered visual content tools",
+      "Online Access: All tools accessible through browser"
+    ],
+    howToUse: {
+      title: "How to Use Imgkits",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Select from Imgkits' suite of AI image and video processing tools for your specific need." },
+        { title: "Upload Your Content", description: "Import the image or video you want to process through your chosen tool." },
+        { title: "Apply Processing", description: "Run your content through the selected AI tool for enhancement, removal, or transformation." },
+        { title: "Download Result", description: "Save your processed image or video in your preferred format for immediate use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Comprehensive Suite", description: "Offers multiple AI image and video tools in one platform reducing the need for separate services." },
+      { title: "AI Enhancement Quality", description: "Uses AI to improve image and video quality beyond what traditional processing achieves." },
+      { title: "Browser Accessibility", description: "Makes professional image and video processing available through any web browser without installation." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Process images and videos quickly using AI tools accessible directly from your browser." },
+      { title: "Designers", description: "Remove backgrounds, enhance images, and prepare visual assets efficiently for projects." },
+      { title: "Marketers", description: "Process product images and video content for campaigns using AI-powered quality improvement tools." }
+    ]
+  },
+  "basedlabs-ai": {
+    whatIs: "BasedLabs.ai is an AI image and video generation platform that provides access to cutting-edge generation models for creating high-quality visual content with fewer content restrictions than mainstream platforms.",
+    features: [
+      "Advanced Generation: Access to cutting-edge AI models",
+      "Image Generation: High-quality AI image creation",
+      "Video Generation: AI video content production",
+      "Creative Freedom: Fewer restrictions than mainstream tools",
+      "Multiple Models: Various generation model access"
+    ],
+    howToUse: {
+      title: "How to Use Basedlabs Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Generation Type", description: "Select whether you want to create images, videos, or other AI-generated visual content." },
+        { title: "Write Your Prompt", description: "Enter a detailed description of the content you want to generate using available AI models." },
+        { title: "Select Your Model", description: "Choose from available generation models based on your style and quality preferences." },
+        { title: "Generate and Download", description: "Create your AI visual content and download it for use in your projects and creative work." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Model Access", description: "Provides access to capable generation models that produce high-quality visual outputs." },
+      { title: "Creative Flexibility", description: "Operates with fewer content restrictions allowing exploration of more diverse creative concepts." },
+      { title: "Combined Capabilities", description: "Handles both image and video generation from one platform for complete visual content creation." }
+    ],
+    useCases: [
+      { title: "Creative Professionals", description: "Generate diverse visual content with fewer restrictions for artistic and commercial creative projects." },
+      { title: "AI Enthusiasts", description: "Explore advanced generation models and their capabilities for learning and experimentation." },
+      { title: "Content Creators", description: "Produce original AI-generated visual content with creative freedom not available on all platforms." }
+    ]
+  },
+  "morphic": {
+    whatIs: "Morphic is an AI web research tool that conducts deep research on any topic by searching multiple sources and generating comprehensive well-organized reports with citations for thorough information gathering.",
+    features: [
+      "Deep Research: Comprehensive multi-source web research",
+      "Cited Reports: Fully sourced research documents generated",
+      "Real-Time Search: Current information from live web search",
+      "Organized Output: Well-structured research reports",
+      "Open Source: Available as open-source technology"
+    ],
+    howToUse: {
+      title: "How to Use Morphic",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Topic", description: "Type your research question or topic into Morphic for comprehensive web research." },
+        { title: "Let AI Research", description: "Morphic searches multiple web sources simultaneously and gathers relevant information." },
+        { title: "Review Your Report", description: "Read through the comprehensive organized research report with all sources cited." },
+        { title: "Export Your Research", description: "Save your research report for use in your projects, presentations, or further work." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Source Research", description: "Searches across numerous web sources simultaneously for thorough and comprehensive coverage." },
+      { title: "Citation Integration", description: "Includes source references for all information making research verifiable and trustworthy." },
+      { title: "Open Source Foundation", description: "Built on open-source technology allowing community contribution and transparent development." }
+    ],
+    useCases: [
+      { title: "Researchers", description: "Conduct thorough web research on any topic quickly with comprehensive cited reports generated automatically." },
+      { title: "Students", description: "Research academic topics with AI that searches multiple sources and organizes findings clearly." },
+      { title: "Professionals", description: "Gather comprehensive background information on business topics efficiently with cited research reports." }
+    ]
+  },
   "vidau-ai": {
     whatIs: "VidAU AI is an AI video creation platform that generates professional marketing videos, product ads, and social media content from URLs, images, and text with AI avatars and automated production workflows.",
     features: [
