@@ -1,4 +1,364 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "youlearn-ai": {
+    whatIs: "YouLearn AI is an intelligent study platform that lets students upload any learning material and interact with it through AI-powered chat, generating summaries, flashcards, and quizzes from their own content.",
+    features: [
+      "Content Chat: Have conversations with your uploaded materials",
+      "Auto Summaries: Instant summaries of any uploaded content",
+      "Flashcard Generation: Study cards created from your material",
+      "Quiz Creation: Practice questions from your own documents",
+      "Multiple Formats: Works with PDFs videos and text content"
+    ],
+    howToUse: {
+      title: "How to Use Youlearn Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Material", description: "Import your PDF, paste a video URL, or add text content you want to study with AI assistance." },
+        { title: "Chat With Your Content", description: "Ask questions about your material and get accurate answers drawn directly from what you uploaded." },
+        { title: "Generate Study Tools", description: "Create summaries, flashcards, and quizzes automatically from your uploaded learning material." },
+        { title: "Study Actively", description: "Use the generated tools to test your knowledge and reinforce understanding of your course content." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content-Based AI Chat", description: "Answers questions specifically from your uploaded materials for highly accurate and relevant responses." },
+      { title: "Multi-Format Support", description: "Processes PDFs, videos, and text making it versatile for all types of academic content." },
+      { title: "Integrated Study Tools", description: "Creates summaries, flashcards, and quizzes in one platform so you never need to switch between apps." }
+    ],
+    useCases: [
+      { title: "University Students", description: "Interact with your actual course materials through AI chat for deeper understanding and better exam preparation." },
+      { title: "Self-Directed Learners", description: "Study any content more effectively with AI tools that make passive reading into active engagement." },
+      { title: "Video Learners", description: "Extract maximum value from educational videos by generating summaries and quizzes from video content." }
+    ]
+  },
+  "readtheory": {
+    whatIs: "ReadTheory is an adaptive reading comprehension platform that adjusts difficulty to each student's level, providing personalized reading passages and comprehension questions to build strong reading skills over time.",
+    features: [
+      "Adaptive Difficulty: Reading level adjusts to each student",
+      "Comprehension Questions: Questions after every reading passage",
+      "Progress Tracking: Detailed reports on reading improvement",
+      "Lexile Alignment: Content matched to reading level scores",
+      "Teacher Dashboard: Monitor entire class reading progress"
+    ],
+    howToUse: {
+      title: "How to Use Readtheory",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Take the Placement Test", description: "Complete ReadTheory's initial assessment to establish your current reading comprehension level accurately." },
+        { title: "Read Your Passages", description: "Work through reading passages selected at your specific level with comprehension questions following each." },
+        { title: "Answer Questions", description: "Respond to comprehension questions testing your understanding of what you just read carefully." },
+        { title: "Track Your Growth", description: "Review your reading level progress over time and see how your comprehension skills are improving." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Adaptive Algorithm", description: "Continuously adjusts passage difficulty up or down based on your ongoing comprehension performance." },
+      { title: "Lexile Measurement", description: "Measures reading level using the widely recognized Lexile framework for standardized skill assessment." },
+      { title: "Teacher Visibility", description: "Gives educators a comprehensive dashboard showing every student's reading level and progress data." }
+    ],
+    useCases: [
+      { title: "K-12 Students", description: "Build reading comprehension skills systematically with passages and questions calibrated precisely to your level." },
+      { title: "Teachers", description: "Monitor class reading progress with detailed individual and group data that informs your instruction." },
+      { title: "Reading Intervention Programs", description: "Use adaptive difficulty to bring struggling readers up to grade level with appropriately challenging content." }
+    ]
+  },
+  "schoolai": {
+    whatIs: "SchoolAI is an AI platform built for K-12 education that provides teachers with tools for creating AI-powered classroom spaces while giving students safe age-appropriate AI learning experiences.",
+    features: [
+      "Safe Student AI: Age-appropriate AI interactions for students",
+      "Teacher Spaces: Create monitored AI learning environments",
+      "Classroom Tools: AI assistance for various learning tasks",
+      "Safety Controls: Teacher oversight of all student interactions",
+      "Curriculum Aligned: Content appropriate for school settings"
+    ],
+    howToUse: {
+      title: "How to Use Schoolai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Space", description: "Create your SchoolAI classroom space and configure the AI tools and topics available to your students." },
+        { title: "Invite Your Students", description: "Share access with your students through your school's established authentication system." },
+        { title: "Monitor Interactions", description: "Oversee student AI interactions through the teacher dashboard to ensure appropriate and productive use." },
+        { title: "Customize Activities", description: "Adjust available AI tools and content boundaries to align with your current curriculum and lesson goals." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Student Safety First", description: "Provides AI experiences specifically designed for young learners with appropriate content boundaries and oversight." },
+      { title: "Teacher Control", description: "Gives educators full visibility and control over the AI environment their students are working within." },
+      { title: "School Appropriate", description: "Filters and constrains AI interactions to remain appropriate for classroom educational settings always." }
+    ],
+    useCases: [
+      { title: "K-12 Teachers", description: "Introduce students to AI tools in a safe monitored environment that supports rather than disrupts learning." },
+      { title: "School Administrators", description: "Provide students with beneficial AI learning experiences while maintaining appropriate oversight and safety." },
+      { title: "Elementary Educators", description: "Give younger students positive first experiences with AI through age-appropriate controlled classroom tools." }
+    ]
+  },
+  "deepl": {
+    whatIs: "DeepL is a leading AI translation service known for producing the most natural and accurate translations across major world languages used by millions of individuals and businesses globally every day.",
+    features: [
+      "Superior Quality: Industry-leading translation accuracy and naturalness",
+      "Multiple Languages: Support for 30+ major world languages",
+      "Document Translation: Translate full documents preserving formatting",
+      "API Access: Integrate DeepL translation into your applications",
+      "DeepL Write: AI writing improvement alongside translation"
+    ],
+    howToUse: {
+      title: "How to Use Deepl",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Text", description: "Type or paste the text you want translated into the DeepL input field on the website or app." },
+        { title: "Select Languages", description: "Choose your source language or let DeepL detect it automatically and select your target language." },
+        { title: "Get Your Translation", description: "Receive your translation instantly and review it for accuracy and natural language quality." },
+        { title: "Translate Documents", description: "Upload Word, PDF, or PowerPoint files for full document translation with formatting preserved." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Translation Quality", description: "Consistently produces more natural fluent translations than competing services across tested language pairs." },
+      { title: "Document Handling", description: "Translates complete documents including Word and PDF files while maintaining original formatting accurately." },
+      { title: "Write Integration", description: "Combines translation with writing improvement tools for a more complete language assistance experience." }
+    ],
+    useCases: [
+      { title: "Business Professionals", description: "Communicate across language barriers with professional-quality translations for documents and correspondence." },
+      { title: "Translators", description: "Use DeepL as a high-quality starting point that significantly speeds up professional translation workflows." },
+      { title: "International Teams", description: "Collaborate effectively across languages with the most accurate AI translation service available today." }
+    ]
+  },
+  "immersive-translate": {
+    whatIs: "Immersive Translate is a bilingual web page translation extension that shows original and translated text side by side, enabling language learners and international users to read foreign content naturally.",
+    features: [
+      "Bilingual Display: Original and translation shown side by side",
+      "Web Page Translation: Translate any website you visit",
+      "PDF Translation: Bilingual translation of PDF documents",
+      "Multiple Engines: Choose from DeepL Google and other services",
+      "Language Learning Mode: Perfect for immersive language study"
+    ],
+    howToUse: {
+      title: "How to Use Immersive Translate",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Install the Extension", description: "Add Immersive Translate to your browser from the extension marketplace for your browser." },
+        { title: "Visit Any Website", description: "Browse to any foreign language website and activate translation for bilingual side-by-side display." },
+        { title: "Choose Your Engine", description: "Select your preferred translation engine from options including DeepL, Google, and others." },
+        { title: "Read Bilingually", description: "Study the original and translated text together for language learning or simple comprehension assistance." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Bilingual Layout", description: "Shows original and translated text simultaneously helping readers compare languages and learn naturally." },
+      { title: "Engine Flexibility", description: "Allows choosing between multiple translation providers for the best quality for each language pair." },
+      { title: "PDF Support", description: "Translates PDF documents bilingually making foreign language documents fully accessible to any reader." }
+    ],
+    useCases: [
+      { title: "Language Learners", description: "Read foreign language content with translation support for immersive learning without losing original text." },
+      { title: "Researchers", description: "Access foreign language academic papers and websites with bilingual display for accurate understanding." },
+      { title: "International Professionals", description: "Navigate foreign language business content and communications comfortably in your working language." }
+    ]
+  },
+  "openl-translate": {
+    whatIs: "OpenL Translate is a free AI translation tool that provides high-quality text translation across multiple languages using advanced language models for natural accurate results without usage fees.",
+    features: [
+      "Free Translation: Quality translation without payment required",
+      "Multiple Languages: Support for major world language pairs",
+      "AI Quality: Advanced language model powered translation",
+      "Simple Interface: Clean easy-to-use translation experience",
+      "No Registration: Translate immediately without an account"
+    ],
+    howToUse: {
+      title: "How to Use Openl Translate",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Text", description: "Type or paste the text you want translated into the OpenL Translate input area." },
+        { title: "Select Your Languages", description: "Choose the source and target languages for your translation from available options." },
+        { title: "Get Your Translation", description: "Receive your AI-powered translation instantly and review it for accuracy and fluency." },
+        { title: "Copy and Use", description: "Copy your translated text and use it in your documents, emails, or communications as needed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Access", description: "Provides quality AI translation completely free making it accessible to anyone without payment barriers." },
+      { title: "AI-Powered Quality", description: "Uses advanced language models to produce translations that are more natural than older rule-based systems." },
+      { title: "No Registration Required", description: "Translates immediately without account creation for maximum convenience and accessibility." }
+    ],
+    useCases: [
+      { title: "Casual Users", description: "Translate text quickly and freely without signing up or paying for occasional translation needs." },
+      { title: "Students", description: "Access quality translation for language learning and academic work without subscription costs." },
+      { title: "Anyone Needing Translation", description: "Get reliable AI translation for any purpose completely free with no account or payment required." }
+    ]
+  },
+  "machinetranslation-com": {
+    whatIs: "MachineTranslation.com is a translation comparison platform that simultaneously translates your text using multiple AI engines and shows you the results side by side so you can choose the best output.",
+    features: [
+      "Multi-Engine Comparison: See results from multiple translators",
+      "Side-by-Side Display: Compare translations simultaneously",
+      "Multiple Engines: DeepL Google Microsoft and more compared",
+      "Quality Selection: Pick the best translation from all options",
+      "Free to Use: Compare translations without payment required"
+    ],
+    howToUse: {
+      title: "How to Use Machinetranslation Com",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Text", description: "Type or paste the text you want translated into the MachineTranslation.com input field." },
+        { title: "Select Your Languages", description: "Choose source and target languages for your translation comparison across all engines." },
+        { title: "View All Results", description: "See translations from multiple engines displayed side by side for easy quality comparison." },
+        { title: "Choose the Best", description: "Select the translation that reads most naturally and accurately for your specific content and context." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Simultaneous Comparison", description: "Runs your text through multiple translation engines at once for efficient quality evaluation." },
+      { title: "Engine Coverage", description: "Includes results from leading translation services including DeepL, Google, and Microsoft Translator." },
+      { title: "Quality Optimization", description: "Empowers users to select the highest quality translation rather than accepting a single engine's output." }
+    ],
+    useCases: [
+      { title: "Professional Translators", description: "Use multiple engine comparison to find the best starting point for post-editing and refinement work." },
+      { title: "Quality-Conscious Users", description: "Ensure you get the best possible translation by comparing multiple engines before committing to output." },
+      { title: "Researchers", description: "Find the most accurate translation for technical or specialized content by comparing engine outputs." }
+    ]
+  },
+  "guidde": {
+    whatIs: "Guidde is an AI video documentation tool that automatically creates step-by-step video guides from your screen recordings, turning any workflow demonstration into professional shareable documentation instantly.",
+    features: [
+      "Auto Video Docs: Screen recordings become step-by-step guides",
+      "AI Voiceover: Professional narration added automatically",
+      "Step Detection: Automatically identifies workflow steps",
+      "Branded Output: Apply your visual brand to all guides",
+      "Easy Sharing: Instant shareable links for every guide"
+    ],
+    howToUse: {
+      title: "How to Use Guidde",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record Your Workflow", description: "Start a Guidde recording and perform the process or workflow you want to document naturally." },
+        { title: "AI Processes Recording", description: "Guidde automatically detects steps, captures screenshots, and adds professional voiceover narration." },
+        { title: "Review and Edit", description: "Check the generated guide for accuracy and make any adjustments to steps, text, or narration." },
+        { title: "Share Instantly", description: "Generate a shareable link and distribute your video guide to your team or customers immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Step Detection", description: "Identifies individual workflow steps from your screen recording without manual annotation or editing." },
+      { title: "AI Voiceover", description: "Adds professional-quality narration automatically eliminating the need to record your own voice." },
+      { title: "Instant Documentation", description: "Creates complete video guides from recordings in minutes rather than hours of manual production work." }
+    ],
+    useCases: [
+      { title: "Customer Success Teams", description: "Create product walkthroughs and onboarding guides automatically to help new users get started faster." },
+      { title: "Operations Teams", description: "Document processes and procedures as video guides that new employees can follow independently." },
+      { title: "Support Teams", description: "Build a library of visual how-to guides that answer common customer questions without repetitive manual explanation." }
+    ]
+  },
+  "midlibrary": {
+    whatIs: "Midlibrary is a curated resource platform for Midjourney users that provides an extensive searchable library of styles, artists, and prompts to help AI image creators craft more effective and creative prompts.",
+    features: [
+      "Style Library: Thousands of curated Midjourney style references",
+      "Artist References: Explore artistic styles for prompt inspiration",
+      "Prompt Examples: Real examples showing different style outputs",
+      "Searchable Database: Find styles by keyword or category",
+      "Community Resource: Continuously growing user-contributed library"
+    ],
+    howToUse: {
+      title: "How to Use Midlibrary",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Style", description: "Enter keywords describing the visual style or aesthetic you want to achieve in your Midjourney prompt." },
+        { title: "Browse Results", description: "Explore matching styles with visual examples showing how each style affects Midjourney output." },
+        { title: "Pick Your References", description: "Select the styles or artists that match your creative vision for incorporating into your prompt." },
+        { title: "Build Your Prompt", description: "Combine your chosen style references with your subject matter for more effective Midjourney results." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Visual Style Examples", description: "Shows actual Midjourney outputs for each style so users can see exactly what to expect before prompting." },
+      { title: "Artist Reference Database", description: "Provides a searchable library of artistic styles and references for more creative and specific prompting." },
+      { title: "Community Growth", description: "Benefits from continuous community contributions that expand the library of available style references." }
+    ],
+    useCases: [
+      { title: "Midjourney Users", description: "Improve your AI image results dramatically by discovering and using the right style references in prompts." },
+      { title: "Designers", description: "Explore artistic styles and references to find the right aesthetic direction for your AI image projects." },
+      { title: "Creative Professionals", description: "Build a personal style vocabulary for consistent and high-quality AI image generation results." }
+    ]
+  },
+  "projectai": {
+    whatIs: "ProjectAI is an AI project management assistant that helps teams plan projects, generate task lists, track progress, and solve project challenges using conversational AI integrated into the project workflow.",
+    features: [
+      "AI Project Planning: Generate project plans from descriptions",
+      "Task Generation: Break goals into actionable task lists",
+      "Progress Tracking: Monitor project status with AI assistance",
+      "Problem Solving: Get AI help when projects face challenges",
+      "Team Collaboration: Shared AI-assisted project workspace"
+    ],
+    howToUse: {
+      title: "How to Use Projectai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Project", description: "Tell ProjectAI about your project goals, timeline, and team to generate an initial project plan." },
+        { title: "Review Your Plan", description: "Check the AI-generated project structure, milestones, and task breakdown for completeness and accuracy." },
+        { title: "Assign and Track", description: "Assign tasks to team members and track progress through the collaborative project dashboard." },
+        { title: "Ask for Help", description: "Consult the AI assistant when your project faces obstacles or needs replanning and adjustment." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Plan Generation", description: "Creates structured project plans with milestones and tasks from high-level project descriptions." },
+      { title: "Conversational Interface", description: "Allows teams to interact with their project data through natural language rather than rigid form inputs." },
+      { title: "Adaptive Planning", description: "Helps replan and adjust projects when circumstances change or unexpected challenges arise." }
+    ],
+    useCases: [
+      { title: "Project Managers", description: "Generate initial project plans quickly and get AI assistance when projects need replanning or problem solving." },
+      { title: "Startup Teams", description: "Plan and manage projects without dedicated project management expertise using AI-guided structure." },
+      { title: "Freelancers", description: "Organize client projects with AI-generated plans and task lists that keep work on track and visible." }
+    ]
+  },
+  "clideo": {
+    whatIs: "Clideo is an online video editing platform that provides a comprehensive suite of video tools including cutting, merging, compressing, and adding subtitles all accessible through your browser without any software download.",
+    features: [
+      "Online Editing: Full video editing tools in your browser",
+      "Video Cutting: Trim and cut videos to any length",
+      "Merge Videos: Combine multiple clips into one video",
+      "Auto Subtitles: AI-generated captions for any video",
+      "Multiple Formats: Works with all common video file types"
+    ],
+    howToUse: {
+      title: "How to Use Clideo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Import your video file into Clideo's browser-based editor from your device or cloud storage." },
+        { title: "Choose Your Tool", description: "Select from Clideo's range of tools including cut, merge, compress, subtitle, and more." },
+        { title: "Edit Your Content", description: "Apply your chosen edits and transformations to your video using the online interface." },
+        { title: "Download Your Result", description: "Export your edited video in your preferred format and resolution for immediate use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser-Based Access", description: "Provides comprehensive video editing without requiring software installation on any device." },
+      { title: "Auto Subtitle Generation", description: "Creates accurate captions for any video automatically supporting accessibility and silent viewing." },
+      { title: "Format Versatility", description: "Handles all common video formats for import and export making it compatible with any workflow." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Edit and prepare social media videos quickly using professional tools without desktop software." },
+      { title: "Marketers", description: "Process video content for campaigns efficiently with a browser-based suite of video editing tools." },
+      { title: "General Users", description: "Handle any video editing task occasionally without paying for or installing dedicated video software." }
+    ]
+  },
+  "blipcut-ai-video-translator": {
+    whatIs: "BlipCut AI Video Translator is an AI tool that translates video content into multiple languages by transcribing the original audio and generating dubbed or subtitled versions for international distribution.",
+    features: [
+      "Video Translation: Translate videos into multiple languages",
+      "AI Dubbing: Replace original audio with translated voice",
+      "Subtitle Generation: Create translated subtitle files",
+      "Multiple Languages: Support for dozens of target languages",
+      "Fast Processing: Translated videos ready quickly"
+    ],
+    howToUse: {
+      title: "How to Use Blipcut Ai Video Translator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Video", description: "Import the video you want translated into BlipCut for processing and language conversion." },
+        { title: "Select Target Language", description: "Choose the language or languages you want your video content translated into." },
+        { title: "Choose Output Type", description: "Select between AI-dubbed audio replacement or translated subtitle generation for your needs." },
+        { title: "Download Your Video", description: "Receive your translated video with dubbed audio or subtitles ready for international distribution." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Dubbing Technology", description: "Replaces original audio with natural-sounding translated speech in the target language." },
+      { title: "Subtitle Generation", description: "Creates accurately translated subtitle files synchronized with the original video timing." },
+      { title: "Multi-Language Support", description: "Translates video content into dozens of languages for truly international content distribution." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Reach international audiences by translating your video content into multiple languages efficiently." },
+      { title: "Businesses", description: "Localize marketing and training videos for different regional markets without expensive production." },
+      { title: "Educators", description: "Make educational video content accessible to students who speak different native languages globally." }
+    ]
+  },
   "scoreapp": {
     whatIs: "ScoreApp is an AI-powered quiz and scorecard funnel builder that helps businesses generate qualified leads by creating interactive assessments that deliver personalized results and recommendations to respondents.",
     features: [
