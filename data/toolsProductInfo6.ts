@@ -1,4 +1,574 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "animaker": {
+    whatIs: "Animaker is a cloud-based animation and video making platform that lets anyone create professional animated videos, presentations, and infographics using drag-and-drop tools without any design experience.",
+    features: [
+      "Character Animation: Hundreds of pre-built animated characters",
+      "Drag and Drop: Simple visual editor for non-designers",
+      "Video Templates: Ready-made templates for every use case",
+      "Voice Over: Record or use text-to-speech narration",
+      "Multiple Formats: Export for YouTube social media and more"
+    ],
+    howToUse: {
+      title: "How to Use Animaker",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Browse Animaker's library and select a template that matches your video topic and style." },
+        { title: "Customize Your Scene", description: "Add animated characters, backgrounds, text, and props using the drag-and-drop editor." },
+        { title: "Add Audio", description: "Record your own voiceover or use the built-in text-to-speech feature for narration." },
+        { title: "Export Your Video", description: "Download your finished animation in the format and resolution you need for your platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Character Library", description: "Provides hundreds of diverse animated characters with customizable expressions and actions." },
+      { title: "Template Variety", description: "Covers explainer videos, social media content, presentations, and infographics in one platform." },
+      { title: "No Design Skills Needed", description: "Drag-and-drop interface makes professional animation accessible to complete beginners immediately." }
+    ],
+    useCases: [
+      { title: "Marketing Teams", description: "Create engaging animated explainer videos and social content without hiring animation studios." },
+      { title: "Educators", description: "Produce animated educational content that captures student attention more effectively than static slides." },
+      { title: "Small Business Owners", description: "Make professional promotional videos independently without animation expertise or large budgets." }
+    ]
+  },
+  "animate-ai": {
+    whatIs: "Animate AI is an AI-powered animation tool that transforms static images and photos into smooth animated videos by intelligently predicting and generating natural motion from still visual content.",
+    features: [
+      "Image Animation: Bring still photos to life with AI motion",
+      "Natural Movement: AI generates realistic fluid animations",
+      "Fast Processing: Animated videos ready in seconds",
+      "Multiple Styles: Different animation styles available",
+      "Easy Upload: Simple photo to animation workflow"
+    ],
+    howToUse: {
+      title: "How to Use Animate Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Select and upload the static photo or image you want to animate with AI." },
+        { title: "Choose Animation Style", description: "Pick the type of motion and animation style that fits your image and intended use." },
+        { title: "Generate Your Animation", description: "Let the AI analyze your image and produce a smooth natural animation from the static content." },
+        { title: "Download and Share", description: "Save your animated video and share it across social media or use it in your projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Motion Prediction", description: "Uses AI to intelligently predict natural movement patterns appropriate for the image content." },
+      { title: "Fluid Animation Quality", description: "Generates smooth animations that look natural rather than robotic or mechanical in motion." },
+      { title: "Speed of Processing", description: "Delivers animated results quickly without lengthy processing times for a fast workflow." }
+    ],
+    useCases: [
+      { title: "Social Media Creators", description: "Transform portrait and landscape photos into eye-catching animated content for social feeds." },
+      { title: "Photographers", description: "Give your photography portfolio a dynamic element by animating your best still shots." },
+      { title: "Content Marketers", description: "Create animated versions of product images and brand photos for more engaging digital content." }
+    ]
+  },
+  "autodraft-ai": {
+    whatIs: "Autodraft AI is an AI-powered video script and storyboard generation tool that helps video creators plan their content by automatically drafting scripts, shot lists, and visual storyboards from simple ideas.",
+    features: [
+      "Script Generation: Full video scripts from simple prompts",
+      "Storyboard Creation: Visual shot planning generated automatically",
+      "Shot Lists: Detailed production planning documents",
+      "Scene Planning: AI-structured scene breakdowns",
+      "Multiple Formats: Scripts for different video types"
+    ],
+    howToUse: {
+      title: "How to Use Autodraft Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Video", description: "Enter your video idea, topic, and target audience to begin the AI drafting process." },
+        { title: "Review Your Script", description: "Read through the AI-generated script and assess the structure, flow, and content accuracy." },
+        { title: "Generate Storyboard", description: "Convert your script into a visual storyboard with shot descriptions and scene breakdowns." },
+        { title: "Refine and Produce", description: "Edit the generated script and storyboard to match your vision before beginning production." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Script Intelligence", description: "Generates complete structured scripts with natural dialogue and logical content flow automatically." },
+      { title: "Visual Planning", description: "Creates storyboard frames and shot descriptions that translate script scenes into production plans." },
+      { title: "Format Versatility", description: "Produces scripts optimized for different video formats from YouTube tutorials to social media reels." }
+    ],
+    useCases: [
+      { title: "Video Creators", description: "Plan your video content faster with AI-drafted scripts and storyboards as a strong starting point." },
+      { title: "Marketing Teams", description: "Generate video production documents quickly for campaign videos without dedicated scriptwriters." },
+      { title: "Film Students", description: "Practice storyboarding and script writing with AI-generated starting points to learn from and improve." }
+    ]
+  },
+  "deep-nostalgia-ai": {
+    whatIs: "Deep Nostalgia AI is a photo animation tool from MyHeritage that brings historical and family photos to life by generating realistic facial animations from still portrait images using deep learning technology.",
+    features: [
+      "Photo Animation: Animate faces in historical photos realistically",
+      "Family History: Perfect for old family portrait animations",
+      "Realistic Motion: Natural head and eye movement generation",
+      "Easy to Use: Simple upload and animate workflow",
+      "Multiple Animations: Different motion styles for each photo"
+    ],
+    howToUse: {
+      title: "How to Use Deep Nostalgia Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Select a portrait photo with a clear face visible for Deep Nostalgia to animate effectively." },
+        { title: "Choose Animation Style", description: "Pick from the available animation styles that determine the movement pattern applied to the face." },
+        { title: "Generate Animation", description: "Let the AI process your photo and produce a short animated video of the face coming to life." },
+        { title: "Download and Share", description: "Save your animated photo video and share the touching result with family members and friends." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Facial Animation Technology", description: "Generates realistic facial movements including eye blinking, head turning, and subtle expressions." },
+      { title: "Historical Photo Specialty", description: "Optimized specifically for animating older portrait photos including black and white images." },
+      { title: "Emotional Connection", description: "Creates deeply personal and moving animations that connect families to their heritage visually." }
+    ],
+    useCases: [
+      { title: "Family History Enthusiasts", description: "Bring ancestors back to life through animation and share the experience with your entire family." },
+      { title: "Genealogy Researchers", description: "Add emotional depth to family tree presentations by animating historical portrait photographs." },
+      { title: "Memorial Projects", description: "Create moving tribute videos featuring animated photos of loved ones for memorials and celebrations." }
+    ]
+  },
+  "a2e-ai-videos": {
+    whatIs: "A2E is a free AI video generation platform that creates uncensored and unrestricted AI videos from text prompts, offering creators more creative freedom than typical content-restricted AI video tools.",
+    features: [
+      "Free Video Generation: Create AI videos without payment",
+      "Text to Video: Generate videos from text descriptions",
+      "Creative Freedom: Fewer content restrictions than competitors",
+      "Multiple Styles: Various visual styles for generated videos",
+      "Fast Generation: Videos produced quickly from prompts"
+    ],
+    howToUse: {
+      title: "How to Use A2E Ai Videos",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Enter a detailed text description of the video content you want the AI to generate." },
+        { title: "Select Your Style", description: "Choose the visual style that best matches the aesthetic you want for your generated video." },
+        { title: "Generate Your Video", description: "Submit your prompt and wait for the AI to produce your video from the description." },
+        { title: "Download and Use", description: "Save your generated video and use it in your creative projects or share it online." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Access", description: "Provides AI video generation at no cost making it accessible to creators without production budgets." },
+      { title: "Creative Flexibility", description: "Offers fewer content restrictions giving creators more freedom to explore diverse creative concepts." },
+      { title: "Style Options", description: "Generates videos across multiple visual styles catering to different creative aesthetics and needs." }
+    ],
+    useCases: [
+      { title: "Independent Creators", description: "Generate diverse video content freely without the restrictions that limit other AI video platforms." },
+      { title: "Content Experimenters", description: "Explore unconventional video ideas and creative concepts with fewer platform content limitations." },
+      { title: "Budget Creators", description: "Access AI video generation capabilities completely free without subscription or per-video payment fees." }
+    ]
+  },
+  "dreamface": {
+    whatIs: "DreamFace is an AI photo animation and avatar creation tool that animates portrait photos and generates talking avatar videos from uploaded images for personalized video content creation.",
+    features: [
+      "Photo Animation: Animate any portrait photo naturally",
+      "Talking Avatars: Make photos speak with AI lip sync",
+      "Avatar Creation: Generate AI avatars from photos",
+      "Multiple Expressions: Various emotional expressions available",
+      "Easy Workflow: Simple upload to animated video process"
+    ],
+    howToUse: {
+      title: "How to Use Dreamface",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Portrait", description: "Select a clear portrait photo with a visible face to use as your animation starting point." },
+        { title: "Choose Your Animation", description: "Select whether you want a talking avatar, facial animation, or expression change applied." },
+        { title: "Add Your Audio", description: "Upload audio or type text for lip sync if creating a talking avatar video presentation." },
+        { title: "Generate and Download", description: "Process your animation and download the finished animated portrait video for sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Lip Sync Technology", description: "Synchronizes mouth movements to audio input for realistic talking avatar video creation." },
+      { title: "Expression Generation", description: "Creates varied facial expressions and natural movements from still portrait photographs." },
+      { title: "Avatar Personalization", description: "Generates personalized AI avatars based on your uploaded photos for unique digital representation." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Create personalized talking avatar videos from your own photos for engaging digital content." },
+      { title: "Business Presenters", description: "Generate professional talking head videos without camera equipment or recording sessions." },
+      { title: "Social Media Users", description: "Animate your profile photos and portraits for eye-catching social media content and stories." }
+    ]
+  },
+  "unlucid-ai": {
+    whatIs: "Unlucid AI is an AI video generation platform that creates high-quality videos from text prompts and images, offering creators a straightforward tool for producing original AI-generated video content.",
+    features: [
+      "Text to Video: Generate videos from descriptive text prompts",
+      "Image to Video: Animate static images into video content",
+      "High Quality Output: Crisp detailed AI video generation",
+      "Multiple Styles: Various artistic and realistic styles",
+      "Fast Processing: Quick video generation from prompts"
+    ],
+    howToUse: {
+      title: "How to Use Unlucid Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Prompt", description: "Write a detailed description of the video scene or content you want the AI to create." },
+        { title: "Choose Your Style", description: "Select the visual style and aesthetic you want applied to your generated video content." },
+        { title: "Generate Your Video", description: "Submit your prompt and let the AI produce your video from the description provided." },
+        { title: "Download and Share", description: "Save your AI-generated video and use it in your projects or share it with your audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Prompt Understanding", description: "Interprets detailed text descriptions accurately to generate relevant and high-quality video content." },
+      { title: "Style Range", description: "Offers multiple visual styles from photorealistic to artistic for diverse creative video needs." },
+      { title: "Output Quality", description: "Produces videos with detail and clarity that meet content creation standards for online publishing." }
+    ],
+    useCases: [
+      { title: "Video Creators", description: "Generate original video content from text ideas without filming equipment or production resources." },
+      { title: "Creative Professionals", description: "Explore visual storytelling concepts quickly using AI video generation as a rapid prototyping tool." },
+      { title: "Marketing Teams", description: "Create unique video content for campaigns without the logistics of traditional video production." }
+    ]
+  },
+  "vidu-ai": {
+    whatIs: "Vidu AI is a Chinese AI video generation platform that produces high-quality cinematic videos from text prompts and images, known for impressive visual quality and realistic motion in generated content.",
+    features: [
+      "Cinematic Quality: High-quality cinematic video generation",
+      "Text to Video: Generate videos from text descriptions",
+      "Image Animation: Convert images to video content",
+      "Realistic Motion: Natural fluid movement in generated videos",
+      "Long Duration: Generate longer video clips than many competitors"
+    ],
+    howToUse: {
+      title: "How to Use Vidu Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Describe your video scene in detail including setting, characters, action, and mood for best results." },
+        { title: "Upload Reference Image", description: "Optionally provide a reference image to guide the visual style of your generated video." },
+        { title: "Generate Your Video", description: "Submit your prompt and let Vidu AI produce your cinematic video from the description." },
+        { title: "Download Your Content", description: "Save your generated video in high quality for use in your creative projects and productions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cinematic Output Quality", description: "Produces videos with visual quality approaching professional cinematography in generated content." },
+      { title: "Realistic Motion Generation", description: "Creates natural fluid movement that avoids the artificial look common in lower-quality AI video tools." },
+      { title: "Extended Duration", description: "Generates video clips of longer duration than many competing AI video generation platforms." }
+    ],
+    useCases: [
+      { title: "Filmmakers", description: "Prototype cinematic scenes and visual concepts quickly using high-quality AI video generation." },
+      { title: "Video Producers", description: "Generate high-quality B-roll and supplementary footage for professional video production projects." },
+      { title: "Creative Directors", description: "Visualize campaign concepts and creative directions with cinematic AI video prototyping tools." }
+    ]
+  },
+  "viggle-ai": {
+    whatIs: "Viggle AI is an AI video generation tool that specializes in creating character motion videos by applying reference movements to any character, enabling creators to animate characters with realistic physics-based motion.",
+    features: [
+      "Character Motion: Apply any movement to any character",
+      "Physics Simulation: Realistic physics in character animation",
+      "Reference Video: Use video references for motion application",
+      "Character Consistency: Maintain character appearance through motion",
+      "Creative Freedom: Mix any character with any movement style"
+    ],
+    howToUse: {
+      title: "How to Use Viggle Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Character", description: "Provide an image of the character you want to animate with your chosen movement reference." },
+        { title: "Add Motion Reference", description: "Upload a video showing the movement or action you want applied to your character." },
+        { title: "Generate Animation", description: "Let Viggle AI combine your character with the reference motion for realistic animated output." },
+        { title: "Download Your Video", description: "Save the animated character video and use it in your creative content projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Motion Transfer Technology", description: "Applies movement from reference videos to different characters while maintaining visual consistency." },
+      { title: "Physics Accuracy", description: "Simulates realistic physics in character movement for natural-looking animated results." },
+      { title: "Character Preservation", description: "Maintains the original character's appearance and style throughout the applied motion sequence." }
+    ],
+    useCases: [
+      { title: "Animation Creators", description: "Animate any character with diverse movements without traditional keyframe animation technical skills." },
+      { title: "Content Creators", description: "Create unique character animation content for social media using creative motion combinations." },
+      { title: "Game Developers", description: "Prototype character animations quickly using AI-powered motion transfer as a development tool." }
+    ]
+  },
+  "vidyard": {
+    whatIs: "Vidyard is a video hosting and analytics platform for businesses that enables sales and marketing teams to create, share, and track personalized video messages for more effective customer communication.",
+    features: [
+      "Video Hosting: Professional video storage and delivery",
+      "Personal Video Messages: Record and send personalized videos",
+      "Video Analytics: Track who watches your videos and for how long",
+      "CRM Integration: Connect with Salesforce HubSpot and more",
+      "Screen Recording: Capture screen and webcam simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Vidyard",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record Your Video", description: "Use Vidyard's Chrome extension or desktop app to record your screen, webcam, or both together." },
+        { title: "Personalize Your Message", description: "Add the recipient's name, company, or custom details to make your video feel genuinely personal." },
+        { title: "Send Your Video", description: "Share via email, LinkedIn, or any platform using Vidyard's shareable video link." },
+        { title: "Track Engagement", description: "See exactly who watched your video, how long they watched, and when they stopped viewing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Viewer Analytics", description: "Shows detailed data on who watched your video, watch duration, and engagement patterns." },
+      { title: "Personalization Tools", description: "Adds recipient-specific personalization elements that make video messages feel individually crafted." },
+      { title: "CRM Synchronization", description: "Syncs video view data with CRM platforms to inform sales follow-up timing and approach." }
+    ],
+    useCases: [
+      { title: "Sales Teams", description: "Send personalized video messages that stand out from text emails and dramatically improve response rates." },
+      { title: "Marketing Teams", description: "Host and analyze marketing videos with detailed viewer engagement data for optimization." },
+      { title: "Customer Success Teams", description: "Use personal video to onboard customers, address issues, and build stronger client relationships." }
+    ]
+  },
+  "virbo": {
+    whatIs: "Virbo is an AI video creation platform by Wondershare that generates professional talking avatar videos from text scripts using realistic AI presenters in multiple languages for marketing and training content.",
+    features: [
+      "AI Avatars: Realistic digital presenters for your videos",
+      "Text to Video: Type scripts and generate presenter videos",
+      "Multiple Languages: Avatars speak in 20+ languages",
+      "Voice Cloning: Create videos in your own cloned voice",
+      "Template Library: Professional video templates included"
+    ],
+    howToUse: {
+      title: "How to Use Virbo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Avatar", description: "Select from Virbo's library of diverse realistic AI presenter avatars for your video." },
+        { title: "Write Your Script", description: "Type or paste the script you want your AI presenter to deliver in your video." },
+        { title: "Select Language and Voice", description: "Choose the language and voice style for your avatar's narration from available options." },
+        { title: "Generate and Download", description: "Create your professional presenter video and download it for immediate use in your projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Realistic Avatar Quality", description: "Provides photorealistic digital presenters that look and move like genuine human presenters." },
+      { title: "Multilingual Support", description: "Generates presenter videos in over 20 languages for international content distribution needs." },
+      { title: "Voice Cloning", description: "Creates presenter videos using a cloned version of your own voice for personal brand consistency." }
+    ],
+    useCases: [
+      { title: "Marketing Professionals", description: "Create professional spokesperson videos at scale without organizing filming sessions or hiring talent." },
+      { title: "Online Educators", description: "Produce engaging video lessons with realistic AI presenters without needing to appear on camera." },
+      { title: "Corporate Trainers", description: "Generate multilingual training videos efficiently for diverse international employee audiences." }
+    ]
+  },
+  "captions-app": {
+    whatIs: "Captions is an AI-powered video creation and editing app that automatically adds captions, enables AI avatars, enhances video quality, and provides a suite of AI tools for social media video creators.",
+    features: [
+      "Auto Captions: Accurate AI captions added automatically",
+      "AI Avatars: Create videos with AI digital presenters",
+      "Eye Contact Correction: AI fixes eye contact in recorded videos",
+      "Video Translation: Translate videos into other languages",
+      "Social Optimization: Tools built for social media creators"
+    ],
+    howToUse: {
+      title: "How to Use Captions App",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Record or Upload", description: "Record a video directly in the Captions app or upload existing footage for AI enhancement." },
+        { title: "Add Auto Captions", description: "Enable automatic captioning and let AI transcribe and display your spoken words accurately." },
+        { title: "Enhance Your Video", description: "Apply eye contact correction, background removal, and other AI enhancements to your footage." },
+        { title: "Export and Post", description: "Download your enhanced captioned video and post directly to your social media platforms." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Captioning", description: "Transcribes speech and adds synchronized captions automatically with high accuracy across accents." },
+      { title: "Eye Contact AI", description: "Corrects eye contact in recorded videos so presenters appear to look directly at the camera." },
+      { title: "Social Creator Focus", description: "Provides a suite of tools specifically designed for the needs of social media video creators." }
+    ],
+    useCases: [
+      { title: "Social Media Creators", description: "Add professional captions and AI enhancements to your videos quickly for higher engagement rates." },
+      { title: "Business Video Makers", description: "Create polished talking head videos with eye contact correction and professional captions easily." },
+      { title: "Accessibility Focused Creators", description: "Ensure all video content is accessible to deaf and hard of hearing audiences with accurate captions." }
+    ]
+  },
+  "elai-io": {
+    whatIs: "Elai.io is an AI video generation platform that creates professional presenter videos from text using realistic AI avatars, enabling businesses to produce training, marketing, and communication videos at scale.",
+    features: [
+      "100+ AI Avatars: Diverse realistic digital presenters",
+      "Text to Video: Scripts converted to presenter videos instantly",
+      "Custom Avatars: Create an AI avatar of yourself",
+      "60+ Languages: Video creation in over 60 languages",
+      "SCORM Export: Export for learning management systems"
+    ],
+    howToUse: {
+      title: "How to Use Elai Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Avatar", description: "Browse over 100 realistic AI avatars and select the presenter that fits your brand and audience." },
+        { title: "Write Your Script", description: "Enter the text you want your AI presenter to deliver in your generated video." },
+        { title: "Customize Your Video", description: "Add backgrounds, music, and branding elements to make the video match your visual identity." },
+        { title: "Generate and Export", description: "Create your video and export it for web publishing, LMS delivery, or direct download." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Avatar Diversity", description: "Offers over 100 diverse realistic avatars representing different ages, ethnicities, and presentation styles." },
+      { title: "LMS Integration", description: "Exports in SCORM format for direct integration with all major learning management systems." },
+      { title: "Custom Avatar Creation", description: "Builds a personalized AI avatar of yourself for consistent personal brand representation in videos." }
+    ],
+    useCases: [
+      { title: "L&D Professionals", description: "Create training videos at scale using AI avatars without expensive video production for every module." },
+      { title: "Marketing Agencies", description: "Produce diverse spokesperson videos for different clients using a wide range of realistic AI avatars." },
+      { title: "Global Organizations", description: "Generate training and communication content in 60+ languages for international workforce needs." }
+    ]
+  },
+  "jogg-ai": {
+    whatIs: "Jogg.ai is an AI video creation platform that automatically generates social media video ads from product URLs or descriptions, helping e-commerce brands create high-converting video content without production resources.",
+    features: [
+      "URL to Video: Paste a product link to generate an ad video",
+      "UGC Style: Creates authentic user-generated content style ads",
+      "AI Avatars: Realistic presenters for product demonstrations",
+      "Multiple Formats: Videos sized for TikTok Reels and more",
+      "Fast Creation: Product ads generated in minutes"
+    ],
+    howToUse: {
+      title: "How to Use Jogg Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Product URL", description: "Enter your product page URL or describe your product and Jogg.ai analyzes it automatically." },
+        { title: "Select Your Style", description: "Choose from UGC style, avatar presenter, or other ad formats for your product video." },
+        { title: "Customize Content", description: "Adjust the script, visuals, and branding elements to match your campaign requirements." },
+        { title: "Download and Run", description: "Export your product video ad and launch it directly in your social media ad campaigns." }
+      ]
+    },
+    coreFeatures: [
+      { title: "URL Intelligence", description: "Analyzes product pages automatically to extract information and generate relevant video ad content." },
+      { title: "UGC Style Generation", description: "Creates authentic-looking user-generated content style videos that perform well in social feeds." },
+      { title: "Ad Format Optimization", description: "Produces videos in the correct dimensions and durations for different social media advertising formats." }
+    ],
+    useCases: [
+      { title: "E-commerce Brands", description: "Generate product video ads quickly without production teams for high-volume social media advertising." },
+      { title: "Dropshippers", description: "Create product demonstration videos rapidly for testing multiple products in paid social campaigns." },
+      { title: "Performance Marketers", description: "Produce large volumes of video ad creative variations for systematic testing and optimization." }
+    ]
+  },
+  "tooncrafter-ai": {
+    whatIs: "ToonCrafter AI is an AI video interpolation tool that generates smooth animated transitions between two cartoon or anime-style images, enabling creators to produce fluid animation from static keyframe illustrations.",
+    features: [
+      "Image Interpolation: Generate smooth transitions between images",
+      "Cartoon Style: Optimized for anime and cartoon illustrations",
+      "Fluid Animation: Natural motion between keyframe images",
+      "Frame Generation: Creates missing frames automatically",
+      "Open Source: Based on open-source research technology"
+    ],
+    howToUse: {
+      title: "How to Use Tooncrafter Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Prepare Your Images", description: "Create or select two cartoon or anime-style keyframe images you want to animate between." },
+        { title: "Upload Your Keyframes", description: "Import both keyframe images into ToonCrafter AI for interpolation processing." },
+        { title: "Configure Settings", description: "Adjust the number of generated frames and animation duration for your desired output." },
+        { title: "Download Your Animation", description: "Receive the smooth animated transition between your two images as a video file." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Cartoon Interpolation", description: "Specializes in generating smooth transitions specifically between cartoon and anime-style artwork." },
+      { title: "Automatic Frame Creation", description: "Generates all intermediate frames between two keyframes without manual animation work." },
+      { title: "Research Foundation", description: "Built on published AI research providing technically sound and high-quality interpolation results." }
+    ],
+    useCases: [
+      { title: "Animators", description: "Speed up animation production by generating in-between frames automatically from your keyframe drawings." },
+      { title: "Manga and Comic Artists", description: "Bring your illustrated characters to life with smooth animated transitions between poses." },
+      { title: "Animation Students", description: "Learn animation principles by experimenting with AI-generated interpolation of your artwork." }
+    ]
+  },
+  "p5-cartoon-overlay": {
+    whatIs: "P5 and FaceAPI Cartoon Overlay is an open-source creative coding tool that applies real-time cartoon and artistic filters to webcam video using face detection, enabling interactive face-based creative visualizations.",
+    features: [
+      "Real-Time Filters: Apply cartoon effects to live webcam video",
+      "Face Detection: AI tracks and detects faces in real time",
+      "Creative Coding: Built with p5.js and face-api.js",
+      "Interactive Art: Live responsive artistic video effects",
+      "Open Source: Free to use and modify for any project"
+    ],
+    howToUse: {
+      title: "How to Use P5 Cartoon Overlay",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Open the Tool", description: "Access the P5 Cartoon Overlay tool in your browser with webcam permissions enabled." },
+        { title: "Allow Camera Access", description: "Grant the tool permission to access your webcam for real-time face detection and filtering." },
+        { title: "Choose Your Filter", description: "Select from available cartoon and artistic overlay filters to apply to your live video." },
+        { title: "Interact and Create", description: "Move and interact in front of your camera to see the cartoon effects respond to your face in real time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Real-Time Processing", description: "Applies cartoon effects to live video instantly without noticeable latency during interaction." },
+      { title: "Face API Integration", description: "Uses face-api.js for accurate real-time face detection that drives the overlay positioning." },
+      { title: "Open Source Flexibility", description: "Free open-source code that developers and creatives can modify and extend for custom projects." }
+    ],
+    useCases: [
+      { title: "Creative Coders", description: "Explore interactive visual art using face detection and creative coding frameworks in the browser." },
+      { title: "Artists and Performers", description: "Use real-time cartoon overlays as interactive visual effects in live performances and streaming." },
+      { title: "Developers", description: "Learn face detection and creative coding integration using this practical open-source reference project." }
+    ]
+  },
+  "morningcomicbrew": {
+    whatIs: "MorningComicBrew.com is an AI-powered comic and cartoon creation platform that helps users generate custom comic strips, cartoon panels, and illustrated stories from text prompts without drawing skills.",
+    features: [
+      "Comic Strip Generation: Create multi-panel comic strips with AI",
+      "Character Creation: Design consistent cartoon characters",
+      "Story to Comic: Convert text stories into visual panels",
+      "Multiple Styles: Various comic and cartoon art styles",
+      "Easy Creation: No drawing skills required"
+    ],
+    howToUse: {
+      title: "How to Use Morningcomicbrew",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Comic", description: "Write out your comic strip idea including characters, setting, and the story you want to tell." },
+        { title: "Generate Your Panels", description: "Let the AI create visual panels based on your described story with consistent characters." },
+        { title: "Customize Your Comic", description: "Adjust character designs, dialogue bubbles, and visual elements to match your creative vision." },
+        { title: "Download and Share", description: "Save your completed comic strip and share it across social media or with your friends." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Panel Generation", description: "Creates complete comic strips with multiple sequential panels that tell a coherent visual story." },
+      { title: "Character Consistency", description: "Maintains the same character appearance across multiple panels for a polished comic strip result." },
+      { title: "No Art Skills Required", description: "Makes comic creation accessible to anyone with a story idea regardless of drawing ability." }
+    ],
+    useCases: [
+      { title: "Storytellers", description: "Bring your narrative ideas to life as visual comic strips without needing any illustration skills." },
+      { title: "Educators", description: "Create engaging educational comic strips that explain concepts in a visually appealing format." },
+      { title: "Social Media Creators", description: "Generate unique comic strip content for your followers that stands out in crowded social feeds." }
+    ]
+  },
+  "videoinu": {
+    whatIs: "Videoinu is an AI video creation platform that helps content creators produce engaging videos automatically from text and images with minimal effort using AI-driven production tools.",
+    features: [
+      "Auto Video Creation: Generate videos from text and images",
+      "AI Production: Automated editing and composition tools",
+      "Social Formats: Videos optimized for social media platforms",
+      "Fast Output: Videos produced quickly from minimal input",
+      "Easy Interface: Simple creation process for any user level"
+    ],
+    howToUse: {
+      title: "How to Use Videoinu",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Add Your Content", description: "Input your text, images, or topic and let Videoinu understand what your video should contain." },
+        { title: "Choose Your Format", description: "Select the target platform and video format for your intended distribution channel." },
+        { title: "Generate Your Video", description: "Let the AI assemble and produce your video from your provided content automatically." },
+        { title: "Download and Publish", description: "Save your generated video and publish it directly to your chosen social media platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automated Production", description: "Handles video assembly, transitions, and composition automatically from minimal user input." },
+      { title: "Platform Optimization", description: "Produces videos formatted correctly for different social media platform requirements and dimensions." },
+      { title: "Accessibility", description: "Makes video creation achievable for creators without video editing skills or software experience." }
+    ],
+    useCases: [
+      { title: "Social Media Managers", description: "Create consistent video content for multiple platforms without video editing expertise or software." },
+      { title: "Small Business Owners", description: "Produce promotional video content quickly and independently without a production team or budget." },
+      { title: "Content Creators", description: "Generate video content efficiently to maintain a consistent posting schedule across platforms." }
+    ]
+  },
+  "domoai": {
+    whatIs: "DomoAI is an AI video style transfer and animation platform that transforms real video footage into animated styles including anime, cartoon, and various artistic aesthetics using deep learning video processing.",
+    features: [
+      "Video Style Transfer: Transform videos into anime and cartoon styles",
+      "Multiple Art Styles: Anime cartoon painting and more available",
+      "Real Video Input: Works with your existing recorded footage",
+      "Consistent Style: Maintains style throughout entire video",
+      "Discord Integration: Accessible through Discord bot interface"
+    ],
+    howToUse: {
+      title: "How to Use Domoai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Join the Discord", description: "Access DomoAI through the Discord server and use the bot commands for video transformation." },
+        { title: "Upload Your Video", description: "Submit your video clip to the DomoAI bot for style transformation processing." },
+        { title: "Choose Your Style", description: "Specify the art style you want applied to your video such as anime or cartoon." },
+        { title: "Receive Your Video", description: "Get your style-transformed video back from the bot and download it for your use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Video Style Transfer", description: "Applies consistent artistic styles to entire video clips rather than just individual frames." },
+      { title: "Style Consistency", description: "Maintains the chosen art style throughout the video for a cohesive and polished transformation." },
+      { title: "Anime Specialization", description: "Particularly strong at transforming real footage into high-quality anime-style animation." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Transform your regular video footage into anime or cartoon style for unique social media content." },
+      { title: "Animation Enthusiasts", description: "Explore anime and cartoon aesthetics applied to real video without traditional animation skills." },
+      { title: "Artists", description: "Use video style transfer as a creative tool for artistic video projects and experiments." }
+    ]
+  },
   "d-id": {
     whatIs: "D-ID is an AI creative platform that generates realistic talking avatar videos from photos and text scripts, enabling anyone to create professional video content with photorealistic digital presenters without filming.",
     features: [
