@@ -1,4 +1,394 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "wolfram-alpha": {
+    whatIs: "Wolfram Alpha is a computational knowledge engine that answers factual questions and solves complex problems in mathematics, science, engineering, and data analysis by computing answers from curated knowledge rather than searching the web.",
+    features: [
+      "Computational Answers: Solves math and science problems step by step",
+      "Knowledge Engine: Factual answers across thousands of domains",
+      "Math Solver: Calculus algebra and equation solving with steps",
+      "Data Analysis: Compute statistics and analyze datasets instantly",
+      "Science Reference: Physics chemistry biology and more covered"
+    ],
+    howToUse: {
+      title: "How to Use Wolfram Alpha",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Query", description: "Type your question, equation, or topic directly into Wolfram Alpha's search bar." },
+        { title: "Get Computed Results", description: "Receive computed answers with full working, graphs, and related information instantly." },
+        { title: "Explore Related Data", description: "Browse additional pods of related information Wolfram Alpha surfaces alongside your primary answer." },
+        { title: "Use Step-by-Step", description: "Access detailed step-by-step solutions for math problems to understand the full working process." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Computation Engine", description: "Calculates answers by processing structured knowledge rather than retrieving existing web pages." },
+      { title: "Step-by-Step Solutions", description: "Shows complete working for mathematical problems so students and professionals understand the method." },
+      { title: "Domain Breadth", description: "Covers mathematics, science, engineering, geography, history, and dozens of other knowledge domains comprehensively." }
+    ],
+    useCases: [
+      { title: "Students", description: "Solve complex math and science problems with full step-by-step explanations that help you learn the method." },
+      { title: "Engineers", description: "Quickly compute technical calculations, unit conversions, and engineering formulas without manual calculation." },
+      { title: "Researchers", description: "Access curated factual data and compute answers across scientific domains for research and analysis." }
+    ]
+  },
+  "hoi-dap-ai-hay": {
+    whatIs: "Hỏi đáp AI Hay is a Vietnamese AI question and answer platform that helps users find accurate answers to everyday questions, educational topics, and practical problems in the Vietnamese language.",
+    features: [
+      "Vietnamese Language: Native Vietnamese AI question answering",
+      "Broad Topics: Covers education lifestyle science and more",
+      "Simple Interface: Easy to use for all age groups",
+      "Fast Answers: Quick responses to everyday questions",
+      "Educational Support: Helps students with homework and learning"
+    ],
+    howToUse: {
+      title: "How to Use Hoi Dap Ai Hay",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Question", description: "Type your question in Vietnamese and submit it to the AI platform for processing." },
+        { title: "Review the Answer", description: "Read the AI-generated answer provided in clear Vietnamese language for your question." },
+        { title: "Follow Up", description: "Ask additional questions to clarify or explore the topic further if needed." },
+        { title: "Apply the Knowledge", description: "Use the information provided in your studies, work, or daily life as appropriate." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Vietnamese Language Native", description: "Provides AI-powered answers entirely in Vietnamese making it accessible to Vietnamese-speaking users naturally." },
+      { title: "Topic Versatility", description: "Handles questions across education, science, lifestyle, and general knowledge in one platform." },
+      { title: "Accessibility", description: "Simple interface designed so users of all ages and technical backgrounds can use it comfortably." }
+    ],
+    useCases: [
+      { title: "Vietnamese Students", description: "Get help with homework and educational questions answered clearly in your native language." },
+      { title: "General Users", description: "Find quick answers to everyday questions without needing to read content in foreign languages." },
+      { title: "Educators", description: "Use as a reference tool for preparing lessons and answering student questions across subjects." }
+    ]
+  },
+  "course-hero": {
+    whatIs: "Course Hero is an online learning platform that gives students access to millions of study resources including course notes, textbook solutions, and an AI homework helper to support academic success.",
+    features: [
+      "Homework Help: AI-powered step-by-step homework assistance",
+      "Study Documents: Millions of notes and study guides uploaded by students",
+      "Textbook Solutions: Step-by-step answers to textbook problems",
+      "24/7 Tutors: Connect with expert tutors at any time",
+      "Flashcards: Study tools for exam preparation"
+    ],
+    howToUse: {
+      title: "How to Use Course Hero",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Course", description: "Enter your course, textbook, or specific question to find relevant study materials immediately." },
+        { title: "Get Homework Help", description: "Use the AI homework helper to get step-by-step explanations for any problem you are working on." },
+        { title: "Access Study Documents", description: "Browse millions of course notes, study guides, and practice materials uploaded by students." },
+        { title: "Connect With a Tutor", description: "Request live tutor help for subjects where you need real-time personalized explanation and support." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Massive Resource Library", description: "Provides access to millions of student-uploaded study documents across thousands of courses and subjects." },
+      { title: "AI Homework Assistant", description: "Delivers step-by-step explanations for homework problems to help students understand not just get answers." },
+      { title: "Expert Tutor Network", description: "Connects students with subject matter experts for live personalized academic support around the clock." }
+    ],
+    useCases: [
+      { title: "College Students", description: "Access study materials and homework help for your specific courses to improve understanding and grades." },
+      { title: "Exam Preppers", description: "Use practice materials, flashcards, and study guides to prepare thoroughly for upcoming assessments." },
+      { title: "Struggling Students", description: "Get step-by-step explanations and tutor support for subjects where you need additional academic help." }
+    ]
+  },
+  "iask-ai": {
+    whatIs: "iAsk.AI is a free AI search engine and question answering tool that provides accurate objective answers to factual questions using natural language processing without tracking users or showing advertisements.",
+    features: [
+      "Ad-Free Search: Clean answers without advertising interruption",
+      "Privacy First: No user tracking or data collection ever",
+      "Factual Accuracy: Focused on objective verifiable answers",
+      "Natural Language: Ask questions in everyday conversational language",
+      "Free Access: Full functionality without payment or signup"
+    ],
+    howToUse: {
+      title: "How to Use Iask Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Question", description: "Type your factual question in natural language into iAsk.AI and submit for processing." },
+        { title: "Read Your Answer", description: "Review the direct objective answer provided without advertisements or tracking interference." },
+        { title: "Verify Information", description: "Cross-reference important answers with additional sources for complete confidence in accuracy." },
+        { title: "Ask More Questions", description: "Continue asking follow-up questions freely with no usage limits or payment required." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Ad-Free Experience", description: "Delivers clean factual answers completely free from advertising that distracts from information quality." },
+      { title: "Privacy Protection", description: "Operates without any user tracking or data collection for genuinely private question answering." },
+      { title: "Factual Focus", description: "Prioritizes objective accurate answers over engagement-driven content for reliable information delivery." }
+    ],
+    useCases: [
+      { title: "Privacy-Conscious Users", description: "Get answers to your questions without being tracked profiled or served targeted advertising content." },
+      { title: "Students", description: "Research factual topics quickly with clean focused answers uncluttered by promotional content." },
+      { title: "General Knowledge Seekers", description: "Find accurate objective answers to everyday questions without navigating through ads and search results." }
+    ]
+  },
+  "ai-summarizer": {
+    whatIs: "AI Summarizer is an online tool that condenses long articles, documents, and web pages into concise summaries using artificial intelligence, helping users quickly grasp the key points of any content.",
+    features: [
+      "Article Summarization: Condense long articles into key points",
+      "URL Input: Paste any web link for instant summarization",
+      "Adjustable Length: Control how long your summary will be",
+      "Multiple Languages: Summarize content in various languages",
+      "Free to Use: Basic summarization without payment required"
+    ],
+    howToUse: {
+      title: "How to Use Ai Summarizer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Content", description: "Copy and paste your article text or enter a URL into the AI Summarizer input field." },
+        { title: "Set Your Length", description: "Choose how long you want your summary to be from brief to detailed based on your needs." },
+        { title: "Generate Summary", description: "Click summarize and receive your condensed version of the content within seconds." },
+        { title: "Review Key Points", description: "Read through the summary to quickly understand the main ideas without reading the full piece." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content Condensation", description: "Reduces lengthy articles and documents to their essential points while preserving the core meaning." },
+      { title: "URL Processing", description: "Fetches and summarizes content directly from web links without requiring manual copy and paste." },
+      { title: "Length Control", description: "Adjusts summary detail level based on user preference for flexible information consumption." }
+    ],
+    useCases: [
+      { title: "Busy Professionals", description: "Quickly understand long reports and articles during a packed workday without reading every word." },
+      { title: "Students", description: "Grasp the main points of assigned reading material faster to allocate study time more effectively." },
+      { title: "Researchers", description: "Screen large volumes of articles quickly to identify which ones deserve your full reading attention." }
+    ]
+  },
+  "scholarcy": {
+    whatIs: "Scholarcy is an AI research summarization tool that reads academic papers, reports, and book chapters and creates interactive summary flashcards that highlight key findings, methods, and references.",
+    features: [
+      "Academic Summarization: Condense research papers into structured summaries",
+      "Flashcard Generation: Interactive study cards from any paper",
+      "Reference Extraction: Pull all cited references automatically",
+      "Key Finding Highlights: Identify the most important claims",
+      "Library Management: Organize your summarized paper collection"
+    ],
+    howToUse: {
+      title: "How to Use Scholarcy",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Paper", description: "Import your PDF research paper or paste a DOI link into Scholarcy for analysis." },
+        { title: "Generate Your Summary", description: "Receive a structured summary with key findings, methods, limitations, and extracted references." },
+        { title: "Review Flashcards", description: "Study the generated interactive flashcards to quickly grasp the paper's essential contributions." },
+        { title: "Build Your Library", description: "Save summarized papers to your Scholarcy library for organized future reference and review." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Structured Summaries", description: "Organizes paper content into clearly labeled sections covering findings, methods, and conclusions." },
+      { title: "Reference Extraction", description: "Automatically identifies and extracts all cited references for easy follow-up reading and citation." },
+      { title: "Flashcard Format", description: "Converts dense academic content into interactive study cards ideal for learning and exam preparation." }
+    ],
+    useCases: [
+      { title: "PhD Students", description: "Process large volumes of academic literature faster without losing track of key findings and methodologies." },
+      { title: "Academic Researchers", description: "Screen papers quickly and build an organized library of summarized literature for your research area." },
+      { title: "Undergraduate Students", description: "Understand complex research papers more easily with structured summaries that highlight what matters most." }
+    ]
+  },
+  "tldr-this": {
+    whatIs: "TLDR This is a free online article summarizer that automatically extracts the most important information from any article or URL and presents it as a clear concise summary saving significant reading time.",
+    features: [
+      "Instant Summarization: Any article condensed in seconds",
+      "URL Input: Direct link summarization without copy paste",
+      "Key Point Extraction: Most important sentences identified",
+      "Free Access: Summarize without payment or account creation",
+      "Extension Available: Browser plugin for one-click summaries"
+    ],
+    howToUse: {
+      title: "How to Use Tldr This",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your URL or Text", description: "Paste the article URL or copy and paste the text you want summarized into TLDR This." },
+        { title: "Get Your Summary", description: "Receive an automatically generated concise summary of the article's most important points immediately." },
+        { title: "Review Key Points", description: "Read through the extracted key sentences to quickly understand what the full article covers." },
+        { title: "Use the Extension", description: "Install the browser extension for one-click summarization of any article you are currently reading." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Key Sentence Extraction", description: "Identifies and extracts the most informative sentences from articles rather than generating new text." },
+      { title: "URL Processing", description: "Summarizes articles directly from links without requiring users to copy and paste text manually." },
+      { title: "Zero Friction Access", description: "Works immediately without account creation making article summarization instantly available to anyone." }
+    ],
+    useCases: [
+      { title: "News Readers", description: "Stay informed across many articles daily by reading concise summaries instead of full lengthy pieces." },
+      { title: "Researchers", description: "Screen articles for relevance quickly before deciding which ones deserve your full reading attention." },
+      { title: "Busy Professionals", description: "Catch up on industry news and reports efficiently during limited reading time in a packed schedule." }
+    ]
+  },
+  "scisummary": {
+    whatIs: "SciSummary is an AI tool specifically designed to summarize scientific research papers and academic articles, delivering clear plain-language summaries that make complex research accessible to broader audiences.",
+    features: [
+      "Scientific Paper Summarization: Research papers condensed clearly",
+      "Plain Language Output: Complex findings explained simply",
+      "Email Delivery: Summaries sent directly to your inbox",
+      "Batch Processing: Summarize multiple papers simultaneously",
+      "Citation Preservation: Key references maintained in summaries"
+    ],
+    howToUse: {
+      title: "How to Use Scisummary",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Submit Your Paper", description: "Upload your PDF research paper or paste the abstract and text into SciSummary for processing." },
+        { title: "Receive Your Summary", description: "Get a clear plain-language summary of the paper's key findings, methods, and conclusions." },
+        { title: "Check Your Email", description: "Have summaries delivered directly to your inbox for convenient reading at your own pace." },
+        { title: "Process Multiple Papers", description: "Submit several papers at once and receive summaries for your entire batch efficiently." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Science-Specific Training", description: "Optimized specifically for scientific literature delivering more accurate summaries than general tools." },
+      { title: "Plain Language Translation", description: "Converts technical scientific writing into clear accessible explanations for broader understanding." },
+      { title: "Email Integration", description: "Delivers summaries to your inbox making it easy to review research without staying on the platform." }
+    ],
+    useCases: [
+      { title: "Scientists", description: "Stay current with literature outside your immediate specialty by reading accessible plain-language summaries." },
+      { title: "Science Journalists", description: "Understand complex research papers quickly and accurately for writing accessible science content." },
+      { title: "Curious Non-Experts", description: "Access the findings of scientific research without needing specialized domain knowledge to understand it." }
+    ]
+  },
+  "sobrief": {
+    whatIs: "SoBrief is an AI book and article summarization platform that condenses non-fiction books and long-form content into concise actionable summaries helping readers extract maximum value from any material quickly.",
+    features: [
+      "Book Summaries: Non-fiction books condensed into key insights",
+      "Article Summarization: Long articles reduced to core points",
+      "Actionable Takeaways: Practical lessons highlighted clearly",
+      "Fast Reading: Get book insights in minutes not hours",
+      "Curated Library: Growing collection of pre-made book summaries"
+    ],
+    howToUse: {
+      title: "How to Use Sobrief",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Book", description: "Find your book in the SoBrief library or submit content you want summarized for processing." },
+        { title: "Read Your Summary", description: "Access the concise summary covering the book's main ideas arguments and actionable takeaways." },
+        { title: "Note Key Lessons", description: "Identify the most relevant insights and practical lessons applicable to your situation and goals." },
+        { title: "Apply the Knowledge", description: "Implement the actionable takeaways from your reading into your work or personal development immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Actionable Focus", description: "Highlights practical lessons and takeaways rather than just summarizing narrative content for maximum value." },
+      { title: "Non-Fiction Specialization", description: "Optimized specifically for non-fiction business self-help and educational book content." },
+      { title: "Time Efficiency", description: "Delivers the key value of full books in a fraction of the reading time investment required." }
+    ],
+    useCases: [
+      { title: "Busy Professionals", description: "Extract valuable insights from business and self-development books without committing hours of reading time." },
+      { title: "Lifelong Learners", description: "Consume more knowledge across more books than traditional reading pace allows with concise summaries." },
+      { title: "Students", description: "Supplement required reading with clear summaries that reinforce key concepts and improve comprehension." }
+    ]
+  },
+  "summarist-ai": {
+    whatIs: "Summarist.ai is an AI reading and summarization app that creates concise summaries of books, articles, and documents helping users absorb knowledge faster through intelligent content condensation.",
+    features: [
+      "Smart Summaries: AI-generated summaries of books and articles",
+      "Reading App: Clean distraction-free reading experience",
+      "Key Insights: Most valuable ideas extracted and highlighted",
+      "Multiple Formats: Books articles and documents all supported",
+      "Offline Access: Read summaries without internet connection"
+    ],
+    howToUse: {
+      title: "How to Use Summarist Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Find Your Content", description: "Search for books or articles within Summarist or upload your own documents for summarization." },
+        { title: "Read Your Summary", description: "Access your AI-generated summary in a clean distraction-free reading interface designed for focus." },
+        { title: "Highlight Key Insights", description: "Mark and save the most valuable ideas from your summary for future reference and review." },
+        { title: "Read Offline", description: "Download summaries for offline reading when you are without reliable internet access." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Clean Reading Experience", description: "Presents summaries in a distraction-free interface designed specifically for focused comfortable reading." },
+      { title: "Multi-Format Support", description: "Handles books, articles, and uploaded documents in one unified summarization and reading application." },
+      { title: "Offline Availability", description: "Downloaded summaries remain accessible without internet making reading possible anywhere anytime." }
+    ],
+    useCases: [
+      { title: "Commuters", description: "Use travel time productively by reading book and article summaries in a comfortable mobile reading app." },
+      { title: "Avid Readers", description: "Process more books and articles than your schedule normally allows with intelligent AI summarization." },
+      { title: "Knowledge Seekers", description: "Explore ideas across many topics and genres quickly without committing to full-length reading for each." }
+    ]
+  },
+  "booksai": {
+    whatIs: "BooksAI is an AI book summarization platform that provides detailed summaries of popular non-fiction and fiction books helping readers decide what to read and extract key ideas without reading every page.",
+    features: [
+      "Book Summaries: Comprehensive summaries of popular titles",
+      "Key Themes: Main ideas and themes clearly identified",
+      "Character Analysis: Fiction character breakdowns included",
+      "Reading Decisions: Help deciding whether to read a full book",
+      "Genre Variety: Non-fiction and fiction both covered"
+    ],
+    howToUse: {
+      title: "How to Use Booksai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Search Your Book", description: "Enter the title or author of the book you want summarized in the BooksAI search." },
+        { title: "Read the Summary", description: "Access a comprehensive summary covering the book's main ideas, themes, and key takeaways." },
+        { title: "Decide to Read", description: "Use the summary to determine whether the full book warrants your complete reading time investment." },
+        { title: "Extract Key Ideas", description: "Note the most important insights and lessons relevant to your interests and current goals." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Comprehensive Coverage", description: "Provides detailed summaries that capture major themes, key arguments, and important narrative elements." },
+      { title: "Decision Support", description: "Helps readers make informed choices about which books deserve their full reading time and attention." },
+      { title: "Genre Versatility", description: "Covers both non-fiction knowledge books and fiction titles for diverse reading interest support." }
+    ],
+    useCases: [
+      { title: "Book Club Members", description: "Preview upcoming selections and arrive at discussions with strong understanding of the content covered." },
+      { title: "Avid Readers", description: "Decide quickly which books from your reading list deserve priority attention and immediate reading." },
+      { title: "Non-Readers", description: "Access the key ideas from important books without the time commitment of reading every full page." }
+    ]
+  },
+  "chunker-ai": {
+    whatIs: "Chunker AI is an AI text processing tool that breaks large documents and long-form content into smaller manageable chunks optimized for AI processing, making it easier to work with lengthy texts in AI workflows.",
+    features: [
+      "Smart Chunking: Break large texts into optimal segments",
+      "AI Optimization: Chunks sized for AI model processing",
+      "Multiple Formats: Works with various document types",
+      "Overlap Control: Adjust chunk overlap for context preservation",
+      "Batch Processing: Handle multiple documents simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Chunker Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Document", description: "Import the large document or paste the long text you want broken into processable chunks." },
+        { title: "Configure Settings", description: "Set your preferred chunk size and overlap amount based on your AI processing requirements." },
+        { title: "Generate Your Chunks", description: "Process your document and receive it broken into optimally sized segments ready for AI use." },
+        { title: "Use in Your Workflow", description: "Feed the generated chunks into your AI processing pipeline or application as needed." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI-Optimized Sizing", description: "Creates chunks sized specifically to work effectively within AI model context window limitations." },
+      { title: "Overlap Preservation", description: "Maintains configurable overlap between chunks to preserve context across chunk boundaries." },
+      { title: "Batch Capability", description: "Processes multiple documents simultaneously for efficient large-scale text preparation workflows." }
+    ],
+    useCases: [
+      { title: "AI Developers", description: "Prepare large documents for AI processing pipelines without manually splitting text into appropriate segments." },
+      { title: "RAG System Builders", description: "Create optimally chunked document segments for retrieval augmented generation knowledge bases." },
+      { title: "Data Engineers", description: "Process large text datasets into AI-ready chunks for machine learning and NLP application development." }
+    ]
+  },
+  "fight-iq": {
+    whatIs: "Fight IQ is an AI-powered combat sports education platform that helps martial artists, boxers, and MMA fighters improve their technical knowledge, fight IQ, and strategic understanding through AI-driven coaching content.",
+    features: [
+      "Technique Library: Comprehensive combat sports technique database",
+      "AI Coaching: Personalized feedback and training recommendations",
+      "Fight Analysis: Break down fights and techniques strategically",
+      "Training Plans: Structured programs for skill development",
+      "Community: Connect with other combat sports practitioners"
+    ],
+    howToUse: {
+      title: "How to Use Fight Iq",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Create your Fight IQ profile with your sport, experience level, and specific skill development goals." },
+        { title: "Access Technique Content", description: "Browse the technique library for your discipline and study detailed breakdowns of combat sports skills." },
+        { title: "Get AI Coaching", description: "Receive personalized training recommendations and feedback based on your profile and learning goals." },
+        { title: "Follow Your Program", description: "Work through your structured training plan and track your technical knowledge development over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Technique Database", description: "Provides comprehensive coverage of combat sports techniques across boxing, wrestling, and MMA disciplines." },
+      { title: "Personalized Programming", description: "Generates training recommendations tailored to your specific sport, level, and development objectives." },
+      { title: "Strategic Education", description: "Focuses on developing fight intelligence and strategic understanding beyond just physical technique training." }
+    ],
+    useCases: [
+      { title: "Martial Artists", description: "Deepen your technical knowledge and strategic understanding of your combat sport systematically." },
+      { title: "Coaches", description: "Access comprehensive technique references and structured programs to improve your coaching curriculum." },
+      { title: "Combat Sports Fans", description: "Develop genuine understanding of fighting techniques and strategies to appreciate the sport more deeply." }
+    ]
+  },
   "slidespeak": {
     whatIs: "SlideSpeak is an AI presentation tool that generates complete PowerPoint and Google Slides presentations from text prompts or uploaded documents, delivering polished slide decks in seconds without manual design work.",
     features: [
