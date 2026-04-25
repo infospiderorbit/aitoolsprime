@@ -1264,7 +1264,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "dzine-ghibli-ai", name: "Dzine Ghibli AI", description: "Studio Ghibli style AI art", url: "", upvotes: 876, verified: true, rating: 4.4, icon: "🏰", category: "art-creative-design", subcategory: "ai-anime-art" }
     ],
     "ai-anime-generator": [
-      { id: "animegenius-gen", name: "AnimeGenius", description: "Advanced anime character generator", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "⭐", category: "art-creative-design", subcategory: "ai-anime-generator" },
       { id: "feetgen", name: "FeetGen", description: "Specialized anime generation tool", url: "", upvotes: 876, verified: false, rating: 4.5, icon: "🦶", category: "art-creative-design", subcategory: "ai-anime-generator" },
       { id: "komiko", name: "Komiko", description: "Anime comic and art generator", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "📚", category: "art-creative-design", subcategory: "ai-anime-generator" },
       { id: "ai-hentai-generator", name: "AI Hentai Generator", description: "Adult anime content generator", url: "", upvotes: 543, verified: false, rating: 4.3, icon: "🔞", category: "art-creative-design", subcategory: "ai-anime-generator" }
@@ -1273,7 +1272,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "dreamina-ai", name: "Dreamina AI", description: "AI image and video generation platform by CapCut", url: "https://dreamina.capcut.com", upvotes: 4100, verified: false, rating: 4.6, icon: "✨", category: "image-generation-editing", subcategory: "ai-art-generator", addedDate: "2026-04-01" },
       { id: "vheer-ai", name: "Vheer AI", description: "Advanced AI image generation for realistic visuals", url: "https://vheer.com", upvotes: 3100, verified: false, rating: 4.3, icon: "🎨", category: "image-generation-editing", subcategory: "ai-art-generator", addedDate: "2026-04-01" },
       { id: "midjourney", name: "Midjourney", description: "Leading AI art generation platform", url: "", upvotes: 2567, verified: true, rating: 4.9, icon: "🎨", category: "art-creative-design", subcategory: "ai-art-generator" },
-      { id: "pixai-art", name: "PixAI", description: "Versatile AI art creation tool", url: "", upvotes: 1890, verified: true, rating: 4.8, icon: "🎌", category: "art-creative-design", subcategory: "ai-art-generator" },
       { id: "pica-ai", name: "Pica AI", description: "Professional AI art generator", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "🖼️", category: "art-creative-design", subcategory: "ai-art-generator" },
       { id: "nightcafe-creator", name: "NightCafe Creator", description: "AI art creation community", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🌙", category: "art-creative-design", subcategory: "ai-art-generator" },
       { id: "artguru-ai", name: "Artguru AI", description: "Easy-to-use AI art generator", url: "", upvotes: 1098, verified: true, rating: 4.5, icon: "🎭", category: "art-creative-design", subcategory: "ai-art-generator" },
@@ -1350,7 +1348,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-color-palette-generator": [
       { id: "colormagic", name: "ColorMagic", description: "AI color palette creation", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🎨", category: "art-creative-design", subcategory: "ai-color-palette-generator" },
       { id: "palettemaker", name: "PaletteMaker", description: "Smart color palette generator", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🎭", category: "art-creative-design", subcategory: "ai-color-palette-generator" },
-      { id: "color-analysis-ai-palette", name: "My Color Analysis AI", description: "Personal color palette AI", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "💄", category: "art-creative-design", subcategory: "ai-color-palette-generator" },
       { id: "huehive", name: "HueHive", description: "Collaborative color palette tool", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "🍯", category: "art-creative-design", subcategory: "ai-color-palette-generator" },
       { id: "perception", name: "Perception", description: "AI color perception analysis", url: "", upvotes: 432, verified: false, rating: 4.3, icon: "👁️", category: "art-creative-design", subcategory: "ai-color-palette-generator" }
     ],
@@ -1371,13 +1368,10 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-comic-factory": [
       { id: "ai-comic-generator-factory", name: "AI Comic Generator", description: "Comic factory AI platform", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "🏭", category: "art-creative-design", subcategory: "ai-comic-factory" },
       { id: "ai-comic-factory", name: "AI Comic Factory", description: "Automated comic creation", url: "", upvotes: 765, verified: true, rating: 4.5, icon: "🎬", category: "art-creative-design", subcategory: "ai-comic-factory" },
-      { id: "octocomics-factory", name: "OctoComics", description: "Mass comic production AI", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🐙", category: "art-creative-design", subcategory: "ai-comic-factory" },
       { id: "labubu-wallpaper", name: "Labubu Wallpaper - 100+ Labubu Live Wallpapers & 4K Walls (Updated Daily)", description: "Comic character wallpapers", url: "", upvotes: 543, verified: false, rating: 4.3, icon: "🖼️", category: "art-creative-design", subcategory: "ai-comic-factory" }
     ],
     "ai-comic-generator": [
-      { id: "komiko-gen", name: "Komiko", description: "AI comic generation platform", url: "", upvotes: 1456, verified: true, rating: 4.7, icon: "📚", category: "art-creative-design", subcategory: "ai-comic-generator" },
       { id: "tooning", name: "Tooning", description: "Cartoon comic AI creator", url: "", upvotes: 1098, verified: true, rating: 4.6, icon: "🎨", category: "art-creative-design", subcategory: "ai-comic-generator" },
-      { id: "ai-comic-generator-main", name: "AI Comic Generator", description: "Main comic generation tool", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "📖", category: "art-creative-design", subcategory: "ai-comic-generator" },
       { id: "anifusion", name: "Anifusion", description: "Anime comic fusion AI", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🎌", category: "art-creative-design", subcategory: "ai-comic-generator" },
       { id: "storynest-ai", name: "StoryNest.ai", description: "Story-driven comic AI", url: "", upvotes: 543, verified: false, rating: 4.3, icon: "🪺", category: "art-creative-design", subcategory: "ai-comic-generator" }
     ],
@@ -1429,7 +1423,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-graphic-design": [
       { id: "adobe", name: "Adobe", description: "Professional AI graphic design", url: "", upvotes: 2567, verified: true, rating: 4.9, icon: "🏢", category: "art-creative-design", subcategory: "ai-graphic-design" },
-      { id: "microsoft-designer-graphic", name: "Microsoft Designer", description: "AI graphic design tool", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🏢", category: "art-creative-design", subcategory: "ai-graphic-design" },
       { id: "pixelied", name: "Pixelied", description: "Online AI graphic design", url: "", upvotes: 876, verified: false, rating: 4.5, icon: "📐", category: "art-creative-design", subcategory: "ai-graphic-design" }
     ],
     "ai-hair-color-changer": [
@@ -1455,11 +1448,9 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-illustration-generator": [
       { id: "seaart-ai", name: "Seaart.ai", description: "AI illustration platform", url: "", upvotes: 1789, verified: true, rating: 4.8, icon: "🌊", category: "art-creative-design", subcategory: "ai-illustration-generator" },
       { id: "ai-illustration-generator", name: "AI Illustration Generator", description: "Professional illustration AI", url: "", upvotes: 1456, verified: true, rating: 4.7, icon: "🎨", category: "art-creative-design", subcategory: "ai-illustration-generator" },
-      { id: "iconscout-illust", name: "IconScout", description: "Illustration AI platform", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🎨", category: "art-creative-design", subcategory: "ai-illustration-generator" },
       { id: "chichi-pui", name: "chichi-pui", description: "Cute illustration AI", url: "", upvotes: 654, verified: false, rating: 4.4, icon: "🐾", category: "art-creative-design", subcategory: "ai-illustration-generator" }
     ],
     "ai-manga-generator": [
-      { id: "anifusion-manga", name: "Anifusion", description: "AI manga creation platform", url: "", upvotes: 1567, verified: true, rating: 4.8, icon: "🎌", category: "art-creative-design", subcategory: "ai-manga-generator" },
       { id: "toona", name: "toona", description: "AI manga and anime creator", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🎭", category: "art-creative-design", subcategory: "ai-manga-generator" },
       { id: "mangaka-app", name: "Mangaka.app", description: "Manga artist AI assistant", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "✏️", category: "art-creative-design", subcategory: "ai-manga-generator" },
       { id: "neural-canvas", name: "Neural Canvas", description: "AI manga art generator", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🎨", category: "art-creative-design", subcategory: "ai-manga-generator" },
@@ -1468,14 +1459,11 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-mockup-generator": [
       { id: "mockey-ai", name: "Mockey.ai", description: "AI product mockup creator", url: "", upvotes: 1098, verified: true, rating: 4.7, icon: "🧸", category: "art-creative-design", subcategory: "ai-mockup-generator" },
       { id: "uizard", name: "Uizard", description: "AI UI mockup generator", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "📱", category: "art-creative-design", subcategory: "ai-mockup-generator" },
-      { id: "visily-mockup", name: "Visily", description: "Visual mockup AI tool", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "👁️", category: "art-creative-design", subcategory: "ai-mockup-generator" },
       { id: "magic-patterns", name: "Magic Patterns", description: "AI pattern mockup creator", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "✨", category: "art-creative-design", subcategory: "ai-mockup-generator" }
     ],
     "ai-movie-poster": [
       { id: "aigfaigf-art", name: "aigfaigf.art", description: "AI movie poster creator", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🎬", category: "art-creative-design", subcategory: "ai-movie-poster" },
       { id: "movieaiposter", name: "MovieAIPoster", description: "Professional movie poster AI", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🎭", category: "art-creative-design", subcategory: "ai-movie-poster" },
-      { id: "disney-ai-poster-movie", name: "Disney AI Poster", description: "Disney style movie poster", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🏰", category: "art-creative-design", subcategory: "ai-movie-poster" },
-      { id: "bing-image-creator-movie", name: "Bing Image Creator", description: "Microsoft movie poster AI", url: "", upvotes: 543, verified: true, rating: 4.4, icon: "🔍", category: "art-creative-design", subcategory: "ai-movie-poster" },
     ],
     "ai-painting-generator": [
       { id: "wombo-dream", name: "WOMBO Dream", description: "AI painting creation app", url: "", upvotes: 1890, verified: true, rating: 4.8, icon: "🎨", category: "art-creative-design", subcategory: "ai-painting-generator" },
@@ -1505,13 +1493,11 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-pokemon-generator": [
       { id: "pokemon-avatar-generator", name: "Pokémon Avatar Generator", description: "AI Pokémon character creator", url: "", upvotes: 1789, verified: true, rating: 4.8, icon: "⚡", category: "art-creative-design", subcategory: "ai-pokemon-generator" },
-      { id: "animegenius-pokemon", name: "AnimeGenius", description: "Pokémon style AI generator", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "⭐", category: "art-creative-design", subcategory: "ai-pokemon-generator" },
       { id: "bulk-image-generation", name: "Bulk Image Generation", description: "Mass Pokémon AI creator", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "📦", category: "art-creative-design", subcategory: "ai-pokemon-generator" },
       { id: "crepal", name: "CrePal", description: "Creative Pokémon AI pal", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🎭", category: "art-creative-design", subcategory: "ai-pokemon-generator" },
       { id: "seapik", name: "Seapik", description: "Sea-themed Pokémon AI", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "🌊", category: "art-creative-design", subcategory: "ai-pokemon-generator" }
     ],
     "ai-poster-generator": [
-      { id: "pixarai-poster", name: "PixarAI", description: "Pixar style poster AI", url: "", upvotes: 1098, verified: true, rating: 4.6, icon: "🏰", category: "art-creative-design", subcategory: "ai-poster-generator" },
       { id: "ai-poster-generator", name: "AI Poster Generator", description: "Professional poster AI tool", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🎨", category: "art-creative-design", subcategory: "ai-poster-generator" },
       { id: "ai-pixar-posters", name: "AI Pixar Posters", description: "Pixar style poster creator", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🎭", category: "art-creative-design", subcategory: "ai-poster-generator" },
       { id: "ai-poster-generator-2", name: "AI Poster Generator", description: "Alternative poster AI", url: "", upvotes: 543, verified: false, rating: 4.3, icon: "📊", category: "art-creative-design", subcategory: "ai-poster-generator" }
@@ -1558,8 +1544,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-ux-design": [
       { id: "ux-pilot", name: "UX Pilot", description: "AI UX design assistant", url: "", upvotes: 1567, verified: true, rating: 4.8, icon: "✈️", category: "art-creative-design", subcategory: "ai-ux-design" },
       { id: "uizard-ux", name: "Uizard", description: "AI-powered UX design tool", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "📱", category: "art-creative-design", subcategory: "ai-ux-design" },
-      { id: "stitch-ux", name: "Stitch", description: "UX design AI platform", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🧵", category: "art-creative-design", subcategory: "ai-ux-design" },
-      { id: "visily-ux", name: "Visily", description: "Visual UX design AI", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "👁️", category: "art-creative-design", subcategory: "ai-ux-design" },
     ],
     "ai-vector-graphics": [
       { id: "vectorizer-ai-graphics", name: "Vectorizer.AI", description: "Image to vector AI converter", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🔄", category: "art-creative-design", subcategory: "ai-vector-graphics" },
@@ -1574,8 +1558,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "image-to-3d-model": [
       { id: "planner-5d", name: "Planner 5D", description: "AI 2D to 3D model converter", url: "", upvotes: 1567, verified: true, rating: 4.8, icon: "🏠", category: "art-creative-design", subcategory: "image-to-3d-model" },
-      { id: "meshy-3d", name: "Meshy AI", description: "AI-powered 3D model generator from text and images", url: "https://www.meshy.ai", upvotes: 1234, verified: true, rating: 4.7, icon: "🌟", category: "art-creative-design", subcategory: "image-to-3d-model" },
-      { id: "tripo-ai-3d", name: "Tripo AI", description: "Triple AI 3D model creator", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🔺", category: "art-creative-design", subcategory: "image-to-3d-model" },
       { id: "3d-ai-studio", name: "3D AI Studio", description: "Professional 3D AI platform", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🎭", category: "art-creative-design", subcategory: "image-to-3d-model" },
       { id: "alpha3d", name: "Alpha3D", description: "Advanced 3D AI converter", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "🚀", category: "art-creative-design", subcategory: "image-to-3d-model" }
     ],
@@ -1587,8 +1569,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "story-boards-ai", name: "story-boards.ai", description: "AI storyboard generator", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "📖", category: "art-creative-design", subcategory: "storyboard-ai" }
     ],
     "text-to-3d": [
-      { id: "meshy-text", name: "Meshy", description: "Text to 3D model AI", url: "", upvotes: 1567, verified: true, rating: 4.8, icon: "🌟", category: "art-creative-design", subcategory: "text-to-3d" },
-      { id: "tripo-ai-text", name: "Tripo AI", description: "Text to 3D generation", url: "", upvotes: 1234, verified: true, rating: 4.7, icon: "🔺", category: "art-creative-design", subcategory: "text-to-3d" },
       { id: "hyper3d-text", name: "Hyper3D", description: "Hyper 3D text generator", url: "", upvotes: 876, verified: true, rating: 4.6, icon: "🚀", category: "art-creative-design", subcategory: "text-to-3d" },
       { id: "3d-ai-studio-text", name: "3D AI Studio", description: "Text to 3D AI platform", url: "", upvotes: 654, verified: true, rating: 4.5, icon: "🎭", category: "art-creative-design", subcategory: "text-to-3d" },
       { id: "alpha3d-text", name: "Alpha3D", description: "Advanced text to 3D AI", url: "", upvotes: 543, verified: false, rating: 4.4, icon: "🚀", category: "art-creative-design", subcategory: "text-to-3d" }
