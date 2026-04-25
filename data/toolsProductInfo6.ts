@@ -1,4 +1,424 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "amazy-uk": {
+    whatIs: "Amazy.uk is an AI learning and educational content platform that helps students and lifelong learners access personalized study materials, explanations, and interactive learning experiences across a wide range of subjects.",
+    features: [
+      "Personalized Learning: Content tailored to your level and goals",
+      "Subject Coverage: Wide range of academic subjects covered",
+      "Interactive Content: Engaging learning experiences beyond reading",
+      "AI Explanations: Clear explanations of complex concepts",
+      "Progress Tracking: Monitor your learning journey over time"
+    ],
+    howToUse: {
+      title: "How to Use Amazy Uk",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Profile", description: "Create your Amazy account and specify your subjects, level, and specific learning goals." },
+        { title: "Access Your Content", description: "Browse personalized learning materials recommended based on your profile and current needs." },
+        { title: "Engage Interactively", description: "Work through interactive exercises and activities rather than passively reading content." },
+        { title: "Track Your Progress", description: "Monitor your advancement across subjects and see how your understanding develops over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalization Engine", description: "Tailors content recommendations to each learner's specific level, goals, and learning preferences." },
+      { title: "Interactive Format", description: "Delivers learning through engaging interactive experiences that promote active rather than passive learning." },
+      { title: "Progress Visibility", description: "Makes learning progress concrete and visible to keep students motivated and aware of their growth." }
+    ],
+    useCases: [
+      { title: "Students", description: "Access personalized study materials that match your specific level and learning objectives effectively." },
+      { title: "Lifelong Learners", description: "Explore new subjects with AI-guided learning paths appropriate for your background and goals." },
+      { title: "Self-Directed Learners", description: "Build knowledge systematically across subjects with personalized content and progress tracking tools." }
+    ]
+  },
+  "mindsmith": {
+    whatIs: "Mindsmith is an AI-powered e-learning course creation platform that helps instructional designers and educators build interactive online courses rapidly using AI content generation and multimedia authoring tools.",
+    features: [
+      "AI Course Generation: Build complete courses from prompts",
+      "Interactive Elements: Quizzes scenarios and interactive content",
+      "SCORM Export: Export courses for any LMS platform",
+      "Rapid Authoring: Create courses in hours not weeks",
+      "Template Library: Professional course templates available"
+    ],
+    howToUse: {
+      title: "How to Use Mindsmith",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Course", description: "Enter your course topic, audience, and learning objectives to begin AI-assisted course creation." },
+        { title: "Generate Content", description: "Let the AI produce course modules, lessons, and interactive elements based on your specifications." },
+        { title: "Add Interactivity", description: "Enhance your course with quizzes, branching scenarios, and knowledge check activities." },
+        { title: "Export and Deploy", description: "Export your finished course in SCORM format for deployment on any learning management system." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Content Generation", description: "Creates complete course content from topic descriptions dramatically accelerating course development timelines." },
+      { title: "SCORM Compatibility", description: "Exports courses in standard SCORM format ensuring compatibility with all major LMS platforms." },
+      { title: "Interactive Authoring", description: "Builds engaging interactive elements including scenarios and assessments without specialized technical skills." }
+    ],
+    useCases: [
+      { title: "Instructional Designers", description: "Create professional e-learning courses in a fraction of the traditional development time using AI assistance." },
+      { title: "Corporate L&D Teams", description: "Develop employee training courses rapidly to keep pace with fast-changing organizational learning needs." },
+      { title: "Educators", description: "Build structured online courses for digital delivery without needing specialized e-learning authoring expertise." }
+    ]
+  },
+  "mathgpt": {
+    whatIs: "MathGPT is an AI math problem solver that provides step-by-step solutions to mathematics questions across all levels from basic arithmetic through advanced calculus using natural language explanation.",
+    features: [
+      "All Math Levels: From basic arithmetic to university calculus",
+      "Step-by-Step Solutions: Complete working shown for every problem",
+      "Natural Language: Explanations written in plain understandable English",
+      "Photo Input: Photograph handwritten problems for solving",
+      "Free Access: Basic math solving without payment required"
+    ],
+    howToUse: {
+      title: "How to Use Mathgpt",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Problem", description: "Type your math problem or equation into MathGPT in natural language or standard notation." },
+        { title: "Or Upload a Photo", description: "Take a photo of your handwritten or printed math problem for automatic recognition and solving." },
+        { title: "Receive Your Solution", description: "Get a complete step-by-step solution with every calculation step clearly explained in plain English." },
+        { title: "Study the Method", description: "Review each step carefully to understand the mathematical approach for solving similar problems yourself." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Comprehensive Level Coverage", description: "Handles mathematics from elementary school level through university calculus and beyond in one tool." },
+      { title: "Plain English Explanations", description: "Writes solution steps in natural language so students understand the reasoning not just the mechanics." },
+      { title: "Photo Recognition", description: "Reads handwritten and printed math problems from photographs for convenient problem submission." }
+    ],
+    useCases: [
+      { title: "Math Students", description: "Get step-by-step solutions that teach you how to solve problems rather than just giving you answers." },
+      { title: "University Students", description: "Tackle advanced calculus, linear algebra, and statistics problems with detailed AI-generated working." },
+      { title: "Parents", description: "Understand your children's math homework so you can help them work through problems effectively." }
+    ]
+  },
+  "mathos-ai": {
+    whatIs: "Mathos AI is an intelligent mathematics tutor that helps students understand math concepts through personalized explanations, interactive problem solving, and adaptive practice tailored to each student's learning level.",
+    features: [
+      "Adaptive Tutoring: Adjusts difficulty to your current level",
+      "Concept Explanations: Clear teaching of mathematical ideas",
+      "Practice Problems: Unlimited practice with immediate feedback",
+      "Step-by-Step Guidance: Guided problem solving support",
+      "Multiple Topics: Covers arithmetic algebra geometry and more"
+    ],
+    howToUse: {
+      title: "How to Use Mathos Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Assess Your Level", description: "Complete an initial assessment so Mathos AI can calibrate to your current mathematics understanding." },
+        { title: "Learn Concepts", description: "Work through clear explanations of mathematical concepts presented at the right level for you." },
+        { title: "Practice Problems", description: "Solve practice problems with immediate AI feedback that identifies what you got right and wrong." },
+        { title: "Build Mastery", description: "Progress through increasingly challenging content as your understanding and skill level improves." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Adaptive Difficulty", description: "Continuously adjusts problem difficulty based on your performance to keep learning in the optimal zone." },
+      { title: "Conceptual Teaching", description: "Explains the underlying mathematical ideas rather than just providing procedures to follow mechanically." },
+      { title: "Immediate Feedback", description: "Provides instant assessment of student responses with specific guidance on errors and corrections." }
+    ],
+    useCases: [
+      { title: "Struggling Math Students", description: "Build genuine mathematical understanding with patient AI tutoring that adapts to your specific needs." },
+      { title: "Math Learners of All Ages", description: "Access personalized math tutoring at any level from foundational arithmetic through advanced topics." },
+      { title: "Homeschooling Families", description: "Use adaptive AI math tutoring as a core component of your home education mathematics curriculum." }
+    ]
+  },
+  "thetawise": {
+    whatIs: "Thetawise is an AI homework and tutoring platform that provides detailed explanations and step-by-step help across STEM subjects, helping students build genuine understanding through guided problem solving.",
+    features: [
+      "STEM Focus: Mathematics science and engineering help",
+      "Step-by-Step Help: Detailed guided problem solutions",
+      "Concept Building: Explanations that teach understanding",
+      "Multiple Subjects: Physics chemistry math and more",
+      "Student Safe: Designed to support learning not replace it"
+    ],
+    howToUse: {
+      title: "How to Use Thetawise",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Ask Your Question", description: "Enter your STEM homework question or describe the concept you are struggling to understand." },
+        { title: "Get Guided Help", description: "Receive step-by-step guidance that walks you through the solution while explaining the reasoning." },
+        { title: "Understand the Concept", description: "Read the conceptual explanation to grasp why the approach works not just what the answer is." },
+        { title: "Practice Similar Problems", description: "Apply your new understanding to similar problems to solidify your knowledge before exams." }
+      ]
+    },
+    coreFeatures: [
+      { title: "STEM Specialization", description: "Focuses specifically on science, technology, engineering, and mathematics for deeper subject expertise." },
+      { title: "Understanding Over Answers", description: "Prioritizes building genuine comprehension rather than simply providing answers to copy down." },
+      { title: "Guided Problem Solving", description: "Walks students through solutions step by step rather than jumping directly to final answers." }
+    ],
+    useCases: [
+      { title: "STEM Students", description: "Build genuine understanding of mathematics and science concepts with guided step-by-step explanations." },
+      { title: "Engineering Students", description: "Get help with complex technical problems with explanations that build real conceptual understanding." },
+      { title: "High School Science Students", description: "Master physics, chemistry, and math with AI guidance that teaches you how to think through problems." }
+    ]
+  },
+  "math-ai": {
+    whatIs: "Math AI is a free online mathematics problem solver that handles everything from basic calculations to complex equations, providing instant answers with complete step-by-step working for any math problem.",
+    features: [
+      "Instant Solving: Any math problem solved in seconds",
+      "All Math Types: Arithmetic algebra calculus statistics",
+      "Step-by-Step: Full solution working always shown",
+      "Free to Use: Math solving without payment required",
+      "Simple Interface: Easy to use for any student"
+    ],
+    howToUse: {
+      title: "How to Use Math Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Type Your Problem", description: "Enter your math problem using standard notation or plain language description in the input field." },
+        { title: "Get Instant Answer", description: "Receive your complete solution with step-by-step working shown immediately after submission." },
+        { title: "Review the Steps", description: "Study each step in the solution to understand the mathematical method being applied." },
+        { title: "Try More Problems", description: "Use the tool freely for as many problems as you need with no usage limits or payment required." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Universal Coverage", description: "Solves mathematics problems across every level and type from simple arithmetic to advanced calculus." },
+      { title: "Complete Working", description: "Shows every step of the solution so students can follow the reasoning and learn the approach." },
+      { title: "Free Unlimited Access", description: "Provides unlimited math problem solving completely free making it accessible to all students globally." }
+    ],
+    useCases: [
+      { title: "All Level Students", description: "Get instant help with any mathematics problem from elementary through university level for free." },
+      { title: "Exam Preppers", description: "Check your working and verify solutions for practice problems before your important math exams." },
+      { title: "Self-Studiers", description: "Solve any math problem independently with complete step-by-step solutions to guide your learning." }
+    ]
+  },
+  "mymap": {
+    whatIs: "MyMap is an AI mind mapping and visual thinking tool that helps users organize ideas, plan projects, and brainstorm by creating intelligent maps from text input that can be explored and expanded interactively.",
+    features: [
+      "AI Mind Maps: Generate maps from text descriptions instantly",
+      "Interactive Exploration: Click to expand and explore branches",
+      "Project Planning: Organize project ideas and structures visually",
+      "Brainstorming: Capture and connect ideas in visual format",
+      "Export Options: Download maps for presentations and documents"
+    ],
+    howToUse: {
+      title: "How to Use Mymap",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Topic", description: "Enter a topic, idea, or project description and let MyMap generate an initial mind map structure." },
+        { title: "Explore Your Map", description: "Click on nodes to expand branches and explore different aspects of your topic visually." },
+        { title: "Add Your Ideas", description: "Manually add new branches, edit existing nodes, and customize your map to capture your thinking." },
+        { title: "Export and Share", description: "Download your finished mind map as an image or document to share or use in presentations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Map Generation", description: "Creates initial mind map structures from text descriptions giving you a useful starting framework instantly." },
+      { title: "Interactive Expansion", description: "Allows clicking on any node to generate additional related ideas and sub-topics automatically." },
+      { title: "Visual Organization", description: "Makes complex ideas and project structures visually comprehensible through spatial map layouts." }
+    ],
+    useCases: [
+      { title: "Project Planners", description: "Visualize project structure and explore all aspects of complex initiatives through interactive mind maps." },
+      { title: "Students", description: "Organize study topics and essay structures visually to improve planning and conceptual understanding." },
+      { title: "Creative Thinkers", description: "Capture and connect ideas during brainstorming sessions with an AI that helps expand your thinking." }
+    ]
+  },
+  "xmind-ai": {
+    whatIs: "Xmind AI is a professional mind mapping application enhanced with AI capabilities that helps individuals and teams create beautiful structured mind maps for brainstorming, planning, and knowledge organization.",
+    features: [
+      "Professional Maps: Beautiful high-quality mind map creation",
+      "AI Brainstorming: AI suggests ideas and expands topics",
+      "Multiple Layouts: Various map structures and visual styles",
+      "Team Collaboration: Share and co-create maps with others",
+      "Cross-Platform: Available on all major devices and platforms"
+    ],
+    howToUse: {
+      title: "How to Use Xmind Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Map", description: "Open Xmind AI and start a new mind map choosing your preferred layout and visual style." },
+        { title: "Add Your Central Topic", description: "Place your main idea or topic in the center and begin adding primary branches around it." },
+        { title: "Use AI to Expand", description: "Invoke AI suggestions to generate additional ideas and sub-topics for any branch you select." },
+        { title: "Collaborate and Share", description: "Invite team members to view and edit your mind map together and export for presentations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Idea Generation", description: "Suggests relevant sub-topics and related ideas for any map branch to accelerate brainstorming sessions." },
+      { title: "Visual Quality", description: "Creates professionally designed maps with attractive layouts that work well in presentations." },
+      { title: "Cross-Platform Sync", description: "Keeps mind maps synchronized across desktop, mobile, and web for seamless access everywhere." }
+    ],
+    useCases: [
+      { title: "Business Teams", description: "Brainstorm strategies, plan projects, and organize complex information through collaborative mind mapping." },
+      { title: "Students", description: "Create structured study maps, essay outlines, and concept diagrams for better academic performance." },
+      { title: "Professionals", description: "Organize thinking, plan presentations, and map complex topics with professional-quality visual tools." }
+    ]
+  },
+  "mapify": {
+    whatIs: "Mapify is an AI-powered tool that converts any content including PDFs, YouTube videos, articles, and text into clear interactive mind maps for faster understanding and knowledge organization.",
+    features: [
+      "Content to Map: Convert any content into mind maps",
+      "YouTube to Map: Transform video content into visual maps",
+      "PDF Mapping: Turn documents into structured visual maps",
+      "Interactive Maps: Explore and navigate your generated maps",
+      "Multiple Sources: Works with diverse content formats"
+    ],
+    howToUse: {
+      title: "How to Use Mapify",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Source", description: "Select whether you want to convert a PDF, YouTube video, article URL, or pasted text." },
+        { title: "Import Your Content", description: "Upload your file, paste your URL, or enter your text for AI processing and map generation." },
+        { title: "Explore Your Map", description: "Navigate the generated interactive mind map and explore how your content has been structured visually." },
+        { title: "Customize and Export", description: "Edit the map to add or remove elements then export it for use in your notes or presentations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Format Conversion", description: "Transforms diverse content types including videos, PDFs, and articles into unified mind map format." },
+      { title: "YouTube Processing", description: "Extracts and maps the structure of video content making visual learning from videos more effective." },
+      { title: "Interactive Navigation", description: "Creates explorable maps rather than static images for engaging and flexible knowledge review." }
+    ],
+    useCases: [
+      { title: "Visual Learners", description: "Convert any content into visual mind maps that match your preferred way of processing information." },
+      { title: "Students", description: "Transform lecture videos and textbook chapters into structured maps for more effective studying." },
+      { title: "Knowledge Workers", description: "Quickly understand and organize complex documents by converting them to navigable visual maps." }
+    ]
+  },
+  "algor-education": {
+    whatIs: "Algor Education is an AI visual learning platform that transforms any text or topic into interactive concept maps, helping students and educators visualize knowledge structures and relationships between ideas.",
+    features: [
+      "Text to Concept Map: Any text converted to visual maps",
+      "Interactive Learning: Explore concepts through visual navigation",
+      "Knowledge Relationships: See how ideas connect and relate",
+      "Student and Teacher Tools: Resources for both sides of learning",
+      "Shareable Maps: Share visual content with students or classmates"
+    ],
+    howToUse: {
+      title: "How to Use Algor Education",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Content", description: "Paste your text, notes, or topic description into Algor Education for visual map generation." },
+        { title: "View Your Concept Map", description: "Explore the generated interactive concept map showing how ideas and concepts relate to each other." },
+        { title: "Navigate and Learn", description: "Click through the map to explore different concepts and understand their relationships more deeply." },
+        { title: "Share With Others", description: "Share your generated concept map with students or classmates for collaborative visual learning." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Concept Relationship Visualization", description: "Shows how ideas connect and relate to each other in ways that text alone cannot communicate clearly." },
+      { title: "Text Conversion", description: "Transforms any written content into structured visual concept maps without manual diagram creation." },
+      { title: "Educational Focus", description: "Designed specifically for learning contexts with tools appropriate for both students and educators." }
+    ],
+    useCases: [
+      { title: "Students", description: "Transform dense text content into visual concept maps that reveal structure and aid comprehension." },
+      { title: "Teachers", description: "Create visual learning materials that help students see how concepts in your subject connect." },
+      { title: "Visual Learners", description: "Access content in the visual format that matches how you naturally process and retain information best." }
+    ]
+  },
+  "felo": {
+    whatIs: "Felo is an AI-powered search and research tool that provides comprehensive answers to complex questions by searching multiple sources and synthesizing information into well-organized responses with citations.",
+    features: [
+      "Multi-Source Search: Searches across diverse web sources",
+      "Comprehensive Answers: Detailed synthesized responses",
+      "Citation Included: Sources referenced for every answer",
+      "Mind Map View: Visualize your research as connected maps",
+      "Multi-Language: Research in your preferred language"
+    ],
+    howToUse: {
+      title: "How to Use Felo",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Question", description: "Type your research question or topic into Felo for comprehensive multi-source search and synthesis." },
+        { title: "Review Your Answer", description: "Read the detailed synthesized answer combining information from multiple relevant sources." },
+        { title: "Check Citations", description: "Review the sources cited alongside your answer to verify information and explore further." },
+        { title: "Explore as Map", description: "Switch to mind map view to see your research topic and findings visualized as connected concepts." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Source Synthesis", description: "Combines information from numerous web sources into one coherent comprehensive answer automatically." },
+      { title: "Mind Map Integration", description: "Visualizes research findings as an interactive map for alternative exploration of complex topics." },
+      { title: "Citation Transparency", description: "References all sources used so users can verify information and access original content directly." }
+    ],
+    useCases: [
+      { title: "Researchers", description: "Get comprehensive multi-source answers to complex questions with clear citations for verification." },
+      { title: "Students", description: "Research topics thoroughly with synthesized answers that draw from multiple credible sources." },
+      { title: "Professionals", description: "Find detailed well-sourced answers to complex industry questions faster than manual research allows." }
+    ]
+  },
+  "quizgecko": {
+    whatIs: "Quizgecko is an AI quiz generator that creates professional quizzes, flashcards, and assessments from any text, document, or URL making it easy for educators and trainers to build engaging test content.",
+    features: [
+      "AI Quiz Generation: Create quizzes from any content instantly",
+      "Multiple Question Types: MCQ true false short answer and more",
+      "Document Input: Upload PDFs and documents for quiz creation",
+      "URL to Quiz: Generate quizzes from any web page content",
+      "Share and Embed: Distribute quizzes across platforms easily"
+    ],
+    howToUse: {
+      title: "How to Use Quizgecko",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Add Your Content", description: "Paste text, upload a document, or enter a URL containing the material you want to quiz on." },
+        { title: "Generate Your Quiz", description: "Let the AI create a comprehensive quiz with varied question types from your submitted content." },
+        { title: "Review Questions", description: "Check all generated questions for accuracy and edit any that need adjustment before using." },
+        { title: "Share Your Quiz", description: "Distribute your quiz via link, embed it on your website, or share directly with your students." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Content-Based Generation", description: "Creates quiz questions directly from your specific content ensuring relevance and accuracy." },
+      { title: "Question Type Variety", description: "Generates multiple choice, true/false, short answer, and other formats for assessment diversity." },
+      { title: "Easy Distribution", description: "Provides multiple sharing options including links and embeds for flexible quiz deployment." }
+    ],
+    useCases: [
+      { title: "Educators", description: "Create professional assessments from your course content quickly without hours of manual question writing." },
+      { title: "Corporate Trainers", description: "Build knowledge checks and assessments for training materials efficiently with AI quiz generation." },
+      { title: "Content Creators", description: "Engage your audience with interactive quizzes generated from your existing articles and content." }
+    ]
+  },
+  "testportal": {
+    whatIs: "Testportal is an online exam and assessment platform that helps educators and businesses create secure proctored tests with AI anti-cheating features, automatic grading, and detailed performance analytics.",
+    features: [
+      "Secure Testing: AI proctoring to maintain exam integrity",
+      "Auto Grading: Instant automated scoring for objective questions",
+      "Question Bank: Build reusable libraries of test questions",
+      "Performance Analytics: Detailed reports on test results",
+      "Multiple Question Types: Various formats for diverse assessment"
+    ],
+    howToUse: {
+      title: "How to Use Testportal",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Build Your Test", description: "Create your assessment by adding questions from your question bank or writing new ones directly." },
+        { title: "Configure Security", description: "Enable AI proctoring features and set time limits and access controls for your exam." },
+        { title: "Distribute to Candidates", description: "Share the test link with your students or candidates and set your available testing window." },
+        { title: "Review Results", description: "Access automatically graded results and detailed analytics on candidate performance immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Anti-Cheating", description: "Monitors candidates during tests using AI to detect suspicious behavior and maintain assessment integrity." },
+      { title: "Automatic Grading", description: "Scores objective questions instantly upon submission saving significant manual grading time." },
+      { title: "Question Bank Management", description: "Builds reusable question libraries that can be shared across multiple tests and randomized for security." }
+    ],
+    useCases: [
+      { title: "Educational Institutions", description: "Conduct secure online exams with AI proctoring that maintains academic integrity without in-person supervision." },
+      { title: "HR Departments", description: "Administer skills assessments and aptitude tests to job candidates efficiently with automatic scoring." },
+      { title: "Corporate Training Teams", description: "Test employee knowledge after training programs with secure assessments and detailed performance reports." }
+    ]
+  },
+  "sendsteps-ai": {
+    whatIs: "Sendsteps.ai is an AI-powered interactive presentation tool that creates engaging presentations with live audience interaction features including polls, quizzes, and Q&A directly built into every slide deck.",
+    features: [
+      "AI Presentation Creation: Generate decks from text prompts",
+      "Live Polls: Real-time audience polling during presentations",
+      "Interactive Quizzes: Engage audiences with live quiz competitions",
+      "Q&A Management: Structured live question and answer sessions",
+      "Audience Responses: See participant answers appear in real time"
+    ],
+    howToUse: {
+      title: "How to Use Sendsteps Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Presentation", description: "Enter your topic and let Sendsteps AI generate a complete interactive presentation with engagement activities." },
+        { title: "Customize Activities", description: "Adjust the polls, quizzes, and Q&A elements to match your specific presentation goals and audience." },
+        { title: "Present and Engage", description: "Launch your presentation and watch audience responses appear live as participants interact on their devices." },
+        { title: "Review Results", description: "Access post-presentation analytics showing participation rates and audience response data." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Generation with Interaction", description: "Creates complete presentations with interactive elements already built in rather than added as an afterthought." },
+      { title: "Live Response Display", description: "Shows audience answers and poll results in real time creating dynamic engaging presentation moments." },
+      { title: "Engagement Analytics", description: "Tracks participation rates and response patterns to measure how engaged your audience genuinely was." }
+    ],
+    useCases: [
+      { title: "Educators", description: "Transform passive lectures into interactive learning experiences with live polls and quizzes for every class." },
+      { title: "Conference Speakers", description: "Engage large audiences with live interaction that makes presentations memorable and participatory." },
+      { title: "Corporate Trainers", description: "Increase training engagement and knowledge retention with interactive activities woven throughout sessions." }
+    ]
+  },
   "sciphi": {
     whatIs: "SciPhi is an AI research and knowledge management platform that helps researchers and knowledge workers retrieve, organize, and synthesize information from large document collections using retrieval augmented generation.",
     features: [
