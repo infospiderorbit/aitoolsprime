@@ -1331,7 +1331,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "ai-cartoon-generator": [
       { id: "myimg-ai", name: "Myimg AI", description: "AI cartoon and caricature creator", url: "", upvotes: 1567, verified: true, rating: 4.7, icon: "😄", category: "art-creative-design", subcategory: "ai-cartoon-generator" },
       { id: "colorcinch", name: "Colorcinch", description: "Cartoon photo editor with AI", url: "", upvotes: 1098, verified: true, rating: 4.6, icon: "🎨", category: "art-creative-design", subcategory: "ai-cartoon-generator" },
-      { id: "neural-frames", name: "neural frames", description: "AI video and cartoon generation", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🎬", category: "art-creative-design", subcategory: "ai-cartoon-generator" },
+      { id: "neural-frames", name: "Neural Frames", description: "AI video and cartoon generation", url: "", upvotes: 876, verified: true, rating: 4.5, icon: "🎬", category: "art-creative-design", subcategory: "ai-cartoon-generator" },
       { id: "krikey-ai", name: "Krikey AI", description: "3D cartoon avatar creator", url: "", upvotes: 543, verified: false, rating: 4.3, icon: "🎭", category: "art-creative-design", subcategory: "ai-cartoon-generator" }
     ],
     "ai-cat": [
