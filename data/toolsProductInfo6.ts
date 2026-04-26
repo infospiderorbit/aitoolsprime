@@ -1,4 +1,454 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "pxlize-ai": {
+    whatIs: "Pxlize AI is an AI image pixelation and pixel art creation tool that converts photos and digital images into stylized pixel art with customizable settings for retro gaming aesthetics and creative projects.",
+    features: [
+      "Image Pixelation: Convert photos to pixel art style",
+      "Customizable Settings: Adjust pixel size and colors",
+      "Retro Aesthetics: Classic gaming visual style output",
+      "Fast Processing: Quick pixel art conversion results",
+      "Download Ready: Pixel art for immediate creative use"
+    ],
+    howToUse: {
+      title: "How to Use Pxlize Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Import the photo or image you want converted into pixel art style." },
+        { title: "Adjust Your Settings", description: "Set your preferred pixel size, color palette, and detail level for the conversion." },
+        { title: "Generate Pixel Art", description: "Process your image and receive your pixel art conversion result instantly." },
+        { title: "Download and Use", description: "Save your pixel art image for games, social media, or retro creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Pixel Customization", description: "Provides control over pixel dimensions and color palettes for tailored retro aesthetics." },
+      { title: "Photo Accuracy", description: "Converts photos while preserving recognizable features in the pixel art output." },
+      { title: "Quick Turnaround", description: "Delivers pixel art conversions rapidly for efficient creative workflow integration." }
+    ],
+    useCases: [
+      { title: "Pixel Art Creators", description: "Convert reference photos into pixel art for games and retro-themed creative projects." },
+      { title: "Social Media Users", description: "Create retro aesthetic pixel art content from personal photos for nostalgic posts." },
+      { title: "Indie Developers", description: "Generate pixel art game graphics from photographic references efficiently." }
+    ]
+  },
+  "bitsjorney": {
+    whatIs: "Bitsjorney is an AI pixel art and retro game asset generator that creates 8-bit and 16-bit style game graphics, characters, and environments from text descriptions for indie game developers.",
+    features: [
+      "Pixel Art Generation: Retro game assets from descriptions",
+      "Character Sprites: 8-bit and 16-bit character creation",
+      "Environment Tiles: Game background and tile generation",
+      "Sprite Animations: Multiple frames for character movement",
+      "Game Ready: Assets formatted for game engine use"
+    ],
+    howToUse: {
+      title: "How to Use Bitsjorney",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Asset", description: "Enter a description of the game character, sprite, or environment tile you need." },
+        { title: "Select Pixel Style", description: "Choose your target pixel art resolution and color palette limitations." },
+        { title: "Generate Your Asset", description: "Receive pixel art game assets in your specified retro style from the description." },
+        { title: "Export for Game", description: "Download sprite sheets and assets in formats ready for game engine integration." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Game Asset Specialization", description: "Focuses specifically on game asset creation for superior game development output." },
+      { title: "Resolution Control", description: "Generates assets at specific pixel resolutions matching different retro console aesthetics." },
+      { title: "Animation Support", description: "Creates multiple animation frames for character sprites for game-ready animated assets." }
+    ],
+    useCases: [
+      { title: "Indie Game Developers", description: "Generate retro-style game assets quickly without pixel art skills for game projects." },
+      { title: "Game Jams", description: "Create game assets rapidly during time-constrained game jam events and competitions." },
+      { title: "Retro Game Creators", description: "Produce authentic pixel art graphics that match specific retro console visual styles." }
+    ]
+  },
+  "pokemon-avatar-generator": {
+    whatIs: "Pokémon Avatar Generator is an AI tool that creates personalized Pokémon-style avatar characters from user photos or descriptions, turning people into their own unique Pokémon trainer-style avatar art.",
+    features: [
+      "Pokémon Style Avatars: Create trainer-style character art",
+      "Photo to Avatar: Transform selfies into Pokémon aesthetic",
+      "Custom Characters: Design original Pokémon-style trainers",
+      "Nostalgic Aesthetic: Authentic Pokémon visual style output",
+      "Social Ready: Avatars perfect for social media profiles"
+    ],
+    howToUse: {
+      title: "How to Use Pokemon Avatar Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Provide a photo of yourself for transformation into a Pokémon-style trainer avatar." },
+        { title: "Describe Your Character", description: "Alternatively describe your desired trainer character appearance and style." },
+        { title: "Generate Your Avatar", description: "Receive your AI-generated Pokémon-style trainer character avatar image." },
+        { title: "Download and Use", description: "Save your avatar for use as a profile picture or in Pokémon fan community spaces." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Style Accuracy", description: "Captures the distinctive Pokémon trainer art style authentically for true fan appeal." },
+      { title: "Photo Transformation", description: "Converts real photos into Pokémon aesthetic characters while preserving recognizable traits." },
+      { title: "Customization Options", description: "Allows describing specific trainer outfit, type specialty, and visual preferences." }
+    ],
+    useCases: [
+      { title: "Pokémon Fans", description: "Create your own unique Pokémon trainer avatar for fan communities and social profiles." },
+      { title: "Gaming Communities", description: "Generate Pokémon-style avatars for use in gaming forums and community spaces." },
+      { title: "Content Creators", description: "Produce Pokémon-themed avatar content that resonates with the massive Pokémon fan base." }
+    ]
+  },
+  "bulk-image-generation": {
+    whatIs: "Bulk Image Generation is an AI tool that creates large quantities of images from multiple text prompts simultaneously, enabling efficient mass production of AI visual content for diverse creative and commercial needs.",
+    features: [
+      "Batch Generation: Create many images simultaneously",
+      "Multiple Prompts: Process different prompts at once",
+      "Efficient Production: High volume AI image creation",
+      "Consistent Quality: Maintained quality across all generations",
+      "Download All: Bulk download of generated image sets"
+    ],
+    howToUse: {
+      title: "How to Use Bulk Image Generation",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Prepare Your Prompts", description: "Create a list of text prompts for all the images you want to generate in your batch." },
+        { title: "Upload Prompt List", description: "Import your prompt list into the bulk generation tool for batch processing." },
+        { title: "Generate All Images", description: "Process all your prompts simultaneously and receive your complete image set." },
+        { title: "Download Your Batch", description: "Save your entire generated image collection in a convenient bulk download." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Batch Processing", description: "Processes multiple image prompts simultaneously for efficient high-volume generation." },
+      { title: "Production Efficiency", description: "Dramatically reduces time needed for large-scale AI image content production." },
+      { title: "Quality Consistency", description: "Maintains consistent generation quality across all images in the batch output." }
+    ],
+    useCases: [
+      { title: "Content Agencies", description: "Generate large volumes of AI imagery for clients without individual prompt submission." },
+      { title: "E-commerce Businesses", description: "Create diverse product imagery at scale for comprehensive catalog visual coverage." },
+      { title: "Marketing Teams", description: "Produce campaign visual assets in bulk for testing and diverse creative variations." }
+    ]
+  },
+  "seapik": {
+    whatIs: "Seapik is an AI-powered creative platform offering video editing, image enhancement, background removal, and AI art generation tools for content creators and social media professionals.",
+    features: [
+      "Video Editing: AI-assisted video editing tools",
+      "Background Removal: Automatic background extraction",
+      "Image Enhancement: AI quality improvement tools",
+      "Art Generation: Create AI images from prompts",
+      "Social Content: Tools optimized for social media creators"
+    ],
+    howToUse: {
+      title: "How to Use Seapik",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Tool", description: "Select from Seapik's suite of video, image, and AI art creation tools." },
+        { title: "Import Your Content", description: "Upload your video or image for editing, enhancement, or transformation." },
+        { title: "Apply AI Tools", description: "Use the selected AI tools for background removal, enhancement, or generation." },
+        { title: "Export Your Result", description: "Download your processed or generated content for immediate use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multi-Tool Platform", description: "Combines video editing, image processing, and AI generation in one creative platform." },
+      { title: "Background Removal Quality", description: "Provides accurate automatic background extraction for clean content production." },
+      { title: "Social Media Focus", description: "Optimizes tools and output formats for the needs of social media content creators." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Access diverse AI creative tools for video and image content from one platform." },
+      { title: "Social Media Managers", description: "Process and enhance visual content efficiently for consistent social media quality." },
+      { title: "Marketers", description: "Create and edit diverse visual marketing assets using comprehensive AI tool access." }
+    ]
+  },
+  "ai-poster-generator": {
+    whatIs: "AI Poster Generator is a free online tool that creates professional eye-catching poster designs from text descriptions for events, promotions, and creative projects without design skills required.",
+    features: [
+      "Free Poster Creation: Professional posters at no cost",
+      "Event Posters: Perfect for announcements and promotions",
+      "Text to Poster: Describe your concept for generation",
+      "Multiple Styles: Various poster design aesthetics",
+      "Download Ready: Print and digital quality output"
+    ],
+    howToUse: {
+      title: "How to Use Ai Poster Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Poster", description: "Enter the event details, message, and visual style you want for your poster design." },
+        { title: "Generate Your Design", description: "Receive an AI-created professional poster based on your provided description." },
+        { title: "Review and Adjust", description: "Check your generated poster and request changes if needed for your requirements." },
+        { title: "Download Your Poster", description: "Save your poster in high quality for printing or digital distribution use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Access", description: "Provides professional poster generation without any payment or subscription required." },
+      { title: "Event Specialization", description: "Creates posters appropriate for events, announcements, and promotional contexts." },
+      { title: "Quality Output", description: "Delivers poster designs at quality suitable for both digital sharing and physical printing." }
+    ],
+    useCases: [
+      { title: "Event Organizers", description: "Create professional event posters quickly without hiring designers or knowing software." },
+      { title: "Small Business Owners", description: "Generate promotional posters for sales and events without design budget investment." },
+      { title: "Community Groups", description: "Produce eye-catching announcement posters for community events and activities easily." }
+    ]
+  },
+  "ai-pixar-posters": {
+    whatIs: "AI Pixar Posters is an AI image generator that creates movie poster-style artwork in the distinctive Pixar animation aesthetic from text descriptions for fans and creative entertainment projects.",
+    features: [
+      "Pixar Poster Style: Cinematic Pixar aesthetic posters",
+      "Animation Aesthetic: Distinctive Pixar visual quality",
+      "Character Scenes: Dramatic animated compositions created",
+      "Movie Poster Format: Cinematic layout and composition",
+      "Fan Projects: Perfect for Pixar fan creative content"
+    ],
+    howToUse: {
+      title: "How to Use Ai Pixar Posters",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Poster", description: "Enter the Pixar-style movie poster concept including characters and setting details." },
+        { title: "Generate Your Poster", description: "Receive an AI-generated image in the iconic Pixar movie poster visual aesthetic." },
+        { title: "Review the Quality", description: "Check that your poster captures the warm and vibrant Pixar animation style accurately." },
+        { title: "Download and Share", description: "Save your Pixar-style poster for fan projects and creative entertainment sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Pixar Style Accuracy", description: "Captures the distinctive warm lighting, vivid colors, and character charm of Pixar films." },
+      { title: "Movie Poster Composition", description: "Creates dramatic cinematic compositions typical of animated film marketing materials." },
+      { title: "Fan Project Suitability", description: "Generates content perfect for fan creative projects celebrating Pixar films and characters." }
+    ],
+    useCases: [
+      { title: "Pixar Fans", description: "Create movie-style posters for original Pixar-inspired characters and story concepts." },
+      { title: "Animation Enthusiasts", description: "Explore the Pixar animation aesthetic through AI-generated poster art creation." },
+      { title: "Content Creators", description: "Generate Pixar-style visual content that resonates with animation-loving audiences online." }
+    ]
+  },
+  "vectorizer-ai": {
+    whatIs: "Vectorizer.AI is an AI-powered image vectorization tool that converts raster images, logos, and illustrations into clean scalable SVG vector files automatically with high accuracy and detail preservation.",
+    features: [
+      "Automatic Vectorization: Convert raster to vector instantly",
+      "SVG Output: Clean scalable vector file generation",
+      "Logo Conversion: Perfect for logo and icon vectorization",
+      "Detail Preservation: Maintains image accuracy through conversion",
+      "High Quality: Professional vectorization results"
+    ],
+    howToUse: {
+      title: "How to Use Vectorizer Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Import your PNG, JPG, or other raster image for automatic vectorization processing." },
+        { title: "AI Vectorizes Content", description: "Let Vectorizer.AI convert your image into clean paths and shapes automatically." },
+        { title: "Review Your SVG", description: "Check the vectorized output for accuracy and detail preservation quality." },
+        { title: "Download Your Vector", description: "Save your SVG file for use in design software or scalable web and print use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Conversion Accuracy", description: "Preserves the visual fidelity of source images through the vectorization process accurately." },
+      { title: "Clean Path Generation", description: "Creates clean vector paths without unnecessary complexity for professional design use." },
+      { title: "Logo Specialization", description: "Particularly effective for logo and icon vectorization for brand asset creation." }
+    ],
+    useCases: [
+      { title: "Graphic Designers", description: "Convert client logos and graphics to scalable vector format quickly and accurately." },
+      { title: "Brand Teams", description: "Create scalable SVG versions of existing brand assets for diverse use case requirements." },
+      { title: "Web Developers", description: "Generate SVG versions of icons and graphics for crisp scalable web implementation." }
+    ]
+  },
+  "svgtrace": {
+    whatIs: "SvgTrace is an online tool that converts bitmap images into SVG vector graphics by tracing their outlines and shapes, providing clean vector conversion for use in design software and web projects.",
+    features: [
+      "Bitmap to SVG: Convert images to vector format online",
+      "Outline Tracing: Accurate shape and path detection",
+      "Color Preservation: Maintains color information in vectors",
+      "Free to Use: Basic vectorization without payment",
+      "Browser Based: Works without software installation"
+    ],
+    howToUse: {
+      title: "How to Use Svgtrace",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Bitmap", description: "Import your PNG, JPG, or other bitmap image for SVG tracing conversion." },
+        { title: "Configure Tracing", description: "Adjust tracing sensitivity and color settings for your desired vector output." },
+        { title: "Generate SVG", description: "Let the tool trace your image and produce a clean SVG vector file." },
+        { title: "Download Your SVG", description: "Save your vector file for use in Illustrator, Figma, or web projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser Accessibility", description: "Converts images to SVG directly in the browser without installing design software." },
+      { title: "Color Handling", description: "Preserves color information from bitmap source during the tracing process." },
+      { title: "Free Access", description: "Provides basic vectorization capability without payment for occasional conversion needs." }
+    ],
+    useCases: [
+      { title: "Web Developers", description: "Convert image assets to SVG format for scalable crisp web implementation." },
+      { title: "Designers", description: "Create vector versions of raster graphics for use in professional design projects." },
+      { title: "General Users", description: "Convert images to SVG format for occasional needs without specialized software." }
+    ]
+  },
+  "svg-io": {
+    whatIs: "SVG.io is an AI-powered SVG generation platform that creates scalable vector graphics from text descriptions and converts images to SVG format for designers and developers needing scalable visual assets.",
+    features: [
+      "AI SVG Generation: Create vectors from text descriptions",
+      "Image to SVG: Convert raster images to vector format",
+      "Clean Output: Professional SVG code generation",
+      "Designer Friendly: Editable SVG files produced",
+      "Web Ready: Optimized SVG for web use"
+    ],
+    howToUse: {
+      title: "How to Use Svg Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your SVG", description: "Enter a description of the vector graphic you want the AI to create as SVG." },
+        { title: "Generate Your Vector", description: "Receive an AI-generated SVG file based on your text description of the graphic." },
+        { title: "Review the Output", description: "Check your SVG for quality and make sure it represents your described concept." },
+        { title: "Download and Use", description: "Save your SVG for use in design software, websites, or other applications." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI SVG Creation", description: "Generates SVG graphics from text descriptions for unique scalable vector assets." },
+      { title: "Clean Code Output", description: "Produces well-structured SVG code suitable for web implementation and editing." },
+      { title: "Designer Editability", description: "Creates SVG files that designers can further edit in vector software easily." }
+    ],
+    useCases: [
+      { title: "Web Developers", description: "Generate SVG icons and graphics programmatically from descriptions for projects." },
+      { title: "Graphic Designers", description: "Create unique scalable vector assets from AI generation for design projects." },
+      { title: "UI Designers", description: "Produce custom SVG interface elements without manual vector drawing work." }
+    ]
+  },
+  "svgstud-io": {
+    whatIs: "SVGStud.io is an online SVG editor and creation platform that provides tools for creating, editing, and optimizing SVG vector graphics with AI-assisted generation features for designers and developers.",
+    features: [
+      "SVG Editor: Full-featured vector editing in browser",
+      "AI Generation: Create SVGs from text descriptions",
+      "SVG Optimization: Clean and optimize SVG code output",
+      "Export Options: Download in SVG and other formats",
+      "Code View: Access and edit raw SVG code directly"
+    ],
+    howToUse: {
+      title: "How to Use Svgstud Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create or Import", description: "Start a new SVG design or import an existing file for editing in the browser editor." },
+        { title: "Edit Your Vector", description: "Use the vector editing tools to create and modify shapes, paths, and elements." },
+        { title: "Use AI Generation", description: "Generate SVG elements or complete graphics from text descriptions with AI." },
+        { title: "Optimize and Export", description: "Clean and optimize your SVG code and download the final file for use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser Vector Editor", description: "Provides full SVG editing capability in the browser without desktop software installation." },
+      { title: "AI Generation Integration", description: "Combines manual editing with AI generation for flexible SVG creation workflows." },
+      { title: "Code Optimization", description: "Produces clean optimized SVG code suitable for efficient web implementation use." }
+    ],
+    useCases: [
+      { title: "Web Developers", description: "Create and edit SVG graphics directly in the browser for web development projects." },
+      { title: "Designers", description: "Access SVG editing without requiring desktop vector software installation." },
+      { title: "Developers", description: "Use AI generation alongside manual editing for efficient custom SVG creation workflows." }
+    ]
+  },
+  "neosvg": {
+    whatIs: "neoSVG is an AI SVG generator that creates unique scalable vector graphics from text prompts, enabling designers and developers to generate custom SVG assets efficiently without manual vector illustration.",
+    features: [
+      "Text to SVG: Generate vector graphics from descriptions",
+      "Unique Output: Original SVG assets from every prompt",
+      "Clean Vectors: Professional quality SVG code output",
+      "Style Variety: Multiple vector aesthetic directions",
+      "Developer Ready: SVG code for immediate use"
+    ],
+    howToUse: {
+      title: "How to Use Neosvg",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Describe the SVG graphic or icon you want the AI to generate as a vector file." },
+        { title: "Generate Your SVG", description: "Receive a unique AI-created SVG file based on your text description provided." },
+        { title: "Review Quality", description: "Check the generated SVG for visual accuracy and code quality before using." },
+        { title: "Copy or Download", description: "Copy the SVG code or download the file for use in your projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Prompt-Based Generation", description: "Creates SVGs directly from text descriptions for unique asset generation on demand." },
+      { title: "Clean Code Standards", description: "Outputs well-structured SVG code following web standards for broad compatibility." },
+      { title: "Developer Integration", description: "Produces SVG code that integrates smoothly into web development and design workflows." }
+    ],
+    useCases: [
+      { title: "Frontend Developers", description: "Generate custom SVG icons and graphics from descriptions for web project assets." },
+      { title: "UI Designers", description: "Create unique vector interface elements quickly without manual vector drawing work." },
+      { title: "Content Creators", description: "Generate custom SVG graphics for web content without vector illustration expertise." }
+    ]
+  },
+  "scribble-diffusion": {
+    whatIs: "Scribble Diffusion is an AI image generation tool that transforms rough hand-drawn sketches into detailed polished artwork using Stable Diffusion, turning simple doodles into refined illustrations instantly.",
+    features: [
+      "Sketch to Art: Transform rough sketches into polished images",
+      "Stable Diffusion Powered: High-quality image generation",
+      "Instant Transformation: Quick sketch to artwork conversion",
+      "Style Guidance: Add text prompts to guide the style",
+      "Free to Use: Sketch transformation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Scribble Diffusion",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Draw Your Sketch", description: "Create a rough sketch or doodle using the drawing canvas provided in the tool." },
+        { title: "Add Style Prompt", description: "Enter text describing the style and aesthetic you want applied to your sketch." },
+        { title: "Generate Your Image", description: "Transform your rough sketch into polished artwork using Stable Diffusion AI." },
+        { title: "Download Your Art", description: "Save the refined artwork generated from your original rough sketch input." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sketch Recognition", description: "Understands the intent of rough doodles to generate appropriate refined artwork." },
+      { title: "Stable Diffusion Quality", description: "Uses Stable Diffusion for high-quality image generation from sketch inputs." },
+      { title: "Text Guidance", description: "Accepts style prompts alongside sketches for more precise creative direction." }
+    ],
+    useCases: [
+      { title: "Artists", description: "Transform rough concept sketches into polished artwork quickly for creative exploration." },
+      { title: "Non-Artists", description: "Create refined illustrations from simple doodles without traditional drawing skills." },
+      { title: "Concept Designers", description: "Rapidly visualize rough concept sketches as polished reference artwork for projects." }
+    ]
+  },
+  "sketch-logo-ai": {
+    whatIs: "Sketch Logo AI is an AI tool that converts hand-drawn logo sketches and rough concepts into professional polished logo designs, bridging the gap between initial creative concepts and final brand assets.",
+    features: [
+      "Sketch to Logo: Transform rough sketches into professional logos",
+      "Concept Refinement: Polish hand-drawn ideas into final designs",
+      "Multiple Variations: Generate variations from single sketch",
+      "Color Application: AI applies appropriate color palettes",
+      "Brand Ready: Professional logo files for brand use"
+    ],
+    howToUse: {
+      title: "How to Use Sketch Logo Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Sketch", description: "Photograph or scan your hand-drawn logo sketch for AI processing." },
+        { title: "Describe Your Brand", description: "Provide information about your brand personality and preferred visual direction." },
+        { title: "Generate Logo Options", description: "Receive polished professional logo options based on your sketch and brand description." },
+        { title: "Download Your Logo", description: "Save your refined logo in professional formats for brand implementation use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sketch Interpretation", description: "Accurately interprets hand-drawn logo concepts and refines them into professional designs." },
+      { title: "Variation Generation", description: "Creates multiple polished logo variations from a single sketch for option exploration." },
+      { title: "Brand Context Understanding", description: "Incorporates brand personality information to guide the refinement direction appropriately." }
+    ],
+    useCases: [
+      { title: "Entrepreneurs", description: "Transform your logo sketch concepts into professional brand assets without designer costs." },
+      { title: "Designers", description: "Use AI to quickly explore and refine hand-drawn logo concepts into polished options." },
+      { title: "Startups", description: "Convert founder logo sketches into professional brand assets for business launch." }
+    ]
+  },
+  "sketchedge": {
+    whatIs: "SketchEdge is an AI-powered design tool that enhances and refines rough sketches and wireframes into polished design concepts, helping designers bridge the gap between ideation and final design output.",
+    features: [
+      "Sketch Enhancement: Refine rough designs into polished concepts",
+      "Wireframe to Design: Transform wireframes into UI designs",
+      "AI Refinement: Intelligent enhancement of rough inputs",
+      "Design Exploration: Explore multiple refined directions",
+      "Fast Iteration: Quick refinement for design workflows"
+    ],
+    howToUse: {
+      title: "How to Use Sketchedge",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Sketch", description: "Import your rough sketch, wireframe, or rough design concept for AI enhancement." },
+        { title: "Describe Your Intent", description: "Explain the design direction and style you want applied to your rough sketch." },
+        { title: "Generate Refinements", description: "Receive polished design variations based on your sketch and described direction." },
+        { title: "Select and Develop", description: "Choose your preferred refined concept and continue developing your final design." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sketch Enhancement Intelligence", description: "Understands design intent behind rough inputs to produce appropriate refinements." },
+      { title: "Wireframe Capability", description: "Transforms wireframes into visual UI designs for faster design concept development." },
+      { title: "Multiple Direction Exploration", description: "Generates several refined variations for broader design direction exploration." }
+    ],
+    useCases: [
+      { title: "UI/UX Designers", description: "Rapidly transform wireframes and sketches into visual design concepts for evaluation." },
+      { title: "Product Teams", description: "Explore design directions quickly from rough sketches before detailed design investment." },
+      { title: "Design Students", description: "Learn to refine rough concepts into polished designs with AI assistance throughout." }
+    ]
+  },
   "movieai": {
     whatIs: "MovieAI is an AI movie poster and film visual creation platform that generates cinematic poster artwork, movie-style imagery, and film aesthetic visuals from text descriptions for creative and entertainment projects.",
     features: [
