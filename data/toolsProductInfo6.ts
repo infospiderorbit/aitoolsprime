@@ -1,4 +1,424 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "ux-pilot": {
+    whatIs: "UX Pilot is an AI UX design assistant that helps designers create wireframes, generate UI suggestions, conduct design reviews, and accelerate the product design process through intelligent AI-powered guidance.",
+    features: [
+      "AI Wireframing: Generate wireframes from descriptions",
+      "Design Review: AI feedback on your UX designs",
+      "UI Suggestions: Smart interface improvement recommendations",
+      "Design Patterns: Access proven UX pattern recommendations",
+      "Fast Iteration: Accelerate design cycles with AI help"
+    ],
+    howToUse: {
+      title: "How to Use Ux Pilot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your UI", description: "Enter a description of the interface or screen you want wireframed by the AI." },
+        { title: "Generate Wireframe", description: "Receive AI-generated wireframes based on your interface description and requirements." },
+        { title: "Get Design Review", description: "Submit existing designs for AI-powered UX review and improvement suggestions." },
+        { title: "Apply Recommendations", description: "Implement the AI's suggestions to improve usability and design quality." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Wireframe Generation", description: "Creates interface wireframes from descriptions eliminating blank canvas paralysis." },
+      { title: "Design Intelligence", description: "Provides UX-informed feedback based on established design principles and patterns." },
+      { title: "Iteration Speed", description: "Dramatically reduces time between design concepts and testable wireframe outputs." }
+    ],
+    useCases: [
+      { title: "UX Designers", description: "Generate wireframes faster and get intelligent feedback on design decisions throughout." },
+      { title: "Product Managers", description: "Create quick wireframes for feature concepts without deep design expertise required." },
+      { title: "Startups", description: "Design user interfaces rapidly without a dedicated senior UX designer on the team." }
+    ]
+  },
+  "uizard": {
+    whatIs: "Uizard is an AI-powered UI design tool that converts hand-drawn sketches and screenshots into editable digital designs, enabling rapid prototyping and interface design without traditional design software skills.",
+    features: [
+      "Sketch to Design: Transform hand-drawn sketches to digital UI",
+      "Screenshot to Editable: Convert screenshots into editable designs",
+      "AI Design Generation: Create UIs from text descriptions",
+      "Rapid Prototyping: Quick interactive prototype creation",
+      "Team Collaboration: Work together on designs in real time"
+    ],
+    howToUse: {
+      title: "How to Use Uizard",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Sketch", description: "Upload a photo of your hand-drawn wireframe sketch for digital conversion." },
+        { title: "Convert to Design", description: "Let Uizard transform your sketch into an editable digital UI design automatically." },
+        { title: "Customize Elements", description: "Edit the converted design using Uizard's design tools to refine your interface." },
+        { title: "Create Prototype", description: "Add interactions to create a clickable prototype for user testing and demos." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sketch Recognition", description: "Accurately interprets hand-drawn wireframes and converts them to professional digital designs." },
+      { title: "Screenshot Conversion", description: "Transforms existing UI screenshots into fully editable design files for redesign work." },
+      { title: "AI Generation", description: "Creates complete UI designs from text descriptions for rapid concept exploration." }
+    ],
+    useCases: [
+      { title: "Product Designers", description: "Speed up wireframing and prototyping significantly using sketch-to-design AI conversion." },
+      { title: "Entrepreneurs", description: "Create app and website prototypes quickly without professional design tool expertise." },
+      { title: "Developers", description: "Design interfaces rapidly from sketches for quick visual prototypes before development." }
+    ]
+  },
+  "vectorizer-io": {
+    whatIs: "Vectorizer.io is an online image vectorization service that automatically converts raster bitmap images into clean scalable SVG vector files using AI-powered tracing technology for design and web use.",
+    features: [
+      "Automatic Vectorization: Convert raster to vector quickly",
+      "SVG Output: Clean scalable vector file generation",
+      "AI Tracing: Intelligent path and shape detection",
+      "Multiple Input Formats: Accepts PNG JPG and other formats",
+      "Free to Try: Basic vectorization without payment"
+    ],
+    howToUse: {
+      title: "How to Use Vectorizer Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Import your raster image file for automatic SVG vectorization processing." },
+        { title: "AI Traces Content", description: "Let the AI analyze your image and trace it into clean vector paths and shapes." },
+        { title: "Review Your SVG", description: "Check the vectorized result for accuracy and quality before downloading." },
+        { title: "Download Your Vector", description: "Save your clean SVG file for use in design software or web implementation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Intelligent Tracing", description: "Uses AI to accurately trace image content into clean vector paths automatically." },
+      { title: "Format Support", description: "Accepts diverse raster image formats for flexible vectorization workflow integration." },
+      { title: "Clean Output", description: "Produces well-structured SVG files without unnecessary path complexity or artifacts." }
+    ],
+    useCases: [
+      { title: "Graphic Designers", description: "Convert raster logos and graphics to scalable vector format for professional use." },
+      { title: "Web Developers", description: "Create SVG versions of site graphics for crisp scalable web implementation." },
+      { title: "Brand Teams", description: "Vectorize existing brand assets for diverse use case requirements professionally." }
+    ]
+  },
+  "blush": {
+    whatIs: "Blush is an AI illustration platform that provides customizable illustrated characters and scenes created by independent artists, enabling designers to add diverse and inclusive illustrations to their projects.",
+    features: [
+      "Artist Illustrations: Diverse illustration styles from real artists",
+      "Character Customization: Adjust colors poses and expressions",
+      "Scene Building: Combine elements for complete illustrated scenes",
+      "Figma Integration: Direct plugin for Figma workflow",
+      "Diverse Representation: Inclusive characters across backgrounds"
+    ],
+    howToUse: {
+      title: "How to Use Blush",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse Collections", description: "Explore Blush's diverse illustration collections from different independent artists." },
+        { title: "Select Your Characters", description: "Choose characters and scene elements that fit your project's visual needs." },
+        { title: "Customize Your Illustration", description: "Adjust skin tones, hair, clothing colors, and poses to match your requirements." },
+        { title: "Export to Your Project", description: "Download or use the Figma plugin to add illustrations directly to your design." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Artist-Backed Library", description: "Provides illustrations created by real independent artists for unique artistic quality." },
+      { title: "Deep Customization", description: "Allows extensive character customization for truly inclusive representation needs." },
+      { title: "Figma Integration", description: "Enables direct illustration insertion into Figma design files through native plugin." }
+    ],
+    useCases: [
+      { title: "UI/UX Designers", description: "Add diverse customizable illustrations to interfaces and presentations easily." },
+      { title: "Marketing Teams", description: "Use illustrated characters for campaigns that represent diverse and inclusive audiences." },
+      { title: "Developers", description: "Access illustrations through Figma integration for design system visual components." }
+    ]
+  },
+  "botika": {
+    whatIs: "Botika is an AI fashion model and product photography platform that generates diverse AI model photos wearing your clothing products, enabling fashion brands to create inclusive diverse product imagery efficiently.",
+    features: [
+      "AI Model Photography: Generate models wearing your clothes",
+      "Diverse Representation: Models of various ethnicities and sizes",
+      "Fashion Focus: Optimized for clothing and apparel products",
+      "E-commerce Ready: Professional quality fashion photography",
+      "Cost Efficient: Replace traditional model photo shoots"
+    ],
+    howToUse: {
+      title: "How to Use Botika",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Garment", description: "Import your clothing item photo for placement on diverse AI model photographs." },
+        { title: "Select Your Models", description: "Choose from diverse AI models representing different ethnicities, body types, and ages." },
+        { title: "Generate Your Photos", description: "Receive professional fashion photography with your garment on your selected models." },
+        { title: "Download for Store", description: "Save your diverse model photography for product listings and marketing materials." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Model Diversity", description: "Provides AI models representing diverse demographics for inclusive fashion presentation." },
+      { title: "Garment Display Quality", description: "Shows clothing items on realistic AI models with natural draping and fit simulation." },
+      { title: "Cost Efficiency", description: "Eliminates expensive traditional model photo shoots while improving representation diversity." }
+    ],
+    useCases: [
+      { title: "Fashion Brands", description: "Create diverse inclusive product photography without costly model casting and shoots." },
+      { title: "E-commerce Fashion Sellers", description: "Show clothing on diverse models to appeal to your entire customer demographic range." },
+      { title: "Clothing Startups", description: "Launch with professional diverse model photography at a fraction of traditional costs." }
+    ]
+  },
+  "resleeve": {
+    whatIs: "Resleeve is an AI fashion design platform that generates new clothing designs from sketches and existing garments, helping fashion designers rapidly prototype and explore new collection concepts.",
+    features: [
+      "Design Generation: Create new fashion designs from inputs",
+      "Sketch to Design: Transform sketches into polished designs",
+      "Garment Restyling: Generate variations of existing pieces",
+      "Collection Development: Rapid concept exploration for collections",
+      "Multiple Styles: Diverse fashion aesthetic generation"
+    ],
+    howToUse: {
+      title: "How to Use Resleeve",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Input", description: "Provide a sketch, existing garment photo, or design description as your starting point." },
+        { title: "Generate Variations", description: "Receive multiple AI-generated fashion design variations based on your input." },
+        { title: "Explore Directions", description: "Browse diverse design concepts to identify the strongest directions for development." },
+        { title: "Use as Reference", description: "Apply selected designs as references for your actual garment production process." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Rapid Prototyping", description: "Generates multiple design variations quickly for efficient collection concept exploration." },
+      { title: "Input Flexibility", description: "Accepts sketches, photos, and text descriptions as starting points for design generation." },
+      { title: "Collection Development", description: "Supports the full fashion collection development process from concept to reference." }
+    ],
+    useCases: [
+      { title: "Fashion Designers", description: "Explore collection concepts rapidly without lengthy manual sketching for each variation." },
+      { title: "Fashion Students", description: "Generate diverse design options for portfolio projects and educational assignments." },
+      { title: "Clothing Brands", description: "Accelerate product development by generating and evaluating concepts before production." }
+    ]
+  },
+  "planner-5d": {
+    whatIs: "Planner 5D is an AI-powered interior design and floor plan tool that enables homeowners and designers to create detailed 2D floor plans and photorealistic 3D room visualizations with AI design assistance.",
+    features: [
+      "Floor Plan Creation: Detailed 2D room layout design",
+      "3D Visualization: Photorealistic room rendering",
+      "AI Design Assistant: Smart furniture placement suggestions",
+      "Furniture Library: Thousands of 3D furniture items",
+      "AR Mode: View designs in your actual space"
+    ],
+    howToUse: {
+      title: "How to Use Planner 5D",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Floor Plan", description: "Draw your room layout using Planner 5D's intuitive 2D floor plan tools." },
+        { title: "Furnish Your Space", description: "Add furniture and decor from the extensive 3D library to your room design." },
+        { title: "Switch to 3D View", description: "Toggle to 3D mode and see a photorealistic rendering of your designed space." },
+        { title: "Use AI Suggestions", description: "Let the AI assistant suggest furniture arrangements and design improvements." }
+      ]
+    },
+    coreFeatures: [
+      { title: "2D to 3D Transition", description: "Seamlessly switches between floor plan view and photorealistic 3D visualization." },
+      { title: "AI Design Assistance", description: "Provides intelligent furniture placement and design suggestions based on room dimensions." },
+      { title: "Extensive Furniture Library", description: "Offers thousands of 3D furniture items for comprehensive and realistic room design." }
+    ],
+    useCases: [
+      { title: "Homeowners", description: "Visualize renovation and interior design ideas before spending money on changes." },
+      { title: "Interior Designers", description: "Create detailed client presentations with photorealistic 3D room visualizations." },
+      { title: "Real Estate Agents", description: "Stage properties virtually to help potential buyers visualize living in spaces." }
+    ]
+  },
+  "3d-ai-studio": {
+    whatIs: "3D AI Studio is an AI-powered 3D model creation platform that generates detailed 3D assets from text descriptions and images for game development, product visualization, and creative 3D content production.",
+    features: [
+      "Text to 3D: Generate models from text descriptions",
+      "Image to 3D: Convert photos into 3D models",
+      "Texture Generation: AI creates textures for models",
+      "Multiple Formats: Export in standard 3D file formats",
+      "Game Ready: Assets suitable for game engine use"
+    ],
+    howToUse: {
+      title: "How to Use 3D Ai Studio",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Model", description: "Enter a detailed text description of the 3D object or character you want generated." },
+        { title: "Or Upload an Image", description: "Provide a reference image for AI-based 3D model generation from visual input." },
+        { title: "Generate and Preview", description: "Review your AI-generated 3D model from all angles and assess quality." },
+        { title: "Export Your Asset", description: "Download in your required format such as OBJ, FBX, or GLB for your project." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Dual Input Methods", description: "Accepts both text descriptions and reference images for flexible 3D creation." },
+      { title: "Texture Intelligence", description: "Automatically generates appropriate textures for every 3D model produced." },
+      { title: "Game Asset Readiness", description: "Exports models in formats directly compatible with major game engine workflows." }
+    ],
+    useCases: [
+      { title: "Game Developers", description: "Create 3D game assets quickly without requiring traditional 3D modeling software skills." },
+      { title: "Product Designers", description: "Visualize product concepts in 3D for presentations and design review sessions." },
+      { title: "Content Creators", description: "Generate 3D assets for AR filters, virtual environments, and creative projects." }
+    ]
+  },
+  "alpha3d": {
+    whatIs: "Alpha3D is an AI 3D model generation platform that transforms 2D product images into detailed 3D models automatically, enabling e-commerce brands and designers to create 3D assets without 3D modeling expertise.",
+    features: [
+      "Image to 3D: Convert 2D product photos to 3D models",
+      "E-commerce Focus: 3D models for online product visualization",
+      "Automatic Generation: No manual 3D modeling required",
+      "Multiple Formats: Standard 3D file format exports",
+      "Fast Processing: 3D models generated efficiently"
+    ],
+    howToUse: {
+      title: "How to Use Alpha3D",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Product Images", description: "Import multiple product photos from different angles for 3D model generation." },
+        { title: "Generate 3D Model", description: "Let Alpha3D automatically construct a 3D model from your uploaded product images." },
+        { title: "Review Your Model", description: "Inspect your generated 3D model from all angles for accuracy and quality." },
+        { title: "Export for Use", description: "Download your 3D model in the format needed for your visualization or platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Photo to 3D Conversion", description: "Automatically builds 3D models from standard product photography without manual work." },
+      { title: "E-commerce Optimization", description: "Creates 3D models suited for product visualization on e-commerce platforms." },
+      { title: "Accessibility", description: "Makes 3D model creation possible without any 3D modeling software knowledge." }
+    ],
+    useCases: [
+      { title: "E-commerce Brands", description: "Create interactive 3D product visualizations for higher customer engagement and conversion." },
+      { title: "Product Designers", description: "Generate 3D references from product photos for design review and iteration." },
+      { title: "Online Retailers", description: "Add 3D viewing capabilities to product listings to differentiate from competitors." }
+    ]
+  },
+  "boords": {
+    whatIs: "Boords is a collaborative storyboarding platform that helps filmmakers, animators, and creative teams create professional storyboards with AI-assisted image generation and smooth team collaboration tools.",
+    features: [
+      "Storyboard Creation: Professional digital storyboard tool",
+      "AI Image Generation: Generate storyboard frames with AI",
+      "Team Collaboration: Share and review storyboards together",
+      "Animatic Creation: Convert storyboards to animatics",
+      "Client Sharing: Present storyboards to clients professionally"
+    ],
+    howToUse: {
+      title: "How to Use Boords",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Project", description: "Set up a new storyboard project in Boords and configure your scene structure." },
+        { title: "Add Your Frames", description: "Create storyboard frames by drawing, uploading images, or using AI generation." },
+        { title: "Use AI Generation", description: "Generate storyboard frame images from shot descriptions using built-in AI tools." },
+        { title: "Share and Review", description: "Share your storyboard with team members or clients for feedback and approval." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Frame Generation", description: "Creates storyboard frame images from shot descriptions eliminating blank frame struggles." },
+      { title: "Animatic Conversion", description: "Transforms finished storyboards into animatics with timing for production preview." },
+      { title: "Client Presentation", description: "Provides professional sharing and presentation tools for client storyboard review." }
+    ],
+    useCases: [
+      { title: "Filmmakers", description: "Create professional pre-production storyboards efficiently with AI frame generation help." },
+      { title: "Animation Studios", description: "Develop animated production storyboards collaboratively with your entire creative team." },
+      { title: "Video Agencies", description: "Present client campaign concepts as professional storyboards for approval before production." }
+    ]
+  },
+  "katalist-ai": {
+    whatIs: "Katalist AI is an AI storyboarding and visual development tool that helps filmmakers and content creators generate consistent character-driven storyboards from scripts using AI image generation.",
+    features: [
+      "Script to Storyboard: Convert scripts into visual storyboards",
+      "Character Consistency: Maintain characters across all frames",
+      "AI Frame Generation: Create storyboard images from descriptions",
+      "Scene Planning: Visual scene development and composition",
+      "Export Options: Download storyboards for production use"
+    ],
+    howToUse: {
+      title: "How to Use Katalist Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Script", description: "Provide your script or scene descriptions for AI storyboard generation." },
+        { title: "Generate Storyboard Frames", description: "Let Katalist AI create visual storyboard frames with consistent characters." },
+        { title: "Review Frame Consistency", description: "Check that characters remain consistent and scenes tell your story clearly." },
+        { title: "Export Your Storyboard", description: "Download your storyboard in the format needed for your production workflow." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Character Consistency Engine", description: "Maintains recognizable character appearances across multiple generated storyboard frames." },
+      { title: "Script Understanding", description: "Interprets script content to generate appropriate visual representations for each scene." },
+      { title: "Production Integration", description: "Exports storyboards in formats compatible with professional production workflows." }
+    ],
+    useCases: [
+      { title: "Filmmakers", description: "Create consistent character-driven storyboards from scripts efficiently with AI assistance." },
+      { title: "Content Creators", description: "Develop visual plans for video projects using AI-generated storyboard frames." },
+      { title: "Animation Directors", description: "Plan animation sequences with consistent character storyboards for production teams." }
+    ]
+  },
+  "storyboarder-ai": {
+    whatIs: "Storyboarder.ai is an AI tool that automatically generates visual storyboards from written scripts and scene descriptions, helping filmmakers and directors visualize their stories before production begins.",
+    features: [
+      "Auto Storyboard Generation: Scripts become visual storyboards",
+      "Scene Visualization: AI creates images for each story beat",
+      "Production Planning: Visual pre-production tool for filmmakers",
+      "Shot Suggestions: AI recommends camera angles and compositions",
+      "Fast Creation: Storyboards generated quickly from scripts"
+    ],
+    howToUse: {
+      title: "How to Use Storyboarder Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Script", description: "Input your script or scene descriptions into Storyboarder.ai for automatic visualization." },
+        { title: "Generate Storyboard", description: "Receive AI-generated storyboard frames visualizing each scene from your script." },
+        { title: "Review Compositions", description: "Check the suggested camera angles and scene compositions for your vision." },
+        { title: "Export for Production", description: "Download your storyboard for use in pre-production planning and team communication." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Visualization", description: "Converts written scripts into visual storyboards without manual frame-by-frame creation." },
+      { title: "Shot Composition", description: "Suggests camera angles and compositional approaches appropriate for each scene type." },
+      { title: "Production Speed", description: "Dramatically accelerates pre-production storyboarding for faster production timelines." }
+    ],
+    useCases: [
+      { title: "Independent Filmmakers", description: "Create production storyboards quickly without dedicated storyboard artists on your team." },
+      { title: "Directors", description: "Visualize your script before production begins to plan shots and communicate your vision." },
+      { title: "Film Students", description: "Develop pre-production skills with AI-assisted storyboard creation for student projects." }
+    ]
+  },
+  "storyboardhero": {
+    whatIs: "StoryboardHero is an AI storyboarding platform that generates professional visual storyboards from scripts and descriptions, helping creative teams plan film, animation, and video productions efficiently.",
+    features: [
+      "Professional Storyboards: High-quality visual storyboard creation",
+      "Script to Visual: Convert narrative descriptions to storyboards",
+      "Team Collaboration: Work with creative teams on storyboards",
+      "Multiple Shot Types: Various camera angle and framing options",
+      "Export Ready: Production-ready storyboard downloads"
+    ],
+    howToUse: {
+      title: "How to Use Storyboardhero",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Scene", description: "Describe your scene, characters, and the action you want storyboarded visually." },
+        { title: "Generate Your Frames", description: "Let StoryboardHero create professional storyboard frames from your description." },
+        { title: "Review and Adjust", description: "Check your storyboard frames and request adjustments for scenes that need refinement." },
+        { title: "Download for Production", description: "Export your professional storyboard for sharing with your production team." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Professional Output Quality", description: "Generates storyboards at quality appropriate for professional film production use." },
+      { title: "Scene Description Processing", description: "Accurately interprets scene descriptions to create relevant visual storyboard frames." },
+      { title: "Production Collaboration", description: "Provides tools for sharing and working on storyboards with entire creative teams." }
+    ],
+    useCases: [
+      { title: "Film Productions", description: "Create professional pre-production storyboards efficiently for large and small productions." },
+      { title: "Animation Studios", description: "Develop visual production plans with storyboards that guide animation teams clearly." },
+      { title: "Video Production Companies", description: "Plan commercial and marketing video productions with professional storyboard creation tools." }
+    ]
+  },
+  "story-boards-ai": {
+    whatIs: "story-boards.ai is an AI storyboarding tool that transforms creative briefs, scripts, and descriptions into visual storyboard sequences for film, animation, and video content production planning.",
+    features: [
+      "Brief to Storyboard: Creative briefs become visual sequences",
+      "AI Visual Generation: Storyboard frames created automatically",
+      "Production Planning: Pre-production visual development tool",
+      "Style Options: Various visual storyboard aesthetic directions",
+      "Sharing Tools: Present storyboards to teams and clients"
+    ],
+    howToUse: {
+      title: "How to Use Story Boards Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Input Your Brief", description: "Enter your creative brief, script, or scene description for storyboard generation." },
+        { title: "Generate Your Storyboard", description: "Receive AI-generated visual storyboard frames based on your provided input." },
+        { title: "Review Your Sequence", description: "Check the visual sequence for story clarity and production appropriateness." },
+        { title: "Share with Stakeholders", description: "Present your storyboard to creative teams, clients, or collaborators for review." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Brief Processing", description: "Transforms creative and production briefs into appropriate visual storyboard sequences." },
+      { title: "Automatic Generation", description: "Creates complete storyboard sequences without manual frame illustration work." },
+      { title: "Sharing Capability", description: "Provides tools for professional presentation of storyboards to diverse stakeholders." }
+    ],
+    useCases: [
+      { title: "Creative Directors", description: "Transform briefs into visual storyboards quickly for client and team presentations." },
+      { title: "Video Producers", description: "Plan video productions visually with AI-generated storyboards from production briefs." },
+      { title: "Advertising Agencies", description: "Create campaign storyboards efficiently for client approval before production begins." }
+    ]
+  },
   "sticker-shake": {
     whatIs: "Sticker Shake is an AI sticker generation platform that creates unique custom stickers from text descriptions and photos for messaging apps, social media, and creative expression.",
     features: [
