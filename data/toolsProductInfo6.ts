@@ -1,4 +1,484 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "sticker-shake": {
+    whatIs: "Sticker Shake is an AI sticker generation platform that creates unique custom stickers from text descriptions and photos for messaging apps, social media, and creative expression.",
+    features: [
+      "Custom Sticker Creation: Generate unique stickers from prompts",
+      "Photo to Sticker: Transform photos into sticker format",
+      "Multiple Styles: Cute cartoon and artistic sticker options",
+      "Messaging Ready: Stickers formatted for app use",
+      "Free Generation: Basic sticker creation available"
+    ],
+    howToUse: {
+      title: "How to Use Sticker Shake",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Sticker", description: "Enter a description of the sticker concept, character, or expression you want created." },
+        { title: "Choose Your Style", description: "Select the sticker aesthetic from cute cartoon to illustrated and artistic options." },
+        { title: "Generate Your Sticker", description: "Receive your AI-generated sticker based on your description and style preferences." },
+        { title: "Download and Use", description: "Save your sticker for use in messaging apps, social media, and creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Custom Concept Generation", description: "Creates stickers for any concept or expression beyond standard messaging app libraries." },
+      { title: "Style Variety", description: "Offers diverse aesthetic directions from kawaii cute to artistic and illustrated styles." },
+      { title: "Messaging Optimization", description: "Formats generated stickers appropriately for use in messaging and social applications." }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "Create unique custom stickers that express exactly what you want to communicate." },
+      { title: "Content Creators", description: "Design branded sticker packs for your audience as engaging downloadable content." },
+      { title: "Messaging Enthusiasts", description: "Express yourself more creatively with personalized AI-generated sticker content." }
+    ]
+  },
+  "stickerit-ai": {
+    whatIs: "StickerIt.AI is an AI-powered sticker creation platform that generates custom die-cut sticker designs from text prompts and images for printing, digital use, and personal brand merchandise.",
+    features: [
+      "AI Sticker Design: Custom stickers from text and images",
+      "Die-Cut Ready: Designs formatted for physical sticker printing",
+      "Multiple Styles: Diverse sticker aesthetic options",
+      "Print Quality: High-resolution sticker file output",
+      "Digital and Physical: Both digital and printable options"
+    ],
+    howToUse: {
+      title: "How to Use Stickerit Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Design", description: "Enter your sticker concept or upload an image for AI sticker design generation." },
+        { title: "Choose Your Style", description: "Select the sticker aesthetic that matches your creative vision and intended use." },
+        { title: "Generate Your Sticker", description: "Receive your AI-generated sticker design ready for digital use or printing." },
+        { title: "Download for Use", description: "Save your sticker design for digital messaging or send to a print service." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Die-Cut Formatting", description: "Creates sticker designs with appropriate margins for professional die-cut printing." },
+      { title: "Print Resolution", description: "Generates sticker artwork at resolution suitable for high-quality physical printing." },
+      { title: "Dual Purpose Output", description: "Delivers stickers suitable for both digital messaging use and physical print production." }
+    ],
+    useCases: [
+      { title: "Small Business Owners", description: "Create custom branded stickers for packaging, promotions, and merchandise production." },
+      { title: "Artists", description: "Design unique sticker merchandise from your art for fans and creative commerce." },
+      { title: "Personal Users", description: "Generate custom stickers for personal expression in messaging and social media." }
+    ]
+  },
+  "stickers-ai-generator": {
+    whatIs: "Stickers AI Generator is a free online tool that creates custom sticker artwork from text descriptions, making unique personalized stickers for messaging, social media, and creative projects.",
+    features: [
+      "Free Sticker Generation: Custom stickers at no cost",
+      "Text to Sticker: Describe any concept for sticker creation",
+      "Multiple Aesthetics: Various sticker art styles available",
+      "Instant Results: Stickers generated immediately",
+      "Download Ready: Stickers for immediate use"
+    ],
+    howToUse: {
+      title: "How to Use Stickers Ai Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Concept", description: "Describe the sticker subject, style, and expression you want created by the AI." },
+        { title: "Generate Instantly", description: "Receive your AI-generated sticker artwork based on your description immediately." },
+        { title: "Review Your Sticker", description: "Check the generated sticker for quality and style accuracy before downloading." },
+        { title: "Download and Share", description: "Save your free sticker and use it in messaging, social media, or creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Access", description: "Provides complete sticker generation capability without any payment requirement." },
+      { title: "Instant Generation", description: "Delivers finished sticker artwork within seconds of submitting your concept description." },
+      { title: "Style Breadth", description: "Covers diverse sticker aesthetic directions for varied creative expression needs." }
+    ],
+    useCases: [
+      { title: "Casual Users", description: "Create personalized stickers for free to enhance messaging and social media expression." },
+      { title: "Content Creators", description: "Generate custom sticker content for audience engagement without design costs." },
+      { title: "Students", description: "Make fun personalized stickers for projects and creative personal expression." }
+    ]
+  },
+  "ai-face-sticker-generator": {
+    whatIs: "AI Face Sticker Generator creates personalized cartoon and illustrated sticker versions of faces from photos, turning selfies into charming sticker art for messaging apps and creative expression.",
+    features: [
+      "Face to Sticker: Transform selfie photos into sticker art",
+      "Cartoon Style: Charming illustrated sticker versions of faces",
+      "Personalized Output: Recognizable likeness in sticker form",
+      "Messaging Ready: Formatted for digital sticker use",
+      "Multiple Styles: Different illustration aesthetics available"
+    ],
+    howToUse: {
+      title: "How to Use Ai Face Sticker Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Selfie", description: "Take or upload a clear selfie photo for face sticker transformation." },
+        { title: "Choose Your Style", description: "Select the illustration style for your personalized face sticker creation." },
+        { title: "Generate Your Sticker", description: "Receive your AI-created personalized face sticker in your chosen style." },
+        { title: "Download and Express", description: "Save your face sticker and use it to express yourself in messages and posts." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Face Recognition Accuracy", description: "Creates recognizable sticker versions that clearly represent the photographed person." },
+      { title: "Style Variety", description: "Offers multiple illustration aesthetics from cute cartoon to artistic sticker styles." },
+      { title: "Personal Expression", description: "Enables unique self-expression through personalized sticker representations." }
+    ],
+    useCases: [
+      { title: "Social Media Users", description: "Create a personalized sticker version of yourself for fun digital self-expression." },
+      { title: "Friends and Groups", description: "Generate matching sticker sets for friend groups for fun messaging conversations." },
+      { title: "Content Creators", description: "Use personalized face stickers as branded content elements across platforms." }
+    ]
+  },
+  "ai-sticker-generator": {
+    whatIs: "AI Sticker Generator is an AI tool that creates diverse custom sticker artwork from text prompts in multiple styles for messaging, social media, and creative digital expression needs.",
+    features: [
+      "Versatile Generation: Stickers in many styles and concepts",
+      "Text Prompt Input: Describe any sticker concept needed",
+      "Multiple Aesthetics: Cute artistic and illustrated options",
+      "Fast Creation: Stickers generated quickly from prompts",
+      "Free to Use: Basic generation without payment"
+    ],
+    howToUse: {
+      title: "How to Use Ai Sticker Generator",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Describe the sticker concept, character, or expression you want generated." },
+        { title: "Select Your Style", description: "Choose your preferred sticker aesthetic from available artistic directions." },
+        { title: "Generate Your Sticker", description: "Create your custom sticker from the description and style you selected." },
+        { title: "Save and Use", description: "Download your generated sticker for messaging apps and social media use." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Concept Flexibility", description: "Creates stickers for any describable concept or expression need." },
+      { title: "Style Options", description: "Produces stickers across multiple aesthetic directions for diverse creative needs." },
+      { title: "Quick Generation", description: "Delivers finished sticker artwork rapidly for efficient creative workflow." }
+    ],
+    useCases: [
+      { title: "Messaging App Users", description: "Create custom stickers that go beyond what built-in messaging sticker packs offer." },
+      { title: "Creative Expressers", description: "Design unique sticker art that communicates your exact personal expression needs." },
+      { title: "Digital Artists", description: "Explore AI sticker generation as a creative medium for artistic expression." }
+    ]
+  },
+  "vexels": {
+    whatIs: "Vexels is a graphic design resource platform for print-on-demand sellers and designers offering vector graphics, t-shirt designs, and AI-powered design tools for creating commercial merchandise artwork.",
+    features: [
+      "T-Shirt Designs: Commercial print-on-demand graphics",
+      "Vector Library: Extensive design element collection",
+      "AI Design Tools: Generate and enhance artwork with AI",
+      "Commercial License: Designs licensed for selling products",
+      "Merch Ready: Graphics optimized for merchandise printing"
+    ],
+    howToUse: {
+      title: "How to Use Vexels",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse the Library", description: "Explore Vexels' extensive library of vectors and t-shirt designs for your project." },
+        { title: "Search Your Theme", description: "Find designs matching your niche, style, or specific design requirements." },
+        { title: "Download Your Assets", description: "Access designs with commercial licensing for print-on-demand product creation." },
+        { title: "Use AI Tools", description: "Apply Vexels' AI tools to generate or enhance designs for your merchandise." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Commercial Licensing", description: "Provides designs licensed for commercial use in print-on-demand product selling." },
+      { title: "Merch Optimization", description: "Offers designs and formats specifically prepared for merchandise printing production." },
+      { title: "AI Enhancement", description: "Integrates AI tools for generating and improving designs beyond the standard library." }
+    ],
+    useCases: [
+      { title: "Print-on-Demand Sellers", description: "Access commercially licensed designs for Merch by Amazon, Redbubble, and similar platforms." },
+      { title: "Merchandise Designers", description: "Find diverse design assets for creating product lines across merchandise categories." },
+      { title: "E-commerce Creators", description: "Launch merchandise businesses quickly with professional commercial artwork access." }
+    ]
+  },
+  "pietra": {
+    whatIs: "Pietra is a platform for creators and entrepreneurs that helps build merchandise and product lines, offering product sourcing, packaging design, and AI tools for creating branded physical products.",
+    features: [
+      "Product Sourcing: Find suppliers for your product ideas",
+      "Packaging Design: AI-assisted packaging creation tools",
+      "Brand Products: Create custom branded merchandise",
+      "Inventory Management: Handle product logistics simply",
+      "Creator Commerce: Tools for influencer product launches"
+    ],
+    howToUse: {
+      title: "How to Use Pietra",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Product", description: "Describe the product you want to create and the target audience for your brand." },
+        { title: "Find Your Supplier", description: "Use Pietra's network to source appropriate manufacturers for your product concept." },
+        { title: "Design Your Packaging", description: "Create professional packaging design using Pietra's AI-assisted design tools." },
+        { title: "Launch Your Product", description: "Manage production and launch your branded product line through the platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Supplier Network", description: "Connects creators with vetted manufacturers for diverse product category production." },
+      { title: "Packaging Design Tools", description: "Provides AI-assisted packaging design for professional product presentation creation." },
+      { title: "Creator Focus", description: "Designed specifically for content creators launching physical product and merchandise lines." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Launch your own branded merchandise and product line without manufacturing expertise." },
+      { title: "Influencers", description: "Create authentic branded products for your audience beyond digital content alone." },
+      { title: "Entrepreneurs", description: "Build physical product businesses efficiently using Pietra's creator commerce platform." }
+    ]
+  },
+  "teeai": {
+    whatIs: "TeeAI is an AI t-shirt design generator that creates unique print-ready t-shirt artwork from text descriptions for print-on-demand sellers, merchandise creators, and fashion designers.",
+    features: [
+      "T-Shirt Design Generation: Print-ready artwork from prompts",
+      "Multiple Styles: Graphic vintage minimalist and more",
+      "Print Ready: Designs formatted for direct printing",
+      "Commercial Use: Designs for selling on merchandise",
+      "Fast Creation: T-shirt graphics in seconds"
+    ],
+    howToUse: {
+      title: "How to Use Teeai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Design", description: "Enter your t-shirt design concept including style, theme, and any specific elements." },
+        { title: "Generate Your Artwork", description: "Receive AI-generated t-shirt design artwork based on your description." },
+        { title: "Review Print Quality", description: "Check the design for clarity and print-readiness before using." },
+        { title: "Download and Print", description: "Save your design for uploading to print-on-demand platforms or direct printing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Print Optimization", description: "Creates designs formatted correctly for direct use on print-on-demand platforms." },
+      { title: "Style Range", description: "Covers diverse t-shirt design aesthetics from vintage graphic to modern minimalist." },
+      { title: "Commercial Ready", description: "Generates designs suitable for commercial selling on merchandise platforms." }
+    ],
+    useCases: [
+      { title: "Print-on-Demand Sellers", description: "Create unique t-shirt designs quickly for Merch platforms without design skills." },
+      { title: "Fashion Entrepreneurs", description: "Generate diverse design options for clothing lines without graphic designer costs." },
+      { title: "Artists", description: "Explore AI-generated t-shirt design concepts for your merchandise collections." }
+    ]
+  },
+  "youwear": {
+    whatIs: "YouWear is an AI fashion and clothing design platform that generates custom apparel designs, outfit concepts, and fashion illustrations from text descriptions for fashion designers and creators.",
+    features: [
+      "Fashion Design Generation: Custom clothing designs from prompts",
+      "Outfit Concepts: Complete look and outfit generation",
+      "Fashion Illustration: Artistic fashion sketch creation",
+      "Style Exploration: Diverse fashion aesthetic directions",
+      "Design Reference: Visual references for fashion projects"
+    ],
+    howToUse: {
+      title: "How to Use Youwear",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Design", description: "Enter a detailed description of the clothing design or fashion concept you want." },
+        { title: "Select Your Style", description: "Choose the fashion aesthetic direction for your generated design output." },
+        { title: "Generate Your Design", description: "Receive AI-generated fashion design or illustration matching your description." },
+        { title: "Use as Reference", description: "Apply your generated fashion design as reference for actual garment production." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Fashion Concept Generation", description: "Creates complete fashion design concepts from text descriptions efficiently." },
+      { title: "Style Diversity", description: "Covers high fashion, streetwear, casual, and other diverse fashion aesthetic categories." },
+      { title: "Reference Quality", description: "Produces designs detailed enough to serve as reference for actual garment production." }
+    ],
+    useCases: [
+      { title: "Fashion Designers", description: "Generate rapid concept designs for collection development and creative exploration." },
+      { title: "Fashion Students", description: "Create diverse design concepts for portfolio projects and educational assignments." },
+      { title: "Clothing Brands", description: "Explore new design directions quickly using AI generation before production investment." }
+    ]
+  },
+  "looksounique": {
+    whatIs: "Looksounique is an AI fashion and style platform that helps users discover unique personal style, generate outfit combinations, and explore fashion aesthetics through AI-powered style guidance and recommendations.",
+    features: [
+      "Style Discovery: Find your unique fashion aesthetic",
+      "Outfit Generation: AI creates outfit combinations for you",
+      "Aesthetic Exploration: Explore diverse fashion styles",
+      "Personal Guidance: Style advice tailored to your preferences",
+      "Wardrobe Optimization: Make the most of what you own"
+    ],
+    howToUse: {
+      title: "How to Use Looksounique",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Define Your Style", description: "Share your fashion preferences, lifestyle, and the aesthetic directions you gravitate toward." },
+        { title: "Get Outfit Suggestions", description: "Receive AI-generated outfit combinations using your existing wardrobe or new pieces." },
+        { title: "Explore Aesthetics", description: "Browse different fashion aesthetic categories to refine your personal style identity." },
+        { title: "Apply Your Style", description: "Use the style guidance to make more confident and cohesive fashion choices daily." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalized Guidance", description: "Provides style recommendations specific to your individual preferences and body type." },
+      { title: "Outfit Combination Intelligence", description: "Generates practical outfit combinations from your available wardrobe pieces." },
+      { title: "Aesthetic Education", description: "Helps users understand different fashion aesthetics for more informed style exploration." }
+    ],
+    useCases: [
+      { title: "Style Seekers", description: "Discover your personal fashion identity with AI guidance through diverse aesthetic exploration." },
+      { title: "Wardrobe Optimizers", description: "Get more outfit combinations from your existing clothes without buying new items." },
+      { title: "Fashion Beginners", description: "Learn about different styles and receive personalized guidance for confident dressing." }
+    ]
+  },
+  "blackink-ai": {
+    whatIs: "BlackInk AI is an AI tattoo design generator that creates custom tattoo artwork from text descriptions in diverse styles including traditional, fine line, geometric, and blackwork for tattoo planning.",
+    features: [
+      "Tattoo Design Generation: Custom tattoo art from prompts",
+      "Multiple Styles: Traditional fine line geometric blackwork",
+      "Design Planning: Visualize tattoos before committing",
+      "Artist Reference: Designs to show tattoo artists",
+      "Free to Try: Basic design generation available"
+    ],
+    howToUse: {
+      title: "How to Use Blackink Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Tattoo", description: "Enter your tattoo concept including subject, style, and any specific design elements wanted." },
+        { title: "Select Your Style", description: "Choose from tattoo styles like traditional, fine line, geometric, or blackwork." },
+        { title: "Generate Your Design", description: "Receive AI-generated tattoo artwork matching your description and style preference." },
+        { title: "Save as Reference", description: "Download your design to show your tattoo artist as a reference for your session." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Style Accuracy", description: "Understands tattoo-specific artistic conventions for each described style category." },
+      { title: "Design Variety", description: "Covers traditional, fine line, geometric, illustrative, and blackwork tattoo styles." },
+      { title: "Reference Quality", description: "Creates designs detailed enough to serve as effective tattoo artist references." }
+    ],
+    useCases: [
+      { title: "Tattoo Enthusiasts", description: "Visualize and plan your next tattoo design before committing to permanent ink." },
+      { title: "Tattoo Artists", description: "Use AI generation as inspiration and starting point for client consultation designs." },
+      { title: "First-Time Tattoo Getters", description: "Explore different tattoo concepts safely before making a permanent decision." }
+    ]
+  },
+  "tatship": {
+    whatIs: "Tatship is an AI tattoo design platform that generates personalized tattoo artwork in various styles from text and image inputs, helping people plan and visualize unique tattoo concepts before getting inked.",
+    features: [
+      "AI Tattoo Generation: Custom designs from descriptions",
+      "Style Variety: Multiple tattoo art styles available",
+      "Image Input: Generate from reference photos or concepts",
+      "Design Preview: Visualize tattoos before commitment",
+      "Artist Ready: Designs suitable for tattoo consultation"
+    ],
+    howToUse: {
+      title: "How to Use Tatship",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Concept", description: "Enter your tattoo idea with style preferences and any specific design elements wanted." },
+        { title: "Generate Design Options", description: "Receive multiple AI-generated tattoo design options for your concept and style." },
+        { title: "Compare and Select", description: "Review different designs and choose the one that best represents your vision." },
+        { title: "Use as Reference", description: "Take your selected design to a tattoo artist as a clear visual reference." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Multiple Design Options", description: "Generates several variations per request for broader creative direction exploration." },
+      { title: "Style Understanding", description: "Produces designs that respect the conventions and aesthetics of each tattoo style." },
+      { title: "Reference Usability", description: "Creates designs clear and detailed enough for effective tattoo artist consultations." }
+    ],
+    useCases: [
+      { title: "Tattoo Planners", description: "Explore multiple design directions before deciding on your permanent tattoo artwork." },
+      { title: "Tattoo Artists", description: "Use AI generation as a creative starting point for client design consultations." },
+      { title: "Style Explorers", description: "Try different tattoo styles virtually to find the aesthetic that resonates most strongly." }
+    ]
+  },
+  "tattoosai": {
+    whatIs: "TattoosAI is an AI tattoo design generator that creates professional custom tattoo artwork from text descriptions across all major tattoo styles for tattoo enthusiasts and artists.",
+    features: [
+      "Professional Designs: High-quality tattoo artwork generation",
+      "All Major Styles: Traditional neo-trad fine line and more",
+      "Text to Tattoo: Describe your concept for design creation",
+      "Multiple Options: Several designs per generation request",
+      "Reference Ready: Designs for artist consultations"
+    ],
+    howToUse: {
+      title: "How to Use Tattoosai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Write Your Description", description: "Describe your tattoo concept in detail including style, subject, and compositional preferences." },
+        { title: "Generate Designs", description: "Receive professional AI-generated tattoo artwork options for your described concept." },
+        { title: "Select Your Favorite", description: "Choose the design that best captures your vision for your planned tattoo." },
+        { title: "Bring to Artist", description: "Use your chosen design as a clear reference when consulting with your tattoo artist." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Professional Quality", description: "Generates tattoo designs at quality appropriate for professional tattoo consultation use." },
+      { title: "Style Comprehensiveness", description: "Covers all major tattoo styles including traditional, neo-traditional, fine line, and blackwork." },
+      { title: "Option Generation", description: "Creates multiple design variations giving users choices for finding the perfect concept." }
+    ],
+    useCases: [
+      { title: "Tattoo Enthusiasts", description: "Plan your next tattoo with professional AI designs that clearly communicate your vision." },
+      { title: "People Getting First Tattoos", description: "Explore design concepts safely and arrive at your appointment with a clear reference." },
+      { title: "Tattoo Collectors", description: "Design cohesive tattoo concepts that work as part of your existing collection." }
+    ]
+  },
+  "viro": {
+    whatIs: "Viro is an AI thumbnail and visual design tool that helps YouTube creators and content producers generate professional thumbnails, channel art, and visual branding elements for their online content.",
+    features: [
+      "Thumbnail Creation: Professional YouTube thumbnails generated",
+      "Channel Art: Banner and profile image creation tools",
+      "Brand Consistency: Consistent visual identity across content",
+      "Template Library: Professional starting templates available",
+      "Download Ready: Correct sizes for all platform requirements"
+    ],
+    howToUse: {
+      title: "How to Use Viro",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Design Type", description: "Select whether you need a thumbnail, channel banner, or other visual content type." },
+        { title: "Enter Your Details", description: "Provide your video title, channel theme, and visual style preferences." },
+        { title: "Generate Your Design", description: "Receive professional AI-generated visual content for your YouTube channel." },
+        { title: "Download and Apply", description: "Save your design in the correct dimensions and apply it to your channel or video." }
+      ]
+    },
+    coreFeatures: [
+      { title: "YouTube Specialization", description: "Creates visual content specifically designed for YouTube channel requirements." },
+      { title: "Brand Consistency Tools", description: "Maintains consistent visual identity across thumbnails and channel art elements." },
+      { title: "Platform Sizing", description: "Delivers all designs in the exact dimensions required by YouTube's platform specifications." }
+    ],
+    useCases: [
+      { title: "YouTubers", description: "Create professional channel visuals and thumbnails that attract viewers and subscribers." },
+      { title: "Content Creators", description: "Maintain consistent professional visual branding across all your content consistently." },
+      { title: "New Channels", description: "Launch with professional-looking thumbnails and channel art from the very beginning." }
+    ]
+  },
+  "thumbnails-labs": {
+    whatIs: "Thumbnails Labs is an AI-powered thumbnail creation and testing platform that helps YouTube creators generate high-converting thumbnails and analyze their performance for data-driven content strategy.",
+    features: [
+      "AI Thumbnail Generation: Create high-converting thumbnails",
+      "Performance Analytics: Track thumbnail effectiveness",
+      "Style Testing: Compare different design approaches",
+      "Trend Analysis: See what's working in your niche",
+      "Batch Creation: Generate thumbnails for multiple videos"
+    ],
+    howToUse: {
+      title: "How to Use Thumbnails Labs",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Thumbnail", description: "Generate thumbnails for your videos using Thumbnails Labs AI design tools." },
+        { title: "Test Your Designs", description: "Set up comparison tests between different thumbnail styles and concepts." },
+        { title: "Analyze Performance", description: "Review click-through rate data and performance metrics for your thumbnails." },
+        { title: "Optimize Strategy", description: "Apply insights from analytics to continuously improve your thumbnail approach." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Generation and Analytics Combined", description: "Combines thumbnail creation with performance analytics in one integrated platform." },
+      { title: "Trend Intelligence", description: "Identifies thumbnail trends in your content niche for informed design decisions." },
+      { title: "Batch Efficiency", description: "Creates thumbnails for multiple videos simultaneously for efficient production workflows." }
+    ],
+    useCases: [
+      { title: "Active YouTubers", description: "Optimize your thumbnail strategy with AI generation and comprehensive performance analytics." },
+      { title: "Growing Channels", description: "Accelerate channel growth by systematically improving thumbnail click-through rates." },
+      { title: "Data-Driven Creators", description: "Make thumbnail decisions based on actual performance data rather than guesswork." }
+    ]
+  },
+  "thumbnailmaker": {
+    whatIs: "ThumbnailMaker is a free online YouTube thumbnail creator that provides templates, design tools, and AI features for creating professional thumbnails that attract more clicks and grow channel audiences.",
+    features: [
+      "Free Thumbnail Creation: Professional thumbnails at no cost",
+      "Template Library: Diverse thumbnail templates available",
+      "Design Tools: Text effects images and customization options",
+      "AI Features: AI-assisted design enhancement tools",
+      "YouTube Dimensions: Correct sizing automatically applied"
+    ],
+    howToUse: {
+      title: "How to Use Thumbnailmaker",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose Your Template", description: "Browse ThumbnailMaker's library and select a template matching your video style." },
+        { title: "Customize Your Design", description: "Add your title text, adjust colors, and replace images with your own content." },
+        { title: "Apply AI Enhancements", description: "Use available AI tools to enhance your thumbnail design automatically." },
+        { title: "Download Your Thumbnail", description: "Save your thumbnail in YouTube's recommended dimensions for immediate upload." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Free Professional Tools", description: "Provides complete thumbnail creation capability without any payment requirement." },
+      { title: "Template Quality", description: "Offers professionally designed templates that produce high-quality starting points." },
+      { title: "YouTube Optimization", description: "Automatically formats thumbnails to YouTube's exact specification requirements." }
+    ],
+    useCases: [
+      { title: "New YouTubers", description: "Create professional thumbnails for free without design experience or paid software." },
+      { title: "Budget Creators", description: "Access quality thumbnail tools without subscription costs for every video upload." },
+      { title: "Busy Creators", description: "Produce good-looking thumbnails quickly using templates and AI assistance tools." }
+    ]
+  },
   "pxlize-ai": {
     whatIs: "Pxlize AI is an AI image pixelation and pixel art creation tool that converts photos and digital images into stylized pixel art with customizable settings for retro gaming aesthetics and creative projects.",
     features: [
