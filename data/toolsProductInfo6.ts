@@ -1,4 +1,34 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "janitor-ai": {
+    whatIs: "Janitor AI is an advanced chatbot platform developed by janitorai.com that specializes in creating NSFW fictional chatbot characters with diverse personalities. The platform leverages large language models, including OpenAI's GPT models, to power these interactive characters.",
+    features: [
+      "NSFW Character Chat: Engage with adult-oriented AI character personas",
+      "Explicit Character Creation: Build fully customizable NSFW characters",
+      "Unrestricted Roleplay: Explore adult fictional scenarios without content limitations",
+      "NSFW Character Library: Thousands of community-created adult characters",
+      "Multiple Adult Genres: Erotic, BDSM, fetish, romance, and other mature themes"
+    ],
+    howToUse: {
+      title: "How to Use Janitor Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse NSFW Characters", description: "Explore the extensive library of community-created adult AI characters across various explicit themes and settings." },
+        { title: "Start an Explicit Conversation", description: "Select an NSFW character that interests you and begin your uncensored conversation or scenario." },
+        { title: "Create Your NSFW Character", description: "Use the character creation tools to build your own custom adult AI persona with unique traits and preferences." },
+        { title: "Engage Without Restrictions", description: "Develop explicit stories, explore adult scenarios, and enjoy character-driven conversations without censorship." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Extensive NSFW Library", description: "Provides thousands of diverse community-created adult characters across countless explicit themes and mature settings." },
+      { title: "Unrestricted Customization", description: "Allows users to build detailed NSFW characters with specific personalities, sexual preferences, and explicit traits." },
+      { title: "Adult-Focused Platform", description: "Designed specifically for uncensored fictional conversation and explicit story development without content filters." }
+    ],
+    useCases: [
+      { title: "Adult Content Creators", description: "Develop explicit story ideas, test character dynamics, and explore mature narrative concepts through AI character interaction." },
+      { title: "NSFW Storytelling Enthusiasts", description: "Engage in immersive adult conversations that explore explicit themes and creative scenarios." },
+      { title: "Erotic World Builders", description: "Use diverse NSFW characters to populate and explore fictional adult universes and mature settings." }
+    ]
+  },
   "ux-pilot": {
     whatIs: "UX Pilot is an AI UX design assistant that helps designers create wireframes, generate UI suggestions, conduct design reviews, and accelerate the product design process through intelligent AI-powered guidance.",
     features: [
