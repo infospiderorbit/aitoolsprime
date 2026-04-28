@@ -2582,7 +2582,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "ai-roastbot", name: "AI RoastBot", description: "AI bot specialized in roasts and burns", url: "", upvotes: 1765, verified: true, rating: 4.2, icon: "🤖", category: "chatbots-virtual-companions", subcategory: "ai-joke" }
     ],
     "ai-roleplay": [
-      { id: "janitor-ai-roleplay", name: "Janitor AI", description: "AI roleplay platform with diverse scenarios", url: "", upvotes: 3789, verified: true, rating: 4.8, icon: "🎪", category: "chatbots-virtual-companions", subcategory: "ai-roleplay" },
       { id: "eroplay-ai", name: "EroPlay.ai", description: "AI adult roleplay and fantasy platform", url: "", upvotes: 3456, verified: true, rating: 4.7, icon: "🌹", category: "chatbots-virtual-companions", subcategory: "ai-roleplay" },
       { id: "dream-companion", name: "Dream Companion", description: "AI roleplay companion for fantasy scenarios", url: "", upvotes: 3124, verified: true, rating: 4.6, icon: "✨", category: "chatbots-virtual-companions", subcategory: "ai-roleplay" },
       { id: "tipsy-chat", name: "Tipsy Chat", description: "AI roleplay with relaxed conversations", url: "", upvotes: 2876, verified: true, rating: 4.5, icon: "🍷", category: "chatbots-virtual-companions", subcategory: "ai-roleplay" },
