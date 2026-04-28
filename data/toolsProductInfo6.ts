@@ -1,4 +1,34 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "talkie-ai": {
+    whatIs: "Talkie: Soulful AI is an interactive app similar to Character.ai that enables users to chat with multiple AI-powered characters. After selecting topics of interest from an extensive list, users can enjoy entertaining conversations with these AI personas. The app allows users to swipe between characters and engage in conversations that showcase AI's ability to generate surprising and engaging responses.",
+    features: [
+      "Topic-Based Character Matching: Select interests to get matched with relevant AI characters",
+      "Character Swiping: Swipe left or right to switch between different AI personas",
+      "Diverse Character Library: Access a wide variety of AI characters across multiple interests",
+      "Entertainment-Focused: Enjoy fun and engaging conversations with AI personalities",
+      "Surprising AI Responses: Experience AI's capacity to generate unexpected and entertaining answers"
+    ],
+    howToUse: {
+      title: "How to Use Talkie: Soulful AI",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Select Interests", description: "Choose topics you're most interested in from the extensive list to help match you with relevant AI characters." },
+        { title: "Browse Characters", description: "Explore the AI characters generated based on your selected interests on the main screen." },
+        { title: "Swipe to Navigate", description: "Swipe left or right to switch between different AI characters until you find one that interests you." },
+        { title: "Start Conversations", description: "Begin chatting with your selected character and experience engaging, surprising AI responses tailored to your interests." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Interest-Based Matching", description: "Select topics of interest to get matched with AI characters that align with your preferences for more relevant conversations." },
+      { title: "Intuitive Navigation", description: "Simple swipe interface allows users to easily switch between characters and find the ones they want to interact with." },
+      { title: "Entertainment Focus", description: "Designed specifically for fun interactions with AI characters that can generate surprising and engaging responses." }
+    ],
+    useCases: [
+      { title: "Entertainment Seekers", description: "Enjoy fun and entertaining conversations with diverse AI characters for pure amusement and leisure." },
+      { title: "Curiosity Exploration", description: "Explore AI's capabilities by engaging with different characters and experiencing their surprising responses." },
+      { title: "Casual Social Interaction", description: "Enjoy low-pressure social interaction with AI characters without the complexities of human conversation." }
+    ]
+  },
   "janitor-ai": {
     whatIs: "Janitor AI is an advanced chatbot platform developed by janitorai.com that specializes in creating NSFW fictional chatbot characters with diverse personalities. The platform leverages large language models, including OpenAI's GPT models, to power these interactive characters.",
     features: [
