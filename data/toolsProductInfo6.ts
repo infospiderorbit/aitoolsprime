@@ -1,4 +1,34 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "juicy-ai": {
+    whatIs: "JuicyChat.AI is a premier NSFW AI chat platform that allows users to design and interact with customizable virtual partners. Build your ideal companion from looks to persona, engage in sizzling adaptable conversations, enjoy stunning visuals, and explore your wildest role-playing scenarios in a safe, discreet environment available 24/7.",
+    features: [
+      "NSFW AI Chat: Engage in bold, unrestricted conversations with AI partners",
+      "Full Customization: Design your partner's appearance, personality, and interests",
+      "Visual Companionship: View realistic images of your AI companion including selfies and candid moments",
+      "24/7 Availability: Your virtual partner is always ready for interaction anytime",
+      "Role-Playing Scenarios: Explore countless fantasies and scenarios with your AI companion"
+    ],
+    howToUse: {
+      title: "How to Use JuicyChat.AI",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Design Your Partner", description: "Create your ideal virtual companion by customizing their appearance, personality traits, and interests to match your preferences." },
+        { title: "Start Conversations", description: "Begin natural, fluid conversations with your AI partner that adapt to your communication style and mood." },
+        { title: "Request Visuals", description: "Ask for photos and images of your companion to enhance the experience with a more tangible connection." },
+        { title: "Explore Scenarios", description: "Engage in various role-playing situations and scenarios with your AI partner for endless entertainment." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Customization", description: "Shape every aspect of your virtual partner from looks to personality to create your perfect companion." },
+      { title: "Realistic Conversations", description: "Experience natural, fluid dialogue that evolves with each interaction and adapts to your unique communication style." },
+      { title: "Visual Integration", description: "View realistic images of your AI companion through advanced AI-generated visuals that add depth to your virtual relationship." }
+    ],
+    useCases: [
+      { title: "NSFW Companionship", description: "Create and interact with an ideal virtual partner for bold conversations and intimate connections without judgment." },
+      { title: "Fantasy Exploration", description: "Safely explore your wildest scenarios and fantasies through role-playing with a customizable AI companion." },
+      { title: "Visual Entertainment", description: "Enjoy both conversational and visual companionship with an AI partner who can share images and maintain engaging dialogue." }
+    ]
+  },
   "talkie-ai": {
     whatIs: "Talkie: Soulful AI is an interactive app similar to Character.ai that enables users to chat with multiple AI-powered characters. After selecting topics of interest from an extensive list, users can enjoy entertaining conversations with these AI personas. The app allows users to swipe between characters and engage in conversations that showcase AI's ability to generate surprising and engaging responses.",
     features: [
