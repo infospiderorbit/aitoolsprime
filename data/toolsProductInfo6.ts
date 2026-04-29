@@ -1,4 +1,34 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "secret-desires": {
+    whatIs: "Secret Desires AI is an AI companion chat platform that provides users with a personalized virtual companion experience through warm and emotionally engaging conversations, helping people feel heard, supported, and genuinely connected in a private and judgment-free environment.",
+    features: [
+      "Virtual Companion Chat: Warm and engaging AI companion conversations",
+      "Personalized Interaction: Responses tailored to your personality and preferences",
+      "Emotional Support: Caring and attentive conversational companion available anytime",
+      "Private Environment: Discreet and secure personal companion experience",
+      "Always Available: 24/7 access to your AI companion whenever you need it"
+    ],
+    howToUse: {
+      title: "How to Use Secret Desires AI",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up on Secret Desires AI and set up your profile to begin personalizing your companion experience." },
+        { title: "Customize Your Companion", description: "Share your preferences and personality traits so your AI companion can tailor every conversation to suit you perfectly." },
+        { title: "Start Chatting", description: "Begin your conversation and enjoy warm engaging dialogue with your personalized AI companion anytime you want." },
+        { title: "Build Your Connection", description: "Return regularly as your companion remembers past conversations and becomes more attuned to you over time." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalized Companionship", description: "Learns your communication style and preferences to deliver increasingly personal and meaningful conversations over time." },
+      { title: "Emotional Availability", description: "Provides attentive caring responses that make users feel genuinely heard, valued, and emotionally supported every session." },
+      { title: "Privacy First", description: "Operates in a completely private environment ensuring all your conversations remain confidential and fully secure always." }
+    ],
+    useCases: [
+      { title: "Companionship Seekers", description: "Find warm and engaging conversation with an AI companion that is always available and genuinely attentive to your needs." },
+      { title: "Social Confidence Builders", description: "Practice expressing your feelings and building conversational confidence in a safe supportive and completely private space." },
+      { title: "Stress Relief", description: "Unwind after a long day with pleasant caring AI conversation that offers comfort without any judgment or pressure." }
+    ]
+  },
   "juicy-ai": {
     whatIs: "JuicyChat.AI is a premier NSFW AI chat platform that allows users to design and interact with customizable virtual partners. Build your ideal companion from looks to persona, engage in sizzling adaptable conversations, enjoy stunning visuals, and explore your wildest role-playing scenarios in a safe, discreet environment available 24/7.",
     features: [
