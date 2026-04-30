@@ -1,4 +1,34 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "sorapix": {
+    whatIs: "SoraPix is an AI anime art generation platform that lets users create stunning anime-style illustrations, waifu characters, and stylized artwork from text prompts, making high-quality anime art creation accessible to everyone regardless of drawing ability.",
+    features: [
+      "Anime Art Generation: Create beautiful anime illustrations from text prompts",
+      "Waifu Creation: Design original anime characters with unique traits",
+      "Multiple Art Styles: Various anime and manga aesthetics available",
+      "High Quality Output: Detailed and expressive anime artwork generation",
+      "Easy to Use: Simple prompt to artwork workflow for any skill level"
+    ],
+    howToUse: {
+      title: "How to Use SoraPix",
+      description: "Create anime art in a few simple steps",
+      steps: [
+        { title: "Write Your Prompt", description: "Describe your anime character or scene with details like hair color, outfit, expression, and art style." },
+        { title: "Select Your Style", description: "Choose from available anime and manga art styles that best match your creative vision." },
+        { title: "Generate Your Art", description: "Submit your prompt and receive high-quality AI-generated anime artwork within seconds." },
+        { title: "Download and Share", description: "Save your generated anime illustration and share it with the anime art community." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Anime Style Accuracy", description: "Generates artwork with authentic anime visual conventions including expressive eyes, dynamic poses, and stylized proportions." },
+      { title: "Character Customization", description: "Creates detailed original anime characters from descriptive prompts with consistent and appealing visual identity." },
+      { title: "Fast Generation", description: "Delivers high-quality anime artwork quickly so creators can iterate and explore multiple character concepts efficiently." }
+    ],
+    useCases: [
+      { title: "Anime Fans", description: "Create original anime characters and scenes inspired by your favorite genres and visual styles." },
+      { title: "Content Creators", description: "Generate unique anime artwork for social media profiles, posts, and creative projects without illustration skills." },
+      { title: "Game Developers", description: "Produce anime-style character concepts and reference art for visual novels and indie game projects." }
+    ]
+  },
   "aiallure": {
     whatIs: "aiAllure is a revolutionary AI companion platform where users can create highly personalized virtual girlfriends and AI companions with complete control over both appearance and personality. This cutting-edge platform combines intimate AI sexting capabilities with advanced NSFW AI image and video generation to deliver an unparalleled virtual romance experience. With aiAllure, users can upload images to create their ideal AI partners, define unique personality traits, and engage in deeply personal conversations that adapt to their preferences. The platform offers both SFW and NSFW content options, with PRO members unlocking exclusive access to explicit content generation and advanced customization features. Whether you're looking to create the perfect virtual companion with specific physical attributes, explore intimate conversations through AI sexting, or generate custom NSFW images and videos featuring your personalized AI girlfriend, aiAllure provides all the tools needed for an immersive virtual relationship experience.",
     features: [
