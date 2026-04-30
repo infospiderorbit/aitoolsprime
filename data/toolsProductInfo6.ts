@@ -1,4 +1,36 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "bloom-ai": {
+    whatIs: "Bloom is an AI-powered habit tracker and personal organization app that helps users build positive daily routines through personalized activity suggestions, smart reminders, and an intuitive interface designed to make habit building feel effortless and rewarding.",
+    features: [
+      "AI Activity Suggestions: Personalized recommendations based on your preferences and location",
+      "Habit Tracking: Build and monitor positive daily habits with smart reminders",
+      "Siri Integration: Use voice commands to log habits and check progress hands-free",
+      "iCloud Sync: Keep your habits and data synced seamlessly across all your Apple devices",
+      "Customizable Widgets: Add habit tracking widgets to your home screen for quick access",
+      "AI Chat: Get personalized activity and wellness recommendations through conversation",
+      "Daily Planning: Organize your day around your habits and wellness goals effectively"
+    ],
+    howToUse: {
+      title: "How to Use Bloom",
+      description: "Start building better habits in a few simple steps",
+      steps: [
+        { title: "Download the App", description: "Get Bloom from the App Store and set up your profile with your personal preferences and wellness goals." },
+        { title: "Define Your Habits", description: "Add the habits you want to build such as walking, drinking water, reading, or any daily routine you want to establish." },
+        { title: "Set Your Reminders", description: "Configure personalized reminders at the right times so Bloom nudges you to complete each habit consistently." },
+        { title: "Use AI Recommendations", description: "Chat with Bloom's AI assistant to receive personalized activity suggestions tailored to your location and daily preferences." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Personalized AI Suggestions", description: "Analyzes your preferences, location, and schedule to deliver activity recommendations that genuinely fit your lifestyle." },
+      { title: "Smart Habit Reminders", description: "Sends timely and context-aware reminders that keep you on track without feeling overwhelming or intrusive." },
+      { title: "Apple Ecosystem Integration", description: "Works seamlessly with Siri, iCloud, and home screen widgets for a smooth and connected Apple device experience." }
+    ],
+    useCases: [
+      { title: "Wellness Goal Setting", description: "Organize your daily wellness activities and track progress toward meaningful health and lifestyle improvement goals." },
+      { title: "Daily Habit Building", description: "Establish consistent positive habits like walking, hydration, meditation, or reading with structured daily tracking tools." },
+      { title: "Productivity Organization", description: "Use Bloom to plan your day around your most important habits and keep your routine organized and achievable every day." }
+    ]
+  },
   "sorapix": {
     whatIs: "SoraPix is an AI anime art generation platform that lets users create stunning anime-style illustrations, waifu characters, and stylized artwork from text prompts, making high-quality anime art creation accessible to everyone regardless of drawing ability.",
     features: [
