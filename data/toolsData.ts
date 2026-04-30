@@ -2779,7 +2779,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     "large-language-models": [
       { id: "deepseek", name: "DeepSeek", description: "Advanced large language model platform", url: "https://deepseek.com", upvotes: 3456, verified: true, rating: 4.9, icon: "🔍", category: "other", subcategory: "large-language-models" },
       { id: "offline-chat-llm", name: "Offline Chat: Private AI", description: "Private offline large language model", url: "", upvotes: 2987, verified: true, rating: 4.7, icon: "🔒", category: "other", subcategory: "large-language-models" },
-      { id: "google-gemini-llm", name: "Google Gemini", description: "Google's multimodal large language model", url: "https://gemini.google.com", upvotes: 2765, verified: true, rating: 4.6, icon: "💎", category: "other", subcategory: "large-language-models" },
       { id: "poe", name: "Poe", description: "Access to multiple language models in one platform", url: "", upvotes: 2543, verified: true, rating: 4.5, icon: "🎭", category: "other", subcategory: "large-language-models" }
     ],
     "minecraft-ai": [
