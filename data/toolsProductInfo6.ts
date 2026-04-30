@@ -1,4 +1,34 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "ai-roast-generator": {
+    whatIs: "AI Roast Generator is a free online tool powered by GPT-4.1 that creates hilarious personalized roasts and witty comebacks in multiple styles, from savage burns to classic comedy roasts, all without requiring any account or signup.",
+    features: [
+      "Multiple Roast Styles: Choose from Savage, Classic, Meme, Character, Nerdy, and Sassy modes",
+      "GPT-4.1 Powered: Advanced AI for genuinely clever and contextual humor",
+      "No Signup Required: Generate roasts instantly without creating an account",
+      "Personalized Roasts: Add context about yourself for more targeted comedy",
+      "Easy Sharing: Share your roast directly to social media with one click"
+    ],
+    howToUse: {
+      title: "How to Use AI Roast Generator",
+      description: "Get roasted in seconds with no signup needed",
+      steps: [
+        { title: "Add Your Details", description: "Enter some context about yourself or the person you want roasted so the AI can make it personal and relevant." },
+        { title: "Choose Your Style", description: "Pick your preferred roast style from Savage Mode, Classic Roast, Meme, Nerdy, Sassy, or Character roast options." },
+        { title: "Generate Your Roast", description: "Hit generate and let GPT-4.1 craft a brutally funny and personalized roast based on your provided details." },
+        { title: "Share the Laughs", description: "Copy your roast and share it with friends on social media or use it to kick off a roast battle." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Six Distinct Roast Styles", description: "Covers every comedic angle from savage and brutal to nerdy and sassy giving users full control over their roast flavor." },
+      { title: "Zero Friction Access", description: "Requires no account creation or payment making it the fastest way to get a quality AI roast for any occasion." },
+      { title: "Context-Aware Humor", description: "Uses your provided details to generate roasts that feel personal and specific rather than generic one-size-fits-all burns." }
+    ],
+    useCases: [
+      { title: "Social Media Content", description: "Generate funny roast content to post on social media for engagement laughs and shareability with your followers." },
+      { title: "Roast Battles", description: "Challenge friends to a roast battle using AI-generated material as your opening salvo for maximum comedic impact." },
+      { title: "Self-Deprecating Humor", description: "Get a good laugh at yourself with a personalized AI roast that points out your quirks in the most entertaining way possible." }
+    ]
+  },
   "roastlinkedin": {
     whatIs: "RoastLinkedIn is an AI tool that delivers hilarious yet insightful roasts of LinkedIn profiles, combining humor with genuinely useful career advice to help professionals identify weaknesses in their profile and improve their professional online presence.",
     features: [
