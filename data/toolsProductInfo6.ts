@@ -1,4 +1,36 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "roast": {
+    whatIs: "ROAST is an AI-powered dating profile review service that analyzes your photos, bio, and prompts using data from over 10,000 profiles to deliver actionable feedback that helps you get more matches on Tinder, Bumble, Hinge, and other dating apps.",
+    features: [
+      "Profile Review: Expert AI analysis of your complete dating profile",
+      "Photo Ranking: Identify your best photos using data-driven scoring",
+      "Bio Writer: AI-crafted bios that attract more matches",
+      "Prompt Writer: Better answers to dating app prompts that start conversations",
+      "Data-Driven Feedback: Insights based on analysis of 10000+ real dating profiles",
+      "AI Photos: Generate better profile photos for dating apps",
+      "Expert Advice: Actionable tips to understand and beat dating app algorithms"
+    ],
+    howToUse: {
+      title: "How to Use ROAST",
+      description: "Improve your dating profile in a few simple steps",
+      steps: [
+        { title: "Share Your Profile", description: "Upload your dating profile photos and paste your current bio and prompts for ROAST to analyze." },
+        { title: "Get Your Analysis", description: "Receive a detailed data-driven review of your profile based on insights from thousands of successful dating profiles." },
+        { title: "Follow Your Action Plan", description: "Use the specific recommendations provided to update your photos, rewrite your bio, and improve your prompts." },
+        { title: "Watch Your Matches Grow", description: "Apply the changes and experience a measurable improvement in your match rate and conversation quality." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Data-Driven Profile Analysis", description: "Benchmarks your profile against data from over 10000 profiles to give feedback grounded in what actually works on dating apps." },
+      { title: "Complete Profile Overhaul", description: "Covers every element of your dating profile from photo selection and bio writing to prompt answers and overall presentation strategy." },
+      { title: "Algorithm Insights", description: "Explains how dating app algorithms work and gives you specific strategies to maximize your visibility to the right people." }
+    ],
+    useCases: [
+      { title: "Low Match Rate", description: "Discover exactly what is holding your profile back and get a clear step-by-step plan to dramatically increase your matches." },
+      { title: "Profile Writing", description: "Get expert AI help writing a bio and prompt answers that are authentic, engaging, and proven to start more conversations." },
+      { title: "Photo Selection", description: "Stop guessing which photos to use and let data-driven analysis identify your strongest images for maximum profile performance." }
+    ]
+  },
   "ai-roast-generator": {
     whatIs: "AI Roast Generator is a free online tool powered by GPT-4.1 that creates hilarious personalized roasts and witty comebacks in multiple styles, from savage burns to classic comedy roasts, all without requiring any account or signup.",
     features: [
