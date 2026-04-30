@@ -1,4 +1,41 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "eroplay-ai": {
+    whatIs: "EroPlay AI is an adult-only AI roleplay platform designed for consenting users to explore intimate fantasies through interactive, character-driven storytelling. This innovative platform combines AI companions with distinct personalities and goals, adaptive conversations that respond to your preferences, and optional periodic images to deepen immersion. With flexible scenario creation, boundary settings, and rich personalization options, EroPlay AI enables safe, private, and imaginative experiences for adults seeking to explore their sexuality in a controlled environment. Whether you want to experiment with new dynamics, practice communication, or enjoy creative erotic narratives, EroPlay AI provides a sophisticated platform that prioritizes consent while delivering highly personalized adult entertainment experiences.",
+    features: [
+      "AI Companions with Personalities: Choose or shape characters with unique traits, motivations, and conversational styles",
+      "Adaptive Adult Conversations: Multi-turn dialogue that adjusts to your tone, kinks, and comfort levels while emphasizing consent",
+      "Custom Scenarios: Build worlds, roles, and settings to match your fantasy or creative brief",
+      "Periodic Images: Optional scene images to enhance immersion without breaking the flow of roleplay",
+      "Personalization Controls: Fine-tune boundaries, topics, pacing, and intensity for a tailored experience",
+      "Privacy-Minded Use: Designed for discreet, individual exploration by consenting adults",
+      "Consent-First Setup: Clear boundary configuration to ensure comfortable experiences",
+      "Rich Worldbuilding: Create detailed environments and backstories for immersive roleplay"
+    ],
+    howToUse: {
+      title: "How to Use EroPlay AI",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Sign Up & Verify", description: "Create an account and confirm you are an adult, then review the platform's community and content guidelines." },
+        { title: "Select or Create Companion", description: "Choose an existing AI companion or create your own with defined personality, goals, and tone." },
+        { title: "Set Up Scenario", description: "Define roles, setting, themes, and desired conversational style for your roleplay experience." },
+        { title: "Configure Boundaries", description: "Set clear boundaries and preferences to ensure a consent-focused, comfortable experience." },
+        { title: "Begin Roleplay", description: "Start the interactive roleplay and refine with prompts or adjustments as the narrative evolves." },
+        { title: "Enhance with Images", description: "Enable periodic images if you want added visual immersion during your session." },
+        { title: "Save Your Session", description: "Save or export your session notes for future continuity or iteration." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Character-Driven Experience", description: "Engage with AI companions that have distinct personalities, motivations, and adaptive conversation styles." },
+      { title: "Consent-Focused Design", description: "Enjoy boundary-conscious interactions with clear controls and safety features built into every experience." },
+      { title: "Immersive Storytelling", description: "Create rich, detailed scenarios with optional visual elements that enhance the roleplay experience." }
+    ],
+    useCases: [
+      { title: "Personal Fantasy Exploration", description: "Safely explore intimate fantasies and scenarios in a private, controlled environment with AI companions." },
+      { title: "Couples Communication", description: "Spark communication and novelty for couples by exploring new dynamics together in a safe setting." },
+      { title: "Creative NSFW Writing", description: "Prototype erotic narratives and characters without involving other participants, perfect for writers and creators." },
+      { title: "Consent Practice", description: "Practice boundary setting and consent language in a low-stakes environment before real-world applications." }
+    ]
+  },
   "roast": {
     whatIs: "ROAST is an AI-powered dating profile review service that analyzes your photos, bio, and prompts using data from over 10,000 profiles to deliver actionable feedback that helps you get more matches on Tinder, Bumble, Hinge, and other dating apps.",
     features: [
