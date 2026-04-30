@@ -1,4 +1,34 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "girlfriendgpt": {
+    whatIs: "GirlfriendGPT AI is an adult-focused NSFW chat platform where users connect with AI girlfriends or AI boyfriends for immersive roleplay, sexting, and intimate conversations. Powered by an unrestricted AI chat generator, this platform lets you create custom characters, define personalities, and generate images to match your scenario. Its core value is providing a personal, always-on companion that adapts to your tone, boundaries, and fantasies, enabling consensual, uncensored AI sex chats and creative storytelling for adults. With minimal content blocking for consenting users, GirlfriendGPT AI offers a judgment-free environment to explore your deepest desires through highly personalized AI companions that remember your preferences and evolve with your interactions.",
+    features: [
+      "AI Companion Chat: Engaging and emotionally aware conversations",
+      "Personalized Companion: Customize your AI companion personality and traits",
+      "Advanced Language Models: Powered by state-of-the-art AI for natural dialogue",
+      "Always Available: 24/7 access to your AI companion anytime you need",
+      "Memory System: Companion remembers past conversations for continuity"
+    ],
+    howToUse: {
+      title: "How to Use GirlfriendGPT",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up and set up your profile to begin personalizing your AI companion experience." },
+        { title: "Customize Your Companion", description: "Define your companion personality, name, and conversational style to match your preferences." },
+        { title: "Start Chatting", description: "Begin your conversation and enjoy natural engaging dialogue with your AI companion." },
+        { title: "Build Your Connection", description: "Return regularly as your companion builds on previous conversations for a more personal experience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Natural Conversation Quality", description: "Advanced language models power dialogue that feels genuine, contextual, and emotionally aware throughout every interaction." },
+      { title: "Companion Personalization", description: "Customize personality traits and conversational style so your AI companion feels uniquely tailored to your preferences." },
+      { title: "Conversation Memory", description: "Remembers the details of your past interactions to build a sense of continuity and ongoing connection over time." }
+    ],
+    useCases: [
+      { title: "Companionship", description: "Enjoy warm and engaging conversation with an AI companion that is always available and attentive to your needs." },
+      { title: "Social Practice", description: "Build conversational confidence and practice expressing yourself in a comfortable and judgment-free environment." },
+      { title: "Entertainment", description: "Have fun and lighthearted conversations with a personalized AI companion for relaxation and enjoyment." }
+    ]
+  },
   "eroplay-ai": {
     whatIs: "EroPlay AI is an adult-only AI roleplay platform designed for consenting users to explore intimate fantasies through interactive, character-driven storytelling. This innovative platform combines AI companions with distinct personalities and goals, adaptive conversations that respond to your preferences, and optional periodic images to deepen immersion. With flexible scenario creation, boundary settings, and rich personalization options, EroPlay AI enables safe, private, and imaginative experiences for adults seeking to explore their sexuality in a controlled environment. Whether you want to experiment with new dynamics, practice communication, or enjoy creative erotic narratives, EroPlay AI provides a sophisticated platform that prioritizes consent while delivering highly personalized adult entertainment experiences.",
     features: [
