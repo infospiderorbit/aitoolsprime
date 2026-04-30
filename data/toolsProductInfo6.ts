@@ -1,4 +1,36 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "junia-ai": {
+    whatIs: "Junia AI is an AI-powered content creation platform that helps marketers, bloggers, and business owners produce high-quality SEO-optimized content quickly, covering everything from long-form blog posts and email campaigns to ad copy and social media content.",
+    features: [
+      "SEO-Optimized Content: Blog posts and articles written to rank in search engines",
+      "AI Image Generation: Create relevant images alongside your written content",
+      "Multiple Content Types: Blogs emails ad copy social posts and more",
+      "SEO Research Tools: Built-in keyword and topic research for better rankings",
+      "Brand Voice: Maintain consistent tone across all generated content",
+      "Long-Form Writing: Full blog articles produced quickly from a single prompt",
+      "Multilingual Support: Create content in multiple languages for global reach"
+    ],
+    howToUse: {
+      title: "How to Use Junia AI",
+      description: "Start creating SEO content in a few simple steps",
+      steps: [
+        { title: "Choose Your Content Type", description: "Select the type of content you need whether a blog post, email, ad copy, or social media content." },
+        { title: "Enter Your Topic", description: "Provide your target keyword or topic and let Junia AI research and plan your content structure." },
+        { title: "Generate Your Content", description: "Receive a complete AI-written piece that is optimized for both readers and search engine rankings." },
+        { title: "Edit and Publish", description: "Review your generated content, make any personal adjustments, and publish it directly to your platform." }
+      ]
+    },
+    coreFeatures: [
+      { title: "SEO-First Content Generation", description: "Writes content with search engine optimization built in from the start, targeting the right keywords for better organic rankings." },
+      { title: "Integrated Image Creation", description: "Generates relevant AI images alongside written content so your articles and posts are visually complete from the beginning." },
+      { title: "Long-Form Content Quality", description: "Produces detailed well-structured long-form articles that read naturally and provide genuine value to your target audience." }
+    ],
+    useCases: [
+      { title: "Bloggers and Content Marketers", description: "Produce consistent high-quality SEO blog content at scale without spending hours researching and writing every post manually." },
+      { title: "E-commerce Businesses", description: "Create product descriptions, category pages, and marketing copy that ranks in search and converts browsers into buyers." },
+      { title: "Marketing Agencies", description: "Generate diverse content across multiple formats for clients quickly while maintaining quality and brand voice consistency." }
+    ]
+  },
   "girlfriendgpt": {
     whatIs: "GirlfriendGPT AI is an adult-focused NSFW chat platform where users connect with AI girlfriends or AI boyfriends for immersive roleplay, sexting, and intimate conversations. Powered by an unrestricted AI chat generator, this platform lets you create custom characters, define personalities, and generate images to match your scenario. Its core value is providing a personal, always-on companion that adapts to your tone, boundaries, and fantasies, enabling consensual, uncensored AI sex chats and creative storytelling for adults. With minimal content blocking for consenting users, GirlfriendGPT AI offers a judgment-free environment to explore your deepest desires through highly personalized AI companions that remember your preferences and evolve with your interactions.",
     features: [
