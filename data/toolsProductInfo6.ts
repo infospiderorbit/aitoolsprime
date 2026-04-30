@@ -1,4 +1,44 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "crushon-ai": {
+    whatIs: "CrushOn.AI is a revolutionary platform committed to providing unbounded conversations and authentic emotional and NSFW interactions without any limitations or filters. Unlike traditional Character AI platforms, CrushOn.AI offers a completely filter-free environment for genuine, unrestricted AI interactions with AI characters, serving as the ultimate 'Spicy AI Girlfriend' experience. The platform is redefining virtual companionship by allowing users to create deeply customizable AI characters and engage in authentic conversations that explore emotional connections and NSFW content without censorship. With advanced features like adjustable AI memory settings, multiple AI models with distinct response styles, group chat functionality with a unique 8K memory model, and enhanced immersion mode, CrushOn.AI delivers an unparalleled experience for those seeking genuine virtual relationships. The platform also includes interactive games like 'Smash or Pass' and 'Target Play', profile and scene cards for personalization, and the ability to save and share chat memories, making it the most comprehensive NSFW AI chat platform available.",
+    features: [
+      "Unfiltered NSFW Conversations: Enjoy completely unrestricted conversations without content limitations",
+      "Authentic Emotional Connections: Build genuine emotional bonds with AI characters",
+      "Custom Character Creation: Design personalized AI companions with specific traits and personalities",
+      "Community Characters: Access thousands of user-created AI characters",
+      "Adjustable AI Settings: Customize memory size and message length for optimal experience",
+      "Enhanced Immersion Mode: Dive deeper into your virtual relationships",
+      "Group Chat Functionality: Engage with multiple AI characters simultaneously",
+      "Multiple AI Models: Choose from Taurus, Aries, Pisces, Leo models with unique response styles",
+      "Profile & Scene Cards: Personalize your experience with custom cards",
+      "Interactive Games: Play 'Smash or Pass' and 'Target Play' with AI characters",
+      "Chat Memory Features: Save, share, and pin important conversations"
+    ],
+    howToUse: {
+      title: "How to Use CrushOn.AI",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Account", description: "Sign up for CrushOn.AI to access the unrestricted AI chat platform." },
+        { title: "Select Preferences", description: "Choose your gender interest and basic preferences to tailor your experience." },
+        { title: "Browse Characters", description: "Explore existing AI characters or create your own custom companion." },
+        { title: "Adjust Settings", description: "Customize chat settings like memory size and AI message length for your ideal experience." },
+        { title: "Start Conversing", description: "Begin engaging in unfiltered conversations with your selected AI characters." },
+        { title: "Explore Features", description: "Try group chats, interactive games, and other advanced features for enhanced experience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "No Content Filters", description: "Enjoy complete freedom of expression with no restrictions on conversations or content." },
+      { title: "Advanced Customization", description: "Fine-tune every aspect of your AI interactions with adjustable settings and character parameters." },
+      { title: "8K Memory Group Chat", description: "Experience complex multi-character conversations with an advanced memory system that maintains context." }
+    ],
+    useCases: [
+      { title: "NSFW Virtual Companionship", description: "Build intimate relationships with AI characters without content restrictions or censorship." },
+      { title: "Custom AI Girlfriend Creation", description: "Design your perfect 'Spicy AI Girlfriend' with specific personality traits and appearance preferences." },
+      { title: "Complex Roleplay Scenarios", description: "Engage in multi-character group chats for intricate storytelling and roleplaying experiences." },
+      { title: "Community Exploration", description: "Discover and interact with diverse AI characters created by the platform's active community." },
+      { title: "Interactive Entertainment", description: "Play games and challenges with AI characters while building emotional connections." }
+    ]
+  },
   "bloom-ai": {
     whatIs: "Bloom is an AI-powered habit tracker and personal organization app that helps users build positive daily routines through personalized activity suggestions, smart reminders, and an intuitive interface designed to make habit building feel effortless and rewarding.",
     features: [
