@@ -1,4 +1,34 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "roastlinkedin": {
+    whatIs: "RoastLinkedIn is an AI tool that delivers hilarious yet insightful roasts of LinkedIn profiles, combining humor with genuinely useful career advice to help professionals identify weaknesses in their profile and improve their professional online presence.",
+    features: [
+      "AI Profile Roasting: Instant humorous critique of any LinkedIn profile",
+      "Brutal Roast Mode: No-holds-barred comedic takedown of your profile",
+      "Helpful Roast Mode: Funny feedback paired with actionable improvement tips",
+      "Famous Profile Analysis: See how celebrity and executive profiles get roasted",
+      "Career Improvement Tips: Actionable advice wrapped in entertaining commentary"
+    ],
+    howToUse: {
+      title: "How to Use RoastLinkedIn",
+      description: "Get your LinkedIn profile roasted in seconds",
+      steps: [
+        { title: "Enter Your LinkedIn URL", description: "Paste your LinkedIn profile URL into RoastLinkedIn to let the AI pull and analyze your full profile." },
+        { title: "Choose Your Roast Style", description: "Select Brutal Roast for pure comedy or Helpful Roast for funny feedback mixed with career improvement advice." },
+        { title: "Click Roast Me", description: "Hit the Roast Me button and let the AI generate your personalized humorous profile critique instantly." },
+        { title: "Apply the Tips", description: "Laugh at the roast then use the embedded improvement suggestions to genuinely strengthen your LinkedIn presence." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Dual Roast Modes", description: "Offers both a brutal comedy roast and a helpful roast mode so users can choose how much practical advice they want alongside the laughs." },
+      { title: "Famous Profile Roasting", description: "Allows users to submit profiles of well-known executives and celebrities to see how their LinkedIn presence holds up to AI scrutiny." },
+      { title: "Actionable Career Tips", description: "Embeds genuine profile improvement recommendations within the humor so every roast delivers real value beyond entertainment." }
+    ],
+    useCases: [
+      { title: "LinkedIn Profile Improvement", description: "Discover exactly which parts of your profile are weak or cliche and get clear direction on how to fix them for better career results." },
+      { title: "Entertainment and Sharing", description: "Generate a funny roast of your own or a colleague's profile to share for laughs within your professional network." },
+      { title: "Job Seekers", description: "Get honest AI feedback on your LinkedIn profile before actively applying for jobs to make sure your first impression is strong." }
+    ]
+  },
   "roast-dating": {
     whatIs: "Roast Dating is an AI dating profile optimizer that reviews your photos, bio, and overall profile presentation with honest and actionable feedback, helping you identify exactly what is holding your matches back and how to fix it for better results.",
     features: [
