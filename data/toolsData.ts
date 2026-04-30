@@ -1638,7 +1638,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "chathelper", name: "ChatHelper", description: "AI chat assistance tool", url: "", upvotes: 321, verified: true, rating: 4.1, icon: "💬", category: "social-media", subcategory: "ai-only-fans" }
     ],
     "ai-pickup-lines-generator": [
-      { id: "ai-rizz-generator", name: "AI Rizz Generator", description: "AI pickup line generator", url: "", upvotes: 789, verified: true, rating: 4.5, icon: "💕", category: "social-media", subcategory: "ai-pickup-lines-generator" },
       { id: "wingmanx", name: "WingmanX", description: "AI dating conversation helper", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🕊️", category: "social-media", subcategory: "ai-pickup-lines-generator" },
       { id: "tinder-ice-breakers-ai", name: "Tinder Ice Breakers AI", description: "AI ice breaker generator", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "🧊", category: "social-media", subcategory: "ai-pickup-lines-generator" },
       { id: "pickmyline-online", name: "Pickmyline.online", description: "Online pickup line generator", url: "", upvotes: 432, verified: true, rating: 4.2, icon: "🎯", category: "social-media", subcategory: "ai-pickup-lines-generator" },
@@ -1648,7 +1647,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "rizz-ai", name: "RIZZ AI", description: "Advanced AI rizz generator", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "🔥", category: "social-media", subcategory: "ai-rizz-generator" },
       { id: "resume-rizzler", name: "Resume Rizzler", description: "AI charisma enhancement tool", url: "", upvotes: 765, verified: true, rating: 4.5, icon: "📄", category: "social-media", subcategory: "ai-rizz-generator" },
       { id: "winggg", name: "Winggg", description: "AI wing person for dating", url: "", upvotes: 654, verified: true, rating: 4.4, icon: "🕊️", category: "social-media", subcategory: "ai-rizz-generator" },
-      { id: "rizz-exclamation", name: "Rizz!", description: "Instant AI rizz generator", url: "", upvotes: 543, verified: true, rating: 4.3, icon: "⚡", category: "social-media", subcategory: "ai-rizz-generator" },
       { id: "smoothrizz-com", name: "Smoothrizz.com", description: "Smooth AI conversation starter", url: "", upvotes: 432, verified: true, rating: 4.2, icon: "😎", category: "social-media", subcategory: "ai-rizz-generator" }
     ],
     "ai-social-link": [
