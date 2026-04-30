@@ -2585,7 +2585,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "dirty-talking-ai": [
       { id: "aiallure", name: "aiAllure", description: "AI adult conversation and intimacy platform", url: "", upvotes: 3456, verified: true, rating: 4.7, icon: "💋", category: "chatbots-virtual-companions", subcategory: "dirty-talking-ai" },
-      { id: "bloom-ai", name: "BLOOM", description: "AI intimate conversation and companionship", url: "", upvotes: 3124, verified: true, rating: 4.6, icon: "🌺", category: "chatbots-virtual-companions", subcategory: "dirty-talking-ai" },
+      { id: "bloom-ai", name: "Bloom", description: "AI-powered habit tracker and personal organization app", url: "", upvotes: 3124, verified: true, rating: 4.6, icon: "🌸", category: "daily-life", subcategory: "ai-habit-tracker" },
       { id: "dirtytalking-ai", name: "DirtyTalking.ai", description: "AI platform for adult conversations", url: "", upvotes: 2876, verified: true, rating: 4.5, icon: "🔥", category: "chatbots-virtual-companions", subcategory: "dirty-talking-ai" },
       { id: "naughtybot", name: "NaughtyBot", description: "AI bot for playful adult conversations", url: "", upvotes: 2543, verified: true, rating: 4.4, icon: "😈", category: "chatbots-virtual-companions", subcategory: "dirty-talking-ai" },
       { id: "erotix", name: "ErotiX", description: "AI erotic conversation and roleplay platform", url: "", upvotes: 2321, verified: true, rating: 4.3, icon: "🖤", category: "chatbots-virtual-companions", subcategory: "dirty-talking-ai" }
