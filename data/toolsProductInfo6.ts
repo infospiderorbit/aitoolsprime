@@ -1,4 +1,39 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "aiallure": {
+    whatIs: "aiAllure is a revolutionary AI companion platform where users can create highly personalized virtual girlfriends and AI companions with complete control over both appearance and personality. This cutting-edge platform combines intimate AI sexting capabilities with advanced NSFW AI image and video generation to deliver an unparalleled virtual romance experience. With aiAllure, users can upload images to create their ideal AI partners, define unique personality traits, and engage in deeply personal conversations that adapt to their preferences. The platform offers both SFW and NSFW content options, with PRO members unlocking exclusive access to explicit content generation and advanced customization features. Whether you're looking to create the perfect virtual companion with specific physical attributes, explore intimate conversations through AI sexting, or generate custom NSFW images and videos featuring your personalized AI girlfriend, aiAllure provides all the tools needed for an immersive virtual relationship experience.",
+    features: [
+      "AI Girlfriend Creation: Build personalized virtual companions with custom appearances and personalities",
+      "AI Sexting: Engage in intimate, explicit conversations with your AI companion",
+      "NSFW Image Generation: Create custom explicit images featuring your AI girlfriend",
+      "NSFW Video Generation: Produce personalized videos with your AI companion",
+      "Interactive Chat: Have natural conversations that adapt to your preferences",
+      "Personality Customization: Define unique traits and behaviors for your AI companion",
+      "Free Account Option: Start creating companions with a free basic account",
+      "PRO Membership Benefits: Unlock NSFW content and advanced customization options"
+    ],
+    howToUse: {
+      title: "How to Use aiAllure",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up for a free aiAllure account to access the basic companion creation tools and chat features." },
+        { title: "Build Your AI Girlfriend", description: "Use the interactive companion creation tool to upload images and provide a name, description, and personality traits for your AI companion." },
+        { title: "Start Conversations", description: "Begin chatting with your AI companion through the interactive interface, with options for both regular and intimate conversations." },
+        { title: "Generate Content", description: "Create custom images and videos featuring your AI companion, with PRO members accessing NSFW content generation." },
+        { title: "Upgrade to PRO", description: "Unlock advanced features including NSFW content generation, enhanced customization options, and priority support." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Companion Personalization", description: "Create highly customized AI companions by uploading images and defining specific personality traits, behaviors, and appearance details." },
+      { title: "NSFW Content Generation", description: "Generate explicit images and videos featuring your AI companion with advanced AI technology that produces realistic, personalized content." },
+      { title: "Interactive AI Sexting", description: "Engage in intimate, explicit conversations with your AI companion that adapts to your preferences and responds naturally to your inputs." }
+    ],
+    useCases: [
+      { title: "Virtual Relationship Building", description: "Create and nurture a relationship with a personalized AI girlfriend who matches your ideal preferences in both appearance and personality." },
+      { title: "NSFW Content Exploration", description: "Generate custom explicit images and videos featuring your AI companion for personalized adult entertainment." },
+      { title: "Intimate AI Sexting", description: "Engage in explicit conversations and role-play scenarios with your AI companion in a private, judgment-free environment." },
+      { title: "Creative Character Development", description: "Experiment with different personality traits and appearances to create your ideal AI companion for various scenarios and interactions." }
+    ]
+  },
   "roastedby-ai": {
     whatIs: "RoastedBy AI is a fun and lighthearted AI roast generator that analyzes your photos, social media profiles, or text descriptions to deliver witty and humorous roasts in the style of a comedy roast, all in good fun and without genuine malice.",
     features: [
