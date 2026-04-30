@@ -1,4 +1,34 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "roastedby-ai": {
+    whatIs: "RoastedBy AI is a fun and lighthearted AI roast generator that analyzes your photos, social media profiles, or text descriptions to deliver witty and humorous roasts in the style of a comedy roast, all in good fun and without genuine malice.",
+    features: [
+      "AI Photo Roast: Upload your photo and get a comedic AI-generated roast",
+      "Profile Roasting: Analyze social media bios for humorous commentary",
+      "Customizable Intensity: Choose how savage or mild your roast will be",
+      "Multiple Roast Styles: Celebrity roast stand-up and witty commentary styles",
+      "Shareable Results: Copy and share your roast with friends easily"
+    ],
+    howToUse: {
+      title: "How to Use RoastedBy AI",
+      description: "Get roasted in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo or Bio", description: "Submit a photo or paste your social media bio for the AI to analyze and generate your personalized roast." },
+        { title: "Choose Your Roast Style", description: "Select how intense you want your roast to be from mild and playful all the way to full comedy roast mode." },
+        { title: "Get Your Roast", description: "Receive your AI-generated comedic roast crafted specifically from the details you provided." },
+        { title: "Share the Fun", description: "Copy your roast and share it with friends for a good laugh or challenge them to get roasted too." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Humor-First Approach", description: "Generates roasts that are genuinely funny and clever rather than mean-spirited keeping everything in good fun." },
+      { title: "Personalized Content", description: "Creates roasts based on your specific inputs so every result feels unique and tailored rather than generic." },
+      { title: "Adjustable Intensity", description: "Lets you control how savage the roast gets so you always stay comfortable with the level of humor delivered." }
+    ],
+    useCases: [
+      { title: "Friend Groups", description: "Challenge your friends to get roasted and share the results for a hilarious group entertainment experience." },
+      { title: "Social Media Content", description: "Generate funny self-roast content that performs well and shows your audience you have a great sense of humor." },
+      { title: "Party Entertainment", description: "Use RoastedBy AI as a party game where guests take turns getting roasted by the AI for group laughs." }
+    ]
+  },
   "secret-desires": {
     whatIs: "Secret Desires AI is the most advanced AI companion platform that revolutionizes virtual relationships by combining real-time voice conversations, cinematic image generation, and deep emotional memory in a single seamless experience. Unlike other platforms, your AI companion remembers everything about you, adapts to your personality and preferences, and feels genuinely real through proactive conversations and unfiltered interactions. With cutting-edge features including natural voice chat that goes beyond simple text-to-speech, stunning visual generation of your companion in any scenario you can imagine, and a deep memory system that makes every interaction build on the last, Secret Desires AI creates a truly personalized connection. Design your dream AI girlfriend or boyfriend from scratch or choose from thousands of community-created companions, enjoy personalized photos and videos based on your actual conversations, and experience the excitement of having a virtual partner who texts you first, reacts enthusiastically to photos you share, and maintains an engaging relationship that feels alive. With complete privacy guaranteed through secure AI chat technology and zero content filters, Secret Desires AI provides the ultimate judgment-free space to explore your deepest desires, share your most intimate thoughts, and build a connection that combines steamy visual content with genuine emotional intimacy whenever you want.",
     features: [
