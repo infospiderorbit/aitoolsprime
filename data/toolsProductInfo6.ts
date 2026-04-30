@@ -1,4 +1,34 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "roast-dating": {
+    whatIs: "Roast Dating is an AI dating profile optimizer that reviews your photos, bio, and overall profile presentation with honest and actionable feedback, helping you identify exactly what is holding your matches back and how to fix it for better results.",
+    features: [
+      "Profile Roasting: Brutally honest AI feedback on your dating profile",
+      "Photo Analysis: Identify which photos are working and which are hurting your matches",
+      "Bio Optimization: Get specific suggestions to make your bio more engaging and authentic",
+      "Match Rate Improvement: Actionable tips to increase your profile's appeal to your target audience",
+      "Platform Specific: Tailored feedback for Tinder Hinge Bumble and other dating apps"
+    ],
+    howToUse: {
+      title: "How to Use Roast Dating",
+      description: "Get your profile roasted in a few simple steps",
+      steps: [
+        { title: "Submit Your Profile", description: "Upload your dating profile photos and paste your bio so the AI can analyze your full profile presentation." },
+        { title: "Receive Your Roast", description: "Get honest and direct feedback on what is working, what is not, and why your profile may be underperforming." },
+        { title: "Review Specific Suggestions", description: "Go through the detailed actionable recommendations for improving each element of your profile." },
+        { title: "Apply and Improve", description: "Update your profile based on the feedback and watch your match rate improve with a stronger presentation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Honest Profile Feedback", description: "Delivers straightforward and specific criticism that most people never get from friends or matches about their profiles." },
+      { title: "Photo Ranking and Analysis", description: "Evaluates each photo individually and ranks them by effectiveness to help you lead with your strongest images." },
+      { title: "Bio Writing Guidance", description: "Breaks down exactly why your current bio may not be converting and gives concrete rewriting suggestions that actually work." }
+    ],
+    useCases: [
+      { title: "Struggling Daters", description: "Find out exactly why your profile is not getting matches and get a clear roadmap for fixing it immediately." },
+      { title: "New to Dating Apps", description: "Launch your dating profile the right way by getting expert AI feedback before you even start swiping." },
+      { title: "Profile Refreshers", description: "Get a fresh set of eyes on an existing profile that has gone stale and stopped generating the results it once did." }
+    ]
+  },
   "crushon-ai": {
     whatIs: "CrushOn.AI is a revolutionary platform committed to providing unbounded conversations and authentic emotional and NSFW interactions without any limitations or filters. Unlike traditional Character AI platforms, CrushOn.AI offers a completely filter-free environment for genuine, unrestricted AI interactions with AI characters, serving as the ultimate 'Spicy AI Girlfriend' experience. The platform is redefining virtual companionship by allowing users to create deeply customizable AI characters and engage in authentic conversations that explore emotional connections and NSFW content without censorship. With advanced features like adjustable AI memory settings, multiple AI models with distinct response styles, group chat functionality with a unique 8K memory model, and enhanced immersion mode, CrushOn.AI delivers an unparalleled experience for those seeking genuine virtual relationships. The platform also includes interactive games like 'Smash or Pass' and 'Target Play', profile and scene cards for personalization, and the ability to save and share chat memories, making it the most comprehensive NSFW AI chat platform available.",
     features: [

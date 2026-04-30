@@ -2512,7 +2512,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "offline-chat", name: "Offline Chat: Private AI", description: "Private AI chatbot that works offline", url: "", upvotes: 2543, verified: true, rating: 4.5, icon: "🔒", category: "chatbots-virtual-companions", subcategory: "ai-chatbot" }
     ],
     "ai-dating-assistant": [
-      { id: "roast-dating", name: "ROAST", description: "AI dating profile optimization and feedback", url: "", upvotes: 3124, verified: true, rating: 4.6, icon: "🔥", category: "chatbots-virtual-companions", subcategory: "ai-dating-assistant" },
+      { id: "roast-dating", name: "Roast Dating", description: "AI dating profile optimization and feedback", url: "", upvotes: 3124, verified: true, rating: 4.6, icon: "🔥", category: "chatbots-virtual-companions", subcategory: "ai-dating-assistant" },
       { id: "cheateye", name: "CheatEye", description: "AI dating conversation and advice assistant", url: "", upvotes: 2876, verified: true, rating: 4.5, icon: "👁️", category: "chatbots-virtual-companions", subcategory: "ai-dating-assistant" },
       { id: "tinderprofile-ai", name: "TinderProfile.ai", description: "AI Tinder profile creation and optimization", url: "", upvotes: 2543, verified: true, rating: 4.4, icon: "❤️", category: "chatbots-virtual-companions", subcategory: "ai-dating-assistant" },
       { id: "wingmanx", name: "WingmanX", description: "AI wingman for dating conversations", url: "", upvotes: 2321, verified: true, rating: 4.3, icon: "🕊️", category: "chatbots-virtual-companions", subcategory: "ai-dating-assistant" }
