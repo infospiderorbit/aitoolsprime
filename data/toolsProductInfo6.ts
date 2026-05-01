@@ -1,4 +1,39 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "dream-companion": {
+    whatIs: "Dream Companion is an advanced NSFW AI chatbot platform engineered to provide the most immersive virtual interaction experience available. Specializing in creating customized AI girlfriends, this platform combines sophisticated conversational AI with cutting-edge image generation technology that excels in accurately depicting every intimate position, clothing detail, and interaction. The images produced are both highly sexual and precise, bringing your deepest fantasies to life with stunning visual fidelity. Dream Companion creates a mental movie experience that evokes unique emotions and sensations, allowing users to fully customize their AI companion's appearance, personality, and background for diverse role-play scenarios. Whether you're seeking a strict mother figure, friendly neighbor, college classmate, or want to bring your own unique imagination to life, Dream Companion delivers an unparalleled sexting AI experience that pushes the boundaries of virtual intimacy.",
+    features: [
+      "Advanced Image Generation: Highly precise and sexual imagery that accurately depicts positions, clothing, and interactions",
+      "Customizable AI Companions: Design every aspect of your AI girlfriend's appearance, personality, and background",
+      "Infinite Scenario Possibilities: Explore diverse role-play situations from common fantasies to unique custom scenarios",
+      "Immersive Chat Experience: Engaging conversations that create a mental movie with emotional depth",
+      "Personality Customization: Define traits, behaviors, and responses to match your ideal companion",
+      "Role-Play Specialization: AI optimized for various roles including mother figures, neighbors, classmates, and more",
+      "Visual Precision: Exceptional attention to detail in generated images for maximum realism",
+      "Emotional Engagement: AI designed to evoke genuine sensations and emotional responses"
+    ],
+    howToUse: {
+      title: "How to Use Dream Companion",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up for Dream Companion to access the NSFW AI chatbot platform and image generation features." },
+        { title: "Design Your Companion", description: "Customize your AI girlfriend's appearance, personality traits, and background story to match your preferences." },
+        { title: "Select Role-Play Scenario", description: "Choose from predefined scenarios like strict mother, friendly neighbor, or college classmate, or create your own." },
+        { title: "Begin Your Interaction", description: "Start chatting with your AI companion and experience the immersive mental movie effect with precise imagery." },
+        { title: "Refine Your Experience", description: "Adjust settings and preferences to enhance the intimacy and personalization of your interactions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Precision Image Generation", description: "Advanced technology that creates highly detailed and accurate sexual imagery with exceptional attention to position and detail." },
+      { title: "Deep Customization", description: "Comprehensive tools to design every aspect of your AI companion from physical appearance to personality traits and background." },
+      { title: "Immersive Experience", description: "Chat system designed to create a mental movie effect that evokes genuine emotions and sensations during interactions." }
+    ],
+    useCases: [
+      { title: "Custom AI Girlfriend Creation", description: "Design and interact with your ideal AI girlfriend tailored to your specific preferences and desires." },
+      { title: "Role-Play Exploration", description: "Engage in diverse scenarios with AI companions playing specific roles like mother figures, neighbors, or classmates." },
+      { title: "Visual Fantasy Fulfillment", description: "Bring your sexual fantasies to life through highly precise and detailed imagery generated during interactions." },
+      { title: "Emotional Connection", description: "Experience genuine emotional responses and sensations through immersive conversations with your AI companion." }
+    ]
+  },
   "candy-ai": {
     whatIs: "Candy AI is an advanced NSFW AI companion platform that offers immersive chat, voice, and video interactions with highly customizable virtual characters. Designed for adults seeking intimate digital connections, Candy AI combines cutting-edge character creation tools with sophisticated behavioral controls to deliver personalized erotic experiences. The platform's character library features diverse personas ready for steamy conversations, while the custom persona creator allows users to design their ideal AI companion with specific physical attributes, personality traits, and intimate preferences. With adjustable memory systems, scenario configuration, and behavioral controls that regulate everything from response intensity to emotional depth, Candy AI creates a virtual environment where your deepest fantasies can unfold through natural, evolving conversations that adapt to your desires.",
     features: [
