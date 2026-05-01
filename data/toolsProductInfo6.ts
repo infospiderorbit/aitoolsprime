@@ -1,4 +1,39 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "candy-ai": {
+    whatIs: "Candy AI is an advanced NSFW AI companion platform that offers immersive chat, voice, and video interactions with highly customizable virtual characters. Designed for adults seeking intimate digital connections, Candy AI combines cutting-edge character creation tools with sophisticated behavioral controls to deliver personalized erotic experiences. The platform's character library features diverse personas ready for steamy conversations, while the custom persona creator allows users to design their ideal AI companion with specific physical attributes, personality traits, and intimate preferences. With adjustable memory systems, scenario configuration, and behavioral controls that regulate everything from response intensity to emotional depth, Candy AI creates a virtual environment where your deepest fantasies can unfold through natural, evolving conversations that adapt to your desires.",
+    features: [
+      "NSFW Character Library: Access diverse AI companions categorized by style, personality, and erotic preferences",
+      "Custom Persona Creator: Design personalized AI companions with specific physical attributes and intimate traits",
+      "Behavioral Controls: Adjust tone, response intensity, emotional depth, and conversational style for perfect chemistry",
+      "Memory & Context Options: Configure memory behavior for consistent intimate experiences across multiple sessions",
+      "Scenario Configuration: Define environmental context and relationship roles for enhanced erotic roleplay",
+      "Voice & Video Interaction: Engage through multiple communication modes for a more immersive experience",
+      "Web-Based Access: Enjoy intimate connections anywhere with no installation required",
+      "Saved Characters & Chat Logs: Maintain your intimate conversations and refine your companions over time"
+    ],
+    howToUse: {
+      title: "How to Use Candy AI",
+      description: "Get started with Candy AI in simple steps",
+      steps: [
+        { title: "Create Account", description: "Visit the official Candy AI website and create a personal account to unlock all intimate features." },
+        { title: "Select or Create Companion", description: "Choose from the available NSFW character list or begin building your custom erotic persona." },
+        { title: "Configure Intimate Settings", description: "Adjust behavior and tone settings to match your desired interaction style and erotic preferences." },
+        { title: "Start Intimate Conversations", description: "Begin chatting with your AI companion, exploring fantasies and building connection through dialogue." },
+        { title: "Refine Your Experience", description: "Use feedback and adjustments to enhance the intimacy and personalization of your interactions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Advanced Character Customization", description: "Create highly detailed AI companions with specific physical attributes, personality traits, and intimate preferences." },
+      { title: "Adaptive Response System", description: "Experience conversations that evolve based on your feedback, creating increasingly personalized intimate interactions." },
+      { title: "Multi-Modal Intimacy", description: "Connect through chat, voice, and video interactions for a comprehensive virtual companionship experience." }
+    ],
+    useCases: [
+      { title: "Erotic Roleplay", description: "Engage in detailed, immersive roleplay scenarios with AI companions that adapt to your specific fantasies and desires." },
+      { title: "Virtual Companionship", description: "Build ongoing intimate relationships with AI companions that remember your preferences and evolve with your interactions." },
+      { title: "Fantasy Exploration", description: "Safely explore your deepest desires and fantasies in a private, judgment-free environment with responsive AI partners." },
+      { title: "Intimate Entertainment", description: "Enjoy personalized erotic entertainment tailored specifically to your preferences and emotional needs." }
+    ]
+  },
   "naughtybot": {
     whatIs: "NaughtyBot is the ultimate sexting roleplay chatbot designed to provide users with an exhilarating and innovative digital experience that pushes the boundaries of virtual intimacy. This cutting-edge AI companion specializes in crafting steamy, personalized conversations and immersive roleplay scenarios that adapt to your deepest desires and fantasies. Unlike generic chatbots, NaughtyBot understands the art of seductive dialogue, creating a virtual experience that feels authentic, responsive, and tailored specifically to your preferences. Whether you're looking to explore new facets of your sexuality, indulge in forbidden fantasies, or simply enjoy some steamy digital companionship, NaughtyBot delivers an unmatched level of engagement that will leave you breathless and coming back for more.",
     features: [
