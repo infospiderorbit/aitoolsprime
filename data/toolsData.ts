@@ -2568,7 +2568,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "joi-ai", name: "Joi AI", description: "Create your own AI girlfriend and enjoy natural, meaningful conversations", url: "https://joi.com/", upvotes: 3600, verified: true, rating: 4.75, icon: "💝", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend", addedDate: "Nov 21, 2025" },
       { id: "juicychat-ai", name: "JuicyChat.AI", description: "AI girlfriend chat with premium features", url: "", upvotes: 3456, verified: true, rating: 4.7, icon: "🍑", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
       { id: "girlfriendgpt", name: "GirlfriendGPT", description: "AI girlfriend powered by advanced language models", url: "", upvotes: 3124, verified: true, rating: 4.6, icon: "💕", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
-      { id: "kindroid", name: "Kindroid", description: "AI girlfriend with emotional connection", url: "", upvotes: 2876, verified: true, rating: 4.5, icon: "🤖", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" },
       { id: "golove", name: "GoLove", description: "AI girlfriend dating and relationship simulator", url: "", upvotes: 2543, verified: true, rating: 4.4, icon: "💘", category: "chatbots-virtual-companions", subcategory: "ai-girlfriend" }
     ],
     "ai-joke": [
