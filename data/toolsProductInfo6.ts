@@ -1,4 +1,39 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "dirtytalking-ai": {
+    whatIs: "DirtyTalking.ai is your go-to guide for finding the best AI apps that specialize in adult conversations. Think of it as a trusted friend who's done all the homework on dirty talk AI platforms, saving you time and helping you discover the perfect virtual companion for steamy chats. The site offers honest reviews, practical tips, and curated lists of top-rated apps that excel at seductive dialogue and personalized adult interactions. Whether you're curious about exploring your fantasies or looking to spice up your alone time, DirtyTalking.ai provides a safe, private roadmap to the most engaging and satisfying AI dirty talk experiences available.",
+    features: [
+      "Honest App Reviews: Straightforward evaluations of dirty talk AI apps with pros and cons clearly laid out",
+      "Curated Top Lists: Handpicked collections of the best apps for different preferences and desires",
+      "User-Friendly Guides: Simple step-by-step instructions on how to get started with each platform",
+      "Latest Updates: Fresh news about new features and apps in the dirty talk AI world",
+      "Safety Information: Tips on protecting your privacy while enjoying adult AI conversations",
+      "Comparison Tools: Side-by-side looks at different apps to help you choose the right one",
+      "User Tips: Practical advice on how to have better conversations with AI companions",
+      "Free Resources: No-cost guides and information to help you explore without commitment"
+    ],
+    howToUse: {
+      title: "How to Use DirtyTalking.ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Browse Reviews", description: "Read through the detailed reviews of different dirty talk AI apps to understand what each offers." },
+        { title: "Check Top Lists", description: "Look at curated lists of top-rated apps based on categories that interest you most." },
+        { title: "Read User Guides", description: "Follow the simple guides on how to get started with apps that catch your attention." },
+        { title: "Try Recommendations", description: "Select an app that matches your preferences and follow the tips for the best experience." },
+        { title: "Return for Updates", description: "Check back regularly for new app reviews and updates in the dirty talk AI scene." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Expert Curation", description: "Carefully selected and tested apps with honest assessments of their dirty talk capabilities." },
+      { title: "User-Focused Content", description: "All information is presented in simple, easy-to-understand language without technical jargon." },
+      { title: "Privacy-Conscious Reviews", description: "Special attention paid to how each app handles user data and protects privacy." }
+    ],
+    useCases: [
+      { title: "Finding the Right App", description: "Discover which dirty talk AI platform best matches your specific preferences and desires." },
+      { title: "Learning the Basics", description: "Get up to speed quickly on how to interact with AI companions for more satisfying conversations." },
+      { title: "Exploring Safely", description: "Find ways to explore your fantasies through AI while maintaining your privacy and security." },
+      { title: "Enhancing Personal Pleasure", description: "Learn how to use AI dirty talk apps to enhance your sexual wellness and satisfaction." }
+    ]
+  },
   "cheateye": {
     whatIs: "CheatEye is a specialized investigative tool that harnesses advanced AI algorithms to uncover hidden Tinder profiles, providing users with the clarity they need in uncertain relationship situations. This powerful platform operates as a digital detective, sifting through Tinder's extensive database in real-time to locate specific profiles based on minimal information. What sets CheatEye apart is its remarkable ability to find individuals even when they've attempted to conceal their identity by modifying their name or age on the platform. The tool delivers comprehensive reports that include not just basic profile information, but also detailed insights like bio content, images, last seen timestamps, account updates, location data, and even premium feature usage. Designed with privacy and discretion at its core, CheatEye operates completely anonymously while providing legitimate access to information that can help users make informed decisions about their relationships.",
     features: [
