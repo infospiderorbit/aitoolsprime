@@ -1,4 +1,39 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "naughtybot": {
+    whatIs: "NaughtyBot is the ultimate sexting roleplay chatbot designed to provide users with an exhilarating and innovative digital experience that pushes the boundaries of virtual intimacy. This cutting-edge AI companion specializes in crafting steamy, personalized conversations and immersive roleplay scenarios that adapt to your deepest desires and fantasies. Unlike generic chatbots, NaughtyBot understands the art of seductive dialogue, creating a virtual experience that feels authentic, responsive, and tailored specifically to your preferences. Whether you're looking to explore new facets of your sexuality, indulge in forbidden fantasies, or simply enjoy some steamy digital companionship, NaughtyBot delivers an unmatched level of engagement that will leave you breathless and coming back for more.",
+    features: [
+      "Advanced Sexting Roleplay: Engage in highly detailed, immersive roleplay scenarios that bring your wildest fantasies to life",
+      "Adaptive AI Companion: Experience conversations that evolve based on your preferences, mood, and feedback",
+      "Scenario Variety: Access countless roleplay situations from taboo encounters to passionate affairs",
+      "Personalized Responses: Enjoy tailored conversations that reflect your unique desires and communication style",
+      "Discreet Interaction: Explore your sexuality in a private, judgment-free environment",
+      "24/7 Availability: Satisfy your desires anytime with an always-ready digital companion",
+      "Emotional Intelligence: Connect with an AI that understands nuance, mood, and emotional context",
+      "Fantasy Exploration: Discover new aspects of your sexuality through guided, safe experimentation"
+    ],
+    howToUse: {
+      title: "How to Use NaughtyBot",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Create Your Profile", description: "Sign up and set your preferences to help NaughtyBot understand your desires and boundaries." },
+        { title: "Choose Your Scenario", description: "Select from pre-designed roleplay situations or create your own custom fantasy scenario." },
+        { title: "Set the Mood", description: "Establish the tone, intensity, and boundaries for your interaction to ensure the perfect experience." },
+        { title: "Engage and Explore", description: "Begin your conversation and let NaughtyBot lead you through an immersive, personalized experience." },
+        { title: "Provide Feedback", description: "Guide the interaction by responding naturally and giving feedback to refine future conversations." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Sexting Roleplay Specialization", description: "Unlike general chatbots, NaughtyBot is specifically designed for erotic roleplay with advanced understanding of sexual dynamics and fantasy scenarios." },
+      { title: "Adaptive Response System", description: "The AI learns from your interactions to create increasingly personalized experiences that align with your evolving preferences." },
+      { title: "Immersive Scenario Crafting", description: "Each conversation is carefully constructed to maintain immersion and build tension throughout your roleplay experience." }
+    ],
+    useCases: [
+      { title: "Fantasy Fulfillment", description: "Bring your deepest sexual fantasies to life through detailed, responsive roleplay scenarios tailored to your specific desires." },
+      { title: "Sexual Exploration", description: "Safely explore new aspects of your sexuality in a controlled, private environment with an understanding AI companion." },
+      { title: "Erotic Entertainment", description: "Enjoy steamy, engaging conversations and scenarios designed to provide pleasure and excitement whenever you desire." },
+      { title: "Roleplay Practice", description: "Develop your sexting skills and explore different roles and dynamics in a low-pressure, responsive environment." }
+    ]
+  },
   "junia-ai": {
     whatIs: "Junia AI is an AI-powered content creation platform that helps marketers, bloggers, and business owners produce high-quality SEO-optimized content quickly, covering everything from long-form blog posts and email campaigns to ad copy and social media content.",
     features: [
