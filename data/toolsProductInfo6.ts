@@ -1,4 +1,39 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "cheateye": {
+    whatIs: "CheatEye is a specialized investigative tool that harnesses advanced AI algorithms to uncover hidden Tinder profiles, providing users with the clarity they need in uncertain relationship situations. This powerful platform operates as a digital detective, sifting through Tinder's extensive database in real-time to locate specific profiles based on minimal information. What sets CheatEye apart is its remarkable ability to find individuals even when they've attempted to conceal their identity by modifying their name or age on the platform. The tool delivers comprehensive reports that include not just basic profile information, but also detailed insights like bio content, images, last seen timestamps, account updates, location data, and even premium feature usage. Designed with privacy and discretion at its core, CheatEye operates completely anonymously while providing legitimate access to information that can help users make informed decisions about their relationships.",
+    features: [
+      "Advanced Profile Detection: Locate Tinder profiles using minimal information like name, age, and general location",
+      "Identity Evasion Technology: Find users even when they've modified their name or age on the platform",
+      "Comprehensive Reporting: Receive detailed profiles including bio, images, last seen timestamps, and account updates",
+      "Premium Feature Detection: Identify whether target users are utilizing Tinder's paid features",
+      "Location Tracking: Discover where the person was last active on the dating app",
+      "Real-Time Database Search: Access current information through live searches of Tinder's user database",
+      "Anonymous Operation: Conduct searches without revealing your identity or leaving a digital footprint",
+      "Account Activity Timeline: Track when profiles were created, updated, and last accessed"
+    ],
+    howToUse: {
+      title: "How to Use CheatEye",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Provide Basic Information", description: "Enter the person's name, approximate age, and general location where they use Tinder." },
+        { title: "Initiate Search", description: "Start the AI-powered search process that will scan Tinder's database for matching profiles." },
+        { title: "Review Results", description: "Examine the comprehensive report containing all discovered profile information and activity details." },
+        { title: "Analyze Findings", description: "Evaluate the information provided to determine if the person has an active Tinder presence." },
+        { title: "Make Informed Decisions", description: "Use the insights gained to address relationship concerns or confirm suspicions." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Evasion Detection Technology", description: "Proprietary algorithms that can identify users attempting to hide their identity through name or age modifications." },
+      { title: "Comprehensive Data Collection", description: "Gathers extensive profile information beyond basic details to provide a complete picture of dating app activity." },
+      { title: "Privacy-First Operation", description: "Conducts all searches anonymously while respecting both user and target privacy within legal boundaries." }
+    ],
+    useCases: [
+      { title: "Relationship Verification", description: "Confirm or dispel suspicions about a partner's potential dating app activities when trust issues arise." },
+      { title: "Personal Peace of Mind", description: "Gain clarity and closure in relationships by obtaining factual information about dating app presence." },
+      { title: "Post-Breakup Investigation", description: "Verify if a former partner has moved on to dating platforms sooner than disclosed." },
+      { title: "Pre-Relationship Screening", description: "Research new romantic interests' dating app status before becoming emotionally invested." }
+    ]
+  },
   "dream-companion": {
     whatIs: "Dream Companion is an advanced NSFW AI chatbot platform engineered to provide the most immersive virtual interaction experience available. Specializing in creating customized AI girlfriends, this platform combines sophisticated conversational AI with cutting-edge image generation technology that excels in accurately depicting every intimate position, clothing detail, and interaction. The images produced are both highly sexual and precise, bringing your deepest fantasies to life with stunning visual fidelity. Dream Companion creates a mental movie experience that evokes unique emotions and sensations, allowing users to fully customize their AI companion's appearance, personality, and background for diverse role-play scenarios. Whether you're seeking a strict mother figure, friendly neighbor, college classmate, or want to bring your own unique imagination to life, Dream Companion delivers an unparalleled sexting AI experience that pushes the boundaries of virtual intimacy.",
     features: [
