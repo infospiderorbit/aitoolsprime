@@ -1,4 +1,154 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "lean-domain-search": {
+    whatIs: "Lean Domain Search is a fast and free domain name generator that instantly checks availability across hundreds of domain combinations using your keyword, helping entrepreneurs and businesses find the perfect domain name quickly.",
+    features: [
+      "Instant Search: Check hundreds of domain combinations instantly",
+      "Availability Check: Real-time domain availability verification",
+      "Keyword Based: Generate domains from your core business keyword",
+      "Multiple Extensions: Check .com and other TLD availability",
+      "Free to Use: Complete domain search without payment"
+    ],
+    howToUse: {
+      title: "How to Use Lean Domain Search",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Keyword", description: "Type your core business keyword into Lean Domain Search to begin generating combinations." },
+        { title: "Browse Results", description: "Instantly see hundreds of available domain name combinations based on your keyword." },
+        { title: "Filter Results", description: "Sort and filter results by length, alphabetical order, or popularity for easier browsing." },
+        { title: "Register Your Domain", description: "Click your chosen domain to register it through a domain registrar immediately." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Instant Availability Check", description: "Checks domain availability in real time for hundreds of combinations simultaneously." },
+      { title: "Combination Generation", description: "Creates diverse domain name combinations using prefixes, suffixes, and your keyword." },
+      { title: "Speed", description: "Delivers results faster than traditional domain search tools for efficient name discovery." }
+    ],
+    useCases: [
+      { title: "Entrepreneurs", description: "Find the perfect available domain name for your new business or startup quickly." },
+      { title: "Marketers", description: "Discover available domains for campaign landing pages and promotional projects." },
+      { title: "Developers", description: "Check domain availability for client projects and web development work efficiently." }
+    ]
+  },
+  "hyperclapper": {
+    whatIs: "HyperClapper is an AI social media reply assistant that helps creators and marketers generate smart, engaging replies to comments and posts on LinkedIn, Twitter, and other platforms to grow their audience faster.",
+    features: [
+      "AI Reply Generation: Smart contextual replies to social comments",
+      "LinkedIn Focus: Optimized for LinkedIn engagement and growth",
+      "Multiple Tones: Professional casual and enthusiastic reply styles",
+      "Time Saving: Generate replies in seconds instead of minutes",
+      "Engagement Growth: Build audience through consistent interaction"
+    ],
+    howToUse: {
+      title: "How to Use Hyperclapper",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Account", description: "Link your social media profiles to HyperClapper for seamless reply generation." },
+        { title: "Select Your Comment", description: "Choose a comment or post you want to reply to for AI-powered response generation." },
+        { title: "Generate Your Reply", description: "Receive smart contextual reply options tailored to the conversation tone." },
+        { title: "Post Your Response", description: "Select your preferred reply, personalize if needed, and post it to engage your audience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Context Awareness", description: "Reads the full conversation context to generate replies that feel natural and relevant." },
+      { title: "Tone Flexibility", description: "Offers multiple reply tones from professional to casual for different social contexts." },
+      { title: "Engagement Optimization", description: "Crafts replies designed to continue conversations and grow meaningful social connections." }
+    ],
+    useCases: [
+      { title: "LinkedIn Creators", description: "Consistently engage with your LinkedIn network to grow your professional audience faster." },
+      { title: "Social Media Managers", description: "Handle high comment volumes efficiently without sacrificing reply quality or authenticity." },
+      { title: "Personal Brand Builders", description: "Maintain an active and engaged social presence across platforms without spending hours replying." }
+    ]
+  },
+  "intercom-agent": {
+    whatIs: "Intercom is a customer service platform that combines AI agents, live chat, and automation to help businesses deliver faster and more personalized customer support at scale across every communication channel.",
+    features: [
+      "AI Agent: Automated customer support with intelligent AI",
+      "Live Chat: Real-time customer communication tools",
+      "Help Center: Self-service knowledge base for customers",
+      "Inbox Management: Unified team inbox for all conversations",
+      "Automation: Workflow automation for support operations"
+    ],
+    howToUse: {
+      title: "How to Use Intercom Agent",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Workspace", description: "Create your Intercom workspace and configure your support channels and team settings." },
+        { title: "Deploy Your AI Agent", description: "Train your AI agent on your product knowledge to handle common customer questions automatically." },
+        { title: "Manage Conversations", description: "Use the unified inbox to manage all customer conversations across channels in one place." },
+        { title: "Analyze Performance", description: "Review support metrics and AI agent performance to continuously improve your customer experience." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI-First Support", description: "Handles the majority of common customer questions automatically before routing to human agents." },
+      { title: "Unified Inbox", description: "Consolidates all customer conversations from every channel into one organized team workspace." },
+      { title: "Knowledge Integration", description: "Trains AI agents on your existing help content for accurate and brand-consistent responses." }
+    ],
+    useCases: [
+      { title: "SaaS Companies", description: "Scale customer support efficiently as your user base grows without proportionally increasing headcount." },
+      { title: "E-commerce Businesses", description: "Provide instant AI-powered answers to common order and product questions around the clock." },
+      { title: "Support Teams", description: "Reduce repetitive ticket volume by automating common questions and freeing agents for complex issues." }
+    ]
+  },
+  "fellou": {
+    whatIs: "Fellou is an AI-enhanced web browser that integrates AI assistance directly into your browsing experience, helping users research, summarize, and interact with web content more intelligently and efficiently.",
+    features: [
+      "AI-Enhanced Browsing: AI assistance built directly into the browser",
+      "Page Summarization: Instantly summarize any webpage content",
+      "Research Assistant: AI helps with in-depth web research",
+      "Smart Search: More intelligent search results and suggestions",
+      "Productivity Focus: Streamline browsing for faster workflows"
+    ],
+    howToUse: {
+      title: "How to Use Fellou",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Download Fellou", description: "Install the Fellou browser on your device to begin your AI-enhanced browsing experience." },
+        { title: "Browse Normally", description: "Use Fellou like any standard browser while AI assistance is available whenever you need it." },
+        { title: "Activate AI Features", description: "Invoke AI assistance to summarize pages, research topics, or get help with content you are viewing." },
+        { title: "Boost Your Workflow", description: "Use AI-powered browsing features to research, learn, and work more efficiently online." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Browser Integration", description: "Embeds AI capabilities directly into the browser for seamless assistance without switching tools." },
+      { title: "Page Intelligence", description: "Analyzes and summarizes webpage content instantly for faster information consumption." },
+      { title: "Research Enhancement", description: "Assists with complex research tasks by synthesizing information from multiple sources automatically." }
+    ],
+    useCases: [
+      { title: "Researchers", description: "Conduct in-depth web research more efficiently with AI that synthesizes and summarizes content." },
+      { title: "Knowledge Workers", description: "Browse and consume information faster with AI-powered summaries and smart assistance built in." },
+      { title: "Students", description: "Research academic topics more effectively with an AI assistant integrated into every webpage visit." }
+    ]
+  },
+  "irocket-icreavoice": {
+    whatIs: "iRocket iCreaVoice is an AI voice creation and synthesis platform that generates realistic celebrity and custom AI voices for content creators, marketers, and developers needing high-quality synthetic voice output.",
+    features: [
+      "Celebrity Voices: Generate content in famous voice styles",
+      "Custom Voice Creation: Build unique AI voice personas",
+      "Text to Speech: Convert text into natural sounding audio",
+      "Multiple Languages: Voice synthesis in various languages",
+      "High Quality Audio: Professional grade voice output"
+    ],
+    howToUse: {
+      title: "How to Use Irocket Icreavoice",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Text", description: "Type or paste the text you want converted into AI-generated voice audio." },
+        { title: "Select Your Voice", description: "Choose from celebrity voice styles or create a custom AI voice persona for your content." },
+        { title: "Generate Your Audio", description: "Process your text through the selected voice for natural sounding audio output." },
+        { title: "Download and Use", description: "Save your generated voice audio for podcasts, videos, and creative projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Celebrity Voice Range", description: "Offers a diverse selection of recognizable voice styles for engaging and entertaining content." },
+      { title: "Custom Voice Building", description: "Creates unique AI voice personas that can be consistently used across multiple projects." },
+      { title: "Natural Output Quality", description: "Generates voice audio that sounds natural and expressive rather than robotic or mechanical." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Generate voiceovers for videos and podcasts using AI celebrity voices for entertainment value." },
+      { title: "Marketers", description: "Create engaging audio content for campaigns using diverse and recognizable AI voice styles." },
+      { title: "Developers", description: "Integrate high-quality AI voice synthesis into applications and products using the platform API." }
+    ]
+  },
   "anyenhancer": {
     whatIs: "AnyEnhancer is a universal AI video enhancement tool that upscales video resolution, removes noise, stabilizes shaky footage, and improves overall visual quality using advanced deep learning for dramatically better video output.",
     features: [
