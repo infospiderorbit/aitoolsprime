@@ -1,4 +1,154 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "anyenhancer": {
+    whatIs: "AnyEnhancer is a universal AI video enhancement tool that upscales video resolution, removes noise, stabilizes shaky footage, and improves overall visual quality using advanced deep learning for dramatically better video output.",
+    features: [
+      "Universal Enhancement: Improve any video type with AI processing",
+      "Resolution Upscaling: Increase video quality up to 4K and beyond",
+      "Noise Reduction: Remove grain and visual noise from footage",
+      "Video Stabilization: Smooth out shaky camera recordings",
+      "Batch Processing: Enhance multiple videos simultaneously"
+    ],
+    howToUse: {
+      title: "How to Use Anyenhancer",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Import Your Video", description: "Upload the video file you want enhanced into AnyEnhancer for AI processing." },
+        { title: "Select Enhancement Type", description: "Choose upscaling, noise reduction, stabilization, or combine multiple enhancements." },
+        { title: "Process Your Video", description: "Let the AI apply your selected enhancements to improve visual quality." },
+        { title: "Export Enhanced Video", description: "Download your significantly improved video in your required format." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Universal Video Support", description: "Works with any video type from smartphone recordings to professional footage for flexible enhancement." },
+      { title: "Multi-Enhancement Pipeline", description: "Applies multiple improvements simultaneously including upscaling, denoising, and stabilization." },
+      { title: "Quality Output", description: "Delivers enhanced videos at quality levels suitable for professional content publishing." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Improve video quality for YouTube and social media with AI enhancement tools." },
+      { title: "Video Editors", description: "Upscale and clean up footage for professional productions needing higher resolution." },
+      { title: "Archivists", description: "Restore and enhance older video content for modern high-resolution platforms." }
+    ]
+  },
+  "polygon": {
+    whatIs: "Polygon is a leading blockchain scaling solution for Ethereum that provides faster and cheaper transactions through its layer-2 network, enabling developers to build scalable decentralized applications without sacrificing security.",
+    features: [
+      "Layer-2 Scaling: Fast and low-cost Ethereum transactions",
+      "EVM Compatible: Works with all existing Ethereum tools and apps",
+      "Developer Tools: Comprehensive SDK and documentation",
+      "DeFi Ecosystem: Large decentralized finance application network",
+      "NFT Support: Build and trade NFTs with minimal gas fees"
+    ],
+    howToUse: {
+      title: "How to Use Polygon",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Set Up Your Wallet", description: "Connect a compatible Web3 wallet like MetaMask and add the Polygon network." },
+        { title: "Bridge Your Assets", description: "Use the Polygon Bridge to transfer tokens from Ethereum to the Polygon network." },
+        { title: "Explore the Ecosystem", description: "Browse and interact with dApps, DeFi protocols, and NFT marketplaces on Polygon." },
+        { title: "Build on Polygon", description: "Use Polygon's developer tools and documentation to deploy your own smart contracts." }
+      ]
+    },
+    coreFeatures: [
+      { title: "High Transaction Speed", description: "Processes thousands of transactions per second making it practical for everyday blockchain use." },
+      { title: "Low Gas Fees", description: "Dramatically reduces transaction costs compared to Ethereum mainnet for accessible blockchain interaction." },
+      { title: "Ethereum Security", description: "Inherits Ethereum's security model while providing significantly improved scalability and speed." }
+    ],
+    useCases: [
+      { title: "DeFi Users", description: "Access decentralized finance protocols with low fees and fast transaction confirmation times." },
+      { title: "NFT Creators", description: "Mint and trade NFTs without the prohibitive gas fees associated with Ethereum mainnet." },
+      { title: "Blockchain Developers", description: "Build scalable decentralized applications using familiar Ethereum tools on a faster network." }
+    ]
+  },
+  "pwc-ai": {
+    whatIs: "PwC AI Services is an enterprise AI consulting and implementation practice that helps organizations design, deploy, and scale AI solutions across their business operations to drive measurable growth and efficiency.",
+    features: [
+      "AI Strategy: Develop comprehensive AI roadmaps for your organization",
+      "Implementation: Deploy AI solutions across business functions",
+      "Risk Management: Responsible AI governance and compliance",
+      "Industry Expertise: Sector-specific AI solutions and insights",
+      "Change Management: Guide organizations through AI transformation"
+    ],
+    howToUse: {
+      title: "How to Use Pwc Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Engage PwC", description: "Contact PwC to discuss your organization's AI goals and current capabilities." },
+        { title: "Strategy Development", description: "Work with PwC consultants to define your AI roadmap and priority use cases." },
+        { title: "Solution Design", description: "Collaborate on designing AI solutions tailored to your specific business challenges." },
+        { title: "Deploy and Scale", description: "Implement your AI solutions with PwC support and scale across your organization." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Enterprise Expertise", description: "Brings deep enterprise experience across industries for AI implementations that deliver real business value." },
+      { title: "End-to-End Support", description: "Covers the complete AI journey from initial strategy through deployment and ongoing optimization." },
+      { title: "Responsible AI Focus", description: "Ensures AI implementations meet governance, compliance, and ethical standards required by enterprises." }
+    ],
+    useCases: [
+      { title: "Enterprise Organizations", description: "Develop and execute comprehensive AI strategies that transform operations and create competitive advantage." },
+      { title: "Financial Services", description: "Implement AI solutions for risk management, fraud detection, and customer experience improvement." },
+      { title: "Healthcare Organizations", description: "Deploy responsible AI solutions that improve patient outcomes and operational efficiency." }
+    ]
+  },
+  "imean": {
+    whatIs: "iMean is an AI-powered travel recommendation engine that helps travelers discover personalized destinations, plan itineraries, and find the best experiences based on their preferences, budget, and travel style.",
+    features: [
+      "Personalized Recommendations: Travel suggestions tailored to your preferences",
+      "Itinerary Planning: Complete trip plans created by AI",
+      "Destination Discovery: Find hidden gems and popular spots",
+      "Budget Optimization: Travel suggestions matching your budget",
+      "Experience Matching: Activities matched to your interests"
+    ],
+    howToUse: {
+      title: "How to Use Imean",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Preferences", description: "Tell iMean your travel style, interests, budget, and available dates for personalized planning." },
+        { title: "Get Recommendations", description: "Receive AI-curated destination and activity recommendations matched to your specific preferences." },
+        { title: "Build Your Itinerary", description: "Use the suggested destinations and activities to build a complete personalized travel plan." },
+        { title: "Book and Explore", description: "Use your AI-generated itinerary to book your trip and explore with confidence." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Preference Intelligence", description: "Learns your travel style and interests to deliver increasingly relevant and personalized recommendations." },
+      { title: "Budget Awareness", description: "Filters recommendations based on your budget for realistic and achievable travel planning." },
+      { title: "Comprehensive Planning", description: "Covers destinations, activities, accommodation, and experiences in one unified planning tool." }
+    ],
+    useCases: [
+      { title: "Adventure Travelers", description: "Discover unique off-the-beaten-path destinations that match your adventurous travel personality." },
+      { title: "Family Planners", description: "Find family-friendly destinations and activities that work for everyone in your group." },
+      { title: "Budget Travelers", description: "Get personalized recommendations that maximize your travel experience within your available budget." }
+    ]
+  },
+  "paraphraser-io": {
+    whatIs: "Paraphraser.io is a free online AI paraphrasing tool that rewrites text in multiple styles and tones, helping writers, students, and professionals rephrase content while preserving the original meaning clearly.",
+    features: [
+      "Multiple Modes: Fluency standard formal creative and smart modes",
+      "Tone Adjustment: Rewrite content in different writing styles",
+      "Grammar Improvement: Fix errors while paraphrasing your text",
+      "Free to Use: Basic paraphrasing without payment required",
+      "Multiple Languages: Paraphrase content in various languages"
+    ],
+    howToUse: {
+      title: "How to Use Paraphraser Io",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Paste Your Text", description: "Copy and paste the text you want paraphrased into the Paraphraser.io input field." },
+        { title: "Choose Your Mode", description: "Select from Fluency, Standard, Formal, Creative, or Smart mode depending on your needs." },
+        { title: "Generate Paraphrase", description: "Click paraphrase and receive your rewritten text with preserved meaning instantly." },
+        { title: "Copy and Use", description: "Review your paraphrased content and copy it for use in your documents or projects." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Mode Variety", description: "Offers five distinct paraphrasing modes covering every writing context from academic to creative." },
+      { title: "Meaning Preservation", description: "Rewrites text while maintaining the original meaning and key information accurately." },
+      { title: "Free Access", description: "Provides quality paraphrasing without payment making it accessible to students and writers everywhere." }
+    ],
+    useCases: [
+      { title: "Students", description: "Paraphrase academic content to avoid plagiarism while maintaining the original ideas and meaning." },
+      { title: "Content Writers", description: "Rewrite existing content in fresh ways to create unique variations for different audiences." },
+      { title: "Professionals", description: "Rephrase business communications and documents in more formal or accessible language quickly." }
+    ]
+  },
   "restorephotos-pro": {
     whatIs: "RestorePhotos.Pro is an AI-powered photo restoration platform that repairs old, damaged, and faded photographs by removing scratches, fixing discoloration, sharpening blurry images, and bringing decades-old family memories back to life with impressive clarity.",
     features: [
