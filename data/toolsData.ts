@@ -37,6 +37,7 @@ export const getPricingType = (tool: Tool): PricingType => {
   return types[hash % 4];
 };
 
+      { id: "stansa-ai", name: "Stansa AI", description: "AI-powered workflow automation and business intelligence platform", url: "https://stansa.ai", upvotes: 654, verified: true, rating: 4.2, icon: "⚙️", category: "business-research", subcategory: "ai-workflow-automation" },
 export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
   "business-research": {
     "ai-crypto": [

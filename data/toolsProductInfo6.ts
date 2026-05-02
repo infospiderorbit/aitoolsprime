@@ -1,4 +1,34 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "stansa-ai": {
+    whatIs: "Stansa AI is an AI-powered business automation platform that helps organizations streamline workflows, integrate data sources, and gain actionable intelligence to increase operational efficiency and drive consistent revenue growth.",
+    features: [
+      "Workflow Automation: Automate repetitive business processes end to end",
+      "Data Integration: Connect and sync data across all your business tools",
+      "Business Intelligence: AI-powered insights from your operational data",
+      "Revenue Growth Tools: Features designed to identify and capture growth opportunities",
+      "No-Code Automation: Build workflows without technical expertise required"
+    ],
+    howToUse: {
+      title: "How to Use Stansa AI",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Connect Your Tools", description: "Integrate your existing business tools and data sources into the Stansa AI platform." },
+        { title: "Build Your Workflows", description: "Use the no-code workflow builder to automate your most time-consuming business processes." },
+        { title: "Analyze Your Data", description: "Access AI-powered business intelligence dashboards to understand your operational performance." },
+        { title: "Scale Your Operations", description: "Expand automation across departments and watch efficiency and revenue metrics improve consistently." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Intelligent Workflow Automation", description: "Automates complex multi-step business processes with AI decision-making built into every workflow." },
+      { title: "Unified Data Integration", description: "Connects disparate business tools and databases into one coherent data environment for better visibility." },
+      { title: "Actionable Business Intelligence", description: "Transforms raw operational data into clear insights that help leadership make faster and smarter decisions." }
+    ],
+    useCases: [
+      { title: "Operations Teams", description: "Eliminate manual repetitive tasks by automating workflows across departments for greater efficiency." },
+      { title: "Revenue Teams", description: "Use AI insights to identify growth opportunities and automate sales and marketing processes at scale." },
+      { title: "Business Leaders", description: "Gain a unified view of business performance through intelligent dashboards and data-driven recommendations." }
+    ]
+  },
   "lean-domain-search": {
     whatIs: "Lean Domain Search is a fast and free domain name generator that instantly checks availability across hundreds of domain combinations using your keyword, helping entrepreneurs and businesses find the perfect domain name quickly.",
     features: [
