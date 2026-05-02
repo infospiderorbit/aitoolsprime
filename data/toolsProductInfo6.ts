@@ -1,4 +1,39 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "undress-app": {
+    whatIs: "Undress App is an AI-powered image editing tool that digitally removes clothing from photos to create nude versions of images. Using advanced deep learning algorithms, this application analyzes uploaded pictures and generates realistic representations of what individuals might look like without clothes. The technology works by recognizing body shapes, skin tones, and anatomical features to create convincing transformations while maintaining the original pose and facial features. Popular among those curious about digital image manipulation, Undress App provides a straightforward way to explore AI-generated nudity from regular photographs, all within a user-friendly interface designed for quick processing and immediate results.",
+    features: [
+      "AI Clothing Removal: Advanced algorithms that digitally remove clothing from uploaded photos",
+      "Realistic Results: High-quality output that maintains natural body proportions and skin textures",
+      "Fast Processing: Quick transformation of regular images into nude versions within minutes",
+      "User-Friendly Interface: Simple design that makes the editing process accessible to beginners",
+      "Multiple Image Support: Ability to work with various photo formats and sizes",
+      "Privacy Protection: Automatic deletion of images after processing to protect user privacy",
+      "Customization Options: Adjustable settings to fine-tune the final appearance of generated images",
+      "Mobile Compatibility: Works seamlessly on both desktop and mobile devices for convenient access"
+    ],
+    howToUse: {
+      title: "How to Use Undress App",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Image", description: "Select and upload the photo you want to transform from your device or cloud storage." },
+        { title: "Adjust Settings", description: "Fine-tune the processing options according to your preferences for the best results." },
+        { title: "Start Processing", description: "Initiate the AI analysis and wait for the clothing removal algorithm to complete its work." },
+        { title: "Review Results", description: "Examine the generated nude image and make any final adjustments if needed." },
+        { title: "Download Output", description: "Save your transformed image to your device before it's automatically deleted from the server." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Advanced AI Technology", description: "State-of-the-art deep learning algorithms that create realistic nude transformations while preserving natural appearance." },
+      { title: "User Privacy Focus", description: "Automatic deletion of uploaded and processed images ensures your photos don't remain on servers after processing." },
+      { title: "Accessibility", description: "Simple interface and quick processing make advanced image editing accessible to users without technical expertise." }
+    ],
+    useCases: [
+      { title: "Digital Art Creation", description: "Generate reference images for artistic projects requiring nude forms without traditional photography." },
+      { title: "Curiosity Exploration", description: "Satisfy curiosity about appearances without clothing in a private, digital environment." },
+      { title: "Entertainment Purposes", description: "Create amusing or surprising transformations of photos for personal entertainment among consenting adults." },
+      { title: "Image Editing Practice", description: "Develop skills in digital image manipulation using AI-powered tools with immediate visual feedback." }
+    ]
+  },
   "dirtytalking-ai": {
     whatIs: "DirtyTalking.ai is your go-to guide for finding the best AI apps that specialize in adult conversations. Think of it as a trusted friend who's done all the homework on dirty talk AI platforms, saving you time and helping you discover the perfect virtual companion for steamy chats. The site offers honest reviews, practical tips, and curated lists of top-rated apps that excel at seductive dialogue and personalized adult interactions. Whether you're curious about exploring your fantasies or looking to spice up your alone time, DirtyTalking.ai provides a safe, private roadmap to the most engaging and satisfying AI dirty talk experiences available.",
     features: [
