@@ -1,6 +1,6 @@
 export const toolsProductInfo6: { [key: string]: any } = {
   "undress-app": {
-    whatIs: "Undress App is an AI-powered image editing tool that digitally removes clothing from photos to create nude versions of images. Using advanced deep learning algorithms, this application analyzes uploaded pictures and generates realistic representations of what individuals might look like without clothes. The technology works by recognizing body shapes, skin tones, and anatomical features to create convincing transformations while maintaining the original pose and facial features. Popular among those curious about digital image manipulation, Undress App provides a straightforward way to explore AI-generated nudity from regular photographs, all within a user-friendly interface designed for quick processing and immediate results.",
+    whatIs: "AI-powered platform for image modification, specializing in clothing removal and adult content generation.",
     features: [
       "AI Clothing Removal: Advanced algorithms that digitally remove clothing from uploaded photos",
       "Realistic Results: High-quality output that maintains natural body proportions and skin textures",
