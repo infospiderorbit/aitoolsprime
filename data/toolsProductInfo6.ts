@@ -1,4 +1,36 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "restorephotos-pro": {
+    whatIs: "RestorePhotos.Pro is an AI-powered photo restoration platform that repairs old, damaged, and faded photographs by removing scratches, fixing discoloration, sharpening blurry images, and bringing decades-old family memories back to life with impressive clarity.",
+    features: [
+      "Scratch Removal: Eliminate scratches and tears from old photographs automatically",
+      "Color Restoration: Bring faded and discolored photos back to their original vibrancy",
+      "Sharpening: Improve blurry and soft images for crisp clear results",
+      "Face Enhancement: Restore facial details in old portrait photographs",
+      "High Resolution Output: Download restored photos in high quality",
+      "Batch Processing: Restore multiple photos simultaneously",
+      "Easy Upload: Simple drag and drop interface for quick restoration"
+    ],
+    howToUse: {
+      title: "How to Use RestorePhotos.Pro",
+      description: "Restore your old photos in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Drag and drop your old or damaged photograph into the restoration tool for AI processing." },
+        { title: "AI Analyzes Damage", description: "The AI scans your photo and identifies scratches, fading, blur, and other damage that needs repair." },
+        { title: "Review Restoration", description: "See your restored photo and compare it with the original to appreciate the full transformation." },
+        { title: "Download Your Photo", description: "Save your professionally restored photo in high resolution for printing or digital sharing." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Comprehensive Damage Repair", description: "Addresses all common photo damage types including scratches, tears, fading, discoloration, and blur in one pass." },
+      { title: "Face Detail Recovery", description: "Specializes in restoring facial features in portrait photos so people are clearly recognizable in the final result." },
+      { title: "High Resolution Output", description: "Returns restored images at high resolution quality suitable for printing and preserving as lasting family keepsakes." }
+    ],
+    useCases: [
+      { title: "Family History Preservation", description: "Restore old family photos to preserve memories and share them with younger generations in stunning clarity." },
+      { title: "Photography Archivists", description: "Digitize and restore historical photo collections efficiently using AI-powered batch restoration tools." },
+      { title: "Gift Creation", description: "Restore a treasured old photograph as a meaningful personalized gift for parents, grandparents, or relatives." }
+    ]
+  },
   "undress-app": {
     whatIs: "AI-powered platform for image modification, specializing in clothing removal and adult content generation.",
     features: [
