@@ -1,4 +1,34 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "a2e-free-ai-videos": {
+    whatIs: "A2E is a free AI video generation platform that enables creators to produce animated and AI-generated video content from text prompts and images without any cost, making professional video creation accessible to everyone.",
+    features: [
+      "Free Video Generation: Create AI videos at no cost",
+      "Text to Video: Generate videos from text descriptions",
+      "Image to Video: Animate images into video content",
+      "No Watermark: Download clean videos without branding",
+      "Easy Interface: Simple and accessible video creation workflow"
+    ],
+    howToUse: {
+      title: "How to Use A2E Free AI Videos",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Enter Your Prompt", description: "Describe the video content you want to generate with as much detail as possible." },
+        { title: "Generate Your Video", description: "Submit your prompt and let the AI create your video from your description." },
+        { title: "Review Your Output", description: "Watch your generated video and assess the quality and accuracy of the result." },
+        { title: "Download and Use", description: "Save your generated video for use in your creative projects and social media." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Completely Free Access", description: "Provides full AI video generation capability without any payment or subscription requirement." },
+      { title: "Text to Video Generation", description: "Converts descriptive text prompts into animated video content quickly and efficiently." },
+      { title: "Accessible Creation", description: "Makes AI video production available to creators of all skill levels without technical barriers." }
+    ],
+    useCases: [
+      { title: "Content Creators", description: "Generate AI video content for social media and creative projects without any cost." },
+      { title: "Students", description: "Create video content for projects and presentations using free AI generation tools." },
+      { title: "Small Businesses", description: "Produce promotional video content affordably using free AI video generation capabilities." }
+    ]
+  },
   "a2e-free-uncensored-ai-videos": {
     whatIs: "A2E is a free, uncensored AI video generation platform that empowers users to create content without limitations or restrictions. This revolutionary tool addresses the growing demand for creative freedom in the AI video space by offering unrestricted access to powerful generation capabilities. Unlike mainstream platforms with heavy moderation, A2E allows users to explore their creativity without censorship, making it particularly valuable for creators producing adult-themed or experimental content. The platform combines multiple AI tools including text-to-video, face swapping, voice cloning, and image upscaling, all accessible through a user-friendly interface that requires no sign-up for basic features.",
     features: [
