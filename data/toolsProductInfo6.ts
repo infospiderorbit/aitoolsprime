@@ -29,25 +29,6 @@ export const toolsProductInfo6: { [key: string]: any } = {
       { title: "Storytelling Enthusiasts", description: "Immerse yourself in diverse fictional worlds through dynamic character conversations powered by leading AI models." }
     ]
   },
-
-  },
-        { title: "Choose Creation Tool", description: "Select from text-to-video, face swap, voice cloning, or other available tools." },
-        { title: "Input Your Content", description: "Enter text prompts or upload existing images/videos to work with." },
-        { title: "Customize Settings", description: "Adjust parameters for output quality, style, and other preferences." },
-        { title: "Generate and Download", description: "Process your content and download the results in high quality." }
-      ]
-    },
-    coreFeatures: [
-      { title: "Complete Creative Freedom", description: "Generate content without censorship or restrictions, allowing for truly unlimited creative expression." },
-      { title: "Multi-Tool Platform", description: "Comprehensive suite of AI tools for video, image, and audio creation in one interface." },
-      { title: "High-Quality Output", description: "Support for up to 4K resolution ensures professional-quality results for all content types." }
-    ],
-    useCases: [
-      { title: "Adult Content Creation", description: "Produce NSFW videos and images without platform restrictions or content moderation." },
-      { title: "Creative Art Projects", description: "Explore experimental concepts and artistic expression without creative limitations." },
-      { title: "Social Media Content", description: "Generate unique, eye-catching videos for platforms where standard content might be restricted." },
-      { title: "Educational Demonstrations", description: "Create visual content for educational purposes without content policy limitations." }
-    ]
   },
   "celebmaker-ai": {
     whatIs: "CelebMakerAI is an all-in-one NSFW adult content creation platform that transforms static images into dynamic videos with just a few clicks. This powerful tool combines AI model creation, advanced image editing, and video animation in one seamless solution, allowing users to design custom scenarios, outfits, and characters with complete creative freedom. What sets CelebMakerAI apart is its ability to connect directly to your X (Twitter) account, automatically publishing content to convert your creations into clicks and views almost instantly. Whether you're using models from the marketplace or training AI based on any face you choose, CelebMakerAI offers limitless possibilities for adult content creation with realistic anatomy, facial features, and bodily details.",
