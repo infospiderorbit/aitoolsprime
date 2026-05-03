@@ -29,15 +29,7 @@ export const toolsProductInfo6: { [key: string]: any } = {
       { title: "Storytelling Enthusiasts", description: "Immerse yourself in diverse fictional worlds through dynamic character conversations powered by leading AI models." }
     ]
   },
-        { title: "Generate Your Video", description: "Submit your prompt and let the AI create your video from your description." },
-        { title: "Review Your Output", description: "Watch your generated video and assess the quality and accuracy of the result." },
-        { title: "Download and Use", description: "Save your generated video for use in your creative projects and social media." }
-      ]
-    },
-    coreFeatures: [
-      { title: "Completely Free Access", description: "Provides full AI video generation capability without any payment or subscription requirement." },
-      { title: "Text to Video Generation", description: "Converts descriptive text prompts into animated video content quickly and efficiently." },
-      { title: "Accessible Creation", description: "Makes AI video production available to creators of all skill levels without technical barriers." }
+
     ],
     useCases: [
       { title: "Content Creators", description: "Generate AI video content for social media and creative projects without any cost." },
