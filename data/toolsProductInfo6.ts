@@ -1,34 +1,86 @@
 export const toolsProductInfo6: { [key: string]: any } = {
-  "caveduck": {
-    whatIs: "Caveduck is an AI character persona chatting platform that lets users create, customize, and interact with unique AI characters powered by top language models including Claude 3 Sonnet, GPT-4, and Mixtral 8x7B, combining creative storytelling with voice and image generation tools.",
+  "a2e-free-ai-videos": {
+    whatIs: "A2E is a free AI video generation platform that enables creators to produce animated and AI-generated video content from text prompts and images without any cost, making professional video creation accessible to everyone.",
     features: [
-      "Multiple AI Models: Choose from Claude 3 Sonnet, GPT-4, Mixtral 8x7B, and Mandarin models",
-      "AI Character Creation: Build unique personas with custom personalities and backstories",
-      "Text-to-Speech: Give your AI characters realistic voices for immersive conversations",
-      "AI Image Generation: Create visual representations of your characters easily",
-      "Creator Incentive Program: Earn USDC stablecoins when others engage with your characters"
+      "Free Video Generation: Create AI videos at no cost",
+      "Text to Video: Generate videos from text descriptions",
+      "Image to Video: Animate images into video content",
+      "No Watermark: Download clean videos without branding",
+      "Easy Interface: Simple and accessible video creation workflow"
     ],
     howToUse: {
-      title: "How to Use Caveduck",
+      title: "How to Use A2E Free AI Videos",
       description: "Get started in a few simple steps",
       steps: [
-        { title: "Create Your Account", description: "Sign up on Caveduck and explore the platform to discover community-created AI characters." },
-        { title: "Choose Your Character", description: "Browse the library of AI personas or create your own with a custom personality and backstory." },
-        { title: "Select Your AI Model", description: "Pick from available language models like GPT-4 or Claude 3 Sonnet to power your character conversations." },
-        { title: "Start Your Adventure", description: "Chat with your chosen character using text, enjoy TTS voiceovers, and share your creations to earn rewards." }
+        { title: "Enter Your Prompt", description: "Describe the video content you want to generate with as much detail as possible." },
+        { title: "Generate Your Video", description: "Submit your prompt and let the AI create your video from your description." },
+        { title: "Review Your Output", description: "Watch your generated video and assess the quality and accuracy of the result." },
+        { title: "Download and Use", description: "Save your generated video for use in your creative projects and social media." }
       ]
     },
     coreFeatures: [
-      { title: "Diverse AI Model Selection", description: "Offers multiple top-tier language models so users can choose the best engine for their creative storytelling needs." },
-      { title: "Creator Incentive Program", description: "Rewards creators with USDC stablecoins when their AI characters gain community engagement and popularity." },
-      { title: "Voice and Visual Immersion", description: "Combines text-to-speech and AI image generation to make every character feel genuinely alive and dynamic." }
+      { title: "Completely Free Access", description: "Provides full AI video generation capability without any payment or subscription requirement." },
+      { title: "Text to Video Generation", description: "Converts descriptive text prompts into animated video content quickly and efficiently." },
+      { title: "Accessible Creation", description: "Makes AI video production available to creators of all skill levels without technical barriers." }
     ],
     useCases: [
-      { title: "Creative Writers", description: "Build detailed AI character personas and explore rich interactive storylines in a game-like chat environment." },
-      { title: "Content Creators", description: "Design and share original AI characters with the community while earning cryptocurrency rewards for engagement." },
-      { title: "Storytelling Enthusiasts", description: "Immerse yourself in diverse fictional worlds through dynamic character conversations powered by leading AI models." }
+      { title: "Content Creators", description: "Generate AI video content for social media and creative projects without any cost." },
+      { title: "Students", description: "Create video content for projects and presentations using free AI generation tools." },
+      { title: "Small Businesses", description: "Produce promotional video content affordably using free AI video generation capabilities." }
     ]
   },
+  "a2e-free-uncensored-ai-videos": {
+    whatIs: "A2E is a free, uncensored AI video generation platform that empowers users to create content without limitations or restrictions. This revolutionary tool addresses the growing demand for creative freedom in the AI video space by offering unrestricted access to powerful generation capabilities. Unlike mainstream platforms with heavy moderation, A2E allows users to explore their creativity without censorship, making it particularly valuable for creators producing adult-themed or experimental content. The platform combines multiple AI tools including text-to-video, face swapping, voice cloning, and image upscaling, all accessible through a user-friendly interface that requires no sign-up for basic features.",
+    features: [
+      "Uncensored Video Generation: Create AI videos without content restrictions or moderation",
+      "Text-to-Video Creation: Transform text descriptions into dynamic video content",
+      "Advanced Face Swapping: Replace faces in images and videos with realistic results",
+      "Voice Cloning Technology: Clone voices for use in AI-generated videos with support for 50+ languages",
+      "Image-to-Video Animation: Animate static images to bring them to life",
+      "4K Quality Upscaling: Enhance image and video quality up to 4K resolution",
+      "Product Avatar Creation: Design custom avatars for presentations and online content",
+      "Video-to-Video Animation: Apply style transfers and effects to existing video clips"
+    ],
+    howToUse: {
+      title: "How to Use A2E",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Platform", description: "Visit the A2E website without requiring sign-up for basic features." },
+        { title: "Choose Creation Tool", description: "Select from text-to-video, face swap, voice cloning, or other available tools." },
+        { title: "Input Your Content", description: "Enter text prompts or upload existing images/videos to work with." },
+        { title: "Customize Settings", description: "Adjust parameters for output quality, style, and other preferences." },
+        { title: "Generate and Download", description: "Process your content and download the results in high quality." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Creative Freedom", description: "Generate content without censorship or restrictions, allowing for truly unlimited creative expression." },
+      { title: "Multi-Tool Platform", description: "Comprehensive suite of AI tools for video, image, and audio creation in one interface." },
+      { title: "High-Quality Output", description: "Support for up to 4K resolution ensures professional-quality results for all content types." }
+    ],
+    useCases: [
+      { title: "Adult Content Creation", description: "Produce NSFW videos and images without platform restrictions or content moderation." },
+      { title: "Creative Art Projects", description: "Explore experimental concepts and artistic expression without creative limitations." },
+      { title: "Social Media Content", description: "Generate unique, eye-catching videos for platforms where standard content might be restricted." },
+      { title: "Educational Demonstrations", description: "Create visual content for educational purposes without content policy limitations." }
+    ]
+  },
+  "celebmaker-ai": {
+    whatIs: "CelebMakerAI is an all-in-one NSFW adult content creation platform that transforms static images into dynamic videos with just a few clicks. This powerful tool combines AI model creation, advanced image editing, and video animation in one seamless solution, allowing users to design custom scenarios, outfits, and characters with complete creative freedom. What sets CelebMakerAI apart is its ability to connect directly to your X (Twitter) account, automatically publishing content to convert your creations into clicks and views almost instantly. Whether you're using models from the marketplace or training AI based on any face you choose, CelebMakerAI offers limitless possibilities for adult content creation with realistic anatomy, facial features, and bodily details.",
+    features: [
+      "AI Model Training: Create custom AI models based on any face, including other AI-generated faces",
+      "Image to Video Conversion: Transform static images into dynamic videos with a single click",
+      "Custom Character Creation: Design fully personalized AI characters with specific physical attributes and traits",
+      "Unlimited Scenario Design: Create any scenario or outfit you can imagine with prompt-based customization",
+      "X Account Integration: Automatically publish content directly to your Twitter account",
+      "Realistic Rendering: Generate anatomically accurate images with detailed facial and bodily features",
+      "Marketplace Models: Access pre-made models from the site's marketplace for quick content creation",
+      "Multi-Device Access: Browser-based platform accessible on desktop, mobile, and tablet devices"
+    ],
+    howToUse: {
+      title: "How to Use CelebMakerAI",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Choose or Create Model", description: "Select a model from the marketplace or upload an image to train your custom AI model." },
         { title: "Design Your Scenario", description: "Use prompts to create custom scenes, outfits, and scenarios for your model." },
         { title: "Generate Content", description: "Create images or videos with your model in your designed scenarios with just a few clicks." },
         { title: "Connect Your X Account", description: "Link your Twitter account to enable automatic publishing of your created content." },
