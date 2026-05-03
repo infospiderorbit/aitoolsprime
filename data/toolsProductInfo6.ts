@@ -1,4 +1,39 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "undress-ai": {
+    whatIs: "Undress AI is an advanced image processing tool that uses artificial intelligence to digitally remove clothing from photos. This innovative technology analyzes uploaded images and creates realistic nude versions by recognizing body shapes, skin tones, and anatomical features. Designed for users interested in AI-powered image manipulation, Undress AI provides a simple way to transform regular photos into nude versions while maintaining the original pose and facial expressions. The platform offers fast processing, high-quality results, and a user-friendly interface that makes sophisticated image editing accessible to everyone.",
+    features: [
+      "AI Clothing Removal: Smart algorithms that digitally remove clothing from any uploaded photo",
+      "High-Quality Results: Realistic output that maintains natural body proportions and skin textures",
+      "Fast Processing: Transform images in minutes with efficient AI technology",
+      "Simple Interface: User-friendly design that makes the tool easy for beginners to use",
+      "Multiple Format Support: Works with various image types including JPEG, PNG, and more",
+      "Privacy Protection: Automatic deletion of images after processing to protect user privacy",
+      "Customizable Results: Adjustable settings to fine-tune the appearance of generated images",
+      "Mobile Friendly: Access the tool from any device, including smartphones and tablets"
+    ],
+    howToUse: {
+      title: "How to Use Undress AI",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Select the image you want to transform from your device or cloud storage." },
+        { title: "Choose Settings", description: "Adjust the processing options according to your preferences for the best results." },
+        { title: "Start Processing", description: "Click the process button and let the AI analyze and transform your image." },
+        { title: "Review Results", description: "Check the generated image and make any final adjustments if needed." },
+        { title: "Download Your Image", description: "Save the transformed photo to your device before it's automatically deleted." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Advanced AI Technology", description: "State-of-the-art algorithms that create realistic transformations while preserving natural appearance." },
+      { title: "User Privacy", description: "Images are automatically deleted after processing to ensure your privacy and security." },
+      { title: "Easy to Use", description: "Simple interface and quick processing make advanced image editing accessible to everyone." }
+    ],
+    useCases: [
+      { title: "Digital Art", description: "Create reference images for artistic projects requiring nude forms without traditional photography." },
+      { title: "Personal Curiosity", description: "Explore what someone might look like without clothes in a private, digital environment." },
+      { title: "Entertainment", description: "Create fun or surprising transformations of photos for personal entertainment." },
+      { title: "Image Editing", description: "Practice digital image manipulation skills using AI-powered tools with immediate results." }
+    ]
+  },
   "stansa-ai": {
     whatIs: "Stansa AI is a privacy-focused AI writing assistant that helps users create, edit, and refine written content without data collection or content tracking, making it ideal for writers and professionals who value both quality output and complete privacy.",
     features: [
