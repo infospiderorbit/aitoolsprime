@@ -30,12 +30,6 @@ export const toolsProductInfo6: { [key: string]: any } = {
     ]
   },
 
-    ],
-    useCases: [
-      { title: "Content Creators", description: "Generate AI video content for social media and creative projects without any cost." },
-      { title: "Students", description: "Create video content for projects and presentations using free AI generation tools." },
-      { title: "Small Businesses", description: "Produce promotional video content affordably using free AI video generation capabilities." }
-    ]
   },
   "a2e-free-uncensored-ai-videos": {
     whatIs: "A2E is a free, uncensored AI video generation platform that empowers users to create content without limitations or restrictions. This revolutionary tool addresses the growing demand for creative freedom in the AI video space by offering unrestricted access to powerful generation capabilities. Unlike mainstream platforms with heavy moderation, A2E allows users to explore their creativity without censorship, making it particularly valuable for creators producing adult-themed or experimental content. The platform combines multiple AI tools including text-to-video, face swapping, voice cloning, and image upscaling, all accessible through a user-friendly interface that requires no sign-up for basic features.",
