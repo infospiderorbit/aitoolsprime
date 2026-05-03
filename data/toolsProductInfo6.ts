@@ -1,4 +1,39 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "a2e-free-uncensored-ai-videos": {
+    whatIs: "A2E is a free, uncensored AI video generation platform that empowers users to create content without limitations or restrictions. This revolutionary tool addresses the growing demand for creative freedom in the AI video space by offering unrestricted access to powerful generation capabilities. Unlike mainstream platforms with heavy moderation, A2E allows users to explore their creativity without censorship, making it particularly valuable for creators producing adult-themed or experimental content. The platform combines multiple AI tools including text-to-video, face swapping, voice cloning, and image upscaling, all accessible through a user-friendly interface that requires no sign-up for basic features.",
+    features: [
+      "Uncensored Video Generation: Create AI videos without content restrictions or moderation",
+      "Text-to-Video Creation: Transform text descriptions into dynamic video content",
+      "Advanced Face Swapping: Replace faces in images and videos with realistic results",
+      "Voice Cloning Technology: Clone voices for use in AI-generated videos with support for 50+ languages",
+      "Image-to-Video Animation: Animate static images to bring them to life",
+      "4K Quality Upscaling: Enhance image and video quality up to 4K resolution",
+      "Product Avatar Creation: Design custom avatars for presentations and online content",
+      "Video-to-Video Animation: Apply style transfers and effects to existing video clips"
+    ],
+    howToUse: {
+      title: "How to Use A2E",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Access Platform", description: "Visit the A2E website without requiring sign-up for basic features." },
+        { title: "Choose Creation Tool", description: "Select from text-to-video, face swap, voice cloning, or other available tools." },
+        { title: "Input Your Content", description: "Enter text prompts or upload existing images/videos to work with." },
+        { title: "Customize Settings", description: "Adjust parameters for output quality, style, and other preferences." },
+        { title: "Generate and Download", description: "Process your content and download the results in high quality." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Complete Creative Freedom", description: "Generate content without censorship or restrictions, allowing for truly unlimited creative expression." },
+      { title: "Multi-Tool Platform", description: "Comprehensive suite of AI tools for video, image, and audio creation in one interface." },
+      { title: "High-Quality Output", description: "Support for up to 4K resolution ensures professional-quality results for all content types." }
+    ],
+    useCases: [
+      { title: "Adult Content Creation", description: "Produce NSFW videos and images without platform restrictions or content moderation." },
+      { title: "Creative Art Projects", description: "Explore experimental concepts and artistic expression without creative limitations." },
+      { title: "Social Media Content", description: "Generate unique, eye-catching videos for platforms where standard content might be restricted." },
+      { title: "Educational Demonstrations", description: "Create visual content for educational purposes without content policy limitations." }
+    ]
+  },
   "celebmaker-ai": {
     whatIs: "CelebMakerAI is an all-in-one NSFW adult content creation platform that transforms static images into dynamic videos with just a few clicks. This powerful tool combines AI model creation, advanced image editing, and video animation in one seamless solution, allowing users to design custom scenarios, outfits, and characters with complete creative freedom. What sets CelebMakerAI apart is its ability to connect directly to your X (Twitter) account, automatically publishing content to convert your creations into clicks and views almost instantly. Whether you're using models from the marketplace or training AI based on any face you choose, CelebMakerAI offers limitless possibilities for adult content creation with realistic anatomy, facial features, and bodily details.",
     features: [
