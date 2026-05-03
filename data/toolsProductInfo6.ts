@@ -29,24 +29,6 @@ export const toolsProductInfo6: { [key: string]: any } = {
       { title: "Storytelling Enthusiasts", description: "Immerse yourself in diverse fictional worlds through dynamic character conversations powered by leading AI models." }
     ]
   },
-  },
-  "celebmaker-ai": {
-    whatIs: "CelebMakerAI is an all-in-one NSFW adult content creation platform that transforms static images into dynamic videos with just a few clicks. This powerful tool combines AI model creation, advanced image editing, and video animation in one seamless solution, allowing users to design custom scenarios, outfits, and characters with complete creative freedom. What sets CelebMakerAI apart is its ability to connect directly to your X (Twitter) account, automatically publishing content to convert your creations into clicks and views almost instantly. Whether you're using models from the marketplace or training AI based on any face you choose, CelebMakerAI offers limitless possibilities for adult content creation with realistic anatomy, facial features, and bodily details.",
-    features: [
-      "AI Model Training: Create custom AI models based on any face, including other AI-generated faces",
-      "Image to Video Conversion: Transform static images into dynamic videos with a single click",
-      "Custom Character Creation: Design fully personalized AI characters with specific physical attributes and traits",
-      "Unlimited Scenario Design: Create any scenario or outfit you can imagine with prompt-based customization",
-      "X Account Integration: Automatically publish content directly to your Twitter account",
-      "Realistic Rendering: Generate anatomically accurate images with detailed facial and bodily features",
-      "Marketplace Models: Access pre-made models from the site's marketplace for quick content creation",
-      "Multi-Device Access: Browser-based platform accessible on desktop, mobile, and tablet devices"
-    ],
-    howToUse: {
-      title: "How to Use CelebMakerAI",
-      description: "Get started in a few simple steps",
-      steps: [
-        { title: "Choose or Create Model", description: "Select a model from the marketplace or upload an image to train your custom AI model." },
         { title: "Design Your Scenario", description: "Use prompts to create custom scenes, outfits, and scenarios for your model." },
         { title: "Generate Content", description: "Create images or videos with your model in your designed scenarios with just a few clicks." },
         { title: "Connect Your X Account", description: "Link your Twitter account to enable automatic publishing of your created content." },
