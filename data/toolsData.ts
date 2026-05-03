@@ -50,6 +50,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "mckinsey-ai", name: "McKinsey AI Insights", description: "AI-powered business consulting and strategy", url: "", upvotes: 2156, verified: true, rating: 4.8, icon: "🎯", category: "business-research", subcategory: "ai-consulting" },
       { id: "bcg-gamma", name: "BCG GAMMA", description: "Advanced analytics and AI consulting", url: "", upvotes: 1987, verified: true, rating: 4.7, icon: "💎", category: "business-research", subcategory: "ai-consulting" },
       { id: "deloitte-ai", name: "Deloitte AI Institute", description: "AI transformation consulting services", url: "", upvotes: 1765, verified: true, rating: 4.6, icon: "🏢", category: "business-research", subcategory: "ai-consulting" },
+      { id: "stansa-ai", name: "Stansa AI", description: "AI-powered workflow automation and business intelligence platform", url: "https://stansa.ai", upvotes: 654, verified: true, rating: 4.2, icon: "⚙️", category: "business-research", subcategory: "ai-consulting" },
       { id: "pwc-ai", name: "PwC AI Services", description: "Enterprise AI consulting and implementation", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "⚙️", category: "business-research", subcategory: "ai-consulting" },
       { id: "accenture-ai", name: "Accenture Applied Intelligence", description: "AI consulting and technology services", url: "", upvotes: 1432, verified: true, rating: 4.4, icon: "🔬", category: "business-research", subcategory: "ai-consulting" }
     ],

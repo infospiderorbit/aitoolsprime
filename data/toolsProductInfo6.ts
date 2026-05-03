@@ -1,6 +1,6 @@
 export const toolsProductInfo6: { [key: string]: any } = {
   "stansa-ai": {
-    whatIs: "Stansa AI is an AI-powered business automation platform that helps organizations streamline workflows, integrate data sources, and gain actionable intelligence to increase operational efficiency and drive consistent revenue growth.",
+    whatIs: "Stansa AI is a privacy-focused AI writing assistant that helps users create, edit, and refine written content without data collection or content tracking, making it ideal for writers and professionals who value both quality output and complete privacy.",
     features: [
       "Workflow Automation: Automate repetitive business processes end to end",
       "Data Integration: Connect and sync data across all your business tools",
