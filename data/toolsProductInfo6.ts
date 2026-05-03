@@ -1,18 +1,34 @@
 export const toolsProductInfo6: { [key: string]: any } = {
-  "a2e-free-ai-videos": {
-    whatIs: "A2E is a free AI video generation platform that enables creators to produce animated and AI-generated video content from text prompts and images without any cost, making professional video creation accessible to everyone.",
+  "caveduck": {
+    whatIs: "Caveduck is an AI character persona chatting platform that lets users create, customize, and interact with unique AI characters powered by top language models including Claude 3 Sonnet, GPT-4, and Mixtral 8x7B, combining creative storytelling with voice and image generation tools.",
     features: [
-      "Free Video Generation: Create AI videos at no cost",
-      "Text to Video: Generate videos from text descriptions",
-      "Image to Video: Animate images into video content",
-      "No Watermark: Download clean videos without branding",
-      "Easy Interface: Simple and accessible video creation workflow"
+      "Multiple AI Models: Choose from Claude 3 Sonnet, GPT-4, Mixtral 8x7B, and Mandarin models",
+      "AI Character Creation: Build unique personas with custom personalities and backstories",
+      "Text-to-Speech: Give your AI characters realistic voices for immersive conversations",
+      "AI Image Generation: Create visual representations of your characters easily",
+      "Creator Incentive Program: Earn USDC stablecoins when others engage with your characters"
     ],
     howToUse: {
-      title: "How to Use A2E Free AI Videos",
+      title: "How to Use Caveduck",
       description: "Get started in a few simple steps",
       steps: [
-        { title: "Enter Your Prompt", description: "Describe the video content you want to generate with as much detail as possible." },
+        { title: "Create Your Account", description: "Sign up on Caveduck and explore the platform to discover community-created AI characters." },
+        { title: "Choose Your Character", description: "Browse the library of AI personas or create your own with a custom personality and backstory." },
+        { title: "Select Your AI Model", description: "Pick from available language models like GPT-4 or Claude 3 Sonnet to power your character conversations." },
+        { title: "Start Your Adventure", description: "Chat with your chosen character using text, enjoy TTS voiceovers, and share your creations to earn rewards." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Diverse AI Model Selection", description: "Offers multiple top-tier language models so users can choose the best engine for their creative storytelling needs." },
+      { title: "Creator Incentive Program", description: "Rewards creators with USDC stablecoins when their AI characters gain community engagement and popularity." },
+      { title: "Voice and Visual Immersion", description: "Combines text-to-speech and AI image generation to make every character feel genuinely alive and dynamic." }
+    ],
+    useCases: [
+      { title: "Creative Writers", description: "Build detailed AI character personas and explore rich interactive storylines in a game-like chat environment." },
+      { title: "Content Creators", description: "Design and share original AI characters with the community while earning cryptocurrency rewards for engagement." },
+      { title: "Storytelling Enthusiasts", description: "Immerse yourself in diverse fictional worlds through dynamic character conversations powered by leading AI models." }
+    ]
+  },
         { title: "Generate Your Video", description: "Submit your prompt and let the AI create your video from your description." },
         { title: "Review Your Output", description: "Watch your generated video and assess the quality and accuracy of the result." },
         { title: "Download and Use", description: "Save your generated video for use in your creative projects and social media." }
