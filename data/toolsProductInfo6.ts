@@ -1,4 +1,34 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "kirkify": {
+    whatIs: "Kirkify AI Images Generator is a fun viral AI face swap meme generator that transforms any photo into a Kirkified image in seconds using advanced face detection technology, making it the go-to tool for creating entertaining memes without any editing skills.",
+    features: [
+      "AI Face Swap: Automatically detect and swap faces in any photo",
+      "Instant Results: Generate Kirkified memes in 5-10 seconds",
+      "No Watermark: Download clean meme images without branding",
+      "Free Credits: Start with free swaps without any subscription",
+      "No Editing Skills: Just upload and let AI do the work"
+    ],
+    howToUse: {
+      title: "How to Use Kirkify AI Images Generator",
+      description: "Create your meme in a few simple steps",
+      steps: [
+        { title: "Upload Your Photo", description: "Select any clear portrait photo from your device for the AI face swap transformation." },
+        { title: "AI Detects Your Face", description: "Kirkify automatically identifies the face in your photo without any manual selection needed." },
+        { title: "Generate Your Meme", description: "Hit generate and receive your Kirkified meme image within seconds." },
+        { title: "Download and Share", description: "Save your watermark-free meme and share it across social media platforms instantly." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Automatic Face Detection", description: "AI automatically finds and processes faces in uploaded photos without manual selection or complex settings." },
+      { title: "Fast Processing", description: "Delivers finished meme images in 5-10 seconds for a quick and frustration-free creation experience." },
+      { title: "No Watermark Output", description: "All generated meme images are delivered without watermarks even on the free tier for clean sharing." }
+    ],
+    useCases: [
+      { title: "Meme Creators", description: "Generate high quality Kirkified memes quickly for social media sharing and community entertainment." },
+      { title: "Content Creators", description: "Add viral meme content to your social media mix with fast AI-generated face swap images." },
+      { title: "Social Media Users", description: "Create funny Kirkified versions of your own photos for laughs and engagement with your followers." }
+    ]
+  },
   "caveduck": {
     whatIs: "Caveduck is an AI character persona chatting platform that lets users create, customize, and interact with unique AI characters powered by top language models including Claude 3 Sonnet, GPT-4, and Mixtral 8x7B, combining creative storytelling with voice and image generation tools.",
     features: [
