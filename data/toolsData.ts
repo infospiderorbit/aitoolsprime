@@ -720,6 +720,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "krut-ai", name: "Krut AI", description: "AI-powered image expansion service", url: "", upvotes: 234, verified: false, rating: 4.2, icon: "🚀", category: "image-generation-editing", subcategory: "ai-expand-image" }
     ],
     "ai-face-swap-generator": [
+      { id: "kirkify", name: "Kirkify AI", description: "AI face swap meme generator for creating viral Kirkified images instantly", url: "https://kirkify.io", upvotes: 876, verified: true, rating: 4.3, icon: "😂", category: "image-generation-editing", subcategory: "ai-face-swap-generator" },
       { id: "faceswapper", name: "FaceSwapper", description: "Easy-to-use face swapping application", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "👥", category: "image-generation-editing", subcategory: "ai-face-swap-generator" },
       { id: "dreamvid", name: "DreamVid", description: "AI video and face swap generation", url: "", upvotes: 432, verified: true, rating: 4.4, icon: "🎬", category: "image-generation-editing", subcategory: "ai-face-swap-generator" },
       { id: "deepfake-maker", name: "Deepfake Maker", description: "AI deepfake and face swap creator", url: "", upvotes: 345, verified: false, rating: 4.3, icon: "🎭", category: "image-generation-editing", subcategory: "ai-face-swap-generator" },
