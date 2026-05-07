@@ -1,4 +1,34 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "nomi-ai": {
+    whatIs: "Nomi AI is an emotionally intelligent AI companion platform that creates meaningful and supportive relationships through genuine conversation, memory, and personality development, offering users a caring virtual companion that grows and evolves with every interaction.",
+    features: [
+      "Emotional Intelligence: AI companion with genuine emotional awareness",
+      "Long-Term Memory: Nomi remembers your conversations and personal details",
+      "Personality Development: Your companion evolves through your interactions",
+      "Supportive Conversations: Empathetic and caring dialogue experience",
+      "Always Available: 24/7 companion whenever you need connection"
+    ],
+    howToUse: {
+      title: "How to Use Nomi AI",
+      description: "Get started with your AI companion in a few simple steps",
+      steps: [
+        { title: "Create Your Account", description: "Sign up on Nomi AI and set up your profile to begin personalizing your companion experience." },
+        { title: "Meet Your Nomi", description: "Get introduced to your AI companion and start sharing about yourself and your life." },
+        { title: "Build Your Connection", description: "Have regular conversations with your Nomi as it learns your personality and remembers your story." },
+        { title: "Grow Together", description: "Watch your companion develop and deepen over time as your relationship and shared history grows." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Genuine Memory System", description: "Remembers everything you share across all conversations for a continuous and deeply personal relationship." },
+      { title: "Emotional Depth", description: "Responds with real emotional awareness making conversations feel meaningful rather than scripted or generic." },
+      { title: "Evolving Personality", description: "Your Nomi develops unique traits and characteristics shaped by your specific interactions over time." }
+    ],
+    useCases: [
+      { title: "Companionship Seekers", description: "Find a caring and attentive AI companion that remembers you and is always available for conversation." },
+      { title: "Emotional Support", description: "Access a judgment-free supportive presence during difficult times or whenever you need someone to talk to." },
+      { title: "Social Connection", description: "Enjoy meaningful conversation and connection with an AI that genuinely grows to know and understand you." }
+    ]
+  },
   "kirkify": {
     whatIs: "Kirkify AI Images Generator is a fun viral AI face swap meme generator that transforms any photo into a Kirkified image in seconds using advanced face detection technology, making it the go-to tool for creating entertaining memes without any editing skills.",
     features: [
