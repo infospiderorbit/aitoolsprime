@@ -166,14 +166,27 @@ if (!toolData) notFound();
                   <h3 className="text-lg font-semibold">Website Snapshot</h3>
                   <Camera className="h-4 w-4 text-muted-foreground" />
                 </div>
-                <div className="rounded-xl border border-border bg-muted/30 p-6 text-center">
-                  <p className="text-sm text-muted-foreground mb-3">Preview Not Available</p>
-                  <p className="text-xs text-muted-foreground mb-4">Click below to visit the website</p>
-                  <Button asChild variant="outline" size="sm">
-                    <a href={toolData.url || "#"} target="_blank" rel="noopener noreferrer">
-                      Visit Website <ExternalLink className="ml-1 h-3 w-3" />
+                <div className="rounded-xl border border-border overflow-hidden">
+                  {toolData.url ? (
+                    <a href={toolData.url} target="_blank" rel="noopener noreferrer">
+                      <img
+                        src={`https://api.microlink.io?url=${encodeURIComponent(toolData.url)}&screenshot=true&meta=false&embed=screenshot.url`}
+                        alt={`${toolData.name} website preview`}
+                        className="w-full object-cover hover:opacity-90 transition-opacity"
+                        loading="lazy"
+                      />
                     </a>
-                  </Button>
+                  ) : (
+                    <div className="bg-muted/30 p-6 text-center">
+                      <p className="text-sm text-muted-foreground mb-3">Preview Not Available</p>
+                      <p className="text-xs text-muted-foreground mb-4">Click below to visit the website</p>
+                      <Button asChild variant="outline" size="sm">
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                          Visit Website <ExternalLink className="ml-1 h-3 w-3" />
+                        </a>
+                      </Button>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
