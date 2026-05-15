@@ -360,7 +360,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "animate-ai", name: "Animate AI", description: "AI-powered animation creation platform", url: "", upvotes: 1234, verified: true, rating: 4.6, icon: "🎭", category: "video-animation", subcategory: "ai-animated-video" },
       { id: "autodraft-ai", name: "Autodraft AI", description: "Automated video animation with AI", url: "", upvotes: 989, verified: true, rating: 4.5, icon: "✏️", category: "video-animation", subcategory: "ai-animated-video" },
       { id: "deep-nostalgia-ai", name: "Deep Nostalgia AI", description: "Animate old photos with AI technology", url: "", upvotes: 876, verified: true, rating: 4.4, icon: "📸", category: "video-animation", subcategory: "ai-animated-video" },
-      { id: "a2e-free-ai-videos", name: "A2E Free and Uncensored AI Videos", description: "Free AI video generation platform", url: "", upvotes: 654, verified: false, rating: 4.3, icon: "🎥", category: "video-animation", subcategory: "ai-animated-video" }
+      { id: "a2e-free-ai-videos", name: "A2E Free and Uncensored AI Videos", description: "Free AI video generation platform", url: "https://a2e.ai", upvotes: 654, verified: false, rating: 4.3, icon: "🎥", category: "video-animation", subcategory: "ai-animated-video" }
     ],
     "ai-animation-generator": [
       { id: "dreamface", name: "DreamFace", description: "AI-powered face animation generator", url: "", upvotes: 1432, verified: true, rating: 4.6, icon: "😊", category: "video-animation", subcategory: "ai-animation-generator" },
