@@ -1,4 +1,94 @@
 export const toolsProductInfo6: { [key: string]: any } = {
+  "iaskai": {
+    whatIs: "iAsk AI is a free AI-powered search engine and homework helper that gives direct, accurate answers to questions using advanced language models, making it a smarter alternative to traditional search for students and curious learners.",
+    features: [
+      "Direct Answers: Get straight answers without sifting through links",
+      "Homework Helper: Solve academic questions across all subjects",
+      "AI Search Engine: Smarter search powered by language models",
+      "Free to Use: Full access without payment or subscription",
+      "No Ads: Clean and distraction-free search experience"
+    ],
+    howToUse: {
+      title: "How to Use Iaskai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Type Your Question", description: "Enter your homework question or search query in plain natural language." },
+        { title: "Get Direct Answer", description: "Receive a clear and accurate answer without having to click through multiple websites." },
+        { title: "Explore Further", description: "Ask follow-up questions to dive deeper into the topic you are researching." },
+        { title: "Use for Study", description: "Apply the answers and explanations to your homework, essays, and exam preparation." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Direct Answer Engine", description: "Provides clear direct answers rather than a list of links for faster information access." },
+      { title: "Academic Coverage", description: "Handles questions across math, science, history, literature, and all major academic subjects." },
+      { title: "Ad-Free Experience", description: "Delivers a clean distraction-free interface without ads interrupting your research flow." }
+    ],
+    useCases: [
+      { title: "Students", description: "Get instant accurate answers to homework questions across every subject without wading through search results." },
+      { title: "Researchers", description: "Find direct answers to complex questions quickly for more efficient research and study sessions." },
+      { title: "Curious Learners", description: "Explore topics and get clear explanations on anything you want to understand more deeply." }
+    ]
+  },
+  "ai-xx": {
+    whatIs: "Hixx AI is an AI-powered copywriting and content generation platform that helps marketers, entrepreneurs, and content creators produce high-quality marketing copy, ads, product descriptions, and creative content in seconds.",
+    features: [
+      "AI Copywriting: Generate marketing copy from simple prompts",
+      "Multiple Formats: Ads emails product descriptions and more",
+      "Tone Control: Adjust writing style for different audiences",
+      "Fast Generation: Quality copy produced in seconds",
+      "Multiple Languages: Content generated in various languages"
+    ],
+    howToUse: {
+      title: "How to Use Ai Xx",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Describe Your Need", description: "Enter a brief description of the copy you need including product, audience, and tone." },
+        { title: "Select Your Format", description: "Choose the type of copy you need from ads, emails, product descriptions, or social posts." },
+        { title: "Generate Your Copy", description: "Receive AI-written marketing copy tailored to your specific requirements instantly." },
+        { title: "Refine and Use", description: "Edit the generated copy to add your personal touch and deploy it across your channels." }
+      ]
+    },
+    coreFeatures: [
+      { title: "Marketing Copy Quality", description: "Generates persuasive marketing copy that follows proven copywriting principles and frameworks." },
+      { title: "Format Versatility", description: "Covers diverse copy formats from short social ads to long-form email campaigns comprehensively." },
+      { title: "Speed of Production", description: "Delivers finished copy in seconds rather than the hours traditional copywriting requires." }
+    ],
+    useCases: [
+      { title: "Marketers", description: "Create high-converting ad copy and marketing content quickly without hiring copywriters." },
+      { title: "Entrepreneurs", description: "Write compelling product descriptions and promotional materials independently without agency costs." },
+      { title: "Content Creators", description: "Produce diverse written content for social media, blogs, and marketing campaigns efficiently." }
+    ]
+  },
+  "openread-ai": {
+    whatIs: "OpenRead AI is an AI-powered academic research platform that helps researchers and students read, analyze, and understand scientific papers faster through AI summaries, Q&A, and intelligent paper management tools.",
+    features: [
+      "Paper Summarization: Get AI summaries of research papers instantly",
+      "Q&A with Papers: Ask questions directly about paper content",
+      "Research Management: Organize your academic paper library",
+      "Citation Support: Extract and manage paper citations easily",
+      "Multi-Paper Analysis: Compare insights across multiple papers"
+    ],
+    howToUse: {
+      title: "How to Use Openread Ai",
+      description: "Get started in a few simple steps",
+      steps: [
+        { title: "Upload Your Paper", description: "Import a research paper PDF or paste a DOI link into OpenRead AI for analysis." },
+        { title: "Get Your Summary", description: "Receive an AI-generated summary of the paper covering key findings, methods, and conclusions." },
+        { title: "Ask Your Questions", description: "Use the Q&A feature to ask specific questions about the paper content directly." },
+        { title: "Organize Your Library", description: "Save and organize papers into collections for efficient research project management." }
+      ]
+    },
+    coreFeatures: [
+      { title: "AI Paper Summarization", description: "Condenses lengthy academic papers into clear summaries without losing essential research insights." },
+      { title: "Interactive Q&A", description: "Allows asking specific questions about paper content for targeted and efficient information extraction." },
+      { title: "Research Organization", description: "Provides library management tools for organizing papers by topic, project, and research area." }
+    ],
+    useCases: [
+      { title: "Researchers", description: "Process and understand academic papers faster with AI summaries and interactive Q&A capabilities." },
+      { title: "Graduate Students", description: "Navigate complex research literature more efficiently during thesis and dissertation work." },
+      { title: "Academic Professionals", description: "Stay current with research in your field by consuming paper summaries rather than full texts." }
+    ]
+  },
   "nomi-ai": {
     whatIs: "Nomi AI is an emotionally intelligent AI companion platform that creates meaningful and supportive relationships through genuine conversation, memory, and personality development, offering users a caring virtual companion that grows and evolves with every interaction.",
     features: [
