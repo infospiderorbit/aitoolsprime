@@ -939,6 +939,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "typebot", name: "Typebot", description: "Open-source chatbot builder with AI capabilities", url: "", upvotes: 234, verified: false, rating: 4.2, icon: "⌨️", category: "writing-editing", subcategory: "ai-chat-generator" }
     ],
     "ai-copywriting": [
+      { id: "ai-xx", name: "Hixx AI", description: "AI copywriting and content generation platform", url: "https://www.hixx.ai", upvotes: 876, verified: true, rating: 4.3, icon: "✍️", category: "writing-editing", subcategory: "ai-copywriting" },
       { id: "contentful", name: "Contentful", description: "Headless CMS with AI-powered content creation", url: "", upvotes: 1234, verified: true, rating: 4.8, icon: "🏢", category: "writing-editing", subcategory: "ai-copywriting" },
       { id: "hotpot-ai", name: "Hotpot.ai", description: "AI copywriting and design tool for marketing", url: "", upvotes: 567, verified: true, rating: 4.5, icon: "🔥", category: "writing-editing", subcategory: "ai-copywriting" },
       { id: "unbounce", name: "Unbounce", description: "Landing page builder with AI copywriting features", url: "", upvotes: 789, verified: true, rating: 4.6, icon: "📄", category: "writing-editing", subcategory: "ai-copywriting" },
@@ -2361,6 +2362,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "study-fetch", name: "Study Fetch", description: "AI study material fetching and flashcard generation", url: "", upvotes: 1298, verified: true, rating: 4.2, icon: "📚", category: "education-translation", subcategory: "ai-flashcard-maker" }
     ],
     "ai-homework-helper": [
+      { id: "iaskai", name: "iAsk AI", description: "AI-powered search engine and homework helper", url: "https://iask.ai", upvotes: 1234, verified: true, rating: 4.5, icon: "🔍", category: "education-learning", subcategory: "ai-homework-helper" },
       { id: "gauth", name: "Gauth", description: "AI homework solver and math problem assistant", url: "", upvotes: 2234, verified: true, rating: 4.7, icon: "🔢", category: "education-translation", subcategory: "ai-homework-helper" },
       { id: "unstuck-ai", name: "Unstuck AI", description: "AI homework assistance and problem solving", url: "", upvotes: 1654, verified: true, rating: 4.5, icon: "🔓", category: "education-translation", subcategory: "ai-homework-helper" },
       { id: "bartleby", name: "bartleby", description: "AI textbook solutions and homework help", url: "", upvotes: 1543, verified: true, rating: 4.4, icon: "📖", category: "education-translation", subcategory: "ai-homework-helper" },
@@ -2717,6 +2719,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "illuminate", name: "Illuminate", description: "AI research insights and paper analysis", url: "", upvotes: 1987, verified: true, rating: 4.4, icon: "💡", category: "research-data-analysis", subcategory: "ai-research-papers" }
     ],
     "ai-research-tool": [
+      { id: "openread-ai", name: "OpenRead AI", description: "AI-powered academic research and paper reading tool", url: "https://www.openread.academy", upvotes: 987, verified: true, rating: 4.4, icon: "📚", category: "education-learning", subcategory: "ai-research-tool" },
       { id: "prolific", name: "Prolific", description: "AI-powered research participant platform", url: "", upvotes: 2654, verified: true, rating: 4.6, icon: "👥", category: "research-data-analysis", subcategory: "ai-research-tool" },
       { id: "glasp", name: "Glasp", description: "AI research highlighting and note-taking", url: "", upvotes: 2432, verified: true, rating: 4.5, icon: "✨", category: "research-data-analysis", subcategory: "ai-research-tool" },
       { id: "branded", name: "Branded", description: "AI market research and brand analysis", url: "", upvotes: 2298, verified: true, rating: 4.4, icon: "🏷️", category: "research-data-analysis", subcategory: "ai-research-tool" },
