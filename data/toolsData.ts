@@ -179,6 +179,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
     ],
     "ai-files": [
       { id: "humata-ai", name: "Humata AI", description: "AI-powered document analysis and chat", url: "", upvotes: 1789, verified: true, rating: 4.7, icon: "📄", category: "office-productivity", subcategory: "ai-files" },
+      { id: "remio", name: "Remio", description: "Local-first AI memory and knowledge base that parses files, webpages, recordings, emails, messages, images, and notes into local indexes and vectors for focused personal-context retrieval", url: "https://remio.ai/", upvotes: 1468, verified: true, rating: 4.6, icon: "🧠", category: "office-productivity", subcategory: "ai-files", pricing: "Freemium" },
       { id: "drop-ai", name: "DROP", description: "AI file management and organization", url: "", upvotes: 1654, verified: true, rating: 4.6, icon: "📂", category: "office-productivity", subcategory: "ai-files" },
       { id: "poly-ai", name: "Poly", description: "AI-powered file conversion and processing", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "🔄", category: "office-productivity", subcategory: "ai-files" },
       { id: "riffo", name: "Riffo", description: "Smart file organization with AI", url: "", upvotes: 1298, verified: true, rating: 4.4, icon: "📁", category: "office-productivity", subcategory: "ai-files" },
