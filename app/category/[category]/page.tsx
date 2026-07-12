@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Star, ArrowUp } from "lucide-react";
+import { Star, ArrowUp, ExternalLink } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { toolsData, Tool } from "@/data/toolsData";
@@ -27,9 +27,20 @@ export async function generateMetadata({
 
   return {
     title: categoryTitle + " AI Tools | AI Tools Prime",
-    description: "Browse the best " + categoryTitle + " AI tools. Find and compare top AI tools in this category.",
+    description: categoryInfo?.description || "Browse the best " + categoryTitle + " AI tools. Find and compare top AI tools in this category.",
   };
 }
+
+const gradients = [
+  "from-violet-500 to-purple-600",
+  "from-blue-500 to-cyan-600",
+  "from-emerald-500 to-teal-600",
+  "from-orange-500 to-red-500",
+  "from-pink-500 to-rose-600",
+  "from-indigo-500 to-blue-600",
+  "from-amber-500 to-orange-600",
+  "from-teal-500 to-green-600",
+];
 
 export default async function CategoryPage({
   params,
@@ -43,11 +54,11 @@ export default async function CategoryPage({
   const categoryInfo = (categoriesData as any)[category];
   const bySub = (toolsData as any)[category] as Record<string, Tool[]> | undefined;
   const displayTitle = categoryInfo?.title || category.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+  const categoryDescription = categoryInfo?.description || "";
 
   const subcategories = bySub ? Object.entries(bySub) : [];
   const totalTools = subcategories.reduce((acc, [, tools]) => acc + (Array.isArray(tools) ? tools.length : 0), 0);
 
-  // Get tools to display - filtered by sub or all tools
   let displayTools: Tool[] = [];
   if (sub && bySub && bySub[sub]) {
     displayTools = [...bySub[sub].filter(Boolean)].sort((a, b) => (b.upvotes || 0) - (a.upvotes || 0));
@@ -80,18 +91,32 @@ export default async function CategoryPage({
           )}
         </div>
 
-        {/* Header */}
-        <h1 className="text-3xl font-bold mb-2">
-          {sub ? subTitle : displayTitle} AI Tools
-        </h1>
-        <p className="text-muted-foreground mb-8">
-          {displayTools.length} AI tools {sub ? "in " + subTitle : "across " + subcategories.length + " subcategories"}
-        </p>
+        {/* Hero Section */}
+        <div className="rounded-2xl bg-gradient-to-r from-primary/10 to-primary/5 border border-primary/20 p-8 mb-8">
+          <h1 className="text-4xl font-bold mb-3">
+            {sub ? subTitle : displayTitle} AI Tools
+          </h1>
+          {!sub && categoryDescription && (
+            <p className="text-muted-foreground text-lg leading-relaxed max-w-3xl mb-4">{categoryDescription}</p>
+          )}
+          <div className="flex items-center gap-4 text-sm text-muted-foreground">
+            <span className="flex items-center gap-1">
+              <span className="w-2 h-2 rounded-full bg-green-500"></span>
+              {displayTools.length} AI Tools
+            </span>
+            {!sub && (
+              <span className="flex items-center gap-1">
+                <span className="w-2 h-2 rounded-full bg-blue-500"></span>
+                {subcategories.length} Subcategories
+              </span>
+            )}
+          </div>
+        </div>
 
         {/* Subcategory Filter Tabs */}
         <div className="flex flex-wrap gap-2 mb-8">
           <Link href={"/category/" + category}>
-            <span className={"px-4 py-2 rounded-full text-sm font-medium border transition-colors " + (!sub ? "bg-primary text-white border-primary" : "border-border hover:border-primary hover:text-primary")}>
+            <span className={"px-4 py-2 rounded-full text-sm font-medium border transition-all " + (!sub ? "bg-primary text-white border-primary shadow-md" : "border-border hover:border-primary hover:text-primary bg-background")}>
               All ({totalTools})
             </span>
           </Link>
@@ -100,7 +125,7 @@ export default async function CategoryPage({
             const count = Array.isArray(tools) ? tools.length : 0;
             return (
               <Link key={subKey} href={"/category/" + category + "?sub=" + subKey}>
-                <span className={"px-4 py-2 rounded-full text-sm font-medium border transition-colors " + (sub === subKey ? "bg-primary text-white border-primary" : "border-border hover:border-primary hover:text-primary")}>
+                <span className={"px-4 py-2 rounded-full text-sm font-medium border transition-all " + (sub === subKey ? "bg-primary text-white border-primary shadow-md" : "border-border hover:border-primary hover:text-primary bg-background")}>
                   {sTitle} ({count})
                 </span>
               </Link>
@@ -109,27 +134,58 @@ export default async function CategoryPage({
         </div>
 
         {/* Tools Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {displayTools.map((tool) => (
-            <Link key={tool.id} href={"/" + tool.id}>
-              <div className="premium-card p-5 h-full flex flex-col gap-3 cursor-pointer group">
-                <div className="flex items-center gap-3">
-                  <span className="text-3xl">{tool.icon}</span>
-                  <h3 className="font-bold group-hover:text-primary transition-colors">{tool.name}</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+          {displayTools.map((tool, index) => {
+            const gradient = gradients[index % gradients.length];
+            return (
+              <div key={tool.id} className="group relative bg-card rounded-2xl border border-border overflow-hidden hover:shadow-xl hover:border-primary/40 transition-all duration-300 hover:-translate-y-1 flex flex-col">
+                {/* Card Header with gradient */}
+                <div className={"bg-gradient-to-r " + gradient + " p-5 flex items-center gap-3"}>
+                  <div className="w-12 h-12 rounded-xl bg-white/20 backdrop-blur flex items-center justify-center text-2xl shadow-sm">
+                    {tool.icon}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-bold text-white truncate text-sm leading-tight">{tool.name}</h3>
+                    <div className="flex items-center gap-1 mt-1">
+                      <Star className="h-3 w-3 fill-yellow-300 text-yellow-300" />
+                      <span className="text-xs text-white/80">{tool.rating?.toFixed(1) ?? "4.5"}</span>
+                    </div>
+                  </div>
                 </div>
-                <p className="text-sm text-muted-foreground line-clamp-2 flex-1">{tool.description}</p>
-                <div className="flex items-center justify-between pt-3 border-t border-border/50">
-                  <span className="flex items-center gap-1 text-xs text-muted-foreground">
-                    <ArrowUp className="h-3 w-3" />{tool.upvotes}
-                  </span>
-                  <span className="flex items-center gap-1 text-xs text-muted-foreground">
-                    <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
-                    {tool.rating?.toFixed(1) ?? "4.5"}
-                  </span>
+
+                {/* Card Body */}
+                <div className="p-4 flex flex-col flex-1 gap-3">
+                  <p className="text-sm text-muted-foreground line-clamp-2 flex-1">{tool.description}</p>
+
+                  <div className="flex items-center justify-between">
+                    <span className="flex items-center gap-1 text-xs text-muted-foreground">
+                      <ArrowUp className="h-3 w-3" />{tool.upvotes?.toLocaleString()}
+                    </span>
+                    {tool.verified && (
+                      <span className="text-xs bg-green-500/10 text-green-600 px-2 py-0.5 rounded-full font-medium">Verified</span>
+                    )}
+                  </div>
+
+                  {/* Action Buttons */}
+                  <div className="flex gap-2 mt-1">
+                    <Link href={"/" + tool.id} className="flex-1">
+                      <button className="w-full text-xs font-semibold py-2 px-3 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all duration-200">
+                        View Details
+                      </button>
+                    </Link>
+                    {tool.url && (
+                      <a href={tool.url} target="_blank" rel="noopener noreferrer">
+                        <button className="text-xs font-semibold py-2 px-3 rounded-lg bg-muted hover:bg-primary hover:text-white transition-all duration-200 flex items-center gap-1">
+                          <ExternalLink className="h-3 w-3" />
+                          Visit
+                        </button>
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
-            </Link>
-          ))}
+            );
+          })}
         </div>
 
       </div>

@@ -1,5 +1,6 @@
 export const categoriesData = {
   "writing-editing": {
+    description: "From blog posts to business emails, these AI writing tools help you create polished content faster than ever. Whether you need a grammar checker, essay writer, or full copywriting suite, this collection covers every writing need for students, professionals, and creators alike.",
     title: "Writing & Editing",
     totalCount: 16660,
     subcategories: {
@@ -61,6 +62,7 @@ export const categoriesData = {
     }
   },
   "image-generation-editing": {
+    description: "Transform your ideas into stunning visuals with the best AI image generation and editing tools available today. From text-to-image generators to professional photo editors, find the perfect tool to create, enhance, and manipulate images without any design experience.",
     title: "Image Generation & Editing",
     totalCount: 11069,
     subcategories: {
@@ -110,6 +112,7 @@ export const categoriesData = {
     }
   },
   "voice-generation-conversion": {
+    description: "Discover AI tools that turn text into natural-sounding speech, clone voices, and convert audio with remarkable accuracy. Perfect for podcasters, content creators, and businesses looking to scale voiceover production without a recording studio.",
     title: "Voice Generation & Conversion",
     totalCount: 5521,
     subcategories: {
@@ -136,6 +139,7 @@ export const categoriesData = {
     }
   },
   "art-creative-design": {
+    description: "Explore the most powerful AI art generators, logo makers, and design tools that are changing how creative work gets done. Whether you are an artist, designer, or complete beginner, these tools help you produce stunning creative output in minutes.",
     title: "Art & Creative Design",
     totalCount: 4892,
     subcategories: {
@@ -196,6 +200,7 @@ export const categoriesData = {
     }
   },
   "social-media": {
+    description: "Stay ahead of the algorithm with AI tools built specifically for social media growth, content creation, and audience engagement. From caption generators to scheduling tools, find everything you need to build a stronger presence across every platform.",
     title: "Social Media",
     totalCount: 3127,
     subcategories: {
@@ -227,6 +232,7 @@ export const categoriesData = {
     }
   },
   "ai-detection-anti-detection": {
+    description: "Find AI content detectors and humanization tools that help writers, students, and businesses navigate the growing demand for authentic content. These tools identify AI-generated text and help you refine it to read naturally and pass detection.",
     title: "AI Detection & Anti-Detection",
     totalCount: 1734,
     subcategories: {
@@ -244,6 +250,7 @@ export const categoriesData = {
     }
   },
   "chatbots-virtual-companions": {
+    description: "Browse the most advanced AI chatbots, virtual companions, and conversational agents available right now. From customer service bots to personal AI companions, these tools are redefining how humans interact with machines every single day.",
     title: "Chatbots & Virtual Companions",
     totalCount: 624,
     subcategories: {
@@ -259,6 +266,7 @@ export const categoriesData = {
     }
   },
   "image-analysis": {
+    description: "Unlock insights from images using AI tools that can identify objects, extract text, analyze faces, and interpret visual data. Ideal for researchers, developers, and businesses that need to make sense of large volumes of visual content automatically.",
     title: "Image Analysis",
     totalCount: 408,
     subcategories: {
@@ -273,6 +281,7 @@ export const categoriesData = {
     }
   },
   "music-audio": {
+    description: "Create, edit, and enhance audio content with AI music generators, noise removers, and audio production tools. Whether you are producing original songs or cleaning up podcast recordings, these tools bring professional audio quality within reach.",
     title: "Music & Audio",
     totalCount: 1150,
     subcategories: {
@@ -302,6 +311,7 @@ export const categoriesData = {
     }
   },
   "coding-development": {
+    description: "Speed up your development workflow with AI coding assistants, code generators, and debugging tools trusted by developers worldwide. From writing boilerplate to reviewing complex code, these tools help you ship better software faster.",
     title: "Coding & Development",
     totalCount: 75,
     subcategories: {
@@ -323,6 +333,7 @@ export const categoriesData = {
     }
   },
   "video-animation": {
+    description: "Produce professional-quality videos and animations without a camera crew or editing suite using these AI video tools. From text-to-video generators to automated editing platforms, the future of video production is already here.",
     title: "Video & Animation",
     totalCount: 3464,
     subcategories: {
@@ -357,6 +368,7 @@ export const categoriesData = {
     }
   },
   "daily-life": {
+    description: "Make everyday tasks easier with AI tools designed for personal productivity, habit tracking, travel planning, and lifestyle management. These practical tools help you save time and stay organized across every area of your daily routine.",
     title: "Daily Life",
     totalCount: 1956,
     subcategories: {
@@ -383,6 +395,7 @@ export const categoriesData = {
     }
   },
   "legal-finance": {
+    description: "Navigate complex legal and financial decisions with AI tools that simplify contracts, taxes, investments, and compliance. These tools are built for individuals and businesses who want smarter financial and legal guidance without the premium price tag.",
     title: "Legal & Finance",
     totalCount: 2201,
     subcategories: {
@@ -400,6 +413,7 @@ export const categoriesData = {
     }
   },
   "business-management": {
+    description: "Run your business more efficiently with AI tools for project management, operations, HR, and team collaboration. From startups to enterprises, these tools reduce overhead and help teams focus on what actually moves the needle.",
     title: "Business Management",
     totalCount: 3897,
     subcategories: {
@@ -416,6 +430,7 @@ export const categoriesData = {
     }
   },
   "marketing-advertising": {
+    description: "Drive more traffic, generate better leads, and run smarter campaigns with AI marketing and advertising tools. From ad copy generators to SEO analyzers, this category is packed with tools that help marketers do more with less budget.",
     title: "Marketing & Advertising",
     totalCount: 7263,
     subcategories: {
@@ -446,6 +461,7 @@ export const categoriesData = {
     }
   },
   "health-wellness": {
+    description: "Support your physical and mental wellbeing with AI health tools for fitness tracking, nutrition planning, meditation, and symptom checking. These tools make personalized health guidance more accessible than ever before.",
     title: "Health & Wellness",
     totalCount: 1048,
     subcategories: {
@@ -458,6 +474,7 @@ export const categoriesData = {
     }
   },
   "business-research": {
+    description: "Make better business decisions with AI research tools that analyze markets, track competitors, and surface actionable insights. Whether you are validating a startup idea or preparing a pitch deck, these tools give you the data edge you need.",
     title: "Business Research",
     totalCount: 1038,
     subcategories: {
@@ -473,6 +490,7 @@ export const categoriesData = {
     }
   },
   "education-translation": {
+    description: "Learn faster, study smarter, and break language barriers with AI education and translation tools. From homework helpers to real-time translators, this category serves students, teachers, and lifelong learners around the world.",
     title: "Education & Translation",
     totalCount: 6938,
     subcategories: {
@@ -503,6 +521,7 @@ export const categoriesData = {
     }
   },
   "office-productivity": {
+    description: "Supercharge your workday with AI productivity tools that automate emails, summarize meetings, manage tasks, and streamline office workflows. These tools are essential for anyone who wants to get more done in less time.",
     title: "Office & Productivity",
     totalCount: 22094,
     subcategories: {
@@ -547,6 +566,7 @@ export const categoriesData = {
     }
   },
   "research-data-analysis": {
+    description: "Analyze data, extract insights, and accelerate research with AI tools built for scientists, analysts, and data-driven teams. From automated reports to predictive models, these tools turn raw data into clear and actionable conclusions.",
     title: "Research & Data Analysis",
     totalCount: 2434,
     subcategories: {
@@ -561,12 +581,14 @@ export const categoriesData = {
     }
   },
   "other": {
+    description: "Discover unique and specialized AI tools that do not fit neatly into a single category but are genuinely worth knowing about. From niche generators to experimental AI applications, this section is full of hidden gems worth exploring.",
     title: "Other",
     totalCount: 4994,
     subcategories: {
       "large-language-models": { title: "Large Language Models (LLMs)", count: 2675 },
       "ai-models": { title: "AI Models", count: 795 },
-      "other": { title: "Other", count: 717 },
+      "other": {
+    description: "Discover unique and specialized AI tools that do not fit neatly into a single category but are genuinely worth knowing about. From niche generators to experimental AI applications, this section is full of hidden gems worth exploring.", title: "Other", count: 717 },
       "ai-tools-directory": { title: "AI Tools Directory", count: 453 },
       "open-source-ai-models": { title: "Open Source AI Models", count: 411 },
       "ai-games": { title: "AI Games", count: 284 },
