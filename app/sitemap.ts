@@ -37,6 +37,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
+  // Subcategory pages
+  Object.entries(toolsData).forEach(([cat, catData]) => {
+    Object.keys(catData).forEach((sub) => {
+      urls.push({
+        url: BASE_URL + "/category/" + cat + "/" + sub,
+        lastModified: new Date(),
+        changeFrequency: "weekly" as const,
+        priority: 0.75,
+      });
+    });
+  });
+
   // All tool pages + alternatives pages
   Object.values(toolsData).forEach((catData) => {
     Object.values(catData).forEach((subTools) => {
