@@ -124,7 +124,7 @@ export default async function CategoryPage({
             const sTitle = subKey.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
             const count = Array.isArray(tools) ? tools.length : 0;
             return (
-              <Link key={subKey} href={"/category/" + category + "?sub=" + subKey}>
+              <Link key={subKey} href={"/category/" + category + "/" + subKey}>
                 <span className={"px-4 py-2 rounded-full text-sm font-medium border transition-all " + (sub === subKey ? "bg-primary text-white border-primary shadow-md" : "border-border hover:border-primary hover:text-primary bg-background")}>
                   {sTitle} ({count})
                 </span>
