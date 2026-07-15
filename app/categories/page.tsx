@@ -76,7 +76,7 @@ export default function CategoriesPage() {
               <div className="px-6 py-4">
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
                   {cat.subcategories.map((sub) => (
-                    <Link key={sub.key} href={"/category/" + cat.key + "?sub=" + sub.key}>
+                    <Link key={sub.key} href={"/category/" + cat.key + "/" + sub.key}>
                       <div className="group flex flex-col gap-1 p-3 rounded-xl border border-border hover:border-primary/40 hover:bg-primary/5 transition-all duration-200 cursor-pointer">
                         <span className="text-sm font-medium text-foreground group-hover:text-primary transition-colors line-clamp-2 leading-tight">
                           {formatCategory(sub.key)}
