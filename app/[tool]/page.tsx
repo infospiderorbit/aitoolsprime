@@ -91,9 +91,27 @@ if (!toolData) notFound();
     <div className="min-h-screen bg-background">
       <Header />
       <main className="container mx-auto px-4 py-8 max-w-6xl">
-        <Link href="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground mb-6">
-          <ArrowLeft className="h-4 w-4" /> Back to Home
-        </Link>
+        <div className="flex items-center gap-2 text-sm text-muted-foreground mb-6 flex-wrap">
+          <Link href="/" className="hover:text-foreground">Home</Link>
+          <span>/</span>
+          {toolData.category && (
+            <>
+              <Link href={"/category/" + toolData.category} className="hover:text-foreground capitalize">
+                {toolData.category.replace(/-/g, " ")}
+              </Link>
+              <span>/</span>
+            </>
+          )}
+          {toolData.subcategory && (
+            <>
+              <Link href={"/category/" + toolData.category + "/" + toolData.subcategory} className="hover:text-foreground capitalize">
+                {toolData.subcategory.replace(/-/g, " ")}
+              </Link>
+              <span>/</span>
+            </>
+          )}
+          <span className="text-foreground font-medium">{toolData.name}</span>
+        </div>
 
         <div className="bg-card rounded-2xl border border-border p-8 mb-8 shadow-card">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
