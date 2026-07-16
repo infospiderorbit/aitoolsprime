@@ -83,7 +83,7 @@ export default function SubmitAIToolPage() {
                 {[
                   "Listed in AI Tools Prime directory",
                   "Embed our badge on your website",
-                  "Get a backlink from our platform",
+                  "NoFollow backlink from our platform",
                   "Basic tool listing with description",
                   "Indexed on Google",
                 ].map((f, i) => (
@@ -105,7 +105,7 @@ export default function SubmitAIToolPage() {
                   "Listed in Latest AI on homepage and Full AI List",
                   "30 days in Aitoolsprime Selection on Homepage",
                   "Description of up to 165 characters",
-                  "An extra link to your product page",
+                  "1 Dofollow link to your product page",
                   "Indexed on Google",
                 ].map((f, i) => (
                   <li key={i} className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-blue-500 mt-0.5 shrink-0" />{f}</li>
@@ -128,7 +128,7 @@ export default function SubmitAIToolPage() {
                 {[
                   "All Express Listing features",
                   "Verified blue check mark for trust",
-                  "3 extra links to your product page",
+                  "1 Dofollow link to your product page",
                   "Write up to 1000 words",
                   "Add media: videos, audio, images",
                   "60 days in Aitoolsprime Selection on Homepage",
