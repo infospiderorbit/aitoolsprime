@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { Star, CheckCircle, Zap, RefreshCw } from "lucide-react";
+import { CheckCircle, Crown } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BadgeForm from "./BadgeForm";
 
 export const metadata = {
   title: "Submit AI Tool - List Your AI Tool on AI Tools Prime",
@@ -17,12 +18,6 @@ const faqs = [
   { q: "Q6. Do you guarantee traffic or signups?", a: "We guarantee visibility (homepage, categories, featured spots), but actual traffic depends on audience interest and your tool value." },
   { q: "Q7. What is the Free Badge Listing?", a: "Embed our badge on your website and get listed on AI Tools Prime for free. It is our way of building a community of trusted AI tools together." },
 ];
-
-const badgeCode = `<a href="https://www.aitoolsprime.com?utm_source=badge&utm_medium=referral&utm_campaign=featured_badge" target="_blank" rel="noopener">
-  <img src="https://www.aitoolsprime.com/badges/aitoolsprime-badge.png"
-       alt="Featured on AI Tools Prime"
-       style="border: none; width: 175px; height: 50px;">
-</a>`;
 
 export default function SubmitAIToolPage() {
   return (
@@ -56,14 +51,13 @@ export default function SubmitAIToolPage() {
 
       <main className="container mx-auto px-4 pb-16">
 
-        {/* Options Overview */}
         <section className="mb-20">
           <h2 className="text-4xl font-bold mb-12 text-center">Choose Your Option</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { icon: "🏅", title: "Free Badge Listing", desc: "Embed our badge on your site and get listed for free" },
               { icon: "⚡", title: "Express Listing", desc: "List your AI tool and get direct traffic quickly" },
-              { icon: "⭐", title: "Verified Listing", desc: "Trust badge + higher credibility and visibility" },
+              { icon: "⭐", title: "Verified Listing", desc: "Trust badge and higher credibility and visibility" },
             ].map((opt, i) => (
               <div key={i} className="bg-card rounded-2xl border border-border p-8 text-center shadow-card hover:-translate-y-1 transition-all duration-300">
                 <div className="text-5xl mb-4">{opt.icon}</div>
@@ -74,16 +68,14 @@ export default function SubmitAIToolPage() {
           </div>
         </section>
 
-        {/* Pricing Plans */}
         <section className="mb-20">
-          <h2 className="text-4xl font-bold mb-16 text-center">💰 Pricing Plans</h2>
+          <h2 className="text-4xl font-bold mb-16 text-center">Pricing Plans</h2>
           <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
 
-            {/* Free Badge Listing */}
             <div className="bg-card rounded-2xl border border-border p-8 shadow-card">
               <div className="bg-green-500 rounded-xl px-6 py-3 text-center text-white font-bold mb-4">
-                <p>🏅 Free Badge Listing</p>
-                <p className="text-sm font-normal opacity-90">(embed badge + get listed free)</p>
+                <p>Free Badge Listing</p>
+                <p className="text-sm font-normal opacity-90">Add our badge to your website and get a free listing in the directory.</p>
               </div>
               <div className="text-5xl font-bold mb-1 text-green-500">FREE</div>
               <p className="text-muted-foreground text-sm mb-6">No credit card required</p>
@@ -98,49 +90,19 @@ export default function SubmitAIToolPage() {
                   <li key={i} className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 mt-0.5 shrink-0" />{f}</li>
                 ))}
               </ul>
-
-              {/* Badge Preview */}
-              <div className="bg-muted rounded-xl p-4 mb-4">
-                <p className="text-sm font-semibold mb-2 text-center">Your Badge Preview</p>
-                <div className="flex justify-center mb-3">
-                  <img src="/badges/aitoolsprime-badge.png" alt="Featured on AI Tools Prime" style={{width: "175px", height: "50px", objectFit: "contain"}} />
-                </div>
-                <p className="text-xs text-muted-foreground mb-2 font-medium">Embed This Badge</p>
-                <p className="text-xs text-muted-foreground mb-2">Copy and paste the following code into your website HTML:</p>
-                <pre className="bg-background rounded p-2 text-xs overflow-x-auto whitespace-pre-wrap break-all border border-border">{badgeCode}</pre>
-              </div>
-
-              <div className="space-y-3">
-                <input
-                  type="email"
-                  placeholder="Your Email"
-                  className="w-full px-4 py-2 rounded-lg border border-border bg-background text-sm"
-                />
-                <input
-                  type="url"
-                  placeholder="Your AI Tool URL"
-                  className="w-full px-4 py-2 rounded-lg border border-border bg-background text-sm"
-                />
-                
-<a href={"mailto:hello@aitoolsprime.com?subject=Free Badge Listing Request&body=Please list my AI tool for free. I have embedded your badge on my website.%0A%0AMy Email: %0AMy Tool URL: %0AMy Website where badge is embedded: "}
-                  className="block w-full bg-green-500 hover:bg-green-600 text-white text-center py-3 rounded-xl font-semibold transition-colors"
-                >
-                  Get Free Badge Listing
-                </a>
-              </div>
+              <BadgeForm />
             </div>
 
-            {/* Express Listing */}
             <div className="bg-card rounded-2xl border border-border p-8 shadow-card">
               <div className="gradient-primary rounded-xl px-6 py-3 text-center text-white font-bold mb-4">
-                <p>🟦 Express Listing</p>
-                <p className="text-sm font-normal opacity-90">(fast approval & go live quickly)</p>
+                <p>Express Listing</p>
+                <p className="text-sm font-normal opacity-90">Fast approval and go live quickly</p>
               </div>
               <div className="text-5xl font-bold mb-1">$49</div>
-              <p className="text-muted-foreground text-sm mb-6">(one-time fee)</p>
+              <p className="text-muted-foreground text-sm mb-6">One-time fee</p>
               <ul className="space-y-2 text-sm text-muted-foreground mb-8">
                 {[
-                  "Listed in Latest AI on homepage + Full AI List",
+                  "Listed in Latest AI on homepage and Full AI List",
                   "30 days in Aitoolsprime Selection on Homepage",
                   "Description of up to 165 characters",
                   "An extra link to your product page",
@@ -152,17 +114,16 @@ export default function SubmitAIToolPage() {
               <a href="mailto:hello@aitoolsprime.com?subject=Express Listing - $49&body=I would like to submit my AI tool for Express Listing.%0A%0ATool Name: %0ATool URL: %0ADescription: %0ACategory: " className="block w-full gradient-primary text-white text-center py-3 rounded-xl font-semibold">Submit Your Tool - $49</a>
             </div>
 
-            {/* Verified Listing */}
             <div className="bg-card rounded-2xl border-2 border-primary p-8 shadow-card relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2">
                 <span className="gradient-primary text-white px-6 py-1.5 rounded-full text-sm font-semibold">Most Popular</span>
               </div>
               <div className="gradient-primary rounded-xl px-6 py-3 text-center text-white font-bold mb-4 mt-2">
-                <p>🟦 Verified Listing</p>
-                <p className="text-sm font-normal opacity-90">(trust badge + higher credibility)</p>
+                <p>Verified Listing</p>
+                <p className="text-sm font-normal opacity-90">Trust badge and higher credibility</p>
               </div>
               <div className="text-5xl font-bold mb-1">$149</div>
-              <p className="text-muted-foreground text-sm mb-6">(one-time fee)</p>
+              <p className="text-muted-foreground text-sm mb-6">One-time fee</p>
               <ul className="space-y-2 text-sm text-muted-foreground mb-8">
                 {[
                   "All Express Listing features",
@@ -181,10 +142,9 @@ export default function SubmitAIToolPage() {
           </div>
         </section>
 
-        {/* Guest Post Section */}
         <section className="mb-20">
           <div className="bg-card rounded-2xl border border-border p-10 shadow-card text-center">
-            <div className="text-4xl mb-4">✍️</div>
+            <div className="text-4xl mb-4">&#9997;&#65039;</div>
             <h2 className="text-3xl font-bold mb-4">Guest Post on AI Tools Prime</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto mb-6">
               Write for our audience of 100,000+ AI enthusiasts. Share your expertise, get a dofollow backlink, and build your authority in the AI space. We accept high-quality articles about AI tools, trends, and tutorials.
@@ -194,16 +154,13 @@ export default function SubmitAIToolPage() {
                 <li key={i} className="flex items-center gap-2 bg-muted px-4 py-2 rounded-full"><CheckCircle className="h-4 w-4 text-green-500" />{f}</li>
               ))}
             </ul>
-            <a href="mailto:hello@aitoolsprime.com?subject=Guest Post Request&body=I would like to write a guest post for AI Tools Prime.%0A%0AMy Name: %0AMy Website: %0AProposed Topic: %0AAbout Me: " className="inline-block gradient-primary text-white px-8 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity">
-              Submit Guest Post Idea
-            </a>
+            <a href="mailto:hello@aitoolsprime.com?subject=Guest Post Request&body=I would like to write a guest post for AI Tools Prime.%0A%0AMy Name: %0AMy Website: %0AProposed Topic: %0AAbout Me: " className="inline-block gradient-primary text-white px-8 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity">Submit Guest Post Idea</a>
           </div>
         </section>
 
-        {/* Advertise Section */}
         <section className="mb-20">
           <div className="bg-gradient-to-r from-primary/10 to-primary/5 rounded-2xl border border-primary/20 p-10 shadow-card text-center">
-            <div className="text-4xl mb-4">📢</div>
+            <div className="text-4xl mb-4">&#128226;</div>
             <h2 className="text-3xl font-bold mb-4">Advertise on AI Tools Prime</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto mb-6">
               Put your AI tool or brand in front of a highly targeted audience of AI professionals, developers, and enthusiasts. Banner ads, sponsored content, and newsletter sponsorships available.
@@ -213,15 +170,12 @@ export default function SubmitAIToolPage() {
                 <li key={i} className="flex items-center gap-2 bg-background px-4 py-2 rounded-full border border-border"><CheckCircle className="h-4 w-4 text-primary" />{f}</li>
               ))}
             </ul>
-            <a href="mailto:hello@aitoolsprime.com?subject=Advertising Inquiry&body=I am interested in advertising on AI Tools Prime.%0A%0ACompany Name: %0AWebsite: %0ABudget Range: %0AAdvertising Goal: " className="inline-block gradient-primary text-white px-8 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity">
-              Get Advertising Details
-            </a>
+            <a href="mailto:hello@aitoolsprime.com?subject=Advertising Inquiry&body=I am interested in advertising on AI Tools Prime.%0A%0ACompany Name: %0AWebsite: %0ABudget Range: %0AAdvertising Goal: " className="inline-block gradient-primary text-white px-8 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity">Get Advertising Details</a>
           </div>
         </section>
 
-        {/* FAQ */}
         <section>
-          <h2 className="text-4xl font-bold mb-16 text-center">❓ Frequently Asked Questions</h2>
+          <h2 className="text-4xl font-bold mb-16 text-center">Frequently Asked Questions</h2>
           <div className="max-w-5xl mx-auto space-y-4">
             {faqs.map((faq, i) => (
               <div key={i} className="bg-card rounded-2xl border border-border p-6 shadow-card">
