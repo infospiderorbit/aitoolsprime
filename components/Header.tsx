@@ -61,7 +61,7 @@ const Header = () => {
               asChild
               className="bg-primary text-primary-foreground font-semibold px-6 rounded-xl hover:scale-[1.03] transition-all shadow-lg"
             >
-              <Link href="/submit">
+              <Link href="/submit-ai-tool">
                 Submit Tool
                 <ChevronRight className="ml-1 h-4 w-4" />
               </Link>
@@ -100,7 +100,7 @@ const Header = () => {
                       asChild
                       className="w-full bg-primary text-primary-foreground font-semibold rounded-xl"
                     >
-                      <Link href="/submit">Submit Tool</Link>
+                      <Link href="/submit-ai-tool">Submit Tool</Link>
                     </Button>
                   </div>
                 </nav>
