@@ -2479,7 +2479,6 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "nomi-ai", addedDate: "2026-03-31", name: "Nomi.ai", description: "AI boyfriend with emotional intelligence", url: "", upvotes: 2876, verified: true, rating: 4.7, icon: "💙", category: "chatbots-virtual-companions", subcategory: "ai-boyfriend" },
       { id: "secret-desires", name: "Secret Desires", description: "AI intimate boyfriend chat companion", url: "", upvotes: 2543, verified: true, rating: 4.6, icon: "🔥", category: "chatbots-virtual-companions", subcategory: "ai-boyfriend" },
       { id: "rubii-ai", addedDate: "2026-03-31", name: "Rubii: AI Character Community", description: "AI boyfriend characters and community", url: "", upvotes: 2321, verified: true, rating: 4.5, icon: "💎", category: "chatbots-virtual-companions", subcategory: "ai-boyfriend" },
-      { id: "muah-ai", addedDate: "2026-03-31", name: "Muah.AI", description: "AI boyfriend with photo and voice features", url: "", upvotes: 1987, verified: true, rating: 4.4, icon: "💋", category: "chatbots-virtual-companions", subcategory: "ai-boyfriend" }
     ],
     "ai-character": [
       { id: "sakura-ai", name: "Sakura AI", description: "Sakura AI is an anime-inspired AI companion platform featuring real-time voice interaction and immersive character conversations", url: "https://www.sakura.fm", upvotes: 3500, verified: false, rating: 4.5, icon: "🌸", category: "chatbots-virtual-companions", subcategory: "ai-character", addedDate: "2026-04-01" },
