@@ -7463,7 +7463,7 @@ export const toolsProductInfo5: { [key: string]: any } = {
     ]
   },
   "muah-ai": {
-    whatIs: "Muah AI is an uncensored AI companion platform offering photo sharing, voice messaging and intimate conversation capabilities. The platform is designed for adult users who want a comprehensive companion experience combining visual content with deep personal interactions. Muah AI stands out for its multimedia approach to AI companionship and its commitment to user privacy.",
+    whatIs: "Muah AI is a browser-based AI companion platform built around a single customizable character rather than a browsable library of ready-made profiles. You can import a community-created character card or configure your own from scratch by setting appearance through detailed text prompts, personality, voice type, and relationship dynamic. The platform supports image generation, voice messages, and real-time phone calls on paid tiers and is currently in active beta development.",
     features: [
       "Photo Sharing: Share and receive images with your AI companion in conversation",
       "Voice Messaging: Exchange intimate voice messages for personal connection",
