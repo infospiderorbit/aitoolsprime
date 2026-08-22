@@ -20,6 +20,11 @@ export default function Home() {
       <TrendingTools />
       <NewsletterCTA />
       <Stats />
+      <div className="container mx-auto px-4 py-6 flex justify-center">
+        <a href="https://theresanaiforthat.com/ai/ai-tools-prime/?ref=featured&v=12430352" target="_blank" rel="nofollow">
+          <img width="300" src="https://media.theresanaiforthat.com/featured-on-taaft.png?width=600" alt="Featured on There's An AI For That" />
+        </a>
+      </div>
       <Footer />
     </div>
   );
