@@ -11,6 +11,7 @@ export interface Tool {
   reviewsCount?: number;
   savedCount?: number;
   addedDate?: string;
+  badgeListing?: boolean;
   icon: string;
   category: string;
   subcategory: string;
