@@ -2139,6 +2139,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
   "marketing-advertising": {
     "ai-ad-creative": [
 
+      { id: "atracker", name: "ATracker", description: "Self-hosted affiliate and media buying tracker for campaigns postbacks and ROI reporting", url: "https://atracker.io", upvotes: 500, verified: true, rating: 4.5, icon: "📊", category: "marketing-advertising", subcategory: "ai-ad-creative", badgeListing: true },
       { id: "adcreative-ai", name: "AdCreative.ai", description: "AI-powered ad creative generation platform", url: "", upvotes: 2234, verified: true, rating: 4.8, icon: "🎨", category: "marketing-advertising", subcategory: "ai-ad-creative" },
       { id: "gethookd", name: "Gethookd", description: "AI ad creative and copywriting tool", url: "", upvotes: 1543, verified: true, rating: 4.6, icon: "🪝", category: "marketing-advertising", subcategory: "ai-ad-creative" },
       { id: "icon-ai", name: "Icon AI", description: "AI icon and creative element generator", url: "", upvotes: 1298, verified: true, rating: 4.5, icon: "💎", category: "marketing-advertising", subcategory: "ai-ad-creative" },
