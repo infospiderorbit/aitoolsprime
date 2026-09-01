@@ -127,7 +127,7 @@ if (!toolData) notFound();
               </div>
 
               <Button asChild size="lg" className="gradient-primary text-white">
-                <a href={toolData.url || "#"} target="_blank" rel="noopener noreferrer">
+                <a href={toolData.url || "#"} target="_blank" rel={"noopener noreferrer" + ((toolData as any).badgeListing ? " nofollow" : "")}>
                   Open Site <ExternalLink className="ml-2 h-4 w-4" />
                 </a>
               </Button>
@@ -186,7 +186,7 @@ if (!toolData) notFound();
                 </div>
                 <div className="rounded-xl border border-border overflow-hidden">
                   {toolData.url ? (
-                    <a href={toolData.url} target="_blank" rel="noopener noreferrer">
+                    <a href={toolData.url} target="_blank" rel={"noopener noreferrer" + ((toolData as any).badgeListing ? " nofollow" : "")}>
                       <img
                         src={`https://api.microlink.io?url=${encodeURIComponent(toolData.url)}&screenshot=true&meta=false&embed=screenshot.url`}
                         alt={`${toolData.name} website preview`}

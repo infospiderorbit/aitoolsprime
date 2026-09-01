@@ -1851,7 +1851,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "tabirim", name: "Tabirim", description: "AI dream dictionary and interpretation", url: "", upvotes: 543, verified: true, rating: 4.1, icon: "📚", category: "daily-life", subcategory: "ai-dream-interpreter" }
     ],
     "ai-fitness": [
-      { id: "tempolife", name: "TempoLife", description: "AI fitness tracker with meal photo scanning sleep tracking and smartwatch integration", url: "https://tempolife.app", upvotes: 500, verified: true, rating: 4.5, icon: "🏃", category: "daily-life", subcategory: "ai-fitness" },
+      { id: "tempolife", name: "TempoLife", description: "AI fitness tracker with meal photo scanning sleep tracking and smartwatch integration", url: "https://tempolife.app", upvotes: 500, verified: true, rating: 4.5, icon: "🏃", category: "daily-life", subcategory: "ai-fitness", badgeListing: true },
       { id: "fitnessai", name: "FitnessAI", description: "AI-powered workout optimization", url: "", upvotes: 1456, verified: true, rating: 4.6, icon: "💪", category: "daily-life", subcategory: "ai-fitness" },
       { id: "myvelofit", name: "MyVeloFit", description: "AI cycling and fitness coach", url: "", upvotes: 1123, verified: true, rating: 4.5, icon: "🚴‍♂️", category: "daily-life", subcategory: "ai-fitness" },
       { id: "planfit", name: "Planfit", description: "AI fitness planning and tracking", url: "", upvotes: 876, verified: true, rating: 4.4, icon: "📋", category: "daily-life", subcategory: "ai-fitness" },
