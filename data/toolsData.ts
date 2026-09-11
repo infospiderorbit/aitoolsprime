@@ -449,6 +449,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "aicut", name: "aicut", description: "AI video cutting and TikTok creation", url: "", upvotes: 621, verified: true, rating: 4.2, icon: "✂️", category: "video-animation", subcategory: "ai-tiktok-video-generator" }
     ],
     "ai-ugc-video-generator": [
+      { id: "genvideo", name: "GenVideo", description: "AI product video ad generator that turns product images into UGC ads ecommerce videos and try-ons", url: "https://genvideo.app", upvotes: 500, verified: true, rating: 4.5, icon: "🎬", category: "video-animation", subcategory: "ai-ugc-video", badgeListing: true },
       { id: "arcads", name: "Arcads", description: "AI user-generated content platform", url: "", upvotes: 1089, verified: true, rating: 4.4, icon: "🎯", category: "video-animation", subcategory: "ai-ugc-video-generator" },
       { id: "makeugc", name: "MakeUGC", description: "AI UGC video creation tool", url: "", upvotes: 876, verified: true, rating: 4.3, icon: "📹", category: "video-animation", subcategory: "ai-ugc-video-generator" },
       { id: "influee", name: "Influee", description: "AI influencer content generation", url: "", upvotes: 432, verified: false, rating: 4.1, icon: "👑", category: "video-animation", subcategory: "ai-ugc-video-generator" }
