@@ -2754,6 +2754,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "ai-minecraft-game", name: "AI Minecraft", description: "AI-generated Minecraft game content", url: "", upvotes: 1432, verified: true, rating: 4.5, icon: "⛏️", category: "other", subcategory: "ai-game-generator" },
     ],
     "ai-games": [
+      { id: "yesnomystery", name: "YesNoMystery", description: "AI-powered lateral thinking puzzle game where you solve mystery scenarios by asking yes or no questions to an AI host", url: "https://lateralthinkingpuzzles.org", upvotes: 500, verified: true, rating: 4.5, icon: "🧩", category: "education-translation", subcategory: "ai-games", badgeListing: true },
       { id: "easysbc", name: "EasySBC", description: "AI-powered FIFA SBC solver and game assistant", url: "", upvotes: 2345, verified: true, rating: 4.8, icon: "⚽", category: "other", subcategory: "ai-games" },
       { id: "aimlabs", name: "Aimlabs", description: "AI training platform for FPS gaming", url: "", upvotes: 2156, verified: true, rating: 4.7, icon: "🎯", category: "other", subcategory: "ai-games" },
       { id: "human-or-not", name: "Human or Not", description: "AI detection game and social experiment", url: "", upvotes: 1987, verified: true, rating: 4.6, icon: "🤖", category: "other", subcategory: "ai-games" },
