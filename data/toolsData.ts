@@ -1769,6 +1769,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "qodo", name: "Qodo (formerly Codium)", description: "AI-powered code integrity platform", url: "", upvotes: 987, verified: true, rating: 4.6, icon: "🛡️", category: "coding-development", subcategory: "ai-code-review" }
     ],
     "ai-developer-tools": [
+      { id: "sendhq", name: "SendHQ", description: "Email API for developers and AI agents with verified domains delivery events inbound routing and scoped API keys", url: "https://sendhq.cc", upvotes: 500, verified: true, rating: 4.5, icon: "📧", category: "coding-development", subcategory: "ai-developer-tools", badgeListing: true },
       { id: "google-ai-studio", name: "Google AI Studio", description: "AI development and experimentation platform", url: "", upvotes: 1890, verified: true, rating: 4.8, icon: "🎯", category: "coding-development", subcategory: "ai-developer-tools" },
       { id: "clickworker", name: "clickworker", description: "Crowdsourcing platform for developers", url: "", upvotes: 567, verified: true, rating: 4.3, icon: "👥", category: "coding-development", subcategory: "ai-developer-tools" },
       { id: "weights-biases", name: "Weights & Biases", description: "ML experiment tracking and visualization", url: "", upvotes: 1456, verified: true, rating: 4.7, icon: "📈", category: "coding-development", subcategory: "ai-developer-tools" },
