@@ -2696,6 +2696,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "graphite-note", name: "Graphite Note", description: "AI predictive analytics and data mining", url: "", upvotes: 1765, verified: true, rating: 4.3, icon: "📈", category: "research-data-analysis", subcategory: "ai-data-mining" }
     ],
     "ai-for-data-analytics": [
+      { id: "aifordatabase", name: "AI for Database", description: "Ask your Postgres MySQL MongoDB or Google Sheets database questions in plain English with instant answers dashboards and alerts", url: "https://aifordatabase.com", upvotes: 500, verified: true, rating: 4.6, icon: "🗄️", category: "coding-development", subcategory: "ai-for-data-analytics", badgeListing: true },
       { id: "julius-ai-analytics", name: "Julius AI", description: "AI data analyst for business intelligence", url: "", upvotes: 2432, verified: true, rating: 4.5, icon: "📊", category: "research-data-analysis", subcategory: "ai-for-data-analytics" },
       { id: "eos-data-analytics", name: "EOS Data Analytics (EOSDA)", description: "AI satellite data analytics platform", url: "", upvotes: 1876, verified: true, rating: 4.3, icon: "🛰️", category: "research-data-analysis", subcategory: "ai-for-data-analytics" },
       { id: "veo-analytics", name: "Veo", description: "AI sports performance data analytics", url: "", upvotes: 1654, verified: true, rating: 4.2, icon: "⚽", category: "research-data-analysis", subcategory: "ai-for-data-analytics" }
