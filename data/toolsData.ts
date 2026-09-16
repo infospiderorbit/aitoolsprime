@@ -2784,6 +2784,7 @@ export const toolsData: { [key: string]: { [key: string]: Tool[] } } = {
       { id: "miniapps-ai", name: "miniapps.ai", description: "Curated collection of AI mini-applications", url: "", upvotes: 1765, verified: true, rating: 4.6, icon: "📱", category: "other", subcategory: "ai-tools-directory" },
       { id: "chad-ai", name: "Chad AI", description: "AI tools discovery and comparison platform", url: "", upvotes: 1543, verified: true, rating: 4.5, icon: "💪", category: "other", subcategory: "ai-tools-directory" },
       { id: "globalgpt", name: "GlobalGPT", description: "Global directory of GPT and AI tools", url: "", upvotes: 1432, verified: true, rating: 4.4, icon: "🌍", category: "other", subcategory: "ai-tools-directory" },
+      { id: "ai-tools-radar", name: "AI Tools Radar", description: "AI tools directory and editorial platform for discovering, comparing, and tracking AI products", url: "https://aitoolsradar.com", upvotes: 1289, verified: false, rating: 4.3, icon: "📡", category: "other", subcategory: "ai-tools-directory" },
       { id: "easy-with-ai", name: "Easy With AI", description: "Simple AI tools directory and guides", url: "", upvotes: 1321, verified: true, rating: 4.3, icon: "✨", category: "other", subcategory: "ai-tools-directory" }
     ],
     "large-language-models": [
