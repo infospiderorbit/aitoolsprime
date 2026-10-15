@@ -32,6 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ tool: str
   return {
     title: toolData.name + ": " + toolData.description.substring(0, 60) + " | AI Tools Prime",
     description: metaDesc,
+    robots: !toolData.url ? { index: false, follow: false } : { index: true, follow: true },
   };
 }
 
