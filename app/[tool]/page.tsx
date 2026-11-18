@@ -19,7 +19,6 @@ export function generateStaticParams() {
   });
   return Array.from(ids).map((tool) => ({ tool }));
 }
-export const revalidate = 0;
 
 function findTool(toolId: string): Tool | null {
   for (const catData of Object.values(toolsData)) {
@@ -38,7 +37,7 @@ export async function generateMetadata({ params }: { params: Promise<{ tool: str
   const toolData = findTool(tool);
   if (!toolData) return { title: "Tool Not Found | AI Tools Prime" };
   const info = toolsProductInfoData[tool];
-  const metaDesc = info?.whatIs ? info?.whatIs.substring(0, 160) : toolData.description.substring(0, 160);
+  const metaDesc = typeof info?.whatIs === "string" ? info.whatIs.substring(0, 160) : toolData.description.substring(0, 160);
   return {
     title: toolData.name + ": " + toolData.description.substring(0, 60) + " | AI Tools Prime",
     description: metaDesc,
@@ -84,6 +83,35 @@ function SimilarToolsList({ category, subcategory, currentId }: { category: stri
   );
 }
 
+function toArr(v: any): any[] | undefined {
+  if (Array.isArray(v)) return v.length ? v : undefined;
+  if (typeof v === "string" && v.trim()) return [v];
+  return undefined;
+}
+
+function normalizeInfo(raw: any, name: string) {
+  if (!raw) return undefined;
+  const hu = raw.howToUse;
+  let howToUse: any = undefined;
+  if (Array.isArray(hu) && hu.length) {
+    howToUse = {
+      title: "How to Use " + name,
+      description: "Get started in a few simple steps",
+      steps: hu.map((s: any) => (typeof s === "string" ? { title: "", description: s } : s)),
+    };
+  } else if (hu && Array.isArray(hu.steps)) {
+    howToUse = hu;
+  }
+  return {
+    ...raw,
+    whatIs: typeof raw.whatIs === "string" ? raw.whatIs : undefined,
+    features: toArr(raw.features),
+    howToUse,
+    coreFeatures: toArr(raw.coreFeatures),
+    useCases: toArr(raw.useCases),
+  };
+}
+
 export default async function ToolPage({ params }: { params: Promise<{ tool: string }> }) {
   const { tool } = await params;
   const toolData = findTool(tool);
@@ -96,7 +124,7 @@ if (!toolData) notFound();
   const addedDate = toolData.addedDate
     ? new Date(toolData.addedDate).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "2-digit" })
     : (() => { const h = toolData.id.split("").reduce((a,c) => a + c.charCodeAt(0) * 31, 0); const start = new Date("2026-01-01").getTime(); const end = new Date("2026-03-19").getTime(); const range = end - start; const t = start + ((h * 1000003) % range); return new Date(t).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "2-digit" }); })();
-  const info = (toolsProductInfoData as any)[toolData.id];
+  const info = normalizeInfo((toolsProductInfoData as any)[toolData.id], toolData.name);
 
   return (
     <div className="min-h-screen bg-background">
