@@ -8,7 +8,17 @@ import Footer from "@/components/Footer";
 import { toolsData, Tool } from "@/data/toolsData";
 import { toolsProductInfoData } from "@/data/toolsProductInfo";
 
-export const dynamic = "force-dynamic";
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  const ids = new Set<string>();
+  Object.values(toolsData as any).forEach((cat: any) => {
+    Object.values(cat).forEach((subs: any) => {
+      if (Array.isArray(subs)) subs.filter(Boolean).forEach((t: any) => ids.add(t.id));
+    });
+  });
+  return Array.from(ids).map((tool) => ({ tool }));
+}
 export const revalidate = 0;
 
 function findTool(toolId: string): Tool | null {

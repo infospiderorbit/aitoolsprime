@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import { toolsData, Tool } from "@/data/toolsData";
 import { categoriesData } from "@/data/categoriesData";
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const params: { category: string; subcategory: string }[] = [];
   for (const [category, subcategories] of Object.entries(toolsData)) {

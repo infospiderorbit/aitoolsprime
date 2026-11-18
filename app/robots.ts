@@ -9,3 +9,4 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: 'https://www.aitoolsprime.com/sitemap.xml',
   }
 }
+export const dynamic = "force-static";

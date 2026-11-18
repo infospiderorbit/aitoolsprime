@@ -5,15 +5,19 @@ import Footer from "@/components/Footer";
 import { toolsData, Tool } from "@/data/toolsData";
 import { categoriesData } from "@/data/categoriesData";
 
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return Object.keys(toolsData).map((category) => ({ category }));
+}
+
 export async function generateMetadata({
   params,
-  searchParams,
 }: {
   params: Promise<{ category: string }>;
-  searchParams: Promise<{ sub?: string }>;
 }) {
   const { category } = await params;
-  const { sub } = await searchParams;
+  const sub = undefined as string | undefined;
   const categoryInfo = (categoriesData as any)[category];
   const categoryTitle = categoryInfo?.title || category.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
 
@@ -44,13 +48,11 @@ const gradients = [
 
 export default async function CategoryPage({
   params,
-  searchParams,
 }: {
   params: Promise<{ category: string }>;
-  searchParams: Promise<{ sub?: string }>;
 }) {
   const { category } = await params;
-  const { sub } = await searchParams;
+  const sub = undefined as string | undefined;
   const categoryInfo = (categoriesData as any)[category];
   const bySub = (toolsData as any)[category] as Record<string, Tool[]> | undefined;
   const displayTitle = categoryInfo?.title || category.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
