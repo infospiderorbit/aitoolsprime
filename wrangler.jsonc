@@ -4,5 +4,9 @@
   "assets": {
     "directory": "./out",
     "not_found_handling": "404-page"
-  }
+  },
+  "routes": [
+    { "pattern": "aitoolsprime.com", "custom_domain": true },
+    { "pattern": "www.aitoolsprime.com", "custom_domain": true }
+  ]
 }
